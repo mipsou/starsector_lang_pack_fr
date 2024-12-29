@@ -1,0 +1,13 @@
+{
+  "id": "starsector_lang_pack_fr",
+  "name": "Starsector Language Pack - French",
+  "author": "grena, Céduss",
+  "totalConversion": "false",
+  "utility": "true",
+  "version": {"major":0, "minor":1, "patch":0},
+  "description": "French language pack for Starsector",
+  "gameVersion": "0.97a-RC11",
+  "replace": [],
+  "jars": [],
+  "dependencies": []
+}
