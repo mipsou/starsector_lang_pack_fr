@@ -102,6 +102,52 @@ starsector_lang_pack_fr/
 - `main` : Push direct interdit, PR requise
 - `dev` : Push direct autorisé pour les maintainers
 
+## Rôles et Permissions
+
+### Rôles GitHub
+- **Admin** : Accès complet à tous les aspects du projet
+- **Maintainer** : Gestion du code et des branches
+- **Contributor** : Peut soumettre des PR
+
+### Permissions par Branche
+
+#### Repo Public (starsector_lang_pack_fr)
+- `main` :
+  - ✓ Protection maximale
+  - ✓ PR obligatoire
+  - ✓ Review requise
+  - ✓ Status checks
+  - ✓ Maintainers en bypass
+
+- `dev` :
+  - ✓ Protection modérée
+  - ✓ Status checks
+  - ✓ Up-to-date requis
+  - ✓ Maintainers en bypass
+
+#### Repo Privé (starsector_lang_pack_fr_private)
+- `main` :
+  - ✓ Protection maximale
+  - ✓ PR obligatoire
+  - ✓ Review requise
+  - ✓ Status checks
+  - ✓ Maintainers en bypass
+
+- `dev` :
+  - ✓ Protection modérée
+  - ✓ Status checks
+  - ✓ Up-to-date requis
+  - ✓ Maintainers en bypass
+
+### Process de Contribution
+1. Fork du repo public
+2. Créer une branche feature/fix
+3. Développer et tester
+4. Soumettre une PR vers `dev`
+5. Review par un maintainer
+6. Merge dans `dev`
+7. Une fois stable, merge dans `main`
+
 ## Scripts d'Automatisation
 
 ### convert_csv_to_json.py
