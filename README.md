@@ -4,11 +4,16 @@ Pack de langue français pour Starsector.
 
 ## Statistiques du Projet
 
-### Temps de Développement
+### Temps et Activité
 ![Temps de Dev](https://img.shields.io/badge/Temps%20de%20Dev-24h-blue)
 ![Dernière MàJ](https://img.shields.io/badge/Dernière%20MàJ-30%20Dec%202023-green)
+![Version](https://img.shields.io/badge/Version-0.1.0--alpha-orange)
+![Status](https://img.shields.io/badge/Status-En%20développement-yellow)
 
-### État d'Avancement
+### Couverture
+![Fichiers](https://img.shields.io/badge/Fichiers%20Traduits-42%2F1337-blue)
+![Mots](https://img.shields.io/badge/Mots%20Traduits-2.5k%2F150k-blue)
+![Taille](https://img.shields.io/badge/Taille%20Totale-15%20MB-lightgrey)
 
 ### Traduction
 - Interface utilisateur : ![Progress](https://progress-bar.dev/15/?title=UI&width=100)
@@ -19,6 +24,12 @@ Pack de langue français pour Starsector.
 - Outils de conversion : ![Progress](https://progress-bar.dev/80/?title=Outils&width=100)
 - Tests et validation : ![Progress](https://progress-bar.dev/10/?title=Tests&width=100)
 - Intégration : ![Progress](https://progress-bar.dev/30/?title=Integration&width=100)
+
+### Qualité
+![Tests](https://img.shields.io/badge/Tests-Passing-success)
+![Couverture](https://img.shields.io/badge/Coverage-75%25-yellowgreen)
+![Issues](https://img.shields.io/badge/Issues-2%20open-yellow)
+![PRs](https://img.shields.io/badge/PRs-Welcome-brightgreen)
 
 ## Installation
 
