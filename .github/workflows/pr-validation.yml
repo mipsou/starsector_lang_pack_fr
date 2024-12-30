@@ -21,16 +21,21 @@ jobs:
       - name: Validate commit messages
         run: |
           # Vérifier le format des messages de commit
-          git log origin/${{ github.base_ref }}..HEAD --pretty=format:"%s" | while read commit_msg; do
+          echo "Validation des messages de commit..."
+          git fetch origin ${{ github.base_ref }}
+          git log --pretty=format:"%s" HEAD ^origin/${{ github.base_ref }} | while read commit_msg; do
+            echo "Vérification du message : $commit_msg"
             if ! echo "$commit_msg" | grep -qE '^(feat|fix|docs|style|refactor|test|chore|ci)(\([a-z-]+\))?: .+$'; then
-              echo "❌ Format de message de commit invalide : $commit_msg"
+              echo " Format de message de commit invalide : $commit_msg"
               echo "Le format doit être : type(scope): message"
               exit 1
             fi
           done
+          echo " Messages de commit valides"
 
       - name: Check for sensitive data
         run: |
+          echo "Vérification des données sensibles..."
           # Liste de patterns sensibles
           patterns=(
             "password"
@@ -40,16 +45,20 @@ jobs:
             "credentials"
           )
           
+          git fetch origin ${{ github.base_ref }}
           # Vérifier les fichiers modifiés
           for pattern in "${patterns[@]}"; do
+            echo "Recherche du pattern : $pattern"
             if git diff origin/${{ github.base_ref }}..HEAD | grep -i "$pattern"; then
-              echo "❌ Données sensibles potentielles trouvées : $pattern"
+              echo " Données sensibles potentielles trouvées : $pattern"
               exit 1
             fi
           done
+          echo " Aucune donnée sensible trouvée"
 
       - name: Validate documentation
         run: |
+          echo "Validation de la documentation..."
           # Vérifier la présence des fichiers essentiels
           required_files=(
             "README.md"
@@ -58,24 +67,30 @@ jobs:
           )
           
           for file in "${required_files[@]}"; do
+            echo "Vérification du fichier : $file"
             if [ ! -f "$file" ]; then
-              echo "❌ Fichier requis manquant : $file"
+              echo " Fichier requis manquant : $file"
               exit 1
             fi
           done
+          echo " Documentation valide"
 
       - name: Check file size
         run: |
+          echo "Vérification de la taille des fichiers..."
           # Limite de taille en Mo
           MAX_SIZE_MB=50
           
+          git fetch origin ${{ github.base_ref }}
           # Vérifier chaque fichier modifié
           git diff --name-only origin/${{ github.base_ref }}..HEAD | while read file; do
             if [ -f "$file" ]; then
+              echo "Vérification du fichier : $file"
               size=$(du -m "$file" | cut -f1)
               if [ "$size" -gt "$MAX_SIZE_MB" ]; then
-                echo "❌ Fichier trop volumineux : $file ($size MB > $MAX_SIZE_MB MB)"
+                echo " Fichier trop volumineux : $file ($size MB > $MAX_SIZE_MB MB)"
                 exit 1
               fi
             fi
           done
+          echo " Tailles des fichiers valides"
