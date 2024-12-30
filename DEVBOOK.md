@@ -60,6 +60,48 @@ starsector_lang_pack_fr/
 - Variables : camelCase
 - Constantes : UPPER_CASE
 
+## Git Workflow
+
+### Branches
+- `main` : Production stable
+- `dev` : Développement en cours
+- `feature/*` : Nouvelles fonctionnalités
+- `fix/*` : Corrections de bugs
+- `docs/*` : Documentation
+
+### Process de développement
+1. Créer une branche depuis `dev` :
+   ```bash
+   git checkout -b feature/ma-fonctionnalite dev
+   ```
+
+2. Développer et commiter les changements :
+   ```bash
+   git add .
+   git commit -m "feat: description du changement"
+   ```
+
+3. Pousser la branche :
+   ```bash
+   git push origin feature/ma-fonctionnalite
+   ```
+
+4. Créer une Pull Request vers `dev`
+5. Review et merge dans `dev`
+6. Une fois stable, merger `dev` dans `main`
+
+### Conventions de Commit
+- `feat:` Nouvelle fonctionnalité
+- `fix:` Correction de bug
+- `docs:` Documentation
+- `refactor:` Refactoring
+- `test:` Tests
+- `chore:` Maintenance
+
+### Protection des Branches
+- `main` : Push direct interdit, PR requise
+- `dev` : Push direct autorisé pour les maintainers
+
 ## Scripts d'Automatisation
 
 ### convert_csv_to_json.py
