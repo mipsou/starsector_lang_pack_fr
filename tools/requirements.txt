@@ -2,4 +2,4 @@ requests==2.32.2
 beautifulsoup4==4.12.2
 markdown==3.5.1
 striprtf==0.0.26
-PyPDF2==3.0.1
+pypdf>=3.9.0
