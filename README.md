@@ -16,14 +16,14 @@ Pack de langue français pour Starsector.
 [![Taille](https://img.shields.io/badge/Taille%20Totale-15%20MB-lightgrey)](#)
 
 ### Traduction
-- Interface utilisateur : ![UI](https://img.shields.io/badge/UI-15%25-blue)
-- Textes du jeu : ![Textes](https://img.shields.io/badge/Textes-5%25-blue)
-- Documentation : ![Docs](https://img.shields.io/badge/Documentation-20%25-blue)
+- Interface utilisateur : ![UI 15%](https://img.shields.io/badge/UI-15%25-blue?style=flat-square&labelColor=444)
+- Textes du jeu : ![Textes 5%](https://img.shields.io/badge/Textes-5%25-blue?style=flat-square&labelColor=444)
+- Documentation : ![Documentation 20%](https://img.shields.io/badge/Documentation-20%25-blue?style=flat-square&labelColor=444)
 
 ### Développement
-- Outils de conversion : ![Outils](https://img.shields.io/badge/Outils-80%25-green)
-- Tests et validation : ![Tests](https://img.shields.io/badge/Tests-10%25-orange)
-- Intégration : ![Integration](https://img.shields.io/badge/Integration-30%25-yellow)
+- Outils de conversion : ![Outils 80%](https://img.shields.io/badge/Outils-80%25-green?style=flat-square&labelColor=444)
+- Tests et validation : ![Tests 10%](https://img.shields.io/badge/Tests-10%25-orange?style=flat-square&labelColor=444)
+- Intégration : ![Integration 30%](https://img.shields.io/badge/Integration-30%25-yellow?style=flat-square&labelColor=444)
 
 ### Qualité
 [![Tests](https://img.shields.io/badge/Tests-Passing-success)](#)
