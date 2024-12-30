@@ -9,7 +9,7 @@
 - Documentation (README.md, CDC.md)
 
 ### Changed
-- N/A
+- Mise à jour des informations d'auteur (mipsou)
 
 ### Removed
 - N/A
