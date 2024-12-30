@@ -25,13 +25,22 @@ jobs:
           git fetch origin ${{ github.base_ref }}
           git log --pretty=format:"%s" HEAD ^origin/${{ github.base_ref }} | while read commit_msg; do
             echo "Vérification du message : $commit_msg"
+            # Ignorer les messages de merge
+            if [[ "$commit_msg" =~ ^Merge.* ]]; then
+              echo " Message de merge ignoré"
+              continue
+            fi
+            # Vérifier le format conventionnel
             if ! echo "$commit_msg" | grep -qE '^(feat|fix|docs|style|refactor|test|chore|ci)(\([a-z-]+\))?: .+$'; then
               echo " Format de message de commit invalide : $commit_msg"
               echo "Le format doit être : type(scope): message"
+              echo "Types valides : feat, fix, docs, style, refactor, test, chore, ci"
               exit 1
+            else
+              echo " Format valide"
             fi
           done
-          echo " Messages de commit valides"
+          echo " Tous les messages de commit sont valides"
 
       - name: Check for sensitive data
         run: |
