@@ -1,0 +1,91 @@
+name: Translation Check
+
+on:
+  pull_request:
+    branches: [ main, dev ]
+    paths:
+      - '**.json'
+      - '**.csv'
+  push:
+    branches: [ main, dev ]
+    paths:
+      - '**.json'
+      - '**.csv'
+
+jobs:
+  check-translation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install jsonschema pandas
+
+      - name: Validate JSON files
+        run: |
+          for file in $(find . -name "*.json"); do
+            if ! python -m json.tool "$file" > /dev/null 2>&1; then
+              echo "❌ Invalid JSON file: $file"
+              exit 1
+            fi
+          done
+
+      - name: Validate CSV files
+        run: |
+          python - <<EOF
+          import pandas as pd
+          import glob
+          import sys
+          
+          for file in glob.glob("**/*.csv", recursive=True):
+              try:
+                  df = pd.read_csv(file)
+                  # Vérifier les colonnes requises
+                  required_cols = ['id', 'fr', 'en']
+                  if not all(col in df.columns for col in required_cols):
+                      print(f"❌ Missing required columns in {file}")
+                      sys.exit(1)
+                  # Vérifier les valeurs vides
+                  if df[required_cols].isnull().any().any():
+                      print(f"❌ Empty values found in required columns in {file}")
+                      sys.exit(1)
+              except Exception as e:
+                  print(f"❌ Error processing {file}: {str(e)}")
+                  sys.exit(1)
+          EOF
+
+      - name: Check for untranslated strings
+        run: |
+          python - <<EOF
+          import json
+          import glob
+          import sys
+          
+          def check_translation(obj, path=""):
+              if isinstance(obj, dict):
+                  for k, v in obj.items():
+                      new_path = f"{path}.{k}" if path else k
+                      if isinstance(v, (dict, list)):
+                          check_translation(v, new_path)
+                      elif isinstance(v, str) and v.startswith("TODO_"):
+                          print(f"⚠️ Untranslated string found at {new_path}: {v}")
+              elif isinstance(obj, list):
+                  for i, v in enumerate(obj):
+                      check_translation(v, f"{path}[{i}]")
+          
+          for file in glob.glob("**/*.json", recursive=True):
+              with open(file, 'r', encoding='utf-8') as f:
+                  try:
+                      data = json.load(f)
+                      check_translation(data, file)
+                  except Exception as e:
+                      print(f"❌ Error processing {file}: {str(e)}")
+                      sys.exit(1)
+          EOF

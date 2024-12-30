@@ -1,0 +1,73 @@
+name: Auto Label
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+  issues:
+    types: [opened, reopened]
+
+jobs:
+  auto-label:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Label PR based on branch
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const branch = context.payload.pull_request.head.ref;
+            const title = context.payload.pull_request.title;
+            
+            // Labels basés sur le nom de la branche
+            if (branch.startsWith('feature/')) {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.payload.pull_request.number,
+                labels: ['✨ feature']
+              });
+            } else if (branch.startsWith('fix/')) {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.payload.pull_request.number,
+                labels: ['🐛 bug']
+              });
+            }
+            
+            // Labels basés sur le titre
+            if (title.toLowerCase().includes('doc')) {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.payload.pull_request.number,
+                labels: ['📚 documentation']
+              });
+            }
+
+      - name: Label issues based on title
+        if: github.event_name == 'issues'
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const title = context.payload.issue.title.toLowerCase();
+            let labels = [];
+            
+            if (title.includes('[bug]')) {
+              labels.push('🐛 bug');
+            } else if (title.includes('[feature]')) {
+              labels.push('✨ feature');
+            } else if (title.includes('[trad]')) {
+              labels.push('🌍 translation');
+            }
+            
+            if (labels.length > 0) {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.payload.issue.number,
+                labels: labels
+              });
+            }
