@@ -1,0 +1,114 @@
+name: PR Validation
+
+on:
+  pull_request:
+    branches: [ main, dev ]
+    types: [ opened, synchronize, reopened ]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Validate commit messages
+        run: |
+          # Vérifier le format des messages de commit
+          echo "Validation des messages de commit..."
+          git fetch origin ${{ github.base_ref }}
+          git log --pretty=format:"%s" HEAD ^origin/${{ github.base_ref }} | while read commit_msg; do
+            echo "Vérification du message : $commit_msg"
+            # Ignorer les messages de merge
+            if [[ "$commit_msg" =~ ^Merge.* ]]; then
+              echo " Message de merge ignoré"
+              continue
+            fi
+            # Vérifier le format conventionnel
+            if ! echo "$commit_msg" | grep -qE '^(feat|fix|docs|style|refactor|test|chore|ci)(\([a-z-]+\))?: .+$'; then
+              echo " Format de message de commit invalide : $commit_msg"
+              echo "Le format doit être : type(scope): message"
+              echo "Types valides : feat, fix, docs, style, refactor, test, chore, ci"
+              exit 1
+            else
+              echo " Format valide"
+            fi
+          done
+          echo " Tous les messages de commit sont valides"
+
+      - name: Check for sensitive data
+        run: |
+          echo "Vérification des données sensibles..."
+          # Liste de patterns sensibles
+          patterns=(
+            "password"
+            "api[_-]?key"
+            "secret"
+            "token"
+            "credentials"
+          )
+          
+          git fetch origin ${{ github.base_ref }}
+          # Vérifier les fichiers modifiés en excluant les workflows
+          git diff --name-only origin/${{ github.base_ref }}..HEAD | while read file; do
+            # Ignorer les fichiers de workflow
+            if [[ "$file" == .github/workflows/* ]]; then
+              echo " Fichier de workflow ignoré : $file"
+              continue
+            fi
+            
+            echo "Vérification du fichier : $file"
+            for pattern in "${patterns[@]}"; do
+              echo "  Recherche du pattern : $pattern"
+              if git diff origin/${{ github.base_ref }}..HEAD -- "$file" | grep -i "$pattern"; then
+                echo " Données sensibles potentielles trouvées dans $file : $pattern"
+                exit 1
+              fi
+            done
+          done
+          echo " Aucune donnée sensible trouvée"
+
+      - name: Validate documentation
+        run: |
+          echo "Validation de la documentation..."
+          # Vérifier la présence des fichiers essentiels
+          required_files=(
+            "README.md"
+            "DEVBOOK.md"
+            "GUIDELINES.md"
+          )
+          
+          for file in "${required_files[@]}"; do
+            echo "Vérification du fichier : $file"
+            if [ ! -f "$file" ]; then
+              echo " Fichier requis manquant : $file"
+              exit 1
+            fi
+          done
+          echo " Documentation valide"
+
+      - name: Check file size
+        run: |
+          echo "Vérification de la taille des fichiers..."
+          # Limite de taille en Mo
+          MAX_SIZE_MB=50
+          
+          git fetch origin ${{ github.base_ref }}
+          # Vérifier chaque fichier modifié
+          git diff --name-only origin/${{ github.base_ref }}..HEAD | while read file; do
+            if [ -f "$file" ]; then
+              echo "Vérification du fichier : $file"
+              size=$(du -m "$file" | cut -f1)
+              if [ "$size" -gt "$MAX_SIZE_MB" ]; then
+                echo " Fichier trop volumineux : $file ($size MB > $MAX_SIZE_MB MB)"
+                exit 1
+              fi
+            fi
+          done
+          echo " Tailles des fichiers valides"
