@@ -394,6 +394,15 @@ Champs optionnels :
 3. Solutions appliquées
 4. Prochaines étapes
 
+## TODO
+
+### CI/CD
+- [ ] Configurer Azure Pipelines
+  - [ ] Mettre en place les tests automatiques
+  - [ ] Automatiser la conversion PDF/RTF vers Markdown
+  - [ ] Configurer le déploiement automatique
+  - [ ] Mettre en place les vérifications de qualité du code
+
 ## Notes de Développement
 
 ### Priorités
