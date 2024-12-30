@@ -4,13 +4,13 @@
 
 ### Structure des Dossiers
 starsector_lang_pack_fr/
-├── mod_info.json                    # Configuration du mod
-└── localization/                    # Fichiers de localisation
-    ├── data/                        # Données du jeu
-    │   ├── config/                  # Configurations localisées
-    │   └── strings/                 # Fichiers de traduction
-    └── graphics/                    # Ressources graphiques
-        └── ui/                      # Éléments d'interface traduits
+├── mod_info.json         # Configuration du mod
+└── localization/         # Fichiers de localisation
+    ├── data/            # Données du jeu
+    │   ├── config/     # Fichiers de configuration
+    │   └── strings/    # Fichiers de traduction
+    └── graphics/       # Ressources graphiques
+        └── ui/        # Interface utilisateur
 
 ### Outils Nécessaires
 - Éditeur de texte avec support UTF-8
