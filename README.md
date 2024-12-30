@@ -8,6 +8,7 @@ Ce repository contient :
 - Documentation interne
 - Notes de développement
 - Fichiers de configuration sensibles
+- Tests et validations
 
 ⚠️ **Ne pas rendre public** ⚠️
 
@@ -22,6 +23,11 @@ Ce repository contient :
 [![Sprint](https://img.shields.io/badge/Sprint-1-blue)](#)
 [![Milestone](https://img.shields.io/badge/Milestone-Initial-orange)](#)
 [![Release](https://img.shields.io/badge/Release-Planning-yellow)](#)
+
+### Branches
+[![Main](https://img.shields.io/badge/main-stable-green)](#)
+[![Dev](https://img.shields.io/badge/dev-active-blue)](#)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](#)
 
 ## 📁 Structure
 
