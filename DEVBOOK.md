@@ -662,3 +662,225 @@ curl -A "Mozilla/5.0" "https://fractalsoftworks.com/forum/index.php?topic=5016.0
 - **Version** : 0.1.0
 - **Licence** : MIT
 - **GitHub** : [starsector_lang_pack_fr](https://github.com/mipsou/starsector_lang_pack_fr)
+
+## DEVBOOK - Guide du Développeur 
+
+### Structure du Projet
+
+#### 1. Branches
+```
+main (production)
+└── dev (développement)
+    ├── feature/*
+    ├── fix/*
+    └── trad/*
+```
+
+#### 2. Organisation des Fichiers
+```
+.
+├── .github/
+│   ├── workflows/      # GitHub Actions
+│   ├── ISSUE_TEMPLATE/ # Templates d'issues
+│   └── PULL_REQUEST_TEMPLATE.md
+├── data/
+│   ├── campaign/      # Textes de campagne
+│   ├── characters/    # Dialogues
+│   └── missions/      # Missions
+├── docs/
+│   ├── api/          # Documentation API
+│   ├── process/      # Processus
+│   └── tools/        # Documentation outils
+├── tools/
+│   ├── validation/   # Scripts de validation
+│   └── conversion/   # Outils de conversion
+├── README.md         # Documentation principale
+├── DEVBOOK.md       # Guide développeur
+└── GUIDELINES.md     # Règles de traduction
+```
+
+## Workflow de Développement
+
+#### 1. Issues
+- Utiliser les templates appropriés
+- Ajouter les labels pertinents
+- Assigner les responsables
+
+#### 2. Branches
+- Créer depuis `dev`
+- Nommer selon le type :
+  - `feature/description`
+  - `fix/description`
+  - `trad/section-description`
+
+#### 3. Commits
+- Format : `type(scope): description`
+- Types valides :
+  ```
+  feat     : Nouvelle fonctionnalité
+  fix      : Correction de bug
+  docs     : Documentation
+  style    : Formatage
+  refactor : Refactoring
+  test     : Tests
+  chore    : Maintenance
+  ci       : Intégration continue
+  ```
+
+#### 4. Pull Requests
+- Utiliser le template
+- Référencer les issues
+- Attendre les validations
+
+## CI/CD
+
+#### 1. GitHub Actions
+- PR Validation
+  - Format des commits
+  - Données sensibles
+  - Documentation
+- Translation Check
+  - Fichiers JSON/CSV
+  - Chaînes non traduites
+- Auto Label
+  - Labels automatiques
+  - Statut des PRs
+
+#### 2. Hooks Git
+```bash
+# Pre-commit
+./scripts/pre-commit.sh
+
+# Pre-push
+./scripts/pre-push.sh
+```
+
+## Outils de Développement
+
+#### 1. Installation
+```bash
+# Cloner le repo
+git clone git@github.com:mipsou/starsector_lang_pack_fr_private.git
+
+# Installer les dépendances
+pip install -r requirements.txt
+
+# Configurer les hooks
+./scripts/setup.sh
+```
+
+#### 2. Scripts Utiles
+```bash
+# Valider les traductions
+./tools/validate.sh
+
+# Convertir les fichiers
+./tools/convert.sh
+
+# Tester en local
+./tools/test.sh
+```
+
+#### 3. VSCode Extensions
+- GitLens
+- Prettier
+- JSON Tools
+- CSV Editor
+
+## Gestion des Versions
+
+#### 1. Versions
+- Format : `MAJOR.MINOR.PATCH`
+- Exemples :
+  - `1.0.0` : Version majeure
+  - `1.1.0` : Nouvelles traductions
+  - `1.1.1` : Corrections
+
+#### 2. Tags
+```bash
+# Créer un tag
+git tag -a v1.0.0 -m "Version 1.0.0"
+
+# Pousser les tags
+git push origin --tags
+```
+
+#### 3. Releases
+1. Créer depuis un tag
+2. Ajouter les notes
+3. Publier sur GitHub
+
+## Déploiement
+
+#### 1. Préparation
+```bash
+# Vérifier les traductions
+./tools/check.sh
+
+# Générer la documentation
+./tools/docs.sh
+
+# Créer l'archive
+./tools/package.sh
+```
+
+#### 2. Publication
+1. Merger dans `main`
+2. Créer le tag
+3. Publier la release
+
+#### 3. Vérification
+- Tester en jeu
+- Valider les fichiers
+- Vérifier la documentation
+
+## Maintenance
+
+#### 1. Backups
+- Sauvegardes quotidiennes
+- Archives des releases
+- Historique Git
+
+#### 2. Nettoyage
+```bash
+# Nettoyer les branches
+git remote prune origin
+git branch --merged | grep -v "main" | xargs git branch -d
+
+# Optimiser le repo
+git gc --aggressive
+```
+
+#### 3. Mises à Jour
+- Dépendances
+- Scripts
+- Documentation
+
+## Contact
+
+#### 1. Équipe
+- **Lead Dev** : @mipsou
+- **Traducteurs** : @team
+- **Relecteurs** : @reviewers
+
+#### 2. Communication
+- Issues GitHub
+- Discord
+- Email
+
+#### 3. Support
+1. Consulter la documentation
+2. Vérifier les issues
+3. Contacter l'équipe
+
+## Notes de Version
+
+#### 30/12/2023
+- Configuration initiale
+- Mise en place CI/CD
+- Templates et guidelines
+
+#### À Faire
+- [ ] Tests automatisés
+- [ ] Documentation API
+- [ ] Outils de validation

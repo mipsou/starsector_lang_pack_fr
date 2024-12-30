@@ -1,0 +1,22 @@
+{
+    "test_strings": {
+        "greeting": "Bonjour, commandant !",
+        "farewell": "Au revoir, et bon voyage !",
+        "status": {
+            "ready": "Prêt pour le combat",
+            "damaged": "Systèmes endommagés"
+        }
+    },
+    "test_array": [
+        {
+            "id": "item_1",
+            "name": "Réacteur à fusion",
+            "description": "Un réacteur à fusion avancé pour votre vaisseau"
+        },
+        {
+            "id": "item_2",
+            "name": "Bouclier énergétique",
+            "description": "Protège votre vaisseau des impacts"
+        }
+    ]
+}

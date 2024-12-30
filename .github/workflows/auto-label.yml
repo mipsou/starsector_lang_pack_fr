@@ -6,6 +6,11 @@ on:
   issues:
     types: [opened, reopened]
 
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
 jobs:
   auto-label:
     runs-on: ubuntu-latest
@@ -18,32 +23,32 @@ jobs:
         with:
           script: |
             const branch = context.payload.pull_request.head.ref;
-            const title = context.payload.pull_request.title;
+            const title = context.payload.pull_request.title.toLowerCase();
+            let labels = [];
             
             // Labels basés sur le nom de la branche
             if (branch.startsWith('feature/')) {
-              await github.rest.issues.addLabels({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: context.payload.pull_request.number,
-                labels: ['✨ feature']
-              });
+              labels.push('✨ feature');
             } else if (branch.startsWith('fix/')) {
-              await github.rest.issues.addLabels({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: context.payload.pull_request.number,
-                labels: ['🐛 bug']
-              });
+              labels.push('🐛 bug');
             }
             
             // Labels basés sur le titre
-            if (title.toLowerCase().includes('doc')) {
+            if (title.includes('doc')) {
+              labels.push('📚 documentation');
+            } else if (title.includes('test')) {
+              labels.push('🔧 maintenance');
+            }
+            
+            // Labels de statut par défaut
+            labels.push('👀 needs review');
+            
+            if (labels.length > 0) {
               await github.rest.issues.addLabels({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: context.payload.pull_request.number,
-                labels: ['📚 documentation']
+                labels: labels
               });
             }
 
@@ -62,6 +67,9 @@ jobs:
             } else if (title.includes('[trad]')) {
               labels.push('🌍 translation');
             }
+            
+            // Labels de priorité par défaut
+            labels.push('🟡 medium');
             
             if (labels.length > 0) {
               await github.rest.issues.addLabels({
