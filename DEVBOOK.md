@@ -479,6 +479,13 @@ python forum_scraper.py
   - Mise en garde sur cmd.exe
 - Temps de développement total : 24h34m
 
+### 30 Décembre 2024 - 08:56 - 09:00 (4 minutes)
+- Recherche sur Chrome Headless
+  - Configuration pour les captures d'écran
+  - Script d'automatisation Python
+  - Documentation de l'installation
+- Temps de développement total : 24h38m
+
 ### Problèmes Identifiés
 1. Quelques titres de section doivent être mieux formatés
 2. Les exemples de code nécessitent un meilleur formatage
@@ -932,3 +939,51 @@ git gc --aggressive
   - Exemple de gestion des chemins avec espaces
   - Mise en garde sur cmd.exe
 - Temps de développement total : 24h34m
+
+### Automatisation des Captures d'Écran
+
+#### Configuration de Chrome Headless
+```powershell
+# Installation des dépendances
+pip install selenium
+pip install webdriver_manager
+
+# Script Python pour la capture
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
+
+def setup_chrome_headless():
+    chrome_options = Options()
+    chrome_options.add_argument("--headless=new")
+    chrome_options.add_argument("--window-size=1920,1080")
+    chrome_options.add_argument("--disable-gpu")
+    
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+    return driver
+
+def capture_screenshot(url, output_path):
+    driver = setup_chrome_headless()
+    driver.get(url)
+    driver.save_screenshot(output_path)
+    driver.quit()
+```
+
+#### Utilisation
+```python
+# Exemple de capture
+capture_screenshot(
+    "file:///D:/Fractal%20Softworks/Starsector/mods/starsector_lang_pack_fr/README.md",
+    "screenshots/readme.png"
+)
+```
+
+### 30 Décembre 2024
+#### 08:56 - 09:00 (4 minutes)
+- Recherche sur Chrome Headless
+  - Configuration pour les captures d'écran
+  - Script d'automatisation Python
+  - Documentation de l'installation
+- Temps de développement total : 24h38m
