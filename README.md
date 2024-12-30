@@ -24,6 +24,11 @@ Ce repository contient :
 [![Milestone](https://img.shields.io/badge/Milestone-Initial-orange)](#)
 [![Release](https://img.shields.io/badge/Release-Planning-yellow)](#)
 
+### CI/CD
+[![PR Validation](https://github.com/mipsou/starsector_lang_pack_fr_private/actions/workflows/pr-validation.yml/badge.svg)](https://github.com/mipsou/starsector_lang_pack_fr_private/actions/workflows/pr-validation.yml)
+[![Translation Check](https://github.com/mipsou/starsector_lang_pack_fr_private/actions/workflows/translation-check.yml/badge.svg)](https://github.com/mipsou/starsector_lang_pack_fr_private/actions/workflows/translation-check.yml)
+[![Auto Label](https://github.com/mipsou/starsector_lang_pack_fr_private/actions/workflows/auto-label.yml/badge.svg)](https://github.com/mipsou/starsector_lang_pack_fr_private/actions/workflows/auto-label.yml)
+
 ### Branches
 [![Main](https://img.shields.io/badge/main-stable-green)](#)
 [![Dev](https://img.shields.io/badge/dev-active-blue)](#)
