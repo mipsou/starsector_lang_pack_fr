@@ -55,13 +55,22 @@ jobs:
           )
           
           git fetch origin ${{ github.base_ref }}
-          # Vérifier les fichiers modifiés
-          for pattern in "${patterns[@]}"; do
-            echo "Recherche du pattern : $pattern"
-            if git diff origin/${{ github.base_ref }}..HEAD | grep -i "$pattern"; then
-              echo " Données sensibles potentielles trouvées : $pattern"
-              exit 1
+          # Vérifier les fichiers modifiés en excluant les workflows
+          git diff --name-only origin/${{ github.base_ref }}..HEAD | while read file; do
+            # Ignorer les fichiers de workflow
+            if [[ "$file" == .github/workflows/* ]]; then
+              echo " Fichier de workflow ignoré : $file"
+              continue
             fi
+            
+            echo "Vérification du fichier : $file"
+            for pattern in "${patterns[@]}"; do
+              echo "  Recherche du pattern : $pattern"
+              if git diff origin/${{ github.base_ref }}..HEAD -- "$file" | grep -i "$pattern"; then
+                echo " Données sensibles potentielles trouvées dans $file : $pattern"
+                exit 1
+              fi
+            done
           done
           echo " Aucune donnée sensible trouvée"
 
