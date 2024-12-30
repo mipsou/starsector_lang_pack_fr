@@ -12,6 +12,11 @@ on:
       - '**.json'
       - '**.csv'
 
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
 jobs:
   check-translation:
     runs-on: ubuntu-latest
@@ -32,7 +37,7 @@ jobs:
         run: |
           for file in $(find . -name "*.json"); do
             if ! python -m json.tool "$file" > /dev/null 2>&1; then
-              echo "❌ Invalid JSON file: $file"
+              echo "❌ Fichier JSON invalide : $file"
               exit 1
             fi
           done
@@ -50,14 +55,14 @@ jobs:
                   # Vérifier les colonnes requises
                   required_cols = ['id', 'fr', 'en']
                   if not all(col in df.columns for col in required_cols):
-                      print(f"❌ Missing required columns in {file}")
+                      print(f"❌ Colonnes requises manquantes dans {file}")
                       sys.exit(1)
                   # Vérifier les valeurs vides
                   if df[required_cols].isnull().any().any():
-                      print(f"❌ Empty values found in required columns in {file}")
+                      print(f"❌ Valeurs vides trouvées dans les colonnes requises de {file}")
                       sys.exit(1)
               except Exception as e:
-                  print(f"❌ Error processing {file}: {str(e)}")
+                  print(f"❌ Erreur lors du traitement de {file}: {str(e)}")
                   sys.exit(1)
           EOF
 
@@ -75,7 +80,7 @@ jobs:
                       if isinstance(v, (dict, list)):
                           check_translation(v, new_path)
                       elif isinstance(v, str) and v.startswith("TODO_"):
-                          print(f"⚠️ Untranslated string found at {new_path}: {v}")
+                          print(f"⚠️ Chaîne non traduite trouvée dans {new_path}: {v}")
               elif isinstance(obj, list):
                   for i, v in enumerate(obj):
                       check_translation(v, f"{path}[{i}]")
@@ -86,6 +91,6 @@ jobs:
                       data = json.load(f)
                       check_translation(data, file)
                   except Exception as e:
-                      print(f"❌ Error processing {file}: {str(e)}")
+                      print(f"❌ Erreur lors du traitement de {file}: {str(e)}")
                       sys.exit(1)
           EOF

@@ -5,6 +5,11 @@ on:
     branches: [ main, dev ]
     types: [ opened, synchronize, reopened ]
 
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -17,9 +22,9 @@ jobs:
         run: |
           # Vérifier le format des messages de commit
           git log origin/${{ github.base_ref }}..HEAD --pretty=format:"%s" | while read commit_msg; do
-            if ! echo "$commit_msg" | grep -qE "^(feat|fix|docs|style|refactor|test|chore)(\([a-z]+\))?: .+$"; then
-              echo "❌ Invalid commit message format: $commit_msg"
-              echo "Format should be: type(scope): message"
+            if ! echo "$commit_msg" | grep -qE '^(feat|fix|docs|style|refactor|test|chore|ci)(\([a-z-]+\))?: .+$'; then
+              echo "❌ Format de message de commit invalide : $commit_msg"
+              echo "Le format doit être : type(scope): message"
               exit 1
             fi
           done
@@ -38,7 +43,7 @@ jobs:
           # Vérifier les fichiers modifiés
           for pattern in "${patterns[@]}"; do
             if git diff origin/${{ github.base_ref }}..HEAD | grep -i "$pattern"; then
-              echo "❌ Potential sensitive data found: $pattern"
+              echo "❌ Données sensibles potentielles trouvées : $pattern"
               exit 1
             fi
           done
@@ -54,7 +59,7 @@ jobs:
           
           for file in "${required_files[@]}"; do
             if [ ! -f "$file" ]; then
-              echo "❌ Missing required file: $file"
+              echo "❌ Fichier requis manquant : $file"
               exit 1
             fi
           done
@@ -69,7 +74,7 @@ jobs:
             if [ -f "$file" ]; then
               size=$(du -m "$file" | cut -f1)
               if [ "$size" -gt "$MAX_SIZE_MB" ]; then
-                echo "❌ File too large: $file ($size MB > $MAX_SIZE_MB MB)"
+                echo "❌ Fichier trop volumineux : $file ($size MB > $MAX_SIZE_MB MB)"
                 exit 1
               fi
             fi
