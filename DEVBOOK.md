@@ -472,6 +472,13 @@ python forum_scraper.py
   - Documentation de la convention
 - Temps de développement total : 24h32m
 
+### 30 Décembre 2024 - 08:35 - 08:37 (2 minutes)
+- Documentation des bonnes pratiques pour les commandes
+  - Ajout de la note sur PowerShell
+  - Exemple de gestion des chemins avec espaces
+  - Mise en garde sur cmd.exe
+- Temps de développement total : 24h34m
+
 ### Problèmes Identifiés
 1. Quelques titres de section doivent être mieux formatés
 2. Les exemples de code nécessitent un meilleur formatage
@@ -906,3 +913,22 @@ git gc --aggressive
 - [ ] Tests automatisés
 - [ ] Documentation API
 - [ ] Outils de validation
+
+## Notes Importantes sur l'Environnement
+
+#### Terminal et Commandes
+- Toutes les commandes doivent être exécutées dans PowerShell
+- Chemins avec espaces : utiliser des guillemets doubles
+  ```powershell
+  # Exemple de commande avec chemin contenant des espaces
+  Copy-Item "D:\Fractal Softworks\Starsector\mods\source.txt" "D:\Fractal Softworks\Starsector\mods\dest.txt"
+  ```
+- Ne pas utiliser cmd.exe qui gère mal les chemins avec espaces
+
+### 30 Décembre 2024
+#### 08:35 - 08:37 (2 minutes)
+- Documentation des bonnes pratiques pour les commandes
+  - Ajout de la note sur PowerShell
+  - Exemple de gestion des chemins avec espaces
+  - Mise en garde sur cmd.exe
+- Temps de développement total : 24h34m
