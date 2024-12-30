@@ -41,13 +41,13 @@ Pack de langue français pour Starsector.
 
 ```bash
 starsector_lang_pack_fr/
-├── mod_info.json          # Configuration du mod
-└── localization/          # Fichiers de localisation
-    ├── data/             # Données du jeu
-    │   ├── config/      # Fichiers de configuration
-    │   └── strings/     # Fichiers de traduction
-    └── graphics/        # Ressources graphiques
-        └── ui/         # Interface utilisateur
+├── mod_info.json........# Configuration du mod
+└── localization/........# Fichiers de localisation
+    ├── data/...........# Données du jeu
+    │   ├── config/.....# Fichiers de configuration
+    │   └── strings/....# Fichiers de traduction
+    └── graphics/.......# Ressources graphiques
+        └── ui/........# Interface utilisateur
 ```
 
 ## Contribution
