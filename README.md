@@ -2,6 +2,18 @@
 
 Pack de langue français pour Starsector.
 
+## État d'Avancement
+
+### Traduction
+- Interface utilisateur : ![Progress](https://progress-bar.dev/15/?title=UI&width=100)
+- Textes du jeu : ![Progress](https://progress-bar.dev/5/?title=Textes&width=100)
+- Documentation : ![Progress](https://progress-bar.dev/20/?title=Docs&width=100)
+
+### Développement
+- Outils de conversion : ![Progress](https://progress-bar.dev/80/?title=Outils&width=100)
+- Tests et validation : ![Progress](https://progress-bar.dev/10/?title=Tests&width=100)
+- Intégration : ![Progress](https://progress-bar.dev/30/?title=Integration&width=100)
+
 ## Installation
 
 1. Téléchargez la dernière version du mod
