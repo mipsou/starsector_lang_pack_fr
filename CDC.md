@@ -22,15 +22,15 @@ Fournir une traduction française complète et de qualité pour Starsector.
 ## Structure du Projet
 
 ### Organisation des Fichiers
-```
+```bash
 starsector_lang_pack_fr/
-├── mod_info.json
-└── localization/
-    ├── data/
-    │   ├── config/
-    │   └── strings/
-    └── graphics/
-        └── ui/
+├── mod_info.json.....# Configuration du mod
+└── localization/.....# Fichiers de localisation
+    ├── data/.........# Données du jeu
+    │   ├── config/...# Fichiers de configuration
+    │   └── strings/..# Fichiers de traduction
+    └── graphics/.....# Ressources graphiques
+        └── ui/.......# Interface utilisateur
 ```
 
 ### Standards de Traduction

@@ -987,3 +987,86 @@ capture_screenshot(
   - Script d'automatisation Python
   - Documentation de l'installation
 - Temps de développement total : 24h38m
+
+### Automatisation des Captures d'Écran
+
+#### Configuration de Selenium Python
+```python
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.action_chains import ActionChains
+
+def setup_driver():
+    chrome_options = webdriver.ChromeOptions()
+    chrome_options.add_argument("--headless=new")
+    chrome_options.add_argument("--window-size=1920,1080")
+    chrome_options.add_argument("--hide-scrollbars")
+    chrome_options.add_argument("--disable-gpu")
+    
+    driver = webdriver.Chrome(options=chrome_options)
+    return driver
+
+def wait_for_element(driver, selector, timeout=10):
+    """Attend qu'un élément soit visible"""
+    return WebDriverWait(driver, timeout).until(
+        EC.visibility_of_element_located((By.CSS_SELECTOR, selector))
+    )
+
+def capture_element(driver, element, output_path):
+    """Capture un élément spécifique"""
+    element.screenshot(output_path)
+
+def capture_full_page(driver, url, output_path):
+    """Capture une page entière avec défilement"""
+    driver.get(url)
+    
+    # Obtenir la hauteur totale de la page
+    total_height = driver.execute_script("return document.body.scrollHeight")
+    driver.set_window_size(1920, total_height)
+    
+    # Attendre le chargement complet
+    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+    driver.execute_script("window.scrollTo(0, 0);")
+    
+    driver.save_screenshot(output_path)
+
+# Exemple d'utilisation avancée
+def process_ui_elements():
+    driver = setup_driver()
+    try:
+        # Charger la page
+        driver.get("file:///path/to/ui.html")
+        
+        # Attendre un élément spécifique
+        menu = wait_for_element(driver, "#main-menu")
+        
+        # Capturer le menu
+        capture_element(driver, menu, "menu.png")
+        
+        # Faire défiler jusqu'à un élément
+        footer = driver.find_element(By.CSS_SELECTOR, "footer")
+        ActionChains(driver).move_to_element(footer).perform()
+        
+        # Capturer la page entière
+        capture_full_page(driver, driver.current_url, "full_page.png")
+        
+    finally:
+        driver.quit()
+```
+
+#### Fonctionnalités Avancées
+- Attente des éléments
+- Capture d'éléments spécifiques
+- Défilement automatique
+- Gestion des interactions
+- Capture de page complète
+
+### 30 Décembre 2024
+#### 09:00 - 09:05 (5 minutes)
+- Documentation de Selenium Python
+  - Fonctions avancées de capture
+  - Gestion des éléments web
+  - Exemples d'utilisation
+- Temps de développement total : 24h43m
