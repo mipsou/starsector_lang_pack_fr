@@ -16,14 +16,14 @@ Pack de langue français pour Starsector.
 [![Taille](https://img.shields.io/badge/Taille%20Totale-15%20MB-lightgrey)](#)
 
 ### Traduction
-- Interface utilisateur : ![Progress](https://progress-bar.dev/15)
-- Textes du jeu : ![Progress](https://progress-bar.dev/5)
-- Documentation : ![Progress](https://progress-bar.dev/20)
+- Interface utilisateur : ![UI](https://img.shields.io/badge/UI-15%25-blue)
+- Textes du jeu : ![Textes](https://img.shields.io/badge/Textes-5%25-blue)
+- Documentation : ![Docs](https://img.shields.io/badge/Documentation-20%25-blue)
 
 ### Développement
-- Outils de conversion : ![Progress](https://progress-bar.dev/80)
-- Tests et validation : ![Progress](https://progress-bar.dev/10)
-- Intégration : ![Progress](https://progress-bar.dev/30)
+- Outils de conversion : ![Outils](https://img.shields.io/badge/Outils-80%25-green)
+- Tests et validation : ![Tests](https://img.shields.io/badge/Tests-10%25-orange)
+- Intégration : ![Integration](https://img.shields.io/badge/Integration-30%25-yellow)
 
 ### Qualité
 [![Tests](https://img.shields.io/badge/Tests-Passing-success)](#)
