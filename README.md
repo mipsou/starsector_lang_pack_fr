@@ -2,7 +2,13 @@
 
 Pack de langue français pour Starsector.
 
-## État d'Avancement
+## Statistiques du Projet
+
+### Temps de Développement
+![Temps de Dev](https://img.shields.io/badge/Temps%20de%20Dev-24h-blue)
+![Dernière MàJ](https://img.shields.io/badge/Dernière%20MàJ-30%20Dec%202023-green)
+
+### État d'Avancement
 
 ### Traduction
 - Interface utilisateur : ![Progress](https://progress-bar.dev/15/?title=UI&width=100)
