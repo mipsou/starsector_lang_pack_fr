@@ -3,16 +3,14 @@
 ## Environnement de Développement
 
 ### Structure des Dossiers
-```
 starsector_lang_pack_fr/
-├── mod_info.json
-└── localization/
-    ├── data/
-    │   ├── config/     # Configurations localisées
-    │   └── strings/    # Fichiers de traduction
-    └── graphics/
-        └── ui/        # Éléments d'interface traduits
-```
+├── mod_info.json......# Configuration du mod
+└── localization/......# Fichiers de localisation
+    ├── data/.........# Données du jeu
+    │   ├── config/...# Fichiers de configuration
+    │   └── strings/..# Fichiers de traduction
+    └── graphics/.....# Ressources graphiques
+        └── ui/......# Interface utilisateur
 
 ### Outils Nécessaires
 - Éditeur de texte avec support UTF-8
@@ -61,6 +59,34 @@ starsector_lang_pack_fr/
 - Constantes : UPPER_CASE
 
 ## Git Workflow
+
+### Structure des Branches
+
+### Configuration
+- Branche par défaut : `dev`
+- Branche de production : `main`
+
+### Workflow
+1. Développement sur `dev` (branche par défaut)
+2. Création de branches feature/fix depuis `dev`
+3. Pull Requests vers `dev`
+4. Une fois stable, merge vers `main` via PR
+
+### Protection des Branches
+
+#### `main` (production)
+- ✓ Protection maximale
+- ✓ Pull requests obligatoires
+- ✓ Reviews requises
+- ✓ Status checks obligatoires
+- ✓ Maintainers en bypass
+
+#### `dev` (développement)
+- ✓ Branche par défaut
+- ✓ Protection modérée
+- ✓ Status checks
+- ✓ Up-to-date requis
+- ✓ Maintainers en bypass
 
 ### Branches
 - `main` : Production stable
@@ -425,6 +451,41 @@ python forum_scraper.py
   - Meilleure gestion des listes
   - Espacement amélioré entre les sections
 
+### 30 Décembre 2024 - 07:35 - 07:49 (14 minutes)
+- Correction des badges de progression dans le README
+  - Remplacement de progress-bar.dev par shields.io
+  - Amélioration du style visuel (flat-square, couleurs)
+  - Synchronisation entre les dépôts public et privé
+- Temps de développement total : 24h14m
+
+### 30 Décembre 2024 - 07:50 - 08:05 (15 minutes)
+- Planification du travail sur les images UI
+  - Alignement des commentaires dans la structure
+  - Plan de remplacement des images UI
+  - Identification des images à traiter par IA
+- Temps de développement total : 24h29m
+
+### 30 Décembre 2024 - 08:05 - 08:08 (3 minutes)
+- Amélioration de la lisibilité de la structure
+  - Utilisation de points pour l'alignement visuel
+  - Meilleure représentation des espaces
+  - Documentation de la convention
+- Temps de développement total : 24h32m
+
+### 30 Décembre 2024 - 08:35 - 08:37 (2 minutes)
+- Documentation des bonnes pratiques pour les commandes
+  - Ajout de la note sur PowerShell
+  - Exemple de gestion des chemins avec espaces
+  - Mise en garde sur cmd.exe
+- Temps de développement total : 24h34m
+
+### 30 Décembre 2024 - 08:56 - 09:00 (4 minutes)
+- Recherche sur Chrome Headless
+  - Configuration pour les captures d'écran
+  - Script d'automatisation Python
+  - Documentation de l'installation
+- Temps de développement total : 24h38m
+
 ### Problèmes Identifiés
 1. Quelques titres de section doivent être mieux formatés
 2. Les exemples de code nécessitent un meilleur formatage
@@ -452,35 +513,38 @@ python forum_scraper.py
 2. Extraire les termes clés pour le glossaire
 3. Commencer la traduction de la documentation
 
-### Documentation Technique
+### Plan de Travail - Images UI
 
-#### Structure des Rules
-- Fichier : data/campaign/rules.csv
-- Contient les règles de comportement du jeu
-- Documentation complète dans les fichiers PDF/RTF
+#### 1. Inventaire des Images
+- [ ] Identifier toutes les images dans `localization/graphics/ui`
+- [ ] Créer une liste des images contenant du texte anglais
+- [ ] Classifier les images par type (interface, boutons, textes)
 
-### Notes sur mod_info.json
-Champs requis :
-- id : Identifiant unique du mod
-- name : Nom affiché dans le dialogue de sélection
-- version : Version du mod (format : "X.Y.Z" ou {major:X, minor:Y, patch:Z})
-- description : Description du mod
-- gameVersion : Version du jeu compatible
+#### 2. Récupération des Originaux
+- [ ] Localiser les images originales dans les fichiers du jeu
+- [ ] Copier les images vers notre dépôt
+- [ ] Vérifier l'intégrité et la qualité des images
 
-Champs optionnels :
-- author : Auteur du mod
-- totalConversion : Si true, seul ce mod sera chargé
-- utility : Si true, peut être utilisé avec les total conversions
-- dependencies : Liste des mods requis
-- jars : Liste des fichiers .jar à charger
-- modPlugin : Classe principale du mod
-- replace : Liste des fichiers à remplacer plutôt que fusionner
+#### 3. Traitement des Images
+- [ ] Identifier les images nécessitant un traitement IA
+- [ ] Définir le processus de traitement :
+  1. Extraction du texte
+  2. Traduction
+  3. Génération de nouvelle image
+  4. Vérification de la qualité
+- [ ] Tester le processus sur une image simple
 
-### Format des Rapports (Toutes les 5 minutes)
-1. Actions effectuées
-2. Problèmes rencontrés
-3. Solutions appliquées
-4. Prochaines étapes
+#### 4. Automatisation
+- [ ] Créer un script Python pour :
+  - Identifier les images modifiées
+  - Appliquer le traitement IA
+  - Générer les rapports de modification
+- [ ] Mettre en place des tests de qualité
+
+#### 5. Documentation
+- [ ] Documenter le processus de traitement
+- [ ] Créer un guide pour les contributeurs
+- [ ] Maintenir une liste des images traitées/à traiter
 
 ## TODO
 
@@ -634,3 +698,375 @@ curl -A "Mozilla/5.0" "https://fractalsoftworks.com/forum/index.php?topic=5016.0
 - **Version** : 0.1.0
 - **Licence** : MIT
 - **GitHub** : [starsector_lang_pack_fr](https://github.com/mipsou/starsector_lang_pack_fr)
+
+## DEVBOOK - Guide du Développeur 
+
+### Structure du Projet
+
+#### 1. Branches
+```
+main (production)
+└── dev (développement)
+    ├── feature/*
+    ├── fix/*
+    └── trad/*
+```
+
+#### 2. Organisation des Fichiers
+```
+.
+├── .github/
+│   ├── workflows/      # GitHub Actions
+│   ├── ISSUE_TEMPLATE/ # Templates d'issues
+│   └── PULL_REQUEST_TEMPLATE.md
+├── data/
+│   ├── campaign/      # Textes de campagne
+│   ├── characters/    # Dialogues
+│   └── missions/      # Missions
+├── docs/
+│   ├── api/          # Documentation API
+│   ├── process/      # Processus
+│   └── tools/        # Documentation outils
+├── tools/
+│   ├── validation/   # Scripts de validation
+│   └── conversion/   # Outils de conversion
+├── README.md         # Documentation principale
+├── DEVBOOK.md       # Guide développeur
+└── GUIDELINES.md     # Règles de traduction
+```
+
+## Workflow de Développement
+
+#### 1. Issues
+- Utiliser les templates appropriés
+- Ajouter les labels pertinents
+- Assigner les responsables
+
+#### 2. Branches
+- Créer depuis `dev`
+- Nommer selon le type :
+  - `feature/description`
+  - `fix/description`
+  - `trad/section-description`
+
+#### 3. Commits
+- Format : `type(scope): description`
+- Types valides :
+  ```
+  feat     : Nouvelle fonctionnalité
+  fix      : Correction de bug
+  docs     : Documentation
+  style    : Formatage
+  refactor : Refactoring
+  test     : Tests
+  chore    : Maintenance
+  ci       : Intégration continue
+  ```
+
+#### 4. Pull Requests
+- Utiliser le template
+- Référencer les issues
+- Attendre les validations
+
+## CI/CD
+
+#### 1. GitHub Actions
+- PR Validation
+  - Format des commits
+  - Données sensibles
+  - Documentation
+- Translation Check
+  - Fichiers JSON/CSV
+  - Chaînes non traduites
+- Auto Label
+  - Labels automatiques
+  - Statut des PRs
+
+#### 2. Hooks Git
+```bash
+# Pre-commit
+./scripts/pre-commit.sh
+
+# Pre-push
+./scripts/pre-push.sh
+```
+
+## Outils de Développement
+
+#### 1. Installation
+```bash
+# Cloner le repo
+git clone git@github.com:mipsou/starsector_lang_pack_fr_private.git
+
+# Installer les dépendances
+pip install -r requirements.txt
+
+# Configurer les hooks
+./scripts/setup.sh
+```
+
+#### 2. Scripts Utiles
+```bash
+# Valider les traductions
+./tools/validate.sh
+
+# Convertir les fichiers
+./tools/convert.sh
+
+# Tester en local
+./tools/test.sh
+```
+
+#### 3. VSCode Extensions
+- GitLens
+- Prettier
+- JSON Tools
+- CSV Editor
+
+## Gestion des Versions
+
+#### 1. Versions
+- Format : `MAJOR.MINOR.PATCH`
+- Exemples :
+  - `1.0.0` : Version majeure
+  - `1.1.0` : Nouvelles traductions
+  - `1.1.1` : Corrections
+
+#### 2. Tags
+```bash
+# Créer un tag
+git tag -a v1.0.0 -m "Version 1.0.0"
+
+# Pousser les tags
+git push origin --tags
+```
+
+#### 3. Releases
+1. Créer depuis un tag
+2. Ajouter les notes
+3. Publier sur GitHub
+
+## Déploiement
+
+#### 1. Préparation
+```bash
+# Vérifier les traductions
+./tools/check.sh
+
+# Générer la documentation
+./tools/docs.sh
+
+# Créer l'archive
+./tools/package.sh
+```
+
+#### 2. Publication
+1. Merger dans `main`
+2. Créer le tag
+3. Publier la release
+
+#### 3. Vérification
+- Tester en jeu
+- Valider les fichiers
+- Vérifier la documentation
+
+## Maintenance
+
+#### 1. Backups
+- Sauvegardes quotidiennes
+- Archives des releases
+- Historique Git
+
+#### 2. Nettoyage
+```bash
+# Nettoyer les branches
+git remote prune origin
+git branch --merged | grep -v "main" | xargs git branch -d
+
+# Optimiser le repo
+git gc --aggressive
+```
+
+#### 3. Mises à Jour
+- Dépendances
+- Scripts
+- Documentation
+
+## Contact
+
+#### 1. Équipe
+- **Lead Dev** : @mipsou
+- **Traducteurs** : @team
+- **Relecteurs** : @reviewers
+
+#### 2. Communication
+- Issues GitHub
+- Discord
+- Email
+
+#### 3. Support
+1. Consulter la documentation
+2. Vérifier les issues
+3. Contacter l'équipe
+
+## Notes de Version
+
+#### 30/12/2023
+- Configuration initiale
+- Mise en place CI/CD
+- Templates et guidelines
+
+#### À Faire
+- [ ] Tests automatisés
+- [ ] Documentation API
+- [ ] Outils de validation
+
+## Notes Importantes sur l'Environnement
+
+#### Terminal et Commandes
+- Toutes les commandes doivent être exécutées dans PowerShell
+- Chemins avec espaces : utiliser des guillemets doubles
+  ```powershell
+  # Exemple de commande avec chemin contenant des espaces
+  Copy-Item "D:\Fractal Softworks\Starsector\mods\source.txt" "D:\Fractal Softworks\Starsector\mods\dest.txt"
+  ```
+- Ne pas utiliser cmd.exe qui gère mal les chemins avec espaces
+
+### 30 Décembre 2024
+#### 08:35 - 08:37 (2 minutes)
+- Documentation des bonnes pratiques pour les commandes
+  - Ajout de la note sur PowerShell
+  - Exemple de gestion des chemins avec espaces
+  - Mise en garde sur cmd.exe
+- Temps de développement total : 24h34m
+
+### Automatisation des Captures d'Écran
+
+#### Configuration de Chrome Headless
+```powershell
+# Installation des dépendances
+pip install selenium
+pip install webdriver_manager
+
+# Script Python pour la capture
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
+
+def setup_chrome_headless():
+    chrome_options = Options()
+    chrome_options.add_argument("--headless=new")
+    chrome_options.add_argument("--window-size=1920,1080")
+    chrome_options.add_argument("--disable-gpu")
+    
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+    return driver
+
+def capture_screenshot(url, output_path):
+    driver = setup_chrome_headless()
+    driver.get(url)
+    driver.save_screenshot(output_path)
+    driver.quit()
+```
+
+#### Utilisation
+```python
+# Exemple de capture
+capture_screenshot(
+    "file:///D:/Fractal%20Softworks/Starsector/mods/starsector_lang_pack_fr/README.md",
+    "screenshots/readme.png"
+)
+```
+
+### 30 Décembre 2024
+#### 08:56 - 09:00 (4 minutes)
+- Recherche sur Chrome Headless
+  - Configuration pour les captures d'écran
+  - Script d'automatisation Python
+  - Documentation de l'installation
+- Temps de développement total : 24h38m
+
+### Automatisation des Captures d'Écran
+
+#### Configuration de Selenium Python
+```python
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.action_chains import ActionChains
+
+def setup_driver():
+    chrome_options = webdriver.ChromeOptions()
+    chrome_options.add_argument("--headless=new")
+    chrome_options.add_argument("--window-size=1920,1080")
+    chrome_options.add_argument("--hide-scrollbars")
+    chrome_options.add_argument("--disable-gpu")
+    
+    driver = webdriver.Chrome(options=chrome_options)
+    return driver
+
+def wait_for_element(driver, selector, timeout=10):
+    """Attend qu'un élément soit visible"""
+    return WebDriverWait(driver, timeout).until(
+        EC.visibility_of_element_located((By.CSS_SELECTOR, selector))
+    )
+
+def capture_element(driver, element, output_path):
+    """Capture un élément spécifique"""
+    element.screenshot(output_path)
+
+def capture_full_page(driver, url, output_path):
+    """Capture une page entière avec défilement"""
+    driver.get(url)
+    
+    # Obtenir la hauteur totale de la page
+    total_height = driver.execute_script("return document.body.scrollHeight")
+    driver.set_window_size(1920, total_height)
+    
+    # Attendre le chargement complet
+    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+    driver.execute_script("window.scrollTo(0, 0);")
+    
+    driver.save_screenshot(output_path)
+
+# Exemple d'utilisation avancée
+def process_ui_elements():
+    driver = setup_driver()
+    try:
+        # Charger la page
+        driver.get("file:///path/to/ui.html")
+        
+        # Attendre un élément spécifique
+        menu = wait_for_element(driver, "#main-menu")
+        
+        # Capturer le menu
+        capture_element(driver, menu, "menu.png")
+        
+        # Faire défiler jusqu'à un élément
+        footer = driver.find_element(By.CSS_SELECTOR, "footer")
+        ActionChains(driver).move_to_element(footer).perform()
+        
+        # Capturer la page entière
+        capture_full_page(driver, driver.current_url, "full_page.png")
+        
+    finally:
+        driver.quit()
+```
+
+#### Fonctionnalités Avancées
+- Attente des éléments
+- Capture d'éléments spécifiques
+- Défilement automatique
+- Gestion des interactions
+- Capture de page complète
+
+### 30 Décembre 2024
+#### 09:00 - 09:05 (5 minutes)
+- Documentation de Selenium Python
+  - Fonctions avancées de capture
+  - Gestion des éléments web
+  - Exemples d'utilisation
+- Temps de développement total : 24h43m

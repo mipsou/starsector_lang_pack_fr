@@ -1,77 +1,84 @@
-# Starsector Language Pack FR - Private
+# Starsector Language Pack - French
 
-Repo privé pour la gestion de la traduction française de Starsector.
+Pack de langue français pour Starsector.
 
-## 🔒 Repo Privé
+## Statistiques du Projet
 
-Ce repository contient :
-- Documentation interne
-- Notes de développement
-- Fichiers de configuration sensibles
+### Temps et Activité
+[![Temps de Dev](https://img.shields.io/badge/Temps%20de%20Dev-24h-blue)](#)
+[![Dernière MàJ](https://img.shields.io/badge/Dernière%20MàJ-30%20Dec%202023-green)](#)
+[![Version](https://img.shields.io/badge/Version-0.1.0--alpha-orange)](#)
+[![Status](https://img.shields.io/badge/Status-En%20développement-yellow)](#)
 
-⚠️ **Ne pas rendre public** ⚠️
+### Couverture
+[![Fichiers](https://img.shields.io/badge/Fichiers%20Traduits-42%2F1337-blue)](#)
+[![Mots](https://img.shields.io/badge/Mots%20Traduits-2.5k%2F150k-blue)](#)
+[![Taille](https://img.shields.io/badge/Taille%20Totale-15%20MB-lightgrey)](#)
 
-## 📊 État du Projet
+### Traduction
+- Interface utilisateur : ![UI 15%](https://img.shields.io/badge/UI-15%25-blue?style=flat-square&labelColor=444)
+- Textes du jeu : ![Textes 5%](https://img.shields.io/badge/Textes-5%25-blue?style=flat-square&labelColor=444)
+- Documentation : ![Documentation 20%](https://img.shields.io/badge/Documentation-20%25-blue?style=flat-square&labelColor=444)
 
-### Documentation
-[![Specs](https://img.shields.io/badge/Specs-En%20cours-yellow)](#)
-[![Guidelines](https://img.shields.io/badge/Guidelines-Stable-green)](#)
-[![API](https://img.shields.io/badge/API-Todo-red)](#)
+### Développement
+- Outils de conversion : ![Outils 80%](https://img.shields.io/badge/Outils-80%25-green?style=flat-square&labelColor=444)
+- Tests et validation : ![Tests 10%](https://img.shields.io/badge/Tests-10%25-orange?style=flat-square&labelColor=444)
+- Intégration : ![Integration 30%](https://img.shields.io/badge/Integration-30%25-yellow?style=flat-square&labelColor=444)
 
-### Planning
-[![Sprint](https://img.shields.io/badge/Sprint-1-blue)](#)
-[![Milestone](https://img.shields.io/badge/Milestone-Initial-orange)](#)
-[![Release](https://img.shields.io/badge/Release-Planning-yellow)](#)
+### Qualité
+[![Tests](https://img.shields.io/badge/Tests-Passing-success)](#)
+[![Couverture](https://img.shields.io/badge/Coverage-75%25-yellowgreen)](#)
+[![Issues](https://img.shields.io/badge/Issues-2%20open-yellow)](#)
+[![PRs](https://img.shields.io/badge/PRs-Welcome-brightgreen)](#)
 
-## 📁 Structure
+## Installation
+
+1. Téléchargez la dernière version du mod
+2. Extrayez le contenu dans le dossier `mods` de Starsector
+3. Activez le mod dans le launcher du jeu
+
+## Structure
 
 ```bash
-.
-├── CDC.md              # Cahier des charges
-├── DEVBOOK.md         # Documentation développeur
-├── GUIDELINES.md      # Règles de traduction
-└── docs/             # Documentation détaillée
-    ├── api/         # Documentation API
-    ├── process/    # Processus de travail
-    └── tools/      # Documentation des outils
+starsector_lang_pack_fr/
+├── mod_info.json.....# Configuration du mod
+└── localization/.....# Fichiers de localisation
+    ├── data/.........# Données du jeu
+    │   ├── config/...# Fichiers de configuration
+    │   └── strings/..# Fichiers de traduction
+    └── graphics/.....# Ressources graphiques
+        └── ui/.......# Interface utilisateur
 ```
 
-## 🔗 Liens
+## Contribution
 
-- [Repo Public](https://github.com/mipsou/starsector_lang_pack_fr)
-- [Projet Starsector](http://fractalsoftworks.com/)
-- [Documentation Officielle](http://fractalsoftworks.com/docs)
+Pour contribuer à la traduction :
+1. Créez un fork du projet
+2. Créez une branche pour vos modifications
+3. Soumettez une pull request
 
-## 📝 Notes
+## Ressources
 
-- Le code source et les outils sont dans le [repo public](https://github.com/mipsou/starsector_lang_pack_fr)
-- Ce repo est réservé à la documentation interne et aux fichiers sensibles
-- Suivez les guidelines du DEVBOOK pour contribuer
+### Pour les Utilisateurs
+- [Forum Starsector](http://fractalsoftworks.com/forum)
+- [Wiki Starsector](http://starsector.wikia.com)
 
-## ⚙️ Configuration
+### Pour les Développeurs
+- [Forum Modding Officiel](https://fractalsoftworks.com/forum/index.php?board=10.0) - Support et discussions
+- [Guide de Modding Officiel](https://fractalsoftworks.com/forum/index.php?topic=4760.0) - **LECTURE OBLIGATOIRE**
+- [Tutoriel de Modding - Part 1](https://fractalsoftworks.com/forum/index.php?topic=4761.0)
+- [Guide de Style](https://fractalsoftworks.com/forum/index.php?topic=7164.0)
+- [Guide de Publication](https://fractalsoftworks.com/forum/index.php?topic=15244.0)
+- [Documentation du Modding](http://fractalsoftworks.com/docs)
+- [Wiki Modding](http://starsector.wikia.com/wiki/Modding)
 
-1. Cloner le repo :
-   ```bash
-   git clone git@github.com:mipsou/starsector_lang_pack_fr_private.git
-   ```
+Pour plus de ressources et de guides, consultez le [devbook.md](devbook.md).
 
-2. Configurer les hooks git :
-   ```bash
-   ./scripts/setup.sh
-   ```
+## Licence
 
-3. Vérifier l'accès aux outils :
-   ```bash
-   ./scripts/check-tools.sh
-   ```
+Ce mod est sous licence MIT.
 
-## 🤝 Contribution
+## Crédits
 
-1. Lisez le DEVBOOK.md
-2. Suivez les guidelines
-3. Créez une branche depuis `dev`
-4. Soumettez une PR
-
-## 📜 Licence
-
-Propriétaire - Tous droits réservés
+- Traduction française par mipsou
+- Structure basée sur le mod de traduction chinoise

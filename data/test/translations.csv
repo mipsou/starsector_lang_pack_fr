@@ -1,0 +1,5 @@
+id,fr,en
+greeting,"Bonjour, commandant !","Hello, commander!"
+farewell,"Au revoir, et bon voyage !","Farewell, and safe travels!"
+status_ready,"Prêt pour le combat","Ready for combat"
+status_damaged,"Systèmes endommagés","Systems damaged"
