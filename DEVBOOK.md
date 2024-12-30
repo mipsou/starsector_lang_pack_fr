@@ -62,6 +62,34 @@ starsector_lang_pack_fr/
 
 ## Git Workflow
 
+### Structure des Branches
+
+### Configuration
+- Branche par défaut : `dev`
+- Branche de production : `main`
+
+### Workflow
+1. Développement sur `dev` (branche par défaut)
+2. Création de branches feature/fix depuis `dev`
+3. Pull Requests vers `dev`
+4. Une fois stable, merge vers `main` via PR
+
+### Protection des Branches
+
+#### `main` (production)
+- ✓ Protection maximale
+- ✓ Pull requests obligatoires
+- ✓ Reviews requises
+- ✓ Status checks obligatoires
+- ✓ Maintainers en bypass
+
+#### `dev` (développement)
+- ✓ Branche par défaut
+- ✓ Protection modérée
+- ✓ Status checks
+- ✓ Up-to-date requis
+- ✓ Maintainers en bypass
+
 ### Branches
 - `main` : Production stable
 - `dev` : Développement en cours
