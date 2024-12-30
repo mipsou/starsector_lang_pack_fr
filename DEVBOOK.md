@@ -3,16 +3,14 @@
 ## Environnement de Développement
 
 ### Structure des Dossiers
-```
 starsector_lang_pack_fr/
-├── mod_info.json
-└── localization/
-    ├── data/
-    │   ├── config/     # Configurations localisées
-    │   └── strings/    # Fichiers de traduction
-    └── graphics/
-        └── ui/        # Éléments d'interface traduits
-```
+├── mod_info.json                    # Configuration du mod
+└── localization/                    # Fichiers de localisation
+    ├── data/                        # Données du jeu
+    │   ├── config/                  # Configurations localisées
+    │   └── strings/                 # Fichiers de traduction
+    └── graphics/                    # Ressources graphiques
+        └── ui/                      # Éléments d'interface traduits
 
 ### Outils Nécessaires
 - Éditeur de texte avec support UTF-8
@@ -460,6 +458,13 @@ python forum_scraper.py
   - Synchronisation entre les dépôts public et privé
 - Temps de développement total : 24h14m
 
+### 30 Décembre 2024 - 07:50 - 08:05 (15 minutes)
+- Planification du travail sur les images UI
+  - Alignement des commentaires dans la structure
+  - Plan de remplacement des images UI
+  - Identification des images à traiter par IA
+- Temps de développement total : 24h29m
+
 ### Problèmes Identifiés
 1. Quelques titres de section doivent être mieux formatés
 2. Les exemples de code nécessitent un meilleur formatage
@@ -487,35 +492,38 @@ python forum_scraper.py
 2. Extraire les termes clés pour le glossaire
 3. Commencer la traduction de la documentation
 
-### Documentation Technique
+### Plan de Travail - Images UI
 
-#### Structure des Rules
-- Fichier : data/campaign/rules.csv
-- Contient les règles de comportement du jeu
-- Documentation complète dans les fichiers PDF/RTF
+#### 1. Inventaire des Images
+- [ ] Identifier toutes les images dans `localization/graphics/ui`
+- [ ] Créer une liste des images contenant du texte anglais
+- [ ] Classifier les images par type (interface, boutons, textes)
 
-### Notes sur mod_info.json
-Champs requis :
-- id : Identifiant unique du mod
-- name : Nom affiché dans le dialogue de sélection
-- version : Version du mod (format : "X.Y.Z" ou {major:X, minor:Y, patch:Z})
-- description : Description du mod
-- gameVersion : Version du jeu compatible
+#### 2. Récupération des Originaux
+- [ ] Localiser les images originales dans les fichiers du jeu
+- [ ] Copier les images vers notre dépôt
+- [ ] Vérifier l'intégrité et la qualité des images
 
-Champs optionnels :
-- author : Auteur du mod
-- totalConversion : Si true, seul ce mod sera chargé
-- utility : Si true, peut être utilisé avec les total conversions
-- dependencies : Liste des mods requis
-- jars : Liste des fichiers .jar à charger
-- modPlugin : Classe principale du mod
-- replace : Liste des fichiers à remplacer plutôt que fusionner
+#### 3. Traitement des Images
+- [ ] Identifier les images nécessitant un traitement IA
+- [ ] Définir le processus de traitement :
+  1. Extraction du texte
+  2. Traduction
+  3. Génération de nouvelle image
+  4. Vérification de la qualité
+- [ ] Tester le processus sur une image simple
 
-### Format des Rapports (Toutes les 5 minutes)
-1. Actions effectuées
-2. Problèmes rencontrés
-3. Solutions appliquées
-4. Prochaines étapes
+#### 4. Automatisation
+- [ ] Créer un script Python pour :
+  - Identifier les images modifiées
+  - Appliquer le traitement IA
+  - Générer les rapports de modification
+- [ ] Mettre en place des tests de qualité
+
+#### 5. Documentation
+- [ ] Documenter le processus de traitement
+- [ ] Créer un guide pour les contributeurs
+- [ ] Maintenir une liste des images traitées/à traiter
 
 ## TODO
 
