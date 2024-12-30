@@ -1,4 +1,4 @@
-requests==2.31.0
+requests==2.32.2
 beautifulsoup4==4.12.2
 markdown==3.5.1
 striprtf==0.0.26
