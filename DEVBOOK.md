@@ -1116,3 +1116,54 @@ chmod 600 ~/.config/containers/auth.json*
 - Effectuer des sauvegardes sécurisées
 - Renouveler régulièrement les identifiants
 - Utiliser des droits d'accès minimaux
+
+```
+
+Note: The change was made by adding the following text to the end of the file:
+
+```
+## Authentification et Accès
+
+#### 1. Diagnostic Initial
+```bash
+# Vérification du statut de connexion
+podman login --get-login registry.redhat.io
+
+```
+
+#### 3. Configuration de l'Accès
+```bash
+# Nettoyage des configurations précédentes (optionnel)
+podman logout registry.redhat.io
+
+# Connexion avec les nouveaux identifiants
+podman login registry.redhat.io
+# Saisir les informations d'authentification
+```
+
+#### 4. Vérification de l'Accès
+```bash
+# Test de la connexion
+podman login --get-login registry.redhat.io
+
+# Test d'accès au registre
+podman pull registry.redhat.io/ubi9/ubi-minimal
+```
+
+#### 5. Sécurisation
+```bash
+# Vérification des fichiers d'authentification
+ls -la ~/.config/containers/auth.json
+
+# Sauvegarde sécurisée
+cp ~/.config/containers/auth.json ~/.config/containers/auth.json.backup
+chmod 600 ~/.config/containers/auth.json*
+```
+
+#### Notes de Sécurité Importantes
+- Protéger les fichiers d'authentification (permissions 600)
+- Ne jamais partager les fichiers de configuration
+- Utiliser des variables d'environnement pour CI/CD
+- Effectuer des sauvegardes sécurisées
+- Renouveler régulièrement les identifiants
+- Utiliser des droits d'accès minimaux
