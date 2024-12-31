@@ -486,66 +486,6 @@ python forum_scraper.py
   - Documentation de l'installation
 - Temps de développement total : 24h38m
 
-### Problèmes Identifiés
-1. Quelques titres de section doivent être mieux formatés
-2. Les exemples de code nécessitent un meilleur formatage
-3. Les variables sont maintenant en `code` mais certaines peuvent être manquées
-
-### Actions Suivantes
-1. Ajouter une table des matières automatique
-2. Revoir le formatage des tableaux si présents
-3. Ajouter des liens internes pour la navigation
-
-## Plan de Traduction
-1. Identifier les fichiers prioritaires à traduire
-2. Créer une structure de dossiers miroir pour les traductions
-3. Mettre en place un système de suivi de progression
-4. Établir un glossaire des termes récurrents
-
-### Méthode de Traduction Proposée
-- Traduction par lots thématiques
-- Validation des traductions par tests in-game
-- Documentation des choix de traduction
-- Gestion des versions avec git
-
-### Actions Suivantes
-1. Vérifier la qualité de la conversion Markdown
-2. Extraire les termes clés pour le glossaire
-3. Commencer la traduction de la documentation
-
-### Plan de Travail - Images UI
-
-#### 1. Inventaire des Images
-- [ ] Identifier toutes les images dans `localization/graphics/ui`
-- [ ] Créer une liste des images contenant du texte anglais
-- [ ] Classifier les images par type (interface, boutons, textes)
-
-#### 2. Récupération des Originaux
-- [ ] Localiser les images originales dans les fichiers du jeu
-- [ ] Copier les images vers notre dépôt
-- [ ] Vérifier l'intégrité et la qualité des images
-
-#### 3. Traitement des Images
-- [ ] Identifier les images nécessitant un traitement IA
-- [ ] Définir le processus de traitement :
-  1. Extraction du texte
-  2. Traduction
-  3. Génération de nouvelle image
-  4. Vérification de la qualité
-- [ ] Tester le processus sur une image simple
-
-#### 4. Automatisation
-- [ ] Créer un script Python pour :
-  - Identifier les images modifiées
-  - Appliquer le traitement IA
-  - Générer les rapports de modification
-- [ ] Mettre en place des tests de qualité
-
-#### 5. Documentation
-- [ ] Documenter le processus de traitement
-- [ ] Créer un guide pour les contributeurs
-- [ ] Maintenir une liste des images traitées/à traiter
-
 ## TODO
 
 ### CI/CD
@@ -1070,3 +1010,94 @@ def process_ui_elements():
   - Gestion des éléments web
   - Exemples d'utilisation
 - Temps de développement total : 24h43m
+
+### Authentification et Accès
+
+#### 1. Diagnostic Initial
+```bash
+# Vérification du statut de connexion
+podman login --get-login registry.redhat.io
+```
+
+#### 2. Processus de Connexion
+1. Prérequis
+   - Compte développeur Red Hat actif
+   - Accès à https://access.redhat.io
+   - Identifiants d'accès sécurisés
+
+2. Création des Identifiants d'Accès
+   - Se connecter à https://access.redhat.io
+   - Aller dans "Service Accounts"
+   - Créer un nouveau jeton d'accès avec les droits nécessaires
+
+```
+{{ ... }}
+3. Configuration de l'Accès
+```bash
+# Nettoyage des configurations précédentes (optionnel)
+podman logout registry.redhat.io
+
+# Connexion avec les nouveaux identifiants
+podman login registry.redhat.io
+# Saisir les informations d'authentification
+```
+
+4. Vérification de l'Accès
+```bash
+# Test de la connexion
+podman login --get-login registry.redhat.io
+
+# Test d'accès au registre
+podman pull registry.redhat.io/ubi9/ubi-minimal
+```
+{{ ... }}
+
+```
+
+### 30 Décembre 2024
+#### 09:05 - 09:10 (5 minutes)
+- Documentation de l'authentification
+  - Processus de connexion
+  - Vérification de l'accès
+  - Configuration des identifiants
+- Temps de développement total : 24h48m
+
+### Authentification et Accès
+
+#### 3. Configuration de l'Accès
+```bash
+# Nettoyage des configurations précédentes (optionnel)
+podman logout registry.redhat.io
+
+# Connexion avec les nouveaux identifiants
+podman login registry.redhat.io
+# Saisir les informations d'authentification
+```
+
+#### 4. Vérification de l'Accès
+```bash
+# Test de la connexion
+podman login --get-login registry.redhat.io
+
+# Test d'accès au registre
+podman pull registry.redhat.io/ubi9/ubi-minimal
+```
+
+#### 5. Sécurisation
+```bash
+# Vérification des fichiers d'authentification
+ls -la ~/.config/containers/auth.json
+
+# Sauvegarde sécurisée
+cp ~/.config/containers/auth.json ~/.config/containers/auth.json.backup
+chmod 600 ~/.config/containers/auth.json*
+```
+
+#### Notes de Sécurité Importantes
+- Protéger les fichiers d'authentification (permissions 600)
+- Ne jamais partager les fichiers de configuration
+- Utiliser des variables d'environnement pour CI/CD
+- Effectuer des sauvegardes sécurisées
+- Renouveler régulièrement les identifiants
+- Utiliser des droits d'accès minimaux
+{{ ... }}
