@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Configuration
-REPO="mipsou/starsector_lang_pack_fr_private"
+REPO="mipsou/starsector_lang_pack_fr"
 API="https://api.github.com/repos/$REPO/labels"
 
 # Function to create or update a label
@@ -17,21 +17,21 @@ create_label() {
 }
 
 # Type labels
-create_label "🐛 bug" "d73a4a" "Something isn't working"
-create_label "✨ feature" "0075ca" "New feature or request"
-create_label "📚 documentation" "0075ca" "Documentation improvements"
-create_label "🌍 translation" "1d76db" "Translation related"
-create_label "🔧 maintenance" "2a3f99" "Maintenance tasks"
+create_label "" "d73a4a" "Something isn't working"
+create_label "" "0075ca" "New feature or request"
+create_label "" "0075ca" "Documentation improvements"
+create_label "" "1d76db" "Translation related"
+create_label "" "2a3f99" "Maintenance tasks"
 
 # Status labels
-create_label "👀 needs review" "fbca04" "Needs review from maintainers"
-create_label "⌛ in progress" "fef2c0" "Work in progress"
-create_label "✅ ready" "0e8a16" "Ready to merge"
-create_label "🚫 blocked" "b60205" "Blocked or needs discussion"
+create_label "" "fbca04" "Needs review from maintainers"
+create_label "" "fef2c0" "Work in progress"
+create_label "" "0e8a16" "Ready to merge"
+create_label "" "b60205" "Blocked or needs discussion"
 
 # Priority labels
-create_label "🔥 high" "d93f0b" "High priority"
-create_label "🟡 medium" "fbca04" "Medium priority"
-create_label "🟢 low" "0e8a16" "Low priority"
+create_label "" "d93f0b" "High priority"
+create_label "" "fbca04" "Medium priority"
+create_label "" "0e8a16" "Low priority"
 
 echo "Labels created successfully!"
