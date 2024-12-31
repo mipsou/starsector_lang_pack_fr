@@ -1011,12 +1011,20 @@ def process_ui_elements():
   - Exemples d'utilisation
 - Temps de développement total : 24h43m
 
+<<<<<<< HEAD
+## Authentification et Accès
+=======
 ### Authentification et Accès
+>>>>>>> origin/main
 
 #### 1. Diagnostic Initial
 ```bash
 # Vérification du statut de connexion
 podman login --get-login registry.redhat.io
+<<<<<<< HEAD
+
+```
+=======
 ```
 
 #### 2. Processus de Connexion
@@ -1063,6 +1071,7 @@ podman pull registry.redhat.io/ubi9/ubi-minimal
 - Temps de développement total : 24h48m
 
 ### Authentification et Accès
+>>>>>>> origin/main
 
 #### 3. Configuration de l'Accès
 ```bash
@@ -1100,4 +1109,7 @@ chmod 600 ~/.config/containers/auth.json*
 - Effectuer des sauvegardes sécurisées
 - Renouveler régulièrement les identifiants
 - Utiliser des droits d'accès minimaux
+<<<<<<< HEAD
+=======
 {{ ... }}
+>>>>>>> origin/main
