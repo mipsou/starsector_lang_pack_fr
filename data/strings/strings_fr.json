@@ -1,0 +1,14 @@
+{
+    "fleetInteractionDialog": {
+        "greeting": "Salutations, commandant.",
+        "hostile": "Préparez-vous au combat !",
+        "friendly": "Heureux de vous voir, ami.",
+        "neutral": "Que puis-je faire pour vous ?"
+    },
+    "combat": {
+        "retreat": "Retraite",
+        "engage": "Engager",
+        "pursue": "Poursuivre",
+        "hold": "Tenir position"
+    }
+}
