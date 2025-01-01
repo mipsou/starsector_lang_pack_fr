@@ -1,13 +1,13 @@
 {
-  "id": "starsector_lang_pack_fr",
-  "name": "Pack de Langue Française",
-  "author": "Équipe de traduction française",
-  "totalConversion": "false",
-  "utility": "true",
-  "version": {"major":0, "minor":1, "patch":0},
-  "description": "Pack de traduction française pour Starsector",
-  "gameVersion": "0.95.1a-RC6",
-  "replace": [],
-  "jars": [],
-  "dependencies": []
+    "id": "starsector_lang_pack_fr_dev",
+    "name": "Starsector Language Pack - French (DEV)",
+    "author": "mipsou",
+    "totalConversion": "false",
+    "utility": "true",
+    "version": {"major":0, "minor":1, "patch":0},
+    "description": "French language pack for Starsector - Development Version",
+    "gameVersion": "0.97a-RC11",
+    "replace": [],
+    "jars": [],
+    "dependencies": []
 }
