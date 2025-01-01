@@ -1142,3 +1142,44 @@ chmod 600 ~/.config/containers/auth.json*
 - Effectuer des sauvegardes sécurisées
 - Renouveler régulièrement les identifiants
 - Utiliser des droits d'accès minimaux
+
+```
+
+### 1er Janvier 2025 - 08:48
+#### Configuration des Remotes
+
+##### Repo Privé (Source Principale)
+```bash
+# starsector_lang_pack_fr_private
+origin    → github.com:mipsou/starsector_lang_pack_fr_private.git    # Source principale
+downstream → github.com:mipsou/starsector_lang_pack_fr.git           # Miroir public
+```
+
+##### Repo Public (Miroir)
+```bash
+# starsector_lang_pack_fr
+origin   → github.com:mipsou/starsector_lang_pack_fr.git         # Miroir local
+upstream → github.com:mipsou/starsector_lang_pack_fr_private.git # Source principale
+```
+
+##### Workflow
+1. Développement
+   ```bash
+   # Dans le repo privé (starsector_lang_pack_fr_private)
+   git push origin dev    # Pousse vers le repo privé
+   git push downstream dev # Synchronise avec le miroir public
+   ```
+
+2. Production
+   ```bash
+   # Dans le repo privé (starsector_lang_pack_fr_private)
+   git push origin main    # Pousse vers le repo privé
+   git push downstream main # Synchronise avec le miroir public
+   ```
+
+3. Mise à jour du miroir
+   ```bash
+   # Dans le repo public (starsector_lang_pack_fr)
+   git pull upstream dev  # Récupère les changements de dev
+   git pull upstream main # Récupère les changements de main
+   
