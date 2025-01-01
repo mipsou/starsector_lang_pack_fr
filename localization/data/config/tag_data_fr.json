@@ -1,0 +1,32 @@
+{
+  "ship_tags": {
+    "combat": {
+      "name": "Combat",
+      "desc": "Vaisseau conçu pour le combat direct"
+    },
+    "support": {
+      "name": "Support",
+      "desc": "Vaisseau spécialisé dans le soutien"
+    },
+    "carrier": {
+      "name": "Porte-nefs",
+      "desc": "Transport et déploiement de chasseurs"
+    },
+    "civilian": {
+      "name": "Civil",
+      "desc": "Usage commercial ou transport"
+    }
+  },
+  "weapon_tags": {
+    "ballistic": "Balistique",
+    "energy": "Énergie",
+    "missile": "Missile",
+    "pd": "Défense ponctuelle"
+  },
+  "fleet_tags": {
+    "patrol": "Patrouille",
+    "trade": "Commerce",
+    "pirate": "Pirate",
+    "military": "Militaire"
+  }
+}
