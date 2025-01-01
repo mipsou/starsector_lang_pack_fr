@@ -1011,30 +1011,65 @@ def process_ui_elements():
   - Exemples d'utilisation
 - Temps de développement total : 24h43m
 
-<<<<<<< HEAD
-## Authentification et Accès
-=======
-### Authentification et Accès
->>>>>>> origin/main
+### 1er Janvier 2025 - 08:45
+#### Contrôle des Repositories
 
+##### État des Remotes
+1. Repo Public (starsector_lang_pack_fr)
+   - origin → github.com:mipsou/starsector_lang_pack_fr.git
+   - private → github.com:mipsou/starsector_lang_pack_fr_private.git
+
+2. Repo Privé (starsector_lang_pack_fr_private)
+   - origin → github.com:mipsou/starsector_lang_pack_fr_private.git
+   - public → github.com:mipsou/starsector_lang_pack_fr.git (ajouté)
+
+##### État des Branches
+1. Repo Public
+   - main : branche de production
+   - dev : branche de développement
+   - docs/setup : configuration en cours
+   - feature/github-settings : paramètres GitHub
+   - test/github-actions : tests des actions
+
+2. Repo Privé
+   - main : branche de production
+   - dev : branche de développement
+   - docs/security : sécurisation
+   - docs/security-dev : sécurisation dev
+   - sync/* : branches de synchronisation
+
+##### Actions Requises
+1. Synchronisation
+   - [x] Vérifier les remotes
+   - [x] Ajouter le remote public au repo privé
+   - [ ] Synchroniser les branches dev
+   - [ ] Synchroniser les branches main
+
+2. Protection
+   - [ ] Configurer les règles de protection sur main
+   - [ ] Configurer les règles de protection sur dev
+   - [ ] Mettre en place les hooks de redirection
+
+3. Nettoyage
+   - [ ] Supprimer les branches sync/* après fusion
+   - [ ] Archiver les branches docs/* terminées
+   - [ ] Mettre à jour les labels
+
+## Authentification et Accès
 #### 1. Diagnostic Initial
 ```bash
 # Vérification du statut de connexion
 podman login --get-login registry.redhat.io
-<<<<<<< HEAD
-
-```
-=======
 ```
 
 #### 2. Processus de Connexion
 1. Prérequis
    - Compte développeur Red Hat actif
-   - Accès à https://access.redhat.io
+   - Accès à https://access.redhat.com
    - Identifiants d'accès sécurisés
 
 2. Création des Identifiants d'Accès
-   - Se connecter à https://access.redhat.io
+   - Se connecter à https://access.redhat.com
    - Aller dans "Service Accounts"
    - Créer un nouveau jeton d'accès avec les droits nécessaires
 
@@ -1071,8 +1106,6 @@ podman pull registry.redhat.io/ubi9/ubi-minimal
 - Temps de développement total : 24h48m
 
 ### Authentification et Accès
->>>>>>> origin/main
-
 #### 3. Configuration de l'Accès
 ```bash
 # Nettoyage des configurations précédentes (optionnel)
@@ -1109,7 +1142,3 @@ chmod 600 ~/.config/containers/auth.json*
 - Effectuer des sauvegardes sécurisées
 - Renouveler régulièrement les identifiants
 - Utiliser des droits d'accès minimaux
-<<<<<<< HEAD
-=======
-{{ ... }}
->>>>>>> origin/main
