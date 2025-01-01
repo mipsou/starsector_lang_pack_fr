@@ -479,407 +479,6 @@ python forum_scraper.py
   - Mise en garde sur cmd.exe
 - Temps de développement total : 24h34m
 
-### 30 Décembre 2024 - 08:56 - 09:00 (4 minutes)
-- Recherche sur Chrome Headless
-  - Configuration pour les captures d'écran
-  - Script d'automatisation Python
-  - Documentation de l'installation
-- Temps de développement total : 24h38m
-
-## TODO
-
-### CI/CD
-- [ ] Configurer Azure Pipelines
-  - [ ] Mettre en place les tests automatiques
-  - [ ] Automatiser la conversion PDF/RTF vers Markdown
-  - [ ] Configurer le déploiement automatique
-  - [ ] Mettre en place les vérifications de qualité du code
-
-## Notes de Développement
-
-### Priorités
-1. Stabilité du mod
-2. Qualité des traductions
-3. Performance
-4. Maintenance
-
-### À Faire
-- [ ] Automatisation complète
-- [ ] Tests unitaires
-- [ ] Documentation API
-- [ ] Outils de validation
-
-## Chaîne de Chargement du Mod
-
-### Séquence de Chargement
-1. **enabled_mods.json** (D:\Fractal Softworks\Starsector\mods\enabled_mods.json)
-   - Premier fichier vérifié au démarrage
-   - Contient la liste des mods activés
-   - Format attendu :
-     ```json
-     {
-       "enabled_mods": [
-         "starsector_lang_pack_fr_dev"
-       ]
-     }
-     ```
-
-2. **mod_info.json** (dans chaque dossier de mod)
-   - Définit les métadonnées du mod
-   - Contrôle les remplacements de fichiers
-   - Gère les dépendances
-
-3. **Ressources du Mod**
-   - Fichiers de localisation
-   - Assets graphiques
-   - Configurations
-
-### Points de Vérification
-1. enabled_mods.json existe et est valide
-2. Le mod est correctement listé
-3. mod_info.json est correctement formaté
-4. Les chemins de remplacement sont valides
-
-### Erreurs Courantes
-1. enabled_mods.json manquant ou mal formaté
-2. ID de mod incorrect dans enabled_mods.json
-3. Chemins de remplacement invalides
-
-## Configuration de l'Environnement
-
-### Commandes Autorisées
-Liste des commandes autorisées pour le développement :
-
-```bash
-# Commandes de base
-git
-
-# Récupération de la documentation officielle
-curl -A "Mozilla/5.0" "https://fractalsoftworks.com/forum/index.php?topic=4761.0"
-curl -A "Mozilla/5.0" "https://fractalsoftworks.com/forum/index.php?topic=8355.0"
-curl -A "Mozilla/5.0" "https://fractalsoftworks.com/forum/index.php?topic=7164.0"
-curl -A "Mozilla/5.0" "https://fractalsoftworks.com/forum/index.php?topic=15244.0"
-curl -A "Mozilla/5.0" "https://fractalsoftworks.com/forum/index.php?topic=6926.0"
-curl -A "Mozilla/5.0" "https://fractalsoftworks.com/forum/index.php?topic=5016.0"
-```
-
-## Configuration Windsurf - Auto-exécution
-
-### Liste Blanche des Commandes
-Configuration pour permettre l'auto-exécution par Cascade sans confirmation :
-
-```bash
-git
-curl -A "Mozilla/5.0" "https://fractalsoftworks.com/forum/index.php?topic=4761.0"
-curl -A "Mozilla/5.0" "https://fractalsoftworks.com/forum/index.php?topic=8355.0"
-curl -A "Mozilla/5.0" "https://fractalsoftworks.com/forum/index.php?topic=7164.0"
-curl -A "Mozilla/5.0" "https://fractalsoftworks.com/forum/index.php?topic=15244.0"
-curl -A "Mozilla/5.0" "https://fractalsoftworks.com/forum/index.php?topic=6926.0"
-curl -A "Mozilla/5.0" "https://fractalsoftworks.com/forum/index.php?topic=5016.0"
-```
-
-### Configuration
-1. Ouvrir Windsurf
-2. Aller dans Paramètres
-3. Section "Cascade Commands Allow List"
-4. Copier-coller chaque commande exactement
-5. Ces commandes seront exécutées automatiquement par Cascade
-
-## Retours d'Expérience et Erreurs Connues
-
-### Bonnes Pratiques de Développement
-1. **TOUJOURS vérifier avant d'agir** :
-   - ✅ Vérifier l'existence des fichiers/dossiers
-   - ✅ Contrôler les permissions
-   - ✅ Valider les chemins d'accès
-   - ❌ Ne jamais supposer qu'un fichier/dossier existe
-
-2. **Commandes et Chemins** :
-   - ❌ `starsector.exe` - Ne fonctionne pas (chemin non complet)
-   - ✅ `D:\Fractal Softworks\Starsector\starsector.exe` - Correct (chemin complet)
-   - ✅ Toujours vérifier l'existence du fichier avant de l'exécuter
-
-### Processus de Vérification
-1. Vérifier l'existence des ressources
-2. Contrôler les permissions
-3. Valider la structure
-4. Tester l'exécution
-
-### Documentation des Erreurs
-1. Noter immédiatement les erreurs rencontrées
-2. Documenter la solution
-3. Mettre à jour les bonnes pratiques
-
-## Support
-
-### Contact
-- GitHub Issues
-- Forum Starsector
-- Discord communautaire
-
-### Contribution
-1. Fork le projet
-2. Créer une branche
-3. Commiter les changements
-4. Soumettre une PR
-
-## Annexes
-
-### Templates
-- Pull Request
-- Issue
-- Documentation
-- Release Notes
-
-## À Propos du Projet
-
-### Informations
-- **Auteur** : mipsou
-- **Version** : 0.1.0
-- **Licence** : MIT
-- **GitHub** : [starsector_lang_pack_fr](https://github.com/mipsou/starsector_lang_pack_fr)
-
-## DEVBOOK - Guide du Développeur 
-
-### Structure du Projet
-
-#### 1. Branches
-```
-main (production)
-└── dev (développement)
-    ├── feature/*
-    ├── fix/*
-    └── trad/*
-```
-
-#### 2. Organisation des Fichiers
-```
-.
-├── .github/
-│   ├── workflows/      # GitHub Actions
-│   ├── ISSUE_TEMPLATE/ # Templates d'issues
-│   └── PULL_REQUEST_TEMPLATE.md
-├── data/
-│   ├── campaign/      # Textes de campagne
-│   ├── characters/    # Dialogues
-│   └── missions/      # Missions
-├── docs/
-│   ├── api/          # Documentation API
-│   ├── process/      # Processus
-│   └── tools/        # Documentation outils
-├── tools/
-│   ├── validation/   # Scripts de validation
-│   └── conversion/   # Outils de conversion
-├── README.md         # Documentation principale
-├── DEVBOOK.md       # Guide développeur
-└── GUIDELINES.md     # Règles de traduction
-```
-
-## Workflow de Développement
-
-#### 1. Issues
-- Utiliser les templates appropriés
-- Ajouter les labels pertinents
-- Assigner les responsables
-
-#### 2. Branches
-- Créer depuis `dev`
-- Nommer selon le type :
-  - `feature/description`
-  - `fix/description`
-  - `trad/section-description`
-
-#### 3. Commits
-- Format : `type(scope): description`
-- Types valides :
-  ```
-  feat     : Nouvelle fonctionnalité
-  fix      : Correction de bug
-  docs     : Documentation
-  style    : Formatage
-  refactor : Refactoring
-  test     : Tests
-  chore    : Maintenance
-  ci       : Intégration continue
-  ```
-
-#### 4. Pull Requests
-- Utiliser le template
-- Référencer les issues
-- Attendre les validations
-
-## CI/CD
-
-#### 1. GitHub Actions
-- PR Validation
-  - Format des commits
-  - Données sensibles
-  - Documentation
-- Translation Check
-  - Fichiers JSON/CSV
-  - Chaînes non traduites
-- Auto Label
-  - Labels automatiques
-  - Statut des PRs
-
-#### 2. Hooks Git
-```bash
-# Pre-commit
-./scripts/pre-commit.sh
-
-# Pre-push
-./scripts/pre-push.sh
-```
-
-## Outils de Développement
-
-#### 1. Installation
-```bash
-# Cloner le repo
-git clone git@github.com:mipsou/starsector_lang_pack_fr_private.git
-
-# Installer les dépendances
-pip install -r requirements.txt
-
-# Configurer les hooks
-./scripts/setup.sh
-```
-
-#### 2. Scripts Utiles
-```bash
-# Valider les traductions
-./tools/validate.sh
-
-# Convertir les fichiers
-./tools/convert.sh
-
-# Tester en local
-./tools/test.sh
-```
-
-#### 3. VSCode Extensions
-- GitLens
-- Prettier
-- JSON Tools
-- CSV Editor
-
-## Gestion des Versions
-
-#### 1. Versions
-- Format : `MAJOR.MINOR.PATCH`
-- Exemples :
-  - `1.0.0` : Version majeure
-  - `1.1.0` : Nouvelles traductions
-  - `1.1.1` : Corrections
-
-#### 2. Tags
-```bash
-# Créer un tag
-git tag -a v1.0.0 -m "Version 1.0.0"
-
-# Pousser les tags
-git push origin --tags
-```
-
-#### 3. Releases
-1. Créer depuis un tag
-2. Ajouter les notes
-3. Publier sur GitHub
-
-## Déploiement
-
-#### 1. Préparation
-```bash
-# Vérifier les traductions
-./tools/check.sh
-
-# Générer la documentation
-./tools/docs.sh
-
-# Créer l'archive
-./tools/package.sh
-```
-
-#### 2. Publication
-1. Merger dans `main`
-2. Créer le tag
-3. Publier la release
-
-#### 3. Vérification
-- Tester en jeu
-- Valider les fichiers
-- Vérifier la documentation
-
-## Maintenance
-
-#### 1. Backups
-- Sauvegardes quotidiennes
-- Archives des releases
-- Historique Git
-
-#### 2. Nettoyage
-```bash
-# Nettoyer les branches
-git remote prune origin
-git branch --merged | grep -v "main" | xargs git branch -d
-
-# Optimiser le repo
-git gc --aggressive
-```
-
-#### 3. Mises à Jour
-- Dépendances
-- Scripts
-- Documentation
-
-## Contact
-
-#### 1. Équipe
-- **Lead Dev** : @mipsou
-- **Traducteurs** : @team
-- **Relecteurs** : @reviewers
-
-#### 2. Communication
-- Issues GitHub
-- Discord
-- Email
-
-#### 3. Support
-1. Consulter la documentation
-2. Vérifier les issues
-3. Contacter l'équipe
-
-## Notes de Version
-
-#### 30/12/2023
-- Configuration initiale
-- Mise en place CI/CD
-- Templates et guidelines
-
-#### À Faire
-- [ ] Tests automatisés
-- [ ] Documentation API
-- [ ] Outils de validation
-
-## Notes Importantes sur l'Environnement
-
-#### Terminal et Commandes
-- Toutes les commandes doivent être exécutées dans PowerShell
-- Chemins avec espaces : utiliser des guillemets doubles
-  ```powershell
-  # Exemple de commande avec chemin contenant des espaces
-  Copy-Item "D:\Fractal Softworks\Starsector\mods\source.txt" "D:\Fractal Softworks\Starsector\mods\dest.txt"
-  ```
-- Ne pas utiliser cmd.exe qui gère mal les chemins avec espaces
-
-### 30 Décembre 2024
-#### 08:35 - 08:37 (2 minutes)
-- Documentation des bonnes pratiques pour les commandes
-  - Ajout de la note sur PowerShell
-  - Exemple de gestion des chemins avec espaces
-  - Mise en garde sur cmd.exe
-- Temps de développement total : 24h34m
-
 ### Automatisation des Captures d'Écran
 
 #### Configuration de Chrome Headless
@@ -1805,4 +1404,1214 @@ origin → github.com:mipsou/starsector_lang_pack_fr.git
    - Vérification des données sensibles
 
 3. Publication
+   ```bash
+   # Dans le repo public
+   git checkout -b release/vX.Y.Z
+   # Copier les fichiers nettoyés
+   git add .
+   git commit -m "release: version X.Y.Z"
+   git tag vX.Y.Z
+   git push origin main --tags
+   ```
+
+##### Sécurité
+- ✓ Repos complètement séparés
+- ✓ Pas de synchronisation automatique
+- ✓ Release manuelle uniquement
+- ✓ Validation requise avant publication
+- ✓ Nettoyage des données sensibles
+
+```
+
+### 1er Janvier 2025 - 08:53
+#### Séparation des Repositories
+
+##### Repo Privé (Développement)
+```bash
+# starsector_lang_pack_fr_private
+origin → github.com:mipsou/starsector_lang_pack_fr_private.git
+```
+- Contient tout le code source
+- Contient les données sensibles
+- Développement actif
+- Accès restreint
+
+##### Repo Public (Distribution)
+```bash
+# starsector_lang_pack_fr
+origin → github.com:mipsou/starsector_lang_pack_fr.git
+```
+- Version publique du mod
+- Pas de données sensibles
+- Releases uniquement
+- Accès public
+
+##### Process de Release
+1. Préparation
+   ```bash
+   # Dans le repo privé
+   git checkout -b release/vX.Y.Z
+   # Nettoyer les données sensibles
+   # Mettre à jour la version
+   # Mettre à jour le changelog
+   ```
+
+2. Validation
+   - Review complète du code
+   - Tests de sécurité
+   - Vérification des données sensibles
+
+3. Publication
+   ```bash
+   # Dans le repo public
+   git checkout -b release/vX.Y.Z
+   # Copier les fichiers nettoyés
+   git add .
+   git commit -m "release: version X.Y.Z"
+   git tag vX.Y.Z
+   git push origin main --tags
+   ```
+
+##### Sécurité
+- ✓ Repos complètement séparés
+- ✓ Pas de synchronisation automatique
+- ✓ Release manuelle uniquement
+- ✓ Validation requise avant publication
+- ✓ Nettoyage des données sensibles
+
+```
+
+### 1er Janvier 2025 - 08:53
+#### Séparation des Repositories
+
+##### Repo Privé (Développement)
+```bash
+# starsector_lang_pack_fr_private
+origin → github.com:mipsou/starsector_lang_pack_fr_private.git
+```
+- Contient tout le code source
+- Contient les données sensibles
+- Développement actif
+- Accès restreint
+
+##### Repo Public (Distribution)
+```bash
+# starsector_lang_pack_fr
+origin → github.com:mipsou/starsector_lang_pack_fr.git
+```
+- Version publique du mod
+- Pas de données sensibles
+- Releases uniquement
+- Accès public
+
+##### Process de Release
+1. Préparation
+   ```bash
+   # Dans le repo privé
+   git checkout -b release/vX.Y.Z
+   # Nettoyer les données sensibles
+   # Mettre à jour la version
+   # Mettre à jour le changelog
+   ```
+
+2. Validation
+   - Review complète du code
+   - Tests de sécurité
+   - Vérification des données sensibles
+
+3. Publication
+   ```bash
+   # Dans le repo public
+   git checkout -b release/vX.Y.Z
+   # Copier les fichiers nettoyés
+   git add .
+   git commit -m "release: version X.Y.Z"
+   git tag vX.Y.Z
+   git push origin main --tags
+   ```
+
+##### Sécurité
+- ✓ Repos complètement séparés
+- ✓ Pas de synchronisation automatique
+- ✓ Release manuelle uniquement
+- ✓ Validation requise avant publication
+- ✓ Nettoyage des données sensibles
+
+```
+
+### 1er Janvier 2025 - 08:53
+#### Séparation des Repositories
+
+##### Repo Privé (Développement)
+```bash
+# starsector_lang_pack_fr_private
+origin → github.com:mipsou/starsector_lang_pack_fr_private.git
+```
+- Contient tout le code source
+- Contient les données sensibles
+- Développement actif
+- Accès restreint
+
+##### Repo Public (Distribution)
+```bash
+# starsector_lang_pack_fr
+origin → github.com:mipsou/starsector_lang_pack_fr.git
+```
+- Version publique du mod
+- Pas de données sensibles
+- Releases uniquement
+- Accès public
+
+##### Process de Release
+1. Préparation
+   ```bash
+   # Dans le repo privé
+   git checkout -b release/vX.Y.Z
+   # Nettoyer les données sensibles
+   # Mettre à jour la version
+   # Mettre à jour le changelog
+   ```
+
+2. Validation
+   - Review complète du code
+   - Tests de sécurité
+   - Vérification des données sensibles
+
+3. Publication
+   ```bash
+   # Dans le repo public
+   git checkout -b release/vX.Y.Z
+   # Copier les fichiers nettoyés
+   git add .
+   git commit -m "release: version X.Y.Z"
+   git tag vX.Y.Z
+   git push origin main --tags
+   ```
+
+##### Sécurité
+- ✓ Repos complètement séparés
+- ✓ Pas de synchronisation automatique
+- ✓ Release manuelle uniquement
+- ✓ Validation requise avant publication
+- ✓ Nettoyage des données sensibles
+
+```
+
+### 1er Janvier 2025 - 08:53
+#### Séparation des Repositories
+
+##### Repo Privé (Développement)
+```bash
+# starsector_lang_pack_fr_private
+origin → github.com:mipsou/starsector_lang_pack_fr_private.git
+```
+- Contient tout le code source
+- Contient les données sensibles
+- Développement actif
+- Accès restreint
+
+##### Repo Public (Distribution)
+```bash
+# starsector_lang_pack_fr
+origin → github.com:mipsou/starsector_lang_pack_fr.git
+```
+- Version publique du mod
+- Pas de données sensibles
+- Releases uniquement
+- Accès public
+
+##### Process de Release
+1. Préparation
+   ```bash
+   # Dans le repo privé
+   git checkout -b release/vX.Y.Z
+   # Nettoyer les données sensibles
+   # Mettre à jour la version
+   # Mettre à jour le changelog
+   ```
+
+2. Validation
+   - Review complète du code
+   - Tests de sécurité
+   - Vérification des données sensibles
+
+3. Publication
+   ```bash
+   # Dans le repo public
+   git checkout -b release/vX.Y.Z
+   # Copier les fichiers nettoyés
+   git add .
+   git commit -m "release: version X.Y.Z"
+   git tag vX.Y.Z
+   git push origin main --tags
+   ```
+
+##### Sécurité
+- ✓ Repos complètement séparés
+- ✓ Pas de synchronisation automatique
+- ✓ Release manuelle uniquement
+- ✓ Validation requise avant publication
+- ✓ Nettoyage des données sensibles
+
+```
+
+### 1er Janvier 2025 - 08:53
+#### Séparation des Repositories
+
+##### Repo Privé (Développement)
+```bash
+# starsector_lang_pack_fr_private
+origin → github.com:mipsou/starsector_lang_pack_fr_private.git
+```
+- Contient tout le code source
+- Contient les données sensibles
+- Développement actif
+- Accès restreint
+
+##### Repo Public (Distribution)
+```bash
+# starsector_lang_pack_fr
+origin → github.com:mipsou/starsector_lang_pack_fr.git
+```
+- Version publique du mod
+- Pas de données sensibles
+- Releases uniquement
+- Accès public
+
+##### Process de Release
+1. Préparation
+   ```bash
+   # Dans le repo privé
+   git checkout -b release/vX.Y.Z
+   # Nettoyer les données sensibles
+   # Mettre à jour la version
+   # Mettre à jour le changelog
+   ```
+
+2. Validation
+   - Review complète du code
+   - Tests de sécurité
+   - Vérification des données sensibles
+
+3. Publication
+   ```bash
+   # Dans le repo public
+   git checkout -b release/vX.Y.Z
+   # Copier les fichiers nettoyés
+   git add .
+   git commit -m "release: version X.Y.Z"
+   git tag vX.Y.Z
+   git push origin main --tags
+   ```
+
+##### Sécurité
+- ✓ Repos complètement séparés
+- ✓ Pas de synchronisation automatique
+- ✓ Release manuelle uniquement
+- ✓ Validation requise avant publication
+- ✓ Nettoyage des données sensibles
+
+```
+
+### 1er Janvier 2025 - 08:53
+#### Séparation des Repositories
+
+##### Repo Privé (Développement)
+```bash
+# starsector_lang_pack_fr_private
+origin → github.com:mipsou/starsector_lang_pack_fr_private.git
+```
+- Contient tout le code source
+- Contient les données sensibles
+- Développement actif
+- Accès restreint
+
+##### Repo Public (Distribution)
+```bash
+# starsector_lang_pack_fr
+origin → github.com:mipsou/starsector_lang_pack_fr.git
+```
+- Version publique du mod
+- Pas de données sensibles
+- Releases uniquement
+- Accès public
+
+##### Process de Release
+1. Préparation
+   ```bash
+   # Dans le repo privé
+   git checkout -b release/vX.Y.Z
+   # Nettoyer les données sensibles
+   # Mettre à jour la version
+   # Mettre à jour le changelog
+   ```
+
+2. Validation
+   - Review complète du code
+   - Tests de sécurité
+   - Vérification des données sensibles
+
+3. Publication
+   ```bash
+   # Dans le repo public
+   git checkout -b release/vX.Y.Z
+   # Copier les fichiers nettoyés
+   git add .
+   git commit -m "release: version X.Y.Z"
+   git tag vX.Y.Z
+   git push origin main --tags
+   ```
+
+##### Sécurité
+- ✓ Repos complètement séparés
+- ✓ Pas de synchronisation automatique
+- ✓ Release manuelle uniquement
+- ✓ Validation requise avant publication
+- ✓ Nettoyage des données sensibles
+
+```
+
+### 1er Janvier 2025 - 08:53
+#### Séparation des Repositories
+
+##### Repo Privé (Développement)
+```bash
+# starsector_lang_pack_fr_private
+origin → github.com:mipsou/starsector_lang_pack_fr_private.git
+```
+- Contient tout le code source
+- Contient les données sensibles
+- Développement actif
+- Accès restreint
+
+##### Repo Public (Distribution)
+```bash
+# starsector_lang_pack_fr
+origin → github.com:mipsou/starsector_lang_pack_fr.git
+```
+- Version publique du mod
+- Pas de données sensibles
+- Releases uniquement
+- Accès public
+
+##### Process de Release
+1. Préparation
+   ```bash
+   # Dans le repo privé
+   git checkout -b release/vX.Y.Z
+   # Nettoyer les données sensibles
+   # Mettre à jour la version
+   # Mettre à jour le changelog
+   ```
+
+2. Validation
+   - Review complète du code
+   - Tests de sécurité
+   - Vérification des données sensibles
+
+3. Publication
+   ```bash
+   # Dans le repo public
+   git checkout -b release/vX.Y.Z
+   # Copier les fichiers nettoyés
+   git add .
+   git commit -m "release: version X.Y.Z"
+   git tag vX.Y.Z
+   git push origin main --tags
+   ```
+
+##### Sécurité
+- ✓ Repos complètement séparés
+- ✓ Pas de synchronisation automatique
+- ✓ Release manuelle uniquement
+- ✓ Validation requise avant publication
+- ✓ Nettoyage des données sensibles
+
+```
+
+### 1er Janvier 2025 - 08:53
+#### Séparation des Repositories
+
+##### Repo Privé (Développement)
+```bash
+# starsector_lang_pack_fr_private
+origin → github.com:mipsou/starsector_lang_pack_fr_private.git
+```
+- Contient tout le code source
+- Contient les données sensibles
+- Développement actif
+- Accès restreint
+
+##### Repo Public (Distribution)
+```bash
+# starsector_lang_pack_fr
+origin → github.com:mipsou/starsector_lang_pack_fr.git
+```
+- Version publique du mod
+- Pas de données sensibles
+- Releases uniquement
+- Accès public
+
+##### Process de Release
+1. Préparation
+   ```bash
+   # Dans le repo privé
+   git checkout -b release/vX.Y.Z
+   # Nettoyer les données sensibles
+   # Mettre à jour la version
+   # Mettre à jour le changelog
+   ```
+
+2. Validation
+   - Review complète du code
+   - Tests de sécurité
+   - Vérification des données sensibles
+
+3. Publication
+   ```bash
+   # Dans le repo public
+   git checkout -b release/vX.Y.Z
+   # Copier les fichiers nettoyés
+   git add .
+   git commit -m "release: version X.Y.Z"
+   git tag vX.Y.Z
+   git push origin main --tags
+   ```
+
+##### Sécurité
+- ✓ Repos complètement séparés
+- ✓ Pas de synchronisation automatique
+- ✓ Release manuelle uniquement
+- ✓ Validation requise avant publication
+- ✓ Nettoyage des données sensibles
+
+```
+
+### 1er Janvier 2025 - 08:53
+#### Séparation des Repositories
+
+##### Repo Privé (Développement)
+```bash
+# starsector_lang_pack_fr_private
+origin → github.com:mipsou/starsector_lang_pack_fr_private.git
+```
+- Contient tout le code source
+- Contient les données sensibles
+- Développement actif
+- Accès restreint
+
+##### Repo Public (Distribution)
+```bash
+# starsector_lang_pack_fr
+origin → github.com:mipsou/starsector_lang_pack_fr.git
+```
+- Version publique du mod
+- Pas de données sensibles
+- Releases uniquement
+- Accès public
+
+##### Process de Release
+1. Préparation
+   ```bash
+   # Dans le repo privé
+   git checkout -b release/vX.Y.Z
+   # Nettoyer les données sensibles
+   # Mettre à jour la version
+   # Mettre à jour le changelog
+   ```
+
+2. Validation
+   - Review complète du code
+   - Tests de sécurité
+   - Vérification des données sensibles
+
+3. Publication
+   ```bash
+   # Dans le repo public
+   git checkout -b release/vX.Y.Z
+   # Copier les fichiers nettoyés
+   git add .
+   git commit -m "release: version X.Y.Z"
+   git tag vX.Y.Z
+   git push origin main --tags
+   ```
+
+##### Sécurité
+- ✓ Repos complètement séparés
+- ✓ Pas de synchronisation automatique
+- ✓ Release manuelle uniquement
+- ✓ Validation requise avant publication
+- ✓ Nettoyage des données sensibles
+
+```
+
+### 1er Janvier 2025 - 08:53
+#### Séparation des Repositories
+
+##### Repo Privé (Développement)
+```bash
+# starsector_lang_pack_fr_private
+origin → github.com:mipsou/starsector_lang_pack_fr_private.git
+```
+- Contient tout le code source
+- Contient les données sensibles
+- Développement actif
+- Accès restreint
+
+##### Repo Public (Distribution)
+```bash
+# starsector_lang_pack_fr
+origin → github.com:mipsou/starsector_lang_pack_fr.git
+```
+- Version publique du mod
+- Pas de données sensibles
+- Releases uniquement
+- Accès public
+
+##### Process de Release
+1. Préparation
+   ```bash
+   # Dans le repo privé
+   git checkout -b release/vX.Y.Z
+   # Nettoyer les données sensibles
+   # Mettre à jour la version
+   # Mettre à jour le changelog
+   ```
+
+2. Validation
+   - Review complète du code
+   - Tests de sécurité
+   - Vérification des données sensibles
+
+3. Publication
+   ```bash
+   # Dans le repo public
+   git checkout -b release/vX.Y.Z
+   # Copier les fichiers nettoyés
+   git add .
+   git commit -m "release: version X.Y.Z"
+   git tag vX.Y.Z
+   git push origin main --tags
+   ```
+
+##### Sécurité
+- ✓ Repos complètement séparés
+- ✓ Pas de synchronisation automatique
+- ✓ Release manuelle uniquement
+- ✓ Validation requise avant publication
+- ✓ Nettoyage des données sensibles
+
+```
+
+### 1er Janvier 2025 - 08:53
+#### Séparation des Repositories
+
+##### Repo Privé (Développement)
+```bash
+# starsector_lang_pack_fr_private
+origin → github.com:mipsou/starsector_lang_pack_fr_private.git
+```
+- Contient tout le code source
+- Contient les données sensibles
+- Développement actif
+- Accès restreint
+
+##### Repo Public (Distribution)
+```bash
+# starsector_lang_pack_fr
+origin → github.com:mipsou/starsector_lang_pack_fr.git
+```
+- Version publique du mod
+- Pas de données sensibles
+- Releases uniquement
+- Accès public
+
+##### Process de Release
+1. Préparation
+   ```bash
+   # Dans le repo privé
+   git checkout -b release/vX.Y.Z
+   # Nettoyer les données sensibles
+   # Mettre à jour la version
+   # Mettre à jour le changelog
+   ```
+
+2. Validation
+   - Review complète du code
+   - Tests de sécurité
+   - Vérification des données sensibles
+
+3. Publication
+   ```bash
+   # Dans le repo public
+   git checkout -b release/vX.Y.Z
+   # Copier les fichiers nettoyés
+   git add .
+   git commit -m "release: version X.Y.Z"
+   git tag vX.Y.Z
+   git push origin main --tags
+   ```
+
+##### Sécurité
+- ✓ Repos complètement séparés
+- ✓ Pas de synchronisation automatique
+- ✓ Release manuelle uniquement
+- ✓ Validation requise avant publication
+- ✓ Nettoyage des données sensibles
+
+```
+
+### 1er Janvier 2025 - 08:53
+#### Séparation des Repositories
+
+##### Repo Privé (Développement)
+```bash
+# starsector_lang_pack_fr_private
+origin → github.com:mipsou/starsector_lang_pack_fr_private.git
+```
+- Contient tout le code source
+- Contient les données sensibles
+- Développement actif
+- Accès restreint
+
+##### Repo Public (Distribution)
+```bash
+# starsector_lang_pack_fr
+origin → github.com:mipsou/starsector_lang_pack_fr.git
+```
+- Version publique du mod
+- Pas de données sensibles
+- Releases uniquement
+- Accès public
+
+##### Process de Release
+1. Préparation
+   ```bash
+   # Dans le repo privé
+   git checkout -b release/vX.Y.Z
+   # Nettoyer les données sensibles
+   # Mettre à jour la version
+   # Mettre à jour le changelog
+   ```
+
+2. Validation
+   - Review complète du code
+   - Tests de sécurité
+   - Vérification des données sensibles
+
+3. Publication
+   ```bash
+   # Dans le repo public
+   git checkout -b release/vX.Y.Z
+   # Copier les fichiers nettoyés
+   git add .
+   git commit -m "release: version X.Y.Z"
+   git tag vX.Y.Z
+   git push origin main --tags
+   ```
+
+##### Sécurité
+- ✓ Repos complètement séparés
+- ✓ Pas de synchronisation automatique
+- ✓ Release manuelle uniquement
+- ✓ Validation requise avant publication
+- ✓ Nettoyage des données sensibles
+
+```
+
+### 1er Janvier 2025 - 08:53
+#### Séparation des Repositories
+
+##### Repo Privé (Développement)
+```bash
+# starsector_lang_pack_fr_private
+origin → github.com:mipsou/starsector_lang_pack_fr_private.git
+```
+- Contient tout le code source
+- Contient les données sensibles
+- Développement actif
+- Accès restreint
+
+##### Repo Public (Distribution)
+```bash
+# starsector_lang_pack_fr
+origin → github.com:mipsou/starsector_lang_pack_fr.git
+```
+- Version publique du mod
+- Pas de données sensibles
+- Releases uniquement
+- Accès public
+
+##### Process de Release
+1. Préparation
+   ```bash
+   # Dans le repo privé
+   git checkout -b release/vX.Y.Z
+   # Nettoyer les données sensibles
+   # Mettre à jour la version
+   # Mettre à jour le changelog
+   ```
+
+2. Validation
+   - Review complète du code
+   - Tests de sécurité
+   - Vérification des données sensibles
+
+3. Publication
+   ```bash
+   # Dans le repo public
+   git checkout -b release/vX.Y.Z
+   # Copier les fichiers nettoyés
+   git add .
+   git commit -m "release: version X.Y.Z"
+   git tag vX.Y.Z
+   git push origin main --tags
+   ```
+
+##### Sécurité
+- ✓ Repos complètement séparés
+- ✓ Pas de synchronisation automatique
+- ✓ Release manuelle uniquement
+- ✓ Validation requise avant publication
+- ✓ Nettoyage des données sensibles
+
+```
+
+### 1er Janvier 2025 - 08:53
+#### Séparation des Repositories
+
+##### Repo Privé (Développement)
+```bash
+# starsector_lang_pack_fr_private
+origin → github.com:mipsou/starsector_lang_pack_fr_private.git
+```
+- Contient tout le code source
+- Contient les données sensibles
+- Développement actif
+- Accès restreint
+
+##### Repo Public (Distribution)
+```bash
+# starsector_lang_pack_fr
+origin → github.com:mipsou/starsector_lang_pack_fr.git
+```
+- Version publique du mod
+- Pas de données sensibles
+- Releases uniquement
+- Accès public
+
+##### Process de Release
+1. Préparation
+   ```bash
+   # Dans le repo privé
+   git checkout -b release/vX.Y.Z
+   # Nettoyer les données sensibles
+   # Mettre à jour la version
+   # Mettre à jour le changelog
+   ```
+
+2. Validation
+   - Review complète du code
+   - Tests de sécurité
+   - Vérification des données sensibles
+
+3. Publication
+   ```bash
+   # Dans le repo public
+   git checkout -b release/vX.Y.Z
+   # Copier les fichiers nettoyés
+   git add .
+   git commit -m "release: version X.Y.Z"
+   git tag vX.Y.Z
+   git push origin main --tags
+   ```
+
+##### Sécurité
+- ✓ Repos complètement séparés
+- ✓ Pas de synchronisation automatique
+- ✓ Release manuelle uniquement
+- ✓ Validation requise avant publication
+- ✓ Nettoyage des données sensibles
+
+```
+
+### 1er Janvier 2025 - 08:53
+#### Séparation des Repositories
+
+##### Repo Privé (Développement)
+```bash
+# starsector_lang_pack_fr_private
+origin → github.com:mipsou/starsector_lang_pack_fr_private.git
+```
+- Contient tout le code source
+- Contient les données sensibles
+- Développement actif
+- Accès restreint
+
+##### Repo Public (Distribution)
+```bash
+# starsector_lang_pack_fr
+origin → github.com:mipsou/starsector_lang_pack_fr.git
+```
+- Version publique du mod
+- Pas de données sensibles
+- Releases uniquement
+- Accès public
+
+##### Process de Release
+1. Préparation
+   ```bash
+   # Dans le repo privé
+   git checkout -b release/vX.Y.Z
+   # Nettoyer les données sensibles
+   # Mettre à jour la version
+   # Mettre à jour le changelog
+   ```
+
+2. Validation
+   - Review complète du code
+   - Tests de sécurité
+   - Vérification des données sensibles
+
+3. Publication
+   ```bash
+   # Dans le repo public
+   git checkout -b release/vX.Y.Z
+   # Copier les fichiers nettoyés
+   git add .
+   git commit -m "release: version X.Y.Z"
+   git tag vX.Y.Z
+   git push origin main --tags
+   ```
+
+##### Sécurité
+- ✓ Repos complètement séparés
+- ✓ Pas de synchronisation automatique
+- ✓ Release manuelle uniquement
+- ✓ Validation requise avant publication
+- ✓ Nettoyage des données sensibles
+
+```
+
+### 1er Janvier 2025 - 08:53
+#### Séparation des Repositories
+
+##### Repo Privé (Développement)
+```bash
+# starsector_lang_pack_fr_private
+origin → github.com:mipsou/starsector_lang_pack_fr_private.git
+```
+- Contient tout le code source
+- Contient les données sensibles
+- Développement actif
+- Accès restreint
+
+##### Repo Public (Distribution)
+```bash
+# starsector_lang_pack_fr
+origin → github.com:mipsou/starsector_lang_pack_fr.git
+```
+- Version publique du mod
+- Pas de données sensibles
+- Releases uniquement
+- Accès public
+
+##### Process de Release
+1. Préparation
+   ```bash
+   # Dans le repo privé
+   git checkout -b release/vX.Y.Z
+   # Nettoyer les données sensibles
+   # Mettre à jour la version
+   # Mettre à jour le changelog
+   ```
+
+2. Validation
+   - Review complète du code
+   - Tests de sécurité
+   - Vérification des données sensibles
+
+3. Publication
+   ```bash
+   # Dans le repo public
+   git checkout -b release/vX.Y.Z
+   # Copier les fichiers nettoyés
+   git add .
+   git commit -m "release: version X.Y.Z"
+   git tag vX.Y.Z
+   git push origin main --tags
+   ```
+
+##### Sécurité
+- ✓ Repos complètement séparés
+- ✓ Pas de synchronisation automatique
+- ✓ Release manuelle uniquement
+- ✓ Validation requise avant publication
+- ✓ Nettoyage des données sensibles
+
+```
+
+### 1er Janvier 2025 - 08:53
+#### Séparation des Repositories
+
+##### Repo Privé (Développement)
+```bash
+# starsector_lang_pack_fr_private
+origin → github.com:mipsou/starsector_lang_pack_fr_private.git
+```
+- Contient tout le code source
+- Contient les données sensibles
+- Développement actif
+- Accès restreint
+
+##### Repo Public (Distribution)
+```bash
+# starsector_lang_pack_fr
+origin → github.com:mipsou/starsector_lang_pack_fr.git
+```
+- Version publique du mod
+- Pas de données sensibles
+- Releases uniquement
+- Accès public
+
+##### Process de Release
+1. Préparation
+   ```bash
+   # Dans le repo privé
+   git checkout -b release/vX.Y.Z
+   # Nettoyer les données sensibles
+   # Mettre à jour la version
+   # Mettre à jour le changelog
+   ```
+
+2. Validation
+   - Review complète du code
+   - Tests de sécurité
+   - Vérification des données sensibles
+
+3. Publication
+   ```bash
+   # Dans le repo public
+   git checkout -b release/vX.Y.Z
+   # Copier les fichiers nettoyés
+   git add .
+   git commit -m "release: version X.Y.Z"
+   git tag vX.Y.Z
+   git push origin main --tags
+   ```
+
+##### Sécurité
+- ✓ Repos complètement séparés
+- ✓ Pas de synchronisation automatique
+- ✓ Release manuelle uniquement
+- ✓ Validation requise avant publication
+- ✓ Nettoyage des données sensibles
+
+```
+
+### 1er Janvier 2025 - 08:53
+#### Séparation des Repositories
+
+##### Repo Privé (Développement)
+```bash
+# starsector_lang_pack_fr_private
+origin → github.com:mipsou/starsector_lang_pack_fr_private.git
+```
+- Contient tout le code source
+- Contient les données sensibles
+- Développement actif
+- Accès restreint
+
+##### Repo Public (Distribution)
+```bash
+# starsector_lang_pack_fr
+origin → github.com:mipsou/starsector_lang_pack_fr.git
+```
+- Version publique du mod
+- Pas de données sensibles
+- Releases uniquement
+- Accès public
+
+##### Process de Release
+1. Préparation
+   ```bash
+   # Dans le repo privé
+   git checkout -b release/vX.Y.Z
+   # Nettoyer les données sensibles
+   # Mettre à jour la version
+   # Mettre à jour le changelog
+   ```
+
+2. Validation
+   - Review complète du code
+   - Tests de sécurité
+   - Vérification des données sensibles
+
+3. Publication
+   ```bash
+   # Dans le repo public
+   git checkout -b release/vX.Y.Z
+   # Copier les fichiers nettoyés
+   git add .
+   git commit -m "release: version X.Y.Z"
+   git tag vX.Y.Z
+   git push origin main --tags
+   ```
+
+##### Sécurité
+- ✓ Repos complètement séparés
+- ✓ Pas de synchronisation automatique
+- ✓ Release manuelle uniquement
+- ✓ Validation requise avant publication
+- ✓ Nettoyage des données sensibles
+
+```
+
+### 1er Janvier 2025 - 08:53
+#### Séparation des Repositories
+
+##### Repo Privé (Développement)
+```bash
+# starsector_lang_pack_fr_private
+origin → github.com:mipsou/starsector_lang_pack_fr_private.git
+```
+- Contient tout le code source
+- Contient les données sensibles
+- Développement actif
+- Accès restreint
+
+##### Repo Public (Distribution)
+```bash
+# starsector_lang_pack_fr
+origin → github.com:mipsou/starsector_lang_pack_fr.git
+```
+- Version publique du mod
+- Pas de données sensibles
+- Releases uniquement
+- Accès public
+
+##### Process de Release
+1. Préparation
+   ```bash
+   # Dans le repo privé
+   git checkout -b release/vX.Y.Z
+   # Nettoyer les données sensibles
+   # Mettre à jour la version
+   # Mettre à jour le changelog
+   ```
+
+2. Validation
+   - Review complète du code
+   - Tests de sécurité
+   - Vérification des données sensibles
+
+3. Publication
+   ```bash
+   # Dans le repo public
+   git checkout -b release/vX.Y.Z
+   # Copier les fichiers nettoyés
+   git add .
+   git commit -m "release: version X.Y.Z"
+   git tag vX.Y.Z
+   git push origin main --tags
+   ```
+
+##### Sécurité
+- ✓ Repos complètement séparés
+- ✓ Pas de synchronisation automatique
+- ✓ Release manuelle uniquement
+- ✓ Validation requise avant publication
+- ✓ Nettoyage des données sensibles
+
+```
+
+### 1er Janvier 2025 - 08:53
+#### Séparation des Repositories
+
+##### Repo Privé (Développement)
+```bash
+# starsector_lang_pack_fr_private
+origin → github.com:mipsou/starsector_lang_pack_fr_private.git
+```
+- Contient tout le code source
+- Contient les données sensibles
+- Développement actif
+- Accès restreint
+
+##### Repo Public (Distribution)
+```bash
+# starsector_lang_pack_fr
+origin → github.com:mipsou/starsector_lang_pack_fr.git
+```
+- Version publique du mod
+- Pas de données sensibles
+- Releases uniquement
+- Accès public
+
+##### Process de Release
+1. Préparation
+   ```bash
+   # Dans le repo privé
+   git checkout -b release/vX.Y.Z
+   # Nettoyer les données sensibles
+   # Mettre à jour la version
+   # Mettre à jour le changelog
+   ```
+
+2. Validation
+   - Review complète du code
+   - Tests de sécurité
+   - Vérification des données sensibles
+
+3. Publication
+   ```bash
+   # Dans le repo public
+   git checkout -b release/vX.Y.Z
+   # Copier les fichiers nettoyés
+   git add .
+   git commit -m "release: version X.Y.Z"
+   git tag vX.Y.Z
+   git push origin main --tags
+   ```
+
+##### Sécurité
+- ✓ Repos complètement séparés
+- ✓ Pas de synchronisation automatique
+- ✓ Release manuelle uniquement
+- ✓ Validation requise avant publication
+- ✓ Nettoyage des données sensibles
+
+```
+
+### 1er Janvier 2025 - 08:53
+#### Séparation des Repositories
+
+##### Repo Privé (Développement)
+```bash
+# starsector_lang_pack_fr_private
+origin → github.com:mipsou/starsector_lang_pack_fr_private.git
+```
+- Contient tout le code source
+- Contient les données sensibles
+- Développement actif
+- Accès restreint
+
+##### Repo Public (Distribution)
+```bash
+# starsector_lang_pack_fr
+origin → github.com:mipsou/starsector_lang_pack_fr.git
+```
+- Version publique du mod
+- Pas de données sensibles
+- Releases uniquement
+- Accès public
+
+##### Process de Release
+1. Préparation
+   ```bash
+   # Dans le repo privé
+   git checkout -b release/vX.Y.Z
+   # Nettoyer les données sensibles
+   # Mettre à jour la version
+   # Mettre à jour le changelog
    
