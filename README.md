@@ -1,84 +1,52 @@
 # Starsector Language Pack - French
 
-Pack de langue français pour Starsector.
+## Version 1.0.0 (Tips Only)
 
-## Statistiques du Projet
+Pack de traduction française pour Starsector, actuellement focalisé sur les conseils en jeu (tips).
 
-### Temps et Activité
-[![Temps de Dev](https://img.shields.io/badge/Temps%20de%20Dev-24h-blue)](#)
-[![Dernière MàJ](https://img.shields.io/badge/Dernière%20MàJ-30%20Dec%202023-green)](#)
-[![Version](https://img.shields.io/badge/Version-0.1.0--alpha-orange)](#)
-[![Status](https://img.shields.io/badge/Status-En%20développement-yellow)](#)
+### Liens Rapides
+- [Téléchargement](https://github.com/mipsou/starsector_lang_pack_fr/releases/tag/v1.0.0)
+- [Documentation](https://github.com/mipsou/starsector_lang_pack_fr/wiki)
+- [Signaler un bug](https://github.com/mipsou/starsector_lang_pack_fr/issues/new)
+- [Forum Starsector](http://fractalsoftworks.com/forum/)
 
-### Couverture
-[![Fichiers](https://img.shields.io/badge/Fichiers%20Traduits-42%2F1337-blue)](#)
-[![Mots](https://img.shields.io/badge/Mots%20Traduits-2.5k%2F150k-blue)](#)
-[![Taille](https://img.shields.io/badge/Taille%20Totale-15%20MB-lightgrey)](#)
+### Fonctionnalités
+- Traduction complète des conseils en jeu
+- Validation typographique française
+- Tests de performance et d'intégration
+- Support complet UTF-8
 
-### Traduction
-- Interface utilisateur : ![UI 15%](https://img.shields.io/badge/UI-15%25-blue?style=flat-square&labelColor=444)
-- Textes du jeu : ![Textes 5%](https://img.shields.io/badge/Textes-5%25-blue?style=flat-square&labelColor=444)
-- Documentation : ![Documentation 20%](https://img.shields.io/badge/Documentation-20%25-blue?style=flat-square&labelColor=444)
-
-### Développement
-- Outils de conversion : ![Outils 80%](https://img.shields.io/badge/Outils-80%25-green?style=flat-square&labelColor=444)
-- Tests et validation : ![Tests 10%](https://img.shields.io/badge/Tests-10%25-orange?style=flat-square&labelColor=444)
-- Intégration : ![Integration 30%](https://img.shields.io/badge/Integration-30%25-yellow?style=flat-square&labelColor=444)
-
-### Qualité
-[![Tests](https://img.shields.io/badge/Tests-Passing-success)](#)
-[![Couverture](https://img.shields.io/badge/Coverage-75%25-yellowgreen)](#)
-[![Issues](https://img.shields.io/badge/Issues-2%20open-yellow)](#)
-[![PRs](https://img.shields.io/badge/PRs-Welcome-brightgreen)](#)
-
-## Installation
-
-1. Téléchargez la dernière version du mod
-2. Extrayez le contenu dans le dossier `mods` de Starsector
+### Installation
+1. Téléchargez la [dernière version](https://github.com/mipsou/starsector_lang_pack_fr/releases/latest)
+2. Extrayez l'archive dans le dossier `mods` de Starsector
 3. Activez le mod dans le launcher du jeu
 
-## Structure
+### Compatibilité
+- Starsector version : 0.97a-RC11
+- Mods compatibles : tous (ne modifie que les tips)
 
-```bash
-starsector_lang_pack_fr/
-├── mod_info.json.....# Configuration du mod
-└── localization/.....# Fichiers de localisation
-    ├── data/.........# Données du jeu
-    │   ├── config/...# Fichiers de configuration
-    │   └── strings/..# Fichiers de traduction
-    └── graphics/.....# Ressources graphiques
-        └── ui/.......# Interface utilisateur
-```
+### Notes de Version
+- Première version publique
+- Traduction complète des conseils
+- Validation typographique
+- Tests complets
 
-## Contribution
+### Prochaines Versions
+- v1.1.0 : Support des strings.json
+- v1.2.0 : Support des descriptions.csv
+- v1.3.0 : Support des missions
 
-Pour contribuer à la traduction :
-1. Créez un fork du projet
-2. Créez une branche pour vos modifications
-3. Soumettez une pull request
+### Bugs Connus
+- Aucun bug connu à ce stade
+- [Voir tous les bugs](https://github.com/mipsou/starsector_lang_pack_fr/issues)
 
-## Ressources
+### Contact
+- GitHub : [mipsou/starsector_lang_pack_fr](https://github.com/mipsou/starsector_lang_pack_fr)
+- Forum : [Topic Starsector](http://fractalsoftworks.com/forum/)
+- Issues : [Tracker GitHub](https://github.com/mipsou/starsector_lang_pack_fr/issues)
 
-### Pour les Utilisateurs
-- [Forum Starsector](http://fractalsoftworks.com/forum)
-- [Wiki Starsector](http://starsector.wikia.com)
+### Licence
+MIT License - Voir [LICENSE.md](LICENSE.md) pour plus de détails
 
-### Pour les Développeurs
-- [Forum Modding Officiel](https://fractalsoftworks.com/forum/index.php?board=10.0) - Support et discussions
-- [Guide de Modding Officiel](https://fractalsoftworks.com/forum/index.php?topic=4760.0) - **LECTURE OBLIGATOIRE**
-- [Tutoriel de Modding - Part 1](https://fractalsoftworks.com/forum/index.php?topic=4761.0)
-- [Guide de Style](https://fractalsoftworks.com/forum/index.php?topic=7164.0)
-- [Guide de Publication](https://fractalsoftworks.com/forum/index.php?topic=15244.0)
-- [Documentation du Modding](http://fractalsoftworks.com/docs)
-- [Wiki Modding](http://starsector.wikia.com/wiki/Modding)
-
-Pour plus de ressources et de guides, consultez le [devbook.md](devbook.md).
-
-## Licence
-
-Ce mod est sous licence MIT.
-
-## Crédits
-
-- Traduction française par mipsou
-- Structure basée sur le mod de traduction chinoise
+### Contribution
+Les contributions sont les bienvenues ! Consultez notre [guide de contribution](https://github.com/mipsou/starsector_lang_pack_fr/wiki/Contributing) pour plus d'informations.

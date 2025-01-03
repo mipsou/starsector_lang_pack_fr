@@ -1,13 +1,15 @@
 {
-  "id": "starsector_lang_pack_fr_dev",
-  "name": "Starsector Language Pack - French (DEV)",
+  "id": "starsector_lang_pack_fr",
+  "name": "Starsector Language Pack - French",
   "author": "mipsou",
   "totalConversion": "false",
   "utility": "true",
-  "version": {"major":0, "minor":1, "patch":0},
-  "description": "French language pack for Starsector - Development Version",
+  "version": {"major":1, "minor":0, "patch":0},
+  "description": "French language pack for Starsector (Tips Only)",
   "gameVersion": "0.97a-RC11",
-  "replace": [],
+  "replace": [
+    "data/strings/tips.json"
+  ],
   "jars": [],
   "dependencies": []
 }
