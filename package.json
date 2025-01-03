@@ -1,0 +1,29 @@
+{
+  "name": "starsector_lang_pack_fr",
+  "version": "1.0.0",
+  "description": "Pack de traduction française pour Starsector",
+  "author": "mipsou",
+  "license": "MIT",
+  "homepage": "https://github.com/mipsou/starsector_lang_pack_fr",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mipsou/starsector_lang_pack_fr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mipsou/starsector_lang_pack_fr/issues"
+  },
+  "keywords": [
+    "starsector",
+    "mod",
+    "translation",
+    "french",
+    "localization"
+  ],
+  "files": [
+    "data/",
+    "scripts/",
+    "README.md",
+    "mod_info.json",
+    "requirements.txt"
+  ]
+}

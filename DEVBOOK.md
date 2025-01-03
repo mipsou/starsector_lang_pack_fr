@@ -203,3 +203,36 @@ Développement de v1.1.0 :
 2. Configurer les nouvelles GitHub Actions
 3. Mettre à jour la documentation wiki
 4. Commencer le développement v1.1.0
+
+### 03/01/2025 23:15 - Publication du Package v1.0.0
+
+#### 📦 Package GitHub
+- Nom : starsector_lang_pack_fr
+- Version : 1.0.0
+- URL : https://github.com/users/mipsou/packages?repo_name=starsector_lang_pack_fr
+
+#### 📄 Contenu du Package
+- data/ : fichiers de traduction
+- scripts/ : outils et tests
+- README.md : documentation
+- mod_info.json : configuration
+- requirements.txt : dépendances
+
+#### 📝 Description
+Pack de traduction française pour Starsector, focalisé sur les tips pour cette version.
+
+#### 🏷️ Tags
+- starsector
+- mod
+- translation
+- french
+- localization
+
+#### 📥 Installation
+```bash
+# Via GitHub Packages
+gh package download starsector_lang_pack_fr --version 1.0.0
+
+# Via Release
+gh release download v1.0.0 -R mipsou/starsector_lang_pack_fr
+```
