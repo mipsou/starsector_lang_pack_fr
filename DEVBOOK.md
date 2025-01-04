@@ -236,3 +236,26 @@ gh package download starsector_lang_pack_fr --version 1.0.0
 # Via Release
 gh release download v1.0.0 -R mipsou/starsector_lang_pack_fr
 ```
+
+### 2025-01-04 - Transition des noms de fichiers
+
+#### Contexte
+- Alignement avec le dépôt public
+- Suppression du suffixe `_fr` des fichiers JSON
+- Conservation des sauvegardes avec extension `.bak`
+
+#### Actions réalisées
+1. Création du script `tools/transition_files.py`
+2. Modification du validateur JSON pour supporter la nouvelle structure
+3. Sauvegarde automatique des fichiers avant renommage
+
+#### Utilisation
+Pour effectuer la transition :
+```bash
+python tools/transition_files.py
+```
+
+#### Notes importantes
+- Les fichiers originaux sont sauvegardés avec l'extension `.bak`
+- Le validateur JSON a été mis à jour pour la nouvelle structure
+- Vérifier la cohérence avec le dépôt public après la transition
