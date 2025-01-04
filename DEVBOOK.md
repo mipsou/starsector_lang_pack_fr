@@ -259,3 +259,25 @@ python tools/transition_files.py
 - Les fichiers originaux sont sauvegardés avec l'extension `.bak`
 - Le validateur JSON a été mis à jour pour la nouvelle structure
 - Vérifier la cohérence avec le dépôt public après la transition
+
+### 2025-01-04 - Nettoyage des fichiers doublons
+
+### Contexte
+- Détection de fichiers doublons avec suffixe `_fr`
+- Vérification de l'intégrité des données
+- Création de sauvegardes de sécurité
+
+### Fichiers concernés
+- `strings_fr.json` → `strings.json` (11139 octets)
+- `tips_fr.json` → `tips.json` (8558 octets)
+- `tooltips_fr.json` → `tooltips.json` (9108 octets)
+
+### Actions réalisées
+1. Sauvegarde des fichiers dans `backups/strings_20250104/`
+2. Vérification de l'identité binaire des fichiers
+3. Suppression des doublons avec suffixe `_fr`
+
+### Validation
+- Tailles identiques vérifiées
+- Contenus binaires identiques
+- Sauvegardes créées et vérifiées
