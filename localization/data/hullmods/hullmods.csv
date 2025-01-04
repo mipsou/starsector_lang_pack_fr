@@ -1,0 +1,22 @@
+name,id,desc,tech/manufacturer,effect
+Blindage Renforcé,reinforcedhull,"Améliore la structure de la coque du vaisseau, augmentant sa résistance aux dégâts.",Technologie Standard,"+50% points de structure
++25% résistance aux dégâts"
+Boucliers Étendus,extendedshields,"Augmente la couverture des boucliers du vaisseau, offrant une meilleure protection.",Haute Technologie,"+90° arc de bouclier
++10% efficacité"
+Stabilisateurs Avancés,advancedstabilizers,"Améliore la stabilité du vaisseau pendant les manœuvres de combat.",Technologie Intermédiaire,"+20% précision des armes
++15% maniabilité"
+Réacteur Survitaminé,overdriven,"Pousse le réacteur au-delà de ses limites normales pour une meilleure performance.",Pirate,"+20% vitesse maximale
++30% dissipation de flux
+-25% intégrité de combat"
+Condensateurs Améliorés,fluxcoils,"Optimise les systèmes de flux du vaisseau pour une meilleure efficacité énergétique.",Haute Technologie,"+15% capacité de flux
++10% dissipation"
+Armure Composite,compositearmor,"Ajoute des couches supplémentaires d'armure composite pour une meilleure protection.",Basse Technologie,"+150 valeur d'armure
+-5% vitesse maximale"
+Propulseurs Militaires,militarized_subsystems,"Améliore les sous-systèmes du vaisseau selon les standards militaires.",Standard,"+10% vitesse maximale
++10% maniabilité"
+Coque Renforcée,heavyarmor,"Renforce considérablement l'armure du vaisseau au détriment de sa mobilité.",Basse Technologie,"+200 valeur d'armure
+-20% vitesse maximale"
+Systèmes Intégrés,integrated_targeting,"Intègre les systèmes de ciblage pour une meilleure coordination des armes.",Haute Technologie,"+15% portée des armes
++10% précision"
+Capaciteurs de Combat,expanded_magazines,"Augmente la capacité de munitions des armes du vaisseau.",Standard,"+30% capacité de munitions
++15% temps de rechargement"

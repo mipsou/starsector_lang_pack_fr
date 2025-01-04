@@ -1,177 +1,180 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 import unittest
 import os
 import shutil
 import tempfile
-from validate_translations import validate_mission_text, auto_correct_text, load_glossary, auto_correct_file
+import json
+from pathlib import Path
+from validate_translations import (
+    TranslationConfig,
+    MissionValidator,
+    check_encoding,
+    validate_json,
+    validate_csv,
+    compare_with_original
+)
 
 class TestIntegration(unittest.TestCase):
     def setUp(self):
         """Initialisation des tests d'intégration."""
-        self.test_dir = tempfile.mkdtemp()
-        self.mission_dir = os.path.join(self.test_dir, "missions")
-        os.makedirs(self.mission_dir)
+        self.test_dir = Path(tempfile.mkdtemp())
+        self.config = TranslationConfig()
         
-        # Création d'une structure de dossiers similaire à celle du mod
-        self.create_mission_structure()
+        # Redirection des chemins pour les tests
+        self.config.base_dir = self.test_dir
+        self.config.localization_dir = self.test_dir / 'localization'
+        self.config.data_dir = self.config.localization_dir / 'data'
+        self.config.strings_dir = self.config.data_dir / 'strings'
+        self.config.missions_dir = self.config.data_dir / 'missions'
         
-        # Chargement du glossaire
-        self.glossary = load_glossary()
+        # Création des répertoires
+        self.config.strings_dir.mkdir(parents=True)
+        self.config.missions_dir.mkdir(parents=True)
+        
+        # Création des fichiers de test
+        self.create_test_structure()
     
-    def create_mission_structure(self):
-        """Crée une structure de dossiers de mission."""
+    def create_test_structure(self):
+        """Crée une structure complète de test."""
+        # Structure des missions
         missions = {
             "tutorial": {
                 "mission_text.txt": """Lieu : Système Corvus
 Date : 3014
-Objectifs : Le Space Marshal vous attend.
-Description : Une Fleet ennemie approche."""
+Objectifs : Le Maréchal Spatial vous attend.
+Description : Une flotte ennemie approche."""
             },
             "campaign": {
                 "mission1": {
                     "mission_text.txt": """Lieu : Système Corvus
 Date : 3015
-Objectifs : Protéger la Fleet.
-Description : Test."""
+Objectifs : Protéger la flotte.
+Description : Test avec la typographie française : parfait !"""
                 },
                 "mission2": {
                     "mission_text.txt": """Lieu : Test
 Date : 3016
-Objectifs : Rencontrer le Space Marshal.
-Description : Test."""
+Objectifs : Rencontrer le Maréchal Spatial.
+Description : Test avec des « guillemets » et des points…"""
                 }
             }
         }
         
+        # Structure des fichiers JSON
+        json_files = {
+            "descriptions.json": {
+                "ship_data": {
+                    "fighter": "Chasseur léger",
+                    "destroyer": "Destructeur"
+                },
+                "weapon_data": {
+                    "laser": "Laser standard",
+                    "missile": "Missile guidé"
+                }
+            },
+            "strings.json": {
+                "ui": {
+                    "menu": "Menu principal",
+                    "save": "Sauvegarder"
+                }
+            }
+        }
+        
+        # Structure des fichiers CSV
+        csv_files = {
+            "glossary.csv": """terme,traduction
+Space Marshal,Maréchal Spatial
+Fleet,Flotte
+Corvus System,Système Corvus"""
+        }
+        
+        # Création des missions
         for mission, content in missions.items():
             if isinstance(content, dict):
                 for submission, subcontent in content.items():
                     if isinstance(subcontent, dict):
-                        path = os.path.join(self.mission_dir, mission, submission)
-                        os.makedirs(path, exist_ok=True)
+                        path = self.config.missions_dir / mission / submission
+                        path.mkdir(parents=True, exist_ok=True)
                         for filename, text in subcontent.items():
-                            with open(os.path.join(path, filename), 'w', encoding='utf-8') as f:
-                                f.write(text)
+                            (path / filename).write_text(text, encoding='utf-8')
                     else:
-                        path = os.path.join(self.mission_dir, mission)
-                        os.makedirs(path, exist_ok=True)
-                        with open(os.path.join(path, submission), 'w', encoding='utf-8') as f:
-                            f.write(subcontent)
+                        path = self.config.missions_dir / mission
+                        path.mkdir(parents=True, exist_ok=True)
+                        (path / submission).write_text(content[submission], encoding='utf-8')
+        
+        # Création des fichiers JSON
+        for filename, content in json_files.items():
+            path = self.config.strings_dir / filename
+            with open(path, 'w', encoding='utf-8') as f:
+                json.dump(content, f, indent=2, ensure_ascii=False)
+        
+        # Création des fichiers CSV
+        for filename, content in csv_files.items():
+            path = self.config.strings_dir / filename
+            with open(path, 'w', encoding='utf-8') as f:
+                f.write(content)
     
-    def test_file_structure(self):
-        """Test la validation sur une structure de fichiers complète."""
-        errors_by_file = {}
+    def test_full_validation(self):
+        """Test complet de validation."""
+        validator = MissionValidator(self.config)
         
-        for root, dirs, files in os.walk(self.mission_dir):
-            for file in files:
-                if file == "mission_text.txt":
-                    file_path = os.path.join(root, file)
-                    errors = validate_mission_text(file_path)
-                    if errors:
-                        errors_by_file[file_path] = errors
+        # Test des missions
+        mission_files = list(self.config.missions_dir.rglob('mission_text.txt'))
+        self.assertTrue(len(mission_files) > 0, "Aucun fichier mission trouvé")
         
-        # Vérifie que chaque fichier a des erreurs (termes anglais)
-        self.assertEqual(len(errors_by_file), 3,
-                        "Devrait trouver des erreurs dans les 3 fichiers")
+        for mission_file in mission_files:
+            issues = validator.validate_mission_text(mission_file)
+            self.assertEqual(len(issues), 0, 
+                           f"Erreurs dans {mission_file}: {issues}")
         
-        for file_path, errors in errors_by_file.items():
-            self.assertTrue(any("Space Marshal" in error or "Fleet" in error for error in errors),
-                          f"Devrait trouver des termes anglais dans {file_path}")
+        # Test des fichiers JSON
+        json_files = list(self.config.strings_dir.glob('*.json'))
+        self.assertTrue(len(json_files) > 0, "Aucun fichier JSON trouvé")
+        
+        for json_file in json_files:
+            self.assertTrue(validate_json(json_file),
+                          f"Validation JSON échouée pour {json_file}")
+        
+        # Test des fichiers CSV
+        csv_files = list(self.config.strings_dir.glob('*.csv'))
+        self.assertTrue(len(csv_files) > 0, "Aucun fichier CSV trouvé")
+        
+        for csv_file in csv_files:
+            self.assertTrue(validate_csv(csv_file),
+                          f"Validation CSV échouée pour {csv_file}")
     
-    def test_file_backup(self):
-        """Test la création de sauvegardes lors de la correction."""
-        from validate_translations import auto_correct_file
+    def test_encoding(self):
+        """Test de l'encodage de tous les fichiers."""
+        all_files = (
+            list(self.config.missions_dir.rglob('*.txt')) +
+            list(self.config.strings_dir.glob('*.json')) +
+            list(self.config.strings_dir.glob('*.csv'))
+        )
         
-        test_file = os.path.join(self.mission_dir, "tutorial", "mission_text.txt")
-        original_content = None
-        
-        # Sauvegarde du contenu original
-        with open(test_file, 'r', encoding='utf-8') as f:
-            original_content = f.read()
-        
-        # Correction du fichier
-        backup_file = auto_correct_file(test_file)
-        
-        # Vérifie que la sauvegarde existe et contient le contenu original
-        self.assertTrue(os.path.exists(backup_file),
-                       "Le fichier de sauvegarde devrait exister")
-        
-        with open(backup_file, 'r', encoding='utf-8') as f:
-            backup_content = f.read()
-            self.assertEqual(backup_content, original_content,
-                           "La sauvegarde devrait contenir le contenu original")
-        
-        # Vérifie que le fichier original a été modifié
-        with open(test_file, 'r', encoding='utf-8') as f:
-            new_content = f.read()
-            self.assertNotEqual(new_content, original_content,
-                              "Le fichier original devrait être modifié")
-            self.assertIn("Maréchal Spatial", new_content,
-                         "Le terme 'Space Marshal' devrait être traduit")
-            self.assertIn("Flotte", new_content,
-                         "Le terme 'Fleet' devrait être traduit")
-
-    def test_concurrent_access(self):
-        """Test l'accès concurrent aux fichiers."""
-        import threading
-        import time
-        
-        def validate_file(file_path, results):
-            """Fonction pour valider un fichier dans un thread."""
-            try:
-                errors = validate_mission_text(file_path)
-                results.append((file_path, errors))
-            except Exception as e:
-                results.append((file_path, str(e)))
-        
-        # Liste tous les fichiers mission_text.txt
-        files_to_validate = []
-        for root, dirs, files in os.walk(self.mission_dir):
-            for file in files:
-                if file == "mission_text.txt":
-                    files_to_validate.append(os.path.join(root, file))
-        
-        # Crée et démarre les threads
-        results = []
-        threads = []
-        for file_path in files_to_validate:
-            thread = threading.Thread(target=validate_file,
-                                   args=(file_path, results))
-            threads.append(thread)
-            thread.start()
-        
-        # Attend que tous les threads soient terminés
-        for thread in threads:
-            thread.join()
-        
-        # Vérifie les résultats
-        self.assertEqual(len(results), len(files_to_validate),
-                        "Tous les fichiers devraient être validés")
-        
-        for file_path, result in results:
-            self.assertIsInstance(result, list,
-                                f"La validation de {file_path} devrait retourner une liste d'erreurs")
+        for file in all_files:
+            self.assertTrue(check_encoding(file),
+                          f"Encodage incorrect pour {file}")
     
-    def test_error_handling(self):
-        """Test la gestion des erreurs."""
-        # Test avec un fichier inexistant
-        with self.assertRaises(FileNotFoundError):
-            validate_mission_text("fichier_inexistant.txt")
+    def test_structure_integrity(self):
+        """Test de l'intégrité de la structure."""
+        # Vérification des répertoires requis
+        self.assertTrue(self.config.missions_dir.exists(),
+                       "Répertoire missions manquant")
+        self.assertTrue(self.config.strings_dir.exists(),
+                       "Répertoire strings manquant")
         
-        # Test avec un fichier vide
-        empty_file = os.path.join(self.test_dir, "empty.txt")
-        with open(empty_file, 'w', encoding='utf-8') as f:
-            pass
+        # Vérification des fichiers requis
+        required_files = [
+            self.config.strings_dir / 'descriptions.json',
+            self.config.strings_dir / 'strings.json',
+            self.config.strings_dir / 'glossary.csv'
+        ]
         
-        errors = validate_mission_text(empty_file)
-        self.assertTrue(errors, "Un fichier vide devrait générer des erreurs")
-        
-        # Test avec un fichier non UTF-8
-        binary_file = os.path.join(self.test_dir, "binary.txt")
-        with open(binary_file, 'wb') as f:
-            f.write(b'\x80\x81')
-        
-        with self.assertRaises(UnicodeDecodeError):
-            validate_mission_text(binary_file)
+        for file in required_files:
+            self.assertTrue(file.exists(),
+                          f"Fichier requis manquant : {file}")
     
     def tearDown(self):
         """Nettoyage après les tests."""

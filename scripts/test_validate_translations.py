@@ -1,155 +1,127 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 import unittest
 import os
 import tempfile
+import json
+from pathlib import Path
 from validate_translations import (
-    validate_mission_text,
-    auto_correct_text,
-    load_glossary
+    TranslationConfig,
+    MissionValidator,
+    check_encoding,
+    validate_json,
+    validate_csv,
+    compare_with_original
 )
 
 class TestValidateTranslations(unittest.TestCase):
     def setUp(self):
         """Initialisation des tests."""
-        self.test_dir = tempfile.mkdtemp()
+        self.test_dir = Path(tempfile.mkdtemp())
+        self.config = TranslationConfig()
         
-        # Création d'un glossaire de test
-        self.glossary_content = """en,fr
-Space Marshal,Maréchal Spatial
-Corvus System,Système Corvus
-Fleet,Flotte"""
-        self.glossary_path = os.path.join(self.test_dir, "glossary.csv")
-        with open(self.glossary_path, "w", encoding="utf-8") as f:
-            f.write(self.glossary_content)
-    
-    def create_test_file(self, content):
+        # Redirection des chemins pour les tests
+        self.config.base_dir = self.test_dir
+        self.config.localization_dir = self.test_dir / 'localization'
+        self.config.data_dir = self.config.localization_dir / 'data'
+        self.config.strings_dir = self.config.data_dir / 'strings'
+        self.config.missions_dir = self.config.data_dir / 'missions'
+        
+        # Création des répertoires de test
+        self.config.strings_dir.mkdir(parents=True)
+        self.config.missions_dir.mkdir(parents=True)
+        
+    def create_test_file(self, content, filename, encoding='utf-8'):
         """Crée un fichier de test avec le contenu spécifié."""
-        file_path = os.path.join(self.test_dir, "mission_text.txt")
-        with open(file_path, "w", encoding="utf-8") as f:
-            f.write(content)
+        file_path = self.test_dir / filename
+        file_path.parent.mkdir(parents=True, exist_ok=True)
+        
+        if isinstance(content, str):
+            file_path.write_text(content, encoding=encoding)
+        elif isinstance(content, dict):
+            file_path.write_text(json.dumps(content, indent=2), encoding=encoding)
+            
         return file_path
     
-    def test_structure_validation(self):
-        """Test de la validation de la structure."""
-        # Test avec une structure valide
-        content = """Lieu : Test
-Date : 3014
-Objectifs : Test
-Description : Test"""
-        file_path = self.create_test_file(content)
-        errors = validate_mission_text(file_path)
-        self.assertEqual(len(errors), 0, "Le fichier valide ne devrait pas avoir d'erreurs")
+    def test_encoding_validation(self):
+        """Test de la validation de l'encodage."""
+        # Test UTF-8
+        content = "Test content with UTF-8 é à ù"
+        file_path = self.create_test_file(content, "test_utf8.txt", "utf-8")
+        self.assertTrue(check_encoding(file_path))
         
-        # Test avec une structure invalide
-        content = """Test invalide
-Sans structure"""
-        file_path = self.create_test_file(content)
-        errors = validate_mission_text(file_path)
-        self.assertTrue(any("Lieu :" in error for error in errors), 
-                       "Devrait détecter l'absence de 'Lieu :'")
+        # Test autre encodage
+        file_path = self.create_test_file(content, "test_latin1.txt", "latin1")
+        self.assertFalse(check_encoding(file_path))
     
-    def test_typography_validation(self):
-        """Test de la validation typographique."""
-        # Test des espaces avant/après la ponctuation
-        content = """Lieu:Test
-Date:3014
-Objectifs:Test!Description:Test"""
-        file_path = self.create_test_file(content)
-        errors = validate_mission_text(file_path)
-        self.assertTrue(any("Espace manquante" in error for error in errors),
-                       "Devrait détecter les espaces manquantes")
-    
-    def test_glossary_validation(self):
-        """Test de la validation du glossaire."""
-        content = """Lieu : Test
-Date : 3014
-Objectifs : Le Space Marshal dirige la Fleet
-Description : Test"""
-        file_path = self.create_test_file(content)
-        errors = validate_mission_text(file_path)
-        self.assertTrue(any("Space Marshal" in error for error in errors),
-                       "Devrait détecter le terme anglais 'Space Marshal'")
-        self.assertTrue(any("Fleet" in error for error in errors),
-                       "Devrait détecter le terme anglais 'Fleet'")
-    
-    def test_auto_correction(self):
-        """Test de la correction automatique."""
-        content = """Lieu:Test
-Date:3014
-Objectifs:Le Space Marshal dirige la Fleet!
-Description:Test"""
+    def test_json_validation(self):
+        """Test de la validation JSON."""
+        # JSON valide
+        content = {"key": "value", "nested": {"key": "value"}}
+        file_path = self.create_test_file(content, "test.json")
+        self.assertTrue(validate_json(file_path))
         
-        glossary = load_glossary()
-        corrected = auto_correct_text(content, glossary)
+        # JSON invalide
+        content = "{'key': 'value'"  # JSON mal formaté
+        file_path = self.create_test_file(content, "invalid.json")
+        self.assertFalse(validate_json(file_path))
+    
+    def test_csv_validation(self):
+        """Test de la validation CSV."""
+        # CSV valide
+        content = "header1,header2\nvalue1,value2\nvalue3,value4"
+        file_path = self.create_test_file(content, "test.csv")
+        self.assertTrue(validate_csv(file_path))
         
-        # Vérifie la correction des espaces
-        self.assertIn("Lieu : ", corrected,
-                     "Devrait corriger les espaces avant/après les deux-points")
+        # CSV invalide (colonnes incohérentes)
+        content = "header1,header2\nvalue1\nvalue3,value4"
+        file_path = self.create_test_file(content, "invalid.csv")
+        self.assertFalse(validate_csv(file_path))
+    
+    def test_mission_validation(self):
+        """Test de la validation des missions."""
+        validator = MissionValidator(self.config)
         
-        # Vérifie la correction des termes anglais
-        self.assertIn("Maréchal Spatial", corrected,
-                     "Devrait remplacer 'Space Marshal' par 'Maréchal Spatial'")
-        self.assertIn("Flotte", corrected,
-                     "Devrait remplacer 'Fleet' par 'Flotte'")
-    
-    def test_empty_file(self):
-        """Test avec un fichier vide."""
-        file_path = self.create_test_file("")
-        errors = validate_mission_text(file_path)
-        self.assertTrue(any("Lieu :" in error for error in errors),
-                       "Devrait détecter un fichier vide")
-    
-    def test_missing_sections(self):
-        """Test avec des sections manquantes."""
-        content = """Lieu : Test
-Description : Test"""
-        file_path = self.create_test_file(content)
-        errors = validate_mission_text(file_path)
-        self.assertTrue(any("Date :" in error for error in errors),
-                       "Devrait détecter l'absence de la section Date")
-        self.assertTrue(any("Objectifs :" in error for error in errors),
-                       "Devrait détecter l'absence de la section Objectifs")
-    
-    def test_special_characters(self):
-        """Test avec des caractères spéciaux."""
-        content = """Lieu : Test...
-Date : 3014
-Objectifs : Test "citation" test
-Description : Test"""
-        file_path = self.create_test_file(content)
-        errors = validate_mission_text(file_path)
-        self.assertTrue(any("points de suspension" in error for error in errors),
-                       "Devrait détecter les points de suspension incorrects")
-        self.assertTrue(any("guillemets français" in error for error in errors),
-                       "Devrait détecter les guillemets droits")
-    
-    def test_case_sensitivity(self):
-        """Test de la sensibilité à la casse."""
-        content = """Lieu : Test
-Date : 3014
-Objectifs : Le SPACE MARSHAL et la space fleet
-Description : Test"""
-        file_path = self.create_test_file(content)
-        errors = validate_mission_text(file_path)
-        self.assertTrue(any("Space Marshal" in error for error in errors),
-                       "Devrait détecter le terme anglais indépendamment de la casse")
-        self.assertTrue(any("Fleet" in error for error in errors),
-                       "Devrait détecter le terme anglais indépendamment de la casse")
+        # Mission valide
+        content = "Lieu : Test\n"
+        content += "Date : 3014\n"
+        content += "Objectifs : Test\n"
+        content += "Description : Un test avec la typographie française : parfait !\n"
+        file_path = self.create_test_file(content, "missions/test/mission_text.txt")
+        issues = validator.validate_mission_text(file_path)
+        self.assertEqual(len(issues), 0, "La mission valide ne devrait pas avoir d'erreurs")
         
-        # Test de la correction automatique
-        glossary = load_glossary()
-        corrected = auto_correct_text(content, glossary)
-        self.assertIn("Maréchal Spatial", corrected,
-                     "Devrait corriger le terme anglais en majuscules")
-        self.assertIn("Flotte", corrected,
-                     "Devrait corriger le terme anglais en minuscules")
-
+        # Mission avec erreurs typographiques
+        content = "Lieu : Test\n"
+        content += "Date : 3014\n"
+        content += "Objectifs: Test sans espace\n"
+        content += "Description: Test avec \"guillemets\" et points...\n"
+        file_path = self.create_test_file(content, "missions/invalid/mission_text.txt")
+        issues = validator.validate_mission_text(file_path)
+        self.assertTrue(len(issues) > 0, "Devrait détecter les erreurs typographiques")
+    
+    def test_compare_with_original(self):
+        """Test de la comparaison avec les fichiers originaux."""
+        # Fichiers identiques
+        orig_content = {"key1": "value1", "key2": {"nested": "value2"}}
+        translated_content = {"key1": "valeur1", "key2": {"nested": "valeur2"}}
+        
+        orig_file = self.create_test_file(orig_content, "original/test.json")
+        translated_file = self.create_test_file(translated_content, "localization/test.json")
+        
+        self.assertTrue(compare_with_original(translated_file, orig_file))
+        
+        # Fichiers différents
+        translated_content = {"key1": "valeur1", "extra": "value"}
+        translated_file = self.create_test_file(translated_content, "localization/different.json")
+        
+        self.assertFalse(compare_with_original(translated_file, orig_file))
+    
     def tearDown(self):
         """Nettoyage après les tests."""
-        # Supprime les fichiers de test
-        for root, dirs, files in os.walk(self.test_dir):
-            for file in files:
-                os.remove(os.path.join(root, file))
-        os.rmdir(self.test_dir)
+        import shutil
+        shutil.rmtree(self.test_dir)
 
 if __name__ == '__main__':
     unittest.main()

@@ -1,0 +1,11 @@
+# CI/CD requirements
+-r base.txt
+
+# Testing essentials
+pytest==7.4.3
+coverage==7.3.2
+
+# Code quality for CI
+black==23.12.1
+flake8==7.0.0
+mypy==1.8.0

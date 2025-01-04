@@ -1,0 +1,6 @@
+Lieu : Quelque part dans l'Étendue Médiosolaire
+Date : Inconnue
+
+Pilotez un vaisseau capital dans cette mission opposant deux flottes générées aléatoirement de force égale.
+
+Cliquez sur la mission dans la liste pour regénérer les flottes.
