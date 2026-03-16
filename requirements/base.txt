@@ -8,4 +8,4 @@ beautifulsoup4==4.12.2
 # Specific tools requirements
 markdown==3.5.1
 striprtf==0.0.26
-pypdf==3.9.0
+pypdf==6.8.0
