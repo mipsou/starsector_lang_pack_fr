@@ -6,6 +6,6 @@ spacy==3.7.2
 beautifulsoup4==4.12.2
 
 # Specific tools requirements
-markdown==3.5.1
+markdown==3.8.1
 striprtf==0.0.26
 pypdf==3.9.0
