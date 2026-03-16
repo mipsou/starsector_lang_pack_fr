@@ -479,6 +479,46 @@ python forum_scraper.py
   - Mise en garde sur cmd.exe
 - Temps de développement total : 24h34m
 
+## Automatisation des Captures d'Écran
+
+#### Configuration de Chrome Headless
+```powershell
+# Installation des dépendances
+pip install selenium
+pip install webdriver_manager
+
+# Script Python pour la capture
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
+
+def setup_chrome_headless():
+    chrome_options = Options()
+    chrome_options.add_argument("--headless=new")
+    chrome_options.add_argument("--window-size=1920,1080")
+    chrome_options.add_argument("--disable-gpu")
+    
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+    return driver
+
+def capture_screenshot(url, output_path):
+    driver = setup_chrome_headless()
+    driver.get(url)
+    driver.save_screenshot(output_path)
+    driver.quit()
+```
+
+#### Utilisation
+```python
+# Exemple de capture
+capture_screenshot(
+    "file:///D:/Fractal%20Softworks/Starsector/mods/starsector_lang_pack_fr/README.md",
+    "screenshots/readme.png"
+)
+```
+
 ### 30 Décembre 2024 - 08:56 - 09:00 (4 minutes)
 - Recherche sur Chrome Headless
   - Configuration pour les captures d'écran
@@ -486,189 +526,133 @@ python forum_scraper.py
   - Documentation de l'installation
 - Temps de développement total : 24h38m
 
-### Problèmes Identifiés
-1. Quelques titres de section doivent être mieux formatés
-2. Les exemples de code nécessitent un meilleur formatage
-3. Les variables sont maintenant en `code` mais certaines peuvent être manquées
+### Automatisation des Captures d'Écran
 
-### Actions Suivantes
-1. Ajouter une table des matières automatique
-2. Revoir le formatage des tableaux si présents
-3. Ajouter des liens internes pour la navigation
+#### Configuration de Selenium Python
+```python
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.action_chains import ActionChains
 
-## Plan de Traduction
-1. Identifier les fichiers prioritaires à traduire
-2. Créer une structure de dossiers miroir pour les traductions
-3. Mettre en place un système de suivi de progression
-4. Établir un glossaire des termes récurrents
+def setup_driver():
+    chrome_options = webdriver.ChromeOptions()
+    chrome_options.add_argument("--headless=new")
+    chrome_options.add_argument("--window-size=1920,1080")
+    chrome_options.add_argument("--hide-scrollbars")
+    chrome_options.add_argument("--disable-gpu")
+    
+    driver = webdriver.Chrome(options=chrome_options)
+    return driver
 
-### Méthode de Traduction Proposée
-- Traduction par lots thématiques
-- Validation des traductions par tests in-game
-- Documentation des choix de traduction
-- Gestion des versions avec git
+def wait_for_element(driver, selector, timeout=10):
+    """Attend qu'un élément soit visible"""
+    return WebDriverWait(driver, timeout).until(
+        EC.visibility_of_element_located((By.CSS_SELECTOR, selector))
+    )
 
-### Actions Suivantes
-1. Vérifier la qualité de la conversion Markdown
-2. Extraire les termes clés pour le glossaire
-3. Commencer la traduction de la documentation
+def capture_element(driver, element, output_path):
+    """Capture un élément spécifique"""
+    element.screenshot(output_path)
 
-### Plan de Travail - Images UI
+def capture_full_page(driver, url, output_path):
+    """Capture une page entière avec défilement"""
+    driver.get(url)
+    
+    # Obtenir la hauteur totale de la page
+    total_height = driver.execute_script("return document.body.scrollHeight")
+    driver.set_window_size(1920, total_height)
+    
+    # Attendre le chargement complet
+    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+    driver.execute_script("window.scrollTo(0, 0);")
+    
+    driver.save_screenshot(output_path)
 
-#### 1. Inventaire des Images
-- [ ] Identifier toutes les images dans `localization/graphics/ui`
-- [ ] Créer une liste des images contenant du texte anglais
-- [ ] Classifier les images par type (interface, boutons, textes)
-
-#### 2. Récupération des Originaux
-- [ ] Localiser les images originales dans les fichiers du jeu
-- [ ] Copier les images vers notre dépôt
-- [ ] Vérifier l'intégrité et la qualité des images
-
-#### 3. Traitement des Images
-- [ ] Identifier les images nécessitant un traitement IA
-- [ ] Définir le processus de traitement :
-  1. Extraction du texte
-  2. Traduction
-  3. Génération de nouvelle image
-  4. Vérification de la qualité
-- [ ] Tester le processus sur une image simple
-
-#### 4. Automatisation
-- [ ] Créer un script Python pour :
-  - Identifier les images modifiées
-  - Appliquer le traitement IA
-  - Générer les rapports de modification
-- [ ] Mettre en place des tests de qualité
-
-#### 5. Documentation
-- [ ] Documenter le processus de traitement
-- [ ] Créer un guide pour les contributeurs
-- [ ] Maintenir une liste des images traitées/à traiter
-
-## TODO
-
-### CI/CD
-- [ ] Configurer Azure Pipelines
-  - [ ] Mettre en place les tests automatiques
-  - [ ] Automatiser la conversion PDF/RTF vers Markdown
-  - [ ] Configurer le déploiement automatique
-  - [ ] Mettre en place les vérifications de qualité du code
-
-## Notes de Développement
-
-### Priorités
-1. Stabilité du mod
-2. Qualité des traductions
-3. Performance
-4. Maintenance
-
-### À Faire
-- [ ] Automatisation complète
-- [ ] Tests unitaires
-- [ ] Documentation API
-- [ ] Outils de validation
-
-## Chaîne de Chargement du Mod
-
-### Séquence de Chargement
-1. **enabled_mods.json** (D:\Fractal Softworks\Starsector\mods\enabled_mods.json)
-   - Premier fichier vérifié au démarrage
-   - Contient la liste des mods activés
-   - Format attendu :
-     ```json
-     {
-       "enabled_mods": [
-         "starsector_lang_pack_fr_dev"
-       ]
-     }
-     ```
-
-2. **mod_info.json** (dans chaque dossier de mod)
-   - Définit les métadonnées du mod
-   - Contrôle les remplacements de fichiers
-   - Gère les dépendances
-
-3. **Ressources du Mod**
-   - Fichiers de localisation
-   - Assets graphiques
-   - Configurations
-
-### Points de Vérification
-1. enabled_mods.json existe et est valide
-2. Le mod est correctement listé
-3. mod_info.json est correctement formaté
-4. Les chemins de remplacement sont valides
-
-### Erreurs Courantes
-1. enabled_mods.json manquant ou mal formaté
-2. ID de mod incorrect dans enabled_mods.json
-3. Chemins de remplacement invalides
-
-## Configuration de l'Environnement
-
-### Commandes Autorisées
-Liste des commandes autorisées pour le développement :
-
-```bash
-# Commandes de base
-git
-
-# Récupération de la documentation officielle
-curl -A "Mozilla/5.0" "https://fractalsoftworks.com/forum/index.php?topic=4761.0"
-curl -A "Mozilla/5.0" "https://fractalsoftworks.com/forum/index.php?topic=8355.0"
-curl -A "Mozilla/5.0" "https://fractalsoftworks.com/forum/index.php?topic=7164.0"
-curl -A "Mozilla/5.0" "https://fractalsoftworks.com/forum/index.php?topic=15244.0"
-curl -A "Mozilla/5.0" "https://fractalsoftworks.com/forum/index.php?topic=6926.0"
-curl -A "Mozilla/5.0" "https://fractalsoftworks.com/forum/index.php?topic=5016.0"
+# Exemple d'utilisation avancée
+def process_ui_elements():
+    driver = setup_driver()
+    try:
+        # Charger la page
+        driver.get("file:///path/to/ui.html")
+        
+        # Attendre un élément spécifique
+        menu = wait_for_element(driver, "#main-menu")
+        
+        # Capturer le menu
+        capture_element(driver, menu, "menu.png")
+        
+        # Faire défiler jusqu'à un élément
+        footer = driver.find_element(By.CSS_SELECTOR, "footer")
+        ActionChains(driver).move_to_element(footer).perform()
+        
+        # Capturer la page entière
+        capture_full_page(driver, driver.current_url, "full_page.png")
+        
+    finally:
+        driver.quit()
 ```
 
-## Configuration Windsurf - Auto-exécution
+#### Fonctionnalités Avancées
+- Attente des éléments
+- Capture d'éléments spécifiques
+- Défilement automatique
+- Gestion des interactions
+- Capture de page complète
 
-### Liste Blanche des Commandes
-Configuration pour permettre l'auto-exécution par Cascade sans confirmation :
+### 30 Décembre 2024 - 09:00 - 09:05 (5 minutes)
+- Documentation de Selenium Python
+  - Fonctions avancées de capture
+  - Gestion des éléments web
+  - Exemples d'utilisation
+- Temps de développement total : 24h43m
 
+## Authentification et Accès
+
+#### 1. Diagnostic Initial
 ```bash
-git
-curl -A "Mozilla/5.0" "https://fractalsoftworks.com/forum/index.php?topic=4761.0"
-curl -A "Mozilla/5.0" "https://fractalsoftworks.com/forum/index.php?topic=8355.0"
-curl -A "Mozilla/5.0" "https://fractalsoftworks.com/forum/index.php?topic=7164.0"
-curl -A "Mozilla/5.0" "https://fractalsoftworks.com/forum/index.php?topic=15244.0"
-curl -A "Mozilla/5.0" "https://fractalsoftworks.com/forum/index.php?topic=6926.0"
-curl -A "Mozilla/5.0" "https://fractalsoftworks.com/forum/index.php?topic=5016.0"
+# Vérification du statut de connexion
+podman login --get-login registry.redhat.io
+
 ```
 
-### Configuration
-1. Ouvrir Windsurf
-2. Aller dans Paramètres
-3. Section "Cascade Commands Allow List"
-4. Copier-coller chaque commande exactement
-5. Ces commandes seront exécutées automatiquement par Cascade
+#### 3. Configuration de l'Accès
+```bash
+# Nettoyage des configurations précédentes (optionnel)
+podman logout registry.redhat.io
 
-## Retours d'Expérience et Erreurs Connues
+# Connexion avec les nouveaux identifiants
+podman login registry.redhat.io
+# Saisir les informations d'authentification
+```
 
-### Bonnes Pratiques de Développement
-1. **TOUJOURS vérifier avant d'agir** :
-   - ✅ Vérifier l'existence des fichiers/dossiers
-   - ✅ Contrôler les permissions
-   - ✅ Valider les chemins d'accès
-   - ❌ Ne jamais supposer qu'un fichier/dossier existe
+#### 4. Vérification de l'Accès
+```bash
+# Test de la connexion
+podman login --get-login registry.redhat.io
 
-2. **Commandes et Chemins** :
-   - ❌ `starsector.exe` - Ne fonctionne pas (chemin non complet)
-   - ✅ `D:\Fractal Softworks\Starsector\starsector.exe` - Correct (chemin complet)
-   - ✅ Toujours vérifier l'existence du fichier avant de l'exécuter
+# Test d'accès au registre
+podman pull registry.redhat.io/ubi9/ubi-minimal
+```
 
-### Processus de Vérification
-1. Vérifier l'existence des ressources
-2. Contrôler les permissions
-3. Valider la structure
-4. Tester l'exécution
+#### 5. Sécurisation
+```bash
+# Vérification des fichiers d'authentification
+ls -la ~/.config/containers/auth.json
 
-### Documentation des Erreurs
-1. Noter immédiatement les erreurs rencontrées
-2. Documenter la solution
-3. Mettre à jour les bonnes pratiques
+# Sauvegarde sécurisée
+cp ~/.config/containers/auth.json ~/.config/containers/auth.json.backup
+chmod 600 ~/.config/containers/auth.json*
+```
+
+#### Notes de Sécurité Importantes
+- Protéger les fichiers d'authentification (permissions 600)
+- Ne jamais partager les fichiers de configuration
+- Utiliser des variables d'environnement pour CI/CD
+- Effectuer des sauvegardes sécurisées
+- Renouveler régulièrement les identifiants
+- Utiliser des droits d'accès minimaux
 
 ## Support
 
@@ -932,187 +916,360 @@ git gc --aggressive
   ```
 - Ne pas utiliser cmd.exe qui gère mal les chemins avec espaces
 
-### 30 Décembre 2024
-#### 08:35 - 08:37 (2 minutes)
-- Documentation des bonnes pratiques pour les commandes
-  - Ajout de la note sur PowerShell
-  - Exemple de gestion des chemins avec espaces
-  - Mise en garde sur cmd.exe
-- Temps de développement total : 24h34m
+### 2 Janvier 2025 - 05:44
+#### Correction de la Documentation de Test
 
-### Automatisation des Captures d'Écran
+##### Procédure de Test Corrigée
+1. Vérification préalable :
+   - Mod activé dans enabled_mods.json ✓
+   - Structure des fichiers en place ✓
 
-#### Configuration de Chrome Headless
-```powershell
-# Installation des dépendances
-pip install selenium
-pip install webdriver_manager
+2. Lancement du jeu :
+   - Exécuter `D:/Fractal Softworks/Starsector/starsector.exe`
+   - Observer le menu principal
+   - Vérifier l'affichage des tips en français
 
-# Script Python pour la capture
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
-from webdriver_manager.chrome import ChromeDriverManager
+##### Rappel Important
+- Le jeu se lance via l'exécutable (.exe) et non le batch (.bat)
+- Les modifications sont prises en compte au démarrage du jeu
+- En cas de problème, vérifier starsector.log
 
-def setup_chrome_headless():
-    chrome_options = Options()
-    chrome_options.add_argument("--headless=new")
-    chrome_options.add_argument("--window-size=1920,1080")
-    chrome_options.add_argument("--disable-gpu")
-    
-    service = Service(ChromeDriverManager().install())
-    driver = webdriver.Chrome(service=service, options=chrome_options)
-    return driver
+{{...}}
 
-def capture_screenshot(url, output_path):
-    driver = setup_chrome_headless()
-    driver.get(url)
-    driver.save_screenshot(output_path)
-    driver.quit()
+### 2 Janvier 2025 - 05:27
+#### Analyse de la Structure des Fichiers de Traduction
+
+##### État Actuel des Fichiers (data/strings/)
+```
+descriptions_fr.csv
+ship_names_fr.json
+strings_fr.json
+tooltips_fr.json
+tips.json              # Ne suit pas la convention de nommage _fr
 ```
 
-#### Utilisation
-```python
-# Exemple de capture
-capture_screenshot(
-    "file:///D:/Fractal%20Softworks/Starsector/mods/starsector_lang_pack_fr/README.md",
-    "screenshots/readme.png"
-)
+##### Observations sur le Nommage
+1. Convention identifiée :
+   - Les fichiers de traduction utilisent le suffixe "_fr"
+   - Le fichier tips.json ne suit pas cette convention
+   - Cette incohérence pourrait causer des problèmes de maintenance
+
+##### Configuration du Mod (mod_info.json)
+```json
+"replace": [
+  "data/strings/tips.json",
+  "data/strings/strings.json"
+]
 ```
 
-### 30 Décembre 2024
-#### 08:56 - 09:00 (4 minutes)
-- Recherche sur Chrome Headless
-  - Configuration pour les captures d'écran
-  - Script d'automatisation Python
-  - Documentation de l'installation
-- Temps de développement total : 24h38m
+##### Tests Effectués
+1. Test local du mod :
+   - Les tips ne s'affichent pas correctement dans le menu
+   - Possible problème de structure ou de nommage
 
-### Automatisation des Captures d'Écran
+##### Questions en Suspens
+1. Structure du fichier tips.json :
+   - Faut-il utiliser un tableau ou un objet pour les tips ?
+   - Le mod chinois utilise un tableau
+   - Notre implémentation utilise un objet
 
-#### Configuration de Selenium Python
-```python
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.action_chains import ActionChains
+2. Convention de nommage :
+   - Devons-nous renommer tips.json en tips_fr.json ?
+   - Impact potentiel sur le système de remplacement de fichiers
 
-def setup_driver():
-    chrome_options = webdriver.ChromeOptions()
-    chrome_options.add_argument("--headless=new")
-    chrome_options.add_argument("--window-size=1920,1080")
-    chrome_options.add_argument("--hide-scrollbars")
-    chrome_options.add_argument("--disable-gpu")
-    
-    driver = webdriver.Chrome(options=chrome_options)
-    return driver
+##### Prochaines Actions (En Attente de Validation)
+1. [ ] Vérifier la structure exacte du fichier tips.json
+2. [ ] Comparer avec l'implémentation chinoise
+3. [ ] Proposer une standardisation du nommage
+4. [ ] Documenter les changements nécessaires
 
-def wait_for_element(driver, selector, timeout=10):
-    """Attend qu'un élément soit visible"""
-    return WebDriverWait(driver, timeout).until(
-        EC.visibility_of_element_located((By.CSS_SELECTOR, selector))
-    )
+##### Notes Techniques
+1. Emplacement des fichiers :
+   - Mod français : D:/Fractal Softworks/Starsector/mods/starsector_lang_pack_fr_private/
+   - Mod chinois : D:/Fractal Softworks/Starsector/mods/temp_mods/chinese_game_mod/
+2. Structure observée du mod chinois :
+   - Utilisation d'un dossier localization
+   - Scripts Python pour la gestion
+   - Organisation modulaire des traductions
 
-def capture_element(driver, element, output_path):
-    """Capture un élément spécifique"""
-    element.screenshot(output_path)
+### 2 Janvier 2025 - 05:30
+#### Traduction des Tips et Strings
 
-def capture_full_page(driver, url, output_path):
-    """Capture une page entière avec défilement"""
-    driver.get(url)
-    
-    # Obtenir la hauteur totale de la page
-    total_height = driver.execute_script("return document.body.scrollHeight")
-    driver.set_window_size(1920, total_height)
-    
-    # Attendre le chargement complet
-    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-    driver.execute_script("window.scrollTo(0, 0);")
-    
-    driver.save_screenshot(output_path)
+##### Méthodologie de Traduction
+1. Création d'un fichier de suivi des traductions :
+   - Fichier : `data/strings/translations/tips_translations.csv`
+   - Format : deux colonnes (original, translation)
+   - Permet de garder une trace de toutes les traductions
 
-# Exemple d'utilisation avancée
-def process_ui_elements():
-    driver = setup_driver()
-    try:
-        # Charger la page
-        driver.get("file:///path/to/ui.html")
-        
-        # Attendre un élément spécifique
-        menu = wait_for_element(driver, "#main-menu")
-        
-        # Capturer le menu
-        capture_element(driver, menu, "menu.png")
-        
-        # Faire défiler jusqu'à un élément
-        footer = driver.find_element(By.CSS_SELECTOR, "footer")
-        ActionChains(driver).move_to_element(footer).perform()
-        
-        # Capturer la page entière
-        capture_full_page(driver, driver.current_url, "full_page.png")
-        
-    finally:
-        driver.quit()
+##### Traductions Effectuées (Première Partie)
+1. Tips de base du jeu :
+   - Tips sur les mécaniques de flux
+   - Tips sur les contrôles de base
+   - Tips sur les types de dégâts
+   - Tips sur les armes et boucliers
+
+##### Notes de Traduction
+1. Adaptations spécifiques :
+   - "LMB/RMB" traduit avec "bouton gauche/droit de la souris" pour plus de clarté
+   - "WASD" adapté en "ZQSD" pour le clavier AZERTY français
+   - Termes techniques conservés ("flux", "LRM")
+
+##### Prochaines Étapes
+1. [ ] Continuer la traduction des tips restants
+2. [ ] Traduire le fichier strings.json
+3. [ ] Intégrer les traductions dans les fichiers finaux
+4. [ ] Vérifier la cohérence des traductions
+5. [ ] Tester en jeu
+
+##### Structure des Fichiers
+```
+data/strings/
+├── translations/
+│   └── tips_translations.csv    # Fichier de référence des traductions
+├── tips.json                    # Fichier final des tips
+└── strings.json                 # À créer
 ```
 
-#### Fonctionnalités Avancées
-- Attente des éléments
-- Capture d'éléments spécifiques
-- Défilement automatique
-- Gestion des interactions
-- Capture de page complète
+### 2 Janvier 2025 - 05:34
+#### Suite des Traductions des Tips
 
-### 30 Décembre 2024
-#### 09:00 - 09:05 (5 minutes)
-- Documentation de Selenium Python
-  - Fonctions avancées de capture
-  - Gestion des éléments web
-  - Exemples d'utilisation
-- Temps de développement total : 24h43m
+##### Traductions Ajoutées
+1. Tips sur les mécaniques avancées :
+   - Gestion du flux et de la vitesse
+   - Raccourcis clavier et interface
+   - Mécaniques de commerce et de ressources
+   - Combat et déploiement
+   - Systèmes de porte-avions
+   - Mécaniques de jeu avancées
 
-## Authentification et Accès
+##### Notes de Traduction Importantes
+1. Terminologie cohérente :
+   - "supplies" traduit par "ressources"
+   - "hull mods" traduit par "modifications de coque"
+   - "s-mods" conservé tel quel
+   - "story points" traduit par "points d'histoire"
 
-#### 1. Diagnostic Initial
-```bash
-# Vérification du statut de connexion
-podman login --get-login registry.redhat.io
+2. Adaptations spécifiques :
+   - Touches de clavier adaptées au contexte français
+   - Termes techniques conservés quand nécessaire
+   - Clarification des concepts de jeu complexes
 
+##### Statistiques de Traduction
+- Total des tips traduits : 40+
+- Cohérence terminologique maintenue
+- Adaptations culturelles effectuées (AZERTY, terminologie française)
+
+##### Prochaines Étapes
+1. [ ] Créer le fichier tips.json final avec toutes les traductions
+2. [ ] Commencer la traduction du fichier strings.json
+3. [ ] Vérifier la cohérence globale des traductions
+4. [ ] Tester en jeu
+
+{{...}}
+
+### 2 Janvier 2025 - 05:35
+#### Création des Fichiers de Traduction Finaux
+
+##### Actions Effectuées
+1. Création du fichier tips_fr.json :
+   - Format JSON avec tableau de tips
+   - Toutes les traductions intégrées
+   - Respect de la structure originale
+   - Conservation des fréquences spéciales (freq:0)
+
+2. Mise à jour du mod_info.json :
+   - Nouvelle structure de remplacement avec from/to
+   - Utilisation explicite des chemins de fichiers
+   ```json
+   "replace": [
+     {"from": "data/strings/tips.json", "to": "data/strings/tips_fr.json"},
+     {"from": "data/strings/strings.json", "to": "data/strings/strings_fr.json"}
+   ]
+   ```
+
+##### Structure Finale
+```
+data/strings/
+├── translations/
+│   └── tips_translations.csv    # Fichier de référence des traductions
+├── tips_fr.json                 # Fichier final des tips en français
+└── strings_fr.json             # À créer
 ```
 
-#### 3. Configuration de l'Accès
-```bash
-# Nettoyage des configurations précédentes (optionnel)
-podman logout registry.redhat.io
+##### Prochaines Étapes
+1. [ ] Commencer la traduction de strings.json
+2. [ ] Créer strings_fr.json
+3. [ ] Tester le mod avec les nouveaux fichiers
+4. [ ] Vérifier l'affichage des caractères spéciaux
 
-# Connexion avec les nouveaux identifiants
-podman login registry.redhat.io
-# Saisir les informations d'authentification
+{{...}}
+
+### 2 Janvier 2025 - 05:40
+#### Test Local des Traductions
+
+##### Procédure de Test
+1. Vérifier que le mod est activé dans :
+   `D:/Fractal Softworks/Starsector/mods/enabled_mods.json`
+
+2. Structure des fichiers à vérifier :
+   ```
+   D:/Fractal Softworks/Starsector/mods/starsector_lang_pack_fr_private/
+   ├── mod_info.json             # Configuration du remplacement
+   └── data/
+       └── strings/
+           ├── tips_fr.json      # Tips traduits
+           └── translations/     # Fichiers de référence
+   ```
+
+3. Lancer le jeu :
+   - Exécuter `D:/Fractal Softworks/Starsector/starsector.exe`
+   - Vérifier les tips dans le menu principal
+   - Contrôler l'affichage des caractères spéciaux
+
+##### Points de Vérification
+1. [ ] Tips visibles dans le menu principal
+2. [ ] Caractères spéciaux (é, è, à, etc.) correctement affichés
+3. [ ] Pas de problèmes d'encodage
+4. [ ] Textes correctement formatés
+
+##### En Cas de Problème
+1. Vérifier l'encodage UTF-8 des fichiers
+2. Contrôler la structure JSON
+3. Vérifier les chemins dans mod_info.json
+4. Consulter les logs du jeu dans :
+   `D:/Fractal Softworks/Starsector/starsector.log`
+
+### 2 Janvier 2025 - 05:49
+#### Analyse des Structures JSON du Jeu
+
+##### Structure de tips.json
+```json
+{
+    "tips": [
+        {"freq":0, "tip":"Exemple avec fréquence personnalisée"},
+        "Tip simple sans fréquence (freq=1 par défaut)",
+        "Autre tip simple"
+    ]
+}
 ```
 
-#### 4. Vérification de l'Accès
-```bash
-# Test de la connexion
-podman login --get-login registry.redhat.io
-
-# Test d'accès au registre
-podman pull registry.redhat.io/ubi9/ubi-minimal
+##### Structure de strings.json
+```json
+{
+    "fleetInteractionDialog": {
+        "initialWithStationVsLargeFleet": "Texte...",
+        "initialAggressive": "Texte...",
+        "initialDisengage": "Texte..."
+    }
+}
 ```
 
-#### 5. Sécurisation
-```bash
-# Vérification des fichiers d'authentification
-ls -la ~/.config/containers/auth.json
+##### Points Clés
+1. Tips :
+   - Tableau de strings ou d'objets
+   - Objets peuvent avoir une fréquence personnalisée
+   - Format simple sans imbrication
 
-# Sauvegarde sécurisée
-cp ~/.config/containers/auth.json ~/.config/containers/auth.json.backup
-chmod 600 ~/.config/containers/auth.json*
+2. Strings :
+   - Structure imbriquée par catégories
+   - Utilisation de tokens ($faction, $fleetName, etc.)
+   - Textes plus complexes avec variables
+
+##### Validation
+- Les fichiers de traduction respectent ces structures ✓
+- L'encodage UTF-8 est utilisé ✓
+- Les tokens sont préservés dans les traductions ✓
+
+{{...}}
+
+### 2 Janvier 2025 - 05:53
+#### Correction de la Structure JSON
+
+##### Problème Identifié
+- Différence de structure dans tips_fr.json
+- Indentation incorrecte
+- Doublons dans les traductions
+
+##### Actions Effectuées
+1. Correction du fichier tips_fr.json :
+   - Ajustement de l'indentation
+   - Suppression des doublons
+   - Respect strict de la structure originale
+
+##### Structure Corrigée
+```json
+{
+    "tips":[
+        {"freq":0, "tip":"Texte..."},
+        "Tip simple...",
+        "Autre tip..."
+    ]
+}
 ```
 
-#### Notes de Sécurité Importantes
-- Protéger les fichiers d'authentification (permissions 600)
-- Ne jamais partager les fichiers de configuration
-- Utiliser des variables d'environnement pour CI/CD
-- Effectuer des sauvegardes sécurisées
-- Renouveler régulièrement les identifiants
-- Utiliser des droits d'accès minimaux
+##### Validation
+- Structure identique à l'original ✓
+- Indentation correcte ✓
+- Pas de doublons ✓
+- Encodage UTF-8 préservé ✓
+
+{{...}}
+
+### 2 Janvier 2025 - 05:56
+#### Traduction de strings.json
+
+##### Section fleetInteractionDialog
+1. Traductions ajoutées :
+   - initialWithStationVsLargeFleet
+   - initialAggressive
+   - initialDisengage
+   - initialCareful
+   - initialNeutral
+   - initialHoldVsStrongerEnemy
+   - initialAggressiveSide
+
+##### Points Clés
+- Conservation des tokens ($faction, $fleetOrShip, etc.)
+- Adaptation des formulations pour le français
+- Respect du style et du ton du jeu
+- Encodage UTF-8 avec caractères spéciaux
+
+##### Prochaines Sections à Traduire
+1. [ ] Combat
+2. [ ] Market
+3. [ ] Intel
+4. [ ] Campaign
+
+##### Notes de Traduction
+- Utilisation du féminin pour "flotte" ($fleetOrShip)
+- Adaptation des expressions idiomatiques
+- Cohérence dans la terminologie militaire
+
+{{...}}
+
+### 2 Janvier 2025 - 06:32
+#### Traduction des Noms de Vaisseaux
+
+##### Actions Réalisées
+1. Création du fichier `ship_names_fr.json`
+2. Traduction des catégories principales :
+   - FRIGATE : Noms de frégates
+   - DESTROYER : Noms de destroyers
+   - CRUISER : Noms de croiseurs
+   - CAPITAL_SHIP : Noms de vaisseaux capitaux
+   - GENERAL : Noms généraux
+   - PIRATES : Noms de pirates
+   - DERELICT_DRONE : Noms de drones abandonnés
+
+##### Prochaines Étapes
+1. Compléter la traduction des autres catégories de noms
+2. Vérifier la cohérence des traductions
+3. Tester l'intégration en jeu
+4. Valider l'encodage UTF-8
+
+##### Notes Techniques
+- Conservation des identifiants techniques (ex: Delta-Max)
+- Adaptation culturelle des noms quand nécessaire
+- Respect de la structure JSON d'origine
+
+{{...}}
