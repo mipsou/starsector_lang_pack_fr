@@ -44,6 +44,7 @@ logs/
 # Game data extracte (regenerable)
 jar_content/
 original/starfarer_obf.zip
+original/jar_extract/
 
 # Workspace files
 *.code-workspace
