@@ -5,10 +5,14 @@
   "totalConversion": "false",
   "utility": "true",
   "version": {"major":1, "minor":0, "patch":0},
-  "description": "French language pack for Starsector (Tips Only)",
+  "description": "French language pack for Starsector",
   "gameVersion": "0.97a-RC11",
   "replace": [
-    "data/strings/tips.json"
+    "data/strings/tips.json",
+    "data/strings/tooltips.json",
+    "data/strings/descriptions.csv",
+    "data/strings/strings.json",
+    "data/strings/ship_names.json"
   ],
   "jars": [],
   "dependencies": []

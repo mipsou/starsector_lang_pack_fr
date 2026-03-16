@@ -38,7 +38,7 @@
 			"title":"Unpause",
 			"body":"Unpauses the game.",
 		},
-		"combatTime":"Time elapsed with both fleets in contact with each other.\n\nThe peak performance time of reinforcements is reduced by half of the combat time.",
+		"combatTime":"Time elapsed with both fleets in contact with each other.\nThe peak performance time of reinforcements is reduced by half of the combat time.",
 	},
 	
 	"fleetScreen":{
@@ -132,17 +132,3 @@
 	},
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

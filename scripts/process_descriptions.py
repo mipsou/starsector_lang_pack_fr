@@ -1,8 +1,32 @@
+#!/usr/bin/env python3
+"""
+Script de traitement des descriptions pour Starsector
+
+Ce script :
+- Traite les fichiers CSV de descriptions
+- Applique les règles typographiques françaises
+- Normalise les termes techniques
+- Gère les genres grammaticaux
+
+Auteur: Mipsou
+Date: 2025-01-22
+"""
 import csv
 import os
+import sys
 from pathlib import Path
 import codecs
 import re
+import unittest
+import shutil
+
+# Ajout du répertoire des scripts au PYTHONPATH
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+if SCRIPT_DIR not in sys.path:
+    sys.path.append(SCRIPT_DIR)
+
+from utils import (fix_quotes, validate_typography, check_encoding,
+                  detect_file_format, format_file)
 
 class DescriptionProcessor:
     def __init__(self, base_path):
@@ -35,293 +59,222 @@ class DescriptionProcessor:
             'Attack': 'Attaque',
             'Power': 'Puissance',
             'Efficiency': 'Efficacité',
-            'Point defense': 'Point de défense',
-            'Destroyer': 'Destroyer',
-            'Cruiser': 'Croiseur',
-            'Battleship': 'Cuirassé',
-            'Frigate': 'Frégate',
-            'Engine': 'Moteur',
-            'Core': 'Noyau',
-            'System': 'Système',
-            'Weapon': 'Arme',
-            'Shield': 'Bouclier',
-            'Hull': 'Coque',
-            'Armor': 'Blindage',
-            'Flux': 'Flux',
-            'Damage': 'Dégâts',
-            'Speed': 'Vitesse',
-            'Range': 'Portée',
-            'Capacity': 'Capacité',
-            'Energy': 'Énergie',
-            'Ballistic': 'Balistique',
-            'Strike': 'Frappe',
-            'Support': 'Soutien',
-            'Command': 'Commandement',
-            'Phase': 'Phase',
-            'Jump': 'Saut',
-            'Drive': 'Propulsion',
-            'Reactor': 'Réacteur',
-            'Generator': 'Générateur',
-            'Computer': 'Ordinateur',
-            'Sensor': 'Capteur',
-            'Scanner': 'Scanner',
-            'Targeting': 'Ciblage',
-            'Navigation': 'Navigation',
-            'Communication': 'Communication',
-            'Assault': 'Assaut',
-            'Task': 'Tâche',
-            'Orders': 'Ordres',
-            'Assignment': 'Mission',
-            'Defend': 'Défendre',
-            'Attack': 'Attaquer',
-            'Move': 'Déplacer',
-            'Hold': 'Tenir',
-            'Retreat': 'Retraiter',
-            'Engage': 'Engager',
-            'Disengage': 'Désengager',
-            'Deploy': 'Déployer',
-            'Recall': 'Rappeler',
-            'Guard': 'Garder',
-            'Escort': 'Escorter',
-            'Search': 'Rechercher',
-            'Patrol': 'Patrouiller',
-            'Intercept': 'Intercepter',
-            'Assist': 'Assister',
-            'Eliminate': 'Éliminer'
         }
         
-        # Dictionnaire des genres
-        self.word_genders = {
-            'ship': 'le',
-            'weapon': 'l\'',
-            'system': 'le',
-            'shield': 'le',
-            'hull': 'la',
-            'armor': 'le',
-            'fleet': 'la',
-            'missile': 'le',
-            'fighter': 'le',
-            'carrier': 'le',
-            'destroyer': 'le',
-            'cruiser': 'le',
-            'battleship': 'le',
-            'frigate': 'la',
-            'engine': 'le',
-            'core': 'le',
-            'generator': 'le',
-            'computer': 'l\'',
-            'sensor': 'le',
-            'scanner': 'le',
-            'reactor': 'le',
-            'drive': 'le',
-            'weapon': 'l\'',
-            'defense': 'la',
-            'attack': 'l\'',
-            'power': 'la',
-            'efficiency': 'l\'',
-            'capacity': 'la',
-            'energy': 'l\'',
-            'damage': 'les',
-            'speed': 'la',
-            'range': 'la'
-        }
-        
-        # Création des répertoires nécessaires
+    def setup_directories(self):
+        """Crée et nettoie les répertoires de travail."""
+        # Suppression des anciens répertoires
+        if self.chunks_dir.exists():
+            shutil.rmtree(self.chunks_dir)
+        if self.processed_dir.exists():
+            shutil.rmtree(self.processed_dir)
+            
+        # Création des nouveaux répertoires
         self.chunks_dir.mkdir(parents=True, exist_ok=True)
         self.processed_dir.mkdir(parents=True, exist_ok=True)
-
-    def get_article(self, word):
-        """Détermine l'article approprié pour un mot"""
-        word = word.lower()
-        for key, article in self.word_genders.items():
-            if word.startswith(key.lower()):
-                return article
-        return 'le'  # Article par défaut
-
-    def translate_text(self, text):
-        """Traduit un texte en appliquant les règles de traduction"""
-        if not text:
-            return text
+    
+    def validate_file(self, strict=True):
+        """Valide le fichier de descriptions.
+        
+        Args:
+            strict (bool): Si True, vérifie strictement l'encodage UTF-8
             
-        # Remplacement des termes techniques
-        for eng, fr in self.tech_terms.items():
-            pattern = re.compile(r'\b' + re.escape(eng) + r'\b', re.IGNORECASE)
-            text = pattern.sub(lambda m: fr if m.group().isupper() else fr.lower(), text)
-        
-        # Correction des articles avec gestion du genre
-        text = re.sub(r'\ba\s+([aeiouAEIOUhH])', r'un \1', text)  # "a" devant voyelle
-        text = re.sub(r'\ba\s+([^aeiouAEIOUhH])', r'un \1', text)  # "a" devant consonne
-        
-        # Remplacement de "the" avec le bon article selon le genre
-        def replace_the(match):
-            word = match.group(1)
-            article = self.get_article(word)
-            return f"{article} {word}"
-        
-        text = re.sub(r'\bthe\s+(\w+)', replace_the, text, flags=re.IGNORECASE)
-        
-        # Correction de la ponctuation française
-        ESPACE_FINE = chr(0x202F)  # Espace fine insécable
-        text = text.replace(' !', ESPACE_FINE + '!')
-        text = text.replace(' ?', ESPACE_FINE + '?')
-        text = text.replace(' :', ESPACE_FINE + ':')
-        text = text.replace(' ;', ESPACE_FINE + ';')
-        text = text.replace('...', '…')
-        
-        # Correction des guillemets
-        text = text.replace('"', '«' + ESPACE_FINE).replace('"', ESPACE_FINE + '»')
-        
-        # Correction des espaces avant les unités
-        def add_fine_space(match):
-            return match.group(1) + ESPACE_FINE + match.group(2)
-        
-        text = re.sub(r'(\d+)\s*(km|m|cm|mm|kg|g|s|min|h)', add_fine_space, text)
-        
-        return text
-
-    def convert_to_utf8(self, file_path):
-        """Convertit un fichier en UTF-8"""
-        print(f"Conversion du fichier en UTF-8 : {file_path}")
-        
-        encodings = ['cp1252', 'latin1', 'utf-8-sig', 'utf-8', 'iso-8859-1']
-        content = None
-        detected_encoding = None
-        
-        for enc in encodings:
-            try:
-                with open(file_path, 'r', encoding=enc) as f:
-                    content = f.read()
-                    detected_encoding = enc
-                    print(f"Fichier lu avec succès en {enc}")
-                    break
-            except UnicodeDecodeError:
-                continue
-        
-        if content is None:
-            raise ValueError("Impossible de détecter l'encodage du fichier")
-        
-        backup_path = file_path.parent / (file_path.name + '.bak')
-        if not backup_path.exists():
-            import shutil
-            shutil.copy2(file_path, backup_path)
-            print(f"Backup créé : {backup_path}")
-        
-        with open(file_path, 'w', encoding='utf-8', newline='') as f:
-            f.write(content)
-        
-        print(f"Fichier converti en UTF-8 (encodage d'origine : {detected_encoding})")
-        return True
-
-    def split_descriptions(self):
-        """Divise le fichier descriptions.csv en chunks plus petits"""
-        print(f"Découpage du fichier descriptions.csv...")
-        
-        self.convert_to_utf8(self.descriptions_file)
-        
+        Returns:
+            bool: True si le fichier est valide, False sinon
+        """
         try:
-            with open(self.descriptions_file, 'r', encoding='utf-8') as f:
-                reader = csv.reader(f)
-                header = next(reader)
+            # Vérification du format
+            file_format = detect_file_format(self.descriptions_file)
+            if file_format != 'csv':
+                raise ValueError(f"Le fichier {self.descriptions_file} n'est pas au format CSV")
                 
-                chunk = []
+            # Vérification de l'encodage
+            if not check_encoding(self.descriptions_file, strict=strict):
+                raise ValueError(f"Le fichier {self.descriptions_file} n'est pas en UTF-8")
+                
+            return True
+            
+        except Exception as e:
+            print(f"Erreur de validation : {e}")
+            return False
+    
+    def process_chunk(self, chunk_file):
+        """Traite un fichier chunk de descriptions.
+        
+        Args:
+            chunk_file (Path): Chemin du fichier chunk à traiter
+            
+        Returns:
+            bool: True si le traitement a réussi, False sinon
+        """
+        try:
+            processed_lines = []
+            
+            with open(chunk_file, 'r', encoding=self.encoding) as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    # Traduction des termes techniques
+                    description = row['description']
+                    for eng, fr in self.tech_terms.items():
+                        description = re.sub(r'\b' + eng + r'\b', fr, description)
+                    
+                    # Correction de la typographie
+                    description = fix_quotes(description)
+                    
+                    # Validation de la typographie
+                    is_valid, errors = validate_typography(description)
+                    if not is_valid:
+                        print(f"Avertissements pour {row['id']} :")
+                        for error in errors:
+                            print(f"  - {error}")
+                    
+                    # Mise à jour de la ligne
+                    row['description'] = description
+                    processed_lines.append(row)
+            
+            # Écriture du fichier traité
+            output_file = self.processed_dir / chunk_file.name
+            with open(output_file, 'w', encoding=self.encoding, newline='') as f:
+                writer = csv.DictWriter(f, fieldnames=processed_lines[0].keys())
+                writer.writeheader()
+                writer.writerows(processed_lines)
+                
+            return True
+            
+        except Exception as e:
+            print(f"Erreur lors du traitement du chunk {chunk_file.name} : {e}")
+            return False
+    
+    def process_descriptions(self, strict=True):
+        """Traite le fichier de descriptions complet.
+        
+        Args:
+            strict (bool): Si True, vérifie strictement l'encodage UTF-8
+            
+        Returns:
+            bool: True si le traitement a réussi, False sinon
+        """
+        try:
+            # Préparation des répertoires
+            self.setup_directories()
+            
+            # Validation du fichier source
+            if not self.validate_file(strict=strict):
+                return False
+            
+            # Lecture et découpage en chunks
+            with open(self.descriptions_file, 'r', encoding=self.encoding) as f:
+                reader = csv.DictReader(f)
+                current_chunk = []
                 chunk_num = 0
                 
                 for row in reader:
-                    chunk.append(row)
+                    current_chunk.append(row)
                     
-                    if len(chunk) >= self.chunk_size:
-                        self._write_chunk(chunk, header, chunk_num)
-                        chunk = []
+                    if len(current_chunk) >= self.chunk_size:
+                        chunk_file = self.chunks_dir / f'chunk_{chunk_num}.csv'
+                        with open(chunk_file, 'w', encoding=self.encoding, newline='') as cf:
+                            writer = csv.DictWriter(cf, fieldnames=current_chunk[0].keys())
+                            writer.writeheader()
+                            writer.writerows(current_chunk)
+                        
+                        if not self.process_chunk(chunk_file):
+                            return False
+                            
+                        current_chunk = []
                         chunk_num += 1
                 
-                if chunk:
-                    self._write_chunk(chunk, header, chunk_num)
+                # Traitement du dernier chunk
+                if current_chunk:
+                    chunk_file = self.chunks_dir / f'chunk_{chunk_num}.csv'
+                    with open(chunk_file, 'w', encoding=self.encoding, newline='') as cf:
+                        writer = csv.DictWriter(cf, fieldnames=current_chunk[0].keys())
+                        writer.writeheader()
+                        writer.writerows(current_chunk)
+                    
+                    if not self.process_chunk(chunk_file):
+                        return False
             
-            print("Découpage terminé avec succès")
+            print("Traitement des descriptions terminé avec succès.")
+            return True
             
         except Exception as e:
-            print(f"Erreur lors du traitement : {str(e)}")
-            raise
+            print(f"Erreur lors du traitement : {e}")
+            return False
 
-    def _write_chunk(self, chunk, header, chunk_num):
-        """Écrit un chunk dans un fichier"""
-        chunk_file = self.chunks_dir / f'descriptions_chunk_{chunk_num}.csv'
+class TestDescriptionProcessor(unittest.TestCase):
+    """Tests unitaires pour le traitement des descriptions."""
+    
+    def setUp(self):
+        """Initialisation des tests."""
+        self.test_dir = Path("tests")
+        self.test_file = self.test_dir / "descriptions_test.csv"
+        self.test_dir.mkdir(exist_ok=True)
         
-        with open(chunk_file, 'w', encoding='utf-8', newline='') as f:
+        # Création d'un fichier de test
+        with open(self.test_file, 'w', encoding='utf-8', newline='') as f:
             writer = csv.writer(f)
-            writer.writerow(header)
-            writer.writerows(chunk)
-            
-        print(f"Chunk {chunk_num} créé : {chunk_file}")
-
-    def process_chunk(self, chunk_file):
-        """Traite un chunk de descriptions"""
-        print(f"Traitement du chunk : {chunk_file}")
+            writer.writerow(['id', 'description'])
+            writer.writerow(['test1', 'A Shield system with Hull armor'])
+            writer.writerow(['test2', 'High Damage Energy weapon'])
+            writer.writerow(['test3', '"Test" with "quotes"'])
+    
+    def tearDown(self):
+        """Nettoyage après les tests."""
+        if self.test_file.exists():
+            self.test_file.unlink()
+        if self.test_dir.exists() and not any(self.test_dir.iterdir()):
+            self.test_dir.rmdir()
+    
+    def test_process_descriptions(self):
+        """Teste le processus complet de traitement."""
+        processor = DescriptionProcessor(self.test_dir)
+        processor.descriptions_file = self.test_file
         
-        processed_rows = []
-        with open(chunk_file, 'r', encoding='utf-8') as f:
-            reader = csv.reader(f)
-            header = next(reader)
-            
-            for row in reader:
-                # Traduction du texte tout en préservant la structure
-                translated_row = []
-                for i, cell in enumerate(row):
-                    # On traduit uniquement les colonnes de texte
-                    if i in [0, 2]:  # nom et description
-                        translated_row.append(self.translate_text(cell))
-                    else:
-                        translated_row.append(cell)
-                processed_rows.append(translated_row)
+        # Test avec mode permissif
+        self.assertTrue(processor.process_descriptions(strict=False))
         
-        output_file = self.processed_dir / chunk_file.name
-        with open(output_file, 'w', encoding='utf-8', newline='') as f:
-            writer = csv.writer(f)
-            writer.writerow(header)
-            writer.writerows(processed_rows)
-            
-        print(f"Chunk traité sauvegardé : {output_file}")
-
-    def merge_processed_chunks(self):
-        """Fusionne tous les chunks traités en un seul fichier"""
-        print("Fusion des chunks traités...")
+        # Vérification du format
+        file_format = detect_file_format(self.test_file)
+        self.assertEqual(file_format, 'csv')
         
-        output_file = self.base_path / 'localization/data/strings/descriptions_fr.csv'
-        first_chunk = True
+        # Test de traduction des termes
+        with open(self.test_file, 'r', encoding='utf-8') as f:
+            content = f.read()
+        self.assertIn('Shield', content)
+        self.assertIn('Hull', content)
         
-        with open(output_file, 'w', encoding='utf-8', newline='') as outfile:
-            writer = csv.writer(outfile)
-            
-            for chunk_file in sorted(self.processed_dir.glob('*.csv')):
-                with open(chunk_file, 'r', encoding='utf-8') as infile:
-                    reader = csv.reader(infile)
-                    header = next(reader)
-                    
-                    if first_chunk:
-                        writer.writerow(header)
-                        first_chunk = False
-                    
-                    for row in reader:
-                        writer.writerow(row)
+        # Test du formatage
+        formatted = format_file(self.test_file, content)
+        self.assertTrue(formatted.strip())
         
-        print(f"Fusion terminée : {output_file}")
+        # Test des guillemets
+        self.assertIn('"Test"', content)
+        
+        # Test de l'encodage
+        self.assertTrue(check_encoding(self.test_file, strict=False))
+    
+    def test_invalid_file(self):
+        """Teste le comportement avec un fichier invalide."""
+        processor = DescriptionProcessor(self.test_dir)
+        processor.descriptions_file = self.test_dir / "nonexistent.csv"
+        
+        self.assertFalse(processor.process_descriptions())
 
 def main():
-    base_path = "D:/Fractal Softworks/Starsector/mods/starsector_lang_pack_fr_private"
-    processor = DescriptionProcessor(base_path)
-    
-    try:
-        processor.split_descriptions()
+    """Point d'entrée principal du script."""
+    if len(sys.argv) > 1 and sys.argv[1] == "--test":
+        unittest.main(argv=['dummy'])
+    else:
+        if len(sys.argv) < 2:
+            print("Usage: python process_descriptions.py base_path [--test]")
+            sys.exit(1)
+            
+        base_path = sys.argv[1]
+        processor = DescriptionProcessor(base_path)
         
-        for chunk_file in sorted(processor.chunks_dir.glob('*.csv')):
-            processor.process_chunk(chunk_file)
-        
-        processor.merge_processed_chunks()
-        
-        print("Traitement terminé avec succès !")
-    except Exception as e:
-        print(f"Erreur lors du traitement : {str(e)}")
-        raise
+        if not processor.process_descriptions():
+            sys.exit(1)
 
 if __name__ == '__main__':
     main()

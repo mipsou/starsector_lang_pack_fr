@@ -97,3 +97,26 @@
 - Ce roadmap est un document vivant qui sera mis à jour régulièrement
 - Les dates sont indicatives et peuvent être ajustées selon les besoins
 - La priorité est donnée à la qualité plutôt qu'à la rapidité
+
+### Consolidations en cours (Q1 2025)
+- [ ] Validation des traductions existantes
+- [ ] Harmonisation des fichiers JSON
+- [ ] Vérification des encodages
+
+### Améliorations Techniques (Q2 2025)
+1. Tests et Validation
+   - [ ] Ajout de tests unitaires pour les scripts
+   - [ ] Amélioration du système de validation des traductions
+   - [ ] Automatisation des backups
+
+2. Infrastructure
+   - [ ] Optimisation du pipeline CI/CD
+   - [ ] Renforcement de la protection des fichiers
+   - [ ] Amélioration des scripts d'automatisation
+
+3. Documentation
+   - [ ] Mise à jour de la documentation technique
+   - [ ] Documentation des processus de validation
+   - [ ] Guide de contribution détaillé
+
+Note : L'implémentation de ces améliorations débutera après la finalisation des consolidations en cours.

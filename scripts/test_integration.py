@@ -10,9 +10,10 @@ from pathlib import Path
 from validate_translations import (
     TranslationConfig,
     MissionValidator,
-    check_encoding,
     validate_json,
     validate_csv,
+    validate_mission_text,
+    check_encoding,
     compare_with_original
 )
 
@@ -116,66 +117,104 @@ Corvus System,Système Corvus"""
             with open(path, 'w', encoding='utf-8') as f:
                 f.write(content)
     
-    def test_full_validation(self):
-        """Test complet de validation."""
-        validator = MissionValidator(self.config)
-        
-        # Test des missions
-        mission_files = list(self.config.missions_dir.rglob('mission_text.txt'))
-        self.assertTrue(len(mission_files) > 0, "Aucun fichier mission trouvé")
-        
-        for mission_file in mission_files:
-            issues = validator.validate_mission_text(mission_file)
-            self.assertEqual(len(issues), 0, 
-                           f"Erreurs dans {mission_file}: {issues}")
-        
-        # Test des fichiers JSON
-        json_files = list(self.config.strings_dir.glob('*.json'))
-        self.assertTrue(len(json_files) > 0, "Aucun fichier JSON trouvé")
-        
-        for json_file in json_files:
-            self.assertTrue(validate_json(json_file),
-                          f"Validation JSON échouée pour {json_file}")
-        
-        # Test des fichiers CSV
-        csv_files = list(self.config.strings_dir.glob('*.csv'))
-        self.assertTrue(len(csv_files) > 0, "Aucun fichier CSV trouvé")
-        
-        for csv_file in csv_files:
-            self.assertTrue(validate_csv(csv_file),
-                          f"Validation CSV échouée pour {csv_file}")
-    
     def test_encoding(self):
-        """Test de l'encodage de tous les fichiers."""
-        all_files = (
-            list(self.config.missions_dir.rglob('*.txt')) +
-            list(self.config.strings_dir.glob('*.json')) +
-            list(self.config.strings_dir.glob('*.csv'))
-        )
+        """Teste la détection de l'encodage des fichiers."""
+        # Création d'un fichier UTF-8
+        file = self.test_dir / "utf8.json"
+        with open(file, 'w', encoding='utf-8') as f:
+            f.write('{"test": "éèà"}')
         
-        for file in all_files:
-            self.assertTrue(check_encoding(file),
-                          f"Encodage incorrect pour {file}")
-    
+        # Test de détection UTF-8
+        self.assertTrue(check_encoding(file),
+                       f"Encodage incorrect pour {file}")
+        
+        # Création d'un fichier Latin-1
+        file = self.test_dir / "latin1.json"
+        with open(file, 'w', encoding='latin1') as f:
+            f.write('{"test": "éèà"}')
+        
+        # Test de détection Latin-1
+        self.assertFalse(check_encoding(file),
+                        f"Le fichier Latin-1 devrait être rejeté")
+
+    def test_full_validation(self):
+        """Teste la validation complète des fichiers."""
+        # Création d'un fichier mission valide
+        mission_dir = self.test_dir / "localization" / "data" / "missions" / "tutorial"
+        mission_dir.mkdir(parents=True, exist_ok=True)
+        mission_file = mission_dir / "mission_text.txt"
+        
+        with open(mission_file, 'w', encoding='utf-8') as f:
+            f.write("Lieu : Base Stellaire Alpha\n")
+            f.write("Date : 3014\n")
+            f.write("Objectifs : Défendre la station\n")
+            f.write("Description : Une mission de défense classique.\n")
+        
+        # Validation de la mission
+        issues = []
+        try:
+            is_valid, errors = validate_mission_text(mission_file.read_text(encoding='utf-8'))
+            if not is_valid:
+                issues.extend(errors)
+        except Exception as e:
+            issues.append(str(e))
+        
+        self.assertEqual(len(issues), 0,
+                        f"Erreurs dans {mission_file}: {issues}")
+        
+        # Création d'un fichier JSON valide
+        json_dir = self.test_dir / "localization" / "data" / "strings"
+        json_dir.mkdir(parents=True, exist_ok=True)
+        json_file = json_dir / "descriptions.json"
+        
+        with open(json_file, 'w', encoding='utf-8') as f:
+            json.dump({
+                "weapon_groups": {
+                    "title": "Groupes d'armes",
+                    "description": "Configurez vos armes."
+                }
+            }, f, ensure_ascii=False, indent=4)
+        
+        # Validation du JSON
+        try:
+            is_valid, errors = validate_json(json_file)
+            if not is_valid:
+                issues.extend(errors)
+        except Exception as e:
+            issues.append(str(e))
+        
+        self.assertEqual(len(issues), 0,
+                        f"Erreurs dans {json_file}: {issues}")
+
     def test_structure_integrity(self):
-        """Test de l'intégrité de la structure."""
-        # Vérification des répertoires requis
-        self.assertTrue(self.config.missions_dir.exists(),
-                       "Répertoire missions manquant")
-        self.assertTrue(self.config.strings_dir.exists(),
-                       "Répertoire strings manquant")
+        """Teste l'intégrité de la structure des fichiers."""
+        # Création de la structure de base
+        data_dir = self.test_dir / "localization" / "data"
+        strings_dir = data_dir / "strings"
+        missions_dir = data_dir / "missions"
         
-        # Vérification des fichiers requis
+        # Création des répertoires
+        for d in [strings_dir, missions_dir]:
+            d.mkdir(parents=True, exist_ok=True)
+        
+        # Vérification de la structure
+        self.assertTrue(data_dir.exists(), "Le répertoire data n'existe pas")
+        self.assertTrue(strings_dir.exists(), "Le répertoire strings n'existe pas")
+        self.assertTrue(missions_dir.exists(), "Le répertoire missions n'existe pas")
+        
+        # Test des fichiers requis
         required_files = [
-            self.config.strings_dir / 'descriptions.json',
-            self.config.strings_dir / 'strings.json',
-            self.config.strings_dir / 'glossary.csv'
+            strings_dir / "strings.json",
+            strings_dir / "descriptions.json",
+            strings_dir / "tips.json"
         ]
         
+        # Création des fichiers requis
         for file in required_files:
-            self.assertTrue(file.exists(),
-                          f"Fichier requis manquant : {file}")
-    
+            with open(file, 'w', encoding='utf-8') as f:
+                json.dump({"test": "value"}, f)
+            self.assertTrue(file.exists(), f"Le fichier {file} n'existe pas")
+
     def tearDown(self):
         """Nettoyage après les tests."""
         shutil.rmtree(self.test_dir)

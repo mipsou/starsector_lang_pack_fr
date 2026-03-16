@@ -9,11 +9,18 @@ from pathlib import Path
 from validate_translations import (
     TranslationConfig,
     MissionValidator,
-    check_encoding,
     validate_json,
     validate_csv,
-    compare_with_original
+    validate_mission_text,
+    validate_text,
+    auto_correct_text,
+    check_encoding,
+    compare_with_original,
+    validate_with_context,
+    format_validation_errors,
+    ValidationError
 )
+import csv
 
 class TestValidateTranslations(unittest.TestCase):
     def setUp(self):
@@ -56,67 +63,171 @@ class TestValidateTranslations(unittest.TestCase):
         self.assertFalse(check_encoding(file_path))
     
     def test_json_validation(self):
-        """Test de la validation JSON."""
-        # JSON valide
-        content = {"key": "value", "nested": {"key": "value"}}
-        file_path = self.create_test_file(content, "test.json")
-        self.assertTrue(validate_json(file_path))
+        """Teste la validation des fichiers JSON."""
+        # Création d'un fichier JSON invalide
+        file_path = self.test_dir / "invalid.json"
+        with open(file_path, 'w', encoding='utf-8') as f:
+            f.write('{"key": value}')  # JSON invalide (pas de guillemets)
+            
+        # Test de validation
+        is_valid, errors = validate_json(file_path)
+        self.assertFalse(is_valid, "Le fichier invalide devrait être rejeté")
+        self.assertTrue(errors, "Des erreurs devraient être rapportées")
         
-        # JSON invalide
-        content = "{'key': 'value'"  # JSON mal formaté
-        file_path = self.create_test_file(content, "invalid.json")
-        self.assertFalse(validate_json(file_path))
-    
+        # Création d'un fichier JSON valide
+        file_path = self.test_dir / "valid.json"
+        with open(file_path, 'w', encoding='utf-8') as f:
+            json.dump({"key": "value"}, f)
+            
+        # Test de validation
+        is_valid, errors = validate_json(file_path)
+        self.assertTrue(is_valid, "Le fichier valide devrait être accepté")
+        self.assertEqual(len(errors), 0, "Aucune erreur ne devrait être rapportée")
+
     def test_csv_validation(self):
-        """Test de la validation CSV."""
-        # CSV valide
-        content = "header1,header2\nvalue1,value2\nvalue3,value4"
-        file_path = self.create_test_file(content, "test.csv")
-        self.assertTrue(validate_csv(file_path))
+        """Teste la validation des fichiers CSV."""
+        # Création d'un fichier CSV invalide
+        file_path = self.test_dir / "invalid.csv"
+        with open(file_path, 'w', encoding='utf-8', newline='') as f:
+            writer = csv.writer(f)
+            writer.writerow(['id', 'text'])  # En-tête avec 2 colonnes
+            writer.writerow(['1', 'text', 'extra'])  # Ligne avec 3 colonnes
+            
+        # Test de validation
+        is_valid, errors = validate_csv(file_path)
+        self.assertFalse(is_valid, "Le fichier invalide devrait être rejeté")
+        self.assertTrue(errors, "Des erreurs devraient être rapportées")
         
-        # CSV invalide (colonnes incohérentes)
-        content = "header1,header2\nvalue1\nvalue3,value4"
-        file_path = self.create_test_file(content, "invalid.csv")
-        self.assertFalse(validate_csv(file_path))
-    
+        # Création d'un fichier CSV valide
+        file_path = self.test_dir / "valid.csv"
+        with open(file_path, 'w', encoding='utf-8', newline='') as f:
+            writer = csv.writer(f)
+            writer.writerow(['id', 'text'])
+            writer.writerow(['1', 'text'])
+            
+        # Test de validation
+        is_valid, errors = validate_csv(file_path)
+        self.assertTrue(is_valid, "Le fichier valide devrait être accepté")
+        self.assertEqual(len(errors), 0, "Aucune erreur ne devrait être rapportée")
+
     def test_mission_validation(self):
-        """Test de la validation des missions."""
-        validator = MissionValidator(self.config)
+        """Test de la validation des fichiers mission."""
+        # Test avec un texte valide
+        text = "Lieu: Base Alpha\nDate: 3014\nObjectifs: Défendre la station\nDescription: Une mission de défense."
+        is_valid, errors = validate_mission_text(text)
+        self.assertTrue(is_valid, f"Le texte valide devrait être accepté. Erreurs: {errors}")
         
-        # Mission valide
-        content = "Lieu : Test\n"
-        content += "Date : 3014\n"
-        content += "Objectifs : Test\n"
-        content += "Description : Un test avec la typographie française : parfait !\n"
-        file_path = self.create_test_file(content, "missions/test/mission_text.txt")
-        issues = validator.validate_mission_text(file_path)
-        self.assertEqual(len(issues), 0, "La mission valide ne devrait pas avoir d'erreurs")
+        # Test avec un texte invalide (section manquante)
+        text = "Lieu: Base Alpha\nDate: 3014\nDescription: Une mission."
+        is_valid, errors = validate_mission_text(text)
+        self.assertFalse(is_valid, "Le texte invalide devrait être rejeté")
+        self.assertIn("Section Objectifs manquante", errors)
         
-        # Mission avec erreurs typographiques
-        content = "Lieu : Test\n"
-        content += "Date : 3014\n"
-        content += "Objectifs: Test sans espace\n"
-        content += "Description: Test avec \"guillemets\" et points...\n"
-        file_path = self.create_test_file(content, "missions/invalid/mission_text.txt")
-        issues = validator.validate_mission_text(file_path)
-        self.assertTrue(len(issues) > 0, "Devrait détecter les erreurs typographiques")
+        # Test avec une ponctuation incorrecte
+        text = "Lieu: Base Alpha\nDate: 3014\nObjectifs: Défendre la station !\nDescription: Une mission ?"
+        is_valid, errors = validate_mission_text(text)
+        self.assertFalse(is_valid, "La ponctuation incorrecte devrait être rejetée")
+        
+    def test_special_chars(self):
+        """Test de la validation des caractères spéciaux."""
+        # Test avec des caractères spéciaux valides
+        text = "Le cœur du réacteur est en surchauffe. L'æther spatial est ambiguë."
+        is_valid, errors = validate_text(text)
+        self.assertTrue(is_valid, f"Le texte avec caractères spéciaux valides devrait être accepté. Erreurs: {errors}")
+        
+        # Test avec des ligatures
+        text = "Œdipe et Æschyle observent les manœuvres."
+        is_valid, errors = validate_text(text)
+        self.assertTrue(is_valid, f"Le texte avec ligatures devrait être accepté. Erreurs: {errors}")
+        
+        # Test avec des trémas
+        text = "Noël approche, les poëtes sont naïfs."
+        is_valid, errors = validate_text(text)
+        self.assertTrue(is_valid, f"Le texte avec trémas devrait être accepté. Erreurs: {errors}")
     
     def test_compare_with_original(self):
-        """Test de la comparaison avec les fichiers originaux."""
-        # Fichiers identiques
-        orig_content = {"key1": "value1", "key2": {"nested": "value2"}}
-        translated_content = {"key1": "valeur1", "key2": {"nested": "valeur2"}}
+        """Teste la comparaison avec le fichier original."""
+        # Création du fichier original
+        orig_file = self.test_dir / "original.json"
+        with open(orig_file, 'w', encoding='utf-8') as f:
+            json.dump({
+                "key1": "value1",
+                "key2": {
+                    "nested": "value2"
+                }
+            }, f)
+            
+        # Création d'un fichier traduit invalide
+        translated_file = self.test_dir / "translated.json"
+        with open(translated_file, 'w', encoding='utf-8') as f:
+            json.dump({
+                "key1": "valeur1",
+                "extra": "valeur3"
+            }, f)
+            
+        # Test de comparaison
+        is_valid, errors = compare_with_original(translated_file, orig_file)
+        self.assertFalse(is_valid, "Le fichier invalide devrait être rejeté")
+        self.assertTrue(errors, "Des erreurs devraient être rapportées")
         
-        orig_file = self.create_test_file(orig_content, "original/test.json")
-        translated_file = self.create_test_file(translated_content, "localization/test.json")
+        # Création d'un fichier traduit valide
+        with open(translated_file, 'w', encoding='utf-8') as f:
+            json.dump({
+                "key1": "valeur1",
+                "key2": {
+                    "nested": "valeur2"
+                }
+            }, f)
+            
+        # Test de comparaison
+        is_valid, errors = compare_with_original(translated_file, orig_file)
+        self.assertTrue(is_valid, "Le fichier valide devrait être accepté")
+        self.assertEqual(len(errors), 0, "Aucune erreur ne devrait être rapportée")
+
+    def test_validation_with_context(self):
+        """Test de la validation avec contexte."""
+        # Test avec un texte valide en mode non strict
+        text = "Le vaisseau est en orbite autour de la planète."
+        is_valid, errors = validate_with_context(text, {
+            'type': 'mission',
+            'section': 'description'
+        }, strict=False)
+        self.assertTrue(is_valid, "Le texte valide devrait être accepté")
+        self.assertEqual(len(errors), 0, "Il ne devrait pas y avoir d'erreurs")
         
-        self.assertTrue(compare_with_original(translated_file, orig_file))
+        # Test avec un texte valide en mode strict
+        text = "Le vaisseau est en orbite autour de la planète."
+        is_valid, errors = validate_with_context(text, {
+            'type': 'mission',
+            'section': 'description'
+        }, strict=True)
+        self.assertFalse(is_valid, "Le texte devrait être rejeté en mode strict")
+        self.assertTrue(len(errors) > 0, "Il devrait y avoir des erreurs en mode strict")
         
-        # Fichiers différents
-        translated_content = {"key1": "valeur1", "extra": "value"}
-        translated_file = self.create_test_file(translated_content, "localization/different.json")
+        # Test avec un texte invalide
+        text = "Le vaisseau ! est en orbite ?"
+        is_valid, errors = validate_with_context(text, {
+            'type': 'json',
+            'section': 'tips'
+        })
+        self.assertFalse(is_valid, "Le texte invalide devrait être rejeté")
+        self.assertTrue(len(errors) > 0, "Il devrait y avoir des erreurs")
+        self.assertEqual(errors[0]['file_type'], 'json', "Le type de fichier devrait être correct")
+        self.assertEqual(errors[0]['section'], 'tips', "La section devrait être correcte")
         
-        self.assertFalse(compare_with_original(translated_file, orig_file))
+        # Test avec une erreur critique
+        with self.assertRaises(ValidationError):
+            validate_with_context(None)
+        
+        # Test du formatage des erreurs
+        errors = [
+            {'message': "Erreur 1", 'file_type': 'json', 'section': 'tips', 'line': 1},
+            {'message': "Erreur 2", 'file_type': 'mission', 'section': 'description', 'line': 5}
+        ]
+        formatted = format_validation_errors(errors)
+        self.assertIn("Erreur 1", formatted, "Le message d'erreur devrait être présent")
+        self.assertIn("ligne: 1", formatted, "Le numéro de ligne devrait être présent")
+        self.assertIn("section: tips", formatted, "La section devrait être présente")
     
     def tearDown(self):
         """Nettoyage après les tests."""
