@@ -261,7 +261,13 @@ class JsonHandler:
             return VariableValidation(False, set(), set())
     
     def convert_quotes(self, text):
-        """Convertit les guillemets droits en guillemets français avec gestion des guillemets imbriqués."""
+        """Convertit les guillemets droits en guillemets français avec gestion des guillemets imbriqués.
+
+        Délègue au module tools.fix_quotes qui implémente la conversion récursive
+        avec gestion correcte des niveaux d'imbrication.
+        """
+        from tools.fix_quotes import convert_quotes_starsector
+
         # Si c'est un fichier, le traiter
         if isinstance(text, Path):
             try:
@@ -280,71 +286,7 @@ class JsonHandler:
         if not text:
             return text
 
-        # Si le texte contient des guillemets non appariés, le retourner tel quel
-        if text.count('"') % 2 != 0:
-            return text
-
-        # Préserver les guillemets JSON externes
-        is_json_string = text.startswith('"') and text.endswith('"')
-        first_quote = '"' if is_json_string else ''
-        last_quote = '"' if is_json_string else ''
-        content = text[1:-1] if is_json_string else text
-
-        # Compter les guillemets pour déterminer le niveau d'imbrication
-        quote_positions = []
-        i = 0
-        while i < len(content):
-            if i < len(content) - 1 and content[i:i+2] == '\\"':
-                quote_positions.append(i)
-                i += 2
-            elif content[i] == '"' and (i == 0 or content[i-1] != '\\'):
-                quote_positions.append(i)
-                i += 1
-            else:
-                i += 1
-
-        # Traiter les guillemets par paires
-        result = list(content)
-        for i in range(0, len(quote_positions), 2):
-            if i + 1 < len(quote_positions):
-                start = quote_positions[i]
-                end = quote_positions[i + 1]
-                
-                # Remplacer les guillemets
-                if result[start:start+2] == ['\\', '"']:
-                    result[start:start+2] = ['«']
-                else:
-                    result[start] = '«'
-                
-                if end > 0 and result[end-1:end+1] == ['\\', '"']:
-                    result[end-1:end+1] = ['»']
-                else:
-                    result[end] = '»'
-                
-                # Ajouter des espaces si nécessaire
-                if start + 1 < len(result) and result[start + 1] not in [' ', '»']:
-                    result.insert(start + 1, ' ')
-                    # Mettre à jour les positions suivantes
-                    for j in range(i + 1, len(quote_positions)):
-                        quote_positions[j] += 1
-                
-                if end - 1 >= 0 and result[end - 1] not in [' ', '«']:
-                    result.insert(end, ' ')
-                    # Mettre à jour les positions suivantes
-                    for j in range(i + 2, len(quote_positions)):
-                        quote_positions[j] += 1
-
-        # Nettoyer les espaces multiples et les espaces avant la ponctuation
-        text = ''.join(result)
-        text = ' '.join(text.split())
-        text = re.sub(r'\s+([.,;:!?])', r'\1', text)
-        
-        # Nettoyer les espaces entre guillemets imbriqués
-        text = re.sub(r'»\s+«', r'» «', text)
-        text = re.sub(r'«\s+«', r'«', text)
-        text = re.sub(r'»\s+»', r'»', text)
-
-        return first_quote + text + last_quote
+        return convert_quotes_starsector(text)
     
     def _process_json_data(self, data):
         """Traite les données JSON pour convertir les guillemets.

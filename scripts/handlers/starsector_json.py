@@ -266,13 +266,14 @@ def detect_file_type(data: Any) -> FileType:
         logging.error(f"Erreur lors de la détection du type de fichier : {str(e)}")
         return FileType.UNKNOWN
 
-def format_starsector_json(content: dict) -> str:
+def format_starsector_json(content, file_type=None) -> str:
     """
     Formate un dictionnaire en JSON selon les conventions Starsector.
-    
+
     Args:
-        content: Dictionnaire à formater
-        
+        content: Dictionnaire ou liste à formater
+        file_type: Type de fichier optionnel (FileType) pour un formatage spécifique
+
     Returns:
         str: Chaîne JSON formatée
     """
@@ -286,22 +287,61 @@ def format_starsector_json(content: dict) -> str:
         logging.error(f"Erreur lors du formatage JSON : {str(e)}")
         return ""
 
-def parse_starsector_json(text: str) -> dict:
+def _strip_comments(text: str) -> str:
+    """
+    Supprime les commentaires # du format Starsector JSON.
+    Gère les commentaires en ligne et en fin de ligne,
+    en préservant les # à l'intérieur des chaînes de caractères.
+    """
+    lines = []
+    for line in text.split('\n'):
+        # Trouver le # hors des chaînes
+        in_string = False
+        escape = False
+        comment_pos = -1
+        for i, char in enumerate(line):
+            if escape:
+                escape = False
+                continue
+            if char == '\\':
+                escape = True
+                continue
+            if char == '"':
+                in_string = not in_string
+            elif char == '#' and not in_string:
+                comment_pos = i
+                break
+        if comment_pos >= 0:
+            line = line[:comment_pos].rstrip()
+        lines.append(line)
+    return '\n'.join(lines)
+
+
+def parse_starsector_json(text: str) -> Tuple:
     """
     Parse une chaîne JSON au format Starsector.
-    
+
+    Gère les spécificités du format Starsector :
+    - Commentaires avec #
+    - Virgules finales
+    - Clés non quotées (ex: tips:[])
+
     Args:
         text: Texte JSON à parser
-        
+
     Returns:
-        dict: Dictionnaire parsé
+        Tuple[dict, Optional[str]]: (données parsées, message d'erreur ou None)
     """
     try:
+        # Supprime les commentaires
+        text = _strip_comments(text)
         # Supprime les virgules finales superflues
         text = re.sub(r',(\s*[}\]])', r'\1', text)
-        return json.loads(text)
+        # Quote les clés non quotées (ex: tips:[ -> "tips":[)
+        text = re.sub(r'(?m)^(\s*)(\w+)\s*:', r'\1"\2":', text)
+        return json.loads(text), None
     except Exception as e:
         logging.error(f"Erreur lors du parsing JSON : {str(e)}")
-        return {}
+        return {}, str(e)
 
 logger = logging.getLogger(__name__)

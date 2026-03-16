@@ -20,6 +20,7 @@ from .models import (
     STRINGS_FORMAT,
     SYSTEM_VARIABLES
 )
+from ..starsector_json import parse_starsector_json, format_starsector_json
 
 class FileType(Enum):
     STRINGS = 1
@@ -31,14 +32,14 @@ class FileType(Enum):
 class JsonValidator:
     """Validateur de fichiers JSON pour Starsector."""
     
-    def __init__(self, logger: logging.Logger):
+    def __init__(self, logger: Optional[logging.Logger] = None):
         """
         Initialise le validateur JSON.
-        
+
         Args:
-            logger: Logger pour la journalisation
+            logger: Logger pour la journalisation (optionnel, crée un logger par défaut si non fourni)
         """
-        self.logger = logger
+        self.logger = logger or logging.getLogger(__name__)
         self.format_validators = {
             "tips": self._validate_tips_format,
             "tooltips": self._validate_tooltips_format,
@@ -159,7 +160,14 @@ class JsonValidator:
         """
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
-                current = format_starsector_json(parse_starsector_json(f.read()))
+                data, error = parse_starsector_json(f.read())
+                if error:
+                    return ComparisonResult(
+                        valid_structure=False,
+                        identical=False,
+                        differences=[f"Erreur de parsing : {error}"]
+                    )
+                current = data
             
             differences = []
             valid_structure = True

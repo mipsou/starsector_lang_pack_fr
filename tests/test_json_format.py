@@ -105,18 +105,22 @@ def validate_starsector_format(content: str) -> List[str]:
 def test_original_format():
     """Vérifie que le format original est correctement détecté comme valide."""
     original_path = Path("d:/Fractal Softworks/Starsector/starsector-core/data/strings/tooltips.json")
+    if not original_path.exists():
+        pytest.skip(f"Fichier original non trouvé : {original_path}")
     with open(original_path, 'r', encoding='utf-8') as f:
         content = f.read()
-    
+
     errors = validate_starsector_format(content)
     assert not errors, f"Le fichier original contient des erreurs : {errors}"
 
 def test_translation_format():
     """Vérifie que notre traduction respecte le format."""
-    translation_path = Path("d:/Fractal Softworks/Starsector/mods/starsector_lang_pack_fr_private/tests/data/tooltips_fr.json")
+    translation_path = Path("tests/data/tooltips_fr.json")
+    if not translation_path.exists():
+        pytest.skip(f"Fichier de test non trouvé : {translation_path}")
     with open(translation_path, 'r', encoding='utf-8') as f:
         content = f.read()
-    
+
     errors = validate_starsector_format(content)
     assert not errors, f"La traduction contient des erreurs de format : {errors}"
 

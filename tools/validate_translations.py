@@ -3,7 +3,68 @@ import os
 import json
 import csv
 import chardet
+import re
 import sys
+from pathlib import Path
+
+
+class TranslationConfig:
+    """Configuration de la traduction."""
+    def __init__(self):
+        self.base_dir = Path('D:/Fractal Softworks/Starsector/mods/starsector_lang_pack_fr_private')
+        self.localization_dir = self.base_dir / 'localization'
+        self.data_dir = self.localization_dir / 'data'
+        self.strings_dir = self.data_dir / 'strings'
+        self.original_dir = self.base_dir / 'original'
+
+
+class MissionValidator:
+    """Validateur de missions et de typographie française."""
+
+    # Caractères spéciaux typographie française
+    GUILLEMET_OUVRANT = '\u00AB'  # «
+    GUILLEMET_FERMANT = '\u00BB'  # »
+    POINTS_SUSPENSION = '\u2026'  # …
+    APOSTROPHE = '\u2019'         # '
+
+    def __init__(self, config: TranslationConfig):
+        self.config = config
+
+    def validate_typography(self, text: str) -> bool:
+        """
+        Valide la typographie française d'un texte.
+
+        Vérifie :
+        - Pas de guillemets droits (")
+        - Pas d'apostrophes droites (')
+        - Espaces avant la ponctuation double (;:!?)
+        - Espaces autour des guillemets français
+
+        Args:
+            text: Texte à valider
+
+        Returns:
+            True si la typographie est correcte, False sinon
+        """
+        # Vérifier les guillemets droits
+        if '"' in text:
+            return False
+
+        # Vérifier les apostrophes droites
+        if "'" in text:
+            return False
+
+        # Vérifier les espaces avant la ponctuation double
+        if re.search(r'[^\s][;:!?]', text):
+            return False
+
+        # Vérifier les espaces autour des guillemets français
+        if self.GUILLEMET_OUVRANT in text or self.GUILLEMET_FERMANT in text:
+            if re.search(r'«[^\s\u202F]', text) or re.search(r'[^\s\u202F]»', text):
+                return False
+
+        return True
+
 
 def check_encoding(file_path):
     """Vérifie l'encodage d'un fichier."""

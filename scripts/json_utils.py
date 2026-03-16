@@ -18,6 +18,47 @@ def remove_comments(content):
             lines.append(line)
     return '\n'.join(lines)
 
+def parse_starsector_tips(file_path):
+    """
+    Parse un fichier tips.json au format Starsector.
+
+    Le format Starsector tips.json utilise des clés non quotées (tips:[...])
+    et peut contenir des commentaires (#).
+
+    Args:
+        file_path: Chemin vers le fichier tips.json
+
+    Returns:
+        list: Liste des tips (chaînes ou dicts avec freq/tip)
+
+    Raises:
+        ValueError: Si le format est invalide
+        json.JSONDecodeError: Si le JSON est invalide après nettoyage
+    """
+    import re
+
+    with open(file_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    # Supprimer les commentaires (lignes complètes et fin de ligne)
+    content = remove_comments(content)
+
+    # Extraire le contenu du tableau tips
+    tips_match = re.search(r'tips:\[(.*)\]', content, re.DOTALL)
+    if not tips_match:
+        raise ValueError(f"Format invalide dans {file_path}: section tips:[ ] non trouvée")
+
+    tips_content = tips_match.group(1).strip()
+
+    # Supprimer la virgule finale si présente
+    tips_content = re.sub(r',\s*$', '', tips_content)
+
+    # Construire un JSON valide
+    json_content = f"[{tips_content}]"
+
+    return json.loads(json_content)
+
+
 def fix_special_chars(text):
     """Corrige les caractères spéciaux mal encodés."""
     char_map = {

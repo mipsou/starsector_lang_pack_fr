@@ -5,10 +5,19 @@ import pytest
 import sys
 import os
 from pathlib import Path
-sys.path.append(str(Path(__file__).parent.parent / 'tools'))
 
-from validate_json import validate_json, validate_starsector_json
-from validate_translations import TranslationConfig, check_encoding, validate_csv, MissionValidator
+# Ajouter le répertoire tools au PYTHONPATH
+_tools_dir = str(Path(__file__).parent.parent / 'tools')
+if _tools_dir not in sys.path:
+    sys.path.insert(0, _tools_dir)
+
+# Ajouter le répertoire racine au PYTHONPATH
+_root_dir = str(Path(__file__).parent.parent)
+if _root_dir not in sys.path:
+    sys.path.insert(0, _root_dir)
+
+from tools.validate_json import validate_json, validate_starsector_json
+from tools.validate_translations import TranslationConfig, check_encoding, validate_csv, MissionValidator
 
 # Force l'encodage en UTF-8 pour la sortie
 sys.stdout.reconfigure(encoding='utf-8')

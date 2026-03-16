@@ -21,8 +21,10 @@ def test_multiple_json_types(json_handler, tmp_path):
         "missions/afistfulofcredits/descriptor.json",  # Fichier de mission
         "campaign/econ/economy.json"  # Fichier d'économie
     ]
-    
+
     base_dir = Path("d:/Fractal Softworks/Starsector/starsector-core/data")
+    if not base_dir.exists():
+        pytest.skip(f"Répertoire starsector-core non trouvé : {base_dir}")
     
     for source_file in test_files:
         # Crée un sous-dossier pour chaque type de test
@@ -92,6 +94,8 @@ def test_real_file_quotes(json_handler, tmp_path):
     """Test la conversion des guillemets sur un fichier réel."""
     # Copie le fichier de test
     source_file = Path("backups/strings_20250104/strings.json")
+    if not source_file.exists():
+        pytest.skip(f"Fichier de backup non trouvé : {source_file}")
     test_file = tmp_path / "test_strings.json"
     
     # Copie directe pour préserver le format exact
