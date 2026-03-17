@@ -2,23 +2,23 @@
     "codex": {
         "damage_kinetic": {
             "title": "Dégâts Cinétiques",
-            "body": "Les dégâts cinétiques sont excellents contre les boucliers, mais faibles contre l'armure."
+            "body": "Les dégâts cinétiques sont excellents contre les boucliers, mais peu efficaces contre l'armure."
         },
         "damage_highexplosive": {
             "title": "Dégâts Hautement Explosifs",
-            "body": "Les dégâts hautement explosifs sont excellents contre l'armure, mais faibles contre les boucliers."
+            "body": "Les dégâts hautement explosifs sont redoutables contre l'armure, mais peu efficaces contre les boucliers."
         },
         "damage_fragmentation": {
             "title": "Dégâts de Fragmentation",
-            "body": "Les dégâts de fragmentation sont très faibles contre l'armure et les boucliers. Cependant, les armes infligeant des dégâts de fragmentation ont généralement un DPS très élevé, les rendant dévastatrices contre les cibles légèrement blindées et sans bouclier comme les chasseurs légers et les missiles.\n\nElles peuvent aussi être très efficaces contre un vaisseau dont l'armure a été arrachée par les dégâts de combat."
+            "body": "Les dégâts de fragmentation sont très faibles contre l'armure et les boucliers. Cependant, les armes de fragmentation offrent généralement des dégâts par seconde très élevés, les rendant dévastatrices contre les cibles légèrement blindées et sans bouclier, comme les chasseurs légers et les missiles.\n\nElles peuvent aussi être très efficaces contre un vaisseau dont l'armure a été endommagée au combat."
         },
         "damage_energy": {
             "title": "Dégâts Énergétiques",
-            "body": "Les dégâts énergétiques sont également efficaces contre les boucliers et l'armure."
+            "body": "Les dégâts énergétiques sont équilibrés, offrant une bonne efficacité contre les boucliers comme contre l'armure."
         },
         "damage_other": {
             "title": "Autres Dégâts",
-            "body": "Cette arme est spéciale. En réalité, si vous voyez ceci, c'est probablement un bug."
+            "body": "Cette arme possède des propriétés uniques. Si ce message apparaît, veuillez le signaler comme anomalie."
         }
     },
     "warroom": {
@@ -69,17 +69,17 @@
         "credits": "Crédits disponibles."
     },
     "misc": {
-        "jumpPointNormal": "Les points de saut peuvent être utilisés pour transiter entre l'hyperespace et l'espace normal. Certains points de saut mènent également à d'autres destinations.",
-        "jumpPointStar": "Le puits gravitationnel d'une étoile est assez profond pour fournir une sortie à sens unique de l'hyperespace. L'utiliser est cependant extrêmement difficile et dangereux.",
-        "jumpPointGasGiant": "Le puits gravitationnel d'une géante gazeuse est souvent assez profond pour fournir une sortie à sens unique de l'hyperespace."
+        "jumpPointNormal": "Les points de saut permettent de transiter entre l'hyperespace et l'espace normal. Certains points mènent également vers d'autres destinations.",
+        "jumpPointStar": "Le puits gravitationnel d'une étoile est suffisamment profond pour offrir une sortie à sens unique depuis l'hyperespace. Son utilisation reste néanmoins extrêmement périlleuse.",
+        "jumpPointGasGiant": "Le puits gravitationnel d'une géante gazeuse est souvent assez profond pour permettre une sortie à sens unique depuis l'hyperespace."
     },
     "combat": {
-        "tooltipCrashMothballUnavailable": "Tous vos vaisseaux sont prêts au combat et ne risquent pas de subir des dysfonctionnements.",
-        "tooltipPursue": "Force une bataille où les forces en repli tentent de s'échapper.",
-        "tooltipPursueAutoresolve": "Ordonne à votre second de gérer la poursuite. N'offre aucun risque pour vos vaisseaux, mais probablement moins efficace que si vous commandiez la poursuite vous-même.",
-        "tooltipPursueLostLast": "Vos forces ont été vaincues lors du dernier engagement et sont incapables de poursuivre.",
-        "tooltipPursueStoodDown": "Vos forces se sont retirées après le dernier engagement et sont incapables de poursuivre.",
-        "tooltipPursueSeriousLosses": "Vos forces ont subi de lourdes pertes lors du dernier engagement et sont incapables de poursuivre.",
+        "tooltipCrashMothballUnavailable": "Tous vos vaisseaux sont opérationnels et ne présentent aucun risque de dysfonctionnement.",
+        "tooltipPursue": "Engage une bataille où les forces ennemies tentent de battre en retraite.",
+        "tooltipPursueAutoresolve": "Confie la gestion de la poursuite à votre second. Cette option est plus sûre mais moins efficace qu'une poursuite sous votre commandement direct.",
+        "tooltipPursueLostLast": "Vos forces, vaincues lors du dernier engagement, sont incapables de poursuivre l'ennemi.",
+        "tooltipPursueStoodDown": "Vos forces se sont repliées après le dernier engagement et ne peuvent pas engager la poursuite.",
+        "tooltipPursueSeriousLosses": "Ayant subi de lourdes pertes lors du dernier engagement, vos forces ne peuvent pas poursuivre l'ennemi.",
         "tooltipPursueTooSlow": "La flotte ennemie est trop rapide pour que vos forces puissent la rattraper.",
         "tooltipNoReadyShips": "Aucun de vos vaisseaux n'est prêt au combat.",
         "tooltipNoPersonnel": "Il n'y a pas de marines disponibles.",

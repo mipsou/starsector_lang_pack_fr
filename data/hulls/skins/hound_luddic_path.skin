@@ -4,7 +4,7 @@
 	"hullName":"Hound (LP)",
 	"hullDesignation":"Frigate",
 	"descriptionId":"hound",
-	"descriptionPrefix":"Les fanatiques de la Voie Luddique se sont approprié ce vaisseau, éliminant toute fioriture superflue pour le transformer en véhicule improvisé de guerre sainte.",
+	"descriptionPrefix":"Les fanatiques de la Voie Luddique se sont approprié ce vaisseau, éliminant toute aménagement superflu pour le transformer en véhicule improvisé de guerre sainte.",
 	"tags":["LP_bp"],
 	"tech":"Luddic Path",
 	"baseValueMult":0.9,

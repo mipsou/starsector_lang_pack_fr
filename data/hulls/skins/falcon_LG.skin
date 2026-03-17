@@ -2,7 +2,7 @@
 	"baseHullId":"falcon",
 	"skinHullId":"falcon_LG",
 	"hullName":"Falcon (LG)",
-	"descriptionPrefix":"Modifié pour les opérations dans le système Askonia sur ordre de l’Exécuteur Suprême Philip Andrada, cette coque intègre un blindage solaire ainsi qu’un revêtement interne particulier fourni par un conglomérat industriel de Sindria même. Que le concepteur en chef, nommé par l’Exécuteur Suprême pour ses nombreux cycles de loyal service, siège au conseil de ce conglomérat n’est qu’un exemple de l’unité et de l’efficacité de la Politique Sindrienne.",
+	"descriptionPrefix":"Modifiée pour les opérations dans le système Askonia sur ordre de l’Exécuteur Suprême Philip Andrada, cette coque intègre un blindage solaire ainsi qu’un revêtement interne particulier fourni par un conglomérat industriel de Sindria même. Que le concepteur en chef, nommé par l’Exécuteur Suprême pour ses nombreux cycles de loyal service, siège au conseil de ce conglomérat n’est qu’un exemple de l’unité et de l’efficacité de la Politique Sindrienne.",
 	"tags":["LG_bp","no_dealer"],
 	"tech":"Lion's Guard",
 	"spriteName":"graphics/ships/falcon/falcon_lg.png",
