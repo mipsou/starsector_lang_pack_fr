@@ -1,0 +1,17 @@
+{
+	"baseHullId":"wolf",
+	"skinHullId":"wolf_d",
+	"hullName":"Wolf (D)",
+	"descriptionId":"wolf",
+	"descriptionPrefix":"Des vaisseaux qui auraient été retirés du service en temps plus calmes sont désormais largement utilisés à travers le Secteur. La désignation de coque de ces vaisseaux est généralement marquée d’un \"D\", pour \"damaged\" (endommagé) ou \"defective\" (défectueux).",
+	"restoreToBaseHull":true,
+	"baseValueMult":.8,
+	"spriteName":"graphics/ships/wolf/wolf_d.png",
+	#"removeWeaponSlots":["WS 002", "WS 003"], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["degraded_engines","faulty_grid"],
+	"builtInWeapons":{
+    },
+}

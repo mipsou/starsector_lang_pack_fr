@@ -1,307 +1,126 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
-import csv
-import re
-import sys
+#!/usr/bin/env python3
 import os
-import shutil
-from pathlib import Path
-import unicodedata
+import json
+import csv
+import chardet
+import sys
 
-# Force l'encodage en UTF-8 pour la sortie
-sys.stdout.reconfigure(encoding='utf-8')
-sys.stderr.reconfigure(encoding='utf-8')
+def check_encoding(file_path):
+    """Vérifie l'encodage d'un fichier."""
+    with open(file_path, 'rb') as f:
+        raw = f.read()
+        # Si le fichier commence par BOM UTF-8, c'est bon
+        if raw.startswith(b'\xef\xbb\xbf'):
+            return True
+        # Si le fichier est en ASCII, c'est compatible UTF-8
+        result = chardet.detect(raw)
+        print(f"Détection pour {file_path}: {result}")
+        if result['encoding'] and result['encoding'].lower() in ['ascii', 'utf-8']:
+            return True
+        print(f"ERREUR: {file_path} n'est pas en UTF-8 (détecté: {result['encoding']})")
+        return False
 
-class TranslationValidator:
-    def __init__(self):
-        self.base_dir = Path('D:/Fractal Softworks/Starsector/mods/starsector_lang_pack_fr_private')
-        self.translations_file = self.base_dir / 'localization/data/strings/descriptions_fr.csv'
-        self.missions_dir = self.base_dir / 'localization/data/missions'
-        self.validation_results = []
-        
-    def validate_typography(self, text):
-        """Valide la typographie française"""
-        issues = []
-        
-        # Vérification des espaces avant la ponctuation
-        ponctuation_doubles = [':', '!', '?', ';', '»']
-        for p in ponctuation_doubles:
-            if re.search(f'[^ ]{p}', text):
-                issues.append(f"Espace manquante avant '{p}'")
-                
-        # Vérification des espaces après la ponctuation
-        if re.search(r'[,:!?;][^ ]', text):
-            issues.append("Espace manquante après la ponctuation")
-            
-        # Vérification des points de suspension
-        if re.search(r'\.{3}', text):
-            issues.append("Points de suspension incorrects (utiliser …)")
-            
-        # Vérification des guillemets
-        if re.search(r'[""]', text):
-            issues.append("Guillemets droits au lieu des guillemets français « »")
-            
-        # Vérification des guillemets français
-        if '«' in text and not re.search(r'« [^»]+» ?', text):
-            issues.append("Format incorrect des guillemets français (espace après « et avant »)")
-            
-        return issues
-
-    def validate_mission_text(self, mission_dir):
-        """Valide le fichier mission_text.txt d'une mission"""
-        text_file = mission_dir / 'mission_text.txt'
-        if not text_file.exists():
-            return [f"Fichier mission_text.txt manquant dans {mission_dir.name}"]
-            
-        issues = []
-        try:
-            with open(text_file, 'r', encoding='utf-8') as f:
-                content = f.read()
-                
-                # Validation de la structure
-                if not content.startswith('Lieu :'):
-                    issues.append("Le fichier doit commencer par 'Lieu :'")
-                
-                # Validation de la typographie
-                typo_issues = self.validate_typography(content)
-                if typo_issues:
-                    issues.extend(typo_issues)
-                    
-                # Validation des sections obligatoires
-                required_sections = ['Date :', 'Objectifs :']
-                for section in required_sections:
-                    if section not in content:
-                        issues.append(f"Section '{section}' manquante")
-                        
-                return issues
-                
-        except Exception as e:
-            return [f"Erreur lors de la lecture du fichier : {str(e)}"]
-
-    def validate_all_missions(self):
-        """Valide tous les fichiers de mission"""
-        for mission_dir in self.missions_dir.iterdir():
-            if mission_dir.is_dir():
-                issues = self.validate_mission_text(mission_dir)
-                if issues:
-                    self.validation_results.append({
-                        'file': f"missions/{mission_dir.name}/mission_text.txt",
-                        'issues': issues
-                    })
-
-    def validate_all(self):
-        """Valide toutes les traductions"""
-        self.validate_all_missions()
-        
-        # Affichage des résultats
-        if self.validation_results:
-            print("\nProblèmes de traduction trouvés :")
-            for result in self.validation_results:
-                print(f"\nFichier : {result['file']}")
-                for issue in result['issues']:
-                    print(f"  - {issue}")
-        else:
-            print("\nAucun problème trouvé dans les traductions.")
-
-def load_glossary():
-    """Charge le glossaire depuis le fichier."""
-    glossary = {}
-    glossary_path = "D:/Fractal Softworks/Starsector/mods/starsector_lang_pack_fr_private/data/glossary.csv"
-    
+def validate_json(file_path):
+    """Valide un fichier JSON."""
     try:
-        with open(glossary_path, 'r', encoding='utf-8') as f:
-            reader = csv.DictReader(f)
-            for row in reader:
-                if 'en' in row and 'fr' in row:
-                    glossary[row['en'].strip()] = row['fr'].strip()
-    except FileNotFoundError:
-        print(f"Attention : Le fichier glossaire {glossary_path} n'existe pas.")
+        with open(file_path, 'r', encoding='utf-8-sig') as f:
+            content = f.read()
+            # Ignorer les commentaires (lignes commençant par #)
+            lines = [line for line in content.split('\n') if not line.strip().startswith('#')]
+            content = '\n'.join(lines)
+            json.loads(content)
+        return True
     except Exception as e:
-        print(f"Erreur lors du chargement du glossaire : {str(e)}")
-    
-    return glossary
+        print(f"ERREUR: {file_path} - {str(e)}")
+        return False
 
-def validate_mission_text(file_path):
-    """Valide le format et la typographie d'un fichier mission_text.txt."""
-    with open(file_path, 'r', encoding='utf-8') as f:
-        content = f.read()
-        lines = content.split('\n')
-        
-    errors = []
-    
-    # Chargement du glossaire
-    glossary = load_glossary()
-    
-    # Vérification de la structure
-    if not lines or not lines[0].startswith("Lieu :"):
-        errors.append("Le fichier doit commencer par 'Lieu :'")
-    
-    required_sections = ["Date :", "Objectifs :"]
-    found_sections = set()
-    
-    for line in lines:
-        for section in required_sections:
-            if line.startswith(section):
-                found_sections.add(section)
-    
-    missing_sections = set(required_sections) - found_sections
-    for section in missing_sections:
-        errors.append(f"Section manquante : {section}")
-    
-    # Vérification de la typographie
-    double_punctuation = [";", ":", "!", "?"]
-    line_number = 0
-    for line in lines:
-        line_number += 1
-        
-        # Vérification de la ponctuation
-        for char in double_punctuation:
-            if char in line:
-                pos = line.find(char)
-                if pos > 0 and line[pos-1] != ' ':
-                    errors.append(f"Ligne {line_number} : Espace manquante avant '{char}'")
-                if pos < len(line)-1 and line[pos+1] != ' ':
-                    errors.append(f"Ligne {line_number} : Espace manquante après '{char}'")
-        
-        # Vérification des termes du glossaire (insensible à la casse)
-        if glossary:
-            for en_term, fr_term in glossary.items():
-                # Recherche le terme anglais en ignorant la casse
-                pattern = re.compile(re.escape(en_term), re.IGNORECASE)
-                if pattern.search(line):
-                    errors.append(f"Ligne {line_number} : Terme anglais '{en_term}' trouvé, utiliser '{fr_term}'")
-    
-    # Vérification des guillemets
-    if '"' in content:
-        errors.append('Utiliser les guillemets français « » au lieu de "')
-    
-    # Vérification des points de suspension
-    if "..." in content:
-        errors.append("Utiliser le caractère points de suspension (…) au lieu de ...")
-    
-    return errors
+def validate_csv(file_path):
+    """Valide un fichier CSV."""
+    try:
+        with open(file_path, 'r', encoding='utf-8-sig') as f:
+            reader = csv.reader(f)
+            headers = next(reader)
+            for i, row in enumerate(reader, 2):
+                if len(row) != len(headers):
+                    print(f"ERREUR: {file_path} ligne {i} - nombre de colonnes incorrect")
+                    return False
+        return True
+    except Exception as e:
+        print(f"ERREUR: {file_path} - {str(e)}")
+        return False
 
-def auto_correct_text(content, glossary):
-    """Corrige automatiquement le texte selon les règles typographiques et le glossaire."""
-    # Correction des espaces avant/après la ponctuation
-    double_punctuation = [";", ":", "!", "?"]
-    for char in double_punctuation:
-        # Ajoute l'espace avant
-        content = content.replace(f"{char}", f" {char}")
-        # Supprime les espaces multiples
-        content = content.replace(f"  {char}", f" {char}")
-        # Ajoute l'espace après
-        content = content.replace(f"{char}", f"{char} ")
-        # Supprime les espaces multiples
-        content = content.replace(f"{char}  ", f"{char} ")
-    
-    # Correction des guillemets
-    content = content.replace('"', "« ")
-    content = content.replace('"', " »")
-    
-    # Correction des points de suspension
-    content = content.replace("...", "…")
-    
-    # Correction des termes du glossaire (insensible à la casse)
-    if glossary:
-        for en_term, fr_term in glossary.items():
-            pattern = re.compile(re.escape(en_term), re.IGNORECASE)
-            content = pattern.sub(fr_term, content)
-    
-    return content
-
-def create_backup(file_path):
-    """Crée une sauvegarde du fichier."""
-    backup_path = file_path + '.bak'
-    shutil.copy2(file_path, backup_path)
-    return backup_path
-
-def auto_correct_file(file_path):
-    """Corrige automatiquement un fichier en créant une sauvegarde."""
-    # Crée une sauvegarde avant modification
-    backup_path = create_backup(file_path)
-    
-    # Charge le contenu du fichier
-    with open(file_path, 'r', encoding='utf-8') as f:
-        content = f.read()
-    
-    # Applique les corrections
-    glossary = load_glossary()
-    corrected = auto_correct_text(content, glossary)
-    
-    # Écrit le contenu corrigé
-    with open(file_path, 'w', encoding='utf-8') as f:
-        f.write(corrected)
-    
-    return backup_path
-
-def validate_and_correct_mission_text(file_path):
-    """Valide et corrige le fichier mission_text.txt."""
-    with open(file_path, 'r', encoding='utf-8') as f:
-        content = f.read()
-    
-    # Chargement du glossaire
-    glossary = load_glossary()
-    
-    # Validation
-    errors = validate_mission_text(file_path)
-    
-    if errors:
-        print("\nErreurs trouvées :")
-        for error in errors:
-            print(f"  - {error}")
-        
-        # Correction automatique
-        corrected_content = auto_correct_text(content, glossary)
-        
-        if corrected_content != content:
-            backup_path = create_backup(file_path)
-            print(f"\nCréation d'une sauvegarde : {backup_path}")
+def compare_with_original(fr_file, orig_file):
+    """Compare la structure avec le fichier original."""
+    if fr_file.endswith('.json'):
+        with open(orig_file, 'r', encoding='utf-8') as f:
+            orig = json.load(f)
+        with open(fr_file, 'r', encoding='utf-8') as f:
+            fr = json.load(f)
             
-            print("Application des corrections automatiques...")
-            with open(file_path, 'w', encoding='utf-8') as f:
-                f.write(corrected_content)
-            
-            # Validation après correction
-            new_errors = validate_mission_text(file_path)
-            if new_errors:
-                print("\nErreurs restantes après correction :")
-                for error in new_errors:
-                    print(f"  - {error}")
-            else:
-                print("\nToutes les erreurs ont été corrigées.")
-    else:
-        print("Aucune erreur trouvée.")
+        # Vérifier que toutes les clés sont présentes
+        orig_keys = set(_flatten_dict(orig))
+        fr_keys = set(_flatten_dict(fr))
+        
+        missing = orig_keys - fr_keys
+        extra = fr_keys - orig_keys
+        
+        if missing:
+            print(f"ERREUR: Clés manquantes dans {fr_file}:")
+            for key in missing:
+                print(f"  - {key}")
+        if extra:
+            print(f"ERREUR: Clés supplémentaires dans {fr_file}:")
+            for key in extra:
+                print(f"  - {key}")
+                
+        return not (missing or extra)
+    return True
+
+def _flatten_dict(d, parent_key='', sep='.'):
+    """Aplatit un dictionnaire pour comparer les clés."""
+    items = []
+    for k, v in d.items():
+        new_key = f"{parent_key}{sep}{k}" if parent_key else k
+        if isinstance(v, dict):
+            items.extend(_flatten_dict(v, new_key, sep=sep).items())
+        else:
+            items.append((new_key, v))
+    return dict(items)
 
 def main():
-    """Point d'entrée principal du script."""
-    mission_dir = "D:/Fractal Softworks/Starsector/mods/starsector_lang_pack_fr_private/data/missions"
+    """Fonction principale."""
+    errors = False
     
-    if not os.path.exists(mission_dir):
-        print(f"Erreur : Le répertoire {mission_dir} n'existe pas.")
-        return
-    
-    print("Validation des fichiers de mission...")
-    has_errors = False
-    
-    for root, dirs, files in os.walk(mission_dir):
+    for root, _, files in os.walk('localization'):
         for file in files:
-            if file == "mission_text.txt":
+            if file.endswith(('_fr.json', '_fr.csv')):
                 file_path = os.path.join(root, file)
-                mission_name = os.path.basename(os.path.dirname(file_path))
+                print(f"\nValidation de {file_path}...")
                 
-                print(f"\nValidation de la mission : {mission_name}")
-                try:
-                    validate_and_correct_mission_text(file_path)
-                except Exception as e:
-                    has_errors = True
-                    print(f"Erreur lors de la validation : {str(e)}")
-
-    if not has_errors:
-        print("\nAucune erreur trouvée dans les fichiers de mission.")
-    else:
+                # Trouver le fichier original correspondant
+                rel_path = os.path.relpath(file_path, 'localization')
+                orig_file = os.path.join('original', rel_path.replace('_fr.', '.'))
+                
+                if not check_encoding(file_path):
+                    errors = True
+                    continue
+                
+                if file.endswith('_fr.json'):
+                    if not validate_json(file_path):
+                        errors = True
+                    elif os.path.exists(orig_file):
+                        if not compare_with_original(file_path, orig_file):
+                            errors = True
+                elif file.endswith('_fr.csv'):
+                    if not validate_csv(file_path):
+                        errors = True
+    
+    if errors:
         print("\nDes erreurs ont été trouvées. Veuillez les corriger.")
+        sys.exit(1)
+    else:
+        print("\nTous les fichiers sont valides!")
+        sys.exit(0)
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
