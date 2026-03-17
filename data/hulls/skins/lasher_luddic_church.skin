@@ -5,7 +5,7 @@
 	"descriptionId":"lasher",  # optional
 	"baseValueMult":1,
 	"spriteName":"graphics/ships/lasher/lasher_luddic.png",
-	"descriptionPrefix":"Ce vaisseau a reçu les marquages de l’Église Luddique. Les modifications de systèmes sont par ailleurs superficielles.",
+	"descriptionPrefix":"Ce vaisseau a reçu les marquages de la Luddic Church. Les modifications de systèmes sont par ailleurs superficielles.",
 	"tags":["LC_bp"],
 	"tech":"Luddic Church",
 	"removeWeaponSlots":[], 		# ids

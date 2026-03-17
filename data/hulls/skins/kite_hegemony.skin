@@ -5,7 +5,7 @@
 	"incompatibleWithBaseHull":false, # for the autofit dialog
 	"ordnancePoints":32,
 	"descriptionId":"kite",  # optional
-	"descriptionPrefix":"Ce vaisseau figure sur la liste auxiliaire de l’Hégémonie et, à ce titre, ses systèmes ont été mis aux normes militaires et un calendrier rigoureux de maintenance est imposé, dans l’attente qu’il puisse être réquisitionné pour le service militaire en cas d’urgence.",
+	"descriptionPrefix":"Ce vaisseau figure sur la liste auxiliaire de l’Hegemony et, à ce titre, ses systèmes ont été mis aux normes militaires et un calendrier rigoureux de maintenance est imposé, dans l’attente qu’il puisse être réquisitionné pour le service militaire en cas d’urgence.",
 	"tags":["heg_aux_bp"],
 	"tech":"Hegemony",
 	"spriteName":"graphics/ships/aeroshuttle/aeroshuttle_hegemony.png",
