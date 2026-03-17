@@ -7,7 +7,7 @@ Pack de langue français pour Starsector.
 ### Temps et Activité
 [![Temps de Dev](https://img.shields.io/badge/Temps%20de%20Dev-120h-blue)](#)
 [![Dernière MàJ](https://img.shields.io/badge/Dernière%20MàJ-17%20Mar%202026-green)](#)
-[![Version](https://img.shields.io/badge/Version-1.2.0-blue)](#)
+[![Version](https://img.shields.io/badge/Version-1.2.1-blue)](#)
 [![Status](https://img.shields.io/badge/Status-En%20développement-yellow)](#)
 
 ### Couverture
