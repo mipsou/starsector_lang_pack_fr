@@ -6,7 +6,7 @@
 	"fleetPoints":4,
 	"ordnancePoints":30,
 	#"systemId":"",
-	"descriptionPrefix":"Une série de modifications malavisées ont été apportées pour militariser cette coque normalement inoffensive. Qu’elle soit plus dangereuse pour son équipage ou ses ennemis reste un sujet de débat dans les bars des quais, mais ces modifications sont souvent prisées par les pirates cherchant à créer l’impression d’une puissance de feu écrasante.",
+	"descriptionPrefix":"Une série de modifications malavisées a été apportée pour militariser cette coque normalement inoffensive. Qu’elle soit plus dangereuse pour son équipage ou ses ennemis reste un sujet de débat dans les bars des quais, mais ces modifications sont souvent prisées par les pirates cherchant à créer l’impression d’une puissance de feu écrasante.",
 	"tags":["pirate_bp"],
 	"tech":"Pirate",
 	"spriteName":"graphics/ships/mudskipper/mudskipper2.png",

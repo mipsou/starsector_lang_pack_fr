@@ -1,7 +1,7 @@
 {
 	"baseHullId":"module_hightech_attack",
 	"skinHullId":"module_hightech_attack_minelayer",
-	"descriptionPrefix":"Amélioré avec un système de téléportation de mines.",
+	"descriptionPrefix":"Amélioré avec un système de projection de mines.",
 	"restoreToBaseHull":true,
 	"systemId":"mine_strike_station",
 	"removeWeaponSlots":[], 		# ids
