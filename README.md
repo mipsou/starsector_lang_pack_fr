@@ -5,19 +5,21 @@ Pack de langue français pour Starsector.
 ## Statistiques du Projet
 
 ### Temps et Activité
-[![Temps de Dev](https://img.shields.io/badge/Temps%20de%20Dev-24h-blue)](#)
-[![Dernière MàJ](https://img.shields.io/badge/Dernière%20MàJ-30%20Dec%202023-green)](#)
-[![Version](https://img.shields.io/badge/Version-0.1.0--alpha-orange)](#)
+[![Temps de Dev](https://img.shields.io/badge/Temps%20de%20Dev-120h-blue)](#)
+[![Dernière MàJ](https://img.shields.io/badge/Dernière%20MàJ-17%20Mar%202026-green)](#)
+[![Version](https://img.shields.io/badge/Version-1.2.0-blue)](#)
 [![Status](https://img.shields.io/badge/Status-En%20développement-yellow)](#)
 
 ### Couverture
-[![Fichiers](https://img.shields.io/badge/Fichiers%20Traduits-42%2F1337-blue)](#)
-[![Mots](https://img.shields.io/badge/Mots%20Traduits-2.5k%2F150k-blue)](#)
+[![Fichiers](https://img.shields.io/badge/Fichiers%20Traduits-70%2F1337-blue)](#)
+[![Mots](https://img.shields.io/badge/Mots%20Traduits-15k%2F150k-blue)](#)
 [![Taille](https://img.shields.io/badge/Taille%20Totale-15%20MB-lightgrey)](#)
 
 ### Traduction
 - Interface utilisateur : ![UI 15%](https://img.shields.io/badge/UI-15%25-blue?style=flat-square&labelColor=444)
-- Textes du jeu : ![Textes 5%](https://img.shields.io/badge/Textes-5%25-blue?style=flat-square&labelColor=444)
+- Textes du jeu : ![Textes 40%](https://img.shields.io/badge/Textes-40%25-blue?style=flat-square&labelColor=444)
+- Descriptions Codex : ![Codex 95%](https://img.shields.io/badge/Codex-95%25-green?style=flat-square&labelColor=444)
+- Variantes (.skin) : ![Skins 100%](https://img.shields.io/badge/Skins-100%25-brightgreen?style=flat-square&labelColor=444)
 - Documentation : ![Documentation 20%](https://img.shields.io/badge/Documentation-20%25-blue?style=flat-square&labelColor=444)
 
 ### Développement
@@ -41,13 +43,21 @@ Pack de langue français pour Starsector.
 
 ```bash
 starsector_lang_pack_fr/
-├── mod_info.json.....# Configuration du mod
-└── localization/.....# Fichiers de localisation
-    ├── data/.........# Données du jeu
-    │   ├── config/...# Fichiers de configuration
-    │   └── strings/..# Fichiers de traduction
-    └── graphics/.....# Ressources graphiques
-        └── ui/.......# Interface utilisateur
+├── mod_info.json.........# Configuration du mod
+├── data/
+│   ├── hulls/
+│   │   └── skins/........# 65 variantes traduites (P, D, TT, XIV, LG...)
+│   └── strings/..........# Fichiers de traduction
+│       ├── descriptions.csv
+│       ├── strings.json
+│       ├── tips.json
+│       ├── tooltips.json
+│       └── ship_names.json
+└── localization/.........# Source de vérité (fichiers de référence)
+    └── data/
+        ├── hulls/
+        │   └── skins/....# Miroir des variantes traduites
+        └── strings/......# Miroir des traductions
 ```
 
 ## Contribution
@@ -76,7 +86,7 @@ Pour plus de ressources et de guides, consultez le [devbook.md](devbook.md).
 
 ## Licence
 
-Ce mod est sous licence MIT.
+Ce mod est sous licence [EUPL 1.2](LICENSE).
 
 ## Crédits
 
