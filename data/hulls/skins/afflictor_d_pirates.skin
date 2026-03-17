@@ -1,0 +1,21 @@
+{
+	"baseHullId":"afflictor",
+	"skinHullId":"afflictor_d_pirates",
+	"hullName":"Afflictor (P)",
+	"descriptionId":"afflictor",
+	"descriptionPrefix":"Après la Seconde Guerre de l’IA, de nombreux plans corrompus sont devenus disponibles, récupérés par des récupérateurs prêts à risquer les systèmes stellaires abandonnés par Tri-Tachyon. Beaucoup ont été vendus à des éléments peu recommandables tels que des marchands noirs et des pirates, qui les ont rapidement remis en service pour produire des vaisseaux de qualité médiocre mais aptes au combat.",
+	"tags":["pirate_bp"],
+	"tech":"Pirate",
+	"fleetPoints":9,
+	"ordnancePoints":40,
+	"baseValueMult":.8,
+	"suppliesToRecover":6,
+	"suppliesPerMonth":6,
+	"spriteName":"graphics/ships/afflictor/afflictor_d_pirates.png",
+	"removeWeaponSlots":["WS 001", "WS 004"], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInWeapons":{
+    },
+}
