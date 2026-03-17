@@ -1,0 +1,16 @@
+{
+	"baseHullId":"talon",
+	"skinHullId":"talon_tritachyon",
+	"hullName":"Talon (Tri-Tachyon)",
+	"descriptionId":"talon",  # optional
+	"descriptionPrefix":"Ce vaisseau a été entièrement révisé par la corporation Tri-Tachyon. Des correctifs logiciels conformes Tri-Tachyon ont été installés, pleinement intégrés aux protocoles de surveillance d’état TriPad (R), des conduits de flux haute spécification ont été améliorés, et les points d’attache d’armes ont été reconditionnés pour le montage d’armes à énergie avancées.",
+	"spriteName":"graphics/ships/talon/talon_tritachyon.png",
+	"baseValueMult":0.75,
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":[],
+	"builtInWeapons":{
+    },
+}
