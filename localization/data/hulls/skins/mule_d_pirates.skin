@@ -3,7 +3,7 @@
 	"skinHullId":"mule_d_pirates",
 	"hullName":"Mule (P)",
 	"descriptionId":"mule",  # optional
-	"descriptionPrefix":"Ce vaisseau a été lourdement modifié — et mal entretenu — par son équipage pirate.",
+	"descriptionPrefix":"Ce vaisseau a été lourdement modifié — et mal entretenu — par son équipage pirate.",
 	"tags":["pirate_bp"],
 	"tech":"Pirate",
 	"baseValueMult":1.2,

@@ -5,7 +5,7 @@
 	"incompatibleWithBaseHull":false, # for the autofit dialog
 	"descriptionId":"enforcer",
 	"coversColor":[255,245,225,255],
-	"descriptionPrefix":"Construit selon les spécifications du 14e Groupe de Bataille du Domaine qui a fondé l’Hégémonie, ce vaisseau est un parfait exemple de la doctrine de « bataille décisive » de la Marine du Domaine, particulièrement illustrée par une série de modifications structurelles radicales réalisées avec une technologie industrielle pré-Effondrement.",
+	"descriptionPrefix":"Construit selon les spécifications du 14e Groupe de Bataille du Domaine qui a fondé l’Hegemony, ce vaisseau est un parfait exemple de la doctrine de « bataille décisive » de la Marine du Domaine, particulièrement illustrée par une série de modifications structurelles radicales réalisées avec une technologie industrielle pré-Effondrement.",
 	"tags":["XIV_bp", "hist2t"],
 	"tech":"XIV Battlegroup",
 	"fleetPoints":12,

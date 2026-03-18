@@ -6,7 +6,7 @@
 	"fleetPoints":12,
 	"ordnancePoints":115,
 	#"systemId":"",
-	"descriptionPrefix":"Une série de modifications ambitieuses a été apportée à ce Venture dans quelque chantier naval obscur de la bordure extérieure. L’espace hangar et les soutes à minerai ont été remplacés par un point d’ancrage capable de monter un énorme lance-missiles, un stockage de munitions et un système de chargement automatique générique globalement fiable. Le fait que ce lance-missiles soit orienté vers l’arrière a inspiré un grand nombre de surnoms colorés pour cette variante de coque, tant par l’équipage que par l’ennemi.",
+	"descriptionPrefix":"Une série de modifications ambitieuses ont été apportées à ce Venture dans quelque chantier naval obscur de la bordure extérieure. L’espace hangar et les soutes à minerai ont été remplacés par un point d’ancrage capable de monter un énorme lance-missiles, un stockage de munitions et un système de chargement automatique générique globalement fiable. Le fait que ce lance-missiles soit orienté vers l’arrière a inspiré un grand nombre de surnoms colorés pour cette variante de coque, tant par l’équipage que par l’ennemi.",
 	"tags":["pirate_bp"],
 	"tech":"Pirate",
 	"builtInWings": [],
