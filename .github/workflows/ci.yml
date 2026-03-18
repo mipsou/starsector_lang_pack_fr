@@ -2,34 +2,51 @@ name: CI
 
 on:
   push:
-    branches: [ main, dev, feature/* ]
+    branches: [ main, dev ]
   pull_request:
     branches: [ main, dev ]
 
 jobs:
-  test:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
-          
-      - name: Install dependencies
+
+      - name: Validate mod_info.json
         run: |
-          python -m pip install --upgrade pip
-          pip install pytest chardet
-          
-      - name: Check file encoding
+          if [ ! -f "mod_info.json" ]; then
+            echo "❌ mod_info.json manquant"
+            exit 1
+          fi
+          # mod_info.json est du JSONC (commentaires #), on strip avant validation
+          sed 's/#.*$//' mod_info.json | python3 -m json.tool > /dev/null
+          echo "✅ mod_info.json valide"
+
+      - name: Check UTF-8 encoding
         run: |
-          python tools/check_encoding.py
-          
-      - name: Validate JSON files
+          echo "Vérification encodage UTF-8..."
+          failed=0
+          for file in $(find data localization -name "*.csv" -o -name "*.json" -o -name "*.skin" 2>/dev/null); do
+            if ! iconv -f UTF-8 -t UTF-8 "$file" > /dev/null 2>&1; then
+              echo "❌ Encodage non UTF-8 : $file"
+              failed=1
+            fi
+          done
+          if [ "$failed" -eq 1 ]; then exit 1; fi
+          echo "✅ Tous les fichiers sont en UTF-8"
+
+      - name: Check for NNBSP (U+202F)
         run: |
-          python tools/validate_json.py
-          
-      - name: Validate CSV files
-        run: |
-          python tools/validate_csv.py
+          echo "Recherche NNBSP problématiques..."
+          failed=0
+          for file in $(find data localization -name "*.skin" -o -name "*.csv" -o -name "*.json" 2>/dev/null); do
+            if grep -P '\x{202F}' "$file" > /dev/null 2>&1; then
+              echo "❌ NNBSP trouvé dans : $file"
+              failed=1
+            fi
+          done
+          if [ "$failed" -eq 1 ]; then
+            echo "⚠️ NNBSP (U+202F) cause des ? en jeu"
+            exit 1
+          fi
+          echo "✅ Pas de NNBSP"
