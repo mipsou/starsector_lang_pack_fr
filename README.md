@@ -15,7 +15,7 @@ Pack de langue français pour Starsector.
 [![Mots](https://img.shields.io/badge/Mots%20Traduits-15k%2F150k-blue)](#)
 [![Taille](https://img.shields.io/badge/Taille%20Totale-15%20MB-lightgrey)](#)
 
-### Avancement par fichier
+### Avancement par fichier — [Voir le board de suivi](https://github.com/users/mipsou/projects/2)
 
 | Fichier | Contenu | Traduit | Vérifié en jeu |
 |---------|---------|:-------:|:--------------:|
