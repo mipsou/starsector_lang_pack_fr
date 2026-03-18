@@ -38,7 +38,7 @@ Pack de langue français pour Starsector.
 
 ## Installation
 
-1. Téléchargez la dernière version du mod
+1. [Téléchargez la dernière version du mod](https://github.com/mipsou/starsector_lang_pack_fr/releases/latest)
 2. Extrayez le contenu dans le dossier `mods` de Starsector
 3. Activez le mod dans le launcher du jeu
 
