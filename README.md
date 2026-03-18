@@ -6,8 +6,8 @@ Pack de langue français pour Starsector.
 
 ### Temps et Activité
 [![Temps de Dev](https://img.shields.io/badge/Temps%20de%20Dev-120h-blue)](#)
-[![Dernière MàJ](https://img.shields.io/badge/Dernière%20MàJ-17%20Mar%202026-green)](#)
-[![Version](https://img.shields.io/badge/Version-1.2.0-blue)](#)
+[![Dernière MàJ](https://img.shields.io/github/last-commit/mipsou/starsector_lang_pack_fr/main?label=Dernière%20MàJ&color=green)](#)
+[![Version](https://img.shields.io/github/v/release/mipsou/starsector_lang_pack_fr?label=Version&color=blue)](#)
 [![Status](https://img.shields.io/badge/Status-En%20développement-yellow)](#)
 
 ### Couverture
@@ -15,22 +15,25 @@ Pack de langue français pour Starsector.
 [![Mots](https://img.shields.io/badge/Mots%20Traduits-15k%2F150k-blue)](#)
 [![Taille](https://img.shields.io/badge/Taille%20Totale-15%20MB-lightgrey)](#)
 
-### Traduction
-- Interface utilisateur : ![UI 15%](https://img.shields.io/badge/UI-15%25-blue?style=flat-square&labelColor=444)
-- Textes du jeu : ![Textes 40%](https://img.shields.io/badge/Textes-40%25-blue?style=flat-square&labelColor=444)
-- Descriptions Codex : ![Codex 95%](https://img.shields.io/badge/Codex-95%25-green?style=flat-square&labelColor=444)
-- Variantes (.skin) : ![Skins 100%](https://img.shields.io/badge/Skins-100%25-brightgreen?style=flat-square&labelColor=444)
-- Documentation : ![Documentation 20%](https://img.shields.io/badge/Documentation-20%25-blue?style=flat-square&labelColor=444)
+### Avancement par fichier
 
-### Développement
-- Outils de conversion : ![Outils 80%](https://img.shields.io/badge/Outils-80%25-green?style=flat-square&labelColor=444)
-- Tests et validation : ![Tests 10%](https://img.shields.io/badge/Tests-10%25-orange?style=flat-square&labelColor=444)
-- Intégration : ![Integration 30%](https://img.shields.io/badge/Integration-30%25-yellow?style=flat-square&labelColor=444)
+| Fichier | Contenu | Traduit | Vérifié en jeu |
+|---------|---------|:-------:|:--------------:|
+| `descriptions.csv` | 570 descriptions Codex | ✅ 100% | ✅ |
+| `tips.json` | Conseils écran de chargement | ✅ 100% | ✅ |
+| `hull_mods.csv` | 120 hullmods (noms + desc) | ✅ 100% | ✅ |
+| `ship_data.csv` | Désignations vaisseaux | ✅ 100% | ✅ |
+| `ship_systems.csv` | Systèmes de vaisseaux | ✅ 100% | ✅ |
+| `weapon_data.csv` | Noms d'armes | ✅ 100% | ✅ |
+| `skins/*.skin` | 65 variantes (P, D, XIV, LG…) | ✅ 100% | ✅ |
+| `strings.json` | Interface générale | ❌ | ❌ |
+| `tooltips.json` | Tooltips interface | ❌ | ❌ |
+| `ship_names.json` | Noms de vaisseaux | ❌ | ❌ |
 
 ### Qualité
 [![Tests](https://img.shields.io/badge/Tests-Passing-success)](#)
 [![Couverture](https://img.shields.io/badge/Coverage-75%25-yellowgreen)](#)
-[![Issues](https://img.shields.io/badge/Issues-2%20open-yellow)](#)
+[![Issues](https://img.shields.io/github/issues/mipsou/starsector_lang_pack_fr?label=Issues&color=yellow)](#)
 [![PRs](https://img.shields.io/badge/PRs-Welcome-brightgreen)](#)
 
 ## Installation
@@ -45,8 +48,15 @@ Pack de langue français pour Starsector.
 starsector_lang_pack_fr/
 ├── mod_info.json.........# Configuration du mod
 ├── data/
+│   ├── hullmods/
+│   │   └── hull_mods.csv.# 120 hullmods traduits
 │   ├── hulls/
+│   │   ├── ship_data.csv.# Désignations vaisseaux traduites
 │   │   └── skins/........# 65 variantes traduites (P, D, TT, XIV, LG...)
+│   ├── shipsystems/
+│   │   └── ship_systems.csv # Systèmes de vaisseaux traduits
+│   ├── weapons/
+│   │   └── weapon_data.csv # Noms d'armes traduits
 │   └── strings/..........# Fichiers de traduction
 │       ├── descriptions.csv
 │       ├── strings.json
