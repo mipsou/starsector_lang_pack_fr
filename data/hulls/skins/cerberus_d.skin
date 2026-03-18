@@ -3,7 +3,7 @@
 	"skinHullId":"cerberus_d",
 	"hullName":"Cerberus (D)",
 	"descriptionId":"cerberus",
-	"descriptionPrefix":"Des vaisseaux qui auraient été retirés du service en temps plus calmes sont désormais largement utilisés à travers le Secteur. La désignation de coque de ces vaisseaux est généralement marquée d’un \"D\", pour \"damaged\" (endommagé) ou \"defective\" (défectueux).",
+	"descriptionPrefix":"Des vaisseaux qui auraient été décommissionés en temps plus calmes sont désormais largement utilisés à travers le Secteur. La désignation de coque de ces vaisseaux est généralement marquée d’un \"D\", pour \"damaged\" (endommagé) ou \"defective\" (défectueux).",
 	"restoreToBaseHull":true,
 	"baseValueMult":.67,
 	"spriteName":"graphics/ships/cerberus/cerberus_damaged.png",

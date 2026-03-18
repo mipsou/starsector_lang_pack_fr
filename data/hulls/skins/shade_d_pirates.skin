@@ -3,7 +3,7 @@
 	"skinHullId":"shade_d_pirates",
 	"hullName":"Shade (P)",
 	"descriptionId":"shade",
-	"descriptionPrefix":"Après la Seconde Guerre de l’IA, de nombreux plans corrompus sont devenus disponibles, récupérés par des ferrailleurs prêts à risquer les systèmes stellaires abandonnés par Tri-Tachyon. Beaucoup ont été vendus à des éléments peu recommandables tels que des contrebandiers et des pirates, qui les ont rapidement remis en service pour produire des vaisseaux de qualité médiocre mais aptes au combat.",
+	"descriptionPrefix":"Après la Seconde Guerre de l’IA, de nombreux plans corrompus sont devenus disponibles, récupérés par des récupérateurs prêts à risquer les systèmes stellaires abandonnés par Tri-Tachyon. Beaucoup ont été vendus à des éléments peu recommandables tels que des marchands noirs et des pirates, qui les ont rapidement remis en service pour produire des vaisseaux de qualité médiocre mais aptes au combat.",
 	"tags":["pirate_bp"],
 	"tech":"Pirate",
 	"fleetPoints":8,

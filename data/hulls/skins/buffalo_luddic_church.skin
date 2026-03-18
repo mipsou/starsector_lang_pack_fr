@@ -3,7 +3,7 @@
 	"skinHullId":"buffalo_luddic_church",
 	"hullName":"Buffalo (LC)",
 	"descriptionId":"buffalo",  # optional
-	"descriptionPrefix":"Ce vaisseau a reçu les marquages de la Luddic Church. Les modifications de systèmes sont par ailleurs superficielles.",
+	"descriptionPrefix":"Ce vaisseau a reçu les marquages de l’Luddic Church. Les modifications de systèmes sont par ailleurs superficielles.",
 	"tags":["LC_bp"],
 	"tech":"Luddic Church",
 	"spriteName":"graphics/ships/buffalo/buffalo_luddic_church.png",

@@ -3,7 +3,7 @@
 	"skinHullId":"kite_pirates",
 	"hullName":"Kite (P)",
 	"descriptionId":"kite",  # optional
-	"descriptionPrefix":"Ce vaisseau a été lourdement modifié — et mal entretenu — par son équipage pirate.",
+	"descriptionPrefix":"Ce vaisseau a été lourdement modifié — et mal entretenu — par son équipage pirate.",
 	"tags":["pirate_bp"],
 	"tech":"Pirate",
 	"spriteName":"graphics/ships/aeroshuttle/aeroshuttle_pirates.png",
