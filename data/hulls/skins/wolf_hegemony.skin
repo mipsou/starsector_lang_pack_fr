@@ -4,7 +4,7 @@
 	"hullName":"Wolf (H)",
 	"incompatibleWithBaseHull":false, # for the autofit dialog
 	"descriptionId":"wolf",
-	"descriptionPrefix":"Ce vaisseau a reçu les marquages de l’Hégémonie. Les modifications de systèmes sont par ailleurs superficielles.",
+	"descriptionPrefix":"Ce vaisseau a reçu les marquages de l’Hegemony. Les modifications de systèmes sont par ailleurs superficielles.",
 	"tags":["heg_aux_bp"],
 	"tech":"Hegemony",
 	"spriteName":"graphics/ships/wolf/wolf_hegemony.png",

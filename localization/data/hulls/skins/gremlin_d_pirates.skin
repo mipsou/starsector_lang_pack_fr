@@ -3,7 +3,7 @@
 	"skinHullId":"gremlin_d_pirates",
 	"hullName":"Gremlin (P)",
 	"descriptionId":"gremlin",
-	"descriptionPrefix":"Ce vaisseau a été lourdement modifié — et mal entretenu — par son équipage pirate.",
+	"descriptionPrefix":"Ce vaisseau a été lourdement modifié — et mal entretenu — par son équipage pirate.",
 	"tags":["pirate_bp"],
 	"tech":"Pirate",
 	#"ordnancePoints":40,

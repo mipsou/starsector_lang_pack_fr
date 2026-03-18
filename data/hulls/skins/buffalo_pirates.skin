@@ -3,7 +3,7 @@
 	"skinHullId":"buffalo_pirates",
 	"hullName":"Buffalo (P)",
 	"descriptionId":"buffalo",  # optional
-	"descriptionPrefix":"Ce vaisseau a été lourdement modifié — et mal entretenu — par son équipage pirate.",
+	"descriptionPrefix":"Ce vaisseau a été lourdement modifié — et mal entretenu — par son équipage pirate.",
 	"tags":["pirate_bp"],
 	"tech":"Pirate",
 	"spriteName":"graphics/ships/buffalo/buffalo_pirates.png",

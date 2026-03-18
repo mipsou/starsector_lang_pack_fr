@@ -3,7 +3,7 @@
 	"skinHullId":"enforcer_d_pirates",
 	"hullName":"Enforcer (P)",
 	"descriptionId":"enforcer",
-	"descriptionPrefix":"Ce vaisseau a été lourdement modifié — et mal entretenu — par son équipage pirate.",
+	"descriptionPrefix":"Ce vaisseau a été lourdement modifié — et mal entretenu — par son équipage pirate.",
 	"tags":["pirate_bp"],
 	"tech":"Pirate",
 	"spriteName":"graphics/ships/enforcer/enforcer_pirates.png",
