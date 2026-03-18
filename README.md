@@ -27,8 +27,8 @@ Pack de langue français pour Starsector.
 | `weapon_data.csv` | Noms d'armes | ✅ 100% | ✅ |
 | `skins/*.skin` | 65 variantes (P, D, XIV, LG…) | ✅ 100% | ✅ |
 | `strings.json` | Interface générale | ❌ | ❌ |
-| `tooltips.json` | Tooltips interface | ❌ | ❌ |
-| `ship_names.json` | Noms de vaisseaux | ❌ | ❌ |
+| `tooltips.json` | Tooltips interface | ✅ 100% | ✅ |
+| `ship_names.json` | 25 sections, 2187+ noms | ✅ 100% | ✅ |
 
 ### Qualité
 [![Tests](https://img.shields.io/badge/Tests-Passing-success)](#)
