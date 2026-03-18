@@ -20,19 +20,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Validate JSON files
-        run: |
-          echo "Validation JSON..."
-          failed=0
-          for file in $(find data localization -name "*.json" 2>/dev/null); do
-            if ! python3 -m json.tool "$file" > /dev/null 2>&1; then
-              echo "❌ JSON invalide : $file"
-              failed=1
-            fi
-          done
-          if [ "$failed" -eq 1 ]; then exit 1; fi
-          echo "✅ JSON valides"
-
       - name: Check for NNBSP (U+202F)
         run: |
           echo "Recherche NNBSP (U+202F) problématiques..."

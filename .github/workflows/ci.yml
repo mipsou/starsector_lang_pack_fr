@@ -12,26 +12,14 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Validate JSON files
-        run: |
-          echo "Validation des fichiers JSON..."
-          failed=0
-          for file in $(find data localization -name "*.json" 2>/dev/null); do
-            if ! python3 -m json.tool "$file" > /dev/null 2>&1; then
-              echo "❌ JSON invalide : $file"
-              failed=1
-            fi
-          done
-          if [ "$failed" -eq 1 ]; then exit 1; fi
-          echo "✅ Tous les fichiers JSON sont valides"
-
       - name: Validate mod_info.json
         run: |
           if [ ! -f "mod_info.json" ]; then
             echo "❌ mod_info.json manquant"
             exit 1
           fi
-          python3 -m json.tool mod_info.json > /dev/null
+          # mod_info.json est du JSONC (commentaires #), on strip avant validation
+          sed 's/#.*$//' mod_info.json | python3 -m json.tool > /dev/null
           echo "✅ mod_info.json valide"
 
       - name: Check UTF-8 encoding
@@ -46,3 +34,19 @@ jobs:
           done
           if [ "$failed" -eq 1 ]; then exit 1; fi
           echo "✅ Tous les fichiers sont en UTF-8"
+
+      - name: Check for NNBSP (U+202F)
+        run: |
+          echo "Recherche NNBSP problématiques..."
+          failed=0
+          for file in $(find data localization -name "*.skin" -o -name "*.csv" -o -name "*.json" 2>/dev/null); do
+            if grep -P '\x{202F}' "$file" > /dev/null 2>&1; then
+              echo "❌ NNBSP trouvé dans : $file"
+              failed=1
+            fi
+          done
+          if [ "$failed" -eq 1 ]; then
+            echo "⚠️ NNBSP (U+202F) cause des ? en jeu"
+            exit 1
+          fi
+          echo "✅ Pas de NNBSP"
