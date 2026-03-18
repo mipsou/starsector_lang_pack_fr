@@ -3,7 +3,7 @@
 	"skinHullId":"kite_original",
 	"hullName":"Kite (S)",
 	"descriptionId":"kite",  # optional
-	"descriptionPrefix":"Un modèle civil d’origine non modifié en parfait état de stock, ce vaisseau est une pièce de collection d’une époque plus civilisée.",
+	"descriptionPrefix":"Un modèle civil d'origine non modifié en parfait état de stock, ce vaisseau est une pièce de collection d'une époque plus civilisée.",
 	"tags":["rare_bp"],
 	"spriteName":"graphics/ships/aeroshuttle/aeroshuttle_original.png",
 	"addHints":[CIVILIAN],

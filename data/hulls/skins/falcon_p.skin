@@ -3,7 +3,7 @@
 	"skinHullId":"falcon_p",
 	"hullName":"Falcon (P)",
 	"descriptionId":"falcon",
-	"descriptionPrefix":"Le système de propulsion de ce Falcon a reçu des « améliorations » impraticables mais voyantes de la part d’un équipage pirate enthousiaste ; l’assemblage hétéroclite de composants moteurs, tant bien que mal convaincus de fonctionner ensemble, ne respecte aucune norme de sécurité.",
+	"descriptionPrefix":"Le système de propulsion de ce Falcon a reçu des « améliorations » impraticables mais voyantes de la part d'un équipage pirate enthousiaste ; l'assemblage hétéroclite de composants moteurs, tant bien que mal convaincus de fonctionner ensemble, ne respecte aucune norme de sécurité.",
 	"tags":["rare_bp"],
 	"tech":"Pirate",
 	#"restoreToBaseHull":true,
