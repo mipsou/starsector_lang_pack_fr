@@ -5,7 +5,7 @@
 	#"fleetPoints":7,
 	#"systemId":"",
 	"descriptionId":"buffalo",  # optional
-	"descriptionPrefix":"Des vaisseaux qui auraient été décommissionés en temps plus calmes sont désormais largement utilisés à travers le Secteur. La désignation de coque de ces vaisseaux est généralement marquée d’un \"D\", pour \"damaged\" (endommagé) ou \"defective\" (défectueux).",
+	"descriptionPrefix":"Des vaisseaux qui auraient été décommissionés en temps plus calmes sont désormais largement utilisés à travers le Secteur. La désignation de coque de ces vaisseaux est généralement marquée d'un \"D\", pour \"damaged\" (endommagé) ou \"defective\" (défectueux).",
 	"restoreToBaseHull":true,
 	"spriteName":"graphics/ships/buffalo/buffalo_substandard.png",
 	"baseValueMult":.67,

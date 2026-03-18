@@ -3,7 +3,7 @@
     "skinHullId":"brawler_tritachyon",
     "hullName":"Brawler (TT)",
     "descriptionId":"brawler",  # optional
-    "descriptionPrefix":"Ce vaisseau a été entièrement révisé par la corporation Tri-Tachyon. Des correctifs logiciels conformes Tri-Tachyon ont été installés, pleinement intégrés aux protocoles de surveillance d’état TriPad (R), des conduits de flux haute spécification ont été améliorés, et les points d’attache d’armes ont été reconditionnés pour le montage d’armes à énergie avancées.",
+    "descriptionPrefix":"Ce vaisseau a été entièrement révisé par la corporation Tri-Tachyon. Des correctifs logiciels conformes Tri-Tachyon ont été installés, pleinement intégrés aux protocoles de surveillance d'état TriPad (R), des conduits de flux haute spécification ont été améliorés, et les points d'attache d'armes ont été reconditionnés pour le montage d'armes à énergie avancées.",
 	"tags":["rare_bp"],
 	"tech":"Tri-Tachyon",
     "spriteName":"graphics/ships/brawler/brawler_tritachyon.png",
