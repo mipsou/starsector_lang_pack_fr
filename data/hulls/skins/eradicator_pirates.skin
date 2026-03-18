@@ -3,7 +3,7 @@
 	"skinHullId":"eradicator_pirates",
 	"hullName":"Eradicator (P)",
 	"descriptionId":"eradicator",
-	"descriptionPrefix":"Ce vaisseau a été lourdement modifié — et mal entretenu — par son équipage pirate.",
+	"descriptionPrefix":"Ce vaisseau a été lourdement modifié — et mal entretenu — par son équipage pirate.",
 	#"tags":["pirate_bp"],
 	"tags":["rare_bp"],
 	"tech":"Pirate",
