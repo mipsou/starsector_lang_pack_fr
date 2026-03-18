@@ -1,0 +1,27 @@
+name: Default Branch Hook
+
+on:
+  create:
+    branches:
+      - '*'
+
+jobs:
+  redirect:
+    runs-on: ubuntu-latest
+    if: github.ref != 'refs/heads/dev'
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Git
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+
+      - name: Redirect to dev
+        run: |
+          echo "⚠️ Attention développeur !"
+          echo "La branche par défaut pour le développement est 'dev'"
+          echo "Veuillez créer vos branches à partir de 'dev' et non de 'main'"
+          echo "Exemple : git checkout -b feature/ma-fonctionnalite dev"
+          exit 1

@@ -1,5 +1,5 @@
 # Configuration
-$repo = "mipsou/starsector_lang_pack_fr_private"
+$repo = "mipsou/starsector_lang_pack_fr"
 $api = "https://api.github.com/repos/$repo/labels"
 
 # Function to create or update a label

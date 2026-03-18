@@ -23,28 +23,3 @@ env/
 # Fichiers temporaires
 *.bak
 *.tmp
-
-# windsurf rules
-.windsurfrules
-
-# Artifacts de test
-.coverage
-htmlcov/
-.pytest_cache/
-
-# Logs
-logs/
-
-# Backups generes
-*_keys.txt
-
-# Archives de release (generees par CI)
-*.zip
-
-# Game data extracte (regenerable)
-jar_content/
-original/starfarer_obf.zip
-original/jar_extract/
-
-# Workspace files
-*.code-workspace
