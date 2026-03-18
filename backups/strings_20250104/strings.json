@@ -1,0 +1,100 @@
+{
+    "fleetInteractionDialog": {
+        "initialWithStationVsLargeFleet": "La $faction $fleetOrShip manœuvre pour rester soutenue par la station, permettant à votre flotte de se désengager. Cependant, vos forces risquent d'être harcelées pendant leur repli.",
+        "initialAggressive": "La $faction $fleetOrShip manœuvre pour vous empêcher de vous désengager facilement.",
+        "initialDisengage": "La $faction $fleetOrShip tente de se désengager.",
+        "initialCareful": "La $faction $fleetOrShip maintient prudemment sa distance, prête à se désengager en cas d'hostilités.",
+        "initialNeutral": "La $faction $fleetOrShip adopte une posture neutre.",
+        "initialHoldVsStrongerEnemy": "La $faction $fleetOrShip semble prête à combattre malgré la présence de forces supérieures, mais ne cherchera probablement pas à forcer l'engagement.",
+        "initialAggressiveSide": "Les $enemyFactionAndTheirAllies manœuvrent pour vous empêcher de vous désengager facilement.",
+        "initialDisengageSide": "Les $enemyFactionAndTheirAllies tentent de se désengager.",
+        "initialCarefulSide": "Les $enemyFactionAndTheirAllies maintiennent prudemment leur distance, prêts à se désengager en cas d'hostilités.",
+        "initialNeutralSide": "Les $enemyFactionAndTheirAllies adoptent une posture neutre.",
+        "initialHoldVsStrongerEnemySide": "Les $enemyFactionAndTheirAllies semblent prêts à combattre malgré la présence de forces supérieures, mais ne chercheront probablement pas à forcer l'engagement.",
+        
+        "initialKnows": "Elle connaît votre identité car le transpondeur de votre $playerFleetOrShip est activé.",
+        "initialKnowsTOff": "Il semble qu'elle connaisse votre identité, malgré le transpondeur de votre $playerFleetOrShip désactivé, probablement pour vous avoir vu récemment.",
+        "initialKnowsUnique": "Malgré le transpondeur de votre $playerFleetOrShip désactivé, elle semble connaître votre identité - probablement en raison de la présence de vaisseaux notables dans votre flotte.",
+        "initialKnowsUniqueSide": "Malgré le transpondeur de votre $playerFleetOrShip désactivé, ils semblent connaître votre identité - probablement en raison de la présence de vaisseaux notables dans votre flotte.",
+        "initialDoesntKnow": "Elle ne semble pas certaine de votre identité. Toute hostilité aura un impact réduit sur votre réputation.",
+        "initialKnowsSide": "Ils connaissent votre identité car le transpondeur de votre $playerFleetOrShip est activé.",
+        "initialKnowsTOffSide": "Il semble qu'ils connaissent votre identité, malgré le transpondeur de votre $playerFleetOrShip désactivé, probablement pour vous avoir vu récemment.",
+        "initialDoesntKnowSide": "Ils ne semblent pas certains de votre identité. Toute hostilité aura un impact réduit sur votre réputation.",
+        
+        "battleDefeat": "$yourForcesWereOrYourSideWas ont été vaincues lors du dernier engagement.",
+        "battleTotalDefeat": "$yourForcesWereOrYourSideWas ont été totalement vaincues lors du dernier engagement.",
+        "battleVictory": "$yourForcesWereOrYourSideWas sont sorties victorieuses du dernier engagement.",
+        "battleTotalVictory": "$yourForcesWereOrYourSideWas ont remporté une victoire totale lors du dernier engagement.",
+        "battleFleetLost": "Tous vos vaisseaux ont été détruits lors du dernier engagement.",
+        
+        "friendlyFireRepLoss": "Il y a eu d'importants incidents de tir ami au cours de l'engagement.",
+        
+        "pursuitAutoresolve": "Vos forces engagent la poursuite, selon vos ordres.",
+        "pursuitVictoryNoLosses": "Les forces ennemies en retraite ont pu se désengager sans perdre de vaisseaux.",
+        "pursuitVictoryLosses": "Les forces ennemies en retraite ont pu se désengager, mais non sans subir des pertes.",
+        "pursuitTotalVictory": "Aucun vaisseau ennemi n'a réussi à s'échapper.",
+        "pursuitDefeat": "Les forces ennemies ont réussi à retourner la situation et à infliger une défaite à vos forces.",
+        "pursuitTotalDefeat": "Dans un retournement de situation surprenant, les forces ennemies en retraite ont réussi à retourner la situation et à obtenir une victoire écrasante.",
+        
+        "escapeDefeat": "$yourForcesWereOrYourSideWas ont réussi à se désengager de l'ennemi.",
+        "escapeTotalDefeat": "Aucun des vaisseaux de votre camp n'a réussi à s'échapper.",
+        "escapeVictory": "$yourForcesWereOrYourSideWas ont réussi à retourner la situation contre l'ennemi qui les poursuivait et à leur infliger une défaite.",
+        "escapeTotalVictory": "$yourForcesWereOrYourSideWas ont réussi à retourner la situation contre l'ennemi qui les poursuivait et les ont totalement écrasés.",
+        
+        "engagementMutualDestruction": "Les vaisseaux des deux camps ont été réduits à l'état de ferraille.",
+        "mutualDestructionRepairs": "Mais tout n'est pas perdu. Vous prenez le commandement du $boardableShipName, organisant les équipes de réparation et vous concentrant sur la restauration de la propulsion de base et du support vital. Vos efforts sont couronnés de succès, et plusieurs heures plus tard, vous pouvez reprendre la route.",
+        
+        "enemyHarass": "Les forces ennemies harcèlent vos vaisseaux pendant leur retraite, causant beaucoup de perturbations, mais ne forcent finalement pas l'engagement.",
+        "enemyUnableToPursue": "Les vaisseaux ennemis sont incapables d'engager la poursuite, permettant à vos forces de se retirer sans autre incident.",
+        "enemyDecidesNotToPursue": "Les vaisseaux ennemis ne font aucun mouvement pour poursuivre, permettant à vos forces de se retirer sans autre incident.",
+        "enemyPursuit": "La flotte ennemie poursuit vos forces.",
+        
+        "playerRecovery": "$yourForcesWereOrYourSideWas ont pu récupérer une partie de leur état de préparation au combat car elles contrôlent l'espace de bataille et l'engagement était limité.",
+        "enemyRecovery": "Les forces ennemies peuvent récupérer une partie de leur état de préparation au combat car elles contrôlent l'espace de bataille et l'engagement était limité.",
+        "bothRecovery": "Les deux camps peuvent récupérer une partie de leur état de préparation au combat alors qu'ils se retirent après un engagement limité et chaotique.",
+        
+        "enemyCleanDisengage": "La flotte adverse peut se désengager proprement car vos forces sont incapables d'engager la poursuite.",
+        "enemyCleanDisengageSide": "La flotte adverse peut se désengager proprement car les forces de votre camp sont incapables d'engager la poursuite.",
+        
+        "playerUnableToPursue": "Il semble que la flotte adverse pourra se désengager sans que vous puissiez forcer le combat.",
+        "playerUnableToPursueNoReadyShips": "Aucun de vos vaisseaux n'est en état d'engager la poursuite.",
+        "playerUnableToPursueStoodDown": "Vos vaisseaux se concentrent sur la récupération de leur état de préparation au combat et sont incapables d'engager la poursuite.",
+        
+        "playerDisruptedEnemy": "Malgré la retraite du dernier engagement, vos forces ont perturbé l'ennemi et peuvent se désengager sans être poursuivies.",
+        "enemyDisruptedPlayer": "Malgré la victoire lors du dernier engagement, vos forces ont subi suffisamment de pertes pour être incapables d'engager la poursuite alors que l'ennemi se désengage.",
+        "enemyDisruptedPlayerSide": "Malgré la victoire lors du dernier engagement, les forces de votre camp ont subi suffisamment de pertes pour être incapables d'engager la poursuite alors que l'ennemi se désengage.",
+        "cleanDisengageOpportunity": "Après une victoire tactique, vos forces ont l'opportunité de se désengager proprement de l'ennemi.",
+        
+        "playerTooLargeToDisengage": "Votre flotte est trop importante pour pouvoir se désengager facilement. Engager l'ennemi et détruire, désactiver ou forcer suffisamment de leurs vaisseaux à battre en retraite permettra à votre flotte de se désengager sans être poursuivie.",
+        "highlightTooLarge": "trop importante pour pouvoir se désengager",
+        "highlightDisengage": "se désengager sans être poursuivie",
+        
+        "highlghtDisruptedEnemy": "se désengager sans être poursuivies",
+        "highlightDisruptedPlayer": "incapables d'engager la poursuite",
+        "highlightCleanDisengage": "se désengager proprement de l'ennemi",
+        
+        "playerLetGo": "Vos vaisseaux ne font aucun mouvement pour poursuivre, permettant aux forces ennemies de se retirer sans autre incident.",
+        "playerHarass": "Vos forces harcèlent les vaisseaux ennemis pendant leur retraite, causant beaucoup de perturbations, mais ne forcent finalement pas le combat.",
+        
+        "engageForce": "Vous ordonnez une série de manœuvres qui laissent au commandant ennemi de moins en moins d'options.",
+        "engagePursuit": "La flotte adverse tente de se désengager, mais ils ne pourront pas s'échapper sans combattre.",
+        "engageMutual": "La flotte adverse est prête à engager le combat.",
+        "greeting": "Salutations, commandant.",
+        "hostile": "Préparez-vous au combat !",
+        "friendly": "Heureux de vous voir, ami.",
+        "neutral": "Que puis-je faire pour vous ?"
+    },
+    "jumpPointInteractionDialog": {
+        "approach": "Votre $fleetOrShip approche du point de saut.",
+    },
+    "planetInteractionDialog": {
+        "approach": "Votre $fleetOrShip approche de $planetName."
+    },
+    "campaignHelp": {
+        "chmNewgame_text": "Bienvenue dans la campagne Starsector !\n\nVous pouvez appuyer sur F5 pour faire une sauvegarde rapide et F9 pour la charger.\n\nEssayez d'éviter d'affronter des flottes beaucoup plus grandes que la vôtre, ou celles qui ont des vaisseaux plus imposants, et n'oubliez pas que c'est un travail en cours, donc des bugs peuvent occasionnellement survenir.\n\nBonne chance !",
+        "chmNewgame_dismiss": "Fermer",
+        "chmNewgameIron_text": "Bienvenue dans la campagne Starsector !\n\nPuisque vous jouez en mode fer, vous ne pourrez sauvegarder la partie qu'en quittant, et ne pourrez pas charger une autre partie sans d'abord quitter (et sauvegarder) votre partie actuelle.\n\nEssayez d'éviter d'affronter des flottes beaucoup plus grandes que la vôtre, ou celles qui ont des vaisseaux plus imposants, et n'oubliez pas que c'est un travail en cours, donc des bugs peuvent occasionnellement survenir.\n\nBonne chance !",
+        "chmNewgameIron_dismiss": "Fermer",
+        "chmDeployCritCR_text": "Certains des vaisseaux marqués pour le déploiement ont un état de préparation au combat dangereusement bas (inférieur à 20%).\n\nAmener les systèmes de ces vaisseaux aux niveaux de puissance de combat risque de provoquer des dysfonctionnements critiques - causant des dégâts, désactivant certaines armes et moteurs pour la durée de la bataille."
+    }
+}

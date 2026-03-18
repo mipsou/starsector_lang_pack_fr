@@ -1,0 +1,12 @@
+{
+    "id": "test_invalide",
+    "name": "Test Invalide",
+    "description": "Un fichier avec des erreurs de format Starsector",
+    "data": {
+        "field1": "Valeur avec espace après les deux points" : "invalide",
+        "field2": "Valeur avec guillemets français «invalide»",
+        "field3": "Mauvaise indentation",
+        "field4": "Valeur avec apostrophe droite'invalide",
+        "field5": "Saut de ligne windows\r\ninvalide"
+    }
+}

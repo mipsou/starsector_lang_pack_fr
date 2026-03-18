@@ -1,0 +1,10 @@
+# commentaire{
+    "typeCheckingMode": "basic",
+    "include": [
+        "src/**/*.py"
+    ],
+    "exclude": [
+        "**/node_modules",
+        "**/__pycache__"
+    ]
+}

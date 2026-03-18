@@ -1,0 +1,21 @@
+id,message,type
+combat_start,Combat engagé,COMBAT
+combat_victory,Victoire !,COMBAT
+combat_defeat,Défaite...,COMBAT
+combat_retreat_success,Retraite réussie,COMBAT
+combat_retreat_failed,Retraite impossible !,COMBAT
+fleet_no_fuel,Carburant épuisé !,FLEET
+fleet_low_fuel,Niveau de carburant critique,FLEET
+fleet_no_supplies,Ravitaillement épuisé !,FLEET
+fleet_low_supplies,Ravitaillement faible,FLEET
+fleet_crew_lost,Pertes d'équipage,FLEET
+market_transaction,Transaction effectuée,MARKET
+market_insufficient_credits,Crédits insuffisants,MARKET
+market_storage_full,Stockage plein,MARKET
+intel_new_mission,Nouvelle mission disponible,INTEL
+intel_mission_success,Mission accomplie,INTEL
+intel_mission_failed,Mission échouée,INTEL
+system_jump_ready,Saut hyperespace prêt,SYSTEM
+system_jump_charging,Charge du saut en cours,SYSTEM
+system_jump_warning,!! Attention : Masse détectée !!,SYSTEM
+system_emergency,!! ALERTE SYSTÈME !!,SYSTEM

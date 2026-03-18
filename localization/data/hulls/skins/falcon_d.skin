@@ -1,0 +1,17 @@
+{
+	"baseHullId":"falcon",
+	"skinHullId":"falcon_d",
+	"hullName":"Falcon (D)",
+	"descriptionId":"falcon",
+	"descriptionPrefix":"Des vaisseaux qui auraient été décommissionés en temps plus calmes sont désormais largement utilisés à travers le Secteur. La désignation de coque de ces vaisseaux est généralement marquée d’un \"D\", pour \"damaged\" (endommagé) ou \"defective\" (défectueux).",
+	"restoreToBaseHull":true,
+	"baseValueMult":.55,
+	"spriteName":"graphics/ships/falcon/falcon_damaged.png",
+	#"removeWeaponSlots":["WS 009", "WS 010"], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["degraded_engines","faulty_grid"],
+	"builtInWeapons":{
+    },
+}
