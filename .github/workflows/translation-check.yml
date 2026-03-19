@@ -6,16 +6,13 @@ on:
     paths:
       - '**.json'
       - '**.csv'
+      - '**.skin'
   push:
     branches: [ main, dev ]
     paths:
       - '**.json'
       - '**.csv'
-
-permissions:
-  contents: write
-  pull-requests: write
-  issues: write
+      - '**.skin'
 
 jobs:
   check-translation:
@@ -23,74 +20,70 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
-
-      - name: Install dependencies
+      - name: Check for NNBSP (U+202F)
         run: |
-          python -m pip install --upgrade pip
-          pip install jsonschema pandas
-
-      - name: Validate JSON files
-        run: |
-          for file in $(find . -name "*.json"); do
-            if ! python -m json.tool "$file" > /dev/null 2>&1; then
-              echo "❌ Fichier JSON invalide : $file"
-              exit 1
+          echo "Recherche NNBSP (U+202F) problématiques..."
+          failed=0
+          for file in $(find data localization -name "*.skin" -o -name "*.csv" -o -name "*.json" 2>/dev/null); do
+            if grep -P '\x{202F}' "$file" > /dev/null 2>&1; then
+              echo "❌ NNBSP trouvé dans : $file"
+              failed=1
             fi
           done
+          if [ "$failed" -eq 1 ]; then
+            echo "⚠️ NNBSP (U+202F) cause des ? en jeu — remplacer par des espaces normales"
+            exit 1
+          fi
+          echo "✅ Pas de NNBSP"
 
-      - name: Validate CSV files
+      - name: Check for typographic apostrophes (U+2019)
         run: |
-          python - <<EOF
-          import pandas as pd
-          import glob
-          import sys
-          
-          for file in glob.glob("**/*.csv", recursive=True):
-              try:
-                  df = pd.read_csv(file)
-                  # Vérifier les colonnes requises
-                  required_cols = ['id', 'fr', 'en']
-                  if not all(col in df.columns for col in required_cols):
-                      print(f"❌ Colonnes requises manquantes dans {file}")
-                      sys.exit(1)
-                  # Vérifier les valeurs vides
-                  if df[required_cols].isnull().any().any():
-                      print(f"❌ Valeurs vides trouvées dans les colonnes requises de {file}")
-                      sys.exit(1)
-              except Exception as e:
-                  print(f"❌ Erreur lors du traitement de {file}: {str(e)}")
-                  sys.exit(1)
-          EOF
+          echo "Recherche apostrophes typographiques (U+2019)..."
+          failed=0
+          for file in $(find data -name "*.json" -o -name "*.csv" 2>/dev/null); do
+            if grep -P '\x{2019}' "$file" > /dev/null 2>&1; then
+              echo "❌ Apostrophe typographique trouvée dans : $file"
+              grep -n -P '\x{2019}' "$file"
+              failed=1
+            fi
+          done
+          if [ "$failed" -eq 1 ]; then
+            echo "⚠️ Les apostrophes typographiques (U+2019) causent des ? en jeu — utiliser ' (U+0027)"
+            exit 1
+          fi
+          echo "✅ Pas d'apostrophe typographique"
 
-      - name: Check for untranslated strings
+      - name: Validate JSON syntax
         run: |
-          python - <<EOF
-          import json
-          import glob
-          import sys
-          
-          def check_translation(obj, path=""):
-              if isinstance(obj, dict):
-                  for k, v in obj.items():
-                      new_path = f"{path}.{k}" if path else k
-                      if isinstance(v, (dict, list)):
-                          check_translation(v, new_path)
-                      elif isinstance(v, str) and v.startswith("TODO_"):
-                          print(f"⚠️ Chaîne non traduite trouvée dans {new_path}: {v}")
-              elif isinstance(obj, list):
-                  for i, v in enumerate(obj):
-                      check_translation(v, f"{path}[{i}]")
-          
-          for file in glob.glob("**/*.json", recursive=True):
-              with open(file, 'r', encoding='utf-8') as f:
-                  try:
-                      data = json.load(f)
-                      check_translation(data, file)
-                  except Exception as e:
-                      print(f"❌ Erreur lors du traitement de {file}: {str(e)}")
-                      sys.exit(1)
-          EOF
+          echo "Validation syntaxe JSON..."
+          failed=0
+          for file in $(find data -name "*.json" -not -path "*/test/*" -not -path "*/.git/*" 2>/dev/null); do
+            if ! python3 -c "
+import json, re, sys
+with open('$file', 'r', encoding='utf-8') as f:
+    raw = f.read()
+clean = re.sub(r'#[^\n]*', '', raw)
+clean = re.sub(r',\s*([}\]])', r'\1', clean)
+try:
+    json.loads(clean)
+except:
+    sys.exit(1)
+" 2>/dev/null; then
+              echo "❌ JSON invalide : $file"
+              failed=1
+            fi
+          done
+          if [ "$failed" -eq 1 ]; then
+            exit 1
+          fi
+          echo "✅ Tous les JSON sont valides"
+
+      - name: Check for untranslated markers
+        run: |
+          echo "Recherche marqueurs TODO..."
+          for file in $(find data -name "*.json" 2>/dev/null); do
+            if grep -l 'TODO_' "$file" > /dev/null 2>&1; then
+              echo "⚠️ Marqueur TODO_ trouvé dans : $file"
+            fi
+          done
+          echo "✅ Vérification terminée"

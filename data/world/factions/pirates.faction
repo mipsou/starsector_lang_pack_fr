@@ -1,0 +1,35 @@
+{
+	"id":"pirates",
+	"entityNamePrefix":"pirate",
+	"personNamePrefix":"pirate",
+	"displayName":"pirates",
+	"displayNameWithArticle":"les pirates",
+	"displayNameIsOrAre":"sont",
+	"ranks":{
+		"ranks":{
+			"spaceCommander":{"name":"Capitaine"},
+		},
+		"posts":{
+			"patrolCommander":{"name":"Capitaine"},
+			"fleetCommander":{"name":"Maitre de flotte"},
+			"baseCommander":{"name":"Seigneur de guerre"},
+			"stationCommander":{"name":"Roi de station"},
+			"portmaster":{"name":"Chef de port"},
+			"administrator":{"name":"Chef"},
+		},
+	},
+	"fleetTypeNames":{
+		"smallTrader":"Convoi commercial",
+		"trade":"Convoi commercial",
+		"tradeLiner":"Convoi de passagers",
+		"patrolSmall":"Corsaire",
+		"patrolMedium":"Pillards",
+		"patrolLarge":"Armada",
+		"mercScout":"Eclaireur",
+		"mercBountyHunter":"Pillards",
+		"mercPrivateer":"Pillards",
+		"mercPatrol":"Flotte d'attaque",
+		"mercArmada":"Armada",
+		"taskForce":"Flotte de vengeance",
+	},
+}

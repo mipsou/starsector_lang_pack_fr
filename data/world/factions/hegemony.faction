@@ -1,0 +1,17 @@
+{
+	id:"hegemony",
+	"displayName":"Hegemonie",
+	"displayNameWithArticle":"l'Hegemonie",
+	"ranks":{
+		"ranks":{
+			"factionLeader":{"name":"Haut Hegemon"},
+			"spaceCommander":{"name":"Commandant"},
+		},
+		"posts":{
+			"factionLeader":{"name":"Haut Hegemon"},
+			"patrolCommander":{"name":"Commandant de patrouille"},
+			"fleetCommander":{"name":"Commandant de flotte"},
+			"baseCommander":{"name":"Commandant de base"},
+		},
+	},
+}
