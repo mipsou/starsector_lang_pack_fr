@@ -1,0 +1,10 @@
+{
+	id:"lions_guard",
+	"displayName":"Garde du Lion",
+	"displayNameWithArticle":"la Garde du Lion",
+	"fleetTypeNames":{
+		"patrolSmall":"Reconnaissance de la Garde du Lion",
+		"patrolMedium":"Patrouille de la Garde du Lion",
+		"patrolLarge":"Detachement de la Garde du Lion",
+	},
+}

@@ -1,0 +1,15 @@
+{
+	id:"omega",
+	"displayName":"Omega",
+	"displayNameWithArticle":"l'Omega",
+	"displayNameLong":"Omega",
+	"displayNameLongWithArticle":"l'Omega",
+	"personNamePrefixAOrAn":"un",
+	"displayNameIsOrAre":"sont",
+	"fleetTypeNames":{
+		"patrolSmall":"Apparition mineure",
+		"patrolMedium":"Manifestation",
+		"patrolLarge":"Incursion majeure",
+		"battlestation":"Incursion stable",
+	},
+}

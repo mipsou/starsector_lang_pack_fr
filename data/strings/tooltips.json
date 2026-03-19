@@ -77,6 +77,10 @@
             "title": "Suspendre Réparations et Récupération",
             "body": "Empêche ce %s d'effectuer des réparations ou de récupérer son état de préparation au combat. Les réparations complètes et la récupération de l'état de combat consommeront environ %s approvisionnements sur %s jours si elles sont autorisées."
         },
+        "tooltipSuspendRepairsNotNeeded": {
+            "title": "Suspendre Réparations et Récupération",
+            "body": "Empêche ce %s d'effectuer des réparations ou de récupérer son état de préparation au combat. Ce %s ne nécessite actuellement ni réparations ni récupération d'état de combat."
+        },
         "tooltipRefit": {
             "title": "Réaménager",
             "body": "Modifier les armes et les modifications de coque équipées sur ce vaisseau."

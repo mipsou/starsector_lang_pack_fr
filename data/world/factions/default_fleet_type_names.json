@@ -1,0 +1,41 @@
+{
+	"trade":"Convoi Marchand",
+	"tradeLiner":"Convoi de Paquebots",
+	"tradeSmuggler":"Contrebandier",
+	"smallTrader":"Marchand",
+
+	"patrolSmall":"Piquet Rapide",
+	"patrolMedium":"Patrouille",
+	"patrolLarge":"Detachement",
+
+	"leagueEnforcer":"Executeur",
+	"leagueArmada":"Grande Armada",
+	"supplyFleet":"Flotte de Ravitaillement",
+
+	"commerceRaiders":"Corsaires",
+	"raider":"Pillard",
+
+	"sacredProtectors":"Protecteurs Sacres",
+
+	"investigators":"Enqueteurs",
+
+	"inspectionFleet":"Flotte d'Inspection",
+	"taskForce":"Force Operationnelle",
+
+	"scavengerSmall":"Prospecteur",
+	"scavengerMedium":"Recuperateur",
+	"scavengerLarge":"Flotte de Sauvetage",
+
+	"foodReliefFleet":"Convoi Humanitaire",
+
+	"shrinePilgrims":"Pelerins Luddiques",
+	"academyFleet":"Navette de l'Academie",
+
+	"mercScout":"Eclaireur Mercenaire",
+	"mercBountyHunter":"Chasseur de Primes",
+	"mercPrivateer":"Corsaire",
+	"mercPatrol":"Patrouille Mercenaire",
+	"mercArmada":"Compagnie de Mercenaires",
+
+	"battlestation":"Fortestation",
+}

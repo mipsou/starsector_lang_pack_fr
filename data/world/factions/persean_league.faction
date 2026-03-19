@@ -1,0 +1,34 @@
+{
+	id:"persean",
+	"displayName":"Ligue Perseenne",
+	"displayNameWithArticle":"la Ligue Perseenne",
+	"displayNameLong":"Ligue Perseenne",
+	"displayNameLongWithArticle":"la Ligue Perseenne",
+	"ranks":{
+		"ranks":{
+			"spaceCommander":{"name":"Navarque"},
+			"spaceAdmiral":{"name":"Premier Navarque"},
+			"houseLeader":{"name":"Patriarche de Gens"},
+			"houseLeaderMale":{"name":"Patriarche de Gens"},
+			"houseLeaderFemale":{"name":"Matriarche de Gens"},
+		},
+		"posts":{
+			"patrolCommander":{"name":"Demi-Navarque"},
+			"fleetCommander":{"name":"Navarque"},
+			"baseCommander":{"name":"Archonte"},
+			"factionLeader":{"name":"Premier Demarque"},
+		},
+	},
+	"fleetTypeNames":{
+		"trade":"Convoi marchand",
+		"tradeLiner":"Convoi de paquebots",
+		"tradeSmuggler":"Contrebandier",
+		"smallTrader":"Marchand",
+		"patrolSmall":"Avant-garde rapide",
+		"patrolMedium":"Patrouille",
+		"patrolLarge":"Detachement",
+		"inspectionFleet":"Flotte d'inspection",
+		"taskForce":"Force operationnelle",
+		"foodReliefFleet":"Convoi humanitaire",
+	},
+}

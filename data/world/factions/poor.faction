@@ -1,0 +1,11 @@
+{
+	id:"poor",
+	"displayName":"refugies",
+	"displayNameWithArticle":"les refugies",
+	"displayNameLong":"refugies",
+	"displayNameLongWithArticle":"les refugies",
+	"entityNamePrefix":"refugie",
+	"personNamePrefix":"refugie",
+	"personNamePrefixAOrAn":"un",
+	"displayNameIsOrAre":"sont",
+}

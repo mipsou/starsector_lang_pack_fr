@@ -1,0 +1,31 @@
+{
+	"id":"luddic_church",
+	"displayName":"Eglise de Ludd",
+	"displayNameWithArticle":"l'Eglise de Ludd",
+	"displayNameLong":"Eglise de la Redemption Galactique",
+	"displayNameLongWithArticle":"l'Eglise de la Redemption Galactique",
+	"ranks":{
+		"ranks":{
+			"spaceCommander":{"name":"Diacre-Capitaine"},
+		},
+		"posts":{
+			"patrolCommander":{"name":"Diacre-Capitaine"},
+			"fleetCommander":{"name":"Cure-Commandant"},
+			"baseCommander":{"name":"Eveque-Gouverneur"},
+			"administrator":{"name":"Sous-presbytre Orbis"},
+			"genericMilitary":{"name":"Chevalier-Commandant"},
+			"portmaster":{"name":"Gardien du port"},
+			"quartermaster":{"name":"Intendant"},
+		},
+	},
+	"fleetTypeNames":{
+		"trade":"Convoi des fideles",
+		"smallTrader":"Marchand fidele",
+		"tradeLiner":"Pelerinage",
+		"patrolSmall":"Veilleurs",
+		"patrolMedium":"Flottille vertueuse",
+		"patrolLarge":"Sainte Armada",
+		"inspectionFleet":"Saint Arbitre",
+		"taskForce":"Mission benie",
+	},
+}
