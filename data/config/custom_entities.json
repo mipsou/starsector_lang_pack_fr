@@ -259,4 +259,62 @@
 	"abyssal_light":{
 		"defaultName":"Lumiere Abyssale",
 	},
+	"base_campaign_objective":{
+	},
+	"mission_location":{
+		"defaultName":"Zone Cible",
+		"nameInText":"zone cible",
+		"shortName":"zone cible",
+	},
+	"cargo_pod_special":{
+		"defaultName":"Conteneur de Fret",
+		"nameInText":"conteneur de fret",
+		"shortName":"conteneur de fret",
+	},
+	"generic_probe":{
+		"defaultName":"Sonde",
+		"nameInText":"sonde",
+		"shortName":"sonde",
+	},
+	"test_station":{
+		"defaultName":"Station Laterale",
+	},
+	"station_sporeship_derelict":{
+		"defaultName":"Station-Vaisseau Derelicte",
+	},
+	"stellar_mirror":{
+		"defaultName":"Miroir Stellaire",
+	},
+	"stellar_shade":{
+		"defaultName":"Voile Stellaire",
+	},
+	"station_galatia":{
+		"defaultName":"Station de l'Academie Galatia",
+	},
+	"base_constellation_label":{
+		"defaultName":"<constellation label>",
+	},
+	"base_intel_icon":{
+		"defaultName":"",
+	},
+	"weapons_cache_remnant":{
+	},
+	"weapons_cache_low":{
+	},
+	"weapons_cache_high":{
+	},
+	"weapons_cache_small_remnant":{
+	},
+	"weapons_cache_small_low":{
+	},
+	"weapons_cache_small_high":{
+	},
+	"station_mining_remnant":{
+	},
+	"station_research_remnant":{
+	},
+	"orbital_habitat_remnant":{
+	},
+	"makeshift_station":{
+	},
 }
