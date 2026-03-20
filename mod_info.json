@@ -13,10 +13,34 @@
     "data/strings/descriptions.csv",
     "data/strings/strings.json",
     "data/strings/ship_names.json",
-    "data/hullmods/hullmods.csv",
+
+    "data/hullmods/hull_mods.csv",
     "data/hulls/ship_data.csv",
     "data/weapons/weapon_data.csv",
     "data/shipsystems/ship_systems.csv",
+
+    "data/campaign/abilities.csv",
+    "data/campaign/commodities.csv",
+    "data/campaign/industries.csv",
+    "data/campaign/market_conditions.csv",
+    "data/campaign/reports.csv",
+    "data/campaign/rules.csv",
+    "data/campaign/special_items.csv",
+    "data/campaign/submarkets.csv",
+
+    "data/characters/personalities.csv",
+    "data/characters/skills/aptitude_data.csv",
+    "data/characters/skills/skill_data.csv",
+
+    "data/config/battle_objectives.json",
+    "data/config/contact_tag_data.json",
+    "data/config/custom_entities.json",
+    "data/config/planets.json",
+    "data/config/tag_data.json",
+
+    "data/world/factions/default_fleet_type_names.json",
+    "data/world/factions/default_ranks.json",
+
     "data/missions/mission_list.csv",
     "data/missions/afistfulofcredits/mission_text.txt",
     "data/missions/ambush/mission_text.txt",
@@ -32,8 +56,7 @@
     "data/missions/sinkingthebismarck/mission_text.txt",
     "data/missions/thelasthurrah/mission_text.txt",
     "data/missions/thewolfpack/mission_text.txt",
-    "data/missions/turningthetables/mission_text.txt",
-    "data/campaign/rules.csv"
+    "data/missions/turningthetables/mission_text.txt"
   ],
   "jars": [],
   "dependencies": []
