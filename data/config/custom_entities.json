@@ -1,0 +1,262 @@
+{
+	"comm_relay":{
+		"defaultName":"Relais Comm",
+		"nameInText":"relais comm",
+		"shortName":"relais",
+	},
+	"comm_relay_makeshift":{
+		"defaultName":"Relais Comm improvise",
+		"nameInText":"relais comm improvise",
+		"shortName":"relais",
+	},
+	"nav_buoy":{
+		"defaultName":"Balise Nav",
+		"nameInText":"balise nav",
+		"shortName":"balise",
+	},
+	"nav_buoy_makeshift":{
+		"defaultName":"Balise Nav improvisee",
+		"nameInText":"balise nav improvisee",
+		"shortName":"balise",
+	},
+	"sensor_array":{
+		"defaultName":"Reseau de Capteurs",
+		"nameInText":"reseau de capteurs",
+		"shortName":"capteurs",
+	},
+	"sensor_array_makeshift":{
+		"defaultName":"Reseau de Capteurs improvise",
+		"nameInText":"reseau de capteurs improvise",
+		"shortName":"capteurs",
+	},
+	"stable_location":{
+		"defaultName":"Point Stable",
+		"nameInText":"point stable",
+		"shortName":"point stable",
+	},
+	"inactive_gate":{
+		"defaultName":"Portail Inactif",
+		"nameInText":"portail inactif",
+		"shortName":"portail",
+	},
+	"station_jangala_type":{
+		"defaultName":"Station Orbitale",
+	},
+	"station_side00":{
+		"defaultName":"Station Laterale",
+	},
+	"station_side01":{
+		"defaultName":"Station Laterale",
+	},
+	"station_side02":{
+		"defaultName":"Station Laterale",
+	},
+	"station_side03":{
+		"defaultName":"Station Laterale",
+	},
+	"station_side04":{
+		"defaultName":"Station Laterale",
+	},
+	"station_side05":{
+		"defaultName":"Station Laterale",
+	},
+	"station_mining00":{
+		"defaultName":"Station Laterale",
+	},
+	"station_side07":{
+		"defaultName":"Station Laterale",
+	},
+	"station_side06":{
+		"defaultName":"Station Laterale",
+	},
+	"orbital_dockyard":{
+		"defaultName":"Chantier Orbital",
+	},
+	"station_pirate_type":{
+		"defaultName":"Station Laterale",
+	},
+	"station_built_from_industry":{
+		"defaultName":"Station Orbitale",
+	},
+	"orbital_junk":{
+		"defaultName":"Habitat",
+	},
+	"atlantic_label":{
+		"defaultName":"Nuage Atlantien",
+	},
+	"persean_label":{
+		"defaultName":"Les Mondes de la Ligue",
+	},
+	"luddic_label":{
+		"defaultName":"La Voie du Pelerin",
+	},
+	"zin_label":{
+		"defaultName":"Les Etendues de Zin",
+	},
+	"opabyss_label":{
+		"defaultName":"Abysse Orion-Persee",
+	},
+	"telmun_label":{
+		"defaultName":"Nuage Moleculaire de Telmun",
+	},
+	"cathedral_label":{
+		"defaultName":"Nebuleuse Cathedrale",
+	},
+	"core_label":{
+		"defaultName":"Les Mondes du Noyau",
+	},
+	"derelict_probe":{
+		"defaultName":"Sonde de l'ere du Domaine",
+		"nameInText":"sonde de l'ere du Domaine",
+		"shortName":"sonde",
+	},
+	"derelict_survey_ship":{
+		"defaultName":"Vaisseau d'Exploration de l'ere du Domaine",
+		"nameInText":"vaisseau d'exploration de l'ere du Domaine",
+		"shortName":"vaisseau d'exploration",
+	},
+	"derelict_mothership":{
+		"defaultName":"Vaisseau-Mere de l'ere du Domaine",
+		"nameInText":"vaisseau-mere de l'ere du Domaine",
+		"shortName":"vaisseau-mere",
+	},
+	"derelict_cryosleeper":{
+		"defaultName":"Cryoveilleur de l'ere du Domaine",
+		"nameInText":"cryoveilleur de l'ere du Domaine",
+		"shortName":"cryoveilleur",
+	},
+	"derelict_gatehauler":{
+		"defaultName":"Transporteur de Portail de l'ere du Domaine",
+		"nameInText":"transporteur de portail de l'ere du Domaine",
+		"shortName":"transporteur de portail",
+	},
+	"coronal_tap":{
+		"defaultName":"Hypershunt Coronal",
+		"nameInText":"hypershunt coronal",
+		"shortName":"hypershunt coronal",
+	},
+	"debris_field_shared":{
+		"defaultName":"Champ de Debris",
+		"nameInText":"champ de debris",
+		"shortName":"debris",
+	},
+	"wreck":{
+		"defaultName":"Vaisseau Abandonne",
+		"nameInText":"vaisseau abandonne",
+		"shortName":"vaisseau",
+	},
+	"hidden_cache":{
+		"defaultName":"Cache Secrete",
+		"nameInText":"cache secrete",
+		"shortName":"cache secrete",
+	},
+	"supply_cache":{
+		"defaultName":"Cache de Ravitaillement",
+		"nameInText":"cache de ravitaillement",
+		"shortName":"cache de ravitaillement",
+	},
+	"weapons_cache":{
+		"defaultName":"Cache d'Armes",
+		"nameInText":"cache d'armes",
+		"shortName":"cache d'armes",
+	},
+	"equipment_cache":{
+		"defaultName":"Cache d'Equipement",
+		"nameInText":"cache d'equipement",
+		"shortName":"cache d'equipement",
+	},
+	"large_cache":{
+		"defaultName":"Cache",
+		"nameInText":"cache",
+		"shortName":"cache",
+	},
+	"technology_cache":{
+		"defaultName":"Cache Technologique",
+		"nameInText":"cache technologique",
+		"shortName":"cache technologique",
+	},
+	"alpha_site_weapons_cache":{
+		"defaultName":"Cache Lourdement Blindee",
+		"nameInText":"cache blindee",
+		"shortName":"cache",
+	},
+	"supply_cache_small":{
+		"defaultName":"Petite Cache de Ravitaillement",
+		"nameInText":"petite cache de ravitaillement",
+		"shortName":"cache de ravitaillement",
+	},
+	"weapons_cache_small":{
+		"defaultName":"Petite Cache d'Armes",
+		"nameInText":"petite cache d'armes",
+		"shortName":"cache d'armes",
+	},
+	"equipment_cache_small":{
+		"defaultName":"Petite Cache d'Equipement",
+		"nameInText":"petite cache d'equipement",
+		"shortName":"cache d'equipement",
+	},
+	"station_mining":{
+		"defaultName":"Station Miniere",
+		"nameInText":"station miniere",
+		"shortName":"station",
+	},
+	"station_research":{
+		"defaultName":"Station de Recherche",
+		"nameInText":"station de recherche",
+		"shortName":"station",
+	},
+	"orbital_habitat":{
+		"defaultName":"Habitat Orbital",
+		"nameInText":"habitat orbital",
+		"shortName":"habitat orbital",
+	},
+	"cargo_pods":{
+		"defaultName":"Conteneurs de Fret",
+		"nameInText":"conteneurs de fret",
+		"shortName":"conteneurs de fret",
+	},
+	"warning_beacon":{
+		"defaultName":"Balise d'Alerte",
+	},
+	"fusion_lamp":{
+		"defaultName":"Lampe a Fusion",
+	},
+	"explosion":{
+		"defaultName":"Explosion",
+	},
+	"station_lowtech1":{
+		"defaultName":"Station Orbitale",
+	},
+	"station_lowtech2":{
+		"defaultName":"Fortestation",
+	},
+	"station_lowtech3":{
+		"defaultName":"Forteresse Stellaire",
+	},
+	"station_midline1":{
+		"defaultName":"Station Orbitale",
+	},
+	"station_midline2":{
+		"defaultName":"Fortestation",
+	},
+	"station_midline3":{
+		"defaultName":"Forteresse Stellaire",
+	},
+	"station_hightech1":{
+		"defaultName":"Station Orbitale",
+	},
+	"station_hightech2":{
+		"defaultName":"Fortestation",
+	},
+	"station_hightech3":{
+		"defaultName":"Forteresse Stellaire",
+	},
+	"sensor_ghost":{
+		"defaultName":"Entite Non Identifiee",
+		"nameInText":"echo senseur",
+		"shortName":"echo senseur",
+	},
+	"abyssal_light":{
+		"defaultName":"Lumiere Abyssale",
+	},
+}

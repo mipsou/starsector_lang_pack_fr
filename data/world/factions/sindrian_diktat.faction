@@ -1,0 +1,26 @@
+{
+	id:"sindrian_diktat",
+	"displayName":"Diktat Sindrien",
+	"displayNameWithArticle":"le Diktat Sindrien",
+	"ranks":{
+		"ranks":{
+			"factionLeader":{"name":"Executeur Supreme"},
+		},
+		"posts":{
+			"factionLeader":{"name":"Executeur Supreme"},
+			"guardLeader":{"name":"Chef de la Garde executrice"},
+			"militaryAdministrator":{"name":"Controleur-General"},
+		},
+	},
+	"fleetTypeNames":{
+		"trade":"Convoi marchand",
+		"tradeLiner":"Convoi de paquebots",
+		"smallTrader":"Marchand",
+		"patrolSmall":"Avant-garde rapide",
+		"patrolMedium":"Patrouille",
+		"patrolLarge":"Detachement",
+		"inspectionFleet":"Flotte de securite interieure",
+		"taskForce":"Force operationnelle",
+		"foodReliefFleet":"Convoi humanitaire",
+	},
+}

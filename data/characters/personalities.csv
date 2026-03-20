@@ -1,0 +1,6 @@
+id,name,desc,bravery,CAPTURE,PATROL,INTERCEPT,ASSAULT,DEFEND,STRIKE,HARASS,FIRE_SUPPORT,CARRIER_GROUP,CIVILIAN_CRAFT,STRIKE_FORCE,LIGHT_ESCORT,DESTROYER_ESCORT
+timid,Timide,"En combat, cet officier tentera d'éviter les engagements directs autant que possible, même s'il commande un vaisseau de combat.",5,0.5,0.5,0.1,0,1,0,0,3,3,3,1,1,1
+cautious,Prudent,"En combat, cet officier préférera rester hors de portée ennemie, ne s'approchant qu'occasionnellement si surpassé en portée par l'ennemi.",5,1,0.7,0.3,0.3,2,0.3,0.3,2,2,2,1,1,1
+steady,Équilibré,"En combat, cet officier favorisera une approche équilibrée avec des tactiques adaptées à la situation.",5,1,1,1,1,1,1,1,1,1,1,1,1,1
+aggressive,Agressif,"En combat, cet officier préférera engager à une portée permettant l'usage de toutes les armes de son vaisseau, pilotera les vaisseaux civils comme des vaisseaux de combat, et emploiera ses chasseurs de manière agressive.",5,1.5,1,2,2,0.5,2,2,0.5,0.5,0.5,1,0.5,0.5
+reckless,Téméraire,"En combat, cet officier est agressif à l'excès, négligeant souvent la sécurité de son vaisseau pour engager l'ennemi.",5,1.5,1,2,2,0.5,2,2,0.5,0.5,0.5,1,0.5,0.5

@@ -6,7 +6,7 @@ Mortier Léger,lightmortar,0,,75,600,,75,,4,30,2,,,,HIGH_EXPLOSIVE,50,,0,1,1,,0,
 Canon Vulcain,vulcan,1,,200,250,,25,,1,75,4,,,,FRAGMENTATION,1,,0,0.05,1,,0,15,1,15,,800,,,10,,,PD,"pd7, SR, lowtech_bp, merc, ind",,,,Point Defense,,,,,,,,,,1
 Autocanon Léger,lightac,0,,125,700,,50,,3,20,4,,,,KINETIC,40,,0,0.5,1,,0,8,2,15,,800,,,20,,,,"kinetic6, base_bp, ind",,,,Anti Shield,,,,,,,,,,2
 Double Autocanon Léger,lightdualac,1,,300,600,,50,,3,20,5,,,,KINETIC,40,,0,0.6,2,0.1,0,20,3,9,,800,,,20,,,,"kinetic7, lowtech_bp, midline_bp, merc, ind",,,,Anti Shield,,,,,,,,,,2.5
-Canon d’Assaut Léger,lightag,1,,300,700,,40,,3,40,5,,,,HIGH_EXPLOSIVE,40,,0,0.25,1,,0,5,1,5,,800,,,30,,,,"he6, lowtech_bp, midline_bp, merc, ind",,,,Anti Armor,,,,,,,,,,3
+Canon d'Assaut Léger,lightag,1,,300,700,,40,,3,40,5,,,,HIGH_EXPLOSIVE,40,,0,0.25,1,,0,5,1,5,,800,,,30,,,,"he6, lowtech_bp, midline_bp, merc, ind",,,,Anti Armor,,,,,,,,,,3
 Mine de Proximité Classe Stinger,fragbomb,0,,100,500,,500,,10,0,1,2,0.1,,FRAGMENTATION,0,,0,1,1,,0,0,0,0,,50,20,7,150,,,"DO_NOT_AIM, ANTI_FTR, PD_ONLY, SYSTEM",he0,,,,Anti Fighter,,,,,,,,,TRUE,3.2
 Soute à Bombes à Sous-munitions,clusterbomb,2,,350,1500,,300,,30,15,5,30,,,HIGH_EXPLOSIVE,0,,0,2,5,0.1,0,0,0,0,,20,20,60,75,,,"STRIKE,SYSTEM",he0,,,,Strike,,,,,,,,,TRUE,3.4
 Soute à Bombes Standard,bomb,1,,200,2000,,400,,50,15,4,10,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,170,20,25,150,,,"STRIKE, BOMB","he0, no_sell, no_drop, no_drop_salvage",,,,Strike,,,,,,,,,TRUE,3.5
@@ -18,7 +18,7 @@ Mortier Lourd,heavymortar,0,,600,700,,110,,12,30,7,,,,HIGH_EXPLOSIVE,90,,0,0.7,2
 Canon Flak,flak,1,,1000,500,,200,,10,40,8,,,,FRAGMENTATION,50,,0,1,1,,0,10,2,10,,700,,,30,,,PD,"pd13, SR, lowtech_bp, merc, ind",,,,Point Defense (Area),,,,,,,,,,4
 Autocanon Arbalète,arbalest,0,,800,700,,200,,10,12,8,,,,KINETIC,150,,0,1.2,1,,0,15,5,10,,800,,,30,,,,"kinetic12, base_bp, ind",,,,Anti Shield,,,,,,,,,,4.125
 Double Canon Flak,dualflak,2,,1400,400,,150,,10,60,12,,,,FRAGMENTATION,50,,0,0.333333,1,,0,10,2,10,,700,,,30,,,PD,"pd15, SR, remnant, rare_bp, merc, ind",,,,Point Defense (Area),,,,,,,,,,4.25
-Gatling d’Assaut,chaingun,1,,1000,450,,75,,3,30,10,,,,HIGH_EXPLOSIVE,60,,0,0.15,1,,0,20,1,10,,800,,,30,,,,"he15, SR, lowtech_bp, midline_bp, merc, ind",,,,Anti Armor,,,,,,,,,,4.5
+Gatling d'Assaut,chaingun,1,,1000,450,,75,,3,30,10,,,,HIGH_EXPLOSIVE,60,,0,0.15,1,,0,20,1,10,,800,,,30,,,,"he15, SR, lowtech_bp, midline_bp, merc, ind",,,,Anti Armor,,,,,,,,,,4.5
 Dévastateur Lourd,heavymauler,3,0.3,2000,1000,,200,,10,20,12,,,,HIGH_EXPLOSIVE,200,,0,4.4,3,0.3,0,5,1,10,,900,,,30,,,,"he16, LR, remnant, rare_bp, merc, ind",,,,Anti Armor,,,,,,,,,,4.75
 Autocanon Lourd,heavyac,1,,1000,800,,100,,10,7,10,,,,KINETIC,90,,0,1,3,0.2,0,18,3,10,,800,,,30,,,,"kinetic14, lowtech_bp, merc, ind",,,,Anti Shield,,,,,,,,,,5
 Propulseur Hypervéloce,hveldriver,3,0.3,2250,1000,,275,400,40,10,13,,,,KINETIC,350,,0,2,1,,,,,,,1000,,,300,,,,"kinetic15, LR, remnant, rare_bp, merc, ind",,,,Anti Shield,,,,,,,,,,5.5
@@ -126,7 +126,7 @@ Lance-torpilles de Faille,rifttorpedo,3,,500000,2000,,6000,,75,10,30,1,0.05,,ENE
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,31
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,32
-Rayon d’Interdiction,interdictorbeam,2,,1000,700,0,,,100,15,5,,,,ENERGY,,100,0.5,1,,,,,,,2400,,,,,,,SYSTEM,,,,,,,,,,,,,,,33
+Rayon d'Interdiction,interdictorbeam,2,,1000,700,0,,,100,15,5,,,,ENERGY,,100,0.5,1,,,,,,,2400,,,,,,,SYSTEM,,,,,,,,,,,,,,,33
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,34
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35
 Flak à Conteneurs,canister_flak,,,,200,,200,,,,,,0,,HIGH_EXPLOSIVE,0,0,0,0.1,5,0.5,150,150,0,0,,50,200,2,100,,,SYSTEM,,,,,,,,,,,,,,,35.5

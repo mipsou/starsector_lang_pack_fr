@@ -41,6 +41,54 @@
             "title": "Assigner un Administrateur",
             "body": "Assigner un administrateur (ou vous-même) pour gouverner cette colonie, qui bénéficiera alors des compétences de l'administrateur assigné."
         },
+        "tooltipAdminNonPlayer": {
+            "title": "Administrateur",
+            "body": "Cette colonie n'est pas gouvernée par un administrateur notable."
+        },
+        "tooltipBuy": {
+            "title": "Acheter",
+            "body": "Acheter ce %s pour %d crédits."
+        },
+        "tooltipSell": {
+            "title": "Vendre",
+            "body": "Vendre ce %s pour %d crédits."
+        },
+        "tooltipTake": {
+            "title": "Prendre",
+            "body": "Prendre ce %s."
+        },
+        "tooltipGive": {
+            "title": "Stocker",
+            "body": "Transférer ce %s hors de votre flotte. Son état de préparation au combat restera inchangé tant qu'il sera entreposé."
+        },
+        "tooltipMothball": {
+            "title": "Mettre en Cocon",
+            "body": "Les %ss mis en cocon ne peuvent pas être utilisés au combat ni réparés, et ne fournissent aucune capacité de carburant, de fret ou de personnel.\n\nMettre un vaisseau en cocon réduira son état de préparation au combat à zéro ; le restaurer nécessitera du temps et des approvisionnements."
+        },
+        "tooltipUnmothball": {
+            "title": "Mettre en Cocon",
+            "body": "Les %ss mis en cocon ne peuvent pas être utilisés au combat ni réparés, et ne fournissent aucune capacité de carburant, de fret ou de personnel.\n\nRestaurer l'état de préparation au combat de ce vaisseau après sa sortie de cocon consommera %s approvisionnements sur %s jour(s)."
+        },
+        "tooltipScuttle": {
+            "title": "Saborder",
+            "body": "Dépecer ce %s pour récupérer tout ce qui est utile, obtenant %d approvisionnements, %d carburant et %d machinerie lourde."
+        },
+        "tooltipSuspendRepairs": {
+            "title": "Suspendre Réparations et Récupération",
+            "body": "Empêche ce %s d'effectuer des réparations ou de récupérer son état de préparation au combat. Les réparations complètes et la récupération de l'état de combat consommeront environ %s approvisionnements sur %s jours si elles sont autorisées."
+        },
+        "tooltipSuspendRepairsNotNeeded": {
+            "title": "Suspendre Réparations et Récupération",
+            "body": "Empêche ce %s d'effectuer des réparations ou de récupérer son état de préparation au combat. Ce %s ne nécessite actuellement ni réparations ni récupération d'état de combat."
+        },
+        "tooltipRefit": {
+            "title": "Réaménager",
+            "body": "Modifier les armes et les modifications de coque équipées sur ce vaisseau."
+        },
+        "tooltipLogisticalPriority": {
+            "title": "Priorité Logistique",
+            "body": "Les %ss avec priorité logistique ont la priorité sur l'équipage et les approvisionnements disponibles pour les réparations."
+        },
         "tooltipCrewElite": {
             "title": "Élite",
             "body": "Équiper ce %s avec le meilleur personnel disponible."

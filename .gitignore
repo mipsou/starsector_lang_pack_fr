@@ -46,3 +46,20 @@ jar_content/
 
 # Workspace files
 *.code-workspace
+
+# Claude Code
+.claude/
+
+# Pipeline de traduction (artifacts temporaires)
+data/campaign/batch_*.json
+data/campaign/tr_*.json
+data/campaign/texts_batch_*.json
+data/campaign/retranslate_batches/
+data/campaign/truncated_texts.json
+
+# Scripts de pipeline (usage unique)
+data/campaign/*.py
+tools/
+fix_accents.py
+qa_terminology_check.py
+validate_csv.py

@@ -1,0 +1,34 @@
+{
+	id:"tritachyon",
+	"displayName":"Tri-Tachyon",
+	"displayNameWithArticle":"Tri-Tachyon",
+	"displayNameLong":"Tri-Tachyon Corporation",
+	"displayNameLongWithArticle":"la Tri-Tachyon Corporation",
+	"ranks":{
+		"ranks":{
+			"spaceAdmiral":{"name":"Directeur d'operations senior"},
+			"spaceCommander":{"name":"Directeur d'operations"},
+			"factionLeader":{"name":"PDG"},
+		},
+		"posts":{
+			"factionLeader":{"name":"PDG"},
+			"patrolCommander":{"name":"Directeur de patrouille"},
+			"fleetCommander":{"name":"Directeur de flotte"},
+			"baseCommander":{"name":"Directeur de base"},
+		},
+	},
+	"fleetTypeNames":{
+		"trade":"Marchand corporatif",
+		"tradeLiner":"Vol TriWay Spaceline",
+		"tradeSmuggler":"Marchand accelere",
+		"smallTrader":"Convoi de distribution",
+		"patrolSmall":"Patrouille de securite",
+		"patrolMedium":"Flottille de securite",
+		"patrolLarge":"Flotte de garantie du capital",
+		"inspectionFleet":"Inspecteur QA",
+		"taskForce":"Flotte des affaires speciales",
+		"foodReliefFleet":"Convoi humanitaire",
+		"mercBountyHunter":"Contractuel de recuperation",
+		"mercPrivateer":"Contractuel de securite",
+	},
+}

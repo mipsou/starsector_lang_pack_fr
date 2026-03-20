@@ -1,104 +1,75 @@
-# Starsector Language Pack - French
+<p align="center">
+  <h1 align="center">Jouez a Starsector en francais</h1>
+  <p align="center">
+    4 933 dialogues, missions, interface, Codex — tout est traduit.<br>
+    Compatible 0.97a-RC11 · Compatible tous mods
+  </p>
+  <p align="center">
+    <a href="https://github.com/mipsou/starsector_lang_pack_fr/releases/latest">
+      <img src="https://img.shields.io/badge/⬇_Telecharger-v1.2.7-brightgreen?style=for-the-badge" alt="Telecharger v1.2.7">
+    </a>
+    <br>
+    <img src="https://img.shields.io/github/downloads/mipsou/starsector_lang_pack_fr/total?style=for-the-badge&label=Telechargements&color=blue" alt="Total Downloads">
+  </p>
+</p>
 
-Pack de langue français pour Starsector.
-
-## Statistiques du Projet
-
-### Temps et Activité
-[![Temps de Dev](https://img.shields.io/badge/Temps%20de%20Dev-120h-blue)](#)
-[![Dernière MàJ](https://img.shields.io/github/last-commit/mipsou/starsector_lang_pack_fr/main?label=Dernière%20MàJ&color=green)](#)
-[![Version](https://img.shields.io/github/v/release/mipsou/starsector_lang_pack_fr?label=Version&color=blue)](#)
-[![Status](https://img.shields.io/badge/Status-En%20développement-yellow)](#)
-
-### Couverture
-[![Fichiers](https://img.shields.io/badge/Fichiers%20Traduits-70%2F1337-blue)](#)
-[![Mots](https://img.shields.io/badge/Mots%20Traduits-15k%2F150k-blue)](#)
-[![Taille](https://img.shields.io/badge/Taille%20Totale-15%20MB-lightgrey)](#)
-
-### Avancement par fichier — [Voir le board de suivi](https://github.com/users/mipsou/projects/2)
-
-| Fichier | Contenu | Traduit | Vérifié en jeu |
-|---------|---------|:-------:|:--------------:|
-| `descriptions.csv` | 570 descriptions Codex | ✅ 100% | ✅ |
-| `tips.json` | Conseils écran de chargement | ✅ 100% | ✅ |
-| `hull_mods.csv` | 120 hullmods (noms + desc) | ✅ 100% | ✅ |
-| `ship_data.csv` | Désignations vaisseaux | ✅ 100% | ✅ |
-| `ship_systems.csv` | Systèmes de vaisseaux | ✅ 100% | ✅ |
-| `weapon_data.csv` | Noms d'armes | ✅ 100% | ✅ |
-| `skins/*.skin` | 65 variantes (P, D, XIV, LG…) | ✅ 100% | ✅ |
-| `strings.json` | Interface générale | ❌ | ❌ |
-| `tooltips.json` | Tooltips interface | ❌ | ❌ |
-| `ship_names.json` | Noms de vaisseaux | ❌ | ❌ |
-
-### Qualité
-[![Tests](https://img.shields.io/badge/Tests-Passing-success)](#)
-[![Couverture](https://img.shields.io/badge/Coverage-75%25-yellowgreen)](#)
-[![Issues](https://img.shields.io/github/issues/mipsou/starsector_lang_pack_fr?label=Issues&color=yellow)](#)
-[![PRs](https://img.shields.io/badge/PRs-Welcome-brightgreen)](#)
+---
 
 ## Installation
 
-1. [Téléchargez la dernière version du mod](https://github.com/mipsou/starsector_lang_pack_fr/releases/latest)
-2. Extrayez le contenu dans le dossier `mods` de Starsector
-3. Activez le mod dans le launcher du jeu
+1. **Telechargez** la [derniere version](https://github.com/mipsou/starsector_lang_pack_fr/releases/latest)
+2. **Extrayez** l'archive dans votre dossier `mods/`
+3. **Activez** le mod dans le launcher
 
-## Structure
+C'est tout. Lancez une nouvelle partie pour profiter de la traduction complete.
 
-```bash
-starsector_lang_pack_fr/
-├── mod_info.json.........# Configuration du mod
-├── data/
-│   ├── hullmods/
-│   │   └── hull_mods.csv.# 120 hullmods traduits
-│   ├── hulls/
-│   │   ├── ship_data.csv.# Désignations vaisseaux traduites
-│   │   └── skins/........# 65 variantes traduites (P, D, TT, XIV, LG...)
-│   ├── shipsystems/
-│   │   └── ship_systems.csv # Systèmes de vaisseaux traduits
-│   ├── weapons/
-│   │   └── weapon_data.csv # Noms d'armes traduits
-│   └── strings/..........# Fichiers de traduction
-│       ├── descriptions.csv
-│       ├── strings.json
-│       ├── tips.json
-│       ├── tooltips.json
-│       └── ship_names.json
-└── localization/.........# Source de vérité (fichiers de référence)
-    └── data/
-        ├── hulls/
-        │   └── skins/....# Miroir des variantes traduites
-        └── strings/......# Miroir des traductions
-```
+---
 
-## Contribution
+## Ce qui est traduit
 
-Pour contribuer à la traduction :
-1. Créez un fork du projet
-2. Créez une branche pour vos modifications
-3. Soumettez une pull request
+- 4 933 dialogues et rencontres en jeu
+- 16 missions et briefings de combat
+- Le Codex complet (vaisseaux, armes, systemes)
+- 2 187+ noms de vaisseaux
+- L'interface : tooltips, conseils, notifications
+- Les marches, industries et marchandises
+- Les competences et personnalites d'officiers
+- 18 factions, grades et types de planetes
+- 133 fichiers de traduction au total
 
-## Ressources
+---
 
-### Pour les Utilisateurs
-- [Forum Starsector](http://fractalsoftworks.com/forum)
-- [Wiki Starsector](http://starsector.wikia.com)
+## FAQ
 
-### Pour les Développeurs
-- [Forum Modding Officiel](https://fractalsoftworks.com/forum/index.php?board=10.0) - Support et discussions
-- [Guide de Modding Officiel](https://fractalsoftworks.com/forum/index.php?topic=4760.0) - **LECTURE OBLIGATOIRE**
-- [Tutoriel de Modding - Part 1](https://fractalsoftworks.com/forum/index.php?topic=4761.0)
-- [Guide de Style](https://fractalsoftworks.com/forum/index.php?topic=7164.0)
-- [Guide de Publication](https://fractalsoftworks.com/forum/index.php?topic=15244.0)
-- [Documentation du Modding](http://fractalsoftworks.com/docs)
-- [Wiki Modding](http://starsector.wikia.com/wiki/Modding)
+**Est-ce compatible avec d'autres mods ?**
+Oui. Ce mod ne remplace que les fichiers texte vanilla. Il fonctionne avec tous les mods de contenu.
 
-Pour plus de ressources et de guides, consultez le [devbook.md](devbook.md).
+**Faut-il commencer une nouvelle partie ?**
+Recommande pour que tous les textes s'appliquent correctement.
 
-## Licence
+**Pourquoi certains textes restent en anglais ?**
+Quelques elements d'interface sont codes en dur dans le moteur du jeu. Une future version ajoutera un patch Java pour les traduire.
 
-Ce mod est sous licence [EUPL 1.2](LICENSE).
+**Le zip est-il a jour ?**
+Oui. Le zip de chaque release est genere automatiquement depuis le code source. La v1.2.7 contient l'integralite des 4 933 dialogues traduits.
 
-## Crédits
+---
 
-- Traduction française par mipsou
-- Structure basée sur le mod de traduction chinoise
+## Un mot a la communaute
+
+Ce depot a ete laisse en retard pendant plusieurs versions. La traduction avancait, mais les mises a jour n'arrivaient pas jusqu'a vous. C'etait une erreur de notre cote et on s'en excuse.
+
+C'est corrige. Le mod est a jour, le zip est a jour, et ca le restera.
+
+---
+
+## Contribuer
+
+Vous avez trouve une erreur de traduction ou un texte manquant ?
+[Ouvrir un signalement](https://github.com/mipsou/starsector_lang_pack_fr/issues/new)
+
+---
+
+<p align="center">
+  <a href="LICENSE">EUPL 1.2</a> · Cree par <a href="https://github.com/mipsou">mipsou</a>
+</p>

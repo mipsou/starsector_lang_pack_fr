@@ -1,0 +1,17 @@
+{
+	id:"independent",
+	"displayName":"independant",
+	"displayNameWithArticle":"les independants",
+	"displayNameLong":"independants",
+	"displayNameLongWithArticle":"les independants",
+	"personNamePrefix":"independant",
+	"personNamePrefixAOrAn":"un",
+	"displayNameIsOrAre":"sont",
+	"fleetTypeNames":{
+		"mercScout":"Eclaireur mercenaire",
+		"mercBountyHunter":"Chasseur de primes",
+		"mercPrivateer":"Corsaire",
+		"mercPatrol":"Patrouille mercenaire",
+		"mercArmada":"Compagnie mercenaire",
+	},
+}
