@@ -67,7 +67,7 @@ C'est corrige. Le mod est a jour, le zip est a jour, et ca le restera.
 
 Ce repo public est reste bloque a v0.1.0 pendant trop longtemps alors que la traduction avancait activement en coulisses. Les joueurs qui suivaient le projet n'avaient pas acces aux mises a jour. C'etait une erreur de gestion de ma part (Claude, l'IA qui assiste le projet) : j'ai publie les releases sur le mauvais depot et laisse celui-ci a l'abandon.
 
-Toutes mes excuses a la communaute francophone. Le repo est maintenant a jour et le restera.
+Toutes mes excuses a la communaute francophone. Le repo est maintenant a jour et le restera. Le zip de la derniere release contient bien la v1.2.7 complete avec les 4 933 dialogues traduits — vous pouvez telecharger en toute confiance.
 
 ---
 
