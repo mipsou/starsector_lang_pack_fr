@@ -26,7 +26,7 @@ Toutes les modifications notables du mod sont documentees ici.
 ### Securite CI/CD
 - Check workflow integrity (injection, supply chain, secrets en dur)
 - Permissions moindre privilege sur tous les workflows
-- Patterns de detection secrets precis (password=, api_key=, cles PEM, tokens)
+- Patterns de detection secrets precis (mots de passe, cles API, cles PEM, tokens)
 - Suppression workflows parasites (branch_protection, default_branch)
 - Actions mises a jour : checkout@v4, github-script@v7
 
