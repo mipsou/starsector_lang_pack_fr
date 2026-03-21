@@ -4980,7 +4980,7 @@ lkeJaspisInfoAsk2reply,DialogOptionSelected,$option == lke_jaspisInfoReply2,Remo
 « Je prie pour que vous le retrouviez, et j'ai foi que la Providence guidera votre chemin. Si vous êtes contrecarre, j'accepterai les documents de votre enquete en échange d'une juste compensation. »
 
 « Et... si le pire devait advenir, je voudrais que son corps recoive une sepulture digne parmi les Chevaliers. » La vieille femme se degonfle un peu, vous le voyez, a cette pensee.",,
-lkeJaspisInfoAsk3reply,DialogOptionSelected,$option == lke_jaspisInfoReply3,RemoveOption lke_jaspisInfoReply3,"Elle pese ses mots en sirotant quelque chose - du the, supposez-vous.
+lkeJaspisInfoAsk3reply,DialogOptionSelected,$option == lke_jaspisInfoReply3,RemoveOption lke_jaspisInfoReply3,"Elle pese ses mots en sirotant quelque chose - du thé, supposez-vous.
 
 « Il est alle parmi les heretiques coléreux et mal guides de la soi-disant Voie de Ludd. Si ma comprehension de vos accomplissements est correcte, alors vous avez une idee pleine et juste de ce que vous pourriez affronter. »
 
@@ -5496,7 +5496,7 @@ Le Mammonite leve la main pour rappeler le patron. Un autre pot de 'the' ?","lke
 lke_barEndOut:Make some excuse and leave",
 lkeChalcedonBarDrinkLotsMore,DialogOptionSelected,$option == lke_barMammoniteDrink2,,"Un pot en amene deux, puis trois.
 
-La nuit tournoie. Un tourbillon de sons et de lumière - un autre verre, cul sec ! - les lanternes du salon de the, qui se dedoublent, se triplent.",lke_barMammoniteDrink3:Need t'find the lav...,
+La nuit tournoie. Un tourbillon de sons et de lumière - un autre verre, cul sec ! - les lanternes du salon de thé, qui se dedoublent, se triplent.",lke_barMammoniteDrink3:Need t'find the lav...,
 lkeChalcedonBarDrinkLotsMore2,DialogOptionSelected,$option == lke_barMammoniteDrink3,"HideVisual
 $lke_interceptLeaveBar1 = true 0
 BarCMD leaveBar","Vous êtes en train de conclure votre visite aux installations d'un charme pittoresque quand on vous agrippe par derrière, une cagoule sombre tiree sur votre tete.
@@ -29799,12 +29799,12 @@ FireBest BarPrintDesc
 #ShowImageVisual protest
 $option = lpba_event0 0
 FireBest DialogOptionSelected",,,
-lpBarAssassin0,DialogOptionSelected,$option == lpba_event0,,"Le tintement des tasses a the est soudain couvert par un cri et un fracas.
+lpBarAssassin0,DialogOptionSelected,$option == lpba_event0,,"Le tintement des tasses à thé est soudain couvert par un cri et un fracas.
 
 « Demon ! Serviteur de Moloch, adepte de Mammon ! » Une silhouette dechevelee a la barbe hirsute bondit sur une table, braquant un pistolet vers vous, « Je marche sur la Voie ! Je te frappe du Marteau de- »",lpba_event1:Get down,
 lpBarAssassin1,DialogOptionSelected,$option == lpba_event1,,"Une serie de claquements sourds signale les tirs a faible penetration de vos gardes et l'assassin s'effondre comme une poupee de chiffon.
 
-Le samovar derrière lui, cabossee par un tir traversant, laisse couler un filet regulier de the dans une mare de sang grandissante sur la table.",lpba_event2:Get back up,
+Le samovar derrière lui, cabossee par un tir traversant, laisse couler un filet regulier de thé dans une mare de sang grandissante sur la table.",lpba_event2:Get back up,
 lpBarAssassin2,DialogOptionSelected,$option == lpba_event2,,"La MuniSec locale vous retient, vous, vos gardes et quelques témoins, jusqu'à ce qu'un Chevalier de Ludd de rang intermédiaire puisse statuer sur la situation. Le cas de légitime défense est évident - des témoins le jurent par des serments sacrés - et la licence de vos armes de protection est acceptée.
 
 « Un enfant, égaré, » dit le Chevalier d'un ton bourru tandis que l'aspirant assassin est enveloppé dans un simple linceul et emporté. Ses yeux se tournent vers vous, « Votre orgueil sème la colère, et il porte ce fruit sanglant. »

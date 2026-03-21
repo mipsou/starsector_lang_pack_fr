@@ -1,76 +1,115 @@
-# Starsector Language Pack - French
+# Starsector Language Pack FR — Repo Dev
 
-![CI](https://github.com/mipsou/starsector_lang_pack_fr/actions/workflows/ci.yml/badge.svg?branch=main)
-![Version](https://img.shields.io/github/v/release/mipsou/starsector_lang_pack_fr)
-![License](https://img.shields.io/github/license/mipsou/starsector_lang_pack_fr)
-![Downloads](https://img.shields.io/github/downloads/mipsou/starsector_lang_pack_fr/total)
+![CI](https://github.com/mipsou/starsector_lang_pack_fr_private/actions/workflows/ci.yml/badge.svg?branch=dev)
+![Version](https://img.shields.io/badge/version-1.2.7-blue)
+![Starsector](https://img.shields.io/badge/Starsector-0.97a--RC11-orange)
 
-## Version 1.2.5
+> Dépôt de développement. Le repo public joueur est [starsector_lang_pack_fr](https://github.com/mipsou/starsector_lang_pack_fr).
 
-Pack de traduction francaise pour Starsector.
+---
 
-### Liens Rapides
-- [Telecharger](https://github.com/mipsou/starsector_lang_pack_fr/releases/latest)
-- [Signaler un bug](https://github.com/mipsou/starsector_lang_pack_fr/issues/new)
-- [Roadmap & Issues](https://github.com/mipsou/starsector_lang_pack_fr/issues)
-- [Forum Starsector](http://fractalsoftworks.com/forum/)
+## Architecture
 
-### Fichiers traduits
+```
+data/
+├── campaign/           # Dialogues, économie, événements
+│   ├── rules.csv       # 4 933 dialogues FR (8 369 lignes CSV)
+│   ├── reports.csv     # 330+ événements Intel
+│   ├── abilities.csv, commodities.csv, industries.csv, ...
+│   ├── batch_*.json    # Textes source EN (102 fichiers)
+│   ├── tr_*.json       # Traductions FR (102 fichiers)
+│   └── retranslate_batches/  # Retraductions complètes (46 batches)
+├── strings/            # Interface, tooltips, tips, ship_names
+├── config/             # Labels, planètes, entités, factions
+├── characters/         # Compétences, personnalités
+├── hullmods/           # Modifications de coque
+├── hulls/              # Vaisseaux, variantes .skin
+├── weapons/            # Armes
+├── shipsystems/        # Systèmes de vaisseaux
+├── missions/           # 15 missions traduites
+└── world/factions/     # Grades, noms de flottes
+```
 
-| Fichier | Contenu | Statut |
-|---------|---------|--------|
-| `data/strings/tips.json` | Conseils en jeu | OK |
-| `data/strings/strings.json` | Dialogues flotte, tutoriels, abordage | OK |
-| `data/strings/tooltips.json` | Tooltips flotte (acheter, vendre, saborder...) | OK |
-| `data/strings/descriptions.csv` | Descriptions Codex (570 entrees) | OK |
-| `data/strings/ship_names.json` | Noms de vaisseaux (2187+ noms, 25 sections) | OK |
-| `data/hulls/skins/*.skin` | 65 variantes de vaisseaux (P, D, TT, XIV, LG...) | OK |
-| `data/hulls/ship_data.csv` | Designations de vaisseaux (Fregate, Destroyer...) | OK |
-| `data/hullmods/hull_mods.csv` | 120 modifications de coque | OK |
-| `data/weapons/weapon_data.csv` | Noms d'armes (182 entrees) | OK |
-| `data/shipsystems/ship_systems.csv` | Systemes de vaisseaux (59 entrees) | OK |
-| `data/campaign/abilities.csv` | 13 capacites de flotte (Transpondeur, Mode Furtif...) | **NEW** |
-| `data/campaign/submarkets.csv` | Sous-marches (Marche Ouvert, Marche Noir...) | **NEW** |
-| `data/campaign/commodities.csv` | 29 marchandises (Biomasse, Carburant, Noyaux IA...) | **NEW** |
-| `data/campaign/special_items.csv` | 30 objets speciaux (Nanoforges, Blueprints...) | **NEW** |
-| `data/campaign/industries.csv` | 35 industries de colonies (Mines, Spatioport...) | **NEW** |
-| `data/campaign/market_conditions.csv` | 90+ conditions de marche (Biomasse, Monde Aride...) | **NEW** |
-| `data/campaign/reports.csv` | 330+ evenements Intel | **NEW** |
-| `data/characters/skills/skill_data.csv` | 45+ competences et descriptions lore | **NEW** |
-| `data/characters/skills/aptitude_data.csv` | 4 aptitudes (Combat, Commandement...) | **NEW** |
-| `data/characters/personalities.csv` | 5 personnalites d'officiers | **NEW** |
+---
 
-### Installation
-1. Telechargez la [derniere version](https://github.com/mipsou/starsector_lang_pack_fr/releases/latest)
-2. Extrayez l'archive dans le dossier `mods` de Starsector
-3. Activez le mod dans le launcher du jeu
+## Pipeline de traduction
 
-### Compatibilite
-- Starsector version : 0.97a-RC11
-- Mods compatibles : tous (ne modifie que les fichiers de traduction)
+1. **Extraction** — `extract_full.py` extrait les textes EN depuis le CSV vanilla
+2. **Découpage** — Textes répartis en batches de ~50 (`batch_X_Y.json`)
+3. **Traduction** — Agents parallèles produisent les `tr_X_Y.json`
+4. **QA multi-passes** — Vérification \n, variables $, terminologie, accents
+5. **Assemblage** — `integrate_and_assemble.py` : intègre retranslations → applique sur vanilla → fix accents → fix terminologie
+6. **Test en jeu** — Nouvelle partie, vérification dialogues
 
-### Notes de Version
-- v1.2.5 : 10 nouveaux CSV (campagne, competences, personnalites), QA complet ship_names, Biomasse
-- v1.2.4 : strings.json traduit (229 strings), correction apostrophes typographiques
-- v1.2.3 : Fix crash tooltipRefit, ship_names.json complet (2187+ noms)
-- v1.2.2 : Ajout 4 CSV traduits (hullmods, armes, systemes, vaisseaux)
-- v1.2.1 : Correction NNBSP + noms de factions en anglais
-- v1.2.0 : Descriptions Codex, strings.json, 65 variantes .skin
+---
 
-### Limitations connues
-- Certains tooltips d'abilities restent en anglais (texte hardcode dans le moteur Java)
-- Le mot "Military" dans les sous-marches est genere par le moteur
-- Les titres de missions Intel viennent de rules.csv (30 000+ lignes, prevu futur)
-- Les effets mecaniques des competences restent en anglais
+## Fichiers replace (mod_info.json)
 
-### Roadmap
-- **v1.2.6** : Labels & entites (types de planetes, entites spatiales, grades, factions)
-- **v1.3+** : Override Java pour les textes hardcodes
-- **Futur** : rules.csv (dialogues complets)
+| Catégorie | Fichiers | Version |
+|-----------|----------|---------|
+| Dialogues | rules.csv, reports.csv, strings.json | v1.2.7 |
+| Interface | tips.json, tooltips.json, descriptions.csv, ship_names.json | v1.2.0+ |
+| Équipement | hull_mods.csv, ship_data.csv, weapon_data.csv, ship_systems.csv | v1.2.2 |
+| Campagne | abilities, submarkets, commodities, special_items, industries, market_conditions | v1.2.5 |
+| Personnages | skill_data.csv, aptitude_data.csv, personalities.csv | v1.2.5 |
+| Config | battle_objectives, contact_tag_data, custom_entities, planets, tag_data | v1.2.6 |
+| Factions | default_fleet_type_names, default_ranks | v1.2.6 |
+| Missions | mission_list.csv + 15 mission_text.txt | v1.2.7 |
 
-### Contact
-- GitHub : [mipsou/starsector_lang_pack_fr](https://github.com/mipsou/starsector_lang_pack_fr)
-- Issues : [Tracker GitHub](https://github.com/mipsou/starsector_lang_pack_fr/issues)
+---
 
-### Licence
-EUPL 1.2 - Voir [LICENSE](LICENSE) pour plus de details
+## Glossaire terminologique (validé par commission)
+
+| EN | FR | Décision |
+|----|-----|----------|
+| Hegemony | Hégémonie | Traduction directe |
+| Persean League | Ligue Persane | Commission — "Persane" validé, pas "Perséenne" |
+| Luddic Church | Église Luddic | Gardé EN — "Luddique" trop proche de "ludique" |
+| Luddic Path | Voie de Ludd | Commission |
+| Pather | Voiliste | Commission |
+| Sindrian Diktat | Diktat Sindrien | Commission |
+| Domain | Domaine | Traduction directe |
+| Burn bright! | Brûlez bien ! | Commission |
+
+---
+
+## Issues connues
+
+| # | Problème | Cause racine | Statut |
+|---|----------|-------------|--------|
+| #25 | Guillemets « » non rendus en jeu | Police/moteur Starsector | Ouvert |
+| #26 | Variables $shipOrFleet résolues en EN | Code Java hardcodé | Ouvert |
+| #27 | UI hardcodée EN (You decide to...) | Code Java non externalisé | Ouvert |
+
+---
+
+## Workflow Git
+
+```
+dev → PR → main → sync → public
+```
+
+- **dev** : branche de travail (branche par défaut)
+- **main** : releases validées uniquement
+- **Jamais** de push direct sur main
+
+---
+
+## Notes de version
+
+| Version | Contenu |
+|---------|---------|
+| v1.2.7 | rules.csv 4 933 dialogues + 15 missions |
+| v1.2.6 | Labels, factions, grades, planètes, entités |
+| v1.2.5 | 10 CSV campagne/personnages |
+| v1.2.4 | strings.json 229 strings |
+| v1.2.3 | Fix tooltipRefit, ship_names complet |
+| v1.2.2 | 4 CSV équipement |
+| v1.2.1 | Fix NNBSP + factions |
+| v1.2.0 | Descriptions Codex, variantes .skin |
+
+---
+
+## Licence
+
+EUPL 1.2 — Voir [LICENSE](LICENSE)

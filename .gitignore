@@ -46,3 +46,33 @@ jar_content/
 
 # Workspace files
 *.code-workspace
+
+# Claude Code
+.claude/
+
+# Scripts de traduction (artefacts batch, non livrables)
+data/campaign/assemble.py
+data/campaign/audit_newlines.py
+data/campaign/extract_full.py
+data/campaign/extract_truncated.py
+data/campaign/final_assemble.py
+data/campaign/find_truncated.py
+data/campaign/fix_guillemets.py
+data/campaign/fix_newlines.py
+data/campaign/fix_terminology.py
+data/campaign/integrate_and_assemble.py
+data/campaign/qa_pass2.py
+data/campaign/reassemble.py
+data/campaign/translate_part3.py
+data/campaign/translate_part5.py
+fix_accents.py
+qa_terminology_check.py
+validate_csv.py
+tools/
+
+# Fichiers batch de traduction (intermediaires)
+data/campaign/batch_*.json
+data/campaign/tr_*.json
+data/campaign/texts_batch_*.json
+data/campaign/truncated_texts.json
+data/campaign/retranslate_batches/
