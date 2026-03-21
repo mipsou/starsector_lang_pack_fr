@@ -558,7 +558,7 @@ Your salvors breach the exterior and find a different story: crudely anchored po
 Your salvors must make numerous cuts to clear access to core ship systems. It is not dangerous, merely inconvenient. It is near the true centerpoint of the hull volume that they find a trio of AI cores, two gammas and a beta from the looks of the casings. They are unpowered, the coolant congealed in its pipes.",GS_AI_CORES_cont2:Continuer,
 GS_AI_CORES_cont2Sel,DialogOptionSelected,$option == GS_AI_CORES_cont2,$salvageLeaveText = Leave 0,"What looked to be a valuable if legally problematic find is a bust, however: the AI cores are hollowed out, as if perfect spheres of nothingness appeared where once cybernetic superintelligence dwelled.
 
-The computer memory of the ship proper has no answers; it was overridden from the start and appears to be convinced that it's still in its forge-cradle.","salExplore:Evaluer la valeur de recuperation du vaisseau
+The computer memory of the ship proper has no answers; it was overridden from the start and appears to be convinced that it's still in its forge-cradle.","salExplore:Assess the ship's salvage value
 defaultLeave:Partir",
 ,,,,,,
 "Abyssal ghost ships, ""Tri-Tachyon"" variation",,,,,,
@@ -580,7 +580,7 @@ The last survivor, suited against the apparent life support failure, is found ne
 It would have been a painless slide into unconsciousness and, soon enough, death.",GS_TRI_TACHYON_cont3:Continuer,
 GS_TRI_TACHYON_cont3Sel,DialogOptionSelected,$option == GS_TRI_TACHYON_cont3,$salvageLeaveText = Leave 0,"""THEY FOLLOW"" was scraped onto the decking with a multitool. Low oxygen psychosis is not unheard of under such catastrophic conditions.
 
-What exactly it was this shield was supposed to keep out - or in - is unclear.","salExplore:Evaluer la valeur de recuperation du vaisseau
+What exactly it was this shield was supposed to keep out - or in - is unclear.","salExplore:Assess the ship's salvage value
 defaultLeave:Partir",
 ,,,,,,
 "Abyssal ghost ships, ""Adventurers"" variation",,,,,,
@@ -603,7 +603,7 @@ GS_ADVENTURERS_cont2Sel,DialogOptionSelected,$option == GS_ADVENTURERS_cont2,$sa
 
 The captain was a former officer who found himself on the losing side of minor rebellion out of the Persean League. The pilot, a racer-turned-smuggler recovered from stim addiction. Former Diktat gone renegade, present at the massacre of... scion of an Eventide officer family, overbearing mother, disowned after... the engineer, the armorer, the navigator... all irrelevant details. You skim the report faster.
 
-You can't imagine how they managed to work together. It doesn't matter; they're all dead now.","salExplore:Evaluer la valeur de recuperation du vaisseau
+You can't imagine how they managed to work together. It doesn't matter; they're all dead now.","salExplore:Assess the ship's salvage value
 defaultLeave:Partir",
 ,,,,,,
 "Abyssal ghost ships, ""Chartery of Opis"" variation",,,,,,
@@ -623,7 +623,7 @@ Behind the CIC, in the armored computer center, there is a Tri-Tachyon manufactu
 No core lies in the cradle, however. Perhaps it was taken when the ship was abandoned.",GS_OPIS_cont3:Continuer,
 GS_OPIS_cont3Sel,DialogOptionSelected,$option == GS_OPIS_cont3,$salvageLeaveText = Leave 0,"Your tech officer oversees an attempt to read the logs, to find some hint of what happened and why - but the memory banks have all been cleared by a repeating wipe program that continued until backup power faded.
 
-A full forensic-archeological investigation might reveal answers, but you have neither the time nor equipment for such indulgence.","salExplore:Evaluer la valeur de recuperation du vaisseau
+A full forensic-archeological investigation might reveal answers, but you have neither the time nor equipment for such indulgence.","salExplore:Assess the ship's salvage value
 defaultLeave:Partir",
 ,,,,,,
 "Abyssal ghost ships, ""Pirates"" variation",,,,,,
@@ -642,7 +642,7 @@ GS_PIRATES_cont2Sel,DialogOptionSelected,$option == GS_PIRATES_cont2,$salvageLea
 
 With supplies and fuel dwindling and no certainty of a 'hostile resupply', the pirate leadership began to argue, and then to scrap hulls while consolidating crew onto the remaining ships - at the barrel of a gun, as necessary.
 
-There wasn't quite enough room for everyone, it appears.","salExplore:Evaluer la valeur de recuperation du vaisseau
+There wasn't quite enough room for everyone, it appears.","salExplore:Assess the ship's salvage value
 defaultLeave:Partir",
 ,,,,,,
 "# Abyssal ghost ships, ""ZGR Merc"" variation",,,,,,
@@ -668,7 +668,7 @@ GS_ZGR_MERC_cont4Sel,DialogOptionSelected,$option == GS_ZGR_MERC_cont4,ShowImage
 They are efficient in their work, and soon their relays hum with recovered data. Tiny packet drones shuttle recovered hardware between the wreck and your $shipOrFleet.",GS_ZGR_MERC_cont5:Investigate the results,
 GS_ZGR_MERC_cont5Sel,DialogOptionSelected,$option == GS_ZGR_MERC_cont5,$salvageLeaveText = Leave 0,"Your tech officer is only frustrated by the results, however. The datacores have been wiped, memory overwritten thousands of times with hateful messages directed at Glamor-Rotanev. If these mercs found anything, if their logs had any clues, it's all been erased. If there was anything esoteric in their cargo holds, it's been dumped.
 
-""It's all just scrap, $playerSirOrMadam,"" your tech officer reports, disappointed. Your ops chief grunts neutral acknowledgement; it's always scrap to them.","salExplore:Evaluer la valeur de recuperation du vaisseau
+""It's all just scrap, $playerSirOrMadam,"" your tech officer reports, disappointed. Your ops chief grunts neutral acknowledgement; it's always scrap to them.","salExplore:Assess the ship's salvage value
 defaultLeave:Partir",
 ,,,,,,
 "# Abyssal ghost ships, ""Academy"" variation",,,,,,
@@ -719,7 +719,7 @@ It is a death-spiral known and feared by all spacer crews.
 
 Systems break down, fuel and supplies dwindle. Morale breaks down. Then discipline. It unravels faster than usual with so many civilians.
 
-You shut it off.","salExplore:Evaluer la valeur de recuperation du vaisseau
+You shut it off.","salExplore:Assess the ship's salvage value
 defaultLeave:Partir",
 ,,,,,,
 # Derelict Vambrace 1,,,,,,
@@ -4347,7 +4347,7 @@ $global.lpp_visitedShrineGilead",ShowLargePlanet,"Deorbiting to the surface of G
 
 As your shuttle inserts into a holding orbit, an override comes in from traffic control. Your pilot forwards the nav instructions to you for approval: immediate permission to descend on a non-standard route to a site which is not the usual pilgrimage transport complex. Instead, you are being directed to a pad serving a sprawling monastic compound.
 
-The local datasphere, such as it is, is not forthcoming on details.","lpp_ending1:Follow the route
+The local datasphere, such as it is, is not forthcoming on details.","lpp_ending1:Suivre the route
 lpp_startEndingAbort:Return to your $shipOrFleet instead",
 lppGileadShrineJaspisRetryB,DialogOptionSelected,"$option == lpp_gileadShrineVisitStart
 $global.lpp_playerRejectedFirstJaspisMeeting
@@ -4355,14 +4355,14 @@ $global.lpp_visitedShrineGilead",ShowLargePlanet,"Deorbiting to the surface of G
 
 As your shuttle inserts into a holding orbit, an override comes in from traffic control. Your pilot forwards the nav instructions to you for approval: immediate permission to descend on a non-standard route to a site which is not the usual pilgrimage transport complex. Instead, you are being directed to a pad serving a sprawling monastic compound.
 
-The local datasphere, such as it is, is not forthcoming on details. You can only assume that Archcurate Jaspis is insisting on meeting with you.","lpp_ending1:Follow the route
+The local datasphere, such as it is, is not forthcoming on details. You can only assume that Archcurate Jaspis is insisting on meeting with you.","lpp_ending1:Suivre the route
 lpp_startEndingAbort:Return to your $shipOrFleet instead",
 lppGileadShrineStartEndingAbort,DialogOptionSelected,$option == lpp_startEndingAbort,FireAll PopulateOptions,You order the pilot to abort your descent rather than follow the unusual nav plan. There is no objection from traffic control or any kind of follow-up comms request as you return to your $shipOrFleet.,,
 lppGileadMissionEndLeaveAttempt,DialogOptionSelected,$option == shrineDoLeavePostEnd,,"You return to your shuttle, taking a final breath of air rich with the exhalations of both the greenery and the mass of humanity.
 
 As your pilot swaps take-off pings with traffic control, they pause at an unusual set of nav instructions which are forwarded to your (now retrieved) datapad: you are being directed to a landing which serves a huge monastic complex, some sort of Church administrative center.
 
-The local datasphere is not forthcoming on details. It's difficult to say if this is a security measure or pious neglect.","lpp_ending1:Follow the route
+The local datasphere is not forthcoming on details. It's difficult to say if this is a security measure or pious neglect.","lpp_ending1:Suivre the route
 lpp_startEndingAbortB:Return to your $shipOrFleet instead",
 lppGileadShrineStartEndingAbortB,DialogOptionSelected,$option == lpp_startEndingAbortB,"$global.lpp_playerRejectedJaspisRoute = true
 FireAll PopulateOptions","You order the pilot to follow the original ascent rather than follow the unusual navigation instructions.
@@ -4426,11 +4426,11 @@ FireAll PopulateOptions","You return to your shuttle, taking a final breath of a
 The flight in your return shuttle is uneventful.",,
 lppGileadShrineStartHubTextA0,LPPGileadShrineStartHubA,$market.lpp_finishPilgrimage score:1000,,"One such stony-faced attendant meets your shuttle on the pad and with a double-glance at a discreet datapad, rapidly stowed in voluminous robes, invites you to follow them.
 
-""I am blessed, captain $PlayerName,"" the attendant says, ""to invite you to complete the Pilgrim's Path on this day.""","lpp_gileadPilgrimageEnd1:Continuer
+""I am blessed, captain $PlayerName,"" the attendant says, ""to invite you to complete the Pilgrim's Path on this day.""","lpp_gileadPilgrimageEnd1:Continue
 lpp_gileadPilgrimageEndHowKnow:""How do you know of this?""",
 lppGileadPilgrimageEndHowKnow,DialogOptionSelected,$option == lpp_gileadPilgrimageEndHowKnow,,"""The faithful must know to keep watch for what is coming,"" the attendant says with a strange look, then almost - but not quite - smiles.
 
-""I mean not to sound so arcane; it is merely that our Church has endured hard times, and may yet again.""","lpp_gileadPilgrimageEnd1:Continuer
+""I mean not to sound so arcane; it is merely that our Church has endured hard times, and may yet again.""","lpp_gileadPilgrimageEnd1:Continue
 lpp_gileadPilgrimageEndHowKnow2:""You think hard times will come?""",
 lppGileadPilgrimageEndHowKnow2,DialogOptionSelected,$option == lpp_gileadPilgrimageEndHowKnow2,,"""I pray that they do not,"" the attendant says. ""We prepare for if they do.""",lpp_gileadPilgrimageEnd1:Continuer,
 lppGileadPilgrimageEnd1,DialogOptionSelected,$option == lpp_gileadPilgrimageEnd1,,"It is a smaller path you are led down; not the highway of humanity for the main shrine, this is a smaller, secondary shrine in the lee of a crag dominated by the immense forest.
@@ -4465,7 +4465,7 @@ $market.lpp_finishPilgrimage",,"You enter the shaded halls of the transport comp
 
 One of the shrine attendants intercepts you and, with a quick glance at a discreet datapad (swiftly tucked back into voluminous robes), invites you to follow them.
 
-""I am blessed, Captain $PlayerName,"" the attendant says, ""to invite you to complete the Pilgrim's Path on this day.""","lpp_gileadPilgrimageEnd1:Continuer
+""I am blessed, Captain $PlayerName,"" the attendant says, ""to invite you to complete the Pilgrim's Path on this day.""","lpp_gileadPilgrimageEnd1:Continue
 lpp_gileadPilgrimageEndHowKnow:""How do you know of this?""",
 ,,,,,,
 # LPP end sequence - meeting Jaspis,,,,,,
@@ -4488,7 +4488,7 @@ Your shuttle ascends from the green world. There is no objection from traffic co
 lppEnding2,DialogOptionSelected,$option == lpp_ending2,"unset $global.lpp_playerRejectedFirstJaspisMeeting
 unset $global.lpp_playerRejectedJaspisRoute","You are led by the Knight through gardens and the soaring arcades of Luddic Church architecture: half-remembered dreams of gothic cathedrals given flight by the material science of the Domain. It might be thought impertinent to mention this aspect of the construction, of course.
 
-The Knight-Initiate follows behind, footsteps echoing between arched portals, over slate tiles flecked with glittering pyrite like stars in the night.","lpp_ending3:Say nothing
+The Knight-Initiate follows behind, footsteps echoing between arched portals, over slate tiles flecked with glittering pyrite like stars in the night.","lpp_ending3:Ne rien dire
 lpp_ending2askPilgrim:""Does every successful pilgrim get to meet the Archcurate?""
 lpp_ending2askWhy:""Why am I receiving this treatment?""",
 lppEnding2AskPilgrim,DialogOptionSelected,$option == lpp_ending2askPilgrim,RemoveOption lpp_ending2askPilgrim,"The Knight looks back at you, half-cape fluttering over carefully secured weaponry, with an expression that yours is a stupid question. The tone of the reply is firmly neutral, however.
@@ -4656,7 +4656,7 @@ FireBest DialogOptionSelected","""My hammer is,"" she nods in your direction, ac
 lppJaspisWrapUp2b,DialogOptionSelected,"$askedWhatDo
 $option == lpp_jaspisWrapUp2",,"""My agent is a novice of the Knights of Ludd. He was assigned to my office in order to achieve his Knighthood. He infiltrated a cell of heretical militants affiliated with the ill-named Luddic Path. I have not heard from him in some time."" 
 
-Her voice, usually somewhere between confident and sardonic, almost breaks on these last few words. ","lpp_jaspisWrapUp3:Continuer
+Her voice, usually somewhere between confident and sardonic, almost breaks on these last few words. ","lpp_jaspisWrapUp3:Continue
 lpp_jaspisWrapUp3care:""He is important to you.""",
 lppJaspisWrapUp3a,DialogOptionSelected,$option == lpp_jaspisWrapUp3care,"$option = lpp_jaspisWrapUp3
 FireBest DialogOptionSelected","She proceeds, pointedly ignoring your statement.",,
@@ -5492,7 +5492,7 @@ ShrineCMD playMusic","The verdant continents of Jangala sprawl beneath you, crow
 Searing lines of orbital burn lasers flick out from Jangala station, invisible until they cut slashes of plasma through the thick atmosphere. Burn-glow competes with rampaging electrical storms to illuminate the mountainous cloud formations from below.",lpp_JangalaFirstVisit2:Continuer,
 lppJangalaFirstVisit2,DialogOptionSelected,$option == lpp_JangalaFirstVisit2,,"The hum of your shuttle changes pitch as it hits the edge of true atmosphere, passing quickly into cloud cover. Beyond the viewpanes human-eye visibility is reduced to nearly zero. As the shuttle fires retros for landing, dipping well below the speed of sound by the demand of both nav regs and good manners, your viewport begins to collect marching droplets of moisture.  
 
-The droplets have an odd ochre coloration, and the clouds above a sickly green tinge. You've heard of this effect; fine-grained spore-analogs in the atmosphere.","lpp_JangalaFirstVisit3:Continuer
+The droplets have an odd ochre coloration, and the clouds above a sickly green tinge. You've heard of this effect; fine-grained spore-analogs in the atmosphere.","lpp_JangalaFirstVisit3:Continue
 lpp_JangalaFirstVisit2b:Look up the long term effects of the spores",
 lppJangalaFirstVisit2b,DialogOptionSelected,$option == lpp_JangalaFirstVisit2b,,"A quick datapad search reveals that, statistically, human activity within the Jangalan biosphere is relatively safe so long as proper air filtration and decontamination procedures are followed. Detox meds for accidental exposures are readily available, though may have unpleasant side effects.
 
@@ -5514,7 +5514,7 @@ $global.lpp_visitedShrineJangala",,"One of the shrine's attendants instantly rec
 
 The attendant smiles piously, hands held together. ""How might we assist you?""","lpp_jangalaShrineVisitAgain:""I'd like to visit the shrine.""
 lpp_jangalaShrineVisitAgainOutside:""I wish to visit the shrine. Outside.""
-lpp_jangalaShrineLeave:Partir",
+lpp_jangalaShrineLeave:Leave",
 lppJangalaShrineDesc2,DialogOptionSelected,"$option == lpp_jangalaShrineDesc2
 !$global.lpp_visitedShrineJangala",FireAll LPPJangalaAttendantResponses,"One of the shrine's attendants scurries to meet you.
 
@@ -5536,13 +5536,13 @@ lppJangalaAttendantFoolish,DialogOptionSelected,$option == lpp_jangalaattendantF
 ""And do you know what Ludd said next?,"" they ask, rhetorically, ""'Let faith be your armor; let walls of devotion build you a citadel, and there we shall be always in spiritual union.'""
 
 The attendant seems satisfied with the unassailability of this statement, and wishing to hurry you along before things get more awkward, adds ""Is there anything else I may assist you with?""","lpp_jangalaattendantVisit:""I'd like to visit the shrine.""
-lpp_jangalaShrineLeaveNoHook:Partir",
+lpp_jangalaShrineLeaveNoHook:Leave",
 lppJangalaattendantUnprotected,DialogOptionSelected,$option == lpp_jangalaattendantUnprotected,,"""Yes, that is true."" The attendant cools a little, questioning your motives. ""We try to discourage, ah, sightseers. It disturbs the worship, you see.""","lpp_jangalaattendantVisitOutside:""I am no sightseer, but I do want to undertake this experience.""
 lpp_jangalaattendantVisitOutsideB:""I am no sightseer. I wish to test my faith.""
 lpp_jangalaattendantVisit:""Don't worry, I have no intention of going out there.""",
 lppJangalaattendantVisit,DialogOptionSelected,$option == lpp_jangalaattendantVisit,,"""Yes, of course. I can show you to the washing station where we ask that all, pilgrim or no, partake of a simple cleansing before visiting the interior shrine.""
 
-The attendant starts to shuffle you along into a group of devotees.","lpp_jangalaVisitShrine:Continuer
+The attendant starts to shuffle you along into a group of devotees.","lpp_jangalaVisitShrine:Continue
 lpp_jangalaattendantVisitOutside:""I mean the outside. The real shrine.""
 lpp_jangalaShrineLeaveNoHook:Leave instead",
 lppJangalaattendantVisitOutside,DialogOptionSelected,$option == lpp_jangalaattendantVisitOutside,"$option = lpp_jangalaattendantOutsideChoice 0
@@ -5564,7 +5564,7 @@ $wasAnnoying",,"""Would it not be 'foolish', captain, to expose yourself to the 
 As if on cue - or perhaps because they were hovering nearby the whole time - a curate (you presume) of the shrine steps up to you and the attendant, robes not quite resplendent but conveying a sense of care and craft that belies a higher status in the Church.",lpp_jangalaattendantVisitOutsideC2:Continuer,
 lppJangalaattendantVisitOutsideC2,DialogOptionSelected,$option == lpp_jangalaattendantVisitOutsideC2,,"""That's quite enough, my child,"" the curate says with iron concealed beneath soft words, ""Perhaps you should undertake a prayer of contrition in the chapel while I speak with the captain.""
 
-Abashed, the attendant bows and flees. The curate turns to you and says, ""Please accept my apologies. I shall personally show you the way to the inner shrine.""",lpp_jangalaVisitShrine:Follow the curate,
+Abashed, the attendant bows and flees. The curate turns to you and says, ""Please accept my apologies. I shall personally show you the way to the inner shrine.""",lpp_jangalaVisitShrine:Suivre the curate,
 lppJangalaVisitShrine,DialogOptionSelected,$option == lpp_jangalaVisitShrine,ShowImageVisual jangala_shrine,"You are led past heavy curtains. The murmur of pilgrims is muted, and all artificial light shut out.
 
 Your eyes adjust to the shrine-chamber, taking in rows of silhouetted pilgrims kneeling before polished panes of diamond-matrix, illuminated by the sickly yellow-green cloud cover from without. 
@@ -5927,7 +5927,7 @@ lppHesperusBarEventSel2,DialogOptionSelected,$option == lpp_hesperusShrine_barEv
 Il tire une bouffee d'un baton de drogue du marche noir. ""Dites ce que vous voulez de l'Excubitor Orbis, au moins il prend la misericorde et le pardon aussi serieusement que toutes ses autres 'vertus chevaleresques'.""
 
 Entre les plaintes sur la société Luddic, vous comprenez que pour 2 000 credits, un vol de navette non autorise vers le sanctuaire d'Hesperus pourrait être etiquete par un non-croyant serviable comme un transport de pelerins ordinaire.","lpp_hesperusShrineSneakBribe:Payer le pot-de-vin
-lpp_hesperus_returnToBar:Revenir to the bar",
+lpp_hesperus_returnToBar:Revenir au bar",
 lppHesperus_barReturnToBar,DialogOptionSelected,$option == lpp_hesperus_returnToBar,BarCMD returnFromEvent false,,,
 lppHesperusShrineSneakBribe,DialogOptionSelected,$option == lpp_hesperusShrineSneakBribe,"RemoveCommodity credits 2000
 $player.luddicAttitudeCynical++
@@ -6463,7 +6463,7 @@ lkeChalcedonLookingRecMad1,DialogOptionSelected,$option == lke_chalcedonLookingR
 EndConversation DO_NOT_FIRE
 ShowDefaultVisual","""Captain,"" the voice of your comms officer quietly speaks in your ear, ""They've sent some kind of coded signal. Nearby Pather fleets will be alerted to our position.""
 
-You acknowledge the report and turn your attention back to the Pather on the comms link - and find that the connection has been terminated.",lke_chalcedonLookingRecMad2:Cut the comms,
+You acknowledge the report and turn your attention back to the Pather on the comms link - and find that the connection has been terminated.",lke_chalcedonLookingRecMad2:Couper les comms,
 lkeChalcedonLookingRecMad2,DialogOptionSelected,$option == lke_chalcedonLookingRecMad2,FireAll PopulateOptions,,,
 lkeChalcedonLookingRecOutA,DialogOptionSelected,$option == lke_chalcedonLookingRecOutA,"AdjustRepActivePerson INHOSPITABLE -3
 $lke_ignorePlayer = true 30
@@ -6693,7 +6693,7 @@ lkeChalcedonBarReturnNextDay1,DialogOptionSelected,$option == lke_chalcedonBarMe
 
 ""Yes, hello captain! You must come meet my friend!""
 
-He stands - unsteadily - and leads you through a door in the back of the bar.",lke_chalcedonBarNextday2:Follow,
+He stands - unsteadily - and leads you through a door in the back of the bar.",lke_chalcedonBarNextday2:Suivre,
 lkeChalcedonBarReturnNextDay2,DialogOptionSelected,$option == lke_chalcedonBarNextday2,"$lke_interceptLeaveBar2 = true 0
 BarCMD leaveBar","You step into a storage room. Broken furniture is stacked in a corner. Dim light from a stick-on glowplate has decayed into a sickly yellow-green gradient.
 
@@ -6724,7 +6724,7 @@ $global.lke_sedgeKilledMammonite = true 0","""Been told you've been asking quest
 "# LKE Chalcedon, Sedge convo",,,,,,
 lkeChalcedonBarSedge0,DialogOptionSelected,$option == lke_chalcedonBarSedge0,,"You seat yourself. A simple, steaming tea is placed before you with a subtle hint from the proprietor that you need but ask and something much stronger will arrive in a teapot.
 
-Before you can make a proper assessment of the colorful figures who tend to populate a spacer bar, a man sits next to you with casual self-assurance, grabs your cup of tea, and downs the entire cup in one go.","lke_chalcedonBarSedge1:Continuer
+Before you can make a proper assessment of the colorful figures who tend to populate a spacer bar, a man sits next to you with casual self-assurance, grabs your cup of tea, and downs the entire cup in one go.","lke_chalcedonBarSedge1:Continue
 lke_chalcedonBarSedge1b:""Hey, that was my tea!""",
 lkeChalcedonBarSedge1,DialogOptionSelected,$option == lke_chalcedonBarSedge1,"$global.lke_sedgeDrankYourTea = true
 BeginConversation sedge
@@ -7715,7 +7715,7 @@ lkeMazBarAgentRespSiyavong3,DialogOptionSelected,$option == lke_mazBarAgentRespS
 
 You continue the dress-down, describing the various powers that the central League executive can hammer down upon members found to be involved in abetting terrorism - Mairaath's millions dead were fresh in the minds of the composers of the League's constitution, and the powers enumerated to stop a repeat of the event are far-reaching indeed.
 
-It is, you reflect, a good thing you paid attention to League history.",lke_mazBarAgentRespSiyavong4:Continuer berating,
+It is, you reflect, a good thing you paid attention to League history.",lke_mazBarAgentRespSiyavong4:Continue berating,
 lkeMazBarAgentRespSiyavong4,DialogOptionSelected,$option == lke_mazBarAgentRespSiyavong4,"Highlight ""Nile Virens""
 AddTextSmall ""Received comms ID for Nile Virens"" highlight
 AddTextSmall ""Received tactical data for Nile Virens compounds"" highlight
@@ -7946,7 +7946,7 @@ LKEvirensKillSedgeKilledMe,DialogOptionSelected,"$option == lke_virensKillSedgeK
 ""You see, I am a man who does hesitate. Thoughtless action,"" he shakes his head. ""But there are times for killing. And, after hesitation - and thought - I see that it be done.""
 
 Virens smiles unreassuringly.","lke_virensKillSedgeKilledMe2:""So are you thinking about killing me?""
-lke_virensWhyKillSedgeOut:Parler d'autre chose",
+lke_virensWhyKillSedgeOut:Speak of other things",
 LKEvirensKillSedgeKilledMe2b,DialogOptionSelected,$option == lke_virensKillSedgeKilledMe2tea,,"He stares straight at you. ""You did not steal my tea.""
 
 ""So,"" he trails off, giving a one-shoulder shrug, tea steady in his other hand. ""No.""
@@ -7959,14 +7959,14 @@ LKEvirensKillSedgeTea,DialogOptionSelected,$option == lke_virensKillSedgeTea,$pl
 LKEvirensKillSedgeTea2,DialogOptionSelected,$option == lke_virensKillSedgeTea2,,"""I understand that Sedge could be rude, yes, and even offensive. But,"" he shakes his head. ""Death is not a thing to administer lightly.""
 
 You are certain he has made such administrations himself.","lke_virensKillSedgeKilledMe2tea:""So are you thinking about killing me?""
-lke_virensWhyKillSedgeOut:Parler d'autre chose",
+lke_virensWhyKillSedgeOut:Speak of other things",
 LKEvirensKillSedgeDidntLike,DialogOptionSelected,"$option == lke_virensKillSedgeDidntLike
 !$sedgeKillLie",$player.ethosRuthless++,"""It is easy to dislike a great many people in a great many circumstances,"" Virens says. ""Sedge, perhaps, easier to dislike than most, I must admit.""
 
 ""Still. Death is not a thing to administer lightly.""
 
 You are certain he has made such administrations himself.","lke_virensKillSedgeKilledMe2:""So are you thinking about killing me?""
-lke_virensWhyKillSedgeOut:Parler d'autre chose",
+lke_virensWhyKillSedgeOut:Speak of other things",
 LKEvirensKillSedgeAntiAntiTech,DialogOptionSelected,"$option == lke_virensKillSedgeAntiAntiTech
 !$sedgeKillLie","$player.ethosTruth++
 $player.ethosKnowledge++","""I see,"" Virens says coldly. ""It would be consistent to level the same charge against myself, yes?""
@@ -7990,7 +7990,7 @@ LKEvirensKillSedgeBrute,DialogOptionSelected,"$option == lke_virensKillSedgeBrut
 You detect more than a hint of criticism in these words.","lke_virensKillSedgeBruteA:""He was a murderer. The world is better off without him.""
 lke_virensKillSedgeBruteB:""How can you criticize me while Pathers raid and kill?""
 lke_virensKillSedgeBruteC:""That's rich coming from a Pather. Remember Mairaath?""
-lke_virensWhyKillSedgeOut:Parler d'autre chose",
+lke_virensWhyKillSedgeOut:Speak of other things",
 LKEvirensKillSedgeBrute2A,DialogOptionSelected,$option == lke_virensKillSedgeBruteA,FireAll LKEvirensConvOpts,"""Yes. But think of what you've created, back on Chalcedon.""
 
 Virens leans forward, ""A hero, blessed martyr,"" he whispers. ""Shot in the back by a spacer coward. Sedge now walks beside Ludd, and the children of Chalcedon will walk in his footsteps.""
@@ -8002,7 +8002,7 @@ Virens leans forward, ""A hero, blessed martyr,"" he whispers. ""Shot in the bac
 
 He leans back again. ""It may be that you've made a whole new generation of raiders and killers, captain.""","lke_virensKillSedgeBruteB-A:""I am not responsible for what others choose.""
 lke_virensKillSedgeBruteB-B:""And they will die too, if they choose murder and terrorism.""
-lke_virensWhyKillSedgeOut:Parler d'autre chose",
+lke_virensWhyKillSedgeOut:Speak of other things",
 LKEvirensKillSedgeBrute2B-A,DialogOptionSelected,$option == lke_virensKillSedgeBruteB-A,FireAll LKEvirensConvOpts,"""No. But they choose,"" Virens says.",,
 LKEvirensKillSedgeBrute2B-B,DialogOptionSelected,$option == lke_virensKillSedgeBruteB-B,FireAll LKEvirensConvOpts,"""So they shall,"" Virens agrees.",,
 LKEvirensKillSedgeBrute2C,DialogOptionSelected,$option == lke_virensKillSedgeBruteC,,"He sighs. ""Mairaath, yes. We're told many things of Mairaath. But think of what you've created, back on Chalcedon.""
@@ -8010,7 +8010,7 @@ LKEvirensKillSedgeBrute2C,DialogOptionSelected,$option == lke_virensKillSedgeBru
 Virens leans forward, ""A hero, blessed martyr,"" he whispers. ""Shot in the back by a spacer coward. Sedge now walks beside Ludd, and the children of Chalcedon will walk in his footsteps.""
 
 He leans back again. ""It may be that you've made a whole new generation of raiders and killers, captain.""","lke_virensKillSedgeBruteC2:""You can't simply dismiss Mairaath, and what the Path did there.""
-lke_virensWhyKillSedgeOut:Parler d'autre chose",
+lke_virensWhyKillSedgeOut:Speak of other things",
 LKEvirensKillSedgeBrute2C2,DialogOptionSelected,$option == lke_virensKillSedgeBruteC2,"AdjustRepActivePerson INHOSPITABLE -1
 FireAll LKEvirensConvOpts","""No,"" he says, ""I cannot.""
 
@@ -8026,7 +8026,7 @@ $player.luddicAttitudePather++","""Ah,"" Virens leans back, examining you coolly
 
 ""It will take a great deal of blood indeed to wash all that is impure from the Path, and indeed from the Sector entirely.""","lke_virensKillSedgePurity2a:""So be it.""
 lke_virensKillSedgePurity2b:""Not so much once a few are made example of.""
-lke_virensWhyKillSedgeOut:Parler d'autre chose",
+lke_virensWhyKillSedgeOut:Speak of other things",
 LKEvirensKillSedgePurity2a,DialogOptionSelected,$option == lke_virensKillSedgePurity2a,"$option = lke_virensKillSedgePurity2b 0
 FireBest DialogOptionSelected",,,
 LKEvirensKillSedgePurity2bL,DialogOptionSelected,"$option == lke_virensKillSedgePurity2b
@@ -8046,14 +8046,14 @@ $sedgeKillLie",$player.ethosLiar++,"""I concede that he has, to my knowledge, ki
 ""You see, I am a man who does hesitate. Thoughtless action,"" he shakes his head. ""But there are times for killing. And, after hesitation - and thought - I see that it be done.""
 
 Virens smiles unreassuringly.","lke_virensKillSedgeKilledMe2:""So are you thinking about killing me?""
-lke_virensWhyKillSedgeOut:Parler d'autre chose",
+lke_virensWhyKillSedgeOut:Speak of other things",
 LKEvirensKillSedgeDidntLikeL,DialogOptionSelected,"$option == lke_virensKillSedgeDidntLike
 $sedgeKillLie",$player.ethosLiar++,"""It is easy to dislike a great many people in a great many circumstances,"" Virens says. ""Sedge, perhaps, easier to dislike than most, I must admit.""
 
 ""Still. Death is not a thing to administer lightly.""
 
 With these words, you would be certain he has made such administrations, did not his position imply already such was the case.","lke_virensKillSedgeKilledMe2:""So are you thinking about killing me?""
-lke_virensWhyKillSedgeOut:Parler d'autre chose",
+lke_virensWhyKillSedgeOut:Speak of other things",
 LKEvirensKillSedgeAntiAntiTechL,DialogOptionSelected,"$option == lke_virensKillSedgeAntiAntiTech
 $sedgeKillLie",$player.ethosLiar++,"""I see,"" Virens says coldly. ""It would be consistent to level the same charge against myself, yes?""
 
@@ -8066,7 +8066,7 @@ $sedgeKillLie",$player.ethosLiar++,"""You are not wrong in that,"" Virens says. 
 You detect more than a hint of criticism in these words.","lke_virensKillSedgeBruteA:""He was a murderer. The world is better off without him.""
 lke_virensKillSedgeBruteB:""How can you criticize me while Pathers raid and kill?""
 lke_virensKillSedgeBruteC:""That's rich coming from a Pather. Remember Mairaath?""
-lke_virensWhyKillSedgeOut:Parler d'autre chose",
+lke_virensWhyKillSedgeOut:Speak of other things",
 LKEvirensKillSedgePatherL,DialogOptionSelected,"$option == lke_virensKillSedgePather
 $sedgeKillLie",$player.ethosLiar++,"""Ah."" Virens leans back, examining you coolly. ""Am I next?""","lke_virensKillSedgeAntiAntiTechA:""I'm not sure yet.""
 lke_virensKillSedgeAntiAntiTechB:""In due time.""
@@ -8076,7 +8076,7 @@ $sedgeKillLie",$player.ethosLiar++,"""Ah,"" Virens leans back, examining you coo
 
 ""It will take a great deal of blood indeed to wash all that is impure from the Path, and indeed from the Sector entirely.""","lke_virensKillSedgePurity2a:""So be it.""
 lke_virensKillSedgePurity2b:""Not so much once a few are made example of.""
-lke_virensWhyKillSedgeOut:Parler d'autre chose",
+lke_virensWhyKillSedgeOut:Speak of other things",
 LKEvirensAskSedgeAlly,DialogOptionSelected,$option == lke_virensAskSedgeAlly,"$askedWhySedgeAlly = true 0
 RemoveOption lke_virensAskSedgeAlly","""You use this word 'ally'. It is, I think, too strong a word for what was between he and I.""
 
@@ -8763,7 +8763,7 @@ LKEjethroWhyOptEResp,DialogOptionSelected,$option == lke_jethroWhyOptE,,"""Yes,"
 
 ""Time comes for us all. I expect she sees that. She wants to leave behind a world... that's better, I think.""","lke_jethroWhyOptEa:""An admirable cause.""
 lke_jethroWhyOptEb:""A hopeless dream.""
-lke_jethroWhyOptEc:Say nothing.",
+lke_jethroWhyOptEc:Ne rien dire.",
 LKEjethroWhyOptERespA,DialogOptionSelected,$option == lke_jethroWhyOptEa,"$player.ethosHumanitarian++
 $option = lke_jethroWhyOptEc 0
 FireBest DialogOptionSelected","He grunts acknowledgement, looking down at the brightly painted graves.",,
@@ -9012,7 +9012,7 @@ LKEendingJaspis2,DialogOptionSelected,$option == lke_endingJaspis2,"
 ""Captain,"" she turns toward you. ""You must grow tired of this, so I shall be succinct: you have my deepest gratitude. My secretary shall see that you receive your payment.""
 
 She aims herself at the doorway, ""Degory, attend!""","lke_endingWrapup1:""Good luck, $global.jethroName.""
-lke_endingWrapup2:Partir",
+lke_endingWrapup2:Leave",
 LKEendingWrapup1a,DialogOptionSelected,"$option == lke_endingWrapup1
 $global.jethroName == ""Jeff""",AdjustRepPerson bornanew FRIENDLY 4,"As you leave with Degory, you hear Jaspis address Bornanew.
 
@@ -9826,7 +9826,7 @@ BFFItalkHorusPartyInvite,DialogOptionSelected,$option == bffi_talkHorusPartyInvi
 
 ""It appears as though I am going to have to become involved,"" he says. ""Personally.""
 
-""Again."" His jaw is clenched. It looks uncomfortable.","bffi_talkHorusPartyEnd:Say nothing.
+""Again."" His jaw is clenched. It looks uncomfortable.","bffi_talkHorusPartyEnd:Ne rien dire.
 bffi_talkHorusPartyEndA:""Again?""
 bffi_talkHorusPartyEndB:""You need to keep better track of your cousin's schemes, huh.""",
 BFFItalkHorusPartyEndA,DialogOptionSelected,$option == bffi_talkHorusPartyEndA,,"""The past matters of my gens do not oblige discussion with outsiders, $playerSirOrMadam,"" he says stiffly.
@@ -9842,7 +9842,7 @@ Call $global.bffi_ref updateStage","""I shall make my own way to Olinadu, thank 
 
 ""After all I've done for that ungrateful-"" 
 
-The comms cut.",bffi_talkHorusPartyEnd2:Cut the comms,
+The comms cut.",bffi_talkHorusPartyEnd2:Couper les comms,
 BFFItalkHorusPartyAttendEnd2,DialogOptionSelected,$option == bffi_talkHorusPartyEnd2,"EndConversation
 ShowDefaultVisual",Now you have a party to attend - with an uninvited guest of honor.,,
 ,,,,,,
@@ -9904,7 +9904,7 @@ BFFIattendPartyHub1Intro3,DialogOptionSelected,$option == BFFI_attendPartyHub1In
 
 ""And Jethro Bornanew, I believe? A Knight of Ludd?""",BFFI_attendPartyHub1Intro4:Continuer,
 BFFIattendPartyHub1Intro4,DialogOptionSelected,$option == BFFI_attendPartyHub1Intro4,,"""I don't recall an introduction,"" Bornanew says, his hands still held piously together, allowing him to deniably reject both drink and the touch of the present company.","bffi_attendPartyHub1Intro4a:""Pleased to meet you...?""
-bffi_attendPartyHub1Intro5b:Say nothing
+bffi_attendPartyHub1Intro5b:Ne rien dire
 bffi_attendPartyHub1Intro5c:""No need to be prickly, $global.jethroName, the man is being friendly.""",
 BFFIattendPartyHub1Intro4b,DialogOptionSelected,$option == bffi_attendPartyHub1Intro5b,"$option = bffi_attendPartyHub1Intro4a 0
 FireBest DialogOptionSelected",,,
@@ -9976,13 +9976,13 @@ Menes keeps glancing back toward Bornanew as he explains the story of one or ano
 bffi_mpSteal9b:""Incredible. What would it take to persuade you to hold a tasting? Menes?""
 bffi_mpSteal9c:""Fascinating. Do you think Leonis shot anyone with this, Menes?""
 bffi_mpSteal9d:""Intriguing. I wonder if I might find more such xenolife on the fringe. Menes?""",
-BFFImenesPartySteal9a,DialogOptionSelected,$option == bffi_mpSteal9a,,"""Huh? Oh yes, naturally I've ruminated often upon how my own character might be tested by such hardship. I admit, my life has been one of relative ease, but I like to think that I identify with certain qualities of those early heroic figures whose steadfastness effected the...""",bffi_mpSteal10:Smile and nod,
-BFFImenesPartySteal9b,DialogOptionSelected,$option == bffi_mpSteal9b,,"""Ah? Oh yes, I cannot deny the temptation to open it for some appropriate event, given an appropriately appreciative audience- my dear cousin Horus for instance; I considered his marriage to Asherah, but I thought- no, not yet. I wonder at times if the delight of it is held by the anticipation, the thought...""",bffi_mpSteal10:Smile and nod,
-BFFImenesPartySteal9c,DialogOptionSelected,$option == bffi_mpSteal9c,,"""Oh? Oh, well, I do have a story for you! During negotiations with the buyer I thought, let us have a firearms expert examine this, and wouldn't you know that I happened to be hosting a wealthy financier who's done some work with Tri-Tachyon - and say what you will for the Company, they are good at what they do - and she happened to have a brother with an interest in a firm...""",bffi_mpSteal10:Smile and nod,
-BFFImenesPartySteal9d,DialogOptionSelected,$option == bffi_mpSteal9d,,"""Eh? Ah! Well I daresay, it is you who might answer that question fully, though I've always considered myself something of a naturalist, or xeno-naturalist if you will ha-ha, and so what if I were to finance an expedition of discovery of sorts? 'Menes Yaribay, patron of knowledge'; I like the sound of that. Imagine, to explore new worlds, encounter unknown lifeforms, seek out and explore the far fringes...""",bffi_mpSteal10:Smile and nod,
+BFFImenesPartySteal9a,DialogOptionSelected,$option == bffi_mpSteal9a,,"""Huh? Oh yes, naturally I've ruminated often upon how my own character might be tested by such hardship. I admit, my life has been one of relative ease, but I like to think that I identify with certain qualities of those early heroic figures whose steadfastness effected the...""",bffi_mpSteal10:Sourire et hocher la tete,
+BFFImenesPartySteal9b,DialogOptionSelected,$option == bffi_mpSteal9b,,"""Ah? Oh yes, I cannot deny the temptation to open it for some appropriate event, given an appropriately appreciative audience- my dear cousin Horus for instance; I considered his marriage to Asherah, but I thought- no, not yet. I wonder at times if the delight of it is held by the anticipation, the thought...""",bffi_mpSteal10:Sourire et hocher la tete,
+BFFImenesPartySteal9c,DialogOptionSelected,$option == bffi_mpSteal9c,,"""Oh? Oh, well, I do have a story for you! During negotiations with the buyer I thought, let us have a firearms expert examine this, and wouldn't you know that I happened to be hosting a wealthy financier who's done some work with Tri-Tachyon - and say what you will for the Company, they are good at what they do - and she happened to have a brother with an interest in a firm...""",bffi_mpSteal10:Sourire et hocher la tete,
+BFFImenesPartySteal9d,DialogOptionSelected,$option == bffi_mpSteal9d,,"""Eh? Ah! Well I daresay, it is you who might answer that question fully, though I've always considered myself something of a naturalist, or xeno-naturalist if you will ha-ha, and so what if I were to finance an expedition of discovery of sorts? 'Menes Yaribay, patron of knowledge'; I like the sound of that. Imagine, to explore new worlds, encounter unknown lifeforms, seek out and explore the far fringes...""",bffi_mpSteal10:Sourire et hocher la tete,
 BFFImenesPartySteal10,DialogOptionSelected,$option == bffi_mpSteal10,AdjustRepPerson menes_yaribay FRIENDLY 1,"He rambles, and you make a good show of asking for additional details, drawing his attention toward the object at hand and away from whatever in Ludd's name Bornanew is doing.
 
-A piercing alarm interrupts Menes mid-thought. His eyes go wide and snap toward the central atrium which holds the glove- and Bornanew. He takes off at a run.",bffi_mpSteal11:Follow Menes,
+A piercing alarm interrupts Menes mid-thought. His eyes go wide and snap toward the central atrium which holds the glove- and Bornanew. He takes off at a run.",bffi_mpSteal11:Suivre Menes,
 BFFImenesPartySteal11,DialogOptionSelected,$option == bffi_mpSteal11,ShowSecondPerson bornanew,"You both find Bornanew, still on his knees, with one hand stretched out to touch the glove - one finger upon it - lips still moving, eyes still blankly huge as if overcome by religious mania.
 
 Menes gives out a wordless cry of alarm, and begins lifting his cuff to call security.
@@ -9998,7 +9998,7 @@ You freeze, understanding what this sort of protocol looks like. The lights flar
 The human guards arrive a moment later, uniforms bright-white, boots squeaking on the floor. Menes breathes heavily, watching the security net tighten.
 
 Bornanew, meanwhile, has not moved but to turn his head toward you and Menes.",bffi_mpSteal13:Continuer,
-BFFImenesPartySteal13,DialogOptionSelected,$option == bffi_mpSteal13,,"""Menes, Yaribay sir. I pray your forgiveness. I- I was overcome by... I had to..."" Bornanew trails off, pathetically.","bffi_mpSteal14a:Say nothing
+BFFImenesPartySteal13,DialogOptionSelected,$option == bffi_mpSteal13,,"""Menes, Yaribay sir. I pray your forgiveness. I- I was overcome by... I had to..."" Bornanew trails off, pathetically.","bffi_mpSteal14a:Ne rien dire
 bffi_mpSteal14b:(whisper) ""This'll make a great story.""",
 BFFImenesPartySteal14a,DialogOptionSelected,$option == bffi_mpSteal14b,"$saidGreatStory = true 0
 $option = bffi_mpSteal14a 0
@@ -10331,7 +10331,7 @@ You watch as Horus, lean and intense as some small predator, endures the patter 
 
 Occasionally a robotic or human servitor appears to offer drinks or nibbles, and you've a growing feeling that Menes has picked up a glass from one only to place it back on the tray of another without ever taking a sip.
 
-A fresh glass in hand, Menes tentatively leads Horus into what can only be his prize entertaining space.",bffi_apHorus6:Follow,
+A fresh glass in hand, Menes tentatively leads Horus into what can only be his prize entertaining space.",bffi_apHorus6:Suivre,
 BFFIapHorus6,DialogOptionSelected,$option == bffi_apHorus6,,"The space is at once cavernous and intimate; the sightlines and carved, wrought, or woven details calculated to replicate a feeling of cozy warmth like the den of some thoughtful patron of art, history, and literature.
 
 A double handful of well-dressed remoras mill about, interrupting their conversations to turn as Menes enters. They look to be a collection of industrialists, financiers, distant gens-relatives, and at least one officer from atop the local military detachment who appears a little worse for his drink.",bffi_apHorus7:Continuer,
@@ -10359,7 +10359,7 @@ BFFIapHorus10,DialogOptionSelected,$option == bffi_apHorus10,,"""Captain $player
 
 ""Of course, cousin, of course!"" Menes, sweating, puts on a fragile grin in order to distribute reassuring nods to his extended entourage.
 
-Menes leads you and Horus into his inner sanctum, flashing a grimace as he operates a series of obtrusive and, to your eyes, largely ornamental biometric checks.",bffi_apHorus11:Follow,
+Menes leads you and Horus into his inner sanctum, flashing a grimace as he operates a series of obtrusive and, to your eyes, largely ornamental biometric checks.",bffi_apHorus11:Suivre,
 BFFIapHorus11,DialogOptionSelected,$option == bffi_apHorus11,,"The air cools by a degree, perhaps two, the armored mass of the walls felt as a dullness through your feet. The subdued lighting, drapery, and framing of the space suggest the interior of a bank vault or a shrine, though not to the praise of any Luddic virtue.
 
 Quite the contrary, depending on one's outlook.",bffi_apHorus12:Continuer,
@@ -11038,7 +11038,7 @@ $player.toldBornanewHeIsGoodGuy",,"""Ready, captain?"" he asks. ""Remember, you'
 bffi_ulmusStart3a:""You're sure he's here?""",
 BFFIulmusStart3a,DialogOptionSelected,$option == bffi_ulmusStart3a,"$option = bffi_ulmusStart3 0
 FireBest DialogOptionSelected","""I am,"" he says.",,
-BFFIulmusStart3,DialogOptionSelected,$option == bffi_ulmusStart3,,"Bornanew takes a step back then slams a powerful leg into a worn spot, about waist-high. With a sharp crack, the entire door falls inward, crumbling hinges and locking mechanism still attached.",bffi_ulmusStart4:Follow,
+BFFIulmusStart3,DialogOptionSelected,$option == bffi_ulmusStart3,,"Bornanew takes a step back then slams a powerful leg into a worn spot, about waist-high. With a sharp crack, the entire door falls inward, crumbling hinges and locking mechanism still attached.",bffi_ulmusStart4:Suivre,
 BFFIulmusStart4,DialogOptionSelected,$option == bffi_ulmusStart4,,"Bornanew charges inside. You follow his steps through an entryway, plastic rain cloaks mildewing, through a prefab kitchen and wash unit stained the yellow of old teeth. A sitting area, chair toppled. There's a muffled thump from above.
 
 Bornanew glances at you, his eyes giving a bounce upwards. Ulmus Pond.",bffi_ulmusStart5:Find a way upstairs,
@@ -11310,42 +11310,42 @@ BFFIulmusSedge5,DialogOptionSelected,$option == bffi_ulmusTalkSedge5,"AddTextSma
 EndConversation DO_NOT_FIRE
 HideVisual","In one smooth motion you draw your sidearm and place a shot in Sedge's head.
 
-With a sigh, his body slides back against the wall, his eyes blank, his expression caught in a look of dumb surprise.",bffi_ulmusSedge6:Check on Bornanew,
+With a sigh, his body slides back against the wall, his eyes blank, his expression caught in a look of dumb surprise.",bffi_ulmusSedge6:Aller voir Bornanew,
 BFFIulmusSedge5grenade,DialogOptionSelected,"$option == bffi_ulmusTalkSedge5
 $player.sdtu_weaponGrenade","EndConversation DO_NOT_FIRE
 HideVisual","In one smooth motion you draw a grenade, sliding a finger along just-so to set yield to minimum, and gently toss it toward Sedge's head. You see the beginning of a confused start on his face before the flash, and a loud clap uncomfortable almost to the point of pain.
 
-Sedge slides back against the wall, his face caught in the eternal surprise of death. Blood begins to trickle from his nose, his eyes, his ears, his mouth. The skin of his face blooms red. It will look like a bloated purple mass in only minutes.",bffi_ulmusSedge6:Check on Bornanew,"# a grenade at this range? tough sell.
+Sedge slides back against the wall, his face caught in the eternal surprise of death. Blood begins to trickle from his nose, his eyes, his ears, his mouth. The skin of his face blooms red. It will look like a bloated purple mass in only minutes.",bffi_ulmusSedge6:Aller voir Bornanew,"# a grenade at this range? tough sell.
 # and yet..."
 BFFIulmusSedge5knife,DialogOptionSelected,"$option == bffi_ulmusTalkSedge5
 $player.sdtu_weaponKnife","AddTextSmall ""Killed Wrestling Sedge"" highlight
 EndConversation DO_NOT_FIRE
 HideVisual","In one smooth motion you draw and activate your ceramic vibroknife, sweeping it in an arc which intersects Sedge's throat. There is no resistance.
 
-With a wet sigh, his body slides back against the wall, his face down, his eyes staring blankly up at you, his expression caught in a look of dumb surprise.",bffi_ulmusSedge6:Check on Bornanew,
+With a wet sigh, his body slides back against the wall, his face down, his eyes staring blankly up at you, his expression caught in a look of dumb surprise.",bffi_ulmusSedge6:Aller voir Bornanew,
 BFFIulmusSedge5spray,DialogOptionSelected,"$option == bffi_ulmusTalkSedge5
 $player.sdtu_weaponSpray","AddTextSmall ""Killed Wrestling Sedge"" highlight
 EndConversation DO_NOT_FIRE
 HideVisual","In one smooth motion you raise your hand and activate the poison spray, angling upward and away from the bleeding body of Bornanew. A misting of the air disappears in a blink as if it were never there.
 
-With a wet cough and a whining, choking sound, Sedge's body slides back against the wall. His eyes blink once at you, expression caught in a look of dumb surprise.",bffi_ulmusSedge6:Check on Bornanew,
+With a wet cough and a whining, choking sound, Sedge's body slides back against the wall. His eyes blink once at you, expression caught in a look of dumb surprise.",bffi_ulmusSedge6:Aller voir Bornanew,
 BFFIulmusSedge5wire,DialogOptionSelected,"$option == bffi_ulmusTalkSedge5
 $player.sdtu_weaponWire","AddTextSmall ""Killed Wrestling Sedge"" highlight
 EndConversation DO_NOT_FIRE
 HideVisual","In one smooth motion you draw the false fingertip of the monomolecular wire and throw it in an arc which intersects Sedge's neck. There is no resistance.
 
-With a wet sigh, his body slides back against the wall, his head askew. His eyes blink once at you, expression caught in a look of dumb surprise.",bffi_ulmusSedge6:Check on Bornanew,
+With a wet sigh, his body slides back against the wall, his head askew. His eyes blink once at you, expression caught in a look of dumb surprise.",bffi_ulmusSedge6:Aller voir Bornanew,
 BFFIulmusSedge5sword,DialogOptionSelected,"$option == bffi_ulmusTalkSedge5
 $player.sdtu_weaponSword","AddTextSmall ""Killed Wrestling Sedge"" highlight
 EndConversation DO_NOT_FIRE
 HideVisual","In one smooth motion you draw your sword and sweep it in an arc intersecting Sedge's throat.
 
-With a wet sigh, his body slides back against the wall, his face down, his eyes staring blankly up at you, his expression caught in a look of dumb surprise.",bffi_ulmusSedge6:Check on Bornanew,
+With a wet sigh, his body slides back against the wall, his face down, his eyes staring blankly up at you, his expression caught in a look of dumb surprise.",bffi_ulmusSedge6:Aller voir Bornanew,
 BFFIulmusSedge5none,DialogOptionSelected,"$option == bffi_ulmusTalkSedge5
 $player.sdtu_weaponNone","EndConversation DO_NOT_FIRE
 HideVisual","In a motion born of long hours of training, your leg snaps toward Sedge at the speed of thought. It meets the center of his head with full force, cracking his head back in a violent jerk.
 
-A single shudder passes through his body, from his thick neck, already purpling from devastated bone and tissue, to his booted feet. His head slumps to the side at an unnatural angle, blood running from what remains of his nose, and his mouth and eyes.",bffi_ulmusSedge6:Check on Bornanew,"# not sure the drama works if you snap his neck or w/e?
+A single shudder passes through his body, from his thick neck, already purpling from devastated bone and tissue, to his booted feet. His head slumps to the side at an unnatural angle, blood running from what remains of his nose, and his mouth and eyes.",bffi_ulmusSedge6:Aller voir Bornanew,"# not sure the drama works if you snap his neck or w/e?
 # of course it does! let's do it"
 BFFIulmusSedge6,DialogOptionSelected,$option == bffi_ulmusSedge6,"$player.bffi_playerKilledSedgeAfterPond = true
 $player.killedSedge = true
@@ -11409,7 +11409,7 @@ $global.bornanewChokedPond score:2","$option = bffi_pondNoSedgeOutro2opts 0
 FireBest DialogOptionSelected","""This,"" Pond coughs violently, holding his throat, ""-before. Pathers... everywhere. Kill me.""
 
 He looks at you fearfully after a glance at Bornanew. ""... help me.""",,
-BFFIpondNoSedgeOutro2opts,DialogOptionSelected,$option == bffi_pondNoSedgeOutro2opts,,,"bffi_pondNoSedgeOutro2nothing:Say nothing.
+BFFIpondNoSedgeOutro2opts,DialogOptionSelected,$option == bffi_pondNoSedgeOutro2opts,,,"bffi_pondNoSedgeOutro2nothing:Ne rien dire.
 bffi_pondNoSedgeOutro2menesFool:""Go to Menes. Confess. He's fool enough to forgive you.""
 bffi_pondNoSedgeOutro2menesKind:""Go to Menes. Confess. He's kind enough to forgive you.""
 bffi_pondNoSedgeOutro2knights:""$global.jethroName, will the Knights take this man?""
@@ -11847,7 +11847,7 @@ $HeOrShe has a choice, you explain. Call it a Molochian bargain, if it makes the
 Is $heOrShe so loyal to Sedge's sect that $heOrShe is willing to die for it - even after it's already falling apart?",bffi_psRuseOpenMean:Propose terms,
 ,,,,,,
 BFFIpsTalkFailStart,DialogOptionSelected,"$option == bffi_psTalkFailStart
-!$global.bornanewShotDuringBFFI",BeginConversation bornanew,"""Well,"" Bornanew says from beside you. ""Let it not be said that you did not attempt diplomacy.""","bffi_psTalkFail:Say nothing
+!$global.bornanewShotDuringBFFI",BeginConversation bornanew,"""Well,"" Bornanew says from beside you. ""Let it not be said that you did not attempt diplomacy.""","bffi_psTalkFail:Ne rien dire
 bffi_psTalkFailb:""I truly hoped that would have gone better.""
 bffi_psTalkFailc:""Good. Now we can do this my way.""",
 BFFIpsTalkFail1a,DialogOptionSelected,$option == bffi_psTalkFailb,"$player.ethosMercy++
@@ -12363,7 +12363,7 @@ BFFIarrest3,DialogOptionSelected,$option == bffi_arrest3,,"There are halls and o
 
 Bornanew's words and the token, presumably provided by the Archcurate Jaspis, clear a path through frowning oblate-secretaries and young Knight-novices on guard duty.
 
-Not all are so dour; one or two initiates, scurrying by with armloads of books, greet Bornanew by name.",bffi_arrest4:Follow,
+Not all are so dour; one or two initiates, scurrying by with armloads of books, greet Bornanew by name.",bffi_arrest4:Suivre,
 BFFIarrest4,DialogOptionSelected,$option == bffi_arrest4,#PauseMusic,"You follow Bornanew into a long room, a gallery of columns intermingled with bookcases; cleverly designed lightwells - and, surely, a series of mirrors - provide shafts of sunlight, motes dancing with little concern in their small world within this analog archive. 
 
 Heads turn to follow your progress past desks stacked with paper books, writing implements, and even the occasional low-fidelity interface terminal.
@@ -12660,12 +12660,12 @@ Keepfaith, just Cedra now that her subcurateship has been summarily revoked by o
 
 ""I will be absolved,"" she says hoarsely. ""You shall witness my righteousness before the end.""
 
-One of your guards closes the brig door, its weight silent.",bffi_arrestOutroInjured3:Check on Bornanew,
+One of your guards closes the brig door, its weight silent.",bffi_arrestOutroInjured3:Aller voir Bornanew,
 BFFIarrestOutroInjured2escape,DialogOptionSelected,"$option == bffi_arrestOutroInjured2
 $player.bffi_helpedBornanewAfterShotTartessus","ShowLargePlanet
 $global.bffi_keepfaithEscapedTartessus = true","The cadre of Luddic Knights guarding the Cathedral of Holy Exodus defer to Bornanew's authority, despite his unconsciousness.
 
-Keepfaith, just Cedra now that her subcurateship has been summarily revoked by order of the archcurate, is nowhere to be found. You can only speculate that she called upon her Pather contacts for assistance.",bffi_arrestOutroInjured3escape:Check on Bornanew,
+Keepfaith, just Cedra now that her subcurateship has been summarily revoked by order of the archcurate, is nowhere to be found. You can only speculate that she called upon her Pather contacts for assistance.",bffi_arrestOutroInjured3escape:Aller voir Bornanew,
 BFFIarrestOutroInjured3,DialogOptionSelected,$option == bffi_arrestOutroInjured3,,"It is some time before Bornanew regains consciousness.
 
 Your chief medical officer hovers nearby, giving you a stern look. You know you will not be allowed to overtrouble their patient.","bffi_arrestOutroInjured4:""What now?""",
@@ -13121,7 +13121,7 @@ Call $global.bffi_ref updateStage","""I t-think that's everything,"" the clerk s
 
 Excubitor Orbis Gideon Oak exhales, meeting your gaze. Then, without a word, he turns away and begins walking back to the far doorway casting its long wedge of light into the armored hangar.
 
-After a respectful pause, the clerk and guards rush to follow.",bffi_outro3:Turn and leave,
+After a respectful pause, the clerk and guards rush to follow.",bffi_outro3:Tourner les talons,
 ,,,,,,
 BFFIoutro1a,DialogOptionSelected,$option == bffi_outro1a,,"Oak ignores you.
 
@@ -13153,7 +13153,7 @@ $global.bffi_completed = true
 Call $global.bffi_ref updateStage
 AddStoryPoints 1","""But I have a feeling that our paths shall cross again,"" $global.jethroName says, pulling his simple bundle of possessions onto his shoulder.
 
-Bornanew follows his fellow Knights to the doorway casting its long wedge of light into the armored hangar.",bffi_outro3:Turn and leave,
+Bornanew follows his fellow Knights to the doorway casting its long wedge of light into the armored hangar.",bffi_outro3:Tourner les talons,
 BFFIoutro2BB,DialogOptionSelected,"$option == bffi_outro2
 $global.bornanewBadBoy > 2","Call $global.bffi_ref doCleanup
 $global.bffi_completed = true
@@ -13162,13 +13162,13 @@ AddStoryPoints 1","""Our paths shall cross again,"" $global.jethroName says, eye
 
 Oak, ever displeased, turns his back without further comment and begins marching to the far end of the hangar. After a moment, the other Knights, and Bornanew, follow.
 
-They shrink to silhouettes in the long wedge of light cast into the armored hangar, then disappear.",bffi_outro3:Turn and leave,
+They shrink to silhouettes in the long wedge of light cast into the armored hangar, then disappear.",bffi_outro3:Tourner les talons,
 BFFIoutro2injured,DialogOptionSelected,"$option == bffi_outro2
 $global.bornanewShotDuringBFFI","$global.bffi_completed = true
 Call $global.bffi_ref updateStage
 AddStoryPoints 1","""But I have a feeling that our paths shall cross again,"" $global.jethroName says, pulling his simple bundle of possessions onto his shoulder.
 
-Bornanew, limping slightly, follows his fellow Knights to the doorway casting its long wedge of light into the armored hangar.",bffi_outro3:Turn and leave,
+Bornanew, limping slightly, follows his fellow Knights to the doorway casting its long wedge of light into the armored hangar.",bffi_outro3:Tourner les talons,
 BFFIoutro2injuredBB,DialogOptionSelected,"$option == bffi_outro2
 $global.bornanewShotDuringBFFI
 $global.bornanewBadBoy > 2","$global.bffi_completed = true
@@ -13177,7 +13177,7 @@ AddStoryPoints 1","""Our paths shall cross again,"" $global.jethroName says, eye
 
 Oak, ever displeased, turns his back without further comment and begins marching to the far end of the hangar. After a moment, the other Knights, and Bornanew - limping slightly - follow.
 
-They shrink to silhouettes in the long wedge of light cast into the armored hangar, then disappear.",bffi_outro3:Turn and leave,
+They shrink to silhouettes in the long wedge of light cast into the armored hangar, then disappear.",bffi_outro3:Tourner les talons,
 BFFIoutro3,DialogOptionSelected,$option == bffi_outro3,"HideSecondPerson
 EndConversation DO_NOT_FIRE
 AddCredits 50000
@@ -14043,13 +14043,13 @@ HT_CMD computeDataStats",,,buyHTData:Offer to pay for charts of local hyperspace
 scavBuyHTDataSel1,DialogOptionSelected,$option == buyHTData,Highlight $ht_dataCost $ht_dataRange,"You discuss the data the scavenger has available in the roundabout telling-but-not-telling these sorts of negotiations entail, and eventually settle on a price of $ht_dataCost credits.
 
 The dataset includes the locations of all slipstreams within $ht_dataRange lights of your current location, and useful information about hyperspace topography.","buyHTDataConfirm:Transfer the payment
-buyHTDataNeverMind:Peu importe",
+buyHTDataNeverMind:Never mind",
 scavBuyHTDataSel2,DialogOptionSelected,"$option == buyHTData
 HT_CMD hasRecentReadingsNearby","SetTextHighlightColors h h bad
 Highlight $ht_dataCost $ht_dataRange ""would not meaningfully contribute""","You discuss the data the scavenger has available in the roundabout way these sorts of negotiations entail, eventually settling on a price of $ht_dataCost credits. The dataset includes the locations of all slipstreams within $ht_dataRange lights of your current location.
 
 You've recently acquired hypertopographic data not too far from your current hyperspace location, so this new data would not meaningfully contribute to your overall charts.","buyHTDataConfirm:Transfer the payment anyway
-buyHTDataNeverMind:Peu importe",
+buyHTDataNeverMind:Never mind",
 buyHTDataConfirmSel,DialogOptionSelected,$option == buyHTDataConfirm,"AddCredits -$ht_dataCost
 $entity.boughtHTData = true 60
 HT_CMD getScavengerData
@@ -14197,7 +14197,7 @@ FireBest SAICPrintInitialText
 ShowDefaultVisual
 SetShortcut saic_leave ""ESCAPE""",,"saic_giveCore:Place the Tri-Tachyon case into the shielded crate and send it off as soon as possible
 saic_takeCore:Take the AI core for yourself
-saic_leave:Partir",
+saic_leave:Leave",
 saic_initialText,SAICPrintInitialText,,,"Your $shipOrFleet arrives at the coordinates provided by the scientist $saic_marketOnOrAt $saic_marketName, and just as $saic_heOrShe said, there is an impressive bounty of Domain-era goods and technology in nearly pristine condition. And in the middle of it all your salvage crew reports a cargo case bearing a Tri-Tachyon logo. It's emitting a bizarre, dynamic magnetic field extending two meters beyond the casing.
 
 It's amazing that no one found this cache before, but then the long-range sensors did read it as a worthless debris cloud at first. The question is now, do you close the AI core into the shielded crate and send it off from your next port stop, or do you keep it for yourself? That scientist was surely no one important.",,
@@ -14733,7 +14733,7 @@ Call $global.gaIntro_ref updateStage","The academy agent makes a quiet request t
 
 The comms unit chimes softly.
 
-""Yes? ... Really? I mean, yes, we�ll come up immediately."" The agent turns to you, ""Provost Baird will see you. Right now. Please follow me, captain.""",0:gaRequestMeeting1:Follow the junior academy agent,
+""Yes? ... Really? I mean, yes, we�ll come up immediately."" The agent turns to you, ""Provost Baird will see you. Right now. Please follow me, captain.""",0:gaRequestMeeting1:Suivre the junior academy agent,
 gaRequestMeeting1,DialogOptionSelected,$option == gaRequestMeeting1,,"You are led through a discreet secure-access door to a series of passages that bypass the public concourses. A travel-lift activates at the academy agent�s presence and you step inside at the agent's encouraging nod.
 
 The lift pod is wrapped by diamond-matrix through which you can see the canyon-like sweep of plazas pass by, filled with crowds of students, academics, and technicians. Raising your gaze, you see that the pod is approaching a tiered substructure which seems to hang over the curve of the station interior. The pod slows and you shuffle to adjust to the local grav-effect field gradient.
@@ -14869,7 +14869,7 @@ gaBairdShuttleOption,PopulateOptions,"$id == station_galatia_academy
 $global.bairdWantsToTalk",,,1:gaBairdShuttle:Take a shuttle to meet with Provost Baird,
 gaBairdShuttleOptionSel,DialogOptionSelected,$option == gaBairdShuttle,,"You find a junior academy agent pacing in the landing bay reception lounge. As soon as you enter, they spot you with a look of relief and walk quickly to meet you.
 
-""Captain $playerLastName! Thank you for coming. The provost will see you immediately. If you would just follow me this way, thank you...""",bairdIntroC1:Follow,
+""Captain $playerLastName! Thank you for coming. The provost will see you immediately. If you would just follow me this way, thank you...""",bairdIntroC1:Suivre,
 bairdIntro1,DialogOptionSelected,$option == bairdIntroC1,,"The junior agent leads you through a series of back hallways and secure lifts toward the administrative suite occupied by Provost Baird at the core of the station. 
 
 You are led past diamond-matrix windows through which you can see vistas of the curving internal canyons of Galatia Academy Station. The light dims, and you approach the waiting room of the office of the provost. It is filled with representatives of the most well-connected of the Persean Sector, whose eyes focus on you, the interloper, like the beam array of a Paladin PD system.
@@ -15219,7 +15219,7 @@ $player.metCloneLoke = true","The clerk starts to lead you through a back door, 
 
 The man - Mister Loke you presume - smiles blandly and says ""I will show the captain the way.""
 
-Loke simply stops paying attention to the clerk, shifting his attention to you, still smiling. He nods encouragingly and turns to walk into the darkness beyond the portal.",gaKA_visitStorage2:Follow,
+Loke simply stops paying attention to the clerk, shifting his attention to you, still smiling. He nods encouragingly and turns to walk into the darkness beyond the portal.",gaKA_visitStorage2:Suivre,
 gaKANewMaxiosVisit2,DialogOptionSelected,$option == gaKA_visitStorage2,,"Mister Loke leads you past rows of sealed storage units, into a loading bay. Your footsteps produce a dull metallic echo. Something that smells of organic compounds is leaking.
 
 Still smiling blandly, Loke stops and with the wave of his hand unlocks a storage unit. He speaks softly to you, ""When she heard of this, Jorien told me she thought it was very funny. She wanted me to come and make sure you got what the Gargoyle asked Elissa to make for you.
@@ -15462,11 +15462,11 @@ Coureuse looks to you, ""The Galatia jump-point experiment,"" she says, giving n
 Baird interrupts, ""You don't need to explain yourself, academician. The captain understands that you will take all reasonable precautions when we reach the experimentation stage. In fact, they will be instrumental in carrying out these experiments.""",gaKA_return10b:Continuer,
 gaKAReturnToAcademy10b,DialogOptionSelected,$option == gaKA_return10b,,"Provost Baird pauses and turns to you, examining your reaction to what both she and Coureuse have said. ""You must be wondering what this is all for, captain.""","gaKA_return11b1:""Yes.""
 gaKA_return11b2:""Not really. The pay is good.""
-gaKA_return11b3:Say nothing.",
+gaKA_return11b3:Ne rien dire.",
 gaKAReturnToAcademy10b2,DialogOptionSelected,"$option == gaKA_return10b
 $player.gotCutOffByBaird",,"Provost Baird pauses and turns to you, examining your reaction to what both she and Coureuse have said. ""You must be wondering what this is all for, captain.""","gaKA_return11b1:""Yes.""
 gaKA_return11b2:""Not really. The pay is good.""
-gaKA_return11b3:Say nothing. You won't fall for this again.",
+gaKA_return11b3:Ne rien dire. You won't fall for this again.",
 gaKAReturnToAcademy11b1,DialogOptionSelected,$option == gaKA_return11b1,"$option = gaKA_return11b 0
 FireBest DialogOptionSelected",,,
 gaKAReturnToAcademy11b2,DialogOptionSelected,$option == gaKA_return11b2,"$player.ethosMercenary++
@@ -15486,7 +15486,7 @@ gaKAReturnToAcademy13b,DialogOptionSelected,$option == gaKA_return13b,"$global.g
 Call $global.gaKA_ref updateStage","You notice that Baird has watched Coureuse without emotion through this speech. At its conclusion, the provost speaks to you in a tone of commanding finality, ""Come back in a week or so, captain. My people need time to work. And you've earned a break. But keep your head down, the factions are restless after the job you pulled in Aztlan.""
 
 Baird turns to her desk console, expressions moving across her face as she appears to skim messages. ""That is all, captain. And Scylla.""","gaKA_returnIntentions:""I want to talk about your intentions with this technology.""
-gaKA_returnLeave:Partir",
+gaKA_returnLeave:Leave",
 gaKAReturnToAcademyIntentions,DialogOptionSelected,$option == gaKA_returnIntentions,,"Baird turns from her desk display and looks through you, ""There is no 'technology', captain. Merely possibilities. And vast though those possibilities may be, they are yet mere possibilities.""
 
 She turns away again, dismissing you. ""We shall speak of this later.""
@@ -15668,7 +15668,7 @@ gaKA_ttOfferSel,DialogOptionSelected,$option == gaKA_ttOffer,,"Pendant de longue
 
 ""Je suis ravi d'apprendre que vous êtes réceptif à la suggestion"", dit $heOrShe, puis se lève. ""La Compagnie vous contactera, j'en suis certain. Merci pour votre temps, $playerName. Je suis convaincu que vous continuerez à respecter l'environnement favorable aux affaires que nous cultivons dans l'espace Tri-Tachyon et au-delà.""
 
-L'agent Tri-Tachyon disparaît dans quelque ombre. Vous regardez votre boisson intacte. Une bulle éclate à la surface.",gaKA_ttLeaveToBarB:Revenir to the bar,
+L'agent Tri-Tachyon disparaît dans quelque ombre. Vous regardez votre boisson intacte. Une bulle éclate à la surface.",gaKA_ttLeaveToBarB:Revenir au bar,
 gaKA_ttAppreciateSel,DialogOptionSelected,$option == gaKA_ttAppreciate,,"L'agent déploie une fois de plus $hisOrHer sourire parfait.
 
 ""En entrant dans cet établissement, vous avez accepté certaines conditions générales. En entrant dans l'espace Tri-Tachyon - vous comprenez. D'ailleurs"", $heOrShe laisse tomber le sourire parfait, ""je pense que vous êtes bien au-delà de ça, vu les fréquentations que vous avez eues.""","gaKA_ttNothing:Ne rien dire
@@ -15676,12 +15676,12 @@ gaKA_ttBaird:""C'est au sujet de Baird et de l'Académie de Galatia ? Ou de Garg
 gaKA_ttLeaveToBar:""Bien noté. Merci pour le verre."" (partir)",
 gaKA_ttNothingSel,DialogOptionSelected,$option == gaKA_ttNothing,,"$HeOrShe se lève, plantant $hisOrHer regard dans le vôtre : ""La Corporation Tri-Tachyon vous remercie pour votre clientèle et vous souhaite bon voyage. Je suis certain que vous continuerez à respecter l'environnement favorable aux affaires que nous cultivons dans l'espace Tri-Tachyon et au-delà.""
 
-L'agent Tri-Tachyon disparaît dans quelque ombre. Vous regardez votre boisson intacte. Une bulle éclate à la surface.",gaKA_ttLeaveToBarB:Revenir to the bar,
+L'agent Tri-Tachyon disparaît dans quelque ombre. Vous regardez votre boisson intacte. Une bulle éclate à la surface.",gaKA_ttLeaveToBarB:Revenir au bar,
 gaKA_ttBairdSel,DialogOptionSelected,$option == gaKA_ttBaird,AdjustRepActivePerson INHOSPITABLE -5,"L'agent a l'air nerveux, abandonnant $hisOrHer façade et regardant autour de lui comme s'il cherchait des oreilles indiscrètes.
 
 ""Ça suffit, capitaine"", dit $heOrShe d'une voix un peu plus forte, vous coupant la parole, ""je crois que nous avons dit chacun ce que nous avions à dire."" $HeOrShe se lève, plantant $hisOrHer regard dans le vôtre : ""La Corporation Tri-Tachyon vous remercie pour votre clientèle et nous vous souhaitons bon voyage.
 
-L'agent Tri-Tachyon disparaît dans quelque ombre. Vous regardez votre boisson intacte. Une bulle éclate à la surface.",gaKA_ttLeaveToBarB:Revenir to the bar,
+L'agent Tri-Tachyon disparaît dans quelque ombre. Vous regardez votre boisson intacte. Une bulle éclate à la surface.",gaKA_ttLeaveToBarB:Revenir au bar,
 # Hegemony agent encounter,,,,,,
 gaKA_hegemonyVisitEvent,DialogOptionSelected,"$faction.id == hegemony
 $global.gaKA_hegemonyVisit score:1000
@@ -16109,7 +16109,7 @@ Bione's look hardens; you've done it this time. ""...I really have to go. Good b
 The commsplate shuts off, replacing Bione's face with the dancing Seabank Oasis mascot. It reminds you to keep your voice down while visiting the exurb community, and won't you have a nice day.
 
 You nod, and turn around just in time to catch a different neighbor watching you with a look of consternation, datapad ready to call in a complaint.",gaFC_fikenhildBioneLeave:Partir,
-gaFCFikenhildBioneLeave,DialogOptionSelected,$option == gaFC_fikenhildBioneLeave,ShowDefaultVisual,"You turn back toward the monorail line, subvocalizing an update to your mission notes. A fog bank rolls in, dimming the bright sun.",gaFC_visitFikenhild:Retour to the transport hub,
+gaFCFikenhildBioneLeave,DialogOptionSelected,$option == gaFC_fikenhildBioneLeave,ShowDefaultVisual,"You turn back toward the monorail line, subvocalizing an update to your mission notes. A fog bank rolls in, dimming the bright sun.",gaFC_visitFikenhild:Go back to the transport hub,
 "# gaFC Fikenhild, Cavin Pharoh",,,,,,
 gaFCFikenhildCavinStart,DialogOptionSelected,$option == gaFC_visitC,"$visitedC = true
 $global.gaFC_triedToSeeCavin = true
@@ -17573,7 +17573,7 @@ gaFCLaicaileVisitStartAlamangNo,GAFCAlamangCheck1,!$global.gaFC_gotAlamangForScy
 FireBest DialogOptionSelected",,,
 gaFCLaicailleVisit1,DialogOptionSelected,$option == gaFC_laicailleVisit1,,"Archon $personLastName speaks a quiet word into $hisOrHer commband and a small squad of diversely equipped Laicaille militia appears. 
 
-""Captain, let's go see that safehouse,"" $heOrShe says, and turns to lead your party toward a station transport shaft.",gaFC_laicailleVisit2:Follow the archon,
+""Captain, let's go see that safehouse,"" $heOrShe says, and turns to lead your party toward a station transport shaft.",gaFC_laicailleVisit2:Suivre the archon,
 gaFCLaicailleVisit2,DialogOptionSelected,$option == gaFC_laicailleVisit2,,"The safehouse is a low-rent commercial warehouse in a medium-security volume of this station ring. The thin bulkheads leave you just within earshot of the thudding bass of the twilit entertainment concourse a couple sections over. 
 
 As a score of officials and station militia approach the entrance of the safehouse - a standard cargo lock - a trio of lounging League agents leap to their feet.",gaFC_laicailleVisit3:Watch what happens,
@@ -17712,7 +17712,7 @@ gaFCReturnToAcademy7b2,DialogOptionSelected,$option == gaFC_returnToAcademy7b2,A
 
 Your personal datapad pings in response to a command she entered into her desk interface.
 
-Gargoyle perks up and withdraws a highly modified datapad, trailing loose cables. After a moment it also pings, to which Gargoyle says ""Mm, Anahita. Don't spoil the good captain.""","gaFC_returnToAcademy8b:Continuer
+Gargoyle perks up and withdraws a highly modified datapad, trailing loose cables. After a moment it also pings, to which Gargoyle says ""Mm, Anahita. Don't spoil the good captain.""","gaFC_returnToAcademy8b:Continue
 gaFC_returnToAcademy8b2:""Are you... watching my accounts?""",
 gaFCReturnToAcademy8b2,DialogOptionSelected,$option == gaFC_returnToAcademy8b2,,"Gargoyle gives you a guilty look, slowly stowing the datapad.
 
@@ -17731,7 +17731,7 @@ Baird nods in acknowledgement again, ""Indeed. Gargoyle has been very useful."" 
 gaFCReturnToAcademy11b,DialogOptionSelected,$option == gaFC_returnToAcademy11b,,"Provost Baird pauses and turns to you, examining your reaction. ""You must be wondering what this is all for, captain.""","gaFC_return11b1:""Yes.""
 gaFC_return11b2:""Not really. The pay is good.""
 gaFC_return11b3:""You're obviously trying to re-open the Gates.""
-gaFC_return11b4:Say nothing. You won't fall for this again.",
+gaFC_return11b4:Ne rien dire. You won't fall for this again.",
 gaFCReturnToAcademy12b1,DialogOptionSelected,$option == gaFC_return11b1,"$option = gaFC_return12b 0
 FireBest DialogOptionSelected","She proceeds without regard for your response, ""This is about opening up the galaxy again, captain. Yes, you see it now: the Gates. It was always about the Gates.""",,
 gaFCReturnToAcademy12b2,DialogOptionSelected,$option == gaFC_return11b2,"$option = gaFC_return12b 0
@@ -17757,7 +17757,7 @@ Call $global.gaFC_ref updateStage","You notice that Baird has watched Gargoyle w
 Baird turns to her desk console, expressions moving across her face as she appears to skim messages. ""That is all, captain.""
 
 ""And Gargoyle,"" she says after a moment.","gaFC_return15b:""I want to talk about your intentions with this technology.""
-gaFC_returnLeave:Partir",
+gaFC_returnLeave:Leave",
 gaFCReturnToAcademy15b,DialogOptionSelected,$option == gaFC_return15b,,"Baird turns from her desk display and looks through you, ""There is no 'technology', captain. Merely possibilities. And vast though those possibilities may appear, they are yet mere possibilities.""
 
 She turns away again, dismissing you. ""We shall speak of this later.""
@@ -17993,10 +17993,10 @@ gaPZ_arroyoAskKelise2b,DialogOptionSelected,$option == gaPZ_arroyoAskKelise2b,Fi
 gaPZ_arroyoAskKelise2c,DialogOptionSelected,$option == gaPZ_arroyoAskKelise2c,FireBest GAPZArroyoKelise3,"""Doesn't matter. I'm creating an information environment my people can work with, so the messier, the better.""",,
 GAPZArroyoKelise3,GAPZArroyoKelise3,,"$global.gaPZ_sellBlackmail = true
 Call $global.gaPZ_ref updateStage","""So,"" he says, tapping a few keys on his desk console ""You have the files. Go find a pirate who'll try to exploit me for all I'm worth."" Arroyo grins.","paPZ_arroyoKeliseCredits:""How about some credits to help this job along?""
-cutCommLink:Cut the comms",
+cutCommLink:Couper les comms",
 paPZ_arroyoKeliseCredits,DialogOptionSelected,$option == paPZ_arroyoKeliseCredits,,"Arroyo barks a laugh. ""After what Gargoyle chiseled me for on your behalf? Not happening. Good-bye, captain. I'll have the Astraia files for you after some roach-eating brigand shows up on my comm trying to blackmail me.""
 
-He disconnects his feed, leaving you with a spinning Tri-Tachyon franchise logo.",cutCommLinkNoText:Cut the comms,
+He disconnects his feed, leaving you with a spinning Tri-Tachyon franchise logo.",cutCommLinkNoText:Couper les comms,
 # sell blackmail materials to pirate,,,,,,
 gaPZSellBlackmailOptionA,PopulateOptions,"$isPerson
 $personFaction.id == pirates
@@ -19012,7 +19012,7 @@ $option == marketVisitBar","unset $global.gaPZ_brotherCottonEncounter
 FireBest BarShuttleDownPrintDesc
 FireBest BarPrintDesc
 BarCMD playAmbience
-AddText ""A shift-worker in a utilitarian jumpsuit, a few burns and patches, approaches the bar besides you. They never meet your eye. \""Someone would like to talk with you.\"" It's almost a mutter; difficult to make out \""Set you on the right... path. If you please, follow me.\""""",,"gaPZ_cottonFollow:Follow
+AddText ""A shift-worker in a utilitarian jumpsuit, a few burns and patches, approaches the bar besides you. They never meet your eye. \""Someone would like to talk with you.\"" It's almost a mutter; difficult to make out \""Set you on the right... path. If you please, follow me.\""""",,"gaPZ_cottonFollow:Suivre
 gaPZ_cottonNoFollow:Don't follow",
 gaKA_cotton2,DialogOptionSelected,$option == gaPZ_cottonFollow,,"You are led to a dark place behind the bar.
 
@@ -19650,7 +19650,7 @@ FireBest DialogOptionSelected","Rivas examines your sidearm as if it was a bomb.
 ""Captain $playerName,"" he says finally, as if identifying you in a perp lineup.",gaATG_daudMeeting4:Continuer,
 gaATGdaudMeeting4,DialogOptionSelected,$option == gaATG_daudMeeting4,,"Rivas turns to the ensign and says ""I shall escort the captain to see the High Hegemon."" 
 
-The ensign begins to salute but catches themself - Rivas is not military, at least not now - then simply nods, ""Sir,"" before turning back to the landing bay.",gaATG_daudMeeting5:Follow Rivas,
+The ensign begins to salute but catches themself - Rivas is not military, at least not now - then simply nods, ""Sir,"" before turning back to the landing bay.",gaATG_daudMeeting5:Suivre Rivas,
 gaATGdaudMeeting5,DialogOptionSelected,$option == gaATG_daudMeeting5,,"Rivas leads you past a half dozen checkpoints set through the guts of the shipyard. At each checkpoint you both submit to a flicker of biometric scan, then a guard nods to Rivas and allows you both passage.
 
 Finally you enter a utilitarian vestibule. Emergency vac-suit lockers, fire suppression equipment, and safety notices line the walls. A diamond-matrix pane separates this compartment from the enclosed space-dock visible beyond - a perfect, new Eagle-class hull looms, and a gantry hangs toward its bow, festooned with ribbons and a Hegemony banner.",gaATG_daudMeeting6:Continuer,
@@ -21420,7 +21420,7 @@ gaATGlastReturnIntroInvite,DialogOptionSelected,$option == gaATG_lastIntroInvite
 gaATGlastReturnOffice1,DialogOptionSelected,$option == gaATG_lastReturnOffice1,"HideSecondPerson
 HideThirdPerson
 EndConversation DO_NOT_FIRE
-ShowDefaultVisual","You take your shuttle to the Galatia Academy. Elissa Zal sits across from you, smiling to herself.","gaATG_lastReturnVictory4:Say nothing
+ShowDefaultVisual","You take your shuttle to the Galatia Academy. Elissa Zal sits across from you, smiling to herself.","gaATG_lastReturnVictory4:Ne rien dire
 gaATG_lastReturnVictory2:""Planning something?""
 gaATG_lastReturnVictory3:""Is it Coureuse?""",
 gaATGlastReturnVictory2,DialogOptionSelected,$option == gaATG_lastReturnVictory2,,"Zal meets your eyes. ""Always,"" she says.",gaATG_lastReturnVictory4:Continuer,
@@ -21444,7 +21444,7 @@ As she turns away, the comms unit chimes. She turns back, ""What is it, Alviss? 
 She taps at the comms, the triumph draining from her expression.",gaATG_lastReturnWhereAreThey2:Continuer,
 gaATGlastReturnWhereAreThey2,DialogOptionSelected,$option == gaATG_lastReturnWhereAreThey2,,"""Security, find me Academician Scylla Coureuse. And her- and Elissa Zal. ... Yes, immediately. Top priority.""
 
-Another tap, ""And get me that insipid hacker. Yes, I mean Gargoyle. No, just on comms.""","gaATG_lastReturnGargoyle1:Continuer
+Another tap, ""And get me that insipid hacker. Yes, I mean Gargoyle. No, just on comms.""","gaATG_lastReturnGargoyle1:Continue
 gaATG_lastReturnGargoyle1b:Sneak a glass of the victory spirit while you still can",
 gaATGlastReturnGargoyle1b,DialogOptionSelected,$option == gaATG_lastReturnGargoyle1b,,"With Baird's attention thoroughly, and increasingly furiously, focused elsewhere, you pour yourself a glass, sample the fumes, and sip. Some kind of brandy. Eventide, judging by the label - a stylized arc of solar mirrors over a celestial orb.
 
@@ -22486,7 +22486,7 @@ Call $global.gaProbe_ref updateData","You explain that the instrument package in
 
 To emphasize your request, you tap a key and transmit documentation of the blasted derelicts surrounding the probe; and the spinning debris- if you look closely, is that... no, don't look too closely.
 
-Academician Sebestyen looks queasy. ""Um. Pardon me captain; just a moment.""",gaProbe_returnHazard1:Continuer ,
+Academician Sebestyen looks queasy. ""Um. Pardon me captain; just a moment.""",gaProbe_returnHazard1:Continue ,
 gaProbeMissionReturnHazardBonus1,DialogOptionSelected,$option == gaProbe_returnHazard1,"Highlight $gaProbe_reward
 $global.gaProbe_finished = true
 Call $global.gaProbe_ref updateStage","A few minutes later Sebestyen re-activates the on-hold comms line. Out of professional courtesy you stop drumming your fingers on the console.
@@ -24266,7 +24266,7 @@ soeDanceStarting1b,DialogOptionSelected,$option == soe_danceStarting1b,,"As Neri
 Dancers partner up from the edge of the floor. You catch a glimpse of Sang and his flunkies keeping an eye on you, still held off by the force of Neriene's presence.
 
 You look at her for some kind of cue. She looks at you expectantly.","soe_danceStarting2a:""Shall we?""
-soe_danceStarting2b:Say nothing
+soe_danceStarting2b:Ne rien dire
 soe_noDancing:""I don't dance.""
 soe_startDanceDrink:""Um. Where can a space captain get a fresh drink around here?""
 soe_startDanceJump:Try very hard to initiate a Transverse Jump",
@@ -24384,7 +24384,7 @@ soeDuelNo,DialogOptionSelected,$option == soe_duelNo,,"""Then you prove that you
 ""You've the thin frontier blood of thieves and failures. Crawl away now, barbarian, and be thankful the Hegemony came to save your kind when you proved unable to rule yourself.""","soe_duelAccept:""On second thought, I accept.""
 soe_duelNoLeave1:""Your crude tradition proves nothing. Good-bye."" 
 soe_duelWhoBarbarian:""Barbarian? You're the one threatening guests with oversized cutlery.""
-soe_duelNoLeave2:Partir",
+soe_duelNoLeave2:Leave",
 soeDuelWhoBarbarian,DialogOptionSelected,$option == soe_duelWhoBarbarian,AdjustRepPerson magnus_cardona VENGEFUL -5,"This prompts a few snickers and a guffaw from the crowd. Cardona looks furiously to each side, then straight at you.
 
 ""Answer my challenge,"" he shouts, ""And do it now!""","soe_duelAccept:""On second thought, I accept.""
@@ -24713,7 +24713,7 @@ After a moment's contemplation, you decide to set the color to...","0:fusionLamp
 3:fusionLamp_white:Incandescent white, like Hybrasil
 4:fusionLamp_yellow:Comfortable yellow, like Corvus
 5:fusionLamp_green:Calming green, like no star in the galaxy
-6:fusionLamp_goBack:Retour",
+6:fusionLamp_goBack:Go back",
 fusionLampOrange,DialogOptionSelected,$option == fusionLamp_orange,"unset $core_lampGlowColor
 unset $core_lampLightColor
 FireBest FusionLampMainOptions",Thank you for using the Fabrique Orbitale Color Selector (tm)!,,
@@ -25906,7 +25906,7 @@ unset $locr_blockFirstSurvey",,,# block first instance of survey option in order
 # LOCRM - Miners variant,,,,,,
 LOCRMremoveBecauseColony,MarketPostDock,"$locr_miners
 $market.isPlayerOwned","unset $locr_miners
-Highlight ""flagged for your attention""","Amid the low-priority updates you receive upon entering the colonial datasphere, a minor report is flagged for your attention.",locrm_removeBecauseColony2:View the report,
+Highlight ""flagged for your attention""","Amid the low-priority updates you receive upon entering the colonial datasphere, a minor report is flagged for your attention.",locrm_removeBecauseColony2:Consulter le rapport,
 LOCRMremoveBecauseColony2,DialogOptionSelected,$option == locrm_removeBecauseColony2,"AddTextSmall ""Lost miners rescued"" highlight
 AddPopGrowth 3 90 ""Rescued abandoned miners""
 $menuState = main 0
@@ -26095,7 +26095,7 @@ FireBest DialogOptionSelected","The image fuzzes, freezes, then comes back to li
 # LOCRP - Pirate variant,,,,,,
 LOCRPremoveBecauseColony,MarketPostDock,"$locr_pirate
 $market.isPlayerOwned","unset $locr_pirate
-Highlight ""flagged for your attention""","Amid the low-priority updates you receive upon entering the colonial datasphere, a minor report is flagged for your attention.",locrp_removeBecauseColony2:View the report,
+Highlight ""flagged for your attention""","Amid the low-priority updates you receive upon entering the colonial datasphere, a minor report is flagged for your attention.",locrp_removeBecauseColony2:Consulter le rapport,
 LOCRPremoveBecauseColony2,DialogOptionSelected,$option == locrp_removeBecauseColony2,"AddTextSmall ""Marooned pirates rescued"" highlight
 AddPopGrowth 2 90 ""Rescued maroooned pirates""
 $menuState = main 0
@@ -26177,7 +26177,7 @@ No fun. The worst of crimes.
 The pirate sits, calming down. ""He let us land so we could get Marlowe's stash, then blasted our ships from orbit and took off. One reactor went critical, the other... well, just failed. But the previous, ah, owner of my ship thought to have survival equipment. So here we are.""",,
 LOCRPwhoIsMarlowe,DialogOptionSelected,$option == locrp_whoIsMarlowe,$askedMarlowe = true,"""Ah, Old Marlowe!"" The pirate gets almost misty eyed, ""Now there was a pirate. He could drink! Oh, how he drank. And fight! Bloodthirsty, he was, would shoot you in the front, back, side - any direction he could get. Whatever it took to win.""
 
-""Well, he weren't exactly a nice man. And when he gambled, he cheated. Oh, how he cheated! A sight to see, I tell you. Anyway, eventually he cheated the wrong mark and,"" $heOrShe makes a gun-shape with $hisOrHer hand and motions firing it, making a wet noise. $HeOrShe uses the other hand to indicate a generous volume of splatter from the exit wound, if you're interpreting the body language correctly.","locrp_whoIsMarlowe2:Continuer
+""Well, he weren't exactly a nice man. And when he gambled, he cheated. Oh, how he cheated! A sight to see, I tell you. Anyway, eventually he cheated the wrong mark and,"" $heOrShe makes a gun-shape with $hisOrHer hand and motions firing it, making a wet noise. $HeOrShe uses the other hand to indicate a generous volume of splatter from the exit wound, if you're interpreting the body language correctly.","locrp_whoIsMarlowe2:Continue
 locrp_whoIsMarlowe2a:""Yuck.""",
 LOCRPwhoIsMarlowe2a,DialogOptionSelected,$option == locrp_whoIsMarlowe2a,"AdjustRepActivePerson FRIENDLY 1
 $option = locrp_whoIsMarlowe2 0
@@ -26460,7 +26460,7 @@ Nonetheless, you manage to rid yourself of the entire crew in exchange for a mod
 # LOCRL - Luddic variant,,,,,,
 LOCRLremoveBecauseColonyA,MarketPostDock,"$locr_luddic
 !$locrl_contacted
-$market.isPlayerOwned","Highlight ""flagged for your attention""","Amid the low-priority updates you receive upon entering the colonial datasphere, a minor report is flagged for your attention.",locrl_removeBecauseColonyA:View the report,
+$market.isPlayerOwned","Highlight ""flagged for your attention""","Amid the low-priority updates you receive upon entering the colonial datasphere, a minor report is flagged for your attention.",locrl_removeBecauseColonyA:Consulter le rapport,
 LOCRLremoveBecauseColonyA2,DialogOptionSelected,$option == locrl_removeBecauseColonyA,"unset $locr_luddic
 AddTextSmall ""Luddic heretics rescued"" highlight
 AddPopGrowth 5 90 ""Rescued Luddic heretics""
@@ -26472,7 +26472,7 @@ Rescuers describe the Luddics as repentant and half-starved, their agricultural 
 Colonial MuniSec will monitor the group for radical Pather activity.",,
 LOCRLremoveBecauseColonyB,MarketPostDock,"$locr_luddic
 $locrl_contacted
-$market.isPlayerOwned","Highlight ""flagged for your attention""","Amid the low-priority updates you receive upon entering the colonial datasphere, a minor report is flagged for your attention.",locrl_removeBecauseColonyB:View the report,
+$market.isPlayerOwned","Highlight ""flagged for your attention""","Amid the low-priority updates you receive upon entering the colonial datasphere, a minor report is flagged for your attention.",locrl_removeBecauseColonyB:Consulter le rapport,
 LOCRLremoveBecauseColonyB2,DialogOptionSelected,$option == locrl_removeBecauseColonyB,"unset $locr_luddic
 unset $entity.locrl_contacted
 AddTextSmall ""Luddic heretics rescued"" highlight
@@ -27621,7 +27621,7 @@ dspOfferTextBar,DialogOptionSelected,$option == dsp_startBar,$missionId = dsp,"A
 
 Yours has better augs and training. Theirs, the brash scars of black-market mod infections and a fatal desire to prove that they can't be faced down. 
 
-From the booth, a soft clapping begins. ""A good show, very well done. Though I adore bloodsport, I've only barely touched my first drink."" Then, to the thug, ""You! Stand down- and you, captain. Join me.""","dsp_startBar2:Continuer
+From the booth, a soft clapping begins. ""A good show, very well done. Though I adore bloodsport, I've only barely touched my first drink."" Then, to the thug, ""You! Stand down- and you, captain. Join me.""","dsp_startBar2:Continue
 contact_declineBarNoContinue:Refuser",
 dspOfferTextBar2,DialogOptionSelected,$option == dsp_startBar2,,"$personName loves talking about $himOrHerself, and is quite content to do so without input from another party, be they one of the attendant thugs or yourself.
 
@@ -27629,7 +27629,7 @@ The conversation, such as it is, eventually comes around to the stand-off betwee
 
 A second glass of it sits before you, politely sipped and otherwise ignored. ""Good guards, admirably professional. Well paid?"" $HeOrShe lifts an eyebrow, and proceeds before you can respond. ""I could use some of that. You see- most freebooters, brigands, pirates if you like; they're sloppy. They make a mess of things, it's all bang and noise and no follow-through.""
 
-""Now you,"" $heOrShe says, ""Could do something for me.""","dsp_startBar3:Continuer
+""Now you,"" $heOrShe says, ""Could do something for me.""","dsp_startBar3:Continue
 contact_declineBarNoContinue:Refuser",
 dspOfferTextBar3,DialogOptionSelected,$option == dsp_startBar3,"Highlight $dsp_disruptDays $dsp_dist $dsp_reward $dsp_marines
 Call $dsp_ref showMap ""Target: $dsp_marketName""","""I could use your ground game. Bring the $dsp_industry $dsp_marketOnOrAt $dsp_marketName offline for at least $dsp_disruptDays days. That's $dsp_dist light-years away - you know the one. No massacres, no terror bombing, just business. Keep it clean. More profit had when the target sees the wisdom of peaceable cooperation, right?""
@@ -27808,7 +27808,7 @@ DoCanAffordCheck $jabr_storyCost jabr_storyOptionBar false","You approach the sm
 ""There are so many options, $playerName,"" they say deliberately. ""Not everyone wants the same thing. Some disagree quite strongly, but are too polite to say so out loud."" Eyes flicker to the door, then to a holodisplay of some news item about the leading political cadre of $jabr_marketName.
 
 ""Perhaps you'd like what I'm having?"" They take a long sip, ""It comes at quite a price because there are others who want it very, very much as well. $jabr_storyCost credits.""","jabr_storyOptionBar:Bribe the smiling patron to acquire the prisoner
-jabr_backToBar:Retour to the bar",
+jabr_backToBar:Go back to the bar",
 jabr_barStoryOptionFromBar,DialogOptionSelected,$option == jabr_storyOptionBar,"RemoveCommodity credits $jabr_storyCost
 $market.jabr_needToReturn = true
 Call $market.jabr_ref updateStage
@@ -27908,7 +27908,7 @@ SITMMercWarning,SITMMercWarning,,,"""Whatever the scavs find, it'll be mine. May
 
 ""You, on the other hand, need to get out of here... for your own health!""
 
-$HeOrShe says this with smug sincerity, apparently confident that it'll have you turn around and flee at max burn. The comm link is abruptly terminated while you're still taking in $hisOrHer delivery of this threat.",cutCommLinkNoText:Cut the comms,
+$HeOrShe says this with smug sincerity, apparently confident that it'll have you turn around and flee at max burn. The comm link is abruptly terminated while you're still taking in $hisOrHer delivery of this threat.",cutCommLinkNoText:Couper les comms,
 SITMMercAttack,SITMMercAttack,,MakeOtherFleetNoRepImpact sitm true,"""I told you to leave unless you wanted to have a very bad time,"" the merc says, annoyed and upset that you didn't listen. ""Now I have to blast you because no one will take me seriously if I don't. And don't you start, you did this to yourself.""
 
 $HeOrShe cuts the comm link before you can reply.",cutCommLinkNoText:Continuer,
@@ -28376,7 +28376,7 @@ SetTextHighlights ""10"" ""heavy armaments""
 IncreaseSmugglingSuspicion 0.4","""A donation directly to... those in need... would be most welcome."" 
 
 In roundabout language, Curate Sacraria Standfast explains that her network could move 10 units of heavy armaments to the surface. There is, however, a risk of generating suspicion from the Sindrian Diktat authorities.","0:standfastGiveOffering:Transfer 10 heavy armaments
-1:standfastCancelOffering:Peu importe",
+1:standfastCancelOffering:Never mind",
 standfastGiveOffering,DialogOptionSelected,$option == standfastGiveOffering,"AddText ""The arrangements are made, and Steadfast offers her prayers and well-wishes, promising that your gifts will be put to righteous purpose.""
 AddRemoveCommodity hand_weapons -10 true
 AdjustRep luddic_church 1
@@ -30463,7 +30463,7 @@ ZGRfirstVisitIntro1,DialogOptionSelected,$option == ZGR_firstVisitIntro1,ShowIma
 Your shuttle alights on a landing pad held at some distance from the facade by an airy support rib. It looks impossibly thin, but on touch down feels as solid as a coherent M-type asteroid.",ZGR_firstVisitIntro2:Continuer,
 ZGRfirstVisitIntro2,DialogOptionSelected,$option == ZGR_firstVisitIntro2,,"You step onto a perfectly dry pad. A shimmer as wind drives a burst of rain into the atmo-field betrays the artifice of this pocket of calm.
 
-You are invited inside by an obsequious corporate usher.",ZGR_firstVisitIntro3:Follow,
+You are invited inside by an obsequious corporate usher.",ZGR_firstVisitIntro3:Suivre,
 ZGRfirstVisitIntro3,DialogOptionSelected,$option == ZGR_firstVisitIntro3,,"The architecture of Skyarco II's interior and its integrated art-installations are titanic in scale and inhuman in affect. Your attention is subtly drawn toward geometric motifs suggestive of a mathematical intricacy which would reward close study with nothing less than delight, and...
 
 ""It was designed by an Artificial Intelligence,"" the cheerful secretary behind the reception desk informs you, breaking the trance. ""Before the ban imposed by the Hegemony, of course."" 
@@ -30507,7 +30507,7 @@ FireBest DialogOptionSelected","""The demand for my time is great, thus its prem
 Her lip quirks; not quite worth a smile.
 
 ""You must appreciate what I've already invested in you. Further to that point: allow me to iterate your accomplishments briefly so that you know where we stand.""",,
-ZGRfirstVisit8,DialogOptionSelected,$option == ZGR_firstVisit8,FireAll MostLuddicEthosRefresh,,"ZGR_acknowledgeContinue:Say nothing
+ZGRfirstVisit8,DialogOptionSelected,$option == ZGR_firstVisit8,FireAll MostLuddicEthosRefresh,,"ZGR_acknowledgeContinue:Ne rien dire
 ZGR_firstVisit9a:""Been spying on me?""
 ZGR_firstVisit9b:""My favorite subject, please proceed.""",
 ZGRfirstVisit9a,DialogOptionSelected,$option == ZGR_firstVisit9a,"$option = ZGR_acknowledgeContinue 0
@@ -30523,7 +30523,7 @@ ZGR_acknowledgeContinueDEVc:player.ethosHumanitarian = 10
 ZGR_acknowledgeContinueDEVd:player.ethosMercenary = 10
 ZGR_acknowledgeContinueDEVe:player.luddicAttitudeCynicalOrAtheistic = true 0
 ZGR_acknowledgeContinueDEVf:player.luddicAttitudeFaithfulOrPather = true 0
-ZGR_acknowledgeContinueDEV2:Continuer with dialog",
+ZGR_acknowledgeContinueDEV2:Continue with dialog",
 ZGRacknowledgeContinueDEVa,DialogOptionSelected,$option == ZGR_acknowledgeContinueDEVa,"$player.luddicFaithfulOrChurchCom = true 0
 RemoveOption ZGR_acknowledgeContinueDEVa",done,,
 ZGRacknowledgeContinueDEVb,DialogOptionSelected,$option == ZGR_acknowledgeContinueDEVb,"$player.luddicAttitudeFaithfulOrPather  = true 0
@@ -31439,7 +31439,7 @@ sdbr_raid3b:Don't look",
 sdBarRaid3a,DialogOptionSelected,$option == sdbr_raid3a,"$option = sdbr_raid3b
 FireBest DialogOptionSelected",,,
 sdBarRaid3,DialogOptionSelected,$option == sdbr_raid3b,"BeginConversation ram
-$player.metRam = true","The Diktat Internal Security officer walks slowly on a tangent to you, examining each of your bodyguards from their feet to their weapons before shifting his gaze to you. You stare for a moment into dark eyes.","sdbr_sayNothing:Say nothing
+$player.metRam = true","The Diktat Internal Security officer walks slowly on a tangent to you, examining each of your bodyguards from their feet to their weapons before shifting his gaze to you. You stare for a moment into dark eyes.","sdbr_sayNothing:Ne rien dire
 sdbr_sayBarbaric:""This is barbaric.""
 sdbr_sayThankYou:""Thank you for your service, sir.""
 sdbr_saySarcastic:""Thank you for your service, sir."" (sarcastic)
@@ -34895,7 +34895,7 @@ unset $entity.genericHail","The comm-link flickers as it establishes the connect
 
 The pirate $rank appears, arms crossed. ""Captain $playerName. I bring you greetings from the Warlord Kanta, mighty and ruthless. She has been watching your career and is pleased that you are prospering under her protection agreement.""
 
-This must be about the agreement you made, to do Kanta a 'favor' in exchange for her protection.","affkContinue:Continuer
+This must be about the agreement you made, to do Kanta a 'favor' in exchange for her protection.","affkContinue:Continue
 affkContinueWant:""What does Kanta want?""
 affkContinueSarcastic:""So that's it? Tell her 'thanks'.""",
 KantaFavorCourierHailAlreadyDidFavor,KantaFavorCourierHail,KantaCMD alreadyDidFavor score:100,"MakeOtherFleetImportant kantaFavorCourier false
@@ -35244,7 +35244,7 @@ PLArmadaThisIsPiracy2d,DialogOptionSelected,$option == PLArmada_thisIsPiracy2d,$
 
 ""You have our... request. Now open fire or negotiate with Kazeron.""
 
-The $post waves a dismissing hand at some adjutant, and the comms blink to the crest of the Persean League.",cutCommLinkNoText:Cut the comms,
+The $post waves a dismissing hand at some adjutant, and the comms blink to the crest of the Persean League.",cutCommLinkNoText:Couper les comms,
 PLArmadaIdealisticNo,DialogOptionSelected,$option == PLArmada_idealisticNo,"$expressedIdealism = true
 $player.ethosIdealistic++
 $deniedRequestToTalkToReynard","""Be realistic, captain. Sooner or later, you're going to have to make a deal with someone more powerful than yourself,"" $heOrShe sighs.
@@ -36492,7 +36492,7 @@ $HisOrHer eyes dart up from $hisOrHer console. As $heOrShe speaks, $heOrShe shak
 
 More tapping.
 
-""I'm surprised you weren't already brought in by the Chief High Inspector-General over this matter. Though I hear he's been busy with... well, anyway, let's get you sorted out.""","sdMakeDealCom2:Continuer
+""I'm surprised you weren't already brought in by the Chief High Inspector-General over this matter. Though I hear he's been busy with... well, anyway, let's get you sorted out.""","sdMakeDealCom2:Continue
 sdMakeDealComSpiderWho:""The Chief High what?""
 sdMakeDealComSpider:""Macario? What's he busy with?""
 sdMakeDealComSpiderSDTUdone:""Yes, I have an... understanding, of sorts, with the Spider of Sindria.""",
@@ -37119,7 +37119,7 @@ FireBest PKRelayCheckTTCommission","It is not unusual that the Remnant Nexus exc
 
 It is not a simple thing to tap into this self-evolved network to request a very specific piece of information. You assemble your senior officers and consider your options for hacking into the Nexus","pk_hack:Use Tri-Tachyon command codes to make the task possible
 pk_hackStory:Open a comm-link into the network
-pk_commGoBack:Retour",
+pk_commGoBack:Go back",
 PKRelayCheckTTCommission,PKRelayCheckTTCommission,$player.commissionFactionId != tritachyon,"SetEnabled pk_hack false
 SetTooltip pk_hack ""Requires a Tri-Tachyon commission.""",,,
 PKHackSel,DialogOptionSelected,$option == pk_hack,"$global.pk_nexusDataGained = true
@@ -37989,12 +37989,12 @@ pkSentinel1,DialogOptionSelected,$option == pk_sentinel1,BeginConversation skiro
 
 You are invited to their settlement, to continue your conversation out of the cold. These castaways have not forgotten hospitality, in their manner. 
 
-Or, perhaps, their leader - an elder by the name of Alo Skiron called ""commander"" by her lieutenants - knows the wisdom of controlling the spread of potentially explosive news from the outside Sector.",pk_sentinel2:Follow,
+Or, perhaps, their leader - an elder by the name of Alo Skiron called ""commander"" by her lieutenants - knows the wisdom of controlling the spread of potentially explosive news from the outside Sector.",pk_sentinel2:Suivre,
 pkSentinel2,DialogOptionSelected,$option == pk_sentinel2,,"You are led to a cluster of neat, low structures; earthworks and hull panels spotted with forgeglass and chimney. The streets are clean and the citizenry uniformed by job role. Despite fixing you with open stares, they do not falter in their assignments.
 
 Commander Skiron welcomes you and your party into a central meeting hall. It is warm, and festooned with Hegemony paraphernalia: uniforms, weapons, etched insignia from supply-case lids. The hand-worked reverence brings to mind a Luddic shrine that has undergone conversion to worship a martial god.
 
-You pretend to sip a wretched yeast-derived ersatz tea - coffee maybe? - given to you by Skiron's attendants.","pk_sentinel3:Continuer
+You pretend to sip a wretched yeast-derived ersatz tea - coffee maybe? - given to you by Skiron's attendants.","pk_sentinel3:Continue
 pk_sentinel3b:""Mm, it's good.""",
 pkSentinel3b,DialogOptionSelected,$option == pk_sentinel3b,"$player.ethosLiar++
 $option = pk_sentinel3 0
@@ -38609,7 +38609,7 @@ PilgrimRevengeHail,PilgrimRevengeHail,,$entity.ignorePlayerCommRequests = true,"
 
 ""I consider your cruel opportunism a personal affront to my honor as a warrior. My orders are to hunt you down and destroy you, but know that I consider this a duel between an officer and an unscrupulous coward.""
 
-""Prepare your $shipOrFleet for combat, captain,"" $heOrShe spits. ""Let us see how you do in a fair fight.""",cutCommLinkNoText:Cut the comms,
+""Prepare your $shipOrFleet for combat, captain,"" $heOrShe spits. ""Let us see how you do in a fair fight.""",cutCommLinkNoText:Couper les comms,
 ,,,,,,
 # Galatia Shuttle Service fleet conversation,,,,,,
 academyFleetConvOption,PopulateOptions,"$menuState == fleetConvMain
@@ -38624,23 +38624,23 @@ academyFleetConvOptionSel,DialogOptionSelected,$option == academyQuestionStart,S
 
 $HeOrShe is almost abashed at this show of idealism, ""At least, that's the idea. There's always political back-and-forth, but it really is a neutral ground for a good cause. I'm proud to run these jobs.""","academyQuestionJob:""Does the Academy pay well for transport jobs?""
 academyQuestionWhere:""Where is the Galatia Academy?""
-cutCommLink:Faire vos adieux et couper la comm",
+cutCommLink:Say your farewells and cut the comm link",
 academyFleetConvWhere,DialogOptionSelected,$option == academyQuestionWhere,,"""Well. Ah. It's in the Galatia system."" $HeOrShe does an admirable job trying not to sound condescending, ""In orbit around Pontus. Beautiful views, if you ask me. But I'm a sucker for ring systems.""","academyQuestionJob:""Does the Academy pay well for transport jobs?""
-cutCommLink:Faire vos adieux et couper la comm",
+cutCommLink:Say your farewells and cut the comm link",
 academyFleetConvJob,DialogOptionSelected,$option == academyQuestionJob,,"""The Academy operates only a small contingent of dedicated research ships, especially after the ISS Enki incident,"" $heOrShe says, ""So they will contract out transport jobs to freelancers like myself.""","academyQuestionPay:""How's the pay?""
 academyQuestionEnki:""What happened to the ISS Enki?""
-cutCommLink:Faire vos adieux et couper la comm",
+cutCommLink:Say your farewells and cut the comm link",
 academyFleetConvEnki,DialogOptionSelected,$option == academyQuestionEnki,,"""Ah,"" $hisOrHer eyes dart around, but find no way to avoid an uncomfortable subject.
 
 ""It was during the Second AI War, you see. 12, 13 cycles ago? A Galatia Academy research flotilla stumbled onto a secret Hegemony project in the Tia-Taxet system. Between war paranoia, phase-raiders, and the general hyperwave comms breakdown... "", $heOrShe closes $hisOrHer eyes, ""The Hegemony attacked. No Academy ships survived. Incredible loss. Survivors, some. I spoke with one on Syrinx, in fact. They ended up in a prison-hab for the rest of the war.""
 
 ""It doesn't get talked about much, at least in the Hegemony. But even the Academy didn't push as hard as they could have for reparations... "" $HeOrShe trails off, then looks up. ""Anyway, that's in the past."" ","academyQuestionPay:""So how's the pay?""
-cutCommLink:Faire vos adieux et couper la comm",
+cutCommLink:Say your farewells and cut the comm link",
 academyFleetConvPay,DialogOptionSelected,$option == academyQuestionPay,,"""Oh, well enough. Not top-rate, not bottom. I'll give you a little tip,"" $heOrShe winks. ""The real reward is the connections you make. You got the big doers-and-sayers from every faction wanting to send their best and brightest to the Galatia Academy. I'll introduce myself personally, 'As captain, I will see to your child's absolute safety', and so on. They love that.""
 
 ""Then,"" $heOrShe says with emphasis, ""You get jobs from those big-money big-influence folks.""","academyQuestionPay1:""Smart. Thanks for the tip.""
 academyQuestionPay2:""Seems obvious.""
-cutCommLink:Faire vos adieux et couper la comm",
+cutCommLink:Say your farewells and cut the comm link",
 academyFleetConvPay1,DialogOptionSelected,$option == academyQuestionPay1,#AdjustRepActivePerson FRIENDLY 1,"""Any time,"" $heOrShe says, pleased to pass on some spacer wisdom. ""Speaking of time, I think it's about mine to burn on. Safe travels, captain.""",cutCommLink:Say your farewells and cut the comm link,
 academyFleetConvPay2,DialogOptionSelected,$option == academyQuestionPay2,#AdjustRepActivePerson SUSPICIOUS 1,"""As you will,"" $heOrShe says, rolling $hisOrHer eyes. ""I guess you know where you're going, then. A good day to you, captain,"" $heOrShe concludes, intentionally using a dirtsider farewell.",cutCommLink:Couper la comm,
 ,,,,,,
@@ -39092,7 +39092,7 @@ barOwnColFreeDrink0E:""Non merci. Je n'ai, euh, pas soif.""",
 BarOwnColFreeDrink0D,DialogOptionSelected,$option == barOwnColFreeDrink0D,$player.ethosGenerous++,"""Bien sûr, $playerSirOrMadam. Je ferai en sorte que le prix de la boisson soit déduit des frais d'installation.""
 
 Sur ce, le serveur disparaît poliment. Vous examinez la boisson que vous venez d'acheter, puis en prenez une gorgée. Elle est, en un mot, parfaite.
-",barHRE_goToNormalBar:Revenir to the bar,
+",barHRE_goToNormalBar:Revenir au bar,
 BarOwnColFreeDrink0E,DialogOptionSelected,$option == barOwnColFreeDrink0E,,Le serveur hoche la tete et disparait poliment.,barHRE_goToNormalBar:Regarder autour de vous dans le bar,
 "# Pirate assassin attack
 barPAA",,,,,,
@@ -40474,21 +40474,21 @@ He turns to you, struggling to maintain his composure. ""Th-thank you captain, f
 gaDHOendingHeBelieves3a,DialogOptionSelected,"$option == gaDHO_endingHeBelieves3
 $global.gaDHO_gotReward",,"He touches his forehead. ""Your hazard pay!""
 
-Elek remembered. He must be truly out of sorts.","gaDHO_endingHazard0:Continuer
+Elek remembered. He must be truly out of sorts.","gaDHO_endingHazard0:Continue
 gaDHO_endingHeBelievesNoPay:""That won't be necessary. I'm satisfied with my profits.""",
 gaDHOendingHeBelieves3aNoPay,DialogOptionSelected,"$option == gaDHO_endingHeBelieves3
 !$gaDHO_askedForPay","$option = gaDHO_endingHeBelievesOut 0
 FireBest DialogOptionSelected",,,
 gaDHOendingHeBelieves3aAbyss,DialogOptionSelected,"$option == gaDHO_endingHeBelieves3
 $global.gaDHO_gotReward
-$global.gaDHO_arrayFirstThenAbyss",,"He touches his forehead. ""Your hazard pay!""","gaDHO_endingHazard0:Continuer
+$global.gaDHO_arrayFirstThenAbyss",,"He touches his forehead. ""Your hazard pay!""","gaDHO_endingHazard0:Continue
 gaDHO_endingHeBelievesNoPay:""That won't be necessary. I'm satisfied with my profits.""",
 gaDHOendingHeBelieves3aAbyssNo,DialogOptionSelected,$option == gaDHO_endingHeBelievesNoPay,"AdjustRepActivePerson FRIENDLY 1
 $player.ethosGenerous++
 $player.ethosKnowledge++","""If..."" He gives you an odd look. ""If you say so.""",gaDHO_endingHeBelievesOut:Continuer,
 gaDHOendingHeBelieves3b,DialogOptionSelected,"$option == gaDHO_endingHeBelieves3
 !$global.gaDHO_gotReward
-$gaDHO_askedForPay",,"He touches his forehead. ""Your payment!""","gaDHO_endingHeBelievesPay2:Continuer
+$gaDHO_askedForPay",,"He touches his forehead. ""Your payment!""","gaDHO_endingHeBelievesPay2:Continue
 gaDHO_endingHeBelievesNoPay:""That won't be necessary. Knowledge is it's own reward.""",
 gaDHOendingHeBelieves3bNo,DialogOptionSelected,$option == gaDHO_endingHeBelievesNoPay,"$global.gaDHO_gotReward = true
 AdjustRepActivePerson FRIENDLY 1
@@ -40726,7 +40726,7 @@ gaDHOabyssEndStartOptsB2,gaDHOabyssEndStartOpts,$gaDHO_askedForPay,"SetTooltip g
 gaDHOabyssEndStartOptsC,gaDHOabyssEndStartOpts,!$gaDHO_askedForPay,"SetTooltip gaDHO_abyssEndRewardFirst ""Make sure you get paid first, for all your bother.""",,"gaDHO_endingRewardFirst:""Let's talk about payment first. Then the data.""",
 #gaDHOabyssEndAlt,DialogOptionSelected,$option == gaDHO_visitElekAltIntro4,,"""Indeed it would,"" he says. ""For that's where it was looking when it picked up something unusual a little over 200 cycles ago.""
 
-""Would you be so good as to transfer the data you collected? It is very valuable."" He picks up his datapad and taps at it, then looks at you pointedly. ""Um. Valuable to science, that is. Abstract knowledge, not much use to the likes of... to freelancers like yourself, I should say.""","gaDHO_visitElekAltTransferData:Transferer les donnees recuperees du reseau de capteurs
+""Would you be so good as to transfer the data you collected? It is very valuable."" He picks up his datapad and taps at it, then looks at you pointedly. ""Um. Valuable to science, that is. Abstract knowledge, not much use to the likes of... to freelancers like yourself, I should say.""","gaDHO_visitElekAltTransferData:Transferer les donnees recovered from the sensor array
 gaDHO_visitElekAltAboutThatPayment:""Valuable, you say? Yes, we should discuss payment.""",
 gaDHOabyssEndFoundFirst,DialogOptionSelected,$option == gaDHO_abyssEndFoundFirst,$gaveSummary = true 0,"Academician Elek seems to pick up on the tone in your voice.
 
@@ -40873,7 +40873,7 @@ gaDHO_visitElekAltIntroPayment2a:""Fine. We can talk about MY discovery first. T
 gaDHO_visitElekAltIntroPayment2b:""MY discovery. And we'll talk about payment if you want any part in it.""",
 gaDHOvisitElekAltIntroPayment2a,DialogOptionSelected,$option == gaDHO_visitElekAltIntroPayment2a,$playerWasAdink = true 0,"Elek narrows his eyes. ""You presume much.""
 
-""But if the data, my data, is intact..."" He gives you another skeptical look, then taps at his datapad, opening a datalink.",gaDHO_visitElekAltTransferData:Transferer les donnees recuperees du reseau de capteurs,
+""But if the data, my data, is intact..."" He gives you another skeptical look, then taps at his datapad, opening a datalink.",gaDHO_visitElekAltTransferData:Transferer les donnees recovered from the sensor array,
 gaDHOvisitElekAltIntroPayment2b,DialogOptionSelected,$option == gaDHO_visitElekAltIntroPayment2b,AdjustRepActivePerson HOSTILE -3,"""You're a heartless mercenary with no appreciation for science,"" Elek says, his tone growing heated.
 
 ""You propose that I agree to your theft of my results. This is practically piracy!""","gaDHO_visitElekAltIntroBusiness:""No, this is business. Your freelancer failed. Now I can do the job- if you pay.""
@@ -40885,9 +40885,9 @@ $madeRewardDemand = true 0","He clearly doesn't like it, but your argument seems
 
 He picks up his datapad, and opens a link. His fingers strike the device somewhat harder than necessary.
 
-""I shall pay you 50,000 credits for the data.""","gaDHO_visitElekAltTransferData:Transferer les donnees recuperees du reseau de capteurs
+""I shall pay you 50,000 credits for the data.""","gaDHO_visitElekAltTransferData:Transferer les donnees recovered from the sensor array
 gaDHO_visitElekAltIntroBusiness100k:""That's not enough. Make it 100k.""",
-gaDHOvisitElekAltIntroBusiness100k,DialogOptionSelected,$option == gaDHO_visitElekAltIntroBusiness100k,"Highlight ""100k""","""No,"" he almost growls. ""I've made an exception for you, and bent my ethics, to say nothing of my pride, to accommodate your demands. Accept the fair payment which I promised to the other freelancer or remove yourself from my sight.""","gaDHO_visitElekAltTransferData:Transferer les donnees recuperees du reseau de capteurs
+gaDHOvisitElekAltIntroBusiness100k,DialogOptionSelected,$option == gaDHO_visitElekAltIntroBusiness100k,"Highlight ""100k""","""No,"" he almost growls. ""I've made an exception for you, and bent my ethics, to say nothing of my pride, to accommodate your demands. Accept the fair payment which I promised to the other freelancer or remove yourself from my sight.""","gaDHO_visitElekAltTransferData:Transferer les donnees recovered from the sensor array
 gaDHO_visitElekAltIntroPiracy:""100k or I walk.""",
 gaDHOvisitElekAltIntroPiracy,DialogOptionSelected,$option == gaDHO_visitElekAltIntroPiracy,"$ignorePlayerCommRequests = true
 AdjustRepActivePerson HOSTILE -25
@@ -40924,7 +40924,7 @@ $global.gaDHO_gotReward = true","""Yes, yes, but a moment,"" he says testily.
 A couple taps on the datapad - harder than strictly necessary - and your own TriPad pings greedily.","gaDHO_visitElekAltWhatIsIt:""So what is it? What were you looking for?""",
 gaDHOvisitElekAltIntro4,DialogOptionSelected,$option == gaDHO_visitElekAltIntro4,,"""Indeed it would,"" he says. ""For that's where it was looking when it picked up something unusual a little over 200 cycles ago.""
 
-""Would you be so good as to transfer the data you collected? It is very valuable."" He picks up his datapad and taps at it, then looks at you pointedly. ""Um. Valuable to science, that is. Abstract knowledge, not much use to the likes of... to freelancers like yourself, I should say.""","gaDHO_visitElekAltTransferData:Transferer les donnees recuperees du reseau de capteurs
+""Would you be so good as to transfer the data you collected? It is very valuable."" He picks up his datapad and taps at it, then looks at you pointedly. ""Um. Valuable to science, that is. Abstract knowledge, not much use to the likes of... to freelancers like yourself, I should say.""","gaDHO_visitElekAltTransferData:Transferer les donnees recovered from the sensor array
 gaDHO_visitElekAltAboutThatPayment:""Valuable, you say? Yes, we should discuss payment.""",
 gaDHOvisitElekAltWhatIsItReroute,DialogOptionSelected,"$option == gaDHO_visitElekAltWhatIsIt
 $didExplanation","$option = gaDHO_visitElekAltWhatIsItAgain 0
