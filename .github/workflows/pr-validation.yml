@@ -45,13 +45,13 @@ jobs:
             if [[ "$file" == .github/workflows/* ]]; then continue; fi
             # Fichiers de traduction (.csv, .json dans data/) : scan uniquement les patterns forts
             if [[ "$file" == data/*.csv || "$file" == data/*.json || "$file" == localization/* ]]; then
-              if git diff origin/${{ github.base_ref }}..HEAD -- "$file" | grep -iE '(password\s*[:=]|api[_-]?key\s*[:=]|BEGIN (RSA |OPENSSH )?PRIVATE KEY|AKIA[0-9A-Z]{16})'; then
+              if git diff origin/${{ github.base_ref }}..HEAD -- "$file" | grep '^+' | grep -iE '(password\s*[:=]|api[_-]?key\s*[:=]|BEGIN (RSA |OPENSSH )?PRIVATE KEY|AKIA[0-9A-Z]{16})'; then
                 echo "❌ Données sensibles dans fichier traduction : $file"
                 exit 1
               fi
             else
-              # Tous les autres fichiers : scan large
-              if git diff origin/${{ github.base_ref }}..HEAD -- "$file" | grep -iE '(password\s*[:=]|api[_-]?key\s*[:=]|secret\s*[:=]|credentials|BEGIN (RSA |OPENSSH )?PRIVATE KEY|AKIA[0-9A-Z]{16}|ghp_[0-9a-zA-Z]{36}|sk-[0-9a-zA-Z]{48})'; then
+              # Tous les autres fichiers : scan uniquement les lignes AJOUTEES (pas les suppressions)
+              if git diff origin/${{ github.base_ref }}..HEAD -- "$file" | grep '^+' | grep -iE '(password\s*[:=]|api[_-]?key\s*[:=]|secret\s*[:=]|credentials|BEGIN (RSA |OPENSSH )?PRIVATE KEY|AKIA[0-9A-Z]{16}|ghp_[0-9a-zA-Z]{36}|sk-[0-9a-zA-Z]{48})'; then
                 echo "❌ Données sensibles dans : $file"
                 exit 1
               fi

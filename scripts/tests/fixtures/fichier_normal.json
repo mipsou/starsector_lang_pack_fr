@@ -1,9 +1,0 @@
-{
-    "id": "test_normal",
-    "name": "Test Normal",
-    "description": "Un fichier JSON normal sans caractères de contrôle",
-    "data": {
-        "field1": "Valeur 1",
-        "field2": "Valeur 2"
-    }
-}

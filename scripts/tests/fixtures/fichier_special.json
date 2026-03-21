@@ -1,9 +1,0 @@
-{
-    "id": "test_special",
-    "name": "Test Spécial 特殊テスト",
-    "description": "Un fichier avec des caractères spéciaux 🚀✨",
-    "data": {
-        "field1": "Valeur avec émojis 🌟",
-        "field2": "Caractères accentués éèêë"
-    }
-}
