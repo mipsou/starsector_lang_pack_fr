@@ -15727,7 +15727,7 @@ gaDataPirateConvAfterGotData,GADataPirateConvStart,$global.gaData_gotData,"$tran
 SetStoryOption gaData_bluff 1 gaData_bluff general ""Bluffed pirates into giving you supplies and fuel""","Le chef pirate se retourne vers l'écran. ""Maintenant, si ça vous dérange pas, on va prendre une copie de ces données pour les ramener au richard qui nous paie. Transmettez maintenant, si vous voulez bien. Ou faut qu'on vienne découper le noyau mémoire de ce joli vaisseau amiral que vous pilotez ?""","gaData_transmitData:Transmettre les données ; ce n'est qu'une copie
 gaData_sellData:Proposer de transmettre une copie des données... contre paiement
 gaData_rejectOffer:Refuser this invitation; power up combat systems
-gaData_bluff:""The deal has changed. You’re here to provide me with fuel and supplies.""",
+gaData_bluff:""La donne a changé. Vous êtes ici pour me fournir du carburant et des provisions.""",
 gaDataGiveCoordsSel,DialogOptionSelected,$option == gaData_transmitCoords,"$global.gaData_gaveCoordsToPirates = true
 Call $global.gaData_ref updateStage
 MakeOtherFleetNonHostile gaData true
@@ -15885,7 +15885,7 @@ DoCanAffordCheck $gaDA_piratePrice gaDA_buyAgree false","Vous expliquez au capit
 $HeOrShe considère vos paroles, puis dit : « Vous marquez des points, capitaine. Je déteste quand ces bons à rien de gratte-boue essaient de me faire la leçon. Et, » $heOrShe vous lance un regard féroce, « j'ai pas besoin d'une charge de massacre en plus sur ma prime juste pour un bout de ferraille. »
 
 Après quelques menaces implicites supplémentaires et un peu de négociation de votre part, le capitaine pirate propose de vous vendre leur trouvaille pour $gaDA_piratePayment crédits.","gaDA_buyAgree:Accepter leur prix
-gaDA_buyDecline:Refuserr, it’s simply not worth it
+gaDA_buyDecline:Refuser, ça n'en vaut tout simplement pas la peine
 gaDA_buyDeclineAggro:""J'ai décidé de vous le prendre par la force.""",
 gaDAPirateBuyConfirm,DialogOptionSelected,$option == gaDA_buyAgree,"RemoveCommodity credits $gaDA_piratePrice
 $global.gaDA_gotWidget = true
@@ -15946,7 +15946,7 @@ DoCanAffordCheck $gaDA_scavPrice gaDA_scavBuyAccept false","Vous entamez la nég
 La négociation va et vient, chaque partie reconnaissant l'intérêt commercial de l'autre sur divers points, jusqu'à ce que le capitaine indépendant arrive à un prix pour le $gaDA_widgetNoArticle.
 
 « Je pense que $gaDA_scavPayment crédits, c'est plus qu'honnête, » dit $heOrShe avec cette touche de finalité qui signale que la négociation touche à sa fin.","gaDA_scavBuyAccept:Accepter leur prix
-cutCommLink:Refuser, it’s simply not worth it",
+cutCommLink:Refuser, it's simply not worth it",
 gaDAScavBuyConfirm,DialogOptionSelected,$option == gaDA_scavBuyAccept,"FireBest ScavPaidText
 RemoveCommodity credits $gaDA_scavPrice
 $global.gaDA_gotWidget = true
