@@ -18,7 +18,7 @@ jobs:
   check-translation:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Check for NNBSP (U+202F)
         run: |
@@ -36,10 +36,52 @@ jobs:
           fi
           echo "✅ Pas de NNBSP"
 
+      - name: Check for typographic apostrophes (U+2019)
+        run: |
+          echo "Recherche apostrophes typographiques (U+2019)..."
+          failed=0
+          for file in $(find data -name "*.json" -o -name "*.csv" 2>/dev/null); do
+            if grep -P '\x{2019}' "$file" > /dev/null 2>&1; then
+              echo "❌ Apostrophe typographique trouvée dans : $file"
+              grep -n -P '\x{2019}' "$file"
+              failed=1
+            fi
+          done
+          if [ "$failed" -eq 1 ]; then
+            echo "⚠️ Les apostrophes typographiques (U+2019) causent des ? en jeu — utiliser ' (U+0027)"
+            exit 1
+          fi
+          echo "✅ Pas d'apostrophe typographique"
+
+      - name: Validate JSON syntax
+        run: |
+          echo "Validation syntaxe JSON..."
+          failed=0
+          for file in $(find data -name "*.json" -not -path "*/test/*" -not -path "*/.git/*" 2>/dev/null); do
+            if ! python3 -c "
+          import json, re, sys
+          with open(sys.argv[1], 'r', encoding='utf-8') as f:
+              raw = f.read()
+          clean = re.sub(r'#[^\n]*', '', raw)
+          clean = re.sub(r',\s*([}\]])', r'\1', clean)
+          try:
+              json.loads(clean)
+          except:
+              sys.exit(1)
+          " "$file" 2>/dev/null; then
+              echo "❌ JSON invalide : $file"
+              failed=1
+            fi
+          done
+          if [ "$failed" -eq 1 ]; then
+            exit 1
+          fi
+          echo "✅ Tous les JSON sont valides"
+
       - name: Check for untranslated markers
         run: |
           echo "Recherche marqueurs TODO..."
-          for file in $(find data localization -name "*.json" 2>/dev/null); do
+          for file in $(find data -name "*.json" 2>/dev/null); do
             if grep -l 'TODO_' "$file" > /dev/null 2>&1; then
               echo "⚠️ Marqueur TODO_ trouvé dans : $file"
             fi

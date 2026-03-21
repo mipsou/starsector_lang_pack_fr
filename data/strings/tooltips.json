@@ -120,33 +120,5 @@
         "jumpPointNormal": "Les points de saut permettent de transiter entre l'hyperespace et l'espace normal. Certains points mènent également vers d'autres destinations.",
         "jumpPointStar": "Le puits gravitationnel d'une étoile est suffisamment profond pour offrir une sortie à sens unique depuis l'hyperespace. Son utilisation reste néanmoins extrêmement périlleuse.",
         "jumpPointGasGiant": "Le puits gravitationnel d'une géante gazeuse est souvent assez profond pour permettre une sortie à sens unique depuis l'hyperespace."
-    },
-    "combat": {
-        "tooltipCrashMothballUnavailable": "Tous vos vaisseaux sont opérationnels et ne présentent aucun risque de dysfonctionnement.",
-        "tooltipPursue": "Engage une bataille où les forces ennemies tentent de battre en retraite.",
-        "tooltipPursueAutoresolve": "Confie la gestion de la poursuite à votre second. Cette option est plus sûre mais moins efficace qu'une poursuite sous votre commandement direct.",
-        "tooltipPursueLostLast": "Vos forces, vaincues lors du dernier engagement, sont incapables de poursuivre l'ennemi.",
-        "tooltipPursueStoodDown": "Vos forces se sont repliées après le dernier engagement et ne peuvent pas engager la poursuite.",
-        "tooltipPursueSeriousLosses": "Ayant subi de lourdes pertes lors du dernier engagement, vos forces ne peuvent pas poursuivre l'ennemi.",
-        "tooltipPursueTooSlow": "La flotte ennemie est trop rapide pour que vos forces puissent la rattraper.",
-        "tooltipNoReadyShips": "Aucun de vos vaisseaux n'est prêt au combat.",
-        "tooltipNoPersonnel": "Il n'y a pas de marines disponibles.",
-        "tooltipHarassRetreat": "Réduit l'état de préparation au combat de tous les vaisseaux en repli comme s'ils avaient été déployés au combat.\n\nRalentit également votre flotte pendant un moment car vos forces ont besoin de temps pour se réorganiser après l'action de harcèlement.",
-        "tooltipHarassRetreatUnavailable": "Impossible de harceler les forces en retraite soit en raison d'un retrait soit par manque de vaisseaux prêts au combat.",
-        "tooltipLetThemGoNoPenalty": "Laisse l'autre flotte partir en paix.\n\nVotre flotte n'a pas besoin de se réorganiser après la rencontre et n'est pas ralentie.",
-        "tooltipLetThemGo": "Laisse l'autre flotte partir en paix.\n\nVotre flotte n'a pas besoin de se réorganiser après la rencontre et n'est pas ralentie.",
-        "tooltipEngage": "Attaquer la flotte adverse.\n\nSi vous infligez assez de dégâts avant de battre en retraite, vous pourrez vous désengager sans être poursuivi.",
-        "tooltipCleanDisengage": "Termine la bataille sans risque d'être harcelé par la flotte adverse.\n\nComme l'ennemi garde le contrôle de l'espace de bataille, vous ne pourrez pas mener d'opérations de récupération.\n\nSi votre flotte n'a pas entrepris d'actions hostiles, le désengagement ne nuira pas à votre réputation auprès de la faction adverse.",
-        "tooltipHarrassableDisengage": "Termine la bataille sans risque de poursuite. La flotte adverse peut toujours harceler votre retraite.\n\nComme l'ennemi garde le contrôle de l'espace de bataille, vous ne pourrez pas mener d'opérations de récupération.\n\nSi votre flotte n'a pas entrepris d'actions hostiles, le désengagement ne nuira pas à votre réputation auprès de la faction adverse.",
-        "tootipAttemptToDisengage": "Tente de battre en retraite. La flotte adverse peut vous poursuivre et forcer une bataille, ou vous laisser partir.\n\nComme l'ennemi garde le contrôle de l'espace de bataille, vous ne pourrez pas mener d'opérations de récupération.\n\nSi votre flotte n'a pas entrepris d'actions hostiles, le désengagement - sans endommager les vaisseaux poursuivants - nuira le moins à votre réputation auprès de la faction adverse.",
-        "tooltipBoardingAction": "Organiser une action d'abordage. Nécessite des marines et risque d'entraîner de lourdes pertes en personnel.",
-        "tooltipEngageBoardable": "Attaquer le vaisseau avant qu'il n'ait une chance de terminer ses réparations.\n\nIl y a un risque que le vaisseau soit entièrement détruit.",
-        "tooltipLetShipGo": "Laisser le vaisseau ennemi terminer ses réparations d'urgence et se retirer.",
-        "tooltipHardDockBoarding": "Les vaisseaux assignés à la force d'abordage s'approchent du vaisseau ennemi et s'amarrent à lui.\n\nOffre les meilleures chances de combat aux équipes d'assaut et une forte probabilité de succès.\n\nSi le vaisseau abordé s'autodétruit, les vaisseaux impliqués dans l'action d'abordage subiront de lourds dégâts et pourraient être détruits.",
-        "tooltipLaunchBoarding": "La force d'abordage maintient une distance de sécurité et lance des équipes d'assaut équipées de systèmes de propulsion personnels.\n\nDonne aux défenseurs un avantage significatif au combat et une plus grande chance de s'échapper, mais ne met pas en danger les vaisseaux de la force d'abordage.",
-        "tooltipAboutBoardingAction": "Rappeler la force d'intervention et annuler l'action d'abordage, permettant au vaisseau ennemi de se retirer.",
-        "tooltipSelectorMarines": "Sélectionner le nombre de marines à assigner à la force d'assaut.",
-        "tooltipSelectorCrew": "Sélectionner le nombre de membres d'équipage à assigner à la force d'assaut.",
-        "tooltipSelectFlagship": "Sélectionner le vaisseau que vous contrôlerez directement dans le prochain engagement."
     }
 }
