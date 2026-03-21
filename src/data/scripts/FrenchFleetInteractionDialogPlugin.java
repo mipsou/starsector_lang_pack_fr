@@ -59,9 +59,19 @@ public class FrenchFleetInteractionDialogPlugin extends FleetInteractionDialogPl
 
     @Override
     public void optionSelected(String optionText, Object optionData) {
-        super.optionSelected(optionText, optionData);
-        // Apres chaque selection, le vanilla reconstruit les options
-        // On retraduit
+        // Traduire le texte passe a super pour que addOptionSelectedText
+        // ecrive le FR dans le panneau narratif
+        String translatedText = optionText;
+        if (optionText != null && OPTION_TRANSLATIONS.containsKey(optionText)) {
+            translatedText = OPTION_TRANSLATIONS.get(optionText);
+        }
+
+        // Traduire aussi les options du panneau avant super
+        translateOptions();
+
+        super.optionSelected(translatedText, optionData);
+
+        // Apres super, le vanilla reconstruit les options suivantes
         translateOptions();
         translatePrompt(this.dialog);
     }
