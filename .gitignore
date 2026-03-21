@@ -50,22 +50,15 @@ jar_content/
 # Claude Code
 .claude/
 
-# Scripts de traduction (artefacts batch, non livrables)
-data/campaign/assemble.py
+# Scripts one-shot (non réutilisables)
 data/campaign/audit_newlines.py
-data/campaign/extract_full.py
 data/campaign/extract_truncated.py
 data/campaign/final_assemble.py
 data/campaign/find_truncated.py
 data/campaign/fix_guillemets.py
-data/campaign/fix_newlines.py
-data/campaign/fix_terminology.py
-data/campaign/integrate_and_assemble.py
-data/campaign/qa_pass2.py
 data/campaign/reassemble.py
 data/campaign/translate_part3.py
 data/campaign/translate_part5.py
-fix_accents.py
 qa_terminology_check.py
 validate_csv.py
 tools/
