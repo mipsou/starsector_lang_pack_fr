@@ -1,3 +1,7 @@
+# Override root .gitignore exclusion of tools/
+!tools/
+!tools/**
+
 # JAR propriétaires Fractal Softworks — NE PAS COMMITER
 jars/vanilla/
 jars/extracted/
@@ -8,6 +12,7 @@ decompiled/
 # Outils téléchargés (binaires)
 tools/*.jar
 tools/*.zip
+tools/jdk7/
 
 # Fichiers temporaires
 *.class
