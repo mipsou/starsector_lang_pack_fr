@@ -2,6 +2,21 @@
 
 Toutes les modifications notables du mod sont documentees ici.
 
+## [v1.2.12] — 2026-03-21
+
+### Traduction
+- Guillemets francais « » fonctionnels en jeu (issue #25 resolue — c'etait l'encodage latin-1, pas le moteur)
+- tips.json FR restaure (ecran titre)
+
+### Maintenance
+- Suppression scripts/, backups/, docs/, tests/, tools/ du repo public
+- CI : scan uniquement les lignes ajoutees (faux positifs sur suppressions)
+
+## [v1.2.11] — 2026-03-21
+
+### Corrections
+- tips.json restaure depuis git (ecrase par erreur)
+
 ## [v1.2.10] — 2026-03-21
 
 ### Traduction
