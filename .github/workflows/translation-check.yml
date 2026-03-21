@@ -18,7 +18,7 @@ jobs:
   check-translation:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Check for NNBSP (U+202F)
         run: |
@@ -59,16 +59,16 @@ jobs:
           failed=0
           for file in $(find data -name "*.json" -not -path "*/test/*" -not -path "*/.git/*" 2>/dev/null); do
             if ! python3 -c "
-import json, re, sys
-with open('$file', 'r', encoding='utf-8') as f:
-    raw = f.read()
-clean = re.sub(r'#[^\n]*', '', raw)
-clean = re.sub(r',\s*([}\]])', r'\1', clean)
-try:
-    json.loads(clean)
-except:
-    sys.exit(1)
-" 2>/dev/null; then
+          import json, re, sys
+          with open(sys.argv[1], 'r', encoding='utf-8') as f:
+              raw = f.read()
+          clean = re.sub(r'#[^\n]*', '', raw)
+          clean = re.sub(r',\s*([}\]])', r'\1', clean)
+          try:
+              json.loads(clean)
+          except:
+              sys.exit(1)
+          " "$file" 2>/dev/null; then
               echo "❌ JSON invalide : $file"
               failed=1
             fi
