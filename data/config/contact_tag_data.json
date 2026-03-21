@@ -1,18 +1,18 @@
 {
 	"military":{
-		"name":"Militaire",
+		"name":"Military",
 		#"color":"buttonShortcut",
 		#"putFirst":true,
 		"sort":10,
 	},
 	"trade":{
-		"name":"Commerce",
+		"name":"Trade",
 		#"color":"buttonShortcut",
 		#"putFirst":true,
 		"sort":20,
 	},
 	"underworld":{
-		"name":"Pegre",
+		"name":"Underworld",
 		#"color":"buttonShortcut",
 		#"putFirst":true,
 		"sort":30,
@@ -28,5 +28,6 @@
 		"sort":50,
 	},
 }
+
 
 

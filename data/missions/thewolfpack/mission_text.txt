@@ -1,6 +1,14 @@
-Lieu : Près du point médian du transit Valhalla-Aztlan
-Date : 189.11.07
+Location: Near midpoint of the Valhalla-Aztlan transit
+Date: 189.11.07
 
-Le Commandant Kane Gleise était un homme taciturne, jamais très doué pour parler au bon amiral à la bonne soirée pour faciliter son ascension dans l'échelle de carrière. Il a réussi à attirer l'attention du contre-amiral en charge de la logistique du sous-secteur, cependant ce n'était que comme un corps pratique pour remplir une mission ennuyeuse et sans prestige. Ennuyeuse, du moins, jusqu'à ce que la Seconde Guerre de l'IA brise la jeune paix.
+Commander Kane Gleise was a taciturn man, never much good at talking to the right admiral at the right party to facilitate his climb up the career ladder. He did manage to catch the eye of the rear admiral in charge of the subsector's logistics, however it was only as a convenient body to fill a dull, unprestigious assignment. Dull, that is, until the Second AI War shattered the young peace.
 
-La mégacorporation Tri-Tachyon est une entité politique à part entière avec une influence et une puissance militaire rivalisant avec n'importe laquelle des grandes factions du Secteur. Vaincue lors de la (maintenant) Première Guerre de l'IA, la mégacorp semblait accepter les conditions d'inspection technologique imposées par le traité (qui, soit dit en passant, a valu à l'Hegemony beaucoup de soutien de sa importante minorité de fidèles Luddiques). Des négociations parfaitement routinières concernant des détails parfaitement ordinaires des inspections régulières ont échoué aussi rapidement que si elles avaient été planifiées par l'impitoyable PDG Artemisia Sun.
+The Tri-Tachyon megacorporation is a polity unto itself with influence and military might rivaling any of the great factions of the Sector. Defeated in the (now) First AI War, the megacorp appeared to accept the technological inspection terms imposed by the treaty (which, incidentally, won the Hegemony much support from its significant minority of Luddic faithful). Perfectly routine negotiations regarding perfectly mundane details of the regular inspections broke down as rapidly as if planned by the ruthless CEO Artemisia Sun. Threats were delivered alongside ultimatum; crisis erupted into war as Tri-Tachyon called the Hegemony's final bluff. 
+
+Commander Gleise's convoy ships prime volatiles from the Raesvelg mines in the Valhalla system to feed the hungry industrial Core world of Chicomoztoc. The convoy is lightly defended as the Hegemony Navy scrambles to transfer escort flotillas from quiet hinterland tariff patrols to the sudden eruption of the Tri-Tachyon front.
+
+Unfortunately, as history later revealed, Hegemony communications had been compromised from the start. Tri-Tachyon was the primary manufacturer of hyperwave communication hardware in the Sector and had left hidden backdoors in all systems.
+
+The young sensors officer's voice cracked at the sudden appearance of enemy contacts: one, two, an entire pack of raiders burning hard with high-energy engines suggestive of the cream of Tri-Tachyon-supplied advanced weaponry. The enemy had known exactly where to lie in wait with powered-down systems. The situation thus dealt, all that matters is what is made of it: Commander Gleise, projecting calm to his green officers and crew, ordered battles stations.
+
+You captain the lead mercenary raider, the Deimos. Disable as many of the Hegemony ships as you can before they escape so you and your crew can collect the generous bounties Tri-Tachyon has promised.

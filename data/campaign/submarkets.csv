@@ -1,23 +1,23 @@
 id,name,faction,desc,script,icon,order
-open_market,"Marché
-Ouvert",,"Le marché ouvert. Seuls les biens légaux peuvent être échangés ici, et les transactions sont soumises à des taxes. Plus de marchandises sont disponibles quand la stabilité est haute.
+open_market,"Open
+Market",,"The open market. Only legal goods may be traded here, and transactions are subject to tariffs. More goods are available when stability is high.
 
-Vendre suffisamment d'une marchandise résoudra temporairement une pénurie.",com.fs.starfarer.api.impl.campaign.submarkets.OpenMarketPlugin,,0
-black_market,"Marché
-Noir",pirates,"Le marché noir. Tout peut être acheté ou vendu, et il n'y a pas de taxes. Plus de marchandises sont disponibles quand la stabilité est basse.
+Selling enough of a commodity will temporarily resolve a shortage.",com.fs.starfarer.api.impl.campaign.submarkets.OpenMarketPlugin,,0
+black_market,"Black
+Market",pirates,"The black market. Anything and everything can be bought or sold, and there are no tariffs. More goods are available when stability is low.
 
-Vendre suffisamment d'une marchandise résoudra temporairement une pénurie.
+Selling enough of a commodity will temporarily resolve a shortage.
 
-Les transactions au marché noir peuvent attirer l'attention des autorités, entraînant des scans de cargaison et une baisse de réputation, sauf si les échanges sont effectués avec le transpondeur éteint.
+Black market transactions may catch the eye of authorities, resulting in cargo scans and reduced faction standing, unless the trades are carried out with the transponder turned off.
 
-Faire du commerce légal en ""couverture"" réduit aussi la probabilité d'attirer l'attention des autorités.",com.fs.starfarer.api.impl.campaign.submarkets.BlackMarketPlugin,graphics/factions/black_market.png,999
-storage,Stockage,player,Espace de stockage pour vaisseaux et cargaison.,com.fs.starfarer.api.impl.campaign.submarkets.StoragePlugin,graphics/factions/storage.png,1000
-generic_military,,,"Commerce avec la base militaire de $theFaction.
+Engaging in legitimate trade as a ""cover"" also reduces the probability of attracting the attention of authorities.",com.fs.starfarer.api.impl.campaign.submarkets.BlackMarketPlugin,graphics/factions/black_market.png,999
+storage,Storage,player,Storage space for ships and cargo.,com.fs.starfarer.api.impl.campaign.submarkets.StoragePlugin,graphics/factions/storage.png,1000
+generic_military,,,"Trade with $theFaction military base.
 
-Les armes et autres équipements militaires peuvent être achetés et vendus ici même s'ils sont illégaux sur le marché ouvert. Une commission et une meilleure réputation auprès de $theFaction donnent accès à du matériel de meilleure qualité.
+Weapons and other military hardware can be bought and sold here even if they're illegal on the open market. A commission and better standing with $theFaction results in higher-grade hardware being available.
 
-Rachète les marchandises localement illégales dans le cadre d'un programme de reprise sans questions.
+Will buy locally illegal goods as part of a no-questions-asked buyback program.
 
-Vendre suffisamment d'une marchandise résoudra temporairement une pénurie.",com.fs.starfarer.api.impl.campaign.submarkets.MilitarySubmarketPlugin,,100
-local_resources,"Stocks de
-Ressources",,,com.fs.starfarer.api.impl.campaign.submarkets.LocalResourcesSubmarketPlugin,,200
+Selling enough of a commodity will temporarily resolve a shortage.",com.fs.starfarer.api.impl.campaign.submarkets.MilitarySubmarketPlugin,,100
+local_resources,"Resource
+Stockpiles",,,com.fs.starfarer.api.impl.campaign.submarkets.LocalResourcesSubmarketPlugin,,200
