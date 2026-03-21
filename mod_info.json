@@ -1,26 +1,25 @@
 {
   "id": "starsector_lang_pack_fr",
-  "name": "Starsector Language Pack - French",
+  "name": "Starsector Language Pack - French ",
   "author": "mipsou",
   "totalConversion": "false",
   "utility": "true",
-  "version": {
-    "major": 1,
-    "minor": 2,
-    "patch": 7
-  },
+  "version": {"major":1, "minor":9, "patch":0},
   "description": "French language pack for Starsector",
-  "gameVersion": "0.97a-RC11",
+  "gameVersion": "0.98a-RC8",
+  "modPlugin": "data.scripts.FrenchLangModPlugin",
   "replace": [
     "data/strings/tips.json",
     "data/strings/tooltips.json",
     "data/strings/descriptions.csv",
     "data/strings/strings.json",
     "data/strings/ship_names.json",
+
     "data/hullmods/hull_mods.csv",
     "data/hulls/ship_data.csv",
     "data/weapons/weapon_data.csv",
     "data/shipsystems/ship_systems.csv",
+
     "data/campaign/abilities.csv",
     "data/campaign/commodities.csv",
     "data/campaign/industries.csv",
@@ -29,15 +28,19 @@
     "data/campaign/rules.csv",
     "data/campaign/special_items.csv",
     "data/campaign/submarkets.csv",
+
     "data/characters/personalities.csv",
     "data/characters/skills/aptitude_data.csv",
     "data/characters/skills/skill_data.csv",
+
     "data/config/battle_objectives.json",
     "data/config/contact_tag_data.json",
     "data/config/planets.json",
     "data/config/tag_data.json",
+
     "data/world/factions/default_fleet_type_names.json",
     "data/world/factions/default_ranks.json",
+
     "data/missions/mission_list.csv",
     "data/missions/afistfulofcredits/mission_text.txt",
     "data/missions/ambush/mission_text.txt",
@@ -55,6 +58,6 @@
     "data/missions/thewolfpack/mission_text.txt",
     "data/missions/turningthetables/mission_text.txt"
   ],
-  "jars": [],
+  "jars": ["jars/langpack-fr.jar"],
   "dependencies": []
 }
