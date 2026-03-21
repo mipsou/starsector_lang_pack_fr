@@ -1,0 +1,18 @@
+{
+    "entries":[
+        {
+            "id":"intro",
+            "title":"Introduction au Secteur Persean",
+            "text":"Le Secteur Persean est une région de l'espace située à plusieurs années-lumière de la Terre. Suite à l'effondrement du Portail de Saut, cette région est devenue isolée du reste de l'humanité...",
+            "icon":"graphics/illustrations/collapse0.jpg",
+            "tags":["histoire", "secteur_persean"]
+        },
+        {
+            "id":"hegemony",
+            "title":"L'Hégémonie",
+            "text":"L'Hégémonie est la plus grande puissance militaire du Secteur Persean. Héritière directe de l'ancien Domain, elle maintient l'ordre et la stabilité dans le secteur central...",
+            "icon":"graphics/factions/hegemony.jpg",
+            "tags":["factions", "hegemony"]
+        }
+    ]
+}

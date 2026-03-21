@@ -1,0 +1,13 @@
+{
+    "tips":[
+        {
+            "freq":0,
+            "tip":"Vous pouvez changer la fréquence des conseils en ajoutant un objet json au lieu d'une chaîne. Par exemple, ce conseil a une fréquence de 0 et n'apparaîtra jamais. La valeur par défaut est 1."
+        },
+        "Baissez vos boucliers pour dissiper le flux « dur » généré par les dégâts sur les boucliers.",
+        "Les boucliers et les armes génèrent tous deux du flux, donc baisser vos boucliers pour prendre quelques coups sur la coque et l'armure augmentera votre puissance de feu soutenue. Cela peut être vital, en particulier pour les vaisseaux lourdement blindés.",
+        "Les dégâts des armes à faisceau sur les boucliers génèrent un flux « doux » qui peut être dissipé sans baisser les boucliers",
+        "Appuyez sur TAB pour basculer l'interface de commande. Utilisez l'interface de commande pour donner des ordres à votre flotte.",
+        "Ordonner à un vaisseau d'en escorter un autre limite la mobilité de l'escorte. Utilisez cette commande avec précaution."
+    ]
+}

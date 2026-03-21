@@ -1,0 +1,33 @@
+id,text,context
+main_menu_start,Nouvelle Partie,Menu principal - Bouton nouvelle partie
+main_menu_load,Charger Partie,Menu principal - Bouton charger partie
+main_menu_options,Options,Menu principal - Bouton options
+main_menu_credits,Crédits,Menu principal - Bouton crédits
+main_menu_quit,Quitter,Menu principal - Bouton quitter
+combat_deploy,Déployer,Combat - Bouton déploiement
+combat_retreat,Retraite,Combat - Bouton retraite
+combat_auto_resolve,Résolution Auto.,Combat - Bouton résolution automatique
+fleet_cargo,Cargo,Interface flotte - Onglet cargo
+fleet_fleet,Flotte,Interface flotte - Onglet flotte
+fleet_refit,Équipement,Interface flotte - Onglet équipement
+market_trade,Commerce,Marché - Onglet commerce
+market_shipyard,Chantier Naval,Marché - Onglet chantier naval
+market_outfitting,Armement,Marché - Onglet armement
+market_storage,Stockage,Marché - Onglet stockage
+intel_missions,Missions,Intel - Onglet missions
+intel_contacts,Contacts,Intel - Onglet contacts
+intel_reports,Rapports,Intel - Onglet rapports
+map_hyperspace,Hyperespace,Carte - Mode hyperespace
+map_system,Système,Carte - Mode système
+status_supplies,Ravitaillement,Statut - Indicateur ravitaillement
+status_fuel,Carburant,Statut - Indicateur carburant
+status_crew,Équipage,Statut - Indicateur équipage
+status_stability,Stabilité,Statut - Indicateur stabilité
+dialog_confirm,Confirmer,Dialogue - Bouton confirmer
+dialog_cancel,Annuler,Dialogue - Bouton annuler
+dialog_accept,Accepter,Dialogue - Bouton accepter
+dialog_decline,Refuser,Dialogue - Bouton refuser
+settings_graphics,Graphismes,Options - Onglet graphismes
+settings_audio,Audio,Options - Onglet audio
+settings_controls,Contrôles,Options - Onglet contrôles
+settings_game,Jeu,Options - Onglet jeu
