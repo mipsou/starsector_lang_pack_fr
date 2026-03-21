@@ -401,7 +401,7 @@ Ce n'est pas un vaisseau-tombeau, cependant.
 En nombre, la majeure partie de l'équipage semble avoir évacué avant de laisser la coque à l'abandon. Quelques malheureuses victimes de violence interpersonnelle semblent avoir été laissées derrière lors d'un conflit interne, et les cycles n'ont pas été cléments alors que ce qui restait des systèmes de support vital défaillait lentement.",GS_PIRATES_cont2:Continue,
 GS_PIRATES_cont2Sel,DialogOptionSelected,$option == GS_PIRATES_cont2,$salvageLeaveText = Leave 0,"Un examen rapide des journaux de bord que les officiers superieurs ont daigne tenir suggere que ce vaisseau faisait partie d'une petite flottille pirate traquant une expedition independante bien approvisionnee progressant a travers la frange exterieure. Cette expedition repera les pirates, puis brula rapidement vers l'Abysse. Les pirates suivirent et perdirent bientot leur proie dans les tenebres abrutissantes.
 
-Avec des reserves et du carburant en baisse et sans certitude d'un 'reapprovisionnement hostile', les chefs pirates se mirent a se disputer, puis a demanteler des coques tout en consolidant les equipages sur les vaisseaux restants - sous la menace d'une arme, si necessaire.
+Avec des reserves et du carburant en baisse et sans certitude d'un 'reapprovisionnement hostile', les chefs pirates se mirent a se disputer, puis a demanteler des coques tout en consolidant les équipages sur les vaisseaux restants - sous la menace d'une arme, si necessaire.
 
 Il n'y avait pas tout a fait assez de place pour tout le monde, semble-t-il.","salExplore:Assess the ship's salvage value
 defaultLeave:Leave",
@@ -467,7 +467,7 @@ AddTextSmall ""Acquired wormhole calibration data for nearby stable location"" h
 limboWormholeCacheBeginAgain,BeginSalvage,"$limboWormholeCache score:1000
 $player.gotWormholeCalibrationData",,"Les enormes coffres en apesanteur du depot sont ouverts, leurs profondeurs noires de presage comme un tombeau colossal.
 
-L'ancien ancrage de trou de ver attend en son centre, le scintillement et la caresse des requetes de statut revenant au vert, en grande partie. Il est toujours prepare pour être utilise au point de stabilite voisin, mais la cargaison de transplutoniques que ses systemes automatises attendaient n'a jamais été livree.","salPerform:Examine the find
+L'ancien ancrage de trou de ver attend en son centre, le scintillement et la caresse des requetes de statut revenant au vert, en grande partie. Il est toujours prepare pour être utilise au point de stabilite voisin, mais la cargaison de transplutoniques que ses systèmes automatises attendaient n'a jamais été livree.","salPerform:Examine the find
 100:defaultLeave:Leave",
 ,,,,,,
 # Ice giant which the Gate Hauler orbits,,,,,,
@@ -487,7 +487,7 @@ gateHaulerStart1,OpenInteractionDialog,"$gateHauler
 
 C'est un Leviathan surgi du fond des ages, a la fois familier de par ses nombreuses et variees representations dans la culture secondaire du Secteur Persan post-Effondrement.
 
-Mais le voir ici en chair et en os, pour ainsi dire, c'est la force extraterrestre de la puissance du Domaine reifiee devant vous, se dressant comme un empereur noirci affaisse - mais revant encore - sur un trone d'etoiles.
+Mais le voir ici en chair et en os, pour ainsi dire, c'est la force extraterrestre de la puissance du Domaine reifiee devant vous, se dressant comme un empereur noirci affaisse - mais revant encore - sur un trone d'étoiles.
 
 Vous sentez le poids de l'histoire peser sur votre poitrine, un son comme un tintement lointain. Vous êtes fige un instant inconscient comme si votre esprit était pris dans le regard d'un dieu ; et l'instant d'apres il n'y a plus que le bourdonnement des conduits electriques et le ronronnement grave de l'antigrav dans la bulle de propulsion, habituellement relegues dans un filtre d'imperception par votre subconscient.
 
@@ -511,10 +511,10 @@ Vous avez une partie de la reponse assez rapidement : le fonctionnement de l'eno
 
 La majeure partie du carburant restant fut larguee et le reste utilise pour freiner en orbite autour de la concentration de masse accessible la plus proche : cette geante de glace solitaire. La manoeuvre a pris la majeure partie d'un siecle.
 
-La procedure standard voudrait que le Domaine envoie une expedition bien approvisionnee d'ingenieurs de Porte pour reinitialiser les systemes primaires et renvoyer le Transporteur reprendre son voyage, bien qu'avec plusieurs centaines de cycles de retard.","gh_explore3:""But no one showed up.""",
+La procedure standard voudrait que le Domaine envoie une expedition bien approvisionnee d'ingenieurs de Porte pour reinitialiser les systèmes primaires et renvoyer le Transporteur reprendre son voyage, bien qu'avec plusieurs centaines de cycles de retard.","gh_explore3:""But no one showed up.""",
 gh_exploreSel3a,DialogOptionSelected,$option == gh_explore3,,"Les archives anciennes indiquent que les Transporteurs de Porte embarquaient un complement standard de drones automatises d'exploration, d'extraction et de raffinage en cas de perte de contact. Les documents semblent impliquer la capacité de se procurer de nouvelles sources de carburant et de materiaux a de vastes distances du point de sécurité, bien qu'a l'echelle impliquee, ce processus serait inefficace a des vitesses supraluminiques meme via l'hyperespace - en supposant l'utilisation de la technologie de frontière de base du Domaine.
 
-Vos officiers concluent que, comme c'est typique du Domaine, les descriptions accessibles au public semblent passer sous silence certaines technologies et capacites cles.
+Vos officiers concluent que, comme c'est typique du Domaine, les descriptions accessibles au public semblent passer sous silence certaines technologies et capacités cles.
 
 Quoi qu'il en soit, votre inspection n'a rien revele de tout cela - a part la Porte elle-meme encore non deployee, bien sur, maintenue fermement par la face aux multiples bras du grand vaisseau.",gh_explore4:Continue,
 gh_exploreSel3b,DialogOptionSelected,"$option == gh_explore3
@@ -4794,7 +4794,7 @@ lppHesperusShrineVisitFirst2,DialogOptionSelected,$option == lpp_hesperusVisitFi
 
 La trajectoire de vol emmene votre navette dans un grand canyon de canyons empli d'un chaos de glace et de pierre. La navette s'incline dans un embranchement ; les cretes de roche sombre se dressent de plus en plus haut.
 
-De temps a autre, vous apercevez les vestiges en ruine d'installations industrielles, et parmi eux les lumieres occasionnelles d'une entreprise chartee par les Chevaliers ou d'une communaute monastique.",lpp_hesperusVisitFirst3:Continue,
+De temps a autre, vous apercevez les vestiges en ruine d'installations industrielles, et parmi eux les lumières occasionnelles d'une entreprise chartee par les Chevaliers ou d'une communaute monastique.",lpp_hesperusVisitFirst3:Continue,
 lppHesperusShrineVisitFirst3,DialogOptionSelected,$option == lpp_hesperusVisitFirst3,,"Au dernier virage du canyon, le complexe du sanctuaire apparait, une fleche lumineuse d'habitats, de tours et de mats s'elevant des restes brumeux d'une titanesque usine de traitement atmospherique.
 
 Votre oeil exerce repere les positions probables d'emplacements d'armes lourdes : des parois rocheuses trop lisses a des angles commodes, les sols suspicieusement plats de certaines vallees suspendues.",lpp_hesperusVisitToShrine:Continue,
@@ -4805,7 +4805,7 @@ FireAll HesperusShrineOptions","L'antichambre de la baie d'atterrissage est un s
 La galerie est remplie de groupes de pelerins Luddic vetus de tissages artisanaux traditionnels, en discussion avec les serviteurs du sanctuaire.",,
 lppHesperusShrineVisitAgain1,DialogOptionSelected,$option == lpp_hesperusVisit1,ShowLargePlanet,"Le contrôle du trafic vous donne sa benediction et votre navette descend vers la surface impitoyable d'Hesperus.
 
-La planete est tailladee par des glaciers comme un reseau de cicatrices sur le cuir meurtri d'une bete ancienne. Votre trajectoire de vol vous mene vers un grand canyon empli d'un chaos de glace et de pierre, puis un embranchement au-dessus duquel des parois de roche sombre se dressent. De temps a autre, vous apercevez les vestiges en ruine d'installations industrielles, et parmi eux les lumieres occasionnelles d'entreprises chartees par les Chevaliers et de communautes monastiques.",lpp_hesperusVisitFirst3:Continue,
+La planete est tailladee par des glaciers comme un reseau de cicatrices sur le cuir meurtri d'une bete ancienne. Votre trajectoire de vol vous mene vers un grand canyon empli d'un chaos de glace et de pierre, puis un embranchement au-dessus duquel des parois de roche sombre se dressent. De temps a autre, vous apercevez les vestiges en ruine d'installations industrielles, et parmi eux les lumières occasionnelles d'entreprises chartees par les Chevaliers et de communautes monastiques.",lpp_hesperusVisitFirst3:Continue,
 lppHesperusShrineOptionSnuckIn,HesperusShrineOptions,"$market.snuckIntoHesperus
 !$market.bribedIntoHesperus","AddText ""A robed subcurate shuffles to meet you. \""Blessings upon you. Your arrival was... unexpected,\"" they say. \""But no matter. All who come in good faith are welcome to worship at this shrine.\""""",,,
 lppHesperusShrineOptionBribedIn,HesperusShrineOptions,$market.bribedIntoHesperus,"AddText ""A robed subcurate shuffles to meet you. \""Blessings upon you. Your arrival... ah, we expected a larger party of pilgrims,\"" they say, \""But no matter; the faith of one is the faith of all.\""""",,,
@@ -4816,7 +4816,7 @@ lppHesperusShrineDoVisit,DialogOptionSelected,$option == lpp_hesperusDoVisit,Sho
 Le drapé de la robe du cure effleure a peine le sol, un champ soude de plaques blindees usees en motifs complexes par les atmospheres variees d'une vingtaine de mondes sur lesquels les Chevaliers ont combattu et sont morts. Les niches le long des murs sont occupees par des casques vides.",lpp_hesperusShrineVisit1:Continue,
 lppHesperusShrineVisit1,DialogOptionSelected,$option == lpp_hesperusShrineVisit1,,"Le sanctuaire est un grand tombeau amenage dans un enorme puits d'aeration. Les entrailles industrielles ont été transformees en une sculpture baroque de milliers d'armes tranchantes alignees comme les plumes d'une aile, des rayons de metal dentele etincelant s'elancant hardiment en arcs meurtriers a travers le vaste espace.
 
-Au centre, entoures d'une galaxie de bougies vacillantes, reposent les cercueils doubles de plomb d'une escouade de Chevaliers martyrs. Les circonstances de leur mort, explique le sous-cure dans des murmures reverencieux, ont rendu leurs corps non identifiables et impregnes de matieres radioactives qui tueraient un observateur direct meme aujourd'hui.
+Au centre, entoures d'une galaxie de bougies vacillantes, reposent les cercueils doubles de plomb d'une escouade de Chevaliers martyrs. Les circonstances de leur mort, explique le sous-cure dans des murmures reverencieux, ont rendu leurs corps non identifiables et impregnes de matières radioactives qui tueraient un observateur direct meme aujourd'hui.
 
 On vous laisse dans une niche de prière pour contempler l'horreur.",lpp_hesperusShrineVisit2:Continue,
 lppHesperusShrineVisit2,DialogOptionSelected,$option == lpp_hesperusShrineVisit2,"BeginConversation initiate False False
@@ -4908,7 +4908,7 @@ lppHesperusShrineDoVisitAgain,DialogOptionSelected,"$option == lpp_hesperusDoVis
 $global.lpp_visitedShrineHesperus",ShowImageVisual hesperus_shrine,"À votre demande, le sous-curé de service vous guide à travers un bref cérémonial de lavage des mains, puis le long de la galerie au sol de plaques blindées soudées. Des niches le long des murs sont occupées par des casques vides.",lpp_hesperusShrineAgain2:Continue,
 lppHesperusShrineDoVisitAgain2,DialogOptionSelected,$option == lpp_hesperusShrineAgain2,,"Le sanctuaire est un grand tombeau amenage dans un enorme puits d'aeration. Les entrailles industrielles ont été transformees en une sculpture baroque de milliers d'armes tranchantes alignees comme les plumes d'une aile, des rayons de metal dentele etincelant s'elancant hardiment en arcs meurtriers a travers le vaste espace.
 
-Au milieu, entoures d'une galaxie de bougies vacillantes, reposent les cercueils doubles de plomb d'une escouade de Chevaliers martyrs. Les circonstances de leur mort, explique le sous-cure dans des murmures reverencieux, ont rendu leurs corps non identifiables et impregnes de matieres radioactives qui tueraient un observateur direct meme aujourd'hui.",lpp_hesperusShrineAgain3:Continue,
+Au milieu, entoures d'une galaxie de bougies vacillantes, reposent les cercueils doubles de plomb d'une escouade de Chevaliers martyrs. Les circonstances de leur mort, explique le sous-cure dans des murmures reverencieux, ont rendu leurs corps non identifiables et impregnes de matières radioactives qui tueraient un observateur direct meme aujourd'hui.",lpp_hesperusShrineAgain3:Continue,
 lppHesperusShrineDoVisitAgain3,DialogOptionSelected,$option == lpp_hesperusShrineAgain3,,"Des psalmodies assourdies, deformees par la geometrie etrange de cet espace industriel cultuel, se melent au bourdonnement des recycleurs d'air. Les bougies brulent d'une flamme nette et vive, etincelant sur la multitude de facettes tranchantes ornant chaque surface de l'interieur du sanctuaire, un monument au carnage sacre.
 
 On vous laisse dans une niche de prière pour contempler l'horreur.",shrineDoLeave:Leave the shrine,
@@ -5139,7 +5139,7 @@ Les holos qui ont fuite ont été manipules par des coeurs IA secrets de l'Hég�
 lkeChalcedonVIPoptHostileSP1b,DialogOptionSelected,"$option == lke_chalcedonVIPoptHostileSP
 $global.gaATG_gotLokeViaRaid",,"Vous expliquez que si des marines sous votre commandement ont effectivement été deployes ce jour fatidique sur Epiphany, vous tentiez en réalité d'arreter un raid d'operations noires de l'Hégémonie mene par l'intermediaire de la Seigneure de guerre pirate Kanta. C'est la propagande noire et la dissimulation subsequentes qui vous ont place au centre de l'action.
 
-Kanta est, bien entendu, une coquille videe controlee par un coeur IA ; une abomination aux yeux de tous les disciples de Ludd mais aussi l'image meme de l'objectif ultime de l'Hégémonie pour toute l'humanite dans le Secteur Persan : des esclaves-machines au service de faux dieux IA charges de batir un nouveau Domaine ; un Moloch mecaniste enjambant la galaxie pour defier la nature meme de la creation de Dieu !",lke_chalcedonVIPoptHostileSP2:Continue,
+Kanta est, bien entendu, une coquille videe contrôlée par un coeur IA ; une abomination aux yeux de tous les disciples de Ludd mais aussi l'image meme de l'objectif ultime de l'Hégémonie pour toute l'humanite dans le Secteur Persan : des esclaves-machines au service de faux dieux IA charges de batir un nouveau Domaine ; un Moloch mecaniste enjambant la galaxie pour defier la nature meme de la creation de Dieu !",lke_chalcedonVIPoptHostileSP2:Continue,
 lkeChalcedonVIPoptHostileSP2,DialogOptionSelected,$option == lke_chalcedonVIPoptHostileSP2,,"Votre voix se brise d'emotion tandis que vous expliquez les profondeurs de la conspiration ourdie par les IA pour dresser les humains les uns contre les autres, et comment votre condition de victime vous a amene, pour la première fois, a reconsiderer les objectifs et les ideaux de la Voie de Ludd. 
 
 Vous pouvez lire l'horreur sur le visage de $personPost, suivie d'une affirmation - ils ont raison, sur tout - l'arc de votre recit est trop seduisant pour ne pas prendre racine. Bien qu'absurde, il sonne juste, et joue sur un sentiment profond de persecution.",lke_chalcedonVIPoptHostileSP3:Continue,
@@ -5504,7 +5504,7 @@ BarCMD leaveBar","Vous êtes en train de conclure votre visite aux installations
 On vous traine a travers une porte, dans un endroit a l'air humide et confine ; puis dehors dans la nuit froide. On entend le crepitement de gouttes de pluie sur les auvents.",,
 lkeChalcedonBarDrinkLotsMore2bar,ReturnFromBar,$lke_interceptLeaveBar1,"HideVisual
 unset $lke_interceptLeaveBar1",,lke_barMammoniteDrink3b:Continue,
-lkeChalcedonBarDrinkLotsMore2b,DialogOptionSelected,$option == lke_barMammoniteDrink3b,,"Des mots vifs et etouffes sont echanges entre vos ravisseurs - et des jurons assourdiis venant de votre côté. On dirait le Mammonite.
+lkeChalcedonBarDrinkLotsMore2b,DialogOptionSelected,$option == lke_barMammoniteDrink3b,,"Des mots vifs et etouffes sont échanges entre vos ravisseurs - et des jurons assourdiis venant de votre côté. On dirait le Mammonite.
 
 Vous êtes a peu pres sur de ne pas être aussi embrume par l'alcool que lui. A peu pres sur. Difficile a dire avec la tete dans un sac.","lke_barMammoniteDrink4:Continue
 lke_barMammoniteDrink4b:Draw your sarm. Side-arm, tha'sit. Draw your sidearm.",
@@ -14260,7 +14260,7 @@ HailPlayer","Votre officier capteurs prend la parole, « Capitaine, vous devrie
 gaATGscavScanDialog,OpenCommLink,$entity.gaATG_scavScanFleet score:1000,"$menuState = fleetConvMain 0
 FireAll GAATGscavScanHub","Le capitaine de la flotte de recuperateurs sourit de manière peu convaincante tandis que l'image comm se stabilise.
 
-« Salutations, voyageur des etoiles ! » dit $heOrShe, debordant de bonhomie. « Vu de bonnes prises dans le coin ? Ca a été un peu maigre pour nous, ha-ha, peut-être qu'on pourrait utiliser un tuyau ou deux. »",,
+« Salutations, voyageur des étoiles ! » dit $heOrShe, debordant de bonhomie. « Vu de bonnes prises dans le coin ? Ca a été un peu maigre pour nous, ha-ha, peut-être qu'on pourrait utiliser un tuyau ou deux. »",,
 gaATGscavScanHub1,GAATGscavScanHub,"!$willingToLeave
 !$cacheLie",,,"gaATG_scavScanDialog1:""Sorry, no.""",
 gaATGscavScanHub2,GAATGscavScanHub,!$cacheLie,,,"gaATG_scavScanDialog2:""There's a big cache on the other side of the system. My hold's full, so it's all yours.""",
@@ -16715,7 +16715,7 @@ gaOpPlanetRogueAIProject0,GAOpUpdateBizarreProject,$gaOp_bizarreProject == 0,"$g
 gaOpPlanetRogueAIProject1,GAOpUpdateBizarreProject,$gaOp_bizarreProject == 1,"$gaOp_bizarreProjectStr = ""a series of seemingly arbitrary human behavior experiments- the subjects are the outpost's staff, forced to participate by the AI's total control over all habitat systems""",,,
 gaOpPlanetRogueAIProject2,GAOpUpdateBizarreProject,$gaOp_bizarreProject == 2,"$gaOp_bizarreProjectStr = ""constructing some kind of bizarre transmitter which operates on no principles known to the research staff""",,,
 gaOpPlanetRogueAIProject3,GAOpUpdateBizarreProject,$gaOp_bizarreProject == 3,"$gaOp_bizarreProjectStr = ""staging a series of elaborate, tedious dramas authored by the AI core itself. The research staff is forced to participate due to the AI's total control of all habitat systems""",,,
-gaOpPlanetRogueAIProject4,GAOpUpdateBizarreProject,$gaOp_bizarreProject == 4,"$gaOp_bizarreProjectStr = ""cataloguing anomalous neutrino emissions from numerous points within the Persean Sector volume; they can't be from human or even known natural sources according to the latest sector-wide surveys""",,,
+gaOpPlanetRogueAIProject4,GAOpUpdateBizarreProject,$gaOp_bizarreProject == 4,"$gaOp_bizarreProjectStr = ""cataloguing anomalous neutrino émissions from numerous points within the Persean Sector volume; they can't be from human or even known natural sources according to the latest sector-wide surveys""",,,
 gaOpPlanetRogueAIProject5,GAOpUpdateBizarreProject,$gaOp_bizarreProject == 5,"$gaOp_bizarreProjectStr = ""what can only be described as an obsessively designed shrine or sculpture, with no apparent practical function. The AI has extremely specific standards and forces human compliance with its total control over the life support system""",,,
 gaOpPlanetRogueAIProject6,GAOpUpdateBizarreProject,$gaOp_bizarreProject == 6,"$gaOp_bizarreProjectStr = ""a haphazard regional survey involving comprehensive subsurface acoustic scans. \""It's looking for something. We don't know what. And we don't know what will happen to us if it finds what it's looking for\""""",,,
 gaOpPlanetRogueAICont3,DialogOptionSelected,$option == gaOp_rogueCont3,FireBest GAOpAIMainMenu,"« Aidez-nous. S'il vous plait, » supplie le responsable de l'avant-poste a travers la neige de parasites holographiques qui s'epaissit. « Vous êtes notre seul- »
@@ -17149,7 +17149,7 @@ FleetDesc
 HailPlayer",,,
 pwi2OpenComm,OpenCommLink,"$entity.pwi2_wantsItem score:1000
 !$entity.ignorePlayerCommRequests","$entity.ignorePlayerCommRequests = true
-SetStoryOption pwi2_bluff general ""Bluffed Pather to keep $entity.pwi2_item""","« O, qu'est-ce que c'est - un serviteur de Moloch devant moi ? » dit le Pather d'une voix chantante, « Repentez-vous, repentez-vous et ejectez cette horreur technologique demoniaque que vous transportez pour repandre le mal dans les etoiles lointaines ! »
+SetStoryOption pwi2_bluff general ""Bluffed Pather to keep $entity.pwi2_item""","« O, qu'est-ce que c'est - un serviteur de Moloch devant moi ? » dit le Pather d'une voix chantante, « Repentez-vous, repentez-vous et ejectez cette horreur technologique demoniaque que vous transportez pour repandre le mal dans les étoiles lointaines ! »
 
 « Oui, nous savons ce que vous avez. Et nous le detruirons, soit dans votre soute a cargaison, soit dans le Saint Vide. Choisissez maintenant. »","cutCommLink:Decline, close comms
 pwi2_bluff:Bluff to get rid of the Pather
@@ -17179,7 +17179,7 @@ Le capitaine voiliste vous guide dans une prière Luddic classique, implorant le
 pwi2_accept1,DialogOptionSelected,$option == pwi2_accept1,"MakeOtherFleetNonHostile true
 MakeOtherFleetGoAway true
 AdjustRep $personFaction.id COOPERATIVE 1
-FireBest $entity.pwi2_missionFailTrigger","« La voie de la redemption est longue, » vous dit enfin le capitaine Pather, « Et ceci n'est que le premier pas de votre expiation. Que les benedictions de Ludd soient sur vous, voyageur des etoiles. »
+FireBest $entity.pwi2_missionFailTrigger","« La voie de la redemption est longue, » vous dit enfin le capitaine Pather, « Et ceci n'est que le premier pas de votre expiation. Que les benedictions de Ludd soient sur vous, voyageur des étoiles. »
 
 Vous coupez la communication, levez les yeux au ciel, et reflechissez a votre prochain mouvement.",cutCommLinkNoText:Continue,
 ,,,,,,
@@ -18463,7 +18463,7 @@ $faction.id != player",ShowDefaultVisual,"Votre officier de communication tente 
 Des gens bronzés et athlétiques se prélassent au milieu d'un improbable étalage de verrerie dans un luxe primitif-chic tandis que plusieurs soleils se couchent sur un horizon aquatique ; la lueur des soleils s'embrase pour remplir l'écran avec une fanfare montante, qui atteint son apogée, puis s'estompe sur le logo de la Fabrique Orbitale et son O-en-orbite distinctif.
 
 Vous coupez le flux.",100:defaultLeave:Leave,
-fusionLampMainOptions,FusionLampMainOptions,,,,"0:fusionLamp_changeColor:Adjust the lamp's visible emission range
+fusionLampMainOptions,FusionLampMainOptions,,,,"0:fusionLamp_changeColor:Adjust the lamp's visible émission range
 1:fusionLamp_help:Help
 100:defaultLeave:Leave",
 fusionLampHelp,DialogOptionSelected,$option == fusionLamp_help,,"« Veuillez consulter votre Agent Manuel de Système Expert Classifié Non-IA pour Lampe à Fusion Orbitale Fabrique Orbitale (mc) pour les instructions de reconfiguration du Produit Lampe à Fusion Orbitale (mc) pour d'autres applications industrielles et militaires. »
@@ -20551,7 +20551,7 @@ LOCRLoffloadToChurch,MarketPostDock,"$player.locr_luddicsToChurch
 $marketSize > 3
 $faction.id == luddic_church
 $player.crew > 198
-!$market.locrlf_market","Highlight ""suitable for offloading the Luddic heretics""","Vous êtes arrive a une colonie controlee par l'Eglise de la Redemption Galactique, adaptee au debarquement des heretiques Luddic que vous avez secourus depuis les confins.","locrl_offloadHeretics2:Shuttle the rescued heretics to $name
+!$market.locrlf_market","Highlight ""suitable for offloading the Luddic heretics""","Vous êtes arrive a une colonie contrôlée par l'Eglise de la Redemption Galactique, adaptee au debarquement des heretiques Luddic que vous avez secourus depuis les confins.","locrl_offloadHeretics2:Shuttle the rescued heretics to $name
 locrl_offloadNotYet:Not yet",# assume player is faithful/church com
 LOCRLoffloadToChurch2,DialogOptionSelected,$option == locrl_offloadHeretics2,"AddCommodity crew -198
 AddXP 5000
@@ -20567,7 +20567,7 @@ LOCRLoffloadToChurchSecular,MarketPostDock,"$player.locr_luddicsOnBoard
 $marketSize > 3
 $faction.id == luddic_church
 $player.crew > 198
-!$market.locrlf_market","Highlight ""suitable for offloading the Luddic heretics""","Vous êtes arrive a une colonie controlee par l'Eglise de la Redemption Galactique, adaptee au debarquement des heretiques Luddic que vous avez secourus depuis les confins.","locrl_offloadLuddics2:Shuttle the rescued Luddics to $name
+!$market.locrlf_market","Highlight ""suitable for offloading the Luddic heretics""","Vous êtes arrive a une colonie contrôlée par l'Eglise de la Redemption Galactique, adaptee au debarquement des heretiques Luddic que vous avez secourus depuis les confins.","locrl_offloadLuddics2:Shuttle the rescued Luddics to $name
 locrl_offloadNotYet:Not yet",# assume player is NOT faithful/church com
 LOCRLoffloadToChurchSecular2,DialogOptionSelected,$option == locrl_offloadLuddics2,"AddCommodity crew -198
 AddXP 5000
@@ -20583,7 +20583,7 @@ LOCRLoffloadToPathMarket,MarketPostDock,"$player.locr_luddicsToPath
 $marketSize > 3
 $faction.id == luddic_path
 $player.crew > 198
-!$market.locrlf_market","Highlight ""suitable for offloading the Luddic heretics""","Vous êtes arrive a une colonie controlee par la Voie de Ludd, adaptee au debarquement des heretiques que vous avez secourus depuis les confins.","locrl_offloadHereticsToPath0:Shuttle the rescued heretics to $name
+!$market.locrlf_market","Highlight ""suitable for offloading the Luddic heretics""","Vous êtes arrive a une colonie contrôlée par la Voie de Ludd, adaptee au debarquement des heretiques que vous avez secourus depuis les confins.","locrl_offloadHereticsToPath0:Shuttle the rescued heretics to $name
 locrl_offloadNotYet:Not yet",
 LOCRLoffloadToPathMarket2,DialogOptionSelected,$option == locrl_offloadHereticsToPath0,BeginConversation POST:administrator,"L'organisme quelque peu atypique qui fait office d'autorité portuaire a quelques questions pointues tandis que vous organisez le débarquement de près de deux cents hérétiques venus des confins.
 
@@ -22407,7 +22407,7 @@ FireAll YaribayAskReynardHubOpts","« Aussi vrai que cela puisse être, » dit
 HYaribayAskReynardRespC,DialogOptionSelected,$option == yaribay_askReynardC,"$askedReynardC = true
 RemoveOption yaribay_askReynardC","« La Gens Hannan est puissante, » dit-il, « et Reynard est un homme qui sait manier le pouvoir. »
 
-« Je respecte son rang et ses capacites, bien que lui et moi nous accordions sur peu de sujets politiques. »",,
+« Je respecte son rang et ses capacités, bien que lui et moi nous accordions sur peu de sujets politiques. »",,
 HYaribayAskReynardRespD,DialogOptionSelected,$option == yaribay_askReynardD,"$askedReynardD = true
 RemoveOption yaribay_askReynardD","« Ce n'est pas comme s'il devait me demander la permission, » dit Horus.
 
@@ -22586,9 +22586,9 @@ RHannan_msgFollowHorusYaribayC:""It's more complex than that.""",
 RHannanMsgFollowHorusYaribayA,DialogOptionSelected,$option == RHannan_msgFollowHorusYaribayA,"FireBest RHannanHorusKeyCheck
 FireAll RHannanMsgFollowHub","« Je suis touche par votre sollicitude, capitaine, » dit Reynard avec une chaleur trop bien rodee. « Mais croyez bien que je maitrise les intrigues de mon cher ami Horus. »",,
 RHannanMsgFollowHorusYaribayB,DialogOptionSelected,$option == RHannan_msgFollowHorusYaribayB,"FireBest RHannanHorusKeyCheck
-FireAll RHannanMsgFollowHub","« Je suis touche par votre sollicitude, capitaine, » dit Reynard, comme s'il encourageait un eleve prometteur. « Mais vous pouvez être certain que je maitrise les intrigues de mon cher ami Horus. »",,
+FireAll RHannanMsgFollowHub","« Je suis touche par votre sollicitude, capitaine, » dit Reynard, comme s'il encourageait un élevé prometteur. « Mais vous pouvez être certain que je maitrise les intrigues de mon cher ami Horus. »",,
 RHannanMsgFollowHorusYaribayC,DialogOptionSelected,$option == RHannan_msgFollowHorusYaribayC,"FireBest RHannanHorusKeyCheck
-FireAll RHannanMsgFollowHub","« J'en suis convaincu, » dit Reynard avec desinvolture, comme s'il encourageait un eleve prometteur. « C'est precisement pourquoi j'ai plusieurs reseaux de renseignement qui surveillent les intrigues de mon cher ami Horus. »",,
+FireAll RHannanMsgFollowHub","« J'en suis convaincu, » dit Reynard avec desinvolture, comme s'il encourageait un élevé prometteur. « C'est precisement pourquoi j'ai plusieurs reseaux de renseignement qui surveillent les intrigues de mon cher ami Horus. »",,
 RHannanMsgFollowHorusYaribayD,RHannanHorusKeyCheck,$player.gaveDaudYaribayContact,,"Il ecarte les mains, toujours genereux d'esprit. « Inutile de me donner sa cle de chiffrement ou quoi que ce soit d'aussi vulgaire. Cela blesserait Horus d'être ainsi trahi. »",,
 ,,,,,,
 ,,,,,,
@@ -23496,7 +23496,7 @@ sdtuPatrolAgainSaidArrestOpen,OpenCommLink,"$entity.sdtu_interceptFleet
 $madeArrestClaim
 !$sentWarrant",FireAll SDTUPatrolOptions,"« Vous. » $HisOrHer yeux se plissent, déjà soupconneux.
 
-« Je ne m'attendais pas a vous revoir apres avoir avance des affirmations aussi scandaleuses et, j'ose dire, illegales. Je pourrais déjà ordonner votre arrestation pour suspicion d'activites terroristes. »",,"# said arrest, but not warrant, then fled"
+« Je ne m'attendais pas a vous revoir apres avoir avance des affirmations aussi scandaleuses et, j'ose dire, illegales. Je pourrais déjà ordonner votre arrestation pour suspicion d'activités terroristes. »",,"# said arrest, but not warrant, then fled"
 sdtuPatrolAgainDidWarrantOpen,OpenCommLink,"$entity.sdtu_interceptFleet
 $madeArrestClaim
 $sentWarrant",AdjustRepActivePerson VENGEFUL -50,"Cette fois $heOrShe est prêt.
@@ -23931,7 +23931,7 @@ sdtuHyderTalk3MacarioB,DialogOptionSelected,"$option == sdtu_HyderTalk3MacarioKn
 $trust == 1","$answersDone++
 $saidMacario = true 0
 FireAll SDTUHyderTalk3Options
-$global.sdtu_HyderSaidMacarioFuelsWithLies = true","« Et pourtant il ne l'a pas fait, » dit Hyder avec ferveur. « S'il pouvait alimenter les vaisseaux et nourrir leurs equipages avec des mensonges seuls, il le ferait. Mais il ne le peut pas. »",,
+$global.sdtu_HyderSaidMacarioFuelsWithLies = true","« Et pourtant il ne l'a pas fait, » dit Hyder avec ferveur. « S'il pouvait alimenter les vaisseaux et nourrir leurs équipages avec des mensonges seuls, il le ferait. Mais il ne le peut pas. »",,
 sdtuHyderTalk3MacarioC,DialogOptionSelected,"$option == sdtu_HyderTalk3MacarioKnows
 $trust >= 2","$answersDone++
 $saidMacario = true 0
@@ -24434,7 +24434,7 @@ EndConversation DO_NOT_FIRE
 AddTextSmall ""Lion's Guard double agent extracted successfully"" highlight
 FireAll SDTUUmbraGotAgent
 FireAll PopulateOptions
-ShowDefaultVisual","Les dispositions sont prises, et un agent indigne - baillonne - est discretement transfere vers votre $shipOrFleet dans un reservoir de matieres volatiles modifie pour le transport clandestin de passagers.",,
+ShowDefaultVisual","Les dispositions sont prises, et un agent indigne - baillonne - est discretement transfere vers votre $shipOrFleet dans un reservoir de matières volatiles modifie pour le transport clandestin de passagers.",,
 #sdtuUmbraThreatFleet,DialogOptionSelected,$option == sdtu_umbraThreatFleet,,,,# maybe later.
 sdtuUmbraGotAgentNextStage,SDTUUmbraGotAgent,,"unset $global.sdtu_extractAgent
 $global.sdtu_meetCaden = true
@@ -26149,11 +26149,11 @@ Il tourne vers vous un regard glacial, comme le verrouillage de cible d'une sous
 « Moi, je m'en souviens. » Son expression est parfaitement immobile.",cutCommLinkNoText:Cut the comm link,
 plReynardHannanJoinSelYes,DialogOptionSelected,"$option == rh_joinLeague
 HA_CMD canJoinLeague
-HA_CMD updateLeagueData",,"Reynard Hannan vous regarde avec approbation. « Les details sont infinis, mais vous n'avez qu'a vous preoccuper du niveau le plus eleve de l'arrangement. Ce n'est pas complexe. »","rh_joinLeague2:""Go on...""",
+HA_CMD updateLeagueData",,"Reynard Hannan vous regarde avec approbation. « Les details sont infinis, mais vous n'avez qu'a vous preoccuper du niveau le plus élevé de l'arrangement. Ce n'est pas complexe. »","rh_joinLeague2:""Go on...""",
 plReynardHannanJoinSelYesVote,DialogOptionSelected,"$option == rh_joinLeague
 HA_CMD canJoinLeague
 HA_CMD updateLeagueData
-$player.toldReynardVoteHimOut",,"« Les details sont infinis, mais vous n'avez qu'a vous preoccuper du niveau le plus eleve de l'arrangement. Ce n'est pas complexe. »
+$player.toldReynardVoteHimOut",,"« Les details sont infinis, mais vous n'avez qu'a vous preoccuper du niveau le plus élevé de l'arrangement. Ce n'est pas complexe. »
 
 Reynard Hannan sourit froidement. « Et il me semble que vous souhaitiez 'me destituer' ? Peut-être aurez-vous votre chance. »","rh_joinLeague2:""Go on...""",
 plReynardHannanJoinSelYes2,DialogOptionSelected,$option == rh_joinLeague2,"Highlight $plDuesPercent
@@ -26164,7 +26164,7 @@ plReynardHannanCommissionPL,JoinLeagueCommissionInfo,Commission hasFactionCommis
 plReynardHannanCommissionOther,JoinLeagueCommissionInfo,Commission hasOtherCommission,FireBest JoinLeagueOptions,"« Vous détenez actuellement une commission de la faction $otherCommissionFaction, » dit-il en fronçant les sourcils. « Un problème, mais pas insurmontable. Résignez cette commission et engagez-vous auprès de la Ligue Persane dans le cadre de l'accord d'adhésion. »
 
 « Certains membres du conseil pourraient s'y opposer, peut-être bruyamment. Mais ils ne chercheront qu'à obtenir des concessions. » Reynard esquisse un petit sourire. « Des affaires de routine, faciles à gérer. »",,
-plReynardHannanCommissionNone,JoinLeagueCommissionInfo,,FireBest JoinLeagueOptions,"« Vous ne detenez la commission d'aucune faction majeure, » dit-il, les yeux rives sur un subtil implant d'interface. « Compte tenu de vos... activites, vous devrez vous engager a accepter une commission de la Ligue Persane dans le cadre de l'accord d'adhesion ; un arrangement standard. »",,
+plReynardHannanCommissionNone,JoinLeagueCommissionInfo,,FireBest JoinLeagueOptions,"« Vous ne detenez la commission d'aucune faction majeure, » dit-il, les yeux rives sur un subtil implant d'interface. « Compte tenu de vos... activités, vous devrez vous engager a accepter une commission de la Ligue Persane dans le cadre de l'accord d'adhesion ; un arrangement standard. »",,
 JoinLeagueOptions,JoinLeagueOptions,,,,"rh_betterDeal:Try to negotiate to have the dues waived
 rh_acceptMembership:Accept League membership on the given terms
 cutCommLink:Decline",
@@ -26432,7 +26432,7 @@ $player.agreedToPayHouseHannanAgain = true
 $player.payingHouseHannan = true
 AddPotentialContact","« Cherissez mon pardon, capitaine. C'est un cadeau rare et precieux. » Il vous toise de haut, d'une manière ou d'une autre, a travers les communications ; imperial.
 
-« Respectez votre part de notre arrangement, ou vos problemes precedents vous paraitront une promenade dans les parcs de Gilead. »",cutCommLinkPolite:End the conversation,
+« Respectez votre part de notre arrangement, ou vos problèmes precedents vous paraitront une promenade dans les parcs de Gilead. »",cutCommLinkPolite:End the conversation,
 # Various refusals to accept payment again,,,,,,
 rh_restartPaymentsRefuse1,DialogOptionSelected,"$option == rh_restartPayments
 $player.agreedToPayHouseHannanAgain score:10","AdjustRepActivePerson INHOSPITABLE -1
@@ -27506,7 +27506,7 @@ ApplyCRDamage $entity.fleetPoints 0.1 1 ""Hegemony investigation""","Les équipe
 
 Les plaintes de vos officiers de $shipOrFleet se heurtent à des non-excuses de marbre et à une obscurcissement bureaucratique. On informe vos officiers que des formulaires de réclamation peuvent être soumis pour demander une compensation pour les dommages « regrettablement inévitables » subis lors de l'inspection, mais « on ne devrait pas attendre de réponse du corps d'investigation avant au moins un cycle ».",hegInvestigationComply2:Continue,"# a weaker fleet will be less destructive, let's say."
 hegInvestigatorComplySel2Wk,DialogOptionSelected,"$option == hegInvestigationComply2
-$entity.relativeStrength < 0",ShowPersonVisual,"Les degats sont, heureusement, essentiellement superficiels. Vos equipages ont cependant un sacre desordre a nettoyer.
+$entity.relativeStrength < 0",ShowPersonVisual,"Les degats sont, heureusement, essentiellement superficiels. Vos équipages ont cependant un sacre desordre a nettoyer.
 
 « Je vous remercie pour votre cooperation malgre les, euh, frictions inevitables du processus, capitaine, » dit le $Post de l'Hégémonie. « Chaque citoyen doit endurer pour notre sécurité collective. »",cutCommLinkNoText:Cut the comm link,
 hegInvestigatorComplySel,DialogOptionSelected,$option == hegInvestigationComply,"ShowImageVisual quartermaster
@@ -27514,7 +27514,7 @@ MakeOtherFleetPreventDisengage hassle false
 ApplyCRDamage $entity.fleetPoints 0.2 1 ""Hegemony investigation""","Les équipes d'inspection sont de véritables vandales, semblant agir avec une malveillance active en arrachant des trappes, fouillant dans des stocks soigneusement organisés, et effectuant des scans de haute puissance directement à travers des groupements d'équipements sensibles malgré les objections de votre équipage technique.
 
 Les plaintes de vos officiers de $shipOrFleet se heurtent à une obscurcissement de marbre. Le mieux que votre ingénieur en chef obtienne, en dehors de la menace d'une incarcération à durée indéterminée, est la suggestion qu'un formulaire de réclamation peut être soumis pour demander une compensation pour les dommages « regrettablement inévitables » subis lors de l'inspection, mais « on ne devrait pas attendre de réponse du corps d'investigation avant au moins un cycle ».",hegInvestigationComply2:Continue,
-hegInvestigatorComplySel2,DialogOptionSelected,$option == hegInvestigationComply2,ShowPersonVisual,"Vos equipages doivent nettoyer un desordre considerable et effectuer les reparations necessaires. Les degats sont, heureusement, essentiellement superficiels.
+hegInvestigatorComplySel2,DialogOptionSelected,$option == hegInvestigationComply2,ShowPersonVisual,"Vos équipages doivent nettoyer un desordre considerable et effectuer les reparations necessaires. Les degats sont, heureusement, essentiellement superficiels.
 
 « Vous pouvez disposer, spacien, » renifle dedaigneusement le $Post de l'Hégémonie. « Ne vous faites pas reprendre ici. »",cutCommLinkNoText:Cut the comm link,
 hegInvestigatorRefuseSel,DialogOptionSelected,$option == hegInvestigationRefuse,"RemoveOption hegInvestigationRefuse
@@ -27760,7 +27760,7 @@ Des millions mourraient, et la clé de voûte stratégique d'une faction majeure
 PKPatherAskWhyYouNot,DialogOptionSelected,$option == pkPather_askWhyYouNot,"$askedWhyNot = true 0
 FireAll PKPatherComOptions","« Certains ont essaye. » $HeOrShe marque une pause, le regard perdu un instant. « Ils ne sont pas revenus. »
 
-Ou que ce soit, ca doit être très dangereux ou d'une manière ou d'une autre au-dela des capacites techniques de la Voie de Ludd.
+Ou que ce soit, ca doit être très dangereux ou d'une manière ou d'une autre au-dela des capacités techniques de la Voie de Ludd.
 
 C'est donc probablement bien garde.",,
 PKPatherAskHowInfo,DialogOptionSelected,$option == pkPather_askHowInfo,"$askedHowKnow = true 0
@@ -27984,7 +27984,7 @@ FireAll PKHackStoryOptions","je me sens accuse de m'être glisse dans vos secret
 
    vous pourriez demander :
    avez-vous
-   contemple les etoiles ?
+   contemple les étoiles ?
 
     je repondrais
 oui
@@ -29317,7 +29317,7 @@ academyFleetConvOptionSel,DialogOptionSelected,$option == academyQuestionStart,S
 $HeOrShe semble presque gêné par cet élan d'idéalisme, « Du moins, c'est l'idée. Il y a toujours des tractations politiques, mais c'est vraiment un terrain neutre pour une bonne cause. Je suis fier de faire ces missions. »","academyQuestionJob:""Does the Academy pay well for transport jobs?""
 academyQuestionWhere:""Where is the Galatia Academy?""
 cutCommLink:Say your farewells and cut the comm link",
-academyFleetConvWhere,DialogOptionSelected,$option == academyQuestionWhere,,"« Eh bien. Ah. C'est dans le système Galatia. » $HeOrShe fait un effort admirable pour ne pas paraitre condescendant(e). « En orbite autour de Pontus. Une vue magnifique, si vous voulez mon avis. Mais j'ai un faible pour les systemes d'anneaux. »","academyQuestionJob:""Does the Academy pay well for transport jobs?""
+academyFleetConvWhere,DialogOptionSelected,$option == academyQuestionWhere,,"« Eh bien. Ah. C'est dans le système Galatia. » $HeOrShe fait un effort admirable pour ne pas paraitre condescendant(e). « En orbite autour de Pontus. Une vue magnifique, si vous voulez mon avis. Mais j'ai un faible pour les systèmes d'anneaux. »","academyQuestionJob:""Does the Academy pay well for transport jobs?""
 cutCommLink:Say your farewells and cut the comm link",
 academyFleetConvJob,DialogOptionSelected,$option == academyQuestionJob,,"« L'Academie n'opere qu'un petit contingent de vaisseaux de recherche dedies, surtout depuis l'incident de l'ISS Enki, » dit $heOrShe. « Alors ils sous-traitent les missions de transport a des independants comme moi. »","academyQuestionPay:""How's the pay?""
 academyQuestionEnki:""What happened to the ISS Enki?""

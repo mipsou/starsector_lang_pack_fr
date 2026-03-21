@@ -1,0 +1,193 @@
+#!/usr/bin/env python3
+"""Fix missing French accents in rules.csv"""
+
+import re
+import sys
+
+CSV_PATH = r"D:\Fractal Softworks\Starsector\mods\starsector_lang_pack_fr_private\.claude\worktrees\objective-bartik\data\campaign\rules.csv"
+
+# Each entry: (compiled_regex, replacement_string, label)
+patterns = []
+
+def add(pattern, replacement, label):
+    patterns.append((re.compile(pattern), replacement, label))
+
+# ── GROUP A — Common words ──
+
+# être — but not fenetre, registre, etc.
+# Use \betre\b which matches standalone "etre" only
+add(r'\betre\b', 'être', 'etre→être')
+add(r'\bEtre\b', 'Être', 'Etre→Être')
+
+# été — standalone only
+add(r'\bete\b', 'été', 'ete→été')
+add(r'\bEte\b', 'Été', 'Ete→Été')
+
+add(r'\betait\b', 'était', 'etait→était')
+add(r'\bEtait\b', 'Était', 'Etait→Était')
+add(r'\betais\b', 'étais', 'etais→étais')
+add(r'\betaient\b', 'étaient', 'etaient→étaient')
+add(r'\bEtaient\b', 'Étaient', 'Etaient→Étaient')
+
+add(r'\betes\b', 'êtes', 'etes→êtes')
+add(r'\bEtes\b', 'Êtes', 'Etes→Êtes')
+
+add(r'\betant\b', 'étant', 'etant→étant')
+add(r'\bEtant\b', 'Étant', 'Etant→Étant')
+
+add(r'\bdeja\b', 'déjà', 'deja→déjà')
+add(r'\bDeja\b', 'Déjà', 'Deja→Déjà')
+
+add(r'\btres\b', 'très', 'tres→très')
+add(r'\bTres\b', 'Très', 'Tres→Très')
+
+add(r'\bdesole\b', 'désolé', 'desole→désolé')
+add(r'\bDesolé\b', 'Désolé', 'Desolé→Désolé')  # partial accent
+add(r'\bDesole\b', 'Désolé', 'Desole→Désolé')
+add(r'\bdesolee\b', 'désolée', 'desolee→désolée')
+add(r'\bdesoles\b', 'désolés', 'desoles→désolés')
+add(r'\bdesolees\b', 'désolées', 'desolees→désolées')
+
+# ── GROUP B — Words ending in -iere/-ieres ──
+for word, accented in [
+    ('maniere', 'manière'), ('lumieres?', None), ('lumiere', 'lumière'),
+    ('derriere', 'derrière'), ('premiere', 'première'),
+    ('derniere', 'dernière'), ('entiere', 'entière'),
+    ('matiere', 'matière'), ('carriere', 'carrière'),
+    ('frontiere', 'frontière'), ('poussiere', 'poussière'),
+    ('priere', 'prière'),
+]:
+    if accented is None:
+        continue
+    # singular
+    add(r'\b' + word + r'\b', accented, f'{word}→{accented}')
+    # capitalized
+    cap_word = word[0].upper() + word[1:]
+    cap_accented = accented[0].upper() + accented[1:]
+    add(r'\b' + cap_word + r'\b', cap_accented, f'{cap_word}→{cap_accented}')
+    # plural
+    add(r'\b' + word + r's\b', accented + 's', f'{word}s→{accented}s')
+    cap_words = cap_word + 's'
+    add(r'\b' + cap_words + r'\b', cap_accented + 's', f'{cap_words}→{cap_accented}s')
+
+# ── GROUP C — Words ending in -eme/-emes ──
+for word, accented in [
+    ('systeme', 'système'), ('probleme', 'problème'),
+]:
+    add(r'\b' + word + r'\b', accented, f'{word}→{accented}')
+    add(r'\b' + word + r's\b', accented + 's', f'{word}s→{accented}s')
+    cap_word = word[0].upper() + word[1:]
+    cap_accented = accented[0].upper() + accented[1:]
+    add(r'\b' + cap_word + r'\b', cap_accented, f'{cap_word}→{cap_accented}')
+    add(r'\b' + cap_word + r's\b', cap_accented + 's', f'{cap_word}s→{cap_accented}s')
+
+# ── GROUP D — Circumflex words ──
+add(r'\bcontrole\b', 'contrôle', 'controle→contrôle')
+add(r'\bControle\b', 'Contrôle', 'Controle→Contrôle')
+add(r'\bcontroles\b', 'contrôles', 'controles→contrôles')
+add(r'\bcontroler\b', 'contrôler', 'controler→contrôler')
+add(r'\bcontrolee\b', 'contrôlée', 'controlee→contrôlée')
+add(r'\bcontrolees\b', 'contrôlées', 'controlees→contrôlées')
+add(r'\bcontrolez\b', 'contrôlez', 'controlez→contrôlez')
+
+add(r'\brole\b', 'rôle', 'role→rôle')
+add(r'\bRole\b', 'Rôle', 'Role→Rôle')
+add(r'\broles\b', 'rôles', 'roles→rôles')
+add(r'\bRoles\b', 'Rôles', 'Roles→Rôles')
+
+add(r'\bdiplome\b', 'diplôme', 'diplome→diplôme')
+add(r'\bdiplomes\b', 'diplômes', 'diplomes→diplômes')
+
+add(r'\bcote\b', 'côté', 'cote→côté')
+add(r'\bCote\b', 'Côté', 'Cote→Côté')
+add(r'\bcotes\b', 'côtés', 'cotes→côtés')
+
+add(r'\bgrace a\b', 'grâce à', 'grace a→grâce à')
+add(r'\bGrace a\b', 'Grâce à', 'Grace a→Grâce à')
+add(r'\bgrace au\b', 'grâce au', 'grace au→grâce au')
+add(r'\bGrace au\b', 'Grâce au', 'Grace au→Grâce au')
+
+# ── GROUP E — Words ending in -ite/-ité ──
+for word, accented in [
+    ('securite', 'sécurité'), ('verite', 'vérité'),
+    ('societe', 'société'), ('realite', 'réalité'),
+    ('capacite', 'capacité'), ('liberte', 'liberté'),
+    ('qualite', 'qualité'), ('opportunite', 'opportunité'),
+    ('activite', 'activité'), ('volonte', 'volonté'),
+    ('beaute', 'beauté'), ('cruaute', 'cruauté'),
+]:
+    add(r'\b' + word + r'\b', accented, f'{word}→{accented}')
+    add(r'\b' + word + r's\b', accented + 's', f'{word}s→{accented}s')
+    cap_word = word[0].upper() + word[1:]
+    cap_accented = accented[0].upper() + accented[1:]
+    add(r'\b' + cap_word + r'\b', cap_accented, f'{cap_word}→{cap_accented}')
+
+# nécessité + verb forms
+add(r'\bnecessite\b', 'nécessité', 'necessite→nécessité')
+add(r'\bNecessite\b', 'Nécessité', 'Necessite→Nécessité')
+add(r'\bnecessiter\b', 'nécessiter', 'necessiter→nécessiter')
+add(r'\bnecessitent\b', 'nécessitent', 'necessitent→nécessitent')
+add(r'\bnecessitait\b', 'nécessitait', 'necessitait→nécessitait')
+
+# ── GROUP F — Other common missing accents ──
+group_f = [
+    ('equipe', 'équipe'), ('equipes', 'équipes'),
+    ('equipage', 'équipage'), ('equipages', 'équipages'),
+    ('energie', 'énergie'), ('energies', 'énergies'),
+    ('etoile', 'étoile'), ('etoiles', 'étoiles'),
+    ('etat', 'état'), ('etats', 'états'),
+    ('evenement', 'événement'), ('evenements', 'événements'),
+    ('etranger', 'étranger'), ('etrangere', 'étrangère'),
+    ('etrangers', 'étrangers'), ('etrangeres', 'étrangères'),
+    ('epave', 'épave'), ('epaves', 'épaves'),
+    ('equipement', 'équipement'), ('equipements', 'équipements'),
+    ('eleve', 'élevé'), ('echange', 'échange'), ('echanges', 'échanges'),
+    ('eviter', 'éviter'), ('ecraser', 'écraser'),
+    ('electronique', 'électronique'), ('electroniques', 'électroniques'),
+    ('eliminer', 'éliminer'), ('emission', 'émission'), ('emissions', 'émissions'),
+]
+
+for word, accented in group_f:
+    add(r'\b' + word + r'\b', accented, f'{word}→{accented}')
+    # Also handle capitalized versions
+    cap_word = word[0].upper() + word[1:]
+    cap_accented = accented[0].upper() + accented[1:]
+    add(r'\b' + cap_word + r'\b', cap_accented, f'{cap_word}→{cap_accented}')
+
+# ── Read, process, write ──
+print(f"Reading {CSV_PATH}...")
+with open(CSV_PATH, 'r', encoding='utf-8', newline='') as f:
+    content = f.read()
+
+original_len = len(content)
+total_replacements = 0
+results = []
+
+for regex, replacement, label in patterns:
+    count = len(regex.findall(content))
+    if count > 0:
+        content = regex.sub(replacement, content)
+        total_replacements += count
+        results.append((label, count))
+
+# Write back
+with open(CSV_PATH, 'w', encoding='utf-8', newline='') as f:
+    f.write(content)
+
+# Summary
+print(f"\n{'='*60}")
+print(f"  ACCENT FIX SUMMARY")
+print(f"{'='*60}")
+print(f"  File: rules.csv")
+print(f"  Original size: {original_len:,} chars")
+print(f"  New size: {len(content):,} chars")
+print(f"  Total replacements: {total_replacements}")
+print(f"{'='*60}")
+if results:
+    print(f"  {'Pattern':<35} {'Count':>6}")
+    print(f"  {'-'*35} {'-'*6}")
+    for label, count in sorted(results, key=lambda x: -x[1]):
+        print(f"  {label:<35} {count:>6}")
+else:
+    print("  No replacements needed.")
+print(f"{'='*60}")
