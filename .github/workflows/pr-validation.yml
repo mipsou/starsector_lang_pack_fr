@@ -41,6 +41,8 @@ jobs:
           # Scan TOUS les fichiers modifiés — aucune exclusion par dossier
           git diff --name-only origin/${{ github.base_ref }}..HEAD | while read file; do
             [ -z "$file" ] && continue
+            # Workflows : vérifiés par le check "workflow integrity" séparé
+            if [[ "$file" == .github/workflows/* ]]; then continue; fi
             # Fichiers de traduction (.csv, .json dans data/) : scan uniquement les patterns forts
             if [[ "$file" == data/*.csv || "$file" == data/*.json || "$file" == localization/* ]]; then
               if git diff origin/${{ github.base_ref }}..HEAD -- "$file" | grep -iE '(password\s*[:=]|api[_-]?key\s*[:=]|BEGIN (RSA |OPENSSH )?PRIVATE KEY|AKIA[0-9A-Z]{16})'; then
