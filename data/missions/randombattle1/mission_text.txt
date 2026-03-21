@@ -1,6 +1,6 @@
-Location: Somewhere in the Mediosolar Expanse
-Date: Unknown
+Lieu : Quelque part dans l'Étendue Médiosolaire
+Date : Inconnue
 
-Helm a capital ship in this mission pitting two equally matched, randomly-generated fleets against each other.
+Pilotez un vaisseau capital dans cette mission opposant deux flottes générées aléatoirement de force égale.
 
-Click on the mission in the list to re-roll the fleets.
+Cliquez sur la mission dans la liste pour regénérer les flottes.
