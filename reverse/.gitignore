@@ -1,0 +1,14 @@
+# JAR propriétaires Fractal Softworks — NE PAS COMMITER
+jars/vanilla/
+jars/extracted/
+
+# Code décompilé — copyright Fractal Softworks
+decompiled/
+
+# Outils téléchargés (binaires)
+tools/*.jar
+tools/*.zip
+
+# Fichiers temporaires
+*.class
+*.tmp
