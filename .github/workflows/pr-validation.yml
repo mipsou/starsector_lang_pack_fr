@@ -13,7 +13,7 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
@@ -25,7 +25,8 @@ jobs:
             if [[ "$commit_msg" =~ ^Merge.* ]]; then
               continue
             fi
-            if ! echo "$commit_msg" | grep -qE '^(feat|fix|docs|style|refactor|test|chore|ci|release)(\([a-z-]+\))?: .+$'; then
+            # Regex permissive : type(scope): message — accepte Unicode dans le message
+            if ! echo "$commit_msg" | grep -qP '^(feat|fix|docs|style|refactor|test|chore|ci|release)(\([a-z0-9_-]+\))?: .+$'; then
               echo "❌ Format invalide : $commit_msg"
               echo "Format attendu : type(scope): message"
               exit 1
@@ -37,8 +38,11 @@ jobs:
         run: |
           git fetch origin ${{ github.base_ref }}
           git diff --name-only origin/${{ github.base_ref }}..HEAD | while read file; do
+            # Exclure workflows, fichiers de données jeu (contiennent "secret" dans les dialogues)
             if [[ "$file" == .github/workflows/* ]]; then continue; fi
-            if git diff origin/${{ github.base_ref }}..HEAD -- "$file" | grep -iE '(password|api[_-]?key|secret|credentials)'; then
+            if [[ "$file" == data/* ]]; then continue; fi
+            if [[ "$file" == localization/* ]]; then continue; fi
+            if git diff origin/${{ github.base_ref }}..HEAD -- "$file" | grep -iE '(password|api[_-]?key|secret[_-]?key|credentials)'; then
               echo "❌ Données sensibles dans $file"
               exit 1
             fi

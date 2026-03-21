@@ -53,30 +53,34 @@ jobs:
           fi
           echo "✅ Pas d'apostrophe typographique"
 
-      - name: Validate JSON syntax
+      - name: Validate JSON syntax (Starsector JSONC)
         run: |
-          echo "Validation syntaxe JSON..."
+          echo "Validation syntaxe Starsector JSONC..."
+          echo "Note: Starsector utilise un JSON relaxé (clés sans guillemets, références [TAG], # commentaires)"
+          echo "Seul un contrôle basique de structure est effectué"
           failed=0
           for file in $(find data -name "*.json" -not -path "*/test/*" -not -path "*/.git/*" 2>/dev/null); do
             if ! python3 -c "
-          import json, re, sys
+          import re, sys
           with open(sys.argv[1], 'r', encoding='utf-8') as f:
               raw = f.read()
+          # Strip comments
           clean = re.sub(r'#[^\n]*', '', raw)
-          clean = re.sub(r',\s*([}\]])', r'\1', clean)
-          try:
-              json.loads(clean)
-          except:
+          # Check basic bracket matching
+          opens = clean.count('{') + clean.count('[')
+          closes = clean.count('}') + clean.count(']')
+          if abs(opens - closes) > 0:
+              print(f'Brackets mismatch: {opens} open vs {closes} close')
               sys.exit(1)
           " "$file" 2>/dev/null; then
-              echo "❌ JSON invalide : $file"
+              echo "❌ Structure invalide : $file"
               failed=1
             fi
           done
           if [ "$failed" -eq 1 ]; then
             exit 1
           fi
-          echo "✅ Tous les JSON sont valides"
+          echo "✅ Structure JSONC valide"
 
       - name: Check for untranslated markers
         run: |
