@@ -189,7 +189,7 @@
 		"chmWeaponGroups_dismiss": "Pas maintenant",
 		"chmOpenTrade_text": "Dans l'ecran de cargaison/echange, vous pouvez :\n\n- Clic gauche pour prendre un lot\n- Maj+clic pour prendre les objets d'un lot un par un\n- Maj+clic maintenu, puis glisser pour prendre une quantite specifique\n- Ctrl+clic pour transferer un lot entier sans le prendre en main",
 		"chmOpenTrade_dismiss": "Compris",
-		"chmHyperStorm_text": "Votre flotte a ete frappee par une tempete hyperspaciale ! L'un de vos vaisseaux a subi des degats et son aptitude au combat a ete reduite.\n\nLes tempetes peuvent aussi devier votre flotte de sa trajectoire, mais la \"Propulsion d'urgence\" permet a votre flotte de corriger plus facilement sa course et de traverser les tempetes.",
+		"chmHyperStorm_text": "Votre flotte a ete frappee par une tempete hyperspaciale ! L'un de vos vaisseaux a subi des degats et son aptitude au combat a ete reduite.\n\nLes tempetes peuvent aussi devier votre flotte de sa trajectoire, mais la «Propulsion d'urgence» permet a votre flotte de corriger plus facilement sa course et de traverser les tempetes.",
 		"chmHyperStorm_dismiss": "Compris",
 		"chmShipPurchase_text": "Felicitations, vous venez d'acheter un nouveau vaisseau !\n\nIl n'a ni armes ni modifications de coque installees, il est donc recommande de l'equiper.\n\nVous devrez aussi vous assurer d'avoir suffisamment de personnel pour l'armer.",
 		"chmShipPurchase_action": "Ouvrir l'ecran d'equipement",
