@@ -1,0 +1,4 @@
+Test d'encodage UTF-8
+Caractères spéciaux : éèêëàâäôöûüùÿçÉÈÊËÀÂÄÔÖÛÜÙŸÇ
+Symboles : €£¥©®™
+Ponctuation : « » " " … '
