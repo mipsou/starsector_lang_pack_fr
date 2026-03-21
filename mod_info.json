@@ -1,6 +1,6 @@
 {
-  "id": "starsector_lang_pack_fr",
-  "name": "Starsector Language Pack - French",
+  "id": "starsector_lang_pack_fr_dev",
+  "name": "Starsector Language Pack - French [DEV]",
   "author": "mipsou",
   "totalConversion": "false",
   "utility": "true",
@@ -34,7 +34,6 @@
 
     "data/config/battle_objectives.json",
     "data/config/contact_tag_data.json",
-    "data/config/custom_entities.json",
     "data/config/planets.json",
     "data/config/tag_data.json",
 
