@@ -1,9 +1,9 @@
 {
 	id:"persean",
-	"displayName":"Ligue Perseenne",
-	"displayNameWithArticle":"la Ligue Perseenne",
-	"displayNameLong":"Ligue Perseenne",
-	"displayNameLongWithArticle":"la Ligue Perseenne",
+	"displayName":"Ligue Persane",
+	"displayNameWithArticle":"la Ligue Persane",
+	"displayNameLong":"Ligue Persane",
+	"displayNameLongWithArticle":"la Ligue Persane",
 	"ranks":{
 		"ranks":{
 			"spaceCommander":{"name":"Navarque"},
