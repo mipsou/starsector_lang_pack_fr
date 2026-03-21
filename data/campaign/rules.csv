@@ -2353,7 +2353,7 @@ La liaison comm est coupée avant que vous ayez la chance de répondre.",0:tOff_
 
 Ce n'est cependant pas suffisant pour agir. En conséquence, $personRank $personName semble mécontent.
 
-""On se reverra, soyez-en certain,"" grince-t-$ilOrElle avant de couper la communication.",0:tOff_cleanCont1:Continuer,
+""On se reverra, soyez-en certain,"" grince-t-$heOrShe avant de couper la communication.",0:tOff_cleanCont1:Continuer,
 tOffCargoScanBoarding1,TOffScanResult,$scan_suspiciousCargoFound,,"Le scan ne révèle aucune contrebande apparente, mais il y a suffisamment de soupçons quant à votre implication dans des activités de marché noir pour que le commandant de la patrouille ne s'en satisfasse pas.
 
 ""Préparez-vous à recevoir une équipe d'abordage. Nous allons procéder à une inspection très minutieuse, en bonne et due forme.""
@@ -2429,7 +2429,7 @@ La liaison comm est coupée avant que vous ayez la chance de répondre.",0:cargo
 
 Ce n'est cependant pas suffisant pour agir. En conséquence, $personRank $personName semble mécontent.
 
-""On se reverra, soyez-en certain,"" grince-t-$ilOrElle avant de couper la communication.",0:cargoScan_cleanCont:Continuer,
+""On se reverra, soyez-en certain,"" grince-t-$heOrShe avant de couper la communication.",0:cargoScan_cleanCont:Continuer,
 cargoScanBoarding1,CargoScanResult,$scan_suspiciousCargoFound,,"Le scan ne révèle aucune contrebande apparente, mais il y a suffisamment de soupçons quant à votre implication dans des activités de marché noir pour que le commandant de la patrouille ne s'en satisfasse pas.
 
 ""Préparez-vous à recevoir une équipe d'abordage. Nous allons procéder à une inspection très minutieuse, en bonne et due forme.""
@@ -2642,7 +2642,7 @@ AddText ""There is a bit of a stir on your bridge. Your tactical officer re-quer
 AddText ""Your sensors officer takes longer than usual to respond, speaking very carefully. \""With respect. Readings taken in hyperspace are intrinsically imprecise. Our euclidean display framework is only a... an interpretation by our best expert systems.\"" They wave toward the current readings. \""It was clearly just a blip.\"" They nod without making eye contact with tactical. \""A hyperspace blip. Yes.\""""",,,
 ,,,,,,
 # Explore/Leave options and actions,,,,,,
-sal_defaultLeave1,PopulateSalvageOptions1,,SetShortcut defaultLeave ESCAPE,,100:defaultLeave:$salvagePartirText,
+sal_defaultLeave1,PopulateSalvageOptions1,,SetShortcut defaultLeave ESCAPE,,100:defaultLeave:$salvageLeaveText,
 sal_explore,PopulateSalvageOptions1,$customType != debris_field_shared,,,0:salExplore:Explorer,
 sal_assess,PopulateSalvageOptions1,$customType == debris_field_shared,,,0:salExplore:Évaluer,
 sal_defenders,DialogOptionSelected,"$option == salExplore
@@ -2681,8 +2681,8 @@ sal_specialFinishedNoContinue,SalvageSpecialFinishedNoContinue,,FireBest BeginSa
 # Actual salvage process,,,,,,
 sal_showRatingAndCost,BeginSalvage,,"SalvageEntity showCost
 FireAll PopulateSalvageOptions2",,,
-sal_showRatingAndCostUnable,BeginSalvage,$canNotSalvage,,,100:defaultLeave:$salvagePartirText,
-sal_optionLeave,PopulateSalvageOptions2,,SetShortcut defaultLeave ESCAPE,,100:defaultLeave:$salvagePartirText,
+sal_showRatingAndCostUnable,BeginSalvage,$canNotSalvage,,,100:defaultLeave:$salvageLeaveText,
+sal_optionLeave,PopulateSalvageOptions2,,SetShortcut defaultLeave ESCAPE,,100:defaultLeave:$salvageLeaveText,
 #sal_optionSalvageDisabledCost,PopulateSalvageOptions2,"!$canSalvage
 !$canAffordSalvage
 $canDoSalvageRating","SetEnabled salSalvage false
@@ -11548,7 +11548,7 @@ L'archonte se redresse, ""Donc je vous assure, capitaine, vous n'avez rien à cr
 ",
 gaFCArchonAskGalOption1,gaFCArchonAskGalOptions,$global.gaFC_knowWhereScyllaIs,,,"gaFC_archonConfront:""J'ai la preuve que Scylla Coureuse est sur cette station.""",
 gaFCArchonAskGalOption2,gaFCArchonAskGalOptions,,,,"gaFC_archonSearchRestEasy:""Bon à savoir. Je dormirai tranquille.""",
-gaFCArchonSearchRestEasy,DialogOptionSelected,$option == gaFC_archonSearchRestEasy,FireAll gaFCArchonSearchHubOption,"""Heureux$eOrBlank de rendre service,"" dit-$heOrShe d'un ton sec.",,
+gaFCArchonSearchRestEasy,DialogOptionSelected,$option == gaFC_archonSearchRestEasy,FireAll gaFCArchonSearchHubOption,"""Heureux de rendre service,"" dit-$heOrShe d'un ton sec.",,
 gaFCArchonAskGalOption3,gaFCArchonAskGalOptions,!$global.gaFC_knowWhereScyllaIs,,,"gaFC_archonConfrontFail:""Et si Coureuse était sur cette station - en ce moment même ?""",
 gaFCArchonConfrontFail,DialogOptionSelected,$option == gaFC_archonConfrontFail,,"$HeOrShe a l'air nerveux. ""Je ne vois pas de quoi vous parlez, capitaine. Sans une quelconque preuve de... Euh. Ecoutez, j'ai un autre rendez-vous. Bonne journée, capitaine.""
 
@@ -11653,7 +11653,7 @@ $tag:comm_relay
 !$cob_hacked
 !$objectiveNonFunctional
 #$faction.id == persean
-IsSeenByAnyFleet",ShowDefaultVisual,"Votre $shipOrFleet a récemment été détecté$eOrBlank - ou est actuellement pisté$eOrBlank par - une flotte à proximité, rendant un piratage discret impossible.",defaultLeave:Partir,
+IsSeenByAnyFleet",ShowDefaultVisual,"Votre $shipOrFleet a récemment été détecté - ou est actuellement pisté par - une flotte à proximité, rendant un piratage discret impossible.",defaultLeave:Partir,
 gaFC_relayInstallHack0,DialogOptionSelected,$option == gaFC_installHack,,"Une équipe de deux spationautes monte sur un drone de maintenance jusqu'au relais et fait une découpe rapide de la coque pour accéder à une connexion de données physique. En moins d'une minute, l'algorithme d'espionnage est déployé, la coque rescellée, et l'équipe d'opérations revient.
 
 Maintenant, vous attendez qu'il fasse son travail.",gaFC_installHack1:Continuer,
@@ -11742,7 +11742,7 @@ Prochaine étape, la Station de l'Académie Galatia. Baird obtient toujours ce q
 # gaFC Scylla Coureuse back to Galatia Academy,,,,,,
 gaFCReturnToAcademy,OpenInteractionDialog,$market.gaFC_returnHere score:2000,"$global.foundCoureuse = true
 ShowDefaultVisual
-SetPersonHidden coureuse false","Votre $shipOrFleet est interrompu$eOrBlank au milieu d'une séquence d'approche standard ; au lieu du bavardage habituel du contrôle du trafic, votre vaisseau amiral reçoit une demande de comm directement du bureau du Prévôt.
+SetPersonHidden coureuse false","Votre $shipOrFleet est interrompu au milieu d'une séquence d'approche standard ; au lieu du bavardage habituel du contrôle du trafic, votre vaisseau amiral reçoit une demande de comm directement du bureau du Prévôt.
 
 ""Capitaine,"" rapporte votre officier comm. ""Elle veut vous parler.""",gaFC_return1:Ouvrir un canal,
 gaFCReturnToAcademy1,DialogOptionSelected,$option == gaFC_return1,ShowPersonVisual false baird,"L'image de la Prévôt Anahita Baird apparaît.
@@ -18368,7 +18368,7 @@ FireAll PopulateOptions","Après une courte attente, votre demande de connexion 
 
 ""Communication ouverte,"" $heOrShe fait un double regard. ""$PlayerName. Capitaine.""
 
-""Votre $shipOrFleet a été associé à des manœuvres hyperespace anormales,"" dit-$ilOrElle comme récitant un rapport de renseignement. ""Pas de tels écarts aujourd'hui.""
+""Votre $shipOrFleet a été associé à des manœuvres hyperespace anormales,"" dit-$heOrShe comme récitant un rapport de renseignement. ""Pas de tels écarts aujourd'hui.""
 
 $Rank $personLastName se redresse, reprenant contenance. ""Canal ouvert, exposez votre requête.""",,
 #convPlayerKnowsTJGreetingFaithful,PickGreeting,"!$contact_printedFirstReturnGreeting
@@ -18432,7 +18432,7 @@ FireAll PopulateOptions","Après une courte attente, votre demande de connexion 
 
 ""Oh ! Je suis sceptique de nature, mais on m'a affirmé de source assez fiable que vous avez maîtrisé une technique pour bondir dans et hors de l'hyperespace sans engagement avec une conjonction de Durand-Patel."" $HeOrShe réfléchit un instant, ""Je n'y croirai que lorsque je recevrai des journaux de capteurs. En triple exemplaire.""
 
-$personName commence à tapoter des boutons, perdu dans ses pensées. Vous jugez préférable de commencer votre requête avant qu'$ilOrElle ne se laisse davantage distraire.",,
+$personName commence à tapoter des boutons, perdu dans ses pensées. Vous jugez préférable de commencer votre requête avant qu'$heOrShe ne se laisse davantage distraire.",,
 #convPlayerKnowsTJGreetingVillain,PickGreeting,"!$contact_printedFirstReturnGreeting
 $voice == villain","$reactedPlayerKnowsTJ = true 90
 $contact_printedFirstReturnGreeting = true 0
@@ -18441,7 +18441,7 @@ FireAll PopulateOptions","Après une courte attente, votre demande de connexion 
 
 ""$PlayerName, évidemment que c'est vous."" $HeOrShe affiche un sourire carnassier, ""La rumeur dit que vous sautez dans et hors de l'hyperespace sans grand égard pour la position des points de saut."" $PersonName agite un doigt vers vous, ""Petit garnement. Qu'en penseront les autorités ?""
 
-""Naturellement, je ne critique aucunement votre ingéniosité,"" continue-t-$ilOrElle magnanimement, ""Permettez-moi de vous accueillir dans ma modeste orbite en tant que... âme sœur.""",,
+""Naturellement, je ne critique aucunement votre ingéniosité,"" continue-t-$heOrShe magnanimement, ""Permettez-moi de vous accueillir dans ma modeste orbite en tant que... âme sœur.""",,
 ,,,,,,
 ,,,,,,
 ,,,,,,
@@ -24370,7 +24370,7 @@ RepGTE pirates FRIENDLY",,"""Un agent ?"" $HeOrShe a l'air soupçonneux, ""Si vo
 $HeOrShe est distrait un instant",,# might do this tangent some other time. -dgb
 sdtuUmbraAskAgentQM,DialogOptionSelected,"$option == sdtu_umbraAskAgent
 $postId ==  supplyOfficer","$askedAboutAgent = true 1
-RemoveOption sdtu_umbraAskAgent","$HeOrShe est pris$eOrE de court. ""Un agent ? Ici ? Je... je ne vois pas de quoi vous parlez. Je n'ai pas ce genre d'autorite.""",,
+RemoveOption sdtu_umbraAskAgent","$HeOrShe est prise de court. ""Un agent ? Ici ? Je... je ne vois pas de quoi vous parlez. Je n'ai pas ce genre d'autorite.""",,
 #sdtuUmbraThreatCheck,SDTUCheckCanThreatenUmbra,"$player.maxCombatHullSize < 4
 $player.fleetPoints <= 50","SetEnabled sdtu_umbraThreatFleet false
 SetTooltip sdtu_umbraThreatFleet ""Requires a larger fleet and at least one non-civilian capital ship.""",,,
@@ -26668,14 +26668,14 @@ ttMakeDealOptSelContactLowTrust,DialogOptionSelected,"$option == ttMakeDeal
 $isContact
 $player.untrustworthy > 2",,"Vous exposez votre point de vue sur la situation. Le $Post de Tri-Tachyon semble, si possible, de plus en plus sceptique.
 
-""Ce que nous avons ici, c'est un petit 'déficit de confiance'. Vous avez rompu des accords très importants conclus avec diverses parties. Cela complique la proposition. Mais je crois que nous pouvons minimiser ce malentendu,"" explique-t-$ilOrElle, la voix réchauffée par une formation en protocole de relations clients.
+""Ce que nous avons ici, c'est un petit 'déficit de confiance'. Vous avez rompu des accords très importants conclus avec diverses parties. Cela complique la proposition. Mais je crois que nous pouvons minimiser ce malentendu,"" explique-t-$heOrShe, la voix réchauffée par une formation en protocole de relations clients.
 
-""La corporation Tri-Tachyon a une expérience de travail avec les difficultés de relations publiques post-crise, et je soupçonne que certains dirigeants pourraient être persuadés de parvenir à un arrangement concernant vos actions passées."" $IlOrElle sourit avec éclat. ""Après tout, l'une de nos valeurs fondamentales est de 'penser en dehors du cadre'.""
+""La corporation Tri-Tachyon a une expérience de travail avec les difficultés de relations publiques post-crise, et je soupçonne que certains dirigeants pourraient être persuadés de parvenir à un arrangement concernant vos actions passées."" $HeOrShe sourit avec éclat. ""Après tout, l'une de nos valeurs fondamentales est de 'penser en dehors du cadre'.""
 
-$SonOrSa contenance bascule de manière fluide en mode négociation, ""Donc si vous me permettez de vous présenter une modeste proposition...""",ttMakeDeal2:Examiner la proposition,
+$HisOrHer contenance bascule de manière fluide en mode négociation, ""Donc si vous me permettez de vous présenter une modeste proposition...""",ttMakeDeal2:Examiner la proposition,
 ttMakeDealOptSelContact2,DialogOptionSelected,$option == ttMakeDeal2,"SetTextHighlights ""increased accessibility""","$PersonName passe en revue un ensemble de conditions. Partage de données sur certaines cartes de navigation et projections de cours des matières premières, protocoles de sécurité mutuels pour les flottes commerciales, arrangements partagés d'entretien en vol et à quai. En résumé, cela revient à une accessibilité accrue pour le commerce de vos colonies en fonction de la taille du marché - et, proportionnellement, pour Tri-Tachyon également.
 
-""'Cartel' est un mot tellement déplaisant,"" dit $ilOrElle. ""Je préfère - et le Marketing est d'accord là-dessus - considérer notre proposition comme un partenariat stratégique qui augmentera la valeur actionnariale de Tri-Tachyon, améliorera la satisfaction client, et,"" $ilOrElle sourit avidement, ""nous rapportera beaucoup de crédits à tous les deux.""","ttDealConfirm:Confirmer le marché
+""'Cartel' est un mot tellement déplaisant,"" dit $heOrShe. ""Je préfère - et le Marketing est d'accord là-dessus - considérer notre proposition comme un partenariat stratégique qui augmentera la valeur actionnariale de Tri-Tachyon, améliorera la satisfaction client, et,"" $heOrShe sourit avidement, ""nous rapportera beaucoup de crédits à tous les deux.""","ttDealConfirm:Confirmer le marché
 cutCommLink:Couper la comm",
 ttMakeDealOptSelContactConfirm,DialogOptionSelected,$option == ttDealConfirm,HA_CMD makeTriTachDeal,"""Ce fut un plaisir de faire affaire avec vous, $playerName. Je suis ravi que nous puissions mettre à profit toute cette désagréable histoire derrière nous.""",cutCommLink:Couper la comm,
 ttMakeDealOptSelContactArroyo,DialogOptionSelected,"$option == ttMakeDeal
@@ -26719,11 +26719,11 @@ $faction.id == tritachyon
 !$faction.ttProblemsAsked
 $id != arroyo
 $id != sun","SetTooltip ttTriTachProblems ""Discuss possible solutions to Tri-Tachyon sending mercenaries to harass your colonies and fleets.""",,"ttTriTachProblems:""Je souhaite déposer une plainte concernant l'ingérence de Tri-Tachyon dans mes opérations.""",
-ttVIPCounterRaidingSel0,DialogOptionSelected,$option == ttTriTachProblems,$faction.ttProblemsAsked = true 90,"$IlOrElle sourit automatiquement.
+ttVIPCounterRaidingSel0,DialogOptionSelected,$option == ttTriTachProblems,$faction.ttProblemsAsked = true 90,"$HeOrShe sourit automatiquement.
 
 ""Tri-Tachyon défend la philosophie selon laquelle s'engager dans une compétition saine - voire vigoureuse - dans le domaine du commerce interstellaire est dans le meilleur intérêt de nos clients comme de nos investisseurs. Nous sommes sincèrement désolés pour tout désagrément que vous auriez pu subir.""
 
-$IlOrElle laisse tomber le sourire. ""Bien que je doive souligner que toute condoléance que j'offre est purement dans l'intérêt d'un soutien émotionnel généralisé et ne saurait être considérée comme une admission de culpabilité juridiquement contraignante concernant des activités jugées illégales au titre de l'Accord sur les Normes Commerciales du Secteur Persan. En raison de la nature de votre accusation implicite, le protocole de l'entreprise ne me permet pas d'engager de discussion supplémentaire sur ce sujet.""
+$HeOrShe laisse tomber le sourire. ""Bien que je doive souligner que toute condoléance que j'offre est purement dans l'intérêt d'un soutien émotionnel généralisé et ne saurait être considérée comme une admission de culpabilité juridiquement contraignante concernant des activités jugées illégales au titre de l'Accord sur les Normes Commerciales du Secteur Persan. En raison de la nature de votre accusation implicite, le protocole de l'entreprise ne me permet pas d'engager de discussion supplémentaire sur ce sujet.""
 
 ""Tri-Tachyon,"" le sourire revient, ""vous souhaite une journée sûre et profitable.""
 
@@ -26854,7 +26854,7 @@ MakeOtherFleetPreventDisengage hassle false
 FireAll MostLuddicEthosRefresh
 #FireAll LCProtectorOptions","""Nous, Chevaliers de Ludd, vous saluons ; bénis sommes-nous de servir comme gardiens des Fidèles de ce volume qui ne peuvent se protéger eux-mêmes.""
 
-""Priez avec nous pour que vous veniez ici apporter votre aide... à votre manière."" Il y a un tremblement tout juste perceptible dans la voix du $post. $IlOrElle réalise peut-être que les Chevaliers outrepassent quelque peu leurs droits ici.
+""Priez avec nous pour que vous veniez ici apporter votre aide... à votre manière."" Il y a un tremblement tout juste perceptible dans la voix du $post. $HeOrShe réalise peut-être que les Chevaliers outrepassent quelque peu leurs droits ici.
 
 ""Nous prions pour que votre $shipOrFleet, aussi puissant soit-il, chasse ceux qui voudraient troubler et assaillir les Fidèles sans défense.""",cutCommLinkNoText:Couper la comm,
 lcSacredProtectorsChurchCom,LCProtectorOptions,"$player.fcm_faction == luddic_church
@@ -26888,11 +26888,11 @@ LCP_butHaveCom,DialogOptionSelected,$option == LCP_butHaveCom,$saidHaveCom = tru
 
 ""...Bien sur, oui. Nous sommes benis que vous marchiez avec nous. étant donne votre engagement envers la Sainte Eglise, vous comprenez surement la nécessité de la dime.""",,
 LCP_butHaveCom2,DialogOptionSelected,$option == LCP_butHaveCom2,"AdjustRepActivePerson INHOSPITABLE -2
-MakeOtherFleetPreventDisengage hassle false","Le Chevalier reste immobile pendant un long moment inconfortable. Vous êtes en train de vous demander si le flux de communication n'a pas gelé quand $ilOrElle laisse échapper un soupir.
+MakeOtherFleetPreventDisengage hassle false","Le Chevalier reste immobile pendant un long moment inconfortable. Vous êtes en train de vous demander si le flux de communication n'a pas gelé quand $heOrShe laisse échapper un soupir.
 
 ""Je prierai pour vous, capitaine. Pour que vous ne vous écartiez pas du chemin, pour que vous incarniez la vertu, pour qu'à l'avenir vous choisissiez l'action juste plutôt que l'intérêt personnel.""
 
-$IlOrElle coupe brusquement la communication, vous laissant avec l'image qui s'estompe d'une expression plutôt peu chevaleresque.",cutCommLinkNoText:Couper la comm,"# personally mad, but technically allows you to get out of it."
+$HeOrShe coupe brusquement la communication, vous laissant avec l'image qui s'estompe d'une expression plutôt peu chevaleresque.",cutCommLinkNoText:Couper la comm,"# personally mad, but technically allows you to get out of it."
 LCP_notEnoughSel,DialogOptionSelected,$option == LCP_notEnough,MakeOtherFleetPreventDisengage hassle false,"""En effet, nos scans indiquent que vous ne possédez pas suffisamment de fournitures pour constituer une dîme digne de ce nom. C'est malheureux, mais compréhensible. Nous n'exigerions pas d'un indigent comme vous qu'il renonce à ce qui est nécessaire à sa survie.""
 
 Le Chevalier fait une très légère révérence. ""Vous avez notre pitié. Et nous prierons pour vous, $playerBrotherOrSister.""",cutCommLinkNoText:Couper la comm,
@@ -26916,9 +26916,9 @@ LCP_notEnoughLieSel3,DialogOptionSelected,$option == LCP_notEnoughLie3,,"Le Chev
 LCP_notHappeningSel,DialogOptionSelected,$option == LCP_notHappening,"RemoveOption LCP_notHappening
 $failedToRefuse = true 0","""La dîme est, bien entendu, une affaire de conscience personnelle.""
 
-Le ton du Chevalier s'assombrit, ""Cependant, nous invoquons le droit de 'charité imposée' en la matière, car des vies de Fidèles sont en danger immédiat."" $SesOrSes yeux se durcissent. ""Nous mourrions plutôt que de laisser notre troupeau subir le moindre mal. En vérité, ce serait un péché terrible que de refuser la nourriture à l'affamé, l'abri au transi, et le secours au malade.""
+Le ton du Chevalier s'assombrit, ""Cependant, nous invoquons le droit de 'charité imposée' en la matière, car des vies de Fidèles sont en danger immédiat."" $HisOrHer yeux se durcissent. ""Nous mourrions plutôt que de laisser notre troupeau subir le moindre mal. En vérité, ce serait un péché terrible que de refuser la nourriture à l'affamé, l'abri au transi, et le secours au malade.""
 
-$IlOrElle lève légèrement les yeux, le regard dans le vague. ""Que le marteau de Ludd trouve ma main droite, et l'épée la gauche ; je livrerai un combat juste pour défendre les Fidèles.""
+$HeOrShe lève légèrement les yeux, le regard dans le vague. ""Que le marteau de Ludd trouve ma main droite, et l'épée la gauche ; je livrerai un combat juste pour défendre les Fidèles.""
 
 La menace du Chevalier est tout sauf subtile.",,
 LCP_notHappeningSelFaithful,DialogOptionSelected,"$option == LCP_notHappening
@@ -26949,21 +26949,21 @@ Commission personCanGiveCommission
 HA_CMD knightsHasslingPlayerColonies",,,"lcMakeDeal:""Les Chevaliers de Ludd commettent essentiellement de la piraterie dans mon secteur et j'exige que cela cesse.""",
 lcMakeDealHostile,DialogOptionSelected,"$option == lcMakeDeal
 RepIsAtBest luddic_church HOSTILE score:100","HA_CMD printLCDealRepReq
-RemoveOption lcMakeDeal","""Je ne vois malheureusement aucune possibilité pour qu'un tel accord soit approuvé avec un-"" $ilOrElle se reprend. ""Avec quelqu'un qui est engagé dans des hostilités directes contre l'Église de la Rédemption Galactique.""
+RemoveOption lcMakeDeal","""Je ne vois malheureusement aucune possibilité pour qu'un tel accord soit approuvé avec un-"" $heOrShe se reprend. ""Avec quelqu'un qui est engagé dans des hostilités directes contre l'Église de la Rédemption Galactique.""
 
-""Les Chevaliers ont une mission sacrée ! Le marteau dans une main, l'épée dans l'autre, je prie pour qu'ils la mènent à bien,"" dit $ilOrElle avec ferveur.
+""Les Chevaliers ont une mission sacrée ! Le marteau dans une main, l'épée dans l'autre, je prie pour qu'ils la mènent à bien,"" dit $heOrShe avec ferveur.
 
 Pendant ce temps, la main du $post semble avoir dérivé vers une console secondaire et tapote frénétiquement ce que vous supposez être une sorte de signal d'alerte.",,"# test makenearbyfleets hostile?
 #MakeNearbyFleetsHostile luddic_church 100000 30 true "
 lcMakeDealTakeoverUntrustworthy,DialogOptionSelected,"$option == lcMakeDeal
 $player.untrustworthy > 2 score:200",RemoveOption lcMakeDeal,"""Votre réputation s'est répandue comme... comme une peste, $playerSirOrMadam."" Le $post a l'air dégoûté en parlant, ""Si les Chevaliers étaient enclins à négocier, ils sauraient qu'il vaut mieux ne pas traiter avec un parjure comme vous. Vous ne tenez rien pour sacré, pas même votre propre parole.""
 
-""Le marteau dans une main, l'épée dans l'autre, je prie pour que les Chevaliers mènent leur oeuvre à bien,"" dit $ilOrElle avec ferveur.
+""Le marteau dans une main, l'épée dans l'autre, je prie pour que les Chevaliers mènent leur oeuvre à bien,"" dit $heOrShe avec ferveur.
 
 Pendant ce temps, la main du $post semble avoir dérivé vers une console secondaire et tapote frénétiquement ce que vous supposez être une sorte de signal d'alerte.",,"# The player is not trustworthy (due to their other actions, not due to cancelling this deal) and the Church will not deal with them."
 #,,$player.atrocities > 1,RemoveOption lcMakeDeal,,,# maybe player is too brutal to deal with?
 lcMakeDealSelAgain,DialogOptionSelected,"$option == lcMakeDeal
-$player.wasOfferedChurchImmigrationDeal",,"""Ah."" $IlOrElle joint les mains, d'un calme bien trop serein. ""Oui, il me revient que nous avons déjà eu un contact à ce sujet avec vous, malheureusement sans aboutir lors de cette précédente occasion.""
+$player.wasOfferedChurchImmigrationDeal",,"""Ah."" $HeOrShe joint les mains, d'un calme bien trop serein. ""Oui, il me revient que nous avons déjà eu un contact à ce sujet avec vous, malheureusement sans aboutir lors de cette précédente occasion.""
 
 ""Je prie en ce jour béni pour que nous puissions parvenir à un compromis constructif qui assure la sécurité physique et spirituelle de toutes les parties.""",lcMakeDealReview:Continuer,
 lcMakeDealSelAgainReview,DialogOptionSelected,$option == lcMakeDealReview,"SetTooltip lcDealConfirm ""The Knights of Ludd will stop their interference. Removes benefits of Luddic Majority for your colonies. Luddic Majority may be lost upon colony growth.""
@@ -26971,9 +26971,9 @@ SetTooltipHighlights lcDealConfirm ""Knights of Ludd"" ""Luddic Majority"" ""Lud
 SetTooltipHighlightColors lcDealConfirm  luddic_church
 AddTextSmall ""Removes benefits of Luddic Majority on your colonies"" highlight","""Notre proposition est la suivante : l'Église de la Rédemption Galactique et votre organisation collaborent pour imposer des contrôles migratoires afin de limiter le flux des Fidèles vers vos colonies. L'Église veillera sur son troupeau, et les Chevaliers de Ludd cesseront leurs interventions dans vos affaires.""
 
-""Une fois que vous aurez accepté le concordat, bien entendu."" $IlOrElle sourit d'un air plein d'espoir, mais peut-être pas sincère.","lcDealConfirm:Confirmer le concordat
+""Une fois que vous aurez accepté le concordat, bien entendu."" $HeOrShe sourit d'un air plein d'espoir, mais peut-être pas sincère.","lcDealConfirm:Confirmer le concordat
 cutCommLink:Couper la comm",
-lcMakeDealSel,DialogOptionSelected,$option == lcMakeDeal,"SetTextHighlights ""concordat""","""Ah."" $IlOrElle joint les mains, d'un calme bien trop serein.
+lcMakeDealSel,DialogOptionSelected,$option == lcMakeDeal,"SetTextHighlights ""concordat""","""Ah."" $HeOrShe joint les mains, d'un calme bien trop serein.
 
 ""Les Chevaliers de Ludd accomplissent une mission sacrée pour protéger les Fidèles et, oui, ils sont désireux de démontrer leur foi. Cependant, nous ne devrions pas permettre à l'Orgueil d'engendrer la Colère, n'est-ce pas ?""
 
@@ -26989,10 +26989,10 @@ FireBest DialogOptionSelected","""Ce n'est pas tout a fait aussi simple que cela
 
 ""La protection des Fideles est le premier devoir des Chevaliers de Ludd.""",,
 lcMakeDealIntroC,DialogOptionSelected,$option == lcMakeDealIntroC,"$option = lcMakeDealIntro2 0
-FireBest DialogOptionSelected","""Ce n'est pas aussi simple que cela,"" dit $ilOrElle avec un air de patience forcée. ""Un nombre croissant de Fidèles ont voyagé vers les colonies nouvellement fondées - vous les avez autorisés à travailler et à s'installer au sein de vos possessions.
+FireBest DialogOptionSelected","""Ce n'est pas aussi simple que cela,"" dit $heOrShe avec un air de patience forcée. ""Un nombre croissant de Fidèles ont voyagé vers les colonies nouvellement fondées - vous les avez autorisés à travailler et à s'installer au sein de vos possessions.
 
 ""C'est le devoir des Chevaliers de Ludd de protéger les Fidèles dans leur corps comme dans leur âme.""",,
-lcMakeDealIntro2,DialogOptionSelected,$option == lcMakeDealIntro2,FireAll LCMakeDealOptions,"$IlOrElle saisit un livre - en papier - et commence à citer des statistiques démographiques. Entre cela et ce dont vous vous souvenez de vos propres données, vous comprenez l'implication : certains bassins de main-d'oeuvre clés ont quitté les mondes sous contrôle luddic pour une nouvelle vie dans les colonies.
+lcMakeDealIntro2,DialogOptionSelected,$option == lcMakeDealIntro2,FireAll LCMakeDealOptions,"$HeOrShe saisit un livre - en papier - et commence à citer des statistiques démographiques. Entre cela et ce dont vous vous souvenez de vos propres données, vous comprenez l'implication : certains bassins de main-d'oeuvre clés ont quitté les mondes sous contrôle luddic pour une nouvelle vie dans les colonies.
 
 En particulier, les vôtres. Et c'est un problème pour eux.",,
 LCmakeDealOptsPropose,LCMakeDealOptions,,,,"lcMakeDealPropose:""Alors que proposez-vous ?""",
@@ -27010,19 +27010,19 @@ RemoveOption lcMakeDealTurnips","Le $post esquisse un sourire mince et peu amus�
 
 ""Une perspective si strictement séculière vous aveugle face à la richesse spirituelle de la vision de Ludd - et aux devoirs qu'elle implique. Je ne peux pas ouvrir vos yeux à votre place ; je ne peux que le demander.""
 
-""Et si ma demande tombe dans l'oreille d'un sourd, alors j'attendrai ; le temps ruinera peut-être le mur d'orgueil qui ceint votre coeur,"" dit $ilOrElle, mains jointes, les yeux levés au ciel.
+""Et si ma demande tombe dans l'oreille d'un sourd, alors j'attendrai ; le temps ruinera peut-être le mur d'orgueil qui ceint votre coeur,"" dit $heOrShe, mains jointes, les yeux levés au ciel.
 
-Maintenant $ilOrElle cite un livre saint ; une tactique d'obscurcissement. Vous n'êtes guère surpris de constater qu'un représentant de l'Église n'admettra pas ouvertement le fondement de leur politique de main-d'oeuvre.",,
+Maintenant $heOrShe cite un livre saint ; une tactique d'obscurcissement. Vous n'êtes guère surpris de constater qu'un représentant de l'Église n'admettra pas ouvertement le fondement de leur politique de main-d'oeuvre.",,
 LCmakeDealFreeWill,DialogOptionSelected,$option == lcMakeDealFreeWill,"$saidFreeWill = true
 RemoveOption lcMakeDealFreeWill","""Certainement,"" dit le $post en fronçant les sourcils. ""Et même un marcheur vertueux ne peut-il pas être égaré par la tromperie ? Ou par sa propre nature déchue ?""
 
-$IlOrElle secoue la tête, tentant de dissiper cette sophistique. ""Quoi qu'il en soit, je ne débattrai pas de questions de canon avec vous ; c'est l'affaire des curés. Mon souci concerne le devoir de l'Église de veiller sur son troupeau. En particulier,"" $ilOrElle vous lance un regard impatient, ""en ce qui concerne les affaires spirituelles.""",,
+$HeOrShe secoue la tête, tentant de dissiper cette sophistique. ""Quoi qu'il en soit, je ne débattrai pas de questions de canon avec vous ; c'est l'affaire des curés. Mon souci concerne le devoir de l'Église de veiller sur son troupeau. En particulier,"" $heOrShe vous lance un regard impatient, ""en ce qui concerne les affaires spirituelles.""",,
 LCmakeDealProvide,DialogOptionSelected,$option == lcMakeDealProvide,"$saidProvide = true
 RemoveOption lcMakeDealProvide","Malgré ses efforts, un air distinct de consternation passe sur le visage du $post.
 
 ""Quelles que soient les épreuves, quels que soient les murmures trompeurs qui tentent d'égarer les Fidèles, l'Église de la Rédemption Galactique a été fondée au nom de Ludd pour veiller à leur santé spirituelle.""
 
-$SesOrSes yeux prennent un aspect d'acier maintenant, ""Et elle le fera, que ce soit par un moyen - ou par un autre.""",,
+$HisOrHer yeux prennent un aspect d'acier maintenant, ""Et elle le fera, que ce soit par un moyen - ou par un autre.""",,
 LCmakeDealPath,DialogOptionSelected,$option == lcMakeDealPath,"$saidPathThing = true
 RemoveOption lcMakeDealPath","Une expression distincte de consternation traverse le visage du $post malgre ses efforts.
 
@@ -27032,15 +27032,15 @@ lcMakeDealProposalAbrupt0,DialogOptionSelected,$option == lcMakeDealProposeAbrup
 $HeOrShe leve une main en anticipation d'une objection. ""Accordez-moi mes mots. Je serai bref.""","lcMakeDealProposeAbrupt1:""Je vous écoute.""",
 lcMakeDealProposalAbrupt1,DialogOptionSelected,$option == lcMakeDealProposeAbrupt1,,"""L'Église coopérerait avec votre organisation pour mettre en place certains contrôles migratoires. Rien de draconien ; nous pensons que ces mesures seraient plus facilement acceptées si nous travaillons ensemble.""
 
-""Il y a des Fidèles qui se sont laissé séduire par des idées hérétiques. Nous les... corrigerions. C'est le devoir de l'Église, après tout, de veiller sur son troupeau."" $IlOrElle sourit d'un air fade.
+""Il y a des Fidèles qui se sont laissé séduire par des idées hérétiques. Nous les... corrigerions. C'est le devoir de l'Église, après tout, de veiller sur son troupeau."" $HeOrShe sourit d'un air fade.
 
 ""En traitant les éléments hérétiques, l'Église s'assurerait que ces mécontents ne commencent pas à conspirer avec des extrémistes au sein de vos colonies - ou de vos industries. Les Chevaliers, bien entendu, seraient rappelés pour adopter une posture plus, ah, tournée vers l'intérieur. La sécurité spirituelle et séculière de tous s'en trouverait renforcée.",lcMakeDealProposalReaction:Continuer,
 lcMakeDealProposal0,DialogOptionSelected,$option == lcMakeDealPropose,,"""L'Église propose de coopérer avec votre organisation pour imposer certains... contrôles migratoires. Cela n'a pas besoin d'être brutal, c'est simplement une question de mettre en oeuvre certaines procédures et autorisations. En s'assurant qu'un processus correct est suivi, certains résultats peuvent être, ah, favorisés.""
 
-$IlOrElle parle de cette manipulation de manière plaisante et aisée. L'Église apprend peut-être des tours de la bureaucratie hégémonique.",lcMakeDealPropose1:Continuer,
+$HeOrShe parle de cette manipulation de manière plaisante et aisée. L'Église apprend peut-être des tours de la bureaucratie hégémonique.",lcMakeDealPropose1:Continuer,
 lcMakeDealProposal1,DialogOptionSelected,$option == lcMakeDealPropose1,,"""En la matière, l'Église s'assurerait que seuls ceux qui ne peuvent être, hmm, dissuadés d'une voie séculière trouveront le chemin de vos colonies.""
 
-""Cela réduirait le nombre global, oui, mais il y a parmi les Fidèles ceux qui s'exaltent pour des idées menant à une pensée hérétique. Pour vous, cela pourrait engendrer des problèmes. Pour l'Église ? Veiller sur notre troupeau est une vocation sacrée."" $IlOrElle sourit d'un air fade.
+""Cela réduirait le nombre global, oui, mais il y a parmi les Fidèles ceux qui s'exaltent pour des idées menant à une pensée hérétique. Pour vous, cela pourrait engendrer des problèmes. Pour l'Église ? Veiller sur notre troupeau est une vocation sacrée."" $HeOrShe sourit d'un air fade.
 
 ""Le rôle actif des Chevaliers de Ludd, bien entendu, se tournerait vers une posture plus interne une fois que nous nous serons accordés sur ces conditions partagées.""",lcMakeDealProposalReaction:Continuer,
 lcMakeDealProposal1secular,DialogOptionSelected,$option == lcMakeDealProposalReaction,"$option = lcMakeDealProposal2 0
@@ -27058,7 +27058,7 @@ SetTooltipHighlights lcDealConfirm ""Knights of Ludd"" ""Luddic Majority"" ""Lud
 SetTooltipHighlightColors lcDealConfirm  luddic_church
 AddTextSmall ""Removes benefits of Luddic Majority on your colonies"" highlight","""Tout sera regle une fois que vous aurez confirme le concordat, bien entendu,"" ajoute $heOrShe agreablement.","lcDealConfirm:Confirmer le concordat
 cutCommLink:Couper la comm",
-lcMakeDealSelConfirm,DialogOptionSelected,$option == lcDealConfirm,HA_CMD makeLuddicChurchDeal,"""Véritablement, c'est un jour béni,"" $ilOrElle joint les mains en un geste de piété et adresse un rapide remerciement au Créateur.
+lcMakeDealSelConfirm,DialogOptionSelected,$option == lcDealConfirm,HA_CMD makeLuddicChurchDeal,"""Véritablement, c'est un jour béni,"" $heOrShe joint les mains en un geste de piété et adresse un rapide remerciement au Créateur.
 
 Malgré un emballage de religiosité outrancière, les termes de l'accord sont relativement simples. Vous et $Post $PersonName soumettez des représentations visuelles de votre approbation pour être inscrites sur la copie papier du concordat. Ce document sera ensuite reproduit à la main et soumis à plusieurs archives de l'Église selon une sorte de système de sécurité analogique pour le moins bizarre.",cutCommLink:Couper la comm,
 ,,,,,,
@@ -27067,11 +27067,11 @@ LCBreakDealOpt,PopulateOptions,"$isPerson
 $personFaction.id == luddic_church
 Commission personCanGiveCommission
 $player.madeImmigrationDealWithLuddicChurch",,,"lcBreakDeal:""Le concordat d'immigration ne me convient plus.""",
-lcBreakDealSel,DialogOptionSelected,$option == lcBreakDeal,,"""Ceci, ah,"" $ilOrElle feuillette rapidement un livre, et daigne même consulter un vieux datapad avec un air inquiet.
+lcBreakDealSel,DialogOptionSelected,$option == lcBreakDeal,,"""Ceci, ah,"" $heOrShe feuillette rapidement un livre, et daigne même consulter un vieux datapad avec un air inquiet.
 
 ""Ceci, ceci est une surprise, $playerSirOrMadam. Je dirai au nom de l'Église de la Rédemption Galactique que nous avons trouvé l'accord tout à fait satisfaisant, et vos doutes actuels... ils sont troublants, mais écoutez bien mon assurance, je vous prie, ils sont infondés.""
 
-""De plus,"" $saOrSon voix s'assombrit, ""si vous deviez simplement rompre un concordat sacré, cela serait perçu comme un acte de grave infidélité. Je crains qu'il n'y aurait aucun retour possible après un tel acte, et votre réputation auprès des officiels de l'Église..."" $IlOrElle secoue la tête, comme si de telles choses ne devraient pas être mises en mots.","lcBreakDealConfirm:""Vous m'avez entendu, le marché est annulé."" 
+""De plus,"" $hisOrHer voix s'assombrit, ""si vous deviez simplement rompre un concordat sacré, cela serait perçu comme un acte de grave infidélité. Je crains qu'il n'y aurait aucun retour possible après un tel acte, et votre réputation auprès des officiels de l'Église..."" $HeOrShe secoue la tête, comme si de telles choses ne devraient pas être mises en mots.","lcBreakDealConfirm:""Vous m'avez entendu, le marché est annulé."" 
 genericGoBack:""J'ai dû mal m'exprimer, le concordat tient.""",
 lcBreakDealConfirmSel,DialogOptionSelected,$option == lcBreakDealConfirm,HA_CMD breakLCDeal,"""Je vois."" Le $post a l'air abattu, peut-être malheureux de devenir le porteur de mauvaises nouvelles pour la bande d'archicures qui a cru bon d'envoyer les Chevaliers de Ludd se meler de vos affaires.
 
@@ -27082,7 +27082,7 @@ KOLTHolyArmadaComms,OpenCommLink,"$entity.KOLT_armada
 $entity.KOLT_isBlockading
 !$entity.isHostile
 HA_CMD updateKOLTArmadaData","$entity.ignorePlayerCommRequests = true 7
-FireAll KOLTArmadaOptions","""Jour béni, capitaine... $playerName. Bien sûr."" Le $post, faisant comme si $ilOrElle vous faisait une faveur en se souvenant de votre nom, joint les mains et fait un petit signe de tête.
+FireAll KOLTArmadaOptions","""Jour béni, capitaine... $playerName. Bien sûr."" Le $post, faisant comme si $heOrShe vous faisait une faveur en se souvenant de votre nom, joint les mains et fait un petit signe de tête.
 
 ""Nous oeuvrons ici dans le cadre d'une mission sacrée pour protéger les Fidèles, pour ramener le troupeau égaré de $KOLT_target sous l'aile de l'Église de la Rédemption Galactique, afin que leurs corps et leurs âmes puissent recevoir les soins et l'amour de notre Sainte Mère l'Église.""
 
@@ -27091,11 +27091,11 @@ KOLTHolyArmadaCommsHostile,OpenCommLink,"$entity.KOLT_armada
 $entity.KOLT_isBlockading
 $entity.isHostile
 HA_CMD updateKOLTArmadaData","$entity.ignorePlayerCommRequests = true 7
-FireAll KOLTArmadaOptions","""Jour béni, capitaine $playerName,"" dit le $post avec toute l'assurance de quelqu'un qui sait qu'$ilOrElle est soutenu par Dieu.
+FireAll KOLTArmadaOptions","""Jour béni, capitaine $playerName,"" dit le $post avec toute l'assurance de quelqu'un qui sait qu'$heOrShe est soutenu par Dieu.
 
 ""Nous sommes en mission sacrée pour assurer la protection de tous les Fidèles de $KOLT_target. C'est le devoir sacré des Chevaliers de Ludd de placer $KOLT_target sous la protection de l'Église de la Rédemption Galactique, et nous mourrons avec joie pour y parvenir.""
 
-$IlOrElle vous regarde avec un mélange de pitié et de mépris.",,
+$HeOrShe vous regarde avec un mélange de pitié et de mépris.",,
 KOLTHolyArmadaCommsOptA,KOLTArmadaOptions,!$saidA,,,"kolt_armadaCommsRespA:""Vos efforts, aussi nobles soient-ils, sapent mon autorité. Je vous demanderais de partir.""",
 KOLTHolyArmadaCommsOptB,KOLTArmadaOptions,!$saidB,,,"kolt_armadaCommsRespB:""Vous pratiquez ouvertement la piraterie et propagez l'insurrection. J'exige que vous cessiez !""",
 KOLTHolyArmadaCommsOptC,KOLTArmadaOptions,"!$saidC
@@ -27129,9 +27129,9 @@ KOLTHolyArmadaCommsD,DialogOptionSelected,$option == kolt_armadaCommsRespD,"$sai
 RemoveOption kolt_armadaCommsRespC","""Si vous servez vraiment l'Eglise, mon $playerBrotherOrSister, alors placez votre confiance dans la volonté de l'Eglise de la Redemption Galactique et rendez ce monde a l'autorite qui porte la parole de Ludd a travers la galaxie.""",,
 KOLTHolyArmadaCommsE,DialogOptionSelected,$option == kolt_armadaCommsRespE,"$saidE = true 0
 RemoveOption kolt_armadaCommsRespC","""C'est vous l'heretique, $playerBrotherOrSister, et je prierai pour vous,"" dit $heOrShe d'un ton glacial.",,
-kolt_handoverSel,DialogOptionSelected,$option == kolt_handover,,"Vos paroles prennent le $post tout à fait au dépourvu, et $sonOrSa sentiment de supériorité pieuse vacille un instant.
+kolt_handoverSel,DialogOptionSelected,$option == kolt_handover,,"Vos paroles prennent le $post tout à fait au dépourvu, et $hisOrHer sentiment de supériorité pieuse vacille un instant.
 
-""Vous... vraiment ?"" dit $ilOrElle, puis se reprend. ""Je veux dire, si votre coeur s'est tourné, alors nous nous réjouirions et revendiquerions $KOLT_target au nom de Ludd pour l'Église de la Rédemption Galactique. Est-ce véritablement votre souhait ?""","kolt_handoverConfirm:""Oui, je m'en lave les mains de $KOLT_target.""
+""Vous... vraiment ?"" dit $heOrShe, puis se reprend. ""Je veux dire, si votre coeur s'est tourné, alors nous nous réjouirions et revendiquerions $KOLT_target au nom de Ludd pour l'Église de la Rédemption Galactique. Est-ce véritablement votre souhait ?""","kolt_handoverConfirm:""Oui, je m'en lave les mains de $KOLT_target.""
 kolt_handoverCancel:""Non, bien sûr que non. Je ne suis pas fou.""",
 kolt_handoverConfirmSel,DialogOptionSelected,$option == kolt_handoverConfirm,"AdjustRep $faction.id 25
 AdjustRepActivePerson 25
@@ -27155,25 +27155,25 @@ FireBest SDraiderCommsSDcomCheck","Les comms clignotent pour afficher le $Post d
 sdRaider_askHow:""Comment pourrais-je bien me mêler des affaires du Diktat Sindrien ?""
 cutCommLink:Couper la comm",
 sdRaiderCommsSDcomCheck,SDraiderCommsSDcomCheck,$player.fcm_faction != sindrian_diktat,RemoveOption sdRaider_askCommission,,,
-sdRaiderCommsAskHow,DialogOptionSelected,$option == sdRaider_askHow,RemoveOption sdRaider_askHow,"Votre question court-circuite sa tirade naissante. $IlOrElle bredouille, puis se reprend.
+sdRaiderCommsAskHow,DialogOptionSelected,$option == sdRaider_askHow,RemoveOption sdRaider_askHow,"Votre question court-circuite sa tirade naissante. $HeOrShe bredouille, puis se reprend.
 
 ""Le carburant, imbécile ! Vous utilisez des tactiques indirectes de lâche dans une tentative pathétique de saper le coeur battant de la machine de guerre sindrienne en cassant le marché du carburant. Ne croyez pas que nous ne voyons pas chacun de vos mouvements.""
 
-""Maintenant."" $IlOrElle se tient raide, ""Par l'autorité du Commandant Suprême, je bombarderai votre pitoyable opération de production de carburant et je bombarderai la population de vagabonds, de criminels et de dégénérés que vous avez rassemblée pour la faire tourner ; je ne laisserai que des cendres. Gloire au Diktat Sindrien !""",cutCommLink:Couper la comm,
+""Maintenant."" $HeOrShe se tient raide, ""Par l'autorité du Commandant Suprême, je bombarderai votre pitoyable opération de production de carburant et je bombarderai la population de vagabonds, de criminels et de dégénérés que vous avez rassemblée pour la faire tourner ; je ne laisserai que des cendres. Gloire au Diktat Sindrien !""",cutCommLink:Couper la comm,
 sdRaiderCommsAskCommission,DialogOptionSelected,$option == sdRaider_askCommission,"AdjustRepActivePerson SUSPICIOUS -1
 $option = sdPunEx_sdComReplies 0
-FireBest DialogOptionSelected","$IlOrElle a l'air partagé, et se penche en avant. ""Peut-être n'êtes-vous pas sans espoir, capitaine. Cette démonstration de la puissance du Diktat est faite parce que vous avez osé - aussi ignoramment, aussi involontairement que ce soit - interférer avec les exportations sindriennes. Le carburant est le coeur de l'économie de Sindria, et vos tentatives de concurrencer la production de carburant sont une menace, un acte hostile, aussi faible soit-il."" $IlOrElle marque une pause pour vous laisser mesurer la profondeur de votre trahison. ""Maintenant vous comprenez, capitaine.""
+FireBest DialogOptionSelected","$HeOrShe a l'air partagé, et se penche en avant. ""Peut-être n'êtes-vous pas sans espoir, capitaine. Cette démonstration de la puissance du Diktat est faite parce que vous avez osé - aussi ignoramment, aussi involontairement que ce soit - interférer avec les exportations sindriennes. Le carburant est le coeur de l'économie de Sindria, et vos tentatives de concurrencer la production de carburant sont une menace, un acte hostile, aussi faible soit-il."" $HeOrShe marque une pause pour vous laisser mesurer la profondeur de votre trahison. ""Maintenant vous comprenez, capitaine.""
 
-$IlOrElle secoue la tête, presque avec regret. Puis parle fort, ""J'ai mes ordres. Et j'ai la clarté de vision nécessaire pour mener mes ordres à leur terme, quel qu'en soit le prix ! Si je meurs, le Diktat Sindrien vivra ! Gloire au Commandant Suprême !""
+$HeOrShe secoue la tête, presque avec regret. Puis parle fort, ""J'ai mes ordres. Et j'ai la clarté de vision nécessaire pour mener mes ordres à leur terme, quel qu'en soit le prix ! Si je meurs, le Diktat Sindrien vivra ! Gloire au Commandant Suprême !""
 
 Le $post est debout et salue le regard abstrait de Philip Andrada, offrant tout un spectacle à ses officiers de passerelle.",cutCommLink:Couper la comm,
 ,,,,,,
 "# Sindrian Diktat fleet, part of attack force sent to sat-bombard player's fuel production planet",,,,,,
 sdPunExComms,OpenCommLink,$entity.SDPE_fleet score:1000,$entity.ignorePlayerCommRequests = true 7,"Après un grésillement de parasites, la communication se stabilise. Le $Post du Diktat Sindrien vous toise avec hauteur.
 
-""Flotte indépendante, ici-"" $IlOrElle est interrompu par un officier subalterne qui se penche dans le champ de vision et murmure quelque chose.
+""Flotte indépendante, ici-"" $HeOrShe est interrompu par un officier subalterne qui se penche dans le champ de vision et murmure quelque chose.
 
-$IlOrElle prend un air entendu, bouillonnant d'hostilité. ""Bien sûr, Capitaine $PlayerName. Nous savons parfaitement qui vous êtes et quelles sont vos méthodes.""","sdPunEx_commsA:""Mes méthodes ?""
+$HeOrShe prend un air entendu, bouillonnant d'hostilité. ""Bien sûr, Capitaine $PlayerName. Nous savons parfaitement qui vous êtes et quelles sont vos méthodes.""","sdPunEx_commsA:""Mes méthodes ?""
 sdPunEx_commsB:""Vous ne devriez peut-être pas laisser les opinions des autres teinter notre première rencontre.""
 sdPunEx_commsC:""Bien, ça m'évite d'avoir à me présenter.""
 cutCommLink:Couper la comm",
@@ -27181,7 +27181,7 @@ cutCommLink:Couper la comm",
 sdPunExCommsA,DialogOptionSelected,$option == sdPunEx_commsA,"$option = sdPunEx_comms2 0
 FireBest DialogOptionSelected","""Oui, vos methodes,"" dit $heOrShe. ""Le refuge naturel du spacien degenere : la tromperie sournoise ; l'empoisonnement ; les mensonges.""",,
 sdPunExCommsB,DialogOptionSelected,$option == sdPunEx_commsB,"$option = sdPunEx_comms2 0
-FireBest DialogOptionSelected","""Même maintenant vous vous tortillez et mentez, comme tous les spaciers sans monde. Moi, cependant, je suis armé et blindé par l'idéologie invincible du Mouvement Andradan, la sagesse du Commandant Suprême en personne ! Je vois clair en vous ; je vois mon ennemi et je sais où diriger ma haine vertueuse."" $IlOrElle incline $saOrSon visage lentement vers vous en parlant.",,
+FireBest DialogOptionSelected","""Même maintenant vous vous tortillez et mentez, comme tous les spaciers sans monde. Moi, cependant, je suis armé et blindé par l'idéologie invincible du Mouvement Andradan, la sagesse du Commandant Suprême en personne ! Je vois clair en vous ; je vois mon ennemi et je sais où diriger ma haine vertueuse."" $HeOrShe incline $hisOrHer visage lentement vers vous en parlant.",,
 sdPunExCommsC,DialogOptionSelected,$option == sdPunEx_commsC,"$option = sdPunEx_comms2 0
 FireBest DialogOptionSelected
 FireBest SDpunExCommsArrogantPoint","""Alors vous ne niez rien. Regardez-vous, spacien ; vous n'avez pas de peuple, vous n'avez pas de patrie ; votre sang s'amincit et s'affaiblit dans le vide. Vous subsistez de mensonges et de tromperies. Votre ideologie est du poison.""",,
@@ -27189,55 +27189,55 @@ sdPunExCommsArrogant,SDpunExCommsArrogantPoint,!$player.didSDpunExCommsArrogant,
 $player.ethosCocky++",,,
 sdPunExComms2,DialogOptionSelected,$option == sdPunEx_comms2,,"""Vous employez des tactiques lâches et indirectes dans une tentative pathétique de saper la puissance du Diktat Sindrien ! Vous menez une guerre économique secrète contre le coeur battant de l'économie sindrienne en cassant le marché du carburant. Ne croyez pas que nous ne voyons pas vos intentions.""
 
-""Maintenant."" $IlOrElle se redresse encore plus raide, ""J'ai été chargé par l'autorité du Commandant Suprême de mettre fin à vos ingérences.""","sdPunEx_sayProfits:""Attendez, tout ça c'est juste pour les profits du carburant ?""
+""Maintenant."" $HeOrShe se redresse encore plus raide, ""J'ai été chargé par l'autorité du Commandant Suprême de mettre fin à vos ingérences.""","sdPunEx_sayProfits:""Attendez, tout ça c'est juste pour les profits du carburant ?""
 sdPunEx_sayStopMe:""Comment comptez-vous m'arrêter ?""
 sdPunEx_sayDeal:""Parlons-en, on pourrait peut-être trouver un arrangement.""
 cutCommLink:Couper la comm",
-sdPunExSayProfits,DialogOptionSelected,$option == sdPunEx_sayProfits,,"""Bien sûr que non,"" dit $ilOrElle avec un regard de dégoût. ""Et bien sûr que c'est ce que vous penseriez - des spaciers comme vous n'ont aucune notion de l'honneur et de la gloire du Mouvement Andradan qui donne un sens à l'histoire elle-même !""
+sdPunExSayProfits,DialogOptionSelected,$option == sdPunEx_sayProfits,,"""Bien sûr que non,"" dit $heOrShe avec un regard de dégoût. ""Et bien sûr que c'est ce que vous penseriez - des spaciers comme vous n'ont aucune notion de l'honneur et de la gloire du Mouvement Andradan qui donne un sens à l'histoire elle-même !""
 
 ""Votre tentative insidieuse de saper l'expression véritable de la vision transcendante de Philip Andrada se heurtera à la puissance militaire du Diktat Sindrien.""",cutCommLink:Couper la comm,
 sdPunExSayStopMe,DialogOptionSelected,$option == sdPunEx_sayStopMe,,"""Je bombarderai votre pitoyable operation de production de carburant jusqu'a la reduire en poussière. Je bombarderai votre population de vagabonds et de criminels jusqu'a la reduire en poussière. Je detruirai tout ce qui s'oppose a la gloire du Diktat Sindrien !""",cutCommLink:Couper la comm,
 sdPunExSayDeal,DialogOptionSelected,$option == sdPunEx_sayDeal,,"Le $Post du Diktat a l'air horrifié, et crache ses mots. ""Il n'y aura pas de... marché.""
 
-""Je suivrai mes ordres ou trouverai une mort glorieuse au service du Commandant Suprême Philip Andrada."" $IlOrElle relève le menton, ""Et mes ordres sont de réduire votre pitoyable opération de production de carburant en poussière. Seule l'autorité du Commandant Suprême peut contremander ces ordres. Votre destruction est aussi bonne qu'inévitable.""
+""Je suivrai mes ordres ou trouverai une mort glorieuse au service du Commandant Suprême Philip Andrada."" $HeOrShe relève le menton, ""Et mes ordres sont de réduire votre pitoyable opération de production de carburant en poussière. Seule l'autorité du Commandant Suprême peut contremander ces ordres. Votre destruction est aussi bonne qu'inévitable.""
 
-$IlOrElle fait un signe à son équipage de passerelle, et la communication est coupée.",cutCommLink:Couper la comm,
+$HeOrShe fait un signe à son équipage de passerelle, et la communication est coupée.",cutCommLink:Couper la comm,
 sdPunExCommsHostile,OpenCommLink,"$entity.SDPE_fleet score:1000
 $entity.isHostile",$entity.ignorePlayerCommRequests = true 7,"Apres un gresill de parasites, les communications se stabilisent tant bien que mal. Le $Post du Diktat Sindrien vous toise avec imperiosite.
 
 ""Nous appelons la flotte de $PlayerName. Je viens avec l'autorite de l'Executeur Supreme pour mettre un terme a votre lache guerre economique contre le Diktat Sindrien !""","sdPunEx_sayEconWar:""Attendez, quelle 'guerre économique' ?""
 sdPunEx_sayDeal:""Parlons-en, on pourrait peut-être trouver un arrangement.""
 cutCommLink:Couper la comm",
-sdPunExSayEconWar,DialogOptionSelected,$option == sdPunEx_sayEconWar,RemoveOption sdPunEx_sayEconWar,"""Bien sûr que vous feignez l'ignorance de vos actes - des spaciers comme vous n'ont aucune notion d'honneur et de gloire, ni du Mouvement Andradan qui propulse l'esprit vivant de l'histoire."" Un air de dégoût grandit sur $sonOrSa visage. ""Votre tentative insidieuse de saper l'expression véritable de la vision transcendante de Philip Andrada se heurtera à la puissance militaire du Diktat Sindrien.""
+sdPunExSayEconWar,DialogOptionSelected,$option == sdPunEx_sayEconWar,RemoveOption sdPunEx_sayEconWar,"""Bien sûr que vous feignez l'ignorance de vos actes - des spaciers comme vous n'ont aucune notion d'honneur et de gloire, ni du Mouvement Andradan qui propulse l'esprit vivant de l'histoire."" Un air de dégoût grandit sur $hisOrHer visage. ""Votre tentative insidieuse de saper l'expression véritable de la vision transcendante de Philip Andrada se heurtera à la puissance militaire du Diktat Sindrien.""
 
 ""Je bombarderai votre pitoyable opération de production de carburant jusqu'à la réduire en poussière. Je bombarderai votre population de vagabonds et de criminels jusqu'à la réduire en poussière. Je détruirai tout ce qui se dresse contre l'autorité du Commandant Suprême !""",,
 "# ... but officer, I have a commission",,# $player.fcm_faction == sindrian_diktat,,,,
 sdPunExCommsSDcom,OpenCommLink,"$entity.SDPE_fleet score:1000
 $player.fcm_faction == sindrian_diktat",$entity.ignorePlayerCommRequests = true 7,"Après un grésillement, la communication se stabilise. Le $Post du Diktat Sindrien vous toise avec hauteur.
 
-""Flotte indépendante, ici-"" $IlOrElle est interrompu par un subalterne qui se penche dans le champ de vision et murmure.
+""Flotte indépendante, ici-"" $HeOrShe est interrompu par un subalterne qui se penche dans le champ de vision et murmure.
 
-$IlOrElle prend un air entendu. ""Bien sûr. Capitaine $PlayerName. Votre loyauté envers la vision du Commandant Suprême va maintenant être mise à l'épreuve - écartez-vous pendant que nous exécutons nos ordres.""","sdPunEx_sdComWhatOrders:""Quels sont ces ordres ?""
+$HeOrShe prend un air entendu. ""Bien sûr. Capitaine $PlayerName. Votre loyauté envers la vision du Commandant Suprême va maintenant être mise à l'épreuve - écartez-vous pendant que nous exécutons nos ordres.""","sdPunEx_sdComWhatOrders:""Quels sont ces ordres ?""
 sdPunEx_sdComApology:""Ma loyauté est incontestable ! J'exige des excuses pour cette insinuation.""
 cutCommLink:Couper la comm",
 sdPunExCommsSDcomWhatOrders,DialogOptionSelected,$option == sdPunEx_sdComWhatOrders,"$option = sdPunEx_sdComReplies 0
-FireBest DialogOptionSelected","""Je dois éliminer votre pitoyable opération de production de carburant. Je dois éliminer la population de vagabonds, de criminels et de dégénérés que vous avez rassemblée,"" dit $ilOrElle d'une voix plate. ""Pourquoi on vous a laissé conserver votre commission après avoir mené une guerre économique intempestive - consciemment ou non - contre le coeur de l'industrie sindrienne, ce n'est pas à moi de le questionner.""
+FireBest DialogOptionSelected","""Je dois éliminer votre pitoyable opération de production de carburant. Je dois éliminer la population de vagabonds, de criminels et de dégénérés que vous avez rassemblée,"" dit $heOrShe d'une voix plate. ""Pourquoi on vous a laissé conserver votre commission après avoir mené une guerre économique intempestive - consciemment ou non - contre le coeur de l'industrie sindrienne, ce n'est pas à moi de le questionner.""
 
 ""Cette situation vous offre une opportunité glorieuse - abandonnez votre 'colonie' et son opération bâclée de production de carburant aux flammes que je m'apprête à délivrer. Consumez votre profiteur de spacier dégénéré ! Ne laissez à sa place rien d'autre qu'un engagement austère envers le Lion de Sindria et son Mouvement transcendant !""",,
 sdPunExCommsSDcomApology,DialogOptionSelected,$option == sdPunEx_sdComApology,"AdjustRepActivePerson SUSPICIOUS -1
 $option = sdPunEx_sdComReplies 0
-FireBest DialogOptionSelected","""Je serai plus qu'heureux de vous présenter des excuses une fois mes ordres exécutés,"" dit $ilOrElle, imperturbable. ""Pourquoi on vous a laissé conserver votre commission après avoir mené une guerre économique intempestive - consciemment ou non - contre le coeur de l'industrie sindrienne, ce n'est pas à moi de le questionner.""
+FireBest DialogOptionSelected","""Je serai plus qu'heureux de vous présenter des excuses une fois mes ordres exécutés,"" dit $heOrShe, imperturbable. ""Pourquoi on vous a laissé conserver votre commission après avoir mené une guerre économique intempestive - consciemment ou non - contre le coeur de l'industrie sindrienne, ce n'est pas à moi de le questionner.""
 
 ""Cette situation vous offre une opportunité glorieuse - abandonnez votre 'colonie' et son opération bâclée de production de carburant aux flammes que je m'apprête à délivrer. Consumez votre profiteur de spacier dégénéré ! Ne laissez à sa place rien d'autre qu'un engagement austère envers le Lion de Sindria et son Mouvement transcendant !""",,
 sdPunExCommsSDcomReplies,DialogOptionSelected,$option == sdPunEx_sdComReplies,,,"sdPunEx_sdComOptCompete:""Vous allez bombarder ma colonie pour écraser la concurrence avec l'industrie du carburant de Sindria ?""
 sdPunEx_sdComOptSubmit:""Si l'Exécuteur Suprême l'exige, je me soumettrai à sa volonté.""
 sdPunEx_sdComOptSubmitLie:""Si l'Exécuteur Suprême l'exige, je me soumettrai à sa volonté."" (lie)",
 sdPunExCommsSDcomCompete,DialogOptionSelected,$option == sdPunEx_sdComOptCompete,"AdjustRepActivePerson SUSPICIOUS -5
-$player.heardRumorsAboutCruor = true","$SesOrSes yeux se plissent. ""Vous ne comprenez rien, spacier. S'il ne tenait qu'à moi, vous seriez dépouillé de votre commission et envoyé à Cruor.""
+$player.heardRumorsAboutCruor = true","$HisOrHer yeux se plissent. ""Vous ne comprenez rien, spacier. S'il ne tenait qu'à moi, vous seriez dépouillé de votre commission et envoyé à Cruor.""
 
 ""Heureusement pour vous,"" dit le $post, ""ce n'est pas le cas. En attendant, je vais procéder à l'opération de nettoyage.""
 
-""Gloire au Diktat Sindrien !"" s'écrie $ilOrElle en faisant un salut.",cutCommLink:Couper la comm,
+""Gloire au Diktat Sindrien !"" s'écrie $heOrShe en faisant un salut.",cutCommLink:Couper la comm,
 sdPunExCommsSDcomSubmit,DialogOptionSelected,$option == sdPunEx_sdComOptSubmit,,"""Bien,"" dit le $post. ""Je vais proceder a l'operation de nettoyage.""
 
 ""Gloire au Diktat Sindrien !"" s'ecrie $heOrShe en faisant un salut.",cutCommLink:Couper la comm,
@@ -27277,13 +27277,13 @@ Commission personCanGiveCommission
 HA_CMD diktatConcernedByFuelProd",,,"sdMakeDeal:""Le Diktat envoie des flottes d'attaque contre moi malgré ma commission. Cet oubli doit être corrigé !""",
 SDMakeDealHostile,DialogOptionSelected,"$option == sdMakeDeal
 RepIsAtBest sindrian_diktat HOSTILE score:100","HA_CMD printSDDealRepReq
-RemoveOption sdMakeDeal","""Vous êtes un ennemi déclaré du Diktat Sindrien, et un dégénéré de spacier itinérant par-dessus le marché."" $IlOrElle se cale en arrière, l'air dégoûté. ""Vous avez beau supplier, il n'y aura aucune issue miséricordieuse pour... des éléments... menant une guerre ouverte et terroriste contre le Mouvement Andradan.""
+RemoveOption sdMakeDeal","""Vous êtes un ennemi déclaré du Diktat Sindrien, et un dégénéré de spacier itinérant par-dessus le marché."" $HeOrShe se cale en arrière, l'air dégoûté. ""Vous avez beau supplier, il n'y aura aucune issue miséricordieuse pour... des éléments... menant une guerre ouverte et terroriste contre le Mouvement Andradan.""
 
-""J'ai confiance que les patrouilles du système ont déjà signalé votre position au Haut Commandement et, en ce moment même, les puissantes flottes de guerre du Commandant Suprême font leur approche,"" dit $ilOrElle en examinant un ongle. ""J'ai le temps d'attendre. Et vous ?""",,
+""J'ai confiance que les patrouilles du système ont déjà signalé votre position au Haut Commandement et, en ce moment même, les puissantes flottes de guerre du Commandant Suprême font leur approche,"" dit $heOrShe en examinant un ongle. ""J'ai le temps d'attendre. Et vous ?""",,
 SDMakeDealUntrustworthy,DialogOptionSelected,"$option == sdMakeDeal
 $player.untrustworthy > 2 score:200",RemoveOption sdMakeDeal,"""Je vois clairement ce que vous êtes : un déchet de spacier. Vous me mentirez, vous mentirez à n'importe qui et direz n'importe quoi pour sauver votre peau. Vous vendriez n'importe qui pour vos profits mal acquis sur la grandeur andradane. Je méprise votre engeance, $playerName.""
 
-""Cependant."" $IlOrElle sourit cruellement. ""Il y a une place pour vous dans le glorieux avenir forgé par le Diktat Sindrien.""
+""Cependant."" $HeOrShe sourit cruellement. ""Il y a une place pour vous dans le glorieux avenir forgé par le Diktat Sindrien.""
 
 ""Vous deviendrez un ennemi justement vaincu ; un nuisible, écrasé. Vous serez éteint par la puissance de la vision parfaite du Commandant Suprême Philip Andrada pour notre avenir.""
 
@@ -27292,13 +27292,13 @@ SDMakeDealSel,DialogOptionSelected,$option == sdMakeDeal,"AddTextSmall ""Earmark
 
 ""Il est de mon avis que le Secteur dans son ensemble tirerait un enseignement instructif si l'on vous écrasait comme un insecte. Cependant le Commandant Suprême a ordonné que l'on vous montre de la clémence - sa sagesse et sa vision surpassent de loin les miennes, bien entendu, et je m'incline devant son autorité : vous verserez la moitié des profits de vos ventes de carburant au Diktat Sindrien en échange du droit d'exister.""
 
-""Vous n'obtiendrez pas de meilleur accord que celui-là, capitaine,"" dit $ilOrElle avec indifférence. $IlOrElle saisit un stylet et commence à le faire tournoyer pendant que vous considérez les conditions extravagantes de l'accord.","sdDealConfirm:Confirmer l'accord
+""Vous n'obtiendrez pas de meilleur accord que celui-là, capitaine,"" dit $heOrShe avec indifférence. $HeOrShe saisit un stylet et commence à le faire tournoyer pendant que vous considérez les conditions extravagantes de l'accord.","sdDealConfirm:Confirmer l'accord
 sdDeal_negotiate:""Peut-être pouvons-nous ajuster les détails de l'accord, juste un peu.""
 cutCommLink:Couper la comm",
 SDMakeDealSelCom,DialogOptionSelected,"$option == sdMakeDeal
 $player.fcm_faction == sindrian_diktat",FireAll SDMakeDealSelComOptCheck,"""Bien sûr, bien sûr,"" le $post fait semblant de sourire tout en tapotant sur une interface. ""Je suis au courant de votre situation, voyons voir... oui, une situation des plus fâcheuses.""
 
-$SesOrSes yeux se relèvent de $saOrSon console. En parlant, $ilOrElle secoue la tête. ""Vous avez vraiment fait n'importe quoi, capitaine. Vous devriez savoir qu'il ne faut pas se mettre en travers de la vision du Commandant Suprême.""
+$HisOrHer yeux se relèvent de $hisOrHer console. En parlant, $heOrShe secoue la tête. ""Vous avez vraiment fait n'importe quoi, capitaine. Vous devriez savoir qu'il ne faut pas se mettre en travers de la vision du Commandant Suprême.""
 
 Encore des tapotements.
 
@@ -27315,40 +27315,40 @@ SDMakeDealSelComSpiderCheck3,SDMakeDealSelComOptCheck,$global.sdtu_completed,"Re
 RemoveOption sdMakeDealComSpider",,,
 SDMakeDealSelCom2spiderWho,DialogOptionSelected,$option == sdMakeDealComSpiderWho,,"$Rank $personLastName lâche un unique aboiement de rire étrange. Puis marque une pause.
 
-""Vous êtes sérieux ? Oh là là, capitaine."" $IlOrElle sort un mouchoir blanc immaculé d'une poche et s'essuie l'oeil droit.
+""Vous êtes sérieux ? Oh là là, capitaine."" $HeOrShe sort un mouchoir blanc immaculé d'une poche et s'essuie l'oeil droit.
 
-""Je fais référence bien sûr au Grand Inspecteur-Général en Chef Dolos Macario. Il débusque les traîtres, les terroristes... toutes sortes de racaille dégénérée qui s'oppose à la glorieuse vision du Commandant Suprême Philip Andrada. Personne n'échappe à sa toile, capitaine."" $IlOrElle cligne rapidement des yeux, puis tamponne son oeil à nouveau.
+""Je fais référence bien sûr au Grand Inspecteur-Général en Chef Dolos Macario. Il débusque les traîtres, les terroristes... toutes sortes de racaille dégénérée qui s'oppose à la glorieuse vision du Commandant Suprême Philip Andrada. Personne n'échappe à sa toile, capitaine."" $HeOrShe cligne rapidement des yeux, puis tamponne son oeil à nouveau.
 
 ""Personne.""
 
 Retour aux tapotements sur l'interface.",sdMakeDealCom2:Continuer,
 SDMakeDealSelCom2spider,DialogOptionSelected,$option == sdMakeDealComSpider,,"Le $post lâche un unique aboiement de rire étrange. Puis marque une pause.
 
-""Eh bien, débusquer les traîtres, j'imagine. Et les terroristes comme les Voilistes et les Antis... toutes sortes de racaille dégénérée qui s'oppose à la glorieuse vision du Commandant Suprême Philip Andrada."" $IlOrElle cligne rapidement des yeux, puis tamponne son oeil avec un mouchoir blanc.
+""Eh bien, débusquer les traîtres, j'imagine. Et les terroristes comme les Voilistes et les Antis... toutes sortes de racaille dégénérée qui s'oppose à la glorieuse vision du Commandant Suprême Philip Andrada."" $HeOrShe cligne rapidement des yeux, puis tamponne son oeil avec un mouchoir blanc.
 
 ""Pardonnez-moi. Quelque chose dans l'atmosphère. Il faudra que j'aie un mot avec le support vital.""",sdMakeDealCom2:Continuer,
 SDMakeDealSelCom2spiderSDTU,DialogOptionSelected,$option == sdMakeDealComSpiderSDTUdone,,"Le $post se fige, les yeux fixes sur vous. Pendant un long moment.
 
 ""Bien sur,"" dit $heOrShe enfin, puis laisse echapper une petite toux genee. ""Ou en etions-nous ? Ah oui, votre petit problème.""",sdMakeDealCom2:Continuer,
 SDMakeDealSelCom2,DialogOptionSelected,$option == sdMakeDealCom2,"AddTextSmall ""Earmarks 50% of your fuel export gross profits for the Diktat"" highlight
-FireAll SDMakeDealSelComOptions","""Bonne nouvelle, capitaine. Il semblerait que le Commandant Suprême - ou l'un de ses Exécuteurs-Juges désignés, j'en suis sûr - était d'humeur généreuse quand votre cas a été examiné."" $IlOrElle tapote son interface.
+FireAll SDMakeDealSelComOptions","""Bonne nouvelle, capitaine. Il semblerait que le Commandant Suprême - ou l'un de ses Exécuteurs-Juges désignés, j'en suis sûr - était d'humeur généreuse quand votre cas a été examiné."" $HeOrShe tapote son interface.
 
-""Vous n'avez pas été personnellement signalé pour exécution,"" $ilOrElle lève les yeux. ""C'est bien !"" $IlOrElle regarde à nouveau vers le bas.
+""Vous n'avez pas été personnellement signalé pour exécution,"" $heOrShe lève les yeux. ""C'est bien !"" $HeOrShe regarde à nouveau vers le bas.
 
 ""Vous verserez la moitié des profits de vos ventes de carburant au Diktat Sindrien en échange du droit d'exister.""
 
-$IlOrElle se cale en arrière, satisfait. ""Si vous voulez bien envoyer votre clé de chiffrement, je signalerai votre accord immédiatement.""",,
+$HeOrShe se cale en arrière, satisfait. ""Si vous voulez bien envoyer votre clé de chiffrement, je signalerai votre accord immédiatement.""",,
 SDMakeDealSelComOptA,SDMakeDealSelComOptions,,,,sdDealConfirm:Confirmer l'accord,
 SDMakeDealSelComOptB,SDMakeDealSelComOptions,!$saidOptB,,,"sdDealCom_negotiate:""Peut-être pouvons-nous ajuster les détails de l'accord, juste un peu.""",
 SDMakeDealSelComOptC,SDMakeDealSelComOptions,!$saidOptC,,,"sdDealCom_maybeNot:""Je ne suis pas très sûr de ça.""",
 SDMakeDealSelComOptD,SDMakeDealSelComOptions,$questionedDeal,,,"sdDealCom_rejectDeal:""Je refuse ce marché. Je vais proposer mes propres conditions...""",
 SDMakeDealSelComNegotiate,DialogOptionSelected,$option == sdDealCom_negotiate,"$saidOptB = true 0
 $questionedDeal = true 0
-FireAll SDMakeDealSelComOptions","$IlOrElle laisse échapper un petit rire charitable, comme si vous aviez fait une plaisanterie embarrassante. Puis marque une pause.
+FireAll SDMakeDealSelComOptions","$HeOrShe laisse échapper un petit rire charitable, comme si vous aviez fait une plaisanterie embarrassante. Puis marque une pause.
 
-""Vous êtes sérieux ? Oh, capitaine."" $IlOrElle secoue la tête. ""Vous... comprenez que cet ordre porte le cachet du bureau du Commandant Suprême du Diktat Sindrien ?""
+""Vous êtes sérieux ? Oh, capitaine."" $HeOrShe secoue la tête. ""Vous... comprenez que cet ordre porte le cachet du bureau du Commandant Suprême du Diktat Sindrien ?""
 
-$IlOrElle commence à avoir l'air un peu inquiet.
+$HeOrShe commence à avoir l'air un peu inquiet.
 
 ""Vous devez obtempérer.""",,
 SDMakeDealSelComMaybeNo,DialogOptionSelected,$option == sdDealCom_maybeNot,"$saidOptC = true 0
@@ -27356,7 +27356,7 @@ $questionedDeal = true 0
 FireAll SDMakeDealSelComOptions","$HeOrShe a l'air perplexe.
 
 ""Je ne suis pas sur de comprendre, capitaine. Vous portez une commission du Diktat Sindrien. Vous DEVEZ vous soumettre a l'autorite de l'Executeur Supreme. Il n'y a pas de question ici.""",,
-SDHAmakeDealSelComReject,DialogOptionSelected,$option == sdDealCom_rejectDeal,,"$IlOrElle lève une main, l'air alarmé maintenant.
+SDHAmakeDealSelComReject,DialogOptionSelected,$option == sdDealCom_rejectDeal,,"$HeOrShe lève une main, l'air alarmé maintenant.
 
 ""Non. Vous ne pouvez pas refuser l'accord. Comprenez-vous vos paroles ? Comprenez-vous la portée de ceci ? Contredire la volonté du Commandant Suprême est la définition même de la trahison.""
 
@@ -27374,14 +27374,14 @@ AdjustRep sindrian_diktat INHOSPITABLE -80","La voix du $post se fait glaciale. 
 ""Fuyez cet endroit sur-le-champ, traître. Fuyez avant que votre précieux $shipOrFleet ne soit abattu. La volonté de fer du Lion de Sindria, sa suprématie immortelle, ne sera jamais intimidée par des déchets de spaciers intempestifs comme vous !""
 
 La communication est coupée sans plus de cérémonie.",cutCommLink:Couper la comm,"# look, I warned you... "
-SDAttemptNegotiation,DialogOptionSelected,$option == sdDeal_negotiate,RemoveOption sdDeal_negotiate,"Le stylet s'arrête de tourner, les yeux du $post se posent sur vous. $IlOrElle a l'air presque confus.
+SDAttemptNegotiation,DialogOptionSelected,$option == sdDeal_negotiate,RemoveOption sdDeal_negotiate,"Le stylet s'arrête de tourner, les yeux du $post se posent sur vous. $HeOrShe a l'air presque confus.
 
 ""Il n'y a pas de négociation avec la volonté du Commandant Suprême.""
 
-$IlOrElle pose le stylet. ""Le Lion a fait preuve d'une telle retenue avec les arrivistes comme vous. Bien sûr, dans mon coeur, je sais que sa vision à long terme produira le meilleur monde possible pour nous tous - pour ceux qui ont leur place dans sa vision, s'entend - mais... il n'y a rien que je désire plus que de réduire la racaille dégénérée comme vous en cendres."" $IlOrElle vous fixe pendant un long moment, sans ciller.",,
+$HeOrShe pose le stylet. ""Le Lion a fait preuve d'une telle retenue avec les arrivistes comme vous. Bien sûr, dans mon coeur, je sais que sa vision à long terme produira le meilleur monde possible pour nous tous - pour ceux qui ont leur place dans sa vision, s'entend - mais... il n'y a rien que je désire plus que de réduire la racaille dégénérée comme vous en cendres."" $HeOrShe vous fixe pendant un long moment, sans ciller.",,
 SDMakeDealSelConfirm,DialogOptionSelected,$option == sdDealConfirm,HA_CMD makeDiktatDeal,"Le $post soupire, déçu.
 
-""Très bien. Si vous insistez, je soumettrai votre accord au Haut Commandement. Vos gens recevront les identifiants de comptes pour les paiements et ainsi de suite."" $IlOrElle fait un geste dédaigneux, ""Bonne journée, capitaine.""
+""Très bien. Si vous insistez, je soumettrai votre accord au Haut Commandement. Vos gens recevront les identifiants de comptes pour les paiements et ainsi de suite."" $HeOrShe fait un geste dédaigneux, ""Bonne journée, capitaine.""
 
 Cela entamera sérieusement vos marges bénéficiaires, mais le bombardement de saturation total que les flottes du Diktat promettent de déchaîner serait encore moins rentable.",cutCommLink:Couper la comm,
 # TODO Write one of these for Macario. ... ? Might be fun.,,,,,,
@@ -27392,12 +27392,12 @@ Commission personCanGiveCommission
 $player.makeDiktatDeal",,,"sdBreakDeal:""Je suis ici pour vous informer que je mets fin à l'accord sur le carburant.""",
 SDBreakDealSel,DialogOptionSelected,$option == sdBreakDeal,,"""Vous- vous ne pouvez pas faire ça !"" Le $Post du Diktat jette un rapide coup d'oeil autour de lui pendant un instant, comme s'il pouvait y avoir quelque information qui donnerait un sens à votre déclaration.
 
-N'en trouvant aucune, $ilOrElle se rassied pour vous regarder avec un air choqué virant à la colère. ""Ne soyez pas stupide, on vous le fera regretter. Vous ne pouvez pas contrer la volonté du Commandant Suprême sans subir un châtiment sévère. Vous ne serez jamais pardonné. Il fera un exemple de vous. Si vous ne mourez pas dans l'espace, il vous enverra à Cruor. Si vous essayez de vous cacher, l'Araignée vous trouvera. C'est comme ça que ça marche.""
+N'en trouvant aucune, $heOrShe se rassied pour vous regarder avec un air choqué virant à la colère. ""Ne soyez pas stupide, on vous le fera regretter. Vous ne pouvez pas contrer la volonté du Commandant Suprême sans subir un châtiment sévère. Vous ne serez jamais pardonné. Il fera un exemple de vous. Si vous ne mourez pas dans l'espace, il vous enverra à Cruor. Si vous essayez de vous cacher, l'Araignée vous trouvera. C'est comme ça que ça marche.""
 
-""Il est encore temps,"" dit $ilOrElle à voix basse. ""Je ferai comme si vous n'aviez jamais rien dit.""","sdBreakDealConfirm:""Vous m'avez entendu. Le marché est annulé.""
+""Il est encore temps,"" dit $heOrShe à voix basse. ""Je ferai comme si vous n'aviez jamais rien dit.""","sdBreakDealConfirm:""Vous m'avez entendu. Le marché est annulé.""
 genericGoBack:""Désolé, j'ai dû mal m'exprimer."" (retour)",
 ,,,,,,
-SDBreakDealConfirmSel,DialogOptionSelected,$option == sdBreakDealConfirm,HA_CMD breakSDDeal,"""Vous êtes fou !"" dit $ilOrElle, criant presque. ""Nos puissantes flottes, le, le Diktat Sindrien piétinera vos colonies et effacera votre mémoire de l'histoire ! Nous allons-""
+SDBreakDealConfirmSel,DialogOptionSelected,$option == sdBreakDealConfirm,HA_CMD breakSDDeal,"""Vous êtes fou !"" dit $heOrShe, criant presque. ""Nos puissantes flottes, le, le Diktat Sindrien piétinera vos colonies et effacera votre mémoire de l'histoire ! Nous allons-""
 
 Vous regardez un postillon voler dans les airs, témoignage de la bonne qualité de résolution de l'hologramme. Le $post est en train de s'échauffer considérablement et ne semble plus avoir rien d'utile à dire.",cutCommLink:Couper la comm,
 ,,,,,,
@@ -27418,7 +27418,7 @@ FireAll HegInvestigatorOptions","La communication se stabilise et le $Post de l'
 
 ""Citoyen ! Ce volume non enregistré fait désormais l'objet d'une opération active d'investigation sur l'utilisation possible de technologies IA interdites. J'invoque le protocole d'usage de la force martiale conformément au diktat de l'Hégémonie. Coupez les armes, les boucliers et les moteurs de votre $shipOrFleet et préparez-vous à recevoir des inspecteurs du Ministère des Standards Technologiques.""
 
-$IlOrElle baisse très légèrement la tête. ""Nous vous remercions par avance pour votre coopération imminente avec notre enquête.""",,# I think subtlety is not their play here.
+$HeOrShe baisse très légèrement la tête. ""Nous vous remercions par avance pour votre coopération imminente avec notre enquête.""",,# I think subtlety is not their play here.
 hegInvestigatorCommsWeaker,OpenCommLink,"$entity.investigatorConv score:100
 $entity.relativeStrength < 0","$entity.ignorePlayerCommRequests = true 7
 MakeOtherFleetPreventDisengage hassle false
@@ -27426,7 +27426,7 @@ FireAll HegInvestigatorOptions","Le lien s'active brusquement.
 
 ""Citoyen ! Ce volume non enregistré a été désigné pour une investigation active sur l'utilisation possible de technologies IA interdites."" Le $Post de l'Hégémonie vous fixe d'un air officiel en parlant, ""Je suis autorisé à utiliser toute la force nécessaire en vertu de la loi du Domaine Humain et de l'autorité martiale d'urgence de l'Hégémonie pour assurer la sécurité du Secteur Persan.""
 
-$IlOrElle relève le menton de quelques degrés. ""Nous avons entendu d'étranges rumeurs à propos de ce système, capitaine."" Est-ce une goutte de sueur ? ""Et, euh, je demande votre conformité volontaire à une inspection technologique standard de votre $shipOrFleet. Pour votre propre sécurité.""",,
+$HeOrShe relève le menton de quelques degrés. ""Nous avons entendu d'étranges rumeurs à propos de ce système, capitaine."" Est-ce une goutte de sueur ? ""Et, euh, je demande votre conformité volontaire à une inspection technologique standard de votre $shipOrFleet. Pour votre propre sécurité.""",,
 hegInvestigatorInspectQstrong,HegInvestigatorOptions,"$entity.relativeStrength >= 0
 !$askedWhatAbout",,,"hegInvestigation_Qstrong:""'Normes technologiques' ? De quoi s'agit-il exactement ?""",
 hegInvestigatorInspectQweak,HegInvestigatorOptions,"$entity.relativeStrength < 0
@@ -27440,9 +27440,9 @@ FireAll HegInvestigatorOptions","""La menace des IA rebelles, capitaine,"" dit $
 
 ""Maintenant,"" le ton de $hisOrHer se durcit, ""soumettez votre $shipOrFleet a l'inspection.""",,
 hegInvestigatorQweakSel,DialogOptionSelected,$option == hegInvestigation_Qweak,"$askedWhatAbout = true 0
-FireAll HegInvestigatorOptions","""La menace des IA renégates, capitaine,"" dit $ilOrElle, tout à fait sincère et maintenant sûr de soi. ""L'intelligence artificielle incontrôlée a causé la mort de milliards d'êtres humains. Nous ne pouvons pas permettre que cela se reproduise.""
+FireAll HegInvestigatorOptions","""La menace des IA renégates, capitaine,"" dit $heOrShe, tout à fait sincère et maintenant sûr de soi. ""L'intelligence artificielle incontrôlée a causé la mort de milliards d'êtres humains. Nous ne pouvons pas permettre que cela se reproduise.""
 
-""Capitaine,"" dit $ilOrElle. ""J'ai l'ordre de débusquer ces... choses. De chaque fissure sur chaque corps planétaire, de chaque recoin dans chaque vaisseau. J'ai entendu parler de capitaines qui étaient payés pour faire la contrebande de coeurs d'IA. Et de ceux qui ont été trompés, que ce soit par un revendeur sans scrupules ou,"" $saOrSon voix n'est plus qu'un murmure, ""peut-être par le coeur lui-même, manipulant nos communications et nos systèmes bancaires, d'une manière ou d'une autre.""
+""Capitaine,"" dit $heOrShe. ""J'ai l'ordre de débusquer ces... choses. De chaque fissure sur chaque corps planétaire, de chaque recoin dans chaque vaisseau. J'ai entendu parler de capitaines qui étaient payés pour faire la contrebande de coeurs d'IA. Et de ceux qui ont été trompés, que ce soit par un revendeur sans scrupules ou,"" $hisOrHer voix n'est plus qu'un murmure, ""peut-être par le coeur lui-même, manipulant nos communications et nos systèmes bancaires, d'une manière ou d'une autre.""
 
 ""J'ai mes ordres, $playerSirOrMadam."" Le $Post de l'Hégémonie semble croiser votre regard à travers la communication. ""Laissez-moi les exécuter. Pour l'Hégémonie, pour l'humanité.""","
 
@@ -27466,14 +27466,14 @@ FireAll HegInvestigatorOptions","L'expression du $post se durcit.
 
 ""Un destructeur de planètes est tout autant un outil, et c'est pour une bonne raison que seule l'Hégémonie - en tant que successeur légitime de l'autorité du Domaine Humain - peut légalement conserver de tels dispositifs.""
 
-""Quoi qu'il en soit,"" $ilOrElle fait un geste dédaigneux de la main, ""je ne suis pas ici pour débattre. Je réitère ma demande d'inspecter votre $shipOrFleet, citoyen.""",,
+""Quoi qu'il en soit,"" $heOrShe fait un geste dédaigneux de la main, ""je ne suis pas ici pour débattre. Je réitère ma demande d'inspecter votre $shipOrFleet, citoyen.""",,
 hegInevestigatorRespAItoolSel,DialogOptionSelected,$option == hegInvestigation_AIrespTool,"$player.gaveHegInvestigatorAIresponse = true
 $player.ethosUseAI++
 FireAll HegInvestigatorOptions","L'expression du $post se durcit davantage.
 
 ""Un destructeur de planètes est tout autant un outil, et c'est pour une bonne raison que seule l'Hégémonie en tant que successeur légitime de l'autorité du Domaine Humain peut légalement conserver de tels dispositifs.""
 
-$IlOrElle fait un geste dédaigneux de la main. ""Il n'y aura pas de débat. Je réitère mon ordre : soumettez-vous à l'inspection.""",,
+$HeOrShe fait un geste dédaigneux de la main. ""Il n'y aura pas de débat. Je réitère mon ordre : soumettez-vous à l'inspection.""",,
 hegInevestigatorRespAIthreatSel,DialogOptionSelected,$option == hegInvestigation_AIrespThreat,"$player.gaveHegInvestigatorAIresponse = true
 $player.ethosAntiAI++
 FireAll HegInvestigatorOptions","""Alors nous sommes d'accord,"" dit $heOrShe, bien que l'expression de $hisOrHer indique que $heOrShe n'est pas ravi de decouvrir un terrain d'entente avec vous.
@@ -27495,9 +27495,9 @@ hegInevestigatorRespAIrightsSelWk,DialogOptionSelected,"$option == hegInvestigat
 $entity.relativeStrength < 0","$player.gaveHegInvestigatorAIresponse = true
 $player.ethosProAI++
 AdjustRepActivePerson VENGEFUL -10
-FireAll HegInvestigatorOptions","À en juger par $saOrSon expression, le $post n'apprécie guère votre position philosophique sur ce sujet.
+FireAll HegInvestigatorOptions","À en juger par $hisOrHer expression, le $post n'apprécie guère votre position philosophique sur ce sujet.
 
-""Je n'arrive pas à croire que vous choisiriez de sympathiser avec des machines génocidaires."" $SesOrSes paroles sont serrées ; du dégoût mêlé de retenue. ""Je vais faire comme si je n'avais pas entendu ces mots, capitaine.""",,
+""Je n'arrive pas à croire que vous choisiriez de sympathiser avec des machines génocidaires."" $HisOrHer paroles sont serrées ; du dégoût mêlé de retenue. ""Je vais faire comme si je n'avais pas entendu ces mots, capitaine.""",,
 hegInvestigatorComplySelWk,DialogOptionSelected,"$option == hegInvestigationComply
 $entity.relativeStrength < 0","ShowImageVisual quartermaster
 MakeOtherFleetPreventDisengage hassle false
@@ -29968,9 +29968,9 @@ RepLTE $personFaction.id FAVORABLE",FireAll PopulateOptions,"""Hmm."" $HeOrShe v
 
 ""Attendez, je vous connais. Vous êtes un de ces spationautes pique-assiettes qui demandent des provisions aux honnêtes intendants. Vous n'obtiendrez rien de moi, c'est certain !""",,
 #bqfsAskForSuppliesDeniedHostile,DialogOptionSelected,"$option == bqfs_askForSupplies
-$personFaction.isHostile score:100",AdjustRepActivePerson -1,"""Attendez, est-ce que vous êtes—"" Ses yeux se posent sur un datapad qu'$ilOrElle brandit pour l'examiner, plissant les yeux. Puis revient sur vous. Les rouages tournent.
+$personFaction.isHostile score:100",AdjustRepActivePerson -1,"""Attendez, est-ce que vous êtes—"" Ses yeux se posent sur un datapad qu'$heOrShe brandit pour l'examiner, plissant les yeux. Puis revient sur vous. Les rouages tournent.
 
-""Vous êtes $playerName !"" dit-$ilOrElle finalement, semblant se surprendre même.
+""Vous êtes $playerName !"" dit-$heOrShe finalement, semblant se surprendre même.
 
 ""Dégagez de ma liaison comm espèce de... déchet spatial !""
 
@@ -29980,7 +29980,7 @@ $gavePlayerFreeSupplies",FireAll PopulateOptions,"""Attendez un peu."" $HeOrShe 
 
 $gavePlayerFreeSupplies
 
-""Ce sont les règles,"" dit-$ilOrElle avec un hochement de tête.",,
+""Ce sont les règles,"" dit-$heOrShe avec un hochement de tête.",,
 #bqfsAskForSuppliesOptionSuspect,PopulateOptions,"$postId == supplyOfficer
 RepLTE $personFaction.id FAVORABLE
 !$gavePlayerFreeSupplies","SetTooltip bqfs_askForSupplies ""$personName won't give you free supplies until you improve your relations with $hisOrHer faction.""
@@ -29988,7 +29988,7 @@ SetEnabled bqfs_askForSupplies false","""Hmm."" $HeOrShe vous regarde d'un air s
 
 ""Vous avez la tête d'un de ces spationautes pique-assiettes qui demandent des provisions gratuites aux honnêtes intendants. Vous n'obtiendrez rien de moi, c'est certain.""",,
 #bqfsAskForSuppliesOptionHostile,PopulateOptions,"$postId == supplyOfficer
-$personFaction.isHostile score:100",RemoveOption bqfs_askForSupplies,"""Vous vous êtes mis du mauvais côté de mes supérieurs,"" dit-$ilOrElle avec un regard noir. ""Et ça veut dire que vous êtes du mauvais côté de moi aussi !""
+$personFaction.isHostile score:100",RemoveOption bqfs_askForSupplies,"""Vous vous êtes mis du mauvais côté de mes supérieurs,"" dit-$heOrShe avec un regard noir. ""Et ça veut dire que vous êtes du mauvais côté de moi aussi !""
 
 ""Dégagez de ma liaison comm espèce de... déchet spatial.""
 
