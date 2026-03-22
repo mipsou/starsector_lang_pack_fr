@@ -2281,7 +2281,7 @@ payMegaTitheNeverMindSel,DialogOptionSelected,$option == payMegaTitheNeverMind,"
 FireAll LPTitheOptions","""Eh bien,"" dit le Voiliste d'un ton hésitant. ""Malgré nos grands discours et combien notre chemin commun pourrait être béni et fécond... la Providence ne pourvoit qu'à ceux d'entre nous qui savent accepter le don placé devant eux - et à ceux qui s'humilient avec une dîme appropriée à l'ampleur de leur péché.""
 
 $HisOrHer jette rapidement un regard sur un écran puis se retourne vers vous, ""Ce qui serait, euh, de l'ordre de $entity.LP_titheDGS crédits.""",,
-LPTithePay,DialogOptionSelected,$option == payTithe,"#AddText ""Lost $entity.LP_tithe credits"" textEnemyColor
+LPTithePay,DialogOptionSelected,$option == payTithe,"#AddText ""Perte de $entity.LP_tithe crédits"" textEnemyColor
 AddRemoveCommodity credits -$entity.LP_tithe true
 $entity.LP_tithePaid = true 30
 MakeOtherFleetNonHostile LP_tithe true 30
@@ -3244,7 +3244,7 @@ mpm_notEnoughPirateOption,MPMHandOverOptions,!CallEvent $mpm_eventRef hasEnough,
 mpm_refusePirateOption,MPMHandOverOptions,,,,"
 1:mpm_refuse:Refuser",
 mpm_handOverOptionSel,DialogOptionSelected,$option == mpm_handOver,"CallEvent $mpm_eventRef handOver
-AddText ""Lost $mpm_quantity $mpm_commodityName"" textEnemyColor
+AddText ""Perte de $mpm_quantity $mpm_commodityName"" textEnemyColor
 AddText ""\""Ravi que vous ayez fini par entendre raison. Maintenant, filez avant que je change d'avis.\""""
 MakeOtherFleetHostile mpm_pirate false
 MakeOtherFleetNonHostile mpm_pirate true 10
@@ -3340,7 +3340,7 @@ ome_wontHire,PopulateOptionsHire,"$ome_hireable score:100
 ome_wontHireMerc,PopulateOptionsHire,"$ome_hireable score:100
 CallEvent $ome_eventRef atLimit $id
 $isMercenary","SetShortcut ome_convEnd ""ESCAPE""",,2:ome_convEnd:Mettre fin à la conversation,
-ome_askSkillsSel,DialogOptionSelected,$option == ome_askSkills,"AddText ""You ask $personName some questions to establish where $hisOrHer skills lie.""
+ome_askSkillsSel,DialogOptionSelected,$option == ome_askSkills,"AddText ""Vous posez quelques questions à $personName pour évaluer ses compétences.""
 CallEvent $ome_eventRef printSkills $id
 $askedSkills = true 0
 FireAll PopulateOptionsHire
@@ -3349,30 +3349,30 @@ unset $askedSkills",,,
 ome_askSkillsSelNoSkillAdmin,DialogOptionSelected,"$option == ome_askSkills
 $ome_adminTier == 0
 $postId != mercenary
-$postId != officer_for_hire","AddText ""You ask $personName some questions to establish where $hisOrHer skills lie. It quickly becomes apparent that $heOrShe has no special talents, but is nonetheless a capable administrator, whose services can be had for a very reasonable fee.""
+$postId != officer_for_hire","AddText ""Vous posez quelques questions à $personName pour évaluer ses compétences. Il devient vite évident qu'$heOrShe n'a pas de talents particuliers, mais reste un administrateur compétent, dont les services sont disponibles à un prix très raisonnable.""
 $askedSkills = true 0
 FireAll PopulateOptionsHire
 unset $askedSkills",,,
-ome_askHireSel,DialogOptionSelected,$option == ome_askHire,"AddText ""\""I'll expect a $ome_hiringBonus credit hiring bonus, and afterwards a starting salary of $ome_salary credits per month. Once the initial transfer is complete, I can be ready to board within the hour.\""""
+ome_askHireSel,DialogOptionSelected,$option == ome_askHire,"AddText ""\""J'attends une prime d'engagement de $ome_hiringBonus crédits, puis un salaire de départ de $ome_salary crédits par mois. Une fois le transfert initial effectué, je peux être prêt à embarquer dans l'heure.\""""
 SetTextHighlightColors hColor hColor
 SetTextHighlights $ome_hiringBonus $ome_salary
-AddText ""You have $player.creditsStr credits available.""
+AddText ""Vous disposez de $player.creditsStr crédits.""
 SetTextHighlightColors hColor
 SetTextHighlights $player.creditsStr
 FireBest HireOptionSet",,,
 ome_askHireSelMerc,DialogOptionSelected,"$option == ome_askHire
-$isMercenary","AddText ""\""The typical contract length is $mercContractDurStr days, with some allowances for when we get back to port. Can be terminated early by either party, and so on - the standard stuff. When it's up, we can talk about extending it if both parties are agreeable.\n\nI'll expect a $ome_hiringBonus credit hiring bonus, and a salary of $ome_salary credits per month. Once the initial transfer is complete, I can be ready to board within the hour.\""""
+$isMercenary","AddText ""\""La durée standard du contrat est de $mercContractDurStr jours, avec quelques ajustements pour le retour au port. Résiliable par l'une ou l'autre partie, et ainsi de suite — les clauses habituelles. À l'échéance, on pourra discuter d'un renouvellement si les deux parties sont d'accord.\n\nJ'attends une prime d'engagement de $ome_hiringBonus crédits et un salaire de $ome_salary crédits par mois. Une fois le transfert initial effectué, je peux être prêt à embarquer dans l'heure.\""""
 SetTextHighlightColors hColor hColor hColor
 SetTextHighlights $mercContractDurStr $ome_hiringBonus $ome_salary
-AddText ""You have $player.creditsStr credits available.\n\nThis officer is a highly professional mercenary and does not count against the normal officer limit.""
+AddText ""Vous disposez de $player.creditsStr crédits.\n\nCet officier est un mercenaire hautement professionnel et ne compte pas dans la limite normale d'officiers.""
 SetTextHighlightColors hColor
 SetTextHighlights $player.creditsStr
 FireBest HireOptionSet",,,
 ome_askHireSelAdmin,DialogOptionSelected,"$option == ome_askHire
-$ome_isAdmin","AddText ""\""I'll expect a $ome_hiringBonus credit hiring bonus, and afterwards a salary of $ome_salary credits per month. Once the initial transfer is complete, I will await my assignment at your pleasure.\""""
+$ome_isAdmin","AddText ""\""J'attends une prime d'engagement de $ome_hiringBonus crédits, puis un salaire de $ome_salary crédits par mois. Une fois le transfert initial effectué, j'attendrai mon affectation à votre convenance.\""""
 SetTextHighlightColors hColor hColor
 SetTextHighlights $ome_hiringBonus $ome_salary
-AddText ""You have $player.creditsStr credits available.""
+AddText ""Vous disposez de $player.creditsStr crédits.""
 SetTextHighlightColors hColor
 SetTextHighlights $player.creditsStr
 FireBest HireOptionSet",,,
@@ -3482,7 +3482,7 @@ ActivateAbility $player.fleetId transponder
 UpdateMemory",Vous donnez l'ordre d'activer le transpondeur et attendez que l'analyse de cargaison se termine.,0:tOff_scan_continue:Continuer,
 tOffComply2,DialogOptionSelected,$option == tOff_comply2,"unset $entity.transponderOffConv
 unset $entity.sawPlayerTransponderOff",Vous attendez que l'analyse de cargaison se termine.,0:tOff_scan_continue:Continuer,
-tOffCargoScan,DialogOptionSelected,$option == tOff_scan_continue,"AddText ""After a brief wait, the $faction $otherFleetName transmits the scan results.""
+tOffCargoScan,DialogOptionSelected,$option == tOff_scan_continue,"AddText ""Après une brève attente, le $faction $otherFleetName transmet les résultats du scan.""
 CargoScan
 FireBest TOffScanResult",,,
 tOffCargoScanHostile,DialogOptionSelected,"$option == tOff_scan_continue
@@ -3567,7 +3567,7 @@ SetStoryOption avoid_scan 1 avoidCargoScan ui_char_spent_story_point ""Talked yo
 1:avoid_scan:S'en sortir par la parole
 2:cargoScan_refuse:Refuser et couper la liaison comm",
 ,,,,,,
-cargoScanStart,DialogOptionSelected,$option == cargoScan_comply,"AddText ""After a brief wait, the $faction $otherFleetName transmits the scan results.""
+cargoScanStart,DialogOptionSelected,$option == cargoScan_comply,"AddText ""Après une brève attente, le $faction $otherFleetName transmet les résultats du scan.""
 CargoScan
 FireBest CargoScanResult",,,
 cargoScanPods,CargoScanResult,$scan_podsFound score:1000,unset $scan_podsFound,"Le $personRank $faction marque une pause et regarde hors champ.
@@ -3664,7 +3664,7 @@ Disposer d'un financement adéquat - disons, $ise_bribeAmountDGS crédits suppl�
 ise_offerBribeSelNotEnough,DialogOptionSelected,$option == ise_offerBribe,"SetTextHighlights $ise_bribeAmountDGSSetShortcut cutCommLink ""ESCAPE""","""Votre intérêt pour l'affaire est dûment noté, mais il ne semble pas que vous soyez vraiment prêt à m'aider à résoudre ce malentendu. Quelque chose comme, disons, $ise_bribeAmountDGS crédits ? Cela pourrait faciliter une enquête approfondie.""
 
 ""Maintenant j'ai de fascinants rapports vous concernant à lire, alors revenez quand vous serez sérieux.""",0:cutCommLink:Couper la comm,
-ise_offerBribeAmountSel,DialogOptionSelected,$option == ise_offerBribeAmount,"AddText ""Lost $ise_bribeAmountDGS credits"" textEnemyColor
+ise_offerBribeAmountSel,DialogOptionSelected,$option == ise_offerBribeAmount,"AddText ""Perte de $ise_bribeAmountDGS crédits"" textEnemyColor
 AddText ""\""Merci, citoyen. Je suis certain que mon enquête aboutira à une conclusion appropriée en temps voulu.\""""
 SubCredits $ise_bribeAmount
 CallEvent $ise_eventRef setBribePaid
@@ -3712,7 +3712,7 @@ igr_offerBribeSelNotEnough,DialogOptionSelected,$option == igr_offerBribe,"SetTe
 SetShortcut cutCommLink ""ESCAPE""","""Votre intérêt pour l'affaire est dûment noté, mais il ne semble pas que vous soyez vraiment prêt à m'aider à résoudre ce malentendu. Quelque chose comme, disons, $ise_bribeAmountDGS crédits ? Cela pourrait faciliter une enquête approfondie.""
 
 ""Maintenant j'ai de fascinants rapports vous concernant à examiner, alors revenez quand vous serez sérieux.""",0:cutCommLink:Couper la comm,
-igr_offerBribeAmountSel,DialogOptionSelected,$option == igr_offerBribeAmount,"AddText ""Lost $igr_bribeAmountDGS credits"" textEnemyColor
+igr_offerBribeAmountSel,DialogOptionSelected,$option == igr_offerBribeAmount,"AddText ""Perte de $igr_bribeAmountDGS crédits"" textEnemyColor
 AddText ""\""Merci, citoyen. Je suis certain que mon enquête aboutira à une conclusion appropriée en temps voulu.\""""
 SubCredits $igr_bribeAmount
 CallEvent $igr_eventRef setBribePaid
@@ -3886,7 +3886,7 @@ unset $trapped",,,
 pods_breakOption2,DialogOptionSelected,"$option == podsBreak
 $trapped",CargoPods destroy,"Malheureusement, les capsules étaient piégées pour exploser sans le bon code d'autorisation, et la cargaison est entièrement détruite.",100:defaultLeave:Partir,
 pods_stabilizeSel,DialogOptionSelected,$option == podsStabilize,"CargoPods computeStabilizeData
-AddText ""Stabilization will put the pods on a predictable orbit for an additional $stabilizeDays days. Adding or removing any cargo afterwards will destabilize the orbit.""
+AddText ""La stabilisation placera les capsules sur une orbite prévisible pour $stabilizeDays jours supplémentaires. Ajouter ou retirer du chargement après cela déstabilisera l'orbite.""
 SetTextHighlights $stabilizeDays ""will destabilize the orbit""
 ShowResCost supplies $stabilizeSupplies true
 FireBest CargoPodsDisableProceedIfNeeded",,"0:podsStabConfirm:Poursuivre
@@ -5694,7 +5694,7 @@ lppHesperusShrineWaitCancelShuttle,DialogOptionSelected,"$option == lpp_hesperus
 $global.lpp_madeToWaitForHesperus","AddText ""Vous ordonnez à la navette de se poser. Il semble que l'Excubitor Oak soit sérieux quant à vous faire attendre sept jours avant de pouvoir accéder au sanctuaire d'Hesperus.""
 FireAll PopulateOptions",,,
 lppHesperusShrineDeniedCancelShuttle,DialogOptionSelected,"$option == lpp_hesperusShrineCancelShuttle
-$global.lpp_deniedHesperusShrineAccess","AddText ""You order the shuttle to stand down. It looks like Excubitor Oak is serious about denying you access to the shrine of Hesperus until you 'seek redemption', whâtever that means.""
+$global.lpp_deniedHesperusShrineAccess","AddText ""Vous ordonnez à la navette de se poser. Il semble que l'Excubitor Oak soit sérieux quant à vous refuser l'accès au sanctuaire d'Hesperus tant que vous n'aurez pas 'cherché la rédemption', quoi que cela signifie.""
 FireAll PopulateOptions",,,
 lppHesperausGetMeExcubitor,DialogOptionSelected,$option == lpp_hesperusGetMeExcubitor,"BeginConversation oak
 FireBest PickGreeting","La navigation connecte votre liaison comm au réseau système local, et après ce qui semble une attente plus longue que nécessaire, la liaison établit enfin une connexion.",,
@@ -5809,7 +5809,7 @@ $global.lpp_madeToWaitForHesperus
 lppExcubitorResponseSevenDaysB,PopulateOptions,"$id == oak
 $global.lpp_hesperusWait
 $global.lpp_madeToWaitForHesperus 
-!$global.lpp_visitedShrineHesperus","AddText ""You have not yet waited the seven days the Excubitor Orbis demanded. You suspect that he will not be open-minded about negotiating this delay.""",,,
+!$global.lpp_visitedShrineHesperus","AddText ""Vous n'avez pas encore attendu les sept jours exigés par l'Excubitor Orbis. Vous soupçonnez qu'il ne sera pas ouvert à la négociation de ce délai.""",,,
 lppExcubitorResponseAsk,PopulateOptions,"$id == oak
 $global.lpp_inProgress
 $global.lpp_madeToWaitForHesperus 
@@ -6583,7 +6583,7 @@ Il verse une autre rasade d'un infâme distillat du marché noir dans une tasse.
 ""D'autres cherchent à tuer."" Il vous observe un instant, tenant la tasse, puis la descend d'un trait, tousse, et la repose bruyamment sur la table. ""Je mentionne ça parce que ça ? Ça coûterait plus cher.""","lke_chalcedonBarAskInformation:""Je cherche des informations, pas à tuer. Ce n'est que de la discussion.""
 lke_chalcedonBarAskBornanew:""Je recherche un homme nommé Jethro Bornanew.""",
 lkeChalcedonAskBarRespC,DialogOptionSelected,$option == lke_chalcedonBarAskBornanew,"SetTextHighlights ""5,000""
-AddText ""You have $player.creditsStrC available.""
+AddText ""Vous disposez de $player.creditsStrC crédits.""
 SetTextHighlights $player.creditsStrC
 DoCanAffordCheck 5000 lke_chalcedonBarBribe5k
 DoCanAffordCheck 1000 lke_chalcedonBarBribe1kOffer","""Jethro Bornanew,"" répète le Mammonite comme s'il gravait le nom en mémoire permanente.
@@ -6596,7 +6596,7 @@ DoCanAffordCheck 1000 lke_chalcedonBarBribe1kOffer","""Jethro Bornanew,"" répè
 lke_chalcedonBarBribe1kOffer:""C'est que de la discussion, et si on disait 1 000 ?""
 llke_chalcedonBarBribeWalk:Refuser and leave",
 lkeChalcedonAskBarRespD,DialogOptionSelected,$option == lke_chalcedonBarAskInformation,"SetTextHighlights ""5,000""
-AddText ""You have $player.creditsStrC available.""
+AddText ""Vous disposez de $player.creditsStrC crédits.""
 SetTextHighlights $player.creditsStrC
 DoCanAffordCheck 5000 lke_chalcedonBarBribe5k
 DoCanAffordCheck 1000 lke_chalcedonBarBribe1kOffer","""Bien, bien !"" le Mammonite rit et lève un doigt pour attirer l'attention du tenancier - une autre tournée - puis le pointe vers vous - c'est vous qui payez.
@@ -7579,7 +7579,7 @@ Les spationautes savent que suivre les règles et règlements planétaires locau
 Eventually, vous tombez sur quelqu'un qui dégage une compétence contenue. Vous faites glisser un verre ""en trop"" qu'on vous avait servi, pour lancer la procédure du bon pied.","lke_askMazalotBar2:""Je cherche quelqu'un. J'ai du mal à trouver la bonne... voie.""",
 LKEaskMazalotBar2,DialogOptionSelected,$option == lke_askMazalotBar2,"SetTextHighlights ""3,000""
 SetTextHighlights ""1,000""
-AddText ""You have $player.creditsStrC available.""
+AddText ""Vous disposez de $player.creditsStrC crédits.""
 SetTextHighlights $player.creditsStrC
 DoCanAffordCheck 3000 lke_mazBarBribe3kOffer
 DoCanAffordCheck 1000 lke_mazBarBribe1kOffer","Il hoche la tête et saisit délibérément votre verre, le lève vers vous en un toast discret, puis en prend une gorgée.
@@ -7630,7 +7630,7 @@ lke_barEnd3:""Votre assistance sera mentionnée dans le rapport d'opération."""
 lkeMazBarAgentRespArchcurate,DialogOptionSelected,$option == lke_mazBarAgentRespArchcurate,"SetTextHighlights ""5,000""
 AdjustRep persean SUSPICIOUS -2
 $player.ethosTruth++
-AddText ""You have $player.creditsStrC available.""
+AddText ""Vous disposez de $player.creditsStrC crédits.""
 SetTextHighlights $player.creditsStrC
 FireAll LKEMazBarAgentFineResps","""Ouais ? Eh bien tant mieux pour Ludd."" L'agent brandit son datapad, qui émet un flash vers vous pour un holo rapide afin d'enregistrer votre 'crime'.
 
@@ -13439,13 +13439,13 @@ $market.id != kazeron",FireAll PopulateOptions,$PersonRank $personLastName vous 
 # distress call related,,,,,,
 dstr_normalStart,BeginFleetEncounter,"!$isHostile
 $distress score:1000
-!$distressNoHail","AddText ""You're being hailed."" $faction.baseColor
+!$distressNoHail","AddText ""On vous hèle."" $faction.baseColor
 $hailing = true 0",,,
 dstr_openComms,OpenCommLink,"!$isHostile
 !$distressTalkedToPlayerBefore
 $entity.distress score:1000","CallEvent $entity.ne_eventRef initDistress
 AddText ""\""Dieu merci vous etes arrives !""
-AddText ""Our tanker had an accident and we don't have enough fuel left to get back to the core worlds. We need $entity.distressFuel fuel and will gladly pay you $entity.distressCredits credits for it - a handsome markup, I might add.\""""
+AddText ""Notre pétrolier a eu un accident et il ne nous reste pas assez de carburant pour rejoindre les mondes centraux. Nous avons besoin de $entity.distressFuel de carburant et nous vous paierons volontiers $entity.distressCredits crédits — une belle marge, je dois dire.\""""
 SetTextHighlights $entity.distressFuel $entity.distressCredits
 $distressTalkedToPlayerBefore = true
 FireBest DistressShowAidOptions",,,
@@ -13454,14 +13454,14 @@ dstr_openCommsLuddic,OpenCommLink,"!$isHostile
 $entity.distress score:1000
 $faction.id == luddic_church","CallEvent $entity.ne_eventRef initDistress
 AddText ""\""Louange à la providence et à Ludd ! Vous etes venus pour nous !""
-AddText ""Our tanker had an accident and we don't have enough fuel left to get back to the core worlds. We need $entity.distressFuel fuel and will gladly pay you $entity.distressCredits credits for it - a charitable markup, I might add.\""""
+AddText ""Notre pétrolier a eu un accident et il ne nous reste pas assez de carburant pour rejoindre les mondes centraux. Nous avons besoin de $entity.distressFuel de carburant et nous vous paierons volontiers $entity.distressCredits crédits — une marge charitable, je dois dire.\""""
 SetTextHighlights $entity.distressFuel $entity.distressCredits
 $distressTalkedToPlayerBefore = true
 FireBest DistressShowAidOptions",,,
 dstr_openCommsRepeat,OpenCommLink,"!$isHostile
 $entity.distress score:1000","CallEvent $entity.ne_eventRef initDistress
 AddText ""\""Vous etes de retour !""
-AddText ""You haven't come into more fuel, have you? We need $entity.distressFuel fuel and will gladly pay $entity.distressCredits credits for it.\""""
+AddText ""Vous n'auriez pas trouvé plus de carburant, par hasard ? Nous avons besoin de $entity.distressFuel de carburant et nous vous paierons volontiers $entity.distressCredits crédits.\""""
 SetTextHighlights $entity.distressFuel $entity.distressCredits
 FireBest DistressShowAidOptions",,,
 dstr_aidOptions,DistressShowAidOptions,,"$cutCommLinkPolite = true 0
@@ -13551,7 +13551,7 @@ La liaison comm est coupée avant que vous ayez la chance de répondre.",,
 # player distress call response - buying supplies and fuel,,,,,,
 dcall_normalStart,BeginFleetEncounter,"!$isHostile
 $distressResponse score:1000
-!$distressNoHail","AddText ""You're being hailed."" $faction.baseColor
+!$distressNoHail","AddText ""On vous hèle."" $faction.baseColor
 $hailing = true 0",,,
 dcall_openCommsInhospitable,OpenCommLink,"!$isHostile
 RepIsAtBest $faction.id INHOSPITABLE
@@ -13620,7 +13620,7 @@ dcall_helpSel5,DialogOptionSelected,"$option == dcallHelp
 $distressUsesLastCycle > 4
 !$distressHelpAdequate score:100","DistressResponse acceptHelp
 FireBest DCallPaymentOptions","""Ce que nous pouvons nous permettre ne semble pas suffisant, mais vous devriez être reconnaissant de recevoir quoi que ce soit vu le nombre de fois où vous avez dû appeler à l'aide récemment.""",,
-dcall_paymentOptions,DCallPaymentOptions,,"AddText ""You have $player.creditsStrC available.""
+dcall_paymentOptions,DCallPaymentOptions,,"AddText ""Vous disposez de $player.creditsStrC crédits.""
 SetTextHighlights $player.creditsStrC
 FireBest DCallPaymentOptionsUpdate",,"0:dcallPay:Proposer de payer [$distressPaymentC]
 1:dcallThank:Remercier $himOrHer chaleureusement, mais ne proposer aucun paiement",
@@ -14337,7 +14337,7 @@ Vous finissez par convenir d'un montant de $psi_credits pour les informations du
 psi_disableIfCanNotPay,PSIDisablePayOptionIfNeeded,!CallEvent $psi_eventRef canPay,"SetEnabled psi_pay false
 SetTextHighlightColors bad
 SetTextHighlights $psi_credits
-AddText ""Unfortunately, you've only got $psi_playerCredits on hand.""
+AddText ""Malheureusement, vous n'avez que $psi_playerCredits en poche.""
 SetTextHighlights $psi_playerCredits",,,
 psi_payPilot,DialogOptionSelected,$option == psi_pay,"CallEvent $psi_eventRef payPilot
 ShowDefaultVisual
