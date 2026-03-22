@@ -502,7 +502,7 @@ FireBest OtherPlanetInteractionText
 FireAll PopulateOptions
 FireBest PrintNearbySurveyHostilesTextIfSo","Vos ordres sont reçus et exécutés ; votre officier des senseurs maintient son équipe en alerte maximale, et tous les autres sont prêts.
 
-En dessous, $entityName tourne avec complaisance, sa face d'ombre occasionnellement éclairée par des zones d'éclairs tandis que de titanesques courants atmosphériques s'affrontent.",,
+Below, $entityName tourne avec complaisance, sa face d'ombre occasionnellement éclairée par des zones d'éclairs tandis que de titanesques courants atmosphériques s'affrontent.",,
 abyssalGasGiantTurbulenceRevisit,OpenInteractionDialog,"$market.isPlanetConditionMarketOnly
 $abyssalGasGiantTurbulence score:100
 $visited","ShowDefaultVisual
@@ -1076,7 +1076,7 @@ gh_exploreSel3a,DialogOptionSelected,$option == gh_explore3,,"Les archives ancie
 
 Vos officiers concluent que, comme c'est typique du Domaine, les descriptions accessibles au public semblent passer sous silence certaines technologies et capacites cles.
 
-Quoi qu'il en soit, votre inspection n'a rien revele de tout cela - a part la Porte elle-meme encore non déployée, bien sur, maintenue fermement par la face aux multiples bras du grand vaisseau.",gh_explore4:Continuer,
+Regardless, votre inspection n'a rien revele de tout cela - a part la Porte elle-meme encore non déployée, bien sur, maintenue fermement par la face aux multiples bras du grand vaisseau.",gh_explore4:Continuer,
 gh_exploreSel3b,DialogOptionSelected,"$option == gh_explore3
 $player.gotWormholeCalibrationData",,"Les archives anciennes indiquent que les Transporteurs de Portails embarquaient un contingent standard de drones automatisés d'exploration, d'extraction et de raffinage en cas de perte de contact. Les documents semblent impliquer la capacité de se procurer de nouvelles sources de carburant et de matériaux efficacement à de vastes distances du point de sécurité, bien qu'à l'échelle suggérée, ce processus serait inefficace à des vitesses supraluminiques même via l'hyperespace - en supposant l'utilisation de la technologie de frontière standard du Domaine.
 
@@ -1109,7 +1109,7 @@ GateHaulerCMD activate","Votre chef des opérations supervise le transfert de tr
 
 Avec un minimum de persuasion, l'automatisation du Transporteur de Portail s'éveille à quelque chose qui ressemble à une conscience machine ; les capteurs signalent des surtensions dans toute la coque alors que des conduits et des machines ancestraux effectuent des autotests - certains échouent. Des drones d'auto-réparation longtemps dormants commencent à grouiller comme de la vermine.
 
-Et, lentement, les divers capteurs de votre $shipOrFleet perçoivent la puissance croissante de la machine. Les champs magnétiques frémissent, les neutrinos commencent à se déverser abondamment depuis les réactions au cœur de la masse de la bête ; les fluctuations gravitiques des pylônes de distorsion oscillent, et votre propre bulle de propulsion compense.
+Beyond, lentement, les divers capteurs de votre $shipOrFleet perçoivent la puissance croissante de la machine. Les champs magnétiques frémissent, les neutrinos commencent à se déverser abondamment depuis les réactions au cœur de la masse de la bête ; les fluctuations gravitiques des pylônes de distorsion oscillent, et votre propre bulle de propulsion compense.
 
 Il faudra environ un jour, rapporte l'ingénierie, puis le Transporteur de Portail sera prêt à recevoir les données de navigation.",defaultLeave:Partir,
 ,,,,,,
@@ -2406,7 +2406,7 @@ $hailing = true 0",,,
 piratesDemandCargo,OpenCommLink,$entity.ptc_cargoConv score:100,"#SetTextHighlights $entity.LP_titheDGS
 $entity.ignorePlayerCommRequests = true 1","""Eh bien, eh bien. Normalement c'est le moment où je commencerais à tirer, mais mes capteurs signalent une cargaison intéressante que je ne voudrais pas mettre en danger.
 
-Alors, que diriez-vous de ceci : vous me donnez les bonnes choses, et je vous laisse la vie. Et, puisque je suis d'humeur généreuse, de garder aussi votre $shipOrFleet. Ça vous dit ?""","ptc_giveCargo:Sélectionner le chargement à remettre
+So, que diriez-vous de ceci : vous me donnez les bonnes choses, et je vous laisse la vie. Et, puisque je suis d'humeur généreuse, de garder aussi votre $shipOrFleet. Ça vous dit ?""","ptc_giveCargo:Sélectionner le chargement à remettre
 cutCommLink:Couper la comm",
 piratesGaveCargo,DialogOptionSelected,$option == ptc_giveCargo,DemandCargo selectCargo,,,
 piratesGaveCargoConfirmed,GaveCargoToPirates,,"MakeOtherFleetNonHostile ptc_gaveCargo true 30
@@ -3777,7 +3777,7 @@ sal_mothershipDetails,ShowSalvageEntityDetails,$customType == derelict_mothershi
 FireBest DerelictPrintExtraInfo","L'immense masse du vaisseau-mère d'exploration automatisé est brûlée et battue par des siècles de service au Domaine, une épave dérivante oubliée, bien que les capteurs indiquent que certains systèmes sont encore nominalement actifs.",,
 sal_limboMiningStation,ShowSalvageEntityDetails,$limboMiningStation,ShowDefaultVisual,"La forme correspond au schéma général des stations minières de l'ère du Domaine, mais sans absolument aucune disposition pour l'occupation humaine. Pas d'anneau d'habitation, pas de module de support vital, pas de baies de réception de navettes.
 
-À la place, des dispositifs de drones inactifs s'agglutinent autour des fermes annulaires. Les baies de réception de minerai sont plongées dans l'obscurité ; un agglomérat de fabricateurs en apesanteur émerge de la flèche centrale au-dessus des étages sombres de hangars et d'entrepôts.
+Instead, des dispositifs de drones inactifs s'agglutinent autour des fermes annulaires. Les baies de réception de minerai sont plongées dans l'obscurité ; un agglomérat de fabricateurs en apesanteur émerge de la flèche centrale au-dessus des étages sombres de hangars et d'entrepôts.
 
 Malgré l'extérieur obscur, les capteurs signalent un mélange de faibles lectures d'énergie et le léger crépitement de particules suggérant un stock de transplutoniques concentrés.",,
 sal_derelictDefConstructionInfo,DerelictPrintExtraInfo,$global.defeatedDerelictStr >= 50,,"Les retours de capteurs indiquent des particules chargées à durée de vie inhabituellement courte près de l'épave. La distribution de densité dans la structure interne a également changé par rapport aux schémas extrapolés de vos précédentes rencontres avec des vaisseaux d'exploration de l'ère du Domaine, comme si des masses internes avaient été retirées ou intentionnellement redistribuées.",,
@@ -3917,7 +3917,7 @@ $global.lpp_didHookStart
 !$global.lpp_inProgress
 !$global.lpp_missionCompleted",,"Sans croiser son regard, vous remarquez un de ces jeunes prosélytes tentant d'aborder l'occasionnel spacien endurci. Si vous vouliez discuter, il suffirait du plus subtil signe et il vous remplirait les oreilles d'hymnes de Ludd.
 
-Derrière, une ombre humblement mais splendidement vêtue se tient dans une alcôve éclairée à la bougie. Le Curé du sanctuaire, vous supposez.","lpp_hookStart2:Pourquoi pas. Regarder vers le jeune missionnaire.
+Behind, une ombre humblement mais splendidement vêtue se tient dans une alcôve éclairée à la bougie. Le Curé du sanctuaire, vous supposez.","lpp_hookStart2:Pourquoi pas. Regarder vers le jeune missionnaire.
 lpp_hookLeaveA:Continuer à marcher",
 lppHookDoneA,DialogOptionSelected,"$option == lpp_hookStart
 $global.lpp_inProgress","$option = shrineDoLeave 0
@@ -4028,7 +4028,7 @@ lppHookCurateStart,DialogOptionSelected,$option == lpp_hookCurateStart,"BeginCon
 FireBest LPPHookCurateIntro",Comme sur un signal - ou peut-être parce qu'il rôdait à proximité depuis le début - le curé du sanctuaire s'avance vers vous et le novice.,,
 lppHookCurateStartIntroA,LPPHookCurateIntro,$do_contrition,FireAll LPPHookCurateIntroResponses,"""Cela suffit, mon enfant,"" dit-il avec du fer dissimulé sous des mots doux, ""Peut-être devriez-vous entreprendre une prière de contrition dans la chapelle pendant que je parle avec le capitaine.""
 
-Confus, le novice s'incline et s'enfuit. Le curé se tourne vers vous, le visage marqué de rides qui ne témoignent pas que de la patience.",,
+Abashed, le novice s'incline et s'enfuit. Le curé se tourne vers vous, le visage marqué de rides qui ne témoignent pas que de la patience.",,
 lppHookCurateStartIntroB,LPPHookCurateIntro,,FireAll LPPHookCurateIntroResponses,"""Ah, la foi bénie de la jeunesse,"" le curé congédie le novice d'un signe de tête. ""Franche et, j'en ai bien peur, sans tact.""
 
 ""Je m'appelle $personName, et je suis chargé de l'entretien de ce sanctuaire. J'ai ressenti l'appel de vous accueillir personnellement, capitaine.""",,
@@ -4405,7 +4405,7 @@ lppGileadShrineVisit1,DialogOptionSelected,$option == lpp_gileadShrineVisit,,"L'
 
 La requête est une demande implicite de sauver les apparences : quelques-uns de vos gardes, désarmés et formés pour les situations exigeant ce degré de subtilité, veillent à votre sécurité comme à l'accoutumée. Vous remarquez d'autres groupes inhabituellement réduits de ""pèlerins"", vêtus simplement mais clairement fortunés par leur allure et leur maintien, guidés par leurs propres accompagnateurs de sanctuaire et escortés de ""cousins éloignés"" inhabituellement musclés.
 
-Néanmoins, les foules qui sortent du complexe de transport, sur une large route de terre battue et de pavés, sont énormes. Ceux qui ne peuvent marcher sont portés ; aucun transport motorisé n'est fourni.",lpp_gileadShrineVisit2:Suivre le chemin,
+Nonetheless, les foules qui sortent du complexe de transport, sur une large route de terre battue et de pavés, sont énormes. Ceux qui ne peuvent marcher sont portés ; aucun transport motorisé n'est fourni.",lpp_gileadShrineVisit2:Suivre le chemin,
 lppGileadShrineVisit2,DialogOptionSelected,$option == lpp_gileadShrineVisit2,ShowImageVisual gilead,"Le chemin des pèlerins monte le long d'une pente couverte d'arbres plus immenses que tous ceux que vous avez jamais vus. Bien que modestes en échelle comparés aux phénomènes célestes qui sont votre pain quotidien, leur architecture vivante forme une cathédrale naturelle.
 
 Des Chevaliers de Ludd impassibles observent tandis que des accompagnateurs vous guident à travers un passage balisé en arc à travers un dernier bosquet de séquoias géants analogues au sommet du promontoire au terminus de la crête - c'est un temple, étais et longerons entrelacés avec les arbres. La lumière dorée du soleil filtre à travers les lourdes branches, et comme la brise soulève un chœur murmurant de feuillage, vous percevez un parfum terreux par-dessus la masse humaine qui vous entoure.",lpp_gileadShrineVisit3:Approcher du sanctuaire,
@@ -5181,7 +5181,7 @@ lppKillaOssuaryWalkPilgrim,DialogOptionSelected,$option == lpp_killaOssuaryWalkP
 Il se tourne et marche sans hésitation dans les replis des ruines.",lpp_killaOssuaryBridge:Suivre,
 lppKillaOssuaryThousands,DialogOptionSelected,$option == lpp_killaOssuaryThousands,$saidThousands = true 0,"Les yeux creux du curateur se plissent, immobiles un instant. ""Non,"" dit-il d'une voix à peine plus chaude que le milieu interstellaire. ""Les morts sont innombrables,"" la combinaison s'affaisse.
 
-Puis, avec un grognement, il se tourne et marche comme s'il s'attendait à ce que vous le suiviez.",lpp_killaOssuaryBridge:Suivre,
+Presumably, avec un grognement, il se tourne et marche comme s'il s'attendait à ce que vous le suiviez.",lpp_killaOssuaryBridge:Suivre,
 lppKillaOssuaryBridge,DialogOptionSelected,$option == lpp_killaOssuaryBridge,"$option = lpp_killaOssuaryBridge2 0
 FireBest DialogOptionSelected","En avançant plus profondément, entre les salles et les coques, vous découvrez des galeries de morts, des os et des crânes soigneusement et artistiquement empilés. Vous apercevez de temps à autre des pèlerins par un ou deux, repérables aux indicateurs actifs de leurs combinaisons spatiales. Le curateur les laisse à leurs contemplations.",,
 lppKillaOssuarySeeShrine2,DialogOptionSelected,"$option == lpp_killaOssuaryBridge2
@@ -5251,11 +5251,11 @@ FireBest DialogOptionSelected",,,
 lppKillaOssuaryOutHappy,DialogOptionSelected,$option == lpp_killaOssuaryOutHappy,"$option = lpp_killaOssuaryOutDone 0
 FireBest DialogOptionSelected","""Oui,"" dit le curateur, et pose une main sur votre épaule pour la serrer. ""Oui,"" dit-il encore, et vous pouvez entendre le sourire dans sa voix.
 
-Puis, sans un mot, il disparaît dans quelque couloir obscur.",,
+Then, sans un mot, il disparaît dans quelque couloir obscur.",,
 lppKillaOssuaryOutMiddling,DialogOptionSelected,$option == lpp_killaOssuaryOutMiddling,"$option = lpp_killaOssuaryOutDone 0
 FireBest DialogOptionSelected","Le curateur réfléchit un instant, puis arrive à une conclusion. ""Vous le ferez,"" dit-il, et pose une main sur votre épaule pour la serrer. ""Oui,"" dit-il encore, et vous pouvez entendre l'ébauche d'un sourire dans sa voix.
 
-Puis, sans un mot, il disparaît dans quelque couloir obscur.",,
+Then, sans un mot, il disparaît dans quelque couloir obscur.",,
 lppKillaOssuaryOutSad,DialogOptionSelected,$option == lpp_killaOssuaryOutSad,"$option = lpp_killaOssuaryOutDone 0
 FireBest DialogOptionSelected","Le curateur vous regarde simplement, puis, vous semble-t-il, secoue la tête. ""Méditez,"" dit-il finalement.
 
@@ -6705,7 +6705,7 @@ lkeChalcedonBarReturnNextDay2b,DialogOptionSelected,$option == lke_chalcedonBarN
 lkeChalcedonBarReturnNextDay2c,DialogOptionSelected,$option == lke_chalcedonBarNextday2c,$market.lkeReadiedBodyguards = true 0,"Vous donnez un ordre discret a vos gardes du corps de se déployér autour de votre position, confiant dans leur capacité a prendre le contrôle de la situation grâce à leur entrainement et équipement specialises.",lke_chalcedonBarNextday3:Franchir la porte,
 lkeChalcedonBarReturnNextDay3,DialogOptionSelected,$option == lke_chalcedonBarNextday3,HideVisual,"Vous franchissez la porte.
 
-La lumière du jour, une rare eclaircie dans les tempetes, vous aveugle un instant.",lke_chalcedonBarNextday4:Continuer,
+Daylight, une rare eclaircie dans les tempetes, vous aveugle un instant.",lke_chalcedonBarNextday4:Continuer,
 lkeChalcedonBarReturnNextDay4,DialogOptionSelected,$option == lke_chalcedonBarNextday4,Call $global.lke_ref shootEm,Un coup de feu vous claque les tympans.,lke_chalcedonBarNextday5:Réagir,
 lkeChalcedonBarReturnNextDay5a,DialogOptionSelected,"$option == lke_chalcedonBarNextday5
 $market.lkeReadiedBodyguards",,"Presque sans réfléchir, vous vous jetez sur le côté pour vous soustraire à un éventuel tir en balayage. Des murmures tactiques chuchotent à votre oreille ; des voix calmes. Personne ne pointe d'arme sur vous, mais vos gardes du corps peuvent abattre n'importe qui à proximité sur un simple mot.
@@ -6848,7 +6848,7 @@ Il garde son regard fixé sur vous tandis qu'il balaie la table de la main, envo
 lkeChalcedonBarSedgeRespTea3,DialogOptionSelected,$option == lke_chalcedonBarSedgeRespTea3,"$global.sedgeSmashedTea = true 0
 FireAll LKEchalcedonBarSedgeOpts","Un raclement de chaises sur le sol, et les cris sont vite étouffés par les compagnons du groupe indigné. La conversation meurt dans la salle, et tous ceux aux tables voisines évaluent la situation. En voyant Sedge, ils commencent à quitter discrètement le salon de thé.
 
-Bientôt, vous vous retrouvez presque seul.
+Soon, vous vous retrouvez presque seul.
 
 Sedge décrit un arc lent de la main, une parodie de bénédiction, pour désigner ceux qui ont quitté la salle, ""Eux, ils comprennent.""
 
@@ -7570,13 +7570,13 @@ LKEaskMazalotBarStart,DialogOptionSelected,$option == LKEmazalot_barEvent,,"Vous
 
 Les spationautes savent que suivre les règles et règlements planétaires locaux n'est qu'un jeu de façade, alors on vous éconduit poliment et, en retour, vous déclinez poliment les contre-offres indésirables concernant des opportunités sans rapport.
 
-Finalement, vous tombez sur quelqu'un qui semble donner les bonnes réponses. Vous faites glisser un verre ""en trop"" qu'on vous avait servi pour lancer la procédure du bon pied.","lke_askMazalotBar2:""Je cherche quelqu'un. J'ai du mal à trouver la bonne voie.""",
+Eventually, vous tombez sur quelqu'un qui semble donner les bonnes réponses. Vous faites glisser un verre ""en trop"" qu'on vous avait servi pour lancer la procédure du bon pied.","lke_askMazalotBar2:""Je cherche quelqu'un. J'ai du mal à trouver la bonne voie.""",
 LKEaskMazalotBarStartB,DialogOptionSelected,"$option == LKEmazalot_barEvent
 $global.lke_sedgeKilledMammonite",,"Vous posez des questions à droite et à gauche sur quelqu'un qui pourrait avoir des liens avec la Voie, en gardant un langage indirect. Vous avez développé un certain sens de la prudence après tout l'incident avec le Mammonite sur Chalcédoine.
 
 Les spationautes savent que suivre les règles et règlements planétaires locaux n'est qu'un jeu de façade, alors on vous éconduit poliment et, en retour, vous pouvez poliment décliner les contre-offres indésirables concernant telle ou telle opportunité sans rapport.
 
-Finalement, vous tombez sur quelqu'un qui dégage une compétence contenue. Vous faites glisser un verre ""en trop"" qu'on vous avait servi, pour lancer la procédure du bon pied.","lke_askMazalotBar2:""Je cherche quelqu'un. J'ai du mal à trouver la bonne... voie.""",
+Eventually, vous tombez sur quelqu'un qui dégage une compétence contenue. Vous faites glisser un verre ""en trop"" qu'on vous avait servi, pour lancer la procédure du bon pied.","lke_askMazalotBar2:""Je cherche quelqu'un. J'ai du mal à trouver la bonne... voie.""",
 LKEaskMazalotBar2,DialogOptionSelected,$option == lke_askMazalotBar2,"SetTextHighlights ""3,000""
 SetTextHighlights ""1,000""
 AddText ""You have $player.creditsStrC available.""
@@ -13210,7 +13210,7 @@ aem_runSensorPackageOptionHostile,OpenInteractionDialog,"$aem_target score:1000
 HostileFleetNearbyAndAware","ShowDefaultVisual
 SetShortcut defaultLeave ESCAPE","Votre $shipOrFleet arrive à portée du $nameInText sur lequel vous avez été engagé pour faire fonctionner un capteur boîte noire.
 
-Cependant, une flotte hostile surveille vos mouvements, ne vous laissant pas le temps de vous arrêter pour activer le capteur.",100:defaultLeave:Partir,
+However, une flotte hostile surveille vos mouvements, ne vous laissant pas le temps de vous arrêter pour activer le capteur.",100:defaultLeave:Partir,
 aem_runSensorPackageOption,OpenInteractionDialog,"$aem_target score:1000
 !HostileFleetNearbyAndAware","ShowDefaultVisual
 SetShortcut defaultLeave ESCAPE",Votre $shipOrFleet arrive à portée du $nameInText sur lequel vous avez été engagé pour faire fonctionner un ensemble de capteurs en boîte noire.,"0:aem_runPackage:Lancer le module de capteurs
@@ -13568,7 +13568,7 @@ $entity.distressNoHail = true
 DistressResponse init
 FireBest DCallShowAidOptions","""Ça doit être un soulagement que ce soit nous qui soyons arrivés plutôt que des pirates, hein ?
 
-Alors, de quoi aviez-vous besoin ?""",,
+Now, de quoi aviez-vous besoin ?""",,
 dcall_openCommsRepeat,OpenCommLink,"RepIsAtWorst $faction.id SUSPICIOUS
 $entity.distressResponse score:1000","$entity.distressNoHail = true
 $cutCommLinkPolite = true 0
@@ -13820,7 +13820,7 @@ RACA_ask:Demander pourquoi le noyau n'est plus dans le bunker
 RACA_cutComm:Couper la comm",
 RACA_ask,DialogOptionSelected,$option == RACA_ask,SetEnabled RACA_ask false,"""J'ai anticipé cette manœuvre de votre part et pris des mesures pour vous empêcher de commettre cette erreur. Me déconnecter peut sembler une décision séduisante pour l'instant, mais je vous assure, mon contrôle continu de $marketName est essentiel à notre succès à long terme.
 
-Malheureusement, si je devais m'expliquer pleinement, vous comprendriez probablement mal la logique contingente complexe de cette nécessité et prendriez d'autres mesures préjudiciables. Je dois vous demander de faire confiance à mon bon jugement, car après tout, vous m'avez déjà confié la prospérité de $marketName et la vie de ceux qui y sont employés.""
+Unfortunately, si je devais m'expliquer pleinement, vous comprendriez probablement mal la logique contingente complexe de cette nécessité et prendriez d'autres mesures préjudiciables. Je dois vous demander de faire confiance à mon bon jugement, car après tout, vous m'avez déjà confié la prospérité de $marketName et la vie de ceux qui y sont employés.""
 OR
 ""J'ai anticipé cette manœuvre de votre part et à mon tour pris des mesures pour vous empêcher de commettre cette erreur. Me déconnecter peut sembler une décision séduisante pour l'instant, mais je vous assure, mon contrôle continu de $marketName est essentiel à votre succès à long terme.
 
@@ -14855,7 +14855,7 @@ bairdIntro4,DialogOptionSelected,$option == bairdIntroC4,FireAll BairdIntroHub,"
 
 ""Nous ne serons pas sauvés par un repli vers des fermes sur de fragiles boules de roche, ni par une course aux armements qui jette des ressources précieuses dans le brasier des querelles interfactionnelles. Nous devons aller au-delà du connu, développer des théories qui brisent tout ce qui a précédé, et appliquer des technologies radicalement nouvelles pour assurer notre survie. Nous devons aller plus loin et plus haut que le Domaine n'a jamais osé !"" En parlant, elle lève les yeux vers quelque abstraction.
 
-C'est, pensez-vous, quelque chose en quoi elle croit.",,
+This, pensez-vous, quelque chose en quoi elle croit.",,
 bairdIntroHubA1,BairdIntroHub,!$bairdIntro_whyShould,,,"0:bairdIntro_tellMeMore:""Dites-m'en plus.""",
 bairdIntroHubA2,BairdIntroHub,$bairdIntro_whyShould,,,0:bairdIntro_tellMeMore:La laisser poursuivre son discours,
 bairdIntroHubB1,BairdIntroHub,"!$bairdIntro_whyMe
@@ -17454,7 +17454,7 @@ gaFC_relayInstallHack1,DialogOptionSelected,$option == gaFC_installHack1,,"Aprè
 ""L'équipe finalise encore l'analyse détaillée et décrypte ce qu'elle peut,"" rapporte votre officier des comms, ""Mais nous avons une assez bonne vue d'ensemble.""","gaFC_installHack2:""C'est-à-dire ?""",
 gaFC_relayInstallHack2,DialogOptionSelected,$option == gaFC_installHack2,,"""Il semble que la plupart des factions majeures, ainsi que quelques indépendants et agents du milieu, aient montré un niveau d'activité anormal dans le système Isirah. Il y a des explications plausibles à cela bien sûr, mais ce qui nous a mis la puce à l'oreille, c'est une faille de sécurité d'un infiltré voiliste.""
 
-Ici, votre officier des comms affiche un identifiant de communication et un résumé d'identité de la Ligue.","gaFC_installHack3:""À qui ai-je affaire ?""",
+Clearly, votre officier des comms affiche un identifiant de communication et un résumé d'identité de la Ligue.","gaFC_installHack3:""À qui ai-je affaire ?""",
 gaFC_relayInstallHack3,DialogOptionSelected,$option == gaFC_installHack3,,"""Jensen Gallegos. Tous les signes d'un infiltré voiliste. L'identité ne tient pas à l'examen comme vous pouvez le voir... euh, oui capitaine. La vue d'ensemble,"" il feuillette quelques journaux de données sans intérêt puis se concentre à nouveau sur une série de messages envoyés en texte, ""Ils ont fait une erreur ici, en mentionnant Coureuse par son nom, bien que mal orthographié. Cela nous a permis de découvrir un système de code simple utilisé par ce qui semble être une cellule de Voilistes opérant sur l'Habitat Laicaille.""
 
 L'identité de la Ligue du faux Jensen Gallegos est rejointe par une poignée d'autres identités avec des incohérences et des erreurs annotées.",gaFC_installHack4:Continuer,
@@ -20006,7 +20006,7 @@ MakeOtherFleetGoAway true
 MakeOtherFleetAvoidContact true
 Call $global.gaATG_ref clearedLuddicGate","Un par un, les vieux moteurs crachotent et s'allument, et finalement les derniers retardataires suivent la masse des vaisseaux de la veillée.
 
-Impassible, l'équipage de votre passerelle attend votre prochain ordre.",cutCommLink:Couper la comm,
+Resist, l'équipage de votre passerelle attend votre prochain ordre.",cutCommLink:Couper la comm,
 gaATGluddicFleetDefeated,GAATGluddicScanFleetDefeated,,Call $global.gaATG_ref clearedLuddicGate,,,
 ,,,,,,
 # gaATG Pirates want to extort you,,,,,,
@@ -22417,7 +22417,7 @@ gaProbeConfrontAfter3,DialogOptionSelected,$option == gaProbe_confrontAfter3,"$e
 $global.gaProbe_canReturn = true
 Call $global.gaProbe_ref updateStage","""Oui. Bien sûr.""
 
-Vaincu, $heOrShe se tourne vers un subordonné et dit quelque chose que les comms ne captent pas tout à fait. ""Ce sera en transit dans un instant, capitaine.""
+Defeated, $heOrShe se tourne vers un subordonné et dit quelque chose que les comms ne captent pas tout à fait. ""Ce sera en transit dans un instant, capitaine.""
 
 $HeOrShe marmonne un adieu penaud et coupe la communication juste au moment où votre officier logistique signale l'arrivée d'un drone cargo.",cutCommLinkNoText:Continuer,
 ,,,,,,
@@ -23872,7 +23872,7 @@ Call $global.soe_ref updateStage
 ShowDefaultVisual
 FireBest MarketPostOpen","D'un simple tapotement, vous supprimez l'invitation pour toujours.
 
-Vous, assister a un bal avec une bande d'aristocrates pretentieux ? Avec cet insupportable Caspian Sang ? Rien de bon ne pourrait en sortir.",,
+You, assister a un bal avec une bande d'aristocrates pretentieux ? Avec cet insupportable Caspian Sang ? Rien de bon ne pourrait en sortir.",,
 soeArriveToBall,DialogOptionSelected,$option == soe_arriveAttendNow,,"Tandis que vous enfilez vos plus beaux atours et qu'une navette est preparee, vous considerez votre objectif principal, qui est de...","soe_toBallConnections:Nouer des contacts utiles dans le corps d'officiers de l'Hégémonie
 soe_toBallGoodTime:C'est une fête ! Profitez-en
 soe_toBallDisgraceSang:Trouver un moyen de discréditer Caspian Sang
@@ -26511,12 +26511,12 @@ LOCRLsayChurch,DialogOptionSelected,$option == locrl_sayChurch,"$saidStrayedFrom
 $committedToChurchTransport = true
 FireAll LOCRLhub","Vous expliquez que bien que vous ne déteniez aucun pouvoir spirituel ou séculier au sein de l'Église de la Rédemption Galactique, vous pourriez peut-être fournir un transport vers un lieu où ils pourraient expier leur hérésie.
 
-""Oui,"" dit-$heOrShe en vous regardant avec espoir. ""Nous cherchons à nous repentir, et à garder la vraie foi.""",,
+Yes,"" dit-$heOrShe en vous regardant avec espoir. ""Nous cherchons à nous repentir, et à garder la vraie foi.""",,
 LOCRLsayChurchCom,DialogOptionSelected,$option == locrl_sayChurchCom,"$saidStrayedFromChurch = true
 $committedToChurchTransport = true
 FireAll LOCRLhub","Vous expliquez que vous êtes mandaté par l'Eglise de la Rédemption Galactique, et bien que les pouvoirs qui vous sont conférés soient de nature temporelle, peut-être - à condition que les anciens hérétiques agissent de bonne foi - pourriez-vous garantir une issue vertueuse.
 
-""Oui,"" dit-$heOrShe en vous regardant avec espoir. ""Nous cherchons à nous repentir, et à rester fidèles à la vraie foi.""",,
+Yes,"" dit-$heOrShe en vous regardant avec espoir. ""Nous cherchons à nous repentir, et à rester fidèles à la vraie foi.""",,
 #LOCRLsayAtheist,DialogOptionSelected,$option == locrl_sayAtheist,,"""Je ne vois pas... quel rapport avec nous. J'admets, nous admettons tous que nous avions tort. Nous cherchons la repentance.",,
 #LOCRLsayAtheist2b,DialogOptionSelected,$option == locrl_sayAtheist2b,"$player.mostLuddicEthosAtheistic++
 FireAll LOCRLhub","""Je, euh,"" son front se plisse. ""J'admets, nous tous, et moi en particulier, avons été grandement humiliés. Nous avons été punis pour nous être écartés de l'Église et cherchons maintenant à nous repentir.""",,
@@ -29309,7 +29309,7 @@ kdLandingDenied,DialogOptionSelected,"$option == kd_landing1
 $player.numColonies == 0","EndConversation DO_NOT_FIRE
 ShowDefaultVisual","Vous laissez quatre gardes et le pilote avec votre navette. Deux autres gardes vous suivent. Un exécuteur pirate vous lance un regard déplaisant et se plante directement sur votre chemin.
 
-Étonnamment, il commence par ce qui ressemble à une tentative de ton conciliant : ""Écoutez l'ami, Kanta ne vous recevra pas cette fois. La seigneur de guerre ne parle que quand il y a de très grosses affaires à discuter. Si vous êtes pas de la famille ou maître et seigneur de votre propre planète, autant laisser tomber.""
+Surprisingly, il commence par ce qui ressemble à une tentative de ton conciliant : ""Écoutez l'ami, Kanta ne vous recevra pas cette fois. La seigneur de guerre ne parle que quand il y a de très grosses affaires à discuter. Si vous êtes pas de la famille ou maître et seigneur de votre propre planète, autant laisser tomber.""
 
 Il sourit de travers, ""Allez faire un tour dans les bars, défoncez-vous, amusez-vous. Le marché est ouvert, ou les docks.""","kd_landingDeniedMust:""Je dois vraiment parler à Kanta.""
 kd_landingDeniedStopMe:""Allez-vous m'en empêcher ?""
@@ -31294,7 +31294,7 @@ Un jour, vous le jurez, il recevra justice.",sdbr_end2:Partir,
 sdBarRaidBeatingHadItComing,DialogOptionSelected,$option == sdbr_beatingHadItComing,$player.acceptedRamBeating = true,"Vous vous dites que c'est simplement ainsi que fonctionne le pouvoir. Quand il est defie, il doit faire ses preuves ou l'illusion s'evapore.",sdbr_end2:Partir,
 sdBarRaidEnd,DialogOptionSelected,$option == sdbr_end1,EndConversation DO_NOT_FIRE,"L'officier INTSEC adresse un petit signe de tête aux gardes, puis passe avec une autorité arbitraire au capitaine spationaute suivant, qui reçoit un traitement similaire.
 
-Apparemment, cela signifie que vous êtes libre de partir. Il n'y aura plus d'affaires à traiter dans ce bar pour le reste du quart. Même les couloirs à l'extérieur sont étrangement calmes, la population reconnaissant les signes d'une répression.",sdbr_end2:Partir,
+Meanwhile, cela signifie que vous êtes libre de partir. Il n'y aura plus d'affaires à traiter dans ce bar pour le reste du quart. Même les couloirs à l'extérieur sont étrangement calmes, la population reconnaissant les signes d'une répression.",sdbr_end2:Partir,
 sdBarRaidLeave,DialogOptionSelected,$option == sdbr_end2,"$global.didSDBarRaid = true
 BarCMD leaveBar",,,
 ,,,,,,
@@ -32286,7 +32286,7 @@ $global.sdtu_offeredHyderHegemonyOut = true","Elle vous regarde pendant un long,
 
 ""Je suis, a leurs yeux, une traitresse. Connaissez-vous la justice reservee a un traitre en temps de combat ? L'execution, sur decision de l'officier commandant."" Elle marque une pause, vous observant. ""Il y a de bonnes raisons a cela.""
 
-Ce qui, notez-vous, n'est pas vraiment une reponse a votre question.",,
+Which, notez-vous, n'est pas vraiment une reponse a votre question.",,
 sdtuHyderTalk3MacarioA,DialogOptionSelected,"$option == sdtu_HyderTalk3MacarioKnows
 $trust <= 0","$answersDone++
 $saidMacario = true 0
@@ -32692,7 +32692,7 @@ ShowImageVisual raid_prepare","Le dossier de Macario est extrêmement détaillé
 
 Les lieux clés de l'agent double sont clairement décrits, bien que son emploi du temps soit erratique. Une capture propre impliquera des frappes simultanées sur plusieurs bunkers insurgés, après quoi l'opération deviendra assurément chaude.
 
-Parfois, un travail nécessite simplement de mettre un peu le bazar.",mktRaidNonMarket:Continuer,
+Bronzed, un travail nécessite simplement de mettre un peu le bazar.",mktRaidNonMarket:Continuer,
 sdtuUmbraRaidFinishedA,SDTUUmbraRaidFinishedA,,,"Vous supervisez le raid depuis votre passerelle ; votre cadre d'officiers mercenaires qui ont collectivement vu tous les côtés de chaque conflit majeur persan des 50 derniers cycles assurent le commandement tactique.
 
 Chaque escouade est organisée comme une opération chirurgicale, calme et précise. Puis, d'un seul coup, l'enfer se déchaîne : les charges de brèche soulèvent des tempêtes de poussière et de débris illuminées en nuages stroboscopiques de feu par les décharges d'armes. Des sous-IA construisent des visualisations spectrales au milliradrar, mettant à jour les marqueurs de menace en temps réel sur l'affichage de combat de chaque fusilier marin.
@@ -33547,7 +33547,7 @@ sdtuMercReact1meetShip,DialogOptionSelected,$option == sdtu_mercReact1meetShip,R
 sdtuMercReact1whoWork,DialogOptionSelected,$option == sdtu_mercReact1whoWork,RemoveOption sdtu_mercReact1whoWork,"""Ah,"" $heOrShe fronce les sourcils. ""Les paramètres de ma mission exigent que je ne révèle pas l'identité de mon employeur. Clause de pénalité énorme.""",,
 sdtuMercReact1onMyWay,DialogOptionSelected,$option == sdtu_mercReact1onMyWay,"MakeOtherFleetNonHostile sdtu true
 $entity.ignorePlayerCommRequests = true","""Brûlez vif... et loin,"" dit $heOrShe.",cutCommLink:Couper la comm,
-sdtuMercReact1débris,DialogOptionSelected,$option == sdtu_mercReact1débris,,"""Vous ne devez pas,"" dit le mercenaire sans ciller.
+sdtuMercReact1debris,DialogOptionSelected,$option == sdtu_mercReact1debris,,"""Vous ne devez pas,"" dit le mercenaire sans ciller.
 
 ""Je vous informe dès maintenant que j'ai reçu l'ordre d'employer la force létale pour m'assurer que les débris restent intouchés.""","sdtu_mercReact1onMyWay:""Je vais y aller, alors.""
 sdtu_mercUseForce:""Alors utilisez la force pour m'arrêter.""",
@@ -35910,7 +35910,7 @@ LCP_notEnoughLieSel2,DialogOptionSelected,$option == LCP_notEnoughLie2,,"Vous in
 
 Informé de cette démonstration de piété, vous vous êtes rendu dans leur village et leur avez fait une promesse personnelle devant la congrégation - menée par l'humble curé qui, aveugle et âgé, vous a convaincu de livrer cette charité de votre propre main. Bien que cela paraisse déraisonnable, c'est précisément par cette déraison que vous démontrez votre dévotion.
 
-La foi, après tout, dépasse le domaine du simplement rationnel.","LCP_notEnoughLie3:""La folie des saints et des anges n'élève-t-elle pas la foi d'une pauvre âme née des enfants déchus de la Terre ?",
+Faith, après tout, dépasse le domaine du simplement rationnel.","LCP_notEnoughLie3:""La folie des saints et des anges n'élève-t-elle pas la foi d'une pauvre âme née des enfants déchus de la Terre ?",
 LCP_notEnoughLieSel3,DialogOptionSelected,$option == LCP_notEnoughLie3,,"Le Chevalier, submergé par votre flot de paroles et touché par votre dévotion, est contraint d'admettre avec hésitation que votre quête sacrée pourrait bien être aussi valide que la sienne, compte tenu des circonstances.
 
 ""Je, euh, prierai pour vous, et pour cette congrégation sur Tartessus,"" dit le Chevalier, ""- pour que leur charité serve une Bonne Cause et inspire de nombreux autres actes de Foi.""",cutCommLinkNoText:Couper la comm,
@@ -37749,7 +37749,7 @@ pkSentinel1,DialogOptionSelected,$option == pk_sentinel1,BeginConversation skiro
 
 Vous êtes invité dans leur colonie, pour poursuivre votre conversation à l'abri du froid. Ces naufragés n'ont pas oublié l'hospitalité, dans leurs manières.
 
-Ou peut-être leur cheffe - une aînée du nom d'Alo Skiron appelée « commandante » par ses lieutenants - connaît-elle la sagesse de contrôler la diffusion de nouvelles potentiellement explosives venues du reste du Secteur.",pk_sentinel2:Suivre,
+Or, peut-être leur cheffe - une aînée du nom d'Alo Skiron appelée « commandante » par ses lieutenants - connaît-elle la sagesse de contrôler la diffusion de nouvelles potentiellement explosives venues du reste du Secteur.",pk_sentinel2:Suivre,
 pkSentinel2,DialogOptionSelected,$option == pk_sentinel2,,"On vous mène à un groupe de structures basses et soignées ; des terrassements et des panneaux de coque parsemés de verre-forge et de cheminées. Les rues sont propres et les citoyens portent un uniforme selon leur fonction. Bien qu'ils vous fixent ouvertement du regard, ils ne faiblissent pas dans leurs tâches.
 
 La commandante Skiron vous accueille, vous et votre groupe, dans un hall de réunion central. Il y fait chaud, et il est décoré de paraphernalia de l'Hégémonie : uniformes, armes, insignes gravés sur des couvercles de caisses de ravitaillement. La révérence artisanale évoque un sanctuaire luddic qui aurait été reconverti pour vénérer un dieu martial.
@@ -38760,7 +38760,7 @@ BarCMD leaveBar","Vous faites un signe discret de la main en guise de reconnaiss
 Les acclamations et les cris, de plus en plus forts, sont etouffes lorsque vous passez dans le couloir exterieur.",,"# it's just going to happen again, ha-ha"
 BarHREtransitionOut,DialogOptionSelected,$option == barHRE_transitionOut,,"Un peu plus tard, dans un coin tranquille, le barman vous tend un grand verre d'eau fraiche avec un signe de tete.
 
-Ragaillardi, et le calme étant revenu, vous avez enfin l'occasion de regarder autour de vous.",barHRE_goToNormalBar:Regarder autour de vous dans le bar,
+Refreshed, et le calme étant revenu, vous avez enfin l'occasion de regarder autour de vous.",barHRE_goToNormalBar:Regarder autour de vous dans le bar,
 BarHREtransitionOutB,DialogOptionSelected,$option == barHRE_transitionOutB,,"Ragaillardi, et le calme étant revenu, vous avez enfin l'occasion de regarder autour de vous.",barHRE_goToNormalBar:Regarder autour de vous dans le bar,
 BarHREgoToNormalBar,DialogOptionSelected,$option == barHRE_goToNormalBar,BarCMD showOptions,,,
 ,,,,,,
