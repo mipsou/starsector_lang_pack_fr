@@ -638,7 +638,7 @@ Ce n'est pas un vaisseau-tombeau, cependant.
 En nombre, la majeure partie de l'équipage semble avoir évacué avant de laisser la coque à l'abandon. Quelques malheureuses victimes de violence interpersonnelle semblent avoir été laissées derrière lors d'un conflit interne, et les cycles n'ont pas été cléments alors que ce qui restait des systèmes de support vital défaillait lentement.",GS_PIRATES_cont2:Continuer,
 GS_PIRATES_cont2Sel,DialogOptionSelected,$option == GS_PIRATES_cont2,$salvageLeaveText = Leave 0,"Un examen rapide des journaux de bord que les officiers superieurs ont daigne tenir suggere que ce vaisseau faisait partie d'une petite flottille pirate traquant une expedition independante bien approvisionnee progressant a travers la frange exterieure. Cette expedition repera les pirates, puis brula rapidement vers l'Abysse. Les pirates suivirent et perdirent bientot leur proie dans les tenebres abrutissantes.
 
-Avec des reserves et du carburant en baisse et sans certitude d'un 'reapprovisionnement hostile', les chefs pirates se mirent a se disputer, puis a demanteler des coques tout en consolidant les equipages sur les vaisseaux restants - sous la menace d'une arme, si nécessaire.
+Avec des reserves et du carburant en baisse et sans certitude d'un 'reapprovisionnement hostile', les chefs pirates se mirent a se disputer, puis a demanteler des coques tout en consolidant les équipages sur les vaisseaux restants - sous la menace d'une arme, si nécessaire.
 
 Il n'y avait pas tout a fait assez de place pour tout le monde, semble-t-il.","salExplore:Évaluer the ship's salvage value
 defaultLeave:Partir",
@@ -1259,7 +1259,7 @@ marketPostOpenToOffPatrols,MarketPostOpen,"$hasMarket
 !$faction.c:allowsTransponderOffTrade
 !$market.mc:free_market
 IsSeenByPatrols $faction.id true","$tradeMode = NONE 0
-AddText ""Vous devez activer votre transpondeur pour commercer legalement, ou passer inapercu pour commercer au marche noir."" bad
+AddText ""Vous devez activer votre transpondeur pour commercer légalement, ou passer inaperçu pour commercer au marché noir."" bad
 FireBest MarketPostDock","Votre $shipOrFleet se met en orbite autour de $marketName, ignorant les demandes de l'autorité portuaire $faction de vous identifier.
 
 Au moins une patrouille $faction suit vos mouvements, et aucun contact clandestin n'est prêt à prendre le risque de faire affaire.",,
@@ -2272,7 +2272,7 @@ payMegaTitheConfirmSel,DialogOptionSelected,$option == payMegaTitheConfirm,"Make
 HA_CMD payMegaTithe
 $entity.LP_tithePaid = true 100
 MakeOtherFleetNonHostile LP_tithe true 100
-AddText ""La connexion est coupee avant que vous n'ayez le temps de repondre.""
+AddText ""La connexion est coupée avant que vous n'ayez le temps de répondre.""
 ShowDefaultVisual
 EndConversation","""Peut-être que votre âme n'est pas encore perdue au profit de la machine,"" dit-$heOrShe joyeusement. ""Il est possible que vos péchés soient pardonnés sans la purge du feu sacré.""
 OR
@@ -2286,7 +2286,7 @@ AddRemoveCommodity credits -$entity.LP_tithe true
 $entity.LP_tithePaid = true 30
 MakeOtherFleetNonHostile LP_tithe true 30
 $entity.makeNonHostileTakesPriority = true 30
-AddText ""La connexion est coupee avant que vous n'ayez le temps de repondre.""
+AddText ""La connexion est coupée avant que vous n'ayez le temps de répondre.""
 ShowDefaultVisual
 EndConversation","""Peut-être que votre âme n'est pas encore perdue au profit de la machine.""
 OR
@@ -2482,41 +2482,41 @@ FireAll PopulateOptions","""Citoyen du Domaine, ce vaisseau-drone automatisé a 
 ,,,,,,
 ,,,,,,
 # Trade panel flavor text,,,,,,
-flavorTextMarketGeneric,TradePanelFlavorText,$global.tradePanelMode == MARKET,"AddText ""Le hall portuaire grouille de vaisseaux marchands de toutes tailles. Des spéculateurs assaillent les capitaines en déchargement tandis que des colporteurs interpellent les equipages, brandissant leurs marchandises et projetant des holos publicitaires."" marketFlavorTextColor",,,
+flavorTextMarketGeneric,TradePanelFlavorText,$global.tradePanelMode == MARKET,"AddText ""Le hall portuaire grouille de vaisseaux marchands de toutes tailles. Des spéculateurs assaillent les capitaines en déchargement tandis que des colporteurs interpellent les équipages, brandissant leurs marchandises et projetant des holos publicitaires."" marketFlavorTextColor",,,
 flavorTextMarketGenericSmall,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $marketSize < 4
-$stability > 1","AddText ""Le modeste hall portuaire accueille de petits cargos et des indépendants plus ou moins chanceux, reconnaissables a l'éclat ou a la crasse de leur blindage et au volume de cargaison en chargement. Une poignee de spéculateurs qui semblent tous se connaître assaillent les capitaines a leur arrivée tandis que des colporteurs interpellent les equipages, brandissant leurs marchandises et projetant des holos publicitaires."" marketFlavorTextColor",,,
+$stability > 1","AddText ""Le modeste hall portuaire accueille de petits cargos et des indépendants plus ou moins chanceux, reconnaissables a l'éclat ou a la crasse de leur blindage et au volume de cargaison en chargement. Une poignee de spéculateurs qui semblent tous se connaître assaillent les capitaines a leur arrivée tandis que des colporteurs interpellent les équipages, brandissant leurs marchandises et projetant des holos publicitaires."" marketFlavorTextColor",,,
 flavorTextMarketGenericUnstable,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $stability == 1","AddText ""Le hall portuaire ne contient qu'une poignee de vaisseaux marchands éparpillés. Quelques spéculateurs nerveux cherchent des capitaines en déchargement. La plupart des colporteurs semblent avoir déguerpis en hâte, a en juger par les débris, bien que quelques marchands tenaces poursuivent leurs affaires. La police locale a déployé des patrouilles en armures assistees tandis que des drones de securite bourdonnent ostensiblement au-dessus."" marketFlavorTextColor",,,
 flavorTextMarketGenericVeryUnstable,TradePanelFlavorText,"$global.tradePanelMode == MARKET
-$stability == 0","AddText ""Le hall portuaire ne contient que quelques vaisseaux, dont la moitie ressemble a des navires de guerre. Des bandes d'equipages armes se massent autour de chaque appareil, gardant le chargement et le déchargement. Quelques spéculateurs téméraires se hâtent entre les espaces offrant ce qu'ils imaginent etre une couverture tandis que des drones de securite filent au-dessus, se précipitant vers un incident ou un autre."" marketFlavorTextColor",,,
+$stability == 0","AddText ""Le hall portuaire ne contient que quelques vaisseaux, dont la moitie ressemble a des navires de guerre. Des bandes d'équipages armes se massent autour de chaque appareil, gardant le chargement et le déchargement. Quelques spéculateurs téméraires se hâtent entre les espaces offrant ce qu'ils imaginent etre une couverture tandis que des drones de securite filent au-dessus, se précipitant vers un incident ou un autre."" marketFlavorTextColor",,,
 flavorTextMarketPirateUnstable,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $stability == 1
-$faction.id == pirates","AddText ""Le hall portuaire abrite quelques coques balafrées eclairees par le scintillement des puces d'identification decoupees au laser sur les conteneurs. Des equipages pirates armes se massent autour de leurs vaisseaux, fusillant du regard et provoquant les equipages rivaux. L'ensemble des installations semble encore plus mal entretenu que d'habitude, avec des traces de brulures suspectes et des taches maculant plusieurs cloisons. Les hommes de main du chef de port observent froidement, prets a utiliser leurs armes."" marketFlavorTextColor",,,
+$faction.id == pirates","AddText ""Le hall portuaire abrite quelques coques balafrées eclairees par le scintillement des puces d'identification decoupees au laser sur les conteneurs. Des équipages pirates armes se massent autour de leurs vaisseaux, fusillant du regard et provoquant les équipages rivaux. L'ensemble des installations semble encore plus mal entretenu que d'habitude, avec des traces de brûlures suspectes et des taches maculant plusieurs cloisons. Les hommes de main du chef de port observent froidement, prets a utiliser leurs armes."" marketFlavorTextColor",,,
 flavorTextMarketPirateVeryUnstable,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $stability == 0
 $faction.id == pirates","AddText ""Un ou deux vaisseaux pirates aux coques voyantes sont amarrés au hall portuaire et leurs tourelles de defense de point suivent votre navette — une provocation ouverte. Un lieutenant fanfaron du chef de port s'approche, flanque de brutes armees. Sa demande de pot-de-vin est interrompue par des coups de feu etouffes ; il sourit devant votre reaction et vous realisez vite qu'il est soit defonce, soit ivre. L'air empeste la fumee et l'ionisation haute energie."" marketFlavorTextColor",,,
 flavorTextMarketPerseanLeague,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $faction.id == persean
-$stability > 1","AddText ""Le hall portuaire grouille de vaisseaux marchands de toutes tailles et formes. Des spéculateurs assaillent les capitaines en déchargement tandis que des colporteurs interpellent les equipages, brandissant leurs marchandises et projetant des holos publicitaires. Des groupes de marins et officiers de la Marine de la Ligue sont reconnaissables a leurs uniformes reglementaires et a leur tendance a maintenir la formation meme hors service. La police locale porte des tenues obstinement differentes de celles des autres mondes de la Ligue, tout en conservant une posture universelle d'autorite et de vigilance. Des emblemes de la Ligue s'affichent sur quelques surfaces municipales actives, presque comme une arriere-pensee."" marketFlavorTextColor",,,
+$stability > 1","AddText ""Le hall portuaire grouille de vaisseaux marchands de toutes tailles et formes. Des spéculateurs assaillent les capitaines en déchargement tandis que des colporteurs interpellent les équipages, brandissant leurs marchandises et projetant des holos publicitaires. Des groupes de marins et officiers de la Marine de la Ligue sont reconnaissables a leurs uniformes reglementaires et a leur tendance a maintenir la formation meme hors service. La police locale porte des tenues obstinement differentes de celles des autres mondes de la Ligue, tout en conservant une posture universelle d'autorite et de vigilance. Des emblemes de la Ligue s'affichent sur quelques surfaces municipales actives, presque comme une arriere-pensee."" marketFlavorTextColor",,,
 flavorTextMarketLuddicPath,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $faction.id == luddic_path
-$stability > 1","AddText ""Des vaisseaux marchands miteux s'entassent le long du hall portuaire aux cotes de raiders Voilistes balafrés, dominants dans leurs livrees voyantes. Des marchands luddiques attendent les capitaines en déchargement. Des colporteurs proposent de la nourriture de rue et de l'artisanat aux equipages tandis que des moines prient silencieusement au-dessus de leurs bols d'aumone. Une poignee de prédicateurs haranguent les étrangers sous le regard assure de militants voilistes convaincus."" marketFlavorTextColor
-AddText ""L'etalage de vices technologiques non strictement nécessaires au devoir et a la survie n'est pas tolere ici. On apprend vite a ne pas exhiber ses mods cybernetiques et gadgets clinquants. L'absence d'holoprojecteurs donne l'impression d'etre dans une simulation historique educative."" marketFlavorTextColor",,,
+$stability > 1","AddText ""Des vaisseaux marchands miteux s'entassent le long du hall portuaire aux cotes de raiders Voilistes balafrés, dominants dans leurs livrees voyantes. Des marchands luddiques attendent les capitaines en déchargement. Des colporteurs proposent de la nourriture de rue et de l'artisanat aux équipages tandis que des moines prient silencieusement au-dessus de leurs bols d'aumone. Une poignee de prédicateurs haranguent les étrangers sous le regard assure de militants voilistes convaincus."" marketFlavorTextColor
+AddText ""L'etalage de vices technologiques non strictement nécessaires au devoir et a la survie n'est pas toléré ici. On apprend vite a ne pas exhiber ses mods cybernétiques et gadgets clinquants. L'absence d'holoprojecteurs donne l'impression d'etre dans une simulation historique educative."" marketFlavorTextColor",,,
 flavorTextMarketTriTachyon,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $faction.id == tritachyon
 $marketSize >= 4","AddText ""The port concourse is filled with trader starcraft of every size. Speculators crowd offloading ship captains with deals and peddlers call out to crew, holding wares and projecting personal ad-holos."" marketFlavorTextColor
-AddText ""Un representant de la franchise Tri-Tachyon vous accueille et propose de mettre a jour votre PDA avec les derniers tarifs de la Compagnie pour le marche local."" marketFlavorTextColor",,,
+AddText ""Un représentant de la franchise Tri-Tachyon vous accueille et propose de mettre a jour votre PDA avec les derniers tarifs de la Compagnie pour le marche local."" marketFlavorTextColor",,,
 flavorTextMarketPirates,TradePanelFlavorText,"$global.tradePanelMode == MARKET
-$faction.id == pirates","AddText ""Le hall portuaire est rempli de coques balafrées eclairees par le scintillement des puces d'identification decoupees au laser sur les conteneurs. Des equipages pirates se pavanent en bandes, se jaugeant mutuellement, tandis que leurs capitaines concluent des affaires dans des arriere-salles enfumees. Les sbires du chef de port observent la scene, armes degainees."" marketFlavorTextColor",,,
+$faction.id == pirates","AddText ""Le hall portuaire est rempli de coques balafrées eclairees par le scintillement des puces d'identification decoupees au laser sur les conteneurs. Des équipages pirates se pavanent en bandes, se jaugeant mutuellement, tandis que leurs capitaines concluent des affaires dans des arriere-salles enfumees. Les sbires du chef de port observent la scene, armes degainees."" marketFlavorTextColor",,,
 flavorTextMarketHegemony,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $faction.id == hegemony","AddText ""Des vedettes de patrouille de l'Hégémonie se faufilent entre les imposants cargos et les coques grêles des marchands-combattants qui remplissent le hall portuaire. Les capitaines en déchargement sont accueillis sèchement par un officier logistique de l'Hégémonie, contrôlés, puis lâchés dans la foule de marchands, armuriers et spéculateurs."" marketFlavorTextColor
 AddText ""Le phénix ardent de l'Hégémonie est projeté sur une cloison, l'identifiant comm du centre de recrutement local de la Marine défilant autour des étoiles vacillantes du Domaine — 'Explorez le Secteur, Servez avec Honneur, Restaurez le Domaine Humain'."" marketFlavorTextColor",,,
 flavorTextMarketLuddicChurch,TradePanelFlavorText,"$global.tradePanelMode == MARKET
-$faction.id == luddic_church","AddText ""Le hall portuaire grouille de vaisseaux marchands de toutes tailles. Des marchands luddiques en vêtements sobres attendent les capitaines en déchargement. Des colporteurs proposent de la nourriture de rue et de l'artisanat aux equipages tandis que des moines prient silencieusement au-dessus de leurs bols d'aumone. Des chevaliers en robes tissées a la main vert luddique, carabines CP en bandouliere, escortent les prédicateurs obstines qui haranguent les étrangers exhibant gadgets et mods cybernetiques. L'Eglise est pragmatique ; de tels péchés sont tolérés dans le quartier marchand."" marketFlavorTextColor",,,
+$faction.id == luddic_church","AddText ""Le hall portuaire grouille de vaisseaux marchands de toutes tailles. Des marchands luddiques en vêtements sobres attendent les capitaines en déchargement. Des colporteurs proposent de la nourriture de rue et de l'artisanat aux équipages tandis que des moines prient silencieusement au-dessus de leurs bols d'aumone. Des chevaliers en robes tissées a la main vert luddique, carabines CP en bandouliere, escortent les prédicateurs obstines qui haranguent les étrangers exhibant gadgets et mods cybernétiques. L'Église est pragmatique ; de tels péchés sont tolérés dans le quartier marchand."" marketFlavorTextColor",,,
 flavorTextMarketPirateUmbra,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $faction.id == pirates
-$market.id == umbra score:100","AddText ""Des vaisseaux pirates s'amarrent aux cotes de navires de guerre tout aussi balafrés, couverts des slogans revolutionnaires des Antis. Les baies de déchargement mêlent le gout métallique du vide avec un support vital saturé et l'odeur d'humanite non lavee. La cargaison est inspectee — et parfois expropriée — par des chefs de section flanques de gardes qui toisent les equipages en déchargement."" marketFlavorTextColor",,,
+$market.id == umbra score:100","AddText ""Des vaisseaux pirates s'amarrent aux cotes de navires de guerre tout aussi balafrés, couverts des slogans revolutionnaires des Antis. Les baies de déchargement mêlent le gout métallique du vide avec un support vital saturé et l'odeur d'humanite non lavee. La cargaison est inspectee — et parfois expropriée — par des chefs de section flanques de gardes qui toisent les équipages en déchargement."" marketFlavorTextColor",,,
 flavorTextMarketCryosanctum,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $market.ind:cryosanctum == true score:100
 $stability > 3","AddText ""Les baies d'atterrissage caverneuses écrasent les quelques vaisseaux amarrés ; les capteurs détectent des murmures EM provenant d'échelons d'autotourelles cachées en sommeil, suggérant une puissance de feu bien supérieure a celle nécessaire pour garantir la bonne conduite des quelques marchands, mercenaires et riches excentriques visitant le cryosanctuaire. Un officiel accueille les capitaines en déchargement, presentant le catalogue standard de forfaits cryosommeil avant de les escorter vers le salon des visiteurs."" marketFlavorTextColor",,,
@@ -2548,9 +2548,9 @@ $player.transponderOn == false","AddText ""Votre navette atterrit sur une barge 
 ,,,,,,
 ,,,,,,
 flavorTextCargoPlaceholder,TradePanelFlavorText,"$global.tradePanelMode == CARGO
-","AddText ""Votre quartier-maitre coordonne les registres de toutes les affectations d'equipage, les stocks d'armement et les marchandises. Ces rapports sont tenus a jour et accessibles via votre TriPad."" textGrayColor",,,
+","AddText ""Votre quartier-maître coordonne les registres de toutes les affectations d'équipage, les stocks d'armement et les marchandises. Ces rapports sont tenus a jour et accessibles via votre TriPad."" textGrayColor",,,
 flavorTextSalvagePlaceholder,TradePanelFlavorText,"$global.tradePanelMode == SALVAGE
-","AddText ""Votre equipe d'operations spatiales, equipee de decoupeurs laser et de skiffs de cargaison squelettiques, manoeuvre vers les epaves desactivees et les fouille a la recherche de marchandises, armements et objets de valeur."" textGrayColor",,,
+","AddText ""Votre equipe d'operations spatiales, equipee de decoupeurs laser et de skiffs de cargaison squelettiques, manoeuvre vers les épaves desactivees et les fouille a la recherche de marchandises, armements et objets de valeur."" textGrayColor",,,
 flavorTextAbandonedStation,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $abandonedStation == true score:100","AddText ""The port concourse is dark and empty but for a few looted hulks. The atmosphere reads out as thin, but there is sufficient power from hardened passive collectors to run basic life support and storage functions."" marketFlavorTextColor",,,
 ,,,,,,
@@ -3452,7 +3452,7 @@ $entity.sawPlayerWithTOffCount == 2.0 score:10
 $entity.relativeStrength >= 0","AddText""\""I told you last time to keep your transponder on.\""""
 AdjustRep $faction.id TRANSPONDER_OFF
 AdjustRepActivePerson TRANSPONDER_OFF
-AddText ""La comm est coupee avant que vous n'ayez le temps de repondre.""
+AddText ""La comm est coupée avant que vous n'ayez le temps de répondre.""
 $entity.ignorePlayerCommRequests = true 0
 unset $entity.transponderOffConv
 #MakeHostileWhileTOff tOff true 7
@@ -3665,7 +3665,7 @@ ise_offerBribeSelNotEnough,DialogOptionSelected,$option == ise_offerBribe,"SetTe
 
 ""Maintenant j'ai de fascinants rapports vous concernant à lire, alors revenez quand vous serez sérieux.""",0:cutCommLink:Couper la comm,
 ise_offerBribeAmountSel,DialogOptionSelected,$option == ise_offerBribeAmount,"AddText ""Lost $ise_bribeAmountDGS credits"" textEnemyColor
-AddText ""\""Merci, citoyen. Je suis certain que mon enquete aboutira a une conclusion appropriee en temps voulu.\""""
+AddText ""\""Merci, citoyen. Je suis certain que mon enquête aboutira a une conclusion appropriée en temps voulu.\""""
 SubCredits $ise_bribeAmount
 CallEvent $ise_eventRef setBribePaid
 SetShortcut cutCommLink ""ESCAPE""",,0:cutCommLink:Couper la comm,
@@ -3713,7 +3713,7 @@ SetShortcut cutCommLink ""ESCAPE""","""Votre intérêt pour l'affaire est dûmen
 
 ""Maintenant j'ai de fascinants rapports vous concernant à examiner, alors revenez quand vous serez sérieux.""",0:cutCommLink:Couper la comm,
 igr_offerBribeAmountSel,DialogOptionSelected,$option == igr_offerBribeAmount,"AddText ""Lost $igr_bribeAmountDGS credits"" textEnemyColor
-AddText ""\""Merci, citoyen. Je suis certain que mon enquete aboutira a une conclusion appropriee en temps voulu.\""""
+AddText ""\""Merci, citoyen. Je suis certain que mon enquête aboutira a une conclusion appropriée en temps voulu.\""""
 SubCredits $igr_bribeAmount
 CallEvent $igr_eventRef setBribePaid
 FireBest IGRBribeEnd",,,
@@ -3742,8 +3742,8 @@ Le système d'analyse de combat mouline pendant quelques secondes puis émet un 
 # SALVAGE,,,,,,
 sal_tutorial_storyPointUse1,OpenInteractionDialog,"$tutorialUseStoryPoint score:1000
 $global.isInTutorial","ShowDefaultVisual
-AddText ""Ce vaisseau n'est pas facilement recuperable, mais il serait tres utile dans le combat a venir contre les forces minieres gardant le point de saut.""
-AddText ""Vous pouvez utiliser un point d'histoire pour rendre un vaisseau recuperable. Faites-le maintenant en selectionnant l'option appropriee apres avoir explore l'epave.""
+AddText ""Ce vaisseau n'est pas facilement récupérable, mais il serait tres utile dans le combat a venir contre les forces minieres gardant le point de saut.""
+AddText ""Vous pouvez utiliser un point d'histoire pour rendre un vaisseau récupérable. Faites-le maintenant en sélectionnant l'option appropriée apres avoir explore l'épave.""
 SetTextHighlightColors story
 SetTextHighlights ""appropriate option""",,salTutorialContinue:Continuer,
 sal_tutorial_storyPointUse2,DialogOptionSelected,$option == salTutorialContinue,"SalvageGenFromSeed
@@ -3788,7 +3788,7 @@ $fromGhost score:100","unset $fromGhost
 ShowDefaultVisual
 PrintWreckDescription
 AddText ""Il y a un peu d'agitation sur votre passerelle. Votre officier tactique reinterroge les capteurs au sujet du vaisseau abandonne, \""N'avons-nous pas observe ce vaisseau effectuer des manoeuvres independantes il y a a peine quelques heures ?\""""
-AddText ""Votre officier des capteurs met plus de temps que d'habitude a repondre, parlant avec une grande prudence. \""Avec tout le respect du. Les releves pris en hyperespace sont intrinsequement imprecis. Notre cadre d'affichage euclidien n'est qu'une... interpretation de nos meilleurs systemes experts.\"" Il designe les releves actuels d'un geste. \""C'etait clairement juste un artefact.\"" Il hoche la tete sans croiser le regard du tactique. \""Un artefact hyperspacial. Oui.\""""",,,
+AddText ""Votre officier des capteurs met plus de temps que d'habitude a repondre, parlant avec une grande prudence. \""Avec tout le respect du. Les releves pris en hyperespace sont intrinsèquement imprécis. Notre cadre d'affichage euclidien n'est qu'une... interprétation de nos meilleurs systemes experts.\"" Il designe les releves actuels d'un geste. \""C'etait clairement juste un artefact.\"" Il hoche la tete sans croiser le regard du tactique. \""Un artefact hyperspacial. Oui.\""""",,,
 ,,,,,,
 # Explore/Leave options and actions,,,,,,
 sal_defaultLeave1,PopulateSalvageOptions1,,SetShortcut defaultLeave ESCAPE,,100:defaultLeave:$salvageLeaveText,
@@ -4222,7 +4222,7 @@ lppHookShrineLeaveBeholder2,DialogOptionSelected,$option == shrineDoLeaveBeholde
 # Beholder Station shrine,,,,,,
 lppBeholderOpenDialog,OpenInteractionDialog,"$id == beholder_station
 $tag:luddic_shrine","PrintDescription 1
-AddText ""La baie d'atterrissage est remplie de groupes de pelerins luddiques, beaucoup vetus de tissage traditionnel, en reunion avec des sous-cures. Un prepose vous examine avec suspicion et s'enquiert de la raison de votre venue.""
+AddText ""La baie d'atterrissage est remplie de groupes de pèlerins luddiques, beaucoup vêtus de tissage traditionnel, en reunion avec des sous-curés. Un préposé vous examine avec suspicion et s'enquiert de la raison de votre venue.""
 ShowDefaultVisual
 FireAll BeholderShrineMainOptions
 ShrineCMD addIntel",,,
@@ -4481,7 +4481,7 @@ lppEnding1KnightDecline,DialogOptionSelected,$option == lpp_endingKnightDecline,
 
 Sous la solennité, le regard du Chevalier vous supplie de ne pas le mettre dans la situation délicate de refuser l'Archicuré. 
 
-Vous passez mentalement en revue votre connaissance de la hiérarchie de l'Eglise : le Conclave des Archicurés est la couronne de l'Eglise, se réunissant ou envoyant des représentants pour rendre les décisions sur les questions les plus élevées ; interprétant le canon de Ludd, la sanctification, la loi sacrée, l'excommunication. Si l'Eglise a des dirigeants, cette Archicurée en fait partie.","lpp_ending2:""J'ai changé d'avis. Montrez le chemin.""
+Vous passez mentalement en revue votre connaissance de la hiérarchie de l'Église : le Conclave des Archicurés est la couronne de l'Église, se réunissant ou envoyant des représentants pour rendre les décisions sur les questions les plus élevées ; interprétant le canon de Ludd, la sanctification, la loi sacrée, l'excommunication. Si l'Église a des dirigeants, cette Archicurée en fait partie.","lpp_ending2:""J'ai changé d'avis. Montrez le chemin.""
 lpp_startEndingAbort2:Revenir to your shuttle",
 lppEndingAbort2,DialogOptionSelected,$option == lpp_startEndingAbort2,"$global.lpp_playerRejectedFirstJaspisMeeting = true
 unset $global.lpp_playerRejectedJaspisRoute
@@ -4490,7 +4490,7 @@ FireAll PopulateOptions","Vous laissez le Chevalier méditer sur la façon de tr
 
 Votre navette s'élève du monde verdoyant. Il n'y a aucune objection du contrôle du trafic ni aucune demande de communication de suivi alors que vous retournez à votre $shipOrFleet.",,
 lppEnding2,DialogOptionSelected,$option == lpp_ending2,"unset $global.lpp_playerRejectedFirstJaspisMeeting
-unset $global.lpp_playerRejectedJaspisRoute","Vous êtes guidé par le Chevalier à travers des jardins et les arcades vertigineuses de l'architecture de l'Eglise Luddic : des rêves à demi oubliés de cathédrales gothiques auxquels la science des matériaux du Domaine a donné leur envol. Il serait sans doute impertinent de mentionner cet aspect de la construction, bien entendu.
+unset $global.lpp_playerRejectedJaspisRoute","Vous êtes guidé par le Chevalier à travers des jardins et les arcades vertigineuses de l'architecture de l'Église Luddic : des rêves à demi oubliés de cathédrales gothiques auxquels la science des matériaux du Domaine a donné leur envol. Il serait sans doute impertinent de mentionner cet aspect de la construction, bien entendu.
 
 Le Chevalier-Initié suit derrière, ses pas résonnant entre les portails voûtés, sur des dalles d'ardoise parsemées de pyrite scintillante comme des étoiles dans la nuit.","lpp_ending3:Ne rien dire
 lpp_ending2askPilgrim:""Chaque pèlerin qui réussit a-t-il droit à une audience avec l'archicuré ?""
@@ -4553,14 +4553,14 @@ Elle est presque étrangement différente de l'eau de votre propre vaisseau, gé
 lppEnding6,DialogOptionSelected,$option == lpp_ending6,"$option = lpp_ending7 0
 FireBest DialogOptionSelected",Elle sourit légèrement.,,
 lppEnding7,DialogOptionSelected,$option == lpp_ending7,FireBest LPPJaspisSpeech,,,
-lppEnding7faithful,LPPJaspisSpeech,$player.luddicAttitudeFaithful >= 2 score:2,,"""Vous avez fait le pèlerinage aux saints sanctuaires de Ludd, vous avez cultivé une affinité avec l'Eglise et fait preuve de compassion envers les Fidèles."" Elle prend une tasse de thé et tapote distraitement le côté.
+lppEnding7faithful,LPPJaspisSpeech,$player.luddicAttitudeFaithful >= 2 score:2,,"""Vous avez fait le pèlerinage aux saints sanctuaires de Ludd, vous avez cultivé une affinité avec l'Église et fait preuve de compassion envers les Fidèles."" Elle prend une tasse de thé et tapote distraitement le côté.
 
 ""'Dans ma main droite je tiens le marteau tandis que ma gauche est ouverte pour que vous la preniez.'"" Dit-elle, citant le Livre de Ludd. ""Le marteau a sa place aux côtés du coeur.""",lpp_ending8:Continuer,
 lppEnding7secular,LPPJaspisSpeech,"#$player.luddicAttitudeAgnostic
-#$player.luddicAttitudeAtheistic",,"""Vous avez fait le pèlerinage aux saints sanctuaires de Ludd. Un acte éprouvant auquel les Fidèles aspirent. Pourtant vous prenez aussi soin de garder vos distances avec l'Eglise, de ne rien tenir pour sacré."" Elle prend une tasse de thé et tapote distraitement le côté.
+#$player.luddicAttitudeAtheistic",,"""Vous avez fait le pèlerinage aux saints sanctuaires de Ludd. Un acte éprouvant auquel les Fidèles aspirent. Pourtant vous prenez aussi soin de garder vos distances avec l'Église, de ne rien tenir pour sacré."" Elle prend une tasse de thé et tapote distraitement le côté.
 
 ""Je ne vous ai pas reçu ici pour admonester ou faire du prosélytisme. Si une lutte tourmente votre âme, ou si elle est sourde aux chants de la Création, alors cette affaire relève de votre propre prière et méditation.""",lpp_ending8:Continuer,# guess it's default!
-lppEnding7jerk,LPPJaspisSpeech,$player.luddicAttitudeCynical >= 2 score: 3,,"""Vous avez fait le pèlerinage aux saints sanctuaires de Ludd, et pourtant vous traitez l'Eglise avec un visage sombre et détourné, prononçant des paroles acerbes sous couvert d'une fausse jovialité. Vous êtes dépourvu de toute affinité pour la délicatesse des manières sans avoir enduré les années nécessaires pour mériter cet état exalté."" Elle prend une tasse de thé et tapote distraitement le côté. 
+lppEnding7jerk,LPPJaspisSpeech,$player.luddicAttitudeCynical >= 2 score: 3,,"""Vous avez fait le pèlerinage aux saints sanctuaires de Ludd, et pourtant vous traitez l'Église avec un visage sombre et détourné, prononçant des paroles acerbes sous couvert d'une fausse jovialité. Vous êtes dépourvu de toute affinité pour la délicatesse des manières sans avoir enduré les années nécessaires pour mériter cet état exalté."" Elle prend une tasse de thé et tapote distraitement le côté. 
 
 ""Une question agite mon esprit : votre inclination est-elle une vie de jugements erronés guidée par une passion sans direction ?""",lpp_ending8:Continuer,
 lppEnding7pather,LPPJaspisSpeech,$player.luddicAttitudePather >= 2 score:3,,"""La militance de votre zèle a ses admirateurs parmi les Fidèles, mais il est à craindre que vous soyez trop prompt à lever le marteau de la colère quand le chemin de la droiture est souvent mené par le coeur, et humblement."" 
@@ -4611,19 +4611,19 @@ FireAll LPPEndingJaspisHub","""Non. Mon marteau est,"" elle hoche la tête dans 
 Elle sirote un peu de thé. ""Comprenez bien que je ne parle pas entièrement de guerre et de colère. Un marteau peut frapper subtilement, même discrètement, s'il est dirigé avec habileté, sagesse et piété.""",,
 lppJaspisWhatGoal,DialogOptionSelected,$option == lpp_jaspisWhatGoal,"$askedJaspis++ 0
 $askedWhatGoal = true 0
-FireAll LPPEndingJaspisHub","""La Foi a de nombreux ennemis, tant au sein qu'en dehors de l'Eglise,"" dit-elle lentement. ""Certains savent le mal qu'ils font ; d'autres non. Ils doivent être remis dans le droit chemin.""
+FireAll LPPEndingJaspisHub","""La Foi a de nombreux ennemis, tant au sein qu'en dehors de l'Église,"" dit-elle lentement. ""Certains savent le mal qu'ils font ; d'autres non. Ils doivent être remis dans le droit chemin.""
 
 ""Je m'emploierais à faire le bien comme Ludd nous l'a enseigné, et par tous les moyens disponibles, comme Ludd nous l'a également enseigné. En faisant le bien, je sers cette fonction. Et dans un but plus grand, je sers la vision que Ludd nous a transmise.""",,
 lppJaspisJobOffer,DialogOptionSelected,$option == lpp_jaspisJobOffer,"$askedJaspis++ 0
 $askedJobOffer = true 0
 FireAll LPPEndingJaspisHub","Elle prend un moment tranquille pour siroter son thé.
 
-""Vous serez bien entendu payé. Les coffres de l'Eglise ne sont pas aussi abondants que le butin de Tri-Tachyon, mais si ces crédits peuvent servir un chemin vertueux, ne les rejetons pas.""
+""Vous serez bien entendu payé. Les coffres de l'Église ne sont pas aussi abondants que le butin de Tri-Tachyon, mais si ces crédits peuvent servir un chemin vertueux, ne les rejetons pas.""
 
 ""De tels actes sont pour les saints."" Elle sourit légèrement. ""Pas pour ceux tels que vous et moi.""",,
 lppJaspisBlessedService,DialogOptionSelected,$option == lpp_jaspisBlessedService,"$askedJaspis++ 0
 $askedBlessedService = true 0
-FireAll LPPEndingJaspisHub","""L'Eglise,"" dit-elle, ""pourrait récompenser un tel zèle.""
+FireAll LPPEndingJaspisHub","""L'Église,"" dit-elle, ""pourrait récompenser un tel zèle.""
 
 Un sourire narquois apparaît. ""Placerait-on sa foi dans la machinerie des offices, des règles et des lettres et de qui-sert-qui ? Je prie pour que nous ne fassions pas grandir notre propre démon au bon nom de Ludd.""
 
@@ -4639,7 +4639,7 @@ lppJaspisHammerFallBook,DialogOptionSelected,"$option == lpp_jaspisHammerFall
 $player.leftCottonBookInGilead","$askedJaspis++ 0
 $askedHammerFall = true 0","L'Archicurée fouille sous son bureau puis pose un livre sur la surface usée. C'est le livre saint de Ludd qui vous avait été donné par Frère Cotton ; vous l'aviez laissé en offrande au sanctuaire, parmi une montagne de babioles.
 
-Qu'elle l'ait ici, et sache que vous l'y avez déposé, en dit long sur les capacités de l'Eglise et l'attention qui vous est portée.
+Qu'elle l'ait ici, et sache que vous l'y avez déposé, en dit long sur les capacités de l'Église et l'attention qui vous est portée.
 
 ""Je comprends parfaitement que vous souhaitez voir une colère sans retenue déchaînée pour accomplir la justice divine, capitaine."" Ses yeux aveugles semblent fixés sur vous. ""Du moins, vous avez communié avec quelqu'un qui le souhaite.""",lpp_jaspisHammerFall2:Continuer,
 lppJaspisHammerFallBook2,DialogOptionSelected,$option == lpp_jaspisHammerFall2,"$player.jaspisCottonBook = true
@@ -4949,7 +4949,7 @@ lppVolturnCurateAskPilgrimSD,DialogOptionSelected,"$option == lpp_volturnCurateA
 $player.fcm_faction == sindrian_diktat","$option = lpp_volturnCurateAskSeeShrine 0
 FireBest DialogOptionSelected","""Un pèlerin ? Vous ?"" Elle semble perplexe.",lpp_volturnShrineFirstVisit4:Continuer,
 lppVolturnCurateAskSeeShrineSD,DialogOptionSelected,"$option == lpp_volturnCurateAskSeeShrine
-$player.fcm_faction == sindrian_diktat",,"""Il est de ma compréhension,"" dit-elle, ""que les réflexions de votre Exécuteur Suprême contredisent largement les préceptes de l'Eglise de la Rédemption Galactique - et les enseignements de Ludd en particulier.""  ","lpp_volturnCurateSeeShrineSDjustDoIt:""Montrez-moi juste le sanctuaire.""
+$player.fcm_faction == sindrian_diktat",,"""Il est de ma compréhension,"" dit-elle, ""que les réflexions de votre Exécuteur Suprême contredisent largement les préceptes de l'Église de la Rédemption Galactique - et les enseignements de Ludd en particulier.""  ","lpp_volturnCurateSeeShrineSDjustDoIt:""Montrez-moi juste le sanctuaire.""
 lpp_volturnCurateSeeShrineSDlearn:""Il y a un terrain d'entente. L'accent sur la tradition et la famille.""
 lpp_volturnCurateSeeShrineSDlecture:""Je ne suis pas là pour un cours de théologie.""",
 lppVolturnCurateSeeShrineSDlecture,DialogOptionSelected,$option == lpp_volturnCurateSeeShrineSDlecture,"$option = lpp_volturnCurateSeeShrineSDjustDoIt 0
@@ -4991,7 +4991,7 @@ FireAll LPPVolturnCurateResponses2SD","""Oh ?"" Elle hausse un sourcil dans votr
 
 Elle relève le menton et vous regarde. ""Le sanctuaire a été pratiquement piétiné par votre Diktat Sindrien. Les soldats et la SécuMun harcèlent les pèlerins et arrêtent les fidèles, puis volent nos dîmes.""
 
-""Tant qu'ils laissent le sanctuaire intact, cependant, l'Eglise est disposée à tendre l'autre joue.""",,
+""Tant qu'ils laissent le sanctuaire intact, cependant, l'Église est disposée à tendre l'autre joue.""",,
 lppVolturnCurateSDcriticism2,DialogOptionSelected,$option == lpp_volturnCurateSDchurch,"$didChurch = true 0
 FireAll LPPVolturnCurateResponses2SD","""Ma foi n'est pas l'Église,"" dit-elle avec ferveur. ""Et ils peuvent me défroquer et m'excommunier pour cela s'ils le souhaitent, ça ne changerait rien ici.""",,
 lppVolturnCurateSDcompromise,DialogOptionSelected,$option == lpp_volturnCurateSDcompromise,"$didCompromise = true 0
@@ -5035,7 +5035,7 @@ lpp_volturnCurateTroubleHeavier:""Manque d'armes lourdes. Comment combattrez-vou
 lppVolturnCurateTroublingViolent,DialogOptionSelected,$option == lpp_volturnCurateTroubleViolent,"$option = lpp_volturnCurateTroubleShrine 0
 FireBest DialogOptionSelected",,,
 lppVolturnCurateLuddicPath,DialogOptionSelected,$option == lpp_volturnCurateAreYouPath,"$askedIfPath = true 0
-FireAll LPPVolturnCurateResponses2","""Non. Pas du tout."" Elle vous lance un regard de dégoût. ""Je suis une curée de l'Eglise de la Rédemption Galactique. Ce que je fais et ce qu'ils font sont très différents. J'espère, j'espère vraiment, que vous pouvez voir cela.""
+FireAll LPPVolturnCurateResponses2","""Non. Pas du tout."" Elle vous lance un regard de dégoût. ""Je suis une curée de l'Église de la Rédemption Galactique. Ce que je fais et ce qu'ils font sont très différents. J'espère, j'espère vraiment, que vous pouvez voir cela.""
 
 Son regard se tourne vers les armes. ""J'admets qu'il y a eu... des contacts. Chaque jour est une épreuve. Je prie pour que nous ne nous égarions pas trop loin de Ludd.""",,
 lppVolturnCurateTroublingShrine,DialogOptionSelected,$option == lpp_volturnCurateTroubleShrine,"$commentedOnWeapons = true 0
@@ -5054,9 +5054,9 @@ lppVolturnCurateConfirmed,DialogOptionSelected,$option == lpp_volturnCurateConfi
 FireAll LPPVolturnCurateResponses2","""J'ai fait de vous un croyant,"" la curatrice sourit. ""Bien.""",,
 lppVolturnCurateChurchThink,DialogOptionSelected,$option == lpp_volturnCurateChurchThink,"$churchThink = true 0
 $canLeave = true 0
-FireAll LPPVolturnCurateResponses2","""L'Eglise n'est pas un seul esprit, mais le corps de nombreux réunis en conseil,"" dit-elle. ""Certains soutiennent notre oeuvre ici avec zèle, et d'autres se contentent de prier.""
+FireAll LPPVolturnCurateResponses2","""L'Église n'est pas un seul esprit, mais le corps de nombreux réunis en conseil,"" dit-elle. ""Certains soutiennent notre oeuvre ici avec zèle, et d'autres se contentent de prier.""
 
-Une expression sombre l'envahit. ""Cependant, je prie pour que le visage uni de l'Eglise ne se détourne pas de notre souffrance. Ludd a pleuré sans ciller, dit-on ; que les Pères et Mères de notre Eglise fassent de même.""",,
+Une expression sombre l'envahit. ""Cependant, je prie pour que le visage uni de l'Église ne se détourne pas de notre souffrance. Ludd a pleuré sans ciller, dit-on ; que les Pères et Mères de notre Église fassent de même.""",,
 lppVolturnCurateLightTheCandle,DialogOptionSelected,$option == lpp_volturnCurateCandle,"$litCandle = true 0
 $canLeave = true 0
 FireAll LPPVolturnCurateResponses2","""Ainsi le flambeau est transmis,"" dit la curatrice. ""Lumière de la flamme, lumière de la foi.""
@@ -5384,7 +5384,7 @@ ShowDefaultVisual","Le $rank fait signe à un cadet, lui donnant des instruction
 lppJangalaProtestChurch1,DialogOptionSelected,$option == lpp_jangalaProtestChurch1,"EndConversation DO_NOT_FIRE
 ShowDefaultVisual","Vous approchez calmement les manifestants luddics, demandant à parler à un organisateur. Ils sont réticents à désigner un meneur qui ferait une cible évidente pour les gardes de la SécuMuni, mais bientôt l'un des luddics les mieux vêtus vous reconnaît. Il semble que votre réputation vous précède.
 
-Il se porte garant de vous avec enthousiasme, ""un véritable ami de l'Eglise"", et parvient à convaincre les manifestants de vous laisser passer, vous et votre escorte.
+Il se porte garant de vous avec enthousiasme, ""un véritable ami de l'Église"", et parvient à convaincre les manifestants de vous laisser passer, vous et votre escorte.
 
 En pénétrant dans la promenade commerciale, sous les regards agacés des marchands et spaciens mécontents de votre traitement de faveur, vous commencez à entendre les ordres amplifiés de dispersion de la gendarmerie de l'Hégémonie.",lpp_jangalaProtestEndGeneric:Continuer,
 lppJangalaProtestJoin,DialogOptionSelected,$option == lpp_jangalaProtestJoin,"AdjustRep hegemony SUSPICIOUS -1
@@ -5561,7 +5561,7 @@ lpp_jangalaShrineLeave:Partir plutôt",
 lppJangalaattendantVisitOutsideC,DialogOptionSelected,"$option == lpp_jangalaattendantVisitOutside
 $wasAnnoying",,"""Ne serait-il pas 'insensé', capitaine, de vous exposer à l'extérieur ?"" dit le préposé, parvenant à garder toute irritation hors de son ton sinon de ses mots.
 
-Comme sur commande - ou peut-être parce qu'il était resté à proximité tout ce temps - un curé (vous présumez) du sanctuaire s'approche de vous et du préposé, ses robes pas tout à fait resplendissantes mais dégageant un soin et un savoir-faire qui trahissent un rang plus élevé dans l'Eglise.",lpp_jangalaattendantVisitOutsideC2:Continuer,
+Comme sur commande - ou peut-être parce qu'il était resté à proximité tout ce temps - un curé (vous présumez) du sanctuaire s'approche de vous et du préposé, ses robes pas tout à fait resplendissantes mais dégageant un soin et un savoir-faire qui trahissent un rang plus élevé dans l'Église.",lpp_jangalaattendantVisitOutsideC2:Continuer,
 lppJangalaattendantVisitOutsideC2,DialogOptionSelected,$option == lpp_jangalaattendantVisitOutsideC2,,"""Cela suffit, mon enfant"", dit le curé d'un ton de fer dissimulé sous des paroles douces, ""Peut-être devriez-vous entreprendre une prière de contrition dans la chapelle pendant que je m'entretiens avec le capitaine.""
 
 Confus, le préposé s'incline et s'éclipse. Le curé se tourne vers vous et dit : ""Veuillez accepter mes excuses. Je vais personnellement vous montrer le chemin du sanctuaire intérieur.""",lpp_jangalaVisitShrine:Suivre the curate,
@@ -5877,7 +5877,7 @@ $global.lpp_madeToWaitForHesperus ",,"Ses yeux sombres examinent les votres a tr
 ""Premierement, afin que vous puissiez vous ameliorer,"" dit-il. ""La vertu de patience est souvent evoquee mais rarement pratiquee.""
 
 ""Deuxiemement, pour le bien commun. Tous ceux qui vivent et passent ici beneficient d'une conduite ordonnee et vertueuse. Meme moi, en mon for interieur, je deviens meilleur en maintenant la discipline de bonne foi.""",lpp_excubitorWhyDeny2:Continuer,
-lppExcubitorWhyDeny2,DialogOptionSelected,$option == lpp_excubitorWhyDeny2,,"""Troisiemement et directement - car je ne mentirai pas, meme par omission, face a votre question honnete - cela donne a mon personnel le temps d'enqueter sur vos antecedents et votre caractere. Pour determiner du mieux possible vos intentions.""
+lppExcubitorWhyDeny2,DialogOptionSelected,$option == lpp_excubitorWhyDeny2,,"""Troisiemement et directement - car je ne mentirai pas, meme par omission, face a votre question honnete - cela donne a mon personnel le temps d'enquêter sur vos antecedents et votre caractere. Pour determiner du mieux possible vos intentions.""
 
 Voila donc : une verification des antecedents. Les Chevaliers utilisent-ils vraiment des archives papier ? Est-ce pour cela que ca prend si longtemps ? Incroyable.","lpp_excubitorWhyDenyHowGoing:""Et comment ça se passe ?""
 lpp_hesperusExcubitorAllowEndNice:""J'attends votre décision.""",
@@ -5921,12 +5921,12 @@ $global.lpp_deniedHesperusShrineAccess
 !$global.lpp_didHesperusShrineBribe
 !$global.lpp_visitedShrineHesperus","AddBarEvent lpp_hesperusShrine_barEvent ""Find someone bribable in local traffic control"" ""A motley crowd of distinctly non-Luddic spacer officers drink and talk. They can't all be honest traders. One of them might know how to sneak a shuttle past traffic control...""",,,
 lppHesperusBarEventSel,DialogOptionSelected,$option == lpp_hesperusShrine_barEvent,"SetTextHighlights 2,000
-DoCanAffordCheck 2000 lpp_hesperusShrineSneakBribe false","Vous vous frayez un chemin parmi les spationautes, offrant des verres et parlant boutique. Lacher quelques plaintes bon enfant mais bien senties sur le regime douanier sans humour gere par l'Eglise vous met sur la bonne voie, et bientot vous vous retrouvez dans un conduit d'evacuation enfume derrière le bar a discuter avec un technicien de la bureaucratie portuaire locale.",lpp_hesperusShrine_barEvent2:Tâter le terrain pour un pot-de-vin,
+DoCanAffordCheck 2000 lpp_hesperusShrineSneakBribe false","Vous vous frayez un chemin parmi les spationautes, offrant des verres et parlant boutique. Lacher quelques plaintes bon enfant mais bien senties sur le regime douanier sans humour gere par l'Église vous met sur la bonne voie, et bientot vous vous retrouvez dans un conduit d'evacuation enfume derrière le bar a discuter avec un technicien de la bureaucratie portuaire locale.",lpp_hesperusShrine_barEvent2:Tâter le terrain pour un pot-de-vin,
 lppHesperusBarEventSel2,DialogOptionSelected,$option == lpp_hesperusShrine_barEvent2,"Highlight ""2,000""","""Les gens comme nous, on doit juste garder la tete basse. Prier en public, ouais, vivre sa propre vie en douce, tu vois ?"" 
 
-Il tire une bouffee d'un baton de drogue du marche noir. ""Dites ce que vous voulez de l'Excubitor Orbis, au moins il prend la misericorde et le pardon aussi serieusement que toutes ses autres 'vertus chevaleresques'.""
+Il tire une bouffee d'un baton de drogue du marché noir. ""Dites ce que vous voulez de l'Excubitor Orbis, au moins il prend la misericorde et le pardon aussi serieusement que toutes ses autres 'vertus chevaleresques'.""
 
-Entre les plaintes sur la société Luddic, vous comprenez que pour 2 000 credits, un vol de navette non autorise vers le sanctuaire d'Hesperus pourrait être etiquete par un non-croyant serviable comme un transport de pelerins ordinaire.","lpp_hesperusShrineSneakBribe:Payer le pot-de-vin
+Entre les plaintes sur la société Luddic, vous comprenez que pour 2 000 credits, un vol de navette non autorise vers le sanctuaire d'Hesperus pourrait être etiquete par un non-croyant serviable comme un transport de pèlerins ordinaire.","lpp_hesperusShrineSneakBribe:Payer le pot-de-vin
 lpp_hesperus_returnToBar:Revenir au bar",
 lppHesperus_barReturnToBar,DialogOptionSelected,$option == lpp_hesperus_returnToBar,BarCMD returnFromEvent false,,,
 lppHesperusShrineSneakBribe,DialogOptionSelected,$option == lpp_hesperusShrineSneakBribe,"RemoveCommodity credits 2000
@@ -5958,8 +5958,8 @@ lppHesperusShrineOptions,DialogOptionSelected,$option == lpp_hesperusVisitToShri
 ShrineCMD playMusic
 FireAll HesperusShrineOptions","L'antichambre de la baie d'atterrissage est un spectacle baroque gothico-militant de recuperation post-industrielle. Des armures de combat vides se tiennent au garde-a-vous, armes fierement exposees. Entre des arches hérissees de rivets brillent des scenes de bataille et de martyre realisees en panneaux de mosaique formes de gemmes fracturees ; du diamant structurel et des lentilles colorees recuperees sur des lasers miniers ou des hublots d'inspection de reacteur.
 
-La galerie est remplie de groupes de pelerins Luddic vetus de tissages artisanaux traditionnels, en discussion avec les serviteurs du sanctuaire.",,
-lppHesperusShrineVisitAgain1,DialogOptionSelected,$option == lpp_hesperusVisit1,ShowLargePlanet,"Le contrôle du trafic vous donne sa benediction et votre navette descend vers la surface impitoyable d'Hesperus.
+La galerie est remplie de groupes de pèlerins Luddic vêtus de tissages artisanaux traditionnels, en discussion avec les serviteurs du sanctuaire.",,
+lppHesperusShrineVisitAgain1,DialogOptionSelected,$option == lpp_hesperusVisit1,ShowLargePlanet,"Le contrôle du trafic vous donne sa bénédiction et votre navette descend vers la surface impitoyable d'Hesperus.
 
 La planete est tailladee par des glaciers comme un reseau de cicatrices sur le cuir meurtri d'une bete ancienne. Votre trajectoire de vol vous mene vers un grand canyon empli d'un chaos de glace et de pierre, puis un embranchement au-dessus duquel des parois de roche sombre se dressent. De temps a autre, vous apercevez les vestiges en ruine d'installations industrielles, et parmi eux les lumieres occasionnelles d'entreprises chartees par les Chevaliers et de communautes monastiques.",lpp_hesperusVisitFirst3:Continuer,
 lppHesperusShrineOptionSnuckIn,HesperusShrineOptions,"$market.snuckIntoHesperus
@@ -6133,12 +6133,12 @@ RemoveOption lke_jaspisInfoReply1
 $toldCredits = true 0","""C'est exact,"" dit-elle. ""25 000 crédits à votre engagement, 50 000 crédits au retour du novice auprès de moi.""",,
 lkeJaspisInfoAsk2reply,DialogOptionSelected,$option == lke_jaspisInfoReply2,RemoveOption lke_jaspisInfoReply2,"Cela donne pause a l'Archicuree. 
 
-""Je prie pour que vous le retrouviez, et j'ai foi que la Providence guidera votre chemin. Si vous êtes contrecarre, j'accepterai les documents de votre enquete en échange d'une juste compensation.""
+""Je prie pour que vous le retrouviez, et j'ai foi que la Providence guidera votre chemin. Si vous êtes contrecarre, j'accepterai les documents de votre enquête en échange d'une juste compensation.""
 
 ""Et... si le pire devait advenir, je voudrais que son corps recoive une sepulture digne parmi les Chevaliers."" La vieille femme se degonfle un peu, vous le voyez, a cette pensee.",,
 lkeJaspisInfoAsk3reply,DialogOptionSelected,$option == lke_jaspisInfoReply3,RemoveOption lke_jaspisInfoReply3,"Elle pese ses mots en sirotant quelque chose - du the, supposez-vous.
 
-""Il est alle parmi les heretiques coléreux et mal guides de la soi-disant Voie de Ludd. Si ma comprehension de vos accomplissements est correcte, alors vous avez une idee pleine et juste de ce que vous pourriez affronter.""
+""Il est alle parmi les hérétiques coléreux et mal guides de la soi-disant Voie de Ludd. Si ma comprehension de vos accomplissements est correcte, alors vous avez une idee pleine et juste de ce que vous pourriez affronter.""
 
 ""La bataille. Dans le vide et sur la terre ferme, engagee par la ruse inique."" Elle hoche la tete. ""C'est ainsi qu'ils combattent. Je ne vous demanderais pas d'aller parmi eux si je ne pensais pas que vous etiez capable de contrer leur perversite.""",,
 lkeJaspisInfoAsk4reply,DialogOptionSelected,$option == lke_jaspisInfoReply4,FireAll PopulateOptions,,,
@@ -6169,7 +6169,7 @@ lkeJaspisStartHubOp5,LKEJaspisStartHub,"!$askedCotton
 $player.metBrotherCotton",,,"lke_jaspisStartCotton:""C'est au sujet du Frère Cotton ?""",
 lkeJaspisStartHisMission,DialogOptionSelected,$option == lke_jaspisStartHisMission,$askedHisMission = true 0,"""Mm,"" elle reflechit un instant avant de poursuivre. ""Il devait se faire passer pour un homme brise et perdu, cherchant une cause pour eclairer son chemin. Cela ne demanderait que peu de jeu de scene de la part de Jethro."" 
 
-""Il rejoindrait une branche particuliere de la Voie de Ludd et prouverait sa valeur par son aptitude et son charme pour se rapprocher des dirigeants les plus centraux. Il nous enverrait des informations, recevrait des ordres en retour, et accomplirait certains actes pour influencer les decisions des heretiques.""","lke_jaspisStartHisMission1:""Il agit comme votre espion.""
+""Il rejoindrait une branche particuliere de la Voie de Ludd et prouverait sa valeur par son aptitude et son charme pour se rapprocher des dirigeants les plus centraux. Il nous enverrait des informations, recevrait des ordres en retour, et accomplirait certains actes pour influencer les decisions des hérétiques.""","lke_jaspisStartHisMission1:""Il agit comme votre espion.""
 lke_jaspisStartHisMission2:""Est-il possible qu'il se soit retourné contre vous ?""",
 lkeJaspisStartHisMission1,DialogOptionSelected,$option == lke_jaspisStartHisMission1,FireAll LKEJaspisStartHub,"""Oui,"" dit l'Archicurée. ""C'est un homme bon, et si déterminé, qui prendrait sur lui ce lourd fardeau pour soulager la souffrance et combattre l'hérésie colérique.""",,
 lkeJaspisStartHisMission2,DialogOptionSelected,$option == lke_jaspisStartHisMission2,,"""Non,"" dit l'Archicurée sans hésitation. ""C'est un homme bon, et si déterminé.""","lke_jaspisStartHisMission3:""J'accepte votre vision de lui, mais vous devez considérer la possibilité.""
@@ -6195,7 +6195,7 @@ lkeJaspisStartBornanew4,DialogOptionSelected,$option == lke_jaspisStartBornanew4
 lkeJaspisStartBlood1,DialogOptionSelected,$option == lke_jaspisStartBlood1,"$saidBloodthirsty = true 0
 FireAll LKEJaspisStartHub","Son expression se durcit, multipliant les rides sur son visage. ""Cela, je ne puis le nier.""
 
-""Ces heretiques me tourmentent depuis plus d'annees que vous n'en avez vecu ; ils ont lu les paroles de Ludd a travers un verre, obscurement, et ils y ont vu une vision effrayante. Un cher compagnon de route, aujourd'hui disparu, a dit que c'était une vision que j'avais trop longtemps contemplee.""
+""Ces hérétiques me tourmentent depuis plus d'annees que vous n'en avez vecu ; ils ont lu les paroles de Ludd a travers un verre, obscurement, et ils y ont vu une vision effrayante. Un cher compagnon de route, aujourd'hui disparu, a dit que c'était une vision que j'avais trop longtemps contemplee.""
 
 Elle leve les mains, paumes vers le ciel, ""Dieu pesera mon ame,"" une main retombe. ""J'accepterai ce jugement.""",,
 lkeJaspisStartCotton,DialogOptionSelected,$option == lke_jaspisStartCotton,"$askedCotton = true 0
@@ -8548,7 +8548,7 @@ $saidStuff > 2
 $global.gatesActive",,,"lke_jethroAngels:""Attendez - c'était quoi cette histoire de 'chant des anges' ?""",
 LKEjethroAngels,DialogOptionSelected,$option == lke_jethroAngels,,"""Oh, euh."" Il vous regarde pour voir si vous posez vraiment cette question, maintenant. C'est le cas.
 
-""Il y a... des écrits autour de Ludd. Datant des premières disciplines, consignés plus tard. Ils ont tendance à être fortement, ah, corrigés en accord avec les décisions de l'Eglise conformément aux souhaits de Ludd. Ou ce que l'on en sait. D'autres, des copies non officielles, ont été créées par des escrocs et des hérétiques pour servir leurs propres machinations et cultes. Celles-là, les Chevaliers les purgent. Certaines sont conservées comme exemples. Pour l'enseignement ; la détection d'hérétiques.""
+""Il y a... des écrits autour de Ludd. Datant des premières disciplines, consignés plus tard. Ils ont tendance à être fortement, ah, corrigés en accord avec les décisions de l'Église conformément aux souhaits de Ludd. Ou ce que l'on en sait. D'autres, des copies non officielles, ont été créées par des escrocs et des hérétiques pour servir leurs propres machinations et cultes. Celles-là, les Chevaliers les purgent. Certaines sont conservées comme exemples. Pour l'enseignement ; la détection d'hérétiques.""
 
 Il secoue la tête, ""Bref. Le chant des anges.""",lke_jethroAngels2:Continuer,
 LKEjethroAngels2,DialogOptionSelected,$option == lke_jethroAngels2,FireAll LKEjethroAngelsTalk,"""Pour le dire crûment, dans certains récits, il est dit que Dieu a parlé au Prophète Ludd par... par un chant que seul Ludd pouvait entendre.""",,
@@ -13482,11 +13482,11 @@ AddText ""\""Merci ! Je vous en dois une.\""""
 FireAll PopulateOptions",,,
 dstr_sellFuelLuddic,DialogOptionSelected,"$option == dstrSell
 $faction.id == luddic_church","CallEvent $entity.ne_eventRef sellDistressFuel
-AddText ""\""Merci, et que la benediction de Ludd soit sur vous !\""""
+AddText ""\""Merci, et que la bénédiction de Ludd soit sur vous !\""""
 FireAll PopulateOptions",,,
 dstr_sellFuelTookCrew,DialogOptionSelected,"$option == dstrSell
 $entity.playerTookDistressCrewRecently","CallEvent $entity.ne_eventRef sellDistressFuel
-AddText ""\""Ne vous meprenez pas, on prend le carburant. Mais avoir pris une partie de mon equipage d'abord, c'etait un sale coup.\""""
+AddText ""\""Ne vous méprenez pas, on prend le carburant. Mais avoir pris une partie de mon équipage d'abord, c'était un sale coup.\""""
 $cutCommLinkPolite = false 0
 FireAll PopulateOptions",,,
 dstr_giveFuel,DialogOptionSelected,$option == dstrGive,"CallEvent $entity.ne_eventRef giveDistressFuel
@@ -13494,7 +13494,7 @@ AddText ""\""Merci ! Je n'oublierai pas, et je m'assurerai que d'autres sachent 
 FireAll PopulateOptions",,,
 dstr_giveFuelTookCrew,DialogOptionSelected,"$option == dstrGive
 $entity.playerTookDistressCrewRecently","CallEvent $entity.ne_eventRef giveDistressFuel
-AddText ""\""D'abord vous prenez une partie de mon equipage, puis vous me donnez du carburant gratuit ? Ca serait un sale coup si vous *vendiez* le carburant, mais vous le donnez gratuitement. J'ai pas honte de l'admettre, je ne comprends pas votre logique — mais... merci ? Je suppose ?\""""
+AddText ""\""D'abord vous prenez une partie de mon équipage, puis vous me donnez du carburant gratuit ? Ca serait un sale coup si vous *vendiez* le carburant, mais vous le donnez gratuitement. J'ai pas honte de l'admettre, je ne comprends pas votre logique — mais... merci ? Je suppose ?\""""
 $cutCommLinkPolite = false 0
 FireAll PopulateOptions",,,
 dstr_takeCrewNo,DialogOptionSelected,"$option == dstrCrew
@@ -17015,7 +17015,7 @@ FireAll GAFCAskLaicailleBar1Options","Vous posez des questions au sujet de l'aca
 ""Je suis désolé que vous ayez du mal à retrouver votre amie,"" dit un docker en pause, vêtu d'une sous-combinaison de vacsuit utilitaire. ""Je prierai pour vos retrouvailles.""",,
 gaFCAskLaicailleBar1Option1,GAFCAskLaicailleBar1Options,#$global.gaFC_hackedIsirahRelay,,,"gaFC_askLaicailleBarPather:""Attendez, vous êtes une sorte de Voilier ?""",
 gaFCAskLaicailleBar1Option2,GAFCAskLaicailleBar1Options,,,,backToBar:Revenir au bar,
-gaFCAskLaicailleBarPather,DialogOptionSelected,$option == gaFC_askLaicailleBarPather,,"L'expression du docker se ferme instantanément. ""Je ne suis pas un 'Voiliste', $playerSirOrMadam. Je suis les enseignements de l'Eglise de la Rédemption Galactique et je vous prierais de ne pas faire de suppositions pleines de préjugés. Nous ne sommes pas tous des fanatiques et des terroristes.""
+gaFCAskLaicailleBarPather,DialogOptionSelected,$option == gaFC_askLaicailleBarPather,,"L'expression du docker se ferme instantanément. ""Je ne suis pas un 'Voiliste', $playerSirOrMadam. Je suis les enseignements de l'Église de la Rédemption Galactique et je vous prierais de ne pas faire de suppositions pleines de préjugés. Nous ne sommes pas tous des fanatiques et des terroristes.""
 
 Il se lève, laissant une boisson intacte. ""Que les bénédictions de Ludd soient sur toutes les âmes, grandes et petites,"" dit-il, et s'éloigne d'un pas lourd.",backToBar:Revenir au bar,
 gaFCAskAroundLaicailleBarStartB,AddBarEvents,"$global.gaFC_searchIsirah
@@ -18894,7 +18894,7 @@ $option == marketVisitBar","unset $global.gaPZ_brotherCottonEncounter
 FireBest BarShuttleDownPrintDesc
 FireBest BarPrintDesc
 BarCMD playAmbience
-AddText ""Un travailleur de quart en combinaison utilitaire, quelques brulures et rapieces, s'approche du bar a cote de vous. Il ne croise jamais votre regard. \""Quelqu'un aimerait vous parler.\"" C'est presque un murmure ; difficile a distinguer \""Vous mettre sur le bon... chemin. Si vous voulez bien me suivre.\""""",,"gaPZ_cottonFollow:Follow
+AddText ""Un travailleur de quart en combinaison utilitaire, quelques brûlures et rapiécé, s'approche du bar a cote de vous. Il ne croise jamais votre regard. \""Quelqu'un aimerait vous parler.\"" C'est presque un murmure ; difficile a distinguer \""Vous mettre sur le bon... chemin. Si vous voulez bien me suivre.\""""",,"gaPZ_cottonFollow:Follow
 gaPZ_cottonNoFollow:Ne pas suivre",
 gaKA_cotton2,DialogOptionSelected,$option == gaPZ_cottonFollow,,"On vous conduit dans un endroit sombre derrière le bar.
 
@@ -19955,7 +19955,7 @@ gaATGluddicScan23,DialogOptionSelected,$option == gaATG_luddicScan23,"ShowDefaul
 EndConversation NO_CONTINUE","Le $rank Luddic tourne la tête et dit : ""Vous vous méprenez, le plaisir n'a rien à voir avec—""
 
 Vous coupez la communication avant que ce Luddic illuminé ne puisse vous faire davantage la leçon.",,
-gaATGluddicScan3,DialogOptionSelected,$option == gaATG_luddicScan3,,"Vous expliquez que vous avez beaucoup fait pour les Fidèles, et accompli de nombreuses oeuvres pour l'Eglise. Vous invitez le $rank Luddic à se renseigner auprès de son troupeau, ils en témoigneront, vous en êtes certain.
+gaATGluddicScan3,DialogOptionSelected,$option == gaATG_luddicScan3,,"Vous expliquez que vous avez beaucoup fait pour les Fidèles, et accompli de nombreuses oeuvres pour l'Église. Vous invitez le $rank Luddic à se renseigner auprès de son troupeau, ils en témoigneront, vous en êtes certain.
 
 La vigile ne peut être tenue en permanence, expliquez-vous, car les fidèles doivent sûrement dormir et s'occuper de préoccupations matérielles. Ludd n'était pas étranger à la souffrance et aux pauvres, Ludd a marché parmi les mondes et ressenti leur souffrance. Ludd n'a pas dit aux opprimés d'ignorer leurs besoins, malgré la misère du monde.","gaATG_luddicScan41:""Monter la garde depuis mon vaisseau amiral pendant que votre troupeau effectue des réparations à proximité.""",
 gaATGluddicScan31,DialogOptionSelected,$option == gaATG_luddicScan31,"SetTextHighlights 50
@@ -19978,7 +19978,7 @@ gaATGluddicScan41b,DialogOptionSelected,"$option == gaATG_luddicScan41
 $player.fcm_faction == luddic_church","SetTextHighlights 50
 FireBest GAATGluddicScanSupplyCheck","$HeOrShe hoche la tête tandis que vous parlez, et dit avec hésitation : ""J'admets que nos vaisseaux sont vieux et en mauvais état. Cela soulagerait beaucoup de souffrance si vous fournissiez 50 provisions... dans un esprit de charité, bien sûr. Et si, comme vous le dites, une vigile pouvait être maintenue pendant la courte période nécessaire à votre, euh, purification ?""
 
-Vous hochez la tête pieusement. En tant que militant commissionné de l'Eglise de la Rédemption Galactique, ces hérétiques (car c'est ce qu'ils sont) se méfient de votre autorité, mais sont plus confiants qu'ils ne le seraient avec un étranger lorsqu'il s'agit de traiter de questions religieuses délicates.","gaATG_luddicScan32:Fournir 50 provisions et procéder au scan
+Vous hochez la tête pieusement. En tant que militant commissionné de l'Église de la Rédemption Galactique, ces hérétiques (car c'est ce qu'ils sont) se méfient de votre autorité, mais sont plus confiants qu'ils ne le seraient avec un étranger lorsqu'il s'agit de traiter de questions religieuses délicates.","gaATG_luddicScan32:Fournir 50 provisions et procéder au scan
 gaATG_luddicScanHubReturn:Discuter d'autres options",
 gaATGluddicScan41c,DialogOptionSelected,"$option == gaATG_luddicScan41
 $player.mostLuddicEthosFaithful","SetTextHighlights 50
@@ -20246,7 +20246,7 @@ $global.canScanGates
 ""Il est absolument essentiel que nous obtenions l'approbation du Haut Hégémon Baikal Daud"", dit-elle, ""au moins secrètement, avant de commencer la phase d'expérimentation. Tout dépend de notre capacité à procéder sans interférence politique.""
 
 ""J'ai confiance en votre rapidité, capitaine"", conclut-elle, puis coupe la liaison comm sans vous laisser placer un mot.",cutCommLink:Couper la comm,
-gaATGtalkToBairdNeedDeal2,DialogOptionSelected,$option == gaATG_talkToBairdNeedDeal2,,"""C'est ce qui a toujours manque a cette academie - la volonté de depasser l'observation pour utiliser nos connaissances afin d'agir sur le monde. Obtenez-moi la cooperation de Daud, capitaine. Alors nous ecrirons l'histoire.""
+gaATGtalkToBairdNeedDeal2,DialogOptionSelected,$option == gaATG_talkToBairdNeedDeal2,,"""C'est ce qui a toujours manque a cette académie - la volonté de depasser l'observation pour utiliser nos connaissances afin d'agir sur le monde. Obtenez-moi la cooperation de Daud, capitaine. Alors nous ecrirons l'histoire.""
 
 La directrice coupe la communication sans vous laisser placer un mot.",cutCommLink:Couper la comm,
 "# Return to Baird with Daud Deal, but w/o 6 scans",,,,,,
@@ -20906,7 +20906,7 @@ $market.gaATG_findingLoke score:1000
 $setUpCottonMeeting","FireBest BarShuttleDownPrintDesc
 FireBest BarPrintDesc
 BarCMD playAmbience
-AddText ""La proprietaire croise votre regard en entrant dans le bar, pose un verre et s'approche nerveusement de vous.""
+AddText ""La propriétaire croise votre regard en entrant dans le bar, pose un verre et s'approche nerveusement de vous.""
 AddText ""\""Ecoutez-moi, je vous en prie,\"" dit-elle. \""Je n'ai rien a voir avec lui ou ses gens. Vous... on ne peut pas les refuser ici, capitaine.\""""
 AddText ""Elle jette un regard inconscient vers une table ou des gros bras portent l'uniforme d'une des guildes minieres. Ils vous observent tous les deux, de tres pres. \""L'arriere-salle. Il vous attend. Je... je n'ai rien vu aujourd'hui.\""""",,"gaATG_meetCottonStart2:Aller dans l'arrière-salle
 gaATG_meetCottonAvoid:Ne pas aller dans l'arrière-salle",
@@ -22927,7 +22927,7 @@ $gaBA_variation == PATHER",SetTextHighlights $gaBA_costNormal,"""C'est la Voie d
 Il frissonne visiblement et se ressaisit. ""Pardon, je, oui. Les détails."" Il prend une grande inspiration. ""D'accord. Donc le contact est $gaBA_contactName, $gaBA_onOrAt $gaBA_marketName dans le système $gaBA_systemName. L'Académie vous a alloué $gaBA_costNormal crédits pour effectuer l'achat. Parlez simplement au contact, organisez les détails, et rapportez le/la $gaBA_item à l'Académie de Galatia !""",gaBA_briefing2:Continuer,
 gaBAMissionTextPather2,DialogOptionSelected,"$option == gaBA_briefing2
 $gaBA_variation == PATHER","SetTextHighlights $gaBA_reward
-Call $global.gaBA_ref showMap ""Target: $gaBA_marketName""","""Et, et il y a une recompense de mission de $gaBA_reward credits. Juste,"" il se penche, l'air preoccupe, ""vous voudrez être très prudent. Les Pathers. J'ai... entendu des choses.""
+Call $global.gaBA_ref showMap ""Target: $gaBA_marketName""","""Et, et il y a une récompense de mission de $gaBA_reward credits. Juste,"" il se penche, l'air preoccupe, ""vous voudrez être très prudent. Les Pathers. J'ai... entendu des choses.""
 
 ""Vous allez vous en sortir, n'est-ce pas ?""","gaBA_accept:Accepter
 aseb_decline:Refuser",
@@ -23052,7 +23052,7 @@ $entity.raidGoBackTrigger = GABAPirateMainOptions 0
 $entity.raidContinueTrigger = GABARaidFinishedContinuePirate 0
 $entity.raidRestrictToTrigger = GABARaidFinishedPirate 0
 AddRaidObjective genericIcon ""Recover $gaBA_item from $gaBA_contactName"" MINIMAL 2000 GABARaidFinishedPirate true
-FireBest GABACheckHostilesNearbyPirate","""Oui, j'ai votre colis. De simples, ah, frais de decouverte de $gaBA_costHigh credits me permettront de le remettre entre vos mains.""","gaBA_acceptPirate:Accepter et payer $gaBA_costHigh crédits
+FireBest GABACheckHostilesNearbyPirate","""Oui, j'ai votre colis. De simples, ah, frais de découverte de $gaBA_costHigh credits me permettront de le remettre entre vos mains.""","gaBA_acceptPirate:Accepter et payer $gaBA_costHigh crédits
 gaBA_confrontPirate:""Ce n'était pas le marché."" (confronter)
 gaBA_bluffPirate:Négocier un montant inférieur
 gaBA_preRaidPirate:Garder $himOrHer en conversation pendant que vous envoyez un raid de marines
@@ -23215,7 +23215,7 @@ Le capitaine voiliste vous guide dans une prière Luddic classique, implorant le
 pwi2_accept1,DialogOptionSelected,$option == pwi2_accept1,"MakeOtherFleetNonHostile true
 MakeOtherFleetGoAway true
 AdjustRep $personFaction.id COOPERATIVE 1
-FireBest $entity.pwi2_missionFailTrigger","""La voie de la redemption est longue,"" vous dit enfin le capitaine Pather, ""Et ceci n'est que le premier pas de votre expiation. Que les benedictions de Ludd soient sur vous, voyageur des étoiles.""
+FireBest $entity.pwi2_missionFailTrigger","""La voie de la redemption est longue,"" vous dit enfin le capitaine Pather, ""Et ceci n'est que le premier pas de votre expiation. Que les bénédictions de Ludd soient sur vous, voyageur des étoiles.""
 
 Vous coupez la communication, levez les yeux au ciel, et reflechissez a votre prochain mouvement.",cutCommLinkNoText:Continuer,
 ,,,,,,
@@ -23261,7 +23261,7 @@ Vous coupez le canal, puis ignorez la notification sur votre TriPad sans la lire
 gaRRBlurbPirate,gaRR_blurb,$gaRR_variation == PIRATE,,"""Un académicien clé du $gaRR_department a été, euh, kidnappé pendant ses recherches par des pirates basés à $gaRR_marketName et, eh bien, nous avons besoin de quelqu'un pour le récupérer maintenant qu'une rançon a été négociée.""
 ",,
 gaRROfferOptionPirate,gaRR_option,$gaRR_variation == PIRATE,,,gaRR_start:Questionner sur le chercheur enlevé,
-gaRRBlurbChurch,gaRR_blurb,$gaRR_variation == CHURCH,,"""Un academicien cle du $gaRR_department a été, euh, emprisonne par l'Eglise de Ludd sur $gaRR_marketName pour avoir effectue... des recherches. Nous avons besoin de quelqu'un pour payer la, euh, dime afin qu'il soit libere.""",,
+gaRRBlurbChurch,gaRR_blurb,$gaRR_variation == CHURCH,,"""Un academicien cle du $gaRR_department a été, euh, emprisonne par l'Église de Ludd sur $gaRR_marketName pour avoir effectue... des recherches. Nous avons besoin de quelqu'un pour payer la, euh, dime afin qu'il soit libere.""",,
 gaRROfferOptionChurch,gaRR_option,$gaRR_variation == CHURCH,,,gaRR_start:Questionner sur le chercheur emprisonné,
 gaRRMissionTextPirate,DialogOptionSelected,"$option == gaRR_start
 $gaRR_variation == PIRATE",$missionId = gaRR,"""Euh, ce qui s'est passé, c'est que l'académicien $gaRR_researcherName du $gaRR_department était en mission de recherche en dehors des mondes du Noyau et a été... kidnappé par des pirates.""
@@ -23619,7 +23619,7 @@ gaIntro2surveyOpenAgain,PopulateOptions,"$global.gaIntro2found
 $gaIntro2startLater
 !$rejectedRetrieval",FireBest GAIntro2ReminderText,,gaIntro2_retrieval:Ordonner la récupération du noyau de données,
 gaIntro2surveyOpenAgainText,GAIntro2ReminderText,!$shownReminderText,"$shownReminderText = true 0
-AddText ""Votre officier des capteurs vous rappelle que vous avez precedemment decouvert un colis d'instruments de l'Academie Galatia en orbite autour de cette planete. Une transmission promet une recompense en credits pour son retour a l'academie.""",,,
+AddText ""Votre officier des capteurs vous rappelle que vous avez précédemment découvert un colis d'instruments de l'Academie Galatia en orbite autour de cette planete. Une transmission promet une récompense en credits pour son retour a l'académie.""",,,
 gaIntro2surveyOpenAgain2,PopulateOptions,"$global.gaIntro2found
 $gaIntro2startLater
 $rejectedRetrieval","ShowDefaultVisual
@@ -23628,7 +23628,7 @@ FireBest PrintHasSurveyDataTextIfSo
 FireBest OtherPlanetInteractionText
 FireAll PopulateOptions
 FireBest PrintNearbySurveyHostilesTextIfSo
-AddText ""Un colis d'instruments en orbite autour de cette planete emet une faible transmission promettant une recompense en credits pour son retour a l'Academie Galatia.""",,gaIntro2_retrieval2:Ordonner la récupération du noyau de données,# in case you want to immediately change your mind
+AddText ""Un colis d'instruments en orbite autour de cette planete emet une faible transmission promettant une récompense en credits pour son retour a l'Academie Galatia.""",,gaIntro2_retrieval2:Ordonner la récupération du noyau de données,# in case you want to immediately change your mind
 gaIntro2start2,DialogOptionSelected,$option == gaIntro2_start2,"Highlight ""Galatia Academy"" ""18,000""","Votre officier aux senseurs active la sortie audio : une boucle brouillée, oscillant entre cohérence et chaos. Une voix enregistrée ?
 
 ""L'émetteur doit être endommagé. Mais avec un peu de travail"", une pointe de fierté entre dans sa voix, ""Voilà.""
@@ -23714,7 +23714,7 @@ Call $global.gaIntro2_ref updateStage
 FireAll PopulateOptions
 AddText ""\""Bon, ou en etions-nous...\"" dit Elek.""","Vous le feriez, et vous le faites.
 
-L'Academicien Elek autorise le versement des credits de recompense en votre faveur, par le bureau du tresorier, avec une rapidite surprenante.",,
+L'Academicien Elek autorise le versement des credits de récompense en votre faveur, par le bureau du tresorier, avec une rapidite surprenante.",,
 ,,,,,,
 ,,,,,,
 # case 2: have met Sebestyen,,,,,,
@@ -23763,7 +23763,7 @@ Sebestyen semble un peu surpris lui-même par cette auto-évaluation et, s'arman
 gaIntro2returnSeb7,DialogOptionSelected,$option == gaIntro2_returnSeb7,"AddCredits $gaIntro2_credits
 SetTextHighlights $gaIntro2_credits
 $option = contact_pickAnotherGreeting 0
-FireBest DialogOptionSelected","""Euh."" Sebestyen vire a un nouveau ton de rouge. ""Bien sur je ne, euh, je n'utiliserais pas un mot aussi fort en ce qui concerne... et si on parlait de cette recompense pour la recuperation du noyau de donnees ? $gaIntro2_credits credits, n'est-ce pas ?""
+FireBest DialogOptionSelected","""Euh."" Sebestyen vire a un nouveau ton de rouge. ""Bien sur je ne, euh, je n'utiliserais pas un mot aussi fort en ce qui concerne... et si on parlait de cette récompense pour la recuperation du noyau de donnees ? $gaIntro2_credits credits, n'est-ce pas ?""
 
 Il commence a tapoter desesperement sur son interface.","# > ""Want me to kill him for you?""",
 ,,,,,,
@@ -25598,7 +25598,7 @@ CBPather2LuddicChurch,CBPatherOfferDesc,$personFaction.id == luddic_church,Highl
 
 ""Un de nos... anciens chevaliers a rompu ses voeux pour rejoindre une secte de la soi-disant Voie de Ludd. Un hérétique a récemment confessé, confirmant nos renseignements sur le traître. Il se cache dans le système $bcb_systemName, à $bcb_dist années-lumière d'ici.""
 
-""L'Eglise a accordé une indulgence pour cette exécution en considération des crimes odieux et des actes hérétiques commis au nom du prophète. Une compensation de $bcb_reward crédits est également offerte. La mission devrait être accomplie dans les $bcb_days jours. Acceptez-vous ?""",,
+""L'Église a accordé une indulgence pour cette exécution en considération des crimes odieux et des actes hérétiques commis au nom du prophète. Une compensation de $bcb_reward crédits est également offerte. La mission devrait être accomplie dans les $bcb_days jours. Acceptez-vous ?""",,
 CBDeserter,CBDeserterOfferDesc,,Highlight $bcb_dist $bcb_reward $bcb_days,"""J'aurais pris cette mission moi-même si j'avais une flotte de guerre à commander,"" $heOrShe fait une grimace comme si $heOrShe avait mordu dans quelque chose d'amer. ""$bcb_targetName est un traître, un déserteur de $thePersonFaction. Il faut faire un exemple. Nous savons que $bcb_targetHeOrShe se cache dans le système $bcb_systemName, à $bcb_dist années-lumière d'ici.""
 
 ""La récompense est de $bcb_reward crédits et il faudrait que ce soit fait dans les $bcb_days jours. Vous êtes partant ?""",,
@@ -26322,19 +26322,19 @@ LOCRLcontact0,DialogOptionSelected,$option == locrl_contact0,"BeginConversation 
 $option = locrl_contact1 0
 FireBest DialogOptionSelected",,,
 LOCRLcontact1,DialogOptionSelected,$option == locrl_contact1,"$entity.locrl_contacted = true
-FireAll LOCRLhub","""-llo ? Oh, oh bénédictions de Ludd ! Providence soit louée, vous nous recevez ! Nous sommes une communauté de, de fidèles colons qui avons été... égarés loin de la véritable Eglise de la Rédemption Galactique.""
+FireAll LOCRLhub","""-llo ? Oh, oh bénédictions de Ludd ! Providence soit louée, vous nous recevez ! Nous sommes une communauté de, de fidèles colons qui avons été... égarés loin de la véritable Église de la Rédemption Galactique.""
 
-$HeOrShe joint les mains. ""Nous souhaitons à présent nous repentir, et revenir, et implorer le pardon de la sainte Eglise.""",,
+$HeOrShe joint les mains. ""Nous souhaitons à présent nous repentir, et revenir, et implorer le pardon de la sainte Église.""",,
 LOCRLcontact1again,DialogOptionSelected,"$option == locrl_contact1
 $entity.locrl_contacted",FireAll LOCRLhub,"Dans un grésillement, les communications se synchronisent en une connexion fonctionnelle.
 
 ""Bénédiction de Ludd, vous êtes revenu !"" $PersonRank $personLastName joint les mains en signe de gratitude.
 
-""Cette pénitence que nous endurons est rude et affamante, $playerSirOrMadam. Nous vous en supplions, auriez-vous la charité de nous transporter vers un monde de l'Eglise afin que nous puissions nous repentir de notre hérésie ?""",,
+""Cette pénitence que nous endurons est rude et affamante, $playerSirOrMadam. Nous vous en supplions, auriez-vous la charité de nous transporter vers un monde de l'Église afin que nous puissions nous repentir de notre hérésie ?""",,
 LOCRLFmissionFound,LOCRLhub,"$global.locrlf_inProgress
 !$didLOCRLFmissionAcknowledgement","$global.locrlf_foundHeretics = true
 $didLOCRLFmissionAcknowledgement = true
-AddText ""Il semble que vous ayez trouve les heretiques perdus de l'Eglise.""
+AddText ""Il semble que vous ayez trouve les hérétiques perdus de l'Église.""
 Call $global.locrlf_ref updateStage",,,
 LOCRLFmissionFoundOpt,LOCRLhub,"$global.locrlf_inProgress
 !$saidLookingFor",,,"locrlf_sayLookingFor:""Un agent de l'Église m'a engagé pour vous trouver.""",
@@ -26419,7 +26419,7 @@ FireAll LOCRLjudgeAddTooltips","""Alors nous l'avons suivi, quelques centaines d
 LOCRLFsayLookingFor,DialogOptionSelected,$option == locrlf_sayLookingFor,"$saidLookingFor = true
 $askedWhatDoing = true
 FireAll LOCRLjudgerOptions
-FireAll LOCRLjudgeAddTooltips","""Oh, je... je vois."" Son expression oscille entre soulagement et inquiétude. ""L'Eglise, ils- nous sommes repentants ! Je le jure, même avant votre arrivée.""
+FireAll LOCRLjudgeAddTooltips","""Oh, je... je vois."" Son expression oscille entre soulagement et inquiétude. ""L'Église, ils- nous sommes repentants ! Je le jure, même avant votre arrivée.""
 
 ""Le faux prophète qui, qui nous a séduits - ses proclamations sont devenues bizarres. Déraisonnables. Impies. Il entrait dans des colères noires à la moindre question, affirmant que les anges le lui ordonnaient, et puis. Hum.""
 
@@ -26457,7 +26457,7 @@ FireAll LOCRLhub","""L'orgueil !"" Le mot jaillit de $PersonRank $personLastName
 
 ""C'est l'orgueil qui nous a aveuglés. Une fausse révélation nous a fait croire supérieurs aux autres, bénis d'un savoir spécial. Si seulement nous avions gardé la vraie foi...""
 
-$HeOrShe secoue la tête. ""Nous avons été punis pour nous être éloignés de l'Eglise et cherchons maintenant à nous repentir.""",,
+$HeOrShe secoue la tête. ""Nous avons été punis pour nous être éloignés de l'Église et cherchons maintenant à nous repentir.""",,
 LOCRLjudgeResponseF,DialogOptionSelected,$option == locrl_judgeOptF,"$player.ethosRuthless++
 FireAll LOCRLhub","$PersonRank $personLastName a l'air horrifié. ""Nous ne sommes pas... non... c'était un accident ! Un terrible accident, rien de plus.""
 
@@ -26496,7 +26496,7 @@ LOCRLFbringNews1respB,DialogOptionSelected,$option == locrlf_bringNewsRespB,Fire
 LOCRLFbringNews1respC,DialogOptionSelected,$option == locrlf_bringNewsRespC,FireAll LOCRLhub,"$HeOrShe s'incline en signe d'acceptation, gêné que vous ayez percé ses intentions si facilement.",,
 LOCRLsayPather,DialogOptionSelected,$option == locrl_sayPather,,"""La..."" $heOrShe hésite avant de prononcer les mots. ""La Voie.""
 
-""Vous représentez la Voie de Ludd ?"" $heOrShe cligne des yeux, se frottant les yeux. ""Ils ont une... solide réputation. Malgré ce que dit l'Eglise, il semble que la Voie soit partout.""
+""Vous représentez la Voie de Ludd ?"" $heOrShe cligne des yeux, se frottant les yeux. ""Ils ont une... solide réputation. Malgré ce que dit l'Église, il semble que la Voie soit partout.""
 
 ""Hum,"" $PersonRank $personLastName vous regarde nerveusement. ""Est-ce que je comprends bien votre... offre ?""","locrl_sayPatherYes:""Oui, je vous mènerai à la Voie. Là, vous découvrirez la vraie foi.""
 locrl_sayPatherNo:""Non, nous discutons juste de foi. Juste des mots.""",
@@ -26514,7 +26514,7 @@ FireAll LOCRLhub","Vous expliquez que bien que vous ne déteniez aucun pouvoir s
 Yes,"" dit-$heOrShe en vous regardant avec espoir. ""Nous cherchons à nous repentir, et à garder la vraie foi.""",,
 LOCRLsayChurchCom,DialogOptionSelected,$option == locrl_sayChurchCom,"$saidStrayedFromChurch = true
 $committedToChurchTransport = true
-FireAll LOCRLhub","Vous expliquez que vous êtes mandaté par l'Eglise de la Rédemption Galactique, et bien que les pouvoirs qui vous sont conférés soient de nature temporelle, peut-être - à condition que les anciens hérétiques agissent de bonne foi - pourriez-vous garantir une issue vertueuse.
+FireAll LOCRLhub","Vous expliquez que vous êtes mandaté par l'Église de la Rédemption Galactique, et bien que les pouvoirs qui vous sont conférés soient de nature temporelle, peut-être - à condition que les anciens hérétiques agissent de bonne foi - pourriez-vous garantir une issue vertueuse.
 
 Yes,"" dit-$heOrShe en vous regardant avec espoir. ""Nous cherchons à nous repentir, et à rester fidèles à la vraie foi.""",,
 #LOCRLsayAtheist,DialogOptionSelected,$option == locrl_sayAtheist,,"""Je ne vois pas... quel rapport avec nous. J'admets, nous admettons tous que nous avions tort. Nous cherchons la repentance.",,
@@ -26560,7 +26560,7 @@ EndConversation NO_CONTINUE","""Bénédictions de Ludd sur vous, $playerSirOrMad
 
 Les opérations coordonnent les navettes avec les hérétiques à la surface d'un ton bourru. C'est un groupe maigre et abattu, presque affamé malgré le paysage luxuriant de $entity.name, en raison du manque de préparation de leur ancien prophète.
 
-A tout le moins, peut-être que l'Eglise appréciera le retour d'un troupeau égaré.",,
+A tout le moins, peut-être que l'Église appréciera le retour d'un troupeau égaré.",,
 LOCRLofferTransportChurch,DialogOptionSelected,$option == locrl_offerTransportChurch,"$player.ethosMercy++
 AdjustRepPerson locr_luddic_contact FRIENDLY 20
 $player.locr_luddicsToChurch = true
@@ -26570,7 +26570,7 @@ EndConversation NO_CONTINUE","""Bénédictions de Ludd sur vous, $playerSirOrMad
 
 Vous chargez vos officiers d'organiser les modalités, en coordination avec les hérétiques à la surface. C'est un groupe maigre et abattu, presque affamé malgré le paysage luxuriant de $entity.name, en raison du manque de préparation de leur ancien prophète.
 
-L'Eglise accueillera sûrement ces réfugiés, avec miséricorde et amour, à condition qu'ils se repentent.",,
+L'Église accueillera sûrement ces réfugiés, avec miséricorde et amour, à condition qu'ils se repentent.",,
 #LOCRLofferTransportKnights,DialogOptionSelected,$option == locrl_offerTransportKnights,"$player.ethosOrder++
 AdjustRepPerson locr_luddic_contact FRIENDLY 10
 $player.locr_luddicsToKnights = true
@@ -26605,7 +26605,7 @@ LOCRLoffloadToChurch,MarketPostDock,"$player.locr_luddicsToChurch
 $marketSize > 3
 $faction.id == luddic_church
 $player.crew > 198
-!$market.locrlf_market","Highlight ""suitable for offloading the Luddic heretics""","Vous êtes arrive a une colonie controlee par l'Eglise de la Redemption Galactique, adaptee au débarquement des heretiques Luddic que vous avez secourus depuis les confins.","locrl_offloadHeretics2:Transporter les hérétiques secourus par navette vers $name
+!$market.locrlf_market","Highlight ""suitable for offloading the Luddic heretics""","Vous êtes arrive a une colonie controlee par l'Église de la Redemption Galactique, adaptee au débarquement des hérétiques Luddic que vous avez secourus depuis les confins.","locrl_offloadHeretics2:Transporter les hérétiques secourus par navette vers $name
 locrl_offloadNotYet:Pas encore",# assume player is faithful/church com
 LOCRLoffloadToChurch2,DialogOptionSelected,$option == locrl_offloadHeretics2,"AddCommodity crew -198
 AddXP 5000
@@ -26621,7 +26621,7 @@ LOCRLoffloadToChurchSecular,MarketPostDock,"$player.locr_luddicsOnBoard
 $marketSize > 3
 $faction.id == luddic_church
 $player.crew > 198
-!$market.locrlf_market","Highlight ""suitable for offloading the Luddic heretics""","Vous êtes arrive a une colonie controlee par l'Eglise de la Redemption Galactique, adaptee au débarquement des heretiques Luddic que vous avez secourus depuis les confins.","locrl_offloadLuddics2:Transporter les luddiques secourus par navette vers $name
+!$market.locrlf_market","Highlight ""suitable for offloading the Luddic heretics""","Vous êtes arrive a une colonie controlee par l'Église de la Redemption Galactique, adaptee au débarquement des hérétiques Luddic que vous avez secourus depuis les confins.","locrl_offloadLuddics2:Transporter les luddiques secourus par navette vers $name
 locrl_offloadNotYet:Pas encore",# assume player is NOT faithful/church com
 LOCRLoffloadToChurchSecular2,DialogOptionSelected,$option == locrl_offloadLuddics2,"AddCommodity crew -198
 AddXP 5000
@@ -26630,14 +26630,14 @@ AdjustRep luddic_church FRIENDLY 1
 $menuState = main 0
 FireAll PopulateOptions","Comme promis, vous autorisez les hérétiques égarés à débarquer. Leurs navettes sont accueillies par un curé serein flanqué de deux Chevaliers de Ludd au visage sévère. Le curé accueille les réfugiés tandis qu'ils s'inclinent, mains jointes, ou tombent à genoux en signe de repentance.
 
-Bien que l'Eglise montre aujourd'hui un visage de réconciliation, les Chevaliers-Inquisiteurs viendront sûrement plus tard pour un examen complet de leurs péchés.",,
+Bien que l'Église montre aujourd'hui un visage de réconciliation, les Chevaliers-Inquisiteurs viendront sûrement plus tard pour un examen complet de leurs péchés.",,
 LOCRLoffloadNotYet,DialogOptionSelected,$option == locrl_offloadNotYet,"$menuState = main 0
 FireAll PopulateOptions",,,
 LOCRLoffloadToPathMarket,MarketPostDock,"$player.locr_luddicsToPath 
 $marketSize > 3
 $faction.id == luddic_path
 $player.crew > 198
-!$market.locrlf_market","Highlight ""suitable for offloading the Luddic heretics""","Vous êtes arrive a une colonie controlee par la Voie de Ludd, adaptee au débarquement des heretiques que vous avez secourus depuis les confins.","locrl_offloadHereticsToPath0:Transporter les hérétiques secourus par navette vers $name
+!$market.locrlf_market","Highlight ""suitable for offloading the Luddic heretics""","Vous êtes arrive a une colonie controlee par la Voie de Ludd, adaptee au débarquement des hérétiques que vous avez secourus depuis les confins.","locrl_offloadHereticsToPath0:Transporter les hérétiques secourus par navette vers $name
 locrl_offloadNotYet:Pas encore",
 LOCRLoffloadToPathMarket2,DialogOptionSelected,$option == locrl_offloadHereticsToPath0,BeginConversation POST:administrator,"L'organisme quelque peu atypique qui fait office d'autorité portuaire a quelques questions pointues tandis que vous organisez le débarquement de près de deux cents hérétiques venus des confins.
 
@@ -26647,7 +26647,7 @@ $player.locr_luddicsToPath
 $personFaction.id == luddic_path",,,locrl_hereticsToPath:Se renseigner sur le débarquement d'une communauté d'hérétiques luddiques,
 LOCRLoffloadToPath1,DialogOptionSelected,$option == locrl_hereticsToPath,,"""Des hérétiques ?"" $Post $personLastName se redresse tandis que vous expliquez, animé par le défi de ramener davantage de Fidèles sur la véritable Voie de Ludd.
 
-""Ils ont été tellement égarés,"" dit-$heOrShe en secouant la tête, ""D'abord par la corruption et la faiblesse de l'Eglise, puis par les élucubrations démoniaques d'un fou.""
+""Ils ont été tellement égarés,"" dit-$heOrShe en secouant la tête, ""D'abord par la corruption et la faiblesse de l'Église, puis par les élucubrations démoniaques d'un fou.""
 
 ""Vous avez bien fait, $playerBrotherOrSister, de nous les amener. Leurs premiers pas sur la Voie seront douloureux, mais nous serons à leurs côtés pour les guider et leur apporter la force spirituelle.""","locrl_hereticsToPath2harsh:""Je les ferai charger sur des navettes immédiatement.""
 locrl_hereticsToPather2mercy:""Faites preuve de miséricorde, $brotherOrSister. Ils étaient bien intentionnés mais égarés.""",
@@ -26691,7 +26691,7 @@ EndConversation","L'affaire se reduit a une simple question de logistique, que v
 ,,,,,,
 # LOCRLF - find the heretics,,,,,,# Wherein the Church pays someone to pay the player to find out what happened to the heretics
 # LOCRLF bar offer,,,,,,
-locrlfBlurb,locrlf_blurb,,,"""Un archicure de l'Eglise m'a approche. Il semblerait qu'ils aient besoin des services d'un capitaine spatial ayant l'experience des voyages hors des mondes centraux...""",,
+locrlfBlurb,locrlf_blurb,,,"""Un archicure de l'Église m'a approche. Il semblerait qu'ils aient besoin des services d'un capitaine spatial ayant l'experience des voyages hors des mondes centraux...""",,
 locrlfOfferOption,locrlf_option,,,,"locrlf_start:""Que doit faire l'Église en dehors des mondes centraux ?""",
 locrlfBlurbBar,locrlf_blurbBar,,,Un $locrlf_manOrWoman semble examiner les capitaines spatiaux arrivants et prendre des notes sur un TriPad mal dissimule dans une echarpe tissee a la main.,,
 locrlfOfferOptionBar,locrlf_optionBar,,,,locrlf_startBar:Demander si l'$locrlf_manOrWoman qui essaie de prendre des notes secrètes a besoin d'aide,
@@ -26701,9 +26701,9 @@ SetTooltip locrlf_offerBarCynicalRewardAsk ""You're cynical enough to see throug
 FireBest LOCRLFOfferTextBarRemoveCynical
 Call $locrlf_ref showMap ""Target: $locrlf_marketName""","""Oh !"" $locrlf_HeOrShe sursaute légèrement en vous entendant. ""Encore vous. Avez-vous reconsidéré ?""
 
-$locrlf_HeOrShe baisse la voix. ""C'est une affaire délicate, bien entendu. Cet archicuré veut retrouver ce troupeau égaré d'hérétiques, et pour une raison quelconque ne fait pas appel aux Chevaliers-Inquisiteurs."" $locrlf_HeOrShe soupire. ""Ce n'est pas à moi de spéculer sur les affaires de l'Eglise, bien sûr.""
+$locrlf_HeOrShe baisse la voix. ""C'est une affaire délicate, bien entendu. Cet archicuré veut retrouver ce troupeau égaré d'hérétiques, et pour une raison quelconque ne fait pas appel aux Chevaliers-Inquisiteurs."" $locrlf_HeOrShe soupire. ""Ce n'est pas à moi de spéculer sur les affaires de l'Église, bien sûr.""
 
-""Quoi qu'il en soit, les hérétiques ont acheté un transport et sont partis vers les confins. Ils ont été vus pour la dernière fois par un récupérateur qui a signalé l'observation à... enfin, à l'un des Fidèles, en tout cas. Si vous les trouvez et revenez me voir avec des données concluantes sur ce qu'il est advenu d'eux, je vous donnerai la récompense de l'Eglise de $locrlf_rewardAmount crédits.""","locrlf_offerBarCynicalRewardAsk:""L'Église vous donne plus de $locrlf_rewardAmount crédits pour ce travail, n'est-ce pas.""
+""Quoi qu'il en soit, les hérétiques ont acheté un transport et sont partis vers les confins. Ils ont été vus pour la dernière fois par un récupérateur qui a signalé l'observation à... enfin, à l'un des Fidèles, en tout cas. Si vous les trouvez et revenez me voir avec des données concluantes sur ce qu'il est advenu d'eux, je vous donnerai la récompense de l'Église de $locrlf_rewardAmount crédits.""","locrlf_offerBarCynicalRewardAsk:""L'Église vous donne plus de $locrlf_rewardAmount crédits pour ce travail, n'est-ce pas.""
 locrlf_offerBarAcceptFirst:Accepter
 contact_declineBar:Refuser",
 locrlfOfferTextBarAgainB,DialogOptionSelected,"$option == locrlf_startBar
@@ -26711,9 +26711,9 @@ $player.locrlf_negotiatedHigherRate
 $player.locrlf_gotBarBlurb","$missionId = locrlf
 Highlight $locrlf_rewardAmountHigher","""Oh !"" $locrlf_HeOrShe sursaute légèrement en vous entendant. ""Encore vous. Avez-vous reconsidéré ?""
 
-$locrlf_HeOrShe baisse la voix. ""C'est une affaire délicate, bien entendu. Cet archicuré veut retrouver ce troupeau égaré d'hérétiques, et pour une raison quelconque ne fait pas appel aux Chevaliers-Inquisiteurs."" $locrlf_HeOrShe soupire. ""Ce n'est pas à moi de spéculer sur les affaires de l'Eglise, bien sûr.""
+$locrlf_HeOrShe baisse la voix. ""C'est une affaire délicate, bien entendu. Cet archicuré veut retrouver ce troupeau égaré d'hérétiques, et pour une raison quelconque ne fait pas appel aux Chevaliers-Inquisiteurs."" $locrlf_HeOrShe soupire. ""Ce n'est pas à moi de spéculer sur les affaires de l'Église, bien sûr.""
 
-""Quoi qu'il en soit, les hérétiques ont acheté un transport et sont partis vers les confins. Ils ont été vus pour la dernière fois par un récupérateur qui a signalé l'observation à... enfin, à l'un des Fidèles, en tout cas. Si vous les trouvez et revenez me voir avec des données concluantes sur ce qu'il est advenu d'eux, je vous donnerai la récompense de l'Eglise de $locrlf_rewardAmountHigher crédits.""","locrlf_offerBarAcceptFirst:Accepter
+""Quoi qu'il en soit, les hérétiques ont acheté un transport et sont partis vers les confins. Ils ont été vus pour la dernière fois par un récupérateur qui a signalé l'observation à... enfin, à l'un des Fidèles, en tout cas. Si vous les trouvez et revenez me voir avec des données concluantes sur ce qu'il est advenu d'eux, je vous donnerai la récompense de l'Église de $locrlf_rewardAmountHigher crédits.""","locrlf_offerBarAcceptFirst:Accepter
 contact_declineBar:Refuser",
 locrlfOfferTextBar,DialogOptionSelected,$option == locrlf_startBar,"$missionId = locrlf
 $player.locrlf_gotBarBlurb = true","""Oh !"" $locrlf_HeOrShe sursaute légèrement en vous entendant, puis vous dévisage de haut en bas. ""Oui, vous m'avez l'air tout à fait approprié.""
@@ -26728,7 +26728,7 @@ Call $locrlf_ref showMap ""Target: $locrlf_systemName""","""Ces hérétiques ont
 
 $locrlf_HeOrShe révèle son datapad bon marché.
 
-""Voulez-vous les retrouver ? Pour l'Eglise ? Découvrir ce qu'il est advenu d'eux. Rapportez-moi des nouvelles, et ensuite je ferai mon rapport à, à l'archicuré. On m'a fourni des fonds pour l'opération, $locrlf_rewardAmount crédits. Ils sont à vous une fois que vous me rapporterez des données concluantes sur le sort des hérétiques.""","locrlf_offerBarCynicalRewardAsk:""L'Église vous donne plus de $locrlf_rewardAmount crédits pour ce travail, n'est-ce pas.""
+""Voulez-vous les retrouver ? Pour l'Église ? Découvrir ce qu'il est advenu d'eux. Rapportez-moi des nouvelles, et ensuite je ferai mon rapport à, à l'archicuré. On m'a fourni des fonds pour l'opération, $locrlf_rewardAmount crédits. Ils sont à vous une fois que vous me rapporterez des données concluantes sur le sort des hérétiques.""","locrlf_offerBarCynicalRewardAsk:""L'Église vous donne plus de $locrlf_rewardAmount crédits pour ce travail, n'est-ce pas.""
 locrlf_offerBarAcceptFirst:Accepter
 contact_declineBar:Refuser",
 locrlfOfferTextBarRemoveCynical,LOCRLFOfferTextBarRemoveCynical,$player.luddicAttitudeCynical < 1,RemoveOption locrlf_offerBarCynicalRewardAsk,,,
@@ -26745,17 +26745,17 @@ $locrlf_HeOrShe tapote impatiemment la main sur le comptoir.
 ""C'est tout aussi bien, alors. Vous avez fait valoir votre point de vue. Mettons le paiement à $locrlf_rewardAmountHigher crédits, si c'est ce qu'il faut.""",,
 locrlfOfferBarAcceptFirst,DialogOptionSelected,$option == locrlf_offerBarAcceptFirst,"Call $locrlf_ref addPersonToMarket
 $option = contact_acceptBar
-FireBest DialogOptionSelected","$locrlf_personName vous donne les coordonnees de navigation vers $locrlf_systemName, $locrlf_hisOrHer identifiant de communication, et l'identifiant de coque du transport des heretiques, le 'CGR lumière de l'Exultation'.",,
+FireBest DialogOptionSelected","$locrlf_personName vous donne les coordonnees de navigation vers $locrlf_systemName, $locrlf_hisOrHer identifiant de communication, et l'identifiant de coque du transport des hérétiques, le 'CGR lumière de l'Exultation'.",,
 # LOCRLF contact offer,,,,,,
 locrlfOfferTextContact,DialogOptionSelected,$option == locrlf_start,$missionId = locrlf,"""Comme je l'ai dit, j'ai été approché par un archicuré. Je ne les nommerai pas, à leur demande, mais il m'a été fait savoir qu'un troupeau de croyants a été égaré par un faux prophète autoproclamé et hérétique.""
 
-""Je sais,"" $heOrShe soupire. ""Moi aussi j'aurais imaginé que ce serait du ressort des Chevaliers de Ludd, et j'aurais été ravi de laisser leurs inquisiteurs traiter les hérétiques comme ils en ont l'habitude. Mais pour une raison quelconque, l'Eglise veut gérer cela par elle-même et ce n'est pas à moi de spéculer sur les raisons.""",locrlf_startContact2:Continuer,
+""Je sais,"" $heOrShe soupire. ""Moi aussi j'aurais imaginé que ce serait du ressort des Chevaliers de Ludd, et j'aurais été ravi de laisser leurs inquisiteurs traiter les hérétiques comme ils en ont l'habitude. Mais pour une raison quelconque, l'Église veut gérer cela par elle-même et ce n'est pas à moi de spéculer sur les raisons.""",locrlf_startContact2:Continuer,
 locrlfOfferTextContact2,DialogOptionSelected,$option == locrlf_startContact2,"Highlight $locrlf_rewardAmount
 SetTooltip locrlf_offerCynicalRewardAsk ""You're cynical enough to see through the performance of piety these so-called 'Faithful' put on. In the end, all that matters are credits and power.""
 FireBest LOCRLFOfferTextRemoveCynical
 Call $locrlf_ref showMap ""Target: $locrlf_systemName""","""Ces faux-croyants, ces hérétiques, ont mis leur argent en commun et acheté un vieux transport, puis sont partis vers un système en marge pour 'repartir de zéro', peu importe ce que ça veut dire. Peut-être qu'ils sont tous morts - pardonnez-moi, ou avec Ludd pour tout ce que j'en sais. Néanmoins, un récupérateur non-croyant est le dernier à les avoir repérés en route vers un système en particulier.""
 
-""Voulez-vous les retrouver ? Pour l'Eglise ?""
+""Voulez-vous les retrouver ? Pour l'Église ?""
 
 ""Découvrez ce qu'il est advenu d'eux. Rapportez-moi des nouvelles, et ensuite je ferai mon rapport à l'archicuré. On m'a fourni des fonds pour l'opération, $locrlf_rewardAmount crédits. Ils sont à vous une fois que vous me rapporterez des nouvelles des hérétiques.""","locrlf_offerCynicalRewardAsk:""L'Église vous donne plus de $locrlf_rewardAmount crédits pour ce travail, n'est-ce pas.""
 locrlf_offerAcceptFirstContact:Accepter
@@ -26771,9 +26771,9 @@ RemoveOption locrlf_offerBarCynicalRewardAsk","Une vague de culpabilité, vite r
 
 $HeOrShe tapote impatiemment ses doigts sur son communicateur. ""Mais oui, c'est tout aussi bien. Vous avez fait valoir votre point de vue, capitaine. Mettons le paiement à $locrlf_rewardAmountHigher crédits, si c'est ce qu'il faut.""",,
 locrlfOfferAcceptFirst,DialogOptionSelected,$option == locrlf_offerAcceptFirst,"$option = contact_acceptBar
-FireBest DialogOptionSelected","$HeOrShe vous donne les coordonnees de navigation de $locrlf_systemName et l'identifiant de coque du transport des heretiques, le 'CGR lumière de l'Exultation'.",,
+FireBest DialogOptionSelected","$HeOrShe vous donne les coordonnees de navigation de $locrlf_systemName et l'identifiant de coque du transport des hérétiques, le 'CGR lumière de l'Exultation'.",,
 locrlfOfferAcceptFirstContact,DialogOptionSelected,$option == locrlf_offerAcceptFirstContact,"$option = contact_accept
-FireBest DialogOptionSelected","$HeOrShe vous donne les coordonnees de navigation de $locrlf_systemName et l'identifiant de coque du transport des heretiques, le 'CGR lumière de l'Exultation'.",,
+FireBest DialogOptionSelected","$HeOrShe vous donne les coordonnees de navigation de $locrlf_systemName et l'identifiant de coque du transport des hérétiques, le 'CGR lumière de l'Exultation'.",,
 # LOCRLF return (to person directly),,,,,,
 locrlfReturnContact,PopulateOptions,"$locrlf_return
 Call $global.locrlf_ref updateData",,,"locrlf_return1:""J'ai trouvé les hérétiques disparus.""",
@@ -26782,16 +26782,16 @@ Call $global.locrlf_ref updateData",,,"locrlf_return1lie:""J'ai trouvé les hér
 locrlfReturnStartLie,DialogOptionSelected,$option == locrlf_return1lie,"$player.ethosLiar++
 $player.locrlf_liedAboutFateOfHeretics = true","$HeOrShe hoche la tête tandis que vous expliquez comment vous avez trouvé les hérétiques morts dans leur 'terre promise', égarés et menés à leur perte, sinon à leur damnation. $PersonName ne semble pas particulièrement affecté.
 
-""Tel est le sort de ceux qui crachent sur l'Eglise de la Rédemption Galactique,"" dit-$heOrShe, puis se tait. Peut-être méditant sur le sort des hérétiques qui ont réussi à échapper aux Chevaliers-Inquisiteurs.","locrlf_return2:""C'est tout ce qu'il y a à savoir.""",
+""Tel est le sort de ceux qui crachent sur l'Église de la Rédemption Galactique,"" dit-$heOrShe, puis se tait. Peut-être méditant sur le sort des hérétiques qui ont réussi à échapper aux Chevaliers-Inquisiteurs.","locrlf_return2:""C'est tout ce qu'il y a à savoir.""",
 locrlfReturnStart,DialogOptionSelected,$option == locrlf_return1,"$option = locrlf_return2
-FireBest DialogOptionSelected","$PersonName hoche la tete tandis que vous expliquez comment vous avez trouve les heretiques, sans paraitre particulierement interesse.",,
+FireBest DialogOptionSelected","$PersonName hoche la tete tandis que vous expliquez comment vous avez trouve les hérétiques, sans paraitre particulierement interesse.",,
 locrlfReturnStart2A,DialogOptionSelected,$option == locrlf_return2,"AddCredits $locrlf_rewardAmount
 AddXP 2400
 FireBest LOCRLFreturnReward
 $global.locrlf_completed = true
 unset $market.locrlf_market
 Call $global.locrlf_ref updateStage
-FireAll LOCRLFreturnHubOpts","""Merci, $playerSirOrMadam,"" $heOrShe dit. ""Je transmettrai votre rapport a l'archicure sans delai. Veuillez accepter votre recompense, comme convenu.""",,
+FireAll LOCRLFreturnHubOpts","""Merci, $playerSirOrMadam,"" $heOrShe dit. ""Je transmettrai votre rapport a l'archicure sans delai. Veuillez accepter votre récompense, comme convenu.""",,
 locrlfReturnStart2B,DialogOptionSelected,"$option == locrlf_return2
 $player.locrlf_negotiatedHigherRate","AddCredits $locrlf_rewardAmountHigher
 AddXP 2400
@@ -26800,25 +26800,25 @@ $global.locrlf_completed = true
 unset $market.locrlf_market
 unset $player.locrlf_negotiatedHigherRate
 Call $global.locrlf_ref updateStage
-FireAll LOCRLFreturnHubOpts","""Merci, $playerSirOrMadam,"" $heOrShe dit. ""Je transmettrai votre rapport a l'archicure sans delai. Veuillez accepter votre genereuse recompense.""
+FireAll LOCRLFreturnHubOpts","""Merci, $playerSirOrMadam,"" $heOrShe dit. ""Je transmettrai votre rapport a l'archicure sans delai. Veuillez accepter votre genereuse récompense.""
 
 ""Je dirai a l'archicure que vos honoraires étaient plus eleves que prevu,"" $personName marmonne pour $himOrHerself.",,
 locrlfReturnHubOptsA,LOCRLFreturnHubOpts,"$player.locr_luddicsOnBoard
 $player.crew > 198
-!$player.locrlf_liedAboutFateOfHeretics",,"Maintenant, bien sur, il y a la question des heretiques.","locrlf_returnHereticsChurch:""De plus, les hérétiques sont à bord de mon $shipOrFleet. J'ai l'intention de les remettre à l'Église.""",
+!$player.locrlf_liedAboutFateOfHeretics",,"Maintenant, bien sur, il y a la question des hérétiques.","locrlf_returnHereticsChurch:""De plus, les hérétiques sont à bord de mon $shipOrFleet. J'ai l'intention de les remettre à l'Église.""",
 locrlfReturnHubOptsB,LOCRLFreturnHubOpts,"$player.locr_luddicsToPath
 $player.crew > 198
-!$player.locrlf_liedAboutFateOfHeretics",,"Maintenant, bien sur, il y a la question des heretiques.","locrlf_returnHereticsPath:""De plus, les hérétiques sont à bord de mon $shipOrFleet. J'ai l'intention de les emmener sur un monde de la Voie de Ludd.""",
+!$player.locrlf_liedAboutFateOfHeretics",,"Maintenant, bien sur, il y a la question des hérétiques.","locrlf_returnHereticsPath:""De plus, les hérétiques sont à bord de mon $shipOrFleet. J'ai l'intention de les emmener sur un monde de la Voie de Ludd.""",
 locrlfReturnHubOptsC,LOCRLFreturnHubOpts,"$player.locr_luddicsToChurch
 $player.crew > 198
-!$player.locrlf_liedAboutFateOfHeretics",,"Maintenant, bien sur, il y a la question des anciens heretiques.","locrlf_returnHereticsChurch:""Les hérétiques repentants sont à bord de mon $shipOrFleet. J'ai l'intention de les remettre à l'Église.""",
+!$player.locrlf_liedAboutFateOfHeretics",,"Maintenant, bien sur, il y a la question des anciens hérétiques.","locrlf_returnHereticsChurch:""Les hérétiques repentants sont à bord de mon $shipOrFleet. J'ai l'intention de les remettre à l'Église.""",
 locrlfReturnHubOptsD,LOCRLFreturnHubOpts,,,,cutCommLink:Couper la comm,
 locrlfToldReturningHereticsChurch,DialogOptionSelected,$option == locrlf_returnHereticsChurch,,"Les yeux de $personName s'écarquillent.
 
 ""Quoi ?! Vous les avez amenés ici ?"" $HeOrShe se couvre le visage de ses mains et émet un gémissement trop douloureux pour être un soupir.
 
 ""Par le marteau de Ludd, ce n'était pas la mission ! Je... je n'étais au courant de rien. Je dirai expressément que je vous avais demandé de revenir uniquement avec la confirmation de leur position et de leur état.""",locrlf_returnHereticsChurch2:Continuer,
-locrlfToldReturningHereticsChurch2,DialogOptionSelected,$option == locrlf_returnHereticsChurch2,AdjustRep $locrlf_person INHOSPITABLE -2,"""Quant a vous, emmenez ces heretiques ailleurs ! Ou au moins attendez que j'aie fait mon rapport pour les debarquer. Je ne veux rien avoir a faire avec eux, ce n'est pas ma faute !""
+locrlfToldReturningHereticsChurch2,DialogOptionSelected,$option == locrlf_returnHereticsChurch2,AdjustRep $locrlf_person INHOSPITABLE -2,"""Quant a vous, emmenez ces hérétiques ailleurs ! Ou au moins attendez que j'aie fait mon rapport pour les debarquer. Je ne veux rien avoir a faire avec eux, ce n'est pas ma faute !""
 
 Le signal coupe, vous laissant avec un ancien motif de secours du logiciel de communication.",cutCommLinkNoText:Couper la comm,
 locrlfToldReturningHereticsPath,DialogOptionSelected,$option == locrlf_returnHereticsPath,,"Les yeux de $personName s'ecarquillent.
@@ -26859,7 +26859,7 @@ Call $lpt_ref showMap ""Destination: $lpt_entityName""","Vous approchez le pèle
 
 ""Peut-être vous rendez-vous déjà dans le système $lpt_systemName ? Le sanctuaire ne serait qu'un léger détour."" $lpt_HeOrShe vous regarde avec espoir. ""Nous ne causerons aucun problème, et nous prierons la Providence de vous bénir de prospérité et de santé.""","contact_acceptBar:Accepter
 contact_declineBarNoContinue:Refuser",
-lptPostAccept,ContactPostAccept,$missionId == lpt,"#AddTextSmall ""Luddic pilgrims boarded $shipOrFleet"" highlight","Vous chargez votre commissaire de bord de faire les arrangements nécessaires, avec pour consigne d'empecher les pelerins d'interferer avec les operations du $shipOrFleet.",,
+lptPostAccept,ContactPostAccept,$missionId == lpt,"#AddTextSmall ""Luddic pilgrims boarded $shipOrFleet"" highlight","Vous chargez votre commissaire de bord de faire les arrangements nécessaires, avec pour consigne d'empecher les pèlerins d'interferer avec les operations du $shipOrFleet.",,
 ,,,,,,
 # LPT arrived at destination,,,,,,
 LPTcheckCompletionBeholder,BeholderShrineMainOptions,"$id == beholder_station
@@ -26877,7 +26877,7 @@ Call $lpt_ref updateStage",Votre intendant signale que les pèlerins que vous av
 LPTcheckCompletionContRich,DialogOptionSelected,"$option == lpt_deliverContinue
 $lpt_wealth == rich","
 AdjustRep luddic_church FAVORABLE 1
-Call $lpt_ref updateStage",Votre commissaire de bord rapporte que les pelerins embarques depuis $lpt_sourceName ont été transferes vers une navette privée et sont en route vers le sanctuaire Luddic local. Leur paiement a été verse sur vos comptes.,marketCmd_checkDebtContinue:Continuer,
+Call $lpt_ref updateStage",Votre commissaire de bord rapporte que les pèlerins embarques depuis $lpt_sourceName ont été transferes vers une navette privée et sont en route vers le sanctuaire Luddic local. Leur paiement a été verse sur vos comptes.,marketCmd_checkDebtContinue:Continuer,
 LPTcheckCompletionContRichOneOff,DialogOptionSelected,"$option == lpt_deliverContinue
 $lpt_wealth == rich
 !$global.lpp_completed
@@ -26891,14 +26891,14 @@ Call $lpt_ref updateStage","Le chef des pèlerins que vous avez transportés dep
 ""Bien sûr, je comprends que c'est un voyage que vous devez choisir d'entreprendre par vous-même."" $lpt_HeOrShe affiche un sourire parfait et fait un geste pieux, puis embarque dans une navette privée qu'$lpt_heOrShe a affrétée pour transporter $lpt_himOrHer et son groupe jusqu'au sanctuaire.",marketCmd_checkDebtContinue:Continuer,
 LPTcheckCompletionContPoor,DialogOptionSelected,"$option == lpt_deliverContinue 
 $lpt_wealth == poor","AdjustRep luddic_church WELCOMING 1
-Call $lpt_ref updateStage","Vous recevez un rapport indiquant que les pelerins transportes ici depuis $lpt_sourceName ont été transferes vers une navette civile dediee au service charitable pour les Fideles de condition modeste.
+Call $lpt_ref updateStage","Vous recevez un rapport indiquant que les pèlerins transportes ici depuis $lpt_sourceName ont été transferes vers une navette civile dediee au service charitable pour les Fideles de condition modeste.
 
 Que cela vous plaise ou non, ils ont promis de prier pour vous pour votre acte de charite.",marketCmd_checkDebtContinue:Continuer,
 LPTcheckNonMarketContGeneric,DialogOptionSelected,$option == lpt_deliverNonMarketContinue ,"AdjustRep luddic_church WELCOMING 1
 Call $lpt_ref updateStage",Votre intendant signale que les pèlerins que vous avez embarqués sur $lpt_sourceName pour les transporter au sanctuaire luddic local ont été transférés vers une navette civile.,lpt_endingOut:Continuer,
 LPTcheckNonMarketContRich,DialogOptionSelected,"$option == lpt_deliverNonMarketContinue 
 $lpt_wealth == rich","AdjustRep luddic_church FAVORABLE 1
-Call $lpt_ref updateStage",Votre commissaire de bord rapporte que les pelerins embarques depuis $lpt_sourceName ont été transferes vers une navette privée et sont en route vers le sanctuaire Luddic local. Leur paiement a été verse sur vos comptes.,lpt_endingOut:Continuer,
+Call $lpt_ref updateStage",Votre commissaire de bord rapporte que les pèlerins embarques depuis $lpt_sourceName ont été transferes vers une navette privée et sont en route vers le sanctuaire Luddic local. Leur paiement a été verse sur vos comptes.,lpt_endingOut:Continuer,
 LPTcheckNonMarketContRichOneOff,DialogOptionSelected,"$option == lpt_deliverNonMarketContinue 
 $lpt_wealth == rich
 !$global.lpp_completed
@@ -27420,8 +27420,8 @@ Call $market.dhi_ref updateStage","Vous sentez les vibrations presque impercepti
 Le tactique a des rapports de pertes prêts pour examen. Vous acquiescez d'un signe de tête et coupez les communications.",mktRaidResult:Continuer,
 ,,,,,,
 # Disrupt Spaceport (underworld),,,,,,
-dspBlurb,dsp_blurb,,,"""Je propose une tache d'envergure, et j'offre une recompense a la hauteur : j'ai besoin que $dsp_industry $dsp_marketOnOrAt $dsp_marketName soit perturbee.""",,
-dspBlurb_villain,dsp_blurb,$voice == villain,,"""Maintenant que nous nous faisons mutuellement confiance, il servirait mes plans de semer le chaos $dsp_marketOnOrAt $dsp_marketName. Auriez-vous l'obligeance de perturber $dsp_industry la-bas pour moi ? Je vous recompenserai genereusement.""",,
+dspBlurb,dsp_blurb,,,"""Je propose une tache d'envergure, et j'offre une récompense a la hauteur : j'ai besoin que $dsp_industry $dsp_marketOnOrAt $dsp_marketName soit perturbee.""",,
+dspBlurb_villain,dsp_blurb,$voice == villain,,"""Maintenant que nous nous faisons mutuellement confiance, il servirait mes plans de semer le chaos $dsp_marketOnOrAt $dsp_marketName. Auriez-vous l'obligeance de perturber $dsp_industry la-bas pour moi ? Je vous récompenserai genereusement.""",,
 dspOfferOption,dsp_option,,,,dsp_start:Questionner sur l'opération de perturbation de $dsp_industry,
 dspBlurbBar,dsp_blurbBar,,,"Une sorte de patron du milieu est installe dans un box, a en juger par son cortege disparate de cyberbras croises qui toisent quiconque ose s'approcher. Rien de bon ne peut en sortir.",,
 dspOfferOptionBar,dsp_optionBar,,,,dsp_startBar:Voir dans quel pétrin vous pouvez vous mettre avec le baron de la pègre dans le box,
@@ -29081,8 +29081,8 @@ $market.id == kantas_den
 Call $global.gaATG_ref updateData
 $gaATG_stage == GO_TO_MAGEC_GATE score:1000","ClearText
 AddText ""Your $shipOrFleet maintains its position near $entityName.""
-AddText ""La station-asteroide blindee herisse d'armes, reseaux de ciblage actifs et avides. De petits navires de guerre virevoltent comme des frelons, et les canaux de communication sont inondes par le gresillements de la guerre electronique.""
-AddText ""Faire quelque affaire que ce soit ici sera impossible tant que les choses ne se seront pas calmees.""",,"marketConsiderHostile:Evaluer vos options militaires
+AddText ""La station-asteroide blindee hérissé d'armes, réseaux de ciblage actifs et avides. De petits navires de guerre virevoltent comme des frelons, et les canaux de communication sont inondes par le grésillements de la guerre électronique.""
+AddText ""Faire quelque affaire que ce soit ici sera impossible tant que les choses ne se seront pas calmées.""",,"marketConsiderHostile:Evaluer vos options militaires
 defaultLeave:Partir","# post-raid, potentially."
 #gaATGGoBackFromHostileOpt,PopulateOptions,"$market.id == kantas_den
 $global.gaATG_foundZal score:1000",,,"20:marketConsiderHostile:Evaluer vos options militaires
@@ -29701,7 +29701,7 @@ FireAll RHannanMsgFollowHub","""Je suis touche par votre sollicitude, capitaine,
 RHannanMsgFollowHorusYaribayB,DialogOptionSelected,$option == RHannan_msgFollowHorusYaribayB,"FireBest RHannanHorusKeyCheck
 FireAll RHannanMsgFollowHub","""Je suis touche par votre sollicitude, capitaine,"" dit Reynard, comme s'il encourageait un eleve prometteur. ""Mais vous pouvez être certain que je maitrise les intrigues de mon cher ami Horus.""",,
 RHannanMsgFollowHorusYaribayC,DialogOptionSelected,$option == RHannan_msgFollowHorusYaribayC,"FireBest RHannanHorusKeyCheck
-FireAll RHannanMsgFollowHub","""J'en suis convaincu,"" dit Reynard avec desinvolture, comme s'il encourageait un eleve prometteur. ""C'est precisement pourquoi j'ai plusieurs reseaux de renseignement qui surveillent les intrigues de mon cher ami Horus.""",,
+FireAll RHannanMsgFollowHub","""J'en suis convaincu,"" dit Reynard avec desinvolture, comme s'il encourageait un eleve prometteur. ""C'est precisement pourquoi j'ai plusieurs réseaux de renseignement qui surveillent les intrigues de mon cher ami Horus.""",,
 RHannanMsgFollowHorusYaribayD,RHannanHorusKeyCheck,$player.gaveDaudYaribayContact,,"Il ecarte les mains, toujours genereux d'esprit. ""Inutile de me donner sa cle de chiffrement ou quoi que ce soit d'aussi vulgaire. Cela blesserait Horus d'être ainsi trahi.""",,
 ,,,,,,
 ,,,,,,
@@ -30743,13 +30743,13 @@ $global.gaveZGRoneslaughtAccess","$option = zgr_makePitch9both3 0
 FireBest DialogOptionSelected","""You've been most useful,"" she says, almost actually smiling. It looks uncomfortable.",,
 ZGRstartPitch9both3,DialogOptionSelected,$option == zgr_makePitch9both3,"AddCredits 150000
 $didAsale = true 0
-AddText ""\""Interessant,\"" dit-elle en relachant un souffle. \""Oui. C'est ce que je cherche... et plus encore.\""""","For a full two seconds her eyes close, moving rapidly.
+AddText ""\""Intéressant,\"" dit-elle en relachant un souffle. \""Oui. C'est ce que je cherche... et plus encore.\""""","For a full two seconds her eyes close, moving rapidly.
 
 Your TriPad pings.","zgr_makePitch11:""So you knew what you were asking for. Was there another expedition before me?""",
 ZGRstartPitch9both3z,DialogOptionSelected,"$option == zgr_makePitch9both3
 $global.foundZGRabyssMercs","AddCredits 150000
 $didAsale = true 0
-AddText ""\""Interessant,\"" dit-elle en relachant un souffle. \""Oui. C'est ce que je cherche... et plus encore.\""""","For a full two seconds her eyes close, moving rapidly.
+AddText ""\""Intéressant,\"" dit-elle en relachant un souffle. \""Oui. C'est ce que je cherche... et plus encore.\""""","For a full two seconds her eyes close, moving rapidly.
 
 Your TriPad pings.","zgr_makePitch11:""So you knew what you were asking for. Was there another expedition that succeeded?""",
 ZGRstartPitch9threat,DialogOptionSelected,$option == zgr_makePitch9threat,"Highlight  ""100,000""","She blinks. Her eyes seem suddenly present for the first time. 
@@ -31821,7 +31821,7 @@ sdtuSafehouseWrapAnswer2,DialogOptionSelected,$option == sdtu_macHyderYouTalk,Re
 ""Une suggestion belle et evidente, cher capitaine, mais elle me deteste. Cette vieille femme tetue ne se laissera pas convaincre par moi, et encore moins ouvrir son coeur.""",,
 sdtuSafehouseWrapAnswer3,DialogOptionSelected,$option == sdtu_macHyderNoWant,RemoveOption sdtu_macHyderNoWant,"Macario affiche un rictus en guise de sourire.
 
-""Jouez votre rôle, capitaine. Vous trouverez les recompenses inestimables.""",,
+""Jouez votre rôle, capitaine. Vous trouverez les récompenses inestimables.""",,
 sdtuSafehouseWrapAnswer4,DialogOptionSelected,$option == sdtu_macHyderTreason,RemoveOption sdtu_macHyderTreason,"""Et plonger le Diktat Sindrien dans une guerre civile ? Alors qu'elle commande l'Armada de Defense du système ?"" Macario leve les yeux au ciel. ""Ecoutez-vous donc.""
 
 ""Le timing,"" siffle-t-il, ""Le moment doit être le bon.""",,
@@ -32295,7 +32295,7 @@ sdtuHyderTalk3MacarioB,DialogOptionSelected,"$option == sdtu_HyderTalk3MacarioKn
 $trust == 1","$answersDone++
 $saidMacario = true 0
 FireAll SDTUHyderTalk3Options
-$global.sdtu_HyderSaidMacarioFuelsWithLies = true","""Et pourtant il ne l'a pas fait,"" dit Hyder avec ferveur. ""S'il pouvait alimenter les vaisseaux et nourrir leurs equipages avec des mensonges seuls, il le ferait. Mais il ne le peut pas.""",,
+$global.sdtu_HyderSaidMacarioFuelsWithLies = true","""Et pourtant il ne l'a pas fait,"" dit Hyder avec ferveur. ""S'il pouvait alimenter les vaisseaux et nourrir leurs équipages avec des mensonges seuls, il le ferait. Mais il ne le peut pas.""",,
 sdtuHyderTalk3MacarioC,DialogOptionSelected,"$option == sdtu_HyderTalk3MacarioKnows
 $trust >= 2","$answersDone++
 $saidMacario = true 0
@@ -32473,7 +32473,7 @@ Call $global.sdtu_ref updateData
 $sdtu_stage == RETURN_TO_MACARIO","BeginConversation macario
 $option = sdtu_postHyderReportHub
 AddCredits 15000
-AddText ""Il deplie ses mains dans un geste de magnanimite, \""Continuez donc.\""""
+AddText ""Il déplie ses mains dans un geste de magnanimité, \""Continuez donc.\""""
 FireBest DialogOptionSelected","Après une courte attente, l'image de Macario apparaît. Il a l'air de quelqu'un qui anticipe un repas savoureux.
 
 ""Capitaine, quel plaisir de vous retrouver à nouveau. La Vice-Maréchale Stellaire Hyder n'était pas trop contrariée ? Vous n'avez pas froissé son sens de l'honneur trop profondément ? Mais non, je devrais vous laisser parler."" Il fait un clin d'oeil et tapote un datapad.",,
@@ -32561,7 +32561,7 @@ sdtuPostHyderHatesYouOptF,SDTUPostHyderHatesYouOpts,,,,"sdtu_postHyderHatesRespF
 sdtuPostHyderHateRespA,DialogOptionSelected,$option == sdtu_postHyderHateRespA,RemoveOption sdtu_postHyderHatesRespA,"Macario hoche la tete, se frottant pensivement le menton.",,
 sdtuPostHyderHateRespB,DialogOptionSelected,$option == sdtu_postHyderHateRespB,RemoveOption sdtu_postHyderHatesRespB,"""Hmm,"" dit-il, pensif. ""Continuez.""",,
 sdtuPostHyderHateRespC,DialogOptionSelected,$option == sdtu_postHyderHatesRespC,RemoveOption sdtu_postHyderHatesRespC,"Les sourcils de Macario se levent legerement, comme s'il était tout juste un peu impressionne par celle-la.",,
-sdtuPostHyderHateRespD,DialogOptionSelected,$option == sdtu_postHyderHatesRespD,RemoveOption sdtu_postHyderHatesRespD,"""Interessant,"" ment-il.",,
+sdtuPostHyderHateRespD,DialogOptionSelected,$option == sdtu_postHyderHatesRespD,RemoveOption sdtu_postHyderHatesRespD,"""Intéressant,"" ment-il.",,
 sdtuPostHyderHateRespE,DialogOptionSelected,$option == sdtu_postHyderHatesRespE,RemoveOption sdtu_postHyderHatesRespE,"""Seulement la moitie ?"" Macario feint la surprise, ""Quelle generosite !""",,
 sdtuPostHyderHateRespF,DialogOptionSelected,$option == sdtu_postHyderHatesRespF,"RemoveOption sdtu_postHyderHatesRespF
 FireAll SDTUPostHyderReports
@@ -32911,11 +32911,11 @@ sdtuUmbraTrickVIPOptionE2,DialogOptionSelected,$option == sdtu_umbraTrickVIPE,"$
 $option = sdtu_umbraTrickVIPF 0
 FireBest DialogOptionSelected","""Oh, bien sur ! Nous ne sommes pas toujours d'accord sur tout, mais nous apprecions votre aide pour combattre un ennemi commun.""
 
-""Et euh, que les benedictions soient sur vous ?"" dit $HeOrShe d'un air gene.","sdtu_umbraTrickVIPending1:""Et sur vous. Maintenant, à propos de cet agent...""",
+""Et euh, que les bénédictions soient sur vous ?"" dit $HeOrShe d'un air gene.","sdtu_umbraTrickVIPending1:""Et sur vous. Maintenant, à propos de cet agent...""",
 sdtuUmbraTrickVIPOptionF2,DialogOptionSelected,$option == sdtu_umbraTrickVIPF,"$global.toldARCplayerIsLuddic = true
 AdjustRepActivePerson FRIENDLY 5","""Oh, bien sur ! Nous ne sommes pas toujours d'accord sur tout, mais nous apprecions votre aide pour combattre un ennemi commun.""
 
-""Et euh, que les benedictions soient sur vous ?"" dit $HeOrShe d'un air gene.","sdtu_umbraTrickVIPending1:""Et sur vous. Maintenant, à propos de cet agent...""",
+""Et euh, que les bénédictions soient sur vous ?"" dit $HeOrShe d'un air gene.","sdtu_umbraTrickVIPending1:""Et sur vous. Maintenant, à propos de cet agent...""",
 sdtuUmbraTrickVIPOptionG2,DialogOptionSelected,$option == sdtu_umbraTrickVIPG,"$global.toldARCplayerIsSiyavong = true
 $player.ethosLiar++
 AdjustRepActivePerson FRIENDLY 1","""Ah, la Ligue."" $HeOrShe relève le menton. ""Une fédération militariste d'exploiteurs. Mais bien moins odieuse que le Diktat ; nous accepterons votre assistance, citoyen Siyavong,"" dit $heOrShe magnaniment."" ","sdtu_umbraTrickVIPending1:""Votre ouverture d'esprit est une vertu. Maintenant, à propos de cet agent...""",
@@ -33054,7 +33054,7 @@ sdtuCadenAgentMacario2,DialogOptionSelected,$option == sdtu_cadenAgentMacario2,F
 sdtuCadenAgentLoyal1,DialogOptionSelected,$option == sdtu_cadenAgentLoyal1,"$player.ethosLiar++
 FireAll SDTUCadenDemandOptions","""Alors faites-le, spatien !"" hurle Caden. ""Le glaive prompt de la justice ne connait pas le repos dans le Diktat Sindrien !""
 
-""Demontrez votre loyaute ; transferez l'agent a ma flotte et je jugerai la situation pour prendre les mesures appropriees."" Il baisse la voix de facon theatrale, ""Severes si nécessaire.""",,
+""Demontrez votre loyaute ; transferez l'agent a ma flotte et je jugerai la situation pour prendre les mesures appropriées."" Il baisse la voix de facon theatrale, ""Severes si nécessaire.""",,
 sdtuCadenAgentFavor1,DialogOptionSelected,$option == sdtu_cadenAgentFavor1,FireAll SDTUCadenDemandOptions,"""Je suis le Haut Député Exécuteur de la Garde du Diktat Sindrien, spacieux !"" hurle Caden, devenant rouge. ""Je n'ai pas besoin d'une... faveur."" Il crache le mot honni.
 
 ""Néanmoins, je jugerai du bien-fondé de votre revendication. Démontrez votre loyauté maintenant ! Remettez cet agent et expliquez-vous !""
@@ -33073,7 +33073,7 @@ Il ajuste son uniforme après toute cette agitation. ""Maintenant ; remettez cet
 sdtuCadenAgentLoyalLie1,DialogOptionSelected,$option == sdtu_cadenAgentLoyalLie1,"$player.ethosLiar++
 FireAll SDTUCadenDemandOptions","""Alors faites-le, spatien !"" hurle Caden. ""Le glaive prompt de la justice ne connait pas le repos dans le Diktat Sindrien !""
 
-""Demontrez votre loyaute ; transferez l'agent a ma flotte et je jugerai la situation pour prendre les mesures appropriees."" Il baisse la voix de facon theatrale, ""Severes si nécessaire.""",,
+""Demontrez votre loyaute ; transferez l'agent a ma flotte et je jugerai la situation pour prendre les mesures appropriées."" Il baisse la voix de facon theatrale, ""Severes si nécessaire.""",,
 sdtuCadenDemandOptD,SDTUCadenDemandOptions,$global.sdtu_umbraAgentCoop,,,"sdtu_cadenAgentMacarioLieB:""Macario ordered the arrest. I've already delivered the agent to him."" (lie)",
 sdtuCadenDemandOptA,SDTUCadenDemandOptions,!$global.sdtu_umbraAgentCoop,,,sdtu_cadenAgentTransfer:Transférer l'agent,
 sdtuCadenDemandOptB,SDTUCadenDemandOptions,!$global.sdtu_umbraAgentCoop,,,"sdtu_cadenAgentMacario:""Macario a ordonné l'arrestation, je dois donc lui remettre l'agent.""",
@@ -33187,7 +33187,7 @@ sdtuCadenMacPuppet2,DialogOptionSelected,$option == sdtu_cadenMacPuppet2,,"""Je 
 sdtuCadenMacHyder,DialogOptionSelected,$option == sdtu_cadenMacHyder,"$player.ethosLiar++
 $global.sdtu_toldCadenMacarioBacksHyder = true","""Oxana Hyder ? A la tete du Diktat Sindrien ?"" Caden force un rire qui semble douloureux.
 
-""Impensable. N'eut été ses competences evidentes et son dossier irreprochable, elle ferait l'objet d'une enquete pour subversion. Son engagement envers l'ideologie andradienne est au mieux tiede.""",sdtu_cadenMacHyder2:Continuer,
+""Impensable. N'eut été ses competences evidentes et son dossier irreprochable, elle ferait l'objet d'une enquête pour subversion. Son engagement envers l'ideologie andradienne est au mieux tiede.""",sdtu_cadenMacHyder2:Continuer,
 sdtuCadenMacHyder2,DialogOptionSelected,$option == sdtu_cadenMacHyder2,,"Vous regardez les pensées suinter à travers l'esprit de Caden.
 
 ""Ce qui... serait exactement la raison pour laquelle Macario l'aurait choisie comme sa marionnette. Elle ne possède qu'une poignée de convictions subjectives qui pourraient être manipulées par un homme habitué à opérer dans l'état d'esprit désordonné de criminels dégénérés...""
@@ -33335,7 +33335,7 @@ sdtu_postCadenHydCadLieB,DialogOptionSelected,"$option == sdtu_postCadenHydCadLi
 $global.sdtu_toldMacarioHyderBacksMacario","AdjustRepActivePerson VENGEFUL -1
 $hâte++","""Vraiment,"" dit-il, mecontent. Peut-être envers vous.
 
-""Vous avez precedemment suggere que Hyder avait l'intention de soutenir ma propre ascension. Ce... developpement, il me parait etrange. Hyder est tout sauf versatile.""
+""Vous avez précédemment suggere que Hyder avait l'intention de soutenir ma propre ascension. Ce... developpement, il me parait etrange. Hyder est tout sauf versatile.""
 
 Ses yeux froids sont rives aux votres, d'une manière ou d'une autre, a travers le communicateur.",sdtu_postCaden2:Continuer,
 sdtu_postCadenHydCadLieC,DialogOptionSelected,"$option == sdtu_postCadenHydCadLie
@@ -34778,7 +34778,7 @@ pirateStationKingGreeting,PickGreeting,"$pirateBaseCommander score:1000
 !$playerHasDealWithPirateBaseCommander
 HA_CMD baseInvolved",,"Les communications crepitent et gresillent, se resolvant en l'image souriante de $post.
 
-""Eh bien, eh bien, eh bien,"" dit $heOrShe d'une voix trainante. ""Un proprietaire independant est venu dans mon humble avant-poste. Mais pourquoi donc ?"" $HeOrShe prend un air perplexe, ""On m'a dit que c'était dangereux par ici.""","psk_discussBusiness:""Nous avons des 'affaires' à discuter.""
+""Eh bien, eh bien, eh bien,"" dit $heOrShe d'une voix trainante. ""Un propriétaire independant est venu dans mon humble avant-poste. Mais pourquoi donc ?"" $HeOrShe prend un air perplexe, ""On m'a dit que c'était dangereux par ici.""","psk_discussBusiness:""Nous avons des 'affaires' à discuter.""
 cutCommLink:Couper la comm",
 pirateSKGreetingUntrusted,PickGreeting,"$pirateBaseCommander score:1000
 !$playerHasDealWithPirateBaseCommander
@@ -35242,7 +35242,7 @@ $didResign = true 0",Vous faites envoyer par votre officier communications un or
 rh_giveNanoforge,DialogOptionSelected,"$option == rh_acceptMembership
 $willGiveNanoforge","AddRemoveAnyItem SPECIAL pristine_nanoforge -1
 HA_CMD kazeronInstallNanoforge
-unset $willGiveNanoforge","Vous donnez l'ordre a votre quartier-maitre de remettre la Nanoforge Immaculee sous la garde Kazeronienne. L'officier de reception est, sans surprise, un membre de rang intermediaire de la gens Hannan.",rh_acceptMembership:Continuer,
+unset $willGiveNanoforge","Vous donnez l'ordre a votre quartier-maître de remettre la Nanoforge Immaculee sous la garde Kazeronienne. L'officier de reception est, sans surprise, un membre de rang intermediaire de la gens Hannan.",rh_acceptMembership:Continuer,
 rh_handleCommission,DialogOptionSelected,"$option == rh_acceptMembership
 !Commission hasFactionCommission
 !$didCommissionStep","Commission accept
@@ -35429,7 +35429,7 @@ FireAll PopulateOptions",Reynard soupire en levant les yeux au ciel.,,
 rh_confirmPayAgainSel,DialogOptionSelected,$option == rh_confirmPayAgain,"HA_CMD endGHMachinations
 $player.agreedToPayHouseHannanAgain = true
 $player.payingHouseHannan = true
-AddPotentialContact","""Cherissez mon pardon, capitaine. C'est un cadeau rare et precieux."" Il vous toise de haut, d'une manière ou d'une autre, a travers les communications ; imperial.
+AddPotentialContact","""Chérisséz mon pardon, capitaine. C'est un cadeau rare et precieux."" Il vous toise de haut, d'une manière ou d'une autre, a travers les communications ; imperial.
 
 ""Respectez votre part de notre arrangement, ou vos problemes precedents vous paraitront une promenade dans les parcs de Gilead.""",cutCommLinkPolite:Mettre fin à la conversation,
 # Various refusals to accept payment again,,,,,,
@@ -35887,7 +35887,7 @@ LCP_cynical,DialogOptionSelected,$option == LCP_cynical,$saidCynical = true 0,"L
 ""Je prierai pour vous, capitaine,"" dit $heOrShe, retrouvant sa contenance. ""Apres que vous nous aurez donne votre dime.""",,
 LCP_butHaveCom,DialogOptionSelected,$option == LCP_butHaveCom,$saidHaveCom = true 0,"""Ah, euh."" Le $post a l'air mal a l'aise, jetant un regard de côté tandis qu'un subordonne murmure une confirmation a $himOrHer.
 
-""...Bien sur, oui. Nous sommes benis que vous marchiez avec nous. étant donne votre engagement envers la Sainte Eglise, vous comprenez surement la nécessité de la dime.""",,
+""...Bien sur, oui. Nous sommes benis que vous marchiez avec nous. étant donne votre engagement envers la Sainte Église, vous comprenez surement la nécessité de la dime.""",,
 LCP_butHaveCom2,DialogOptionSelected,$option == LCP_butHaveCom2,"AdjustRepActivePerson INHOSPITABLE -2
 MakeOtherFleetPreventDisengage hassle false","Le Chevalier reste immobile pendant un long moment inconfortable. Vous êtes en train de vous demander si le flux de communication n'a pas gelé quand $heOrShe laisse échapper un soupir.
 
@@ -35988,7 +35988,7 @@ lcMakeDealIntroC:""C'est moi qui ai été lésé, c'est moi qui poserai les cond
 lcMakeDealIntroA,DialogOptionSelected,$option == lcMakeDealIntroA,"$option = lcMakeDealIntro2 0
 FireBest DialogOptionSelected","""Il n'y a pas 'aucune raison' a cette situation, $playerSirOrMadam,"" dit $heOrShe, avec un air de patience forcee. ""Un nombre croissant de Fideles se sont rendus dans vos possessions, et vous les avez autorisés a travailler et a s'installer.""
 
-""L'Eglise veille sur son troupeau.""",,
+""L'Église veille sur son troupeau.""",,
 lcMakeDealIntroB,DialogOptionSelected,$option == lcMakeDealIntroB,"$option = lcMakeDealIntro2 0
 FireBest DialogOptionSelected","""Ce n'est pas tout a fait aussi simple que cela,"" dit $heOrShe avec un air de patience forcee. ""Un nombre croissant de Fideles se sont rendus dans des colonies recemment fondees, et vous les avez autorisés a y travailler et a s'installer.""
 
@@ -36117,10 +36117,10 @@ KOLTHolyArmadaCommsCut,KOLTArmadaOptions,,,,cutCommLink:Couper la comm,
 KOLTHolyArmadaCommsA,DialogOptionSelected,$option == kolt_armadaCommsRespA,$saidA = true 0,"""Nous entendons votre requete,"" son visage est impassible. ""Et par serment sacre, nous devons la refuser.""","kolt_armadaCommsRespBhasty:""Je suis sûr que nous pouvons trouver un arrangement.""
 kolt_armadaCommsRespBdeath:""Alors j'attaquerai et détruirai votre flotte.""
 kolt_handoverCancel:""C'est cette obstination suffisante qui fait que personne ne vous aime.""",
-KOLTHolyArmadaCommsB,DialogOptionSelected,$option == kolt_armadaCommsRespB,$saidB = true 0,"""Nous entendons votre exigence,"" son visage est impassible. ""Nous rejetons vos accusations de piraterie et d'insurrection. Nous sommes lies par serment sacre a placer les Fideles sous la protection de l'Eglise de la Redemption Galactique. Seule la mort peut liberer un Chevalier de Ludd de son devoir sacre.""","kolt_armadaCommsRespBhasty:""Ne soyons pas hâtifs. Je suis sûr que nous pouvons trouver un arrangement.""
+KOLTHolyArmadaCommsB,DialogOptionSelected,$option == kolt_armadaCommsRespB,$saidB = true 0,"""Nous entendons votre exigence,"" son visage est impassible. ""Nous rejetons vos accusations de piraterie et d'insurrection. Nous sommes lies par serment sacre a placer les Fideles sous la protection de l'Église de la Redemption Galactique. Seule la mort peut liberer un Chevalier de Ludd de son devoir sacre.""","kolt_armadaCommsRespBhasty:""Ne soyons pas hâtifs. Je suis sûr que nous pouvons trouver un arrangement.""
 kolt_armadaCommsRespBdeath:""La mort, alors.""
 kolt_handoverCancel:""C'est cette obstination suffisante qui fait que personne ne vous aime.""",
-KOLTHolyArmadaCommsBhasty,DialogOptionSelected,$option == kolt_armadaCommsRespBhasty,FireAll KOLTArmadaOptions,"""Peut-être avec un officiel de l'Eglise,"" dit $heOrShe, faisant mine d'y reflechir. ""Mon mandat, cependant, ne prevoit que votre soumission ou votre defaite.""
+KOLTHolyArmadaCommsBhasty,DialogOptionSelected,$option == kolt_armadaCommsRespBhasty,FireAll KOLTArmadaOptions,"""Peut-être avec un officiel de l'Église,"" dit $heOrShe, faisant mine d'y reflechir. ""Mon mandat, cependant, ne prevoit que votre soumission ou votre defaite.""
 
 $HeOrShe releve legerement le menton.
 
@@ -36129,9 +36129,9 @@ KOLTHolyArmadaCommsBdeath,DialogOptionSelected,$option == kolt_armadaCommsRespBd
 
 $HeOrShe tend la main vers le bouton de coupure des comms.",cutCommLink:Couper la comm,# is a MakeOtherFleetHostile  appropriate? Perhaps not.
 KOLTHolyArmadaCommsC,DialogOptionSelected,$option == kolt_armadaCommsRespC,"$saidC = true 0
-RemoveOption kolt_armadaCommsRespC","""Si vous êtes de la Foi, $playerBrotherOrSister, alors placez votre confiance dans la volonté de l'Eglise de la Redemption Galactique et rendez ce monde a l'autorite qui porte la parole de Ludd a travers la galaxie.""",,
+RemoveOption kolt_armadaCommsRespC","""Si vous êtes de la Foi, $playerBrotherOrSister, alors placez votre confiance dans la volonté de l'Église de la Redemption Galactique et rendez ce monde a l'autorite qui porte la parole de Ludd a travers la galaxie.""",,
 KOLTHolyArmadaCommsD,DialogOptionSelected,$option == kolt_armadaCommsRespD,"$saidD = true 0
-RemoveOption kolt_armadaCommsRespC","""Si vous servez vraiment l'Eglise, mon $playerBrotherOrSister, alors placez votre confiance dans la volonté de l'Eglise de la Redemption Galactique et rendez ce monde a l'autorite qui porte la parole de Ludd a travers la galaxie.""",,
+RemoveOption kolt_armadaCommsRespC","""Si vous servez vraiment l'Église, mon $playerBrotherOrSister, alors placez votre confiance dans la volonté de l'Église de la Redemption Galactique et rendez ce monde a l'autorite qui porte la parole de Ludd a travers la galaxie.""",,
 KOLTHolyArmadaCommsE,DialogOptionSelected,$option == kolt_armadaCommsRespE,"$saidE = true 0
 RemoveOption kolt_armadaCommsRespC","""C'est vous l'heretique, $playerBrotherOrSister, et je prierai pour vous,"" dit $heOrShe d'un ton glacial.",,
 kolt_handoverSel,DialogOptionSelected,$option == kolt_handover,,"Vos paroles prennent le $post tout à fait au dépourvu, et $hisOrHer sentiment de supériorité pieuse vacille un instant.
@@ -36510,7 +36510,7 @@ ApplyCRDamage $entity.fleetPoints 0.1 1 ""Hegemony investigation""","Les équipe
 
 Les plaintes de vos officiers de $shipOrFleet se heurtent à des non-excuses de marbre et à une obscurcissement bureaucratique. On informe vos officiers que des formulaires de réclamation peuvent être soumis pour demander une compensation pour les dommages ""regrettablement inévitables"" subis lors de l'inspection, mais ""on ne devrait pas attendre de réponse du corps d'investigation avant au moins un cycle"".",hegInvestigationComply2:Continuer,"# a weaker fleet will be less destructive, let's say."
 hegInvestigatorComplySel2Wk,DialogOptionSelected,"$option == hegInvestigationComply2
-$entity.relativeStrength < 0",ShowPersonVisual,"Les degats sont, heureusement, essentiellement superficiels. Vos equipages ont cependant un sacre desordre a nettoyer.
+$entity.relativeStrength < 0",ShowPersonVisual,"Les degats sont, heureusement, essentiellement superficiels. Vos équipages ont cependant un sacre desordre a nettoyer.
 
 ""Je vous remercie pour votre cooperation malgre les, euh, frictions inevitables du processus, capitaine,"" dit le $Post de l'Hégémonie. ""Chaque citoyen doit endurer pour notre sécurité collective.""",cutCommLinkNoText:Couper la comm,
 hegInvestigatorComplySel,DialogOptionSelected,$option == hegInvestigationComply,"ShowImageVisual quartermaster
@@ -36518,7 +36518,7 @@ MakeOtherFleetPreventDisengage hassle false
 ApplyCRDamage $entity.fleetPoints 0.2 1 ""Hegemony investigation""","Les équipes d'inspection sont de véritables vandales, semblant agir avec une malveillance active en arrachant des trappes, fouillant dans des stocks soigneusement organisés, et effectuant des scans de haute puissance directement à travers des groupements d'équipements sensibles malgré les objections de votre équipage technique.
 
 Les plaintes de vos officiers de $shipOrFleet se heurtent à une obscurcissement de marbre. Le mieux que votre ingénieur en chef obtienne, en dehors de la menace d'une incarcération à durée indéterminée, est la suggestion qu'un formulaire de réclamation peut être soumis pour demander une compensation pour les dommages ""regrettablement inévitables"" subis lors de l'inspection, mais ""on ne devrait pas attendre de réponse du corps d'investigation avant au moins un cycle"".",hegInvestigationComply2:Continuer,
-hegInvestigatorComplySel2,DialogOptionSelected,$option == hegInvestigationComply2,ShowPersonVisual,"Vos equipages doivent nettoyer un desordre considerable et effectuer les reparations nécessaires. Les degats sont, heureusement, essentiellement superficiels.
+hegInvestigatorComplySel2,DialogOptionSelected,$option == hegInvestigationComply2,ShowPersonVisual,"Vos équipages doivent nettoyer un desordre considerable et effectuer les reparations nécessaires. Les degats sont, heureusement, essentiellement superficiels.
 
 ""Vous pouvez disposer, spacien,"" renifle dedaigneusement le $Post de l'Hégémonie. ""Ne vous faites pas reprendre ici.""",cutCommLinkNoText:Couper la comm,
 hegInvestigatorRefuseSel,DialogOptionSelected,$option == hegInvestigationRefuse,"RemoveOption hegInvestigationRefuse
@@ -37106,7 +37106,7 @@ PKHackStoryWhatDoDestEnemies,DialogOptionSelected,$option == pk_hackStoryWhatDoD
 PKHackStoryWhatDoDontKnow,DialogOptionSelected,$option == pk_hackStoryWhatDoDontKnow,$player.ethosTruth++,"enfin !
     la vérité humaine
 
-   tenez, reclamez votre recompense",pk_hackStoryGetData:Continuer,
+   tenez, reclamez votre récompense",pk_hackStoryGetData:Continuer,
 PKHackStoryWhatDoSellArroyo,DialogOptionSelected,$option == pk_hackStoryWhatDoSellArroyo,$player.ethosMercenary++,"puissiez-vous mourir
     en humain riche
 
@@ -37191,7 +37191,7 @@ $receivedAPlanetkillerFromPlayer","Vous vous coordonnez avec le Voiliste pour fa
 ""Voici un acte louable, $playerSirOrMadam, au service de la vision de Ludd - aussi tortueux et sombre soit le Chemin que nous parcourons ensemble.""
 
 ""La nouvelle de votre... coopération sera répandue parmi les Vrais Fidèles."" $HeOrShe joint $hisOrHer mains une fois de plus. ""Que la sainte paix soit sur vous, $playerName, jusqu'au Jour du Jugement où tous seront jugés.""",cutCommLink:Couper la comm,
-pk_uselessPatherSel,DialogOptionSelected,$option == pk_uselessPather,RemoveOption pk_uselessPather,"""Pas si inutile que vous pourriez le croire,"" dit $heOrShe. ""C'est un totem maudit par Dieu, une chose demoniaque crainte et veneree par les heretiques. Il y a un pouvoir-"" $heOrShe s'interrompt, realisant que malgre son excitation, il vaut mieux ne pas parler trop ouvertement des plans de la Voie.",,
+pk_uselessPatherSel,DialogOptionSelected,$option == pk_uselessPather,RemoveOption pk_uselessPather,"""Pas si inutile que vous pourriez le croire,"" dit $heOrShe. ""C'est un totem maudit par Dieu, une chose demoniaque crainte et veneree par les hérétiques. Il y a un pouvoir-"" $heOrShe s'interrompt, realisant que malgre son excitation, il vaut mieux ne pas parler trop ouvertement des plans de la Voie.",,
 pk_whatPatherSel,DialogOptionSelected,$option == pk_whatPather,RemoveOption pk_whatPather,"$HeOrShe vous fixe longuement. ""Vous savez aussi bien que moi que je pourrais facilement vous mentir, dans un sens ou dans l'autre ; je ne suis pas un saint. Ne perdons pas de temps en comédie.""
 
 ""Une arme est autant une menace qu'une arme. Vous le savez aussi bien que moi. Si, véritablement, je professais qu'elle ne serait jamais utilisée, et qu'on me croyait, alors ce n'est plus une menace."" $HeOrShe marque une pause, puis continue. ""Seulement une arme. Ce qui est d'autant plus dangereux, ne trouvez-vous pas ?""",,
@@ -37230,7 +37230,7 @@ AddRemoveAnyItem SPECIAL planetkiller -1
 $player.turnedInPlanetkiller = true
 AddPotentialContact
 $player.ethosOrder++
-$receivedAPlanetkillerFromPlayer","La recompense est transferee sur vos comptes, et il est sous-entendu que vous pourriez être en lice pour une sorte de medaille de service.
+$receivedAPlanetkillerFromPlayer","La récompense est transferee sur vos comptes, et il est sous-entendu que vous pourriez être en lice pour une sorte de medaille de service.
 
 Le tueur-de-planetes, suppose-t-on, reposera dans un arsenal secret quelque part.",cutCommLink:Couper la comm,
 pk_hegFreeSelCommission,DialogOptionSelected,"$option == pk_hegFree
@@ -37721,7 +37721,7 @@ Et en effet, un faible signal radio est détectable au milieu d'une telle conjon
 Un balayage capteurs révèle une minuscule colonie avec des signes d'industrie et d'agriculture primitives.","
 ",
 PKSentinelInteractionA,PKSentinelOptions,,,,pkSentinel_tryComms:Répondre au signal par comm,
-PKSentinelInteractionB,PKSentinelOptions,,,,"pkSentinel_shuttle:Descendre en navette pour enqueter
+PKSentinelInteractionB,PKSentinelOptions,,,,"pkSentinel_shuttle:Descendre en navette pour enquêter
 defaultLeave:Partir",
 PKSentinelInteractionDEV,PKSentinelOptions,$global.isDevMode,"SetOptionColor pk_sentinelDevOptSetFoundPK gray
 SetOptionColor pk_sentinelDevOptSetSawFleet gray
@@ -37824,11 +37824,11 @@ $askedWhereYouFrom
 $askedAboutStarships
 $askedStayHere","$option = pk_sentinelHubReturn 0
 FireAll PKSentinelHubOptions",,,
-PKSentinelHubConfInA,DialogOptionSelected,$option == pk_sentinelHubConfront,FireAll PKSentinelHubConfront,"Vous pensez a certaines decouvertes que vous avez faites. L'adherence de Skiron aux 'Protocoles' suggere qu'elle ne sera peut-être pas loquace, mais peut-être laissera-t-elle echapper quelque detail si vous lui presentez des faits concrets.",,
+PKSentinelHubConfInA,DialogOptionSelected,$option == pk_sentinelHubConfront,FireAll PKSentinelHubConfront,"Vous pensez a certaines découvertes que vous avez faites. L'adherence de Skiron aux 'Protocoles' suggere qu'elle ne sera peut-être pas loquace, mais peut-être laissera-t-elle echapper quelque detail si vous lui presentez des faits concrets.",,
 PKSentinelHubConfInB,DialogOptionSelected,"$option == pk_sentinelHubConfront
-$gainedSomeTrust",FireAll PKSentinelHubConfront,"Vous considerez certaines de vos decouvertes comme etablies. Bien qu'ouverte a un certain partage d'informations, vous soupconnez que Skiron ne vous livrera guere de renseignements d'une valeur immediate en raison de son adherence aux 'Protocoles'.",,
+$gainedSomeTrust",FireAll PKSentinelHubConfront,"Vous considerez certaines de vos découvertes comme etablies. Bien qu'ouverte a un certain partage d'informations, vous soupconnez que Skiron ne vous livrera guere de renseignements d'une valeur immediate en raison de son adherence aux 'Protocoles'.",,
 PKSentinelHubConfInC,DialogOptionSelected,"$option == pk_sentinelHubConfront
-$showedHegCommission score:2",FireAll PKSentinelHubConfront,"Vous considerez certaines de vos decouvertes comme etablies. Skiron semble faire confiance a votre commission de l'Hégémonie, elle pourrait donc être disposee a combler certaines lacunes sur ce qui s'est exactement passe si vous lui presentez les renseignements que vous possedez déjà.",,
+$showedHegCommission score:2",FireAll PKSentinelHubConfront,"Vous considerez certaines de vos découvertes comme etablies. Skiron semble faire confiance a votre commission de l'Hégémonie, elle pourrait donc être disposee a combler certaines lacunes sur ce qui s'est exactement passe si vous lui presentez les renseignements que vous possedez déjà.",,
 PKSentinelHubConfGantry,PKSentinelHubConfront,"$global.pk_exploredSentinelGantry
 !$confrontedAboutGantry",,,"pk_sentinelAskGantry:""J'ai trouvé vos portiques en orbite. Mais pas de flotte.""",
 PKSentinelHubConfFoundFleet,PKSentinelHubConfront,"$player.encounteredPKDefenderFleet
@@ -38313,7 +38313,7 @@ FireAll ShrineFleetConvOptions","""Vraiment ? Alors je vous accueille dans l'esp
 shrineConvJobResponse,DialogOptionSelected,$option == shrineConv_jobResponse,"$askedAboutJob = true 0
 FireAll ShrineFleetConvOptions","$name secoue la tête avec un sourire patient.
 
-""J'aime à considérer la récompense comme une grâce spirituelle. La plupart des pèlerins sont des gens simples ; ceux qui ne peuvent payer leur voyage ont leur passage financé par l'Eglise, ou par les offrandes charitables des plus prospères parmi les Fidèles.""
+""J'aime à considérer la récompense comme une grâce spirituelle. La plupart des pèlerins sont des gens simples ; ceux qui ne peuvent payer leur voyage ont leur passage financé par l'Église, ou par les offrandes charitables des plus prospères parmi les Fidèles.""
 
 ""Bien sûr, de temps en temps, on rencontre un nouveau converti habitué à un mode de vie plus... mondain. Ils tendent à préférer des accommodations moins humbles que ce qu'offre ma flotte. Vous pourriez trouver de tels personnages cherchant un passage dans un bar de spationautes.""",,
 shrineConvShrineDetailsResponse,DialogOptionSelected,$option == shrineConv_shrineDetailsResponse,"$askedForShrineDetails = true 0
@@ -38521,7 +38521,7 @@ HistorianBackstoryBlurb11,HistorianBackstoryBlurb,!WasHistorianBlurbShown histor
 HistorianBackstoryBlurb12,HistorianBackstoryBlurb,!WasHistorianBlurbShown historyBlurb12,SetHistorianBlurbShownAfterDelay historyBlurb12,"""Dans mes cercles - des historiens, notez bien, pas juste des vieux qui traînent au bar,"" $heOrShe glousse en se moquant de $himOrHerself. ""Nous avons établi une règle : ne pas débattre d'Artemisia Sun sauf si de véritables informations nouvelles apparaissent. Et ça n'arrive jamais !"" $HeOrShe marque une pause, tapotant $hisOrHer livre. ""Mais vous n'êtes pas historien, donc la règle ne s'applique pas. Merveilleux, vous allez m'écouter !""
 
 ""Alors : pourquoi a-t-elle été évincée du conseil juste à temps pour le désastre militaire crucial de la Seconde Guerre IA, pour ensuite revenir triomphalement à son poste avec la crédibilité de tous ses opposants absolument anéantie ? Était-ce simplement un rétablissement impitoyable, ou bien un sacrifice calculé des actifs de Tri-Tachyon afin de consolider son pouvoir personnel dès le départ ?"" $HeOrShe sourit. ""Peut-être pourrons-nous un jour creuser cette théorie jusqu'au bout.""",,
-HistorianBackstoryBlurb13,HistorianBackstoryBlurb,!WasHistorianBlurbShown historyBlurb13,SetHistorianBlurbShownAfterDelay historyBlurb13,"""Comme nous aspirons à un quelconque enregistrement fortuit ne serait-ce que d'un seul des prétendus discours ou actes de Ludd. Incroyable, n'est-ce pas, que toute trace d'un prophète semble avoir disparu ? Ce, hrm, 'miracle' est bien sûr un article de foi parmi les adeptes de l'Eglise de la Rédemption Galactique.""
+HistorianBackstoryBlurb13,HistorianBackstoryBlurb,!WasHistorianBlurbShown historyBlurb13,SetHistorianBlurbShownAfterDelay historyBlurb13,"""Comme nous aspirons à un quelconque enregistrement fortuit ne serait-ce que d'un seul des prétendus discours ou actes de Ludd. Incroyable, n'est-ce pas, que toute trace d'un prophète semble avoir disparu ? Ce, hrm, 'miracle' est bien sûr un article de foi parmi les adeptes de l'Église de la Rédemption Galactique.""
 
 $HeOrShe hausse un sourcil vers vous. ""C'est aussi, officiellement, une politique de l'Hégémonie que de coopérer avec cette absurdité pour apaiser ces Fidèles."" $HeOrShe fronce $hisOrHer sourcils de frustration, ""En tant qu'historien, bien sûr, cela me vexe au plus haut point. L'histoire telle que la vit le commun des mortels est peut-être un récit que la société se raconte à elle-même, et déformé en conséquence. Même ainsi ! Elle doit être fondée sur des faits.""
 
@@ -38537,16 +38537,16 @@ HistorianBackstoryBlurb15,HistorianBackstoryBlurb,!WasHistorianBlurbShown histor
 HistorianBackstoryBlurb16,HistorianBackstoryBlurb,!WasHistorianBlurbShown historyBlurb16,SetHistorianBlurbShownAfterDelay historyBlurb16,"""Quel que fût Ludd, il ne s'agissait pas d'un simple agitateur inculte. D'ailleurs,"" $heOrShe baisse $hisOrHer voix, ""je souscris à la théorie - partagée par plus d'un chercheur laïc, bien que discrètement, très discrètement - selon laquelle Ludd n'était pas un, mais plusieurs. Je soutiendrais que le format actuel du Saint Conseil Oecuménique des Archicurés est le reflet du réseau dirigeant luddic originel, transmis à travers l'histoire et institutionnalisé dans les premières années post-Effondrement.""
 
 ""De l'hérésie, bien sûr. Mais la vérité l'est généralement,"" dit $heOrShe avec un sourire en coin.",,
-HistorianBackstoryBlurb17,HistorianBackstoryBlurb,!WasHistorianBlurbShown historyBlurb17,SetHistorianBlurbShownAfterDelay historyBlurb17,"""La forme contemporaine de l'Eglise de la Rédemption Galactique s'est révélée remarquablement stable en dépit, ou peut-être en raison, de l'arrangement politique chaotique du Secteur Persan immédiatement après l'Effondrement.""
+HistorianBackstoryBlurb17,HistorianBackstoryBlurb,!WasHistorianBlurbShown historyBlurb17,SetHistorianBlurbShownAfterDelay historyBlurb17,"""La forme contemporaine de l'Église de la Rédemption Galactique s'est révélée remarquablement stable en dépit, ou peut-être en raison, de l'arrangement politique chaotique du Secteur Persan immédiatement après l'Effondrement.""
 
 L'historien berce $hisOrHer mains, répétant inconsciemment les vieux gestes d'un cours magistral.
 
 ""Le Saint Conseil Oecuménique des Archicurés statue sur les questions de canon, autorise et délègue les fonctions exécutives, et accomplit certains sacrements exclusifs. Toutefois, ils peuvent être censurés et même laïcisés par une supermajorité des Curés-populaires ! Les titulaires de ces postes plus communs sont ratifiés par les congrégations locales mais doivent être ordonnés par un Archicuré en exercice.""
 
 $HeOrShe sirote du thé, puis fronce les sourcils en regardant $hisOrHer tasse comme si le thé avait refroidi de manière inattendue. ""Bien sûr, c'est considérablement plus compliqué que ça en pratique...""",,
-HistorianBackstoryBlurb18,HistorianBackstoryBlurb,!WasHistorianBlurbShown historyBlurb18,SetHistorianBlurbShownAfterDelay historyBlurb18,"""Il y a ceux au sein de l'Eglise de la Rédemption Galactique - les Luddics, dans le langage courant - qui considèrent que les Chevaliers de Ludd sont une aberration en contradiction avec la vision luddic originelle de l'Eglise. Sans doute vrai,"" l'historien hausse $hisOrHer sourcils face à cette petite hérésie. ""Un examen de ce que les chercheurs s'accordent à considérer comme les passages les plus authentiques du Livre de Ludd suggère que les thèmes de militantisme et de 'chevalerie de la foi' sont probablement des références abstraites à une sorte de volontariat militant semi-sacré qui irait en pratique d'un mouvement de protestation civique jusqu'à, peut-être, l'insurrectionnisme.""
+HistorianBackstoryBlurb18,HistorianBackstoryBlurb,!WasHistorianBlurbShown historyBlurb18,SetHistorianBlurbShownAfterDelay historyBlurb18,"""Il y a ceux au sein de l'Église de la Rédemption Galactique - les Luddics, dans le langage courant - qui considèrent que les Chevaliers de Ludd sont une aberration en contradiction avec la vision luddic originelle de l'Église. Sans doute vrai,"" l'historien hausse $hisOrHer sourcils face à cette petite hérésie. ""Un examen de ce que les chercheurs s'accordent à considérer comme les passages les plus authentiques du Livre de Ludd suggère que les thèmes de militantisme et de 'chevalerie de la foi' sont probablement des références abstraites à une sorte de volontariat militant semi-sacré qui irait en pratique d'un mouvement de protestation civique jusqu'à, peut-être, l'insurrectionnisme.""
 
-""L'avantage pratique d'un ordre militant permanent durant le chaos post-Effondrement et les guerres qui ont suivi doit cependant être admis,"" $heOrShe s'adosse à $hisOrHer siège, contemplatif. ""Et les objecteurs les plus vocaux au sein de l'Eglise elle-même soutiennent que les Chevaliers pèchent par excès plutôt que dans leur ensemble. Les objecteurs moins vocaux ? Eh bien, nous ne connaîtrons peut-être pas leurs pensées avant de très, très nombreux cycles. Les Chevaliers y veillent.""",,
+""L'avantage pratique d'un ordre militant permanent durant le chaos post-Effondrement et les guerres qui ont suivi doit cependant être admis,"" $heOrShe s'adosse à $hisOrHer siège, contemplatif. ""Et les objecteurs les plus vocaux au sein de l'Église elle-même soutiennent que les Chevaliers pèchent par excès plutôt que dans leur ensemble. Les objecteurs moins vocaux ? Eh bien, nous ne connaîtrons peut-être pas leurs pensées avant de très, très nombreux cycles. Les Chevaliers y veillent.""",,
 HistorianBackstoryBlurb19,HistorianBackstoryBlurb,!WasHistorianBlurbShown historyBlurb19,SetHistorianBlurbShownAfterDelay historyBlurb19,"""On spécule que l'Amiral Andrada, l'autoproclamé Exécuteur Suprême du Diktat Sindrien - ou 'Mutinerie Sindrienne' selon le point de vue de l'Hégémonie - fait face au problème trop commun des dictateurs : la succession. Jusqu'à présent, derrière la façade unifiée du Diktat, il semble qu'il ait monté ses principaux soutiens les uns contre les autres pour maintenir la stabilité politique. Désigner un successeur clair aurait perturbé cet équilibre interne.""
 
 ""Et maintenant,"" l'historien parle lentement, se frottant $hisOrHer menton, ""avec le tournant inévitable des cycles et Andrada dont on murmure la santé déclinante, fera-t-il une annonce surprise pour désigner un héritier ? Il y aurait une vague d'arrestations et, j'ose le dire, d'exécutions tandis que les loyaux et les déloyaux envers l'Exécuteur-apparent seraient... triés.""
@@ -38845,7 +38845,7 @@ barOwnColFreeDrink0C:""La 'maison' ne m'appartient-elle pas ?""
 barOwnColFreeDrink0E:""Non merci. Je n'ai, euh, pas soif.""",
 BarOwnColFreeDrink0A,DialogOptionSelected,$option == barOwnColFreeDrink0A,BarCMD showOptions,Le serveur hoche la tete et disparait poliment. Une gorgee revele que c'est parfaitement a votre gout.,,
 BarOwnColFreeDrink0B,DialogOptionSelected,$option == barOwnColFreeDrink0B,BarCMD showOptions,Vous prenez le verre et le serveur disparait poliment. Une gorgee revele que c'est parfaitement a votre gout.,,
-BarOwnColFreeDrink0C,DialogOptionSelected,$option == barOwnColFreeDrink0C,,"""Techniquement oui, $playerSirOrMadam, bien que votre organisation sous-loue au proprietaire. Qui, d'ailleurs, vous transmet ses compliments.""","barOwnColFreeDrink0A:""Merci.""
+BarOwnColFreeDrink0C,DialogOptionSelected,$option == barOwnColFreeDrink0C,,"""Techniquement oui, $playerSirOrMadam, bien que votre organisation sous-loue au propriétaire. Qui, d'ailleurs, vous transmet ses compliments.""","barOwnColFreeDrink0A:""Merci.""
 barOwnColFreeDrink0B:Prendre le verre
 barOwnColFreeDrink0D:""Je souhaite payer comme n'importe quel autre client. J'insiste.""
 barOwnColFreeDrink0E:""Non merci. Je n'ai, euh, pas soif.""",
@@ -39147,7 +39147,7 @@ Highlight ""Church of Galactic Redemption""
 $player.everAskedForFreeSupplies = true
 FireAll PopulateOptions","$HeOrShe jette un coup d'oeil à un écran secondaire, vérifiant l'identification de votre $shipOrFleet.
 
-""La charité est peut-être une vertu, spacier,"" dit $heOrShe, ""mais je n'envisagerais même votre requête que si vous étiez réellement dans le besoin - et commissionné au service de l'Eglise de la Rédemption Galactique.""
+""La charité est peut-être une vertu, spacier,"" dit $heOrShe, ""mais je n'envisagerais même votre requête que si vous étiez réellement dans le besoin - et commissionné au service de l'Église de la Rédemption Galactique.""
 
 ""Gardez à l'esprit que l'avidité est un vice, alors priez là-dessus en passant votre chemin.""",,
 bqfsAskedForSupplies,DialogOptionSelected,"$option == bqfs_askForSupplies
@@ -39187,7 +39187,7 @@ FireBest DialogOptionSelected","""Je vois votre combine, capitaine, et bien que 
 $HeOrShe soupire, secouant la tête. ""Je signale votre identifiant de commission pour un cycle. Maintenant, dégagez de mes comms.""",,
 bqfsAskedForSuppliesScamChurch,DialogOptionSelected,"$option == bqfs_askForSuppliesScam
 $faction.id == luddic_church","$option = bqfs_askForSuppliesScamOut 0
-FireBest DialogOptionSelected","""Je marche peut-être avec Ludd, mais on ne devient pas $post en prenant chaque spacier au mot sur la seule base de la foi. J'avais espéré qu'un capitaine commissionné par l'Eglise ne tenterait jamais l'arnaque du largage de cargaison sur moi, mais vous voilà.""
+FireBest DialogOptionSelected","""Je marche peut-être avec Ludd, mais on ne devient pas $post en prenant chaque spacier au mot sur la seule base de la foi. J'avais espéré qu'un capitaine commissionné par l'Église ne tenterait jamais l'arnaque du largage de cargaison sur moi, mais vous voilà.""
 
 $HeOrShe soupire, secouant la tête. ""Je signale votre commission pour un cycle, afin que vous puissiez réfléchir et prier pour le pardon. Maintenant, retirez votre face pécheresse de mes comms.""",,
 bqfsAskedForSuppliesScamLeague,DialogOptionSelected,"$option == bqfs_askForSuppliesScam
@@ -40387,7 +40387,7 @@ gaDHOjustFoundArrayStart,OpenInteractionDialog,"!$global.foundOneslaught
 $oneslaughtSensorArray score:100
 !$global.gaDHO_inProgress","ShowDefaultVisual
 PrintDescription 1
-AddText ""Un scan de routine montre que ce reseau de capteurs a ete modifie.""","
+AddText ""Un scan de routine montre que ce réseau de capteurs a ete modifié.""","
 
 
 
@@ -40754,7 +40754,7 @@ gaDHOvisitElekAltPaymentOutB,DialogOptionSelected,"$option == gaDHO_visitElekAlt
 $didExplanation",FireAll gaDHOvisitElekAltAskHub,,,
 gaDHOvisitElekAltWrapup0,DialogOptionSelected,$option == gaDHO_visitElekAltWhatIsItAgain,,"""Well."" He pauses to make a thoughtful expression.
 
-""That's a complex question to answer. The data,"" he manipulates his datapad, pulling up charts and diagrams in his large holodisplay, ""It provides the opportunity for many interpretations, often contradictory...""
+""That's a complex question to answer. The data,"" he manipulates his datapad, pulling up charts and diagrams in his large holodisplay, ""It provides the opportunity for many interprétations, often contradictory...""
 
 He proceeds like this with little sign of stopping. It's soon clear to you that he doesn't know.","gaDHO_visitElekAltWrapup1:""My people say it's pointing at a rock in the Abyss. Something happened there.""",
 gaDHOvisitElekAltWrapup1,DialogOptionSelected,$option == gaDHO_visitElekAltWrapup1,,"""-Yes, of course."" You see a flash of annoyance as his lecture is interrupted, but Elek manages to adjust to a new line of discourse.
