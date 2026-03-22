@@ -211,7 +211,7 @@ Tous les noms de personnages restent en anglais :
 - Éviter le langage familier sauf dans les dialogues de pirates ou de personnages populaires.
 
 ### Conventions typographiques
-- **Encodage CSV : Latin1 (ISO-8859-1)**, pas UTF-8. Tous les fichiers CSV de Starsector utilisent cet encodage.
+- **Encodage CSV : UTF-8** (confirmé par test en jeu 2026-03-22). Le vanilla est ASCII pur, le mod utilise UTF-8 pour les accents FR.
 - Pas d'accents dans les fichiers strings.json (limitation moteur — vérifié : aucun caractère accentué présent).
 - Les fichiers tips.json, descriptions.csv et .faction supportent les accents et caractères spéciaux (dans la limite du jeu de caractères Latin1).
 - Les guillemets français `« »` (U+00AB, U+00BB) sont **obligatoires** dans les traductions FR. Bug moteur en cours de résolution (cf. issue #25).
