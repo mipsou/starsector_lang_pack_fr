@@ -638,7 +638,7 @@ Ce n'est pas un vaisseau-tombeau, cependant.
 En nombre, la majeure partie de l'équipage semble avoir évacué avant de laisser la coque à l'abandon. Quelques malheureuses victimes de violence interpersonnelle semblent avoir été laissées derrière lors d'un conflit interne, et les cycles n'ont pas été cléments alors que ce qui restait des systèmes de support vital défaillait lentement.",GS_PIRATES_cont2:Continuer,
 GS_PIRATES_cont2Sel,DialogOptionSelected,$option == GS_PIRATES_cont2,$salvageLeaveText = Leave 0,"Un examen rapide des journaux de bord que les officiers superieurs ont daigne tenir suggere que ce vaisseau faisait partie d'une petite flottille pirate traquant une expedition independante bien approvisionnee progressant a travers la frange exterieure. Cette expedition repera les pirates, puis brula rapidement vers l'Abysse. Les pirates suivirent et perdirent bientot leur proie dans les tenebres abrutissantes.
 
-Avec des reserves et du carburant en baisse et sans certitude d'un 'reapprovisionnement hostile', les chefs pirates se mirent a se disputer, puis a demanteler des coques tout en consolidant les equipages sur les vaisseaux restants - sous la menace d'une arme, si necessaire.
+Avec des reserves et du carburant en baisse et sans certitude d'un 'reapprovisionnement hostile', les chefs pirates se mirent a se disputer, puis a demanteler des coques tout en consolidant les equipages sur les vaisseaux restants - sous la menace d'une arme, si nécessaire.
 
 Il n'y avait pas tout a fait assez de place pour tout le monde, semble-t-il.","salExplore:Évaluer the ship's salvage value
 defaultLeave:Partir",
@@ -664,7 +664,7 @@ $player.metZGR",,He goes on to describe various torments deserved due to the poo
 GS_ZGR_MERC_cont4Sel,DialogOptionSelected,$option == GS_ZGR_MERC_cont4,ShowImageVisual salvor_explore_hull,"Your ops chief gives the order, and salvage teams move to prioritize the recovery of datacores and sensor buffers.
 
 They are efficient in their work, and soon their relays hum with recovered data. Tiny packet drones shuttle recovered hardware between the wreck and your $shipOrFleet.",GS_ZGR_MERC_cont5:Investigate the results,
-GS_ZGR_MERC_cont5Sel,DialogOptionSelected,$option == GS_ZGR_MERC_cont5,$salvageLeaveText = Leave 0,"Your tech officer is only frustrated by the results, however. The datacores have been wiped, memory overwritten thousands of times with hateful messages directed at Glamor-Rotanev. If these mercs found anything, if their logs had any clues, it's all been erased. If there was anything esoteric in their cargo holds, it's been dumped.
+GS_ZGR_MERC_cont5Sel,DialogOptionSelected,$option == GS_ZGR_MERC_cont5,$salvageLeaveText = Leave 0,"Your tech officer is only frustrated by the results, however. The datacores have been wiped, memory overwritten thousands of times with hâteful messages directed at Glamor-Rotanev. If these mercs found anything, if their logs had any clues, it's all been erased. If there was anything esoteric in their cargo holds, it's been dumped.
 
 ""It's all just scrap, $playerSirOrMadam,"" your tech officer reports, disappointed. Your ops chief grunts neutral acknowledgement; it's always scrap to them.","salExplore:Assess the ship's salvage value
 defaultLeave:Partir",
@@ -728,12 +728,12 @@ FireAll gsVambraceHubOpts",Your $shipOrFleet approaches $aOrAn $nameInText.,,
 gsVambOptHubDescriptionA,gsVambraceHubOpts,"!$didDescription
 !$player.hasThreatDetectionSensorMods",$didDescription = true 0,"A starship-sized metal structure spins slowly before your $shipOrFleet. It is no ship, but a regular form of asymmetric proportions with a trough-like interior. It appears to have sustained tremendous battle-damage on its convex face, which is riven with gaping holes.
 
-A cloud of debris, presumably from the structure, hangs in the blackness like flies around a corpse.",,
+A cloud of débris, presumably from the structure, hangs in the blackness like flies around a corpse.",,
 gsVambOptHubDescriptionB,gsVambraceHubOpts,"!$didDescription
 $player.hasThreatDetectionSensorMods
 !PlayerFleetHasShipWithBaseHull onslaught_mk1",$didDescription = true 0,"A starship-sized metal structure spins slowly before your $shipOrFleet. It is no ship, but a modular armor section from the Onslaught Mk.I which your sensors officer readily matches to your records despite the tremendous battle-damage.
 
-Smaller pieces of debris, presumably from the structure, hang in the blackness like flies around a corpse.",,
+Smaller pieces of débris, presumably from the structure, hang in the blackness like flies around a corpse.",,
 gsVambOptHubDescriptionC,gsVambraceHubOpts,"!$didDescription
 $player.hasThreatDetectionSensorMods
 PlayerFleetHasShipWithBaseHull onslaught_mk1","$didDescription = true 0
@@ -741,7 +741,7 @@ $playerHasOneslaught = true","A starship-sized metal structure spins slowly befo
 
 Your sensors officer builds a scan of the structure from your $shipOrFleet's sensor suite then overlays it onto the 'arm' of your own Onslaught Mk.I. The visual match is obvious despite the violence which has torn and warped the structure.
 
-Smaller pieces of debris, presumably from the vambrace, hang in the blackness like flies around a corpse.",,
+Smaller pieces of débris, presumably from the vambrace, hang in the blackness like flies around a corpse.",,
 gsVambOptHubA,gsVambraceHubOpts,!$scanned,,,gsVambrace_explore1:Run a detailed scan,
 gsVambOptHubB,gsVambraceHubOpts,"$scanned
 !$investigated",,,gsVambrace_salvors1:Send salvors in for a closer look,
@@ -770,7 +770,7 @@ gsVambraceSalvors1,DialogOptionSelected,$option == gsVambrace_salvors1,ShowImage
 
 Your operations chief nods, then barks out deployment orders to the waiting salvor teams.
 
-The investigation proceeds smoothly. The derelict structure and its attendant debris are truly cold and dead. Such battle-damage is familiar to your salvors, and this survey even easier due to the apparent lack of live munitions and none of the usual frozen or fried vacuum-desiccated remains.
+The investigation proceeds smoothly. The derelict structure and its attendant débris are truly cold and dead. Such battle-damage is familiar to your salvors, and this survey even easier due to the apparent lack of live munitions and none of the usual frozen or fried vacuum-desiccated remains.
 
 Sensing a laxity in the crews, your ops chief growls admonitions over the general comms then orders a more detailed adherence to procedure.",gsVambrace_salvors2:Continuer,
 gsVambraceSalvors2,DialogOptionSelected,$option == gsVambrace_salvors2,,"As reports and scans come in, a picture emerges - both a detailed holographic mapping and an understanding of what this structure is.
@@ -788,7 +788,7 @@ Your ops chief maintains an even expression, pointedly unreactive to this stutte
 gsVambraceSalvors4,DialogOptionSelected,$option == gsVambrace_salvors4,"$investigated = true
 FireAll gsVambraceHubOpts","""Judging by the battle damage..."" Your technology officer looks back at the specs, struggling. ""There was a battle.""
 
-A look of concern grows. ""It has been here for a long time, but from the debris cloud... the conditions are strange enough, but I would speculate that this is not an untouched site. It's nothing like salvagers or scrappers, they've got distinctive patterns. I couldn't say who, or what, but I suspect the site has been disturbed, or moved.""
+A look of concern grows. ""It has been here for a long time, but from the débris cloud... the conditions are strange enough, but I would speculate that this is not an untouched site. It's nothing like salvagers or scrappers, they've got distinctive patterns. I couldn't say who, or what, but I suspect the site has been disturbed, or moved.""
 
 ""If only it had datacores, buffers, something to analyze!"" Tech looks at your ops chief, who gives a single shake of their head.",,
 gsVambraceSalvors1b,DialogOptionSelected,"$option == gsVambrace_salvors1
@@ -796,7 +796,7 @@ $playerHasOneslaught",ShowImageVisual cache_large,"You give the word.
 
 Your operations chief nods, then barks out deployment orders to the waiting salvor teams.
 
-The investigation proceeds smoothly. The structure and its attendant debris are truly cold and dead. Such battle-damage is familiar to your salvors, and this survey even easier due to the apparent lack of live munitions and none of the usual frozen or fried vacuum-desiccated remains.
+The investigation proceeds smoothly. The structure and its attendant débris are truly cold and dead. Such battle-damage is familiar to your salvors, and this survey even easier due to the apparent lack of live munitions and none of the usual frozen or fried vacuum-desiccated remains.
 
 Sensing a laxity in the crews, your ops chief growls admonitions over the general comms then orders a more detailed adherence to procedure.",gsVambrace_salvors2b:Continuer,
 gsVambraceSalvors2b,DialogOptionSelected,$option == gsVambrace_salvors2b,,"Reports and scans come in, a detailed holographic mapping forms in your primary display, and all data confirms with certainty that this is an Onslaught Mk.I vambrace.
@@ -807,7 +807,7 @@ The engineering is all recognizable as related to Domain standards, but as if fr
 gsVambraceSalvors3b,DialogOptionSelected,$option == gsVambrace_salvors3b,"$investigated = true
 FireAll gsVambraceHubOpts","""Judging by the battle damage..."" Your technology officer looks back at the specs, struggling. ""There was a battle.""
 
-A look of concern grows. ""It has been here for a long time, but from the debris cloud... and just one vambrace, abandoned here? The conditions are strange enough, but I would speculate that this is not an untouched site. It doesn't look like salvagers or scrappers, they've got distinctive patterns. I couldn't say who, or what, but I suspect the site has been disturbed. Or moved.""
+A look of concern grows. ""It has been here for a long time, but from the débris cloud... and just one vambrace, abandoned here? The conditions are strange enough, but I would speculate that this is not an untouched site. It doesn't look like salvagers or scrappers, they've got distinctive patterns. I couldn't say who, or what, but I suspect the site has been disturbed. Or moved.""
 
 ""If only it had datacores, buffers, something to analyze!"" Tech looks at your ops chief, who gives a single shake of their head.",,
 ,,,,,,
@@ -1014,18 +1014,18 @@ $makeTranverseJumpCostMoreCROnce = true","""$PlayerSirOrMadam,"" répondent-ils 
 #ask about:Questionner sur...
 cutCommLink:Couper la comm",
 # wormhole cache,,,,,,
-limboWormholeCacheBegin,BeginSalvage,$limboWormholeCache score:1000,,"Les defenses automatisees neutralisees, vos recupérateurs sont libres de forcer les enormes coffres en apesanteur du depot. L'electricite est envoyee dans des conduits morts, les circuits fusionnes remplaces par des raccords temporaires, et les grandes portes persuadees de relacher leurs contraintes mecaniques.
+limboWormholeCacheBegin,BeginSalvage,$limboWormholeCache score:1000,,"Les defenses automatisees neutralisees, vos recupérateurs sont libres de forcer les énormes coffres en apesanteur du depot. L'electricite est envoyee dans des conduits morts, les circuits fusionnes remplaces par des raccords temporaires, et les grandes portes persuadees de relacher leurs contraintes mecaniques.
 
-Au debut, il semble vide. Un tombeau colossal, jamais rempli. Puis le radar monte sur sonde commence a construire une image sur l'ecran de votre passerelle tandis que les lampes de combinaison projettent leurs faisceaux dans l'espace, captant des nuages de poussière et de gaz liberes par la reouverture. Des etraves luisent dans l'obscurite, revelant une symetrie radiale triple.
+Au debut, il semble vide. Un tombeau colossal, jamais rempli. Puis le radar monte sur sonde commence a construire une image sur l'écran de votre passerelle tandis que les lampes de combinaison projettent leurs faisceaux dans l'espace, captant des nuages de poussière et de gaz liberes par la reouverture. Des etraves luisent dans l'obscurite, revelant une symetrie radiale triple.
 
-""$PlayerSirOrMadam,"" dit votre officier technique, l'attention rivee non pas sur les cameras de combinaison ou l'ecran de passerelle mais sur les specifications techniques defilant sur un affichage déjà sature de diagrammes et de documents. ""Il faut que vous voyiez ca.""",limbo_wormholeCacheBegin2:Continuer,
+""$PlayerSirOrMadam,"" dit votre officier technique, l'attention rivée non pas sur les cameras de combinaison ou l'écran de passerelle mais sur les specifications techniques défilant sur un affichage déjà saturé de diagrammes et de documents. ""Il faut que vous voyiez ca.""",limbo_wormholeCacheBegin2:Continuer,
 limboWormholeCacheBegin2,DialogOptionSelected,$option == limbo_wormholeCacheBegin2,"$player.gotWormholeCalibrationData = true
 AddTextSmall ""Acquired wormhole calibration data for nearby stable location"" highlight","C'est ancien. très ancien. Mais les requetes envoyees par les interfaces de vos recupérateurs reviennent au vert. Pour l'essentiel.
 
-""C'est un ancrage de trou de ver,"" explique votre officier technique, l'excitation palpable. ""Charge de donnees de calibration, et de carburant pour alimenter ce qu'il était cense faire. Il était prepare pour être deploye au point de stabilite proche. L'automatisation s'est mise en veille a un moment donne, et... le voila.""","salPerform:Examiner la trouvaille
+""C'est un ancrage de trou de ver,"" explique votre officier technique, l'excitation palpable. ""Charge de donnees de calibration, et de carburant pour alimenter ce qu'il était cense faire. Il était prepare pour être déployé au point de stabilite proche. L'automatisation s'est mise en veille a un moment donne, et... le voila.""","salPerform:Examiner la trouvaille
 100:defaultLeave:Partir",
 limboWormholeCacheBeginAgain,BeginSalvage,"$limboWormholeCache score:1000
-$player.gotWormholeCalibrationData",,"Les enormes coffres en apesanteur du depot sont ouverts, leurs profondeurs noires de presage comme un tombeau colossal.
+$player.gotWormholeCalibrationData",,"Les énormes coffres en apesanteur du depot sont ouverts, leurs profondeurs noires de presage comme un tombeau colossal.
 
 L'ancien ancrage de trou de ver attend en son centre, le scintillement et la caresse des requetes de statut revenant au vert, en grande partie. Il est toujours prepare pour être utilise au point de stabilite voisin, mais la cargaison de transplutoniques que ses systemes automatises attendaient n'a jamais été livree.","salPerform:Examiner la trouvaille
 100:defaultLeave:Partir",
@@ -1047,7 +1047,7 @@ gateHaulerStart1,OpenInteractionDialog,"$gateHauler
 
 C'est un Leviathan surgi du fond des ages, a la fois familier de par ses nombreuses et variees representations dans la culture secondaire du Secteur Persan post-Effondrement.
 
-Mais le voir ici en chair et en os, pour ainsi dire, c'est la force extraterrestre de la puissance du Domaine reifiee devant vous, se dressant comme un empereur noirci affaisse - mais revant encore - sur un trone d'etoiles.
+Mais le voir ici en chair et en os, pour ainsi dire, c'est la force extraterrestre de la puissance du Domaine reifiee devant vous, se dressant comme un empereur noirci affaisse - mais revant encore - sur un trone d'étoiles.
 
 Vous sentez le poids de l'histoire peser sur votre poitrine, un son comme un tintement lointain. Vous êtes fige un instant inconscient comme si votre esprit était pris dans le regard d'un dieu ; et l'instant d'apres il n'y a plus que le bourdonnement des conduits electriques et le ronronnement grave de l'antigrav dans la bulle de propulsion, habituellement relegues dans un filtre d'imperception par votre subconscient.
 
@@ -1076,7 +1076,7 @@ gh_exploreSel3a,DialogOptionSelected,$option == gh_explore3,,"Les archives ancie
 
 Vos officiers concluent que, comme c'est typique du Domaine, les descriptions accessibles au public semblent passer sous silence certaines technologies et capacites cles.
 
-Quoi qu'il en soit, votre inspection n'a rien revele de tout cela - a part la Porte elle-meme encore non deployee, bien sur, maintenue fermement par la face aux multiples bras du grand vaisseau.",gh_explore4:Continuer,
+Quoi qu'il en soit, votre inspection n'a rien revele de tout cela - a part la Porte elle-meme encore non déployée, bien sur, maintenue fermement par la face aux multiples bras du grand vaisseau.",gh_explore4:Continuer,
 gh_exploreSel3b,DialogOptionSelected,"$option == gh_explore3
 $player.gotWormholeCalibrationData",,"Les archives anciennes indiquent que les Transporteurs de Portails embarquaient un contingent standard de drones automatisés d'exploration, d'extraction et de raffinage en cas de perte de contact. Les documents semblent impliquer la capacité de se procurer de nouvelles sources de carburant et de matériaux efficacement à de vastes distances du point de sécurité, bien qu'à l'échelle suggérée, ce processus serait inefficace à des vitesses supraluminiques même via l'hyperespace - en supposant l'utilisation de la technologie de frontière standard du Domaine.
 
@@ -1259,7 +1259,7 @@ marketPostOpenToOffPatrols,MarketPostOpen,"$hasMarket
 !$faction.c:allowsTransponderOffTrade
 !$market.mc:free_market
 IsSeenByPatrols $faction.id true","$tradeMode = NONE 0
-AddText ""Your need to turn on your transponder to engage in legitimate trade, or to come in undetected to trade on the black market."" bad
+AddText ""Vous devez activer votre transpondeur pour commercer legalement, ou passer inapercu pour commercer au marche noir."" bad
 FireBest MarketPostDock","Votre $shipOrFleet se met en orbite autour de $marketName, ignorant les demandes de l'autorité portuaire $faction de vous identifier.
 
 Au moins une patrouille $faction suit vos mouvements, et aucun contact clandestin n'est prêt à prendre le risque de faire affaire.",,
@@ -2239,7 +2239,7 @@ LPTitheCheck,BeginFleetEncounter,"$faction.id == luddic_path score:100
 #$relativeStrength >= 0
 LPTitheCalc","$LP_titheConv = true 0
 $LP_titheAskedFor = true 7
-AddText ""You're being hailed by the $faction $otherShipOrFleet."" $faction.baseColor
+AddText ""Vous etes interpelle par le $otherShipOrFleet $faction."" $faction.baseColor
 $hailing = true 0",,,
 LPTithePre,OpenCommLink,$entity.LP_titheConv score:100,"SetTextHighlights $entity.LP_titheDGS
 $entity.ignorePlayerCommRequests = true 1
@@ -2272,7 +2272,7 @@ payMegaTitheConfirmSel,DialogOptionSelected,$option == payMegaTitheConfirm,"Make
 HA_CMD payMegaTithe
 $entity.LP_tithePaid = true 100
 MakeOtherFleetNonHostile LP_tithe true 100
-AddText ""The connection is cut before you have a chance to respond.""
+AddText ""La connexion est coupee avant que vous n'ayez le temps de repondre.""
 ShowDefaultVisual
 EndConversation","""Peut-être que votre âme n'est pas encore perdue au profit de la machine,"" dit-$heOrShe joyeusement. ""Il est possible que vos péchés soient pardonnés sans la purge du feu sacré.""
 OR
@@ -2286,7 +2286,7 @@ AddRemoveCommodity credits -$entity.LP_tithe true
 $entity.LP_tithePaid = true 30
 MakeOtherFleetNonHostile LP_tithe true 30
 $entity.makeNonHostileTakesPriority = true 30
-AddText ""The connection is cut before you have a chance to respond.""
+AddText ""La connexion est coupee avant que vous n'ayez le temps de repondre.""
 ShowDefaultVisual
 EndConversation","""Peut-être que votre âme n'est pas encore perdue au profit de la machine.""
 OR
@@ -2401,7 +2401,7 @@ OR
 $relativeStrength >= 0
 DemandCargo playerHasValuableCargo","$ptc_cargoConv = true 0
 $ptc_askedForCargo = true 7
-AddText ""You're being hailed by the $faction $otherShipOrFleet."" $faction.baseColor
+AddText ""Vous etes interpelle par le $otherShipOrFleet $faction."" $faction.baseColor
 $hailing = true 0",,,
 piratesDemandCargo,OpenCommLink,$entity.ptc_cargoConv score:100,"#SetTextHighlights $entity.LP_titheDGS
 $entity.ignorePlayerCommRequests = true 1","""Eh bien, eh bien. Normalement c'est le moment où je commencerais à tirer, mais mes capteurs signalent une cargaison intéressante que je ne voudrais pas mettre en danger.
@@ -2482,75 +2482,75 @@ FireAll PopulateOptions","""Citoyen du Domaine, ce vaisseau-drone automatisé a 
 ,,,,,,
 ,,,,,,
 # Trade panel flavor text,,,,,,
-flavorTextMarketGeneric,TradePanelFlavorText,$global.tradePanelMode == MARKET,"AddText ""The port concourse is filled with trader starcraft of every size. Speculators crowd offloading ship captains with deals and peddlers call out to crew, holding wares and projecting personal ad-holos."" marketFlavorTextColor",,,
+flavorTextMarketGeneric,TradePanelFlavorText,$global.tradePanelMode == MARKET,"AddText ""Le hall portuaire grouille de vaisseaux marchands de toutes tailles. Des spéculateurs assaillent les capitaines en déchargement tandis que des colporteurs interpellent les equipages, brandissant leurs marchandises et projetant des holos publicitaires."" marketFlavorTextColor",,,
 flavorTextMarketGenericSmall,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $marketSize < 4
-$stability > 1","AddText ""The humble port concourse is filled with small freighters and freelancers down or up on their luck, identifiable by the shine or grime of ship armor and volume of cargo on-loading. A handful of speculators who all seem to know each other crowd offloading ship captains as they arrive while peddlers call out to crew, holding wares and projecting personal ad-holos."" marketFlavorTextColor",,,
+$stability > 1","AddText ""Le modeste hall portuaire accueille de petits cargos et des indépendants plus ou moins chanceux, reconnaissables a l'éclat ou a la crasse de leur blindage et au volume de cargaison en chargement. Une poignee de spéculateurs qui semblent tous se connaître assaillent les capitaines a leur arrivée tandis que des colporteurs interpellent les equipages, brandissant leurs marchandises et projetant des holos publicitaires."" marketFlavorTextColor",,,
 flavorTextMarketGenericUnstable,TradePanelFlavorText,"$global.tradePanelMode == MARKET
-$stability == 1","AddText ""The port concourse holds only a strew of trader starcraft. A few fidgety-looking speculators seek offloading ship captains with deals. Most peddlers seem to have scurried off - and in a hurry, judging from the detritus, though a few enterprising merchants still do business. The local constabulary appears to have deployed patrols of power-armor units while security drones buzz conspicuously overhead."" marketFlavorTextColor",,,
+$stability == 1","AddText ""Le hall portuaire ne contient qu'une poignee de vaisseaux marchands éparpillés. Quelques spéculateurs nerveux cherchent des capitaines en déchargement. La plupart des colporteurs semblent avoir déguerpis en hâte, a en juger par les débris, bien que quelques marchands tenaces poursuivent leurs affaires. La police locale a déployé des patrouilles en armures assistees tandis que des drones de securite bourdonnent ostensiblement au-dessus."" marketFlavorTextColor",,,
 flavorTextMarketGenericVeryUnstable,TradePanelFlavorText,"$global.tradePanelMode == MARKET
-$stability == 0","AddText ""The port concourse contains only a few ships, and half of those look like warcraft. Armed gangs of crew huddle around each spacecraft, guarding on- and off-loading cargo. A few brave speculators seem to hurry between spaces which offer what they imagine will provide cover as security drones buzz overhead in a rush to some incident or another."" marketFlavorTextColor",,,
+$stability == 0","AddText ""Le hall portuaire ne contient que quelques vaisseaux, dont la moitie ressemble a des navires de guerre. Des bandes d'equipages armes se massent autour de chaque appareil, gardant le chargement et le déchargement. Quelques spéculateurs téméraires se hâtent entre les espaces offrant ce qu'ils imaginent etre une couverture tandis que des drones de securite filent au-dessus, se précipitant vers un incident ou un autre."" marketFlavorTextColor",,,
 flavorTextMarketPirateUnstable,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $stability == 1
-$faction.id == pirates","AddText ""The port concourse is filled with a few scarred hulls underlit by the flicker of ID-chips being lasered off cargo containers. Armed pirate crews huddle around their ships, glaring and posturing challenges at rival crews.The entire facility look more poorly-maintained than usual with suspicious scorches and stains marring several bulkheads. Heavies of the portboss stare coolly, ready to use their weapons."" marketFlavorTextColor",,,
+$faction.id == pirates","AddText ""Le hall portuaire abrite quelques coques balafrées eclairees par le scintillement des puces d'identification decoupees au laser sur les conteneurs. Des equipages pirates armes se massent autour de leurs vaisseaux, fusillant du regard et provoquant les equipages rivaux. L'ensemble des installations semble encore plus mal entretenu que d'habitude, avec des traces de brulures suspectes et des taches maculant plusieurs cloisons. Les hommes de main du chef de port observent froidement, prets a utiliser leurs armes."" marketFlavorTextColor",,,
 flavorTextMarketPirateVeryUnstable,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $stability == 0
-$faction.id == pirates","AddText ""Only one or two brightly-hulled pirate vessels are docked on the port concourse and their point-defense turrets track your shuttle - a clear provocation. A swaggering lieutenant of the portboss approaches, flanked by armed thugs. His request for a bribe is interrupted by muted gunshots; he smiles at your reaction and you quickly realize that he's either high or drunk. The air smells of smoke and high-energy ionization."" marketFlavorTextColor",,,
+$faction.id == pirates","AddText ""Un ou deux vaisseaux pirates aux coques voyantes sont amarrés au hall portuaire et leurs tourelles de defense de point suivent votre navette — une provocation ouverte. Un lieutenant fanfaron du chef de port s'approche, flanque de brutes armees. Sa demande de pot-de-vin est interrompue par des coups de feu etouffes ; il sourit devant votre reaction et vous realisez vite qu'il est soit defonce, soit ivre. L'air empeste la fumee et l'ionisation haute energie."" marketFlavorTextColor",,,
 flavorTextMarketPerseanLeague,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $faction.id == persean
-$stability > 1","AddText ""The port concourse is filled with trader starcraft of every size and shape. Speculators crowd offloading ship captains with deals and peddlers call out to crew, holding wares and projecting personal ad-holos. Groups of League Navy spacers and officers are identifiable by their standard uniforms and proclivity for holding formation even when off-duty. Meanwhile, the local constabulary is dressed in obstinate dissimilarity from that of any other League world, though they maintain a universal poise of authority and watchfulness. League emblems are displayed on a few municipal active-surfaces as a bit of an afterthought."" marketFlavorTextColor",,,
+$stability > 1","AddText ""Le hall portuaire grouille de vaisseaux marchands de toutes tailles et formes. Des spéculateurs assaillent les capitaines en déchargement tandis que des colporteurs interpellent les equipages, brandissant leurs marchandises et projetant des holos publicitaires. Des groupes de marins et officiers de la Marine de la Ligue sont reconnaissables a leurs uniformes reglementaires et a leur tendance a maintenir la formation meme hors service. La police locale porte des tenues obstinement differentes de celles des autres mondes de la Ligue, tout en conservant une posture universelle d'autorite et de vigilance. Des emblemes de la Ligue s'affichent sur quelques surfaces municipales actives, presque comme une arriere-pensee."" marketFlavorTextColor",,,
 flavorTextMarketLuddicPath,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $faction.id == luddic_path
-$stability > 1","AddText ""Shabby trader starcraft huddle along the port concourse alongside scarred Pather raiders, dominating in bright livery. Luddic merchants await meetings with offloading ship captains. Peddlers offer street food and handcrafts to spacer crew while monks pray quietly over begging-bowls. A handful of ranters harangue outsiders under the assured gaze of righteous Pather militants."" marketFlavorTextColor
-AddText ""Open display of technological vice not strictly necessary for duty and survival is not tolerated here. As such, one quickly learns not to display cybernetic mods and flashy gadgets. The lack of holoprojectors gives the feeling of an ancient history edutainment sim."" marketFlavorTextColor",,,
+$stability > 1","AddText ""Des vaisseaux marchands miteux s'entassent le long du hall portuaire aux cotes de raiders Voilistes balafrés, dominants dans leurs livrees voyantes. Des marchands luddiques attendent les capitaines en déchargement. Des colporteurs proposent de la nourriture de rue et de l'artisanat aux equipages tandis que des moines prient silencieusement au-dessus de leurs bols d'aumone. Une poignee de prédicateurs haranguent les étrangers sous le regard assure de militants voilistes convaincus."" marketFlavorTextColor
+AddText ""L'etalage de vices technologiques non strictement nécessaires au devoir et a la survie n'est pas tolere ici. On apprend vite a ne pas exhiber ses mods cybernetiques et gadgets clinquants. L'absence d'holoprojecteurs donne l'impression d'etre dans une simulation historique educative."" marketFlavorTextColor",,,
 flavorTextMarketTriTachyon,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $faction.id == tritachyon
 $marketSize >= 4","AddText ""The port concourse is filled with trader starcraft of every size. Speculators crowd offloading ship captains with deals and peddlers call out to crew, holding wares and projecting personal ad-holos."" marketFlavorTextColor
-AddText ""A Tri-Tachyon franchise official welcomes you and offers to update your PDA with the latest Company rates for the local commodity market."" marketFlavorTextColor",,,
+AddText ""Un representant de la franchise Tri-Tachyon vous accueille et propose de mettre a jour votre PDA avec les derniers tarifs de la Compagnie pour le marche local."" marketFlavorTextColor",,,
 flavorTextMarketPirates,TradePanelFlavorText,"$global.tradePanelMode == MARKET
-$faction.id == pirates","AddText ""The port concourse is filled with scarred hulls underlit by the flicker of ID-chips being lasered off cargo containers. Pirate crews swagger in packs, sizing each other up, while their captains cut deals in smoky back rooms. Flunkies of the portboss look on with weapons unslung."" marketFlavorTextColor",,,
+$faction.id == pirates","AddText ""Le hall portuaire est rempli de coques balafrées eclairees par le scintillement des puces d'identification decoupees au laser sur les conteneurs. Des equipages pirates se pavanent en bandes, se jaugeant mutuellement, tandis que leurs capitaines concluent des affaires dans des arriere-salles enfumees. Les sbires du chef de port observent la scene, armes degainees."" marketFlavorTextColor",,,
 flavorTextMarketHegemony,TradePanelFlavorText,"$global.tradePanelMode == MARKET
-$faction.id == hegemony","AddText ""Hegemony patrol skiffs slip between looming bulk freighters and the pitted hulls of fighting-traders that fill the port concourse. Offloading ship captains are met crisply by a Hegemony logistics officer, cleared, then released to the crowds of traders, arms merchants, and commodity speculators."" marketFlavorTextColor
-AddText ""The fiery phoenix of the Hegemony is projected onto a convenient bulkhead, the local Navy recruitment center's comms ID scrolling around the flickering stars of the Domain - 'See the Sector, Serve With Honor, Restore the Human Domain'."" marketFlavorTextColor",,,
+$faction.id == hegemony","AddText ""Des vedettes de patrouille de l'Hégémonie se faufilent entre les imposants cargos et les coques grêles des marchands-combattants qui remplissent le hall portuaire. Les capitaines en déchargement sont accueillis sèchement par un officier logistique de l'Hégémonie, contrôlés, puis lâchés dans la foule de marchands, armuriers et spéculateurs."" marketFlavorTextColor
+AddText ""Le phénix ardent de l'Hégémonie est projeté sur une cloison, l'identifiant comm du centre de recrutement local de la Marine défilant autour des étoiles vacillantes du Domaine — 'Explorez le Secteur, Servez avec Honneur, Restaurez le Domaine Humain'."" marketFlavorTextColor",,,
 flavorTextMarketLuddicChurch,TradePanelFlavorText,"$global.tradePanelMode == MARKET
-$faction.id == luddic_church","AddText ""The port concourse is filled with trader starcraft of every size. Luddic merchants in muted dress await meetings with offloading ship captains. Peddlers offer street food and hand-crafts to spacer crew while monks pray quietly over begging-bowls. Knights in handspun robes of Luddic green, CP-carbines slung, escort away the occasional ranter determined to harangue outsiders who openly flaunt gadgets and cyber-mods. The Church is practical; such sins are tolerated in the trader's district."" marketFlavorTextColor",,,
+$faction.id == luddic_church","AddText ""Le hall portuaire grouille de vaisseaux marchands de toutes tailles. Des marchands luddiques en vêtements sobres attendent les capitaines en déchargement. Des colporteurs proposent de la nourriture de rue et de l'artisanat aux equipages tandis que des moines prient silencieusement au-dessus de leurs bols d'aumone. Des chevaliers en robes tissées a la main vert luddique, carabines CP en bandouliere, escortent les prédicateurs obstines qui haranguent les étrangers exhibant gadgets et mods cybernetiques. L'Eglise est pragmatique ; de tels péchés sont tolérés dans le quartier marchand."" marketFlavorTextColor",,,
 flavorTextMarketPirateUmbra,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $faction.id == pirates
-$market.id == umbra score:100","AddText ""Pirate vessels dock alongside equally battered warships sprayed with the revolutionary slogans of the Antis. The offloading bays mix the metallic tang of vacuum with strained life support and unwashed humanity. Cargo is inspected - and occasionally expropriated - by Section-leaders flanked by guards eyeing down the offloading spacer crew."" marketFlavorTextColor",,,
+$market.id == umbra score:100","AddText ""Des vaisseaux pirates s'amarrent aux cotes de navires de guerre tout aussi balafrés, couverts des slogans revolutionnaires des Antis. Les baies de déchargement mêlent le gout métallique du vide avec un support vital saturé et l'odeur d'humanite non lavee. La cargaison est inspectee — et parfois expropriée — par des chefs de section flanques de gardes qui toisent les equipages en déchargement."" marketFlavorTextColor",,,
 flavorTextMarketCryosanctum,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $market.ind:cryosanctum == true score:100
-$stability > 3","AddText ""The cavernous landing bays dwarf the few starcraft docked; sensors detect EM whispers from echelons of hidden, sleeping autoturrets, suggesting firepower far in excess of that necessary to ensure the good behavior of the few merchants, mercenaries, and rich eccentrics visiting the cryosanctum. An official meets offloading captains, extending the standard catalogue of cryosleep packages before escorting them to the visitors lounge."" marketFlavorTextColor",,,
+$stability > 3","AddText ""Les baies d'atterrissage caverneuses écrasent les quelques vaisseaux amarrés ; les capteurs détectent des murmures EM provenant d'échelons d'autotourelles cachées en sommeil, suggérant une puissance de feu bien supérieure a celle nécessaire pour garantir la bonne conduite des quelques marchands, mercenaires et riches excentriques visitant le cryosanctuaire. Un officiel accueille les capitaines en déchargement, presentant le catalogue standard de forfaits cryosommeil avant de les escorter vers le salon des visiteurs."" marketFlavorTextColor",,,
 flavorTextMarketDecivilized,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $market.mc:decivilized == true score:1000
-$marketSize <= 3","AddText ""You land at a location arranged via coded transmission. At first all seems quiet, but eventually figures in camo-suits, bearing weapons, emerge from hidden passages. They are suspicious and their manner terse. After some reassurances, a trade manifest is accepted and negotiations allowed to begin."" marketFlavorTextColor",,,
+$marketSize <= 3","AddText ""Vous atterrissez a un emplacement convenu par transmission codee. Au debut tout semble calme, mais des silhouettes en tenues de camouflage, armees, finissent par emerger de passages dissimules. Elles sont mefiantes et leur ton est sec. Apres quelques reassurances, un manifeste commercial est accepte et les negociations peuvent commencer."" marketFlavorTextColor",,,
 flavorTextMarketDiktat,TradePanelFlavorText,"$global.tradePanelMode == MARKET
-$faction.id == sindrian_diktat","AddText ""The port concourse is filled with a mix of trader ships and military craft. Offloading ship captains are processed by a dour Diktat logistics officer before being allowed to proceed. Traders in dull suits, loyalty pins displayed on each collar, quietly pass a datapad loaded with cargo manifests amongst themselves."" marketFlavorTextColor
-AddText ""A holoprojector displays a larger-than-life image of Admiral Andrada, the Lion of Sindria, flanked by Diktat banners waving in simulated wind. His commanding gaze is cast toward a ventilation duct."" marketFlavorTextColor",,,
+$faction.id == sindrian_diktat","AddText ""Le hall portuaire est rempli d'un mélange de vaisseaux marchands et de navires militaires. Les capitaines en déchargement sont traites par un officier logistique austère du Diktat avant d'etre autorisés a poursuivre. Des marchands en costumes ternes, pins de loyaute affichés au col, se passent discrètement un datapad charge de manifestes de cargaison."" marketFlavorTextColor
+AddText ""Un holoprojecteur affiche une image plus grande que nature de l'Amiral Andrada, le Lion de Sindria, flanque de bannieres du Diktat flottant dans un vent simule. Son regard autoritaire est tourne vers une bouche d'aeration."" marketFlavorTextColor",,,
 flavorTextMarketDiktatCruor,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $faction.id == sindrian_diktat
 $market.id == cruor score:100
-$player.transponderOn == true","AddText ""You land on a free pad in the port segment of the giant tracked city-train that worms forever over the broken plains of Cruor. Upon disembarkation, the scarred decking shifts and rolls almost imperceptibly. A grim-faced Diktat officer flanked by guards takes your credentials and interrogates you about each of the standard information fields as if you were guilty of something, perhaps everything."" marketFlavorTextColor
-AddText ""Diktat banners jostle limply over the port concourse as other captains endure similar treatment. You wonder idly at the dirty, open-top cages installed at each receiving-bay."" marketFlavorTextColor",,,
+$player.transponderOn == true","AddText ""Vous atterrissez sur un pad libre dans le segment portuaire du gigantesque train-cite a chenilles qui serpente sans fin sur les plaines brisees de Cruor. Au débarquement, le pont balafre oscille et roule presque imperceptiblement. Un officier du Diktat au visage severe, flanque de gardes, prend vos papiers et vous interroge sur chaque champ d'information standard comme si vous etiez coupable de quelque chose, peut-etre de tout."" marketFlavorTextColor
+AddText ""Des bannieres du Diktat pendouillent mollement au-dessus du hall portuaire tandis que d'autres capitaines subissent un traitement similaire. Vous vous interrogez distraitement sur les cages sales a ciel ouvert installees a chaque baie de reception."" marketFlavorTextColor",,,
 flavorTextMarketDiktatCruorSneak,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $faction.id == sindrian_diktat
 $market.id == cruor score:100
-$player.transponderOn == false","AddText ""Your shuttle lands on a maintenance pad in a utility segment of one of the tracked city-trains that forever crawls over the broken plains of Cruor. The scarred deck shifts and rolls for a tense few minutes, then a locked hatch unbolts to allow your entry. Whatever ruse, favor, or deception you called upon to gain entry has worked."" marketFlavorTextColor
-AddText ""You and your entourage make your way through a maze of access conduits to emerge into a public corridor. You're greeted by peeling Sindrian Diktat propaganda decals and strange looks from a few subdued off-shift workers."" marketFlavorTextColor",,,
+$player.transponderOn == false","AddText ""Votre navette atterrit sur un pad de maintenance dans un segment utilitaire de l'un des trains-cites a chenilles qui rampent eternellement sur les plaines brisees de Cruor. Le pont balafre oscille et roule pendant quelques minutes tendues, puis une ecoutille verrouillee se deverrouille pour vous laisser entrer. Quelle que soit la ruse, la faveur ou la tromperie que vous avez invoquee pour entrer, elle a fonctionne."" marketFlavorTextColor
+AddText ""Vous et votre entourage vous frayez un chemin a travers un labyrinthe de conduits d'acces pour emerger dans un couloir public. Vous etes accueillis par des autocollants de propagande du Diktat Sindrien qui se decollent et des regards etranges de quelques travailleurs de quart soumis."" marketFlavorTextColor",,,
 flavorTextMarketDiktatVolturn,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $faction.id == sindrian_diktat
 $market.id == volturn score:100
-$player.transponderOn == true","AddText ""The main port of Volturn is built on a flotilla of huge burned-looking barges wallowing in oily water. The smell of ozone and salt assaults you as you disembark. Offloading ship captains are processed by a dour Diktat logistics officer before being allowed to proceed to the public concourse. Traders in dull suits, Diktat pins dutifully displayed on the collar, pass around a datapad loaded with cargo manifests."" marketFlavorTextColor
-AddText ""A flickering holoprojector displays a larger-than-life image of Admiral Andrada, the Lion of Sindria, flanked by Sindrian Diktat banners that could be waving in the sea wind. His commanding gaze is cast toward the gull-analogs circling above."" marketFlavorTextColor",,,
+$player.transponderOn == true","AddText ""Le port principal de Volturn est construit sur une flottille d'énormes barges a l'aspect brûlé qui se vautrent dans une eau huileuse. L'odeur d'ozone et de sel vous assaille des le débarquement. Les capitaines en déchargement sont traites par un officier logistique austère du Diktat avant d'etre autorisés a rejoindre le hall public. Des marchands en costumes ternes, pins du Diktat consciencieusement affichés au col, se passent un datapad charge de manifestes de cargaison."" marketFlavorTextColor
+AddText ""Un holoprojecteur vacillant affiche une image plus grande que nature de l'Amiral Andrada, le Lion de Sindria, flanque de bannieres du Diktat Sindrien qui pourraient flotter dans le vent marin. Son regard autoritaire est tourne vers les analogues-mouettes qui tournoient au-dessus."" marketFlavorTextColor",,,
 flavorTextMarketDiktatVolturnSneak,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $faction.id == sindrian_diktat
 $market.id == volturn score:100
-$player.transponderOn == false","AddText ""Your shuttle lands on an unsteady barge in the dirty backwater of one of the floating slums surrounding a half-submerged processing plant. The smell of ozone, salt, and human waste assaults you as soon as you disembark. The crumbling deck-tiles below you shift and roll off-phase with nearby structures, their vents and masts all askew. This effect, combined with the stench, is singularly nauseating. You hope that whatever ruse, favor, or deception you called upon to make this landing will prove worthwhile."" marketFlavorTextColor",,,
+$player.transponderOn == false","AddText ""Votre navette atterrit sur une barge instable dans les eaux sales d'un des bidonvilles flottants entourant une usine de traitement a moitie submergee. L'odeur d'ozone, de sel et de dejections humaines vous assaille des le débarquement. Les dalles de pont effritees sous vos pieds oscillent et roulent en decalage avec les structures voisines, leurs bouches d'aeration et mats tous de travers. Cet effet, combine a la puanteur, est singulierement nauseabond. Vous esperez que la ruse, la faveur ou la tromperie invoquee pour cet atterrissage en vaudra la peine."" marketFlavorTextColor",,,
 ,,,,,,
 ,,,,,,
 flavorTextCargoPlaceholder,TradePanelFlavorText,"$global.tradePanelMode == CARGO
-","AddText ""Your quartermaster coordinates records of all crew appointments, armament stores, and trade goods. These reports are kept up-to-date and made available through your TriPad."" textGrayColor",,,
+","AddText ""Votre quartier-maitre coordonne les registres de toutes les affectations d'equipage, les stocks d'armement et les marchandises. Ces rapports sont tenus a jour et accessibles via votre TriPad."" textGrayColor",,,
 flavorTextSalvagePlaceholder,TradePanelFlavorText,"$global.tradePanelMode == SALVAGE
-","AddText ""Your space-ops crew, armed with laser cutters and skeletal cargo skiffs, maneuver to disabled hulks and search them for useful commodities, armaments, and valuables."" textGrayColor",,,
+","AddText ""Votre equipe d'operations spatiales, equipee de decoupeurs laser et de skiffs de cargaison squelettiques, manoeuvre vers les epaves desactivees et les fouille a la recherche de marchandises, armements et objets de valeur."" textGrayColor",,,
 flavorTextAbandonedStation,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $abandonedStation == true score:100","AddText ""The port concourse is dark and empty but for a few looted hulks. The atmosphere reads out as thin, but there is sufficient power from hardened passive collectors to run basic life support and storage functions."" marketFlavorTextColor",,,
 ,,,,,,
@@ -2764,7 +2764,7 @@ customsInspectionScan,BeginFleetEncounter,$doingCustomsInspection score:100,"Mak
 MakeOtherFleetAggressive customs true
 $ignorePlayerCommRequests = false 0
 $customsInspectionStage = 0 4
-AddText ""You're being hailed by the $faction $otherShipOrFleet."" $faction.baseColor",,,
+AddText ""Vous etes interpelle par le $otherShipOrFleet $faction."" $faction.baseColor",,,
 customsInspectionConvStart,OpenCommLink,"$entity.doingCustomsInspection score:100
 $entity.customsInspectionStage == 0","SetTooltip ciAgree ""The scan will compute the value of your fleets and the goods it's carrying, and a toll will be assessed.\n\nIf your $shipOrFleet is carrying illegal goods, there's a chance these will be detected. The chance is lower if you're also carrying legal goods, and if your relationship with the faction is positive. If contraband is detected, it will be confiscated, and a fine will be assessed.""","$PersonRank $personName lève brièvement les yeux de sa console. ""Restez en attente pendant que nous scannons votre cargaison. Nous reprendrons cette conversation une fois le scan terminé.""","0:ciAgree:Autoriser le déroulement du scan
 1:ciDisagree:""Je ne pense pas.""",
@@ -2989,7 +2989,7 @@ NGCDone",,,
 # memory is used by default
 # entity memory is accessible
 # by using the entity. prefix",,,,,,
-convDefault,OpenCDE,,"AddText ""Establishing connection..."" buttonText
+convDefault,OpenCDE,,"AddText ""Connexion en cours..."" buttonText
 FireBest PickGreeting",Vous transmettez l'identifiant comm et attendez que le système établisse une connexion.,,
 convDefaultGreeting,PickGreeting,!$contact_printedFirstReturnGreeting,"$contact_printedFirstReturnGreeting = true 0
 ShowPersonVisual
@@ -3233,7 +3233,7 @@ mpm_pirateEncounter,BeginFleetEncounter,"$mpm_isSpawnedByMPM
 MakeOtherFleetAggressive mpm_pirate true
 $skipTInfo = true 0
 $sawPlayerTransponderOn = true 5
-AddText ""You're being hailed by the $faction $otherShipOrFleet."" $faction.baseColor
+AddText ""Vous etes interpelle par le $otherShipOrFleet $faction."" $faction.baseColor
 $hailing = true 0",,,
 mpm_pirateOpenComms,OpenCommLink,"$isPerson
 $entity.mpm_isSpawnedByMPM score:100",FireAll MPMHandOverOptions,"Le $personRank pirate lève les yeux de $hisOrHer console.
@@ -3245,7 +3245,7 @@ mpm_refusePirateOption,MPMHandOverOptions,,,,"
 1:mpm_refuse:Refuser",
 mpm_handOverOptionSel,DialogOptionSelected,$option == mpm_handOver,"CallEvent $mpm_eventRef handOver
 AddText ""Lost $mpm_quantity $mpm_commodityName"" textEnemyColor
-AddText ""\""Glad you could be made to see reason. Now, get out of here before I change my mind.\""""
+AddText ""\""Ravi que vous ayez fini par entendre raison. Maintenant, filez avant que je change d'avis.\""""
 MakeOtherFleetHostile mpm_pirate false
 MakeOtherFleetNonHostile mpm_pirate true 10
 FireAll PopulateOptions",,,
@@ -3408,7 +3408,7 @@ MakeOtherFleetAggressive tOff false
 unset $ignorePlayerCommRequests
 $sawPlayerWithTOffCount++ 10
 $transponderOffConv = true 0
-AddText ""You're being hailed by the $faction $otherShipOrFleet."" $faction.baseColor
+AddText ""Vous etes interpelle par le $otherShipOrFleet $faction."" $faction.baseColor
 OpenComms",,,
 tOffPatrolBeginNoTalk,BeginFleetEncounter,"CaresAboutTransponder
 !$tOff_didAlready
@@ -3452,7 +3452,7 @@ $entity.sawPlayerWithTOffCount == 2.0 score:10
 $entity.relativeStrength >= 0","AddText""\""I told you last time to keep your transponder on.\""""
 AdjustRep $faction.id TRANSPONDER_OFF
 AdjustRepActivePerson TRANSPONDER_OFF
-AddText ""The comm link is cut before you have a chance to respond.""
+AddText ""La comm est coupee avant que vous n'ayez le temps de repondre.""
 $entity.ignorePlayerCommRequests = true 0
 unset $entity.transponderOffConv
 #MakeHostileWhileTOff tOff true 7
@@ -3560,7 +3560,7 @@ MakeOtherFleetPreventDisengage cargoScan true
 MakeOtherFleetAggressive tOff false
 unset $ignorePlayerCommRequests
 $cargoScanConv = true 0
-AddText ""You're being hailed by the $faction $otherShipOrFleet."" $faction.baseColor
+AddText ""Vous etes interpelle par le $otherShipOrFleet $faction."" $faction.baseColor
 OpenComms",,,
 cargoScanFirstComms,OpenCommLink,$entity.cargoScanConv score:100,"AddText ""\""Attention: your fleet matches the profile of a suspected smuggler posted by $marketName authorities. You're hereby ordered to submit to a cargo scan.\""""
 SetStoryOption avoid_scan 1 avoidCargoScan ui_char_spent_story_point ""Talked your way out of a cargo scan""",,"0:cargoScan_comply:Autoriser le scan
@@ -3665,7 +3665,7 @@ ise_offerBribeSelNotEnough,DialogOptionSelected,$option == ise_offerBribe,"SetTe
 
 ""Maintenant j'ai de fascinants rapports vous concernant à lire, alors revenez quand vous serez sérieux.""",0:cutCommLink:Couper la comm,
 ise_offerBribeAmountSel,DialogOptionSelected,$option == ise_offerBribeAmount,"AddText ""Lost $ise_bribeAmountDGS credits"" textEnemyColor
-AddText ""\""Thank you, citizen. I'm sure my investigation will reach a proper conclusion in due time.\""""
+AddText ""\""Merci, citoyen. Je suis certain que mon enquete aboutira a une conclusion appropriee en temps voulu.\""""
 SubCredits $ise_bribeAmount
 CallEvent $ise_eventRef setBribePaid
 SetShortcut cutCommLink ""ESCAPE""",,0:cutCommLink:Couper la comm,
@@ -3713,7 +3713,7 @@ SetShortcut cutCommLink ""ESCAPE""","""Votre intérêt pour l'affaire est dûmen
 
 ""Maintenant j'ai de fascinants rapports vous concernant à examiner, alors revenez quand vous serez sérieux.""",0:cutCommLink:Couper la comm,
 igr_offerBribeAmountSel,DialogOptionSelected,$option == igr_offerBribeAmount,"AddText ""Lost $igr_bribeAmountDGS credits"" textEnemyColor
-AddText ""\""Thank you, citizen. I'm sure my investigation will reach a proper conclusion in due time.\""""
+AddText ""\""Merci, citoyen. Je suis certain que mon enquete aboutira a une conclusion appropriee en temps voulu.\""""
 SubCredits $igr_bribeAmount
 CallEvent $igr_eventRef setBribePaid
 FireBest IGRBribeEnd",,,
@@ -3742,8 +3742,8 @@ Le système d'analyse de combat mouline pendant quelques secondes puis émet un 
 # SALVAGE,,,,,,
 sal_tutorial_storyPointUse1,OpenInteractionDialog,"$tutorialUseStoryPoint score:1000
 $global.isInTutorial","ShowDefaultVisual
-AddText ""This ship is not easily recoverable, but it would be very useful in the upcoming fight against the miner forces guarding the jump-point.""
-AddText ""You can use a story point to make a ship recoverable. Do this now, by selecting the appropriate option after exploring the derelict.""
+AddText ""Ce vaisseau n'est pas facilement recuperable, mais il serait tres utile dans le combat a venir contre les forces minieres gardant le point de saut.""
+AddText ""Vous pouvez utiliser un point d'histoire pour rendre un vaisseau recuperable. Faites-le maintenant en selectionnant l'option appropriee apres avoir explore l'epave.""
 SetTextHighlightColors story
 SetTextHighlights ""appropriate option""",,salTutorialContinue:Continuer,
 sal_tutorial_storyPointUse2,DialogOptionSelected,$option == salTutorialContinue,"SalvageGenFromSeed
@@ -3757,7 +3757,7 @@ $faction.id == derelict","SalvageGenFromSeed
 FireBest ShowSalvageEntityDetails
 FireBest SalvageCheckHostile",Votre $shipOrFleet approche $aOrAn $nameInText laissé par l'exploration initiale du Secteur par le Domaine.,,
 sal_scavengeDebris,OpenInteractionDialog,"$tag:salvageable
-$customType == debris_field_shared score:100","SalvageGenFromSeed
+$customType == débris_field_shared score:100","SalvageGenFromSeed
 ShowDefaultVisual
 SalvageEntity descDebris
 FireBest SalvageCheckHostile",Votre $shipOrFleet se place en orbite stable par rapport au champ de débris.,,
@@ -3787,20 +3787,20 @@ sal_wreckDetailsFromGhost,ShowSalvageEntityDetails,"$customType == wreck
 $fromGhost score:100","unset $fromGhost
 ShowDefaultVisual
 PrintWreckDescription
-AddText ""There is a bit of a stir on your bridge. Your tactical officer re-queries sensors about the derelict ship, \""Did we not observe this ship perform independent maneuvers mere hours ago?\""""
-AddText ""Your sensors officer takes longer than usual to respond, speaking very carefully. \""With respect. Readings taken in hyperspace are intrinsically imprecise. Our euclidean display framework is only a... an interpretation by our best expert systems.\"" They wave toward the current readings. \""It was clearly just a blip.\"" They nod without making eye contact with tactical. \""A hyperspace blip. Yes.\""""",,,
+AddText ""Il y a un peu d'agitation sur votre passerelle. Votre officier tactique reinterroge les capteurs au sujet du vaisseau abandonne, \""N'avons-nous pas observe ce vaisseau effectuer des manoeuvres independantes il y a a peine quelques heures ?\""""
+AddText ""Votre officier des capteurs met plus de temps que d'habitude a repondre, parlant avec une grande prudence. \""Avec tout le respect du. Les releves pris en hyperespace sont intrinsequement imprecis. Notre cadre d'affichage euclidien n'est qu'une... interpretation de nos meilleurs systemes experts.\"" Il designe les releves actuels d'un geste. \""C'etait clairement juste un artefact.\"" Il hoche la tete sans croiser le regard du tactique. \""Un artefact hyperspacial. Oui.\""""",,,
 ,,,,,,
 # Explore/Leave options and actions,,,,,,
 sal_defaultLeave1,PopulateSalvageOptions1,,SetShortcut defaultLeave ESCAPE,,100:defaultLeave:$salvageLeaveText,
-sal_explore,PopulateSalvageOptions1,$customType != debris_field_shared,,,0:salExplore:Explorer,
-sal_assess,PopulateSalvageOptions1,$customType == debris_field_shared,,,0:salExplore:Évaluer,
+sal_explore,PopulateSalvageOptions1,$customType != débris_field_shared,,,0:salExplore:Explorer,
+sal_assess,PopulateSalvageOptions1,$customType == débris_field_shared,,,0:salExplore:Évaluer,
 sal_defenders,DialogOptionSelected,"$option == salExplore
 $hasDefenders",FireBest TriggerAutomatedDefenses,,,
 sal_noDefenders,DialogOptionSelected,$option == salExplore,FireBest CheckSalvageSpecial,,,
 ,,,,,,
 # Descriptions of automated defenders,,,,,,
 sal_printDefaultDefenders,TriggerAutomatedDefenses,,SalvageDefenderInteraction,"Alors que votre $shipOrFleet se rapproche, de nouvelles signatures énergétiques sont détectées près du $shortName.",,
-sal_printDebrisDefenders,TriggerAutomatedDefenses,$customType == debris_field_shared,SalvageDefenderInteraction,"Alors que votre $shipOrFleet se rapproche, de nouvelles signatures énergétiques sont détectées près d'un plus gros débris.",,
+sal_printDebrisDefenders,TriggerAutomatedDefenses,$customType == débris_field_shared,SalvageDefenderInteraction,"Alors que votre $shipOrFleet se rapproche, de nouvelles signatures énergétiques sont détectées près d'un plus gros débris.",,
 sal_triggerProbeDefenders,TriggerAutomatedDefenses,$customType == derelict_probe,SalvageDefenderInteraction,"Alors que votre $shipOrFleet se rapproche, plusieurs signatures énergétiques sont détectées en train de s'activer dans la soute de la sonde.",,
 sal_triggerSurveyShipDefenders,TriggerAutomatedDefenses,$customType == derelict_survey_ship,SalvageDefenderInteraction,"Alors que votre $shipOrFleet se rapproche, de multiples signatures énergétiques sont détectées en train de s'activer depuis divers points sur et à l'intérieur de la coque écorchée du vaisseau d'exploration.",,
 sal_triggerMothershipDefendersBoth,TriggerAutomatedDefenses,"$customType == derelict_mothership
@@ -3845,7 +3845,7 @@ SetTooltip salSalvage ""The salvage difficulty rating is too high for you to per
 !$canAffordSalvage","SetEnabled salSalvage false
 SetTooltip salSalvage ""The salvage difficulty rating is too high for you to perform a proper salvage operation. In addition, your fleet does not have the necessary resources to run a proper salvage operation here.""",,0:salSalvage:Lancer les opérations de récupération,
 sal_optionSalvageEnabled,PopulateSalvageOptions2,,,,0:salSalvage:Lancer les opérations de récupération,
-#sal_optionDemolish,PopulateSalvageOptions2,$customType != debris_field_shared,"SetTooltip salDemolish ""Scavenging through the resulting debris field will produce about half the salvage, compared to a proper salvage operation.""",,1:salDemolish:Le réduire en ferraille,
+#sal_optionDemolish,PopulateSalvageOptions2,$customType != débris_field_shared,"SetTooltip salDemolish ""Scavenging through the resulting débris field will produce about half the salvage, compared to a proper salvage operation.""",,1:salDemolish:Le réduire en ferraille,
 sal_forceRecoveryOpt,PopulateSalvageOptions2,SalvageEntity canBeMadeRecoverable,SetStoryColor salMakeRecoverable,,10:salMakeRecoverable:Envisager des mesures spéciales pour récupérer ce vaisseau,
 sal_forceRecoveryOptSel,DialogOptionSelected,$option == salMakeRecoverable,"SalvageEntity showRecoverable
 FireBest CheckSalvageSpecial",,,
@@ -4222,7 +4222,7 @@ lppHookShrineLeaveBeholder2,DialogOptionSelected,$option == shrineDoLeaveBeholde
 # Beholder Station shrine,,,,,,
 lppBeholderOpenDialog,OpenInteractionDialog,"$id == beholder_station
 $tag:luddic_shrine","PrintDescription 1
-AddText ""The landing bay is filled with parties of Luddic pilgrims, many dressed in traditional handweave, meeting with subcurates. An attendant looks you over suspiciously and inquires about what business you have coming here.""
+AddText ""La baie d'atterrissage est remplie de groupes de pelerins luddiques, beaucoup vetus de tissage traditionnel, en reunion avec des sous-cures. Un prepose vous examine avec suspicion et s'enquiert de la raison de votre venue.""
 ShowDefaultVisual
 FireAll BeholderShrineMainOptions
 ShrineCMD addIntel",,,
@@ -5491,7 +5491,7 @@ lppJangalaFirstVisit1,DialogOptionSelected,$option == lpp_jangalaVisitStart,"$ma
 ShowLargePlanet
 ShrineCMD playMusic","Les continents verdoyants de Jangala s'étalent sous vous, couronnés par d'immenses systèmes météorologiques tourbillonnant avec une nonchalance majestueuse.
 
-Des traits brûlants de lasers de brûlage orbital jaillissent depuis la station Jangala, invisibles jusqu'à ce qu'ils entaillent l'atmosphère épaisse de balafres de plasma. L'éclat des brûlages rivalise avec les orages électriques déchaînés pour illuminer les formations nuageuses montagneuses par en dessous.",lpp_JangalaFirstVisit2:Continuer,
+Des traits brûlants de lasers de brûlage orbital jaillissent depuis la station Jangala, invisibles jusqu'à ce qu'ils entaillent l'atmosphère épaisse de balafrés de plasma. L'éclat des brûlages rivalise avec les orages électriques déchaînés pour illuminer les formations nuageuses montagneuses par en dessous.",lpp_JangalaFirstVisit2:Continuer,
 lppJangalaFirstVisit2,DialogOptionSelected,$option == lpp_JangalaFirstVisit2,,"Le bourdonnement de votre navette change de tonalité lorsqu'elle atteint le bord de la véritable atmosphère, pénétrant rapidement dans la couverture nuageuse. Au-delà des hublots, la visibilité à l'oeil nu est réduite à presque zéro. Alors que la navette actionne ses rétrofusées pour l'atterrissage, descendant bien en dessous de la vitesse du son conformément aux réglementations de navigation et au savoir-vivre, votre hublot commence à collecter des gouttelettes d'humidité.
 
 Les gouttelettes ont une curieuse coloration ocre, et les nuages au-dessus une teinte verdâtre malsaine. Vous avez entendu parler de cet effet ; des analogues de spores à grain fin dans l'atmosphère.","lpp_JangalaFirstVisit3:Continuer
@@ -5694,7 +5694,7 @@ lppHesperusShrineWaitCancelShuttle,DialogOptionSelected,"$option == lpp_hesperus
 $global.lpp_madeToWaitForHesperus","AddText ""You order the shuttle to stand down. It looks like Excubitor Oak is serious about making you wait seven days before you can access the shrine of Hesperus.""
 FireAll PopulateOptions",,,
 lppHesperusShrineDeniedCancelShuttle,DialogOptionSelected,"$option == lpp_hesperusShrineCancelShuttle
-$global.lpp_deniedHesperusShrineAccess","AddText ""You order the shuttle to stand down. It looks like Excubitor Oak is serious about denying you access to the shrine of Hesperus until you 'seek redemption', whatever that means.""
+$global.lpp_deniedHesperusShrineAccess","AddText ""You order the shuttle to stand down. It looks like Excubitor Oak is serious about denying you access to the shrine of Hesperus until you 'seek redemption', whâtever that means.""
 FireAll PopulateOptions",,,
 lppHesperausGetMeExcubitor,DialogOptionSelected,$option == lpp_hesperusGetMeExcubitor,"BeginConversation oak
 FireBest PickGreeting","La navigation connecte votre liaison comm au réseau système local, et après ce qui semble une attente plus longue que nécessaire, la liaison établit enfin une connexion.",,
@@ -6065,7 +6065,7 @@ $global.lpp_visitedShrineHesperus",ShowImageVisual hesperus_shrine,"À votre dem
 lppHesperusShrineDoVisitAgain2,DialogOptionSelected,$option == lpp_hesperusShrineAgain2,,"Le sanctuaire est un grand tombeau amenage dans un enorme puits d'aeration. Les entrailles industrielles ont été transformees en une sculpture baroque de milliers d'armes tranchantes alignees comme les plumes d'une aile, des rayons de metal dentele etincelant s'elancant hardiment en arcs meurtriers a travers le vaste espace.
 
 Au milieu, entoures d'une galaxie de bougies vacillantes, reposent les cercueils doubles de plomb d'une escouade de Chevaliers martyrs. Les circonstances de leur mort, explique le sous-cure dans des murmures reverencieux, ont rendu leurs corps non identifiables et impregnes de matieres radioactives qui tueraient un observateur direct meme aujourd'hui.",lpp_hesperusShrineAgain3:Continuer,
-lppHesperusShrineDoVisitAgain3,DialogOptionSelected,$option == lpp_hesperusShrineAgain3,,"Des psalmodies assourdies, deformees par la geometrie etrange de cet espace industriel cultuel, se melent au bourdonnement des recycleurs d'air. Les bougies brulent d'une flamme nette et vive, etincelant sur la multitude de facettes tranchantes ornant chaque surface de l'interieur du sanctuaire, un monument au carnage sacre.
+lppHesperusShrineDoVisitAgain3,DialogOptionSelected,$option == lpp_hesperusShrineAgain3,,"Des psalmodies assourdies, deformees par la geometrie etrange de cet espace industriel cultuel, se mêlent au bourdonnement des recycleurs d'air. Les bougies brûlént d'une flamme nette et vive, etincelant sur la multitude de facettes tranchantes ornant chaque surface de l'interieur du sanctuaire, un monument au carnage sacre.
 
 On vous laisse dans une niche de prière pour contempler l'horreur.",shrineDoLeave:Quitter le sanctuaire,
 # LPP Shrine XP rewards,,,,,,
@@ -6291,9 +6291,9 @@ SetTooltip lke_chalcedonVIPoptHostileC ""Requires over 250 marines.""",,,
 lkeChalcedonVIPoptHostileSP1a,DialogOptionSelected,"$option == lke_chalcedonVIPoptHostileSP
 $global.jangalaProtestIncident",,"Vous expliquez que si vous etiez effectivement present a la manifestation sur la Station Jangala ce jour fatidique, tout n'est pas tel qu'il y parait. 
 
-Les holos qui ont fuite ont été manipules par des coeurs IA secrets de l'Hégémonie qui ont substitue votre visage a celui d'un officier de l'Hégémonie present sur les lieux. Les laches tentent de detourner le blame ! Il est evident que l'objectif a long terme de l'Hégémonie est d'eradiquer toute croyance spirituelle, pour mieux imposer un contrôle dirige par les IA sur la population et transformer tous les humains en simples machines, des rouages d'un nouveau Domaine ; un Moloch mecaniste enjambant la galaxie, bati au mepris de la creation de Dieu !",lke_chalcedonVIPoptHostileSP2:Continuer,
+Les holos qui ont fuite ont été manipules par des coeurs IA secrets de l'Hégémonie qui ont substitue votre visage a celui d'un officier de l'Hégémonie present sur les lieux. Les lâchés tentent de detourner le blame ! Il est evident que l'objectif a long terme de l'Hégémonie est d'eradiquer toute croyance spirituelle, pour mieux imposer un contrôle dirige par les IA sur la population et transformer tous les humains en simples machines, des rouages d'un nouveau Domaine ; un Moloch mecaniste enjambant la galaxie, bati au mepris de la creation de Dieu !",lke_chalcedonVIPoptHostileSP2:Continuer,
 lkeChalcedonVIPoptHostileSP1b,DialogOptionSelected,"$option == lke_chalcedonVIPoptHostileSP
-$global.gaATG_gotLokeViaRaid",,"Vous expliquez que si des marines sous votre commandement ont effectivement été deployes ce jour fatidique sur Epiphany, vous tentiez en réalité d'arreter un raid d'operations noires de l'Hégémonie mene par l'intermediaire de la Seigneure de guerre pirate Kanta. C'est la propagande noire et la dissimulation subsequentes qui vous ont place au centre de l'action.
+$global.gaATG_gotLokeViaRaid",,"Vous expliquez que si des marines sous votre commandement ont effectivement été déployés ce jour fatidique sur Epiphany, vous tentiez en réalité d'arreter un raid d'operations noires de l'Hégémonie mene par l'intermediaire de la Seigneure de guerre pirate Kanta. C'est la propagande noire et la dissimulation subsequentes qui vous ont place au centre de l'action.
 
 Kanta est, bien entendu, une coquille videe controlee par un coeur IA ; une abomination aux yeux de tous les disciples de Ludd mais aussi l'image meme de l'objectif ultime de l'Hégémonie pour toute l'humanite dans le Secteur Persan : des esclaves-machines au service de faux dieux IA charges de batir un nouveau Domaine ; un Moloch mecaniste enjambant la galaxie pour defier la nature meme de la creation de Dieu !",lke_chalcedonVIPoptHostileSP2:Continuer,
 lkeChalcedonVIPoptHostileSP2,DialogOptionSelected,$option == lke_chalcedonVIPoptHostileSP2,,"Votre voix se brise d'emotion tandis que vous expliquez les profondeurs de la conspiration ourdie par les IA pour dresser les humains les uns contre les autres, et comment votre condition de victime vous a amene, pour la première fois, a reconsiderer les objectifs et les ideaux de la Voie de Ludd. 
@@ -6326,7 +6326,7 @@ FireBest DialogOptionSelected","""En vérité, vous êtes un démon du Domaine r
 
 $HeOrShe baisse les yeux, laissant échapper un soupir tremblant, puis vous regarde à nouveau. La honte se lit sur $hisOrHer visage.",,
 lkeChalcedonThreatGo2a,DialogOptionSelected,"$option == lke_chalcedonThreatGo2
-$demandedBornanew",,"""Je dis la vérité quand je vous affirme que je ne connais aucun homme du nom de Jethro Bornanew. Je peux... ce n'est pas simple. Nous avons quelques registres informatiques, mais seulement pour le strict necessaire. Ceux qui suivent la Voie ne souhaitent pas que leur nom soit inscrit dans le livre de Moloch.""
+$demandedBornanew",,"""Je dis la vérité quand je vous affirme que je ne connais aucun homme du nom de Jethro Bornanew. Je peux... ce n'est pas simple. Nous avons quelques registres informatiques, mais seulement pour le strict nécessaire. Ceux qui suivent la Voie ne souhaitent pas que leur nom soit inscrit dans le livre de Moloch.""
 
 ""Mais, mais. Je peux demander. Faire des recherches pour vous. Juste... restez sur les comms, d'accord ? Je trouverai votre homme.""",lke_chalcedonThreatGo3:Continuer,
 lkeChalcedonThreatGo2b,DialogOptionSelected,"$option == lke_chalcedonThreatGo2
@@ -6521,13 +6521,13 @@ lkeChalcedonLookingBornanewB,DialogOptionSelected,"$option == lke_chalcedonLooki
 $player.fcm_faction == luddic_church","$lkeAskedBornanew = true 7
 FireAll LKEEphiphanyVIPoptions","L'ombre d'un froncement de sourcils apparait sur le visage de $hisOrHer.
 
-""Je crains de ne connaitre personne de ce nom, capitaine. Et meme si c'était le cas..."" $heOrShe hausse les epaules, presque mais pas tout a fait sur un ton d'excuse.
+""Je crains de ne connaître personne de ce nom, capitaine. Et meme si c'était le cas..."" $heOrShe hausse les epaules, presque mais pas tout a fait sur un ton d'excuse.
 
 Il est clair qu'on ne peut pas simplement demander des informations sur un membre potentiel de la Voie et s'attendre a recevoir une reponse directe.",,
 lkeChalcedonLookingBornanewC,DialogOptionSelected,$option == lke_chalcedonLookingBornanew,"$lkeAskedBornanew = true 7
 FireAll LKEEphiphanyVIPoptions","L'ombre d'un froncement de sourcils apparait sur le visage de $hisOrHer.
 
-""Je crains de ne connaitre personne de ce nom, capitaine. Et meme si c'était le cas..."" $heOrShe hausse les epaules, presque mais pas tout a fait sur un ton d'excuse.
+""Je crains de ne connaître personne de ce nom, capitaine. Et meme si c'était le cas..."" $heOrShe hausse les epaules, presque mais pas tout a fait sur un ton d'excuse.
 
 Il est clair qu'on ne peut pas simplement demander des informations sur un membre potentiel de la Voie et s'attendre a recevoir une reponse directe.",,
 ,,,,,,
@@ -6558,7 +6558,7 @@ $market.lke_searchForBornanew
 $market.lkeMeetingSet
 $market.lkeMeetingWait
 Call $global.lke_ref updateData
-$lke_stage == CONTACT_RECRUITER",,"Vous avez un rendez-vous prevu avec un Mammonite pour parler a un tiers qui pourrait savoir quelque chose sur Jethro Bornanew, mais l'heure convenue n'est pas encore arrivee.",,
+$lke_stage == CONTACT_RECRUITER",,"Vous avez un rendez-vous prevu avec un Mammonite pour parler a un tiers qui pourrait savoir quelque chose sur Jethro Bornanew, mais l'heure convenue n'est pas encore arrivée.",,
 lkeAskChalcedonBarStartB,DialogOptionSelected,"$option == LKEchalcedon_barEvent
 $market.lkeBuggedVIPs > 1",,"Une simple tasse de thé fumant est posée devant vous, accompagnée d'une allusion subtile du tenancier : il suffit de demander pour que quelque chose de bien plus fort arrive dans une théière.
 
@@ -6702,7 +6702,7 @@ lkeChalcedonBarReturnNextDay2bar,ReturnFromBar,$lke_interceptLeaveBar2,unset $lk
 lke_chalcedonBarNextday2b:Préparer votre arme de poing, puis franchir la porte
 lke_chalcedonBarNextday2c:Appeler vos gardes du corps, puis franchir la porte",
 lkeChalcedonBarReturnNextDay2b,DialogOptionSelected,$option == lke_chalcedonBarNextday2b,$market.lkeReadiedSidearm = true 0,"Vous degainez votre arme de poing, verifiez son état, et la gardez pres de vous mais prete a tirer.",lke_chalcedonBarNextday3:Franchir la porte,
-lkeChalcedonBarReturnNextDay2c,DialogOptionSelected,$option == lke_chalcedonBarNextday2c,$market.lkeReadiedBodyguards = true 0,"Vous donnez un ordre discret a vos gardes du corps de se deployer autour de votre position, confiant dans leur capacité a prendre le contrôle de la situation grâce à leur entrainement et équipement specialises.",lke_chalcedonBarNextday3:Franchir la porte,
+lkeChalcedonBarReturnNextDay2c,DialogOptionSelected,$option == lke_chalcedonBarNextday2c,$market.lkeReadiedBodyguards = true 0,"Vous donnez un ordre discret a vos gardes du corps de se déployér autour de votre position, confiant dans leur capacité a prendre le contrôle de la situation grâce à leur entrainement et équipement specialises.",lke_chalcedonBarNextday3:Franchir la porte,
 lkeChalcedonBarReturnNextDay3,DialogOptionSelected,$option == lke_chalcedonBarNextday3,HideVisual,"Vous franchissez la porte.
 
 La lumière du jour, une rare eclaircie dans les tempetes, vous aveugle un instant.",lke_chalcedonBarNextday4:Continuer,
@@ -9548,7 +9548,7 @@ BFFImmBornInviteHorusOpt,BFFImeetMenesBornanewOpts,"$player.metHorusYaribay
 BFFImmBornInviteHorusOptAgain,BFFImeetMenesBornanewOpts,$proposedHorusOption,,,"bffi_mmBornOptHorusInvitePropose:""Let's discuss inviting Horus Yaribay to this party.""",
 #BFFImeetMenesBornanewOptD,BFFImeetMenesBornanewOpts,,,,"BFFI_meetMenesBornOptSnoop:""We should plant a snoop in Menes' comms.""","# if PC knows Gargoyle!
 # complicates flow; maybe later?"
-BFFImmBornRaidOpt,BFFImeetMenesBornanewOpts,!$proposedRaidOption,,,"bffi_mmBornRaidOpt:""I'll simply send my marines in to seize the relic.""",# Jethro is gonna REALLY hate this
+BFFImmBornRaidOpt,BFFImeetMenesBornanewOpts,!$proposedRaidOption,,,"bffi_mmBornRaidOpt:""I'll simply send my marines in to seize the relic.""",# Jethro is gonna REALLY hâte this
 BFFImmBornRaidOptAgain,BFFImeetMenesBornanewOpts,$proposedRaidOption,,,"bffi_mmBornRaidOptAgain:""Let's discuss the raid option again.""",
 BFFImeetMenesOptInviteHtalkBack,DialogOptionSelected,$option == bffi_mmBornOptsBack,FireAll BFFImeetMenesBornanewOpts,"Bornanew nods, putting his hand back on his book as if drawing knowledge from it.
 OR
@@ -9641,7 +9641,7 @@ BFFImmBornBuyerOptHubG,BFFImmBornBuyerOptHub,,,,"bffi_mmBornOptsBack:""Let's dis
 BFFImmBornArroyo,DialogOptionSelected,$option == bffi_mmBornArroyo,$saidArroyo = true 0,"Bornanew looks up. ""Do you think he would assist us in this matter?""","bffi_mmBornArroyoA:""Not likely.""
 bffi_mmBornArroyoB:""Absolutely not.""
 bffi_mmBornArroyoC:""No.""
-bffi_mmBornArroyoD:""He'd hate everything about this scheme.""",
+bffi_mmBornArroyoD:""He'd hâte everything about this scheme.""",
 BFFImmBornArroyoA,DialogOptionSelected,$option == bffi_mmBornArroyoA,FireAll BFFImmBornBuyerOptHub,"""I see,"" he says. ""Perhaps we should consider a different option.""",,
 BFFImmBornArroyoB,DialogOptionSelected,$option == bffi_mmBornArroyoB,FireAll BFFImmBornBuyerOptHub,"""I see,"" he says. ""Perhaps we should consider a different option.""",,
 BFFImmBornArroyoC,DialogOptionSelected,$option == bffi_mmBornArroyoC,FireAll BFFImmBornBuyerOptHub,"""I see,"" he says. ""Perhaps we should consider a different option.""",,
@@ -9970,7 +9970,7 @@ BFFImenesPartySteal9a,DialogOptionSelected,$option == bffi_mpSteal9a,,"""Huh? Oh
 BFFImenesPartySteal9b,DialogOptionSelected,$option == bffi_mpSteal9b,,"""Ah? Oh yes, I cannot deny the temptation to open it for some appropriate event, given an appropriately appreciative audience- my dear cousin Horus for instance; I considered his marriage to Asherah, but I thought- no, not yet. I wonder at times if the delight of it is held by the anticipation, the thought...""",bffi_mpSteal10:Sourire et hocher la tete,
 BFFImenesPartySteal9c,DialogOptionSelected,$option == bffi_mpSteal9c,,"""Oh? Oh, well, I do have a story for you! During negotiations with the buyer I thought, let us have a firearms expert examine this, and wouldn't you know that I happened to be hosting a wealthy financier who's done some work with Tri-Tachyon - and say what you will for the Company, they are good at what they do - and she happened to have a brother with an interest in a firm...""",bffi_mpSteal10:Sourire et hocher la tete,
 BFFImenesPartySteal9d,DialogOptionSelected,$option == bffi_mpSteal9d,,"""Eh? Ah! Well I daresay, it is you who might answer that question fully, though I've always considered myself something of a naturalist, or xeno-naturalist if you will ha-ha, and so what if I were to finance an expedition of discovery of sorts? 'Menes Yaribay, patron of knowledge'; I like the sound of that. Imagine, to explore new worlds, encounter unknown lifeforms, seek out and explore the far fringes...""",bffi_mpSteal10:Sourire et hocher la tete,
-BFFImenesPartySteal10,DialogOptionSelected,$option == bffi_mpSteal10,AdjustRepPerson menes_yaribay FRIENDLY 1,"He rambles, and you make a good show of asking for additional details, drawing his attention toward the object at hand and away from whatever in Ludd's name Bornanew is doing.
+BFFImenesPartySteal10,DialogOptionSelected,$option == bffi_mpSteal10,AdjustRepPerson menes_yaribay FRIENDLY 1,"He rambles, and you make a good show of asking for additional details, drawing his attention toward the object at hand and away from whâtever in Ludd's name Bornanew is doing.
 
 A piercing alarm interrupts Menes mid-thought. His eyes go wide and snap toward the central atrium which holds the glove- and Bornanew. He takes off at a run.",bffi_mpSteal11:Suivre Menes,
 BFFImenesPartySteal11,DialogOptionSelected,$option == bffi_mpSteal11,ShowSecondPerson bornanew,"You both find Bornanew, still on his knees, with one hand stretched out to touch the glove - one finger upon it - lips still moving, eyes still blankly huge as if overcome by religious mania.
@@ -10582,7 +10582,7 @@ FireAll PopulateOptions","""Indeed? I suppose an object of such quality and... v
 
 He pauses, glancing down for a moment.
 
-""I... I should hate to delay you. Though I am in no rush for the full payment of course, ha-ha."" He laugh is unconvincing.",,
+""I... I should hâte to delay you. Though I am in no rush for the full payment of course, ha-ha."" He laugh is unconvincing.",,
 BFFImenesPostPartyTalk,PickGreeting,"$id == menes_yaribay
 $global.bffi_inProgress
 !$player.bffi_boughtRelic
@@ -10999,10 +10999,10 @@ $player.sdtu_weaponGrenade","$option = bffi_ulmusPondLoadout2done
 FireBest DialogOptionSelected","You, of course, have your clutch of devilish little grenades built to resist milliradar detection. Fearful and unexpected, they trigger with a practiced twitch from your hand.",,
 BFFIulmusPrestartLoadout2c,DialogOptionSelected,"$option == bffi_ulmusPondLoadout2
 $player.sdtu_weaponKnife","$option = bffi_ulmusPondLoadout2done
-FireBest DialogOptionSelected","And you have hidden a vicious ceramic vibroknife on your person. It is not a tool to be underestimated, for when deployed by surprise it can even disable light power-armored opponents.",,
+FireBest DialogOptionSelected","And you have hidden a vicious ceramic vibroknife on your person. It is not a tool to be underestimated, for when déployéd by surprise it can even disable light power-armored opponents.",,
 BFFIulmusPrestartLoadout2d,DialogOptionSelected,"$option == bffi_ulmusPondLoadout2
 $player.sdtu_weaponSpray","$option = bffi_ulmusPondLoadout2done
-FireBest DialogOptionSelected","You are protected by a subtler weapon, a tiny capsule of spray-poison within your cuff. Hold your breath as it is deployed with a casual wave, and the target next to you will simply die as if of a massive, unexpected heart-attack.",,
+FireBest DialogOptionSelected","You are protected by a subtler weapon, a tiny capsule of spray-poison within your cuff. Hold your breath as it is déployéd with a casual wave, and the target next to you will simply die as if of a massive, unexpected heart-attack.",,
 BFFIulmusPrestartLoadout2e,DialogOptionSelected,"$option == bffi_ulmusPondLoadout2
 $player.sdtu_weaponWire","$option = bffi_ulmusPondLoadout2done
 FireBest DialogOptionSelected","You, of course, have a monomolecular wire hidden in a false fingertip, ready to deploy into an invisible cutting edge with but a short, sharp twist. It is a venerable weapon favored by assassins of a certain class.",,
@@ -11100,7 +11100,7 @@ BFFIulmusTalkPcBad5a,DialogOptionSelected,$option == bffi_ulmusTalkBad5a,,"""Sur
 
 ""I know in my heart that Ulmus wants to confess and be absolved of his sins, of his crimes. He wants to leave this terrible time behind him and live a good life.""
 
-Pond's eyes go teary. ""Y-yes, yes. I'll confess! I'll do penance, I'll pray! I'll tell you whatever you need. By Ludd, I beg forgiveness!""",bffi_ulmusTalkBad6a:Continuer,
+Pond's eyes go teary. ""Y-yes, yes. I'll confess! I'll do penance, I'll pray! I'll tell you whâtever you need. By Ludd, I beg forgiveness!""",bffi_ulmusTalkBad6a:Continuer,
 BFFIulmusTalkPcBad6a,DialogOptionSelected,$option == bffi_ulmusTalkBad6a,,"Pond sniffles.
 
 ""There was... a Walker of the Path. He asked me to talk to Menes, to, to, to make the offer. He said Menes couldn't resist an artifact of such quality. And- and I was to arrange transport. Then make it appear legitimate. Set the documents straight, make it look correct.""
@@ -11149,7 +11149,7 @@ BFFIulmusTalkPcGood3,DialogOptionSelected,$option == bffi_ulmusTalkGood3,,"""Yes
 
 ""Pather heretics,"" Bornanew says, his voice icy. ""You do know, Ulmus Pond, how we Knights deal with Pather heretics?"" Bornanew stands and reaches into his satchel.
 
-Pond goes paler, somehow. ""N-no, no. I'll confess! I'll do penance, I'll pray! I'll tell you whatever you want. Tell him!"" He looks to you.","bffi_ulmusTalkGood4a:""We want to help. Tell us who did this to you, Ulmus.""
+Pond goes paler, somehow. ""N-no, no. I'll confess! I'll do penance, I'll pray! I'll tell you whâtever you want. Tell him!"" He looks to you.","bffi_ulmusTalkGood4a:""We want to help. Tell us who did this to you, Ulmus.""
 bffi_ulmusTalkGood4b:""The Knights punish heretics. Forgiveness is for God.""",
 BFFIulmusTalkPcGood4,DialogOptionSelected,$option == bffi_ulmusTalkGood4a,,"""There was... a Walker of the Path,"" Pond sputters. ""The Luddic Path.""
 
@@ -11517,7 +11517,7 @@ BFFIpsaConHubOptA1,BFFIpsaConsultHubOpts,!$didStep1,,,"bffi_psaConHubRespA2:""Sh
 BFFIpsaConHubOptA2,BFFIpsaConsultHubOpts,!$didStep1,,,"bffi_psaConHubRespA3:""These are fanatics. They'd sooner die than talk.""",
 BFFIpsaConHubOptRespA1,DialogOptionSelected,$option == bffi_psaConHubRespA1,"$didStep1 = true 0
 $saidCarefully = true 0
-FireAll BFFIpsaConsultHubOpts","""Carefully,"" Bornanew says, turning to you. ""As ever. Violence is among the tools of the Knight, but it must be that: a tool, not an end unto itself, 'lest it fill my heart with wrath, my soul with hate, to thereafter leave no home for love of the Creator, nor the Word.'""
+FireAll BFFIpsaConsultHubOpts","""Carefully,"" Bornanew says, turning to you. ""As ever. Violence is among the tools of the Knight, but it must be that: a tool, not an end unto itself, 'lest it fill my heart with wrath, my soul with hâte, to thereafter leave no home for love of the Creator, nor the Word.'""
 
 Is that part of a credo of the Knights of Ludd? It isn't one you've heard before.",,
 BFFIpsaConHubOptRespA1bb,DialogOptionSelected,"$option == bffi_psaConHubRespA1
@@ -11536,7 +11536,7 @@ FireAll BFFIpsaConsultHubOpts","Bornanew gives you a weary look.
 BFFIpsaConHubOptRespA2,DialogOptionSelected,$option == bffi_psaConHubRespA2,"$didStep1 = true 0
 FireAll BFFIpsaConsultHubOpts","""You cannot truly know until you ask,"" says Bornanew, choosing to entertain your presumed levity. ""The Creator gave even the Path free will, and I would accept peaceable surrender if given.""
 
-He turns to you. ""And violence is among the tools of a Knight, but it must be that: a tool, not an end unto itself, 'lest it fill my heart with wrath, my soul with hate, to thereafter leave no home for love of the Creator, nor the Word.'""
+He turns to you. ""And violence is among the tools of a Knight, but it must be that: a tool, not an end unto itself, 'lest it fill my heart with wrath, my soul with hâte, to thereafter leave no home for love of the Creator, nor the Word.'""
 
 ""Consider: a marine raid to seize datastores and comms buffers. Then,"" he examines the tactical display, ""you have demolitions experts? The nanoforge and all of its support equipment must be destroyed.""",,
 BFFIpsaConHubOptRespA3,DialogOptionSelected,$option == bffi_psaConHubRespA3,"$didStep1 = true 0
@@ -11608,7 +11608,7 @@ bffi_psaConHubRespBlastCc:""If they force me to, I will do what is necessary.""
 bffi_psaConHubRespBlastCa:""Archcurate Jaspis seems less forgiving of Pathers than you.""",
 BFFIpsaConHubBlastBa,DialogOptionSelected,$option == bffi_psaConHubRespBlastBa,"AdjustRepActivePerson COOPERATIVE 1
 FireAll BFFIpsaConsultHubOpts","He nods acceptance, thankful, with hands clasped.",,
-BFFIpsaConHubBlastC,DialogOptionSelected,$option == bffi_psaConHubRespBlastC,$player.ethosRuthless++,"""Perhaps. Though alongside their fear, you will earn their hate, and confirm in their minds all they say of you,"" he says. ""You may well leave eternal enemies in your wake.""
+BFFIpsaConHubBlastC,DialogOptionSelected,$option == bffi_psaConHubRespBlastC,$player.ethosRuthless++,"""Perhaps. Though alongside their fear, you will earn their hâte, and confirm in their minds all they say of you,"" he says. ""You may well leave eternal enemies in your wake.""
 
 ""Or corpses, I suppose,"" he adds grimly.","bffi_psaConHubRespBlastA:""You've given me a lot to think about.""
 bffi_psaConHubRespBlastCa:""Archcurate Jaspis seems less forgiving of Pathers than you.""
@@ -11616,7 +11616,7 @@ bffi_psaConHubRespBlastCb:""I'll just win the battle without hurting anyone, is 
 bffi_psaConHubRespBlastCc:""If they force me to, I will do what is necessary.""",
 BFFIpsaConHubBlastCa,DialogOptionSelected,$option == bffi_psaConHubRespBlastCa,FireAll BFFIpsaConsultHubOpts,"""Indeed."" He casts his gaze up and far away. ""Let not the sins of our mothers..."" he says quietly, then looks back to you.
 
-""Take my words not as judgment, but as a personal... a prayer, I suppose. Whatever her words, whatever her actions, she did choose to entrust her support to me in this, my task. And I, for my part, chose to trust you.""
+""Take my words not as judgment, but as a personal... a prayer, I suppose. Whâtever her words, whâtever her actions, she did choose to entrust her support to me in this, my task. And I, for my part, chose to trust you.""
 
 ""So, captain, the path is yours."" He drops his gaze and clasps his hands together.",,
 BFFIpsaConHubBlastCb,DialogOptionSelected,$option == bffi_psaConHubRespBlastCb,"$player.ethosSarcastic++
@@ -11900,7 +11900,7 @@ BFFIpsRuseNiceC,DialogOptionSelected,$option == bffi_psRuseNiceC,"$didLuddicPath
 $reasons++
 FireAll BFFIpsRuseNiceOpts","""So it is known,"" $heOrShe says with a sigh. ""You... confound me. Your cooperation with a goon of the Knights, a bully and torturer of a false light... I try to see some greater Plan in it, but I cannot.""",,
 BFFIpsRuseNiceDopt,BFFIpsRuseNiceOpts,"!$didMercy
-$reasons < 3",,,"bffi_psRuseNiceD:""I have been merciful in my actions, whatever you think of my beliefs.""",
+$reasons < 3",,,"bffi_psRuseNiceD:""I have been merciful in my actions, whâtever you think of my beliefs.""",
 BFFIpsRuseNiceDoptCheck,BFFIpsRuseNiceOpts,"!$didHumanitarian
 $player.ethosHumanitarian < 3","SetEnabled bffi_psRuseNiceD false
 SetTooltip bffi_psRuseNiceD ""Requires a history of merciful acts.""",,,
@@ -12002,7 +12002,7 @@ BFFIpsRuseGo2,DialogOptionSelected,$option == bffi_stationTalkRuseGo2,"Call $glo
 EndConversation DO_NOT_FIRE
 ShowDefaultVisual","It appears to be ""Moloch's own luck,"" as one captured Pather describes it in the aftermath.
 
-Your teams seize comms buffers, datastores, and a demolitions squad reduces the nanoforge to only so much glowing rubble, spilling jets of atmo and feed-gases into space which occasionally ignite in floral bursts amidst the debris.",bffi_psDestroyed:Continuer,
+Your teams seize comms buffers, datastores, and a demolitions squad reduces the nanoforge to only so much glowing rubble, spilling jets of atmo and feed-gases into space which occasionally ignite in floral bursts amidst the débris.",bffi_psDestroyed:Continuer,
 ,,,,,,
 # BFFI destroy Pather station,,,,,,
 #BFFIpatherStationEngageWarning,DialogOptionSelected,"$entity.bffi_patherStationTarget
@@ -12279,7 +12279,7 @@ BFFIarrestOppoCbb,DialogOptionSelected,"$option == bffi_arrestOppoC
 $global.bornanewBadBoy > 2","$option = bffi_arrestOppo2 0
 FireBest DialogOptionSelected","""That will not be necessary,"" he says, turning to give a bow, hands together, to a group of elderly pilgrims resting under a tree.
 
-""My fellow Knights guard the Cathedral. I do trust that, whatever minor heresy they might be steeped in, they would not injure their brother without very good reason. This must be done as Ludd would, with open hands.""
+""My fellow Knights guard the Cathedral. I do trust that, whâtever minor heresy they might be steeped in, they would not injure their brother without very good reason. This must be done as Ludd would, with open hands.""
 
 ""Besides,"" he adds with a wry smile, ""you've seen fit to remain armed.""",,
 BFFIarrestOppoD,DialogOptionSelected,$option == bffi_arrestOppoD,"$option = bffi_arrestOppo2 0
@@ -13444,7 +13444,7 @@ $hailing = true 0",,,
 dstr_openComms,OpenCommLink,"!$isHostile
 !$distressTalkedToPlayerBefore
 $entity.distress score:1000","CallEvent $entity.ne_eventRef initDistress
-AddText ""\""Thank the stars you showed up!""
+AddText ""\""Dieu merci vous etes arrives !""
 AddText ""Our tanker had an accident and we don't have enough fuel left to get back to the core worlds. We need $entity.distressFuel fuel and will gladly pay you $entity.distressCredits credits for it - a handsome markup, I might add.\""""
 SetTextHighlights $entity.distressFuel $entity.distressCredits
 $distressTalkedToPlayerBefore = true
@@ -13453,14 +13453,14 @@ dstr_openCommsLuddic,OpenCommLink,"!$isHostile
 !$distressTalkedToPlayerBefore
 $entity.distress score:1000
 $faction.id == luddic_church","CallEvent $entity.ne_eventRef initDistress
-AddText ""\""Praise to providence and Ludd! You have come for us!""
+AddText ""\""Louange a la providence et a Ludd ! Vous etes venus pour nous !""
 AddText ""Our tanker had an accident and we don't have enough fuel left to get back to the core worlds. We need $entity.distressFuel fuel and will gladly pay you $entity.distressCredits credits for it - a charitable markup, I might add.\""""
 SetTextHighlights $entity.distressFuel $entity.distressCredits
 $distressTalkedToPlayerBefore = true
 FireBest DistressShowAidOptions",,,
 dstr_openCommsRepeat,OpenCommLink,"!$isHostile
 $entity.distress score:1000","CallEvent $entity.ne_eventRef initDistress
-AddText ""\""You're back!""
+AddText ""\""Vous etes de retour !""
 AddText ""You haven't come into more fuel, have you? We need $entity.distressFuel fuel and will gladly pay $entity.distressCredits credits for it.\""""
 SetTextHighlights $entity.distressFuel $entity.distressCredits
 FireBest DistressShowAidOptions",,,
@@ -13478,23 +13478,23 @@ SetTextHighlights $player.fuel
 SetEnabled dstrSell false
 SetEnabled dstrGive false",Vous avez $player.fuel de carburant disponible.,,
 dstr_sellFuel,DialogOptionSelected,$option == dstrSell,"CallEvent $entity.ne_eventRef sellDistressFuel
-AddText ""\""Thank you! I owe you one.\""""
+AddText ""\""Merci ! Je vous en dois une.\""""
 FireAll PopulateOptions",,,
 dstr_sellFuelLuddic,DialogOptionSelected,"$option == dstrSell
 $faction.id == luddic_church","CallEvent $entity.ne_eventRef sellDistressFuel
-AddText ""\""My thanks, and blessing of Ludd be upon you!\""""
+AddText ""\""Merci, et que la benediction de Ludd soit sur vous !\""""
 FireAll PopulateOptions",,,
 dstr_sellFuelTookCrew,DialogOptionSelected,"$option == dstrSell
 $entity.playerTookDistressCrewRecently","CallEvent $entity.ne_eventRef sellDistressFuel
-AddText ""\""Don't get me wrong, we'll take the fuel. But taking some of my crew first was a dirty trick.\""""
+AddText ""\""Ne vous meprenez pas, on prend le carburant. Mais avoir pris une partie de mon equipage d'abord, c'etait un sale coup.\""""
 $cutCommLinkPolite = false 0
 FireAll PopulateOptions",,,
 dstr_giveFuel,DialogOptionSelected,$option == dstrGive,"CallEvent $entity.ne_eventRef giveDistressFuel
-AddText ""\""Thank you! I won't forget this, and I'll make sure others know you can be counted on.\""""
+AddText ""\""Merci ! Je n'oublierai pas, et je m'assurerai que d'autres sachent qu'on peut compter sur vous.\""""
 FireAll PopulateOptions",,,
 dstr_giveFuelTookCrew,DialogOptionSelected,"$option == dstrGive
 $entity.playerTookDistressCrewRecently","CallEvent $entity.ne_eventRef giveDistressFuel
-AddText ""\""First you take some of my crew, then you give me free fuel? It'd be a dirty trick if you *sold* the fuel, but you're giving it away for free. I'm not ashamed to admit, I don't understand your thought process - but... thank you? I guess?\""""
+AddText ""\""D'abord vous prenez une partie de mon equipage, puis vous me donnez du carburant gratuit ? Ca serait un sale coup si vous *vendiez* le carburant, mais vous le donnez gratuitement. J'ai pas honte de l'admettre, je ne comprends pas votre logique — mais... merci ? Je suppose ?\""""
 $cutCommLinkPolite = false 0
 FireAll PopulateOptions",,,
 dstr_takeCrewNo,DialogOptionSelected,"$option == dstrCrew
@@ -13523,7 +13523,7 @@ dstrRejectCrew:""J'ai changé d'avis.""",
 dstr_rejectCrewSel,DialogOptionSelected,$option == dstrRejectCrew,FireBest DistressShowAidOptions,"""Une chance de nous vendre ce carburant, alors ?""",,
 dstr_acceptCrewSel,DialogOptionSelected,$option == dstrAcceptCrew,"CallEvent $entity.ne_eventRef takeDistressCrew
 $entity.playerTookDistressCrewRecently = true 7
-AddText ""\""Thanks for your help. We'll see what we can do over here.\""""
+AddText ""\""Merci pour votre aide. On verra ce qu'on peut faire de notre cote.\""""
 $entity.distressNoHail = true
 FireAll PopulateOptions",,,
 dstr_denySel,DialogOptionSelected,$option == dstrDeny,"$entity.distressNoHail = true
@@ -13536,8 +13536,8 @@ $entity.distressTurnHostile
 $player.fuel > $entity.distressFuelHostileThreshold",,"""Vraiment ? Je crois que nous allons simplement devoir ouvrir vos réservoirs de carburant pour vérifier. Parce que nos capteurs indiquent tout le contraire.""","dstrScared:""D'accord, d'accord ! Prenez le carburant.""
 dstrDefiant:""Allez-y, faites de votre mieux.""",
 dstr_scaredSel,DialogOptionSelected,$option == dstrScared,"CallEvent $entity.ne_eventRef scaredDistressFuel
-AddText ""\""Glad you could see reason. Helping a fellow traveler is only what's right, after all.\""""
-AddText ""The comm link is cut while you're still contemplating the audacity of that statement, and your own dwindling fuel reserves.""
+AddText ""\""Ravi que vous ayez entendu raison. Aider un compagnon de route, c'est la moindre des choses, apres tout.\""""
+AddText ""La comm est coupee alors que vous contemplez encore l'audace de cette declaration, et vos propres reserves de carburant en baisse.""
 EndConversation NO_CONTINUE",,,
 dstr_defiantSel,DialogOptionSelected,$option == dstrDefiant,"MakeOtherFleetHostile distress true 1000
 MakeOtherFleetAggressive distress true 1000
@@ -14110,7 +14110,7 @@ bar_descPirate,BarPrintDesc,$faction.id == pirates,ShowImageVisual pirate_bar,"L
 bar_descHegemony,BarPrintDesc,$faction.id == hegemony,ShowImageVisual hegemony_bar,"Vous entrez dans l'espace bondé et bien éclairé et contemplez les rangées de tireuses ornant le mur sous des bouteilles provenant de chacun des mondes centraux - et quelques-unes d'ailleurs. Des capitaines marchands se mêlent à des officiers en permission au comptoir, servis efficacement par le personnel en uniforme. Dans un coin, une bande de cadets de la marine chante et crie, profitant désespérément de leur dernière période de liberté.",,
 bar_descDiktat,BarPrintDesc,$faction.id == sindrian_diktat,ShowImageVisual bar_diktat,"Vous entrez dans le bar, laissant derrière vous les émissions de propagande assourdissantes du couloir principal. Des ouvriers en repos dépensent consciencieusement leurs crédits de ration en buvant sur des bancs installés sous les insignes du Diktat. Dans un coin, un groupe d'officiers-bureaucrates finement vêtus commande une nouvelle tournée. Même ici, un holo plus grand que nature du Lion de Sindria vous observe du haut tandis que vous décidez quoi faire.",,
 bar_descPerseanLeague,BarPrintDesc,$faction.id == persean,ShowImageVisual space_bar,"En entrant dans le bar, vous percevez une tension animée entre les équipages venus des différents mondes de la Ligue. De sombres Kazéroniens en uniformes élégants sirotent des spiritueux tandis que de fiers mais pauvres Mayasurans descendent des pintes de bière de riz. Un équipage de Tyliens échange des tournées et des vantardises avec deux officiers de pont zaganiens qui donnent un piètre exemple de tempérance Luddic. Des écrans lumineux diffusent les flux médiatiques de tous les mondes de la Ligue, et leurs haut-parleurs contribuent au grondement sourd de bruit blanc humain.",,
-bar_descLuddicChurch,BarPrintDesc,$faction.id == luddic_church,ShowImageVisual teahouse,Vous passez sous des affiches encourageant la tempérance et la retenue en entrant dans le bar. Quelqu'un joue d'un instrument à cordes dans une alcôve. Une rangée de samovars artisanaux suggère que le thé est servi aussi souvent que la légère bière de grain prisée par l'équipage de rudes ouvriers au comptoir. Beaucoup de clients attablés ou dans les alcôves semblent être des étrangers ou des mécréants locaux se blottissant dans ce qui se rapproche le plus d'un repaire de péchés que l'on puisse trouver ici.,,
+bar_descLuddicChurch,BarPrintDesc,$faction.id == luddic_church,ShowImageVisual teahouse,Vous passez sous des affichés encourageant la tempérance et la retenue en entrant dans le bar. Quelqu'un joue d'un instrument à cordes dans une alcôve. Une rangée de samovars artisanaux suggère que le thé est servi aussi souvent que la légère bière de grain prisée par l'équipage de rudes ouvriers au comptoir. Beaucoup de clients attablés ou dans les alcôves semblent être des étrangers ou des mécréants locaux se blottissant dans ce qui se rapproche le plus d'un repaire de péchés que l'on puisse trouver ici.,,
 bar_descLuddicPath,BarPrintDesc,$faction.id == luddic_path,ShowImageVisual teahouse,"Un brute patiné de la brigade des moeurs locale vous dévisage grossièrement au passage, mais ne vous arrête pas lorsque vous franchissez la porte. Il veut que vous sachiez qu'il pourrait fermer l'établissement à tout moment - mais un salon de thé clandestin est un conduit utile pour le commerce nécessaire à la conduite de la guerre sainte. À l'intérieur, c'est sombre, le plafond est bas et la foule est compacte. La puanteur des fumées de drogue et de l'alcool bon marché rivalise avec celle de corps qui dédaignent les savons enzymatiques modernes.",,
 ,,,,,,
 # TriTach Loan Intel,,,,,,
@@ -14175,7 +14175,7 @@ EndConversation",,,
 ,,,,,,
 # TriTach loan bounty hunter,,,,,,
 ttli_bountyHunterHail,BeginFleetEncounter,"$ttli_bountyHunter score:1000
-!$ignorePlayerCommRequests","AddText ""You're being hailed by the $faction $otherShipOrFleet."" $faction.baseColor
+!$ignorePlayerCommRequests","AddText ""Vous etes interpelle par le $otherShipOrFleet $faction."" $faction.baseColor
 $hailing = true 0",,,
 ttli_bountyHunterText,OpenCommLink,"$entity.ttli_bountyHunter score:1000
 !$entity.ignorePlayerCommRequests","$entity.ignorePlayerCommRequests = true
@@ -14307,7 +14307,7 @@ FireBest MarketPostDock",Vous ne pouvez pas honorer votre contrat de livraison p
 ,,,,,,
 # failed delivery bounty hunter,,,,,,
 dmi_bountyHunterHail,BeginFleetEncounter,"$dmi_bountyHunter score:1000
-!$ignorePlayerCommRequests","AddText ""You're being hailed by the $faction $otherShipOrFleet."" $faction.baseColor
+!$ignorePlayerCommRequests","AddText ""Vous etes interpelle par le $otherShipOrFleet $faction."" $faction.baseColor
 $hailing = true 0",,,
 dmi_bountyHunterText,OpenCommLink,"$entity.dmi_bountyHunter score:1000
 !$entity.ignorePlayerCommRequests","$entity.ignorePlayerCommRequests = true
@@ -14458,7 +14458,7 @@ Vous ordonnez un scan haute résolution et le placement des données brutes en s
 zig_encounterDesc2,BeginFleetEncounter2,$ziggurat score:1000,"$global.gaPZ_scannedZiggurat = true
 Call $global.gaPZ_ref updateStage
 $showAfterScanIntro = true","Votre attention dérive lorsque l'impression de quelque chose ressemblant à une musique lointaine s'insinue dans votre conscience ; comme si un choeur chantait à grande distance, ses voix portées jusqu'à vous par une rafale de vent fortuite. Quand vous essayez de vous concentrer sur la musique, l'impression s'évanouit. Vous prenez soudain conscience que votre équipage de passerelle attend, le regard fixé sur vous, guettant votre prochain ordre.",,
-zig_afterDefeating,AfterZigguratDefeat,,,"Une dernière explosion formidable sature les capteurs visuels externes. Quelques secondes plus tard, des capteurs de secours sont déployés à travers la coque.
+zig_afterDefeating,AfterZigguratDefeat,,,"Une dernière explosion formidable saturé les capteurs visuels externes. Quelques secondes plus tard, des capteurs de secours sont déployés à travers la coque.
 
 Votre officier des capteurs rapporte d'une voix étouffée qu'aucune capsule de sauvetage n'a été détectée quittant le vaisseau à aucun moment.",zigBattleContinue:Continuer,
 zig_afterDefeatingContinue,DialogOptionSelected,$option == zigBattleContinue,FireBest OpenInteractionDialog,,,
@@ -15858,7 +15858,7 @@ gaFCFikenhildBotherVIPoptA4no,DialogOptionSelected,$option == gaFC_fikenhildBoth
 AdjustRepActivePerson FRIENDLY 1
 FireAll PopulateOptions","""Alright."" $personName nods, meeting your gaze.
 
-""I appreciate your candor and judgement. Good luck with... whatever you're trying to sort out.""",,
+""I appreciate your candor and judgement. Good luck with... whâtever you're trying to sort out.""",,
 gaFCFikenhildBotherVIPoptBsel,DialogOptionSelected,$option == gaFC_fikenhildBotherVIPoptBsel,,,,
 gaFCFikenhildBotherVIPoptCsel,DialogOptionSelected,$option == gaFC_fikenhildBotherVIPoptCsel,"$market.askedVIPaboutCoureuse = true
 FireAll PopulateOptions","$HeOrShe nods, and $hisOrHer expression settles into familiar bureaucratic impatience.",,
@@ -16053,7 +16053,7 @@ gaFCFikenhildCavinStart,DialogOptionSelected,$option == gaFC_visitC,"$visitedC =
 $global.gaFC_triedToSeeCavin = true
 FireBest GAFCCavinStartKnock","L'ascenseur de transit descend dans les districts souterrains de Kay-arco. L'air s'épaissit de moisissure et de lubrifiant industriel centenaire. Vous traversez des tunnels structurels remplis de logements bon marché, de détaillants du marché gris et d'idéologies marginales.
 
-Les indications de votre TriPad vous mènent à une adresse où Cavin Pharoh a tenu ce que l'annonce de l'événement appelait un 'happening de conscience militante'. Le long d'un alignement anonyme de devantures de dépôts fermées, vous découvrez une porte sécurisée flanquée d'affiches d'agitation en polymère en décomposition. Des dormeurs défoncés aux produits chimiques gisent dans les entrées. Ça a l'air d'être le bon endroit.",,
+Les indications de votre TriPad vous mènent à une adresse où Cavin Pharoh a tenu ce que l'annonce de l'événement appelait un 'happening de conscience militante'. Le long d'un alignement anonyme de devantures de dépôts fermées, vous découvrez une porte sécurisée flanquée d'affichés d'agitation en polymère en décomposition. Des dormeurs défoncés aux produits chimiques gisent dans les entrées. Ça a l'air d'être le bon endroit.",,
 gaFCFikenhildCavinKnock1,GAFCCavinStartKnock,$global.gaFC_beingConspicuous >= 3,,,gaFC_fikenhildCavinStartInterrupt:Continuer,
 gaFCFikenhildCavinKnock2,GAFCCavinStartKnock,$global.gaFC_beingConspicuous <= 2,,,gaFC_fikenhildCavinKnock:Frapper à la porte,
 gaFCFikenhildCavinStartInterrupt,DialogOptionSelected,$option == gaFC_fikenhildCavinStartInterrupt,"$siyavongDidInterrupt = true
@@ -16169,7 +16169,7 @@ gaFCFikenhildCavinC3,DialogOptionSelected,$option == gaFC_fikenhildCavinC3,,"La 
 
 Cavin tape sur la plaque comms et les verrous de la porte se retirent. Cavin recule dans l'embrasure. ""Ne revenez pas me chercher. Je ne serai plus là.""
 
-La porte claque, envoyant une ondulation à travers les affiches d'agitation en polymère entourant la porte. Une pluie de flocons de plastique volettent jusqu'au sol.",gaFC_fikenhildCavinLeave:Partir,
+La porte claque, envoyant une ondulation à travers les affichés d'agitation en polymère entourant la porte. Une pluie de flocons de plastique volettent jusqu'au sol.",gaFC_fikenhildCavinLeave:Partir,
 gaFCFikenhildCavinD,DialogOptionSelected,$option == gaFC_fikenhildCavinD,"$player.ethosLiar++
 $global.gaFC_knowElissasName = true
 AddTextSmall ""Received comms ID for Elissa Zal"" highlight
@@ -16187,7 +16187,7 @@ gaFCFikenhildCavinE,DialogOptionSelected,$option == gaFC_fikenhildCavinE,,"Vous 
 La plaque comms derrière Cavin crépite et dit : ""Cavin ! Je t'avais dit que c'était un agent de FleetSec, je te l'avais dit ! Ne leur dis rien !""",gaFC_fikenhildCavinE2:Continuer,
 gaFCFikenhildCavinE2,DialogOptionSelected,$option == gaFC_fikenhildCavinE2,$global.gaFC_beingConspicuous++,"Cavin blêmit, l'air d'un animal pris au piège. Il frappe la plaque comms derrière lui et souffle ""La ferme !"" puis se retourne vers vous : ""Et vous aussi - la ferme ! Je ne... je ne vous connais pas, je ne sais rien. Ne me parlez pas !"" Retour à la plaque comms : ""Ouvre, c'est une espèce de cinglé.""
 
-Les verrous se retirent et Cavin recule dans l'embrasure. ""Restez loin de moi !"" crie-t-il une dernière fois avant que la porte ne claque, envoyant une ondulation à travers les affiches d'agitation en polymère entourant la porte. Une pluie de flocons de plastique volettent jusqu'au sol.",gaFC_fikenhildCavinLeave:Partir,
+Les verrous se retirent et Cavin recule dans l'embrasure. ""Restez loin de moi !"" crie-t-il une dernière fois avant que la porte ne claque, envoyant une ondulation à travers les affichés d'agitation en polymère entourant la porte. Une pluie de flocons de plastique volettent jusqu'au sol.",gaFC_fikenhildCavinLeave:Partir,
 gaFCFikenhildCavinLeave,DialogOptionSelected,$option == gaFC_fikenhildCavinLeave,"ShowDefaultVisual
 FireBest gaFCFikenhildCavinLeaveOption",,,
 gaFCFikenhildCavinLeave1,gaFCFikenhildCavinLeaveOption,$global.gaFC_knowSiyavongContact,"$option = gaFC_fikenhildCavinLeaveEnd 0
@@ -16666,7 +16666,7 @@ $global.gaFC_scavengerDroppedProbe = true","Votre officier des senseurs rapporte
 !$gafcProbe_encounteredAlready
 !$gafcProbe_finishedEncounter
 Call $global.gaFC_ref updateData","FleetDesc
-AddText ""You're being hailed by the $faction $otherShipOrFleet."" $faction.baseColor
+AddText ""Vous etes interpelle par le $otherShipOrFleet $faction."" $faction.baseColor
 $hailing = true 0",,,
 gaFCScavengerGreeting,OpenCommLink,"$entity.gaFCProbe_scavengerPermanentFlag score:1000
 Call $global.gaFC_ref updateData
@@ -18894,7 +18894,7 @@ $option == marketVisitBar","unset $global.gaPZ_brotherCottonEncounter
 FireBest BarShuttleDownPrintDesc
 FireBest BarPrintDesc
 BarCMD playAmbience
-AddText ""A shift-worker in a utilitarian jumpsuit, a few burns and patches, approaches the bar besides you. They never meet your eye. \""Someone would like to talk with you.\"" It's almost a mutter; difficult to make out \""Set you on the right... path. If you please, follow me.\""""",,"gaPZ_cottonFollow:Follow
+AddText ""Un travailleur de quart en combinaison utilitaire, quelques brulures et rapieces, s'approche du bar a cote de vous. Il ne croise jamais votre regard. \""Quelqu'un aimerait vous parler.\"" C'est presque un murmure ; difficile a distinguer \""Vous mettre sur le bon... chemin. Si vous voulez bien me suivre.\""""",,"gaPZ_cottonFollow:Follow
 gaPZ_cottonNoFollow:Ne pas suivre",
 gaKA_cotton2,DialogOptionSelected,$option == gaPZ_cottonFollow,,"On vous conduit dans un endroit sombre derrière le bar.
 
@@ -20160,7 +20160,7 @@ HailPlayer","Votre officier capteurs prend la parole, ""Capitaine, vous devriez 
 gaATGscavScanDialog,OpenCommLink,$entity.gaATG_scavScanFleet score:1000,"$menuState = fleetConvMain 0
 FireAll GAATGscavScanHub","Le capitaine de la flotte de recuperateurs sourit de manière peu convaincante tandis que l'image comm se stabilise.
 
-""Salutations, voyageur des etoiles !"" dit $heOrShe, debordant de bonhomie. ""Vu de bonnes prises dans le coin ? Ca a été un peu maigre pour nous, ha-ha, peut-être qu'on pourrait utiliser un tuyau ou deux.""",,
+""Salutations, voyageur des étoiles !"" dit $heOrShe, debordant de bonhomie. ""Vu de bonnes prises dans le coin ? Ca a été un peu maigre pour nous, ha-ha, peut-être qu'on pourrait utiliser un tuyau ou deux.""",,
 gaATGscavScanHub1,GAATGscavScanHub,"!$willingToLeave
 !$cacheLie",,,"gaATG_scavScanDialog1:""Désolé, non.""",
 gaATGscavScanHub2,GAATGscavScanHub,!$cacheLie,,,"gaATG_scavScanDialog2:""Il y a un gros dépôt de l'autre côté du système. Ma soute est pleine, alors c'est tout pour vous.""",
@@ -20435,7 +20435,7 @@ La liaison se coupe.",cutCommLink:Couper la comm,
 # GAATG get mission from Coureuse,,,,,,
 gaATGzalMissionStart,PickGreeting,"$id == coureuse score:1000
 $global.gaATG_getMissionFromCoureuse score:1000
-Call $global.gaATG_ref updateData",BeginConversation coureuse true true,"Coureuse apparait sur l'ecran de communication. ""Euh. Capitaine $playerName. Bonjour.""
+Call $global.gaATG_ref updateData",BeginConversation coureuse true true,"Coureuse apparait sur l'écran de communication. ""Euh. Capitaine $playerName. Bonjour.""
 
 Elle prend une profonde inspiration. ""Merci de m'avoir contactee. Je suis désolée pour... tout. La directrice Baird. L'experience ratee. Je n'aurais jamais du aller de l'avant alors que je n'étais pas absolument certaine de votre sécurité.""","gaATG_zalMissionStart1:""Je comprends. Baird peut être un peu autoritaire.""
 gaATG_zalMissionStart2:""Je m'en suis sorti. Comme toujours.""
@@ -20906,9 +20906,9 @@ $market.gaATG_findingLoke score:1000
 $setUpCottonMeeting","FireBest BarShuttleDownPrintDesc
 FireBest BarPrintDesc
 BarCMD playAmbience
-AddText ""The proprietor catches your eye as you enter the bar, sets down a glass, and nervously approaches you.""
-AddText ""\""Hear me, I beg,\"" she says. \""I've nothing to do with him or his people. You... you can\'t refuse them here, captain.\""""
-AddText ""She glances unconsciously toward a table with some heavies wearing the uniform of one of the mining guilds. They're watching you both, very closely. \""The back room. He's waiting. I- I saw nothing today.\""""",,"gaATG_meetCottonStart2:Aller dans l'arrière-salle
+AddText ""La proprietaire croise votre regard en entrant dans le bar, pose un verre et s'approche nerveusement de vous.""
+AddText ""\""Ecoutez-moi, je vous en prie,\"" dit-elle. \""Je n'ai rien a voir avec lui ou ses gens. Vous... on ne peut pas les refuser ici, capitaine.\""""
+AddText ""Elle jette un regard inconscient vers une table ou des gros bras portent l'uniforme d'une des guildes minieres. Ils vous observent tous les deux, de tres pres. \""L'arriere-salle. Il vous attend. Je... je n'ai rien vu aujourd'hui.\""""",,"gaATG_meetCottonStart2:Aller dans l'arrière-salle
 gaATG_meetCottonAvoid:Ne pas aller dans l'arrière-salle",
 gaATGmeetCottonAvoid,DialogOptionSelected,$option == gaATG_meetCottonAvoid,"AddBarEvent gaATG_meetCottonStart2 ""Go to the backgroom and meet Brother Cotton."" ""The Pather heavies watch you openly and obviously, full cups of tea going cold between them.""
 BarCMD showOptions",,,
@@ -21747,7 +21747,7 @@ L'équipe doit repartir rapidement, mais heureusement - à part quelques traces 
 gaDataPirateFleetEncounter,BeginFleetEncounter,"$gaData_pirate score:1000
 !$ignorePlayerCommRequests","$gaData_pirateConv = true 0
 FleetDesc
-AddText ""You're being hailed by the $faction $otherShipOrFleet."" $faction.baseColor
+AddText ""Vous etes interpelle par le $otherShipOrFleet $faction."" $faction.baseColor
 $hailing = true 0",,,
 gaDataPirateOpenComm,OpenCommLink,"$entity.gaData_pirateConv score:100
 Call $global.gaData_ref updateData","$entity.ignorePlayerCommRequests = true
@@ -22240,7 +22240,7 @@ La sonde s'est-elle défendue avec quelque ultra-technologie de l'ère du Domain
 « $PlayerSirOrMadam, » votre chef des opérations détourne votre attention des rapports étalés sur votre affichage, « je recommande de reculer la $shipOrFleet à distance de sécurité avant toute sortie extravéhiculaire. »",gaProbe_blewUp2:Continuer,
 gaProbeObjectInteractionBlewUp2,DialogOptionSelected,$option == gaProbe_blewUp2,,"L'équipe de récupération manoeuvre depuis un trio de drones porteurs vers la sonde, signalant et confirmant leur approche tandis que vous suivez leur progression. De la statique crépite par vagues sur les flux d'affichage de la passerelle. Des interférences venant de la sonde, probablement.
 
-« Contact signalé. » L'équipe de récupération coordonne les relevés avec votre chef des opérations. Des amarres sont fixées à la coque de la sonde et l'équipement est déployé.
+« Contact signalé. » L'équipe de récupération coordonne les relevés avec votre chef des opérations. Des amarrés sont fixées à la coque de la sonde et l'équipement est déployé.
 
 « Chalumeau prêt, découpe en cours. » Une autre vague de statique.
 
@@ -22971,7 +22971,7 @@ Vous considérez que quels que soient les crimes de votre contact, il pourrait y
 gaBAPatherRaidFinished,GABARaidFinished,,"$global.gaBA_needToReturn = true
 Call $global.gaBA_ref updateStage","Un bruit sourd et une detonation se font entendre a travers la ligne de communication du Pather, tandis que l'image se brouille un instant. $HeOrShe vous regarde avec panique dans les yeux, ""Par le marteau de Ludd, vous êtes-"" -la ligne de communication s'eteint. 
 
-Vous basculez l'ecran sur le flux tactique de vos fusiliers marins au moment ou ils rapportent le succes de l'operation.",,
+Vous basculez l'écran sur le flux tactique de vos fusiliers marins au moment ou ils rapportent le succes de l'operation.",,
 gaBAPatherRaidFinishedContinue,GABARaidFinishedContinue,,"$option = cutCommLinkNoText 0
 FireBest DialogOptionSelected",,,
 gaBAPatherAccept1,DialogOptionSelected,$option == gaBA_acceptPather,"RemoveCommodity credits $gaBA_cost
@@ -23040,7 +23040,7 @@ $gaBA_variation == PIRATE",ShowPersonVisual,"Le signal de communication peine à
 
 $HisOrHer sourire lent révèle des dents en diamant. ""Comment puis-je vous guider aujourd'hui ?""","gaBA_pirateAsk:Questionner sur une certaine pièce de technologie
 cutCommLink:Couper la comm",
-gaBAPirateGreeting1,DialogOptionSelected,$option == gaBA_pirateAsk,FireBest GABAPirateMainOptions,"""Ah, je vous attendais."" $HeOrShe semble vous examiner a travers l'ecran, ""Un peu plus rude que ce a quoi je m'attendais de la part de l'Academie de Galatia, mais cette nouvelle approche est quelque chose que je peux respecter."" $HeOrShe tire une bouffee d'un particulariseur de drogue.",,
+gaBAPirateGreeting1,DialogOptionSelected,$option == gaBA_pirateAsk,FireBest GABAPirateMainOptions,"""Ah, je vous attendais."" $HeOrShe semble vous examiner a travers l'écran, ""Un peu plus rude que ce a quoi je m'attendais de la part de l'Academie de Galatia, mais cette nouvelle approche est quelque chose que je peux respecter."" $HeOrShe tire une bouffee d'un particulariseur de drogue.",,
 GABAPirateMainOptions,GABAPirateMainOptions,,"ShowPersonVisual
 SetStoryOption gaBA_bluffPirate general ""Bluffed pirate to get $gaBA_aOrAnItem more cheaply""
 Highlight $gaBA_costHigh
@@ -23067,7 +23067,7 @@ Call $global.gaBA_ref updateStage","Un bruit sourd et une detonation se font ent
 
 La communication s'eteint.
 
-Vous basculez l'ecran sur le flux tactique de vos fusiliers marins au moment ou ils rapportent le succes de l'operation.",,
+Vous basculez l'écran sur le flux tactique de vos fusiliers marins au moment ou ils rapportent le succes de l'operation.",,
 gaBAPirateRaidFinishedContinuePirate,GABARaidFinishedContinuePirate,,"$option = cutCommLinkNoText 0
 FireBest DialogOptionSelected",,,
 gaBAPirateAccept1,DialogOptionSelected,$option == gaBA_acceptPirate,"RemoveCommodity credits $gaBA_cost
@@ -23185,7 +23185,7 @@ FleetDesc
 HailPlayer",,,
 pwi2OpenComm,OpenCommLink,"$entity.pwi2_wantsItem score:1000
 !$entity.ignorePlayerCommRequests","$entity.ignorePlayerCommRequests = true
-SetStoryOption pwi2_bluff general ""Bluffed Pather to keep $entity.pwi2_item""","""O, qu'est-ce que c'est - un serviteur de Moloch devant moi ?"" dit le Pather d'une voix chantante, ""Repentez-vous, repentez-vous et ejectez cette horreur technologique demoniaque que vous transportez pour repandre le mal dans les etoiles lointaines !""
+SetStoryOption pwi2_bluff general ""Bluffed Pather to keep $entity.pwi2_item""","""O, qu'est-ce que c'est - un serviteur de Moloch devant moi ?"" dit le Pather d'une voix chantante, ""Repentez-vous, repentez-vous et ejectez cette horreur technologique demoniaque que vous transportez pour repandre le mal dans les étoiles lointaines !""
 
 ""Oui, nous savons ce que vous avez. Et nous le detruirons, soit dans votre soute a cargaison, soit dans le Saint Vide. Choisissez maintenant.""","cutCommLink:Refuser, close comms
 pwi2_bluff:Bluffer pour se débarrasser du Voiste
@@ -23215,7 +23215,7 @@ Le capitaine voiliste vous guide dans une prière Luddic classique, implorant le
 pwi2_accept1,DialogOptionSelected,$option == pwi2_accept1,"MakeOtherFleetNonHostile true
 MakeOtherFleetGoAway true
 AdjustRep $personFaction.id COOPERATIVE 1
-FireBest $entity.pwi2_missionFailTrigger","""La voie de la redemption est longue,"" vous dit enfin le capitaine Pather, ""Et ceci n'est que le premier pas de votre expiation. Que les benedictions de Ludd soient sur vous, voyageur des etoiles.""
+FireBest $entity.pwi2_missionFailTrigger","""La voie de la redemption est longue,"" vous dit enfin le capitaine Pather, ""Et ceci n'est que le premier pas de votre expiation. Que les benedictions de Ludd soient sur vous, voyageur des étoiles.""
 
 Vous coupez la communication, levez les yeux au ciel, et reflechissez a votre prochain mouvement.",cutCommLinkNoText:Continuer,
 ,,,,,,
@@ -23619,7 +23619,7 @@ gaIntro2surveyOpenAgain,PopulateOptions,"$global.gaIntro2found
 $gaIntro2startLater
 !$rejectedRetrieval",FireBest GAIntro2ReminderText,,gaIntro2_retrieval:Ordonner la récupération du noyau de données,
 gaIntro2surveyOpenAgainText,GAIntro2ReminderText,!$shownReminderText,"$shownReminderText = true 0
-AddText ""Your sensors officer reminds you that you have previously discovered a Galatia Academy instrument package orbiting this planet. A transmission promises a cash reward for its return to the academy.""",,,
+AddText ""Votre officier des capteurs vous rappelle que vous avez precedemment decouvert un colis d'instruments de l'Academie Galatia en orbite autour de cette planete. Une transmission promet une recompense en credits pour son retour a l'academie.""",,,
 gaIntro2surveyOpenAgain2,PopulateOptions,"$global.gaIntro2found
 $gaIntro2startLater
 $rejectedRetrieval","ShowDefaultVisual
@@ -23628,7 +23628,7 @@ FireBest PrintHasSurveyDataTextIfSo
 FireBest OtherPlanetInteractionText
 FireAll PopulateOptions
 FireBest PrintNearbySurveyHostilesTextIfSo
-AddText ""An instrument package orbiting this planet is sending a weak transmission promising a cash reward for its return to the Galatia Academy.""",,gaIntro2_retrieval2:Ordonner la récupération du noyau de données,# in case you want to immediately change your mind
+AddText ""Un colis d'instruments en orbite autour de cette planete emet une faible transmission promettant une recompense en credits pour son retour a l'Academie Galatia.""",,gaIntro2_retrieval2:Ordonner la récupération du noyau de données,# in case you want to immediately change your mind
 gaIntro2start2,DialogOptionSelected,$option == gaIntro2_start2,"Highlight ""Galatia Academy"" ""18,000""","Votre officier aux senseurs active la sortie audio : une boucle brouillée, oscillant entre cohérence et chaos. Une voix enregistrée ?
 
 ""L'émetteur doit être endommagé. Mais avec un peu de travail"", une pointe de fierté entre dans sa voix, ""Voilà.""
@@ -23712,7 +23712,7 @@ AddCredits $gaIntro2_credits
 $global.gaIntro2_completed = true 0
 Call $global.gaIntro2_ref updateStage
 FireAll PopulateOptions
-AddText ""\""Now, where were we...\"" Elek says.""","Vous le feriez, et vous le faites.
+AddText ""\""Bon, ou en etions-nous...\"" dit Elek.""","Vous le feriez, et vous le faites.
 
 L'Academicien Elek autorise le versement des credits de recompense en votre faveur, par le bureau du tresorier, avec une rapidite surprenante.",,
 ,,,,,,
@@ -25654,7 +25654,7 @@ $Rank $personName affiche un écran montrant $bcb_fleetName, dans le système $b
 # custom underworld bounty,,,,,,
 ucbBlurb,ucb_blurb,,,"""J'ai une liste de cibles a éliminer,"" dit $personName d'un ton nonchalant. ""Vous pourriez vous faire de bons credits avec l'un de ces contrats.""",,
 ucbOfferOption,ucb_option,,,,ucb_start:Questionner sur l'une des primes disponibles,
-ucbBlurbBar,ucb_blurbBar,,,"Un $ucb_manOrWoman occupe un box au fond de la salle, une paire de brutes cachees dans l'ombre, a l'exception de la lueur de leurs yeux augmentes. Vous observez un mercenaire-pirate evident s'approcher pour un échange de mots et de datapads. Des contrats du milieu sous-traites ?",,
+ucbBlurbBar,ucb_blurbBar,,,"Un $ucb_manOrWoman occupe un box au fond de la salle, une paire de brutes cachées dans l'ombre, a l'exception de la lueur de leurs yeux augmentes. Vous observez un mercenaire-pirate evident s'approcher pour un échange de mots et de datapads. Des contrats du milieu sous-traites ?",,
 ucbOfferOptionBar,ucb_optionBar,,,,ucb_startBar:Approcher l'$ucb_manOrWoman qui propose des primes de la pègre,
 ucbOfferTextContact,DialogOptionSelected,$option == ucb_start,"$missionId = ucb
 $option = ucb_showOptions 0
@@ -26066,7 +26066,7 @@ LOCRPofferWorkLuddicPrayA,DialogOptionSelected,"$option == locrp_luddicPray
 $player.mostLuddicEthosFaithful","$player.makingLostPiratesActLuddic = true
 $player.luddicAttitudeFaithful++
 $option = locrp_offerTransport 0
-FireBest DialogOptionSelected","$HeOrShe pousse un long soupir. ""Bon, alors on sera sages comme des enfants de choeur, c'est promis.""",,# treat this as doubling down on whatever Luddic inclination the PC is following most -dgb
+FireBest DialogOptionSelected","$HeOrShe pousse un long soupir. ""Bon, alors on sera sages comme des enfants de choeur, c'est promis.""",,# treat this as doubling down on whâtever Luddic inclination the PC is following most -dgb
 LOCRPofferWorkLuddicPrayB,DialogOptionSelected,"$option == locrp_luddicPray
 $player.mostLuddicEthosPather","$player.makingLostPiratesActLuddic = true
 $player.luddicAttitudePather++
@@ -26334,7 +26334,7 @@ $entity.locrl_contacted",FireAll LOCRLhub,"Dans un grésillement, les communicat
 LOCRLFmissionFound,LOCRLhub,"$global.locrlf_inProgress
 !$didLOCRLFmissionAcknowledgement","$global.locrlf_foundHeretics = true
 $didLOCRLFmissionAcknowledgement = true
-AddText ""It appears that you have found the Church's lost heretics.""
+AddText ""Il semble que vous ayez trouve les heretiques perdus de l'Eglise.""
 Call $global.locrlf_ref updateStage",,,
 LOCRLFmissionFoundOpt,LOCRLhub,"$global.locrlf_inProgress
 !$saidLookingFor",,,"locrlf_sayLookingFor:""Un agent de l'Église m'a engagé pour vous trouver.""",
@@ -26605,7 +26605,7 @@ LOCRLoffloadToChurch,MarketPostDock,"$player.locr_luddicsToChurch
 $marketSize > 3
 $faction.id == luddic_church
 $player.crew > 198
-!$market.locrlf_market","Highlight ""suitable for offloading the Luddic heretics""","Vous êtes arrive a une colonie controlee par l'Eglise de la Redemption Galactique, adaptee au debarquement des heretiques Luddic que vous avez secourus depuis les confins.","locrl_offloadHeretics2:Transporter les hérétiques secourus par navette vers $name
+!$market.locrlf_market","Highlight ""suitable for offloading the Luddic heretics""","Vous êtes arrive a une colonie controlee par l'Eglise de la Redemption Galactique, adaptee au débarquement des heretiques Luddic que vous avez secourus depuis les confins.","locrl_offloadHeretics2:Transporter les hérétiques secourus par navette vers $name
 locrl_offloadNotYet:Pas encore",# assume player is faithful/church com
 LOCRLoffloadToChurch2,DialogOptionSelected,$option == locrl_offloadHeretics2,"AddCommodity crew -198
 AddXP 5000
@@ -26621,7 +26621,7 @@ LOCRLoffloadToChurchSecular,MarketPostDock,"$player.locr_luddicsOnBoard
 $marketSize > 3
 $faction.id == luddic_church
 $player.crew > 198
-!$market.locrlf_market","Highlight ""suitable for offloading the Luddic heretics""","Vous êtes arrive a une colonie controlee par l'Eglise de la Redemption Galactique, adaptee au debarquement des heretiques Luddic que vous avez secourus depuis les confins.","locrl_offloadLuddics2:Transporter les luddiques secourus par navette vers $name
+!$market.locrlf_market","Highlight ""suitable for offloading the Luddic heretics""","Vous êtes arrive a une colonie controlee par l'Eglise de la Redemption Galactique, adaptee au débarquement des heretiques Luddic que vous avez secourus depuis les confins.","locrl_offloadLuddics2:Transporter les luddiques secourus par navette vers $name
 locrl_offloadNotYet:Pas encore",# assume player is NOT faithful/church com
 LOCRLoffloadToChurchSecular2,DialogOptionSelected,$option == locrl_offloadLuddics2,"AddCommodity crew -198
 AddXP 5000
@@ -26637,7 +26637,7 @@ LOCRLoffloadToPathMarket,MarketPostDock,"$player.locr_luddicsToPath
 $marketSize > 3
 $faction.id == luddic_path
 $player.crew > 198
-!$market.locrlf_market","Highlight ""suitable for offloading the Luddic heretics""","Vous êtes arrive a une colonie controlee par la Voie de Ludd, adaptee au debarquement des heretiques que vous avez secourus depuis les confins.","locrl_offloadHereticsToPath0:Transporter les hérétiques secourus par navette vers $name
+!$market.locrlf_market","Highlight ""suitable for offloading the Luddic heretics""","Vous êtes arrive a une colonie controlee par la Voie de Ludd, adaptee au débarquement des heretiques que vous avez secourus depuis les confins.","locrl_offloadHereticsToPath0:Transporter les hérétiques secourus par navette vers $name
 locrl_offloadNotYet:Pas encore",
 LOCRLoffloadToPathMarket2,DialogOptionSelected,$option == locrl_offloadHereticsToPath0,BeginConversation POST:administrator,"L'organisme quelque peu atypique qui fait office d'autorité portuaire a quelques questions pointues tandis que vous organisez le débarquement de près de deux cents hérétiques venus des confins.
 
@@ -26859,7 +26859,7 @@ Call $lpt_ref showMap ""Destination: $lpt_entityName""","Vous approchez le pèle
 
 ""Peut-être vous rendez-vous déjà dans le système $lpt_systemName ? Le sanctuaire ne serait qu'un léger détour."" $lpt_HeOrShe vous regarde avec espoir. ""Nous ne causerons aucun problème, et nous prierons la Providence de vous bénir de prospérité et de santé.""","contact_acceptBar:Accepter
 contact_declineBarNoContinue:Refuser",
-lptPostAccept,ContactPostAccept,$missionId == lpt,"#AddTextSmall ""Luddic pilgrims boarded $shipOrFleet"" highlight","Vous chargez votre commissaire de bord de faire les arrangements necessaires, avec pour consigne d'empecher les pelerins d'interferer avec les operations du $shipOrFleet.",,
+lptPostAccept,ContactPostAccept,$missionId == lpt,"#AddTextSmall ""Luddic pilgrims boarded $shipOrFleet"" highlight","Vous chargez votre commissaire de bord de faire les arrangements nécessaires, avec pour consigne d'empecher les pelerins d'interferer avec les operations du $shipOrFleet.",,
 ,,,,,,
 # LPT arrived at destination,,,,,,
 LPTcheckCompletionBeholder,BeholderShrineMainOptions,"$id == beholder_station
@@ -26877,7 +26877,7 @@ Call $lpt_ref updateStage",Votre intendant signale que les pèlerins que vous av
 LPTcheckCompletionContRich,DialogOptionSelected,"$option == lpt_deliverContinue
 $lpt_wealth == rich","
 AdjustRep luddic_church FAVORABLE 1
-Call $lpt_ref updateStage",Votre commissaire de bord rapporte que les pelerins embarques depuis $lpt_sourceName ont été transferes vers une navette privee et sont en route vers le sanctuaire Luddic local. Leur paiement a été verse sur vos comptes.,marketCmd_checkDebtContinue:Continuer,
+Call $lpt_ref updateStage",Votre commissaire de bord rapporte que les pelerins embarques depuis $lpt_sourceName ont été transferes vers une navette privée et sont en route vers le sanctuaire Luddic local. Leur paiement a été verse sur vos comptes.,marketCmd_checkDebtContinue:Continuer,
 LPTcheckCompletionContRichOneOff,DialogOptionSelected,"$option == lpt_deliverContinue
 $lpt_wealth == rich
 !$global.lpp_completed
@@ -26898,7 +26898,7 @@ LPTcheckNonMarketContGeneric,DialogOptionSelected,$option == lpt_deliverNonMarke
 Call $lpt_ref updateStage",Votre intendant signale que les pèlerins que vous avez embarqués sur $lpt_sourceName pour les transporter au sanctuaire luddic local ont été transférés vers une navette civile.,lpt_endingOut:Continuer,
 LPTcheckNonMarketContRich,DialogOptionSelected,"$option == lpt_deliverNonMarketContinue 
 $lpt_wealth == rich","AdjustRep luddic_church FAVORABLE 1
-Call $lpt_ref updateStage",Votre commissaire de bord rapporte que les pelerins embarques depuis $lpt_sourceName ont été transferes vers une navette privee et sont en route vers le sanctuaire Luddic local. Leur paiement a été verse sur vos comptes.,lpt_endingOut:Continuer,
+Call $lpt_ref updateStage",Votre commissaire de bord rapporte que les pelerins embarques depuis $lpt_sourceName ont été transferes vers une navette privée et sont en route vers le sanctuaire Luddic local. Leur paiement a été verse sur vos comptes.,lpt_endingOut:Continuer,
 LPTcheckNonMarketContRichOneOff,DialogOptionSelected,"$option == lpt_deliverNonMarketContinue 
 $lpt_wealth == rich
 !$global.lpp_completed
@@ -27530,7 +27530,7 @@ SECOPatrolHail,SECOPatrolHail,,$entity.ignorePlayerCommRequests = true,"""Nous n
 cutCommLinkNoText:Ne rien dire",
 ,,,,,,
 # Ship Hijacking mission,,,,,,
-hijackBlurb,hijack_blurb,,,"""J'ai elabore un plan infaillible pour voler un vaisseau militaire dans un hangar en orbite locale. L'acheteur s'est desiste, donc je pourrais vous vendre les informations necessaires pour realiser le coup vous-meme.""",,
+hijackBlurb,hijack_blurb,,,"""J'ai elabore un plan infaillible pour voler un vaisseau militaire dans un hangar en orbite locale. L'acheteur s'est desiste, donc je pourrais vous vendre les informations nécessaires pour realiser le coup vous-meme.""",,
 hijackOfferOption,hijack_option,,,,hijack_start:Questionner sur le plan pour voler un vaisseau militaire,
 hijackBlurbBar,hijack_blurbBar,,,"Un $hijack_manOrWoman a l'air coriace en sous-combinaison d'armure assistee descend un alcool acre, intimidant quiconque s'approche trop pres d'un regard feral.",,
 hijackOfferOptionBar,hijack_optionBar,,,,hijack_startBar:Discuter avec $hijack_manOrWoman à l'air coriace portant la sous-combinaison d'armure assistée,
@@ -27662,7 +27662,7 @@ ddroPrintHostilesText,OpenInteractionDialog,"$ddro_target score:1000
 IsSeenByAnyFleet
 Call $ddro_ref updateData",ShowDefaultVisual,"Votre $shipOrFleet a recemment été detecte - ou est actuellement piste par - une flotte a proximite, et deposer l'objet a l'emplacement specifie est extremement deconseille.",defaultLeave:Partir,
 ddroObjectInteraction,OpenInteractionDialog,"$ddro_target score:1000
-Call $ddro_ref updateData",ShowDefaultVisual,"Votre officier de navigation signale que votre $shipOrFleet est arrive aux coordonnees fournies par $ddro_personName. Le $ddro_thing est delicatement maintenu dans les bras articulés d'un drone cargo, pret a être deploye.
+Call $ddro_ref updateData",ShowDefaultVisual,"Votre officier de navigation signale que votre $shipOrFleet est arrive aux coordonnees fournies par $ddro_personName. Le $ddro_thing est delicatement maintenu dans les bras articulés d'un drone cargo, pret a être déployé.
 
 Le bouton de mise a feu clignote doucement sur votre interface de commande.","ddro_scan:Le larguer en orbite stable
 defaultLeave:Partir",
@@ -27675,7 +27675,7 @@ C'est fait. Quoi que 'ce' soit.",defaultLeave:Partir,
 sitmBlurb1,sitm_blurb,,,"""Un de mes informateurs m'a transmis la localisation $sitm_aOrAnItem. Je partagerais cette information avec vous pour un prix raisonnable.""",,
 sitmBlurb1_villain,sitm_blurb,$voice == villain,,"""Un de mes infiltres m'a transmis la localisation $sitm_aOrAnItem. Je n'en ai pas l'utilite dans mes plans actuels, alors j'ai magnanimement decide de partager cette opportunité pour un prix très raisonnable.""",,
 sitmOfferOption1,sitm_option,,,,sitm_start:Questionner sur l'emplacement du $sitm_item,
-sitmBlurbBar1,sitm_blurbBar,,,"Un $manOrWoman aux vetements voyants, portant un équipement de recupérateur partiel orne de trophees etincelants, vous bouscule et offre une tournee a tout le bar.",,
+sitmBlurbBar1,sitm_blurbBar,,,"Un $manOrWoman aux vêtements voyants, portant un équipement de recupérateur partiel orne de trophees etincelants, vous bouscule et offre une tournee a tout le bar.",,
 sitmOfferOptionBar1,sitm_optionBar,,,,sitm_startBar:Remercier $manOrWoman habillé de façon voyante pour le verre,
 sitmOfferTextBar1,DialogOptionSelected,$option == sitm_startBar,"$missionId = sitm
 Highlight $sitm_price
@@ -28176,7 +28176,7 @@ FireBest StandfastOfferingOptionCheck",,0:standfastMakeOffering:Proposer de l'ar
 standfastOfferingOptionCheck,StandfastOfferingOptionCheck,PlayerHasCargo hand_weapons 10,"SetEnabled standfastMakeOffering true
 SetTooltip standfastMakeOffering ""Offer 10 units of heavy armaments to the Volturn insurgency.""",,,
 standfastOfferingAlreadyMade,DialogOptionSelected,"$option == standfastMakeOffering
-$offeringMade score:100",,"""Le sanctuaire apprecie votre devotion,"" dit la curatrice, ""Mais nous devons attendre encore un peu avant votre prochaine... contribution. Un tel etalage de ferveur si tot pourrait être percu comme de l'intemperance par certaines puissances superieures.""
+$offeringMade score:100",,"""Le sanctuaire apprecie votre devotion,"" dit la curatrice, ""Mais nous devons attendre encore un peu avant votre prochaine... contribution. Un tel etalage de ferveur si tot pourrait être percu comme de l'intemperance par certaines puissances supérieures.""
 
 ""Nous prierons sur cette question.""",,
 standfastOfferingEnough,DialogOptionSelected,$option == standfastMakeOffering,"SetTextHighlightColors buttonShortcut
@@ -28463,7 +28463,7 @@ Rao takes a quiet moment then drums his fingers on his console. Staring at you. 
 ""Let us speak plainly,"" he says.",rao_fastOneSpeak:Continuer,
 raoFastOneCa,DialogOptionSelected,$option == rao_fastOneCa,,"""I'm glad to hear it, captain,"" he says. ""Now we may speak plainly.""
 
-""From captain to... what have they made me, an $rank? My, it makes you wonder who's in charge, doesn't it.""","rao_fastOneSpeak:Let him get to his point, whatever it is
+""From captain to... what have they made me, an $rank? My, it makes you wonder who's in charge, doesn't it.""","rao_fastOneSpeak:Let him get to his point, whâtever it is
 rao_fastOneCa2:""That'd be the High Hegemon, Baikal Daud.""",
 raoFastOneCa2,DialogOptionSelected,$option == rao_fastOneCa2,,"""One should think,"" he says pointedly. ""But never mind- what I mean to say is that you played the ruse well.""
 
@@ -29081,11 +29081,11 @@ $market.id == kantas_den
 Call $global.gaATG_ref updateData
 $gaATG_stage == GO_TO_MAGEC_GATE score:1000","ClearText
 AddText ""Your $shipOrFleet maintains its position near $entityName.""
-AddText ""The armored asteroid-station bristles with weapons, targeting arrays active and hungry. Small warships flit about like hornets, and the comms channels are flooded with the screech of electronic warfare.""
-AddText ""Doing any kind of business here will not be possible until things calm down.""",,"marketConsiderHostile:Consider your military options
+AddText ""La station-asteroide blindee herisse d'armes, reseaux de ciblage actifs et avides. De petits navires de guerre virevoltent comme des frelons, et les canaux de communication sont inondes par le gresillements de la guerre electronique.""
+AddText ""Faire quelque affaire que ce soit ici sera impossible tant que les choses ne se seront pas calmees.""",,"marketConsiderHostile:Evaluer vos options militaires
 defaultLeave:Partir","# post-raid, potentially."
 #gaATGGoBackFromHostileOpt,PopulateOptions,"$market.id == kantas_den
-$global.gaATG_foundZal score:1000",,,"20:marketConsiderHostile:Consider your military options
+$global.gaATG_foundZal score:1000",,,"20:marketConsiderHostile:Evaluer vos options militaires
 100:defaultLeave:Partir",
 defaultGreetingKanta,PickGreeting,$id == kanta score:1000,,"Apres une courte attente, votre demande de connexion est refusee.",0:cutCommLink:Couper la comm,
 defaultGreetingCydonia,PickGreeting,$id == cydonia score:1000,,"Apres une courte attente, votre demande de connexion est refusee.",0:cutCommLink:Couper la comm,
@@ -29226,7 +29226,7 @@ $HeOrShe crache, le projectile atterrissant vraisemblablement sur $hisOrHer prop
 kdTrafficControlRevisitMurder3,DialogOptionSelected,$option == kd_trafficControlRevisitMurder2,"MakeNearbyFleetsHostile pirates 100000 30 true 
 EndConversation DO_NOT_FIRE
 FireAll PopulateOptions
-ShowDefaultVisual","La communication est coupee. Tandis que votre navette regagne en hate votre $shipOrFleet, votre officier tactique envoie un signal urgent.
+ShowDefaultVisual","La communication est coupee. Tandis que votre navette regagne en hâte votre $shipOrFleet, votre officier tactique envoie un signal urgent.
 
 ""Capitaine. On dirait que l'Antre de Kanta a diffuse une alerte generale ; elle rappelle toutes les flottes pirates a proximite sur la signature de propulsion de notre $shipOrFleet. Je recommande de se preparer a des hostilites.""",,
 kantasDenTrafficAlready,DialogOptionSelected,$option == kantasDen_trafficAlready,,"""Euh, confirme, navette. Negatif a la requete,"" dit le contrôle, ""Navette entrante autorisee a, euh, atterrir a la baie 12. Poursuivez.""",kd_landing1:S'amarrer au Repaire de Kanta,# go to landing sequence!
@@ -29382,7 +29382,7 @@ On vous amène devant le trône de Kanta, rétroéclairé sans goût d'un rouge 
 
 Le peut-être-docteur, Cydonia, rôde au pied de son trône. Il s'avance. ""Contemplez !"" hurle-t-il. ""La cour du Seigneur de Guerre Kanta, reine par conquête sanglante, est en session !""",kd_kantaRevisit3:Continuer,
 kdLandingRevisit3,DialogOptionSelected,$option == kd_kantaRevisit3,FireBest KDKantaRouteTo,,,
-# now we route to whatever PC was doing next,,,,,,
+# now we route to whâtever PC was doing next,,,,,,
 kdKantaFirstIntroRouteToGAATG,KDKantaRouteTo,$market.gaATG_talkToKanta,,"Cydonia hoche la tete avec raideur, l'esquisse la plus infime d'une reverence, puis s'adresse a vous devant toute la cour : ""Vous portez un jeton de la parente de Kanta, Nashyan, qui appartient a la famille elargie ! Mais Nashyan ne vous a jamais donne ce jeton - j'ai verifie.""
 
 Les gardes reagissent alors, brandissant leurs armes. Sans encore les braquer sur vous.",gaATG_kantaMeeting2:Continuer,# routes over to gaATG
@@ -30216,7 +30216,7 @@ ZGRthreatTechAskThreatAI1,DialogOptionSelected,$option == zgr_askQuestionsThreat
 $askedAnyQuestion = true 0
 FireAll ZGRaskQuestionsOpts","""These are not artificial intelligences,"" she says decisively.
 
-""Not that such distinction is necessary to Hegemony regulators. Whatever future war the Hegemony initiates, whatever new oppressions they conceive, it will be a consequence of leadership as paranoid as their masses are ignorant.""
+""Not that such distinction is necessary to Hegemony regulators. Whâtever future war the Hegemony initiates, whâtever new oppressions they conceive, it will be a consequence of leadership as paranoid as their masses are ignorant.""
 
 ""Besides,"" she says, self-satisfied, ""if I am right about everything, there will be no need for a war.""",,
 ZGRthreatTechAskThreatAlive1,DialogOptionSelected,$option == zgr_askQuestionsThreatAlive,"$askedThreatAlive = true
@@ -30524,12 +30524,12 @@ FireBest DialogOptionSelected","""Now allow me to explain the shape of our partn
 ZGRstartPitch0OMKI,DialogOptionSelected,"$option == zgr_makePitch0
 $global.foundOneslaught","Highlight ""Onslaught Mk.I""
 $option = zgr_makePitch0OKMIout 0
-FireBest DialogOptionSelected","""Whatever your other, lesser accomplishments, there is one in particular which is why you are here. You found something very old in the Abyss. Something known to history as the Onslaught Mk.I, which is of interest to me.""",,
+FireBest DialogOptionSelected","""Whâtever your other, lesser accomplishments, there is one in particular which is why you are here. You found something very old in the Abyss. Something known to history as the Onslaught Mk.I, which is of interest to me.""",,
 ZGRstartPitch0OMKIb,DialogOptionSelected,"$option == zgr_makePitch0
 $global.foundOneslaught
 PlayerFleetHasShipWithBaseHull onslaught_mk1","Highlight ""Onslaught Mk.I""
 $option = zgr_makePitch0OKMIout 0
-FireBest DialogOptionSelected","""Whatever your other, lesser accomplishments, there is one in particular which is why you are here. The ship is in your fleet - what is known to history as the Onslaught Mk.I, which is of interest to me.""",,
+FireBest DialogOptionSelected","""Whâtever your other, lesser accomplishments, there is one in particular which is why you are here. The ship is in your fleet - what is known to history as the Onslaught Mk.I, which is of interest to me.""",,
 ZGRstartPitch0OMKIout,DialogOptionSelected,$option == zgr_makePitch0OKMIout,$askedAboutOMKIalready = true 0,"She pauses a moment, eyes black.
 
 ""I shall make my proposal shortly. First, allow me to elaborate on a shape for our partnership.""","zgr_makePitch1:""I'm listening.""",
@@ -30620,7 +30620,7 @@ FireBest DialogOptionSelected","""No, nothing like that."" She emits a joyless l
 ""Although if you did happen to find alien technology... provide me with exclusive access and I would ensure you credits enough to purchase your own solar system. Or,"" she waves a hand in an unconscious arc, ""Build yourself a new one out of dross, if that's what you enjoy.""",,
 ZGRstartPitch6c,DialogOptionSelected,$option == zgr_makePitch6c,"$option = zgr_makePitch7 0
 FireBest DialogOptionSelected","""There's no need. Our strategic indicators forecast a reasonably likely chance of your survival if your outlook is unbiased by speculation, so take heart."" She trails off.",,
-ZGRstartPitch7,DialogOptionSelected,$option == zgr_makePitch7,,"Sensing the insufficiency of her pep-talk, she begins anew: ""What it is, is old. Early Domain. Pre-Persean Frontier, but we have reason to believe some part of it is out... here. Whether it followed us or we followed it. Whatever it is, wherever there is.""",zgr_makePitch8:Continuer,
+ZGRstartPitch7,DialogOptionSelected,$option == zgr_makePitch7,,"Sensing the insufficiency of her pep-talk, she begins anew: ""What it is, is old. Early Domain. Pre-Persean Frontier, but we have reason to believe some part of it is out... here. Whether it followed us or we followed it. Whâtever it is, wherever there is.""",zgr_makePitch8:Continuer,
 ZGRstartPitch8,DialogOptionSelected,$option == zgr_makePitch8,FireAll ZGRstartPitch8opts,"""Not exactly,"" she says, self-satisfied. ""Something more valuable.""",,
 ZGRstartPitch8OMKIknow,ZGRstartPitch8opts,"$global.foundOneslaught
 !$saidPitchKnow",,,"zgr_makePitch9know:""You know a lot about what I've been doing.""",
@@ -30663,7 +30663,7 @@ ZGRmakePitch9OMKIbuy2,DialogOptionSelected,$option == zgr_makePitch9OMKIbuy2,,"S
 Her voice is emotionless.","zgr_makePitch9OMKIbuy3:""The Threat. They're all but invisible to you.""",
 ZGRmakePitch9OMKIbuy3,DialogOptionSelected,$option == zgr_makePitch9OMKIbuy3,,"Her face arranges itself into a shape suggesting dismissive amusement.
 
-""What an interesting theory, captain. Whatever my motives, will you agree to my proposal? A simple look, a few scans. A few samples.""","zgr_makePitch9OMKIbuy4mil:""One million credits.""
+""What an interesting theory, captain. Whâtever my motives, will you agree to my proposal? A simple look, a few scans. A few samples.""","zgr_makePitch9OMKIbuy4mil:""One million credits.""
 zgr_makePitch9OMKIbuy4later:""Let's discuss this later.""",
 ZGRmakePitch9OMKIbuy4mil,DialogOptionSelected,$option == zgr_makePitch9OMKIbuy4mil,FireAll ZGRmakePitch9OMKIbuy4milCheck,"A long pause. Her eyes flicker, accessing. Calculating.
 
@@ -30743,13 +30743,13 @@ $global.gaveZGRoneslaughtAccess","$option = zgr_makePitch9both3 0
 FireBest DialogOptionSelected","""You've been most useful,"" she says, almost actually smiling. It looks uncomfortable.",,
 ZGRstartPitch9both3,DialogOptionSelected,$option == zgr_makePitch9both3,"AddCredits 150000
 $didAsale = true 0
-AddText ""\""Interesting,\"" she says, and releases a breath. \""Yes. This is what I am looking for... and more.\""""","For a full two seconds her eyes close, moving rapidly.
+AddText ""\""Interessant,\"" dit-elle en relachant un souffle. \""Oui. C'est ce que je cherche... et plus encore.\""""","For a full two seconds her eyes close, moving rapidly.
 
 Your TriPad pings.","zgr_makePitch11:""So you knew what you were asking for. Was there another expedition before me?""",
 ZGRstartPitch9both3z,DialogOptionSelected,"$option == zgr_makePitch9both3
 $global.foundZGRabyssMercs","AddCredits 150000
 $didAsale = true 0
-AddText ""\""Interesting,\"" she says, and releases a breath. \""Yes. This is what I am looking for... and more.\""""","For a full two seconds her eyes close, moving rapidly.
+AddText ""\""Interessant,\"" dit-elle en relachant un souffle. \""Oui. C'est ce que je cherche... et plus encore.\""""","For a full two seconds her eyes close, moving rapidly.
 
 Your TriPad pings.","zgr_makePitch11:""So you knew what you were asking for. Was there another expedition that succeeded?""",
 ZGRstartPitch9threat,DialogOptionSelected,$option == zgr_makePitch9threat,"Highlight  ""100,000""","She blinks. Her eyes seem suddenly present for the first time. 
@@ -31559,7 +31559,7 @@ FireBest DialogOptionSelected","Vous sortez le vibrocouteau de sa cachette en fa
 sdtuRamSafehouseReactionD4,SDTURamWeaponCheck,$player.sdtu_weaponSpray,"$option = sdtu_ramSafehouseReactionDnext 0
 FireBest DialogOptionSelected","Vous ajustez les manchettes de votre uniforme, vous assurant que le spray mortel atteindra bien votre cible, et flechissez le poignet en anticipation du deploiement.",,
 sdtuRamSafehouseReactionD5,SDTURamWeaponCheck,$player.sdtu_weaponWire,"$option = sdtu_ramSafehouseReactionDnext 0
-FireBest DialogOptionSelected","Vous frottez vos mains l'une contre l'autre, tournant le faux bout de doigt juste comme il faut. Il est pret a deployer le fil monomoleculaire mortel d'un simple mouvement de la main.",,
+FireBest DialogOptionSelected","Vous frottez vos mains l'une contre l'autre, tournant le faux bout de doigt juste comme il faut. Il est pret a déployér le fil monomoleculaire mortel d'un simple mouvement de la main.",,
 sdtuRamSafehouseReactionD6,SDTURamWeaponCheck,$player.sdtu_weaponSword,"$option = sdtu_ramSafehouseReactionDnext 0
 FireBest DialogOptionSelected","Vous brossez la jambe de votre uniforme comme pour en chasser une poussière imaginaire, liberant le fermoir de sécurité qui empeche l'epee de glisser hors de son fourreau. Vous tendez vos muscles, pret a degainer d'un seul geste.",,
 sdtuRamSafehouseReactionDto5,DialogOptionSelected,$option == sdtu_ramSafehouseReactionDnext,,,sdtu_ramSafehouse5:Continuer,
@@ -31650,7 +31650,7 @@ FireBest DialogOptionSelected","""Mais d'abord,"" il incline son pistolet une fo
 Comme vous hesitez, il dit : ""Le fil monomoleculaire. J'admire votre audace, mais restons civilises.""",,
 sdtuRamSafehouse10wepCheckF,SDTURamMacarioWeaponCheck,$player.sdtu_weaponSword,FireBest SDTURamMacarioWeaponSword,"""Mais d'abord,"" il incline son pistolet une fois vers votre fourreau. ""Votre fermoir est deserre.""
 
-Comme vous hesitez, il dit : ""L'epee d'un officier doit être maintenue en sécurité, n'est-ce pas ? Il ne faudrait pas d'accident, ni degainer une telle lame a la hate.""",,
+Comme vous hesitez, il dit : ""L'epee d'un officier doit être maintenue en sécurité, n'est-ce pas ? Il ne faudrait pas d'accident, ni degainer une telle lame a la hâte.""",,
 sdtuRamSafehouse10wepCheckF1,SDTURamMacarioWeaponSword,$player.soe_lostDuel,FireAll SDTURamMacarioWeaponSword2,"""Je m'attendrais a ce que vous le sachiez, compte tenu de votre mesaventure sur Eventide,"" dit-il avec une inquietude feinte. ""Mais ne rouvrons pas de vieilles blessures.""",,
 sdtuRamSafehouse10wepCheckF2,SDTURamMacarioWeaponSword,$player.soe_wonDuel,FireAll SDTURamMacarioWeaponSword2,"""Inutile de répéter ici votre petite aventure sur Eventide, n'est-ce pas ? Vous constaterez que nous avons des attitudes bien plus modernes en Askonia.""",,
 sdtuRamSafehouse10wepCheckF3,SDTURamMacarioWeaponSword2,,FireAll SDTURamMacarioWepDropOpt,Les yeux de Macario glissent pour guider les votres vers le cadavre de Ram au sol. Le sang forme une flaque.,,
@@ -32473,7 +32473,7 @@ Call $global.sdtu_ref updateData
 $sdtu_stage == RETURN_TO_MACARIO","BeginConversation macario
 $option = sdtu_postHyderReportHub
 AddCredits 15000
-AddText ""He unfolds his hands in a show of magnanimity, \""Do go on.\""""
+AddText ""Il deplie ses mains dans un geste de magnanimite, \""Continuez donc.\""""
 FireBest DialogOptionSelected","Après une courte attente, l'image de Macario apparaît. Il a l'air de quelqu'un qui anticipe un repas savoureux.
 
 ""Capitaine, quel plaisir de vous retrouver à nouveau. La Vice-Maréchale Stellaire Hyder n'était pas trop contrariée ? Vous n'avez pas froissé son sens de l'honneur trop profondément ? Mais non, je devrais vous laisser parler."" Il fait un clin d'oeil et tapote un datapad.",,
@@ -32947,7 +32947,7 @@ EndConversation DO_NOT_FIRE
 AddTextSmall ""Lion's Guard double agent extracted successfully"" highlight
 FireAll SDTUUmbraGotAgent
 FireAll PopulateOptions
-ShowDefaultVisual","Les dispositions sont prises, et un agent indigne - baillonne - est discretement transfere vers votre $shipOrFleet dans un reservoir de matieres volatiles modifie pour le transport clandestin de passagers.",,
+ShowDefaultVisual","Les dispositions sont prises, et un agent indigne - baillonne - est discrètement transfere vers votre $shipOrFleet dans un reservoir de matieres volatiles modifie pour le transport clandestin de passagers.",,
 #sdtuUmbraThreatFleet,DialogOptionSelected,$option == sdtu_umbraThreatFleet,,,,# maybe later.
 sdtuUmbraGotAgentNextStage,SDTUUmbraGotAgent,,"unset $global.sdtu_extractAgent
 $global.sdtu_meetCaden = true
@@ -33054,7 +33054,7 @@ sdtuCadenAgentMacario2,DialogOptionSelected,$option == sdtu_cadenAgentMacario2,F
 sdtuCadenAgentLoyal1,DialogOptionSelected,$option == sdtu_cadenAgentLoyal1,"$player.ethosLiar++
 FireAll SDTUCadenDemandOptions","""Alors faites-le, spatien !"" hurle Caden. ""Le glaive prompt de la justice ne connait pas le repos dans le Diktat Sindrien !""
 
-""Demontrez votre loyaute ; transferez l'agent a ma flotte et je jugerai la situation pour prendre les mesures appropriees."" Il baisse la voix de facon theatrale, ""Severes si necessaire.""",,
+""Demontrez votre loyaute ; transferez l'agent a ma flotte et je jugerai la situation pour prendre les mesures appropriees."" Il baisse la voix de facon theatrale, ""Severes si nécessaire.""",,
 sdtuCadenAgentFavor1,DialogOptionSelected,$option == sdtu_cadenAgentFavor1,FireAll SDTUCadenDemandOptions,"""Je suis le Haut Député Exécuteur de la Garde du Diktat Sindrien, spacieux !"" hurle Caden, devenant rouge. ""Je n'ai pas besoin d'une... faveur."" Il crache le mot honni.
 
 ""Néanmoins, je jugerai du bien-fondé de votre revendication. Démontrez votre loyauté maintenant ! Remettez cet agent et expliquez-vous !""
@@ -33073,7 +33073,7 @@ Il ajuste son uniforme après toute cette agitation. ""Maintenant ; remettez cet
 sdtuCadenAgentLoyalLie1,DialogOptionSelected,$option == sdtu_cadenAgentLoyalLie1,"$player.ethosLiar++
 FireAll SDTUCadenDemandOptions","""Alors faites-le, spatien !"" hurle Caden. ""Le glaive prompt de la justice ne connait pas le repos dans le Diktat Sindrien !""
 
-""Demontrez votre loyaute ; transferez l'agent a ma flotte et je jugerai la situation pour prendre les mesures appropriees."" Il baisse la voix de facon theatrale, ""Severes si necessaire.""",,
+""Demontrez votre loyaute ; transferez l'agent a ma flotte et je jugerai la situation pour prendre les mesures appropriees."" Il baisse la voix de facon theatrale, ""Severes si nécessaire.""",,
 sdtuCadenDemandOptD,SDTUCadenDemandOptions,$global.sdtu_umbraAgentCoop,,,"sdtu_cadenAgentMacarioLieB:""Macario ordered the arrest. I've already delivered the agent to him."" (lie)",
 sdtuCadenDemandOptA,SDTUCadenDemandOptions,!$global.sdtu_umbraAgentCoop,,,sdtu_cadenAgentTransfer:Transférer l'agent,
 sdtuCadenDemandOptB,SDTUCadenDemandOptions,!$global.sdtu_umbraAgentCoop,,,"sdtu_cadenAgentMacario:""Macario a ordonné l'arrestation, je dois donc lui remettre l'agent.""",
@@ -33333,14 +33333,14 @@ $global.sdtu_toldMacarioHyderBacksCaden",,"""Ah vraiment,"" dit-il, contrarié. 
 ""Il faut qu'une nouvelle histoire apparaisse. Caden adore les histoires - surtout quand elles parlent de lui. Quelque chose pour les séparer...""",sdtu_postCaden2:Continuer,
 sdtu_postCadenHydCadLieB,DialogOptionSelected,"$option == sdtu_postCadenHydCadLie
 $global.sdtu_toldMacarioHyderBacksMacario","AdjustRepActivePerson VENGEFUL -1
-$hate++","""Vraiment,"" dit-il, mecontent. Peut-être envers vous.
+$hâte++","""Vraiment,"" dit-il, mecontent. Peut-être envers vous.
 
 ""Vous avez precedemment suggere que Hyder avait l'intention de soutenir ma propre ascension. Ce... developpement, il me parait etrange. Hyder est tout sauf versatile.""
 
 Ses yeux froids sont rives aux votres, d'une manière ou d'une autre, a travers le communicateur.",sdtu_postCaden2:Continuer,
 sdtu_postCadenHydCadLieC,DialogOptionSelected,"$option == sdtu_postCadenHydCadLie
 $global.sdtu_toldMacarioHyderBacksHyder","AdjustRepActivePerson VENGEFUL -1
-$hate++","""Ah vraiment,"" dit-il, contrarié. Peut-être contre vous.
+$hâte++","""Ah vraiment,"" dit-il, contrarié. Peut-être contre vous.
 
 ""Si, comme vous l'avez suggéré précédemment, Hyder a l'intention de s'emparer du pouvoir, alors rallier Caden serait évidemment un moyen de s'assurer le soutien de la Garde du Lion.""
 
@@ -33350,7 +33350,7 @@ $hate++","""Ah vraiment,"" dit-il, contrarié. Peut-être contre vous.
 sdtu_postCadenHydCadLieD,DialogOptionSelected,"$option == sdtu_postCadenHydCadLie
 $global.sdtu_toldMacarioHyderWantsToDefect","$player.macarioMentionedOrcusRao = true
 AdjustRepActivePerson VENGEFUL -1
-$hate++","""Ah vraiment,"" dit-il, contrarié. Peut-être contre vous.
+$hâte++","""Ah vraiment,"" dit-il, contrarié. Peut-être contre vous.
 
 ""Si, comme vous l'avez suggéré précédemment, Hyder a l'intention de faire défection vers l'Hégémonie, alors retourner Caden contre moi serait évidemment un moyen de maximiser le chaos.""
 
@@ -33363,19 +33363,19 @@ sdtu_postCadenHydCadLieE,DialogOptionSelected,$option == sdtu_postCadenHydCadLie
 
 ""D'où cela vient-il ? Des manigances de l'Hégémonie ? Rao en est capable. Mais qui est son agent infiltré chez nous ?""",sdtu_postCaden2:Continuer,
 sdtuPostCadenToldCadHydForMac,DialogOptionSelected,$option == sdtu_postCadenToldCadHydForMac,"AdjustRepActivePerson VENGEFUL -1
-$hate++","Macario semble souffrir, comme frappé par une migraine soudaine.
+$hâte++","Macario semble souffrir, comme frappé par une migraine soudaine.
 
 ""Pourquoi... au nom sacré des saintes déjections de Ludd, béni soit-il, diriez-vous quelque chose d'aussi stupide ?""
 
 Il porte ses mains sur ses yeux, comme pour effacer la bêtise. Vous n'arrivez pas tout à fait à identifier le son qu'il émet.",sdtu_postCaden2:Continuer,
 sdtuPostCadenOverstepped,DialogOptionSelected,$option == sdtu_postCadenOverstepped,"AdjustRepActivePerson VENGEFUL -1
-$hate++","""Vraiment ?"" Macario lève les yeux au ciel. ""Je ne peux que spéculer sur l'endroit où ce bouffon pompeux a découvert une telle idée. Elle ne peut pas être sortie de sa propre tête, c'est certain.""
+$hâte++","""Vraiment ?"" Macario lève les yeux au ciel. ""Je ne peux que spéculer sur l'endroit où ce bouffon pompeux a découvert une telle idée. Elle ne peut pas être sortie de sa propre tête, c'est certain.""
 
 Il reste parfaitement immobile un instant. Ses yeux froids pivotent pour se fixer sur vous, d'une façon ou d'une autre, à travers les comms.
 
 ""Capitaine. Vous n'auriez quand même pas... non, bien sûr que non. Mais...""",sdtu_postCaden2:Continuer,
 sdtuPostCadenPuppet,DialogOptionSelected,$option == sdtu_postCadenPuppet,"AdjustRepActivePerson VENGEFUL -1
-$hate++","""Vraiment,"" dit-il, sans poser de question. ""Étant donné que je sais avec une certitude absolue que le contenu desséché du crâne correctement formé de Caden est incapable de pensée originale, une question se pose : d'où - de qui - a-t-il reçu cette notion troublante."" La langue de Macario frémit au coin de sa bouche, ""Cher capitaine.""
+$hâte++","""Vraiment,"" dit-il, sans poser de question. ""Étant donné que je sais avec une certitude absolue que le contenu desséché du crâne correctement formé de Caden est incapable de pensée originale, une question se pose : d'où - de qui - a-t-il reçu cette notion troublante."" La langue de Macario frémit au coin de sa bouche, ""Cher capitaine.""
 
 Il marque une pause, lourde de sens.
 
@@ -33413,7 +33413,7 @@ sdtuMacarioPostCadenGreetingEnraged,PickGreeting,"$id == macario score:1000
 $sdtu_didCadenMeeting score:10
 $global.sdtu_enragedCaden","BeginConversation macario
 AdjustRepActivePerson VENGEFUL -2
-$hate++
+$hâte++
 Call $global.sdtu_ref playMusicMacario","Après une brève attente, Macario apparaît devant vous.
 
 ""Oh capitaine, capitaine, capitaine. Ça ne s'est pas très bien passé, n'est-ce pas."" Il secoue la tête. ""Vous n'avez pas suivi mon conseil, n'est-ce pas.""
@@ -33436,7 +33436,7 @@ sdtu_postCadenIntNotCheap:""Mes faveurs ne sont pas gratuites.""
 sdtu_postCadenIntBegPlease:""Supplier ? Oh, je vous en prie, continuez.""",
 sdtuPostCadenIntNotCheap,DialogOptionSelected,$option == sdtu_postCadenIntNotCheap,"$option = sdtu_postCadenIntBegPlease
 FireBest DialogOptionSelected",,,
-sdtuPostCadenIntBegPlease,DialogOptionSelected,$option == sdtu_postCadenIntBegPlease,"$hate++
+sdtuPostCadenIntBegPlease,DialogOptionSelected,$option == sdtu_postCadenIntBegPlease,"$hâte++
 AdjustRepActivePerson VENGEFUL -1
 $option = sdtu_postCadenInt2
 FireBest DialogOptionSelected","La façade d'un sourire s'amincit encore, chose délicate, comme le fil d'un rasoir.",,
@@ -33472,27 +33472,27 @@ Le transpondeur, cependant, est encore actif - à peine.
 
 Un drone de récupération ramène la partie supérieure d'un cadavre brûlé et criblé d'impacts. Votre chef des opérations extrait personnellement le noyau de données intact, un simple tour de poignet avec une paire de pinces.
 
-Il attend votre inspection.",sdtu_debrisData0:Inspecter le noyau,
-sdtuDebrisData0,DialogOptionSelected,$option == sdtu_debrisData0,,"Votre officier technique fait rapidement le ménage sur le noyau et met en place une interface de champ EM à courte portée.
+Il attend votre inspection.",sdtu_débrisData0:Inspecter le noyau,
+sdtuDebrisData0,DialogOptionSelected,$option == sdtu_débrisData0,,"Votre officier technique fait rapidement le ménage sur le noyau et met en place une interface de champ EM à courte portée.
 
 Le rapport ne tarde pas : le contenu du système de fichiers stocké sur le noyau est chiffré, bien sûr, par ce que Tri-Tachyon fait de mieux.
 
-Il y a cependant des métadonnées lisibles.",sdtu_debrisData1:Consulter les métadonnées,
-sdtuDebrisData1,DialogOptionSelected,$option == sdtu_debrisData1,"Call $global.sdtu_ref playMusicSons
+Il y a cependant des métadonnées lisibles.",sdtu_débrisData1:Consulter les métadonnées,
+sdtuDebrisData1,DialogOptionSelected,$option == sdtu_débrisData1,"Call $global.sdtu_ref playMusicSons
 AddTextSmall ""ANDRADA-PERSEUS"" highlight
 AddTextSmall ""ANDRADA-HERCULES"" highlight
 AddTextSmall ""ANDRADA-JASON"" highlight
 AddTextSmall ""ANDRADA-HECTOR"" highlight
 AddTextSmall ""ANDRADA-ACHILLES"" highlight
 AddTextSmall ""ANDRADA-LEONIDAS"" highlight
-AddTextSmall ""ANDRADA-PERICLES"" highlight",,sdtu_debrisData2:Continuer,
-sdtuDebrisData2,DialogOptionSelected,$option == sdtu_debrisData2,,"""C'est difficile à dire,"" votre officier technique semble hésitant. ""Je veux dire, Andrada. Une liste de noms ? Je dirais de la famille d'une sorte ou d'une autre, mais ça ne correspond à rien dans le fichier démographique public de Philip Andrada.""
+AddTextSmall ""ANDRADA-PERICLES"" highlight",,sdtu_débrisData2:Continuer,
+sdtuDebrisData2,DialogOptionSelected,$option == sdtu_débrisData2,,"""C'est difficile à dire,"" votre officier technique semble hésitant. ""Je veux dire, Andrada. Une liste de noms ? Je dirais de la famille d'une sorte ou d'une autre, mais ça ne correspond à rien dans le fichier démographique public de Philip Andrada.""
 
-""Mais euh, tout se résume aux métadonnées. Si on les examine, toutes les archives chiffrées ont été créées sur une période d'environ un mois au cycle 182. Et puis toutes sauf ANDRADA-PERSEUS ont été mises à jour dans la dernière semaine environ.""","sdtu_debrisData3:""Qu'est-il arrivé à Perseus ?""",
-sdtuDebrisData3,DialogOptionSelected,$option == sdtu_debrisData3,,"""Ou ce qui ne s'est pas passé,"" votre officier technique lève les yeux et, nerveux d'être perçu comme impertinent, continue rapidement.
+""Mais euh, tout se résume aux métadonnées. Si on les examine, toutes les archives chiffrées ont été créées sur une période d'environ un mois au cycle 182. Et puis toutes sauf ANDRADA-PERSEUS ont été mises à jour dans la dernière semaine environ.""","sdtu_débrisData3:""Qu'est-il arrivé à Perseus ?""",
+sdtuDebrisData3,DialogOptionSelected,$option == sdtu_débrisData3,,"""Ou ce qui ne s'est pas passé,"" votre officier technique lève les yeux et, nerveux d'être perçu comme impertinent, continue rapidement.
 
-""Perseus a été mis à jour pour la dernière fois vers la fin du cycle 205. Comme si, eh bien, comme si un flux de télémétrie s'était arrêté. Ou avait perdu le contact.""","sdtu_debrisData4:""Ou quelqu'un est mort.""",
-sdtuDebrisData4,DialogOptionSelected,$option == sdtu_debrisData4,"Call $global.sdtu_ref makeDerbisUnimportant
+""Perseus a été mis à jour pour la dernière fois vers la fin du cycle 205. Comme si, eh bien, comme si un flux de télémétrie s'était arrêté. Ou avait perdu le contact.""","sdtu_débrisData4:""Ou quelqu'un est mort.""",
+sdtuDebrisData4,DialogOptionSelected,$option == sdtu_débrisData4,"Call $global.sdtu_ref makeDerbisUnimportant
 $global.sdtu_deliverNews = true
 Call $global.sdtu_ref updateStage
 unset $global.sdtu_emergencyIntercept
@@ -33502,8 +33502,8 @@ Call $global.sdtu_ref makeMercHostile","Votre officier technologique hoche la t�
 
 Vous faites faire des copies de sauvegarde des fichiers.
 
-Dans quoi Macario a-t-il bien pu fourrer ses doigts ?",sdtu_debrisDataEnd:Partir,
-sdtuDebrisData4heg,DialogOptionSelected,"$option == sdtu_debrisData4
+Dans quoi Macario a-t-il bien pu fourrer ses doigts ?",sdtu_débrisDataEnd:Partir,
+sdtuDebrisData4heg,DialogOptionSelected,"$option == sdtu_débrisData4
 $player.fcm_faction == hegemony","Call $global.sdtu_ref makeDerbisUnimportant
 $global.sdtu_deliverNews = true
 Call $global.sdtu_ref updateStage
@@ -33513,10 +33513,10 @@ unset $global.sdtu_emergencyIntercept","Votre officier technologique hoche la t�
 
 Vous faites faire des copies de sauvegarde des fichiers.
 
-Dans quoi Macario a-t-il bien pu fourrer ses doigts ?",sdtu_debrisDataEnd:Partir,
-sdtuDebrisDataEnd,DialogOptionSelected,$option == sdtu_debrisDataEnd,"Call $global.sdtu_ref resumeMusic
+Dans quoi Macario a-t-il bien pu fourrer ses doigts ?",sdtu_débrisDataEnd:Partir,
+sdtuDebrisDataEnd,DialogOptionSelected,$option == sdtu_débrisDataEnd,"Call $global.sdtu_ref resumeMusic
 DismissDialog",,,
-"# SDTU merc fleet, pre-debris",,,,,,
+"# SDTU merc fleet, pre-débris",,,,,,
 sdtuMercEncounter,BeginFleetEncounter,"$sdtu_merc score:1000
 !$encounteredAlready
 Call $global.sdtu_ref updateData
@@ -33532,7 +33532,7 @@ sdtuMercOptionsB,SDTUMercOptions,$player.fcm_faction == sindrian_diktat,,,"sdtu_
 sdtuMercOptionsC,SDTUMercOptions,,,,"sdtu_mercReact1whatDoing:""Que faites-vous ?""",
 sdtuMercOptionsD,SDTUMercOptions,,,,"sdtu_mercReact1meetShip:""Je m'attendais à rencontrer un vaisseau ou une flotte ici.""",
 sdtuMercOptionsE,SDTUMercOptions,,,,"sdtu_mercReact1whoWork:""Pour qui travaillez-vous ?""",
-sdtuMercOptionsF,SDTUMercOptions,,,,"sdtu_mercReact1debris:""Je dois examiner ce champ de débris.""",
+sdtuMercOptionsF,SDTUMercOptions,,,,"sdtu_mercReact1débris:""Je dois examiner ce champ de débris.""",
 sdtuMercOptionsG,SDTUMercOptions,,,,"sdtu_mercReact1onMyWay:""Je vais y aller maintenant.""",
 sdtuMercOptionsH,SDTUMercOptions,,,,cutCommLink:Couper la comm,
 sdtuMercOptionsA,SDTUMercOptions,$player.fcm_faction == hegemony,"$option = sdtu_mercHegReact1 0
@@ -33547,7 +33547,7 @@ sdtuMercReact1meetShip,DialogOptionSelected,$option == sdtu_mercReact1meetShip,R
 sdtuMercReact1whoWork,DialogOptionSelected,$option == sdtu_mercReact1whoWork,RemoveOption sdtu_mercReact1whoWork,"""Ah,"" $heOrShe fronce les sourcils. ""Les paramètres de ma mission exigent que je ne révèle pas l'identité de mon employeur. Clause de pénalité énorme.""",,
 sdtuMercReact1onMyWay,DialogOptionSelected,$option == sdtu_mercReact1onMyWay,"MakeOtherFleetNonHostile sdtu true
 $entity.ignorePlayerCommRequests = true","""Brûlez vif... et loin,"" dit $heOrShe.",cutCommLink:Couper la comm,
-sdtuMercReact1debris,DialogOptionSelected,$option == sdtu_mercReact1debris,,"""Vous ne devez pas,"" dit le mercenaire sans ciller.
+sdtuMercReact1débris,DialogOptionSelected,$option == sdtu_mercReact1débris,,"""Vous ne devez pas,"" dit le mercenaire sans ciller.
 
 ""Je vous informe dès maintenant que j'ai reçu l'ordre d'employer la force létale pour m'assurer que les débris restent intouchés.""","sdtu_mercReact1onMyWay:""Je vais y aller, alors.""
 sdtu_mercUseForce:""Alors utilisez la force pour m'arrêter.""",
@@ -33585,7 +33585,7 @@ $entity.ignorePlayerCommRequests = true","Le mercenaire $post fait le signe 'tou
 
 ""Belles poussées et missions rentables.""",cutCommLink:Couper la comm,
 ,,,,,,
-"# SDTU merc fleet, post-debris",,,,,,
+"# SDTU merc fleet, post-débris",,,,,,
 sdtuMercEncounterGotDebris,BeginFleetEncounter,"$sdtu_merc score:1000
 !$encounteredAlready
 Call $global.sdtu_ref updateData
@@ -33653,7 +33653,7 @@ sdtuNewsEndWho,DialogOptionSelected,$option == sdtu_newsEndWho,FireBest SDTUNews
 sdtuNewsEndHeirs,DialogOptionSelected,$option == sdtu_newsEndHeirs,FireBest SDTUNewsEndOptions,"""L'avenir ne tient qu'à si peu de chose, capitaine,"" dit Macario d'une voix creuse, sans ciller.",,
 sdtuNewsEndOnlySix,DialogOptionSelected,$option == sdtu_newsEndOnlySix,FireBest SDTUNewsEndOptions,"""Tragique,"" dit Macario machinalement. ""N'est-ce pas.""",,
 sdtuNewsEndYourDoing,DialogOptionSelected,$option == sdtu_newsEndYourDoing,"$player.ethosCocky++
-$hate++
+$hâte++
 FireBest SDTUNewsEndOptions","""Vous me blessez par cette accusation, capitaine,"" dit Macario avec une pointe d'amusement glacial.",,
 sdtuNewsEndSale,DialogOptionSelected,$option == sdtu_newsEndSale,"AddCredits 200000
 $player.ethosMercenary++
@@ -33668,7 +33668,7 @@ $didPayment = true 0
 FireBest SDTUNewsEndOptions",,,
 sdtuNewsEndHull,DialogOptionSelected,$option == sdtu_returnNewsEndHull,"Call $global.sdtu_ref giveExecutor
 $player.ethosMercenary++
-$player.sdtu_gotExecutorFromMacario = true","""Vraiment ?"" Il rit doucement. ""Mercenaire jusqu'au bout, hein ? Je ferai le necessaire.""
+$player.sdtu_gotExecutorFromMacario = true","""Vraiment ?"" Il rit doucement. ""Mercenaire jusqu'au bout, hein ? Je ferai le nécessaire.""
 
 ""Je suis ravi que vous appreciez ce que je peux vous apporter. Ce sera important, et bientot.""",sdtu_returnNewsEnd:Continuer,
 sdtuNewsEndLoyal,DialogOptionSelected,$option == sdtu_returnNewsEndLoyal,,"""Le pouvoir, bien sur. Je suis comme vous.""
@@ -33746,7 +33746,7 @@ anhCantinaDenyHot,anhCantinaAskHubOptions,$whyAuthorities,,,"anh_cantinaDeny:""C
 ankCantinaDeny,anhCantinaAskHubOptions,!$whyAuthorities,,,"anh_cantinaDeny:""Ça ne vaut pas mon temps. Trouvez quelqu'un d'autre.""",
 anhCantinaTransport,DialogOptionSelected,$option == anh_cantinaAskTransport,"$madeOffer = true 1
 SetTextHighlights 10,000
-Call $global.anh_ref showMap ""Volturn""","""Vous avez tout a fait raison, capitaine,"" dit le vieil homme. ""Vous serez paye 10 000 credits a votre arrivee a Volturn, dans le système Askonia. C'est comme vous dites : nous souhaiterions éviter toute patrouille ou inspection.""","anh_cantinaAccept:""Marché conclu.""
+Call $global.anh_ref showMap ""Volturn""","""Vous avez tout a fait raison, capitaine,"" dit le vieil homme. ""Vous serez paye 10 000 credits a votre arrivée a Volturn, dans le système Askonia. C'est comme vous dites : nous souhaiterions éviter toute patrouille ou inspection.""","anh_cantinaAccept:""Marché conclu.""
 anh_cantinaAuthorities:""Pourquoi les autorités vous recherchent-elles autant ?""",
 anhCantinaAuthorities,DialogOptionSelected,$option == anh_cantinaAuthorities,"$whyAuthorities = true 1
 FireAll anhCantinaAskHubOptions","Le jeune commence a parler, ""Parce qu'il est un- "" et le vieil homme leve un doigt en guise d'avertissement, faisant taire le gamin.
@@ -34279,7 +34279,7 @@ $wasOffended = true
 EndConversation
 ShowDefaultVisual","She considers your reply. ""Huh.""
 
-""For once, I don't think you're lying."" Imoinu looks away for a moment. Her resolve hardens again. ""Whatever.""
+""For once, I don't think you're lying."" Imoinu looks away for a moment. Her resolve hardens again. ""Whâtever.""
 
 ""And what are you really? A hired killer for execs and admirals? Profiteer from the organs harvested from the desperate masses? Go suck vacuum.""
 
@@ -34297,7 +34297,7 @@ AdjustRepActivePerson INHOSPITABLE -5
 $ignorePlayerCommRequests = true 3
 $wasOffended = true
 EndConversation
-ShowDefaultVisual","""Whatever."" She scowls. ""At least I chose to make some good from my position!""
+ShowDefaultVisual","""Whâtever."" She scowls. ""At least I chose to make some good from my position!""
 
 ""What have you ever done? Acted the hired killer for execs and admirals? Profited from the organs harvested from the desperate masses?""
 
@@ -34371,7 +34371,7 @@ $ignorePlayerCommRequests = true 3
 AdjustRepActivePerson INHOSPITABLE -5
 $wasOffended = true
 EndConversation
-ShowDefaultVisual","""Whatever."" She scowls. ""I didn't even ask for your help!""
+ShowDefaultVisual","""Whâtever."" She scowls. ""I didn't even ask for your help!""
 
 ""And what have you ever done? Acted the hired killer for execs and admirals? Profited from the organs harvested from the desperate masses?""
 
@@ -34678,7 +34678,7 @@ Avec ces simples mots, elle se rassied. Son visage, un masque sombre, n'a aucune
 kpGiftsLeave,KPFindGifts,,,,"1001:kpLeave:""Je vais prendre congé pour réfléchir au cadeau digne d'une reine pirate.""",
 kpGiftsLeaveSel,DialogOptionSelected,$option == kpLeave,,"Vous reculez du centre de la salle de la cour, votre passage sous les feux de la rampe tape-a-l'oeil étant a present termine.
 
-Le corps metallique de Kanta siffle sur son trone, patiente comme une mine terrestre. Cydonia se faufile pour parler a l'un ou l'autre sergent pirate responsable des prisonniers et des petitionnaires attendant le jugement de Kanta.",kpLeave2:Partir,
+Le corps métallique de Kanta siffle sur son trone, patiente comme une mine terrestre. Cydonia se faufile pour parler a l'un ou l'autre sergent pirate responsable des prisonniers et des petitionnaires attendant le jugement de Kanta.",kpLeave2:Partir,
 kpGiftsLeave2Sel,DialogOptionSelected,$option == kpLeave2,"unset $market.kpAudience
 EndConversation DO_NOT_FIRE
 ShowDefaultVisual
@@ -35025,7 +35025,7 @@ PLArmadaWhy2,DialogOptionSelected,$option == PLArmada_why2,FireAll PLArmadaHubOp
 
 $HeOrShe se penche en avant. ""Venez à Kazeron. Dites à la gens Hannan que c'est moi qui vous envoie, et je pense que Reynard Hannan en personne vous recevra. Rejoignez-nous, et tout cela disparaît. Vous avez tout à y gagner. Prospérité, protection et liberté.""",,
 PLArmadaHubOptionA,PLArmadaHubOptions,!$player.didPLApiracyTalk,,,"PLArmada_thisIsPiracy:""C'est de la piraterie ! Vous ne pouvez pas bloquer n'importe quel système !""",
-#PLArmadaHubOptionB,PLArmadaHubOptions,!$saidLiftBlockade,,,"PLArmada_liftBlockade:""Vous pourriez peut-être lever le blocus pendant que j'y réfléchis ?""","# too many options, pulling this one 'cause it's whatever"
+#PLArmadaHubOptionB,PLArmadaHubOptions,!$saidLiftBlockade,,,"PLArmada_liftBlockade:""Vous pourriez peut-être lever le blocus pendant que j'y réfléchis ?""","# too many options, pulling this one 'cause it's whâtever"
 PLArmadaHubOptionC,PLArmadaHubOptions,"!$player.toldPLAblockadeToStickIt
 $player.metReynardHannan",,,PLArmada_stickIt:Expliquer à Reynard Hannan où il peut se mettre l'Armada de la Ligue,
 PLArmadaHubOptionD,PLArmadaHubOptions,,,,"PLArmada_idealisticNo:""C'est vrai, la force est nécessaire pour protéger la liberté... contre des brutes comme vous et vos chefs sur Kazeron.""",
@@ -35882,7 +35882,7 @@ $player.luddicFaithfulOrChurchCom",,,"LCP_notHappening:""Hélas, je ne peux pas.
 lcSacredProtectorsCynical,LCProtectorOptions,"$player.luddicAttitudeCynicalOrAtheistic
 !$saidCynical",,,"LCP_cynical:""Arrêtez le cinéma. Vous utilisez vos fidèles égarés comme prétexte pour attaquer mes opérations.""",
 lcSacredProtectorsCutComms,LCProtectorOptions,,,,cutCommLinkNoText:Couper la comm et armer les systèmes d'armes,
-LCP_cynical,DialogOptionSelected,$option == LCP_cynical,$saidCynical = true 0,"Le Chevalier semble pris de court. ""Seul un incroyant pourrait être aussi impieusement cynique,"" s'exclame $heOrShe, vous regardant avec un melange de pitie et de degout.
+LCP_cynical,DialogOptionSelected,$option == LCP_cynical,$saidCynical = true 0,"Le Chevalier semble pris de court. ""Seul un incroyant pourrait être aussi impieusement cynique,"" s'exclame $heOrShe, vous regardant avec un mélange de pitie et de degout.
 
 ""Je prierai pour vous, capitaine,"" dit $heOrShe, retrouvant sa contenance. ""Apres que vous nous aurez donne votre dime.""",,
 LCP_butHaveCom,DialogOptionSelected,$option == LCP_butHaveCom,$saidHaveCom = true 0,"""Ah, euh."" Le $post a l'air mal a l'aise, jetant un regard de côté tandis qu'un subordonne murmure une confirmation a $himOrHer.
@@ -35986,11 +35986,11 @@ lcMakeDealSel,DialogOptionSelected,$option == lcMakeDeal,"SetTextHighlights ""co
 lcMakeDealIntroB:""Commençons par faire rappeler les Chevaliers par l'Église, suite à leur incursion non provoquée.""
 lcMakeDealIntroC:""C'est moi qui ai été lésé, c'est moi qui poserai les conditions.""",
 lcMakeDealIntroA,DialogOptionSelected,$option == lcMakeDealIntroA,"$option = lcMakeDealIntro2 0
-FireBest DialogOptionSelected","""Il n'y a pas 'aucune raison' a cette situation, $playerSirOrMadam,"" dit $heOrShe, avec un air de patience forcee. ""Un nombre croissant de Fideles se sont rendus dans vos possessions, et vous les avez autorises a travailler et a s'installer.""
+FireBest DialogOptionSelected","""Il n'y a pas 'aucune raison' a cette situation, $playerSirOrMadam,"" dit $heOrShe, avec un air de patience forcee. ""Un nombre croissant de Fideles se sont rendus dans vos possessions, et vous les avez autorisés a travailler et a s'installer.""
 
 ""L'Eglise veille sur son troupeau.""",,
 lcMakeDealIntroB,DialogOptionSelected,$option == lcMakeDealIntroB,"$option = lcMakeDealIntro2 0
-FireBest DialogOptionSelected","""Ce n'est pas tout a fait aussi simple que cela,"" dit $heOrShe avec un air de patience forcee. ""Un nombre croissant de Fideles se sont rendus dans des colonies recemment fondees, et vous les avez autorises a y travailler et a s'installer.""
+FireBest DialogOptionSelected","""Ce n'est pas tout a fait aussi simple que cela,"" dit $heOrShe avec un air de patience forcee. ""Un nombre croissant de Fideles se sont rendus dans des colonies recemment fondees, et vous les avez autorisés a y travailler et a s'installer.""
 
 ""La protection des Fideles est le premier devoir des Chevaliers de Ludd.""",,
 lcMakeDealIntroC,DialogOptionSelected,$option == lcMakeDealIntroC,"$option = lcMakeDealIntro2 0
@@ -36518,7 +36518,7 @@ MakeOtherFleetPreventDisengage hassle false
 ApplyCRDamage $entity.fleetPoints 0.2 1 ""Hegemony investigation""","Les équipes d'inspection sont de véritables vandales, semblant agir avec une malveillance active en arrachant des trappes, fouillant dans des stocks soigneusement organisés, et effectuant des scans de haute puissance directement à travers des groupements d'équipements sensibles malgré les objections de votre équipage technique.
 
 Les plaintes de vos officiers de $shipOrFleet se heurtent à une obscurcissement de marbre. Le mieux que votre ingénieur en chef obtienne, en dehors de la menace d'une incarcération à durée indéterminée, est la suggestion qu'un formulaire de réclamation peut être soumis pour demander une compensation pour les dommages ""regrettablement inévitables"" subis lors de l'inspection, mais ""on ne devrait pas attendre de réponse du corps d'investigation avant au moins un cycle"".",hegInvestigationComply2:Continuer,
-hegInvestigatorComplySel2,DialogOptionSelected,$option == hegInvestigationComply2,ShowPersonVisual,"Vos equipages doivent nettoyer un desordre considerable et effectuer les reparations necessaires. Les degats sont, heureusement, essentiellement superficiels.
+hegInvestigatorComplySel2,DialogOptionSelected,$option == hegInvestigationComply2,ShowPersonVisual,"Vos equipages doivent nettoyer un desordre considerable et effectuer les reparations nécessaires. Les degats sont, heureusement, essentiellement superficiels.
 
 ""Vous pouvez disposer, spacien,"" renifle dedaigneusement le $Post de l'Hégémonie. ""Ne vous faites pas reprendre ici.""",cutCommLinkNoText:Couper la comm,
 hegInvestigatorRefuseSel,DialogOptionSelected,$option == hegInvestigationRefuse,"RemoveOption hegInvestigationRefuse
@@ -36550,7 +36550,7 @@ hegTalkAboutInspectionsDaud1,DialogOptionSelected,$option == heg_talkAboutInspec
 $option = heg_talkAboutInspectionsDaud1 0
 FireBest DialogOptionSelected","L'homme en personne apparait avec une rapidite stupéfiante pour une requete qui a du remonter toute la chaine de commandement.
 
-Ce qui est assez approprié, quand on y pense, a peu pres autant que Daud lui-meme a du gravir les echelons pour devenir Haut Hegemon.",,
+Ce qui est assez approprié, quand on y pense, a peu pres autant que Daud lui-meme a du gravir les échelons pour devenir Haut Hegemon.",,
 hegTalkAboutInspectionsDaud1first,DialogOptionSelected,$option == heg_talkAboutInspectionsDaud1,"$player.metDaud = true
 FireAll HEGtalkInspectDaudHubOpts","""$playerName,"" dit-il.
 
@@ -36989,7 +36989,7 @@ FireAll PKHackStoryOptions","je me sens accuse de m'être glisse dans vos secret
 
    vous pourriez demander :
    avez-vous
-   contemple les etoiles ?
+   contemple les étoiles ?
 
     je repondrais
 oui
@@ -37958,7 +37958,7 @@ Leurs souffrances dues aux lacunes technologiques et à l'environnement hostile 
 PKSentinelConfrontGantry,DialogOptionSelected,$option == pk_sentinelAskGantry,"$confrontedAboutGantry = true
 $knowMoreIsGoingOn = true
 $option = pk_sentinelAskGantry2 0
-FireBest DialogOptionSelected","""Un point de rassemblement pour la recuperation necessaire a la construction de notre campement,"" repond Skiron avec son expression impassible d'execution des ordres.
+FireBest DialogOptionSelected","""Un point de rassemblement pour la recuperation nécessaire a la construction de notre campement,"" repond Skiron avec son expression impassible d'execution des ordres.
 
 Vous connaissez bien cette expression. Quand un subordonne souhaite dissimuler une information sans mentir techniquement, il peut repondre avec uniquement et exactement ce qui a été demande.",,
 PKSentinelConfrontGantryTrust,DialogOptionSelected,"$option == pk_sentinelAskGantry
@@ -37972,7 +37972,7 @@ PKSentinelConfrontGantryHegCom,DialogOptionSelected,"$option == pk_sentinelAskGa
 $showedHegCommission score:2","$confrontedAboutGantry = true
 $knowMoreIsGoingOn = true
 $option = pk_sentinelAskGantry2 0
-FireBest DialogOptionSelected","""Oui. Nos ancetres ont construit un chantier naval temporaire pour effectuer la recuperation et le rassemblement necessaires a la construction de notre campement,"" dit Skiron, puis elle marque une pause. ""Et adapter les elements de combat restants de la flotte.""",,
+FireBest DialogOptionSelected","""Oui. Nos ancetres ont construit un chantier naval temporaire pour effectuer la recuperation et le rassemblement nécessaires a la construction de notre campement,"" dit Skiron, puis elle marque une pause. ""Et adapter les elements de combat restants de la flotte.""",,
 PKSentinelConfrontGantryOutA,DialogOptionSelected,"$option == pk_sentinelAskGantry2
 !$player.encounteredPKDefenderFleet
 !$confrontedAboutAIFleet",FireAll PKSentinelHubConfront,"Aucune mention du reste de la flotte, cependant.",,
@@ -38387,7 +38387,7 @@ academyQuestionWhere:""Où se trouve l'Académie de Galatia ?""
 cutCommLink:Faire vos adieux et couper la liaison comm",
 academyFleetConvWhere,DialogOptionSelected,$option == academyQuestionWhere,,"""Eh bien. Ah. C'est dans le système Galatia."" $HeOrShe fait un effort admirable pour ne pas paraitre condescendant(e). ""En orbite autour de Pontus. Une vue magnifique, si vous voulez mon avis. Mais j'ai un faible pour les systemes d'anneaux.""","academyQuestionJob:""L'Académie paie-t-elle bien pour les missions de transport ?""
 cutCommLink:Faire vos adieux et couper la liaison comm",
-academyFleetConvJob,DialogOptionSelected,$option == academyQuestionJob,,"""L'Academie n'opere qu'un petit contingent de vaisseaux de recherche dedies, surtout depuis l'incident de l'ISS Enki,"" dit $heOrShe. ""Alors ils sous-traitent les missions de transport a des independants comme moi.""","academyQuestionPay:""C'est bien payé ?""
+academyFleetConvJob,DialogOptionSelected,$option == academyQuestionJob,,"""L'Academie n'opere qu'un petit contingent de vaisseaux de recherche dedies, surtout depuis l'incident de l'ISS Enki,"" dit $heOrShe. ""Alors ils sous-traitent les missions de transport a des indépendants comme moi.""","academyQuestionPay:""C'est bien payé ?""
 academyQuestionEnki:""Qu'est-il arrivé à l'ISS Enki ?""
 cutCommLink:Faire vos adieux et couper la liaison comm",
 academyFleetConvEnki,DialogOptionSelected,$option == academyQuestionEnki,,"""Ah,"" ses yeux parcourent la pièce, mais ne trouvent aucun moyen d'éviter un sujet délicat.
@@ -39161,7 +39161,7 @@ FireBest DialogOptionSelected","""Hmm,"" le $post parcourt un ecran secondaire, 
 bqfsAskedForSuppliesHostile,DialogOptionSelected,"$option == bqfs_askForSupplies
 $faction.isHostile",$ignorePlayerCommRequests = true 7,"Le $post vous lance un regard etrange, puis jette un coup d'oeil a un ecran secondaire. Puis, l'air legerement alarme, revient a vous.
 
-""Attendez, est-ce que vous êtes..."" $HisOrHer yeux se precipitent vers l'ecran. ""Vous êtes $playerName ! Disparaissez de ma liaison comm.""
+""Attendez, est-ce que vous êtes..."" $HisOrHer yeux se precipitent vers l'écran. ""Vous êtes $playerName ! Disparaissez de ma liaison comm.""
 
 $HeOrShe martele le bouton de coupure.",,# don't actually flip the first-time flag 'cause player didn't get the essential game info out of this
 bqfsAskedForSuppliesScam,DialogOptionSelected,"$option == bqfs_askForSupplies2
@@ -39345,7 +39345,7 @@ The patchy surveillance shows a rapid spread of violent, painful demise beginnin
 
 Your salvage chief orders all remaining pockets of atmo purged, and strict quarantine procedures followed.
 
-The bioweapons lab's computer core destroyed itself with a small bomb when a timed dead man's switch was not reset, so nothing of salable value remains, if indeed a buyer could be found for whatever biochemical horror was conjured here.",salSRBW_out:Continuer,
+The bioweapons lab's computer core destroyed itself with a small bomb when a timed dead man's switch was not reset, so nothing of salable value remains, if indeed a buyer could be found for whâtever biochemical horror was conjured here.",salSRBW_out:Continuer,
 salSRBWout,DialogOptionSelected,$option == salSRBW_out,"$player.exploredStationResearchBioweapons = true
 $didSpecialExploreStory = true
 FireBest CheckSalvageSpecial",,,
@@ -39367,7 +39367,7 @@ salSRRSstory1,DialogOptionSelected,$option == salSRRS_story1,,"Your tech officer
 
 No relevant monitoring and computer system from Module B survived, and the general practice of this station appears to have involved heavy siloing of information even up to the level of the executive command section, so it's impossible to say what exactly the research being pursued involved or, indeed, whether the event was an accident or something more sinister.
 
-Whatever it was, at least it happened a long time ago.",salSRRS_out:Continuer,
+Whâtever it was, at least it happened a long time ago.",salSRRS_out:Continuer,
 salSRRSout,DialogOptionSelected,$option == salSRRS_out,"$player.exploredStationRadiationSurge = true
 $didSpecialExploreStory = true
 FireBest CheckSalvageSpecial",,,
@@ -39422,12 +39422,12 @@ RollProbability 0.3",ShowImageVisual salvor_explore_hull,"Upon entry, your salvo
 
 All bear the face of a strong-jawed man who looks down upon the empty halls and dead plazas of the hab, his gaze fatherly; stern, and proud. And in all cases defaced: the nose smashed off, crude words painted or, more often, burnt across his image.
 
-Even his name, whatever it was, has been erased from every databank by a spitefully determined noise-wipe virus.",salOHOZ_story1:Continuer,
+Even his name, whâtever it was, has been erased from every databank by a spitefully determined noise-wipe virus.",salOHOZ_story1:Continuer,
 salOHOZstory1,DialogOptionSelected,$option == salOHOZ_story1,,"Exploring further, the salvor teams discover the remains of a palace dominating an entire section of the hab.
 
 Once a vast construction, now just two blackened support legs remain amidst the rubble of its shattered visage. Parklands, now reduced to lone and level ash, follow the curve of the habitat's shell.
 
-Whoever the man was, he was first exalted and then hated in equal measure.",salOHOZ_out:Continuer,
+Whoever the man was, he was first exalted and then hâted in equal measure.",salOHOZ_out:Continuer,
 salOHOZout,DialogOptionSelected,$option == salOHOZ_out,"$player.exploredStationOzymandias= true
 $didSpecialExploreStory = true
 FireBest CheckSalvageSpecial",,,
@@ -39586,7 +39586,7 @@ mk1_explore7,DialogOptionSelected,$option == mk1_continue7,"$player.hasThreatDet
 AddTextSmall ""T H R E A T  D E T E C T E D"" bad
 AddTextSmall ""T H R E A T  D E T E C T E D"" bad
 AddTextSmall ""T H R E A T  D E T E C T E D"" bad
-AddText ""\""I think it's working.\"" Their words are almost a whisper.""
+AddText ""\""Je crois que ca marche.\"" Leurs mots sont presque un murmure.""
 MiscCMD mk1_spawnThreatFleet","""$PlayerSirOrMadam, I'm not sure it's working."" Your sensors officer speaks, standing at a control console to demonstrate a first test of the adaptations. Line after line is dumped into an output log.
 
 The characters sprout and repeat. Your technology officer's face is underlit by their glow.",mk1_continue8:Continuer,
@@ -40387,7 +40387,7 @@ gaDHOjustFoundArrayStart,OpenInteractionDialog,"!$global.foundOneslaught
 $oneslaughtSensorArray score:100
 !$global.gaDHO_inProgress","ShowDefaultVisual
 PrintDescription 1
-AddText ""A routine scan shows that this sensor array has been modified.""","
+AddText ""Un scan de routine montre que ce reseau de capteurs a ete modifie.""","
 
 
 
@@ -40525,7 +40525,7 @@ $gaveSummary","$option = gaDHO_endingWrapUp 0
 FireBest DialogOptionSelected",,,
 gaDHOabyssEndElekMyDiscovery,DialogOptionSelected,$option == gaDHO_abyssEndElekMyDiscovery,AdjustRepActivePerson HOSTILE -2,"""You're a heartless mercenary with no appreciation for science,"" Elek says, his tone growing heated.
 
-""You'd never have found... whatever you found... without me!"" He seems to realize in the moment how weak this sounds, and recomposes himself.
+""You'd never have found... whâtever you found... without me!"" He seems to realize in the moment how weak this sounds, and recomposes himself.
 
 ""This is practically piracy, you know.""","gaDHO_abyssEndElekAltIntroPiracy2:""No, this is business. And I took on great risk to see it done.""
 gaDHO_abyssEndElekAltIntroPiracy:""Yes, it is. And if you don't pay me, you'll never get your precious data.""",

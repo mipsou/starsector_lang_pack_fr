@@ -59,21 +59,53 @@ public class FrenchFleetInteractionDialogPlugin extends FleetInteractionDialogPl
 
     @Override
     public void optionSelected(String optionText, Object optionData) {
-        // Traduire le texte passe a super pour que addOptionSelectedText
-        // ecrive le FR dans le panneau narratif
-        String translatedText = optionText;
-        if (optionText != null && OPTION_TRANSLATIONS.containsKey(optionText)) {
-            translatedText = OPTION_TRANSLATIONS.get(optionText);
+        if (optionData instanceof OptionId) {
+            OptionId option = (OptionId) optionData;
+            String frText = getFrenchTextForOption(option);
+
+            if (frText != null && optionText != null) {
+                // Injecter le texte FR nous-memes dans le panneau narratif
+                this.dialog.addOptionSelectedText(frText);
+                // Appeler super avec null pour empecher le doublon EN
+                // (le super ne fait addOptionSelectedText que si text != null)
+                super.optionSelected(null, optionData);
+            } else {
+                super.optionSelected(optionText, optionData);
+            }
+        } else {
+            super.optionSelected(optionText, optionData);
         }
-
-        // Traduire aussi les options du panneau avant super
-        translateOptions();
-
-        super.optionSelected(translatedText, optionData);
 
         // Apres super, le vanilla reconstruit les options suivantes
         translateOptions();
         translatePrompt(this.dialog);
+    }
+
+    /**
+     * Retourne le texte FR pour un OptionId, ou null si pas de traduction.
+     */
+    private String getFrenchTextForOption(OptionId optionId) {
+        switch (optionId) {
+            case OPEN_COMM:
+                return "Ouvrir un canal comm";
+            case CUT_COMM:
+                return "Couper la comm";
+            case ENGAGE:
+                return "Engager le combat";
+            case DISENGAGE:
+                return "Rompre le combat";
+            case PURSUE:
+                return "Les poursuivre";
+            case LEAVE:
+                return "Partir";
+            case CLEAN_DISENGAGE:
+                return "Rompre le combat par des manoeuvres speciales";
+            case REINIT_CONTINUE:
+            case BEGIN_FLEET_ENCOUNTER_2:
+                return "Continuer";
+            default:
+                return null;
+        }
     }
 
     /**

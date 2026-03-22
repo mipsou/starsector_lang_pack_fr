@@ -1,7 +1,7 @@
 {
 	id:"poor",
-	"displayName":"refugies",
-	"displayNameWithArticle":"les refugies",
+	"displayName":"Réfugiés",
+	"displayNameWithArticle":"les réfugiés",
 	"displayNameLong":"refugies",
 	"displayNameLongWithArticle":"les refugies",
 	"entityNamePrefix":"refugie",
