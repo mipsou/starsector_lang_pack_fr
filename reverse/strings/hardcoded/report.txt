@@ -1,0 +1,226 @@
+=== STRINGS HARDCODES API ===
+## You decide to
+decompiled/api/com/fs/starfarer/api/impl/campaign/rulecmd/salvage/CargoPods.java:279:                CargoPods.this.dialog.setPromptText("You decide to...");
+decompiled/api/com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.java:1469:                    dialog.setPromptText("You decide to...");
+
+## Open a comm link
+decompiled/api/com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.java:1938:                    this.options.addOption("Open a comm link", (Object)OptionId.OPEN_COMM, Misc.getHighlightedOptionColor(), null);
+decompiled/api/com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.java:1941:                    this.options.addOption("Open a comm link", (Object)OptionId.OPEN_COMM, null);
+decompiled/api/com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.java:1964:                this.options.addOption("Open a comm link", (Object)OptionId.OPEN_COMM, null);
+
+## Move in to engage
+decompiled/api/com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.java:2192:            String engageText = "Move in to engage";
+
+## Your forces
+decompiled/api/com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.java:1744:            String titleOne = "Your forces";
+decompiled/api/com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.java:2606:            String yourForcesWere = "Your forces were";
+decompiled/api/com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.java:394:                this.text.addPara("Your forces will be able to organize another raid within a day or so.");
+decompiled/api/com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.java:397:                this.text.addPara("Your forces will be able to organize another raid within a day or so.");
+decompiled/api/com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.java:1018:        this.text.addPara("Your forces are ready to go, awaiting your final confirmation.");
+decompiled/api/com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.java:1275:            this.text.addPara("Your forces have not suffered any casualties.");
+decompiled/api/com/fs/starfarer/api/impl/campaign/rulecmd/ShowDefaultVisual.java:52:            String titleOne = "Your forces";
+decompiled/api/com/fs/starfarer/api/impl/campaign/rulecmd/ShowImageVisual.java:44:            String titleOne = "Your forces";
+
+## Fleet departures
+decompiled/api/com/fs/starfarer/api/impl/campaign/ids/Tags.java:174:    public static final String INTEL_FLEET_DEPARTURES = "Fleet departures";
+decompiled/api/com/fs/starfarer/api/impl/campaign/intel/misc/TradeFleetDepartureIntel.java:239:        tags.add("Fleet departures");
+
+## Hostilities
+decompiled/api/com/fs/starfarer/api/impl/campaign/ids/Tags.java:185:    public static final String INTEL_HOSTILITIES = "Hostilities";
+decompiled/api/com/fs/starfarer/api/impl/campaign/intel/FactionHostilityIntel.java:119:        return "Hostilities";
+decompiled/api/com/fs/starfarer/api/impl/campaign/intel/FactionHostilityIntel.java:124:        String base = "Hostilities";
+decompiled/api/com/fs/starfarer/api/impl/campaign/intel/FactionHostilityIntel.java:171:        tags.add("Hostilities");
+
+## Emergency Burn
+decompiled/api/com/fs/starfarer/api/impl/campaign/abilities/EmergencyBurnAbility.java:165:        LabelAPI title = tooltip.addTitle("Emergency Burn");
+decompiled/api/com/fs/starfarer/api/impl/campaign/skills/ContainmentProcedures.java:80:            return "The \"Emergency Burn\" ability no longer reduces combat readiness";
+decompiled/api/com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.java:560:                info.addPara("Use %s to avoid detection, and %s to get away if you are seen.", opad, h, "Go Dark", "Emergency Burn");
+
+## Sustained Burn
+decompiled/api/com/fs/starfarer/api/impl/campaign/abilities/InterdictionPulseAbility.java:209:        tooltip.addPara("The disruption interrupts any movement-related abilities (such as %s) and prevents their use for some time afterwards. Also interrupts charging interdiction pulses.", pad, highlight, "Sustained Burn");
+decompiled/api/com/fs/starfarer/api/impl/campaign/abilities/SustainedBurnAbility.java:125:        LabelAPI title = tooltip.addTitle("Sustained Burn" + status);
+decompiled/api/com/fs/starfarer/api/impl/campaign/skills/Navigation.java:136:            return "Increases the burn bonus of the \"Sustained Burn\" ability by " + (int)SB_BURN_BONUS;
+
+## Go Dark
+decompiled/api/com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.java:560:                info.addPara("Use %s to avoid detection, and %s to get away if you are seen.", opad, h, "Go Dark", "Emergency Burn");
+
+## Transponder
+decompiled/api/com/fs/starfarer/api/impl/campaign/abilities/TransponderAbility.java:33:        return "Transponder on";
+decompiled/api/com/fs/starfarer/api/impl/campaign/abilities/TransponderAbility.java:63:        fleet.getStats().getDetectedRangeMod().modifyMult(this.getModId(), 1.0f + 0.0f * level, "Transponder on");
+decompiled/api/com/fs/starfarer/api/impl/campaign/abilities/TransponderAbility.java:64:        fleet.getStats().getDetectedRangeMod().modifyFlat(this.getModId(), 1000.0f * level, "Transponder on");
+decompiled/api/com/fs/starfarer/api/impl/campaign/abilities/TransponderAbility.java:107:        tooltip.addPara("Transponders transmit identifying information to all fleets within range.", pad);
+decompiled/api/com/fs/starfarer/api/impl/campaign/abilities/TransponderAbility.java:121:        tooltip.addPara("Transponder status also affects the reputation changes from combat and trade. With it turned off, you might be able to trade with otherwise inhospitable factions.", pad);
+decompiled/api/com/fs/starfarer/api/impl/campaign/abilities/TransponderAbility.java:260:        return "Transponder shutdown initiated - use again to deactivate";
+decompiled/api/com/fs/starfarer/api/impl/campaign/abilities/TransponderAbility.java:267:        return "Transponder primed - use again to activate";
+
+## Interdiction Pulse
+decompiled/api/com/fs/starfarer/api/impl/campaign/abilities/InterdictionPulseAbility.java:204:        LabelAPI title = tooltip.addTitle("Interdiction Pulse");
+
+## Cut the comm
+decompiled/api/com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.java:1788:        this.options.addOption("Cut the comm link", (Object)OptionId.CUT_COMM, null);
+
+## ships & cargo
+decompiled/api/com/fs/starfarer/api/impl/campaign/CoreScript.java:844:                desc = fc > 0.0f && fs > 0.0f ? "ships & cargo" : (fc > 0.0f ? "cargo" : "ships");
+
+## Disengage
+decompiled/api/com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.java:2218:                    this.options.addOption("Disengage", (Object)OptionId.DISENGAGE, this.getString("tooltipCleanDisengage"));
+decompiled/api/com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.java:2220:                    this.options.addOption("Disengage", (Object)OptionId.DISENGAGE, this.getString("tooltipHarrassableDisengage"));
+decompiled/api/com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.java:2238:                                this.options.addOption("Disengage", (Object)OptionId.DISENGAGE, this.getString("tooltipCleanDisengage"));
+decompiled/api/com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.java:2240:                                this.options.addOption("Disengage", (Object)OptionId.DISENGAGE, this.getString("tooltipHarrassableDisengage"));
+decompiled/api/com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.java:2251:                        this.options.addOption("Disengage by executing a series of special maneuvers", (Object)OptionId.CLEAN_DISENGAGE, "Allows your fleet to disengage without being pursued.");
+
+## Pursue
+decompiled/api/com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.java:2121:                this.options.addOption("Pursue them", (Object)OptionId.PURSUE, this.getString(pursueTooltip));
+
+=== STRINGS HARDCODES OBF ===
+## You decide to (OBF)
+decompiled/obf/com/fs/starfarer/ui/newui/o0oo_2.java:206:        this.this.if$String = "You decide to...";
+
+## Your forces (OBF)
+decompiled/obf/com/fs/starfarer/combat/Object/A.java:65:        this.o\u00d6\u00d5000 = new d("Your forces rout the enemy.  Score: 76%", "graphics/fonts/orbitron20aa.fnt");
+decompiled/obf/com/fs/starfarer/combat/Object/E.java:324:            this.\u00f500000 = "Your forces quit the battlespace before the engagement is over.";
+decompiled/obf/com/fs/starfarer/combat/Object/E.java:332:                this.\u00f500000 = "Your forces rout the enemy.";
+decompiled/obf/com/fs/starfarer/combat/Object/E.java:334:                    this.\u00f500000 = "Your forces make a clean getaway.";
+decompiled/obf/com/fs/starfarer/combat/Object/E.java:338:                this.\u00f500000 = "Your forces soundly defeat the enemy.";
+decompiled/obf/com/fs/starfarer/combat/Object/E.java:344:                this.\u00f500000 = "Your forces defeat the enemy.";
+decompiled/obf/com/fs/starfarer/combat/Object/E.java:350:                this.\u00f500000 = "Your forces win... but at what cost?";
+decompiled/obf/com/fs/starfarer/combat/Object/E.java:356:                this.\u00f500000 = "Your forces are battered, but victorious.";
+decompiled/obf/com/fs/starfarer/combat/Object/E.java:362:                this.\u00f500000 = "Your forces achieve a minor tactical victory.";
+decompiled/obf/com/fs/starfarer/combat/Object/E.java:375:                    this.\u00f500000 = "Your forces are crushed.";
+decompiled/obf/com/fs/starfarer/combat/Object/E.java:383:                    this.\u00f500000 = "Your forces are soundly defeated.";
+decompiled/obf/com/fs/starfarer/combat/Object/E.java:391:                    this.\u00f500000 = "Your forces are defeated.";
+decompiled/obf/com/fs/starfarer/combat/Object/E.java:399:                    this.\u00f500000 = "Your forces are defeated, but the enemy can hardly call the result a victory.";
+decompiled/obf/com/fs/starfarer/combat/Object/E.java:407:                    this.\u00f500000 = "Your forces are defeated in a evenly fought battle.";
+decompiled/obf/com/fs/starfarer/combat/Object/E.java:414:                this.\u00f500000 = "Your forces suffer a minor tactical defeat.";
+decompiled/obf/com/fs/starfarer/ui/impl/B.java:339:                this.addPara("Your forces can currently deploy ships worth up to %s points total, which is %s of battle size. The enemy can deploy up to %s points, which is %s.", 10.0f, Misc.getHighlightColor(), "" + n6, string3, "" + n7, string4);
+decompiled/obf/com/fs/starfarer/ui/impl/Z.java:240:                    this.addPara("Your forces need to destroy, disable, or force to retreat %s deployment points worth of enemy ships. Points so far: %s.", f2, Misc.getHighlightColor(), "" + n2, "" + n3);
+decompiled/obf/com/fs/starfarer/ui/impl/Z.java:243:                    this.addPara("Your forces will be able to disengage without being pursued after the conclusion of this engagement.", Misc.getPositiveHighlightColor(), f2);
+decompiled/obf/com/fs/starfarer/ui/newui/o0oo_3.java:55:            this.return.for$while = "Your forces";
+decompiled/obf/com/fs/starfarer/ui/newui/Objectsuper.java:60:            this.\u00f8\u00f5\u00d3o00 = "Your forces";
+
+## Held in reserve (OBF)
+decompiled/obf/com/fs/starfarer/ui/newui/O.java:47:    private String \u00d4\u00d6\u00d3o00 = "Held in reserve";
+decompiled/obf/com/fs/starfarer/ui/newui/O.java:53:        this(string2, campaignFleet, fleetEncounterContextPlugin, f2, color, o2, "Held in reserve", 56.0f, bl);
+
+## Hostilities (OBF)
+decompiled/obf/com/fs/starfarer/campaign/econ/reach/CommodityMarketData.java:122:        return "Hostilities with other factions";
+
+## fullscreen (OBF)
+decompiled/obf/com/fs/starfarer/launcher/ooOO.java:34:    public static final String return = "fullscreen";
+decompiled/obf/com/fs/starfarer/launcher/opengl/GLLauncher.java:420:        this.fullscreen = Q.o00000("fullscreen", string2, K.o.\u00d300000, null);
+decompiled/obf/com/fs/starfarer/launcher/opengl/GLLauncher.java:448:            boolean bl2 = !this.isDevMode && ooOO.Object().\u00d500000("fullscreen");
+decompiled/obf/com/fs/starfarer/launcher/opengl/GLLauncher.java:1022:                if (bl2 != ooOO.Object().\u00d500000("fullscreen")) {
+decompiled/obf/com/fs/starfarer/launcher/opengl/GLLauncher.java:1023:                    ooOO.Object().o00000("fullscreen", bl2);
+
+## sound (OBF)
+decompiled/obf/com/fs/starfarer/campaign/save/CampaignGameManager.java:2161:            xStream.aliasAttribute(CommMessage.class, "sound", "so");
+decompiled/obf/com/fs/starfarer/E/o0OO.java:32:    private whilesuper \u00f400000 = new whilesuper("sounds/fx/ui/wr_select_target01.ogg", 1.0f, 1.0f);
+decompiled/obf/com/fs/starfarer/launcher/ooOO.java:35:    public static final String \u00d2o0000 = "sound";
+decompiled/obf/com/fs/starfarer/launcher/ooOO.java:338:            jSONObject.put("soundVolume", (double)StarfarerSettings.\u00d6\u00d80000());
+decompiled/obf/com/fs/starfarer/launcher/ooOO.java:367:            StarfarerSettings.new((float)jSONObject.optDouble("soundVolume", 1.0));
+decompiled/obf/com/fs/starfarer/launcher/opengl/GLLauncher.java:417:        this.sound = Q.o00000("sound", string2, K.o.\u00d300000, null);
+decompiled/obf/com/fs/starfarer/launcher/opengl/GLLauncher.java:449:            boolean bl3 = bl = !this.isDevMode && ooOO.Object().\u00d500000("sound");
+decompiled/obf/com/fs/starfarer/launcher/opengl/GLLauncher.java:1025:                if (bl != ooOO.Object().\u00d500000("sound")) {
+decompiled/obf/com/fs/starfarer/launcher/opengl/GLLauncher.java:1026:                    ooOO.Object().o00000("sound", bl);
+decompiled/obf/com/fs/starfarer/loading/specs/K.java:33:        this(jSONObject.getJSONArray("sounds"));
+decompiled/obf/com/fs/starfarer/loading/specs/K.java:35:        arrayList.remove("sounds");
+decompiled/obf/com/fs/starfarer/loading/specs/K.java:60:        JSONArray jSONArray = jSONObject.optJSONArray("sounds");
+decompiled/obf/com/fs/starfarer/loading/specs/M.java:321:        this.oO0000 = String.super(jSONObject, "soundFilterType", oooo_0.o.class, oooo_0.o.\u00d400000);
+decompiled/obf/com/fs/starfarer/loading/specs/M.java:322:        this.Object.super = (float)jSONObject.optDouble("soundFilterGain", 1.0);
+decompiled/obf/com/fs/starfarer/loading/specs/M.java:323:        this.\u00d8\u00d30000 = (float)jSONObject.optDouble("soundFilterGainLF", 1.0);
+decompiled/obf/com/fs/starfarer/loading/specs/M.java:324:        this.public = (float)jSONObject.optDouble("soundFilterGainHF", 1.0);
+decompiled/obf/com/fs/starfarer/loading/specs/X.java:40:        this.for = jSONObject.getString("sound");
+decompiled/obf/com/fs/starfarer/loading/SpecStore.java:627:            o0oo_12.oO0000(jSONObject.optString("sound1", "combat1"));
+decompiled/obf/com/fs/starfarer/loading/SpecStore.java:628:            o0oo_12.\u00d500000(jSONObject.optString("sound2", "combat2"));
+decompiled/obf/com/fs/starfarer/loading/SpecStore.java:629:            o0oo_12.\u00f400000(jSONObject.optString("sound3", "combat3"));
+decompiled/obf/com/fs/starfarer/loading/SpecStore.java:630:            o0oo_12.\u00f800000(jSONObject.optString("sound4", "combat4"));
+decompiled/obf/com/fs/starfarer/loading/SpecStore.java:631:            o0oo_12.\u00d400000(jSONObject.optString("sound5", "combat5"));
+decompiled/obf/com/fs/starfarer/loading/SpecStore.java:635:            o0oo_12.return(jSONObject.optString("sound_story", "ui_char_spent_story_point"));
+decompiled/obf/com/fs/starfarer/loading/SpecStore.java:1049:                f2.setSoundId(jSONObject.getString("sound id"));
+decompiled/obf/com/fs/starfarer/loading/SpecStore.java:1053:                f2.setSoundIdDrop(jSONObject.getString("sound id drop"));
+decompiled/obf/com/fs/starfarer/loading/SpecStore.java:1105:                x2.setSoundId(jSONObject.getString("sound id"));
+decompiled/obf/com/fs/starfarer/loading/SpecStore.java:1111:                x2.setSoundIdDrop(jSONObject.getString("sound id drop"));
+decompiled/obf/com/fs/starfarer/loading/W.java:82:                h2.setSound(jSONObject.optString("sound_id", null));
+
+## next (OBF)
+decompiled/obf/com/fs/starfarer/campaign/econ/reach/ReachEconomy.java:156:        Profiler.\u00d200000((String)"nextStep()");
+decompiled/obf/com/fs/starfarer/campaign/save/CampaignGameManager.java:1763:            xStream.aliasAttribute(Random.class, "nextNextGaussian", "n");
+decompiled/obf/com/fs/starfarer/title/D.java:70:        this.\u00d40\u00d8o00 = Q.o00000("next tip", string2, Alignment.RMID, CutStyle.TL_BR, (oooo_3)this);
+decompiled/obf/com/fs/starfarer/ui/newui/X.java:86:        this.int.public$while = this.\u00d200000("next", null);
+
+## points (OBF)
+decompiled/obf/com/fs/starfarer/campaign/CharacterStats.java:256:                    string4 = "points";
+decompiled/obf/com/fs/starfarer/campaign/CharacterStats.java:369:        String string2 = "points";
+decompiled/obf/com/fs/starfarer/campaign/CharacterStats.java:1407:                String string3 = "points";
+decompiled/obf/com/fs/starfarer/campaign/CharacterStats.java:1427:                    String string4 = "points";
+decompiled/obf/com/fs/starfarer/campaign/command/MarketTooltipFactory.java:202:                String string6 = "points";
+decompiled/obf/com/fs/starfarer/campaign/save/CampaignGameManager.java:1682:            xStream.aliasAttribute(CharacterStats.class, "points", "pt");
+decompiled/obf/com/fs/starfarer/coreui/dosuper.java:141:                    string2 = "points";
+decompiled/obf/com/fs/starfarer/coreui/dosuper.java:167:                    String string3 = "points";
+decompiled/obf/com/fs/starfarer/coreui/k_0.java:517:                    String string2 = "points";
+decompiled/obf/com/fs/starfarer/ui/impl/StandardTooltipV2Expandable.java:1859:                String string2 = "points";
+
+## max (OBF)
+decompiled/obf/com/fs/starfarer/campaign/CampaignState.java:577:                float f5 = Global.getSettings().getFloat("maxCampaignZoom");
+decompiled/obf/com/fs/starfarer/campaign/comms/v2/IntelManager.java:56:    public static final float MAX_RELAY_RANGE_IN_HYPER_IN_LY = StarfarerSettings.\u00f500000("maxRelayRangeInHyperspace");
+decompiled/obf/com/fs/starfarer/campaign/Faction.java:1163:            float f2 = Global.getSettings().getInt("maxShipsInAIFleet");
+decompiled/obf/com/fs/starfarer/campaign/fleet/LogisticsModule.java:155:            float f3 = Global.getSettings().getFloat("maxSuppliesPerDayForOverCapacity");
+decompiled/obf/com/fs/starfarer/campaign/fleet/LogisticsModule.java:164:            float f3 = Global.getSettings().getFloat("maxSuppliesPerDayForOverCapacity");
+decompiled/obf/com/fs/starfarer/campaign/fleet/LogisticsModule.java:173:            float f3 = Global.getSettings().getFloat("maxSuppliesPerDayForOverCapacity");
+decompiled/obf/com/fs/starfarer/campaign/fleet/NoFuelDriftScript.java:89:                if ((f3 = Math.max(0.1f, f3)) > (f4 = Global.getSettings().getFloat("maxSuppliesPerDayForOverCapacity"))) {
+decompiled/obf/com/fs/starfarer/campaign/OoOO/C.java:163:        return String.format("%50s%10s%10s%10s%10s%10s%10s%10s%10s%10s%10s%10s", "id", "attack", "PD", "strike", "max hits", "shields", "move", "maneuver", "decks", "strength", "hits %", "shields %");
+decompiled/obf/com/fs/starfarer/campaign/save/CampaignGameManager.java:1429:            xStream.aliasAttribute(NavigationModule.AvoidData.class, "maxRange", "max");
+decompiled/obf/com/fs/starfarer/campaign/save/CampaignGameManager.java:1495:            xStream.aliasAttribute(CampaignFleetMemberView.class, "maxTurnRate", "mTR");
+decompiled/obf/com/fs/starfarer/campaign/save/CampaignGameManager.java:1508:            xStream.aliasAttribute(CampaignFleetMemberView.class, "maxJitterRange", "mJR");
+decompiled/obf/com/fs/starfarer/campaign/save/CampaignGameManager.java:1587:            xStream.aliasAttribute(CargoData.class, "maxCapacity", "mC");
+decompiled/obf/com/fs/starfarer/campaign/save/CampaignGameManager.java:1589:            xStream.aliasAttribute(CargoData.class, "maxFuel", "mF");
+decompiled/obf/com/fs/starfarer/campaign/save/CampaignGameManager.java:1590:            xStream.aliasAttribute(CargoData.class, "maxPersonnel", "mP");
+decompiled/obf/com/fs/starfarer/campaign/save/CampaignGameManager.java:1600:            xStream.aliasAttribute(SmoothFacingModule.class, "maxTurnRate", "m");
+decompiled/obf/com/fs/starfarer/campaign/save/CampaignGameManager.java:1608:            xStream.aliasAttribute(SmoothMovementModule.class, "maxSpeed", "s");
+decompiled/obf/com/fs/starfarer/campaign/save/CampaignGameManager.java:1646:            xStream.aliasAttribute(CargoItemStack.class, "maxSize", "mS");
+decompiled/obf/com/fs/starfarer/campaign/save/CampaignGameManager.java:1734:            xStream.aliasAttribute(CampaignFleetAI.FleetAssignmentData.class, "maxDurationInDays", "d");
+decompiled/obf/com/fs/starfarer/campaign/save/CampaignGameManager.java:1746:            xStream.aliasAttribute(IntervalTracker.class, "maxInterval", "a");
+decompiled/obf/com/fs/starfarer/campaign/save/CampaignGameManager.java:1846:            xStream.aliasAttribute(StarSystem.class, "maxRadiusInHyperspace", "mRIH");
+decompiled/obf/com/fs/starfarer/campaign/save/CampaignGameManager.java:1883:            xStream.aliasAttribute(JumpPointAPI.JumpDestination.class, "maxDistFromToken", "maxD");
+decompiled/obf/com/fs/starfarer/campaign/save/CampaignGameManager.java:1988:            xStream.aliasAttribute(CommodityOnMarket.class, "maxSupply", "mS");
+decompiled/obf/com/fs/starfarer/campaign/save/CampaignGameManager.java:1989:            xStream.aliasAttribute(CommodityOnMarket.class, "maxDemand", "mD");
+decompiled/obf/com/fs/starfarer/campaign/save/CampaignGameManager.java:2126:            xStream.aliasAttribute(ContrailEngineV2.Contrail.class, "maxSegLength", "maxSL");
+decompiled/obf/com/fs/starfarer/campaign/save/CampaignGameManager.java:2144:            xStream.aliasAttribute(ContrailEngineV2.ContrailPoint.class, "maxWidth", "mW");
+decompiled/obf/com/fs/starfarer/campaign/save/CampaignGameManager.java:2145:            xStream.aliasAttribute(ContrailEngineV2.ContrailPoint.class, "maxBrightness", "mB");
+decompiled/obf/com/fs/starfarer/campaign/ui/A/oooo_0.java:57:        String string4 = String.format("max range: %d ly", (int)f9);
+decompiled/obf/com/fs/starfarer/combat/ai/admiral/oOoO.java:425:        float f2 = Global.getSettings().getFloat("maxDisengageSize");
+decompiled/obf/com/fs/starfarer/combat/ai/admiral/oOoO.java:426:        float f3 = Global.getSettings().getFloat("maxDisengageFraction") * (float)Global.getSettings().getBattleSize();
+decompiled/obf/com/fs/starfarer/combat/CombatMain.java:221:                            OoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.\u00f800000().super(200, L.\u00d400000, (int)StarfarerSettings.\u00f500000("maxFXSources"), (int)StarfarerSettings.\u00f500000("maxUISources"));
+decompiled/obf/com/fs/starfarer/combat/CombatState.java:384:        this.zoomTracker = StarfarerSettings.\u00f6\u00d20000() && !Global.getSettings().getBoolean("playtestingMode") ? new com.fs.starfarer.util.super(0.5f, 4.0f, 0.25f, 0.5f) : new com.fs.starfarer.util.super(StarfarerSettings.\u00f500000("minCombatZoom"), StarfarerSettings.\u00f500000("maxCombatZoom"), 0.25f, 0.5f);
+decompiled/obf/com/fs/starfarer/coreui/A/int.java:70:        String string5 = String.format("max range: %d ly", (int)f7);
+decompiled/obf/com/fs/starfarer/coreui/s.java:475:                this.Object.interface$super.highlightLast("maximum number of officers exceeded");
+decompiled/obf/com/fs/starfarer/coreui/x.java:74:        this.\u00d4\u00d8\u00d2O00 = this.\u00d600000("max");
+decompiled/obf/com/fs/starfarer/launcher/opengl/C.java:331:        f2 *= StarfarerSettings.\u00f500000("maxMemoryFractionOfTotal");
+decompiled/obf/com/fs/starfarer/launcher/opengl/C.java:332:        f2 = Math.min(f2, StarfarerSettings.\u00f500000("maxMemoryMB"));
+decompiled/obf/com/fs/starfarer/launcher/opengl/GLLauncher.java:954:                        StarfarerSettings.float.class = Math.min(StarfarerSettings.float.class, (int)StarfarerSettings.\u00f500000("maxAASamples"));
+decompiled/obf/com/fs/starfarer/loading/FleetCreationSpec.java:51:        fleetCreationSpec.setMaxFleetPoints(jSONObject.getInt("maxFleetPoints"));
+decompiled/obf/com/fs/starfarer/loading/ShipHullSpecLoader.java:205:        if (jSONObject.has("maxSpeed")) {
+decompiled/obf/com/fs/starfarer/loading/ShipHullSpecLoader.java:206:            privatesuper2.getEngineSpec().setMaxSpeed((float)jSONObject.getDouble("maxSpeed"));
+decompiled/obf/com/fs/starfarer/loading/ShipHullSpreadsheetLoader.java:87:                    oO0OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO2.\u00d200000(jSONObject.optInt("max flux", 10));
+decompiled/obf/com/fs/starfarer/loading/ShipHullSpreadsheetLoader.java:96:                    engineSpecAPI.setMaxSpeed((float)jSONObject.optInt("max speed", 10) * f3);
+decompiled/obf/com/fs/starfarer/loading/ShipHullSpreadsheetLoader.java:99:                    engineSpecAPI.setMaxTurnRate((float)jSONObject.optDouble("max turn rate", 10.0) * f4);
+decompiled/obf/com/fs/starfarer/loading/ShipHullSpreadsheetLoader.java:106:                    privatesuper2.getCapacity().\u00d200000((float)jSONObject.optDouble("max crew", 1.0));
+decompiled/obf/com/fs/starfarer/loading/ShipHullSpreadsheetLoader.java:129:                    privatesuper2.setMaxBurn((float)jSONObject.optDouble("max burn", 4.0));
+decompiled/obf/com/fs/starfarer/loading/ShipHullSpreadsheetLoader.java:164:                    privatesuper2.setMaxPieces((float)jSONObject.optDouble("maxPieces", 2.0));
+decompiled/obf/com/fs/starfarer/loading/specs/c.java:36:        this.\u00d300000 = jSONObject.optInt("maxOngoing", -1);
+decompiled/obf/com/fs/starfarer/loading/specs/M.java:292:        this.\u00d4\u00d30000 = jSONObject.optInt("maxDrones", 10);
+decompiled/obf/com/fs/starfarer/loading/SpecStore.java:765:                    ((M)object3).setMaxUses(object4.optInt("max uses", Integer.MAX_VALUE));
+decompiled/obf/com/fs/starfarer/loading/WeaponSpecLoader.java:388:            float f3 = (float)jSONObject.optDouble("maxFlightTime", 5.0);
+decompiled/obf/com/fs/starfarer/loading/WeaponSpecLoader.java:397:            Z z = new Z((float)jSONObject3.getDouble("turnAcc"), (float)jSONObject3.getDouble("turnRate"), (float)jSONObject3.getDouble("acc"), (float)jSONObject3.getDouble("dec"), (float)jSONObject3.optDouble("maxSpeed", 0.0));
+decompiled/obf/com/fs/starfarer/loading/WeaponSpreadsheetLoader.java:139:                            ((while)object2).setMaxSpread((float)jSONObject.optDouble("max spread", 0.0));
+decompiled/obf/com/fs/starfarer/settings/StarfarerSettings.java:399:        hashSet.add("maxAASamples");
+decompiled/obf/com/fs/starfarer/settings/StarfarerSettings.java:404:        hashSet.add("maxMemoryFractionOfTotal");
+decompiled/obf/com/fs/starfarer/settings/StarfarerSettings.java:406:        hashSet.add("maxMemoryMB");
+decompiled/obf/com/fs/starfarer/settings/StarfarerSettings.java:472:        \u00d3\u00d60000 = StarfarerSettings.\u00f500000("maxArmorDamageReduction");
+decompiled/obf/com/fs/starfarer/settings/StarfarerSettings.java:483:        O\u00f40000 = StarfarerSettings.\u00f500000("maxSensorShips");
+decompiled/obf/com/fs/starfarer/settings/StarfarerSettings.java:484:        interface.super = StarfarerSettings.\u00f500000("maxShipsInFleet");
+decompiled/obf/com/fs/starfarer/settings/StarfarerSettings.java:495:        null.new = StarfarerSettings.\u00f500000("maxFleetSelectionRadius");
+decompiled/obf/com/fs/starfarer/settings/StarfarerSettings.java:1164:        return StarfarerSettings.\u00f500000("maxNoObjectiveBattleSize");
+decompiled/obf/com/fs/starfarer/settings/StarfarerSettings.java:1172:        return StarfarerSettings.\u00f500000("maxBattleSize");
+decompiled/obf/com/fs/starfarer/StarfarerLauncher.java:153:                    StarfarerSettings.float.class = Math.min(StarfarerSettings.float.class, (int)StarfarerSettings.\u00f500000("maxAASamples"));
+

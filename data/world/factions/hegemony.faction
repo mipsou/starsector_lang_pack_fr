@@ -1,7 +1,7 @@
 {
 	id:"hegemony",
-	"displayName":"Hegemonie",
-	"displayNameWithArticle":"l'Hegemonie",
+	"displayName":"Hégémonie",
+	"displayNameWithArticle":"l'Hégémonie",
 	"ranks":{
 		"ranks":{
 			"factionLeader":{"name":"Haut Hegemon"},

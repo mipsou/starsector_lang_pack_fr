@@ -4,9 +4,10 @@
   "author": "mipsou",
   "totalConversion": "false",
   "utility": "true",
-  "version": {"major":1, "minor":2, "patch":7},
+  "version": {"major":1, "minor":9, "patch":0},
   "description": "French language pack for Starsector",
-  "gameVersion": "0.97a-RC11",
+  "gameVersion": "0.98a-RC8",
+  "modPlugin": "data.scripts.FrenchLangModPlugin",
   "replace": [
     "data/strings/tips.json",
     "data/strings/tooltips.json",
@@ -57,6 +58,6 @@
     "data/missions/thewolfpack/mission_text.txt",
     "data/missions/turningthetables/mission_text.txt"
   ],
-  "jars": [],
+  "jars": ["jars/langpack-fr.jar"],
   "dependencies": []
 }
