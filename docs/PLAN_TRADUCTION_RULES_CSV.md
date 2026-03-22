@@ -57,8 +57,8 @@ Format Starsector : `[priority:]optionId:Label visible`
 
 ## Encodage
 
-- Lecture : utf-8 avec errors="replace"
-- Écriture : utf-8 sans BOM, newline CRLF
+- Lecture : Latin1 (ISO-8859-1)
+- Écriture : Latin1 (ISO-8859-1), newline CRLF
 - Apostrophes : U+0027 uniquement, JAMAIS U+2019
 
 ## Workflow par bloc
