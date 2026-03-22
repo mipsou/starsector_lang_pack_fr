@@ -26,9 +26,9 @@
 		"smallTrader":"Marchand",
 		"patrolSmall":"Avant-garde rapide",
 		"patrolMedium":"Patrouille",
-		"patrolLarge":"Detachement",
+		"patrolLarge":"Détachement",
 		"inspectionFleet":"Flotte d'inspection",
-		"taskForce":"Force operationnelle",
+		"taskForce":"Force opérationnelle",
 		"foodReliefFleet":"Convoi humanitaire",
 	},
 }
