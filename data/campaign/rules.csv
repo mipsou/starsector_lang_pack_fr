@@ -1422,85 +1422,85 @@ TTmarketPostWeirdHullmods3,TTmarketWeirdHullmodCheck,PlayerFleetHasShipWithBaseH
 FireBest DialogOptionSelected",,,
 TTmarketPostWeirdHullmods4,TTmarketWeirdHullmodCheck,,"$failedWeirdHullmodCheck = true 1
 FireBest MarketPostDock",,,
-TTmarketPostWeirdHullmods5,DialogOptionSelected,$option == TTmarketWeirdHullmodCheckBegin,,"Your comms officer calls for your attention.
+TTmarketPostWeirdHullmods5,DialogOptionSelected,$option == TTmarketWeirdHullmodCheckBegin,,"Votre officier des communications attire votre attention.
 
-""$PlayerSirOrMadam. There's an incoming comms request, marked urgent, from the portmaster. They want to speak with you personally.""","TTmarketWeirdHullmodCheckBegin2z:""Put them through.""",
+« $PlayerSirOrMadam. Il y a une demande de communication entrante, marquée urgente, de la part du maître du port. On souhaite vous parler personnellement. »",TTmarketWeirdHullmodCheckBegin2z:« Passez-les-moi. »,
 TTmarketPostWeirdHMbegin0,DialogOptionSelected,$option == TTmarketWeirdHullmodCheckBegin2z,"BeginConversation POST:portmaster
 $option = TTmarketWeirdHullmodCheckBegin2 0
 FireBest DialogOptionSelected",,,
-TTmarketPostWeirdHMbegin,DialogOptionSelected,$option == TTmarketWeirdHullmodCheckBegin2,$player.gotTTweirdHullmodPitch = true,"Your comms officer forwards the link to your personal interface and with a flicker the $post appears before you.
+TTmarketPostWeirdHMbegin,DialogOptionSelected,$option == TTmarketWeirdHullmodCheckBegin2,$player.gotTTweirdHullmodPitch = true,"Votre officier des communications transfère le lien vers votre interface personnelle et, dans un scintillement, le $post apparaît devant vous.
 
-""Captain."" $HisOrHer eyes dart to another display, ""... $playerLastName. I would like to personally welcome you to $marketName.""
+« Capitaine. » $HisOrHer regard se porte brièvement vers un autre écran, « ... $playerLastName. Je tenais à vous souhaiter personnellement la bienvenue à $marketName. »
 
-Their too-quick smile comes across as nervous.","TTmarket_weirdMods1a:""Thank you. May I dock?""
-TTmarket_weirdMods1b:""What's this about?""
-TTmarket_weirdMods1c:""Is this about a bribe? Just tell me how much.""",
+Son sourire trop rapide trahit une certaine nervosité.","TTmarket_weirdMods1a:« Merci. Puis-je amarrer ? »
+TTmarket_weirdMods1b:« De quoi s'agit-il ? »
+TTmarket_weirdMods1c:« C'est pour un pot-de-vin ? Dites-moi juste combien. »",
 TTmarketWeirdMods1a,DialogOptionSelected,$option == TTmarket_weirdMods1a,"$option = TTmarket_weirdMods2 0
-FireBest DialogOptionSelected","""Ha-ha. Of course, of course. But before- just one little thing. Not a problem, just a...""
+FireBest DialogOptionSelected","« Ha-ha. Bien sûr, bien sûr. Mais avant - juste un petit détail. Pas un problème, juste un... »
 
-$HeOrShe pauses, then begins again.",,
+$HeOrShe marque une pause, puis reprend.",,
 TTmarketWeirdMods1b,DialogOptionSelected,$option == TTmarket_weirdMods1b,"$option = TTmarket_weirdMods2 0
-FireBest DialogOptionSelected","""Ha-ha. Well... it's not a problem. Well. Not really a- it's just...""
+FireBest DialogOptionSelected","« Ha-ha. Eh bien... ce n'est pas un problème. Enfin. Pas vraiment un - c'est juste... »
 
-$HeOrShe licks $hisOrHer lips, then begins again.",,
+$HeOrShe se lèche $hisOrHer lèvres, puis reprend.",,
 TTmarketWeirdMods1c,DialogOptionSelected,$option == TTmarket_weirdMods1c,"$option = TTmarket_weirdMods2 0
-FireBest DialogOptionSelected","""Ha-ha. Of course not, nothing of the sort. You're very funny.""
+FireBest DialogOptionSelected","« Ha-ha. Bien sûr que non, rien de tel. Vous êtes très drôle. »
 
-$HeOrShe pauses, then begins again.",,
-TTmarketWeirdMods2,DialogOptionSelected,$option == TTmarket_weirdMods2,,"""You see, we couldn't help but notice certain... unique features of your $shipOrFleet. It's unusual... very unusual.""
+$HeOrShe marque une pause, puis reprend.",,
+TTmarketWeirdMods2,DialogOptionSelected,$option == TTmarket_weirdMods2,,"« Voyez-vous, nous n'avons pas pu nous empêcher de remarquer certaines... caractéristiques uniques de votre $shipOrFleet. C'est inhabituel... très inhabituel. »
 
-""Look,"" $heOrShe blinks rapidly, ""You tripped something in the Welcome Analysis Algorithm and I've got a directive I've never seen before.""","TTmarket_weirdMods3a:""Oh?""
-TTmarket_weirdMods3b:""Is there going to be some kind of trouble?""",
+« Écoutez, » $heOrShe cligne rapidement des yeux, « vous avez déclenché quelque chose dans l'Algorithme d'Analyse d'Accueil et j'ai reçu une directive que je n'ai jamais vue auparavant. »","TTmarket_weirdMods3a:« Oh ? »
+TTmarket_weirdMods3b:« Y aura-t-il des ennuis ? »",
 TTmarketWeirdMods2OMKI,DialogOptionSelected,"$option == TTmarket_weirdMods2
-PlayerFleetHasShipWithBaseHull onslaught_mk1",,"""We couldn't help but notice a certain... unique hull in your $shipOrFleet. It's unusual... very unusual.""
+PlayerFleetHasShipWithBaseHull onslaught_mk1",,"« Nous n'avons pas pu nous empêcher de remarquer une certaine... coque unique dans votre $shipOrFleet. C'est inhabituel... très inhabituel. »
 
-$HeOrShe leans in, ""Is it really what I think it is? Stars beyond, I...""
+$HeOrShe se penche en avant, « Est-ce vraiment ce que je pense ? Par les étoiles, je... »
 
-An impatient chime prompts $himOrHer. 
+Un carillon impatient interrompt $himOrHer.
 
-""Ah,"" $heOrShe clears $hisOrHer throat. ""You tripped something in the Welcome Analysis Algorithm and I've got a directive I've never seen before.""","TTmarket_weirdMods3c:""The Onslaught Mk.I would do that, wouldn't it.""
-TTmarket_weirdMods3b:""Is there going to be some kind of trouble?""",
+« Ah, » $heOrShe s'éclaircit $hisOrHer gorge. « Vous avez déclenché quelque chose dans l'Algorithme d'Analyse d'Accueil et j'ai reçu une directive que je n'ai jamais vue auparavant. »","TTmarket_weirdMods3c:« L'Onslaught Mk.I ferait cet effet, n'est-ce pas. »
+TTmarket_weirdMods3b:« Y aura-t-il des ennuis ? »",
 TTmarketWeirdMods3a,DialogOptionSelected,$option == TTmarket_weirdMods3a,"$option = TTmarket_weirdMods4 0
-FireBest DialogOptionSelected","""Yes.""",,
+FireBest DialogOptionSelected",« Oui. »,,
 TTmarketWeirdMods3b,DialogOptionSelected,$option == TTmarket_weirdMods3b,"$option = TTmarket_weirdMods4 0
-FireBest DialogOptionSelected","""N- no, I don't think so,"" $heOrShe says unreassuringly.",,
+FireBest DialogOptionSelected","« N- non, je ne pense pas, » dit $heOrShe d'un ton peu rassurant.",,
 TTmarketWeirdMods3c,DialogOptionSelected,$option == TTmarket_weirdMods3c,"$option = TTmarket_weirdMods4 0
-FireBest DialogOptionSelected","""I- yes,"" $heOrShe says, wide-eyed. ""I suppose it would,"" ",,
+FireBest DialogOptionSelected","« Je- oui, » dit $heOrShe les yeux écarquillés. « J'imagine que oui, »",,
 TTmarketWeirdMods4,DialogOptionSelected,$option == TTmarket_weirdMods4,"$option = TTmarket_weirdMods5 0
-FireBest DialogOptionSelected","$HeOrShe looks down at the TriPad in $hisOrHer hands.
+FireBest DialogOptionSelected","$HeOrShe baisse les yeux vers le TriPad dans $hisOrHer mains.
 
-""Tri-Tachyon's Director of Special Acquisitions, Zunya Glamor-Rotanev, would like to invite you to a meeting. On Eochu Bres.""
+« La Directrice des Acquisitions Spéciales de Tri-Tachyon, Zunya Glamor-Rotanev, souhaite vous inviter à une réunion. Sur Eochu Bres. »
 
-$HisOrHer eyes raise back up to the comm-link, to stare into your own. ""At your earliest convenience.""
+$HisOrHer regard remonte vers le lien de communication pour plonger dans le vôtre. « Dès que possible. »
 
-$HeOrShe looks to see that you understand what this means.",,
+$HeOrShe guette votre réaction pour voir si vous comprenez ce que cela implique.",,
 TTmarketWeirdMods4eochuBres,DialogOptionSelected,"$option == TTmarket_weirdMods4
 $market.id == eochu_bres","$option = TTmarket_weirdMods5 0
-FireBest DialogOptionSelected","$HeOrShe looks down at the TriPad in $hisOrHer hands.
+FireBest DialogOptionSelected","$HeOrShe baisse les yeux vers le TriPad dans $hisOrHer mains.
 
-""Tri-Tachyon's Director of Special Acquisitions, Zunya Glamor-Rotanev, would like to invite you to a meeting. On Eochu Bres. Her office.""
+« La Directrice des Acquisitions Spéciales de Tri-Tachyon, Zunya Glamor-Rotanev, souhaite vous inviter à une réunion. Sur Eochu Bres. Dans son bureau. »
 
-$HisOrHer eyes raise back up to the comm-link, to stare into your own. ""At your earliest convenience.""
+$HisOrHer regard remonte vers le lien de communication pour plonger dans le vôtre. « Dès que possible. »
 
-$HeOrShe looks to see that you understand what this means.",,
-TTmarketWeirdMods5,DialogOptionSelected,$option == TTmarket_weirdMods5,,,"TTmarket_weirdMods6a:""I'd be delighted to meet the Director.""
-TTmarket_weirdMods6b:""Sounds pretty important.""
-TTmarket_weirdMods6c:""What's this, uh, Zunya person do?""",
-TTmarketWeirdMods6a,DialogOptionSelected,$option == TTmarket_weirdMods6a,,"The $post stares at you for a moment.
+$HeOrShe guette votre réaction pour voir si vous comprenez ce que cela implique.",,
+TTmarketWeirdMods5,DialogOptionSelected,$option == TTmarket_weirdMods5,,,"TTmarket_weirdMods6a:« Ce serait un plaisir de rencontrer la Directrice. »
+TTmarket_weirdMods6b:« Ça a l'air plutôt important. »
+TTmarket_weirdMods6c:« Et cette, euh, Zunya, elle fait quoi ? »",
+TTmarketWeirdMods6a,DialogOptionSelected,$option == TTmarket_weirdMods6a,,"Le $post vous dévisage un instant.
 
-""You-"" $HeOrShe looks taken aback. ""You're aware of... never mind. Forget I said anything. Transmitting the address now.""
+« Vous- » $HeOrShe semble pris au dépourvu. « Vous êtes au courant de... peu importe. Oubliez ce que j'ai dit. Je vous transmets l'adresse. »
 
-$HeOrShe taps $hisOrHer TriPad.",TTmarket_weirdModsOutro1:Continuer,
-TTmarketWeirdMods6b,DialogOptionSelected,$option == TTmarket_weirdMods6b,,"The $post stares at you for a moment.
+$HeOrShe tapote $hisOrHer TriPad.",TTmarket_weirdModsOutro1:Continuer,
+TTmarketWeirdMods6b,DialogOptionSelected,$option == TTmarket_weirdMods6b,,"Le $post vous dévisage un instant.
 
-""Yes, she-"" $HeOrShe looks taken aback. ""You're aware of... never mind. Forget I said anything. Transmitting the address now.""
+« Oui, elle- » $HeOrShe semble pris au dépourvu. « Vous êtes au courant de... peu importe. Oubliez ce que j'ai dit. Je vous transmets l'adresse. »
 
-$HeOrShe taps $hisOrHer TriPad.",TTmarket_weirdModsOutro1:Continuer,
-TTmarketWeirdMods6c,DialogOptionSelected,$option == TTmarket_weirdMods6c,,"The $post stares at you for a moment.
+$HeOrShe tapote $hisOrHer TriPad.",TTmarket_weirdModsOutro1:Continuer,
+TTmarketWeirdMods6c,DialogOptionSelected,$option == TTmarket_weirdMods6c,,"Le $post vous dévisage un instant.
 
-""You don't-"" $HeOrShe looks taken aback. ""You're aware of... Special Acquisitions? Never mind. Forget I said anything. Transmitting the address now.""
+« Vous ne- » $HeOrShe semble pris au dépourvu. « Vous connaissez les... Acquisitions Spéciales ? Peu importe. Oubliez ce que j'ai dit. Je vous transmets l'adresse. »
 
-$HeOrShe taps $hisOrHer TriPad.",TTmarket_weirdModsOutro1:Continuer,
+$HeOrShe tapote $hisOrHer TriPad.",TTmarket_weirdModsOutro1:Continuer,
 TTmarketWeirdModsOutro,DialogOptionSelected,$option == TTmarket_weirdModsOutro1,"AddTextSmall ""   Director of Special Acquisitions Zunya Glamor-Rotanev""
 AddTextSmall ""   Suite 1000, Skyarco II Executive Annex""
 AddTextSmall ""   Xanadu Geodivision""
@@ -1508,36 +1508,36 @@ AddTextSmall ""   Eochu Bres, Hybrasil system""
 AddTextSmall ""   Persean Sector""
 AddTextSmall ""Received invitation to speak with VP Glamor-Rotanev on Hybrasil"" highlight
 $player.receivedGlamorRotanevInvite = true
-SetPersonHidden glamor_rotanev false",,"TTmarket_weirdModsOutro2a:""Thank you. I'll be sure to mention your name to the Director.""
-TTmarket_weirdModsOutro2b:""I don't believe you told me what 'special acquisitions' entails...""",
+SetPersonHidden glamor_rotanev false",,"TTmarket_weirdModsOutro2a:« Merci. Je ne manquerai pas de mentionner votre nom à la Directrice. »
+TTmarket_weirdModsOutro2b:« Je ne crois pas que vous m'ayez dit en quoi consistent les « acquisitions spéciales »... »",
 TTmarketWeirdModsOutro2a,DialogOptionSelected,$option == TTmarket_weirdModsOutro2a,"EndConversation
-ShowDefaultVisual","""Ha-ha, that won't be necessary. At all,"" $heOrShe says quickly. ""Thank you captain."" 
+ShowDefaultVisual","« Ha-ha, ce ne sera pas nécessaire. Pas du tout, » dit $heOrShe rapidement. « Merci, capitaine. »
 
-""Let me welcome you once again to the port of $marketName, the Tri-Tachyon Corporation will be pleased to enjoy your business partnership during your stay, I'm sure.""
+« Permettez-moi de vous souhaiter une nouvelle fois la bienvenue au port de $marketName, la Tri-Tachyon Corporation sera ravie de profiter de votre partenariat commercial durant votre séjour, j'en suis sûr. »
 
-""Keep it in the black, captain.""
+« Restez dans le noir, capitaine. »
 
-$HeOrShe smiles unconvincingly and cuts the link.",cutCommLink:Couper le lien,
+$HeOrShe sourit de manière peu convaincante et coupe le lien.",cutCommLink:Couper le lien,
 TTmarketWeirdModsOutro2b,DialogOptionSelected,$option == TTmarket_weirdModsOutro2b,"EndConversation
-ShowDefaultVisual","""Welcome once again to the port of $marketName, the Tri-Tachyon Corporation will be pleased to enjoy your business partnership during your stay.""
+ShowDefaultVisual","« Bienvenue une nouvelle fois au port de $marketName, la Tri-Tachyon Corporation sera ravie de profiter de votre partenariat commercial durant votre séjour. »
 
-""Keep it in the black, captain.""
+« Restez dans le noir, capitaine. »
 
-$HeOrShe smiles unconvincingly, pretending $heOrShe didn't hear your implied question, then cuts the link.",cutCommLink:Couper le lien,
+$HeOrShe sourit de manière peu convaincante, feignant que $heOrShe n'a pas entendu votre question implicite, puis coupe le lien.",cutCommLink:Couper le lien,
 TTmarketWeirdModsOutro2aX,DialogOptionSelected,"$option == TTmarket_weirdModsOutro2a
 PlayerFleetHasShipWithBaseHull onslaught_mk1","$option = TTmarket_weirdModsOutro2c 0
-FireBest DialogOptionSelected","""Ha-ha, that won't be necessary. At all,"" $heOrShe says quickly. ""Thank you captain."" 
+FireBest DialogOptionSelected","« Ha-ha, ce ne sera pas nécessaire. Pas du tout, » dit $heOrShe rapidement. « Merci, capitaine. »
 
-""Let me welcome you once again, the Tri-Tachyon Corporation will be pleased to enjoy your business partnership during your stay, I'm sure.""
+« Permettez-moi de vous souhaiter une nouvelle fois la bienvenue, la Tri-Tachyon Corporation sera ravie de profiter de votre partenariat commercial durant votre séjour, j'en suis sûr. »
 
-""Keep it in the black, captain.""",,
+« Restez dans le noir, capitaine. »",,
 TTmarketWeirdModsOutro2bX,DialogOptionSelected,"$option == TTmarket_weirdModsOutro2b
 PlayerFleetHasShipWithBaseHull onslaught_mk1","$option = TTmarket_weirdModsOutro2c 0
-FireBest DialogOptionSelected","""Welcome once again, the Tri-Tachyon Corporation will be pleased to enjoy your business partnership during your stay.""
+FireBest DialogOptionSelected","« Bienvenue une nouvelle fois, la Tri-Tachyon Corporation sera ravie de profiter de votre partenariat commercial durant votre séjour. »
 
-""Keep it in the black, captain.""",,
+« Restez dans le noir, capitaine. »",,
 TTmarketWeirdModsOutro2c,DialogOptionSelected,$option == TTmarket_weirdModsOutro2c,"EndConversation
-ShowDefaultVisual",$HeOrShe quickly cuts the link before you can ask any more questions.,cutCommLink:Couper le lien,
+ShowDefaultVisual",$HeOrShe coupe rapidement le lien avant que vous ne puissiez poser d'autres questions.,cutCommLink:Couper le lien,
 ,,,,,,
 # Church market notices Weird Hullmods,,,# FireAll MostLuddicEthosRefresh,,,
 CGRmarketPostWeirdHullmods,MarketPostDock,"$faction.id == luddic_church
@@ -1552,46 +1552,46 @@ CGRmarketPostWeirdHullmods2,CGRmarketWeirdHullmodCheck,PlayerFleetHasShroudedShi
 FireBest DialogOptionSelected",,,
 CGRmarketPostWeirdHullmods3,CGRmarketWeirdHullmodCheck,,"$failedWeirdHullmodCheck = true 1
 FireBest MarketPostDock",,,
-CGRmarketWeirdHullmods4,DialogOptionSelected,$option == CGRmarketWeirdHullmodCheckBegin,,"Your comms officer calls for your attention.
+CGRmarketWeirdHullmods4,DialogOptionSelected,$option == CGRmarketWeirdHullmodCheckBegin,,"Votre officier des communications attire votre attention.
 
-""$PlayerSirOrMadam. There's an incoming comms request, marked urgent, from the portwatcher. They want to speak with you personally.""","CGRmarketWeirdBegin:""Put them through.""",
+« $PlayerSirOrMadam. Il y a une demande de communication entrante, marquée urgente, de la part du gardien du port. On souhaite vous parler personnellement. »",CGRmarketWeirdBegin:« Passez-les-moi. »,
 CGRmarketWeirdBegin,DialogOptionSelected,$option == CGRmarketWeirdBegin,"BeginConversation POST:portmaster
 FireAll MostLuddicEthosRefresh
 $option = CGRmarket_weird1 0
 FireBest DialogOptionSelected",,,
-CGRmarketWeird1,DialogOptionSelected,$option == CGRmarket_weird1 ,,"The $post looks like they've seen a ghost.
+CGRmarketWeird1,DialogOptionSelected,$option == CGRmarket_weird1 ,,"Le $post a l'air d'avoir vu un fantôme.
 
-""Captain $playerLastName, by the grace of holy Ludd and all that is blessed, what unholy creation have you brought here? What have you done to your $shipOrFleet?""
+« Capitaine $playerLastName, par la grâce du saint Ludd et de tout ce qui est béni, quelle création impie avez-vous amenée ici ? Qu'avez-vous fait à votre $shipOrFleet ? »
 
-The questions are rhetorical, judging by the chimes and pings from your tactical officer's console- targeting alerts from defense batteries.",CGRmarket_weird2:Continuer,
+Les questions sont rhétoriques, à en juger par les carillons et les signaux de la console de votre officier tactique - des alertes de ciblage provenant des batteries de défense.",CGRmarket_weird2:Continuer,
 CGRmarketWeirdOutro,DialogOptionSelected,$option == CGRmarket_weird2,"AdjustRep luddic_church HOSTILE -200
 AddTextSmall ""Hostility due to use of unusual modifications"" bad
-SetShortcut CGRmarket_weirdEnd ""ESCAPE""","""The curates technologia have already passed judgement on your... your unholy combination of human craft and demonic 'technology',"" $heOrShe says.
+SetShortcut CGRmarket_weirdEnd ""ESCAPE""","« Les curés de la technologia ont déjà prononcé leur jugement sur votre... votre combinaison impie d'artisanat humain et de « technologie » démoniaque, » déclare $heOrShe d'un ton ferme.
 
-""Go now from this place and never return! Take your technological abominations and be accursed in the eyes of God and the Church. You are henceforth an abomination to be destroyed on sight!""
+« Partez maintenant de ce lieu et n'y revenez jamais ! Emportez vos abominations technologiques et soyez maudit aux yeux de Dieu et de l'Église. Vous êtes désormais une abomination à détruire à vue ! »
 
-$HeOrShe clasps $hisOrHer hands together, mumbling some prayer.",CGRmarket_weirdEnd:Couper le lien and take evasive action,
+$HeOrShe joint $hisOrHer mains, marmonnant une prière.",CGRmarket_weirdEnd:Couper le lien et entamer des manœuvres d'évasion,
 CGRmarketWeirdOutroCom,DialogOptionSelected,"$option == CGRmarket_weird2
 $player.fcm_faction == luddic_church
 !$player.mostLuddicEthosFaithful","AdjustRep luddic_church HOSTILE -200
 AddTextSmall ""Hostility due to use of unusual modifications"" bad
 AddTextSmall ""Church of Galactic Redemption commission revoked"" bad
-SetShortcut CGRmarket_weirdEnd ""ESCAPE""","""The curates technologia have already passed judgement on your... your unholy combination of human craft and demonic 'technology',"" $heOrShe says. ""Your commission is revoked.""
+SetShortcut CGRmarket_weirdEnd ""ESCAPE""","« Les curés de la technologia ont déjà prononcé leur jugement sur votre... votre combinaison impie d'artisanat humain et de « technologie » démoniaque, » $heOrShe déclare. « Votre commission est révoquée. »
 
-""Go now from this place and never return! Take your technological abominations and be accursed in the eyes of God and the Church. You are henceforth an abomination to be destroyed on sight!""
+« Partez maintenant de ce lieu et n'y revenez jamais ! Emportez vos abominations technologiques et soyez maudit aux yeux de Dieu et de l'Église. Vous êtes désormais une abomination à détruire à vue ! »
 
-$HeOrShe clasps $hisOrHer hands together, mumbling some prayer.",CGRmarket_weirdEnd:Couper le lien and take evasive action,
+$HeOrShe joint $hisOrHer mains, marmonnant une prière.",CGRmarket_weirdEnd:Couper le lien et entamer des manœuvres d'évasion,
 CGRmarketWeirdOutroFaith,DialogOptionSelected,"$option == CGRmarket_weird2
 $player.fcm_faction != luddic_church
 $player.mostLuddicEthosFaithful","AdjustRep luddic_church HOSTILE -200
 AddTextSmall ""Hostility due to use of unusual modifications"" bad
 AddTextSmall ""Excommunicated from the Church of Galactic Redemption"" bad
 $player.excommunicatedFromChurch = true
-SetShortcut CGRmarket_weirdEnd ""ESCAPE""","""The curates technologia have already passed judgement on your... your unholy combination of human craft and demonic 'technology',"" $heOrShe says. ""You are excommunicated, declared outlaw and enemy of the Faith.""
+SetShortcut CGRmarket_weirdEnd ""ESCAPE""","« Les curés de la technologia ont déjà prononcé leur jugement sur votre... votre combinaison impie d'artisanat humain et de « technologie » démoniaque, » $heOrShe déclare. « Vous êtes excommunié, déclaré hors-la-loi et ennemi de la Foi. »
 
-""Go now from this place and never return! Take your technological abominations and be accursed in the eyes of God and the Church. You are henceforth an abomination to be destroyed on sight!""
+« Partez maintenant de ce lieu et n'y revenez jamais ! Emportez vos abominations technologiques et soyez maudit aux yeux de Dieu et de l'Église. Vous êtes désormais une abomination à détruire à vue ! »
 
-$HeOrShe clasps $hisOrHer hands together, mumbling some prayer.",CGRmarket_weirdEnd:Couper le lien and take evasive action,
+$HeOrShe joint $hisOrHer mains, marmonnant une prière.",CGRmarket_weirdEnd:Couper le lien et entamer des manœuvres d'évasion,
 CGRmarketWeirdOutroComFaith,DialogOptionSelected,"$option == CGRmarket_weird2
 $player.fcm_faction == luddic_church
 $player.mostLuddicEthosFaithful","AdjustRep luddic_church HOSTILE -200
@@ -1599,11 +1599,11 @@ AddTextSmall ""Hostility due to use of unusual modifications"" bad
 AddTextSmall ""Church of Galactic Redemption commission revoked"" bad
 AddTextSmall ""Excommunicated from the Church of Galactic Redemption"" bad
 $player.excommunicatedFromChurch = true
-SetShortcut CGRmarket_weirdEnd ""ESCAPE""","""The curates technologia have already passed judgement on your... your unholy combination of human craft and demonic 'technology',"" $heOrShe says. ""Your commission is revoked. You are excommunicated, declared outlaw and enemy of the Faith.""
+SetShortcut CGRmarket_weirdEnd ""ESCAPE""","« Les curés de la technologia ont déjà prononcé leur jugement sur votre... votre combinaison impie d'artisanat humain et de « technologie » démoniaque, » $heOrShe déclare. « Votre commission est révoquée. Vous êtes excommunié, déclaré hors-la-loi et ennemi de la Foi. »
 
-""Go now from this place and never return! Take your technological abominations and be accursed in the eyes of God and the Church. You are henceforth an abomination to be destroyed on sight!""
+« Partez maintenant de ce lieu et n'y revenez jamais ! Emportez vos abominations technologiques et soyez maudit aux yeux de Dieu et de l'Église. Vous êtes désormais une abomination à détruire à vue ! »
 
-$HeOrShe clasps $hisOrHer hands together, mumbling some prayer.",CGRmarket_weirdEnd:Couper le lien and take evasive action,
+$HeOrShe joint $hisOrHer mains, marmonnant une prière.",CGRmarket_weirdEnd:Couper le lien et entamer des manœuvres d'évasion,
 CGRmarketWeirdEnd,DialogOptionSelected,$option == CGRmarket_weirdEnd,"$player.didCGRweirdHullmodReaction = true 1
 EndConversation DO_NOT_FIRE
 DismissDialog",,,
@@ -1622,9 +1622,9 @@ FireBest DialogOptionSelected",,,
 CGRpatrolWeirdHullmods3,CGRpatrolWeirdHullmodCheck,,"$failedWeirdHullmodCheck = true 1
 FireBest OpenCommLink",,,
 CGRpatrolWeirdMods0unknown,DialogOptionSelected,"$option == CGRpatrol_weirdMods0
-!$entity.knowWhoPlayerIs",FireAll MostLuddicEthosRefresh,"""The blessing of Ludd be upon-"" The $post's eyes go suddenly wide at a red flash from a secondary display.
+!$entity.knowWhoPlayerIs",FireAll MostLuddicEthosRefresh,"« Que la bénédiction de Ludd soit sur- » Les yeux du $post s'écarquillent soudainement à un éclair rouge provenant d'un écran secondaire.
 
-""By the holy pneuma,"" $heOrShe gasps.","CGRpatrol_weirdModsEnd2unknown:""Is there a problem, $post?""",
+« Par le saint pneuma, » $heOrShe laisse échapper dans un souffle.","CGRpatrol_weirdModsEnd2unknown:« Y a-t-il un problème, $post ? »",
 CGRpatrolWeirdModsUnknownEnd,DialogOptionSelected,"$option == CGRpatrol_weirdModsEnd2unknown
 $entity.relativeStrength >= 0","AddTextSmall ""Hostility due to use of unusual modifications"" bad
 AdjustRep luddic_church HOSTILE -30
@@ -1632,9 +1632,9 @@ MakeOtherFleetHostile true
 MakeOtherFleetAggressive true
 $entity.ignorePlayerCommRequests = true 0
 EndConversation
-ShowDefaultVisual","""An abomination, a devil-$shipOrFleet from Hell itself is before us! We pray to Providence to pass this test which has been given unto our unworthy-""
+ShowDefaultVisual","« Une abomination, une $shipOrFleet diabolique venue de l'Enfer même se tient devant nous ! Nous prions la Providence de surmonter cette épreuve qui a été imposée à nos indignes- »
 
-The $post's words are for $hisOrHer crew, not you, and the link shudders into static. The last image you see are hands clasped in prayer.",,
+Les paroles du $post s'adressent à $hisOrHer équipage, pas à vous, et le lien se brouille dans un grésillement. La dernière image que vous voyez est celle de mains jointes en prière.",,
 CGRpatrolWeirdModsUnknownEndWeaker,DialogOptionSelected,"$option == CGRpatrol_weirdModsEnd2unknown
 $entity.relativeStrength < 0","AddTextSmall ""Hostility due to use of unusual modifications"" bad
 AdjustRep luddic_church HOSTILE -30
@@ -1643,9 +1643,9 @@ MakeOtherFleetGoAway
 MakeOtherFleetAllowDisengage true
 $entity.ignorePlayerCommRequests = true 0
 EndConversation
-ShowDefaultVisual","""An abomination, a devil-$shipOrFleet from Hell itself is before us! We pray to Providence to pass this test which has been given unto our unworthy-""
+ShowDefaultVisual","« Une abomination, une $shipOrFleet diabolique venue de l'Enfer même se tient devant nous ! Nous prions la Providence de surmonter cette épreuve qui a été imposée à nos indignes- »
 
-The $post's words are for $hisOrHer crew, not you, and the link shudders into static. The last image you see are hands clasped in prayer.",,
+Les paroles du $post s'adressent à $hisOrHer équipage, pas à vous, et le lien se brouille dans un grésillement. La dernière image que vous voyez est celle de mains jointes en prière.",,
 CGRpatrolWeirdModsUnknownEndTrade,DialogOptionSelected,"$option == CGRpatrol_weirdModsEnd2unknown
 $entity.isTradeFleet score:100","AddTextSmall ""Hostility due to use of unusual modifications"" bad
 AdjustRep luddic_church HOSTILE -30
@@ -1654,52 +1654,52 @@ MakeOtherFleetGoAway
 MakeOtherFleetAllowDisengage true
 $entity.ignorePlayerCommRequests = true 0
 EndConversation
-ShowDefaultVisual","""An abomination, a devil-$shipOrFleet from Hell itself is before us! We pray to Providence to pass this test which has been given unto our unworthy-""
+ShowDefaultVisual","« Une abomination, une $shipOrFleet diabolique venue de l'Enfer même se tient devant nous ! Nous prions la Providence de surmonter cette épreuve qui a été imposée à nos indignes- »
 
-The $post's words are for $hisOrHer crew, not you, and the link shudders into static. The last image you see are hands clasped in prayer.",,
-CGRpatrolWeirdMods0,DialogOptionSelected,$option == CGRpatrol_weirdMods0,,"""The blessing of Ludd be upon-"" The $post's eyes go suddenly wide at a red flash from a secondary display.
+Les paroles du $post s'adressent à $hisOrHer équipage, pas à vous, et le lien se brouille dans un grésillement. La dernière image que vous voyez est celle de mains jointes en prière.",,
+CGRpatrolWeirdMods0,DialogOptionSelected,$option == CGRpatrol_weirdMods0,,"« Que la bénédiction de Ludd soit sur- » Les yeux du $post s'écarquillent soudainement à un éclair rouge provenant d'un écran secondaire.
 
-""By the holy pneuma,"" $heOrShe gasps.","CGRpatrol_weirdMods1:""Is there a problem, $post?""",
-CGRpatrolWeirdMods1,DialogOptionSelected,$option == CGRpatrol_weirdMods1,,"""What by blessed Ludd's holy right glove have you done to your $shipOrFleet? Is that the cursed work of Moloch my eyes do perceive in your $shipOrFleet?""
+« Par le saint pneuma, » $heOrShe laisse échapper dans un souffle.","CGRpatrol_weirdMods1:« Y a-t-il un problème, $post ? »",
+CGRpatrolWeirdMods1,DialogOptionSelected,$option == CGRpatrol_weirdMods1,,"« Par le saint gant droit du bienheureux Ludd, qu'avez-vous fait à votre $shipOrFleet ? Est-ce l'œuvre maudite de Moloch que mes yeux perçoivent dans votre $shipOrFleet ? »
 
-$HeOrShe looks over $hisOrHer shoulder, ""Summon the subcurate technologia! For immediate consultation!""
+$HeOrShe regarde par-dessus $hisOrHer épaule, « Convoquez le sous-curé de la technologia ! Pour consultation immédiate ! »
 
-The $post turns back to you. ""You have but a moment to explain what my sensors suggest, captain."" ","CGRpatrol_weirdMods2a:""Is it my... unique modifications you object to?""
-CGRpatrol_weirdMods2b:""There seems to be some kind of misunderstanding.""
-CGRpatrol_weirdMods2c:""What exactly do your sensors suggest?""",
-CGRpatrolWeirdMods2a,DialogOptionSelected,$option == CGRpatrol_weirdMods2a,,"""Unique mod-"" $HeOrShe sputters.
+Le $post se retourne vers vous. « Vous n'avez qu'un instant pour expliquer ce que mes capteurs suggèrent, capitaine. »","CGRpatrol_weirdMods2a:« Ce sont mes... modifications uniques qui vous posent problème ? »
+CGRpatrol_weirdMods2b:« Il semble y avoir une sorte de malentendu. »
+CGRpatrol_weirdMods2c:« Que suggèrent exactement vos capteurs ? »",
+CGRpatrolWeirdMods2a,DialogOptionSelected,$option == CGRpatrol_weirdMods2a,,"« Des mod- uniques ? » $HeOrShe s'étrangle.
 
-""It is devilry! You've joined human craft with abomination. It is an unholy thing!""  $HeOrShe makes some kind of hurry-up hand signal over $hisOrHer shoulder.
+« C'est de la sorcellerie ! Vous avez uni l'artisanat humain à l'abomination. C'est une chose impie ! » $HeOrShe fait un geste pressant de la main par-dessus $hisOrHer épaule.
 
-""You condemn your soul to the abyss. And you condemn yourself as mortal enemy to the Church and accursed in the eyes of God and all who hold faith."" $HisOrHer expression is grim.
+« Vous condamnez votre âme à l'abîme. Et vous vous condamnez comme ennemi mortel de l'Église, maudit aux yeux de Dieu et de tous les fidèles. » $HisOrHer expression est sinistre.
 
-The $post turns and exchanges a few words with someone you can't see.",CGRpatrol_weirdMods3:Continuer,
-CGRpatrolWeirdMods2b,DialogOptionSelected,$option == CGRpatrol_weirdMods2b,,"""Methinks there is not, $playerSirOrMadam, and you merely dissemble with a devil's tongue to gain advantage."" $HeOrShe makes some kind of hurry-up hand signal over $hisOrHer shoulder.
+Le $post se retourne et échange quelques mots avec quelqu'un que vous ne pouvez pas voir.",CGRpatrol_weirdMods3:Continuer,
+CGRpatrolWeirdMods2b,DialogOptionSelected,$option == CGRpatrol_weirdMods2b,,"« Il me semble que non, $playerSirOrMadam, et que vous usez simplement d'une langue de serpent pour prendre l'avantage. » $HeOrShe fait un geste pressant de la main par-dessus $hisOrHer épaule.
 
-""Judgement shall be pronounced ere long upon what my heart fears.""
+« Le jugement sera bientôt prononcé sur ce que mon cœur redoute. »
 
-The $post turns and exchanges a few words with someone you can't see.",CGRpatrol_weirdMods3:Continuer,
-CGRpatrolWeirdMods2c,DialogOptionSelected,$option == CGRpatrol_weirdMods2c,,"""Overt devilry. You've combined human craft with abomination."" $HeOrShe makes some kind of hurry-up hand signal over $hisOrHer shoulder.
+Le $post se retourne et échange quelques mots avec quelqu'un que vous ne pouvez pas voir.",CGRpatrol_weirdMods3:Continuer,
+CGRpatrolWeirdMods2c,DialogOptionSelected,$option == CGRpatrol_weirdMods2c,,"« De la sorcellerie manifeste. Vous avez combiné l'artisanat humain avec l'abomination. » $HeOrShe fait un geste pressant de la main par-dessus $hisOrHer épaule.
 
-""By this unholy 'technology' you condemn your soul to the abyss. And you condemn yourself as mortal enemy to the Church, accursed in the eyes of God and all who hold faith!""
+« Par cette « technologie » impie, vous condamnez votre âme à l'abîme. Et vous vous condamnez comme ennemi mortel de l'Église, maudit aux yeux de Dieu et de tous les fidèles ! »
 
-The $post turns and exchanges a few words with someone you can't see.",CGRpatrol_weirdMods3:Continuer,
-CGRpatrolWeirdMods3,DialogOptionSelected,$option == CGRpatrol_weirdMods3,FireAll CGRpatrolWeirdModsOpts,"""You're certain?"" $heOrShe asks. $HisOrHer face has gone pale, as if $heOrShe has been informed that $heOrShe has been condemned.
+Le $post se retourne et échange quelques mots avec quelqu'un que vous ne pouvez pas voir.",CGRpatrol_weirdMods3:Continuer,
+CGRpatrolWeirdMods3,DialogOptionSelected,$option == CGRpatrol_weirdMods3,FireAll CGRpatrolWeirdModsOpts,"« Vous en êtes certain ? » $heOrShe demande. $HisOrHer visage a blêmi, comme si $heOrShe venait d'apprendre que $heOrShe avait été condamné.
 
-The briefest flash of emotions: pain, fear, outrage, sadness, acceptance. The eyes that turn back to the comm-link are that of an enemy across battle-lines.",,
-CGRpatrolWeirdModsOpt3a,CGRpatrolWeirdModsOpts,$player.fcm_faction == luddic_church,,,"CGRpatrol_weirdModsOpt3aSel:""I am commissioned by the Church!""",
-CGRpatrolWeirdModsOpt3b,CGRpatrolWeirdModsOpts,$player.luddicAttitudeFaithful,,,"CGRpatrol_weirdModsOpt3bSel:""Hold your condemnation for a moment, for I share your Faith.""",
-CGRpatrolWeirdModsOpt3c,CGRpatrolWeirdModsOpts,,,,"CGRpatrol_weirdModsOpt3cSel:""Let's discuss this before jumping to conclusions...""",
-CGRpatrolWeirdModsOpt3d,CGRpatrolWeirdModsOpts,,,,"CGRpatrol_weirdModsOpt3dSel:""Perhaps we come to an 'arrangement'? Just name a price...""",
-CGRpatrolWeirdModsOpt3e,CGRpatrolWeirdModsOpts,$player.luddicAttitudeCynical,,,"CGRpatrol_weirdModsOpt3eSel:""This is an irrational outburst, $post.""",
+Un bref éclair d'émotions : douleur, peur, indignation, tristesse, acceptation. Les yeux qui se tournent à nouveau vers le lien de communication sont ceux d'un ennemi de l'autre côté des lignes de front.",,
+CGRpatrolWeirdModsOpt3a,CGRpatrolWeirdModsOpts,$player.fcm_faction == luddic_church,,,CGRpatrol_weirdModsOpt3aSel:« J'ai reçu une commission de l'Église ! »,
+CGRpatrolWeirdModsOpt3b,CGRpatrolWeirdModsOpts,$player.luddicAttitudeFaithful,,,"CGRpatrol_weirdModsOpt3bSel:« Retenez votre condamnation un instant, car je partage votre Foi. »",
+CGRpatrolWeirdModsOpt3c,CGRpatrolWeirdModsOpts,,,,CGRpatrol_weirdModsOpt3cSel:« Discutons-en avant de tirer des conclusions hâtives... »,
+CGRpatrolWeirdModsOpt3d,CGRpatrolWeirdModsOpts,,,,CGRpatrol_weirdModsOpt3dSel:« Peut-être pourrions-nous trouver un « arrangement » ? Donnez votre prix... »,
+CGRpatrolWeirdModsOpt3e,CGRpatrolWeirdModsOpts,$player.luddicAttitudeCynical,,,"CGRpatrol_weirdModsOpt3eSel:« C'est un accès de colère irrationnel, $post. »",
 CGRpatrolWeirdModsOpt3aSel,DialogOptionSelected,$option == CGRpatrol_weirdModsOpt3aSel,"$option = CGRpatrol_weirdModsEnd1 0
-FireBest DialogOptionSelected","""You are no longer,"" $heOrShe says.",,
+FireBest DialogOptionSelected","« Plus maintenant, » $heOrShe répond.",,
 CGRpatrolWeirdModsOpt3bSel,DialogOptionSelected,$option == CGRpatrol_weirdModsOpt3bSel,"$option = CGRpatrol_weirdModsEnd1 0
-FireBest DialogOptionSelected","""I abjure your heresy ,"" $heOrShe says.",,
+FireBest DialogOptionSelected","« J'abjure votre hérésie, » $heOrShe déclare.",,
 CGRpatrolWeirdModsOpt3cSel,DialogOptionSelected,$option == CGRpatrol_weirdModsOpt3cSel,"$option = CGRpatrol_weirdModsEnd1 0
 FireBest DialogOptionSelected",,,
 CGRpatrolWeirdModsOpt3dSel,DialogOptionSelected,$option == CGRpatrol_weirdModsOpt3dSel,"$option = CGRpatrol_weirdModsEnd1 0
-FireBest DialogOptionSelected","""Corruptor, mammonite!"" $heOrShe spits.",,
+FireBest DialogOptionSelected","« Corrupteur, mammonite ! » $heOrShe crache avec mépris.",,
 CGRpatrolWeirdModsOpt3eSel,DialogOptionSelected,$option == CGRpatrol_weirdModsOpt3eSel,"$option = CGRpatrol_weirdModsEnd1 0
 FireBest DialogOptionSelected",,,
 CGRpatrolWeirdModsEnd,DialogOptionSelected,"$option == CGRpatrol_weirdModsEnd1
@@ -1721,9 +1721,9 @@ CGRpatrolWeirdModsEnd3,DialogOptionSelected,$option == CGRpatrol_weirdModsEnd2,"
 AddTextSmall ""Hostility due to use of unusual modifications"" bad
 $entity.ignorePlayerCommRequests = true 0
 EndConversation
-ShowDefaultVisual","""There is no negotiation with evil, no compromise."" The $post's words are for $hisOrHer crew, not you.
+ShowDefaultVisual","« Il n'y a pas de négociation avec le mal, pas de compromis. » Les paroles du $post s'adressent à $hisOrHer équipage, pas à vous.
 
-The link shudders into static, the last image is of hands clasped in a brief prayer.",,
+Le lien se brouille dans un grésillement, la dernière image est celle de mains jointes dans une brève prière.",,
 CGRpatrolWeirdModsEnd3b,DialogOptionSelected,"$option == CGRpatrol_weirdModsEnd2
 $player.mostLuddicEthosFaithful
 !$player.excommunicatedFromChurch","AdjustRep luddic_church HOSTILE -200
@@ -1732,9 +1732,9 @@ AddTextSmall ""Excommunicated from the Church of Galactic Redemption"" bad
 $player.excommunicatedFromChurch = true
 $entity.ignorePlayerCommRequests = true 0
 EndConversation
-ShowDefaultVisual","""There is no negotiation with evil, no compromise."" The $post's words are for $hisOrHer crew, not you.
+ShowDefaultVisual","« Il n'y a pas de négociation avec le mal, pas de compromis. » Les paroles du $post s'adressent à $hisOrHer équipage, pas à vous.
 
-The link shudders into static, the last image is of hands clasped in a brief prayer.",,
+Le lien se brouille dans un grésillement, la dernière image est celle de mains jointes dans une brève prière.",,
 ,,,,,,
 ,,,,,,
 # Luddic Path market notices Weird Hullmods,,,,,,
@@ -1750,13 +1750,13 @@ PathMarketPostWeirdHullmods2,PathMarketWeirdHullmodCheck,PlayerFleetHasShroudedS
 FireBest DialogOptionSelected",,,
 PathMarketPostWeirdHullmods3,PathMarketWeirdHullmodCheck,,"$failedWeirdHullmodCheck = true 1
 FireBest MarketPostDock",,,
-PathMarketWeirdHullmods4,DialogOptionSelected,$option == pathMarketWeird_HullmodCheckBegin,,"Your comms officer calls for your attention.
+PathMarketWeirdHullmods4,DialogOptionSelected,$option == pathMarketWeird_HullmodCheckBegin,,"Votre officier des communications attire votre attention.
 
-""$PlayerSirOrMadam. There's an incoming comms request, marked urgent, from the portwatcher. They want to speak with you personally.""","PathMarketWeirdBegin:""Put them through.""",
+« $PlayerSirOrMadam. Il y a une demande de communication entrante, marquée urgente, de la part du gardien du port. On souhaite vous parler personnellement. »",PathMarketWeirdBegin:« Passez-les-moi. »,
 PathMarketWeirdHullmods4station,DialogOptionSelected,"$option == pathMarketWeird_HullmodCheckBegin
-$tag:station",,"Your comms officer calls for your attention.
+$tag:station",,"Votre officier des communications attire votre attention.
 
-""$PlayerSirOrMadam. There's an incoming comms request, marked urgent, from the station commander. They want to speak with you personally.""","PathMarketWeirdBegin:""Put them through.""",
+« $PlayerSirOrMadam. Il y a une demande de communication entrante, marquée urgente, de la part du commandant de station. On souhaite vous parler personnellement. »",PathMarketWeirdBegin:« Passez-les-moi. »,
 PathMarketWeirdBegin,DialogOptionSelected,$option == PathMarketWeirdBegin,"BeginConversation POST:portmaster
 $option = PathMarket_weird1 0
 FireBest DialogOptionSelected",,,
@@ -1764,19 +1764,19 @@ PathMarketWeirdBeginStation,DialogOptionSelected,"$option == PathMarketWeirdBegi
 $tag:station","BeginConversation POST:stationCommander
 $option = PathMarket_weird1 0
 FireBest DialogOptionSelected",,,
-PathMarketWeird1,DialogOptionSelected,$option == PathMarket_weird1 ,,"The link flickers open and the conversation begins poorly.
+PathMarketWeird1,DialogOptionSelected,$option == PathMarket_weird1 ,,"Le lien s'ouvre dans un scintillement et la conversation commence mal.
 
-""Befouler, defiler, sinful spite-God! Demoniac!""
+« Souilleur, profanateur, pécheur blasphémateur ! Démoniaque ! »
 
-The look of rage and religious mania pulls the $post's face into a devilish mask as $heOrShe shouts.",PathMarket_weird2:Continuer,
+Le regard de rage et de manie religieuse déforme le visage du $post en un masque diabolique tandis que $heOrShe hurle.",PathMarket_weird2:Continuer,
 PathMarketWeird2,DialogOptionSelected,$option == PathMarket_weird2,"$player.didPathWeirdHullmodReaction = true 365
 AddTextSmall ""Hostility due to use of unusual modifications"" bad
 AdjustRep luddic_path HOSTILE -200
-SetShortcut PathMarket_weird3 ""ESCAPE""","""What work-of-Moloch $shipOrFleet appears in our skies? What unholy combination of human craft and... and abomination? You are to be destroyed on sight, accursed by God and all who are faithful!""
+SetShortcut PathMarket_weird3 ""ESCAPE""","« Quelle œuvre-de-Moloch $shipOrFleet apparaît dans nos cieux ? Quelle combinaison impie d'artisanat humain et... et d'abomination ? Vous devez être détruit à vue, maudit par Dieu et tous les fidèles ! »
 
-$HeOrShe desperately clasps $hisOrHer hands together and prays. ""Blessed Ludd, give me strength when the evil one appears...""
+$HeOrShe joint désespérément $hisOrHer mains et prie. « Bienheureux Ludd, donne-moi la force quand le malin se présente... »
 
-Targeting alerts chime from your tactical officer's console.",PathMarket_weird3:Couper le lien and take evasive action,
+Des alertes de ciblage retentissent depuis la console de votre officier tactique.",PathMarket_weird3:Couper le lien et entamer des manœuvres d'évasion,
 PathMarketWeird3,DialogOptionSelected,$option == PathMarket_weird3,"EndConversation DO_NOT_FIRE
 DismissDialog",,,
 ,,,,,,
