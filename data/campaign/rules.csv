@@ -2728,7 +2728,7 @@ $faction.id == persean",FireAll RelLevelMoreDescription,"Vous avez été signal�
 relLevelInhospitableLeague,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
 $faction.id == persean",FireAll RelLevelMoreDescription,"Le PLFIS vous a signalé comme partie impliquée dans des activités suspectes et/ou criminelles. Vous n'êtes pas autorisé à commercer sur les marchés des mondes de la Ligue, et les patrouilles vous traiteront comme une menace potentielle, bien qu'elles n'aient pas encore d'ordres de tir à vue du commandement de la Flotte. Pas encore.",,
 relLevelHostileLeague,RelationshipLevelDesc,"$faction.rel == HOSTILE
-$faction.id == persean",FireAll RelLevelMoreDescription,"Les patrouilles de la Ligue Persane ont l'ordre de vous 'engager à vue' si votre flotte est repérée, vous considérant comme un simple pirate. Les marchés des mondes de la Ligue vous sont fermés, et la rumeur dit que les gens de Kazeron mijotent des plans pour se débarrasser de votre nuisance une fois pour toutes.",,
+$faction.id == persean",FireAll RelLevelMoreDescription,"Les patrouilles de la Ligue Persane ont l'ordre de vous « engager à vue » si votre flotte est repérée, vous considérant comme un simple pirate. Les marchés des mondes de la Ligue vous sont fermés, et la rumeur dit que les gens de Kazeron mijotent des plans pour se débarrasser de votre nuisance une fois pour toutes.",,
 relLevelVengefulLeague,RelationshipLevelDesc,"$faction.rel == VENGEFUL
 $faction.id == persean",FireAll RelLevelMoreDescription,"Vous êtes un fléau des routes spatiales, ennemi déclaré de la Ligue Persane et de ses citoyens libres. Plus inquiétant encore, les grandes gens de Kazeron sont prêtes à mettre de côté leurs différends pour mettre en commun leurs ressources afin de vous traquer.",,
 relLevelLeagueYaribay,RelLevelMoreDescription,"$faction.id == persean
@@ -2766,8 +2766,8 @@ $ignorePlayerCommRequests = false 0
 $customsInspectionStage = 0 4
 AddText ""Vous etes interpelle par le $otherShipOrFleet $faction."" $faction.baseColor",,,
 customsInspectionConvStart,OpenCommLink,"$entity.doingCustomsInspection score:100
-$entity.customsInspectionStage == 0","SetTooltip ciAgree ""The scan will compute the value of your fleets and the goods it's carrying, and a toll will be assessed.\n\nIf your $shipOrFleet is carrying illegal goods, there's a chance these will be detected. The chance is lower if you're also carrying legal goods, and if your relationship with the faction is positive. If contraband is detected, it will be confiscated, and a fine will be assessed.""","$PersonRank $personName lève brièvement les yeux de sa console. ""Restez en attente pendant que nous scannons votre cargaison. Nous reprendrons cette conversation une fois le scan terminé.""","0:ciAgree:Autoriser le déroulement du scan
-1:ciDisagree:""Je ne pense pas.""",
+$entity.customsInspectionStage == 0","SetTooltip ciAgree ""The scan will compute the value of your fleets and the goods it's carrying, and a toll will be assessed.\n\nIf your $shipOrFleet is carrying illegal goods, there's a chance these will be detected. The chance is lower if you're also carrying legal goods, and if your relationship with the faction is positive. If contraband is detected, it will be confiscated, and a fine will be assessed.""",$PersonRank $personName lève brièvement les yeux de sa console. « Restez en attente pendant que nous scannons votre cargaison. Nous reprendrons cette conversation une fois le scan terminé. »,"0:ciAgree:Autoriser le déroulement du scan
+1:ciDisagree:« Je ne pense pas. »",
 customsInspectionAgree,DialogOptionSelected,"$entity.doingCustomsInspection score:100
 $option == ciAgree score:100","EndConversation DO_NOT_FIRE
 Wait $global.ciWait 0.5 $global.ciFinished $global.ciInterrupted $global.ciInProgress ""Scanning...""
@@ -2778,7 +2778,7 @@ customsInspectionDisagree,DialogOptionSelected,"$entity.doingCustomsInspection s
 $option == ciDisagree","AdjustRep $faction.id CUSTOMS_REFUSED_TOLL
 $entity.ignorePlayerCommRequests = true 1
 #MakeNearbyFleetsHostile $faction.id 2000 10
-EndConversation","""Oh ? C'est quelque chose que vous allez regretter.""
+EndConversation","« Oh ? C'est quelque chose que vous allez regretter. »
 
 La liaison comm est coupée avant que vous n'ayez la chance de répondre.",,
 customsInspectionWaitFinished,BeginFleetEncounter,"$doingCustomsInspection score:100
@@ -2794,14 +2794,14 @@ $option == ciResultContinue","CustomsInspectionApplyRepLoss
 FireBest InspectionResultResponse",,,
 customsInspectionResultToll,InspectionResultResponse,"$entity.doingCustomsInspection score:100
 $entity.inspectionResultType == TOLL","SetTextHighlights $entity.tollAmount
-FireAll CustomsInspectionPayOptions","$PersonRank $personName lève les yeux de sa console. ""Tout semble en ordre. Le péage et les frais d'inspection s'élèvent à un total de $tollAmount crédits.""",,
+FireAll CustomsInspectionPayOptions",$PersonRank $personName lève les yeux de sa console. « Tout semble en ordre. Le péage et les frais d'inspection s'élèvent à un total de $tollAmount crédits. »,,
 customsInspectionResultTollFine,InspectionResultResponse,"$entity.doingCustomsInspection score:100
 $entity.inspectionResultType == TOLL_AND_FINE","SetTextHighlights $entity.tollAmount
-FireAll CustomsInspectionPayOptions","$PersonRank $personName semble ravi. ""Eh bien, eh bien. Regardez ce que nous avons là ! Nous allons confisquer toute la contrebande, bien entendu. Le péage, les frais d'inspection et l'amende pour possession de marchandises illégales avec intention de vente s'élèvent à un total de $tollAmount crédits.""",,
+FireAll CustomsInspectionPayOptions","$PersonRank $personName semble ravi. « Eh bien, eh bien. Regardez ce que nous avons là ! Nous allons confisquer toute la contrebande, bien entendu. Le péage, les frais d'inspection et l'amende pour possession de marchandises illégales avec intention de vente s'élèvent à un total de $tollAmount crédits. »",,
 customsInspectionResultTollFineHostile,InspectionResultResponse,"$entity.doingCustomsInspection score:100
 $entity.inspectionResultType == TOLL_AND_FINE
 RepIsAtBest $faction.id HOSTILE score:100",FireBest CustomsInspectionEndHostile,"$personName regarde le rapport, vous regarde, regarde le rapport à nouveau, et coupe la liaison comm sans dire un mot. Vos scanners détectent les signatures d'armes en cours d'activation.",,
-# customs inspection -payment options,,,,,,
+# customs inspection -payment options,,,,"$personName regarde le rapport, vous regarde, regarde le rapport à nouveau, et coupe la liaison comm sans dire un mot. Vos scanners détectent les signatures d'armes en cours d'activation.",,
 customsInspectionPayToll,CustomsInspectionPayOptions,"$entity.doingCustomsInspection score:100
 $entity.inspectionResultType == TOLL
 $entity.playerCanAffordPayment",,,0:payCIToll:Payer le péage ($tollAmount crédits),
@@ -2821,16 +2821,16 @@ $entity.inspectionResultType == TOLL_AND_FINE",,,10:refuseCIFine:Refuser de coop
 # customs inspection - payment option effects,,,,,,
 optionPayCIToll,DialogOptionSelected,$option == payCIToll,"CustomsInspectionApplyResult
 AdjustRep $faction.id CUSTOMS_PAID
-FireBest CustomsInspectionEndPeaceful","""Merci de votre coopération."" $personRank $personName hoche la tête et coupe la liaison comm.",,
+FireBest CustomsInspectionEndPeaceful",« Merci de votre coopération. » $personRank $personName hoche la tête et coupe la liaison comm.,,
 optionPayCIFine,DialogOptionSelected,$option == payCIFine,"CustomsInspectionApplyResult
 AdjustRep $faction.id CUSTOMS_PAID
-FireBest CustomsInspectionEndPeaceful","""Merci de votre coopération. Cela sera noté dans votre dossier."" $personRank $personName hoche la tête et coupe la liaison comm.",,
+FireBest CustomsInspectionEndPeaceful",« Merci de votre coopération. Cela sera noté dans votre dossier. » $personRank $personName hoche la tête et coupe la liaison comm.,,
 optionRefuseCITollPassRep,DialogOptionSelected,"$option == refuseCIToll
 $entity.repCheckResult > 0.2
 RepIsAtWorst $faction.id FAVORABLE","AdjustRep $faction.id CUSTOMS_REFUSED_TOLL
 FireBest CustomsInspectionEndPeaceful","$personName vous fusille du regard, mais, pour une raison ou une autre, n'insiste pas. Après quelques secondes de silence, vous coupez la liaison comm.",,
 optionRefuseCIToll,DialogOptionSelected,$option == refuseCIToll,"AdjustRep $faction.id CUSTOMS_REFUSED_TOLL
-FireBest CustomsInspectionEndHostile","""C'est quelque chose que vous allez regretter.""
+FireBest CustomsInspectionEndHostile","« C'est quelque chose que vous allez regretter. »
 
 La liaison comm est coupée avant que vous n'ayez la chance de répondre.",,
 optionRefuseCIFinePassRep,DialogOptionSelected,"$option == refuseCIFine
@@ -2838,13 +2838,13 @@ $entity.repCheckResult > 0.6
 RepIsAtWorst $faction.id FAVORABLE","AdjustRep $faction.id CUSTOMS_REFUSED_FINE
 FireBest CustomsInspectionEndPeaceful","$personName vous observe attentivement, mais, pour une raison ou une autre, n'insiste pas. Après quelques secondes de silence, vous coupez la liaison comm.",,
 optionRefuseCIFine,DialogOptionSelected,$option == refuseCIFine,"AdjustRep $faction.id CUSTOMS_REFUSED_FINE
-FireBest CustomsInspectionEndHostile","""C'est quelque chose que vous allez regretter très, très amèrement.""
+FireBest CustomsInspectionEndHostile","« C'est quelque chose que vous allez regretter très, très amèrement. »
 
 La liaison comm est coupée avant que vous n'ayez la chance de répondre.",,
 optionCantAffordToll,DialogOptionSelected,$option == cantAffordToll,"AdjustRep $faction.id CUSTOMS_COULD_NOT_AFFORD
-FireBest CustomsInspectionEndPeaceful","""C'est très regrettable. Votre défaut de paiement sera noté dans votre dossier.""",,
-optionCantAffordFine,DialogOptionSelected,$option == cantAffordFine,AdjustRep $faction.id CUSTOMS_COULD_NOT_AFFORD,"""C'est très regrettable. Je suis certain que vous avez toujours l'intention de remettre rapidement la contrebande, n'est-ce pas ?""","0:payCIFine:""Oui, bien sûr.""
-1:refuseCIFine:""Je ne pense pas.""",
+FireBest CustomsInspectionEndPeaceful",« C'est très regrettable. Votre défaut de paiement sera noté dans votre dossier. »,,
+optionCantAffordFine,DialogOptionSelected,$option == cantAffordFine,AdjustRep $faction.id CUSTOMS_COULD_NOT_AFFORD,"« C'est très regrettable. Je suis certain que vous avez toujours l'intention de remettre rapidement la contrebande, n'est-ce pas ? »","0:payCIFine:« Oui, bien sûr. »
+1:refuseCIFine:« Je ne pense pas. »",
 ,,,,,,
 ,,,,,,
 ,,,,,,
@@ -2872,7 +2872,7 @@ ngcWayfarerStart,AddNewGameChoices,,"SetTooltip ngcWayfarer ""The Wayfarer is an
 ngcExplorerStart,AddNewGameChoices,,"SetTooltip ngcExplorer ""A group of ships capable of performing salvage operations on the fringes of the Sector, and defending itself against most of the threats found there.\n\nIncludes a tanker for increased fuel capacity and exploration range, and sufficient cargo capacity to carry the salvage back to the Core Worlds.""",,"2:ngcExplorer:Un explorateur, menant une expédition de récupération depuis un croiseur de classe Apogee (début rapide)",
 ngcMercStart,AddNewGameChoices,,"SetTooltip ngcMerc ""A small but highly combat-capable task force geared towards bounty-hunting.\n\nIncludes a small tanker to extend its operating range somewhat.""",,"3:ngcMerc:Un mercenaire, menant une petite force depuis un destroyer de classe Hammerhead (début rapide)",
 ngcRandomStart,AddNewGameChoices,,"SetTooltip ngcRandom ""A randomized collection of ships, slightly weaker overall than either of the \""faster start\"" options, but roughly in the same category.""",,"4:ngcRandom:Un indépendant, acceptant tous les contrats disponibles (début aléatoire)",
-ngcSpacerStart,AddNewGameChoices,CheckSetting enableSpacerStart,"SetTooltip ngcSpacer ""A non-combat shuttle, a general lack of resources, and a debt that must be paid. Very difficult start, only intended as a challenge for the starfarer that's seen it all.""",,"5:ngcSpacer:""Un spacien. Une navette en panne. Une dette à vie."" (très difficile)",
+ngcSpacerStart,AddNewGameChoices,CheckSetting enableSpacerStart,"SetTooltip ngcSpacer ""A non-combat shuttle, a general lack of resources, and a debt that must be paid. Very difficult start, only intended as a challenge for the starfarer that's seen it all.""",,5:ngcSpacer:« Un spacien. Une navette en panne. Une dette à vie. » (très difficile),
 ,,,,,,
 #ngcDisableSpacerOption,NGCDisableSpacerOption,!NGCCanSkipTutorial,"SetEnabled ngcSpacer false
 SetTooltip ngcSpacer ""Need to start at least one game with the tutorial in order to be able to select this starting option.""",,,
@@ -2926,7 +2926,7 @@ FireAll NGCDifficultyOptions",,,
 ngcDifficulty,NGCDifficultyOptions,,"SetTooltip ngcEasy ""- Your ships take 25% less damage\n- Sensor range increased by 500 units\n- Salvage increased by 50%""
 SetTooltipHighlightColors ngcEasy hColor hColor hColor
 SetTooltipHighlights ngcEasy ""25%"" ""500"" ""50%""
-SetTooltip ngcNormal ""Default settings balanced for a challenging experience.""","Sélectionnez le niveau de difficulté de la campagne. ""Facile"" est recommandé pour un joueur débutant.","0:ngcNormal:Normal
+SetTooltip ngcNormal ""Default settings balanced for a challenging experience.""",Sélectionnez le niveau de difficulté de la campagne. « Facile » est recommandé pour un joueur débutant.,"0:ngcNormal:Normal
 1:ngcEasy:Facile",
 ngcEasyPicked,NewGameOptionSelected,$option == ngcEasy,"NGCSetDifficulty easy
 FireAll NGCTutorialOptions",,,
@@ -2995,128 +2995,128 @@ convDefaultGreeting,PickGreeting,!$contact_printedFirstReturnGreeting,"$contact_
 ShowPersonVisual
 FireAll PopulateOptions","Après une courte attente, votre demande de connexion est acceptée.
 
-""Bonjour. Que voulez-vous ?""",,
+« Bonjour. Que voulez-vous ? »",,
 defaultGreetingIgnore,PickGreeting,$temporarilyIgnoreYou score:10,,"Après une courte attente, votre demande de connexion est refusée.",0:cutCommLink:Couper la comm,
-defaultGreetingIgnoreB,PickGreeting,$ignorePlayerCommRequests score:10,,"After a short wait, your connection request is denied.",0:cutCommLink:Couper la comm,
+defaultGreetingIgnoreB,PickGreeting,$ignorePlayerCommRequests score:10,,"Après une courte attente, votre demande de connexion est refusée.",0:cutCommLink:Couper la comm,
 convDefaultGreetingSoldier,PickGreeting,"!$contact_printedFirstReturnGreeting
 $voice == soldier","$contact_printedFirstReturnGreeting = true 0
 ShowPersonVisual
 FireAll PopulateOptions","Après une courte attente, votre demande de connexion est acceptée.
 
-""Comms ouverts, énoncez votre requête.""
+« Comms ouverts, énoncez votre requête. »
 OR
 Les comms se résolvent pour montrer $Post $personLastName assis raidement.
 
-""Canal libre, allez-y."",",,
+« Canal libre, allez-y. »",,
 convDefaultGreetingFaithful,PickGreeting,"!$contact_printedFirstReturnGreeting
 $voice == faithful","$contact_printedFirstReturnGreeting = true 0
 ShowPersonVisual
 FireAll PopulateOptions","Après une courte attente, votre demande de connexion est acceptée.
 
-""Que les bénédictions soient sur vous. Comment puis-je vous aider ?""
+« Que les bénédictions soient sur vous. Comment puis-je vous aider ? »
 OR
 Les comms se résolvent pour montrer $personName, qui joint ses mains en guise de salutation.
 
-""La Providence pourvoit. Que puis-je vous offrir en ce jour ?""",,
+« La Providence pourvoit. Que puis-je vous offrir en ce jour ? »",,
 convDefaultGreetingPather,PickGreeting,"!$contact_printedFirstReturnGreeting
 $voice == pather","$contact_printedFirstReturnGreeting = true 0
 ShowPersonVisual
 FireAll PopulateOptions","Après une courte attente, votre demande de connexion est acceptée.
 
-""Béni soit ce jour, car il nous rapproche de l'Armageddon.""
+« Béni soit ce jour, car il nous rapproche de l'Armageddon. »
 OR
 Les communications s'établissent pour révéler $personName, qui joint ses mains en guise de salut.
 
-""Bénie soit notre Voie, et juste notre haine du péché,"" dit $heOrShe, puis lève les yeux.
+« Bénie soit notre Voie, et juste notre haine du péché, » dit $heOrShe, puis lève les yeux.
 OR
 La connexion boucle, saute, et finit par s'établir à travers l'équipement vieillissant que le $post utilise.
 
-$HeOrShe lève les yeux, ""Par le marteau et l'épée de feu, je vous salue.""
+$HeOrShe lève les yeux, « Par le marteau et l'épée de feu, je vous salue. »
 OR
 Après une courte attente, votre demande de connexion est acceptée malgré une série d'avertissements d'incompatibilité de protocole.
 
-""Louées soient ces fins des temps, le marteau à la main !"" dit le $post en guise de salut.",,
+« Louées soient ces fins des temps, le marteau à la main ! » dit le $post en guise de salut.",,
 convDefaultGreetingSpacer,PickGreeting,"!$contact_printedFirstReturnGreeting
 $voice == spacer","$contact_printedFirstReturnGreeting = true 0
 ShowPersonVisual
 FireAll PopulateOptions","Après une courte attente, votre demande de connexion est acceptée.
 
-""Ouais, c'est pour quoi ?""
+« Ouais, c'est pour quoi ? »
 OR
 Les visuels des comms se résolvent après plusieurs tentatives, avec des scintillements occasionnels. $PersonName semble utiliser une unité de comm ancienne ou endommagée par les radiations.
 
-""Étoiles brillantes et longues poussées. Comment puis-je vous aider ?""",,
+« Étoiles brillantes et longues poussées. Comment puis-je vous aider ? »",,
 convDefaultGreetingAristo,PickGreeting,"!$contact_printedFirstReturnGreeting
 $voice == aristo","$contact_printedFirstReturnGreeting = true 0
 ShowPersonVisual
 FireAll PopulateOptions","Après une courte attente, votre demande de connexion est acceptée.
 
-""Salutations, cher capitaine. Qu'est-ce qui vous amène à moi ?""
+« Salutations, cher capitaine. Qu'est-ce qui vous amène à moi ? »
 OR
 Après une courte attente, votre demande de connexion est acceptée.
 
-""Tiens, bonjour, vous êtes un sacré personnage, vous."" $HeOrShe vous regarde avec expectative. ""Est-ce que je vous ai engagé pour quelque chose ?""
+« Tiens, bonjour, vous êtes un sacré personnage, vous. » $HeOrShe vous regarde avec expectative. « Est-ce que je vous ai engagé pour quelque chose ? »
 OR
-Les communications révèlent le visage de $personName - distrait par quelque chose hors écran. ""Oh vous avez interrompu- enfin bon, c'est fait. Le mal est fait.""
+Les communications révèlent le visage de $personName - distrait par quelque chose hors écran. « Oh vous avez interrompu- enfin bon, c'est fait. Le mal est fait. »
 
-""Vous !"" Cela, adressé à quelqu'un hors écran, ""Vous finirez plus tard, je dois prendre cet appel.""
+« Vous ! » Cela, adressé à quelqu'un hors écran, « Vous finirez plus tard, je dois prendre cet appel. »
 
-$PersonName se tourne enfin vers vous, ""-Allez, dites-moi, qu'est-ce qui peut être si important ?""",,
+$PersonName se tourne enfin vers vous, « -Allez, dites-moi, qu'est-ce qui peut être si important ? »",,
 convDefaultGreetingOfficial,PickGreeting,"!$contact_printedFirstReturnGreeting
 $voice == official","$contact_printedFirstReturnGreeting = true 0
 ShowPersonVisual
 FireAll PopulateOptions","Après une courte attente, votre demande de connexion est acceptée.
 
-""Ici $Post $personName. Comment puis-je vous être utile ?""",,
+« Ici $Post $personName. Comment puis-je vous être utile ? »",,
 convDefaultGreetingBusiness,PickGreeting,"!$contact_printedFirstReturnGreeting
 $voice == business","$contact_printedFirstReturnGreeting = true 0
 ShowPersonVisual
 FireAll PopulateOptions","Après une courte attente, votre demande de connexion est acceptée.
 
-""Bienvenue, bienvenue ! Quelle affaire avez-vous avec moi aujourd'hui ?""",,
+« Bienvenue, bienvenue ! Quelle affaire avez-vous avec moi aujourd'hui ? »",,
 convDefaultGreetingScientist,PickGreeting,"!$contact_printedFirstReturnGreeting
 $voice == scientist","$contact_printedFirstReturnGreeting = true 0
 ShowPersonVisual
 FireAll PopulateOptions","Après une courte attente, votre demande de connexion est acceptée.
 
-""Salutations. Je suis très occupé, alors dites-moi simplement ce que vous voulez.""",,
+« Salutations. Je suis très occupé, alors dites-moi simplement ce que vous voulez. »",,
 convDefaultGreetingVillain,PickGreeting,"!$contact_printedFirstReturnGreeting
 $voice == villain","$contact_printedFirstReturnGreeting = true 0
 ShowPersonVisual
 FireAll PopulateOptions","Après une courte attente, votre demande de connexion est acceptée.
 
-""Eh bien, quel délicieux petit $shipOrFleet vous avez là, capitaine. Qu'est-ce qui vous amène dans ma modeste orbite ?""",,
+« Eh bien, quel délicieux petit $shipOrFleet vous avez là, capitaine. Qu'est-ce qui vous amène dans ma modeste orbite ? »",,
 convDefaultGreeting2,PickGreeting,$contact_printedFirstReturnGreeting,"ShowPersonVisual
-FireAll PopulateOptions","""Autre chose que je puisse faire pour vous ?""",,"# this will fire when talking to same person again without leaving the station, but that seems fine"
+FireAll PopulateOptions",« Autre chose que je puisse faire pour vous ? »,,"# this will fire when talking to same person again without leaving the station, but that seems fine"
 convDefaultGreeting2aristo,PickGreeting,"$contact_printedFirstReturnGreeting
 $voice == aristo","ShowPersonVisual
-FireAll PopulateOptions","""Oui ? J'imagine qu'il y a autre chose dont vous avez besoin, n'est-ce pas.""",,
+FireAll PopulateOptions","« Oui ? J'imagine qu'il y a autre chose dont vous avez besoin, n'est-ce pas. »",,
 convDefaultGreeting2official,PickGreeting,"$contact_printedFirstReturnGreeting
 $voice == official","ShowPersonVisual
-FireAll PopulateOptions","""$PlayerSirOrMadam, oui."" $HeOrShe vous jette un coup d'oeil. ""De quoi d'autre avez-vous besoin ?""",,
+FireAll PopulateOptions","« $PlayerSirOrMadam, oui. » $HeOrShe vous jette un coup d'oeil. « De quoi d'autre avez-vous besoin ? »",,
 convDefaultGreeting2business,PickGreeting,"$contact_printedFirstReturnGreeting
 $voice == business","ShowPersonVisual
-FireAll PopulateOptions","""Oui, qu'est-ce que c'est ? Je devrais facturer à la minute.""",,
+FireAll PopulateOptions","« Oui, qu'est-ce que c'est ? Je devrais facturer à la minute. »",,
 convDefaultGreeting2villain,PickGreeting,"$contact_printedFirstReturnGreeting
 $voice == villain","ShowPersonVisual
-FireAll PopulateOptions","""Oh, vous êtes de retour ? Et si vite ; je n'ose pas demander.""",,
+FireAll PopulateOptions","« Oh, vous êtes de retour ? Et si vite ; je n'ose pas demander. »",,
 convDefaultGreeting2soldier,PickGreeting,"$contact_printedFirstReturnGreeting
 $voice == soldier","ShowPersonVisual
-FireAll PopulateOptions","""Bien reçu. Ici $personLastName,"" aboie $heOrShe. ""Allez-y.""",,
+FireAll PopulateOptions","« Bien reçu. Ici $personLastName, » aboie $heOrShe. « Allez-y. »",,
 convDefaultGreeting2faithful,PickGreeting,"$contact_printedFirstReturnGreeting
 $voice == faithful","ShowPersonVisual
-FireAll PopulateOptions","""Bonjour, encore une fois,"" dit $heOrShe. ""Veuillez exposer votre requête.""",,
+FireAll PopulateOptions","« Bonjour, encore une fois, » dit $heOrShe. « Veuillez exposer votre requête. »",,
 convDefaultGreeting2pather,PickGreeting,"$contact_printedFirstReturnGreeting
 $voice == pather","ShowPersonVisual
-FireAll PopulateOptions","""Votre chemin vous ramène,"" dit $heOrShe. ""Veuillez exposer votre requête.""",,
+FireAll PopulateOptions","« Votre chemin vous ramène, » dit $heOrShe. « Veuillez exposer votre requête. »",,
 convDefaultGreeting2spacer,PickGreeting,"$contact_printedFirstReturnGreeting
 $voice == spacer","ShowPersonVisual
-FireAll PopulateOptions","""Salutations, $personLastName. Quel est votre besoin ?""",,
+FireAll PopulateOptions","« Salutations, $personLastName. Quel est votre besoin ? »",,
 convDefaultGreeting2scientist,PickGreeting,"$contact_printedFirstReturnGreeting
 $voice == scientist","ShowPersonVisual
-FireAll PopulateOptions","""Encore vous ?"" $HeOrShe vous jette un rapide coup d'oeil. ""Oui, oui, je suis là. Qu'est-ce que c'est maintenant ?""",,
+FireAll PopulateOptions","« Encore vous ? » $HeOrShe vous jette un rapide coup d'oeil. « Oui, oui, je suis là. Qu'est-ce que c'est maintenant ? »",,
 convDefaultGreetingActive,PickGreetingActive,,"ShowPersonVisual
-FireAll PopulateOptions","""Allô ? Euh, vous savez quoi, laissez tomber. Mauvais identifiant comm.""",,
+FireAll PopulateOptions","« Allô ? Euh, vous savez quoi, laissez tomber. Mauvais identifiant comm. »",,
 addMHubOption,PopulateOptions,"$isPerson
 MissionHubCMD hasHub
 Call $mHub setMHOptionText",FireBest UpdateMHOpenOptionText,,5:mh_open:$mh_openOptionText,
@@ -3124,7 +3124,7 @@ openMhubOptionSel,DialogOptionSelected,$option == mh_open,"Call $mHub prepare
 FireBest MHOpenText
 Call $mHub listMissions
 SetEnabled mh_open false",,,
-addMhubCloseOption,AddMHCloseOption,,"SetShortcut mh_close ""ESCAPE""",,"1000:mh_close:""Il faut que j'y réfléchisse.""",
+addMhubCloseOption,AddMHCloseOption,,"SetShortcut mh_close ""ESCAPE""",,1000:mh_close:« Il faut que j'y réfléchisse. »,
 closeMhub,DialogOptionSelected,$option == mh_close,"Call $mHub doCleanup
 FireAll PopulateOptions",,,
 convOptionLeave,PopulateOptions,"$isPerson
@@ -3155,12 +3155,12 @@ FireBest NPCCommsRequest",,,
 npcCommsDecline,DialogOptionSelected,$option == declineNPCComm,EndConversation,Vous déclinez la demande de communication et poursuivez votre route.,,
 npcCommsAcceptedDefault,NPCCommsRequest,,FireBest PickGreetingActive,,,
 # test mission,,,,,,
-convTMStart,OpenCDE,$playerContactForTestMission,ShowPersonVisual,"""Voulez-vous accomplir la mission avec succès ?""","tmYes:Yes
-tmNo:No",
+convTMStart,OpenCDE,$playerContactForTestMission,ShowPersonVisual,« Voulez-vous accomplir la mission avec succès ? »,"tmYes:Oui
+tmNo:Non",
 convTMStartNPCInitiated,NPCCommsRequest,$playerContactForTestMission,ShowPersonVisual,"Vous acceptez la demande de communication.
 
-""Voulez-vous accomplir la mission avec succès ?""","tmYes:Yes
-tmNo:No",
+« Voulez-vous accomplir la mission avec succès ? »","tmYes:Oui
+tmNo:Non",
 convTMOptionYes,DialogOptionSelected,$option == tmYes,"CallEvent $testMissionEventRef success
 ShowDefaultVisual
 EndConversation",,,
@@ -3174,7 +3174,7 @@ HasAttentionOfAuthorities score:500","Highlight  ""transponder off""
 ShowPersonVisual
 SetShortcut cutCommLink ""ESCAPE""","Après une courte attente, votre demande de connexion est acceptée. $personName vous regarde un moment avant de parler.
 
-""Et pourquoi quelqu'un qui est du mauvais côté des autorités de $marketName voudrait-il me contacter ?""
+« Et pourquoi quelqu'un qui est du mauvais côté des autorités de $marketName voudrait-il me contacter ? »
 
 Vous vous dites que revenir avec votre transpondeur éteint et sans attirer l'attention serait peut-être une meilleure approche.",0:cutCommLink:Couper la comm,
 # MarketProcurementMission,,,,,,
@@ -3184,39 +3184,39 @@ $hostileToMarket score:100","Highlight  ""turning your transponder off""
 ShowPersonVisual
 SetShortcut cutCommLink ""ESCAPE""","Après une courte attente, votre demande de connexion est acceptée.
 
-""Quoi ? Une cargaison de $mpm_commodityName ? Je crains de ne connaître personne intéressé par ce genre de choses.""
+« Quoi ? Une cargaison de $mpm_commodityName ? Je crains de ne connaître personne intéressé par ce genre de choses. »
 
 Tout bien considéré, débarquer au port sans avoir éteint votre transpondeur pour contacter une figure du milieu n'était peut-être pas votre meilleure idée.",0:cutCommLink:Couper la comm,
 mpm_greetingEnough,PickGreeting,"$mpm_isPlayerContact
 CallEvent $mpm_eventRef hasEnough","ShowPersonVisual
 FireAll PopulateOptions","Après une courte attente, votre demande de connexion est acceptée.
 
-""Salutations ! J'attendais cette cargaison de $mpm_commodityName.""",,
+« Salutations ! J'attendais cette cargaison de $mpm_commodityName. »",,
 mpm_greetingNotEnough,PickGreeting,"$mpm_isPlayerContact
 !CallEvent $mpm_eventRef hasEnough","ShowPersonVisual
 FireAll PopulateOptions","Après une courte attente, votre demande de connexion est acceptée.
 
-""Salutations ! J'attendais cette cargaison de $mpm_commodityName. ... et je vois que vous ne l'avez pas encore. Eh bien, vous avez encore du temps.""",,
+« Salutations ! J'attendais cette cargaison de $mpm_commodityName. ... et je vois que vous ne l'avez pas encore. Eh bien, vous avez encore du temps. »",,
 mpm_greetingEnoughIllegal,PickGreeting,"$mpm_isPlayerContact
 $hostileToMarket
 CallEvent $mpm_eventRef hasEnough","ShowPersonVisual
 FireAll PopulateOptions","Après une courte attente, votre demande de connexion est acceptée.
 
-""Alors, il paraît que vous avez la marchandise.""",,
+« Alors, il paraît que vous avez la marchandise. »",,
 mpm_greetingNotEnoughIllegal,PickGreeting,"$mpm_isPlayerContact
 $hostileToMarket
 !CallEvent $mpm_eventRef hasEnough","ShowPersonVisual
 FireAll PopulateOptions","Après une courte attente, votre demande de connexion est acceptée.
 
-""Vous n'avez pas la marchandise, alors pourquoi discutons-nous ?""",,
+« Vous n'avez pas la marchandise, alors pourquoi discutons-nous ? »",,
 mpm_greetingActiveEnough,PickGreetingActive,"$mpm_isPlayerContact
 !$hostileToMarket
 CallEvent $mpm_eventRef hasEnough","ShowPersonVisual
-FireAll PopulateOptions","""Salutations ! J'attendais cette cargaison de $mpm_commodityName.""",,
+FireAll PopulateOptions",« Salutations ! J'attendais cette cargaison de $mpm_commodityName. »,,
 mpm_greetingActiveNotEnough,PickGreetingActive,"$mpm_isPlayerContact
 !$hostileToMarket
 !CallEvent $mpm_eventRef hasEnough","ShowPersonVisual
-FireAll PopulateOptions","""Salutations ! J'attendais cette cargaison de $mpm_commodityName. ... et je vois que vous ne l'avez pas encore. Eh bien, vous avez encore du temps.""",,
+FireAll PopulateOptions","« Salutations ! J'attendais cette cargaison de $mpm_commodityName. ... et je vois que vous ne l'avez pas encore. Eh bien, vous avez encore du temps. »",,
 mpm_hasEnoughOption,PopulateOptions,"$mpm_isPlayerContact
 CallEvent $mpm_eventRef hasEnough",,,0:mpm_deliver:Livrer $mpm_commodityName,
 mpm_hasEnoughOptionSelected,DialogOptionSelected,$option == mpm_deliver,"AddText ""\""Excellent. Thank you for your efforts.\""""
@@ -3238,7 +3238,7 @@ $hailing = true 0",,,
 mpm_pirateOpenComms,OpenCommLink,"$isPerson
 $entity.mpm_isSpawnedByMPM score:100",FireAll MPMHandOverOptions,"Le $personRank pirate lève les yeux de $hisOrHer console.
 
-""Eh bien, voyez-vous ça. Remettez-moi simplement la cargaison de $mpm_commodityName que nous savons tous deux se trouver dans vos soutes, et je vous laisserai poursuivre votre route.""",,
+« Eh bien, voyez-vous ça. Remettez-moi simplement la cargaison de $mpm_commodityName que nous savons tous deux se trouver dans vos soutes, et je vous laisserai poursuivre votre route. »",,
 mpm_handOverPirateOption,MPMHandOverOptions,CallEvent $mpm_eventRef hasEnough,,,0:mpm_handOver:Remettre $mpm_commodityName,
 mpm_notEnoughPirateOption,MPMHandOverOptions,!CallEvent $mpm_eventRef hasEnough,,,0:mpm_notEnoughPirate:Expliquer que vous n'avez pas de $mpm_commodityName,
 mpm_refusePirateOption,MPMHandOverOptions,,,,"
@@ -3262,20 +3262,20 @@ FireAll PopulateOptionsHire","Après une courte attente, votre demande de connex
 
 $personName vous jauge du regard.
 
-""J'ai entendu dire que vous cherchiez peut-être à recruter du renfort.""",,
+« J'ai entendu dire que vous cherchiez peut-être à recruter du renfort. »",,
 ome_greetingMerc,PickGreeting,"$ome_hireable score:100
 $isMercenary","ShowPersonVisual
 FireAll PopulateOptionsHire","Votre demande de connexion est acceptée promptement.
 
 $personName vous jauge du regard. Vous avez le sentiment qu'$heOrShe pourrait probablement deviner votre solde de crédits à la centaine près.
 
-""Si vous cherchez un officier indépendant expérimenté - sur une base strictement temporaire - je suis en quête d'un client. Mon tarif est élevé, mais vous perdriez de l'argent en confiant l'un de vos vaisseaux à quelqu'un de moins expérimenté.""
+« Si vous cherchez un officier indépendant expérimenté - sur une base strictement temporaire - je suis en quête d'un client. Mon tarif est élevé, mais vous perdriez de l'argent en confiant l'un de vos vaisseaux à quelqu'un de moins expérimenté. »
 OR
 Votre demande de communication est acceptée promptement.
 
 $personName vous observe un instant puis hoche la tête comme si vous aviez passé une sorte de test.
 
-""Si vous cherchez à engager un officier de combat expérimenté sous contrat à durée limitée, vous êtes au bon endroit. Je pense que vous trouverez mes conditions raisonnables. L'excellence n'est pas bon marché.""",,
+« Si vous cherchez à engager un officier de combat expérimenté sous contrat à durée limitée, vous êtes au bon endroit. Je pense que vous trouverez mes conditions raisonnables. L'excellence n'est pas bon marché. »",,
 ome_greetingMercPlayerWasJerk,PickGreeting,"$ome_hireable score:100
 $isMercenary
 $player.wasJerkToMerc","ShowPersonVisual
@@ -3283,15 +3283,15 @@ FireAll PopulateOptionsHire","Votre demande de connexion est acceptée après un
 
 $personName vous dévisage avec une suspicion à peine dissimulée.
 
-""Vous avez une certaine réputation dans la, ah, communauté des indépendants. Mais j'ai besoin de crédits. Donc : si vous avez besoin des services d'un meilleur capitaine de vaisseau que vous ne le méritez probablement, voici votre chance. Je devrai, bien entendu, facturer une prime pour le risque que comporte votre engagement.""
+« Vous avez une certaine réputation dans la, ah, communauté des indépendants. Mais j'ai besoin de crédits. Donc : si vous avez besoin des services d'un meilleur capitaine de vaisseau que vous ne le méritez probablement, voici votre chance. Je devrai, bien entendu, facturer une prime pour le risque que comporte votre engagement. »
 OR
 Le lien de communication s'ouvre après un délai considérable.
 
 $personName vous observe avec une lueur de désapprobation.
 
-""J'ai entendu parler de vous, $playerName, et malgré votre... réputation mitigée, je suis disposé à traiter. Après tout,"" $heOrShe prend un ton philosophe, ""je ne serais pas mercenaire si l'offre de suffisamment de crédits ne me faisait pas tourner la tête contre mon bon sens.""
+« J'ai entendu parler de vous, $playerName, et malgré votre... réputation mitigée, je suis disposé à traiter. Après tout, » $heOrShe prend un ton philosophe, « je ne serais pas mercenaire si l'offre de suffisamment de crédits ne me faisait pas tourner la tête contre mon bon sens. »
 
-""Maintenant, impressionnez-moi.""",,
+« Maintenant, impressionnez-moi. »",,
 ome_greetingMercPlayerWasJerkReject,PickGreeting,"$ome_hireable
 $isMercenary
 $player.wasJerkToMerc
@@ -3299,19 +3299,19 @@ $level >= 6",ShowPersonVisual,"Vous envoyez la demande de connexion. Le signal d
 
 $personName vous dévisage avec une hostilité à peine dissimulée.
 
-""Votre réputation vous précède, $playerName. Franchement, je n'ai pas besoin de vos crédits. Et je ne veux pas voir votre visage.""
+« Votre réputation vous précède, $playerName. Franchement, je n'ai pas besoin de vos crédits. Et je ne veux pas voir votre visage. »
 
 $HeOrShe marque une pause.
 
-""Bon voyage.""
+« Bon voyage. »
 
 $HeOrShe coupe la communication.
 OR
 Le lien de communication clignote en attente pendant une quasi-éternité. Votre officier de communication vous indique qu'il fonctionne effectivement correctement et hausse les épaules. Vous êtes sur le point d'ordonner l'annulation de la demande quand la connexion s'ouvre.
 
-$personName vous regarde avec une surprise feinte. ""Je suis vraiment désolé pour le délai, c'est juste que j'ai entendu toutes les histoires sur $playerName, et je ne pouvais pas croire que c'était vraiment vous. Qui me contactez ! Quelle chance.""
+$personName vous regarde avec une surprise feinte. « Je suis vraiment désolé pour le délai, c'est juste que j'ai entendu toutes les histoires sur $playerName, et je ne pouvais pas croire que c'était vraiment vous. Qui me contactez ! Quelle chance. »
 
-Vous commencez à percevoir un air de sarcasme tandis qu'$heOrShe poursuit, ""... Parce que maintenant je pourrai dire à tout le monde que j'ai eu la chance de vous dire d'aller vous faire voir dans le vide !""
+Vous commencez à percevoir un air de sarcasme tandis qu'$heOrShe poursuit, « ... Parce que maintenant je pourrai dire à tout le monde que j'ai eu la chance de vous dire d'aller vous faire voir dans le vide ! »
 
 Le lien est coupé net tandis que $personName fait un geste grossier. Votre officier de communication garde un visage de marbre devant sa console en effaçant l'écran. ",ome_convEnd2:Continuer,
 ome_greetingAdmin,PickGreeting,"$ome_hireable score:100
@@ -3320,9 +3320,9 @@ FireAll PopulateOptionsHire","Après une courte attente, votre demande de connex
 
 $personName vous évalue avec un empressement manifeste.
 
-""Le bruit court que vous pourriez vous lancer dans le commerce colonial. Si c'est le cas, je pourrais vous être utile - vous constaterez que mes références sont irréprochables.""",,
+« Le bruit court que vous pourriez vous lancer dans le commerce colonial. Si c'est le cas, je pourrais vous être utile - vous constaterez que mes références sont irréprochables. »",,
 ome_askSkills,PopulateOptionsHire,"$ome_hireable score:100
-!$askedSkills",,,"0:ome_askSkills:""Ça dépend. Que pouvez-vous faire ?""",
+!$askedSkills",,,0:ome_askSkills:« Ça dépend. Que pouvez-vous faire ? »,
 ome_askHire,PopulateOptionsHire,"$ome_hireable score:100
 !$isMercenary
 !CallEvent $ome_eventRef atLimit $id",,,1:ome_askHire:Proposer d'engager $himOrHer,
@@ -3331,10 +3331,10 @@ $isMercenary",SetStoryColor ome_askHire,,1:ome_askHire:Questionner sur les terme
 ome_cantHire,PopulateOptionsHire,"$ome_hireable score:100
 !$isMercenary
 CallEvent $ome_eventRef atLimit $id
-!$ome_isAdmin",,,"0:ome_convEnd:""Je ne peux engager aucun autre officier pour le moment.""",
+!$ome_isAdmin",,,0:ome_convEnd:« Je ne peux engager aucun autre officier pour le moment. »,
 ome_cantHireAdmin,PopulateOptionsHire,"$ome_hireable score:100
 CallEvent $ome_eventRef atLimit $id
-$ome_isAdmin",,,"0:ome_convEnd:""Je ne peux engager aucun autre administrateur pour le moment.""",
+$ome_isAdmin",,,0:ome_convEnd:« Je ne peux engager aucun autre administrateur pour le moment. »,
 ome_wontHire,PopulateOptionsHire,"$ome_hireable score:100
 !CallEvent $ome_eventRef atLimit $id","SetShortcut ome_convEnd ""ESCAPE""",,2:ome_convEnd:Mettre fin à la conversation,
 ome_wontHireMerc,PopulateOptionsHire,"$ome_hireable score:100
@@ -3376,12 +3376,12 @@ AddText ""Vous disposez de $player.creditsStr crédits.""
 SetTextHighlightColors hColor
 SetTextHighlights $player.creditsStr
 FireBest HireOptionSet",,,
-ome_hireOptionsNormal,HireOptionSet,CallEvent $ome_eventRef canAfford $id,,,"0:ome_hireYes:""Ça me va.""
-1:ome_convEnd:""J'ai changé d'avis.""",
+ome_hireOptionsNormal,HireOptionSet,CallEvent $ome_eventRef canAfford $id,,,"0:ome_hireYes:« Ça me va. »
+1:ome_convEnd:« J'ai changé d'avis. »",
 ome_hireOptionsNormalMerc,HireOptionSet,"CallEvent $ome_eventRef canAfford $id
 $isMercenary","SetStoryOption ome_hireYes 1 hireMerc ui_char_spent_story_point_leadership ""Hired mercenary officer""",,"0:ome_hireYes:Accepter les conditions
-1:ome_convEnd:""J'ai besoin d'y réfléchir.""",
-ome_hireOptionsCantAfford,HireOptionSet,,,,"0:ome_convEnd:""Je ne peux pas me le permettre en ce moment.""",
+1:ome_convEnd:« J'ai besoin d'y réfléchir. »",
+ome_hireOptionsCantAfford,HireOptionSet,,,,0:ome_convEnd:« Je ne peux pas me le permettre en ce moment. »,
 ome_hireYesSel,DialogOptionSelected,$option == ome_hireYes,"AddText ""Vous coupez la comm après quelques politesses d'usage.""
 CallEvent $ome_eventRef hireOfficer $id
 UpdateMemory
@@ -3496,12 +3496,12 @@ ShowDefaultVisual
 EndConversation","Cependant, au lieu de procéder à l'analyse, la $fleetName $faction coupe les communications et active ses systèmes de combat.",,
 tOffCargoScanPods,TOffScanResult,$scan_podsFound score:1000,unset $scan_podsFound,"Le $personRank $faction marque une pause et regarde hors champ.
 
-""Mais qu'en est-il de ces conteneurs de cargaison qui, laissez-moi vérifier - tiens, ils contiennent bien de la marchandise illégale. Pas les vôtres, n'est-ce pas ? Non ? Excellent. Nous allons confisquer le contenu, dans ce cas.""",0:tOff_podsCont:Continuer,
+« Mais qu'en est-il de ces conteneurs de cargaison qui, laissez-moi vérifier - tiens, ils contiennent bien de la marchandise illégale. Pas les vôtres, n'est-ce pas ? Non ? Excellent. Nous allons confisquer le contenu, dans ce cas. »",0:tOff_podsCont:Continuer,
 tOffCargoScanPodsCont,DialogOptionSelected,$option == tOff_podsCont,FireBest TOffScanResult,,,
 tOffCargoScanClean,TOffScanResult,"!$scan_contrabandFound
 !$scan_suspiciousCargoFound","Highlight ""transponder""","$PersonRank $personName semble vaguement mécontent.
 
-""Si je vous reprends à voler avec le transpondeur éteint, vous ne vous en tirerez pas aussi facilement.""
+« Si je vous reprends à voler avec le transpondeur éteint, vous ne vous en tirerez pas aussi facilement. »
 
 La liaison comm est coupée avant que vous ayez la chance de répondre.",0:tOff_cleanCont1:Continuer,
 #tOffCargoScanSuspicious,TOffScanResult,$scan_suspiciousCargoFound,,"Bien que le scan ne révèle aucune contrebande manifeste, la quantité de marchandises trouvée, combinée aux preuves indirectes de vos activités antérieures au marché noir, suffit à éveiller les soupçons.
@@ -3511,22 +3511,22 @@ Ce n'est cependant pas suffisant pour agir. En conséquence, $personRank $person
 ""On se reverra, soyez-en certain,"" grince-t-$heOrShe avant de couper la communication.",0:tOff_cleanCont1:Continuer,
 tOffCargoScanBoarding1,TOffScanResult,$scan_suspiciousCargoFound,,"Le scan ne révèle aucune contrebande apparente, mais il y a suffisamment de soupçons quant à votre implication dans des activités de marché noir pour que le commandant de la patrouille ne s'en satisfasse pas.
 
-""Préparez-vous à recevoir une équipe d'abordage. Nous allons procéder à une inspection très minutieuse, en bonne et due forme.""
+« Préparez-vous à recevoir une équipe d'abordage. Nous allons procéder à une inspection très minutieuse, en bonne et due forme. »
 
-Vous estimez très probable que les inspecteurs causeront quelques dommages mineurs - mais tout juste excusables - à la capacité de combat de vos vaisseaux au cours de cette inspection ""minutieuse"".","0:tOff_comply_boarding:Obtempérer et préparer une inspection
+Vous estimez très probable que les inspecteurs causeront quelques dommages mineurs - mais tout juste excusables - à la capacité de combat de vos vaisseaux au cours de cette inspection « minutieuse ».","0:tOff_comply_boarding:Obtempérer et préparer une inspection
 1:tOff_refuse:Refuser et couper la liaison comm",
 tOffCargoScanBoarding2,DialogOptionSelected,$option == tOff_comply_boarding,"CargoScanApplyResult $scan_cargoScanResult
 MakeOtherFleetPreventDisengage tOff false
 BroadcastCancelPlayerAction 5000 $sawPlayerTransponderOff
-$sourceMarket.smugglingScanTimeout = true 30","Comme vous vous y attendiez à moitié, plusieurs de vos vaisseaux signalent des pertes mineures mais douloureuses de capacité opérationnelle. Heureusement, les inspecteurs semblaient plus intéressés par les dommages ""accidentels"" que par la recherche de véritable contrebande, et aucune cargaison compromettante n'a été trouvée.",cutCommLinkNoText:Continuer,
+$sourceMarket.smugglingScanTimeout = true 30","Comme vous vous y attendiez à moitié, plusieurs de vos vaisseaux signalent des pertes mineures mais douloureuses de capacité opérationnelle. Heureusement, les inspecteurs semblaient plus intéressés par les dommages « accidentels » que par la recherche de véritable contrebande, et aucune cargaison compromettante n'a été trouvée.",cutCommLinkNoText:Continuer,
 tOffCargoScanClean2,DialogOptionSelected,$option == tOff_cleanCont1,"MakeOtherFleetPreventDisengage tOff false
 BroadcastCancelPlayerAction 5000 $sawPlayerTransponderOff
 ShowDefaultVisual
 EndConversation NO_CONTINUE
 $sourceMarket.smugglingScanTimeout = true 30",,,
-tOffCargoScanContraband,TOffScanResult,$scan_contrabandFound score:10,,"""Eh bien, eh bien. Comme je le soupçonnais, nous avons affaire à un contrebandier. Conformément à la procédure standard $faction, vous êtes tenu d'éjecter la contrebande dans l'espace, pour récupération ou incinération à la discrétion du commandant de patrouille.""
+tOffCargoScanContraband,TOffScanResult,$scan_contrabandFound score:10,,"« Eh bien, eh bien. Comme je le soupçonnais, nous avons affaire à un contrebandier. Conformément à la procédure standard $faction, vous êtes tenu d'éjecter la contrebande dans l'espace, pour récupération ou incinération à la discrétion du commandant de patrouille. »
 
-$PersonRank $personLastName semble plutôt satisfait, et vous soupçonnez que la ""récupération"" plutôt que l'""incinération"" sera à l'ordre du jour.","0:tOff_comply_contraband:Remettre la contrebande et couper la liaison comm
+$PersonRank $personLastName semble plutôt satisfait, et vous soupçonnez que la « récupération » plutôt que l'« incinération » sera à l'ordre du jour.","0:tOff_comply_contraband:Remettre la contrebande et couper la liaison comm
 1:tOff_refuse:Refuser et couper la liaison comm",
 tOffCargoScanContrabandSurrender,DialogOptionSelected,$option == tOff_comply_contraband,"CargoScanApplyResult $scan_cargoScanResult
 MakeOtherFleetPreventDisengage tOff false
@@ -3572,12 +3572,12 @@ CargoScan
 FireBest CargoScanResult",,,
 cargoScanPods,CargoScanResult,$scan_podsFound score:1000,unset $scan_podsFound,"Le $personRank $faction marque une pause et regarde hors champ.
 
-""Mais qu'en est-il de ces conteneurs de cargaison qui, laissez-moi vérifier - tiens, ils contiennent bien de la marchandise illégale. Pas les vôtres, n'est-ce pas ? Non ? Excellent. Nous allons confisquer le contenu, dans ce cas.""",0:scan_podsCont:Continuer,
+« Mais qu'en est-il de ces conteneurs de cargaison qui, laissez-moi vérifier - tiens, ils contiennent bien de la marchandise illégale. Pas les vôtres, n'est-ce pas ? Non ? Excellent. Nous allons confisquer le contenu, dans ce cas. »",0:scan_podsCont:Continuer,
 cargoScanPodsCont,DialogOptionSelected,$option == scan_podsCont,FireBest CargoScanResult,,,
 cargoScanClean,CargoScanResult,"!$scan_contrabandFound
 !$scan_suspiciousCargoFound",,"$PersonRank $personName semble vaguement mécontent.
 
-""Eh bien, tout semble en règle cette fois.""
+« Eh bien, tout semble en règle cette fois. »
 
 La liaison comm est coupée avant que vous ayez la chance de répondre.",0:cargoScan_cleanCont:Continuer,
 #cargoScanSuspicious,CargoScanResult,$scan_suspiciousCargoFound,,"Bien que le scan ne révèle aucune contrebande manifeste, la quantité de marchandises trouvée, combinée aux preuves indirectes de vos activités antérieures au marché noir, suffit à éveiller les soupçons.
@@ -3587,9 +3587,9 @@ Ce n'est cependant pas suffisant pour agir. En conséquence, $personRank $person
 ""On se reverra, soyez-en certain,"" grince-t-$heOrShe avant de couper la communication.",0:cargoScan_cleanCont:Continuer,
 cargoScanBoarding1,CargoScanResult,$scan_suspiciousCargoFound,,"Le scan ne révèle aucune contrebande apparente, mais il y a suffisamment de soupçons quant à votre implication dans des activités de marché noir pour que le commandant de la patrouille ne s'en satisfasse pas.
 
-""Préparez-vous à recevoir une équipe d'abordage. Nous allons procéder à une inspection très minutieuse, en bonne et due forme.""
+« Préparez-vous à recevoir une équipe d'abordage. Nous allons procéder à une inspection très minutieuse, en bonne et due forme. »
 
-Vous estimez très probable que les inspecteurs causeront quelques dommages mineurs - mais tout juste excusables - à la capacité de combat de vos vaisseaux au cours de cette inspection ""minutieuse"".","0:cargoScan_comply_boarding:Obtempérer et préparer une inspection
+Vous estimez très probable que les inspecteurs causeront quelques dommages mineurs - mais tout juste excusables - à la capacité de combat de vos vaisseaux au cours de cette inspection « minutieuse ».","0:cargoScan_comply_boarding:Obtempérer et préparer une inspection
 1:cargoScan_refuse:Refuser et couper la liaison comm",
 cargoScanBoarding2,DialogOptionSelected,$option == cargoScan_comply_boarding,"CargoScanApplyResult $scan_cargoScanResult
 MakeOtherFleetPreventDisengage cargoScan false
@@ -3597,7 +3597,7 @@ MakeOtherFleetAggressive cargoScan false
 unset $entity.pursuePlayer_smugglingScan
 unset $entity.cargoScanConv
 $entity.smugglingScanComplete = true 1
-$sourceMarket.smugglingScanTimeout = true 30","Comme vous vous y attendiez à moitié, plusieurs de vos vaisseaux signalent des pertes mineures mais douloureuses de capacité opérationnelle. Heureusement, les inspecteurs semblaient plus intéressés par les dégâts ""accidentels"" que par la recherche de véritable contrebande, et aucune cargaison répréhensible n'a été trouvée.",cutCommLinkNoText:Continuer,
+$sourceMarket.smugglingScanTimeout = true 30","Comme vous vous y attendiez à moitié, plusieurs de vos vaisseaux signalent des pertes mineures mais douloureuses de capacité opérationnelle. Heureusement, les inspecteurs semblaient plus intéressés par les dégâts « accidentels » que par la recherche de véritable contrebande, et aucune cargaison répréhensible n'a été trouvée.",cutCommLinkNoText:Continuer,
 cargoScanClean2,DialogOptionSelected,$option == cargoScan_cleanCont,"MakeOtherFleetPreventDisengage cargoScan false
 MakeOtherFleetAggressive cargoScan false
 unset $entity.pursuePlayer_smugglingScan
@@ -3606,9 +3606,9 @@ $entity.smugglingScanComplete = true 1
 $sourceMarket.smugglingScanTimeout = true 30
 ShowDefaultVisual
 EndConversation NO_CONTINUE",,,
-cargoScanContraband,CargoScanResult,$scan_contrabandFound score:10,,"""Eh bien, eh bien. Comme je le soupçonnais, nous avons affaire à un contrebandier. Conformément à la procédure standard $faction, vous êtes tenu d'éjecter la contrebande dans l'espace, pour récupération ou incinération à la discrétion du commandant de patrouille.""
+cargoScanContraband,CargoScanResult,$scan_contrabandFound score:10,,"« Eh bien, eh bien. Comme je le soupçonnais, nous avons affaire à un contrebandier. Conformément à la procédure standard $faction, vous êtes tenu d'éjecter la contrebande dans l'espace, pour récupération ou incinération à la discrétion du commandant de patrouille. »
 
-$PersonRank $personLastName semble plutôt satisfait, et vous soupçonnez que la ""récupération"" plutôt que l'""incinération"" sera à l'ordre du jour.","0:cargoScan_comply_contraband:Remettre la contrebande et couper la liaison comm
+$PersonRank $personLastName semble plutôt satisfait, et vous soupçonnez que la « récupération » plutôt que l'« incinération » sera à l'ordre du jour.","0:cargoScan_comply_contraband:Remettre la contrebande et couper la liaison comm
 1:cargoScan_refuse:Refuser et couper la liaison comm",
 cargoScanContrabandSurrender,DialogOptionSelected,$option == cargoScan_comply_contraband,"CargoScanApplyResult $scan_cargoScanResult
 MakeOtherFleetPreventDisengage cargoScan false
