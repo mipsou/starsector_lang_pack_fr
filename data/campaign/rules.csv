@@ -12509,7 +12509,7 @@ Distant calls and shouts - a doctor arrives, too late.
 Subcurate Keepfaith is nowhere to be seen.",bffi_arrestOutroDead:Continuer,
 BFFIarrestShotShove0,DialogOptionSelected,$option == bffi_arrestShove0,"PauseMusic
 Call $global.bffi_ref shootEm
-AddTextSmall ""You are shot"" highlight","You shove into Bornanew, your speed making up for his mass, tumbling him away from the barrel of the gun. 
+AddTextSmall ""Vous êtes touché"" highlight","You shove into Bornanew, your speed making up for his mass, tumbling him away from the barrel of the gun. 
 
 A shot erupts from the carbine.
 
@@ -13927,7 +13927,7 @@ SetEnabled COB_takeControl false","Une flotte $faction à proximité surveille v
 cob_disableActivateOnly,COB_DisableOptionsIfNeeded,"!Objectives canActivate
 $objectiveNonFunctional","SetEnabled COB_takeControl false
 Objectives showRepairCostNoPrompt
-AddText ""You do not have the necessary resources to reactivate the $shortName.""",,,
+AddText ""Vous ne disposez pas des ressources nécessaires to reactivate the $shortName.""",,,
 cob_leaveSel,DialogOptionSelected,$option == COB_Leave,DismissDialog,,,
 cob_neutrinoBurstSel,DialogOptionSelected,$option == COB_burst,"$cob_action = burst 0
 FireBest COB_ConfirmPrompt
@@ -14165,10 +14165,10 @@ EndConversation","Vous coupez précipitamment la liaison comm, ressentant un emb
 "# TriTach loan, recorded message on next market visit",,,,,,
 ttli_noRepaymentNextMarketOpen,MarketPostOpen,$global.ttli_unpaidEventRef != null score:1000,,"Alors que votre $shipOrFleet se connecte au réseau comm local, vous recevez une alerte indiquant qu'un message prioritaire a été livré dans votre file d'attente.",0:ttli_continue2:Visionner le message enregistré,
 ttli_noRepaymentMessage,DialogOptionSelected,$option == ttli_continue2,"CallEvent $global.ttli_unpaidEventRef noPaymentMessage
-AddText ""You see the Tri-Tachyon investor, $hisOrHer face an emotionless mask. \""How unfortunate.\"" $HeOrShe looks thoughtful for a moment, and continues, \""I won't waste time enumerating the reprisals you shall face.\"" The recording cuts off.""",,0:ttli_continue3:Continuer,
+AddText ""Vous apercevez l'investisseur Tri-Tachyon, $hisOrHer face an emotionless mask. \""How unfortunate.\"" $HeOrShe looks thoughtful for a moment, and continues, \""I won't waste time enumerating the reprisals you shall face.\"" The recording cuts off.""",,0:ttli_continue3:Continuer,
 ttli_noRepaymentMessageMajor,DialogOptionSelected,"CallEvent $global.ttli_unpaidEventRef isMajorLoan
 $option == ttli_continue2","CallEvent $global.ttli_unpaidEventRef noPaymentMessage
-AddText ""You recall the name immediately, as well as the ageless face of the Tri-Tachyon investor that appears on your screen. \""I'm disappointed\"" is all $heOrShe says before the recording ends.""",,0:ttli_continue3:Continuer,
+AddText ""Vous reconnaissez immédiatement le nom, car well as the ageless face of the Tri-Tachyon investor that appears on your screen. \""I'm disappointed\"" is all $heOrShe says before the recording ends.""",,0:ttli_continue3:Continuer,
 ttli_noRepaymentMessageEnd,DialogOptionSelected,$option == ttli_continue3,"unset $global.ttli_unpaidEventRef
 ShowDefaultVisual
 EndConversation",,,
@@ -25715,7 +25715,7 @@ unset $locr_blockFirstSurvey",,,# block first instance of survey option in order
 LOCRMremoveBecauseColony,MarketPostDock,"$locr_miners
 $market.isPlayerOwned","unset $locr_miners
 Highlight ""flagged for your attention""","Parmi les mises à jour de faible priorite que vous recevez en entrant dans la datasphere coloniale, un rapport mineur est signale à votre attention.",locrm_removeBecauseColony2:Consulter le rapport,
-LOCRMremoveBecauseColony2,DialogOptionSelected,$option == locrm_removeBecauseColony2,"AddTextSmall ""Lost miners rescued"" highlight
+LOCRMremoveBecauseColony2,DialogOptionSelected,$option == locrm_removeBecauseColony2,"AddTextSmall ""Mineurs perdus secourus"" highlight
 AddPopGrowth 3 90 ""Rescued abandoned miners""
 $menuState = main 0
 FireAll PopulateOptions","Un petit groupe de mineurs, abandonné par leur compagnie d'exploration, a été secouru à la surface de $name.
@@ -37740,7 +37740,7 @@ Votre officier communications tente des solutions plus atypiques, depuis une sé
 pkSentinelSel,DialogOptionSelected,$option == pkSentinel_shuttle,ShowImageVisual sentinel,"Vous descendez de la navette, le sol gelé craquant sous vos bottes. Votre combinaison environnementale n'a aucun mal à vous maintenir parfaitement à l'aise malgré le vent mordant.
 
 La colonie se trouve à environ un kilomètre. Vous vous êtes posé à distance respectueuse, sur un plateau rocheux, pour ne pas perturber des champs boueux et grisâtres témoignant d'une forme d'effort agricole.",pk_sentinel0:Approcher de la colonie,
-pkSentinel0,DialogOptionSelected,$option == pk_sentinel0,"AddTextSmall ""Lost colony on Sentinel discovered"" highlight","Un groupe d'habitants portant masques et capuches vient à votre rencontre à mi-chemin.
+pkSentinel0,DialogOptionSelected,$option == pk_sentinel0,"AddTextSmall ""Colonie perdue sur Sentinel découverte"" highlight","Un groupe d'habitants portant masques et capuches vient à votre rencontre à mi-chemin.
 
 Leurs gardes, à l'arrière, portent des armes en bandoulière ; des carabines standard de fabrication du Domaine. Leurs vêtements sont du tissu-forge utilitaire reconverti, du type utilisé pour garnir les soutes et les conduits de maintenance. Ils portent des ornements indiquant leur rang, faits d'insignes militaires usés mais bien polis ; des phénix ailés et des étoiles. Des survivants d'équipages de l'Hégémonie. Et ils sont ici depuis très longtemps, à en juger par leur apparence.
 
