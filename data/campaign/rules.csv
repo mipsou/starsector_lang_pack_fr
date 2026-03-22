@@ -5739,7 +5739,7 @@ lppHesperusExcubitorWait2,DialogOptionSelected,$option == lpp_hesperusExcubitorW
 
 Les dimensions inférieures et supérieures se tordent et vibrent, une toile conspirant à vous soutenir - ou vous retenir - tombant et s'agrippant juste comme il faut. Vos technologies exploitent ces caprices invisibles de la physique pour vous garder au chaud, pour garder vos pieds au sol, pour maintenir l'air en circulation selon un rythme, une mesure. C'est comme de la musique, en fait. Si vous écoutez attentivement...
 
-Il serait impossible de parler, maintenant.",lpp_hesperusExcubitorWait3:Écouter attentivement... ,
+Il serait impossible de parler, maintenant.",lpp_hesperusExcubitorWait3:Écouter attentivement...,
 lppHesperusExcubitorWait3,DialogOptionSelected,$option == lpp_hesperusExcubitorWait3,"AdjustRepActivePerson FRIENDLY 1
 $player.waitedOutExcubitor = true","Vous sursautez presque lorsque l'Excubitor Orbis prend la parole, vous ramenant à l'instant present.
 
@@ -5776,7 +5776,7 @@ $triedBribe = true","Cette ride à nouveau, le plus petit sourire du Secteur.
 ""Combien notre dévotion est-elle avilie pour que vous pensiez que prononcer ces mots ouvrirait le chemin devant vous.""
 
 ""Et,"" continue-t-il, ""combien votre être spirituel est-il avili pour que vous pensiez à s'y complaire.""",,
-lppHesperusExcubitorJudge1,DialogOptionSelected,$option == lpp_hesperusExcubitorJudge1,,"Il abat une main lourde comme un marteau sur son bureau. ""Les mots ne m'intéressent plus. Écoutez bien maintenant, car je prononce mon jugement sur cette affaire.""", lpp_hesperusExcubitorRepCheck:Continuer,
+lppHesperusExcubitorJudge1,DialogOptionSelected,$option == lpp_hesperusExcubitorJudge1,,"Il abat une main lourde comme un marteau sur son bureau. ""Les mots ne m'intéressent plus. Écoutez bien maintenant, car je prononce mon jugement sur cette affaire.""",lpp_hesperusExcubitorRepCheck:Continuer,
 lppHesperusExcubitorDenyAccess,DialogOptionSelected,"$option == lpp_hesperusExcubitorRepCheck
 RepLTE luddic_church SUSPICIOUS score:50",$global.lpp_deniedHesperusShrineAccess = true,"""Votre réputation est suspecte, capitaine. Je ne peux en bonne conscience vous accorder l'accès à notre sanctuaire,"" dit l'Excubitor Orbis. ""Trouvez la rédemption. Si vous parvenez à en trouver un certain degré, alors nous pourrons rediscuter de la question.""
 
