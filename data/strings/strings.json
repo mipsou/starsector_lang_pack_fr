@@ -19,7 +19,7 @@
 		"initialKnowsSide": "Ils connaissent votre identite grace au transpondeur actif de votre $playerFleetOrShip.",
 		"initialKnowsTOffSide": "Des indices suggerent qu'ils connaissent votre identite, malgre le transpondeur desactive de votre $playerFleetOrShip, probablement pour vous avoir repere recemment.",
 		"initialDoesntKnowSide": "Ils ne semblent pas certains de votre identite. Toute hostilite aura un impact reduit sur votre reputation.",
-		"battleDefeat": "$yourForcesWereOrYourSideWas defaite lors du dernier engagement.",
+		"battleDefeat": "$yourForcesWereOrYourSideWas défaite lors du dernier engagement.",
 		"battleTotalDefeat": "$yourForcesWereOrYourSideWas ecrasee lors du dernier engagement.",
 		"battleVictory": "$yourForcesWereOrYourSideWas victorieuse lors du dernier engagement.",
 		"battleTotalVictory": "$yourForcesWereOrYourSideWas a remporte une victoire totale lors du dernier engagement.",
