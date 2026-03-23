@@ -1,0 +1,22 @@
+CATEGORY gm_cat_ui|manual_ui|UI|game_mechanics
+
+CURRENT_CATEGORY gm_cat_ui
+
+BEGIN gm_basic_ui|Apprendre à utiliser votre TriPad
+ICON manual_tripad
+==Faire défiler les listes==
+La barre de défilement s'agrandit lorsque votre souris s'en approche pour faciliter le clic. Vous pouvez aussi maintenir {{Shift}} tout en utilisant la molette pour faire défiler plus rapidement.
+
+ ==Champs de saisie==
+Vous pouvez appuyer sur {{Ctrl-Backspace}} pour supprimer un mot, et sur {{Shift-Backspace}} pour effacer tout le champ de saisie.
+
+==Tags==
+Vous pouvez faire un {{Ctrl-Clic}} pour sélectionner plusieurs tags, ou pour désélectionner un tag sans affecter le reste de la selection.
+
+==Intel==
+Vous pouvez appuyer sur {{Ctrl-S}} pour sauvegarder le jeu de tags actuel, et sur {{Q}} pour les resélectionner. Vous pouvez aussi appuyer sur {{Shift-Q}} pour ajouter le jeu de tags sauvegarde a votre selection actuelle. Cela ne fonctionne que pour les tags de l'ecran {{Intel}}.
+
+==Codex==
+Vous pouvez appuyer sur {{F2}} n'importe ou pour ouvrir le Codex. Dans de nombreux cas, comme dans l'ecran d'equipement ou en regardant une infobulle, le Codex s'ouvrira automatiquement a la bonne entree.
+
+END

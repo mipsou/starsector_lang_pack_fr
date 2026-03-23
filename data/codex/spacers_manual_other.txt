@@ -1,0 +1,24 @@
+CATEGORY gm_cat_other|generic|Other|game_mechanics
+
+CURRENT_CATEGORY gm_cat_other
+
+BEGIN gm_techs|Types de technologie
+Les niveaux technologiques de certains vaisseaux - {{Low Tech}}, {{Midline}} et {{High Tech}} - ne représentent pas une progression de qualité. Il s'agit simplement d'approches de conception différentes pour le combat, et aucune n'est supérieure aux autres. Les vaisseaux plus puissants ont généralement un cout en points de deploiement plus élevé.
+
+COLOR Low Tech
+==Basse Technologie==
+RESET
+Lourdement blindés, lents, utilisant un mélange d'armes balistiques et de missiles. Boucliers plus faibles. {{rel:codex_system_burndrive|Propulsion de combat}}, un systeme de vaisseau courant en Basse Technologie, ne fournit qu'une mobilité vers l'avant et permet aux vaisseaux de poursuivre et de punir les ennemis plus rapides, mais n'est pas d'une grande aide pour se retirer d'une mauvaise situation. Les plus gros vaisseaux sont souvent vulnérables aux attaques de flanc et nécessitent du soutien pour etre efficaces.
+
+COLOR Midline
+==Technologie Intermédiaire==
+RESET
+Blindage, boucliers et mobilité généralement moyens. Utilisant un mélange d'armes balistiques, a énergie et de missiles. Les armes a énergie se limitent principalement aux faisceaux - bien que les vaisseaux puissent monter d'autres armes a énergie, ils manquent généralement de la dissipation de flux nécessaire pour en tirer pleinement parti. Dependent souvent de vaisseaux spécialisés travaillant ensemble pour maximiser leur efficacité.
+
+COLOR High Tech
+==Haute Technologie==
+RESET
+Rapides, avec de puissants boucliers et un blindage plus faible. Utilisant un mélange d'armes a énergie et de missiles, avec une dissipation de flux suffisante pour supporter une plus large gamme d'armes énergétiques. Les armes a énergie tendent a avoir une portee plus courte, ce qui est compense par la vitesse maximale plus élevée des vaisseaux. S'appuient souvent sur des tactiques d'attaque éclair et prospèrent généralement dans un environnement de bataille plus chaotique.
+
+Tout ceci rélevé de généralisations, et des exceptions existent.
+END

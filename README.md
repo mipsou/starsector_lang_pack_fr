@@ -1,12 +1,12 @@
 <p align="center">
   <h1 align="center">Jouez a Starsector en francais</h1>
   <p align="center">
-    8 000+ dialogues, missions, interface, Codex — tout est traduit.<br>
-    Compatible 0.97a-RC11 · Compatible tous mods
+    40 000+ dialogues, missions, interface, Codex — tout est traduit.<br>
+    Compatible 0.98a-RC8
   </p>
   <p align="center">
     <a href="https://github.com/mipsou/starsector_lang_pack_fr/releases/latest">
-      <img src="https://img.shields.io/badge/⬇_Telecharger-v1.2.12-brightgreen?style=for-the-badge" alt="Telecharger v1.2.12">
+      <img src="https://img.shields.io/badge/⬇_Telecharger-v1.9.1-brightgreen?style=for-the-badge" alt="Telecharger v1.9.1">
     </a>
     <br>
     <img src="https://img.shields.io/github/downloads/mipsou/starsector_lang_pack_fr/total?style=for-the-badge&label=Telechargements&color=blue" alt="Total Downloads">
@@ -20,48 +20,44 @@
 1. **Telechargez** la [derniere version](https://github.com/mipsou/starsector_lang_pack_fr/releases/latest)
 2. **Extrayez** l'archive dans votre dossier `mods/`
 3. **Activez** le mod dans le launcher
-
-C'est tout. Lancez une nouvelle partie pour profiter de la traduction complete.
+4. **Nouvelle partie recommandee**
 
 ---
 
 ## Ce qui est traduit
 
-- 8 000+ dialogues et rencontres en jeu (rules.csv 100% FR)
+- 40 000+ dialogues et rencontres (rules.csv complet)
+- Codex : manuel de combat, technologie, interface
 - 16 missions et briefings de combat
-- Le Codex complet (vaisseaux, armes, systemes)
 - 2 187+ noms de vaisseaux
-- L'interface : tooltips, conseils, notifications
-- Les marches, industries et marchandises
-- Les competences et personnalites d'officiers
-- 18 factions, grades et types de planetes
-- 133 fichiers de traduction au total
+- Interface : tooltips, conseils, notifications
+- Marches, industries et marchandises
+- Competences et personnalites d'officiers
+- 18 factions avec accents (Hegemonie, Eglise de Ludd, etc.)
+- Guillemets francais « » fonctionnels en jeu
+
+## Nouveautes v1.9.1
+
+- 3128 segments de dialogues traduits
+- 7 factions avec accents corrects
+- 186 corrections linguistiques
+- Quetes narratives completes (Bornanow Files, Elek, stations)
+- Codex FR : combat, technologie, UI
 
 ---
 
 ## FAQ
 
-**Est-ce compatible avec d'autres mods ?**
-Oui. Ce mod ne remplace que les fichiers texte vanilla. Il fonctionne avec tous les mods de contenu.
+**Compatible avec d'autres mods ?** Oui.
 
-**Faut-il commencer une nouvelle partie ?**
-Recommande pour que tous les textes s'appliquent correctement.
+**Nouvelle partie necessaire ?** Recommandee.
 
-**Pourquoi certains textes restent en anglais ?**
-Quelques elements d'interface sont codes en dur dans le moteur du jeu. Une future version ajoutera un patch Java pour les traduire.
-
-**Le zip est-il a jour ?**
-Oui. Le zip de chaque release contient l'integralite des traductions.
+**Textes encore en anglais ?** Quelques labels UI sont codes en dur dans le moteur Java.
 
 ---
 
 ## Contribuer
 
-Vous avez trouve une erreur de traduction ou un texte manquant ?
-[Ouvrir un signalement](https://github.com/mipsou/starsector_lang_pack_fr/issues/new)
+[Signaler un bug](https://github.com/mipsou/starsector_lang_pack_fr/issues/new)
 
----
-
-<p align="center">
-  <a href="LICENSE">EUPL 1.2</a> · Cree par <a href="https://github.com/mipsou">mipsou</a>
-</p>
+<p align="center"><a href="LICENSE">EUPL 1.2</a> · <a href="https://github.com/mipsou">mipsou</a></p>
