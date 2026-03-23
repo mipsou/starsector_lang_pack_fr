@@ -60,7 +60,24 @@
 
     "data/codex/spacers_manual_combat.txt",
     "data/codex/spacers_manual_other.txt",
-    "data/codex/spacers_manual_ui.txt"
+    "data/codex/spacers_manual_ui.txt",
+
+    "data/hulls/wing_data.csv",
+
+    "data/missions/afistfulofcredits/descriptor.json",
+    "data/missions/ambush/descriptor.json",
+    "data/missions/coralnebula/descriptor.json",
+    "data/missions/direstraits/descriptor.json",
+    "data/missions/forlornhope/descriptor.json",
+    "data/missions/forthegreaterlud/descriptor.json",
+    "data/missions/hornetsnest/descriptor.json",
+    "data/missions/nothingpersonal/descriptor.json",
+    "data/missions/predatororprey/descriptor.json",
+    "data/missions/randombattle1/descriptor.json",
+    "data/missions/sinkingthebismarck/descriptor.json",
+    "data/missions/thelasthurrah/descriptor.json",
+    "data/missions/thewolfpack/descriptor.json",
+    "data/missions/turningthetables/descriptor.json"
   ],
   "jars": ["jars/langpack-fr.jar"],
   "dependencies": []
