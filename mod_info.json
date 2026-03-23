@@ -56,7 +56,11 @@
     "data/missions/sinkingthebismarck/mission_text.txt",
     "data/missions/thelasthurrah/mission_text.txt",
     "data/missions/thewolfpack/mission_text.txt",
-    "data/missions/turningthetables/mission_text.txt"
+    "data/missions/turningthetables/mission_text.txt",
+
+    "data/codex/spacers_manual_combat.txt",
+    "data/codex/spacers_manual_other.txt",
+    "data/codex/spacers_manual_ui.txt"
   ],
   "jars": ["jars/langpack-fr.jar"],
   "dependencies": []
