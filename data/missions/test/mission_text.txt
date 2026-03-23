@@ -1,5 +1,0 @@
-Lieu : Système Corvus
-Date : 3014
-Objectifs : Tester le script de validation
-
-Description : Ceci est un test du script de validation des missions. Le Maréchal Spatial vous attend.
