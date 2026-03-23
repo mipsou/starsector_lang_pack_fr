@@ -1,0 +1,89 @@
+CATEGORY gm_cat_combat|manual_combat|Combat|game_mechanics
+
+CURRENT_CATEGORY gm_cat_combat
+
+BEGIN gm_damage_types|Types de dégâts
+Tous les types de dégâts infligent {{100%}} de dégâts contre la coque, sous réserve de la valeur d'armure résiduelle. De plus :
+IMAGE ui|icon_high_explosive
+Les dégâts {{High Explosive}} infligent {{200%}} contre l'armure, et {{50%}} contre les boucliers. Les tirs tendent à être jaunes.
+IMAGE ui|icon_kinetic
+Les dégâts {{Kinetic}} infligent {{200%}} contre les boucliers, et {{50%}} contre l'armure. Les tirs tendent à être blancs.
+IMAGE ui|icon_energy
+Les dégâts {{Energy}} infligent {{100%}} contre les boucliers et l'armure. Les armes à forte puissance d'impact tendent à être peu efficientes en flux.
+IMAGE ui|icon_fragmentation
+Les dégâts {{Fragmentation}} infligent {{25%}} contre les boucliers et l'armure. Les armes infligeant ce type de dégâts ont souvent un DPS et une efficience de flux élevés. Les tirs tendent à être rouges.
+END
+
+BEGIN gm_armor|Armure
+ICON manual_armor
+#==Réduction des dégâts==
+L'armure réduit les dégâts reçus de tous les impacts et attaques par faisceau, en fonction de l'armure restante dans la cellule touchée et les cellules voisines, ainsi que de la {{puissance d'impact}} de l'attaque. La réduction maximale de dégâts par l'armure est de {{85%}}.
+
+Un vaisseau peut voir son armure détruite à un emplacement, tout en conservant une armure intacte ailleurs. Faire pivoter le vaisseau pour encaisser les dégâts sur une armure intacte est souvent efficace.
+==Puissance d'impact==
+Les armes à dégâts par tir élevés infligent davantage de dégâts contre l'armure. Le type de dégâts {{rel:gm_damage_types|high explosive}} est particulièrement utile, mais les armes à énergie à dégâts élevés peuvent également détruire l'armure aisément. La puissance d'impact des armes à faisceau est basée sur leur DPS.
+==Armure résiduelle==
+Même après que l'armure a été entièrement détruite, {{5%}} de celle-ci s'applique toujours aux dégâts reçus par la coque pour le calcul de la réduction de dégâts. Cela rend les vaisseaux à armure de base élevée moins vulnérables aux armes à tir rapide et faibles dégâts, même après que leur armure a été percée.
+END
+
+BEGIN gm_shields|Boucliers
+ICON manual_shields
+RELATED gm_damage_types|gm_flux
+Les dégâts reçus par les boucliers augmentent le niveau de {{rel:gm_flux|flux hard}} du vaisseau, et provoqueront une {{rel:gm_venting|surcharge}} si le niveau de flux atteint son maximum. Le niveau de flux hard est indiqué par un petit cran sur la jauge de flux du vaisseau. Le flux hard ne se dissipe pas tant que les boucliers sont actifs.
+
+Le simple fait de maintenir les boucliers actifs a un coût en flux égal à une fraction du taux de dissipation de flux de base du vaisseau. Le niveau de flux n'augmentera pas de ce seul fait, mais cela réduit la capacité du vaisseau à dissiper le {{rel:gm_flux|flux soft}} généré par le tir des armes. Baisser les boucliers {{augmente la puissance de feu du vaisseau}} sur le long terme.
+END
+
+
+BEGIN gm_flux|Flux
+ICON manual_flux
+RELATED codex_weapon_harpoon
+Tirer avec les armes ou encaisser des dégâts sur les boucliers augmente le niveau de flux du vaisseau. Si le flux atteint son maximum, le vaisseau sera incapable de tirer ses armes, et encaisser davantage de dégâts sur les boucliers provoquera une {{rel:gm_venting|surcharge}}. Le flux se dissipe en continu au taux de dissipation de flux du vaisseau, et un vaisseau peut activement {{rel:gm_venting|dissiper}} le flux pour accélérer le processus.
+
+==Flux hard==
+Les dégâts reçus par les {{rel:gm_shields|boucliers}} augmentent le niveau de {{rel:gm_flux|flux hard}} du vaisseau. Le niveau de flux hard est indiqué par un petit cran sur la jauge de flux du vaisseau. Le flux hard ne se dissipe pas tant que les boucliers sont actifs.
+
+Le flux normal est parfois appelé {{flux soft}}, pour le différencier du flux hard.
+END
+
+BEGIN gm_venting|Dissipation et surcharge
+ICON manual_venting
+==Dissipation==
+Un vaisseau en dissipation dissipe le {{rel:gm_flux|flux}} à deux fois le taux normal. Le vaisseau est incapable de tirer ses armes ou d'utiliser ses boucliers ou autres défenses, mais peut toujours se déplacer normalement.
+
+La dissipation rend un vaisseau vulnérable, et les vaisseaux ne dissipent généralement que lorsqu'ils sont relativement en sécurité, à moins que la situation ne soit désespérée. Les vaisseaux lourdement blindés acceptent souvent d'encaisser quelques dégâts d'armure pendant la dissipation.
+
+==Surcharge==
+Un vaisseau en surcharge est incapable de tirer ses armes ou d'utiliser ses boucliers ou autres défenses, mais peut toujours se déplacer normalement. Le flux se dissipe à la moitié du taux normal lorsque le vaisseau est en surcharge.
+
+La durée d'une surcharge dépend de la quantité de dégâts reçus par les boucliers qui a fait dépasser au vaisseau sa capacité maximale de flux.
+
+Les vaisseaux en surcharge tentent généralement de se replier en lieu sûr, et sont une cible privilégiée pour les salvos de missiles de finition tels que les Harpoons.
+
+END
+
+BEGIN gm_ballistics|Armes balistiques
+ICON manual_ballistic_weapons
+Les armes balistiques tendent à avoir une portée supérieure à leurs équivalents à énergie, et infligent généralement des dégâts {{rel:gm_damage_types|Kinetic}} ou {{rel:gm_damage_types|High Explosive}}, permettant une spécialisation contre les {{rel:gm_shields|boucliers}} et l'{{rel:gm_armor|armure}}.
+END
+
+BEGIN gm_energies|Armes à énergie
+ICON manual_energy_weapons
+Les armes {{color:text|à énergie}} tendent à avoir une portée inférieure à leurs équivalents balistiques, et infligent généralement des dégâts {{rel:gm_damage_types|Energy}}, qui sont aussi efficaces contre toutes les défenses mais ne contrent efficacement aucune d'entre elles. Il existe cependant une certaine variété dans les types de dégâts, et les armes à énergie à forte puissance d'impact restent très efficaces contre l'{{rel:gm_armor|armure}}.
+
+==Armes à faisceau==
+Les armes à faisceau ont souvent une très longue portée - dépassant même les portées typiques des armes {{rel:gm_ballistics|balistiques}} - mais n'infligent que des dégâts en {{rel:gm_flux|flux soft}} aux {{rel:gm_shields|boucliers}}.
+
+Malgré cela, elles restent très utiles ; elles ne vaincront simplement pas les boucliers à elles seules, à moins d'être déployées en nombre écrasant.
+END
+
+BEGIN gm_missiles|Armes à missiles
+ICON manual_missiles
+Les missiles tendent à avoir des munitions limitées, mais de nombreuses options remplissent différents rôles. Un vaisseau disposant de davantage d'emplacements de missiles offre plus de polyvalence dans ses configurations et une plus grande liberté pour se spécialiser ou compenser ses faiblesses.
+
+Certains missiles, comme la torpille {{rel:codex_weapon_reaper|Reaper}}, permettent aux petits vaisseaux de représenter une menace majeure pour les vaisseaux plus grands - jusqu'à épuisement de leurs munitions !
+END
+
+
+
+
