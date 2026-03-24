@@ -2,6 +2,21 @@
 
 Toutes les modifications notables du mod sont documentees ici.
 
+## [v1.9.2] — 2026-03-24
+
+### Ajouts / Added
+- Terminologie : "porte-avions"/"porte-nefs" remplace par "astroporteur" dans tips.json (5), descriptions.csv (18), skill_data.csv (2), tips_translations.csv (5)
+- FleetInteractionDialogPlugin : 28 OptionIds traduits (options pre-combat et post-combat en FR)
+- getString() override : "Vos forces ont ete" au lieu de "Your forces were"
+- advance() polling continu pour traduire les options ajoutees dynamiquement
+
+### Corrections / Fixed
+- Crash fix : config null dans le constructeur corrige
+
+### Changements techniques / Technical
+- JAR recompile avec Zulu JDK 17
+- Accord officiel d'Alex (dev Starsector) obtenu par email
+
 ## [v1.2.12] — 2026-03-21
 
 ### Traduction

@@ -6,7 +6,7 @@
   </p>
   <p align="center">
     <a href="https://github.com/mipsou/starsector_lang_pack_fr/releases/latest">
-      <img src="https://img.shields.io/badge/⬇_Télécharger-v1.9.1-brightgreen?style=for-the-badge" alt="Télécharger v1.9.1">
+      <img src="https://img.shields.io/badge/⬇_Télécharger-v1.9.2-brightgreen?style=for-the-badge" alt="Télécharger v1.9.2">
     </a>
   </p>
 </p>
