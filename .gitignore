@@ -50,22 +50,18 @@ jar_content/
 # Claude Code
 .claude/
 
-# Scripts one-shot (non réutilisables)
-data/campaign/audit_newlines.py
-data/campaign/extract_truncated.py
-data/campaign/final_assemble.py
-data/campaign/find_truncated.py
-data/campaign/fix_guillemets.py
-data/campaign/reassemble.py
-data/campaign/translate_part3.py
-data/campaign/translate_part5.py
-qa_terminology_check.py
-validate_csv.py
-tools/
+# Zone sacrée data/ — aucun script ni artefact
+data/**/*.py
 
-# Fichiers batch de traduction (intermediaires)
-data/campaign/batch_*.json
-data/campaign/tr_*.json
-data/campaign/texts_batch_*.json
-data/campaign/truncated_texts.json
-data/campaign/retranslate_batches/
+# Artefacts de traduction batch (intermédiaires)
+data/**/batch_*.json
+data/**/tr_*.json
+data/**/texts_batch_*.json
+data/**/truncated_texts.json
+data/**/retranslate_batches/
+data/**/backups/
+
+# Artefacts de production temporaires
+work/
+tmp_batches/
+temp/

@@ -1,0 +1,55 @@
+{
+	"local_comm":{
+		"type":"Comms Locales",
+		"shortType":"Comms",
+	},
+	"secure_comm":{
+		"type":"Canal Comm Sécurisé",
+		"shortType":"Comms",
+	},
+	"player_intel_always":{
+		"name":"Analyses et Projections",
+		"type":"Évaluation de Renseignement",
+		"shortType":"Intel",
+	},
+	"player_intel":{
+		"name":"Analyses et Projections",
+		"type":"Évaluation de Renseignement",
+		"shortType":"Intel",
+	},
+	"player_comm_sniffer":{
+		"name":"Programme d'Écoute Comm",
+		"type":"Flux de Données Comm",
+		"shortType":"Données",
+	},
+	"news":{
+		"name":"Bulletin Local",
+		"type":"Rapport d'Actualités",
+		"shortType":"Actus",
+	},
+	"hegemony_public":{
+		"name":"Service de Diffusion de l'Hégémonie",
+		"type":"Rapport d'Actualités",
+		"shortType":"Actus",
+	},
+	"hegemony_internal":{
+		"name":"Renseignement de l'Hégémonie",
+		"type":"Rapport de Renseignement",
+		"shortType":"Intel",
+	},
+	"tritachyon_public":{
+		"name":"Réseau Tri-Tachyon",
+		"type":"Rapport d'Actualités",
+		"shortType":"Actus",
+	},
+	"tritachyon_internal":{
+		"name":"Renseignement Tri-Tachyon",
+		"type":"Rapport de Renseignement",
+		"shortType":"Intel",
+	},
+	"sindrian_diktat_internal":{
+		"name":"Sécurité du Diktat Sindrien",
+		"type":"Rapport de Renseignement",
+		"shortType":"Intel",
+	},
+}
