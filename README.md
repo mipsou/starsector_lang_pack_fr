@@ -6,8 +6,12 @@
   </p>
   <p align="center">
     <a href="https://github.com/mipsou/starsector_lang_pack_fr/releases/latest">
-      <img src="https://img.shields.io/badge/⬇_Télécharger-v1.9.2-brightgreen?style=for-the-badge" alt="Télécharger v1.9.2">
+      <img src="https://img.shields.io/github/v/release/mipsou/starsector_lang_pack_fr?style=for-the-badge&label=⬇_Télécharger&color=brightgreen" alt="Télécharger la dernière version">
     </a>
+    &nbsp;
+    <img src="https://img.shields.io/github/downloads/mipsou/starsector_lang_pack_fr/total?style=for-the-badge&label=Téléchargements&color=blue" alt="Téléchargements">
+    &nbsp;
+    <img src="https://img.shields.io/badge/Starsector-0.98a--RC8-orange?style=for-the-badge" alt="Starsector 0.98a-RC8">
   </p>
 </p>
 
