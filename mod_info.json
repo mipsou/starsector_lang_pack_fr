@@ -4,7 +4,7 @@
   "author": "mipsou",
   "totalConversion": "false",
   "utility": "true",
-  "version": {"major":1, "minor":9, "patch":1},
+  "version": {"major":1, "minor":9, "patch":2},
   "description": "French language pack for Starsector",
   "gameVersion": "0.98a-RC8",
   "modPlugin": "data.scripts.FrenchLangModPlugin",
