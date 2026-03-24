@@ -1,0 +1,19 @@
+# Sensitive / dev-only directories
+reverse/
+tools/
+.pytest_cache/
+htmlcov/
+*.coverage
+__pycache__/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+original/
