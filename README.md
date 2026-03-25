@@ -1,8 +1,8 @@
 # Starsector Language Pack FR — Repo Dev
 
 ![CI](https://github.com/mipsou/starsector_lang_pack_fr_private/actions/workflows/ci.yml/badge.svg?branch=dev)
-![Version](https://img.shields.io/badge/version-1.2.7-blue)
-![Starsector](https://img.shields.io/badge/Starsector-0.97a--RC11-orange)
+![Version](https://img.shields.io/badge/version-1.9.4-blue)
+![Starsector](https://img.shields.io/badge/Starsector-0.98a--RC8-orange)
 
 > Dépôt de développement. Le repo public joueur est [starsector_lang_pack_fr](https://github.com/mipsou/starsector_lang_pack_fr).
 
