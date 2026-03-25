@@ -75,7 +75,7 @@ Toute déviation par rapport à ce glossaire doit être justifiée et documenté
 | destroyer | destroyer | |
 | cruiser | croiseur | |
 | capital ship | vaisseau capital | |
-| carrier | porte-nefs | Terme établi dans toutes les traductions existantes |
+| carrier | astroporteur | Terme validé v1.9.2, remplace porte-avions et porte-nefs |
 | phase ship | vaisseau de phase | |
 | (D) hull / D-mod | désignation (D) / version inférieure | |
 

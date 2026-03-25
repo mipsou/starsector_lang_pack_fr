@@ -29,5 +29,9 @@ public class FrenchLangModPlugin extends BaseModPlugin {
         // Enregistrer le plugin campagne qui traduit les dialogues
         Global.getSector().registerPlugin(new FrenchCampaignPlugin());
         log.info("FrenchCampaignPlugin registered");
+
+        // Enregistrer le script de traduction des prompts (EveryFrameScript)
+        Global.getSector().addTransientScript(new FrenchPromptTranslator());
+        log.info("FrenchPromptTranslator registered");
     }
 }
