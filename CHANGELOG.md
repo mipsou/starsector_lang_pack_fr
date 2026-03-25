@@ -2,6 +2,18 @@
 
 Toutes les modifications notables du mod sont documentees ici.
 
+## [v1.9.3] — 2026-03-25
+
+### Ajouts / Added
+- SalvagePlugin FR : options de salvage traduites (capteurs, balises, relais) via FrenchSalvageInteractionDialogPlugin
+- FrenchCampaignPlugin : enregistrement du SalvagePlugin dans le pipeline campagne
+
+### Corrections / Fixed
+- descriptions.csv : 3 occurrences "porte-nef" corrigees en "astroporteur" (reservewing, targetingfeed, recalldevice)
+
+### Changements techniques / Technical
+- JAR recompile avec 5 classes (FrenchSalvageInteractionDialogPlugin ajoutee)
+
 ## [v1.9.2] — 2026-03-24
 
 ### Ajouts / Added
