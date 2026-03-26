@@ -1,6 +1,6 @@
 # Jouez à Starsector en français
 
-> 40 000+ dialogues, missions, Codex, compétences — tout est traduit.
+> 40 000+ dialogues, missions, Codex, compétences traduits.
 > Compatible 0.98a-RC8
 
 [![Télécharger](https://img.shields.io/github/v/release/mipsou/starsector_lang_pack_fr?style=for-the-badge&label=⬇_Télécharger&color=brightgreen)](https://github.com/mipsou/starsector_lang_pack_fr/releases/latest)
