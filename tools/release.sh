@@ -64,25 +64,18 @@ git checkout dev
 git push public main:dev --force
 echo "OK: public dev synced"
 
-# --- 10. Restore public README ---
-git checkout -B public-readme-release public/dev
-cp tools/README-public.md README.md
-git add README.md && git commit -m "docs: restore public README for v${VERSION}"
-git push public public-readme-release:dev --force
-git checkout dev
-
-# --- 11. PR dev -> main on public ---
+# --- 10. PR dev -> main on public ---
 PUB_PR=$(gh pr create --repo mipsou/starsector_lang_pack_fr \
   --base main --head dev --title "Release v${VERSION}" --body "Release v${VERSION}")
 echo "PR public: $PUB_PR"
 
-# --- 12. Build ZIP ---
+# --- 11. Build ZIP ---
 ZIP="starsector-lang-pack-fr-v${VERSION}.zip"
 git archive --format=zip --prefix="starsector_lang_pack_fr/" \
   -o "$ZIP" public/dev -- data/ jars/ mod_info.json CHANGELOG.md LICENSE
 echo "OK: $ZIP created"
 
-# --- 13. GitHub release ---
+# --- 12. GitHub release ---
 gh release create "v${VERSION}" "$ZIP" \
   --repo mipsou/starsector_lang_pack_fr \
   --title "v${VERSION}" --notes "Release v${VERSION}" --latest
