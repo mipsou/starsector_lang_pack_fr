@@ -3,7 +3,7 @@ Société Urbanisée,urbanized_polity,,,TRUE,com.fs.starfarer.api.impl.campaign.
 Société Industrielle,industrial_polity,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.IndustrialPolity,"A bustling industrial center. The policies of the local government encourage thriving industry, at the expense of all other concerns.",graphics/icons/markets/urbanized_polity.png,130
 Société Rurale,rural_polity,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.RuralPolity,"A sparsely populated polity of homesteads and insular townships. In these troubled times, outsiders are generally treated with suspicion.",graphics/icons/markets/rural_polity.png,130
 Population de Réfugiés Importante,large_refugee_population,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.LargeRefugeePopulation,"Desperate refugees fleeing some disaster have ended up here. Refugees live at the bottom of society with little opportunity for betterment, straining domestic infrastructure living in tense semi-legal status. Reduced overall production. More prospective crew members are likely to be found among those trying to escape the squalid living conditions.",graphics/icons/markets/refugee_population.png,140
-Enclos à Homards Volturniens,volturnian_lobster_pens,"show_in_codex, codex_unlockable",TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,A mix of several Old Earth species and a little imagination produced this creature which grows wild in the crushing depths of Volturn's sea-floor. The flavor is said to be exceptional.,graphics/icons/markets/lobster_pens.png,137
+Enclos à Homards Volturniens,volturnian_lobster_pens,"show_in_codex, codex_unlockable",TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,Un mélange de plusieurs espèces du Vieux Monde et d'un peu d'imagination a donné naissance à cette créature qui prolifère en liberté dans les abysses du plancher océanique de Volturn. Sa saveur est réputée exceptionnelle.,graphics/icons/markets/lobster_pens.png,137
 Demande de Vices,vice_demand,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.ViceDemand,The demand for vice goods is unusually high here.,graphics/icons/markets/vice_demand.png,145
 Crime Organisé,organized_crime,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.OrganizedCrime,Criminal activity produces drugs and harvested organs. Increases demand for hand weapons (by both various crime bosses and local citizenry) and marines (by the local authorities).,graphics/icons/markets/organized_crime.png,148
 Frontière,frontier,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Frontier,"Far from the cosmopolitan centers of population, mere survival, self-reliance, and only-the-necessities are the rules of the frontier. Increased demand for weapons and supplies, reduced demand for luxury goods.",graphics/icons/markets/frontier.png,130
@@ -35,7 +35,7 @@ Monde Cryovolcanique,cryovolcanic,,TRUE,,com.fs.starfarer.api.impl.campaign.econ
 Population Dissidente,dissident,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Dissident,"$Market is a dumping-ground for dissidents, rebels, free-thinkers, artists, and other troublemakers. Increases demand for weapons and marines to police the rabble. Increases availability of crew due to emigration.",graphics/icons/markets/dissidents.png,139
 Quartier Général,headquarters,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Headquarters,"$Market is a center of military command and logistical operation for the ruling polity. Increases market stability.
 
-Increases the quality and number of officers in $market's fleets.",graphics/icons/markets/headquarters.png,360
+Améliore la qualité et le nombre d'officiers dans les flottes de $market.",graphics/icons/markets/headquarters.png,360
 Complexe Hydroponique,hydroponics_complex,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Hydroponics,"Sealed-biosphere agricultural production facilities which allow farming in orbit or on the surface of inhospitable worlds. Requires crew to operate, organic growth medium, and heavy machinery for upkeep.",graphics/icons/markets/hydroponics.png,120
 ,,,,,,,,
 Population,population_1,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,Only tens of people live here permanently.,graphics/icons/markets/population01.png,20
@@ -75,7 +75,7 @@ Activité Pirate,pirate_activity,,,TRUE,com.fs.starfarer.api.impl.campaign.intel
 The pirates most likely have a base somewhere relatively nearby.",graphics/icons/markets/pirate_activity.png,1300
 Activité Hostile,hostile_activity,,,TRUE,com.fs.starfarer.api.impl.campaign.intel.events.HostileActivity,,graphics/icons/markets/pirate_activity.png,1350
 Répit de Piraterie,piracy_respite,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.PiracyRespite,This colony is experiencing a respite from the depredations of piracy otherwise so common in the Sector.,graphics/icons/markets/respite40.png,1375
-Established Polity,established_polity,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.EstablishedPolity,,graphics/icons/markets/established_polity.png,1380
+Régime Établi,established_polity,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.EstablishedPolity,,graphics/icons/markets/established_polity.png,1380
 Blocus,blockaded,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Blockaded,"The system that this colony is in is experiencing a blockade, and regular trade shipping is suffering from harassment or worse. The effects will continue until the blockading force leaves or is soundly defeated.",graphics/icons/markets/blockade.png,1385
 Cellules du Sentier Luddique,pather_cells,,,TRUE,com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathCells,,graphics/icons/markets/pather_cells.png,1400
 ,,,,,,,,
@@ -83,7 +83,7 @@ Cellules du Sentier Luddique,pather_cells,,,TRUE,com.fs.starfarer.api.impl.campa
 Perturbation Commerciale,shipping_disruption,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.ShippingDisruption,,graphics/icons/markets/trade_disruption.png,1000
 ,,,,,,,,
 ,,,,,,,,
-Relais de Comm (caché),comm_relay,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.CommRelayCondition,Hidden condition; does not need icon.,,
+Relais de Comm (caché),comm_relay,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.CommRelayCondition,Condition masquée ; pas besoin d'icône.,,
 ,,,,,,,,
 ,,,,,,,,
 ,,,,,,,,

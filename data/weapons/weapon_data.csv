@@ -24,13 +24,13 @@ Autocanon Lourd,heavyac,1,,1000,800,,100,,10,7,10,,,,KINETIC,90,,0,1,3,0.2,0,18,
 Propulseur Hypervéloce,hveldriver,3,0.3,2250,1000,,275,400,40,10,13,,,,KINETIC,350,,0,2,1,,,,,,,1000,,,300,,,,"kinetic15, LR, remnant, rare_bp, merc, ind",,,,Anti Shield,,,,,,,,,,5.5
 Aiguilleur Lourd,heavyneedler,3,0.3,2500,700,,50,,1,15,15,,,,KINETIC,40,,0,4.55,30,0.05,1,10,0.5,5,,1200,,,10,,,,"kinetic15, remnant, rare_bp, hist1t, merc, ind",,,,Anti Shield,,,,,,,,,,5.75
 Canon de Gauss,gauss,3,,5000,1200,,700,,300,3,25,,,,KINETIC,1200,,1,1,,,,,,,,1200,,,400,,,,"kinetic20, LR, remnant, rare_bp, hist1t, merc, ind",,,,Anti Shield,,,,,,,,,,6
-Hephaestus Assault Gun,hephag,1,,4000,900,,120,,5,20,20,,,,HIGH_EXPLOSIVE,110,,0,0.25,1,,0,5,1,5,,800,,,50,,,,"he18, lowtech_bp, midline_bp, merc, ind",,,,Anti Armor,,,,,,,,,,7
+Canon d'Assaut Héphaïstos,hephag,1,,4000,900,,120,,5,20,20,,,,HIGH_EXPLOSIVE,110,,0,0.25,1,,0,5,1,5,,800,,,50,,,,"he18, lowtech_bp, midline_bp, merc, ind",,,,Anti Armor,,,,,,,,,,7
 Autocanon Mark IX,mark9,0,,3000,900,,200,,20,10,18,,,,KINETIC,200,,0,2,4,0.1,0,15,2,10,,800,,,100,,,,"kinetic18, base_bp, merc, ind",,,,Anti Shield,,,,,,,,,,7.25
 Canon Dévastateur,devastator,1,,3500,900,,150,,40,12,20,,,,HIGH_EXPLOSIVE,75,,0,2,12,0.1,5,30,5,5,,700,,,100,,,"PD,PD_ALSO","he16, pd17, lowtech_bp, merc, ind",,,,Anti Fighter (Area),,,,,"Each shell has a fuse set to explode at a random distance, resulting in a barrage that's increasingly more deadly at closer ranges.
 
-Will target missiles if no other targets are in range.",,,,,7.4
+Ciblera les missiles si aucune autre cible n'est à portée.",,,,,7.4
 Mjolnir Cannon,mjolnir,2,0.4,6000,900,,400,200,10,25,24,,,,ENERGY,500,,0,0.75,1,,0,5,1,10,,900,,,75,,,,"energy18, he17, kinetic17, remnant, rare_bp, hist1t, merc, ind",,,,General,,,,,,,,,,7.5
-Hellbore Cannon,hellbore,0,,3000,900,,750,,200,5,16,,,,HIGH_EXPLOSIVE,750,,0,3,1,,0,10,5,10,,500,,,400,,,,"he18, lowtech_bp, merc, ind",,,,Anti Armor,,,,,,,,,,8
+Canon Hellbore,hellbore,0,,3000,900,,750,,200,5,16,,,,HIGH_EXPLOSIVE,750,,0,3,1,,0,10,5,10,,500,,,400,,,,"he18, lowtech_bp, merc, ind",,,,Anti Armor,,,,,,,,,,8
 Aiguilleur Tempête,multineedler,3,0.4,6500,700,,50,,20,15,28,60,10,30,KINETIC,35,,0,0.05,1,,0,5,0.25,5,,1200,,,20,,,,"kinetic19, remnant, rare_bp, hist1t, merc, ind",,,,Anti Shield,,,,,,,,,,8.5
 Torpille Classe Reaper,reaper,1,,200,1200,,4000,,75,10,2,1,,,HIGH_EXPLOSIVE,0,,0,5,1,,0,0,0,0,,400,100,3.5,500,,,STRIKE,"strike8, rocket3, missile_bp, merc, ind",,,,Torpedo,Fast,None,,,,,,,TRUE,9
 Râtelier de Torpilles Classe Atropos,atropos,2,0.5,600,1200,,1000,,40,10,3,2,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,400,150,4,300,,,GUIDED_POOR,"strike9, missile1, missile_bp, merc, ind, reload_3pt",,,,Torpedo,Fast,Good,,,,,,,TRUE,9.5
@@ -168,23 +168,23 @@ Lanceur de Bombes Nova,nb_bomblauncher,0,,200000,1000,,500,,25,30,12,30,,,ENERGY
 Canon à Impulsion Thermique,tpc,0,,100000,1000,,250,,0,0,,20,1,,ENERGY,150,,0,0.2,1,,0,10,2,5,,1000,,,,,,"SYSTEM,SHOW_IN_CODEX",,TPC_only,,,General,,,,,,,,,,40
 Adjudicateur Lourd,heavy_adjudicator,1,,100000,800,,800,,,0,40,20,0.5,5,FRAGMENTATION,100,,0,0.333333,1,,0,5,3,5,,1200,,,,,3,"SYSTEM,SHOW_IN_CODEX,PD,PD_ALSO",codex_unlockable,H_A_only,Domain Restricted,,Anti Armor (Area),,,,,"Each shell has a proximity fuse and deals damage over a wide area when it explodes.
 
-Will target missiles if no other targets are in range.",,,,,40.5
+Ciblera les missiles si aucune autre cible n'est à portée.",,,,,40.5
 Conversion de Missiles Terminateur,terminator_missile,3,,0,1500,,1200,600,200,0,0,1,,,ENERGY,0,,0,1,1,,0,0,0,0,,400,0,10,100000,,,"DIRECT_AIM, SYSTEM",restricted,,,,Missile,Fast,Medium,,,,,,,TRUE,41
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,42
-Pusher Plate (Low Tech),pusherplate_lt,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,pusherplate,,,,,,,,,,,,,,42.5
-"Pusher Plate (Low Tech, Small)",pusherplate_lt_small,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,pusherplate,,,,,,,,,,,,,,42.75
-"Pusher Plate (Remnant, Nova)",pusherplate_nova,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,pusherplate,,,,,,,,,,,,,,42.8
-Sensor Dish,sensordish,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,43
-Lidar Dish,lidardish,0,,1,0,100,,,0,200,0,1000,1000,,ENERGY,,0,0.2,0.2,0.35,0,,,,,1000000,,,,,,,SYSTEM,lidar,,,,Special,,,,,,,,,,43.5
+Plaque de Propulsion (Low Tech),pusherplate_lt,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,pusherplate,,,,,,,,,,,,,,42.5
+"Plaque de Propulsion (Low Tech, Petit)",pusherplate_lt_small,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,pusherplate,,,,,,,,,,,,,,42.75
+"Plaque de Propulsion (Remnant, Nova)",pusherplate_nova,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,pusherplate,,,,,,,,,,,,,,42.8
+Antenne de Détection,sensordish,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,43
+Antenne Lidar,lidardish,0,,1,0,100,,,0,200,0,1000,1000,,ENERGY,,0,0.2,0.2,0.35,0,,,,,1000000,,,,,,,SYSTEM,lidar,,,,Special,,,,,,,,,,43.5
 Laser Nova,novalaser,0,,1,55,1,,,0,200,0,,,,ENERGY,,0,0.1,0.1,,,,,,,1000000,,,,,,,SYSTEM,"nova, fixed_range",,,,Special,,,,,,,,,,43.75
-Blinker Red,blinker_red,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,44
-Blinker Green,blinker_green,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,45
-Lights - Buffalo,lights_buffalo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,46
-Lights - Hound,lights_hound,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,47
+Balise Rouge,blinker_red,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,44
+Balise Verte,blinker_green,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,45
+Feux - Buffalo,lights_buffalo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,46
+Feux - Hound,lights_hound,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,47
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,48
-Targeting Laser - Red,targetinglaser1,0,,1,0,1,,,0,200,0,1000,1000,,ENERGY,,0,0.05,0.05,0.1,0.05,,,,,1000000,,,,,,,SYSTEM,,,,,Special,,,,,,,,,,49
-Targeting Laser - Green,targetinglaser2,0,,1,0,1,,,0,200,0,1000,1000,,ENERGY,,0,0.05,0.05,0.1,0.05,,,,,1000000,,,,,,,SYSTEM,,,,,Special,,,,,,,,,,50
-Targeting Laser - Double Red Continuous,targetinglaser3,0,,1,0,100,,,0,200,0,,,,ENERGY,,0,0.05,0.05,,,,,,,1000000,,,,,,,SYSTEM,,,,,Special,,,,,,,,,,51
+Laser de Ciblage - Rouge,targetinglaser1,0,,1,0,1,,,0,200,0,1000,1000,,ENERGY,,0,0.05,0.05,0.1,0.05,,,,,1000000,,,,,,,SYSTEM,,,,,Special,,,,,,,,,,49
+Laser de Ciblage - Vert,targetinglaser2,0,,1,0,1,,,0,200,0,1000,1000,,ENERGY,,0,0.05,0.05,0.1,0.05,,,,,1000000,,,,,,,SYSTEM,,,,,Special,,,,,,,,,,50
+Laser de Ciblage - Double Rouge Continu,targetinglaser3,0,,1,0,100,,,0,200,0,,,,ENERGY,,0,0.05,0.05,,,,,,,1000000,,,,,,,SYSTEM,,,,,Special,,,,,,,,,,51
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,52
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,53
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,54
