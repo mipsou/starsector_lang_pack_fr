@@ -1,19 +1,14 @@
-<div align="center">
-
 # Jouez à Starsector en français
 
-40 000+ dialogues, missions, Codex, compétences — tout est traduit.<br>
-Compatible 0.98a-RC8
+> 40 000+ dialogues, missions, Codex, compétences — tout est traduit.
+> Compatible 0.98a-RC8
 
-<a href="https://github.com/mipsou/starsector_lang_pack_fr/releases/latest">
-  <img src="https://img.shields.io/github/v/release/mipsou/starsector_lang_pack_fr?style=for-the-badge&label=⬇_Télécharger&color=brightgreen" alt="Télécharger la dernière version">
-</a>
-&nbsp;
-<img src="https://img.shields.io/github/downloads/mipsou/starsector_lang_pack_fr/total?style=for-the-badge&label=Téléchargements&color=blue" alt="Téléchargements">
-&nbsp;
-<img src="https://img.shields.io/badge/Starsector-0.98a--RC8-orange?style=for-the-badge" alt="Starsector 0.98a-RC8">
+[![Télécharger](https://img.shields.io/github/v/release/mipsou/starsector_lang_pack_fr?style=for-the-badge&label=⬇_Télécharger&color=brightgreen)](https://github.com/mipsou/starsector_lang_pack_fr/releases/latest)
+![Téléchargements](https://img.shields.io/github/downloads/mipsou/starsector_lang_pack_fr/total?style=for-the-badge&label=Téléchargements&color=blue)
+![Starsector](https://img.shields.io/badge/Starsector-0.98a--RC8-orange?style=for-the-badge)
 
-</div>
+---
+
 ## Installation
 
 1. Télécharger le [ZIP de la dernière version](https://github.com/mipsou/starsector_lang_pack_fr/releases/latest)
