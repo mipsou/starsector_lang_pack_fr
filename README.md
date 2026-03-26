@@ -44,7 +44,8 @@
 Certains textes restent en anglais car ils sont codés en dur dans le moteur Java :
 - Panneau de déploiement ("Your forces", "Held in reserve")
 - Labels du Codex ("Ships", "Logistical data")
-- Options post-combat ("Pursue them", "Let them go")
+- Labels combat (FLUX, HULL, CR)
+- Écran de création de personnage ("Name", "Sector Age")
 - Variables de genre ("Un woman", "Un man")
 
 ## Signaler un bug
