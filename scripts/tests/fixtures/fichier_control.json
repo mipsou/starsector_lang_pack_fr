@@ -1,9 +1,0 @@
-{
-    "id": "test_control",
-    "name": "Test\tControl",
-    "description": "Un fichier avec des caractères\nde contrôle\r\nà détecter",
-    "data": {
-        "field1": "Valeur\b1",
-        "field2": "Valeur\f2"
-    }
-}
