@@ -1,17 +1,20 @@
 id,name,order,tier,reqPoints,reqPointsPerExtraSkill,description,author,combat officer,admiral,admin,tags,icon,
 # COMBAT,,,,,,,,,,,,,
 helmsmanship,Pilotage,10,1,0,,"It sings when you push the mix just right, like, [humming]. Everything is right in the world, from the stars down to your bones. Coming off a shift, its like I just woke up. [laughing] Words can't tell it.","Nachiketa Portside Interview Project, Ep.3",TRUE,,,,graphics/icons/skills/helmsmanship.png,
-combat_endurance,Endurance au Combat,20,1,0,,"Through calamity, the Fourteenth endured. 
-Through hegemony, the Domain endures. 
-Through duty, humanity shall endure.","Admiral Kali Molina, the Declaration of Hegemony, c49",TRUE,,,,graphics/icons/skills/combat_endurance3.png,
+combat_endurance,Endurance au Combat,20,1,0,,"Par la calamité, le Quatorzième a enduré.
+Par l'hégémonie, le Domain perdure.
+Par le devoir, l'humanité perdurera.","Amiral Kali Molina, la Déclaration de l'Hégémonie, c49",TRUE,,,,graphics/icons/skills/combat_endurance3.png,
 impact_mitigation,Atténuation d'Impact,30,2,0,,"The maneuver produced an oblique impact angle, dissipating the shell's momentum into the ferrofoam applique. It was the unfortunate timing of the resulting shock which brought about Spacer York's tragic end during an otherwise routine heavy equipment transfer.","Thule skirmish of c120.03.08, AAR submitted by Navarch Zhou",TRUE,,,,graphics/icons/skills/impact_mitigation.png,
 damage_control,Contrôle des Avaries,40,2,0,,"What's lost is lost. Let those compartments burn away, focus your efforts on what will see us through the next hour.","Navarch Tethys, final address to the crew of the PLS Astelene Key",TRUE,,,,graphics/icons/skills/damage_control2.png,
 field_modulation,Modulation de Champ,50,2,0,,Few have a talent for what I like to think of as 'active tuning'. I find musicians make the best fields officers.,"Ardis Soloman, leaked data submitted to COMSEC redaction algorithm",TRUE,,,active_defenses,graphics/icons/skills/field_modulation.png,
 point_defense,Défense Rapprochée,60,3,0,,"Me, I don't take with them lasers and the like. Puts on a hell of a lightshow, ya'sure, but nothing stops incoming blips like the wall of DU from a good Vulcan matrix.","""Lower Deck Heroes"", a HEGCOM serial",TRUE,,,,graphics/icons/skills/advanced_countermeasures.png,
 target_analysis,Analyse de Cible,70,4,0,,A machine-assisted human mind is capable of intuiting effective solutions despite conflicting sensor data and contradictory tactical directives. The targeting computer alone can never truly replace a warrior.,"""On Space Combat, XXII ed."", from Domain Battlegroup XIV library ",TRUE,,,,graphics/icons/skills/target_analysis2.png,
-ballistic_mastery,Maîtrise Balistique,80,4,0,,"What's it stopped the Tri-Tach plot? (Guns!)
-What was it that ol' Ludd forgot? (Guns!)
-Whave we got that they have not? (Big, big, guns!)",drinking song of the Hegemony navy,TRUE,,,ballistic_weapons,graphics/icons/skills/ranged_specialization.png,
+ballistic_mastery,Maîtrise Balistique,80,4,0,,"Qu'est-c'qui a stoppé l'complot Tri-Tach ? (Les canons !)
+Qu'est-c'que l'vieux Ludd a oublié ? (Les canons !)
+Qu'est-c'qu'on a qu'ils ont pas ? (Des gros, gros canons !)",chanson à boire de la Marine de l'Hégémonie,TRUE,,,ballistic_weapons,graphics/icons/skills/ranged_specialization.png,
+
+
+
 systems_expertise,Expertise des Systèmes,90,5,4,2,"No, I don't think it's a contradiction. It's a, uh, spiritual journey. You're tested. And it's like they say, the Devil is in the details.","""Ludd's Footsoldiers"" holodoc, interview with Pather engineer",TRUE,,,,graphics/icons/skills/systems_expertise.png,
 missile_specialization,Spécialisation Missiles,100,5,4,2,My colleagues dont appreciate their whimsy. You get all these little spaceships to break all the rules with because there's no need to survive the landing.,"Exit interview of K. Astraia, former ordnance designer, Culann Starforge",TRUE,,,missile_weapons,graphics/icons/skills/missile_specialization2.png,
 ,,,,,,,,,,,,,
@@ -20,19 +23,19 @@ tactical_drills,Exercices Tactiques,500,1,0,,"Perfect.
 Now do it again.","Cameron Fourth-Phobos, Coatl Gunnery Range",,TRUE,,,graphics/icons/skills/weapon_drills.png,
 coordinated_maneuvers,Manoeuvres Coordonnées,520,2,0,,"Sir- incoming hostiles burning hard. Big ones. Count two. No, three. More... there's too many! High energy read. Contact in six.","Audio archive from CIC of HSS Ceraon, recovered 189.09.13",,TRUE,,,graphics/icons/skills/coordinated_maneuvers2.png,
 wolfpack_tactics,Tactiques de Meute,530,2,0,,A fleet that acts with one mind makes those pretty formations so beloved by senior desk officers a wallowing beast begging to have its throat slit. Cut loose the hounds that we may be wolves again.,"Warlord Kanta, quoted in ""My Year With The Pirate Queen""",,TRUE,,,graphics/icons/skills/wolfpack.png,
-crew_training,Formation d'Équipage,540,2,0,,"I know your type. Signed the contract with dirt on your boots, all ready to play spacer. Watched too many Hegemony warprop holos, didn't you. Get this now: courage is not competence. Playing hero will get us all killed. Careful, mindful work is what gets the job done.","Chaiya Mimas, Tri-Tachyon fleet division, job training introduction",,TRUE,,,graphics/icons/skills/crew_training.png,
-fighter_uplink,Liaison Chasseurs,545,3,0,,"The fighter jocks spin legends around themselves, but they're just the tip of a spear which I alone command.","Commodore Jensulte of the Hegemony Navy, ~c82",,TRUE,,,graphics/icons/skills/fighter_uplink2.png,
+crew_training,Formation d'Équipage,540,2,0,,"Je connais ton genre. T'as signé le contrat avec de la terre sur tes bottes, tout prêt à jouer au spacer. T'as regardé trop d'holos de propagande de l'Hégémonie, pas vrai. Retiens bien ça : le courage n'est pas la compétence. Jouer les héros nous fera tous tuer. C'est le travail minutieux et méthodique qui fait le boulot.","Chaiya Mimas, division de flotte Tri-Tachyon, introduction à la formation",,TRUE,,,graphics/icons/skills/crew_training.png,
+fighter_uplink,Liaison Chasseurs,545,3,0,,"Les pilotes de chasse tissent des légendes autour d'eux-mêmes, mais ils ne sont que la pointe d'une lance que je commande seul.","Commodore Jensulte de la Marine de l'Hégémonie, ~c82",,TRUE,,,graphics/icons/skills/fighter_uplink2.png,
 carrier_group,Groupe d'Astroporteurs,550,3,0,,"The stats tell us they'll be evaporated in a wall of flak before a half dozen missions, but we still want to be 'em. Once they're in the cockpit they're the only ones of all us who have control over their own destiny.","Nachiketa Portside Interview Project, Ep.4",,TRUE,,,graphics/icons/skills/carrier_command.png,
 officer_training,Formation d'Officiers,560,4,3,,"They may be a 'rag-tag gang of merchants, smugglers, and pirates', but if you give them something to fight for, I think they might surprise you.","Navarch Nurul Park, comment upon integration of the Cibolan navy",,TRUE,,,graphics/icons/skills/officer_training.png,
 officer_management,Gestion des Officiers,570,4,3,,"The outlook was grim, so I promised the merc captains double combat bonus. With all the casualties I only had to pay out to half of them. Worked out fine.","Carson Kang, GM of Valhalla fleet division, Tri-Tachyon",,TRUE,,,graphics/icons/skills/officer_management.png,
 best_of_the_best,L'Élite,580,5,4,2,"What we have, Artemisia, is something that cannot be bought.",Orcus Rao at the negotiations ending the Second AI War (apocryphal),,TRUE,,,graphics/icons/skills/best_of_the_best.png,
 support_doctrine,Doctrine de Soutien,590,5,4,2,"Not every cadet has talent, skill, or even two brain cells to rub together, but by hell and radiation they'll graduate with discipline.","unattributed comment by Coatl Academy staff, COMSEC archives",,TRUE,,,graphics/icons/skills/space_ops.png,
-force_concentration,Concentration de Forces,590,5,4,2,When I provide victory at the time and place of my choosing history shall absolve me of the sacrifice of a planet or two.,"Fleet Admiral Andrada, address to the Hegemony Strategic Assembly ",,TRUE,,"npc_only, deprecated",graphics/icons/skills/space_ops.png,
+force_concentration,Concentration de Forces,590,5,4,2,Quand j'offrirai la victoire au moment et au lieu de mon choix, l'histoire m'absoudra du sacrifice d'une planète ou deux.,"Amiral de Flotte Andrada, discours à l'Assemblée Stratégique de l'Hégémonie ",,TRUE,,"npc_only, deprecated",graphics/icons/skills/space_ops.png,
 ,,,,,,,,,,,,,
 # TECHNOLOGY,,,,,,,,,,,,,
 navigation,Navigation,1000,1,0,0,Spend enough time out here and it becomes second nature. It's how I move when I dream. Not all of us get that. Lots do.,"Nachiketa Portside Interview Project, Ep.2",,,,,graphics/icons/skills/navigation.png,
 sensors,Senseurs,1010,1,0,0,"I see you, little fish!","Comm buffer of ISS Green Flash, recovered in orbit of Beta Zuma B",,,,,graphics/icons/skills/sensors.png,
-gunnery_implants,Implants de Tir,1020,2,1,0,Over time the augmented reality presented by implants may become difficult to distinguish from normal sensory input. The psych officer shall regularly check gunners for signs of Augment Dissociative Disorder by the following criteria...,A New Leadership Framework: Manual for Officers of the Hegemony,TRUE,,,,graphics/icons/skills/gunnery_implants.png,
+gunnery_implants,Implants de Tir,1020,2,1,0,Avec le temps, la réalité augmentée présentée par les implants peut devenir difficile à distinguer de la perception sensorielle normale. L'officier psy devra régulièrement vérifier chez les artilleurs les signes de Trouble Dissociatif d'Augmentation selon les critères suivants...,Un Nouveau Cadre de Commandement : Manuel pour les Officiers de l'Hégémonie,TRUE,,,,graphics/icons/skills/gunnery_implants.png,
 energy_weapon_mastery,Maîtrise des Armes à Énergie,1030,2,1,0,"The eye of an angel was found in the small places, hidden there by merciful God in the first moments of creation. Thus its secrets were laid bare for the ignorant and cruel to loose terrible, fiery wrath. We lament.",Sacred Texts of Ludd,TRUE,,,energy_weapons,graphics/icons/skills/energy_weapon_mastery.png,
 electronic_warfare,Guerre Électronique,1040,4,2,0,"err. 401 // connection refused [try again?]
 err. 401 // connection refused [try again?]
@@ -42,7 +45,7 @@ cybernetic_augmentation,Augmentation Cybernétique,1080,5,4,2,Don't listen to th
 phase_corps,Calibrage des Bobines de Phase,1070,4,2,0,"Tri-Tachyon pries open holy creation daily, and at each desecration our wholesale damnation looms. Our path is burden; our path is suffering. We shall face them with faith that the only redemption is final judgment.","Livewell Cotton, Luddic Path terrorist, sermon of c205.2.12",,TRUE,,,graphics/icons/skills/phase_corps.png,
 special_modifications,Modifications Spéciales,1080,5,,,"The Domainers, oh, they designed to last, it's true. But all that soft living, you can tell they were scared to really push these things to their limits.","Luna Hexagen, independent engineer, Agreus city",,,,"npc_only, deprecated",graphics/icons/skills/special_modifications.png,
 neural_link,Lien Neural,1075,4,2,0,Why should a captain go down with their ship? The Tri-Tachyon corporation does not waste top talent.,"VP Operations Nereid De Jong at unveiling ceremony for ""Project Heket""",,,,,graphics/icons/skills/neural_link.png,
-automated_ships,Vaisseaux Automatisés,1090,5,4,2,[REDACTED],Hegemony COMSEC,,,,,graphics/icons/skills/automated_ships.png,
+automated_ships,Vaisseaux Automatisés,1090,5,4,2,[REDACTED],COMSEC de l'Hégémonie,,,,,graphics/icons/skills/automated_ships.png,
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
 # INDUSTRY,,,,,,,,,,,,,
@@ -83,7 +86,7 @@ phase_mastery,Maîtrise de Phase,80,4,0,,"I'm not getting back on that ship, not
 reliability_engineering,Fiabilité Mécanique,1530,2,0,,"In the end, by time and rads, my body will die. My comrades will return me to the stars that made me, and my ship will go on.",Spacer tradition,TRUE,,,"npc_only, deprecated",graphics/icons/skills/reliability_engineering.png,
 weapon_drills,Exercices de Tir,500,1,0,,"What's it stopped the Tri-Tach plot? (Guns!)
 What was it ol' Ludd forgot? (Guns!)
-Whatve we got that they have not? (Big, big, guns!)",drinking song of the Hegemony navy,,,,"npc_only, deprecated",graphics/icons/skills/weapon_drills.png,
+Whatve we got that they have not? (Big, big, guns!)",chanson à boire de la Marine de l'Hégémonie,,,,"npc_only, deprecated",graphics/icons/skills/weapon_drills.png,
 auxiliary_support,Soutien Auxiliaire,510,1,0,,No reserves? Look around you! There are a thousand space-capable ships in the civilian docks and a billion citizens in the arcologies. We need only open the stockpiles and give them weapons before the invasion arrives.,Baikal Daud at the Defense of Chicomoztoc,,,,"npc_only, deprecated",graphics/icons/skills/auxiliary_support.png,
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
