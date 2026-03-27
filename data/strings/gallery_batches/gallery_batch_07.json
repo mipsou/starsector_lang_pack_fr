@@ -4,79 +4,79 @@
     "id": "bombard_prepare",
     "title": "Prepare for Bombardment",
     "original_text": "\"If it's just followin' orders, it's not me that's going against the convention. Then it's on the captain. Right?\"",
-    "translated_title": "",
-    "translated_text": ""
+    "translated_title": "Préparation au Bombardement",
+    "translated_text": "\"Si c'est juste suivre les ordres, c'est pas moi qui vais contre la convention. Alors c'est sur le capitaine. Pas vrai ?\""
   },
   {
     "csv_row": 686,
     "id": "bombard_tactical_result",
     "title": "Tactical Bombardment",
     "original_text": "A spatter of hollowed icons represented dead targets across the display. The last one, full and red, blinked out into a scabrous brown.\n\nA subtle gesture collapsed the image and the icons winked out as one. The holomatrix snowed, then reformed into nav mode, the fleet holding station in low orbit.",
-    "translated_title": "",
-    "translated_text": ""
+    "translated_title": "Bombardement Tactique",
+    "translated_text": "Une éclaboussure d'icônes évidées représentait des cibles mortes sur l'affichage. La dernière, pleine et rouge, cligna pour s'éteindre dans un cercle creux."
   },
   {
     "csv_row": 687,
     "id": "bombard_saturation_result",
     "title": "Saturation Bombardment",
     "original_text": "When Loke came from the Abyss /\nThe first world, he burned /\nThe second, he took without a shot /\nThe third- look out, there he is!",
-    "translated_title": "",
-    "translated_text": ""
+    "translated_title": "Bombardement de Saturation",
+    "translated_text": "Quand Loke vint de l'Abîme /\nLe premier monde, il le brûla /\nLe deuxième, il le prit sans un tir /\nLe troisième — attention, le troisième..."
   },
   {
     "csv_row": 688,
     "id": "crew_leaving",
     "title": "Missed Crew Payment",
     "original_text": "\"The contract can suck vacuum. No credits, no crew.\"",
-    "translated_title": "",
-    "translated_text": ""
+    "translated_title": "Équipage Impayé",
+    "translated_text": "\"Le contrat peut aller se faire aspirer par le vide. Pas de crédits, pas d'équipage.\""
   },
   {
     "csv_row": 689,
     "id": "nav_buoy",
     "title": "Nav Buoy",
     "original_text": "A navigation buoy dating to the Domain era monitored local system hyperfield topography. The telemetry was of great use to configure and tune fleet drive bubbles.",
-    "translated_title": "",
-    "translated_text": ""
+    "translated_title": "Bouée de Navigation",
+    "translated_text": "Une bouée de navigation datant de l'ère du Domain surveillait la topographie locale de l'hyperchamp du système. La télémétrie était d'une grande utilité pour les navigateurs du Secteur."
   },
   {
     "csv_row": 690,
     "id": "free_orbit",
     "title": "Free Orbit",
     "original_text": "I asked what drew him back out there, time and time again. The old spacer took a long time before he answered.\n\n\"Because it's clean,\" he said.",
-    "translated_title": "",
-    "translated_text": ""
+    "translated_title": "Orbite Libre",
+    "translated_text": "Je lui ai demandé ce qui l'attirait là-bas, encore et encore. Le vieux spacer a mis longtemps avant de répondre.\n\n\"Parce que c'est le seul endroit où personne ne peut me dire quoi faire.\""
   },
   {
     "csv_row": 691,
     "id": "sensor_array",
     "title": "Sensor Array",
     "original_text": "The Domain-era array could passively monitor an entire star system and had a transmitter capable of encrypted real-time FTL data transmission to friendly fleets. The telemetry would supplement fleet-based sensors, effectively increasing their power and range.",
-    "translated_title": "",
-    "translated_text": ""
+    "translated_title": "Réseau de Capteurs",
+    "translated_text": "Le réseau de l'ère du Domain pouvait surveiller passivement un système stellaire entier et disposait d'un émetteur capable de transmission cryptée en temps réel vers les relais de communication voisins."
   },
   {
     "csv_row": 692,
     "id": "sensor_array_makeshift",
     "title": "Sensor Array, Makeshift",
     "original_text": "Makeshift sensor arrays built using post-Collapse technology passively monitored entire star systems. An on-board transmitter was capable of encrypted real-time, FTL data transmission to friendly fleets. This telemetry would supplement fleet-based sensors, effectively increasing their power and range.",
-    "translated_title": "",
-    "translated_text": ""
+    "translated_title": "Réseau de Capteurs, Improvisé",
+    "translated_text": "Les réseaux de capteurs improvisés construits avec une technologie post-Effondrement surveillaient passivement des systèmes stellaires entiers. Un émetteur embarqué relayait les données vers les relais de communication voisins."
   },
   {
     "csv_row": 693,
     "id": "galatia_academy",
     "title": "Galatia Academy",
     "original_text": "The Galatia Academy is the most prestigious university in the Persean Sector. The office of provost directs teaching and research and draws upon alumni to influence new generations of the brightest - or richest - students.",
-    "translated_title": "",
-    "translated_text": ""
+    "translated_title": "Académie Galatia",
+    "translated_text": "L'Académie Galatia est l'université la plus prestigieuse du Secteur Persane. Le bureau du prévôt dirige l'enseignement et la recherche depuis son campus orbital au-dessus d'Ancyra."
   },
   {
     "csv_row": 694,
     "id": "fusion_lamp",
     "title": "Fusion Lamp",
     "original_text": "\"Don't be too impressed, walker. It's a dim imitation of God's first day.\"",
-    "translated_title": "",
-    "translated_text": ""
+    "translated_title": "Lampe à Fusion",
+    "translated_text": "\"Ne soyez pas trop impressionné, marcheur. C'est une pâle imitation du premier jour de Dieu.\""
   }
 ]

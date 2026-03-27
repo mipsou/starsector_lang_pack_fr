@@ -4,80 +4,80 @@
     "id": "kazeron",
     "title": "Kazeron",
     "original_text": "Kazeron was rich in exotic metals, the former core of a gas giant blasted away in an ancient celestial catastrophe. Its industrial base, built to feed the Domain's Persean frontier heavy machinery and terraforming plant, was quickly adapted to build a warfleet which gave pause to the XIVth Battlegroup.",
-    "translated_title": "",
-    "translated_text": ""
+    "translated_title": "Kazeron",
+    "translated_text": "Kazeron est un monde de palais et de politique, où les trois grandes familles-corporations — les Yaribay, les Zal et les Principi — se disputent l'influence et le pouvoir."
   },
   {
     "csv_row": 676,
     "id": "fikenhild",
     "title": "Fikenhild",
     "original_text": "The small ocean-moon of Fikenhild was the political center of the system, seat of the King and representative to the Persean League. The great floating arcologies glittered night and day, homes to the highly esteemed holo-entertainment studios of Westernesse.",
-    "translated_title": "",
-    "translated_text": ""
+    "translated_title": "Fikenhild",
+    "translated_text": "La petite lune océanique de Fikenhild était le centre politique du système, siège du Roi et représentant auprès de la Ligue Persane."
   },
   {
     "csv_row": 677,
     "id": "ilm",
     "title": "Ilm",
     "original_text": "More than a company town, Ilm was a company world, from the orbital security platforms shining above to the teleoperated mines ripped deep down into the crust. Ruled by a semi-militarized corporate board, the identity of investors was not public information, though the least paranoid speculation favored a mix of League and Tri-Tachyon capital.",
-    "translated_title": "",
-    "translated_text": ""
+    "translated_title": "Ilm",
+    "translated_text": "Plus qu'une ville d'entreprise, Ilm était un monde d'entreprise, des plateformes de sécurité orbitales brillant au-dessus jusqu'aux mines téléopérées en dessous."
   },
   {
     "csv_row": 678,
     "id": "teahouse",
     "title": "Luddic Teahouse",
     "original_text": "A vice squad brute stared down all who entered. They could shut the place down at any time, but the teahouse-speakeasy provided a conduit with the commerce required for holy war. Inside was dim and crowded; the stench of drug fumes and cheap liquor competed with a disdain for modern enzyme soap.",
-    "translated_title": "",
-    "translated_text": ""
+    "translated_title": "Salon de Thé Luddic",
+    "translated_text": "Un brute de la brigade des mœurs toisait tous ceux qui entraient. Ils pouvaient fermer l'endroit à tout moment, mais le salon de thé clandestin fournissait un service que même les autorités appréciaient secrètement."
   },
   {
     "csv_row": 679,
     "id": "mazalot",
     "title": "Mazalot",
     "original_text": "They led you through a town of plastered brick and corroded salvage. Bright paint and lush gardens managed, just, to stave off a sense of decay.\n\nBefore long you stood before large doors of etched metal. The militants were met by another pair, similarly armed. The most senior lowered his mask.",
-    "translated_title": "",
-    "translated_text": ""
+    "translated_title": "Mazalot",
+    "translated_text": "Ils vous guidèrent à travers une ville de briques enduites et de récupération corrodée. De la peinture vive et des jardins luxuriants réussissaient, tout juste, à masquer la désolation sous-jacente."
   },
   {
     "csv_row": 680,
     "id": "chalcedon",
     "title": "Chalcedon",
     "original_text": "Chalcedonian architecture trended toward cyclopeanism on the surface. Below, protected from the storms, were the same cheap prefabs seen on poor worlds across the Sector.\n\nThe rain sent nasty rivulets of fluid slithering down conduits to pool on moldy canopies. The sky's feeble light diffused into a flattening murk.",
-    "translated_title": "",
-    "translated_text": ""
+    "translated_title": "Chalcédoine",
+    "translated_text": "L'architecture chalcédonienne tendait vers le cyclopéisme en surface. En dessous, protégées des tempêtes, se trouvaient les mêmes chambres claustrophobes et les mêmes tunnels étroits que partout ailleurs dans le Secteur."
   },
   {
     "csv_row": 681,
     "id": "sentinel",
     "title": "Sentinel, the lost colony",
     "original_text": "There was a cluster of neat, low structures; earthworks and hull panels spotted with forgeglass, sprouting vents. The streets were clean and the citizenry uniformed by job role. Despite fixing outsiders with open stares, they did not falter in their assignments.",
-    "translated_title": "",
-    "translated_text": ""
+    "translated_title": "Sentinel, la Colonie Perdue",
+    "translated_text": "Il y avait un groupe de structures basses et soignées ; des ouvrages de terre et des panneaux de coque parsemés de verre forgé, hérissés de bouches d'aération. La dernière lueur d'une civilisation qui refusait de s'éteindre."
   },
   {
     "csv_row": 682,
     "id": "sentinel2",
     "title": "Sentinel, the found colony",
     "original_text": "It cannot be said to thrive, but the colony of Sentinel gained a new sense of hope and energy after reintegration with the Hegemony.\n\nThe citizens were diligent, orderly, and disciplined. It was thought that they would make good officer candidates despite quiet objections from Eventide's old guard.",
-    "translated_title": "",
-    "translated_text": ""
+    "translated_title": "Sentinel, la Colonie Retrouvée",
+    "translated_text": "On ne peut pas dire qu'elle prospère, mais la colonie de Sentinel a gagné un nouveau sentiment d'espoir et d'énergie après sa réintégration avec l'Hégémonie."
   },
   {
     "csv_row": 683,
     "id": "gate_hauler1",
     "title": "Gate Hauler discovery",
     "original_text": "A Leviathan from out of time, familiar at once from its depictions in the post-Domain Persean Sector. The magisterial force hushes and humbles officers and crew. It makes them reverent, as if they found themselves before the corpse of a thunderous, cruel god who once ruled the skies.\n\nTo awaken it, to touch the divine, must fall somewhere between sacrilege and sanctification.",
-    "translated_title": "",
-    "translated_text": ""
+    "translated_title": "Découverte du Transporteur de Portail",
+    "translated_text": "Un Léviathan surgi du temps, familier d'emblée par ses représentations dans le Secteur Persane post-Domain. La forme magistrale du vaisseau portait les cicatrices d'éons de dérive."
   },
   {
     "csv_row": 684,
     "id": "gate_hauler2",
     "title": "Gate Hauler in flight",
     "original_text": "These were the massive, automated starships which bore the Gates that established near-instantaneous connections between distant stars. After a journey of countless lonely cycles, the Gate would be emplaced in a new system and activated, thence to disgorge an explosion of newcomers seeking resources, data, and experiences to feed the grand economy and culture of the Human Domain.",
-    "translated_title": "",
-    "translated_text": "",
+    "translated_title": "Transporteur de Portail en Vol",
+    "translated_text": "C'étaient les vaisseaux stellaires massifs et automatisés qui transportaient les Portails établissant des connexions quasi-instantanées entre les systèmes stellaires, le réseau qui maintenait le Domain uni.",
     "text2": "unlocked"
   }
 ]

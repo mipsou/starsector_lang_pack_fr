@@ -4,32 +4,32 @@
     "id": "mairaath",
     "title": "Ruins of Mairaath",
     "original_text": "Nightmarish storms circled the globe, stirring the ashes of a murdered world.\n\nEven after the apocalyptic ruin of Mairaath humanity still huddled in the broken shells of great cities brought low, blasted by unending wind.",
-    "translated_title": "",
-    "translated_text": ""
+    "translated_title": "Ruines de Mairaath",
+    "translated_text": "La civilisation de Mairaath s'est effondrée bien avant l'arrivée des vaisseaux-spores du Domain. Ce qui reste parle de grandeur et de folie en parts égales."
   },
   {
     "csv_row": 646,
     "id": "eochu_bres",
     "title": "Eochu Bres, Xanadu",
     "original_text": "Shining Tri-Tachyon Corporation arcologies towered over a riotous sprawl of shantytown conurbation. Company salariat were born, lived, and died protected by security drones in the high city Xanadu while a desperate class of immiserated laborers dwelled in the low city where anything at all was bought or sold.",
-    "translated_title": "",
-    "translated_text": ""
+    "translated_title": "Eochu Bres",
+    "translated_text": "Terraformé tardivement lors de la colonisation du Secteur Persane, Eochu Bres est un monde de pics et de fjords fraîchement déchirés par un temps violent et rapidement changeant."
   },
   {
     "csv_row": 647,
     "id": "eochu_bres_landing",
     "title": "Eochu Bres, Skyarco II",
     "original_text": "Gleaming monoliths glittered, spears of capital upthrust through the glowering flesh of the world. Skyarco II loomed prismatic.\n\nThe shuttle alit on a landing pad held at some distance from the facade by an airy support rib. It looked impossibly thin, but after touch down felt solid as a mountain.",
-    "translated_title": "",
-    "translated_text": ""
+    "translated_title": "Eochu Bres, Atterrissage",
+    "translated_text": "Les plateformes d'atterrissage d'Eochu Bres sont battues par les vents et marquées par le givre, mais les lumières des balises de guidage percent obstinément la brume."
   },
   {
     "csv_row": 648,
     "id": "survey",
     "title": "Planetary Survey",
     "original_text": "The fringe of the Persean Second is filled with worlds lost, forgotten, and never seen at all by consciousness born of flesh.\n\nThere are green fields of toxic xenolife, tombs frosted with nitrogen snow, roiling cauldrons of magma and brimstone, and planets made of living storm; vast fortunes to be uncovered, barbarian-worlds incapable of starflight, and the weapons of ancient wars primed to attack any interloper.",
-    "translated_title": "",
-    "translated_text": "",
+    "translated_title": "Relevé Planétaire",
+    "translated_text": "L'étude systématique des mondes du Secteur était autrefois une priorité du Domain. Aujourd'hui, c'est une entreprise solitaire menée par des spacers aux motivations variées.",
     "text2": "unlocked"
   },
   {
@@ -37,47 +37,47 @@
     "id": "luddic_shrine",
     "title": "Luddic Shrine",
     "original_text": "Pilgrims were offered tea, water, and ritual washing. The air was filled with sweat and incense. All around, a river of faith and ritual flowed.\nIn the hardship of life in the Persean Sector, as in the hardship of the pilgrimage, the Faithful found a kind of peace and meaning in the vacuum left by the Collapse.",
-    "translated_title": "",
-    "translated_text": ""
+    "translated_title": "Sanctuaire Luddic",
+    "translated_text": "Les sanctuaires de Ludd se trouvent partout où les fidèles se rassemblent, des plus simples autels dans des soutes de cargo aux grandes cathédrales orbitales."
   },
   {
     "csv_row": 650,
     "id": "orbital_construction",
     "title": "Orbital Construction",
     "original_text": "The ceramoid plating slowly peeled away in an aeon-long cascading fail state. Metallic ribs exposed, bleached by stellar winds, charged and released the pulsing dance of magnetic fields, the thrumming of orbits and the gnawing sirocco of micrometeorites.",
-    "translated_title": "",
-    "translated_text": ""
+    "translated_title": "Construction Orbitale",
+    "translated_text": "La construction de structures orbitales est un processus industriel massif nécessitant des nanoforges, des équipages spécialisés et des quantités colossales de matériaux."
   },
   {
     "csv_row": 651,
     "id": "dead_gate",
     "title": "Dead Gate",
     "original_text": "\"Humanity was thence scattered abroad upon the face of the galaxy, speaking one tongue, united by the demon Gates in one body of worldly law. But we had forgotten the laws of God, mightier than any fusion lance! God would remind humanity of its place in this universe.\"",
-    "translated_title": "",
-    "translated_text": ""
+    "translated_title": "Portail Inactif",
+    "translated_text": "Les Portails inactifs dérivent dans le vide, monuments silencieux d'une ère où l'humanité pouvait traverser la galaxie en un instant."
   },
   {
     "csv_row": 652,
     "id": "active_gate",
     "title": "Active Gate",
     "original_text": "It is a humming ring of adamantine material. If one knows how to look, sensors can detect their faint vibration in higher dimensions.\n\nIt is like a barely heard song, a door waiting to be opened.",
-    "translated_title": "",
-    "translated_text": ""
+    "translated_title": "Portail Actif",
+    "translated_text": "Un Portail actif pulse d'une énergie que même les meilleurs scientifiques du Secteur ne comprennent qu'imparfaitement. Traverser reste un acte de foi autant que de physique."
   },
   {
     "csv_row": 653,
     "id": "eventide",
     "title": "Eventide",
     "original_text": "Leading families of Eventide sponsored the stellar mirrors and shades to maintain islands of comfortable habitability. The disgraced and poor, meanwhile, lived in the twilight peripheries where harsh climactic shifts of the slow summer-day/winter-night cycle had to be endured in full force.",
-    "translated_title": "",
-    "translated_text": ""
+    "translated_title": "Eventide",
+    "translated_text": "Eventide est un monde de crépuscules perpétuels, son orbite verrouillée par les marées créant une bande habitable entre le jour éternel et la nuit sans fin."
   },
   {
     "csv_row": 654,
     "id": "volturn",
     "title": "Volturn, Ocean World",
     "original_text": "The port of Volturn was built on a loose flotilla of huge, singed-looking barges that wallowed in an oily sea. Offloading spacers are interrogated by dour security officers, then allowed into the traders' concourse. Merchants in dull suits, loyalty pins dutifully displayed on the collar, passed around a datapad loaded with incoming cargo manifests.",
-    "translated_title": "",
-    "translated_text": ""
+    "translated_title": "Volturn",
+    "translated_text": "Les mers de Volturn abritent l'un des écosystèmes xénobiologiques les plus riches du Secteur, dont les fameux homards volturniens tant prisés par l'élite."
   }
 ]
