@@ -4,21 +4,21 @@
     "id": "ShroudedHullmodItemRCMantle1b",
     "column": "text",
     "original": "You find your technology officer and chief engineer in another discussion over one of the unusual specimens held in the \"special salvage' bay.",
-    "translated": ""
+    "translated": "Vous trouvez votre officier technique et votre chef mécanicien dans une autre discussion à propos de l'un des spécimens inhabituels conservés dans la baie de \"récupération spéciale\"."
   },
   {
     "csv_row": 114,
     "id": "ShroudedHullmodItemRCMantle2",
     "column": "text",
     "original": "Engineering is frowning, manipulating a diagram of a ship with abrupt flicks at the interface. \"It'd have to be anchored to the flux grid. Only way to keep it wrapped close enough to the hull geometry.\"\n\n\"Precisely,\" Tech says. \"To keep the exotic material from diminishing! It will draw energy from incoming projectiles, storing it in the, um... meta-plasma?\"\n\nEngineering snorts dismissively.\n\n\"Merely a working term,\" Tech says defensively.",
-    "translated": ""
+    "translated": "Le chef mécanicien fronce les sourcils, manipulant un diagramme de vaisseau avec des mouvements brusques sur l'interface. \"Il faudrait l'ancrer à la grille de flux. C'est le seul moyen de le maintenir assez près de la géométrie de la coque.\"\n\n\"Précisément,\" dit l'officier technique. \"Pour empêcher la matière exotique de diminuer ! Elle absorbera l'énergie des projectiles entrants, la stockant dans le, euh... méta-plasma ?\"\n\nLe chef mécanicien renifle dédaigneusement.\n\n\"C'est juste un terme de travail,\" dit l'officier technique sur la défensive."
   },
   {
     "csv_row": 115,
     "id": "ShroudedHullmodItemRCMantle3",
     "column": "text",
     "original": "\"We can't store energy forever in this theoretical, pretend-plasma,\" Engineering says. \"It'll have to go somewhere.\"\n\n\"Invert the polarity of the flux converters and flicker the drive field. Boom, a gentle bump to local time-space.\" Tech looks self-satisfied. \"Um, by which I mean the ship itself.\"\n\n\"You hope it's a gentle bump.\" Engineering frowns, pulling up agrav inertial suppression timing charts. \"If it works.\"",
-    "translated": ""
+    "translated": "\"On ne peut pas stocker de l'énergie indéfiniment dans ce plasma théorique imaginaire,\" dit le chef mécanicien. \"Il faudra bien qu'elle aille quelque part.\"\n\n\"Inversez la polarité des convertisseurs de flux et faites osciller le champ de propulsion. Boum, une légère secousse sur l'espace-temps local.\" L'officier technique a l'air satisfait. \"Euh, par quoi je veux dire le vaisseau lui-même.\"\n\n\"Vous espérez que c'est une légère secousse.\" Le chef mécanicien fronce les sourcils, affichant des graphiques de synchronisation de suppression inertielle agrav. \"Si ça marche.\""
   },
   {
     "csv_row": 116,
@@ -26,14 +26,14 @@
     "column": "options",
     "option_line": "ShroudedHMM_talk5:\"Prove it. I want a full proposal and testing schedule by end-of-shift.\"",
     "original": "Prove it. I want a full proposal and testing schedule by end-of-shift.",
-    "translated": ""
+    "translated": "Prouvez-le. Je veux une proposition complète et un planning de tests avant la fin du quart."
   },
   {
     "csv_row": 117,
     "id": "ShroudedHullmodItemRCMantle4b",
     "column": "text",
     "original": "\"It'll work,\" Tech says. \"Remember last time?\"",
-    "translated": ""
+    "translated": "\"Ça marchera,\" dit l'officier technique. \"Vous vous souvenez de la dernière fois ?\""
   },
   {
     "csv_row": 117,
@@ -41,28 +41,28 @@
     "column": "options",
     "option_line": "ShroudedHMM_talk5:\"Prove it. I want a full proposal and testing schedule by end-of-shift.\"",
     "original": "Prove it. I want a full proposal and testing schedule by end-of-shift.",
-    "translated": ""
+    "translated": "Prouvez-le. Je veux une proposition complète et un planning de tests avant la fin du quart."
   },
   {
     "csv_row": 118,
     "id": "ShroudedHullmodItemRCMantle5",
     "column": "text",
     "original": "Both jump to attention, having been so involved in their argument that neither noticed you approach.\n\n\"$PlayerSirOrMadam, yes $playerSirOrMadam,\" they say, saluting.",
-    "translated": ""
+    "translated": "Tous deux se mettent au garde-à-vous, tellement absorbés par leur discussion qu'aucun ne vous a remarqué approcher.\n\n\"$PlayerSirOrMadam, oui $playerSirOrMadam,\" disent-ils en saluant."
   },
   {
     "csv_row": 119,
     "id": "ShroudedHullmodItemRCMantle5l",
     "column": "text",
     "original": "Both jump to attention, having been so involved in their argument that neither noticed you approach.\n\n\"$PlayerSirOrMadam, yes $playerSirOrMadam,\" they say, saluting.",
-    "translated": ""
+    "translated": "Tous deux se mettent au garde-à-vous, tellement absorbés par leur discussion qu'aucun ne vous a remarqué approcher.\n\n\"$PlayerSirOrMadam, oui $playerSirOrMadam,\" disent-ils en saluant."
   },
   {
     "csv_row": 120,
     "id": "ShroudedHullmodItemRCMantle6",
     "column": "text",
     "original": "You consider the undeniable possibility that the Luddic faith would view any use of this technology as literally demonic. You could be declared a heretical outlaw and hunted by the Knights of Ludd and Luddic Path alike.",
-    "translated": ""
+    "translated": "Vous considérez la possibilité indéniable que la foi luddique verrait tout usage de cette technologie comme littéralement démoniaque. Vous pourriez être déclaré hérétique hors-la-loi et traqué par les Chevaliers de Ludd comme par la Voie de Ludd."
   },
   {
     "csv_row": 120,
@@ -70,6 +70,6 @@
     "column": "options",
     "option_line": "defaultLeave:\"As you were.\"",
     "original": "As you were.",
-    "translated": ""
+    "translated": "Rompez."
   }
 ]

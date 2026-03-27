@@ -5,14 +5,14 @@
     "column": "options",
     "option_line": "GS_ZGR_MERC_cont4:Try to find out what Tri-Tachyon was looking for out here",
     "original": "Try to find out what Tri-Tachyon was looking for out here",
-    "translated": ""
+    "translated": "Essayer de découvrir ce que Tri-Tachyon cherchait ici"
   },
   {
     "csv_row": 181,
     "id": "GS_ZGR_MERC_cont3SelB",
     "column": "text",
     "original": "He goes on to describe various torments deserved due to the poor character of Director of Special Acquisitions Zunya Glamor-Rotanev. It seems unlikely that she would be interested in a recording of the transmission.",
-    "translated": ""
+    "translated": "Il poursuit en décrivant divers tourments mérités en raison du mauvais caractère de la Directrice des Acquisitions Spéciales Zunya Glamor-Rotanev. Il semble peu probable qu'elle serait intéressée par un enregistrement de la transmission."
   },
   {
     "csv_row": 181,
@@ -20,14 +20,14 @@
     "column": "options",
     "option_line": "GS_ZGR_MERC_cont4:Try to find records of what the mercenaries may have found",
     "original": "Try to find records of what the mercenaries may have found",
-    "translated": ""
+    "translated": "Essayer de trouver des enregistrements de ce que les mercenaires ont pu trouver"
   },
   {
     "csv_row": 182,
     "id": "GS_ZGR_MERC_cont4Sel",
     "column": "text",
     "original": "Your ops chief gives the order, and salvage teams move to prioritize the recovery of datacores and sensor buffers.\n\nThey are efficient in their work, and soon their relays hum with recovered data. Tiny packet drones shuttle recovered hardware between the wreck and your $shipOrFleet.",
-    "translated": ""
+    "translated": "Votre chef des opérations donne l'ordre, et les équipes de récupération se mettent à prioriser la récupération des cœurs de données et des tampons de capteurs.\n\nIls sont efficaces dans leur travail, et bientôt leurs relais bourdonnent de données récupérées. De minuscules drones de transport font la navette avec le matériel récupéré entre l'épave et votre $shipOrFleet."
   },
   {
     "csv_row": 182,
@@ -35,7 +35,7 @@
     "column": "options",
     "option_line": "GS_ZGR_MERC_cont5:Investigate the results",
     "original": "Investigate the results",
-    "translated": ""
+    "translated": "Examiner les résultats"
   },
   {
     "csv_row": 183,
@@ -43,28 +43,28 @@
     "column": "options",
     "option_line": "salExplore:Assess the ship's salvage value",
     "original": "Assess the ship's salvage value",
-    "translated": ""
+    "translated": "Évaluer la valeur de récupération du vaisseau"
   },
   {
     "csv_row": 187,
     "id": "GS_ACADEMY_cont1Sel",
     "column": "text",
     "original": "This hull is damaged, but through the scars of impacts and stripped armor your sensors officer recognizes the crest of the Galatia Academy. This expedition was lightly and inconspicuously armed, enough to discourage casual piracy while not offending the official neutrality of the Academy.\n\nPerhaps this was not enough.\n\nSalvage repeaters - a common feature of high-risk Academy probes and expeditions which promise a reward for return of data - are all dead. Manually disabled, overloaded and fused or even smashed with hand-tools, from the looks of it. Clearly someone did not want them transmitting their message, or any message, in this place.",
-    "translated": ""
+    "translated": "Cette coque est endommagée, mais à travers les cicatrices d'impacts et le blindage arraché, votre officier capteurs reconnaît l'emblème de l'Académie de Galatia. Cette expédition était légèrement et discrètement armée, assez pour décourager la piraterie occasionnelle sans offenser la neutralité officielle de l'Académie.\n\nPeut-être que cela n'a pas suffi.\n\nLes répéteurs de récupération - un dispositif courant des sondes et expéditions à haut risque de l'Académie, qui promettent une récompense pour le retour des données - sont tous morts. Désactivés manuellement, surchargés et fusionnés, voire détruits à coups d'outils, de toute évidence. Quelqu'un ne voulait clairement pas qu'ils transmettent leur message, ni aucun message, en ce lieu."
   },
   {
     "csv_row": 188,
     "id": "GS_ACADEMY_cont2Sel",
     "column": "text",
     "original": "The expedition's equipment is not the best money can buy, but the sensor suites and detector arrays were obviously lovingly modified and maintained - what's left of them, anyway. They're torn apart, twisted and burnt into jagged black filaments.\n\nShielded datacores are recovered by salvor teams and returned for analysis in a signal-quarantined vault kept for this purpose. It does not take long for your tech officer to report results.",
-    "translated": ""
+    "translated": "L'équipement de l'expédition n'est pas ce que l'argent peut acheter de mieux, mais les suites de capteurs et les réseaux de détecteurs ont été manifestement modifiés et entretenus avec soin - ce qu'il en reste, du moins. Ils sont déchirés, tordus et brûlés en filaments noirs déchiquetés.\n\nDes cœurs de données blindés sont récupérés par les équipes de récupération et renvoyés pour analyse dans un coffre en quarantaine de signal prévu à cet effet. Il ne faut pas longtemps à votre officier technique pour rapporter les résultats."
   },
   {
     "csv_row": 189,
     "id": "GS_ACADEMY_cont2Selb",
     "column": "text",
     "original": "\"Judging from logs and fabrication tags, the expedition dates to circa cycle 176,\" your tech officer says. \"This was the flagship of a small flotilla. The rest were... lost.\"\n\n\"Someone... tried to erase all records. Forge-reset.\"",
-    "translated": ""
+    "translated": "\"À en juger par les journaux et les marqueurs de fabrication, l'expédition remonte à environ le cycle 176,\" dit votre officier technique. \"C'était le vaisseau amiral d'une petite flottille. Les autres ont été... perdus.\"\n\n\"Quelqu'un... a essayé d'effacer tous les enregistrements. Réinitialisation de forge.\""
   },
   {
     "csv_row": 189,
@@ -72,6 +72,6 @@
     "column": "options",
     "option_line": "GS_ACADEMY_cont3:\"So there's nothing?\"",
     "original": "So there's nothing?",
-    "translated": ""
+    "translated": "Donc il n'y a rien ?"
   }
 ]

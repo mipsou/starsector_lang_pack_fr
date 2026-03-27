@@ -5,42 +5,42 @@
     "column": "options",
     "option_line": "gsVambrace_sample:Take samples for Oya Tanaica, the nanoforge engineer on Asher",
     "original": "Take samples for Oya Tanaica, the nanoforge engineer on Asher",
-    "translated": ""
+    "translated": "Prélever des échantillons pour Oya Tanaica, l'ingénieure nanoforge sur Asher"
   },
   {
     "csv_row": 206,
     "id": "gsVambraceSample",
     "column": "text",
     "original": "You order material samples taken from representative sections of the structure. It is possible that something more might be learned about its provenance.",
-    "translated": ""
+    "translated": "Vous ordonnez le prélèvement d'échantillons de matériaux sur des sections représentatives de la structure. Il est possible d'en apprendre davantage sur sa provenance."
   },
   {
     "csv_row": 207,
     "id": "gsVambraceExplore1",
     "column": "text",
     "original": "\"Spectra and mass returns are consistent, mostly, with ship armor,\" your sensors officer reports. \"No active power systems, no atmo, no habitable volumes. Temperature approaching background.\"\n\nThey look over their shoulder at you. \"It's dead. And it's been dead for a very long time.\"\n\nSensors gives you an apologetic look. \"Conditions are strange out here, $playerSirOrMadam. We'll need a closer look to find out more.\"",
-    "translated": ""
+    "translated": "\"Les retours de spectre et de masse sont compatibles, principalement, avec du blindage de vaisseau,\" rapporte votre officier capteurs. \"Aucun système d'alimentation actif, pas d'atmosphère, pas de volumes habitables. Température approchant le fond.\"\n\nIl se retourne vers vous. \"C'est mort. Et ça l'est depuis très longtemps.\"\n\nL'officier capteurs vous adresse un regard d'excuse. \"Les conditions sont étranges ici, $playerSirOrMadam. Il nous faudra un examen plus rapproché pour en savoir plus.\""
   },
   {
     "csv_row": 208,
     "id": "gsVambraceExplore1b",
     "column": "text",
     "original": "\"Spectra and mass returns are consistent with original armor composition from our, ah, matching specimen,\" your sensors officer reports. \"No active power systems, no atmo, no habitable volumes. Temperature approaching background.\"\n\nThey look over their shoulder at you. \"It's dead, and it's been dead for a very long time.\"\n\nSensors gives you an apologetic look. \"Conditions are strange out here, $playerSirOrMadam. We'll need a closer look to find out more.\"",
-    "translated": ""
+    "translated": "\"Les retours de spectre et de masse sont compatibles avec la composition de blindage originale de notre, euh, spécimen correspondant,\" rapporte votre officier capteurs. \"Aucun système d'alimentation actif, pas d'atmosphère, pas de volumes habitables. Température approchant le fond.\"\n\nIl se retourne vers vous. \"C'est mort, et ça l'est depuis très longtemps.\"\n\nL'officier capteurs vous adresse un regard d'excuse. \"Les conditions sont étranges ici, $playerSirOrMadam. Il nous faudra un examen plus rapproché pour en savoir plus.\""
   },
   {
     "csv_row": 210,
     "id": "gsVambraceSalvors2",
     "column": "text",
     "original": "As reports and scans come in, a picture emerges - both a detailed holographic mapping and an understanding of what this structure is.\n\nIt is a piece of modular armor with structural attachment points, flux vent ports, and even an auxiliary sensor network, though no internal power sources.\n\nThe engineering is all recognizable as related to Domain standards, but as if from a crude half-foreign culture. Power connectors, for instance, are robustly built but oddly shaped and accompanied by an odd drift in signage iconography. It's nothing your salvors can't understand or adapt, but it is technology unlike even the oldest nanofabricated hulls and hardware designs used in the Persean Sector.",
-    "translated": ""
+    "translated": "Au fur et à mesure que les rapports et scans arrivent, une image se forme - à la fois une cartographie holographique détaillée et une compréhension de ce qu'est cette structure.\n\nC'est une pièce de blindage modulaire avec des points d'attache structurels, des ports de ventilation de flux, et même un réseau de capteurs auxiliaire, bien que sans sources d'alimentation internes.\n\nL'ingénierie est entièrement reconnaissable comme liée aux standards du Domain, mais comme si elle venait d'une culture à demi étrangère et rudimentaire. Les connecteurs d'alimentation, par exemple, sont robustes mais de forme étrange, accompagnés d'une dérive curieuse dans l'iconographie des signalisations. Rien que vos récupérateurs ne puissent comprendre ou adapter, mais c'est une technologie différente même des plus anciennes coques et conceptions matérielles nanofabriquées utilisées dans le Secteur Perséen."
   },
   {
     "csv_row": 211,
     "id": "gsVambraceSalvors3",
     "column": "text",
     "original": "Your technology officer jumps at your words; they were apparently quite lost in thought.\n\n\"Um, $playerSirOrMadam. If I had to... in short, it's...\" \n\nYour ops chief maintains an even expression, pointedly unreactive to this stuttering.\n\n\"It's ancient,\" Tech finally settles on a word. \"It can only be a product of the Early Domain.\"",
-    "translated": ""
+    "translated": "Votre officier technique sursaute à vos paroles ; il était apparemment perdu dans ses pensées.\n\n\"Euh, $playerSirOrMadam. Si je devais... en bref, c'est...\" \n\nVotre chef des opérations maintient une expression neutre, ostensiblement impassible face à ce bégaiement.\n\n\"C'est ancien,\" l'officier technique se décide enfin pour un mot. \"Cela ne peut être qu'un produit du Domain originel.\""
   },
   {
     "csv_row": 211,
@@ -48,21 +48,21 @@
     "column": "options",
     "option_line": "gsVambrace_salvors4:\"Why is it here?\"",
     "original": "Why is it here?",
-    "translated": ""
+    "translated": "Pourquoi est-ce ici ?"
   },
   {
     "csv_row": 214,
     "id": "gsVambraceSalvors2b",
     "column": "text",
     "original": "Reports and scans come in, a detailed holographic mapping forms in your primary display, and all data confirms with certainty that this is an Onslaught Mk.I vambrace.\n\nThe modular armor features structural attachment points, flux vent ports, and even an auxiliary sensor network, though no internal power sources.\n\nThe engineering is all recognizable as related to Domain standards, but as if from a crude half-foreign culture. Power connectors, for instance, are robustly built but oddly shaped and accompanied by an odd drift in signage iconography. Your salvors have understood and adapted to these oddities before. Nonetheless, it is technology unlike even the oldest nanofabricated hulls and hardware designs used in the Persean Sector.",
-    "translated": ""
+    "translated": "Les rapports et scans arrivent, une cartographie holographique détaillée se forme sur votre écran principal, et toutes les données confirment avec certitude qu'il s'agit d'un brassard d'Onslaught Mk.I.\n\nLe blindage modulaire comporte des points d'attache structurels, des ports de ventilation de flux, et même un réseau de capteurs auxiliaire, bien que sans sources d'alimentation internes.\n\nL'ingénierie est entièrement reconnaissable comme liée aux standards du Domain, mais comme si elle venait d'une culture à demi étrangère et rudimentaire. Les connecteurs d'alimentation, par exemple, sont robustes mais de forme étrange, accompagnés d'une dérive curieuse dans l'iconographie des signalisations. Vos récupérateurs ont déjà compris et se sont adaptés à ces bizarreries. Néanmoins, c'est une technologie différente même des plus anciennes coques et conceptions matérielles nanofabriquées utilisées dans le Secteur Perséen."
   },
   {
     "csv_row": 221,
     "id": "oyaTanaicaAskSampleResp",
     "column": "text",
     "original": "\"Hmm,\" she gives you a renewed look of interest. \"You're the one who had the glove. Right.\" \n\n\"Well you had me at 'pay', captain. Come on down and we'll have a look at... what did you say you had?\"",
-    "translated": ""
+    "translated": "\"Hmm,\" elle vous lance un regard d'intérêt renouvelé. \"Vous êtes celui qui avait le gantelet. C'est ça.\" \n\n\"Eh bien, vous m'avez eue à 'payer', capitaine. Descendez et nous examinerons... vous avez dit que vous aviez quoi ?\""
   },
   {
     "csv_row": 226,
@@ -70,6 +70,6 @@
     "column": "options",
     "option_line": "oyaTanaica_sampleBack:\"Never mind.\"",
     "original": "Never mind.",
-    "translated": ""
+    "translated": "Peu importe."
   }
 ]

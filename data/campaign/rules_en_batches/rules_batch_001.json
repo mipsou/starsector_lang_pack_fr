@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "5:gateFlyThrough:Traverser le Portail",
     "original": "gateFlyThrough:Traverser le Portail",
-    "translated": ""
+    "translated": "gateFlyThrough:Traverser le Portail"
   },
   {
     "csv_row": 26,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "0:gateScan:Scanner le Portail",
     "original": "gateScan:Scanner le Portail",
-    "translated": ""
+    "translated": "gateScan:Scanner le Portail"
   },
   {
     "csv_row": 44,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "210:devGateExplode:>> (dev) Explode the gate",
     "original": "devGateExplode:>> (dev) Explode the gate",
-    "translated": ""
+    "translated": "devGateExplode:>> (dev) Faire exploser le portail"
   },
   {
     "csv_row": 68,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "abyssalLight_askOpsOutA:\"Compris, j'y veillerai. Merci chef.\"",
     "original": "Compris, j'y veillerai. Merci chef.",
-    "translated": ""
+    "translated": "Compris, j'y veillerai. Merci chef."
   },
   {
     "csv_row": 68,
@@ -37,28 +37,28 @@
     "column": "options",
     "option_line": "abyssalLight_askOpsOutB:\"De telles superstitions n'ont pas leur place sur ma passerelle, c'est compris ?\"",
     "original": "De telles superstitions n'ont pas leur place sur ma passerelle, c'est compris ?",
-    "translated": ""
+    "translated": "De telles superstitions n'ont pas leur place sur ma passerelle, c'est compris ?"
   },
   {
     "csv_row": 73,
     "id": "abyssalLightDwellerBegin",
     "column": "text",
     "original": "Cold light fills the primary display, stark against the abyss. The subtle pulse begs for your attention yet offers no promise of comfort.\n\nAfter a moment you consciously pull your eyes from the pitiless sight, centering your attention on your bridge officers to give your next order.",
-    "translated": ""
+    "translated": "Une lumière froide emplit l'écran principal, crue contre l'abîme. Sa pulsation subtile appelle votre attention sans offrir la moindre promesse de réconfort.\n\nAprès un instant, vous arrachez consciemment votre regard de ce spectacle impitoyable, recentrant votre attention sur vos officiers de passerelle pour donner votre prochain ordre."
   },
   {
     "csv_row": 74,
     "id": "abyssalLightDwellerNonLight",
     "column": "text",
     "original": "Cold light begins to grow in the primary display. A subtle pulse begs for your attention.\n\n\"Captain, I-\" It's your navigation officer, who glances at sensors and receives a nod. \"The light is moving. Coming closer.\"\n\nYou consciously pull your eyes from that comfortless light - diminished but not bereft of its call through even the meager medium of the primary display.\n\nIt's come to you.",
-    "translated": ""
+    "translated": "Une lumière froide commence à grandir sur l'écran principal. Une pulsation subtile appelle votre attention.\n\n\"Capitaine, je-\" C'est votre officier de navigation, qui jette un coup d'œil aux capteurs et reçoit un hochement de tête. \"La lumière se déplace. Elle se rapproche.\"\n\nVous arrachez consciemment votre regard de cette lumière sans réconfort - atténuée mais pas privée de son appel, même à travers le modeste medium de l'écran principal.\n\nElle est venue à vous."
   },
   {
     "csv_row": 75,
     "id": "abyssalLight_dwellerContSel",
     "column": "text",
     "original": "\"$PlayerSirOrMadam!\" Your sensors officer's voice is strained. \"Picking up - from the light - they came from out of nowhere!\" \n\nNavigation interrupts, \"$ShipOrFleet drive bubble in the red, instability increasing... holding... alert to multiple penetrations. N-space fissures detected inside the volume.\"\n\nA pause as the bridge crew takes in the eruption of alerts on their displays. Tactical takes initiative and activates the combat alarm to send all crew to battle stations. Frantic activity from all posts, chatter between the stations coordinating response.\n\nSensors calls over the low din: \"It's homing in on our active sensor emissions.\"",
-    "translated": ""
+    "translated": "\"$PlayerSirOrMadam !\" La voix de votre officier capteurs est tendue. \"Détection - venant de la lumière - ils sont apparus de nulle part !\" \n\nNavigation interrompt : \"Bulle de propulsion du $ShipOrFleet dans le rouge, instabilité croissante... ça tient... alerte intrusions multiples. Fissures de l'espace-N détectées à l'intérieur du volume.\"\n\nUne pause tandis que l'équipage de passerelle prend la mesure de l'éruption d'alertes sur leurs écrans. La section tactique prend l'initiative et active l'alarme de combat pour envoyer tout l'équipage aux postes de bataille. Activité frénétique à tous les postes, échanges entre les stations pour coordonner la riposte.\n\nCapteurs lance par-dessus le brouhaha : \"Ça se dirige vers nos émissions de capteurs actifs.\""
   },
   {
     "csv_row": 75,
@@ -66,7 +66,7 @@
     "column": "options",
     "option_line": "abyssalLight_maxSensors:Order a sensor sweep, full power, focused on the anomalous drive-bubble penetrations",
     "original": "Order a sensor sweep, full power, focused on the anomalous drive-bubble penetrations",
-    "translated": ""
+    "translated": "Ordonner un balayage capteurs, pleine puissance, focalisé sur les pénétrations anomales de la bulle de propulsion"
   },
   {
     "csv_row": 75,
@@ -74,6 +74,6 @@
     "column": "options",
     "option_line": "abyssalLight_emCon:\"Go to maximum emission control! EMCON zero-zero alpha, immediate execute.\"",
     "original": "Go to maximum emission control! EMCON zero-zero alpha, immediate execute.",
-    "translated": ""
+    "translated": "Passez en contrôle d'émissions maximum ! EMCON zéro-zéro alpha, exécution immédiate."
   }
 ]
