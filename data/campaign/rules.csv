@@ -314,20 +314,20 @@ $canSayGA = true 0","Your engineering chief makes a show of looking to Tech expe
 
 ""In truth, I could not say, exactly. And unfortunately we're not equipped to perform a full scientific investigation. Clearly it is a part of, or a product of the, the... hostile force which we bested. But to know what it IS... you'd need a full science team and laboratory facilities to even begin to approach the right questions, to say nothing of answers...""","shroudedSubstrate_optSelAga:""Like the Galatia Academy.""
 shroudedSubstrate_optSelAtt:""Like Tri-Tachyon.""",
-shroudedSubstrateOptSelAga,DialogOptionSelected,$option == shroudedSubstrate_optSelAga,,"""Yes, exactly."" Tech nods. ""Although...""","shroudedSubstrate_optSelAga2:""Although?""",
-shroudedSubstrateOptSelAga2,DialogOptionSelected,$option == shroudedSubstrate_optSelAga2,unset $canSayGA,"Your engineering chief answers. ""Yes, there's nothing like this in the public archives. The Galatia Academy is supposed to be neutral. But as you know, $playerSirOrMadam, the Hegemony will reach in to put its hands on the controls, so to speak, if it sees something it doesn't like. The Hegemony doesn't like disruption. And this...""
+shroudedSubstrateOptSelAga,DialogOptionSelected,$option == shroudedSubstrate_optSelAga,,"""Oui, exactement."" Tech acquiesce. ""Bien que...""","shroudedSubstrate_optSelAga2:""Bien que ?""",
+shroudedSubstrateOptSelAga2,DialogOptionSelected,$option == shroudedSubstrate_optSelAga2,unset $canSayGA,"Votre ingénieur en chef répond. ""Oui, il n'y a rien de tel dans les archives publiques. L'Académie Galatia est censée être neutre. Mais comme vous le savez, $playerSirOrMadam, l'Hégémonie mettra la main sur les commandes, pour ainsi dire, si elle voit quelque chose qui lui déplaît. L'Hégémonie n'aime pas les perturbations. Et ça...""
 
-A hand is extended to indicate the contents of the workbay.
+Une main est tendue pour désigner le contenu de la baie de travail.
 
-Tech nods agreement, ""The Ministry of Technology Standards would surely seize such specimens. I could not say what they would do with them, but we would not see them ever again. That much is certain.""","shroudedSubstrate_optSelAtt:""Tri-Tachyon then.""",
+Tech acquiesce, ""Le Ministère des Normes Technologiques saisirait certainement de tels spécimens. Je ne saurais dire ce qu'ils en feraient, mais nous ne les reverrions jamais. C'est une certitude.""","shroudedSubstrate_optSelAtt:""Tri-Tachyon alors.""",
 shroudedSubstrateOptSelAga2b,DialogOptionSelected,"$option == shroudedSubstrate_optSelAga2
 $saidTTthen","unset $canSayGA
-FireAll shroudedSubstrateBeginOpts","Your engineering chief answers. ""Yes, there's nothing like this in the public archives. The Galatia Academy is supposed to be neutral. But as you know, $playerSirOrMadam, the Hegemony will reach in to put its hands on the controls, so to speak, if it sees something it doesn't like. The Hegemony doesn't like disruption. And this...""
+FireAll shroudedSubstrateBeginOpts","Votre ingénieur en chef répond. ""Oui, il n'y a rien de tel dans les archives publiques. L'Académie Galatia est censée être neutre. Mais comme vous le savez, $playerSirOrMadam, l'Hégémonie mettra la main sur les commandes, pour ainsi dire, si elle voit quelque chose qui lui déplaît. L'Hégémonie n'aime pas les perturbations. Et ça...""
 
-A hand is extended to indicate the contents of the workbay.
+Une main est tendue pour désigner le contenu de la baie de travail.
 
-Tech nods agreement, ""The Ministry of Technology Standards would surely seize such specimens. I could not say what they would do with them, but we would not see them ever again. That much is certain.""",,
-shroudedSubstrateOptSelAtt,DialogOptionSelected,$option == shroudedSubstrate_optSelAtt,$saidTTthen = true 0,"Tech nods, ""Yes, their facilities would be more than able to perform this research. And,"" a smile, ""they are likely to pay very well, if what they say is true.""","shroudedSubstrate_optSelAttA:""What exactly do 'they' say?""
+Tech acquiesce, ""Le Ministère des Normes Technologiques saisirait certainement de tels spécimens. Je ne saurais dire ce qu'ils en feraient, mais nous ne les reverrions jamais. C'est une certitude.""",,
+shroudedSubstrateOptSelAtt,DialogOptionSelected,$option == shroudedSubstrate_optSelAtt,$saidTTthen = true 0,"Tech acquiesce, ""Oui, leurs installations seraient plus que capables de mener cette recherche. Et,"" un sourire, ""ils sont susceptibles de payer très bien, si ce qu'ils disent est vrai.""","shroudedSubstrate_optSelAttA:""Que disent-ils exactement ?""
 shroudedSubstrate_optSelAttB:""Who is this 'they'?""",
 shroudedSubstrateOptSelAttA,DialogOptionSelected,$option == shroudedSubstrate_optSelAttA,FireAll shroudedSubstrateBeginOpts,"""The Company pays very well indeed for unique specimens,"" Tech explains. ""Artifacts; Domain tech, xenobiology. Anything unknown to the present Persean Sector, anything strange which might demonstrate uncommon principles or serve an unexpected use.""",,
 shroudedSubstrateOptSelAttB,DialogOptionSelected,$option == shroudedSubstrate_optSelAttB,FireAll shroudedSubstrateBeginOpts,"""Independent salvors, scavengers, fringe surveyors,"" Tech explains.
@@ -9311,7 +9311,7 @@ BFFIonBoardYarbRespC,DialogOptionSelected,"$option == BFFI_onBoardingYarbResp
 $player.gaveDaudYaribayContact score:5",,"Of course you know the Yaribays. You were given Horus Yaribay's diplomatic credentials to arrange a meeting with High Hegemon Daud. During that meeting, you handed over the key required for an encrypted channel between Horus Yaribay and Baikal Daud.
 
 Horus Yaribay might owe you a favor, depending on how he views the situation.",BFFI_onBoardingYarb2know:Explain this to $global.jethroName,
-BFFIonBoardYarbRespD,DialogOptionSelected,$option == BFFI_onBoardingYarbResp,,"You know of Gens Yaribay of Kazeron, one of the three dominant ruling family-corporations. Theirs is most inclined toward rapprochement with the Hegemony, focusing less on heavy military industry and more on interfactional ventures.","BFFI_onBoardingYarb2:""Yes, I've heard of the Yaribays.""",
+BFFIonBoardYarbRespD,DialogOptionSelected,$option == BFFI_onBoardingYarbResp,,"Vous connaissez les Gens Yaribay de Kazeron, l'une des trois familles-corporations dirigeantes dominantes. C'est celle qui penche le plus vers un rapprochement avec l'Hégémonie, se concentrant moins sur l'industrie militaire lourde et davantage sur les entreprises interfactionnelles.","BFFI_onBoardingYarb2:""Oui, j'ai entendu parler des Yaribay.""",
 BFFIonBoardYarbRespBconfess,DialogOptionSelected,$option == BFFI_onBoardingYarb2confess,$player.BFFIconfessedYaribayCredAbuse = true,"Bornanew looks concerned as you describe your dealings. ""Your conscience, your soul, is between you and- well, I am not your judge or confessor.""
 
 ""From a practical standpoint, I would advise caution in asking too much of Horus of Gens Yaribay, to his face or behind it. He may know but choose not to act on your transgression.""",BFFI_onBoardingYarb3:Continuer,
@@ -9557,8 +9557,8 @@ OR
 Bornanew looks down at his notebook and turns a page, then turns it back. ""Of course, yes.""",,
 BFFImeetMenesBornOptInviteHsel,DialogOptionSelected,$option == bffi_mmBornOptHorusInvitePropose,$proposedHorusOption = true 0,"Bornanew looks at you for a long moment.
 
-""Do you think Horus Yaribay will help?""","bffi_mmBornOptHorusInvite1:""He wants to appease the Hegemony. And Luddics are a significant demographic...""",
-BFFImeetMenesOptInviteHtalk1,DialogOptionSelected,$option == bffi_mmBornOptHorusInvite1,,"He nods as you lay out your reasoning. The Hegemony wants a stable Luddic population. Horus wants a stable Hegemony in order to negotiate a peaceful settlement.
+""Do you think Horus Yaribay will help?""","bffi_mmBornOptHorusInvite1:""Il veut apaiser l'Hégémonie. Et les Luddic sont un groupe démographique important...""",
+BFFImeetMenesOptInviteHtalk1,DialogOptionSelected,$option == bffi_mmBornOptHorusInvite1,,"Il acquiesce tandis que vous exposez votre raisonnement. L'Hégémonie veut une population Luddic stable. Horus veut une Hégémonie stable afin de négocier un règlement pacifique.
 
 ""If Horus intervenes to defuse the situation before a greater conflict is fomented... Horus the peace-maker..."" Bornanew drums his fingers on his notebook.
 
@@ -10087,7 +10087,7 @@ $madeOffer = true 0
 AdjustRepPerson menes_yaribay FRIENDLY 1
 $option = bffi_mpBuyerVeracity2 0
 FireBest DialogOptionSelected","""One million credits."" Menes can't help but allow a glowing smile to break across his face.",,
-BFFImpBuyerVeracity2,DialogOptionSelected,$option == bffi_mpBuyerVeracity2,FireAll BFFImpBuyerHub2Opts,"""I can see you are a practical dealer. Skeptical, even,"" he says. ""This is understandable in a spacer. I know well of the sorts of figures you must deal with- corrupt Hegemony officers, pirates, ... treacherous, blood-thirsty Pather fanatics,"" he gives a quick glance at Bornanew to see if he's pierced the Knight's shell.
+BFFImpBuyerVeracity2,DialogOptionSelected,$option == bffi_mpBuyerVeracity2,FireAll BFFImpBuyerHub2Opts,"""Je vois que vous êtes un négociant pragmatique. Sceptique, même,"" dit-il. ""C'est compréhensible chez un spacer. Je connais bien le genre de personnages auxquels vous devez avoir affaire — des officiers corrompus de l'Hégémonie, des pirates, ... de perfides fanatiques Pather assoiffés de sang,"" he gives a quick glance at Bornanew to see if he's pierced the Knight's shell.
 
 $global.jethroName is serenely pondering the glove, only half-listening by all appearances.",,
 BFFImpBuyerOffer500k,DialogOptionSelected,$option == bffi_mpBuyerCredits500k,"$offered500k = true 0
@@ -10203,18 +10203,18 @@ BFFImpBuyerHub3OptDemarch,DialogOptionSelected,$option == bffi_mpBuyerHub3OptDem
 $buyerArgsMade++
 FireAll BFFImpBuyerHub3Opts","""But of course,"" Menes says, pouring on a gracious act. ""Silly me, so caught up in your reputation as a space captain... having a respectable title - you must understand - it is simply unexpected.""
 
-""We're the League!"" He slaps a hand across your back. ""We have to stick together, you know. Or the Hegemony will get us - or, precious Ludd, the Church might roll in to force us all to pray night and day, ha!"" He looks toward Bornanew, ""Ha-ha! A joke, friend, a joke.""",,
+""On est la League !"" Il vous tape dans le dos. ""On doit se serrer les coudes, vous savez. Sinon l'Hégémonie nous aura — ou, précieux Ludd, l'Église pourrait débarquer pour nous forcer tous à prier jour et nuit, ha !"" Il se tourne vers Bornanew, ""Ha-ha ! Une blague, ami, une blague.""",,
 BFFImpBuyerHub3OptDemarchB,DialogOptionSelected,"$option == bffi_mpBuyerHub3OptDemarch
 !$player.isLeagueMember","$madeArgDemarch = true 0
 $buyerArgsMade++
 FireAll BFFImpBuyerHub3Opts","""But of course,"" Menes says, pouring on a gracious act. ""Silly me, so caught up in your reputation as just a space captain... having a respectable title - you must understand - it is simply unexpected.""
 
-""Well, I'm sure you'll join the League soon enough!"" He slaps a hand across your back. ""We have to stick together, you know. Or the Hegemony will get us - or, precious Ludd, the Church might roll in to force us all to pray night and day, ha!"" He looks toward Bornanew, ""Ha-ha! A joke, friend, a joke.""",,
+""Eh bien, je suis sûr que vous rejoindrez la League assez tôt !"" Il vous tape dans le dos. ""On doit se serrer les coudes, vous savez. Sinon l'Hégémonie nous aura — ou, précieux Ludd, l'Église pourrait débarquer pour nous forcer tous à prier jour et nuit, ha !"" Il se tourne vers Bornanew, ""Ha-ha ! Une blague, ami, une blague.""",,
 BFFImpBuyerHub3OptCommission,DialogOptionSelected,$option == bffi_mpBuyerHub3OptCommission,"$madeArgCommission = true 0
 $buyerArgsMade++
 FireAll BFFImpBuyerHub3Opts","""No doubt!"" Menes exclaims, ""Why, I should have commended you earlier for your service to the League. I was so caught up in your reputation as a spacer - you know, adventures and schemes and the like - it completely slipped my mind that you're on our side."" 
 
-He slaps a hand across your back. ""We appreciate your work, you know. Imagine if the Hegemony came for us - or, precious Ludd, imagine if the Church rolled in to force us all to pray night and day, ha!"" He looks toward Bornanew, ""Ha-ha! A joke, friend, a joke.""",,
+Il vous tape dans le dos. ""On apprécie votre travail, vous savez. Imaginez si l'Hégémonie venait pour nous — ou, précieux Ludd, imaginez si l'Église débarquait pour nous forcer tous à prier jour et nuit, ha !"" Il se tourne vers Bornanew, ""Ha-ha ! Une blague, ami, une blague.""",,
 BFFImpBuyerHub3OptArroyo,DialogOptionSelected,$option == bffi_mpBuyerConArroyo,"$player.toldMenesYaribayArroyoBacksGlovePurchase = true
 $player.ethosLiar++
 $madeArgArroyo = true 0
@@ -14604,7 +14604,7 @@ gaMeetHegLieutenantOnCoatl,AddBarEvents,"$market.id == coatl
 !$player.metTseenKe
 $global.metTseenKeDuringTutorial","AddBarEvent coatlOfficer_barEvent ""Take the lieutenant up on that offer of a pint"" ""At the bar you see the lieutenant you met at the Galatia Academy. You recall that he offered to buy you a pint if you ever made it to Coatl.""",,,
 gaMeetHegLieutenantOnCoatlB,AddBarEvents,"$market.id == coatl
-!$player.metTseenKe","AddBarEvent coatlOfficer_barEvent ""Talk to the lieutenant who called out about Galatia"" ""From the bar a Hegemony lieutenant gives a friendly wave and calls out something about the incident in the Galatia System.""",,,
+!$player.metTseenKe","AddBarEvent coatlOfficer_barEvent ""Parler au lieutenant qui a interpellé au sujet de Galatia"" ""Depuis le bar, un lieutenant de l'Hégémonie fait un signe amical et lance quelque chose au sujet de l'incident dans le système Galatia.""",,,
 gaMeetHegLieutenantOnCoatlSel,DialogOptionSelected,"$option == coatlOfficer_barEvent
 $global.metTseenKeDuringTutorial","$player.metTseenKe = true
 AddGAOfficerToCoatl
@@ -16497,7 +16497,7 @@ GAFCSiyavongMeLeague,DialogOptionSelected,$option == gaFC_fikenhildSiyavongLeagu
 
 His smirk is almost deniable. He lets you wait for just a moment before this would register as insolence, then continues.
 
-""Nonetheless, as I'm sure you're aware, we in the League pride ourselves on a certain spirit of dynamism and cooperation which sets us apart from, say, the Hegemony.""","gaFC_fikenhildSiyavongLeague2a:""And that's what makes the League great. Do go on.""
+""Néanmoins, comme vous le savez certainement, nous dans la League nous enorgueillissons d'un certain esprit de dynamisme et de coopération qui nous distingue de, disons, l'Hégémonie.""","gaFC_fikenhildSiyavongLeague2a:""And that's what makes the League great. Do go on.""
 gaFC_fikenhildSiyavongLeague2b:""That's the right attitude. So where's Coureuse?""",
 GAFCSiyavongMeLeague2a,DialogOptionSelected,$option == gaFC_fikenhildSiyavongLeague2a,"$option = gaFC_fikenhildSiyavongCoureuseIsirah 0
 FireBest DialogOptionSelected","Siyavong puts on a dutifully, if not quite friendly, expression at your sudden display of patriotism.",,
@@ -16638,7 +16638,7 @@ gaFCProbe3InvestigationStart2,DialogOptionSelected,$option == gaFC_probeInvestig
 
 ""You can see here, and here. A collection of parts from a... a variety of sources."" Tech skims through the holo-model, rapt.
 
-""Some of this is officially restricted Hegemony miltech. And see here? This might be a piece of Tri-Tachyon black hardware...""","gaFC_probeInvestigaitonWrapUp1:""Fascinating. Conclusions?""",
+""Une partie de ceci est officiellement du matériel militaire restreint de l'Hégémonie. Et regardez ici ? Ceci pourrait être du matériel noir de Tri-Tachyon...""","gaFC_probeInvestigaitonWrapUp1:""Fascinant. Conclusions ?""",
 gaFCProbeInvestigaitonWrapUp1,DialogOptionSelected,$option == gaFC_probeInvestigaitonWrapUp1,"$global.gaFC_searchIsirah = true
 $global.gaFC_gotIsirahLeadFromProbes = true","""Euh,"" le technicien remarque votre attitude, ""C'est bien. Très bien. On a obtenu une lecture beaucoup plus précise du méta-réseau, ce qui, euh."" Tapotement frénétique sur un TriPad.
 
@@ -19129,11 +19129,11 @@ Baird retire ses lunettes un instant. ""La réconciliation Ligue-Hégémonie..."
 Elle secoue la tête d'un air incrédule. ""Ce qui importe, c'est que l'Hégémonie - et l'Église - accepteront un émissaire portant des accréditations diplomatiques des Yaribay pour un entretien privé avec le Haut Hégémon Daud.""",,
 gaATGIntroAsk1PL,DialogOptionSelected,"$option == gaATG_introAsk1
 $player.isLeagueMember","$askedWhoYaribay = true 0
-FireAll gaATGIntroHub1Options","""My 'take' is that they're the only one out of the three gens of Kazeron who favor a... let's call it a 'compromise' which seeks to unite the Persean League with the Hegemony.""
+FireAll gaATGIntroHub1Options","""Mon « avis » est qu'ils sont les seuls des trois gens de Kazeron à favoriser un... appelons ça un « compromis » qui cherche à unir la Ligue Persane avec l'Hégémonie.""
 
-Baird removes her spectacles for a moment, ""League-Hegemony reconciliation...""
+Baird removes her spectacles for a moment, ""Réconciliation League-Hégémonie...""
 
-She shakes her head incredulously. ""What is important is that the Hegemony - and the Church - will accept an envoy bearing Yaribay diplomatic credentials having a private talk with High Hegemon Daud.""",,
+She shakes her head incredulously. ""Ce qui est important, c'est que l'Hégémonie — et l'Église — accepteront un envoyé portant les accréditations diplomatiques Yaribay pour un entretien privé avec le Haut Hégémon Daud.""",,
 gaATGIntroAsk2,DialogOptionSelected,$option == gaATG_introAsk2,"$askedWhyHelp = true 0
 FireAll gaATGIntroHub1Options","Baird sourit froidement. ""L'aîné d'Horus Yaribay étudie à l'Académie Galatia. Il y a eu un incident. Il y en a généralement quand les enfants de fortunes inimaginables s'aventurent dans le monde. Ils ne sont pas habitués aux limites. Imaginez la honte : le rejeton de la gens Yaribay menacé d'expulsion,"" dit la rectrice. ""Impensable ; ce serait un scandale plus retentissant que l'enfant Kato qui a joué à la révolution sur Umbra.""
 
@@ -19769,7 +19769,7 @@ $GAATGhegSendScan","$option = gaATG_hegFleetScanTransmit2 0
 FireBest DialogOptionSelected",,,# I hope this works. -dgb
 gaATGhegFleetScanTransmit2,DialogOptionSelected,$option == gaATG_hegFleetScanTransmit2,,,gaATG_hegFleetScanTransmit3:Continuer,
 gaATGhegFleetScanTransmit3,DialogOptionSelected,$option == gaATG_hegFleetScanTransmit3,"Call $global.gaATG_ref sentHegemonyScan
-AddTextSmall ""Gate scan data transmitted to Hegemony fleet"" highlight
+AddTextSmall ""Données de scan du Portail transmises à la flotte de l'Hégémonie"" highlight
 unset $GAATGhegSendScan
 FireAll PopulateGateOptions","Une fois le scan terminé, vous ordonnez à votre officier de communication de transmettre une copie des données à la flotte de l'Hégémonie à proximité en utilisant la fréquence opérationnelle fournie.
 
@@ -20404,7 +20404,7 @@ gaATGreturnAfterJanusFail5,DialogOptionSelected,$option == gaATG_returnAfterJanu
 
 ""Je suis navrée que vous ayez des difficultés"", dit-elle sans la moindre trace d'excuse, ""mais je m'adapte aux conditions que les circonstances m'ont fournies.""",gaATG_returnAfterJanusFail6:Continuer,
 gaATGreturnAfterJanusFail5b,DialogOptionSelected,"$option == gaATG_returnAfterJanusFail5
-$global.gaATG_didRemoteFirstJanusTest",,"""You do realize,"" the provost says, ""That I am holding several Hegemony ministries at bay? They're rearing to storm and purge the Galatia Academy. Again. All I have on my side are the good graces of 'the hive-scum hegemon' Baikal Daud. And that, THAT is only held up by the Sector-shattering promise of what the results of this project could mean. If I don't get results, the lucky ones will live out their days in some oubliette near the core of Coatl.""
+$global.gaATG_didRemoteFirstJanusTest",,"""Vous réalisez,"" dit le prévôt, ""que je tiens plusieurs ministères de l'Hégémonie à distance ? Ils sont prêts à prendre d'assaut et purger l'Académie Galatia. Again. All I have on my side are the good graces of 'the hive-scum hegemon' Baikal Daud. And that, THAT is only held up by the Sector-shattering promise of what the results of this project could mean. If I don't get results, the lucky ones will live out their days in some oubliette near the core of Coatl.""
 
 Her icy glare shifts to you for a moment, ""At least the captain here had the good sense to perform the failed experiment in a remote system.""
 
@@ -21601,14 +21601,14 @@ asebScholarshipCauseCsel,DialogOptionSelected,$option == aseb_scholarshipCauseC,
 $player.ethosKnowledge++
 $player.scholarshipThemeUseAI = true
 $option = aseb_scholarshipOutro 0
-FireBest DialogOptionSelected","""Oh, um, interesting,"" he says. ""We're going to have to, um. You understand that the Hegemony has certain..."" He coughs once, a transparent excuse to not finish his sentence.
+FireBest DialogOptionSelected","""Oh, euh, intéressant,"" dit-il. ""Nous allons devoir, euh. Vous comprenez que l'Hégémonie a certaines..."" Il tousse une fois, une excuse transparente pour ne pas finir sa phrase.
 
 ""It all comes down to the wording, don't worry."" He taps away at the terminal for a minute. ""There. That should make everyone happy."" He smiles.",,
 asebScholarshipCauseDsel,DialogOptionSelected,$option == aseb_scholarshipCauseD,"$player.ethosHumanitarian++
 $player.ethosProAI++
 $player.scholarshipThemeProAI = true
 $option = aseb_scholarshipOutro 0
-FireBest DialogOptionSelected","""Oh, um, interesting,"" he says. ""We're going to have to, um. You understand that the Hegemony has certain..."" He coughs once, a transparent excuse to not finish his sentence.
+FireBest DialogOptionSelected","""Oh, euh, intéressant,"" dit-il. ""Nous allons devoir, euh. Vous comprenez que l'Hégémonie a certaines..."" Il tousse une fois, une excuse transparente pour ne pas finir sa phrase.
 
 ""It all comes down to the wording, don't worry."" He taps away at the terminal for a minute. ""There. That should make everyone happy."" He smiles.",,
 asebScholarshipCauseEsel,DialogOptionSelected,$option == aseb_scholarshipCauseE,"$player.luddicAttitudeFaithful++
@@ -28259,7 +28259,7 @@ TseenKeAskDaudOptD,TseenKeAskDaudOpts,"$gaveDaudOpinion
 
 ""Are you up or down on the Old Man? Not like we get a vote on it, ha-ha.""","tseenKe_askDaudOpA:""It's not my place to judge.""
 tseenKe_askDaudOpB:""He's practical. Knows how to keep his feet on the deck.""
-tseenKe_askDaudOpC:""He should be bolder. The Hegemony has great power, he should use it!""
+tseenKe_askDaudOpC:""Il devrait être plus audacieux. L'Hégémonie a un grand pouvoir, il devrait l'utiliser !""
 tseenKe_askDaudOpD:""I think he's in over his head. Maybe it's his background, maybe his character.""
 tseenKe_askDaudOpE:""Honestly, I could do a better job as High Hegemon.""
 tseenKe_askDaudOpF:""Someone like Orcus Rao should be in charge. He knows when to bend the rules.""",
@@ -28289,7 +28289,7 @@ TseenKeAskDaudOpA,DialogOptionSelected,$option == tseenKe_askDaudOpA,"$saidDaudO
 FireAll TseenKeAskDaudOpts","""Oh, ho- you're a diplomat now, are you? Suit yourself.""",,
 TseenKeAskDaudOpB,DialogOptionSelected,$option == tseenKe_askDaudOpB,"$saidDaudOp = true
 FireAll TseenKeAskDaudOpts","""Aye, that's right!"" Caliban thumps his console. ""That's why he's the old man! None of those flighty notions aristos and academicians love dreaming up.""",,
-TseenKeAskDaudOpC,DialogOptionSelected,$option == tseenKe_askDaudOpC,,"""Well..."" Caliban rubs his head. ""You're right on that, the Hegemony- we've got the guns, the best minds to aim 'em, and the best hands to fire 'em!""
+TseenKeAskDaudOpC,DialogOptionSelected,$option == tseenKe_askDaudOpC,,"""Eh bien..."" Caliban se gratte la tête. ""Vous avez raison sur ce point, l'Hégémonie — on a les canons, les meilleurs esprits pour les viser, et les meilleures mains pour les tirer !""
 
 ""And,"" he grins, ""If they're not the best, no matter. We've got more of all of 'em than anyone else in the big Mozzy alone!""
 
@@ -28301,7 +28301,7 @@ FireAll TseenKeAskDaudOpts","He sits back, puffs his cheeks out and blows air. A
 TseenKeAskDaudOpD,DialogOptionSelected,$option == tseenKe_askDaudOpD,"$saidDaudOp = true
 FireAll TseenKeAskDaudOpts","""Captain,"" Caliban shakes his head. ""I don't think that's fair to the old man.""
 
-""Now, you're entitled to your opinion on the matter, don't get me wrong. That's part of the Hegemony, we can have our own thoughts and our words- within reasonable limits considering the emergency of course.""
+""Maintenant, vous avez le droit d'avoir votre opinion sur la question, ne vous méprenez pas. Ça fait partie de l'Hégémonie, on peut avoir nos propres pensées et nos mots — dans des limites raisonnables vu l'urgence bien sûr.""
 
 ""But Daud? He's given everything and made the best of a bad situation, and,"" he pre-emptively raises a hand to ward off any objections. ""He's done it under pressure.""",,
 TseenKeAskDaudOpE,DialogOptionSelected,$option == tseenKe_askDaudOpE,"$saidDaudOp = true
@@ -28433,17 +28433,17 @@ raoFastOneA,DialogOptionSelected,$option == rao_fastOneA,,"His eyes glitter fros
 rao_fastOneCb:""That must have been a different $playerName.""",
 raoFastOneB,DialogOptionSelected,$option == rao_fastOneB,,"""No."" His amused tone has grown a touch of frost.
 
-He looks aside as he speaks. ""I think not. They don't give medals for lying in the Hegemony...""
+He looks aside as he speaks. ""Je ne pense pas. On ne donne pas de médailles pour mentir dans l'Hégémonie...""
 
-Then he holds a finger to his lips, thoughtfully. ""No, that's not true. Not at all. They don't give medals for lying TO the Hegemony.""
+Then he holds a finger to his lips, thoughtfully. ""Non, ce n'est pas vrai. Pas du tout. On ne donne pas de médailles pour mentir À l'Hégémonie.""
 
-He smiles again, turning back to you.","rao_fastOneB2a:""When did I ever lie to the Hegemony?"" (feign innocence)
+He smiles again, turning back to you.","rao_fastOneB2a:""Quand est-ce que j'ai menti à l'Hégémonie ?"" (feindre l'innocence)
 rao_fastOneB2b:""Is this about that fleet looking for Gargoyle after I left Tse Franchise Station?""",
 raoFastOneB2a,DialogOptionSelected,$option == rao_fastOneB2a,,"He breaks out in a hearty laugh, taking a moment before he rubs his eyes. 
 
 ""Yes, yes, very good."" Rao lets his hands fall deliberately to his console.
 
-""You lied when you encountered the absolute oaf in command of the fleet ordered to intercept you, transporting a hacker wanted by the Hegemony, away from Tse Franchise Station.""","rao_fastOneCa:""Oh, I remember now.""
+""Vous avez menti quand vous avez rencontré l'imbécile absolu commandant la flotte envoyée pour vous intercepter, transportant un hacker recherché par l'Hégémonie, depuis la Station Franchise Tse.""","rao_fastOneCa:""Oh, I remember now.""
 rao_fastOneCb:""That must have been a different $playerName.""",
 raoFastOneB2b,DialogOptionSelected,$option == rao_fastOneB2b,,"""It is, yes,"" he says. ""And the absolute oaf in command who believed your ruse.""","rao_fastOneCd:Withhold comment
 rao_fastOneCe:""Well. Sorry.""
@@ -28470,7 +28470,7 @@ raoFastOneCa2,DialogOptionSelected,$option == rao_fastOneCa2,,"""One should thin
 ""Better than a puffed-up uniform of the sort Eventide seems to spawn each cycle would. You remind me a bit of myself when I was younger and didn't have to sit at a desk.""",rao_fastOneSpeak:Continuer,
 raoFastOneCb,DialogOptionSelected,$option == rao_fastOneCb,,"Rao laughs, though there's more of an edge...
 
-You take a moment to try to form a judgement - if he really thinks this is funny, he can't be too angry, right? Or is he one of those officers that keeps others off guard with calculated shifts in mood? From what you know - mostly holodocs - Rao has a cunning streak and a bit of a mixed reputation among the more respectable segments of the Hegemony.
+You take a moment to try to form a judgement - if he really thinks this is funny, he can't be too angry, right? Or is he one of those officers that keeps others off guard with calculated shifts in mood? From what you know - mostly holodocs - Rao has a cunning streak and a bit of a mixed reputation among the segments les plus respectables de l'Hégémonie.
 
 Rao takes in a deep breath, quiet now, and drums his fingers on his console. Staring at you. Assessing.
 
@@ -28539,7 +28539,7 @@ $option = rao_nerieneSelWonC 0
 FireBest DialogOptionSelected",,,
 raoNerieneSelWonC,DialogOptionSelected,$option == rao_nerieneSelWonC,,"""And impressively so, I hear. Not from Neriene, of course."" He smirks. Though there's a touch of... sadness? He speaks before you're certain.
 
-""Though mind, captain, those were no mere 'thugs'. The Cardonas hold a grudge, and one of their own sits on the Strategic Assembly.""","rao_nerieneSelWonC2a:""The Strategic Assembly of the Hegemony? That could be inconvenient.""
+""Though mind, captain, those were no mere 'thugs'. The Cardonas hold a grudge, and one of their own sits on the Strategic Assembly.""","rao_nerieneSelWonC2a:""L'Assemblée Stratégique de l'Hégémonie? That could be inconvenient.""
 rao_nerieneSelWonC2b:""I'm not worried about the Strategic Assembly.""",
 raoNerieneSelWonC2a,DialogOptionSelected,$option == rao_nerieneSelWonC2a,,"""It could,"" Rao concedes. ""Though they're a faction known to have little favor from Baikal."" His eyes dart to you, ""The High Hegemon of course. Nonetheless, he must make concessions from time to time...""
 
@@ -28660,7 +28660,7 @@ raoAskDiktatMerc2,DialogOptionSelected,$option == rao_askDiktatMerc2,"FireAll Mo
 $askedAboutDiktatMerc = true","""Is that so,"" he says, nonchalant. ""I wonder why they would have said that.""","rao_askDiktatMerc3:""I think they were working for you. And under orders not to say so.""","# btw to get this the player has, or had, a Heg commission"
 raoAskDiktatMerc3,DialogOptionSelected,$option == rao_askDiktatMerc3,"SetTooltip rao_askDiktatMerc4c ""It's all about the money.""","He raises an eyebrow, his affect still casual.
 
-""If I had hired this mercenary, I imagine I'd be pretty upset at how easily they gave up the identity of their employer. It's a good thing the Hegemony has an official policy forbidding the employ of mercs.""","rao_askDiktatMerc4a:""What? The Hegemony regularly employs mercenaries.""
+""If I had hired this mercenary, I imagine I'd be pretty upset at how easily they gave up the identity of their employer. C'est une bonne chose que l'Hégémonie ait une politique officielle interdisant l'employ of mercs.""","rao_askDiktatMerc4a:""What? The Hegemony regularly employs mercenaries.""
 rao_askDiktatMerc4b:""If it's a fight against the Diktat, I want to be a part of it.""
 rao_askDiktatMerc4c:""Looks like someone is losing their bonus. Anyway, I want in.""
 rao_askDiktatMerc4d:""Clearly you don't take this very seriously.""",
@@ -28691,7 +28691,7 @@ He leaves the silence for you to fill.","
 
 ",
 raoAskDiktatMerc4optsA,RaoAskDiktatMerc4opts,,,,"rao_askDiktatMerc5merc:""Because you'll pay me well, and on time. You were a freelancer, you know the life.""",
-raoAskDiktatMerc4optsB,RaoAskDiktatMerc4opts,,,,"rao_askDiktatMerc5order:""They're mutineers. They undermine the restoration of the Domain, the Hegemony's purpose.""",
+raoAskDiktatMerc4optsB,RaoAskDiktatMerc4opts,,,,"rao_askDiktatMerc5order:""Ce sont des mutins. Ils sapent la restauration du Domain, la raison d'être de l'Hégémonie.""",
 raoAskDiktatMerc4optsC,RaoAskDiktatMerc4opts,,,,"rao_askDiktatMerc5human:""They're brutal oppressors, enemies of freedom and life. It's a just cause.",
 raoAskDiktatMerc4optsD,RaoAskDiktatMerc4opts,"$player.metStandfast 
 $player.mostLuddicEthosFaithful",,,"rao_askDiktatMerc5faith:""They're systematically killing the Faithful, they closed the Shrine of Volturn. My duty is to resist.""",
@@ -28734,7 +28734,7 @@ raoAskDiktatDolos2,DialogOptionSelected,$option == rao_askDiktatName,FireAll Rao
 ""Speaking of interests."" Rao's posture improves dramatically, and now he adopts the posture of the admiral he is. ""I'm interested in why you're having such intimate conversations with Dolos Macario.""",,
 RaoAskDiktatDolosOptsA,RaoAskDiktatDolosOpts,,,,"rao_askDiktatDolosOptA:""He... recruited me into his scheme and one thing led to another. I'm not really sure.""",
 RaoAskDiktatDolosOptsB,RaoAskDiktatDolosOpts,,,,"rao_askDiktatDolosOptB:""He paid me in credits and hardware for some jobs. I have no loyalty to him.""",
-RaoAskDiktatDolosOptsC,RaoAskDiktatDolosOpts,,,,"rao_askDiktatDolosOptC:""I gained his trust in order to sabotage and betray him. To help you, the Hegemony.""",
+RaoAskDiktatDolosOptsC,RaoAskDiktatDolosOpts,,,,"rao_askDiktatDolosOptC:""J'ai gagné sa confiance pour le saboter et le trahir. Pour vous aider, vous, l'Hégémonie.""",
 RaoAskDiktatDolosOptsD,RaoAskDiktatDolosOpts,,,,"rao_askDiktatDolosOptD:""To bring the Diktat down from the inside. Are you going to help or not?""",
 RaoAskDiktatDolosOptsE,RaoAskDiktatDolosOpts,,,,"rao_askDiktatDolosOptE:""I figure I could take over the Sindrian Diktat if I played this right.""",
 RaoAskDiktatDolosOptsF,RaoAskDiktatDolosOpts,,,,"rao_askDiktatDolosOptF:""I'm not answering that.""",
@@ -28746,7 +28746,7 @@ RaoAskDiktatDolosOptsCsel,DialogOptionSelected,$option == rao_askDiktatDolosOptC
 RaoAskDiktatDolosOptsDsel,DialogOptionSelected,$option == rao_askDiktatDolosOptD,,,,
 RaoAskDiktatDolosOptsEsel,DialogOptionSelected,$option == rao_askDiktatDolosOptE,,"""Really?"" He looks legitimately perplexed. ""An outsider with no connection to the ruling clique or official ideology swoops in and claims executive control based on... what, force alone?""
 
-Rao taps his chin, considering. ""I see where you got the idea, of course. But warfleets aside, you do lack connections with certain factions of the local elite. And you've not benefited from 20 cycles of the Hegemony propaganda machine building you up as the savior of human civilization.""",rao_askDiktatDolosOptE2:Continuer,
+Rao taps his chin, considering. ""I see where you got the idea, of course. But warfleets aside, you do lack connections with certain factions of the local elite. And you've not benefited from 20 cycles de la machine de propagande de l'Hégémonie vous érigeant en sauveur de la civilisation humaine.""",rao_askDiktatDolosOptE2:Continuer,
 RaoAskDiktatDolosOptsE2,DialogOptionSelected,$option == rao_askDiktatDolosOptE2,,"""No."" He shakes his head. ""I don't think so.""
 
 ""If you were lucky you could be another Loke or Leonis. But they never built anything, they only destroyed. And how they died...""
@@ -28764,7 +28764,7 @@ $global.sdtu_completed
 FireBest DialogOptionSelected","""Hmm."" Rao looks you over. Is that a twinkle of amusement?",,
 #RaoAskDiktat2default,DialogOptionSelected,$option == rao_askDiktat2,"$saidDiktat = true 0
 $gotAnOpening = true
-FireAll PopulateOptions","""The 'Sindrian Mutiny' is an interest of all officers of the Hegemony, I should think.""
+FireAll PopulateOptions","""La « Mutinerie Sindrienne » est un sujet d'intérêt pour tous les officiers de l'Hégémonie, il me semble.""
 
 His look becomes more severe.
 
@@ -28777,13 +28777,13 @@ His look becomes more severe.
 #RaoAskDiktat2heg,DialogOptionSelected,"$option == rao_askDiktat2
 $player.fcm_faction == hegemony","$saidDiktat = true 0
 $gotAnOpening = true
-FireAll PopulateOptions","""The 'Sindrian Mutiny' is an interest of all officers of the Hegemony - and that includes colorful commission-holders like yourself.""
+FireAll PopulateOptions","""La « Mutinerie Sindrienne » est un sujet d'intérêt pour tous les officiers de l'Hégémonie — et cela inclut les titulaires de commission hauts en couleur comme vous.""
 
 He tics a quick smile. ""You didn't come here to chat about history, captain. Say what you're telling me.""",,
 #RaoAskDiktat2rep,DialogOptionSelected,"$option == rao_askDiktat2
 RepGTE hegemony FRIENDLY","$saidDiktat = true 0
 $gotAnOpening = true
-FireAll PopulateOptions","""The 'Sindrian Mutiny' is an interest of all officers of the Hegemony - and that includes ostensibly loyal citizens such as yourself, does it not?""
+FireAll PopulateOptions","""La « Mutinerie Sindrienne » est un sujet d'intérêt pour tous les officiers de l'Hégémonie — et cela inclut les citoyens ostensiblement loyaux comme vous, n'est-ce pas ?""
 
 He tics a quick smile. ""You didn't come here to chat about history, captain. Say what you're telling me.""",,
 #RaoAskDiktat2diktat,DialogOptionSelected,"$option == rao_askDiktat2
@@ -28796,9 +28796,9 @@ His expression turns from amused to severe.
 ,,,,,,
 ,,,,,,
 #raoAskDiktatHyder,,,,,"rao_askDiktatHyder2:""Oxana Hyder. Think she'd come back?""",#Oxana Hyder TODO  ... later. Need to be able to do payoff.
-#raoAskDiktatHyder2,DialogOptionSelected,$option == rao_askDiktatHyder2,,"""Maybe,"" Rao grunts. His look is uncharitable. ""What you must ask is, does the Hegemony want her back? Yes- in an isolation cell. To begin with.""
+#raoAskDiktatHyder2,DialogOptionSelected,$option == rao_askDiktatHyder2,,"""Maybe,"" Rao grunts. His look is uncharitable. ""What you must ask is, est-ce que l'Hégémonie la veut de retour ? Oui — dans une cellule d'isolement. To begin with.""
 
-""We don't look well upon mutiny in the Hegemony, captain. Especially not mutinies that last for over 20 cycles.""",,
+""Nous ne voyons pas la mutinerie d'un bon œil dans l'Hégémonie, capitaine. Surtout pas des mutineries qui durent depuis plus de 20 cycles.""",,
 ,,,,,,
 # Orcus Rao job pitch,,,,,,
 RaoLookingForWorkOption,PopulateOptions,"$id == rao
@@ -28863,7 +28863,7 @@ He makes a shoo motion. ""Off with you.""
 The comms cut.",,
 RaoPitchDiktatCom3c,DialogOptionSelected,$option == rao_pitchDiktatCom3c,,"""You're not like me,"" he says. ""I was a mercenary, yes. But that was not all I was. And it is not all I am.""
 
-""I am a Rao,"" his voice is full and strong. ""I am an officer of the Hegemony Navy despite the best efforts of a few among us who love rules and uniforms more than they love the service and the cause.""
+""Je suis un Rao,"" sa voix est pleine et forte. ""Je suis un officier de la Marine de l'Hégémonie malgré les efforts de quelques-uns parmi nous qui aiment les règles et les uniformes plus qu'ils n'aiment le service et le cause.""
 
 He sits back down, a piercing and newly earnest look fixed on you.",rao_pitchDiktatCom3c2:Continuer,
 RaoPitchDiktatCom3c2,DialogOptionSelected,$option == rao_pitchDiktatCom3c2,"AdjustRepActivePerson -10
@@ -28884,7 +28884,7 @@ He makes a shoo motion. ""Off with you.""
 The comms cut.",,
 RaoPitchHegCom,DialogOptionSelected,"$option == rao_pitchTest
 $player.fcm_faction == hegemony score:3","$option = rao_pitchOffer 0
-FireBest DialogOptionSelected","""You're already signed up with the Hegemony. Good. That saves me a lot of bureaucratic nonsense.""",,
+FireBest DialogOptionSelected","""Vous êtes déjà engagé avec l'Hégémonie. Bien. Ça m'épargne beaucoup de bêtises bureaucratiques.""",,
 RaoPitchLeagueCom,DialogOptionSelected,"$option == rao_pitchTest
 $player.fcm_faction == persean score:2","$pitchNope = true 0
 FireAll PopulateOptions","""As you bear the commission of the Persean League..."" He makes a half-shrug. ""I can't have you in a position of divided loyalty.""
@@ -28914,7 +28914,7 @@ FireBest DialogOptionSelected","""Of course.""
 He sits back, face falling into shadow.",,
 RaoPitchLeagueHannanB,DialogOptionSelected,$option == rao_pitchHannanB,,"""But you made the deal,"" Rao says impishly. ""You didn't have to.""","rao_pitchHannanBexplain:""I don't need to explain myself to you.""
 rao_pitchNopeGentle:""I have a plan to get out of it. You'll see.""
-rao_pitchHannanBprot:""Is the Hegemony offering its protection against the League?""",
+rao_pitchHannanBprot:""L'Hégémonie offre-t-elle sa protection contre la League ?""",
 RaoPitchLeagueHannanBexplain,DialogOptionSelected,$option == rao_pitchHannanBexplain,$pitchNope = true 0,"""Then nothing more need be said.""
 
 His tone makes it clear that the conversation is over.",cutCommLink:Couper la comm,
@@ -28933,7 +28933,7 @@ RepGTE hegemony WELCOMING
 He produces a little shrug.
 
 ""But perhaps,"" he looks aside. ""We might have a mutual friend on Kazeron?""","rao_pitchYaribayMum:""I'm sure I couldn't say.""
-rao_pitchYaribay2:""Horus Yaribay, you mean. And his desire for unification with the Hegemony.""
+rao_pitchYaribay2:""Horus Yaribay, vous voulez dire. Et son désir d'unification avec l'Hégémonie.""
 rao_pitchNopeGentle:""I'm not sure I want to get involved in such a scheme just now.""",
 RaoPitchLeagueYaribayMum,DialogOptionSelected,$option == rao_pitchYaribayMum,,"""I understand. Keeping with his trust is more important than serving that goal."" He leans back, ""It's interesting.""","rao_pitchYaribayMum2a:""Speculate if you like, I have nothing to say.""
 rao_pitchYaribayMum2b:""Hypothetically, I would require the consent of the third party before discussing anything.""
@@ -28949,7 +28949,7 @@ RaoPitchLeagueYaribay2,DialogOptionSelected,$option == rao_pitchYaribay2,,"He sm
 rao_pitchNopeGentle:""Thank you for the offer, but perhaps not just now.""",
 RaoPitchChurchNo,DialogOptionSelected,"$option == rao_pitchTest
 $player.fcm_faction == luddic_church score:2
-RepLTE hegemony FAVORABLE",,"""Although the Hegemony is no stranger to making common cause with the Church of Galactic Redemption...""
+RepLTE hegemony FAVORABLE",,"""Bien que l'Hégémonie ne soit pas étrangère à faire cause commune avec l'Église de la Rédemption Galactique...""
 
 He makes a half-shrug.
 
@@ -28978,7 +28978,7 @@ RaoPitchOffer,DialogOptionSelected,$option == rao_pitchOffer,FireAll RaoPitchHub
 He leans forward, his hands together. ""What do you think? Could be fun. Play your cards right, and you'll be a legend.""",,
 RaoPitchHubOptA,RaoPitchHubOpts,!$saidWhatNeed,,,"rao_pitchOptWhatNeed:""What sort of work do you need done?""",
 RaoPitchHubOptB,RaoPitchHubOpts,"$saidWhatNeed
-!$saidRespect",,,"rao_pitchOptRespect:""You show little respect for your fellow officers of the Hegemony.""",
+!$saidRespect",,,"rao_pitchOptRespect:""Vous montrez peu de respect pour vos camarades officiers de l'Hégémonie.""",
 RaoPitchHubOptC,RaoPitchHubOpts,"$saidWhatNeed
 !$saidCircumstances",,,"rao_pitchOptCircumstances:""What are these 'unique circumstances'? What is your goal?""",
 RaoPitchHubOptD,RaoPitchHubOpts,"$saidCircumstances
@@ -28995,7 +28995,7 @@ FireAll RaoPitchHubOpts","""The truth makes few friends."" Rao produces a wry sm
 ""I never could stand a fool, especially when they're members of the Strategic Assembly. So,"" he holds his hand out to indicate his surroundings, Ragnar Complex.
 
 ""It's not so bad.""",,
-RaoPitchOptWhatNeed,DialogOptionSelected,$option == rao_pitchOptWhatNeed,,"""A proper officer of the Hegemony is taught to leap toward the enemy, blazing guns. Once the noise quiets down, they'll wait, slack-jawed, for the medals to get pinned to their uniforms."" 
+RaoPitchOptWhatNeed,DialogOptionSelected,$option == rao_pitchOptWhatNeed,,"""Un véritable officier de l'Hégémonie apprend à se jeter sur l'ennemi, canons en feu. Once the noise quiets down, they'll wait, slack-jawed, for the medals to get pinned to their uniforms."" 
 
 ""Such is the way of the Domain, which we must uphold.""
 
@@ -30216,7 +30216,7 @@ ZGRthreatTechAskThreatAI1,DialogOptionSelected,$option == zgr_askQuestionsThreat
 $askedAnyQuestion = true 0
 FireAll ZGRaskQuestionsOpts","""These are not artificial intelligences,"" she says decisively.
 
-""Not that such distinction is necessary to Hegemony regulators. Whâtever future war the Hegemony initiates, whâtever new oppressions they conceive, it will be a consequence of leadership as paranoid as their masses are ignorant.""
+""Non que cette distinction soit nécessaire aux régulateurs de l'Hégémonie. Whâtever future guerre que l'Hégémonie déclenche, whâtever nouvelles oppressions qu'ils conçoivent, it will be a consequence of leadership as paranoid as their masses are ignorant.""
 
 ""Besides,"" she says, self-satisfied, ""if I am right about everything, there will be no need for a war.""",,
 ZGRthreatTechAskThreatAlive1,DialogOptionSelected,$option == zgr_askQuestionsThreatAlive,"$askedThreatAlive = true
@@ -30287,7 +30287,7 @@ ZGRfirstVisitIntro2,DialogOptionSelected,$option == ZGR_firstVisitIntro2,,"You s
 You are invited inside by an obsequious corporate usher.",ZGR_firstVisitIntro3:Suivre,
 ZGRfirstVisitIntro3,DialogOptionSelected,$option == ZGR_firstVisitIntro3,,"The architecture of Skyarco II's interior and its integrated art-installations are titanic in scale and inhuman in affect. Your attention is subtly drawn toward geometric motifs suggestive of a mathematical intricacy which would reward close study with nothing less than delight, and...
 
-""It was designed by an Artificial Intelligence,"" the cheerful secretary behind the reception desk informs you, breaking the trance. ""Before the ban imposed by the Hegemony, of course."" 
+""It was designed by an Artificial Intelligence,"" the cheerful secretary behind the reception desk informs you, breaking the trance. ""Avant l'interdiction imposée par l'Hégémonie, bien sûr."" 
 
 ""The piece is explicitly referent-free to reflect the pure universe of interstellar markets which invite every new partner to participate in Tri-Tachyon's enterprise!""","ZGR_firstVisitIntro4:""I'm here to see Director Glamor-Rotenev.""
 ZGR_firstVisitIntro3b:""Isn't that nice.""",
@@ -30363,7 +30363,7 @@ FireBest ZGRbigUps",,,
 ZGRacknowledgeGA1,ZGRbigUps,"!$didGA1
 $global.gaFC_missionCompleted
 !$global.gaATG_missionCompleted","$didGA1 = true
-$didUps++","""You're proving useful to Provost Baird - an admirable figure generally - yet one who stubbornly ties herself to the Hegemony bureaucracy.""
+$didUps++","""You're proving useful to Provost Baird - an admirable figure generally - et pourtant une qui s'accroche obstinément à la bureaucratie de l'Hégémonie.""
 
 ""If it weren't for Kallichore's blundering..."" Her eyes grow distant - more distant - for a moment, then return to their usual unblinking detachment.
 
@@ -30451,7 +30451,7 @@ $didUps++","""We've noticed that Mr. Macario - apologies,"" she laughs like a wi
 She brushes one hand off with the other. ",ZGR_acknowledgeContinue:Continuer,
 ZGRacknowledgeHegemony,ZGRbigUps,"!$didHeg
 $player.fcm_faction == hegemony score:3","$didHeg = true 0
-$didUps++","""I must applaud your patriotism - the Hegemony, the restoration of the Domain!
+$didUps++","""Je dois applaudir votre patriotisme — l'Hégémonie, la restauration du Domain !
 
 She makes as if to clap, daintily, but stops her hands before they meet. Then turns her expression toward something far more cynical.
 
@@ -37622,7 +37622,7 @@ cutCommLink:Couper la comm",
 
 Eventually he decides that he believes you, and nods. ""We will dispose of it in a manner befitting Ludd's Word.""
 
-""Understand well, captain, that this act must be kept secret from the Hegemony; they claim an unholy inheritance from the ancient weapons of the old Domain, and would be loathe to see us destroy a piece of it.""","pkGiveKnightsConfirm:""I understand. I will transfer the planetkiller now.""
+""Comprenez bien, capitaine, que cet acte doit rester secret vis-à-vis de l'Hégémonie ; ils revendiquent un héritage impie des armes anciennes du vieux Domain, et répugneraient à nous voir détruy a piece of it.""","pkGiveKnightsConfirm:""I understand. I will transfer the planetkiller now.""
 cutCommLink:Couper la comm",
 #pkGiveKnightsConfirmSel,DialogOptionSelected,$option == pkGiveKnightsConfirm,"AddStoryPoints 3
 AdjustRep luddic_church 15
