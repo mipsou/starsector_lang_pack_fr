@@ -4,69 +4,69 @@
     "id": "sdtuHyderReleaseInsistCom1b",
     "column": "text",
     "original": "Elle vous regarde, calculant quelque chose qui ne lui plait guere.",
-    "translated": ""
+    "translated": "Elle vous regarde, calculant quelque chose qui ne lui plaît guère."
   },
   {
     "csv_row": 8893,
     "id": "sdtuHyderTalk2BattleLieA",
     "column": "text",
     "original": "\"En effet,\" dit Hyder. \n\nVous pouvez voir sur son visage qu'elle croit que vous mentez et choisit de ne pas vous en faire la remarque pour le moment. Macario avait raison - elle ne ferait pas une bonne politicienne.",
-    "translated": ""
+    "translated": "\"En effet,\" dit Hyder. \n\nVous pouvez voir sur son visage qu'elle croit que vous mentez et choisit de ne pas vous en faire la remarque pour le moment. Macario avait raison - elle ne ferait pas une bonne politicienne."
   },
   {
     "csv_row": 8900,
     "id": "sdtuHyderTalk3Start",
     "column": "text",
     "original": "\"Bien, je crois que nos affaires sont conclues pour le moment,\" dit-elle.\n\n\"Dites a Macario,\" elle crache son nom comme un morceau de nourriture avariee, \"que ma loyaute envers l'Executeur Supreme est incontestable. Et que je ferai un rapport sur son gaspillage des ressources navales a mon superieur.\"",
-    "translated": ""
+    "translated": "\"Bien, je crois que nos affaires sont conclues pour le moment,\" dit-elle.\n\n\"Dites à Macario,\" elle crache son nom comme un morceau de nourriture avariée, \"que ma loyauté envers l'Exécuteur Suprême est incontestable. Et que je ferai un rapport sur son gaspillage des ressources navales à mon supérieur.\""
   },
   {
     "csv_row": 8901,
     "id": "sdtuHyderTalk3Start2",
     "column": "text",
     "original": "Elle marque une pause alors qu'elle tend la main vers l'interrupteur de communication. \"Qu'y a-t-il, capitaine.\"\n\nMacario avait raison sur un point, au moins : Hyder n'est pas difficile a lire.",
-    "translated": ""
+    "translated": "Elle marque une pause alors qu'elle tend la main vers l'interrupteur de communication. \"Qu'y a-t-il, capitaine.\"\n\nMacario avait raison sur un point, au moins : Hyder n'est pas difficile à lire."
   },
   {
     "csv_row": 8902,
     "id": "sdtuHyderTalk3judgment1",
     "column": "text",
     "original": "Vous avez le sentiment qu'elle vous fait confiance. Ou du moins, elle respecte l'impression que vous avez faite jusqu'ici et aimerait avoir quelqu'un en qui se fier.",
-    "translated": ""
+    "translated": "Vous avez le sentiment qu'elle vous fait confiance. Ou du moins, elle respecte l'impression que vous avez faite jusqu'ici et aimerait avoir quelqu'un en qui se fier."
   },
   {
     "csv_row": 8904,
     "id": "sdtuHyderTalk3judgment3",
     "column": "text",
     "original": "Elle ne vous fait pas confiance. Et elle ne souhaiterait rien de plus qu'un allie en qui elle puisse avoir confiance et qu'elle respecte, apres avoir opere seule dans le chaos reglemente de la bureaucratie du Diktat Sindrien. Vous n'avez qu'une infime ouverture ici.",
-    "translated": ""
+    "translated": "Elle ne vous fait pas confiance. Et elle ne souhaiterait rien de plus qu'un allié en qui elle puisse avoir confiance et qu'elle respecte, après avoir opéré seule dans le chaos réglementé de la bureaucratie du Diktat Sindrien. Vous n'avez qu'une infime ouverture ici."
   },
   {
     "csv_row": 8906,
     "id": "sdtuHyderTalk3Answers1",
     "column": "text",
     "original": "\"J'ai peu de patience pour cela,\" dit-elle. \"Choisissez vos mots avec soin.\"",
-    "translated": ""
+    "translated": "\"J'ai peu de patience pour cela,\" dit-elle. \"Choisissez vos mots avec soin.\""
   },
   {
     "csv_row": 8907,
     "id": "sdtuHyderTalk3Answers1End",
     "column": "text",
     "original": "\"Assez,\" dit-elle. \"Faites votre rapport a Macario. Et pesez bien vos mots.\"\n\nLa communication coupe.",
-    "translated": ""
+    "translated": "\"Assez,\" dit-elle. \"Faites votre rapport à Macario. Et pesez bien vos mots.\"\n\nLa communication coupe."
   },
   {
     "csv_row": 8908,
     "id": "sdtuHyderTalk3Answers2",
     "column": "text",
     "original": "\"J'ai peu de patience pour cela,\" dit-elle. \"Choisissez vos mots avec soin.\"",
-    "translated": ""
+    "translated": "\"J'ai peu de patience pour cela,\" dit-elle. \"Choisissez vos mots avec soin.\""
   },
   {
     "csv_row": 8909,
     "id": "sdtuHyderTalk3Answers2End",
     "column": "text",
     "original": "\"Assez,\" dit-elle. \"Faites votre rapport a Macario. Et pesez bien vos mots.\"\n\nLa communication coupe.",
-    "translated": ""
+    "translated": "\"Assez,\" dit-elle. \"Faites votre rapport à Macario. Et pesez bien vos mots.\"\n\nLa communication coupe."
   }
 ]

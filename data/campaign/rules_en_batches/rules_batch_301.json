@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "sdtu_ramSafehouse6:Le laisser parler encore un moment",
     "original": "Le laisser parler encore un moment",
-    "translated": ""
+    "translated": "Le laisser parler encore un moment"
   },
   {
     "csv_row": 8679,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "sdtu_ramSafehouse4holorecCheck:Le laisser parler ; s'assurer que l'holoenregistreur capte tout",
     "original": "Le laisser parler ; s'assurer que l'holoenregistreur capte tout",
-    "translated": ""
+    "translated": "Le laisser parler ; s'assurer que l'holoenregistreur capte tout"
   },
   {
     "csv_row": 8681,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "sdtu_ramSafehouse4makeshift:Chercher une arme de fortune pendant qu'il est distrait",
     "original": "Chercher une arme de fortune pendant qu'il est distrait",
-    "translated": ""
+    "translated": "Chercher une arme de fortune pendant qu'il est distrait"
   },
   {
     "csv_row": 8682,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "sdtu_ramSafehouse4makeshift:Chercher une arme de fortune pendant qu'il est distrait",
     "original": "Chercher une arme de fortune pendant qu'il est distrait",
-    "translated": ""
+    "translated": "Chercher une arme de fortune pendant qu'il est distrait"
   },
   {
     "csv_row": 8683,
@@ -37,41 +37,41 @@
     "column": "options",
     "option_line": "sdtu_ramMarines:Appeler l'escouade de marines",
     "original": "Appeler l'escouade de marines",
-    "translated": ""
+    "translated": "Appeler l'escouade de marines"
   },
   {
     "csv_row": 8691,
     "id": "sdtuRamSafehouseReactionD",
     "column": "text",
     "original": "D'un toucher leger, vous sentez la masse rassurante de votre arme de choix. Ram ne voit rien, absorbe par son propre monologue.",
-    "translated": ""
+    "translated": "D'un toucher léger, vous sentez la masse rassurante de votre arme de choix. Ram ne voit rien, absorbé par son propre monologue."
   },
   {
     "csv_row": 8692,
     "id": "sdtuRamSafehouseReactionD1",
     "column": "text",
     "original": "Vous glissez l'une des grenades dans votre main et la maintenez en place avec votre pouce.",
-    "translated": ""
+    "translated": "Vous glissez l'une des grenades dans votre main et la maintenez en place avec votre pouce."
   },
   {
     "csv_row": 8693,
     "id": "sdtuRamSafehouseReactionD2",
     "column": "text",
     "original": "Vous sortez le minuscule pistolet de sa cachette en faisant semblant d'etirer vos epaules. Vous l'avez maintenant sur vos genoux, couvert par votre main croisee.",
-    "translated": ""
+    "translated": "Vous sortez le minuscule pistolet de sa cachette en faisant semblant d'étirer vos épaules. Vous l'avez maintenant sur vos genoux, couvert par votre main croisée."
   },
   {
     "csv_row": 8695,
     "id": "sdtuRamSafehouseReactionD4",
     "column": "text",
     "original": "Vous ajustez les manchettes de votre uniforme, vous assurant que le spray mortel atteindra bien votre cible, et flechissez le poignet en anticipation du deploiement.",
-    "translated": ""
+    "translated": "Vous ajustez les manchettes de votre uniforme, vous assurant que le spray mortel atteindra bien votre cible, et fléchissez le poignet en anticipation du déploiement."
   },
   {
     "csv_row": 8706,
     "id": "sdtuRamSafehouse8",
     "column": "text",
     "original": "Le pistolet dans la main de l'homme aboie une fois.\n\nYannick Ram s'effondre au sol, mort.",
-    "translated": ""
+    "translated": "Le pistolet dans la main de l'homme aboie une fois.\n\nYannick Ram s'effondre au sol, mort."
   }
 ]

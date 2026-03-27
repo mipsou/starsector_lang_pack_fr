@@ -4,7 +4,7 @@
     "id": "gaDHOarrayStart",
     "column": "text",
     "original": "Your $shipOrFleet approaches the $nameInText.",
-    "translated": ""
+    "translated": "Votre $shipOrFleet approche du/de la $nameInText."
   },
   {
     "csv_row": 10863,
@@ -12,7 +12,7 @@
     "column": "options",
     "option_line": "gaDHO_array2:Install the hardware package to read the array's datastores",
     "original": "Install the hardware package to read the array's datastores",
-    "translated": ""
+    "translated": "Installer le module matériel pour lire les banques de données du réseau"
   },
   {
     "csv_row": 10864,
@@ -20,7 +20,7 @@
     "column": "options",
     "option_line": "gaDHO_array3:\"Activate the system.\"",
     "original": "Activate the system.",
-    "translated": ""
+    "translated": "Activez le système."
   },
   {
     "csv_row": 10865,
@@ -28,28 +28,28 @@
     "column": "options",
     "option_line": "gaDHO_array4:\"What are we looking at?\"",
     "original": "What are we looking at?",
-    "translated": ""
+    "translated": "Qu'est-ce qu'on regarde ?"
   },
   {
     "csv_row": 10878,
     "id": "gaDHO_mk1explore8interrupt2a",
     "column": "text",
     "original": "Academician Elek could not have possibly known his sensor data would lead to... this.",
-    "translated": ""
+    "translated": "L'Académicien Elek n'aurait jamais pu savoir que ses données de capteurs mèneraient à... ceci."
   },
   {
     "csv_row": 10884,
     "id": "gaDHO_mk1explore8interruptOut",
     "column": "text",
     "original": "Your sensors officer finally suppresses the new detector's alerts, then turns to you. The Onslaught Mk.I rotates threateningly in the primary display, an avatar of ancient violence.\n\n\"What are your orders, $playerSirOrMadam?\" they ask.",
-    "translated": ""
+    "translated": "Votre officier des capteurs finit par couper les alertes du nouveau détecteur, puis se tourne vers vous. L'Onslaught Mk.I pivote de manière menaçante sur l'écran principal, un avatar de violence ancestrale.\n\n\"Quels sont vos ordres, $playerSirOrMadam ?\" demande-t-il."
   },
   {
     "csv_row": 10886,
     "id": "gaDHO_mk1explore8interruptOutB",
     "column": "text",
     "original": "Your sensors officer finally suppresses the new detector's alerts, then turns to you. The Onslaught Mk.I rotates threateningly in the primary display, an avatar of ancient violence.\n\n\"What are your orders, $playerSirOrMadam?\" they ask.",
-    "translated": ""
+    "translated": "Votre officier des capteurs finit par couper les alertes du nouveau détecteur, puis se tourne vers vous. L'Onslaught Mk.I pivote de manière menaçante sur l'écran principal, un avatar de violence ancestrale.\n\n\"Quels sont vos ordres, $playerSirOrMadam ?\" demande-t-il."
   },
   {
     "csv_row": 10889,
@@ -57,7 +57,7 @@
     "column": "options",
     "option_line": "gaDHO_endingFoundFirst:\"First, I want to talk about what I found. It was... hazardous.\"",
     "original": "First, I want to talk about what I found. It was... hazardous.",
-    "translated": ""
+    "translated": "D'abord, je veux parler de ce que j'ai trouvé. C'était... dangereux."
   },
   {
     "csv_row": 10890,
@@ -65,7 +65,7 @@
     "column": "options",
     "option_line": "gaDHO_endingDataFirst:\"Transmitting data now...\"",
     "original": "Transmitting data now...",
-    "translated": ""
+    "translated": "Transmission des données en cours..."
   },
   {
     "csv_row": 10891,
@@ -73,6 +73,6 @@
     "column": "options",
     "option_line": "gaDHO_endingRewardFirst:\"Let's talk about payment first. Then the data.\"",
     "original": "Let's talk about payment first. Then the data.",
-    "translated": ""
+    "translated": "Parlons d'abord du paiement. Ensuite les données."
   }
 ]

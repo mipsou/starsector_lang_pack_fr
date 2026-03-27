@@ -5,14 +5,14 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   },
   {
     "csv_row": 9922,
     "id": "sdPunExCommsHostile",
     "column": "text",
     "original": "Apres un gresill de parasites, les communications se stabilisent tant bien que mal. Le $Post du Diktat Sindrien vous toise avec imperiosite.\n\n\"Nous appelons la flotte de $PlayerName. Je viens avec l'autorite de l'Executeur Supreme pour mettre un terme a votre lache guerre economique contre le Diktat Sindrien !\"",
-    "translated": ""
+    "translated": "Après un grésillement de parasites, les communications se stabilisent tant bien que mal. Le $Post du Diktat Sindrien vous toise avec impériosité.\n\n\"Nous appelons la flotte de $PlayerName. Je viens avec l'autorité de l'Exécuteur Suprême pour mettre un terme à votre lâche guerre économique contre le Diktat Sindrien !\""
   },
   {
     "csv_row": 9929,
@@ -20,7 +20,7 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   },
   {
     "csv_row": 9930,
@@ -28,7 +28,7 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   },
   {
     "csv_row": 9931,
@@ -36,7 +36,7 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   },
   {
     "csv_row": 9951,
@@ -44,7 +44,7 @@
     "column": "options",
     "option_line": "sdDealConfirm:Confirmer l'accord",
     "original": "Confirmer l'accord",
-    "translated": ""
+    "translated": "Confirmer l'accord"
   },
   {
     "csv_row": 9957,
@@ -52,7 +52,7 @@
     "column": "options",
     "option_line": "sdDealConfirm:Confirmer l'accord",
     "original": "Confirmer l'accord",
-    "translated": ""
+    "translated": "Confirmer l'accord"
   },
   {
     "csv_row": 9958,
@@ -60,7 +60,7 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   },
   {
     "csv_row": 9960,
@@ -68,7 +68,7 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   },
   {
     "csv_row": 9966,
@@ -76,6 +76,6 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   }
 ]

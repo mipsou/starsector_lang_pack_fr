@@ -4,7 +4,7 @@
     "id": "BFFItalkHorusPartyOptBsel",
     "column": "text",
     "original": "Horus takes this in, looking into the middle distance, processing for a moment. He takes a slow breath.\n\n\"You are certain? Do the Luddics know about it?\"",
-    "translated": ""
+    "translated": "Horus encaisse l'information, le regard dans le vague, réfléchissant un instant. Il inspire lentement.\n\n\"Vous en êtes certain ? Les Luddiques sont-ils au courant ?\""
   },
   {
     "csv_row": 2735,
@@ -12,21 +12,21 @@
     "column": "options",
     "option_line": "bffi_talkHorusPartyTheyKnow:\"Oh, they know. They hired me to... handle it.\"",
     "original": "Oh, they know. They hired me to... handle it.",
-    "translated": ""
+    "translated": "Oh, ils savent. Ils m'ont engagé pour... régler ça."
   },
   {
     "csv_row": 2736,
     "id": "BFFItalkHorusPartyOptCsel",
     "column": "text",
     "original": "\"He is family.\" Horus gives you a flinty look. \"State your meaning.\"",
-    "translated": ""
+    "translated": "\"C'est de la famille.\" Horus vous lance un regard dur. \"Expliquez-vous.\""
   },
   {
     "csv_row": 2737,
     "id": "BFFItalkHorusPartyTheyKnow",
     "column": "text",
     "original": "He closes his eyes and rubs his temples. After a moment, a mutter emerges, \"Good grief.\"\n\nHe takes several more long breaths.",
-    "translated": ""
+    "translated": "Il ferme les yeux et se masse les tempes. Au bout d'un moment, un murmure s'échappe : \"Bon sang.\"\n\nIl prend plusieurs longues inspirations."
   },
   {
     "csv_row": 2737,
@@ -34,14 +34,14 @@
     "column": "options",
     "option_line": "bffi_talkHorusPartyInvite:\"Menes invited me to some kind of party to view this relic.\"",
     "original": "Menes invited me to some kind of party to view this relic.",
-    "translated": ""
+    "translated": "Menes m'a invité à une sorte de réception pour voir cette relique."
   },
   {
     "csv_row": 2738,
     "id": "BFFItalkHorusPartyInvite",
     "column": "text",
     "original": "\"He did,\" Horus stares at you.\n\n\"It appears as though I am going to have to become involved,\" he says. \"Personally.\"\n\n\"Again.\" His jaw is clenched. It looks uncomfortable.",
-    "translated": ""
+    "translated": "\"C'est ce qu'il a fait,\" Horus vous fixe du regard.\n\n\"Il semblerait que je vais devoir m'impliquer,\" dit-il. \"Personnellement.\"\n\n\"Encore.\" Sa mâchoire est crispée. Cela semble inconfortable."
   },
   {
     "csv_row": 2738,
@@ -49,7 +49,7 @@
     "column": "options",
     "option_line": "bffi_talkHorusPartyEnd:Ne rien dire.",
     "original": "Ne rien dire.",
-    "translated": ""
+    "translated": "Ne rien dire."
   },
   {
     "csv_row": 2738,
@@ -57,20 +57,20 @@
     "column": "options",
     "option_line": "bffi_talkHorusPartyEndB:\"You need to keep better track of your cousin's schemes, huh.\"",
     "original": "You need to keep better track of your cousin's schemes, huh.",
-    "translated": ""
+    "translated": "Vous devriez mieux surveiller les manigances de votre cousin, hein."
   },
   {
     "csv_row": 2739,
     "id": "BFFItalkHorusPartyEndA",
     "column": "text",
     "original": "\"The past matters of my gens do not oblige discussion with outsiders, $playerSirOrMadam,\" he says stiffly.\n\n\"However. I do appreciate your... consideration in bringing the current matter to my attention.\"",
-    "translated": ""
+    "translated": "\"Les affaires passées de ma gens n'ont pas à être discutées avec des étrangers, $playerSirOrMadam,\" dit-il sèchement.\n\n\"Cependant. J'apprécie votre... considération à porter cette affaire à mon attention.\""
   },
   {
     "csv_row": 2740,
     "id": "BFFItalkHorusPartyEndB",
     "column": "text",
     "original": "\"Thank-you captain, that is fabulous advice,\" Horus says in a tone demonstrating very little appreciation for your input.",
-    "translated": ""
+    "translated": "\"Merci capitaine, c'est un conseil fabuleux,\" dit Horus sur un ton démontrant très peu d'appréciation pour votre contribution."
   }
 ]

@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "locrp_offerToPrison2:\"Aller en prison ? Ce n'est pas une question, c'est un ordre.\"",
     "original": "Aller en prison ? Ce n'est pas une question, c'est un ordre.",
-    "translated": ""
+    "translated": "Aller en prison ? Ce n'est pas une question, c'est un ordre."
   },
   {
     "csv_row": 7171,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "locrp_offerToPirate:Proposer de les transporter vers un monde pirate",
     "original": "Proposer de les transporter vers un monde pirate",
-    "translated": ""
+    "translated": "Proposer de les transporter vers un monde pirate"
   },
   {
     "csv_row": 7172,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "locrp_offerToPirateLie:Proposer de les transporter vers un monde pirate (lie)",
     "original": "Proposer de les transporter vers un monde pirate (lie)",
-    "translated": ""
+    "translated": "Proposer de les transporter vers un monde pirate (mensonge)"
   },
   {
     "csv_row": 7173,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "locrp_offerWork:Leur proposer une place dans votre propre flotte",
     "original": "Leur proposer une place dans votre propre flotte",
-    "translated": ""
+    "translated": "Leur proposer une place dans votre propre flotte"
   },
   {
     "csv_row": 7174,
@@ -37,35 +37,35 @@
     "column": "options",
     "option_line": "100:cutCommLink:Couper la comm",
     "original": "cutCommLink:Couper la comm",
-    "translated": ""
+    "translated": "cutCommLink:Couper la comm"
   },
   {
     "csv_row": 7184,
     "id": "LOCRPofferForFeniusD",
     "column": "text",
     "original": "\"Comme vous voudrez, capitaine, comme vous voudrez.\"",
-    "translated": ""
+    "translated": "\"Comme vous voudrez, capitaine, comme vous voudrez.\""
   },
   {
     "csv_row": 7200,
     "id": "LOCRPofferWorkLuddicPrayA",
     "column": "text",
     "original": "$HeOrShe pousse un long soupir. \"Bon, alors on sera sages comme des enfants de choeur, c'est promis.\"",
-    "translated": ""
+    "translated": "$HeOrShe pousse un long soupir. \"Bon, alors on sera sages comme des enfants de choeur, c'est promis.\""
   },
   {
     "csv_row": 7201,
     "id": "LOCRPofferWorkLuddicPrayB",
     "column": "text",
     "original": "$HeOrShe pousse un long soupir. \"Bon, alors on sera sages comme des enfants de choeur, c'est promis.\"",
-    "translated": ""
+    "translated": "$HeOrShe pousse un long soupir. \"Bon, alors on sera sages comme des enfants de choeur, c'est promis.\""
   },
   {
     "csv_row": 7202,
     "id": "LOCRPofferWorkLuddicPrayC",
     "column": "text",
     "original": "$HeOrShe pousse un long soupir. \"Bon, alors on sera sages comme des enfants de choeur, c'est promis.\"",
-    "translated": ""
+    "translated": "$HeOrShe pousse un long soupir. \"Bon, alors on sera sages comme des enfants de choeur, c'est promis.\""
   },
   {
     "csv_row": 7207,
@@ -73,6 +73,6 @@
     "column": "options",
     "option_line": "locrp_transportShuttle:\"Bien. Je vais envoyer des navettes.\"",
     "original": "Bien. Je vais envoyer des navettes.",
-    "translated": ""
+    "translated": "Bien. Je vais envoyer des navettes."
   }
 ]

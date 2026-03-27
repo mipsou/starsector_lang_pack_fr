@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "gaDHO_visitElekHubSelC:\"Why is this data so important? What did this sensor array find?\"",
     "original": "Why is this data so important? What did this sensor array find?",
-    "translated": ""
+    "translated": "Pourquoi ces données sont-elles si importantes ? Qu'a trouvé ce réseau de capteurs ?"
   },
   {
     "csv_row": 10818,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "gaDHO_visitElekHubSelA:\"In your message, you mentioned a reward. The words 'vast fortune' were used.\"",
     "original": "In your message, you mentioned a reward. The words 'vast fortune' were used.",
-    "translated": ""
+    "translated": "Dans votre message, vous avez mentionné une récompense. Les mots 'vaste fortune' ont été utilisés."
   },
   {
     "csv_row": 10819,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "gaDHO_visitElekHubSelA2:\"I didn't get a clear answer about this reward. How much is it?\"",
     "original": "I didn't get a clear answer about this reward. How much is it?",
-    "translated": ""
+    "translated": "Je n'ai pas eu de réponse claire sur cette récompense. Combien est-ce ?"
   },
   {
     "csv_row": 10820,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "gaDHO_visitElekHubSelB:\"Who exactly is this 'friend' of yours?\"",
     "original": "Who exactly is this 'friend' of yours?",
-    "translated": ""
+    "translated": "Qui est exactement cet 'ami' dont vous parlez ?"
   },
   {
     "csv_row": 10828,
@@ -37,7 +37,7 @@
     "column": "options",
     "option_line": "gaDHO_visitElekHubSelA2b:\"Are you sure? Sounds low for a trip to the Fringe, much less the Abyss.\"",
     "original": "Are you sure? Sounds low for a trip to the Fringe, much less the Abyss.",
-    "translated": ""
+    "translated": "Vous êtes sûr ? Ça semble peu pour un voyage aux Confins, et encore moins dans l'Abysse."
   },
   {
     "csv_row": 10828,
@@ -45,14 +45,14 @@
     "column": "options",
     "option_line": "gaDHO_visitElekHubSelA2a:\"Uh, thank you. That seems... sufficient.\"",
     "original": "Uh, thank you. That seems... sufficient.",
-    "translated": ""
+    "translated": "Euh, merci. Cela semble... suffisant."
   },
   {
     "csv_row": 10830,
     "id": "gaDHOvisitElekHubSelA2b",
     "column": "text",
     "original": "\"It does?\" Elek is taken aback. \"I was sure that was enough. Maybe it was 50,000?\"",
-    "translated": ""
+    "translated": "\"Vraiment ?\" Elek est pris de court. \"J'étais sûr que c'était suffisant. Peut-être 50 000 ?\""
   },
   {
     "csv_row": 10832,
@@ -60,7 +60,7 @@
     "column": "options",
     "option_line": "gaDHO_visitElekHubSelA4b:\"100,000 would be the baseline. And a large hazard fee for the Abyss.\"",
     "original": "100,000 would be the baseline. And a large hazard fee for the Abyss.",
-    "translated": ""
+    "translated": "100 000 serait le minimum. Plus une prime de risque conséquente pour l'Abysse."
   },
   {
     "csv_row": 10832,
@@ -68,7 +68,7 @@
     "column": "options",
     "option_line": "gaDHO_visitElekHubSelA4a:\"Uh, thank you. That seems... sufficient.\"",
     "original": "Uh, thank you. That seems... sufficient.",
-    "translated": ""
+    "translated": "Euh, merci. Cela semble... suffisant."
   },
   {
     "csv_row": 10834,
@@ -76,6 +76,6 @@
     "column": "options",
     "option_line": "gaDHO_visitElekHubSelA5a:\"Tri-Tachyon is backing your project?\"",
     "original": "Tri-Tachyon is backing your project?",
-    "translated": ""
+    "translated": "Tri-Tachyon finance votre projet ?"
   }
 ]

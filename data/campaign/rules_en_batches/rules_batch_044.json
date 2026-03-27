@@ -68,7 +68,7 @@
     "column": "options",
     "option_line": "lke_MazCutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   },
   {
     "csv_row": 1993,
@@ -76,6 +76,6 @@
     "column": "options",
     "option_line": "lke_MazCutCommLinkPolite:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   }
 ]

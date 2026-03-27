@@ -5,14 +5,14 @@
     "column": "options",
     "option_line": "cutCommLink:\"Oups, mauvais identifiant comm. Je dois y aller.\"",
     "original": "Oups, mauvais identifiant comm. Je dois y aller.",
-    "translated": ""
+    "translated": "Oups, mauvais identifiant comm. Je dois y aller."
   },
   {
     "csv_row": 8808,
     "id": "sdtuTraitorPatrolDemandSurrenderA",
     "column": "text",
     "original": "Une serie d'emotions deferle sur $hisOrHer visage. Desespoir, trahison, tristesse. Colere, puis rage.\n\n\"Non,\" gronde $heOrShe, puis coupe les communications.\n\nLa flotte adverse adopte une posture agressive.",
-    "translated": ""
+    "translated": "Une série d'émotions déferle sur $hisOrHer visage. Désespoir, trahison, tristesse. Colère, puis rage.\n\n\"Non,\" gronde $heOrShe, puis coupe les communications.\n\nLa flotte adverse adopte une posture agressive."
   },
   {
     "csv_row": 8811,
@@ -20,55 +20,55 @@
     "column": "options",
     "option_line": "sdtu_patrolForAPrice2:Ouvrir la liaison comm",
     "original": "Ouvrir la liaison comm",
-    "translated": ""
+    "translated": "Ouvrir la liaison comm"
   },
   {
     "csv_row": 8813,
     "id": "sdtuPatrolForAPrice3b",
     "column": "text",
     "original": "La liaison de communication est coupee depuis l'autre bout. Il semble qu'ils ne soient pas d'humeur a discuter.",
-    "translated": ""
+    "translated": "La liaison de communication est coupée depuis l'autre bout. Il semble qu'ils ne soient pas d'humeur à discuter."
   },
   {
     "csv_row": 8814,
     "id": "sdtuPatrolForAPrice3c",
     "column": "text",
     "original": "La liaison de communication est coupee depuis l'autre bout. Il semble qu'ils ne soient pas d'humeur a discuter.",
-    "translated": ""
+    "translated": "La liaison de communication est coupée depuis l'autre bout. Il semble qu'ils ne soient pas d'humeur à discuter."
   },
   {
     "csv_row": 8830,
     "id": "SDTUHyderTalkRound1Text1",
     "column": "text",
     "original": "\"Vous avez enleve un officier du Diktat Sindrien, un officier sous mon commandement. Je vous offre cette unique chance de vous rendre et de capituler honorablement avant que votre flotte ne soit detruite.\"",
-    "translated": ""
+    "translated": "\"Vous avez enlevé un officier du Diktat Sindrien, un officier sous mon commandement. Je vous offre cette unique chance de vous rendre et de capituler honorablement avant que votre flotte ne soit détruite.\""
   },
   {
     "csv_row": 8831,
     "id": "SDTUHyderTalkRound1Text2",
     "column": "text",
     "original": "\"Vous avez attaque une flottille de la marine du Diktat Sindrien et enleve l'officier commandant - un officier agissant sous mes ordres directs. Je vous offre cette unique chance de vous rendre et de capituler honorablement avant que votre flotte ne soit detruite.\"",
-    "translated": ""
+    "translated": "\"Vous avez attaqué une flottille de la marine du Diktat Sindrien et enlevé l'officier commandant - un officier agissant sous mes ordres directs. Je vous offre cette unique chance de vous rendre et de capituler honorablement avant que votre flotte ne soit détruite.\""
   },
   {
     "csv_row": 8844,
     "id": "sdtuHyderTalk1DServeHeg",
     "column": "text",
     "original": "\"Il se conduit sans la moindre once d'honneur tout en se drapant dans la banniere de l'Executeur Supreme. Il detourne les paroles de Philip Andrada pour servir ses propres desirs degeneres.\" Elle fait une pause, fulminante.",
-    "translated": ""
+    "translated": "\"Il se conduit sans la moindre once d'honneur tout en se drapant dans la bannière de l'Exécuteur Suprême. Il détourne les paroles de Philip Andrada pour servir ses propres désirs dégénérés.\" Elle fait une pause, fulminante."
   },
   {
     "csv_row": 8845,
     "id": "sdtuHyderTalk1DontApprove",
     "column": "text",
     "original": "\"Il se conduit sans la moindre once d'honneur tout en se drapant dans la banniere de l'Executeur Supreme. Il detourne les paroles de Philip Andrada pour servir ses propres desirs degeneres.\" Elle fait une pause, fulminante.",
-    "translated": ""
+    "translated": "\"Il se conduit sans la moindre once d'honneur tout en se drapant dans la bannière de l'Exécuteur Suprême. Il détourne les paroles de Philip Andrada pour servir ses propres désirs dégénérés.\" Elle fait une pause, fulminante."
   },
   {
     "csv_row": 8846,
     "id": "sdtuHyderTalk1WordsAsTreason",
     "column": "text",
     "original": "\"Il le ferait sans hesiter,\" crache-t-elle, \"si cela servait son prochain stratageme degenere.\"",
-    "translated": ""
+    "translated": "\"Il le ferait sans hésiter,\" crache-t-elle, \"si cela servait son prochain stratagème dégénéré.\""
   }
 ]

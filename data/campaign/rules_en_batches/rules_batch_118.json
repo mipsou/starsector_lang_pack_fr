@@ -4,21 +4,21 @@
     "id": "BFFIpondNoSedgeOutro2goodguy",
     "column": "text",
     "original": "\"This was before,\" Pond says. \"His people are still... they're everywhere. They'll kill me.\"\n\nHe looks at you hopefully. \"You've got to help me.\"",
-    "translated": ""
+    "translated": "\"C'était avant,\" dit Pond. \"Ses gens sont toujours... ils sont partout. Ils vont me tuer.\"\n\nIl vous regarde avec espoir. \"Vous devez m'aider.\""
   },
   {
     "csv_row": 3144,
     "id": "BFFIpondNoSedgeOutro2badguy",
     "column": "text",
     "original": "\"This was before,\" Pond says. \"His people are still... they're everywhere. They'll kill me.\"\n\nHe looks at Bornanew hopefully. \"You said you'd keep me safe. As a Knight.\"\n\n$global.jethroName closes his eyes and sighs.",
-    "translated": ""
+    "translated": "\"C'était avant,\" dit Pond. \"Ses gens sont toujours... ils sont partout. Ils vont me tuer.\"\n\nIl regarde Bornanew avec espoir. \"Vous aviez dit que vous me protégeriez. En tant que Chevalier.\"\n\n$global.jethroName ferme les yeux et soupire."
   },
   {
     "csv_row": 3145,
     "id": "BFFIpondNoSedgeOutro2choke",
     "column": "text",
     "original": "\"This,\" Pond coughs violently, holding his throat, \"-before. Pathers... everywhere. Kill me.\"\n\nHe looks at you fearfully after a glance at Bornanew. \"... help me.\"",
-    "translated": ""
+    "translated": "\"C'était,\" Pond tousse violemment en se tenant la gorge, \"—avant. Pèlerins... partout. Me tuer.\"\n\nIl vous regarde avec crainte après un coup d'oeil à Bornanew. \"... aidez-moi.\""
   },
   {
     "csv_row": 3146,
@@ -26,7 +26,7 @@
     "column": "options",
     "option_line": "bffi_pondNoSedgeOutro2nothing:Ne rien dire.",
     "original": "Ne rien dire.",
-    "translated": ""
+    "translated": "Ne rien dire."
   },
   {
     "csv_row": 3146,
@@ -34,7 +34,7 @@
     "column": "options",
     "option_line": "bffi_pondNoSedgeOutro2menesFool:\"Go to Menes. Confess. He's fool enough to forgive you.\"",
     "original": "Go to Menes. Confess. He's fool enough to forgive you.",
-    "translated": ""
+    "translated": "Allez voir Menes. Confessez-vous. Il est assez naïf pour vous pardonner."
   },
   {
     "csv_row": 3146,
@@ -42,7 +42,7 @@
     "column": "options",
     "option_line": "bffi_pondNoSedgeOutro2menesKind:\"Go to Menes. Confess. He's kind enough to forgive you.\"",
     "original": "Go to Menes. Confess. He's kind enough to forgive you.",
-    "translated": ""
+    "translated": "Allez voir Menes. Confessez-vous. Il est assez bon pour vous pardonner."
   },
   {
     "csv_row": 3146,
@@ -50,7 +50,7 @@
     "column": "options",
     "option_line": "bffi_pondNoSedgeOutro2knights:\"$global.jethroName, will the Knights take this man?\"",
     "original": "$global.jethroName, will the Knights take this man?",
-    "translated": ""
+    "translated": "$global.jethroName, les Chevaliers accepteront-ils de prendre cet homme ?"
   },
   {
     "csv_row": 3146,
@@ -58,20 +58,20 @@
     "column": "options",
     "option_line": "bffi_pondNoSedgeOutro2deal:\"You did this to yourself. Now deal with it.\"",
     "original": "You did this to yourself. Now deal with it.",
-    "translated": ""
+    "translated": "C'est vous qui vous êtes mis dans ce pétrin. Maintenant débrouillez-vous."
   },
   {
     "csv_row": 3148,
     "id": "BFFIpondNoSedgeOutro2knightsA",
     "column": "text",
     "original": "Bornanew looks at you, then to Pond. Then speaks.\n\n\"I shall bring you to an agent of the Knights of Ludd. You shall confess all your sins, beginning first with that of heresy. They shall assign your penance.\"",
-    "translated": ""
+    "translated": "Bornanew vous regarde, puis se tourne vers Pond. Puis parle.\n\n\"Je vous conduirai auprès d'un agent des Chevaliers de Ludd. Vous confesserez tous vos péchés, en commençant par celui d'hérésie. Ils vous assigneront votre pénitence.\""
   },
   {
     "csv_row": 3149,
     "id": "BFFIpondNoSedgeOutro2knightsB",
     "column": "text",
     "original": "Bornanew looks at you, then to Pond. Then he speaks.\n\n\"I shall bring you to an agent of the Knights of Ludd. You shall confess all your sins, beginning first with that of heresy. They shall assign your penance, and it will be as harsh as you deserve.\"\n\n\"But you will live.\"",
-    "translated": ""
+    "translated": "Bornanew vous regarde, puis se tourne vers Pond. Puis il parle.\n\n\"Je vous conduirai auprès d'un agent des Chevaliers de Ludd. Vous confesserez tous vos péchés, en commençant par celui d'hérésie. Ils vous assigneront votre pénitence, et elle sera aussi sévère que vous le méritez.\"\n\n\"Mais vous vivrez.\""
   }
 ]

@@ -4,7 +4,7 @@
     "id": "BFFIpondNoSedgeOutro2menesFool",
     "column": "text",
     "original": "Pond looks stricken, but he nods. \"Yes, I... I'll do that. Menes. He is a kind man.\"",
-    "translated": ""
+    "translated": "Pond a l'air accablé, mais il hoche la tête. \"Oui, je... je ferai ça. Menes. C'est un homme bon.\""
   },
   {
     "csv_row": 3150,
@@ -12,14 +12,14 @@
     "column": "options",
     "option_line": "bffi_ulmusTalkNoSedgeOut2menes:\"Get out of here. And if you don't tell Menes, I will.\"",
     "original": "Get out of here. And if you don't tell Menes, I will.",
-    "translated": ""
+    "translated": "Fichez le camp d'ici. Et si vous ne le dites pas à Menes, je le ferai."
   },
   {
     "csv_row": 3151,
     "id": "BFFIpondNoSedgeOutro2menesKind",
     "column": "text",
     "original": "Pond looks stricken, but he nods. \"Yes, I... I'll do that. Menes will understand why I had to do... what I had to do.\"",
-    "translated": ""
+    "translated": "Pond a l'air accablé, mais il hoche la tête. \"Oui, je... je ferai ça. Menes comprendra pourquoi j'ai dû faire... ce que j'ai dû faire.\""
   },
   {
     "csv_row": 3151,
@@ -27,14 +27,14 @@
     "column": "options",
     "option_line": "bffi_ulmusTalkNoSedgeOut2menes:\"Get out of here. And if you don't tell Menes, I will.\"",
     "original": "Get out of here. And if you don't tell Menes, I will.",
-    "translated": ""
+    "translated": "Fichez le camp d'ici. Et si vous ne le dites pas à Menes, je le ferai."
   },
   {
     "csv_row": 3152,
     "id": "BFFIpondNoSedgeOutro2menesFoolB",
     "column": "text",
     "original": "Pond looks stricken, but he nods. \"Yes.\" Another cough. \"Menes, kind.\"",
-    "translated": ""
+    "translated": "Pond a l'air accablé, mais il hoche la tête. \"Oui.\" Une autre quinte de toux. \"Menes, bon.\""
   },
   {
     "csv_row": 3152,
@@ -42,14 +42,14 @@
     "column": "options",
     "option_line": "bffi_ulmusTalkNoSedgeOut2menes:\"Get out of here. And if you don't tell Menes, I will.\"",
     "original": "Get out of here. And if you don't tell Menes, I will.",
-    "translated": ""
+    "translated": "Fichez le camp d'ici. Et si vous ne le dites pas à Menes, je le ferai."
   },
   {
     "csv_row": 3153,
     "id": "BFFIpondNoSedgeOutro2menesKindB",
     "column": "text",
     "original": "Pond looks stricken, but he nods. \"Yes. Menes.\" Another cough. \"Will understand.\"",
-    "translated": ""
+    "translated": "Pond a l'air accablé, mais il hoche la tête. \"Oui. Menes.\" Une autre quinte de toux. \"Comprendra.\""
   },
   {
     "csv_row": 3153,
@@ -57,14 +57,14 @@
     "column": "options",
     "option_line": "bffi_ulmusTalkNoSedgeOut2menes:\"Get out of here. And if you don't tell Menes, I will.\"",
     "original": "Get out of here. And if you don't tell Menes, I will.",
-    "translated": ""
+    "translated": "Fichez le camp d'ici. Et si vous ne le dites pas à Menes, je le ferai."
   },
   {
     "csv_row": 3156,
     "id": "BFFIpondNoSedgeOutro2dealA",
     "column": "text",
     "original": "Bornanew looks at you, then to Pond. His expression softens, just a little.\n\n\"Captain,\" he says. \"They will kill him for his failure. And not well. Let me turn him over to the Knights. They will offer him a path to redemption, harsh though it may be.\"",
-    "translated": ""
+    "translated": "Bornanew vous regarde, puis se tourne vers Pond. Son expression s'adoucit, juste un peu.\n\n\"Capitaine,\" dit-il. \"Ils le tueront pour son échec. Et pas de manière douce. Laissez-moi le remettre aux Chevaliers. Ils lui offriront un chemin vers la rédemption, aussi dur soit-il.\""
   },
   {
     "csv_row": 3156,
@@ -72,6 +72,6 @@
     "column": "options",
     "option_line": "bffi_pondNoSedgeOutro2knights:\"As you like, $global.jethroName. Pond is your responsibility.\"",
     "original": "As you like, $global.jethroName. Pond is your responsibility.",
-    "translated": ""
+    "translated": "Comme vous voulez, $global.jethroName. Pond est sous votre responsabilité."
   }
 ]

@@ -4,7 +4,7 @@
     "id": "sdBarRaidBeatingHadItComing",
     "column": "text",
     "original": "Vous vous dites que c'est simplement ainsi que fonctionne le pouvoir. Quand il est defie, il doit faire ses preuves ou l'illusion s'evapore.",
-    "translated": ""
+    "translated": "Vous vous dites que c'est simplement ainsi que fonctionne le pouvoir. Quand il est défié, il doit faire ses preuves ou l'illusion s'évapore."
   },
   {
     "csv_row": 8604,
@@ -12,7 +12,7 @@
     "column": "options",
     "option_line": "sdtu_startDev:start The Usurpers mission",
     "original": "start The Usurpers mission",
-    "translated": ""
+    "translated": "Lancer la mission Les Usurpateurs"
   },
   {
     "csv_row": 8605,
@@ -20,7 +20,7 @@
     "column": "options",
     "option_line": "sdtu_setCompleted:set The Usurpers mission as completed",
     "original": "set The Usurpers mission as completed",
-    "translated": ""
+    "translated": "Marquer la mission Les Usurpateurs comme terminée"
   },
   {
     "csv_row": 8606,
@@ -28,28 +28,28 @@
     "column": "options",
     "option_line": "sdtu_setToldBackedCaden:set player told Caden they back him",
     "original": "set player told Caden they back him",
-    "translated": ""
+    "translated": "Définir que le joueur a dit à Caden qu'il le soutient"
   },
   {
     "csv_row": 8614,
     "id": "sdtuStartDev2",
     "column": "text",
     "original": "Votre officier des communications reclame votre attention : \"Capitaine, nous avons un appel entrant de... euh, un canal officiel. Aucune identification fournie.\" Il transfere le lien vers votre interface personnelle.",
-    "translated": ""
+    "translated": "Votre officier des communications réclame votre attention : \"Capitaine, nous avons un appel entrant de... euh, un canal officiel. Aucune identification fournie.\" Il transfère le lien vers votre interface personnelle."
   },
   {
     "csv_row": 8616,
     "id": "sdtuStart2",
     "column": "text",
     "original": "Votre officier des communications reclame votre attention : \"Capitaine, nous avons un appel entrant de... euh, un canal officiel. Aucune identification fournie.\" Il transfere le lien vers votre interface personnelle.",
-    "translated": ""
+    "translated": "Votre officier des communications réclame votre attention : \"Capitaine, nous avons un appel entrant de... euh, un canal officiel. Aucune identification fournie.\" Il transfère le lien vers votre interface personnelle."
   },
   {
     "csv_row": 8621,
     "id": "sdtuStartInfo2b",
     "column": "text",
     "original": "Et vous avez compris qu'il exercait simplement le pouvoir dont il disposait, comme sa position l'exige. Le voila de retour. Quel jeu joue-t-il ? Se souvient-il seulement de vous ?\n\nForcement.",
-    "translated": ""
+    "translated": "Et vous avez compris qu'il exerçait simplement le pouvoir dont il disposait, comme sa position l'exige. Le voilà de retour. Quel jeu joue-t-il ? Se souvient-il seulement de vous ?\n\nForcément."
   },
   {
     "csv_row": 8625,
@@ -57,7 +57,7 @@
     "column": "options",
     "option_line": "sdtu_ramRespCommission:\"En tant que porteur d'une commission du Diktat Sindrien, il est de mon devoir d'aider.\"",
     "original": "En tant que porteur d'une commission du Diktat Sindrien, il est de mon devoir d'aider.",
-    "translated": ""
+    "translated": "En tant que porteur d'une commission du Diktat Sindrien, il est de mon devoir d'aider."
   },
   {
     "csv_row": 8626,
@@ -65,7 +65,7 @@
     "column": "options",
     "option_line": "sdtu_ramRespWhatWant:\"Que pourriez-vous bien vouloir de moi ?\"",
     "original": "Que pourriez-vous bien vouloir de moi ?",
-    "translated": ""
+    "translated": "Que pourriez-vous bien vouloir de moi ?"
   },
   {
     "csv_row": 8627,
@@ -73,6 +73,6 @@
     "column": "options",
     "option_line": "sdtu_ramRespRemember:\"Vous souvenez-vous de moi ? Moi, je me souviens de vous.\"",
     "original": "Vous souvenez-vous de moi ? Moi, je me souviens de vous.",
-    "translated": ""
+    "translated": "Vous souvenez-vous de moi ? Moi, je me souviens de vous."
   }
 ]

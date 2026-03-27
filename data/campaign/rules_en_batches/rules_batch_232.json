@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "locrp_offloadPiratesLuddic2:Transporter les pirates par navette vers $name",
     "original": "Transporter les pirates par navette vers $name",
-    "translated": ""
+    "translated": "Transporter les pirates par navette vers $name"
   },
   {
     "csv_row": 7248,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "locrl_removeBecauseColonyA:Consulter le rapport",
     "original": "Consulter le rapport",
-    "translated": ""
+    "translated": "Consulter le rapport"
   },
   {
     "csv_row": 7250,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "locrl_removeBecauseColonyB:Consulter le rapport",
     "original": "Consulter le rapport",
-    "translated": ""
+    "translated": "Consulter le rapport"
   },
   {
     "csv_row": 7257,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "locrl_contact0:Connecter les comms au signal provenant de la surface",
     "original": "Connecter les comms au signal provenant de la surface",
-    "translated": ""
+    "translated": "Connecter les comms au signal provenant de la surface"
   },
   {
     "csv_row": 7266,
@@ -37,7 +37,7 @@
     "column": "options",
     "option_line": "locrl_askWhatDoing:\"Que faites-vous en bordure ?\"",
     "original": "Que faites-vous en bordure ?",
-    "translated": ""
+    "translated": "Que faites-vous en bordure ?"
   },
   {
     "csv_row": 7271,
@@ -45,7 +45,7 @@
     "column": "options",
     "option_line": "locrl_askHowMany:\"Combien d'entre vous ont besoin d'un transport ?\"",
     "original": "Combien d'entre vous ont besoin d'un transport ?",
-    "translated": ""
+    "translated": "Combien d'entre vous ont besoin d'un transport ?"
   },
   {
     "csv_row": 7280,
@@ -53,7 +53,7 @@
     "column": "options",
     "option_line": "cutCommLinkNoText:Trouver une excuse et couper les comms",
     "original": "Trouver une excuse et couper les comms",
-    "translated": ""
+    "translated": "Trouver une excuse et couper les comms"
   },
   {
     "csv_row": 7333,
@@ -61,14 +61,14 @@
     "column": "options",
     "option_line": "locrl_offloadLuddics2:Transporter les luddiques secourus par navette vers $name",
     "original": "Transporter les luddiques secourus par navette vers $name",
-    "translated": ""
+    "translated": "Transporter les luddiques secourus par navette vers $name"
   },
   {
     "csv_row": 7341,
     "id": "LOCRLoffloadToPath2mercy",
     "column": "text",
     "original": "Le Voiliste retient un soupir. \"Que la compassion que vous ressentez maintenant nourrisse votre devouement envers un Bien ultime, plus grand que les petites souffrances qu'ils - et nous - devons porter.\"\n\n$HisOrHer voix se remplit de conviction. \"A la fin, la promesse de Ludd nous attend tous.\"",
-    "translated": ""
+    "translated": "Le Voiliste retient un soupir. \"Que la compassion que vous ressentez maintenant nourrisse votre devouement envers un Bien ultime, plus grand que les petites souffrances qu'ils - et nous - devons porter.\"\n\n$HisOrHer voix se remplit de conviction. \"A la fin, la promesse de Ludd nous attend tous.\""
   },
   {
     "csv_row": 7342,
@@ -76,6 +76,6 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   }
 ]

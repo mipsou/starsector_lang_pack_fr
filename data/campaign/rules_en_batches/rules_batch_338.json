@@ -4,7 +4,7 @@
     "id": "PKPatherComDontNegotiate",
     "column": "text",
     "original": "\"Pas plus que nous avec un profanateur de la Creation,\" dit $heOrShe calmement. \"Mais vous savez que ce n'est pas toujours vrai.\"",
-    "translated": ""
+    "translated": "\"Pas plus que nous avec un profanateur de la Création,\" dit $heOrShe calmement. \"Mais vous savez que ce n'est pas toujours vrai.\""
   },
   {
     "csv_row": 10064,
@@ -12,7 +12,7 @@
     "column": "options",
     "option_line": "pkPath_recoverMission2:\"Que voulez-vous ? Parlez franchement.\"",
     "original": "Que voulez-vous ? Parlez franchement.",
-    "translated": ""
+    "translated": "Que voulez-vous ? Parlez franchement."
   },
   {
     "csv_row": 10067,
@@ -20,7 +20,7 @@
     "column": "options",
     "option_line": "pkPather_askEndOfWorld:\"Que voulez-vous dire par 'Fin du monde' ?\"",
     "original": "Que voulez-vous dire par 'Fin du monde' ?",
-    "translated": ""
+    "translated": "Que voulez-vous dire par 'Fin du monde' ?"
   },
   {
     "csv_row": 10070,
@@ -28,7 +28,7 @@
     "column": "options",
     "option_line": "pkPather_askHowInfo:\"Comment savez-vous cela ? Vos informations sont-elles fiables ?\"",
     "original": "Comment savez-vous cela ? Vos informations sont-elles fiables ?",
-    "translated": ""
+    "translated": "Comment savez-vous cela ? Vos informations sont-elles fiables ?"
   },
   {
     "csv_row": 10082,
@@ -36,14 +36,14 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   },
   {
     "csv_row": 10085,
     "id": "pkPatherMissionBeginReal",
     "column": "text",
     "original": "\"Je prierai pour votre retour sain et sauf,\" dit $heOrShe sans ironie.",
-    "translated": ""
+    "translated": "\"Je prierai pour votre retour sain et sauf,\" dit $heOrShe sans ironie."
   },
   {
     "csv_row": 10085,
@@ -51,7 +51,7 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   },
   {
     "csv_row": 10086,
@@ -59,7 +59,7 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   },
   {
     "csv_row": 10089,
@@ -67,7 +67,7 @@
     "column": "options",
     "option_line": "pk_investigate:Tenter d'ouvrir une liaison comm sur ce canal",
     "original": "Tenter d'ouvrir une liaison comm sur ce canal",
-    "translated": ""
+    "translated": "Tenter d'ouvrir une liaison comm sur ce canal"
   },
   {
     "csv_row": 10090,
@@ -75,6 +75,6 @@
     "column": "options",
     "option_line": "pk_investigate:Tenter d'ouvrir une liaison comm sur ce canal",
     "original": "Tenter d'ouvrir une liaison comm sur ce canal",
-    "translated": ""
+    "translated": "Tenter d'ouvrir une liaison comm sur ce canal"
   }
 ]

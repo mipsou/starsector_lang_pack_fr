@@ -5,14 +5,14 @@
     "column": "options",
     "option_line": "bffi_ulmusTalkGood1a:\"No. I, uh, believe Ulmus only ever had good intentions. Right?\"",
     "original": "No. I, uh, believe Ulmus only ever had good intentions. Right?",
-    "translated": ""
+    "translated": "Non. Je, euh, crois qu'Ulmus n'a jamais eu que de bonnes intentions. N'est-ce pas ?"
   },
   {
     "csv_row": 3091,
     "id": "BFFIulmusTalkPcGood2",
     "column": "text",
     "original": "\"You confess you knew 'it' was fake,\" Bornanew growls. \"We haven't even told you of what you are accused. You are stained with guilt!\"\n\nPond seems to shrink under Bornanew's accusations.",
-    "translated": ""
+    "translated": "\"Vous avouez que vous saviez que 'c'était' un faux,\" gronde Bornanew. \"Nous ne vous avons même pas dit de quoi vous êtes accusé. Vous transpirez la culpabilité !\"\n\nPond semble se recroqueviller sous les accusations de Bornanew."
   },
   {
     "csv_row": 3091,
@@ -20,7 +20,7 @@
     "column": "options",
     "option_line": "bffi_ulmusTalkGood3:\"They must have threatened you, Ulmus. You wouldn't hurt anybody.\"",
     "original": "They must have threatened you, Ulmus. You wouldn't hurt anybody.",
-    "translated": ""
+    "translated": "Ils ont dû vous menacer, Ulmus. Vous ne feriez de mal à personne."
   },
   {
     "csv_row": 3091,
@@ -28,14 +28,14 @@
     "column": "options",
     "option_line": "bffi_ulmusTalkGood3b:\"Knight Bornanew is right. You're guilty and deserve punishment.\"",
     "original": "Knight Bornanew is right. You're guilty and deserve punishment.",
-    "translated": ""
+    "translated": "Le Chevalier Bornanew a raison. Vous êtes coupable et méritez un châtiment."
   },
   {
     "csv_row": 3092,
     "id": "BFFIulmusTalkPcGood3b",
     "column": "text",
     "original": "Bornanew gives a consternated shake of his head. Pond, terrified, looks between you and Bornanew. \n\n\"The Captain,\" Bornanew says, \"wanted to put you into protective custody. Said you wouldn't hurt anyone, you were threatened.\" Bornanew meets your eyes again and says, deliberately, \"I don't believe you.\"\n\n\"But that's it!\" Pond cries, \"They said they'd- Pathers will do anything!\"\n\n\"Pathers,\" Bornanew says, his voice icy. \"You do know, Ulmus Pond, how we Knights deal with those heretics.\" Bornanew reaches into his satchel.\n\nPond goes paler, somehow. \"N-no, no. I'll confess! I'll do penance, I'll pray! Tell him!\" He looks to you.",
-    "translated": ""
+    "translated": "Bornanew secoue la tête, consterné. Pond, terrifié, regarde alternativement vous et Bornanew.\n\n\"Le Capitaine,\" dit Bornanew, \"voulait vous placer en détention protectrice. Il disait que vous ne feriez de mal à personne, que vous étiez menacé.\" Bornanew croise à nouveau votre regard et dit, délibérément, \"Je ne vous crois pas.\"\n\n\"Mais c'est la vérité !\" s'écrie Pond, \"Ils ont dit qu'ils allaient— Les Pèlerins sont prêts à tout !\"\n\n\"Les Pèlerins,\" dit Bornanew, d'une voix glaciale. \"Vous savez bien, Ulmus Pond, comment nous autres Chevaliers traitons ces hérétiques.\" Bornanew plonge la main dans sa sacoche.\n\nPond blêmit encore, d'une façon ou d'une autre. \"N-non, non. Je vais avouer ! Je ferai pénitence, je prierai ! Dites-lui !\" Il se tourne vers vous."
   },
   {
     "csv_row": 3092,
@@ -43,7 +43,7 @@
     "column": "options",
     "option_line": "bffi_ulmusTalkGood4a:\"We want to help. Tell us who did this to you, Ulmus.\"",
     "original": "We want to help. Tell us who did this to you, Ulmus.",
-    "translated": ""
+    "translated": "Nous voulons vous aider. Dites-nous qui vous a fait ça, Ulmus."
   },
   {
     "csv_row": 3092,
@@ -51,7 +51,7 @@
     "column": "options",
     "option_line": "bffi_ulmusTalkGood4b:\"The Knights punish heretics. Forgiveness is for God.\"",
     "original": "The Knights punish heretics. Forgiveness is for God.",
-    "translated": ""
+    "translated": "Les Chevaliers punissent les hérétiques. Le pardon appartient à Dieu."
   },
   {
     "csv_row": 3094,
@@ -59,7 +59,7 @@
     "column": "options",
     "option_line": "bffi_ulmusTalkGood4a:\"We want to help. Tell us who did this to you, Ulmus.\"",
     "original": "We want to help. Tell us who did this to you, Ulmus.",
-    "translated": ""
+    "translated": "Nous voulons vous aider. Dites-nous qui vous a fait ça, Ulmus."
   },
   {
     "csv_row": 3094,
@@ -67,13 +67,13 @@
     "column": "options",
     "option_line": "bffi_ulmusTalkGood4b:\"The Knights punish heretics. Forgiveness is for God.\"",
     "original": "The Knights punish heretics. Forgiveness is for God.",
-    "translated": ""
+    "translated": "Les Chevaliers punissent les hérétiques. Le pardon appartient à Dieu."
   },
   {
     "csv_row": 3095,
     "id": "BFFIulmusTalkPcGood4",
     "column": "text",
     "original": "\"There was... a Walker of the Path,\" Pond sputters. \"The Luddic Path.\"\n\n\"He told me to talk to Menes, to, to make the offer. He said a Mammonite couldn't resist an object of such unique quality. And- and I was to arrange transport from the Fringe. Make it appear legitimate. Set the documents straight.\"\n\nBornanew draws his cheap datapad from his satchel, the screen already set to a map of the greater Persean Sector.",
-    "translated": ""
+    "translated": "\"Il y avait... un Marcheur du Sentier,\" balbutie Pond. \"Le Sentier Luddique.\"\n\n\"Il m'a dit de parler à Menes, de, de faire l'offre. Il a dit qu'un Mammonite ne pourrait pas résister à un objet d'une telle qualité unique. Et— et je devais organiser le transport depuis la Frange. Faire en sorte que ça paraisse légitime. Mettre les documents en ordre.\"\n\nBornanew sort son datapad bon marché de sa sacoche, l'écran déjà réglé sur une carte du grand Secteur Persien."
   }
 ]

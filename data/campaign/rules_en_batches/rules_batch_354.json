@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "gaDHO_visitElekHubSelA5b:\"Glad to hear it. I expect more than 100,000 credits, plus hazard.\"",
     "original": "Glad to hear it. I expect more than 100,000 credits, plus hazard.",
-    "translated": ""
+    "translated": "Ravi de l'entendre. J'attends plus de 100 000 crédits, plus la prime de risque."
   },
   {
     "csv_row": 10835,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "gaDHO_visitElekHubSelA6a:\"So it is Tri-Tachyon. They can afford at least 200,000 credits, plus hazard.\"",
     "original": "So it is Tri-Tachyon. They can afford at least 200,000 credits, plus hazard.",
-    "translated": ""
+    "translated": "C'est donc Tri-Tachyon. Ils peuvent se permettre au moins 200 000 crédits, plus la prime de risque."
   },
   {
     "csv_row": 10839,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "gaDHO_visitElekHubSelZGRa:\"Glad to hear it. I expect more than 100,000 credits, plus hazard.\"",
     "original": "Glad to hear it. I expect more than 100,000 credits, plus hazard.",
-    "translated": ""
+    "translated": "Ravi de l'entendre. J'attends plus de 100 000 crédits, plus la prime de risque."
   },
   {
     "csv_row": 10839,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "gaDHO_visitElekHubSelZGRb:\"Tri-Tachyon can afford at least 200,000 credits, plus hazard.\"",
     "original": "Tri-Tachyon can afford at least 200,000 credits, plus hazard.",
-    "translated": ""
+    "translated": "Tri-Tachyon peut se permettre au moins 200 000 crédits, plus la prime de risque."
   },
   {
     "csv_row": 10843,
@@ -37,7 +37,7 @@
     "column": "options",
     "option_line": "gaDHO_visitElekAskPatron2a:\"More noble, by far, is your willingness to take up this cause.\" (lie)",
     "original": "More noble, by far, is your willingness to take up this cause.\" (lie)",
-    "translated": ""
+    "translated": "Bien plus noble, de loin, est votre volonté de vous consacrer à cette cause.\" (mensonge)"
   },
   {
     "csv_row": 10845,
@@ -45,7 +45,7 @@
     "column": "options",
     "option_line": "gaDHO_visitElekAskPatron3:Nod enthusiastically as if you are entranced by his words",
     "original": "Nod enthusiastically as if you are entranced by his words",
-    "translated": ""
+    "translated": "Hocher la tête avec enthousiasme comme si vous étiez captivé par ses paroles"
   },
   {
     "csv_row": 10847,
@@ -53,7 +53,7 @@
     "column": "options",
     "option_line": "gaDHO_visitElekHubSelC2b:\"Aren't you a planetologist? This seems outside your field.\"",
     "original": "Aren't you a planetologist? This seems outside your field.",
-    "translated": ""
+    "translated": "N'êtes-vous pas planétologue ? Cela semble hors de votre domaine."
   },
   {
     "csv_row": 10859,
@@ -61,7 +61,7 @@
     "column": "options",
     "option_line": "0:cutCommLink:Cut the commlink",
     "original": "cutCommLink:Cut the commlink",
-    "translated": ""
+    "translated": "cutCommLink:Couper la comm"
   },
   {
     "csv_row": 10860,
@@ -69,7 +69,7 @@
     "column": "options",
     "option_line": "0:cutCommLink:Cut the commlink",
     "original": "cutCommLink:Cut the commlink",
-    "translated": ""
+    "translated": "cutCommLink:Couper la comm"
   },
   {
     "csv_row": 10861,
@@ -77,6 +77,6 @@
     "column": "options",
     "option_line": "0:cutCommLink:Cut the commlink",
     "original": "cutCommLink:Cut the commlink",
-    "translated": ""
+    "translated": "cutCommLink:Couper la comm"
   }
 ]

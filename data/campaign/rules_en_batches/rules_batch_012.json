@@ -4,72 +4,72 @@
     "id": "oyaTanaicaVambrace3",
     "column": "text",
     "original": "The machine's hum drops an octave, and loses some of its urgency.\n\n\"Huh,\" she says. She wears a look of blank unease.\n\n\"Weird.\"",
-    "translated": ""
+    "translated": "Le bourdonnement de la machine descend d'une octave et perd de son intensité.\n\n\"Hm,\" dit-elle. Son visage affiche une expression de malaise indéfinissable.\n\n\"Bizarre.\""
   },
   {
     "csv_row": 236,
     "id": "oyaTanaicaVambrace4",
     "column": "text",
     "original": "Tanaica manipulates her controls and a small cutaway pulls out of the rough block of armor. It scales to fill the volume of the holo.\n\nAnother segmentation of scale iterates, then another as Tanaica brings the resolution to the nearly-atomic. Patterns of false colour flash highlighting pseudo-crystals, various regular - and irregular - structures, as well as flaws.\n\n\"It's the damnedest thing, isn't it,\" she says, attention focused on the display.",
-    "translated": ""
+    "translated": "Tanaica manipule ses commandes et une petite coupe se détache du bloc brut de blindage. Elle s'agrandit pour remplir le volume de l'hologramme.\n\nUne autre segmentation d'échelle s'itère, puis une autre tandis que Tanaica amène la résolution au niveau quasi-atomique. Des motifs en fausses couleurs clignotent, mettant en évidence des pseudo-cristaux, diverses structures régulières — et irrégulières — ainsi que des défauts.\n\n\"C'est la chose la plus incroyable, pas vrai,\" dit-elle, le regard rivé sur l'écran."
   },
   {
     "csv_row": 236,
     "id": "oyaTanaicaVambrace4",
     "column": "options",
-    "option_line": "oyaTanaica_vambrace5a:\"Definitely. Wow. Look at that. The... ah...\"",
+    "option_line": "oyaTanaica_vambrace5a:\"Absolument. Waouh. Regardez ça. Les... euh...\"",
     "original": "Definitely. Wow. Look at that. The... ah...",
-    "translated": ""
+    "translated": "Absolument. Waouh. Regardez ça. Les... euh..."
   },
   {
     "csv_row": 237,
     "id": "oyaTanaicaVambrace5a",
     "column": "text",
     "original": "She turns to look at you, raising an eyebrow.",
-    "translated": ""
+    "translated": "Elle se tourne vers vous en haussant un sourcil."
   },
   {
     "csv_row": 238,
     "id": "oyaTanaicaVambrace5-1",
     "column": "text",
     "original": "\"Sorry, cap,\" she says. \"I should be thinking out loud, you paid good credits for this after all.\"\n\nShe licks her lips, then releases a breath.",
-    "translated": ""
+    "translated": "\"Désolée, cap'taine,\" dit-elle. \"Je devrais réfléchir à voix haute, vous avez payé cher pour ça après tout.\"\n\nElle se lèche les lèvres, puis relâche son souffle."
   },
   {
     "csv_row": 239,
     "id": "oyaTanaicaVambrace5-2",
     "column": "text",
     "original": "\"It's nanoforged. Obvious stuff, look at that drift,\" she taps something and a distortion in the material structure becomes exaggerated.\n\n\"Crude, relatively speaking. Modern forges won't do it like this. Hm. 'Modern' meaning anything from the last thousand cycles. Seems like you found a genuine museum piece. Not unheard of 'course. Scavengers pull in bits of old sporeships and Explorarium junk often enough. Saw a bit of cryosleeper scanned when I was in training. Fascinating stuff.\"\n\nShe taps not the controls, but the casing of the analysis suite. \"So it's old, but that's not what's strange.\"",
-    "translated": ""
+    "translated": "\"C'est nanoforgé. Rien de surprenant, regardez cette dérive,\" elle tapote quelque chose et une distorsion dans la structure du matériau s'accentue.\n\n\"Grossier, relativement parlant. Les forges modernes ne font pas ça comme ça. Hm. 'Modernes' signifiant tout ce qui date des mille derniers cycles. On dirait que vous avez trouvé une authentique pièce de musée. Ce n'est pas inédit, bien sûr. Les récupérateurs ramènent des morceaux de vieux vaisseaux-spores et de rebuts de l'Explorarium assez souvent. J'ai vu un bout de cryodormeur scanné pendant ma formation. Fascinant.\"\n\nElle tapote non pas les commandes, mais le boîtier de la suite d'analyse. \"Donc c'est ancien, mais ce n'est pas ça qui est étrange.\""
   },
   {
     "csv_row": 239,
     "id": "oyaTanaicaVambrace5-2",
     "column": "options",
-    "option_line": "oyaTanaica_vambrace6a:\"You like drawing this out for maximum drama, don't you.\"",
+    "option_line": "oyaTanaica_vambrace6a:\"Vous aimez faire durer le suspense, pas vrai.\"",
     "original": "You like drawing this out for maximum drama, don't you.",
-    "translated": ""
+    "translated": "Vous aimez faire durer le suspense, pas vrai."
   },
   {
     "csv_row": 239,
     "id": "oyaTanaicaVambrace5-2",
     "column": "options",
-    "option_line": "oyaTanaica_vambrace6b:\"So what makes it strange?\"",
+    "option_line": "oyaTanaica_vambrace6b:\"Alors qu'est-ce qui est étrange ?\"",
     "original": "So what makes it strange?",
-    "translated": ""
+    "translated": "Alors qu'est-ce qui est étrange ?"
   },
   {
     "csv_row": 240,
     "id": "oyaTanaicaVambrace6a",
     "column": "text",
     "original": "\"Ha!\" She smiles, if uneasily. \"Got me. It's boring as dirt here in Luddie-land, gotta make my own fun.\"\n\n\"Still, this really is interesting... There's no embedded fabrication-rights!\"\n\nShe looks at you significantly, as if this means something important.",
-    "translated": ""
+    "translated": "\"Ha !\" Elle sourit, quoiqu'avec un certain malaise. \"Bien vu. C'est ennuyeux comme la mort ici au pays des Luddiques, faut bien se divertir.\"\n\n\"Quand même, c'est vraiment intéressant... Il n'y a pas de droits de fabrication intégrés !\"\n\nElle vous regarde d'un air entendu, comme si cela signifiait quelque chose d'important."
   },
   {
     "csv_row": 241,
     "id": "oyaTanaicaVambrace6b",
     "column": "text",
     "original": "\"There are no embedded fabrication-rights!\"\n\nShe looks at you as if this means something important, and you're supposed to respond.",
-    "translated": ""
+    "translated": "\"Il n'y a pas de droits de fabrication intégrés !\"\n\nElle vous regarde comme si cela signifiait quelque chose d'important, et que vous êtes censé réagir."
   }
 ]

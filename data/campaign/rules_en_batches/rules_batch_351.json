@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "salOHOG_story3secular:\"You may proceed with the operation.\"",
     "original": "You may proceed with the operation.",
-    "translated": ""
+    "translated": "Vous pouvez poursuivre l'opération."
   },
   {
     "csv_row": 10757,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   },
   {
     "csv_row": 10758,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   },
   {
     "csv_row": 10759,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   },
   {
     "csv_row": 10760,
@@ -37,14 +37,14 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   },
   {
     "csv_row": 10781,
     "id": "mk1_namelessRock",
     "column": "text",
     "original": "Your $shipOrFleet approaches the planetoid.",
-    "translated": ""
+    "translated": "Votre $shipOrFleet approche du planétoïde."
   },
   {
     "csv_row": 10786,
@@ -52,7 +52,7 @@
     "column": "options",
     "option_line": "gaDHO_hook0:\"Patch it through to my TriPad.\"",
     "original": "Patch it through to my TriPad.",
-    "translated": ""
+    "translated": "Transférez-le sur mon TriPad."
   },
   {
     "csv_row": 10787,
@@ -60,7 +60,7 @@
     "column": "options",
     "option_line": "gaDHO_hook0:\"Patch it through to my TriPad.\"",
     "original": "Patch it through to my TriPad.",
-    "translated": ""
+    "translated": "Transférez-le sur mon TriPad."
   },
   {
     "csv_row": 10798,
@@ -68,7 +68,7 @@
     "column": "options",
     "option_line": "3:gaDHO_visitElekStart2:Ask where you could find the office of Cornelius Elek",
     "original": "gaDHO_visitElekStart2:Ask where you could find the office of Cornelius Elek",
-    "translated": ""
+    "translated": "gaDHO_visitElekStart2:Demander où se trouve le bureau de Cornelius Elek"
   },
   {
     "csv_row": 10799,
@@ -76,6 +76,6 @@
     "column": "options",
     "option_line": "gaDHO_visitElekStart3:\"He sent me a personal invitation.\"",
     "original": "He sent me a personal invitation.",
-    "translated": ""
+    "translated": "Il m'a envoyé une invitation personnelle."
   }
 ]

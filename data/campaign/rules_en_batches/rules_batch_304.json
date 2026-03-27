@@ -4,21 +4,21 @@
     "id": "sdtuMacIntroAnswerCourseLie",
     "column": "text",
     "original": "\"Menteur,\" dit Macario avec jubilation. \"Et absolument parfait ! Vous faites preuve exactement de la duplicite audacieuse dont j'ai besoin.\"",
-    "translated": ""
+    "translated": "\"Menteur,\" dit Macario avec jubilation. \"Et absolument parfait ! Vous faites preuve exactement de la duplicité audacieuse dont j'ai besoin.\""
   },
   {
     "csv_row": 8761,
     "id": "sdtuMacIntroWhyHelp",
     "column": "text",
     "original": "\"Une question interessante, capitaine.\"",
-    "translated": ""
+    "translated": "\"Une question intéressante, capitaine.\""
   },
   {
     "csv_row": 8771,
     "id": "sdtuMacReasonPowerful",
     "column": "text",
     "original": "\"La reponse est la puissance brute. Vous disposez d'une flotte independante impressionnante et d'aucun lien particulierement fort avec une faction significative.\"\n\n\"Comprenez-vous comment cela rend les planificateurs strategiques craintifs ? Vos motivations sont... erratiques. Vous pourriez faire n'importe quoi. C'est parfait.\"",
-    "translated": ""
+    "translated": "\"La réponse est la puissance brute. Vous disposez d'une flotte indépendante impressionnante et d'aucun lien particulièrement fort avec une faction significative.\"\n\n\"Comprenez-vous comment cela rend les planificateurs stratégiques craintifs ? Vos motivations sont... erratiques. Vous pourriez faire n'importe quoi. C'est parfait.\""
   },
   {
     "csv_row": 8775,
@@ -26,7 +26,7 @@
     "column": "options",
     "option_line": "sdtu_safehouseEnd:\"Je vais... voir ce que je peux faire.\"",
     "original": "Je vais... voir ce que je peux faire.",
-    "translated": ""
+    "translated": "Je vais... voir ce que je peux faire."
   },
   {
     "csv_row": 8776,
@@ -34,14 +34,14 @@
     "column": "options",
     "option_line": "sdtu_macHyderJustTalk:\"Pourquoi ne lui parlerais-je pas tout simplement ?\"",
     "original": "Pourquoi ne lui parlerais-je pas tout simplement ?",
-    "translated": ""
+    "translated": "Pourquoi ne lui parlerais-je pas tout simplement ?"
   },
   {
     "csv_row": 8782,
     "id": "sdtuSafehouseWrapAnswer2",
     "column": "text",
     "original": "Macario laisse echapper un rire essoufle.\n\n\"Une suggestion belle et evidente, cher capitaine, mais elle me deteste. Cette vieille femme tetue ne se laissera pas convaincre par moi, et encore moins ouvrir son coeur.\"",
-    "translated": ""
+    "translated": "Macario laisse échapper un rire essoufflé.\n\n\"Une suggestion belle et évidente, cher capitaine, mais elle me déteste. Cette vieille femme têtue ne se laissera pas convaincre par moi, et encore moins ouvrir son cœur.\""
   },
   {
     "csv_row": 8794,
@@ -49,7 +49,7 @@
     "column": "options",
     "option_line": "sdtu_traitorPatrolUnderArrest1b:\"Je suis ici — encore — sur ordre d'arrestation de l'Inspecteur en Chef Dolos Macario.\"",
     "original": "Je suis ici — encore — sur ordre d'arrestation de l'Inspecteur en Chef Dolos Macario.",
-    "translated": ""
+    "translated": "Je suis ici — encore — sur ordre d'arrestation de l'Inspecteur en Chef Dolos Macario."
   },
   {
     "csv_row": 8796,
@@ -57,14 +57,14 @@
     "column": "options",
     "option_line": "sdtu_patrolAgainDidWarrantOpen2:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   },
   {
     "csv_row": 8798,
     "id": "sdtuTraitorPatrolUnderArrest1",
     "column": "text",
     "original": "\"Absurde !\" s'ecrie $HeOrShe, agace. \"Je devrais vous faire arreter pour usurpation d'autorite et avoir fait une parodie du Diktat Sindrien !\"",
-    "translated": ""
+    "translated": "\"Absurde !\" s'écrie $HeOrShe, agacé. \"Je devrais vous faire arrêter pour usurpation d'autorité et avoir fait une parodie du Diktat Sindrien !\""
   },
   {
     "csv_row": 8801,
@@ -72,6 +72,6 @@
     "column": "options",
     "option_line": "sdtu_patrolAskSurrender:\"Faites ce qu'il faut et rendez-vous sans combattre.\"",
     "original": "Faites ce qu'il faut et rendez-vous sans combattre.",
-    "translated": ""
+    "translated": "Faites ce qu'il faut et rendez-vous sans combattre."
   }
 ]

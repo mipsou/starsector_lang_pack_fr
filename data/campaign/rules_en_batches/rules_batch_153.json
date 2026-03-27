@@ -5,56 +5,56 @@
     "column": "options",
     "option_line": "2:bffi_deliverToOak:Shuttle down to deliver Bornanew's body to the Knights of Ludd",
     "original": "bffi_deliverToOak:Shuttle down to deliver Bornanew's body to the Knights of Ludd",
-    "translated": ""
+    "translated": "bffi_deliverToOak:Descendre en navette pour remettre le corps de Bornanew aux Chevaliers de Ludd"
   },
   {
     "csv_row": 3486,
     "id": "BFFIdeliverToOakStart",
     "column": "text",
     "original": "Your officers make arrangements with the local authorities, requesting permission and receiving a flight path to shuttle down to one of the Knights' facilities on the surface of Hesperus.",
-    "translated": ""
+    "translated": "Vos officiers prennent des dispositions avec les autorités locales, demandant la permission et recevant un plan de vol pour descendre en navette vers l'une des installations des Chevaliers à la surface d'Hesperus."
   },
   {
     "csv_row": 3487,
     "id": "BFFIdeliverToOakJustBorn",
     "column": "text",
     "original": "Bornanew joins you on the shuttle, his expression closed.",
-    "translated": ""
+    "translated": "Bornanew vous rejoint dans la navette, l'expression fermée."
   },
   {
     "csv_row": 3488,
     "id": "BFFIdeliverToOakBornAndKeep",
     "column": "text",
     "original": "Bornanew joins you on the shuttle. A muted and restrained Cedra Keepfaith is brought, as well.",
-    "translated": ""
+    "translated": "Bornanew vous rejoint dans la navette. Une Cedra Keepfaith muselée et entravée est également amenée."
   },
   {
     "csv_row": 3489,
     "id": "BFFIdeliverToOakJustBody",
     "column": "text",
     "original": "The simple spacer's coffin holding Bornanew's body is loaded onto the shuttle. One of the spacers briefly puts their hands together, head bowed, after setting it down. A small sign of Luddic devotion.",
-    "translated": ""
+    "translated": "Le simple cercueil de spacien contenant le corps de Bornanew est chargé dans la navette. L'un des spaciens joint brièvement les mains, tête baissée, après l'avoir posé. Un petit signe de dévotion Luddique."
   },
   {
     "csv_row": 3490,
     "id": "BFFIdeliverToOakBodyAndKeep",
     "column": "text",
     "original": "A muted Cedra Keepfaith is led aboard by your guards. She does not look at the simple spacer coffin which holds Bornanew's body.",
-    "translated": ""
+    "translated": "Une Cedra Keepfaith muette est conduite à bord par vos gardes. Elle ne regarde pas le simple cercueil de spacien qui contient le corps de Bornanew."
   },
   {
     "csv_row": 3491,
     "id": "BFFIdeliverToOakBodyOnly",
     "column": "text",
     "original": "The simple spacer's coffin holding Bornanew's body is loaded onto the shuttle. One of the spacers briefly puts their hands together, head bowed, after setting it down. A small sign of Luddic devotion.",
-    "translated": ""
+    "translated": "Le simple cercueil de spacien contenant le corps de Bornanew est chargé dans la navette. L'un des spaciens joint brièvement les mains, tête baissée, après l'avoir posé. Un petit signe de dévotion Luddique."
   },
   {
     "csv_row": 3492,
     "id": "BFFIdeliverToOak2",
     "column": "text",
     "original": "Your shuttle approaches an almost floral arrangement of pads set in the midst of a former mine pit.\n\nHeavy doors open from the rockface inviting your landing party into the dimly lit hangar beyond.\n\nA score of armored Knights march forth - like small, segmented dolls compared with the scale of the door, but as you approach you note their height. They must be the tallest farm-fed children of Gilead and Tartessus, all aclad in polished white armor, half-capes slack in the near-vacuum.\n\nThey turn precisely aside, weapons held vertical. ",
-    "translated": ""
+    "translated": "Votre navette approche d'un arrangement presque floral de plateformes d'atterrissage installées au milieu d'une ancienne mine.\n\nDe lourdes portes s'ouvrent dans la paroi rocheuse, invitant votre groupe à pénétrer dans le hangar faiblement éclairé au-delà.\n\nUne vingtaine de Chevaliers en armure s'avancent - comme de petites poupées articulées comparées à l'échelle de la porte, mais en vous approchant vous remarquez leur stature. Ce doivent être les plus grands enfants nourris aux fermes de Gilead et Tartessus, tous vêtus d'armures blanches polies, demi-capes flottant dans le quasi-vide.\n\nIls se tournent avec précision sur le côté, armes tenues à la verticale. "
   },
   {
     "csv_row": 3492,
@@ -62,13 +62,13 @@
     "column": "options",
     "option_line": "bffi_deliverToOak3:Enter the hangar",
     "original": "Enter the hangar",
-    "translated": ""
+    "translated": "Entrer dans le hangar"
   },
   {
     "csv_row": 3493,
     "id": "BFFIdeliverToOak3",
     "column": "text",
     "original": "You enter, the guards reverse their process, and the hangar is pressurized. \n\nA far door cracks open, casting a long wedge of light. Spots snap on, converted shuttles and fightercraft loom in all corners.\n\nThe Excubitor Orbis enters. \n\nGideon Oak is a brick of a man, squat but powerful. Perhaps the product of a forgotten high-G world. He is accompanied by a weedy clerk.",
-    "translated": ""
+    "translated": "Vous entrez, les gardes inversent leur processus, et le hangar est pressurisé.\n\nUne porte lointaine s'entrouvre, projetant un long triangle de lumière. Des projecteurs s'allument, des navettes reconverties et des chasseurs se dressent dans tous les coins.\n\nL'Excubitor Orbis entre.\n\nGideon Oak est un bloc d'homme, trapu mais puissant. Peut-être le produit d'un monde à haute gravité oublié. Il est accompagné d'une greffière chétive."
   }
 ]

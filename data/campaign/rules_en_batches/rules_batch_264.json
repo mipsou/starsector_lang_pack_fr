@@ -4,14 +4,14 @@
     "id": "kdKantaFirstIntro5",
     "column": "text",
     "original": "Le petit docteur s'avance et se racle la gorge, puis dit : \"Je suis le Docteur Cydonia, assistant personnel du seigneur de guerre.\"",
-    "translated": ""
+    "translated": "Le petit docteur s'avance et se racle la gorge, puis dit : \"Je suis le Docteur Cydonia, assistant personnel du seigneur de guerre.\""
   },
   {
     "csv_row": 8088,
     "id": "DardanKatoAskImoinu2",
     "column": "text",
     "original": "Dardan lets out a sigh.\n\n\"I already know about her little crusade. I'd thank you not to mention her- unless she's finally decided to do the right thing and return to the Gens?\"\n\nHe barely waits before he says \"Didn't think so.\"",
-    "translated": ""
+    "translated": "Dardan pousse un soupir.\n\n\"Je suis deja au courant de sa petite croisade. Je vous prierais de ne pas la mentionner - a moins qu'elle ait enfin decide de faire ce qu'il faut et de revenir dans la Gens ?\"\n\nIl attend a peine avant de lacher : \"C'est bien ce que je pensais.\""
   },
   {
     "csv_row": 8089,
@@ -19,7 +19,7 @@
     "column": "options",
     "option_line": "dardanKato_askImoinuOptA:\"My impression was that she wishes to stay where she is.\"",
     "original": "My impression was that she wishes to stay where she is.",
-    "translated": ""
+    "translated": "J'ai eu l'impression qu'elle souhaitait rester ou elle est."
   },
   {
     "csv_row": 8090,
@@ -27,21 +27,21 @@
     "column": "options",
     "option_line": "dardanKato_askImoinuOptB:\"I gave her material support for the ARC. She seems capable of looking after herself.\"",
     "original": "I gave her material support for the ARC. She seems capable of looking after herself.",
-    "translated": ""
+    "translated": "Je lui ai apporte un soutien materiel pour l'ARC. Elle semble capable de se debrouiller seule."
   },
   {
     "csv_row": 8093,
     "id": "DardanKatoAskImoinuOptB",
     "column": "text",
     "original": "He gives you a wretched look. \"Tell me you didn't.\"\n\n\"No,\" he holds up a hand. \"Don't tell me at all. I don't want to know. Drop it. We're not talking about this.\"",
-    "translated": ""
+    "translated": "Il vous lance un regard miserable. \"Dites-moi que vous n'avez pas fait ca.\"\n\n\"Non,\" il leve la main. \"Ne me dites rien du tout. Je ne veux pas savoir. Laissez tomber. On ne parle pas de ca.\""
   },
   {
     "csv_row": 8094,
     "id": "DardanKatoAskImoinuOptC",
     "column": "text",
     "original": "\"By the bloody stars, please and thank-you,\" he mutters under his breath,",
-    "translated": ""
+    "translated": "\"Par les etoiles sanglantes, je vous en prie,\" marmonne-t-il dans sa barbe,"
   },
   {
     "csv_row": 8097,
@@ -49,7 +49,7 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   },
   {
     "csv_row": 8098,
@@ -57,7 +57,7 @@
     "column": "options",
     "option_line": "yaribay_followup1:\"Des nouvelles de notre ami commun ?\"",
     "original": "Des nouvelles de notre ami commun ?",
-    "translated": ""
+    "translated": "Des nouvelles de notre ami commun ?"
   },
   {
     "csv_row": 8099,
@@ -65,7 +65,7 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   },
   {
     "csv_row": 8100,
@@ -73,6 +73,6 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   }
 ]

@@ -4,14 +4,14 @@
     "id": "LOCRMofferMyColony",
     "column": "text",
     "original": "\"Vraiment ?\" Le mineur $post sourit. \"Si vous avez des emplois remuneres, on serait fous de refuser.\"\n\n\"Je vais organiser tout le monde ici, et le materiel lourd sera emballe pour vous d'ici un quart ! Ah, ca fait du bien de reprendre le travail.\"",
-    "translated": ""
+    "translated": "\"Vraiment ?\" Le mineur $post sourit. \"Si vous avez des emplois remuneres, on serait fous de refuser.\"\n\n\"Je vais organiser tout le monde ici, et le materiel lourd sera emballe pour vous d'ici un quart ! Ah, ca fait du bien de reprendre le travail.\""
   },
   {
     "csv_row": 7136,
     "id": "LOCRMofferTransport",
     "column": "text",
     "original": "\"Splendide.\" Le mineur $post sourit.\n\n\"Je vais organiser tout le monde ici, et le materiel lourd sera emballe pour vous d'ici un quart ! Ah, ca fait du bien de reprendre le travail.\"",
-    "translated": ""
+    "translated": "\"Splendide.\" Le mineur $post sourit.\n\n\"Je vais organiser tout le monde ici, et le materiel lourd sera emballe pour vous d'ici un quart ! Ah, ca fait du bien de reprendre le travail.\""
   },
   {
     "csv_row": 7138,
@@ -19,7 +19,7 @@
     "column": "options",
     "option_line": "locrm_offloadMiners2:Transporter les mineurs secourus par navette vers $name",
     "original": "Transporter les mineurs secourus par navette vers $name",
-    "translated": ""
+    "translated": "Transporter les mineurs secourus par navette vers $name"
   },
   {
     "csv_row": 7141,
@@ -27,7 +27,7 @@
     "column": "options",
     "option_line": "locrm_offloadMinersOwnColony2:Transporter les mineurs secourus par navette vers $name",
     "original": "Transporter les mineurs secourus par navette vers $name",
-    "translated": ""
+    "translated": "Transporter les mineurs secourus par navette vers $name"
   },
   {
     "csv_row": 7153,
@@ -35,7 +35,7 @@
     "column": "options",
     "option_line": "locrp_removeBecauseColony2:Consulter le rapport",
     "original": "Consulter le rapport",
-    "translated": ""
+    "translated": "Consulter le rapport"
   },
   {
     "csv_row": 7157,
@@ -43,7 +43,7 @@
     "column": "options",
     "option_line": "locrp_contact0:Connecter les comms au signal provenant de la surface",
     "original": "Connecter les comms au signal provenant de la surface",
-    "translated": ""
+    "translated": "Connecter les comms au signal provenant de la surface"
   },
   {
     "csv_row": 7162,
@@ -51,7 +51,7 @@
     "column": "options",
     "option_line": "locrp_whyAreYouHere:\"Que faites-vous sur ce... caillou ?\"",
     "original": "Que faites-vous sur ce... caillou ?",
-    "translated": ""
+    "translated": "Que faites-vous sur ce... caillou ?"
   },
   {
     "csv_row": 7164,
@@ -59,7 +59,7 @@
     "column": "options",
     "option_line": "locrp_whoIsFenius:\"Alors qui est ce Fenius ?\"",
     "original": "Alors qui est ce Fenius ?",
-    "translated": ""
+    "translated": "Alors qui est ce Fenius ?"
   },
   {
     "csv_row": 7165,
@@ -67,7 +67,7 @@
     "column": "options",
     "option_line": "locrp_whoIsMarlowe:\"Alors qui est ce Marlowe ?\"",
     "original": "Alors qui est ce Marlowe ?",
-    "translated": ""
+    "translated": "Alors qui est ce Marlowe ?"
   },
   {
     "csv_row": 7169,
@@ -75,6 +75,6 @@
     "column": "options",
     "option_line": "locrp_offerToPrison:Proposer de les transporter... en prison",
     "original": "Proposer de les transporter... en prison",
-    "translated": ""
+    "translated": "Proposer de les transporter... en prison"
   }
 ]

@@ -4,7 +4,7 @@
     "id": "HYaribayAskReynardHub",
     "column": "text",
     "original": "\"Notre Premier Demarque.\" Il expire lentement, l'expression soigneusement diplomatique. \"Vous l'avez rencontre ? Je suppose que des felicitations s'imposent.\"",
-    "translated": ""
+    "translated": "\"Notre Premier Demarque.\" Il expire lentement, l'expression soigneusement diplomatique. \"Vous l'avez rencontre ? Je suppose que des felicitations s'imposent.\""
   },
   {
     "csv_row": 8104,
@@ -12,7 +12,7 @@
     "column": "options",
     "option_line": "yaribay_askReynardA:\"Je comprends pourquoi c'est lui qui dirige la Ligue Persane.\"",
     "original": "Je comprends pourquoi c'est lui qui dirige la Ligue Persane.",
-    "translated": ""
+    "translated": "Je comprends pourquoi c'est lui qui dirige la Ligue Persane."
   },
   {
     "csv_row": 8106,
@@ -20,7 +20,7 @@
     "column": "options",
     "option_line": "yaribay_askReynardC:\"Que pensez-vous de Reynard Hannan ?\"",
     "original": "Que pensez-vous de Reynard Hannan ?",
-    "translated": ""
+    "translated": "Que pensez-vous de Reynard Hannan ?"
   },
   {
     "csv_row": 8107,
@@ -28,7 +28,7 @@
     "column": "options",
     "option_line": "yaribay_askReynardD:\"Comment pouvez-vous laisser cet homme diriger la Ligue comme son propre fief ?\"",
     "original": "Comment pouvez-vous laisser cet homme diriger la Ligue comme son propre fief ?",
-    "translated": ""
+    "translated": "Comment pouvez-vous laisser cet homme diriger la Ligue comme son propre fief ?"
   },
   {
     "csv_row": 8108,
@@ -36,28 +36,28 @@
     "column": "options",
     "option_line": "hyaribay_askReynardBack:\"Parlons d'autre chose.\" (back)",
     "original": "Parlons d'autre chose.\" (back)",
-    "translated": ""
+    "translated": "Parlons d'autre chose.\" (retour)"
   },
   {
     "csv_row": 8114,
     "id": "HYaribayAskReynardRespC",
     "column": "text",
     "original": "\"La Gens Hannan est puissante,\" dit-il, \"et Reynard est un homme qui sait manier le pouvoir.\"\n\n\"Je respecte son rang et ses capacites, bien que lui et moi nous accordions sur peu de sujets politiques.\"",
-    "translated": ""
+    "translated": "\"La Gens Hannan est puissante,\" dit-il, \"et Reynard est un homme qui sait manier le pouvoir.\"\n\n\"Je respecte son rang et ses capacites, bien que lui et moi nous accordions sur peu de sujets politiques.\""
   },
   {
     "csv_row": 8117,
     "id": "DevHYaribayUnhideOptionSel",
     "column": "text",
     "original": "Horus Yaribay rendu visible",
-    "translated": ""
+    "translated": "Horus Yaribay rendu visible"
   },
   {
     "csv_row": 8119,
     "id": "MenesYaribayIgnoresYouBecause",
     "column": "text",
     "original": "The comms connect to a holding pattern, the crest of Gens Yaribay. And wait.\n\nIt soon becomes clear that Menes Yaribay is ignoring your request.",
-    "translated": ""
+    "translated": "La comm se connecte a un schema d'attente, affichant le blason de la Gens Yaribay. Et attend.\n\nIl devient vite evident que Menes Yaribay ignore votre demande."
   },
   {
     "csv_row": 8119,
@@ -65,13 +65,13 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   },
   {
     "csv_row": 8120,
     "id": "MenesYaribayIgnoresYouTemp",
     "column": "text",
     "original": "The comms connect to a holding pattern, the crest of Gens Yaribay. And wait.\n\nMenes Yaribay is not acknowledging your request at this time.",
-    "translated": ""
+    "translated": "La comm se connecte a un schema d'attente, affichant le blason de la Gens Yaribay. Et attend.\n\nMenes Yaribay ne repond pas a votre demande pour le moment."
   }
 ]

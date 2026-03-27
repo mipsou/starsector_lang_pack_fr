@@ -4,71 +4,71 @@
     "id": "oyaTanaicaVambrace7",
     "column": "text",
     "original": "\"Sure. And they've been churning out garbage for 200 cycles. But what we see here is that this was made by a very old, very large forge. Probably top of the line for the time. And your sample has been exposed to space for a long, long time. And no FRM.\"\n\n\"Haven't seen this before.\" She rubs her fingers together, thinking. \"Either someone was running a starsystem polity-level illicit forge a couple thousand cycles ago and you found the results, or... hm, you found something really weird.\"\n\nShe turns to you. \"Where'd you find this? Some rock in the Abyss?\"",
-    "translated": ""
+    "translated": "\"Bien sûr. Et elles produisent de la camelote depuis 200 cycles. Mais ce qu'on voit ici, c'est que ça a été fabriqué par une forge très ancienne, très grande. Probablement ce qui se faisait de mieux à l'époque. Et votre échantillon a été exposé à l'espace pendant très, très longtemps. Et pas de DGF.\"\n\n\"J'ai jamais vu ça.\" Elle frotte ses doigts ensemble, réfléchissant. \"Soit quelqu'un faisait tourner une forge illicite de niveau système stellaire il y a quelques milliers de cycles et vous avez trouvé le résultat, soit... hm, vous avez trouvé quelque chose de vraiment bizarre.\"\n\nElle se tourne vers vous. \"Vous l'avez trouvé où ? Un rocher dans l'Abysse ?\""
   },
   {
     "csv_row": 242,
     "id": "oyaTanaicaVambrace7",
     "column": "options",
-    "option_line": "oyaTanaica_vambrace8:\"Some rock. Why can't it have been legally forged with no FRM?\"",
+    "option_line": "oyaTanaica_vambrace8:\"Un rocher. Pourquoi ça ne pourrait pas avoir été forgé légalement sans DGF ?\"",
     "original": "Some rock. Why can't it have been legally forged with no FRM?",
-    "translated": ""
+    "translated": "Un rocher. Pourquoi ça ne pourrait pas avoir été forgé légalement sans DGF ?"
   },
   {
     "csv_row": 243,
     "id": "oyaTanaicaVambrace8",
     "column": "text",
     "original": "\"That's... that'd be insane. The whole point of the Domain was to control this stuff! Well,\" she concedes to herself, \"Maybe the Gate Network was point number one.\"\n\n\"But regulating the nanoforges would have been two. Maybe three. Definitely important. Everything is stamped and tracked, that way you know who made what, where it ends up, when to collect forge-taxes, and who to blame when things go wrong.\"\n\n\"It was...\" She shakes her hands at the analysis suite in an odd gesture, emphasizing the size of the concept. \"It was the basis for interstellar civilization itself!\"",
-    "translated": ""
+    "translated": "\"C'est... ce serait de la folie. Tout l'intérêt du Domain était de contrôler ça ! Enfin,\" elle concède, \"peut-être que le Réseau de Portails était la priorité numéro un.\"\n\n\"Mais réguler les nanoforges, ça devait être la deux. Peut-être la trois. Définitivement important. Tout est estampillé et tracé, comme ça on sait qui a fabriqué quoi, où ça finit, quand percevoir les taxes de forge, et qui blâmer quand ça tourne mal.\"\n\n\"C'était...\" Elle secoue les mains vers la suite d'analyse dans un geste étrange, soulignant l'ampleur du concept. \"C'était la base même de la civilisation interstellaire !\""
   },
   {
     "csv_row": 244,
     "id": "oyaTanaicaVambrace9",
     "column": "text",
     "original": "She takes a deep breath, looking self-conscious at her own outburst, then busies herself with flicking at some controls; the machine slows its hum to a dull whine and then a sudden unsettling absence of a background noise you weren't even conscious of hearing.\n\n\"Some rebel polity in the Domain-era I guess? Maybe they had some frontier-freedom notions before the Domain Armada re-stomped them into compliance. I'd pay good credits myself to learn how in Ludd's seven hells it ended up on some rock in the Abyss!\"\n\nShe catches herself, then grins. \"Uh, not that I wouldn't appreciate that answer for free if you happen to solve it.\"",
-    "translated": ""
+    "translated": "Elle prend une grande inspiration, gênée par son propre éclat, puis s'occupe en pianotant sur les commandes ; la machine ralentit son bourdonnement en un gémissement sourd puis une absence soudaine et troublante d'un bruit de fond dont vous n'aviez même pas conscience.\n\n\"Un État rebelle de l'ère du Domain, j'imagine ? Peut-être qu'ils avaient des idées de liberté de frontière avant que l'Armada du Domain ne les remette au pas. Je paierais cher moi-même pour apprendre comment, par les sept enfers de Ludd, c'est arrivé sur un rocher dans l'Abysse !\"\n\nElle se reprend, puis sourit. \"Euh, ça ne veut pas dire que je refuserais la réponse gratuitement si vous résolvez le mystère.\""
   },
   {
     "csv_row": 246,
     "id": "oyaTanaicaVambrace10optsB",
     "column": "options",
-    "option_line": "oyaTanaica_vambraceOneslaught1:\"Have you heard of the Onslaught mk.I?\"",
+    "option_line": "oyaTanaica_vambraceOneslaught1:\"Vous avez entendu parler de l'Onslaught mk.I ?\"",
     "original": "Have you heard of the Onslaught mk.I?",
-    "translated": ""
+    "translated": "Vous avez entendu parler de l'Onslaught mk.I ?"
   },
   {
     "csv_row": 247,
     "id": "oyaTanaicaVambrace11",
     "column": "text",
     "original": "The sample emerges, and - more gingerly, now - Senior Engineer Tanaica pulls on some gloves and places it back in your sample container.\n\n\"You find some interesting stuff out there if you don't mind me saying so, captain.\"\n\nShe nods approvingly. \"Thank you for the subsidy. I'll be sure to enjoy myself once I wrap up this miserable Asher contract.\"",
-    "translated": ""
+    "translated": "L'échantillon émerge, et — plus délicatement, maintenant — l'Ingénieur en Chef Tanaica enfile des gants et le replace dans votre conteneur d'échantillons.\n\n\"Vous trouvez des trucs intéressants là-dehors, si vous me permettez, capitaine.\"\n\nElle hoche la tête avec approbation. \"Merci pour la subvention. Je m'offrirai quelque chose de bien une fois que j'aurai bouclé ce misérable contrat sur Asher.\""
   },
   {
     "csv_row": 248,
     "id": "oyaTanaicaVambraceOneslaught1",
     "column": "text",
     "original": "\"Oh sure,\" she says.\n\nThe sample emerges, and - more gingerly, now - Senior Engineer Tanaica pulls on some gloves and places it back in your sample container.\n\n\"Wait.\" She looks at the sample container. \"Really?\"",
-    "translated": ""
+    "translated": "\"Oh, bien sûr,\" dit-elle.\n\nL'échantillon émerge, et — plus délicatement, maintenant — l'Ingénieur en Chef Tanaica enfile des gants et le replace dans votre conteneur d'échantillons.\n\n\"Attendez.\" Elle regarde le conteneur d'échantillons. \"Vraiment ?\""
   },
   {
     "csv_row": 251,
     "id": "oyaTanaica_vambraceOneslaught3a",
     "column": "text",
     "original": "\"Wow.\" She hands the sample container back to you.",
-    "translated": ""
+    "translated": "\"Waouh.\" Elle vous rend le conteneur d'échantillons."
   },
   {
     "csv_row": 252,
     "id": "oyaTanaica_vambraceOneslaught3b",
     "column": "text",
     "original": "\"Wow. Guess that explains why the newscasts have been so boring today. Luddics, right?\" She hands the sample container back to you.",
-    "translated": ""
+    "translated": "\"Waouh. Ça explique peut-être pourquoi les infos étaient si ennuyeuses aujourd'hui. Les Luddiques, pas vrai ?\" Elle vous rend le conteneur d'échantillons."
   },
   {
     "csv_row": 253,
     "id": "oyaTanaica_vambraceOneslaught4",
     "column": "text",
     "original": "\"You find some interesting stuff out there if you don't mind me saying so, captain.\"\n\nShe nods approvingly. \"Thank you for the subsidy. I'll be sure to enjoy myself once I wrap up this miserable Asher contract.\"",
-    "translated": ""
+    "translated": "\"Vous trouvez des trucs intéressants là-dehors, si vous me permettez, capitaine.\"\n\nElle hoche la tête avec approbation. \"Merci pour la subvention. Je m'offrirai quelque chose de bien une fois que j'aurai bouclé ce misérable contrat sur Asher.\""
   }
 ]

@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "2:kantasDen_visit1:Descendre en navette to meet Kanta",
     "original": "kantasDen_visit1:Descendre en navette to meet Kanta",
-    "translated": ""
+    "translated": "kantasDen_visit1:Descendre en navette pour rencontrer Kanta"
   },
   {
     "csv_row": 8024,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "kantasDen_trafficBullyA:\"Je suis ici pour voir votre patron.\"",
     "original": "Je suis ici pour voir votre patron.",
-    "translated": ""
+    "translated": "Je suis ici pour voir votre patron."
   },
   {
     "csv_row": 8025,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "kantasDen_trafficBullyB:\"Assez de racket. Je suis ici pour Kanta.\"",
     "original": "Assez de racket. Je suis ici pour Kanta.",
-    "translated": ""
+    "translated": "Assez de racket. Je suis ici pour Kanta."
   },
   {
     "csv_row": 8031,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "kd_landing1:S'amarrer au Repaire de Kanta",
     "original": "S'amarrer au Repaire de Kanta",
-    "translated": ""
+    "translated": "S'amarrer au Repaire de Kanta"
   },
   {
     "csv_row": 8033,
@@ -37,7 +37,7 @@
     "column": "options",
     "option_line": "kantasDen_trafficBullyB:\"Seigneur de guerre Kanta.\"",
     "original": "Seigneur de guerre Kanta.",
-    "translated": ""
+    "translated": "Seigneur de guerre Kanta."
   },
   {
     "csv_row": 8037,
@@ -45,7 +45,7 @@
     "column": "options",
     "option_line": "20:devkdKP_askAudience:DEV \"Je veux obtenir une audience avec la Seigneur de guerre Kanta. Cela concerne mes colonies.\"",
     "original": "devkdKP_askAudience:DEV \"Je veux obtenir une audience avec la Seigneur de guerre Kanta. Cela concerne mes colonies.",
-    "translated": ""
+    "translated": "devkdKP_askAudience:DEV \"Je veux obtenir une audience avec la Seigneur de guerre Kanta. Cela concerne mes colonies."
   },
   {
     "csv_row": 8039,
@@ -53,7 +53,7 @@
     "column": "options",
     "option_line": "kdKP_askAudience:\"Je veux obtenir une audience avec la Seigneur de guerre Kanta. Cela concerne mes colonies.\"",
     "original": "Je veux obtenir une audience avec la Seigneur de guerre Kanta. Cela concerne mes colonies.",
-    "translated": ""
+    "translated": "Je veux obtenir une audience avec la Seigneur de guerre Kanta. Cela concerne mes colonies."
   },
   {
     "csv_row": 8043,
@@ -61,7 +61,7 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   },
   {
     "csv_row": 8049,
@@ -69,7 +69,7 @@
     "column": "options",
     "option_line": "kantasDen_visit1:Prendre une navette vers le Repaire de Kanta",
     "original": "Prendre une navette vers le Repaire de Kanta",
-    "translated": ""
+    "translated": "Prendre une navette vers le Repaire de Kanta"
   },
   {
     "csv_row": 8049,
@@ -77,6 +77,6 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   }
 ]

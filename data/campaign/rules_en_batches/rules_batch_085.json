@@ -4,7 +4,7 @@
     "id": "BFFImpBuyerOffer800kdemarch",
     "column": "text",
     "original": "Menes sighs dramatically, \"I suppose - and this is because I'm feeling charitable - I would entertain the notion of a mere 900,000 credits.\" He looks at you sharply, \"And that's only because you're a fellow demarch.\"",
-    "translated": ""
+    "translated": "Menes soupire théâtralement : \"Je suppose - et c'est parce que je me sens charitable - que j'accepterais de considérer la modique somme de 900 000 crédits.\" Il vous regarde fixement, \"Et c'est uniquement parce que vous êtes un confrère démarque.\""
   },
   {
     "csv_row": 2828,
@@ -12,14 +12,14 @@
     "column": "options",
     "option_line": "bffi_mpBuyerCredits800kJeffReact:\"You're practically a saint. Now the matter of veracity...\"",
     "original": "You're practically a saint. Now the matter of veracity...",
-    "translated": ""
+    "translated": "Vous êtes pratiquement un saint. Maintenant, la question de la véracité..."
   },
   {
     "csv_row": 2829,
     "id": "BFFImpBuyerOffer800kleague",
     "column": "text",
     "original": "Menes sighs dramatically, \"I suppose - and this is because I'm feeling generous - I would entertain the notion of a mere 900,000 credits.\" He looks at you sharply, \"And that's only because you've a League commission. It's practically charity!\"",
-    "translated": ""
+    "translated": "Menes soupire théâtralement : \"Je suppose - et c'est parce que je me sens généreux - que j'accepterais de considérer la modique somme de 900 000 crédits.\" Il vous regarde fixement, \"Et c'est uniquement parce que vous avez une commission de la Ligue. C'est pratiquement de la charité !\""
   },
   {
     "csv_row": 2829,
@@ -27,14 +27,14 @@
     "column": "options",
     "option_line": "bffi_mpBuyerCredits800kJeffReact:\"You're practically a saint. Now the matter of veracity...\"",
     "original": "You're practically a saint. Now the matter of veracity...",
-    "translated": ""
+    "translated": "Vous êtes pratiquement un saint. Maintenant, la question de la véracité..."
   },
   {
     "csv_row": 2830,
     "id": "BFFImpBuyerOffer800k",
     "column": "text",
     "original": "Menes sighs dramatically. \"What am I, a charity?\"\n\n\"I suppose,\" he muses, \"I suppose I'm in an oddly generous mood to even be discussing this.\"",
-    "translated": ""
+    "translated": "Menes soupire théâtralement. \"Suis-je une oeuvre de charité ?\"\n\n\"Je suppose,\" médite-t-il, \"je suppose que je suis d'une humeur étrangement généreuse pour ne serait-ce que discuter de cela.\""
   },
   {
     "csv_row": 2830,
@@ -42,14 +42,14 @@
     "column": "options",
     "option_line": "bffi_mpBuyerCredits800kJeffReact:\"You're practically a saint. Now the matter of veracity...\"",
     "original": "You're practically a saint. Now the matter of veracity...",
-    "translated": ""
+    "translated": "Vous êtes pratiquement un saint. Maintenant, la question de la véracité..."
   },
   {
     "csv_row": 2831,
     "id": "BFFImpBuyerOffer800kJeffReact",
     "column": "text",
     "original": "You think you hear a snort from Bornanew, but perhaps he just scuffed the floor.",
-    "translated": ""
+    "translated": "Vous croyez entendre un reniflement de Bornanew, mais peut-être n'a-t-il fait que racler le sol du pied."
   },
   {
     "csv_row": 2832,
@@ -57,7 +57,7 @@
     "column": "options",
     "option_line": "bffi_mpBuyerWhoSold:\"Who sold you the glove?\"",
     "original": "Who sold you the glove?",
-    "translated": ""
+    "translated": "Qui vous a vendu le gant ?"
   },
   {
     "csv_row": 2833,
@@ -65,13 +65,13 @@
     "column": "options",
     "option_line": "bffi_mpBuyerWhoSold2:\"Ulmus Pond sold you the glove, didn't he.\"",
     "original": "Ulmus Pond sold you the glove, didn't he.",
-    "translated": ""
+    "translated": "C'est Ulmus Pond qui vous a vendu le gant, n'est-ce pas."
   },
   {
     "csv_row": 2836,
     "id": "BFFImpBuyerWhoSold",
     "column": "text",
     "original": "\"I'm afraid I could not reveal my source just now,\" Menes says haughtily. \"They are very exclusive, and, and... sensitive.\"",
-    "translated": ""
+    "translated": "\"Je crains de ne pouvoir révéler ma source pour l'instant,\" dit Menes avec hauteur. \"Ils sont très exclusifs, et, et... susceptibles.\""
   }
 ]

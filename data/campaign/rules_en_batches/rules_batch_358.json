@@ -5,21 +5,21 @@
     "column": "options",
     "option_line": "gaDHO_endingHeBelievesNoPay:\"That won't be necessary. I'm satisfied with my profits.\"",
     "original": "That won't be necessary. I'm satisfied with my profits.",
-    "translated": ""
+    "translated": "Ce ne sera pas nécessaire. Je suis satisfait de mes profits."
   },
   {
     "csv_row": 10936,
     "id": "gaDHOendingHeBelieves3aAbyssNo",
     "column": "text",
     "original": "\"If...\" He gives you an odd look. \"If you say so.\"",
-    "translated": ""
+    "translated": "\"Si...\" Il vous lance un drôle de regard. \"Si vous le dites.\""
   },
   {
     "csv_row": 10937,
     "id": "gaDHOendingHeBelieves3b",
     "column": "text",
     "original": "He touches his forehead. \"Your payment!\"",
-    "translated": ""
+    "translated": "Il se touche le front. \"Votre paiement !\""
   },
   {
     "csv_row": 10937,
@@ -27,14 +27,14 @@
     "column": "options",
     "option_line": "gaDHO_endingHeBelievesNoPay:\"That won't be necessary. Knowledge is it's own reward.\"",
     "original": "That won't be necessary. Knowledge is it's own reward.",
-    "translated": ""
+    "translated": "Ce ne sera pas nécessaire. Le savoir est sa propre récompense."
   },
   {
     "csv_row": 10938,
     "id": "gaDHOendingHeBelieves3bNo",
     "column": "text",
     "original": "\"I... I suppose it is.\"\n\nElek briefly attempts a sad smile before giving up.",
-    "translated": ""
+    "translated": "\"Je... je suppose que oui.\"\n\nElek tente brièvement un sourire triste avant d'y renoncer."
   },
   {
     "csv_row": 10945,
@@ -42,7 +42,7 @@
     "column": "options",
     "option_line": "gaDHO_endingHazard0:\"... And the hazard pay.\"",
     "original": "... And the hazard pay.",
-    "translated": ""
+    "translated": "... Et la prime de risque."
   },
   {
     "csv_row": 10954,
@@ -50,7 +50,7 @@
     "column": "options",
     "option_line": "gaDHO_endingTellFound:Tell him about what you found",
     "original": "Tell him about what you found",
-    "translated": ""
+    "translated": "Lui raconter ce que vous avez trouvé"
   },
   {
     "csv_row": 10955,
@@ -58,7 +58,7 @@
     "column": "options",
     "option_line": "0:cutCommLink:Cut the commlink",
     "original": "cutCommLink:Cut the commlink",
-    "translated": ""
+    "translated": "cutCommLink:Couper la comm"
   },
   {
     "csv_row": 10963,
@@ -66,13 +66,13 @@
     "column": "options",
     "option_line": "gaDHO_endingWrapUp2b:\"Look at my $shipOrFleet. The Onslaught Mk.I is in orbit.\"",
     "original": "Look at my $shipOrFleet. The Onslaught Mk.I is in orbit.",
-    "translated": ""
+    "translated": "Regardez mon $shipOrFleet. L'Onslaught Mk.I est en orbite."
   },
   {
     "csv_row": 10965,
     "id": "gaDHOendingWrapUp2b",
     "column": "text",
     "original": "He says nothing, motionless for several seconds, then taps at his datapad. His expression is grim as he sets his datapad deliberately onto his desk. Is it your imagination, or are his hands trembling?\n\n\"A holofeed hack, nothing more,\" he insists. \"It's trivial to fake, with resources and, and t-time. It's nothing at all.\"\n\n\"I'm... we're done here, captain.\" Elek's eyes wander around his office, as if searching for escape. \"G-good day, $playerSirOrMadam.\"",
-    "translated": ""
+    "translated": "Il ne dit rien, immobile pendant plusieurs secondes, puis tapote sa tablette. Son expression est sombre tandis qu'il pose délibérément sa tablette sur son bureau. Est-ce votre imagination, ou ses mains tremblent-elles ?\n\n\"Un piratage de flux holographique, rien de plus,\" insiste-t-il. \"C'est trivial à falsifier, avec des ressources et, et du t-temps. Ce n'est rien du tout.\"\n\n\"Je... nous en avons terminé, capitaine.\" Les yeux d'Elek errent autour de son bureau, comme s'il cherchait une échappatoire. \"B-bonne journée, $playerSirOrMadam.\""
   }
 ]

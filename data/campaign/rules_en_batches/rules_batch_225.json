@@ -4,28 +4,28 @@
     "id": "soeFightLoseLeave",
     "column": "text",
     "original": "Votre navette rejoint votre $shipOrFleet en orbite au-dessus de $entityName.",
-    "translated": ""
+    "translated": "Votre navette rejoint votre $shipOrFleet en orbite au-dessus de $entityName."
   },
   {
     "csv_row": 6785,
     "id": "contactDefaultGreeting",
     "column": "text",
     "original": "\"Content de vous voir, capitaine,\" dit $personName.\nOR\n\"Salutations, capitaine,\" dit $personName, \"On parle affaires ?\"",
-    "translated": ""
+    "translated": "\"Content de vous voir, capitaine,\" dit $personName.\nOR\n\"Salutations, capitaine,\" dit $personName, \"On parle affaires ?\""
   },
   {
     "csv_row": 6789,
     "id": "contactGreetingAristo",
     "column": "text",
     "original": "\"Oh, c'est le capitaine de l'espace, quel plaisir,\" dit $personName. \"Discuter avec vous est toujours si haut en couleur.\"",
-    "translated": ""
+    "translated": "\"Oh, c'est le capitaine de l'espace, quel plaisir,\" dit $personName. \"Discuter avec vous est toujours si haut en couleur.\""
   },
   {
     "csv_row": 6790,
     "id": "contactGreetingOfficial",
     "column": "text",
     "original": "\"Salutations, capitaine,\" dit $personName en sortant un datapad, \"Laissez-moi consulter mon agenda et nous pourrons commencer.\"",
-    "translated": ""
+    "translated": "\"Salutations, capitaine,\" dit $personName en sortant un datapad, \"Laissez-moi consulter mon agenda et nous pourrons commencer.\""
   },
   {
     "csv_row": 6803,
@@ -33,14 +33,14 @@
     "column": "options",
     "option_line": "1000:mh_close:\"Pas maintenant.\"",
     "original": "mh_close:\"Pas maintenant.",
-    "translated": ""
+    "translated": "mh_close:\"Pas maintenant."
   },
   {
     "csv_row": 6805,
     "id": "contactConvEnd",
     "column": "text",
     "original": "Vous coupez la liaison de communication.",
-    "translated": ""
+    "translated": "Vous coupez la liaison de communication."
   },
   {
     "csv_row": 6824,
@@ -48,7 +48,7 @@
     "column": "options",
     "option_line": "0:cutCommLink:Couper la comm",
     "original": "cutCommLink:Couper la comm",
-    "translated": ""
+    "translated": "cutCommLink:Couper la comm"
   },
   {
     "csv_row": 6825,
@@ -56,7 +56,7 @@
     "column": "options",
     "option_line": "0:cutCommLink:Couper la comm",
     "original": "cutCommLink:Couper la comm",
-    "translated": ""
+    "translated": "cutCommLink:Couper la comm"
   },
   {
     "csv_row": 6826,
@@ -64,7 +64,7 @@
     "column": "options",
     "option_line": "0:cutCommLink:Couper la comm",
     "original": "cutCommLink:Couper la comm",
-    "translated": ""
+    "translated": "cutCommLink:Couper la comm"
   },
   {
     "csv_row": 6827,
@@ -72,6 +72,6 @@
     "column": "options",
     "option_line": "0:cutCommLink:Couper la comm",
     "original": "cutCommLink:Couper la comm",
-    "translated": ""
+    "translated": "cutCommLink:Couper la comm"
   }
 ]

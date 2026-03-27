@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "salSRBW_opsRespA:Interrupting the tirade to inform them that you are the sole executive authority on this $shipOrFleet.",
     "original": "Interrupting the tirade to inform them that you are the sole executive authority on this $shipOrFleet.",
-    "translated": ""
+    "translated": "Interrompre la tirade pour leur rappeler que vous êtes la seule autorité exécutive à bord de ce $shipOrFleet."
   },
   {
     "csv_row": 10718,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "salSRBW_opsRespB:Thanking them for emphasizing procedure, but to be mindful of their tone in front of crew.",
     "original": "Thanking them for emphasizing procedure, but to be mindful of their tone in front of crew.",
-    "translated": ""
+    "translated": "Les remercier d'insister sur les procédures, mais leur demander de surveiller leur ton devant l'équipage."
   },
   {
     "csv_row": 10718,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "salSRBW_opsRespC:Making a crack about 'containment procedures' and visiting spacer bars which made the crew laugh.",
     "original": "Making a crack about 'containment procedures' and visiting spacer bars which made the crew laugh.",
-    "translated": ""
+    "translated": "Faire une blague sur les 'procédures de confinement' et les bars de spaciens, ce qui fait rire l'équipage."
   },
   {
     "csv_row": 10719,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "salSRBW_opsRespA:Interrupting the tirade to inform them that you are the sole executive authority on this $shipOrFleet.",
     "original": "Interrupting the tirade to inform them that you are the sole executive authority on this $shipOrFleet.",
-    "translated": ""
+    "translated": "Interrompre la tirade pour leur rappeler que vous êtes la seule autorité exécutive à bord de ce $shipOrFleet."
   },
   {
     "csv_row": 10719,
@@ -37,7 +37,7 @@
     "column": "options",
     "option_line": "salSRBW_opsRespB:Thanking them for emphasizing procedure, but to be mindful of their tone in front of crew.",
     "original": "Thanking them for emphasizing procedure, but to be mindful of their tone in front of crew.",
-    "translated": ""
+    "translated": "Les remercier d'insister sur les procédures, mais leur demander de surveiller leur ton devant l'équipage."
   },
   {
     "csv_row": 10719,
@@ -45,14 +45,14 @@
     "column": "options",
     "option_line": "salSRBW_opsRespC:Making a crack about 'containment procedures' and visiting spacer bars which made the crew laugh.",
     "original": "Making a crack about 'containment procedures' and visiting spacer bars which made the crew laugh.",
-    "translated": ""
+    "translated": "Faire une blague sur les 'procédures de confinement' et les bars de spaciens, ce qui fait rire l'équipage."
   },
   {
     "csv_row": 10723,
     "id": "salSRBWstory1",
     "column": "text",
     "original": "One particular module of this research station appears to have been a bioweapons laboratory. The lab is - rather, was - hermetically sealed, and contains the ruins of state-of-the-art containment and decontamination facilities.\n\nNaturally, something went terribly wrong. \n\nAnd as your techies analyze telemetry and what raw surveillance buffers the salvors on-station are able to transmit back to your $shipOrFleet, the disaster begins to look distinctly unnatural.",
-    "translated": ""
+    "translated": "Un module particulier de cette station de recherche semble avoir été un laboratoire d'armes biologiques. Le labo est — ou plutôt, était — hermétiquement scellé, et contient les ruines d'installations de confinement et de décontamination à la pointe de la technologie.\n\nNaturellement, quelque chose a terriblement mal tourné.\n\nEt tandis que vos techniciens analysent la télémétrie et les données brutes de surveillance que les récupérateurs sur la station parviennent à retransmettre à votre $shipOrFleet, le désastre commence à paraître distinctement non naturel."
   },
   {
     "csv_row": 10727,
@@ -60,7 +60,7 @@
     "column": "options",
     "option_line": "salSRRS_story1:\"Any sign of what they were trying to do?\"",
     "original": "Any sign of what they were trying to do?",
-    "translated": ""
+    "translated": "Un indice sur ce qu'ils essayaient de faire ?"
   },
   {
     "csv_row": 10747,
@@ -68,7 +68,7 @@
     "column": "options",
     "option_line": "salOHOG_story3luddic:\"'Where there is life, that is the throne of God...'\"",
     "original": "'Where there is life, that is the throne of God...'",
-    "translated": ""
+    "translated": "'Là où il y a la vie, là est le trône de Dieu...'"
   },
   {
     "csv_row": 10750,
@@ -76,6 +76,6 @@
     "column": "options",
     "option_line": "salOHOG_story3luddic2:\"We shall leave this place as it is. No salvage.\"",
     "original": "We shall leave this place as it is. No salvage.",
-    "translated": ""
+    "translated": "Nous laisserons cet endroit tel quel. Pas de récupération."
   }
 ]

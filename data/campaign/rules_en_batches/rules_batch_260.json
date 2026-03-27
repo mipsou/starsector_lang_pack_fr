@@ -5,14 +5,14 @@
     "column": "options",
     "option_line": "0:cutCommLinkPolite:Couper la comm",
     "original": "cutCommLinkPolite:Couper la comm",
-    "translated": ""
+    "translated": "cutCommLinkPolite:Couper la comm"
   },
   {
     "csv_row": 7982,
     "id": "defaultSkironGreeting",
     "column": "text",
     "original": "Le lien de communication met un moment a s'etablir. Skiron ajuste les parametres du flux en vous saluant.\n\n\"Salutations, capitaine. Tout se deroule conformement au protocole.\"",
-    "translated": ""
+    "translated": "Le lien de communication met un moment a s'etablir. Skiron ajuste les parametres du flux en vous saluant.\n\n\"Salutations, capitaine. Tout se deroule conformement au protocole.\""
   },
   {
     "csv_row": 7982,
@@ -20,7 +20,7 @@
     "column": "options",
     "option_line": "0:cutCommLinkPolite:Couper la comm",
     "original": "cutCommLinkPolite:Couper la comm",
-    "translated": ""
+    "translated": "cutCommLinkPolite:Couper la comm"
   },
   {
     "csv_row": 7983,
@@ -28,7 +28,7 @@
     "column": "options",
     "option_line": "skiron_askProtocols:\"Alors, euh. Vous suivez toujours 'les Protocoles' ?\"",
     "original": "Alors, euh. Vous suivez toujours 'les Protocoles' ?",
-    "translated": ""
+    "translated": "Alors, euh. Vous suivez toujours 'les Protocoles' ?"
   },
   {
     "csv_row": 7988,
@@ -36,14 +36,14 @@
     "column": "options",
     "option_line": "marketConsiderHostile:Evaluer vos options militaires",
     "original": "Evaluer vos options militaires",
-    "translated": ""
+    "translated": "Evaluer vos options militaires"
   },
   {
     "csv_row": 7990,
     "id": "defaultGreetingKanta",
     "column": "text",
     "original": "Apres une courte attente, votre demande de connexion est refusee.",
-    "translated": ""
+    "translated": "Apres une courte attente, votre demande de connexion est refusee."
   },
   {
     "csv_row": 7990,
@@ -51,14 +51,14 @@
     "column": "options",
     "option_line": "0:cutCommLink:Couper la comm",
     "original": "cutCommLink:Couper la comm",
-    "translated": ""
+    "translated": "cutCommLink:Couper la comm"
   },
   {
     "csv_row": 7991,
     "id": "defaultGreetingCydonia",
     "column": "text",
     "original": "Apres une courte attente, votre demande de connexion est refusee.",
-    "translated": ""
+    "translated": "Apres une courte attente, votre demande de connexion est refusee."
   },
   {
     "csv_row": 7991,
@@ -66,7 +66,7 @@
     "column": "options",
     "option_line": "0:cutCommLink:Couper la comm",
     "original": "cutCommLink:Couper la comm",
-    "translated": ""
+    "translated": "cutCommLink:Couper la comm"
   },
   {
     "csv_row": 7996,
@@ -74,6 +74,6 @@
     "column": "options",
     "option_line": "210:kdDev_setKilledLoke:DEV set player killed Loke true",
     "original": "kdDev_setKilledLoke:DEV set player killed Loke true",
-    "translated": ""
+    "translated": "kdDev_setKilledLoke:DEV set player killed Loke true"
   }
 ]

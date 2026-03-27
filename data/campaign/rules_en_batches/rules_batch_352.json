@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "gaDHO_visitElekIntro2:\"I'm $playerName. You invited me to see you.\"",
     "original": "I'm $playerName. You invited me to see you.",
-    "translated": ""
+    "translated": "Je suis $playerName. Vous m'avez invité à venir vous voir."
   },
   {
     "csv_row": 10806,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "gaDHO_visitElekIntro3:\"You sent a message about doing a job.\"",
     "original": "You sent a message about doing a job.",
-    "translated": ""
+    "translated": "Vous avez envoyé un message à propos d'un travail."
   },
   {
     "csv_row": 10806,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "gaDHO_visitElekIntro3c:\"You sent a message about 'an old mystery'. I'd like to help solve it.\"",
     "original": "You sent a message about 'an old mystery'. I'd like to help solve it.",
-    "translated": ""
+    "translated": "Vous avez envoyé un message à propos d'un 'ancien mystère'. J'aimerais aider à le résoudre."
   },
   {
     "csv_row": 10806,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "gaDHO_visitElekIntro3b:\"You sent me a message. I was interested in the 'vast fortune'.\"",
     "original": "You sent me a message. I was interested in the 'vast fortune'.",
-    "translated": ""
+    "translated": "Vous m'avez envoyé un message. J'étais intéressé par la 'vaste fortune'."
   },
   {
     "csv_row": 10809,
@@ -37,7 +37,7 @@
     "column": "options",
     "option_line": "gaDHO_visitElekIntro4:Remain standing",
     "original": "Remain standing",
-    "translated": ""
+    "translated": "Rester debout"
   },
   {
     "csv_row": 10810,
@@ -45,7 +45,7 @@
     "column": "options",
     "option_line": "gaDHO_visitElekIntro5c:\"This chair has a datacore in it.\"",
     "original": "This chair has a datacore in it.",
-    "translated": ""
+    "translated": "Cette chaise contient un noyau de données."
   },
   {
     "csv_row": 10810,
@@ -53,7 +53,7 @@
     "column": "options",
     "option_line": "gaDHO_visitElekIntro5b:Cough pointedly and look toward the chair",
     "original": "Cough pointedly and look toward the chair",
-    "translated": ""
+    "translated": "Tousser ostensiblement en regardant vers la chaise"
   },
   {
     "csv_row": 10810,
@@ -61,14 +61,14 @@
     "column": "options",
     "option_line": "gaDHO_visitElekIntro6:Remain standing",
     "original": "Remain standing",
-    "translated": ""
+    "translated": "Rester debout"
   },
   {
     "csv_row": 10811,
     "id": "gaDHOvisitElekIntro5b",
     "column": "text",
     "original": "He either doesn't notice or doesn't acknowledge your signal.",
-    "translated": ""
+    "translated": "Il ne remarque pas votre signal, ou choisit de l'ignorer."
   },
   {
     "csv_row": 10813,
@@ -76,6 +76,6 @@
     "column": "options",
     "option_line": "gaDHO_visitElekIntro7:\"Find the sensor array, extract the data. Sounds simple.\"",
     "original": "Find the sensor array, extract the data. Sounds simple.",
-    "translated": ""
+    "translated": "Trouver le réseau de capteurs, extraire les données. Ça a l'air simple."
   }
 ]

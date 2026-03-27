@@ -4,7 +4,7 @@
     "id": "AVIPTtextBar1",
     "column": "text",
     "original": "You manage to insert yourself into the $manOrWoman's field of attention with a friendly greeting. The bartender gives you a thankful nod behind $hisOrHer back.\n\n\"These people, these space-pilots, are so addled by rocket fuel and zero-g that they simply cannot comprehend respectful! Customer! Service!\"\n\nEach of these three words is accompanied by an open handed slap on the bar. You watch as a small splash leaps over the rim of an otherwise untouched drink at each impact.",
-    "translated": ""
+    "translated": "Vous parvenez a vous inserer dans le champ d'attention du $manOrWoman avec une salutation amicale. Le barman vous adresse un hochement de tete reconnaissant dans $hisOrHer dos.\n\n\"Ces gens, ces pilotes de l'espace, sont tellement abrutis par le carburant de fusee et l'apesanteur qu'ils sont tout simplement incapables de comprendre un! Service! Client! Correct!\"\n\nChacun de ces mots est ponctue d'une claque a main ouverte sur le comptoir. Vous regardez une petite eclaboussure bondir par-dessus le bord d'un verre autrement intact a chaque impact."
   },
   {
     "csv_row": 7418,
@@ -12,7 +12,7 @@
     "column": "options",
     "option_line": "avipt_textBar2:Perform an act of leadership",
     "original": "Perform an act of leadership",
-    "translated": ""
+    "translated": "Faire preuve de leadership"
   },
   {
     "csv_row": 7418,
@@ -20,14 +20,14 @@
     "column": "options",
     "option_line": "avipt_textBarDecline:Disengage while you still can",
     "original": "Disengage while you still can",
-    "translated": ""
+    "translated": "Se desengager tant qu'il est encore temps"
   },
   {
     "csv_row": 7419,
     "id": "AVIPTtextBar2",
     "column": "text",
     "original": "You put on a look of stern and stoic authority, that look your bridge officers whisper about as your 'captain face' when they think you can't hear them.\n\nThis seems to do the trick.\n\nThis individual - wealthy, important, and well-connected, by their own description - paid $avipt_reward credits upfront for priority transport within $avipt_timelimit days to $avipt_marketName, but the ship left port early last night without a word for reasons you cannot fathom. This is 'a shocking disgrace' which 'besmirches the already dubious name of all space-captainry'.\n\nYou nod, your expression suitably grim at hearing of such terrible treatment.",
-    "translated": ""
+    "translated": "Vous affichez un air d'autorite severe et stoique, ce regard que vos officiers de passerelle appellent en chuchotant votre 'tete de capitaine' quand ils pensent que vous ne pouvez pas les entendre.\n\nCela semble faire l'affaire.\n\nCet individu - riche, important et bien connecte, selon sa propre description - a paye $avipt_reward credits d'avance pour un transport prioritaire sous $avipt_timelimit jours vers $avipt_marketName, mais le vaisseau a quitte le port tot hier soir sans un mot, pour des raisons qui vous echappent. C'est 'une disgrace choquante' qui 'souille le nom deja douteux de toute la capitainerie spatiale'.\n\nVous hochez la tete, votre expression suffisamment grave a l'ecoute d'un traitement aussi terrible."
   },
   {
     "csv_row": 7419,
@@ -35,7 +35,7 @@
     "column": "options",
     "option_line": "avipt_textBarAccept:Offer to transport the VIP for the same fee",
     "original": "Offer to transport the VIP for the same fee",
-    "translated": ""
+    "translated": "Proposer de transporter le VIP pour le meme tarif"
   },
   {
     "csv_row": 7419,
@@ -43,7 +43,7 @@
     "column": "options",
     "option_line": "avipt_textBarDecline:Try to withdraw from the conversation",
     "original": "Try to withdraw from the conversation",
-    "translated": ""
+    "translated": "Essayer de se retirer de la conversation"
   },
   {
     "csv_row": 7419,
@@ -51,21 +51,21 @@
     "column": "options",
     "option_line": "avipt_textBarDeclineRude:Explain to the VIP that they probably deserved this",
     "original": "Explain to the VIP that they probably deserved this",
-    "translated": ""
+    "translated": "Expliquer au VIP qu'il l'a probablement merite"
   },
   {
     "csv_row": 7420,
     "id": "AVIPTtextBarAccept",
     "column": "text",
     "original": "Your offer manages to stop the $manOrWoman from talking at you for several seconds as $heOrShe considers your demeanor and your offer. \n\n\"I accept,\" $heOrShe says with the enunciation of royalty, \"Though I shall only be paying after we arrive at $avipt_marketName. And I shall require some of your crew to handle my luggage. I need not remind you that these are my valuable personal goods, not crates of... of common space-bolts to be tossed about by half-drunken dockworkers.\"\n\nAs you confirm final details over a free round from the bartender, you consider which of your junior officers to assign to babysitting duty...",
-    "translated": ""
+    "translated": "Votre offre parvient a faire taire le $manOrWoman pendant plusieurs secondes tandis qu'$heOrShe considere votre allure et votre proposition.\n\n\"J'accepte,\" dit $heOrShe avec l'elocution d'un monarque, \"Bien que je ne paierai qu'a notre arrivee a $avipt_marketName. Et j'aurai besoin de quelques membres de votre equipage pour s'occuper de mes bagages. Inutile de vous rappeler qu'il s'agit de mes effets personnels de valeur, pas de caisses de... de vulgaires boulons spatiaux a balancer par des dockers a moitie ivres.\"\n\nTandis que vous confirmez les derniers details autour d'une tournee offerte par le barman, vous reflechissez a quel officier subalterne assigner a la garde d'enfant..."
   },
   {
     "csv_row": 7421,
     "id": "AVIPTtextBarDecline",
     "column": "text",
     "original": "You stand as if at attention, give the alleged VIP a formal farewell, and march to the other end of the bar without a backward glance. \n\n$HeOrShe is too confused by your formality to express outrage until it is too late and you are well out of range.\n\nFrom the corner of your eye, you can see the well-dressed $manOrWoman slowly start working $himOrHerself into another, slightly different rage.",
-    "translated": ""
+    "translated": "Vous vous tenez au garde-a-vous, adressez au pretendu VIP un adieu formel, et marchez vers l'autre bout du bar sans un regard en arriere.\n\n$HeOrShe est trop deroute par votre formalisme pour exprimer son indignation avant qu'il ne soit trop tard et que vous soyez bien hors de portee.\n\nDu coin de l'oeil, vous pouvez voir le $manOrWoman bien habille commencer lentement a se mettre dans une autre colere, legerement differente."
   },
   {
     "csv_row": 7421,
@@ -73,6 +73,6 @@
     "column": "options",
     "option_line": "contact_declineBarNoContinue:Avert your eyes before you are forced to re-engage",
     "original": "Avert your eyes before you are forced to re-engage",
-    "translated": ""
+    "translated": "Detourner le regard avant d'etre force de reprendre la conversation"
   }
 ]

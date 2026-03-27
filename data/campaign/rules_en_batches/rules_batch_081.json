@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "bffi_mpSteal9b:\"Incredible. What would it take to persuade you to hold a tasting? Menes?\"",
     "original": "Incredible. What would it take to persuade you to hold a tasting? Menes?",
-    "translated": ""
+    "translated": "Incroyable. Que faudrait-il pour vous convaincre d'organiser une dégustation ? Menes ?"
   },
   {
     "csv_row": 2785,
@@ -13,28 +13,28 @@
     "column": "options",
     "option_line": "bffi_mpSteal9c:\"Fascinating. Do you think Leonis shot anyone with this, Menes?\"",
     "original": "Fascinating. Do you think Leonis shot anyone with this, Menes?",
-    "translated": ""
+    "translated": "Fascinant. Vous pensez que Leonis a tiré sur quelqu'un avec ça, Menes ?"
   },
   {
     "csv_row": 2787,
     "id": "BFFImenesPartySteal9b",
     "column": "text",
     "original": "\"Ah? Oh yes, I cannot deny the temptation to open it for some appropriate event, given an appropriately appreciative audience- my dear cousin Horus for instance; I considered his marriage to Asherah, but I thought- no, not yet. I wonder at times if the delight of it is held by the anticipation, the thought...\"",
-    "translated": ""
+    "translated": "\"Ah ? Oh oui, je ne peux nier la tentation de l'ouvrir pour un événement approprié, devant un public convenablement appréciateur - mon cher cousin Horus par exemple ; j'ai envisagé son mariage avec Asherah, mais j'ai pensé - non, pas encore. Je me demande parfois si le plaisir réside dans l'anticipation, l'idée...\""
   },
   {
     "csv_row": 2788,
     "id": "BFFImenesPartySteal9c",
     "column": "text",
     "original": "\"Oh? Oh, well, I do have a story for you! During negotiations with the buyer I thought, let us have a firearms expert examine this, and wouldn't you know that I happened to be hosting a wealthy financier who's done some work with Tri-Tachyon - and say what you will for the Company, they are good at what they do - and she happened to have a brother with an interest in a firm...\"",
-    "translated": ""
+    "translated": "\"Oh ? Oh, eh bien, j'ai une histoire pour vous ! Pendant les négociations avec le vendeur, j'ai pensé, faisons examiner ceci par un expert en armes à feu, et figurez-vous que je recevais justement une riche financière qui avait travaillé avec Tri-Tachyon - et dites ce que vous voulez de la Compagnie, ils sont bons dans ce qu'ils font - et il se trouvait qu'elle avait un frère avec des intérêts dans une firme...\""
   },
   {
     "csv_row": 2791,
     "id": "BFFImenesPartySteal11",
     "column": "text",
     "original": "You both find Bornanew, still on his knees, with one hand stretched out to touch the glove - one finger upon it - lips still moving, eyes still blankly huge as if overcome by religious mania.\n\nMenes gives out a wordless cry of alarm, and begins lifting his cuff to call security.\n\nYour off-hand instinctively curls around a control interface for one of the clever little thieves-tools you have hidden about your uniform.",
-    "translated": ""
+    "translated": "Vous retrouvez tous deux Bornanew, toujours à genoux, une main tendue pour toucher le gant - un doigt posé dessus - les lèvres encore en mouvement, les yeux toujours écarquillés dans le vide comme s'il était saisi de manie religieuse.\n\nMenes pousse un cri d'alarme muet et commence à lever sa manche pour appeler la sécurité.\n\nVotre main libre se referme instinctivement sur l'interface de contrôle d'un des petits outils de voleur astucieux que vous avez dissimulés dans votre uniforme."
   },
   {
     "csv_row": 2791,
@@ -42,21 +42,21 @@
     "column": "options",
     "option_line": "bffi_mpSteal12a:\"$global.jethroName! Restrain yourself, man!\"",
     "original": "$global.jethroName! Restrain yourself, man!",
-    "translated": ""
+    "translated": "$global.jethroName ! Ressaisissez-vous, bon sang !"
   },
   {
     "csv_row": 2793,
     "id": "BFFImenesPartySteal12b",
     "column": "text",
     "original": "Menes hesitates as you speak, then barks a codeword into his comms.\n\nYou freeze, understanding what this sort of protocol looks like. The lights flare into harsh illumination and a trio of gun turrets pop from subtle cupolas - one each tracks instantly to you and Bornanew while the third spins in a slow covering pattern.\n\nThe human guards arrive a moment later, uniforms bright-white, boots squeaking on the floor. Menes breathes heavily, watching the security net tighten.\n\nBornanew, meanwhile, has not moved but to turn his head toward you and Menes.",
-    "translated": ""
+    "translated": "Menes hésite tandis que vous parlez, puis aboie un mot de code dans ses comms.\n\nVous vous figez, comprenant à quoi ressemble ce genre de protocole. Les lumières passent en éclairage dur et un trio de tourelles surgit de coupoles discrètes - l'une vous traque instantanément, une autre vise Bornanew, tandis que la troisième tourne lentement en couverture.\n\nLes gardes humains arrivent un instant plus tard, uniformes d'un blanc éclatant, bottes grinçant sur le sol. Menes respire lourdement, regardant le filet de sécurité se resserrer.\n\nBornanew, pendant ce temps, n'a bougé que pour tourner la tête vers vous et Menes."
   },
   {
     "csv_row": 2794,
     "id": "BFFImenesPartySteal13",
     "column": "text",
     "original": "\"Menes, Yaribay sir. I pray your forgiveness. I- I was overcome by... I had to...\" Bornanew trails off, pathetically.",
-    "translated": ""
+    "translated": "\"Menes, Yaribay monsieur. J'implore votre pardon. Je- j'ai été submergé par... il fallait que...\" Bornanew s'interrompt, pathétiquement."
   },
   {
     "csv_row": 2794,
@@ -64,13 +64,13 @@
     "column": "options",
     "option_line": "bffi_mpSteal14a:Ne rien dire",
     "original": "Ne rien dire",
-    "translated": ""
+    "translated": "Ne rien dire"
   },
   {
     "csv_row": 2796,
     "id": "BFFImenesPartySteal14b",
     "column": "text",
     "original": "It takes a second, but Menes starts to laugh.\n\nAnd laugh, and laugh deep in his belly, almost a shout. He suddenly throws an arm over your shoulder, putting you off balance, as he struggles to contain himself.",
-    "translated": ""
+    "translated": "Cela prend une seconde, mais Menes se met à rire.\n\nÀ rire, et rire du fond du ventre, presque un cri. Il vous jette soudain un bras autour de l'épaule, vous déséquilibrant, tandis qu'il peine à se contenir."
   }
 ]

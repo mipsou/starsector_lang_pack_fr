@@ -4,7 +4,7 @@
     "id": "KOLTHolyArmadaCommsBdeath",
     "column": "text",
     "original": "\"Qu'il en soit ainsi,\" dit le $post. \"Nous nous retrouverons au combat. Puissiez-vous decouvrir dans l'eternite la misericorde que vous n'avez pas connue dans cette vie.\"\n\n$HeOrShe tend la main vers le bouton de coupure des comms.",
-    "translated": ""
+    "translated": "\"Qu'il en soit ainsi,\" dit le $post. \"Nous nous retrouverons au combat. Puissiez-vous découvrir dans l'éternité la miséricorde que vous n'avez pas connue dans cette vie.\"\n\n$HeOrShe tend la main vers le bouton de coupure des comms."
   },
   {
     "csv_row": 9897,
@@ -12,7 +12,7 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   },
   {
     "csv_row": 9902,
@@ -20,14 +20,14 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   },
   {
     "csv_row": 9903,
     "id": "kolt_handoverCancelSel",
     "column": "text",
     "original": "\"Repondre a de telles sottises est indigne d'un Chevalier,\" dit le $post, le menton releve. \"Puissiez-vous trouver dans l'eternite une dignite que vous ne connaissez pas aujourd'hui.\"\n\n$HeOrShe tend la main vers le bouton de coupure des comms.",
-    "translated": ""
+    "translated": "\"Répondre à de telles sottises est indigne d'un Chevalier,\" dit le $post, le menton relevé. \"Puissiez-vous trouver dans l'éternité une dignité que vous ne connaissez pas aujourd'hui.\"\n\n$HeOrShe tend la main vers le bouton de coupure des comms."
   },
   {
     "csv_row": 9903,
@@ -35,7 +35,7 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   },
   {
     "csv_row": 9908,
@@ -43,7 +43,7 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   },
   {
     "csv_row": 9909,
@@ -51,14 +51,14 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   },
   {
     "csv_row": 9916,
     "id": "sdPunExCommsC",
     "column": "text",
     "original": "\"Alors vous ne niez rien. Regardez-vous, spacien ; vous n'avez pas de peuple, vous n'avez pas de patrie ; votre sang s'amincit et s'affaiblit dans le vide. Vous subsistez de mensonges et de tromperies. Votre ideologie est du poison.\"",
-    "translated": ""
+    "translated": "\"Alors vous ne niez rien. Regardez-vous, spacien ; vous n'avez pas de peuple, vous n'avez pas de patrie ; votre sang s'amincit et s'affaiblit dans le vide. Vous subsistez de mensonges et de tromperies. Votre idéologie est du poison.\""
   },
   {
     "csv_row": 9919,
@@ -66,7 +66,7 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   },
   {
     "csv_row": 9920,
@@ -74,6 +74,6 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   }
 ]

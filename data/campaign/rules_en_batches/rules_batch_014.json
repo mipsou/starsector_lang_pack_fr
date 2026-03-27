@@ -4,7 +4,7 @@
     "id": "oyaTanaica_vambraceOut1",
     "column": "text",
     "original": "Senior Engineer Tanaica sends you on your way back to orbit with no more farewell than a succinct \"Right then.\"",
-    "translated": ""
+    "translated": "L'Ingénieur en Chef Tanaica vous renvoie en orbite sans plus d'adieu qu'un succinct \"Bon, très bien.\""
   },
   {
     "csv_row": 259,
@@ -12,15 +12,15 @@
     "column": "options",
     "option_line": "strandedInDeepSpace2:\"Quelle est votre proposition, technicien en chef ?\"",
     "original": "Quelle est votre proposition, technicien en chef ?",
-    "translated": ""
+    "translated": "Quelle est votre proposition, technicien en chef ?"
   },
   {
     "csv_row": 263,
     "id": "StrandedInDeepSpace3c",
     "column": "options",
-    "option_line": "defaultLeave:Revenir to your command",
+    "option_line": "defaultLeave:Revenir à votre commandement",
     "original": "Revenir to your command",
-    "translated": ""
+    "translated": "Revenir à votre commandement"
   },
   {
     "csv_row": 268,
@@ -28,7 +28,7 @@
     "column": "options",
     "option_line": "salPerform:Examiner la trouvaille",
     "original": "Examiner la trouvaille",
-    "translated": ""
+    "translated": "Examiner la trouvaille"
   },
   {
     "csv_row": 269,
@@ -36,21 +36,21 @@
     "column": "options",
     "option_line": "salPerform:Examiner la trouvaille",
     "original": "Examiner la trouvaille",
-    "translated": ""
+    "translated": "Examiner la trouvaille"
   },
   {
     "csv_row": 301,
     "id": "surveyStar",
     "column": "text",
     "original": "Votre $shipOrFleet approche de $entityName.",
-    "translated": ""
+    "translated": "Votre $shipOrFleet approche de $entityName."
   },
   {
     "csv_row": 302,
     "id": "surveyOpen",
     "column": "text",
     "original": "Votre $shipOrFleet approche de $entityName.",
-    "translated": ""
+    "translated": "Votre $shipOrFleet approche de $entityName."
   },
   {
     "csv_row": 308,
@@ -58,20 +58,20 @@
     "column": "options",
     "option_line": "0:surveyPerform:Fonder une colonie",
     "original": "surveyPerform:Fonder une colonie",
-    "translated": ""
+    "translated": "surveyPerform:Fonder une colonie"
   },
   {
     "csv_row": 310,
     "id": "surveyOptionPerformSurvey",
     "column": "text",
     "original": "Votre $shipOrFleet entre en orbite basse autour de $entityName.",
-    "translated": ""
+    "translated": "Votre $shipOrFleet entre en orbite basse autour de $entityName."
   },
   {
     "csv_row": 317,
     "id": "marketOpen",
     "column": "text",
     "original": "Votre $shipOrFleet approche de $entityName.",
-    "translated": ""
+    "translated": "Votre $shipOrFleet approche de $entityName."
   }
 ]

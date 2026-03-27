@@ -4,7 +4,7 @@
     "id": "BFFIdeliverToOakKeepfaith2b",
     "column": "text",
     "original": "You are left with Oak, his clerk, and the coffin of Bornanew.\n\n\"And the glove,\" says the Excubitor Orbis.",
-    "translated": ""
+    "translated": "Vous restez avec Oak, sa greffière, et le cercueil de Bornanew.\n\n\"Et le gant,\" dit l'Excubitor Orbis."
   },
   {
     "csv_row": 3518,
@@ -12,62 +12,62 @@
     "column": "options",
     "option_line": "bffi_deliverGloveCheck:Order the glove brought forward",
     "original": "Order the glove brought forward",
-    "translated": ""
+    "translated": "Ordonner qu'on apporte le gant"
   },
   {
     "csv_row": 3519,
     "id": "BFFIdeliverToOakKeepfaithCheckC",
     "column": "text",
     "original": "The Excubitor Orbis had never stopped watching you. \"Your theory. Tartessus,\" he prompts $global.jethroName.\n\nBornanew takes a step forward. \"Excubitor Orbis. We tracked the source of the false relic to a nanoforge operated by heretics of the so-called Luddic Path. A station on the far fringe, in the $bffi_patherStationSystem.\"",
-    "translated": ""
+    "translated": "L'Excubitor Orbis n'avait jamais cessé de vous observer. \"Votre théorie. Tartessus,\" incite-t-il $global.jethroName.\n\nBornanew fait un pas en avant. \"Excubitor Orbis. Nous avons remonté la source de la fausse relique jusqu'à une nanoforge opérée par des hérétiques du soi-disant Sentier Luddique. Une station aux confins, dans le système $bffi_patherStationSystem.\""
   },
   {
     "csv_row": 3520,
     "id": "BFFIdeliverKeepfaithExplainEscaped2",
     "column": "text",
     "original": "He glances at you. \"Captain $playerName procured datastores from the station, and the forge, before destroying both. I found communications involving the Subcurate Cedra Keepfaith in the Cathedral of Holy Exodus. I confronted her directly. She interfered with Knight-Captain Larix's weapon and I... was shot.\"\n\nOak's eyes narrow, which is enough to prompt silence. Oak's clerk looks between him and Bornanew curiously, but she also holds her tongue.\n\n\"Keepfaith fled and has not been found,\" Bornanew continues. \"The Reverend Archcurate Bywater, of the Cathedral of Holy Exodus, saw fit to strip her of the station of Subcurate in absentia.\"",
-    "translated": ""
+    "translated": "Il vous jette un regard. \"Le capitaine $playerName a récupéré des banques de données de la station, et de la forge, avant de détruire les deux. J'ai trouvé des communications impliquant la Sous-curée Cedra Keepfaith dans la Cathédrale du Saint Exode. Je l'ai confrontée directement. Elle a interféré avec l'arme du Chevalier-Capitaine Larix et j'ai... reçu une balle.\"\n\nLes yeux d'Oak se plissent, ce qui suffit à imposer le silence. La greffière d'Oak regarde entre lui et Bornanew avec curiosité, mais elle aussi tient sa langue.\n\n\"Keepfaith a fui et n'a pas été retrouvée,\" poursuit Bornanew. \"Le Révérend Archicuré Bywater, de la Cathédrale du Saint Exode, a jugé bon de la déchoir de la charge de Sous-curée par contumace.\""
   },
   {
     "csv_row": 3521,
     "id": "BFFIdeliverToOakKeepfaithCheckCbb",
     "column": "text",
     "original": "The Excubitor Orbis had never stopped watching you. \"Your theory. Tartessus,\" he prompts $global.jethroName.\n\nBornanew steps forward. \"I tracked the source of the false relic to a nanoforge operated by Pather heretics. A godless hive of a station on the far fringe, in the $bffi_patherStationSystem.\"",
-    "translated": ""
+    "translated": "L'Excubitor Orbis n'avait jamais cessé de vous observer. \"Votre théorie. Tartessus,\" incite-t-il $global.jethroName.\n\nBornanew s'avance. \"J'ai remonté la source de la fausse relique jusqu'à une nanoforge opérée par des hérétiques Pathers. Une ruche impie de station aux confins, dans le système $bffi_patherStationSystem.\""
   },
   {
     "csv_row": 3522,
     "id": "BFFIdeliverKeepfaithExplainEscaped2bb",
     "column": "text",
     "original": "He doesn't look at you, but speaks directly. \"Captain $playerName seized datastores from the station, and the forge, before destroying both. I discovered communications involving a traitor, the Subcurate Cedra Keepfaith of the Cathedral of Holy Exodus. I confronted her directly with her crime. She interfered with Knight-Captain Larix's weapon and shot me.\"\n\nOak's eyes narrow. Oak's clerk looks between him and Bornanew curiously, but she also holds her tongue.",
-    "translated": ""
+    "translated": "Il ne vous regarde pas, mais parle directement. \"Le capitaine $playerName a saisi des banques de données de la station, et de la forge, avant de détruire les deux. J'ai découvert des communications impliquant une traîtresse, la Sous-curée Cedra Keepfaith de la Cathédrale du Saint Exode. Je l'ai confrontée directement avec son crime. Elle a interféré avec l'arme du Chevalier-Capitaine Larix et m'a tiré dessus.\"\n\nLes yeux d'Oak se plissent. La greffière d'Oak regarde entre lui et Bornanew avec curiosité, mais elle aussi tient sa langue."
   },
   {
     "csv_row": 3523,
     "id": "BFFIdeliverKeepfaithExplainEscaped2bb2",
     "column": "text",
     "original": "\"The traitor fled and the Knights posted to Tartessus have not found her,\" Bornanew continues, criticism obvious in his tone. \"The Reverend Archcurate Bywater, of the Cathedral of Holy Exodus, saw fit to strip Keepfaith of the station of Subcurate in absentia. Nonetheless, she has thus far escaped punishment. If you simply order the Inquisitors to-\"\n\nGideon Oak raises a hand, almost a parody of the gesture frozen in the glove that started this all. Bornanew silences himself with obvious reluctance.",
-    "translated": ""
+    "translated": "\"La traîtresse a fui et les Chevaliers postés à Tartessus ne l'ont pas retrouvée,\" poursuit Bornanew, la critique évidente dans son ton. \"Le Révérend Archicuré Bywater, de la Cathédrale du Saint Exode, a jugé bon de déchoir Keepfaith de la charge de Sous-curée par contumace. Néanmoins, elle a jusqu'ici échappé au châtiment. Si vous ordonnez simplement aux Inquisiteurs de-\"\n\nGideon Oak lève une main, presque une parodie du geste figé dans le gant qui a tout déclenché. Bornanew se tait avec une réticence évidente."
   },
   {
     "csv_row": 3525,
     "id": "BFFIdeliverToOakKeepfaithCheckD",
     "column": "text",
     "original": "Oak's clerk finally speaks up, glancing down at her notebook then at the Excubitor Orbis, then you.\n\n\"The subcur... the accused, Cedra Keepfaith, is in the custody of our order. She is... with the Inquisitors now.\"\n\nShe folds her notebook away. The Excubitor Orbis does not change his expression.",
-    "translated": ""
+    "translated": "La greffière d'Oak prend enfin la parole, jetant un regard à son carnet puis à l'Excubitor Orbis, puis à vous.\n\n\"La sous-cur... l'accusée, Cedra Keepfaith, est sous la garde de notre ordre. Elle est... avec les Inquisiteurs maintenant.\"\n\nElle range son carnet. L'Excubitor Orbis ne change pas d'expression."
   },
   {
     "csv_row": 3526,
     "id": "BFFIdeliverToOakKeepfaithCheckD2",
     "column": "text",
     "original": "Oak's clerk finally speaks up, glancing down at her notebook then at the Excubitor Orbis, then you.\n\n\"The subcur... the accused, Cedra Keepfaith, has been added to watchlists throughout the ecumene. The Heretic-finders of the Inquisition have taken responsibility for the situation.\"\n\nShe folds her notebook away. The Excubitor Orbis does not change his expression.",
-    "translated": ""
+    "translated": "La greffière d'Oak prend enfin la parole, jetant un regard à son carnet puis à l'Excubitor Orbis, puis à vous.\n\n\"La sous-cur... l'accusée, Cedra Keepfaith, a été ajoutée aux listes de surveillance dans tout l'oecumène. Les Chasseurs d'Hérétiques de l'Inquisition ont pris la responsabilité de la situation.\"\n\nElle range son carnet. L'Excubitor Orbis ne change pas d'expression."
   },
   {
     "csv_row": 3527,
     "id": "BFFIdeliverToOakKeepfaithCheckB",
     "column": "text",
     "original": "The Excubitor Orbis had never stopped watching you. \"Your theory. Tartessus,\" he prompts $global.jethroName.\n\nBornanew steps forward. \"We tracked the source of the false relic to a nanoforge operated by heretics of the so-called Luddic Path. A station on the far fringe, in the $bffi_patherStationSystem.\"",
-    "translated": ""
+    "translated": "L'Excubitor Orbis n'avait jamais cessé de vous observer. \"Votre théorie. Tartessus,\" incite-t-il $global.jethroName.\n\nBornanew s'avance. \"Nous avons remonté la source de la fausse relique jusqu'à une nanoforge opérée par des hérétiques du soi-disant Sentier Luddique. Une station aux confins, dans le système $bffi_patherStationSystem.\""
   }
 ]

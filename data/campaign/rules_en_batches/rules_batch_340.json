@@ -5,42 +5,42 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   },
   {
     "csv_row": 10203,
     "id": "pk_turnInArroyoSel1again",
     "column": "text",
     "original": "\"Encore ca.\" Il vous lance un regard froid, \"J'espere que vous n'avez pas essaye de vendre cette arme de destruction massive interdite de l'ere du Domaine, responsable de milliards de morts, a quelqu'un d'autre avant de venir ramper vers moi.\"\n\nIl est glacial.\n\n\"N'est-ce pas ?\"",
-    "translated": ""
+    "translated": "\"Encore ça.\" Il vous lance un regard froid, \"J'espère que vous n'avez pas essayé de vendre cette arme de destruction massive interdite de l'ère du Domain, responsable de milliards de morts, à quelqu'un d'autre avant de venir ramper vers moi.\"\n\nIl est glacial.\n\n\"N'est-ce pas ?\""
   },
   {
     "csv_row": 10204,
     "id": "pk_turnInArroyoSel1againNotFirst",
     "column": "text",
     "original": "\"Non,\" dit-il. \"Et nous n'avons pas cette conversation ou vous me vendez une arme de destruction massive.\"",
-    "translated": ""
+    "translated": "\"Non,\" dit-il. \"Et nous n'avons pas cette conversation où vous me vendez une arme de destruction massive.\""
   },
   {
     "csv_row": 10207,
     "id": "pk_turnInArroyoSel1joke",
     "column": "text",
     "original": "\"Hilarant.\"\n\nIl ne sourit pas.",
-    "translated": ""
+    "translated": "\"Hilarant.\"\n\nIl ne sourit pas."
   },
   {
     "csv_row": 10211,
     "id": "pkTurnInArroyoSel4",
     "column": "text",
     "original": "Il se prend le visage dans la paume, inspirant profondement.\n\n\"Espece d'idiot,\" dit-il en soupirant.\n\n\"Je peux faire 150 000. C'est ma meilleure offre pour un article aussi compromettant.\"",
-    "translated": ""
+    "translated": "Il se prend le visage dans la paume, inspirant profondément.\n\n\"Espèce d'idiot,\" dit-il en soupirant.\n\n\"Je peux faire 150 000. C'est ma meilleure offre pour un article aussi compromettant.\""
   },
   {
     "csv_row": 10213,
     "id": "pkTurnInArroyoNoDeal",
     "column": "text",
     "original": "\"Bonne chance pour vendre votre arme de destruction massive interdite de l'ere du Domaine, responsable de milliards de morts,\" dit-il. Son ton vous semble manquer de sincerite, allez savoir pourquoi.",
-    "translated": ""
+    "translated": "\"Bonne chance pour vendre votre arme de destruction massive interdite de l'ère du Domain, responsable de milliards de morts,\" dit-il. Son ton vous semble manquer de sincérité, allez savoir pourquoi."
   },
   {
     "csv_row": 10214,
@@ -48,7 +48,7 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   },
   {
     "csv_row": 10215,
@@ -56,7 +56,7 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   },
   {
     "csv_row": 10222,
@@ -64,13 +64,13 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la comm",
     "original": "Couper la comm",
-    "translated": ""
+    "translated": "Couper la comm"
   },
   {
     "csv_row": 10227,
     "id": "PKGiveToDiktat2nm",
     "column": "text",
     "original": "Le $Rank du Diktat vous lance un drole de regard.\n\n\"Les spaciers,\" marmonne $heOrShe.",
-    "translated": ""
+    "translated": "Le $Rank du Diktat vous lance un drôle de regard.\n\n\"Les spaciers,\" marmonne $heOrShe."
   }
 ]

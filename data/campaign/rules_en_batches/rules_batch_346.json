@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "dev_barOOCfreeDrink:On Own Colony free drink event",
     "original": "On Own Colony free drink event",
-    "translated": ""
+    "translated": "Événement verre gratuit sur colonie personnelle"
   },
   {
     "csv_row": 10514,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "dev_barHighRepEventTest:High rep bar event test",
     "original": "High rep bar event test",
-    "translated": ""
+    "translated": "Test événement bar haute réputation"
   },
   {
     "csv_row": 10515,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "dev_barLREtest:Low rep bar event test",
     "original": "Low rep bar event test",
-    "translated": ""
+    "translated": "Test événement bar basse réputation"
   },
   {
     "csv_row": 10517,
@@ -29,14 +29,14 @@
     "column": "options",
     "option_line": "dev_barSetMetEveryone:Player met everyone who gives unique HRE anecdote",
     "original": "Player met everyone who gives unique HRE anecdote",
-    "translated": ""
+    "translated": "Le joueur a rencontré tous ceux qui donnent une anecdote HRE unique"
   },
   {
     "csv_row": 10520,
     "id": "DevBarSetMetEveryone2",
     "column": "text",
     "original": "Termine.\n\nNOTE : ceci est un truc en force brute pour les tests. Il est possible que cela casse d'autres missions dans le jeu, donc ne lancez pas ca avant d'avoir teste le reste.",
-    "translated": ""
+    "translated": "Terminé.\n\nNOTE : ceci est un truc en force brute pour les tests. Il est possible que cela casse d'autres missions dans le jeu, donc ne lancez pas ça avant d'avoir testé le reste."
   },
   {
     "csv_row": 10548,
@@ -44,7 +44,7 @@
     "column": "options",
     "option_line": "barHRE_goToNormalBar:Regarder autour de vous dans le bar",
     "original": "Regarder autour de vous dans le bar",
-    "translated": ""
+    "translated": "Regarder autour de vous dans le bar"
   },
   {
     "csv_row": 10549,
@@ -52,7 +52,7 @@
     "column": "options",
     "option_line": "barHighRepEvent0join:Autant les rejoindre pour un verre",
     "original": "Autant les rejoindre pour un verre",
-    "translated": ""
+    "translated": "Autant les rejoindre pour un verre"
   },
   {
     "csv_row": 10550,
@@ -60,7 +60,7 @@
     "column": "options",
     "option_line": "barHRE_goToNormalBar:Regarder autour de vous dans le bar",
     "original": "Regarder autour de vous dans le bar",
-    "translated": ""
+    "translated": "Regarder autour de vous dans le bar"
   },
   {
     "csv_row": 10552,
@@ -68,7 +68,7 @@
     "column": "options",
     "option_line": "barHRE_goToNormalBar:Regarder autour de vous dans le bar",
     "original": "Regarder autour de vous dans le bar",
-    "translated": ""
+    "translated": "Regarder autour de vous dans le bar"
   },
   {
     "csv_row": 10553,
@@ -76,6 +76,6 @@
     "column": "options",
     "option_line": "barHRE_goToNormalBar:Regarder autour de vous dans le bar",
     "original": "Regarder autour de vous dans le bar",
-    "translated": ""
+    "translated": "Regarder autour de vous dans le bar"
   }
 ]

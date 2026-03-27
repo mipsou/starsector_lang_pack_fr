@@ -4,7 +4,7 @@
     "id": "sdtuRamStartMission",
     "column": "text",
     "original": "Vous evaluez vos options pour cette rencontre.",
-    "translated": ""
+    "translated": "Vous évaluez vos options pour cette rencontre."
   },
   {
     "csv_row": 8645,
@@ -12,7 +12,7 @@
     "column": "options",
     "option_line": "sdtu_ramSafehouse0:Monter dans la navette et rejoindre le Refuge de Ram",
     "original": "Monter dans la navette et rejoindre le Refuge de Ram",
-    "translated": ""
+    "translated": "Monter dans la navette et rejoindre le Refuge de Ram"
   },
   {
     "csv_row": 8648,
@@ -20,7 +20,7 @@
     "column": "options",
     "option_line": "sdtu_prepMarines:Emmener une escouade de marines en renfort",
     "original": "Emmener une escouade de marines en renfort",
-    "translated": ""
+    "translated": "Emmener une escouade de marines en renfort"
   },
   {
     "csv_row": 8653,
@@ -28,7 +28,7 @@
     "column": "options",
     "option_line": "sdtu_prepWeaponPistol:Un pistolet en polycarbonate noir mat",
     "original": "Un pistolet en polycarbonate noir mat",
-    "translated": ""
+    "translated": "Un pistolet en polycarbonate noir mat"
   },
   {
     "csv_row": 8655,
@@ -36,7 +36,7 @@
     "column": "options",
     "option_line": "sdtu_prepWeaponSpray:Une minuscule capsule de poison en spray",
     "original": "Une minuscule capsule de poison en spray",
-    "translated": ""
+    "translated": "Une minuscule capsule de poison en spray"
   },
   {
     "csv_row": 8657,
@@ -44,21 +44,21 @@
     "column": "options",
     "option_line": "sdtu_prepWeaponNone:Pas d'arme ; vous n'en avez pas besoin",
     "original": "Pas d'arme ; vous n'en avez pas besoin",
-    "translated": ""
+    "translated": "Pas d'arme ; vous n'en avez pas besoin"
   },
   {
     "csv_row": 8660,
     "id": "sdtuRamPrepWeaponGren2",
     "column": "text",
     "original": "Votre armurier vous explique le processus d'activation et de desactivation des grenades, et vous familiarise avec leur minuterie et leur poids de lancer. Vous en dissimulez une demi-douzaine sur votre uniforme.\n\nCes petites choses infernales ont un sacre punch.",
-    "translated": ""
+    "translated": "Votre armurier vous explique le processus d'activation et de désactivation des grenades, et vous familiarise avec leur minuterie et leur poids de lancer. Vous en dissimulez une demi-douzaine sur votre uniforme.\n\nCes petites choses infernales ont un sacré punch."
   },
   {
     "csv_row": 8671,
     "id": "sdtuRamSafehouse2",
     "column": "text",
     "original": "La planque de Ram se trouve dans un complexe logistique et d'entreposage rattache a l'embranchement de l'un de ces clusters industriels.\n\nL'air est charge de la puanteur sucree des produits petrochimiques.",
-    "translated": ""
+    "translated": "La planque de Ram se trouve dans un complexe logistique et d'entreposage rattaché à l'embranchement de l'un de ces clusters industriels.\n\nL'air est chargé de la puanteur sucrée des produits pétrochimiques."
   },
   {
     "csv_row": 8671,
@@ -66,7 +66,7 @@
     "column": "options",
     "option_line": "sdtu_ramSafehouse3:Entrer the safehouse",
     "original": "Entrer the safehouse",
-    "translated": ""
+    "translated": "Entrer dans la planque"
   },
   {
     "csv_row": 8676,
@@ -74,6 +74,6 @@
     "column": "options",
     "option_line": "sdtu_ramSafehouse5:Rester calme pour l'instant ; le laisser parler davantage",
     "original": "Rester calme pour l'instant ; le laisser parler davantage",
-    "translated": ""
+    "translated": "Rester calme pour l'instant ; le laisser parler davantage"
   }
 ]

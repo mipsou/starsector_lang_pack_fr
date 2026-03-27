@@ -5,69 +5,69 @@
     "column": "options",
     "option_line": "bffi_pondNoSedgeOutro2deal2:\"No. Pond earned his own fate and I'll have it no other way.\"",
     "original": "No. Pond earned his own fate and I'll have it no other way.",
-    "translated": ""
+    "translated": "Non. Pond a mérité son sort et je ne veux pas qu'il en soit autrement."
   },
   {
     "csv_row": 3157,
     "id": "BFFIpondNoSedgeOutro2dealB",
     "column": "text",
     "original": "Bornanew looks at you, then to Pond.\n\nThere's an edge in his expression that you had not seen before.",
-    "translated": ""
+    "translated": "Bornanew vous regarde, puis se tourne vers Pond.\n\nIl y a une dureté dans son expression que vous n'aviez jamais vue auparavant."
   },
   {
     "csv_row": 3158,
     "id": "BFFIpondNoSedgeOutro2badEb",
     "column": "text",
     "original": "Bornanew places his hands together, and turns back to Pond.",
-    "translated": ""
+    "translated": "Bornanew joint ses mains et se retourne vers Pond."
   },
   {
     "csv_row": 3159,
     "id": "BFFIulmusNoSedgeOutro2",
     "column": "text",
     "original": "Pond nods, tears streaming down his face. He seems not to know what to do, and simply sits there slumped like a ragdoll, his mouth half-open.\n\nYou leave him in his cheap apartment, stepping over the ruined door. Bornanew pauses a moment to lean it against the hollow door frame like an insufficient apology.",
-    "translated": ""
+    "translated": "Pond hoche la tête, des larmes coulant sur son visage. Il semble ne pas savoir quoi faire, et reste simplement assis là, avachi comme une poupée de chiffon, la bouche entrouverte.\n\nVous le laissez dans son appartement minable, enjambant la porte défoncée. Bornanew s'arrête un instant pour l'appuyer contre le cadre creux de la porte, comme une excuse insuffisante."
   },
   {
     "csv_row": 3160,
     "id": "BFFIulmusNoSedgeOutro2menes",
     "column": "text",
     "original": "Pond nods, tears streaming down his face. He sits slumped like a ragdoll, mouth half-open, until Bornanew pulls him to his feet.\n\n\"Move, walker.\" Bornanew's voice is his own again. \"The path of redemption is not easy, but it is as Ludd would ask.\"\n\nYou follow Pond from his cheap apartment, stepping over the ruined door. He gives you and Bornanew one last look, his face drained of emotion, then disappears down one of the labyrinthine alleyways of the settlement.",
-    "translated": ""
+    "translated": "Pond hoche la tête, des larmes coulant sur son visage. Il reste avachi comme une poupée de chiffon, la bouche entrouverte, jusqu'à ce que Bornanew le remette sur ses pieds.\n\n\"Avancez, marcheur.\" La voix de Bornanew est redevenue la sienne. \"Le chemin de la rédemption n'est pas facile, mais c'est ce que Ludd demanderait.\"\n\nVous suivez Pond hors de son appartement minable, enjambant la porte défoncée. Il vous lance un dernier regard, à vous et Bornanew, le visage vidé de toute émotion, puis disparaît dans l'une des ruelles labyrinthiques de la colonie."
   },
   {
     "csv_row": 3161,
     "id": "BFFIulmusNoSedgeOutro2knights",
     "column": "text",
     "original": "Pond nods, tears streaming down his face. He sits slumped like a ragdoll, mouth half-open, until Bornanew pulls him to his feet.\n\n\"Move, walker.\" Bornanew's voice is his own again. \"The path of redemption is not easy, but it is as Ludd would ask.\"\n\nYou follow Pond from his cheap apartment, stepping over the ruined door. Bornanew makes a brief comms request, and soon a pair of furtive, hooded figures collect Pond from your custody.",
-    "translated": ""
+    "translated": "Pond hoche la tête, des larmes coulant sur son visage. Il reste avachi comme une poupée de chiffon, la bouche entrouverte, jusqu'à ce que Bornanew le remette sur ses pieds.\n\n\"Avancez, marcheur.\" La voix de Bornanew est redevenue la sienne. \"Le chemin de la rédemption n'est pas facile, mais c'est ce que Ludd demanderait.\"\n\nVous suivez Pond hors de son appartement minable, enjambant la porte défoncée. Bornanew passe un bref appel comm, et bientôt une paire de silhouettes furtives et encapuchonnées récupèrent Pond."
   },
   {
     "csv_row": 3162,
     "id": "BFFIulmusNoSedgeOutro3",
     "column": "text",
     "original": "Bornanew watches him go, then stands with you for a quiet moment. Water drips, and the wind moans a low keen through the top of the settlement. \n\nHe taps at his datapad, and yours pings with incoming coordinates.\n\n\"I suspect this sect of the Path will not surrender their secrets without a fight,\" he says. \"They have invested much in this conspiracy.\"",
-    "translated": ""
+    "translated": "Bornanew le regarde partir, puis reste debout avec vous dans un moment de silence. L'eau goutte, et le vent gémit une plainte sourde à travers le sommet de la colonie.\n\nIl tapote sur son datapad, et le vôtre sonne avec des coordonnées entrantes.\n\n\"Je soupçonne que cette secte du Sentier ne livrera pas ses secrets sans combattre,\" dit-il. \"Ils ont beaucoup investi dans cette conspiration.\""
   },
   {
     "csv_row": 3163,
     "id": "BFFIulmusNoSedgeOutro3b",
     "column": "text",
     "original": "Bornanew watches him go, then stands with you for a quiet moment. Water drips, and the wind moans a low keen through the top of the settlement. \n\nHe taps at his datapad, and yours pings with incoming coordinates.\n\n\"I suspect this sect of the Path will not surrender their secrets without a fight,\" he says. \"They have invested much in this conspiracy.\"",
-    "translated": ""
+    "translated": "Bornanew le regarde partir, puis reste debout avec vous dans un moment de silence. L'eau goutte, et le vent gémit une plainte sourde à travers le sommet de la colonie.\n\nIl tapote sur son datapad, et le vôtre sonne avec des coordonnées entrantes.\n\n\"Je soupçonne que cette secte du Sentier ne livrera pas ses secrets sans combattre,\" dit-il. \"Ils ont beaucoup investi dans cette conspiration.\""
   },
   {
     "csv_row": 3164,
     "id": "BFFIulmusNoSedgeOutro4",
     "column": "text",
     "original": "You look at your TriPad, reading the coordinates given up by Ulmus Pond.",
-    "translated": ""
+    "translated": "Vous regardez votre TriPad, lisant les coordonnées livrées par Ulmus Pond."
   },
   {
     "csv_row": 3165,
     "id": "BFFIulmusNoSedgeOutro5",
     "column": "text",
     "original": "\"I pray we find our answers,\" Bornanew says as you return to the shuttle. \"And I fear now that the Pathers know that we know their aims.\"\n\nYou secure yourself in your seat as the access hatch seals itself. The shuttle begins to lift toward orbit.",
-    "translated": ""
+    "translated": "\"Je prie pour que nous trouvions nos réponses,\" dit Bornanew alors que vous retournez à la navette. \"Et je crains maintenant que les Pèlerins sachent que nous connaissons leurs desseins.\"\n\nVous vous attachez à votre siège tandis que le sas d'accès se scelle. La navette commence à s'élever vers l'orbite."
   }
 ]
