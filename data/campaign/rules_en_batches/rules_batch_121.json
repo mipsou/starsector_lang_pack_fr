@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 3165,
+    "id": "BFFIulmusNoSedgeOutro5",
+    "column": "options",
+    "option_line": "bffi_ulmusTalkNoSedgeOut6a:\"Fear not, $global.jethroName. My $shipOrFleet will be ready.\"",
+    "original": "Fear not, $global.jethroName. My $shipOrFleet will be ready.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3165,
+    "id": "BFFIulmusNoSedgeOutro5",
+    "column": "options",
+    "option_line": "bffi_ulmusTalkNoSedgeOut6b:\"When I end this, $global.jethroName, it is the Path that shall fear me.\"",
+    "original": "When I end this, $global.jethroName, it is the Path that shall fear me.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3166,
+    "id": "BFFIulmusNoSedgeOutro6a",
+    "column": "text",
+    "original": "Bornanew does not reply.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3167,
+    "id": "BFFIulmusNoSedgeOutro6b",
+    "column": "text",
+    "original": "Bornanew does not reply.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3172,
+    "id": "BFFIpsApproachConsultStart",
+    "column": "text",
+    "original": "Bornanew joins you on your flagship's bridge. Tactical gives him a skeptical look.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3172,
+    "id": "BFFIpsApproachConsultStart",
+    "column": "options",
+    "option_line": "bffi_psConsultStartA:Nod acknowledgement",
+    "original": "Nod acknowledgement",
+    "translated": ""
+  },
+  {
+    "csv_row": 3172,
+    "id": "BFFIpsApproachConsultStart",
+    "column": "options",
+    "option_line": "bffi_psConsultStartC:\"We're going to break these Pathers wide open.\"",
+    "original": "We're going to break these Pathers wide open.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3173,
+    "id": "BFFIpsApproachConsultStartA",
+    "column": "text",
+    "original": "He bows his head, hands clasped.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3174,
+    "id": "BFFIpsApproachConsultStartB",
+    "column": "text",
+    "original": "He raises an eyebrow, then takes in your bridge crew.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3175,
+    "id": "BFFIpsApproachConsultStartC",
+    "column": "text",
+    "original": "\"Captain,\" he says. \"We are here to find out who gave the Luddic Path a detailed scan of the original glove.\" He nods toward the display of the station, \"There will be comms buffers and, somewhere, a datacore of the glove scan - with metadata.\" The display bristles with weapons emplacements highlighted by tactical overlays.\n\n\"And we are here to eliminate their ability to produce another false relic.\" He looks distant, and speaks \"'Hammer in one hand, sword in the other, I pray to see it done.'\"",
+    "translated": ""
+  }
+]

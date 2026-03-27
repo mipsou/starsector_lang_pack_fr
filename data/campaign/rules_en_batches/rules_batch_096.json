@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 2932,
+    "id": "BFFIapRaidOutro7",
+    "column": "text",
+    "original": "Your comms officer intercepts you on the way to the medbay looking determined but apologetic.\n\n\"$PlayerSirOrMadam. The local security authority has issued a blanket order for all fleets to stay in orbit pending an investigation into an, ah, attack against the demarch of Olinadu.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2933,
+    "id": "BFFIapRaidOutro8",
+    "column": "text",
+    "original": "\"Affirmative, $playerSirOrMadam,\" they reply. \"However we can assume that the present higher state of alert will detect the $shipOrFleet's de-orbit burn.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2933,
+    "id": "BFFIapRaidOutro8",
+    "column": "options",
+    "option_line": "bffi_mpRaidOutro9:\"Then we'd better go fast when we go.\"",
+    "original": "Then we'd better go fast when we go.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2934,
+    "id": "BFFIapRaidOutro9",
+    "column": "text",
+    "original": "\"$PlayerSirOrMadam.\" They salute and step back so the med tech can finish waving a scanner - the high-pitched hum just inside your hearing - in search of broken bones. $global.jethroName undergoes a similar procedure in the next bay.\n\nBefore the hour you are discharged with a smart stimpack strapped to your side, under your uniform jacket, to control the pain and keep you alert.\n\nYou're not out yet. You can easily see that the local authorities don't discover Menes' trinket if your $shipOrFleet is searched, but that search would waste valuable time and disrupt operations.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2934,
+    "id": "BFFIapRaidOutro9",
+    "column": "options",
+    "option_line": "defaultLeave:Break orbit",
+    "original": "Break orbit",
+    "translated": ""
+  },
+  {
+    "csv_row": 2938,
+    "id": "BFFImenesPostPartyBought",
+    "column": "text",
+    "original": "It takes longer than before to open the link. Menes' image flickers into being.\n\n\"Oh, Captain $playerName.\" He sets down a glass. \"Have you quite completed your assessment of the... item?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2939,
+    "id": "BFFImenesPostPartyBoughtAgain",
+    "column": "text",
+    "original": "It takes longer than before to open the link. Menes' image flickers into being.\n\n\"Captain $playerName,\" he pauses, looking down. \"Don't let me delay your... assessment. I've entrusted you with quite a treasure.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2940,
+    "id": "BFFImenesPostPartyBoughtOpt",
+    "column": "options",
+    "option_line": "bffi_menesPostPartyBoughtOpt2:\"I'm still consulting with experts. Top experts.\"",
+    "original": "I'm still consulting with experts. Top experts.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2942,
+    "id": "BFFImenesPostPartyTalk",
+    "column": "text",
+    "original": "It takes longer than before to open the link.\n\nMenes' image flickers into pseudoreality and is still but for the occasional wave of algorithmic correction.\n\n\"Captain, oh captain,\" he says finally, his voice more brittle than before. There are dark circles under his eyes. \"Things have not been well.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2943,
+    "id": "BFFImenesPPtalkOptA",
+    "column": "options",
+    "option_line": "bffi_menesPPoptA:\"I was nearly killed at your 'party', Menes. We were both there.\"",
+    "original": "I was nearly killed at your 'party', Menes. We were both there.",
+    "translated": ""
+  }
+]

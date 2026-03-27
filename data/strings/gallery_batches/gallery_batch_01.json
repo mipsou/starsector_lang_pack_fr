@@ -1,0 +1,85 @@
+[
+  {
+    "csv_row": 625,
+    "id": "jump_point_normal",
+    "title": "Jump-point, to Hyperspace",
+    "original_text": "There are places where a balance is found between the dance of celestial bodies, some mingling of qualities ineffable to all but those absolutely devoted to esoteric physics.\n\nIt is there we pierce the veil into the great and stormy sea beyond the stars.",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 626,
+    "id": "jump_point_hyper",
+    "title": "Jump-point, from Hyperspace",
+    "original_text": "Now our contracts up, holds full and ready /\nHoo-rah for we jump now t'ward the core /\nWe'll burn bright, bright long and steady",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 627,
+    "id": "jump_point_wormhole",
+    "title": "Jump-point, Wormhole",
+    "original_text": "Go in there not knowing exactly where you're coming out?\n\nThat's how you end up a bit of glitter indistinguishable from cosmic background radiation.",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 628,
+    "id": "city_from_above",
+    "title": "City From Above",
+    "original_text": "\"He risked the entire Galatia system, hundreds of thousands of citizens. That might be just one subsector of a metroplex down there,\" he waved vaguely in the direction of Chicomoztoc. \"But,\" his voice hardened, \"I will not allow any 'grand experiments' that endanger these people.\"",
+    "translated_title": "",
+    "translated_text": "",
+    "text2": "unlocked"
+  },
+  {
+    "csv_row": 629,
+    "id": "desert_moons_ruins",
+    "title": "Desert Moon Ruins",
+    "original_text": "An ancient sporeship encountered Cibola in a cooler and wetter age than its equilibrium, placing it within the ship's colonization parameters. Later Domain explorers found a dying world populated by a small, backward, and desperate civilization clinging to survival.",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 630,
+    "id": "quartermaster",
+    "title": "Quartermaster",
+    "original_text": "\"You think the inertial dampers will protect you during a combat maneuver? If it isn't stowed, it's a missile primed to core you and the next three crew coming up the access shaft. I want this shameful display cleaned up before the end of the shift.\"",
+    "translated_title": "",
+    "translated_text": "",
+    "text2": "unlocked"
+  },
+  {
+    "csv_row": 631,
+    "id": "comm_relay",
+    "title": "Communications Relay",
+    "original_text": "This communication platform used long lost Domain-era technology yet remained essential to civilized life in the Persean Sector. The rapidly pulsing hyperwaves suitable for FTL data transmission have been shown to damage DNA so these relays were always stationed well away from habitats.",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 632,
+    "id": "abandoned_station",
+    "title": "Abandoned Station 1",
+    "original_text": "The colonization program dictated construction around key gravity wells of orbital infrastructure which included repair docks, industrial nanoforges, comms hubs, terraforming depots, armories, research laboratories, and habitation for defrosted cryosleepers.\n\nMuch remains. More still is as broken and dead as the Human Domain's avaricious dreams.",
+    "translated_title": "",
+    "translated_text": "",
+    "text2": "unlocked"
+  },
+  {
+    "csv_row": 633,
+    "id": "abandoned_station2",
+    "title": "Abandoned Station 2",
+    "original_text": "\"There's ghosties in the old orbitals- don't you laugh, dirt-boot. It's true. I've seen 'em... or less seen 'em than felt 'em. They got signs. Static on the comms when you're in deep. Valves that come loose when you're not a-lookin'. Tools that hain't where you secured 'em. Great tombs they are, and properly ought be left sleepin' cold.\"",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 634,
+    "id": "abandoned_station3",
+    "title": "Abandoned Station",
+    "original_text": "Most abandoned stations were plundered long ago. What remains are the stripped foundations of a fallen empire; twisted spars, cracked agrav plates, shattered machines, and seams thermal-cycled to ruin.\n\nA few smugglers and black-market traders use the long, quiet orbit of these stations for drop-points. A dozen corpses and cored shuttle are the not uncommon tell of a deal gone bad.",
+    "translated_title": "",
+    "translated_text": ""
+  }
+]

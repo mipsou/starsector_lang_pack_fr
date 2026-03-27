@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 8968,
+    "id": "sdtuPostHyderPrisonerOpt0",
+    "column": "text",
+    "original": "Vous avez l'officier de la patrouille du Diktat dans votre cellule pour Macario. Mieux vaut regler les vieilles affaires d'abord.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8973,
+    "id": "sdtuPostHyderPrisonerOptE",
+    "column": "options",
+    "option_line": "sdtu_postHyderReportHub:Ne pas mentionner le prisonnier.",
+    "original": "Ne pas mentionner le prisonnier.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8975,
+    "id": "sdtuPostHyderPrisonerRespB",
+    "column": "text",
+    "original": "\"Vraiment ?\" Macario a l'air amuse, \"Comme c'est charmant.\"\n\n\"Eh bien, ca ne fait pas de mal de lancer un petit defi a mes agents. On ne voudrait pas qu'ils s'amollissent, hein ?\"\n\nIl tapote une fois chaque main sur son bureau, puis les joint et vous regarde attentivement. \"Maintenant, parlez-moi de Hyder.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8976,
+    "id": "sdtuPostHyderPrisonerRespC",
+    "column": "text",
+    "original": "\"Oh ?\" Le sourcil de Macario se leve. \"Mais vous ne l'avez pas fait.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8986,
+    "id": "sdtuPostHyderReportD",
+    "column": "options",
+    "option_line": "sdtu_postHyderHerLead:\"Elle ne veut pas diriger le Diktat Sindrien.\"",
+    "original": "Elle ne veut pas diriger le Diktat Sindrien.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8995,
+    "id": "sdtuPostHyderLiesOptionD",
+    "column": "options",
+    "option_line": "sdtu_postHyderLieWantsToLead:\"Elle pense que personne d'autre qu'elle ne pourrait diriger le Diktat Sindrien.\" (mensonge)",
+    "original": "Elle pense que personne d'autre qu'elle ne pourrait diriger le Diktat Sindrien.\" (mensonge)",
+    "translated": ""
+  },
+  {
+    "csv_row": 9004,
+    "id": "sdtuPostHyderHatesYouOptF",
+    "column": "options",
+    "option_line": "sdtu_postHyderHatesRespF:\"Je suis simplement minutieux.\"",
+    "original": "Je suis simplement minutieux.",
+    "translated": ""
+  },
+  {
+    "csv_row": 9009,
+    "id": "sdtuPostHyderHateRespE",
+    "column": "text",
+    "original": "\"Seulement la moitie ?\" Macario feint la surprise, \"Quelle generosite !\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 9010,
+    "id": "sdtuPostHyderHateRespF",
+    "column": "text",
+    "original": "\"Bien sur. Bien joue.\" Il tambourine des doigts avec impatience.",
+    "translated": ""
+  },
+  {
+    "csv_row": 9018,
+    "id": "sdtuPostHyderHegemonyOut",
+    "column": "text",
+    "original": "\"Fascinant ! Et qu'a-t-elle dit ?\" Il se penche en avant, attention concentree. \"A-t-elle accepte ?\"",
+    "translated": ""
+  }
+]

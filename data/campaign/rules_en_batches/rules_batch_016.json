@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 413,
+    "id": "TTmarketWeirdModsOutro2c",
+    "column": "options",
+    "option_line": "cutCommLink:Couper le lien",
+    "original": "Couper le lien",
+    "translated": ""
+  },
+  {
+    "csv_row": 477,
+    "id": "PathFleetWeirdMods0tithe",
+    "column": "text",
+    "original": "\"Servant of Moloch! Redemption is not- is not...\"\n\nThe Pather's eyes go wide at a red flash from a secondary display.\n\n\"By Ludd's hells, it is...\" $HeOrShe returns to stare, horrified, through the comm-link. $HisOrHer face is full of terror... and hatred.\nOR\n\"Submit and repent! Your use of sinful technologies may- may...\"\n\nThe Pather's eyes go wide at a red flash from a secondary display.\n\n\"By the blessed stars is that...\" $HisOrHer eyes return to the comm-link, fixed with horror... and hatred.",
+    "translated": ""
+  },
+  {
+    "csv_row": 477,
+    "id": "PathFleetWeirdMods0tithe",
+    "column": "options",
+    "option_line": "pathFleet_weirdMods1:\"Is this about a tithe?\"",
+    "original": "Is this about a tithe?",
+    "translated": ""
+  },
+  {
+    "csv_row": 485,
+    "id": "PathFleetWeirdMods0unknown",
+    "column": "text",
+    "original": "\"May the Path be r-\" The $post's eyes go suddenly wide at a red flash from a secondary display.\n\n\"Blessed Ludd!\" $heOrShe gasps.",
+    "translated": ""
+  },
+  {
+    "csv_row": 485,
+    "id": "PathFleetWeirdMods0unknown",
+    "column": "options",
+    "option_line": "pathFleet_weirdModsEnd2unknown:\"Is there a problem?\"",
+    "original": "Is there a problem?",
+    "translated": ""
+  },
+  {
+    "csv_row": 486,
+    "id": "PathFleetWeirdModsUnknownEnd",
+    "column": "text",
+    "original": "\"An abomination, a devil-$shipOrFleet from Hell itself is before us! We pray to Providence to pass this test which has been given unto our unworthy-\"\n\nThe $post's words are for $hisOrHer crew, not you, and the link shudders into static. The last image you see are hands clasped in prayer.",
+    "translated": ""
+  },
+  {
+    "csv_row": 487,
+    "id": "PathFleetWeirdModsUnknownEndWeaker",
+    "column": "text",
+    "original": "\"An abomination, a devil-$shipOrFleet from Hell itself is before us! We pray to Providence to pass this test which has been given unto our unworthy-\"\n\nThe $post's words are for $hisOrHer crew, not you, and the link shudders into static. The last image you see are hands clasped in prayer.",
+    "translated": ""
+  },
+  {
+    "csv_row": 488,
+    "id": "PathFleetWeirdModsUnknownEndTrade",
+    "column": "text",
+    "original": "\"An abomination, a devil-$shipOrFleet from Hell itself is before us! We pray to Providence to pass this test which has been given unto our unworthy-\"\n\nThe $post's words are for $hisOrHer crew, not you, and the link shudders into static. The last image you see are hands clasped in prayer.",
+    "translated": ""
+  },
+  {
+    "csv_row": 489,
+    "id": "PathFleetWeirdMods0",
+    "column": "text",
+    "original": "\"May the Path be r-\" The $post's eyes go suddenly wide at a red flash from a secondary display.\n\nThey return to the comm-link, fixed with fear... and hatred.",
+    "translated": ""
+  },
+  {
+    "csv_row": 489,
+    "id": "PathFleetWeirdMods0",
+    "column": "options",
+    "option_line": "pathFleet_weirdMods1:\"Is there a problem?\"",
+    "original": "Is there a problem?",
+    "translated": ""
+  }
+]

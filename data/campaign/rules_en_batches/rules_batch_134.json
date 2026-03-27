@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 3312,
+    "id": "BFFIpsRuseMeanEopt",
+    "column": "options",
+    "option_line": "bffi_psRuseMeanE:\"Trust that I am mercenary. I'm avoiding a fight to save credits.\"",
+    "original": "Trust that I am mercenary. I'm avoiding a fight to save credits.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3314,
+    "id": "BFFIpsRuseMeanE",
+    "column": "text",
+    "original": "And despite your fearsome reputation, you'll let them in on a little secret: it's cheaper, you explain, to accomplish your mission parameters without a fight. Thus the credits you gain, that Mammonite lucre, is ever greater than before.\n\n\"I knew it,\" $heOrShe smirks righteously. \"It's always credits in the end with your kind, isn't it.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3315,
+    "id": "BFFIpsRuseMeanOutA",
+    "column": "options",
+    "option_line": "bffi_stationTalkOutA:\"My patience with you is spent.\" (cut comms)",
+    "original": "My patience with you is spent.\" (cut comms)",
+    "translated": ""
+  },
+  {
+    "csv_row": 3316,
+    "id": "BFFIpsRuseMeanOutB",
+    "column": "options",
+    "option_line": "bffi_stationTalkOutB:\"I cannot deal with a mad heretic. Pray now for a quick death.\" (cut comms)",
+    "original": "I cannot deal with a mad heretic. Pray now for a quick death.\" (cut comms)",
+    "translated": ""
+  },
+  {
+    "csv_row": 3317,
+    "id": "BFFIpsRuseNiceGo",
+    "column": "text",
+    "original": "Cowed by your promises of mercy, the Pather leader provides you with security codes and your ops team mounts what appears to be a lightning-raid which catches the defenders completely by surprise.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3318,
+    "id": "BFFIpsRuseNiceGoBribe",
+    "column": "text",
+    "original": "Cowed by your promises of mercy - and, perhaps, your credits - the Pather leader provides you with security codes and your ops team mounts what appears to be a lightning-raid which catches the defenders completely by surprise.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3319,
+    "id": "BFFIpsRuseMeanGo",
+    "column": "text",
+    "original": "Cowed by your brutal posturing, the Pather leader provides you with security codes and your ops team mounts what appears to be a lightning-raid which catches the defenders completely by surprise.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3324,
+    "id": "BFFIpatherStationDefeated",
+    "column": "text",
+    "original": "The primary defenses are destroyed, the command and control section holed and venting fiery atmo. The superstructure's own spin is pulling the station apart like slow butchery.\n\nYou destroyed the nanoforge, but did not secure the evidence Bornanew needed to find the mole in the Cathedral of Holy Exodus on Tartessus.\n\n\"It is the best that could be done,\" Bornanew says, eyes downcast. His notebook is closed, before him. \"I must submit myself to the Excubitor Orbis for judgment. On Hesperus.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3327,
+    "id": "BFFIaddStationRaidOption",
+    "column": "options",
+    "option_line": "2:bffi_stationRaidStart:Assemble your officers to plan a raid to capture the nanoforge",
+    "original": "bffi_stationRaidStart:Assemble your officers to plan a raid to capture the nanoforge",
+    "translated": ""
+  },
+  {
+    "csv_row": 3329,
+    "id": "BFFIpatherStationRaidStart",
+    "column": "text",
+    "original": "You convene your officers, and Bornanew, to evaluate the situation.\n\nPather resistance is expected to be fierce; the core of their militants have a zealous faith, little fear of death, and are often experienced fighters. However they eschew top of the line technology and combat enhancement, whether cybernetic or biochemical.\n\nBornanew clears his throat and speaks. \"Certain classes of combat drugs are accepted among Luddic Path militants. They favor, ah, 'natural' sources.\" He takes in the confused looks. \"Plants,\" he adds.\n\nCapturing high-value datastores before they're wiped creates exceptional difficulties. The assault must be lightning-quick, and disabling rather than destructive as much as possible.",
+    "translated": ""
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "csv_row": 8348,
+    "id": "ZGRfirstVisitIntro2",
+    "column": "text",
+    "original": "You step onto a perfectly dry pad. A shimmer as wind drives a burst of rain into the atmo-field betrays the artifice of this pocket of calm.\n\nYou are invited inside by an obsequious corporate usher.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8351,
+    "id": "ZGRfirstVisitIntro4",
+    "column": "text",
+    "original": "\"Of course, $playerSirOrMadam,\" the secretary says with a smile. \"The Director asked that you head right in.\"\n\nThe lighting of the richly furnished entryway - is that a mercury fountain? - warms slightly, inviting you to proceed.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8351,
+    "id": "ZGRfirstVisitIntro4",
+    "column": "options",
+    "option_line": "ZGR_firstVisitIntro5:Enter the office of the Director of Special Acquisitions",
+    "original": "Enter the office of the Director of Special Acquisitions",
+    "translated": ""
+  },
+  {
+    "csv_row": 8352,
+    "id": "ZGRfirstVisitIntro5",
+    "column": "text",
+    "original": "A plane of glass - diamond-matrix, naturally - stretches in both directions to the edge of your peripheral vision, its extent blocked only by a set of cyclopean interior columns. Misty mountains and towering arcologies wreathed in rain clouds hang in the vista beyond.\n\nBefore you, a figure sits - now stands - behind a monolithic desk stark as a planetoid scraped bare by pulsar beam.\n\nThe Director of \"Special Acquisitions\".\n\nA hand raises, open, to invite you to sit. A seat appears.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8353,
+    "id": "ZGRfirstVisitIntro6stand",
+    "column": "text",
+    "original": "Glamor-Rotanev remains standing to match.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8354,
+    "id": "ZGRfirstVisitIntro6",
+    "column": "text",
+    "original": "\"Captain $playerName. I offer vast wealth in exchange for your unique facility in navigating exceptional scenarios.\"\n\nShe blinks once. Her gaze is fixed on you, but you can't help but feel it is slightly vague, apparently attentive but not present in spirit. The look of a cyber-aug.\n\nHer tech must be absolutely top-of-the-line, of course.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8354,
+    "id": "ZGRfirstVisitIntro6",
+    "column": "options",
+    "option_line": "ZGR_firstVisit7c:\"Directly to business, huh? No small-talk?\"",
+    "original": "Directly to business, huh? No small-talk?",
+    "translated": ""
+  },
+  {
+    "csv_row": 8355,
+    "id": "ZGRfirstVisit7a",
+    "column": "text",
+    "original": "\"Fitting to your talents, I think,\" she says. \"Allow me to iterate your accomplishments briefly so that you know where we stand.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8356,
+    "id": "ZGRfirstVisit7b",
+    "column": "text",
+    "original": "\"Risk of annihilation,\" she answers placidly. \"For which you'll be appropriately compensated.\"\n\n\"Allow me to iterate your accomplishments briefly so that you know I do not make my offer without consideration.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8357,
+    "id": "ZGRfirstVisit7c",
+    "column": "text",
+    "original": "\"The demand for my time is great, thus its premium.\"\n\nHer lip quirks; not quite worth a smile.\n\n\"You must appreciate what I've already invested in you. Further to that point: allow me to iterate your accomplishments briefly so that you know where we stand.\"",
+    "translated": ""
+  }
+]

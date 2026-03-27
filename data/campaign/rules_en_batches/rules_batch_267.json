@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 8172,
+    "id": "RHannanMsgFollowupNeverMind",
+    "column": "options",
+    "option_line": "RHannan_msgBack:\"Laissez tomber.\" (back)",
+    "original": "Laissez tomber.\" (back)",
+    "translated": ""
+  },
+  {
+    "csv_row": 8174,
+    "id": "RHannanMsgDoYouEven",
+    "column": "text",
+    "original": "\"Capitaine.\" Reynard vous adresse un regard de pitie.\n\nSon message est clair : vous devriez savoir qu'il ne faut pas demander. Et en demandant, vous avez gaspille son temps et le votre.\n\nMais surtout, le sien.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8177,
+    "id": "RHannanMsgFollowDiscussFuture",
+    "column": "text",
+    "original": "\"Je-\" commence-t-il, avant de reussir tout juste a reprimer un baillement.\n\n\"Vous devez me pardonner, capitaine. Les sessions du Conseil de la Ligue peuvent s'eterniser.\" Il se reinstalle, rajustant son pardessus dans un desordre nonchalamment parfait.\n\n\"Pardonnez mon oubli, aviez-vous une affaire pressante a discuter ?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8179,
+    "id": "RHannanMsgFollowHorusYaribay",
+    "column": "text",
+    "original": "\"Allez-vous me dire que Horus Yaribay tente de conspirer avec le Haut Hegemon Baikal Daud ?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8180,
+    "id": "RHannanMsgFollowHorusYaribayA",
+    "column": "text",
+    "original": "\"Je suis touche par votre sollicitude, capitaine,\" dit Reynard avec une chaleur trop bien rodee. \"Mais croyez bien que je maitrise les intrigues de mon cher ami Horus.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8189,
+    "id": "sunOfficeTalk",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 8190,
+    "id": "sunOfficeHuman",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 8196,
+    "id": "RayanArroyoAskAboutZGRoptB",
+    "column": "options",
+    "option_line": "arroyo_askAboutZGR:\"Have you had any dealing with Zunya Glamor-Rotanev?\"",
+    "original": "Have you had any dealing with Zunya Glamor-Rotanev?",
+    "translated": ""
+  },
+  {
+    "csv_row": 8197,
+    "id": "RayanArroyoAskAboutZGRopt",
+    "column": "options",
+    "option_line": "arroyo_askAboutZGR:\"Have you had any dealing with Zunya Glamor-Rotanev?\"",
+    "original": "Have you had any dealing with Zunya Glamor-Rotanev?",
+    "translated": ""
+  },
+  {
+    "csv_row": 8198,
+    "id": "RayanArroyoAskAboutZGR1",
+    "column": "text",
+    "original": "\"The Director of Special Acquisitions.\"\n\nHis eyes narrow.\n\n\"What'd you get into? You didn't agree to anything she offered, did you?\"",
+    "translated": ""
+  }
+]

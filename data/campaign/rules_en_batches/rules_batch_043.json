@@ -1,0 +1,80 @@
+[
+  {
+    "csv_row": 1869,
+    "id": "lkeChalcedonBarSedgeOptA2",
+    "column": "options",
+    "option_line": "lke_sedgeShowPic:Montrer une photo de Jethro Bornanew, \"Vous le reconnaissez ?\"",
+    "original": "Montrer une photo de Jethro Bornanew, \"Vous le reconnaissez ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 1875,
+    "id": "lkeChalcedonSedgeOptMurder",
+    "column": "options",
+    "option_line": "lke_askSedgeMurder:\"Comment pouvez-vous tuer un homme de sang-froid et vous croire vertueux ?\"",
+    "original": "Comment pouvez-vous tuer un homme de sang-froid et vous croire vertueux ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 1882,
+    "id": "lkeSedgeFaithA",
+    "column": "text",
+    "original": "\"C'est une bonne chose que vous ne soyez pas Dieu,\" Sedge esquisse un nouveau sourire, \"Parce que sinon, j'aurais de gros ennuis.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 1900,
+    "id": "lkeChalcedonBarSedgeCheersB",
+    "column": "text",
+    "original": "\"Dieu me pardonnera,\" dit-il en agitant la tasse.",
+    "translated": ""
+  },
+  {
+    "csv_row": 1904,
+    "id": "LKEchalcedonSedgeKillRespsB",
+    "column": "options",
+    "option_line": "lke_chalcedonSedgeKillOptB:\"Je pourrais vous tuer.\"",
+    "original": "Je pourrais vous tuer.",
+    "translated": ""
+  },
+  {
+    "csv_row": 1905,
+    "id": "LKEchalcedonSedgeKillRespsC",
+    "column": "options",
+    "option_line": "lke_chalcedonSedgeKillOptC:\"Je pourrais vous faire tuer.\"",
+    "original": "Je pourrais vous faire tuer.",
+    "translated": ""
+  },
+  {
+    "csv_row": 1920,
+    "id": "lkeSedgeEndShootNo",
+    "column": "options",
+    "option_line": "lke_sedgeEnd2:Observer him leave",
+    "original": "Observer him leave",
+    "translated": ""
+  },
+  {
+    "csv_row": 1921,
+    "id": "lkeSedgeEndShootA",
+    "column": "options",
+    "option_line": "lke_sedgeEndBarShoot:Lui tirer dessus in the back",
+    "original": "Lui tirer dessus in the back",
+    "translated": ""
+  },
+  {
+    "csv_row": 1922,
+    "id": "lkeSedgeEndShootB1",
+    "column": "options",
+    "option_line": "lke_sedgeEndShoot:Saisir votre arme de poing et tirer dans le dos de Sedge",
+    "original": "Saisir votre arme de poing et tirer dans le dos de Sedge",
+    "translated": ""
+  },
+  {
+    "csv_row": 1923,
+    "id": "lkeSedgeEndShootB2",
+    "column": "options",
+    "option_line": "lke_sedgeEndShoot:Tirer dans le dos de Sedge",
+    "original": "Tirer dans le dos de Sedge",
+    "translated": ""
+  }
+]

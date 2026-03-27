@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 3551,
+    "id": "BFFIoutro1b",
+    "column": "text",
+    "original": "\"No,\" says Oak. \"The novice still wears a crown of pride. He has much to repent.\"\n\nBornanew turns aside and says quietly to you, \"I shall be staying here a while, I think.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3552,
+    "id": "BFFIoutro1bBB",
+    "column": "text",
+    "original": "\"No,\" says Oak. \"The novice still wears a crown of pride. He has much to repent.\"\n\nBornanew does not turn aside from Gideon Oak, matching his remorseless look with his own. \"The Excubitor Orbis believes there is much sin for which I must pay. I shall be staying here, as it pleases him.\"\n\nOak, for his part, looks very much less than pleased at Bornanew's commentary. His clerk looks mortified.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3553,
+    "id": "BFFIoutro1c",
+    "column": "text",
+    "original": "\"Yes,\" says Bornanew, still caught in a staring-contest with Oak. \"You are. I shall be staying here a while, I think.\"\n\nThe world's smallest smile makes a new crease on the Excubitor Orbis' face as he turns to you.\n\n\"Novice Bornanew owes you much. But still he wears a crown of pride. Still he must repent.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3554,
+    "id": "BFFIoutro2",
+    "column": "text",
+    "original": "\"But I have a feeling that our paths shall cross again,\" $global.jethroName says, pulling his simple bundle of possessions onto his shoulder.\n\nBornanew follows his fellow Knights to the doorway casting its long wedge of light into the armored hangar.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3554,
+    "id": "BFFIoutro2",
+    "column": "options",
+    "option_line": "bffi_outro3:Tourner les talons",
+    "original": "Tourner les talons",
+    "translated": ""
+  },
+  {
+    "csv_row": 3555,
+    "id": "BFFIoutro2BB",
+    "column": "text",
+    "original": "\"Our paths shall cross again,\" $global.jethroName says, eyes in shadow. He pulls his simple bundle of possessions onto his shoulder. \"Hammer in one hand, sword in the other.\"\n\nOak, ever displeased, turns his back without further comment and begins marching to the far end of the hangar. After a moment, the other Knights, and Bornanew, follow.\n\nThey shrink to silhouettes in the long wedge of light cast into the armored hangar, then disappear.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3555,
+    "id": "BFFIoutro2BB",
+    "column": "options",
+    "option_line": "bffi_outro3:Tourner les talons",
+    "original": "Tourner les talons",
+    "translated": ""
+  },
+  {
+    "csv_row": 3556,
+    "id": "BFFIoutro2injured",
+    "column": "text",
+    "original": "\"But I have a feeling that our paths shall cross again,\" $global.jethroName says, pulling his simple bundle of possessions onto his shoulder.\n\nBornanew, limping slightly, follows his fellow Knights to the doorway casting its long wedge of light into the armored hangar.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3556,
+    "id": "BFFIoutro2injured",
+    "column": "options",
+    "option_line": "bffi_outro3:Tourner les talons",
+    "original": "Tourner les talons",
+    "translated": ""
+  },
+  {
+    "csv_row": 3557,
+    "id": "BFFIoutro2injuredBB",
+    "column": "text",
+    "original": "\"Our paths shall cross again,\" $global.jethroName says, eyes in shadow. He pulls his simple bundle of possessions onto his shoulder. \"Hammer in one hand, sword in the other.\"\n\nOak, ever displeased, turns his back without further comment and begins marching to the far end of the hangar. After a moment, the other Knights, and Bornanew - limping slightly - follow.\n\nThey shrink to silhouettes in the long wedge of light cast into the armored hangar, then disappear.",
+    "translated": ""
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 3122,
+    "id": "BFFIulmusSedge4",
+    "column": "options",
+    "option_line": "bffi_ulmusTalkSedge5:Draw your weapon and stop Sedge ",
+    "original": "Draw your weapon and stop Sedge",
+    "translated": ""
+  },
+  {
+    "csv_row": 3128,
+    "id": "BFFIulmusSedge5",
+    "column": "text",
+    "original": "In one smooth motion you draw your sidearm and place a shot in Sedge's head.\n\nWith a sigh, his body slides back against the wall, his eyes blank, his expression caught in a look of dumb surprise.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3128,
+    "id": "BFFIulmusSedge5",
+    "column": "options",
+    "option_line": "bffi_ulmusSedge6:Aller voir Bornanew",
+    "original": "Aller voir Bornanew",
+    "translated": ""
+  },
+  {
+    "csv_row": 3129,
+    "id": "BFFIulmusSedge5grenade",
+    "column": "text",
+    "original": "In one smooth motion you draw a grenade, sliding a finger along just-so to set yield to minimum, and gently toss it toward Sedge's head. You see the beginning of a confused start on his face before the flash, and a loud clap uncomfortable almost to the point of pain.\n\nSedge slides back against the wall, his face caught in the eternal surprise of death. Blood begins to trickle from his nose, his eyes, his ears, his mouth. The skin of his face blooms red. It will look like a bloated purple mass in only minutes.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3129,
+    "id": "BFFIulmusSedge5grenade",
+    "column": "options",
+    "option_line": "bffi_ulmusSedge6:Aller voir Bornanew",
+    "original": "Aller voir Bornanew",
+    "translated": ""
+  },
+  {
+    "csv_row": 3130,
+    "id": "BFFIulmusSedge5knife",
+    "column": "text",
+    "original": "In one smooth motion you draw and activate your ceramic vibroknife, sweeping it in an arc which intersects Sedge's throat. There is no resistance.\n\nWith a wet sigh, his body slides back against the wall, his face down, his eyes staring blankly up at you, his expression caught in a look of dumb surprise.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3130,
+    "id": "BFFIulmusSedge5knife",
+    "column": "options",
+    "option_line": "bffi_ulmusSedge6:Aller voir Bornanew",
+    "original": "Aller voir Bornanew",
+    "translated": ""
+  },
+  {
+    "csv_row": 3131,
+    "id": "BFFIulmusSedge5spray",
+    "column": "text",
+    "original": "In one smooth motion you raise your hand and activate the poison spray, angling upward and away from the bleeding body of Bornanew. A misting of the air disappears in a blink as if it were never there.\n\nWith a wet cough and a whining, choking sound, Sedge's body slides back against the wall. His eyes blink once at you, expression caught in a look of dumb surprise.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3131,
+    "id": "BFFIulmusSedge5spray",
+    "column": "options",
+    "option_line": "bffi_ulmusSedge6:Aller voir Bornanew",
+    "original": "Aller voir Bornanew",
+    "translated": ""
+  },
+  {
+    "csv_row": 3132,
+    "id": "BFFIulmusSedge5wire",
+    "column": "text",
+    "original": "In one smooth motion you draw the false fingertip of the monomolecular wire and throw it in an arc which intersects Sedge's neck. There is no resistance.\n\nWith a wet sigh, his body slides back against the wall, his head askew. His eyes blink once at you, expression caught in a look of dumb surprise.",
+    "translated": ""
+  }
+]

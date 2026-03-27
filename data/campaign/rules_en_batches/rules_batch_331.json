@@ -1,0 +1,81 @@
+[
+  {
+    "csv_row": 9763,
+    "id": "ttcrBH_butSelPhase",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9766,
+    "id": "ttcrBH_butSelDerelict2",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9781,
+    "id": "ttMakeDealOptSelContact",
+    "column": "options",
+    "option_line": "ttMakeDeal2:Examiner la proposition",
+    "original": "Examiner la proposition",
+    "translated": ""
+  },
+  {
+    "csv_row": 9782,
+    "id": "ttMakeDealOptSelContactLowTrust",
+    "column": "options",
+    "option_line": "ttMakeDeal2:Examiner la proposition",
+    "original": "Examiner la proposition",
+    "translated": ""
+  },
+  {
+    "csv_row": 9784,
+    "id": "ttMakeDealOptSelContactConfirm",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9788,
+    "id": "ttMakeDealOptSelContactArroyoConfirm",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9791,
+    "id": "ttVIPCounterRaidingSel0",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9817,
+    "id": "ttArroyoProblems5killing",
+    "column": "text",
+    "original": "\"Desespere,\" dit-il, exaspere. \"Vous avez ecoute un seul mot de ce que j'ai dit ? J'arrive pas a croire que j'ai appele ca 'amusant'.\"\n\n\"J'aurais du vous facturer les honoraires de conseil executif,\" marmonne-t-il.",
+    "translated": ""
+  },
+  {
+    "csv_row": 9822,
+    "id": "lcSacredProtectorsCommsWeaker",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9835,
+    "id": "LCP_butHaveCom2",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  }
+]

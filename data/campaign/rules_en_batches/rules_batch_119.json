@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 3150,
+    "id": "BFFIpondNoSedgeOutro2menesFool",
+    "column": "text",
+    "original": "Pond looks stricken, but he nods. \"Yes, I... I'll do that. Menes. He is a kind man.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3150,
+    "id": "BFFIpondNoSedgeOutro2menesFool",
+    "column": "options",
+    "option_line": "bffi_ulmusTalkNoSedgeOut2menes:\"Get out of here. And if you don't tell Menes, I will.\"",
+    "original": "Get out of here. And if you don't tell Menes, I will.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3151,
+    "id": "BFFIpondNoSedgeOutro2menesKind",
+    "column": "text",
+    "original": "Pond looks stricken, but he nods. \"Yes, I... I'll do that. Menes will understand why I had to do... what I had to do.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3151,
+    "id": "BFFIpondNoSedgeOutro2menesKind",
+    "column": "options",
+    "option_line": "bffi_ulmusTalkNoSedgeOut2menes:\"Get out of here. And if you don't tell Menes, I will.\"",
+    "original": "Get out of here. And if you don't tell Menes, I will.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3152,
+    "id": "BFFIpondNoSedgeOutro2menesFoolB",
+    "column": "text",
+    "original": "Pond looks stricken, but he nods. \"Yes.\" Another cough. \"Menes, kind.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3152,
+    "id": "BFFIpondNoSedgeOutro2menesFoolB",
+    "column": "options",
+    "option_line": "bffi_ulmusTalkNoSedgeOut2menes:\"Get out of here. And if you don't tell Menes, I will.\"",
+    "original": "Get out of here. And if you don't tell Menes, I will.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3153,
+    "id": "BFFIpondNoSedgeOutro2menesKindB",
+    "column": "text",
+    "original": "Pond looks stricken, but he nods. \"Yes. Menes.\" Another cough. \"Will understand.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3153,
+    "id": "BFFIpondNoSedgeOutro2menesKindB",
+    "column": "options",
+    "option_line": "bffi_ulmusTalkNoSedgeOut2menes:\"Get out of here. And if you don't tell Menes, I will.\"",
+    "original": "Get out of here. And if you don't tell Menes, I will.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3156,
+    "id": "BFFIpondNoSedgeOutro2dealA",
+    "column": "text",
+    "original": "Bornanew looks at you, then to Pond. His expression softens, just a little.\n\n\"Captain,\" he says. \"They will kill him for his failure. And not well. Let me turn him over to the Knights. They will offer him a path to redemption, harsh though it may be.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3156,
+    "id": "BFFIpondNoSedgeOutro2dealA",
+    "column": "options",
+    "option_line": "bffi_pondNoSedgeOutro2knights:\"As you like, $global.jethroName. Pond is your responsibility.\"",
+    "original": "As you like, $global.jethroName. Pond is your responsibility.",
+    "translated": ""
+  }
+]

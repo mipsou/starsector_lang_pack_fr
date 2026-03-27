@@ -1,0 +1,81 @@
+[
+  {
+    "csv_row": 6184,
+    "id": "gaProbeMissionReturnHazard",
+    "column": "options",
+    "option_line": "gaProbe_returnHazard:Expliquer calmement le concept de prime de risque",
+    "original": "Expliquer calmement le concept de prime de risque",
+    "translated": ""
+  },
+  {
+    "csv_row": 6184,
+    "id": "gaProbeMissionReturnHazard",
+    "column": "options",
+    "option_line": "gaProbe_itsNothing:\"Ce n'est rien. Vous disiez ?\"",
+    "original": "Ce n'est rien. Vous disiez ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 6196,
+    "id": "gaProbeOfferAid",
+    "column": "options",
+    "option_line": "gaProbe_giveAid:Leur donner les provisions et le carburant",
+    "original": "Leur donner les provisions et le carburant",
+    "translated": ""
+  },
+  {
+    "csv_row": 6196,
+    "id": "gaProbeOfferAid",
+    "column": "options",
+    "option_line": "gaProbe_denyAid:Leur refuser toute aide",
+    "original": "Leur refuser toute aide",
+    "translated": ""
+  },
+  {
+    "csv_row": 6217,
+    "id": "gaVIPBlurbOfferOption",
+    "column": "options",
+    "option_line": "gaVIP_start:Questionner sur le transport VIP",
+    "original": "Questionner sur le transport VIP",
+    "translated": ""
+  },
+  {
+    "csv_row": 6218,
+    "id": "gaVIPBlurbMissionTextBasic",
+    "column": "options",
+    "option_line": "gaVIP_threats:\"Des menaces ?\"",
+    "original": "Des menaces ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 6220,
+    "id": "gaVIPBlurbMissionTextKanta",
+    "column": "options",
+    "option_line": "gaVIP_briefingCont:Sans commentaire, le laisser finir",
+    "original": "Sans commentaire, le laisser finir",
+    "translated": ""
+  },
+  {
+    "csv_row": 6226,
+    "id": "gaVIP_completedButNoDocking",
+    "column": "text",
+    "original": "Vous ne pouvez pas effectuer la livraison VIP pour le moment.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6250,
+    "id": "gaVIPMercOption1",
+    "column": "options",
+    "option_line": "0:gaVIP_mercWhatCrime:\"Quel crime ont-ils commis ?\"",
+    "original": "gaVIP_mercWhatCrime:\"Quel crime ont-ils commis ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 6252,
+    "id": "gaVIPMercOption3",
+    "column": "options",
+    "option_line": "2:gaVIP_mercOrElse:\"Sinon quoi ?\"",
+    "original": "gaVIP_mercOrElse:\"Sinon quoi ?",
+    "translated": ""
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "csv_row": 88,
+    "id": "shroudedSubstrateOptE",
+    "column": "options",
+    "option_line": "shroudedSubstrate_optSelE:\"Can it be weaponized?\"",
+    "original": "Can it be weaponized?",
+    "translated": ""
+  },
+  {
+    "csv_row": 89,
+    "id": "shroudedSubstrateOptF",
+    "column": "options",
+    "option_line": "shroudedSubstrate_optSelF:\"Show me what you can do.\"",
+    "original": "Show me what you can do.",
+    "translated": ""
+  },
+  {
+    "csv_row": 90,
+    "id": "shroudedSubstrateOptSelA",
+    "column": "text",
+    "original": "Your engineering chief makes a show of looking to Tech expectantly, mouth quite intentionally shut. It appears they've had this argument already.\n\n\"As, um.\" Tech passes a look of consternation back toward your chief engineer.\n\n\"In truth, I could not say, exactly. And unfortunately we're not equipped to perform a full scientific investigation. Clearly it is a part of, or a product of the, the... hostile force which we bested. But to know what it IS... you'd need a full science team and laboratory facilities to even begin to approach the right questions, to say nothing of answers...\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 90,
+    "id": "shroudedSubstrateOptSelA",
+    "column": "options",
+    "option_line": "shroudedSubstrate_optSelAga:\"Like the Galatia Academy.\"",
+    "original": "Like the Galatia Academy.",
+    "translated": ""
+  },
+  {
+    "csv_row": 92,
+    "id": "shroudedSubstrateOptSelAga2",
+    "column": "options",
+    "option_line": "shroudedSubstrate_optSelAtt:\"Tri-Tachyon alors.\"",
+    "original": "Tri-Tachyon alors.",
+    "translated": ""
+  },
+  {
+    "csv_row": 94,
+    "id": "shroudedSubstrateOptSelAtt",
+    "column": "options",
+    "option_line": "shroudedSubstrate_optSelAttA:\"Que disent-ils exactement ?\"",
+    "original": "Que disent-ils exactement ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 94,
+    "id": "shroudedSubstrateOptSelAtt",
+    "column": "options",
+    "option_line": "shroudedSubstrate_optSelAttB:\"Who is this 'they'?\"",
+    "original": "Who is this 'they'?",
+    "translated": ""
+  },
+  {
+    "csv_row": 95,
+    "id": "shroudedSubstrateOptSelAttA",
+    "column": "text",
+    "original": "\"The Company pays very well indeed for unique specimens,\" Tech explains. \"Artifacts; Domain tech, xenobiology. Anything unknown to the present Persean Sector, anything strange which might demonstrate uncommon principles or serve an unexpected use.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 96,
+    "id": "shroudedSubstrateOptSelAttB",
+    "column": "text",
+    "original": "\"Independent salvors, scavengers, fringe surveyors,\" Tech explains.\n\n\"Those sorts of people who might find artifacts, specimens; Domain tech, xenobiology. Anything unknown to the present Persean Sector, anything strange which might demonstrate uncommon principles or serve unexpected use. Tri-Tachyon makes it known that great rewards will be paid if they are brought 'examples of special interest'.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 97,
+    "id": "shroudedSubstrateOptSelB",
+    "column": "text",
+    "original": "\"Extremely,\" Tech answers, exchanging a look with your chief engineer. \"If the energy output ratio scales as projected...\"\n\n\"It's dangerous,\" Engineering says. \"It's almost too easy to build a weapon with this 'substrate'. Imagine if the Pathers-\"\n\n\"-Yes, yes, another Mairaath,\" Tech interrupts. \"As with any applied technology, sufficiently powerful, it could... $playerSirOrMadam. To answer your query, yes, extremely valuable.\"",
+    "translated": ""
+  }
+]

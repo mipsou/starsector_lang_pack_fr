@@ -1,0 +1,79 @@
+[
+  {
+    "csv_row": 3654,
+    "id": "CMSNTextWelcomePart1_persean",
+    "column": "text",
+    "original": "\"Excellent ! Au nom des mondes libres du Secteur, je vous souhaite la bienvenue dans la Ligue Persane.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3686,
+    "id": "aiCores_neverMindOption",
+    "column": "options",
+    "option_line": "100:aiCores_neverMind:\"Laissez tomber, je n'en ai pas en fait.\"",
+    "original": "aiCores_neverMind:\"Laissez tomber, je n'en ai pas en fait.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3714,
+    "id": "dstr_rejectCrewSel",
+    "column": "text",
+    "original": "\"Une chance de nous vendre ce carburant, alors ?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3717,
+    "id": "dstr_denyTurnHostileSel",
+    "column": "options",
+    "option_line": "dstrScared:\"D'accord, d'accord ! Prenez le carburant.\"",
+    "original": "D'accord, d'accord ! Prenez le carburant.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3728,
+    "id": "dcall_neverMindSel",
+    "column": "text",
+    "original": "\"Vraiment ? Eh bien, je suppose que nous allons rester dans le coin un moment et attendre celui qui l'a fait.\"\n\nVous avez le sentiment qu'$heOrShe a quelques doutes sur ce que vous avez dit.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3737,
+    "id": "dcall_paymentOptions",
+    "column": "options",
+    "option_line": "0:dcallPay:Proposer de payer [$distressPaymentC]",
+    "original": "dcallPay:Proposer de payer [$distressPaymentC]",
+    "translated": ""
+  },
+  {
+    "csv_row": 3737,
+    "id": "dcall_paymentOptions",
+    "column": "options",
+    "option_line": "1:dcallThank:Remercier $himOrHer chaleureusement, mais ne proposer aucun paiement",
+    "original": "dcallThank:Remercier $himOrHer chaleureusement, mais ne proposer aucun paiement",
+    "translated": ""
+  },
+  {
+    "csv_row": 3749,
+    "id": "tut_mainGetDataInfo2",
+    "column": "options",
+    "option_line": "0:tutCont2a:\"Pourquoi moi ?\"",
+    "original": "tutCont2a:\"Pourquoi moi ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 3750,
+    "id": "tut_mainGetDataWhyMe",
+    "column": "options",
+    "option_line": "2:tutContGoDark:\"Quel est le plan ?\"",
+    "original": "tutContGoDark:\"Quel est le plan ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 3751,
+    "id": "tut_mainGetDataWhatsInIt",
+    "column": "options",
+    "option_line": "2:tutContGoDark:\"Quel est le plan ?\"",
+    "original": "tutContGoDark:\"Quel est le plan ?",
+    "translated": ""
+  }
+]

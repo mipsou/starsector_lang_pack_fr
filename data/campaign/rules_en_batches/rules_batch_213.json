@@ -1,0 +1,79 @@
+[
+  {
+    "csv_row": 5985,
+    "id": "asebDefaultGreeting",
+    "column": "text",
+    "original": "\"Bon retour capitaine, content de vous voir !\" dit Sebestyen joyeusement.",
+    "translated": ""
+  },
+  {
+    "csv_row": 5992,
+    "id": "asebAddMhubCloseOption",
+    "column": "options",
+    "option_line": "1000:mh_close:\"Pas maintenant.\"",
+    "original": "mh_close:\"Pas maintenant.",
+    "translated": ""
+  },
+  {
+    "csv_row": 5995,
+    "id": "asebMissionAcceptGeneric",
+    "column": "text",
+    "original": "\"Parfait ! Y a-t-il autre chose que je puisse faire pour vous aujourd'hui ?\"\nOR\n\"Merveilleux ! Je vais transmettre les informations pertinentes.\"\nOR\n\"Ravi de l'entendre. Je m'assurerai que vous ayez tout ce qu'il vous faut.\"\nOR\n\"C'est toujours un plaisir de travailler avec vous, capitaine.\"\nOR\n\"Content de l'entendre ! Avez-vous besoin d'autre chose ?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 5998,
+    "id": "asebScholarshipHeardAbout",
+    "column": "options",
+    "option_line": "10:aseb_scholarShipPitch:\"Could you help me set up a scholarship trust for promising students?\"",
+    "original": "aseb_scholarShipPitch:\"Could you help me set up a scholarship trust for promising students?",
+    "translated": ""
+  },
+  {
+    "csv_row": 5999,
+    "id": "asebScholarshipNotHeardYet",
+    "column": "options",
+    "option_line": "10:aseb_scholarShipPitch:\"Baird told me to talk to you about setting up a scholarship...\"",
+    "original": "aseb_scholarShipPitch:\"Baird told me to talk to you about setting up a scholarship...",
+    "translated": ""
+  },
+  {
+    "csv_row": 6001,
+    "id": "asebScholarshipPitch",
+    "column": "text",
+    "original": "\"What a wonderful idea, captain!\" Sebestyen starts tapping away at his terminal, pulling up forms.\n\n\"I feel, um, personally,\" he says, \"that giving a chance to the brilliant up-and-coming minds of the next generation is perhaps the noblest thing someone of means can do to contribute to, to you know. Our future?\"\n\nHe clears his throat.\n\n\"So, it's only really worth doing if we can put at least 100,000 credits into a trust...\" He watches through the link to see how you react.\n\nYou have $player.credits credits available.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6001,
+    "id": "asebScholarshipPitch",
+    "column": "options",
+    "option_line": "aseb_scholarship100k:\"I'll give 100,000 credits. For our future.\"",
+    "original": "I'll give 100,000 credits. For our future.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6001,
+    "id": "asebScholarshipPitch",
+    "column": "options",
+    "option_line": "aseb_scholarship200k:\"Double it, 200,000 credits.\"",
+    "original": "Double it, 200,000 credits.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6001,
+    "id": "asebScholarshipPitch",
+    "column": "options",
+    "option_line": "aseb_scholarship500k:\"Can you do 500,000 credits?\"",
+    "original": "Can you do 500,000 credits?",
+    "translated": ""
+  },
+  {
+    "csv_row": 6001,
+    "id": "asebScholarshipPitch",
+    "column": "options",
+    "option_line": "aseb_scholarshipBack:\"Ah, interesting. Perhaps another time?\"",
+    "original": "Ah, interesting. Perhaps another time?",
+    "translated": ""
+  }
+]

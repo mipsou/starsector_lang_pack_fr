@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 2735,
+    "id": "BFFItalkHorusPartyOptBsel",
+    "column": "text",
+    "original": "Horus takes this in, looking into the middle distance, processing for a moment. He takes a slow breath.\n\n\"You are certain? Do the Luddics know about it?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2735,
+    "id": "BFFItalkHorusPartyOptBsel",
+    "column": "options",
+    "option_line": "bffi_talkHorusPartyTheyKnow:\"Oh, they know. They hired me to... handle it.\"",
+    "original": "Oh, they know. They hired me to... handle it.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2736,
+    "id": "BFFItalkHorusPartyOptCsel",
+    "column": "text",
+    "original": "\"He is family.\" Horus gives you a flinty look. \"State your meaning.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2737,
+    "id": "BFFItalkHorusPartyTheyKnow",
+    "column": "text",
+    "original": "He closes his eyes and rubs his temples. After a moment, a mutter emerges, \"Good grief.\"\n\nHe takes several more long breaths.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2737,
+    "id": "BFFItalkHorusPartyTheyKnow",
+    "column": "options",
+    "option_line": "bffi_talkHorusPartyInvite:\"Menes invited me to some kind of party to view this relic.\"",
+    "original": "Menes invited me to some kind of party to view this relic.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2738,
+    "id": "BFFItalkHorusPartyInvite",
+    "column": "text",
+    "original": "\"He did,\" Horus stares at you.\n\n\"It appears as though I am going to have to become involved,\" he says. \"Personally.\"\n\n\"Again.\" His jaw is clenched. It looks uncomfortable.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2738,
+    "id": "BFFItalkHorusPartyInvite",
+    "column": "options",
+    "option_line": "bffi_talkHorusPartyEnd:Ne rien dire.",
+    "original": "Ne rien dire.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2738,
+    "id": "BFFItalkHorusPartyInvite",
+    "column": "options",
+    "option_line": "bffi_talkHorusPartyEndB:\"You need to keep better track of your cousin's schemes, huh.\"",
+    "original": "You need to keep better track of your cousin's schemes, huh.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2739,
+    "id": "BFFItalkHorusPartyEndA",
+    "column": "text",
+    "original": "\"The past matters of my gens do not oblige discussion with outsiders, $playerSirOrMadam,\" he says stiffly.\n\n\"However. I do appreciate your... consideration in bringing the current matter to my attention.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2740,
+    "id": "BFFItalkHorusPartyEndB",
+    "column": "text",
+    "original": "\"Thank-you captain, that is fabulous advice,\" Horus says in a tone demonstrating very little appreciation for your input.",
+    "translated": ""
+  }
+]

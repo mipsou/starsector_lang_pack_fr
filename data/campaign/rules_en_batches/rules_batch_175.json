@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 4419,
+    "id": "gaFCfikenhildBotherVIPoptPLcom",
+    "column": "text",
+    "original": "$HeOrShe blinks. \"Captain.\"\n\nYou hear the tap of keys and a quick glance aside.\n\n\"Yes, I confirm that.\" $HeOrShe produces a brief, unenthusiastic smile.\n\n\"However I am forbidden to provide you with information on a League citizen on a League world without proper authorization, due cause, or an order from the King or the Prime Demarchon.\" $HeOrShe spreads $hisOrHer hands. \"I want to help you, but procedure must be followed.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 4421,
+    "id": "gaFCFikenhildBotherPM2",
+    "column": "text",
+    "original": "\"Is that a ship?\" $HeOrShe looks aside and taps at a control surface. \"I don't see an registration for a 'Scylla Coureuse', though sometimes the interfactional databases take some time to update...\"\n\nMore tapping.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4421,
+    "id": "gaFCFikenhildBotherPM2",
+    "column": "options",
+    "option_line": "gaFC_fikenhildBotherPM3:\"Coureuse is a person. An academician of the Galatia Academy. Or she was.\"",
+    "original": "Coureuse is a person. An academician of the Galatia Academy. Or she was.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4422,
+    "id": "gaFCFikenhildBotherPM3",
+    "column": "text",
+    "original": "\"Oh.\" $HeOrShe turns back to face you.\n\n\"$SirOrMadam, I'm a portmaster. That's a bit out of my purview unless you bear a warrant from munisec. Or maybe the King. But it doesn't matter because I've never heard of... what'd you say the name was? Core something?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 4422,
+    "id": "gaFCFikenhildBotherPM3",
+    "column": "options",
+    "option_line": "gaFC_fikenhildBotherPM4a:\"Coureuse. But never mind, thank you.\"",
+    "original": "Coureuse. But never mind, thank you.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4422,
+    "id": "gaFCFikenhildBotherPM3",
+    "column": "options",
+    "option_line": "gaFC_fikenhildBotherPM4b:\"Never mind.\"",
+    "original": "Never mind.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4423,
+    "id": "gaFCFikenhildBotherPM4a",
+    "column": "text",
+    "original": "\"Glad I could help,\" $heOrShe says without a trace of sarcasm.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4426,
+    "id": "gaFCFikenhildBotherQM2",
+    "column": "text",
+    "original": "$HeOrShe blinks, then turns back to reading something.\n\nAfter a moment $heOrShe glances at you.\n\n\"Did you have a question?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 4426,
+    "id": "gaFCFikenhildBotherQM2",
+    "column": "options",
+    "option_line": "gaFC_fikenhildBotherQM3:\"... Have you seen the name Coureuse? Or heard of her?\"",
+    "original": "... Have you seen the name Coureuse? Or heard of her?",
+    "translated": ""
+  },
+  {
+    "csv_row": 4427,
+    "id": "gaFCFikenhildBotherQM3",
+    "column": "text",
+    "original": "\"Much better.\" $HeOrShe puts down a TriPad and gives you $hisOrHer full attention. \"If you want to ask a question, ask the question. Don't make me feel like I'm doing you a favor, stars above.\"\n\nA pause.\n\n\"No. And No.\"",
+    "translated": ""
+  }
+]

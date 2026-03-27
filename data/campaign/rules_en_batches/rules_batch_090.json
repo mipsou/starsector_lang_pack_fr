@@ -1,0 +1,73 @@
+[
+  {
+    "csv_row": 2888,
+    "id": "BFFIapHorus6",
+    "column": "text",
+    "original": "The space is at once cavernous and intimate; the sightlines and carved, wrought, or woven details calculated to replicate a feeling of cozy warmth like the den of some thoughtful patron of art, history, and literature.\n\nA double handful of well-dressed remoras mill about, interrupting their conversations to turn as Menes enters. They look to be a collection of industrialists, financiers, distant gens-relatives, and at least one officer from atop the local military detachment who appears a little worse for his drink.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2889,
+    "id": "BFFIapHorus7",
+    "column": "text",
+    "original": "Most start to give a politic nod and wave of acknowledgement at Menes' entrance, but stop and stare as they recognize Horus at his side. Few eyes linger on you and Bornanew, who steps apart as though he were a mere assistant or servitor.\n\nOne skinny man in a finely embroidered suit is not put off by Horus' entrance, and rushes to greet your party, eyes agog mostly at the gens patriarch, but sparing a glance at least for the newest additions to Menes' collection.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2890,
+    "id": "BFFIapHorus8",
+    "column": "text",
+    "original": "He nearly trips over himself to speak. \"The great Horus Yaribay! Your reputation precedes you, if half of what-\"\n\nHorus holds up a hand, silencing the man, and turns aside. \"Menes, what is this?\"\n\n\"Ha- ha, ah, this is Ulmus Pond,\" Menes replies quickly, his drinkless off-hand waving to shoo Pond away. \"Ulmus, not now. Perhaps see that Captain $playerLastName's Luddic friend here has a fresh drink? Thank-you.\"\n\n\"Now, cousin Horus, I must offer a thousand apologies.\" Menes himself turns, also cutting Pond out of the conversation. \"Had you signalled ahead we could have arranged for a proper reception...\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2890,
+    "id": "BFFIapHorus8",
+    "column": "options",
+    "option_line": "bffi_apHorus9:Watch the fallout",
+    "original": "Watch the fallout",
+    "translated": ""
+  },
+  {
+    "csv_row": 2891,
+    "id": "BFFIapHorus9",
+    "column": "text",
+    "original": "\"Never mind that,\" Horus says, looking around with a displeased curl to his lip. His gaze slips over Pond like he's nothing.\n\nUlmus Pond, for his part, hides the evil look that crossed his face in that moment to slink after Bornanew.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2892,
+    "id": "BFFIapHorus9b",
+    "column": "text",
+    "original": "Horus snaps his fingers, summoning a tray, and selects something effervescent. He takes a slow sip, not allowing his expression to display any sort of pleasure in the act. It seems to him more like a necessary palate-cleanser.\n\n\"Show it to me,\" he says to Menes. An order.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2893,
+    "id": "BFFIapHorus10",
+    "column": "text",
+    "original": "\"Captain $playerLastName shall attend,\" Horus adds quietly. \"So that we might fully resolve this matter.\"\n\n\"Of course, cousin, of course!\" Menes, sweating, puts on a fragile grin in order to distribute reassuring nods to his extended entourage.\n\nMenes leads you and Horus into his inner sanctum, flashing a grimace as he operates a series of obtrusive and, to your eyes, largely ornamental biometric checks.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2894,
+    "id": "BFFIapHorus11",
+    "column": "text",
+    "original": "The air cools by a degree, perhaps two, the armored mass of the walls felt as a dullness through your feet. The subdued lighting, drapery, and framing of the space suggest the interior of a bank vault or a shrine, though not to the praise of any Luddic virtue.\n\nQuite the contrary, depending on one's outlook.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2895,
+    "id": "BFFIapHorus12",
+    "column": "text",
+    "original": "On a pedestal of carved wood, in a spot of light like holy revelation, a single glove is upthrust. Its fingers appear frozen in the midst of beginning to curl back toward a relaxed state after giving you a little wave.\n\nAfter an appropriate pause, Menes speaks up, hopeful. \"What do you think, cousin?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2896,
+    "id": "BFFIapHorus13",
+    "column": "text",
+    "original": "\"What's this supposed to be,\" says Horus, deadpan.\n\nMenes clears his throat, then begins in a low, dramatic voice, \"The glove worn by Ludd when stepping upon the sacred Earth of Gilead. Ludd removed the glove and kissed the ground, according to the Luddic's religion.\"",
+    "translated": ""
+  }
+]

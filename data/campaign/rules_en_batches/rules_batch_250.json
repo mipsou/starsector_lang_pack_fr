@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 7861,
+    "id": "raoNerieneSelLeftA2b",
+    "column": "options",
+    "option_line": "rao_nerieneConvOut1:\"Not my concern.\"",
+    "original": "Not my concern.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7862,
+    "id": "raoNerieneSelLeftA2bb",
+    "column": "text",
+    "original": "He pauses a moment. \"And about you- Neriene was not entirely forthcoming. She had... words.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7862,
+    "id": "raoNerieneSelLeftA2bb",
+    "column": "options",
+    "option_line": "rao_nerieneConvOut1:\"Not my concern.\"",
+    "original": "Not my concern.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7863,
+    "id": "raoNerieneSelLeftA2c",
+    "column": "text",
+    "original": "He pauses. \"At least, that is how Neriene described it.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7863,
+    "id": "raoNerieneSelLeftA2c",
+    "column": "options",
+    "option_line": "rao_nerieneConvOut2:\"She spoke to you about... that evening?\"",
+    "original": "She spoke to you about... that evening?",
+    "translated": ""
+  },
+  {
+    "csv_row": 7863,
+    "id": "raoNerieneSelLeftA2c",
+    "column": "options",
+    "option_line": "rao_nerieneConvOut1:\"Not my concern.\"",
+    "original": "Not my concern.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7864,
+    "id": "raoNerieneSelLeftB",
+    "column": "text",
+    "original": "He half-shrugs, his expression charitable despite the fact that he appears to agree with your words.\n\n\"I heard that certain young men were keen to provoke you to a confrontation. It is a mark upon the House of Rao that it was allowed to go as far as it did.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7865,
+    "id": "raoNerieneSelLeftC",
+    "column": "text",
+    "original": "\"Oh, I assure you it was a wasted gesture. Neriene Rao can handle herself- with the blade, or without.\" He looks away, smiling. It quickly fades.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7866,
+    "id": "raoNerieneSelLeftD",
+    "column": "text",
+    "original": "\"We do.\" Wrinkles form at his eyes as Orcus Rao doesn't quite smile.\n\n\"Such traditions are necessarily arbitrary. The question falls to whether one chooses to excel within its terms... or without. The swordplay of Eventide is no different.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7867,
+    "id": "raoNerieneConvOut0",
+    "column": "text",
+    "original": "\"They were... colorful. You did not make an enemy, I think, but you certainly did not make a friend.\"\n\n\"Anyway,\" he waves dismissively.\n\n\"Her mind is her business. Let us speak of other matters.\"",
+    "translated": ""
+  }
+]

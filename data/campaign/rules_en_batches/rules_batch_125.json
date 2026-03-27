@@ -1,0 +1,78 @@
+[
+  {
+    "csv_row": 3208,
+    "id": "BFFIpsApproachBornMedbay",
+    "column": "options",
+    "option_line": "bffi_stationMedConsult0:Consult with $global.jethroName",
+    "original": "Consult with $global.jethroName",
+    "translated": ""
+  },
+  {
+    "csv_row": 3208,
+    "id": "BFFIpsApproachBornMedbay",
+    "column": "options",
+    "option_line": "bffi_psApproachYourself:Handle this one yourself",
+    "original": "Handle this one yourself",
+    "translated": ""
+  },
+  {
+    "csv_row": 3209,
+    "id": "BFFIpsApproachYourself",
+    "column": "text",
+    "original": "You decide to let Bornanew rest. You've got this.\n\nAll you need to do is beg, trick, or force the Pathers to reveal the source of their scan of the original glove. That glove has somehow remained, presumably untouched, in the vault of the Holy Cathedral of Exodus back on Tartessus this whole time.\n\nPathers are not known for keeping good digital records, but to nanoforge a copy of the glove, they would have had to. There may be metadata still in the computer systems connected to the nanoforge.\n\nOr someone who simply knows the answers which you seek.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3210,
+    "id": "BFFIstationMedConsultStart",
+    "column": "text",
+    "original": "The attending medtech gives you a stern look as you step into the medbay despite the fact that you are the captain of the $shipOrFleet.\n\nBornanew's face is pale and bloated. His abdomen is covered in bandages and trailing tubes connected to a suite of murmuring autodocs.\n\n\"$playerFirstName,\" he says. \"I appear to live.\" He takes a breath. \"And to you I owe thanks. Captain, I mean. Apologies.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3211,
+    "id": "BFFIstationMedConsultOptA",
+    "column": "options",
+    "option_line": "bffi_stationMedConBrave:\"$global.jethroName. That was a brave thing you did on Chalcedon.\"",
+    "original": "$global.jethroName. That was a brave thing you did on Chalcedon.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3212,
+    "id": "BFFIstationMedConsultOptB",
+    "column": "options",
+    "option_line": "bffi_stationMedConStupid:\"$global.jethroName. That was a stupid thing you did on Chalcedon.\"",
+    "original": "$global.jethroName. That was a stupid thing you did on Chalcedon.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3213,
+    "id": "BFFIstationMedConsultOptC",
+    "column": "options",
+    "option_line": "bffi_stationMedConThank:\"You should thank the medical team, they're the ones that saved you.\"",
+    "original": "You should thank the medical team, they're the ones that saved you.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3214,
+    "id": "BFFIstationMedConsultOptD",
+    "column": "options",
+    "option_line": "bffi_stationMedConWhatDo1:\"We're in the $bffi_patherStationSystem. There's a Pather base.\"",
+    "original": "We're in the $bffi_patherStationSystem. There's a Pather base.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3217,
+    "id": "BFFIstationMedConPain",
+    "column": "text",
+    "original": "It looks like he tries to shrug, and fails.\n\n\"It was... it was...\" he trails off, and closes his eyes. \"I was terrified, captain. A coward. And yet, what else could be done?\"\n\nHe opens his eyes. \"It may be that is enough for a Knight.\" He shifts slightly, under the bandages and tubes. \"The machines, drugs. They take the pain away. It still hurts.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3218,
+    "id": "BFFIstationMedConThank",
+    "column": "text",
+    "original": "\"I have,\" he says. \"And shall again, 'til they tire of it.\"",
+    "translated": ""
+  }
+]

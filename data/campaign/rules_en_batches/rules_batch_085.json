@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 2828,
+    "id": "BFFImpBuyerOffer800kdemarch",
+    "column": "text",
+    "original": "Menes sighs dramatically, \"I suppose - and this is because I'm feeling charitable - I would entertain the notion of a mere 900,000 credits.\" He looks at you sharply, \"And that's only because you're a fellow demarch.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2828,
+    "id": "BFFImpBuyerOffer800kdemarch",
+    "column": "options",
+    "option_line": "bffi_mpBuyerCredits800kJeffReact:\"You're practically a saint. Now the matter of veracity...\"",
+    "original": "You're practically a saint. Now the matter of veracity...",
+    "translated": ""
+  },
+  {
+    "csv_row": 2829,
+    "id": "BFFImpBuyerOffer800kleague",
+    "column": "text",
+    "original": "Menes sighs dramatically, \"I suppose - and this is because I'm feeling generous - I would entertain the notion of a mere 900,000 credits.\" He looks at you sharply, \"And that's only because you've a League commission. It's practically charity!\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2829,
+    "id": "BFFImpBuyerOffer800kleague",
+    "column": "options",
+    "option_line": "bffi_mpBuyerCredits800kJeffReact:\"You're practically a saint. Now the matter of veracity...\"",
+    "original": "You're practically a saint. Now the matter of veracity...",
+    "translated": ""
+  },
+  {
+    "csv_row": 2830,
+    "id": "BFFImpBuyerOffer800k",
+    "column": "text",
+    "original": "Menes sighs dramatically. \"What am I, a charity?\"\n\n\"I suppose,\" he muses, \"I suppose I'm in an oddly generous mood to even be discussing this.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2830,
+    "id": "BFFImpBuyerOffer800k",
+    "column": "options",
+    "option_line": "bffi_mpBuyerCredits800kJeffReact:\"You're practically a saint. Now the matter of veracity...\"",
+    "original": "You're practically a saint. Now the matter of veracity...",
+    "translated": ""
+  },
+  {
+    "csv_row": 2831,
+    "id": "BFFImpBuyerOffer800kJeffReact",
+    "column": "text",
+    "original": "You think you hear a snort from Bornanew, but perhaps he just scuffed the floor.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2832,
+    "id": "BFFImpBuyerHub2OptA",
+    "column": "options",
+    "option_line": "bffi_mpBuyerWhoSold:\"Who sold you the glove?\"",
+    "original": "Who sold you the glove?",
+    "translated": ""
+  },
+  {
+    "csv_row": 2833,
+    "id": "BFFImpBuyerHub2OptB",
+    "column": "options",
+    "option_line": "bffi_mpBuyerWhoSold2:\"Ulmus Pond sold you the glove, didn't he.\"",
+    "original": "Ulmus Pond sold you the glove, didn't he.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2836,
+    "id": "BFFImpBuyerWhoSold",
+    "column": "text",
+    "original": "\"I'm afraid I could not reveal my source just now,\" Menes says haughtily. \"They are very exclusive, and, and... sensitive.\"",
+    "translated": ""
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "csv_row": 123,
+    "id": "ShroudedHullmodItemRCTH1a",
+    "column": "text",
+    "original": "You find your technology officer and chief engineer in deep discussion over one of the unusual specimens held in the \"special salvage' bay.",
+    "translated": ""
+  },
+  {
+    "csv_row": 124,
+    "id": "ShroudedHullmodItemRCTH1b",
+    "column": "text",
+    "original": "You find your technology officer and chief engineer in another deep discussion over one of the unusual specimens held in the \"special salvage' bay.",
+    "translated": ""
+  },
+  {
+    "csv_row": 125,
+    "id": "ShroudedHullmodItemRCTH2",
+    "column": "text",
+    "original": "Tech is spinning a dazzlingly complex holo-mockup filled with arcing lines and arcane symbols. \n\n\"A cloud of the exotic material could be held within a sort of flickered hyperspace gradient... Theoretically, it would build up charge as outgoing projectiles traverse the 'imbued' field gradient and... theoretically, that extra charge could be sustained then directed at nearby hostiles.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 126,
+    "id": "ShroudedHullmodItemRCTH3",
+    "column": "text",
+    "original": "\"Theoretically.\" Engineering's arms are crossed below a very skeptical look.\n\n\"To operate during combat... hmm. Modifications would have to be made. Shield emitters, drive field, inertial suppression... I'll need to perform some tests.\"\n\nEngineering finally notices you observing their talk and stands to attention. \"With your approval, $PlayerSirOrMadam.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 127,
+    "id": "ShroudedHullmodItemRCTH4",
+    "column": "text",
+    "original": "You consider the undeniable possibility that the Luddic faith would view any use of this technology as literally demonic. You could be declared a heretical outlaw and hunted by the Knights of Ludd and Luddic Path alike.",
+    "translated": ""
+  },
+  {
+    "csv_row": 127,
+    "id": "ShroudedHullmodItemRCTH4",
+    "column": "options",
+    "option_line": "defaultLeave:\"Submit a combined report. We'll proceed - theoretically.\"",
+    "original": "Submit a combined report. We'll proceed - theoretically.",
+    "translated": ""
+  },
+  {
+    "csv_row": 129,
+    "id": "ShroudedHullmodItemRCL1a",
+    "column": "text",
+    "original": "You find your technology officer and chief engineer in deep discussion over one of the unusual specimens held in the \"special salvage' bay.",
+    "translated": ""
+  },
+  {
+    "csv_row": 130,
+    "id": "ShroudedHullmodItemRCL1b",
+    "column": "text",
+    "original": "You find your technology officer and chief engineer in another deep discussion over one of the unusual specimens held in the \"special salvage' bay.",
+    "translated": ""
+  },
+  {
+    "csv_row": 131,
+    "id": "ShroudedHullmodItemRCL2",
+    "column": "text",
+    "original": "\"This 'lens' - a working term, of course - does not operate in normal space as-such.\"\n\nTech is deep in lecture mode over an arcane holo-diagram. You can tell they've been talking for some minutes from Engineering's impatient eye roll.\n\n\"It could be emplaced deep within the hull, in a specially stabilized cradle - for safety,\" Tech continues.\n\nEngineering appears pained at describing this proposal as 'safe'.",
+    "translated": ""
+  },
+  {
+    "csv_row": 132,
+    "id": "ShroudedHullmodItemRCL3",
+    "column": "text",
+    "original": "Tech proceeds without acknowledging any objection.\n\n\"-spin it up during combat maneuvers, adjusting the frequency of the 'probes' adapted from drive-field stabilizers. It would create hyperspace fractures which would cause terrible damage to n-space structures. Starships, for instance. Now, for obvious reasons, the theoretical range is infinite...\"",
+    "translated": ""
+  }
+]

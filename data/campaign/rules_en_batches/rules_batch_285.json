@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 8420,
+    "id": "ZGRstartPitch3zB",
+    "column": "options",
+    "option_line": "zgr_makePitch3c:\"It's dangerous out there. Very dangerous.\"",
+    "original": "It's dangerous out there. Very dangerous.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8423,
+    "id": "ZGRstartPitch3c",
+    "column": "text",
+    "original": "\"Yes. Does that frighten you?\" she asks.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8423,
+    "id": "ZGRstartPitch3c",
+    "column": "options",
+    "option_line": "zgr_makePitch3cComp:\"Yes. Which is why I require adequate compensation.\"",
+    "original": "Yes. Which is why I require adequate compensation.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8424,
+    "id": "ZGRstartPitch3cNo",
+    "column": "text",
+    "original": "She pauses a moment, making no outward reaction to your bravado.\n\n\"I see,\" she allows, finally.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8425,
+    "id": "ZGRstartPitch3cNoLie",
+    "column": "text",
+    "original": "She pauses a moment, making no outward reaction to your pretense of bravado.\n\n\"I see,\" she allows, finally.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8428,
+    "id": "ZGRstartPitch4zz",
+    "column": "text",
+    "original": "She makes no outward reaction to your implication, simply proceeding as if you'd said nothing at all.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8429,
+    "id": "ZGRstartPitch4z",
+    "column": "text",
+    "original": "\"The Perseus-Orion Abyss is a melodramatic name. I find spacers are a superstitious lot, present company excepted. Self-limiting mythology is best discarded if one means to ascend to the fullest of human potential.\" She looks away for a moment, making a dismissive flick with her flingers.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8430,
+    "id": "ZGRstartPitch4",
+    "column": "text",
+    "original": "\"You know of the Perseus-Orion Abyss? A melodramatic name. I find spacers are a superstitious lot, excepting present company. Self-limiting mythology is best discarded if one means to ascend to the fullest of human potential.\" She looks away for a moment, making a dismissive flick with her flingers.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8431,
+    "id": "ZGRstartPitch4b",
+    "column": "text",
+    "original": "\"It is true, however, that the Abyss is hostile to our hyperspace technology. That is precisely why the secrets it holds may be all the more profitably disruptive.\"\n\nShe turns to look you full-on, once more. \"I want you to go there. I have data... there is something to find. Very old. Very dangerous. Very valuable. Bring me scans, samples. You will be paid handsomely for tangible specimens.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8431,
+    "id": "ZGRstartPitch4b",
+    "column": "options",
+    "option_line": "zgr_makePitch5:\"You haven't said exactly what I'm looking for. Salvage?\"",
+    "original": "You haven't said exactly what I'm looking for. Salvage?",
+    "translated": ""
+  }
+]

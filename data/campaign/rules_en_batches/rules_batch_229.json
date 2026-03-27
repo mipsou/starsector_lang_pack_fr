@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 7085,
+    "id": "ucbShowBountyShowShips",
+    "column": "options",
+    "option_line": "ucb_showOptions:Questionner sur l'une des autres cibles",
+    "original": "Questionner sur l'une des autres cibles",
+    "translated": ""
+  },
+  {
+    "csv_row": 7087,
+    "id": "ucbShowBountyShowShipsBar",
+    "column": "options",
+    "option_line": "ucb_showOptionsBar:Questionner sur l'une des autres cibles",
+    "original": "Questionner sur l'une des autres cibles",
+    "translated": ""
+  },
+  {
+    "csv_row": 7098,
+    "id": "LOCRMremoveBecauseColony",
+    "column": "options",
+    "option_line": "locrm_removeBecauseColony2:Consulter le rapport",
+    "original": "Consulter le rapport",
+    "translated": ""
+  },
+  {
+    "csv_row": 7103,
+    "id": "LOCRMcontact0",
+    "column": "text",
+    "original": "Apres quelques faux departs, les protocoles de communication se stabilisent pour etablir une connexion intermittente.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7106,
+    "id": "LOCRMcontact1again",
+    "column": "text",
+    "original": "\"Capitaine !\" Le mineur $post a l'air plein d'espoir, mais inquiet. \"Je vous le demande une fois encore, allez-vous nous aider a rejoindre les mondes du coeur ? Bien que notre support vital soit prevu pour plusieurs cycles, on s'ennuie terriblement ici.\" $HeOrShe croise les bras. \"Et nous ne sommes pas payes.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7114,
+    "id": "LOCRMhubOptTransport",
+    "column": "options",
+    "option_line": "locrm_offerTransport:Proposer de transporter les mineurs vers la civilisation",
+    "original": "Proposer de transporter les mineurs vers la civilisation",
+    "translated": ""
+  },
+  {
+    "csv_row": 7116,
+    "id": "LOCRMhubOptLeavePromise",
+    "column": "options",
+    "option_line": "locrm_leavePromise:\"Je ne peux pas vous transporter maintenant, mais je promets de revenir.\"",
+    "original": "Je ne peux pas vous transporter maintenant, mais je promets de revenir.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7122,
+    "id": "LOCRMleaveLie",
+    "column": "text",
+    "original": "\"C'est etrange,\" $heOrShe dit. \"Nous ne detectons pas-\"\n\nVous coupez les communications.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7123,
+    "id": "LOCRMleavePromise",
+    "column": "text",
+    "original": "\"Nous avons suffisamment de fournitures, donc si nous ne mourons pas d'ennui, nous attendrons.\" $HeOrShe soupire et coupe la liaison.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7129,
+    "id": "LOCRMaskWhoLeftYouBack",
+    "column": "text",
+    "original": "\"Faut bien s'en sortir,\" $heOrShe hausse les epaules. \"Mais d'abord, il faut qu'on retourne dans les mondes du coeur. Si... vous pouviez nous aider.\"",
+    "translated": ""
+  }
+]

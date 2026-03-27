@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 2572,
+    "id": "BFFIonBoardMenesOpt5",
+    "column": "options",
+    "option_line": "BFFI_onBoardAskPlan:\"What's the plan? Ask Menes nicely for the glove?\"",
+    "original": "What's the plan? Ask Menes nicely for the glove?",
+    "translated": ""
+  },
+  {
+    "csv_row": 2574,
+    "id": "BFFIonBoardMenesOptYou",
+    "column": "options",
+    "option_line": "BFFI_onBoardAskChalcedon:\"Kumari Kandam? You were on Chalcedon. With the Path.\"",
+    "original": "Kumari Kandam? You were on Chalcedon. With the Path.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2575,
+    "id": "BFFIonBoardAskChalcedon",
+    "column": "text",
+    "original": "\"Indeed I was.\" He's steady. \"You know of this. There I met Wrestling Sedge of the Luddic Path, and there I left my vows. For a time.\"\n\nA pause. \"You followed my path, and spoke with the man Sedge. He told you where I went from there, Mazalot, where you found me.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2576,
+    "id": "BFFIonBoardAskChalcedonShot",
+    "column": "text",
+    "original": "\"Indeed I was.\" He's steady as he speaks. \"You know of this. There I met Wrestling Sedge of the Luddic Path, and there I left my vows. For a time.\"\n\nA pause. \"And you killed the man Sedge,\" he says. \"The Path will have no love for you there, but I trust that you will be prepared for... that.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2577,
+    "id": "BFFIonBoardAskMenes",
+    "column": "text",
+    "original": "\"Certain tawdry media outlets in the outer League worlds and beyond report rumor and gossip about affairs, social vendettas, and... how shall I put this... decadent festivities undertaken by Menes. More so in his younger years, at least.\" Bornanew turns pages in his notebook, not reading, but recalling as he goes through the motions with his hands.\n\n\"His enthusiasm for such pursuits has waned from the cycles of his youth, and his interests have shifted. At heart, I suspect Menes is still a man who wishes for all to hear his name, and for all who hear it to be very impressed.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2578,
+    "id": "BFFIonBoardAskMenes2",
+    "column": "text",
+    "original": "\"Unfortunately for his ambition, he is a natural dilettante in all pursuits. He avoids challenge, seeking instead flattery and the appearance of success which may be purchased with credits.\" Bornanew reports this without obvious outward judgment, as if discussing the results of a gravimetric survey.\n\n\"To his gens, Menes has given only scandal and debt. I suspect he was placed in the Olinadu administration to limit his ability to further damage their reputation.\"\n\nBornanew smiles grimly now. \"It is some irony that he has potentially stumbled into more trouble than ever.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2579,
+    "id": "BFFIonBoardAskInCharge",
+    "column": "text",
+    "original": "\"Gens Yaribay has a controlling interest in the military corporation which exercises the monopoly of violence for the polity of Olinadu. The Pathers are an ever-present threat, so those who don't cooperate... well, that is the stick which compels. The carrot, on the other hand, is a stream of investment credits facilitated by Gens Yaribay brokers.\"\n\n\"The locals cooperate with this arrangement, and agreed to vote Menes Yaribay to an executive position, perhaps understanding that he'd play the role as a figurehead rather than a serious administrator. Olinadu receives investment and safety while, from all accounts, Menes Yaribay simply wants to be liked.\"\n\n\"Compared to the alternatives,\" says Bornanew, \"he is an ideal overlord.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2580,
+    "id": "BFFIonBoardAskRelic",
+    "column": "text",
+    "original": "\"Yes, the... artifact.\" Bornanew looks down, clasping his hands together, then taking them apart and setting them deliberately on the table.\n\n\"Ludd's right-hand glove,\" an abashed smile appears.\n\n\"A standard work-glove of Domain manufacture. Light vac-suit compatible. The story is that Ludd removed it to touch the ground of Gilead.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2580,
+    "id": "BFFIonBoardAskRelic",
+    "column": "options",
+    "option_line": "BFFI_onBoardAskRelic1a:\"And you don't think it's real? The original, I mean.\"",
+    "original": "And you don't think it's real? The original, I mean.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2580,
+    "id": "BFFIonBoardAskRelic",
+    "column": "options",
+    "option_line": "BFFI_onBoardAskRelic1b:\"Seems like a lot to get worked up about.\"",
+    "original": "Seems like a lot to get worked up about.",
+    "translated": ""
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "csv_row": 3378,
+    "id": "BFFIidolTalkTrouble",
+    "column": "text",
+    "original": "He replies calmly, eyes on the path ahead.\n\n\"There was... passive opposition to my investigation. I intend to arrest Subcurate Cedra Keepfaith. Opposition may become... less passive.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3379,
+    "id": "BFFIidolTalkOpposition",
+    "column": "options",
+    "option_line": "bffi_arrestOppoA:\"So you're just going to walk in, unarmed, and make an arrest?\"",
+    "original": "So you're just going to walk in, unarmed, and make an arrest?",
+    "translated": ""
+  },
+  {
+    "csv_row": 3379,
+    "id": "BFFIidolTalkOpposition",
+    "column": "options",
+    "option_line": "bffi_arrestOppoB:\"You mention this now? We should have prepared.\"",
+    "original": "You mention this now? We should have prepared.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3379,
+    "id": "BFFIidolTalkOpposition",
+    "column": "options",
+    "option_line": "bffi_arrestOppoD:\"Not to worry. I'm prepared.\" (pat your weapon)",
+    "original": "Not to worry. I'm prepared.\" (pat your weapon)",
+    "translated": ""
+  },
+  {
+    "csv_row": 3380,
+    "id": "BFFIidolTalkOppositionInjured",
+    "column": "options",
+    "option_line": "bffi_arrestOppoE:\"With your injury... you're sure you want to do this?\"",
+    "original": "With your injury... you're sure you want to do this?",
+    "translated": ""
+  },
+  {
+    "csv_row": 3380,
+    "id": "BFFIidolTalkOppositionInjured",
+    "column": "options",
+    "option_line": "bffi_arrestOppoA:\"So you're just going to walk in, unarmed, to arrest a curate?\"",
+    "original": "So you're just going to walk in, unarmed, to arrest a curate?",
+    "translated": ""
+  },
+  {
+    "csv_row": 3380,
+    "id": "BFFIidolTalkOppositionInjured",
+    "column": "options",
+    "option_line": "bffi_arrestOppoD:\"Not to worry. I'm prepared.\" (pat your weapon)",
+    "original": "Not to worry. I'm prepared.\" (pat your weapon)",
+    "translated": ""
+  },
+  {
+    "csv_row": 3381,
+    "id": "BFFIarrestOppoA",
+    "column": "text",
+    "original": "\"I suppose I am,\" he says, turning to smile and give a bow, hands together, to a group of elderly pilgrims resting under a tree.\n\n\"This must be done as Ludd would, with open hands and heart.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3382,
+    "id": "BFFIarrestOppoAbb",
+    "column": "text",
+    "original": "\"I am,\" he says, turning give a bow, hands together, to a group of elderly pilgrims resting under a tree. \"This must be done as Ludd would, with open hands.\"\n\n\"Besides,\" he adds with a wry smile, \"you've seen fit to remain armed.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3383,
+    "id": "BFFIarrestOppoB",
+    "column": "text",
+    "original": "\"I am prepared,\" he says, turning to smile and give a bow, hands together, to a group of elderly pilgrims resting under a tree.\n\n\"This must be done as Ludd would, with open hands and heart.\"",
+    "translated": ""
+  }
+]

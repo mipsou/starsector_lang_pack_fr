@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 8323,
+    "id": "ZGRthreatTechAskThreatAIwarOpt",
+    "column": "options",
+    "option_line": "zgr_askQuestionsThreatAI:\"Does exploitating this technology not risk another AI War?\"",
+    "original": "Does exploitating this technology not risk another AI War?",
+    "translated": ""
+  },
+  {
+    "csv_row": 8324,
+    "id": "ZGRthreatTechAskThreatAreOpt",
+    "column": "options",
+    "option_line": "zgr_askQuestionsThreatAre:\"Do you know what the 'Threat' are, or where they came from?\"",
+    "original": "Do you know what the 'Threat' are, or where they came from?",
+    "translated": ""
+  },
+  {
+    "csv_row": 8325,
+    "id": "ZGRthreatTechAskThreatAliveOpt",
+    "column": "options",
+    "option_line": "zgr_askQuestionsThreatAlive:\"So the 'Threat' are not alive, not intelligent?\"",
+    "original": "So the 'Threat' are not alive, not intelligent?",
+    "translated": ""
+  },
+  {
+    "csv_row": 8327,
+    "id": "ZGRmonsterTechAskMonsterAreOpt",
+    "column": "options",
+    "option_line": "zgr_askQuestionsMonsterAre:\"Do you know what these 'other' specimens... are?\"",
+    "original": "Do you know what these 'other' specimens... are?",
+    "translated": ""
+  },
+  {
+    "csv_row": 8332,
+    "id": "ZGRthreatTechAskThreatDo1",
+    "column": "text",
+    "original": "\"Research and development,\" she says. Her expression isn't quite a smirk.\n\n\"These components are obviously derived from a neglected branch of Domain-era technology. This makes them fundamentally human technology. The path to profitable exploitation is fundamentally open, albeit complex. The Tri-Tachyon corporation is ideally placed to exploit them.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8333,
+    "id": "ZGRthreatTechAskThreatAre1",
+    "column": "text",
+    "original": "\"In the simplest terms,\" her voice contains more than a hint of condescension, \"they are autonomous self-fabricating, self-modifying constructs derived from ancient Domain designs. Their intent, so far as they could be said to have intent, is destructive toward our technological base.\"\n\n\"'Why' is a more difficult question.\"\n\nHer dead eyes move oddly. \"I find it amusing that the Luddics would recoil in horror, but they could not find a better ally to their cause.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8335,
+    "id": "ZGRthreatTechAskThreatAlive1",
+    "column": "text",
+    "original": "\"Is a machine alive? Is a virus?\" She pauses for a fraction of a second before providing her own answer.\n\n\"I don't care.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8336,
+    "id": "ZGRthreatTechAskThreatAlive2",
+    "column": "text",
+    "original": "\"Functionally the 'Threat' phenomenon demonstrates no attempt to present a sense of selfhood, collective or otherwise. What passes for communication is hostile and garbled; the loose ends of automatic warnings and obsolete Domain decrees. If it is conscious in any form, it is impossibly solipsistic.\"\n\n\"Which is just as well,\" the Director produces a robotic half-smile. \"It will be a better tool that way.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8337,
+    "id": "ZGRmonsterTechAskMonsterDo1",
+    "column": "text",
+    "original": "\"Research and development.\" \n\nThe Director releases a deliberate breath.\n\n\"We know it isn't human. We know it is powerful. The return on investment, therefore, is beyond human imagination.\"\n\nShe looks satisfied with the thought.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8338,
+    "id": "ZGRmonsterTechAskMonsterAre1",
+    "column": "text",
+    "original": "\"That is speculation for the research division. Or perhaps you would care to ask a philosopher? Or a curate?\" This last idea appears to amuse her, insofar as she is capable of expressing that, or any, emotion.\n\n\"My interest is in what these specimens, these phenomena, can DO. For me. Or the Company.\"\n\nShe pulls her glassy eyes back to the comm-link. \n\n\"For humanity. At least that small percentage of it willing to accept the radical and necessary future.\"",
+    "translated": ""
+  }
+]

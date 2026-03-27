@@ -1,0 +1,80 @@
+[
+  {
+    "csv_row": 10112,
+    "id": "PKHackStorySel",
+    "column": "text",
+    "original": "Votre officier des communications est pris de court : \"Mais $playerSirOrMadam, que-\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 10119,
+    "id": "PKHackStoryOptA",
+    "column": "options",
+    "option_line": "pk_hackStoryHowName:\"Comment connaissez-vous mon nom ?\"",
+    "original": "Comment connaissez-vous mon nom ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 10145,
+    "id": "PKHackStoryWhatDoScare0",
+    "column": "options",
+    "option_line": "pk_hackStoryWhatDoScare:\"Je le garderai pour moi, pour effrayer quiconque voudrait m'attaquer.\"",
+    "original": "Je le garderai pour moi, pour effrayer quiconque voudrait m'attaquer.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10152,
+    "id": "PKHackStoryWhatDoBlackHole0",
+    "column": "options",
+    "option_line": "pk_hackStoryWhatDoBlackHole:\"Je vais le jeter dans un trou noir pour qu'il ne puisse blesser personne.\"",
+    "original": "Je vais le jeter dans un trou noir pour qu'il ne puisse blesser personne.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10167,
+    "id": "PKHackGetData",
+    "column": "options",
+    "option_line": "pk_hackStoryEnd:\"Rapports d'ici la fin du quart ! Rompez.\"",
+    "original": "Rapports d'ici la fin du quart ! Rompez.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10172,
+    "id": "pkFleetGreeting",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 10177,
+    "id": "pk_givePKPatherSel",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 10183,
+    "id": "pk_turnInHegemonySel",
+    "column": "text",
+    "original": "$PersonRank $personLastName se crispe. \"Je n'ai ni le temps ni l'envie de redebattre de l'histoire des Guerres IA, capitaine. Si vous n'avez pas d'autre affaire urgente, mettons fin a cette conversation.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 10190,
+    "id": "pk_hegFreeSel3",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 10193,
+    "id": "pk_hegFreeSelCommission3",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  }
+]

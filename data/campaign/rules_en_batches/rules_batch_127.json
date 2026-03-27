@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 3226,
+    "id": "BFFIstationMedConsultOut",
+    "column": "text",
+    "original": "You leave Bornanew to the stern care of your chief medical officer.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3230,
+    "id": "BFFIpatherStationTalkConfront",
+    "column": "options",
+    "option_line": "bffi_stationConfront:\"Your nanoforge assembled a very interesting item. I have questions.\"",
+    "original": "Your nanoforge assembled a very interesting item. I have questions.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3232,
+    "id": "BFFIpatherStationTalkIgnore",
+    "column": "text",
+    "original": "Your comms request is denied with a burst of obsolete EW malware.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3233,
+    "id": "BFFIstationBuyer1",
+    "column": "text",
+    "original": "\"A Mammonite's lie, I expect.\" $HisOrHer faces twists with contempt. \"Look at you, spacer, so far from the light of the Path.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3234,
+    "id": "BFFIstationConfront1",
+    "column": "text",
+    "original": "\"Questions?\" $HeOrShe smirks, eyes scanning some intel report. \"What questions might a Molochian have? How to more completely suborn the human soul? How to extract ever increasing lucre from sin?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3235,
+    "id": "BFFIstationConcerns1",
+    "column": "text",
+    "original": "\"A walker, so you claim. Aye, you are known to us. A minion of the so-called 'Church' which is naught but a shadow of the domain wearing a mask of twisted piety.\"\n\n$HeOrShe almost looks pitying. \"Are you so far gone, so blind to the light, that you cannot see it?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3236,
+    "id": "BFFIstationTalkHubBuyer",
+    "column": "options",
+    "option_line": "bffi_stationTalk1honesty:\"Light or no, I am honest. You sow false relics to cause war among the Faithful.\"",
+    "original": "Light or no, I am honest. You sow false relics to cause war among the Faithful.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3237,
+    "id": "BFFIstationTalkHubConfront",
+    "column": "options",
+    "option_line": "bffi_stationTalk1sin:\"You speak of sin while you sow false relics to cause war among the Faithful?\"",
+    "original": "You speak of sin while you sow false relics to cause war among the Faithful?",
+    "translated": ""
+  },
+  {
+    "csv_row": 3238,
+    "id": "BFFIstationTalkHubConcerns",
+    "column": "options",
+    "option_line": "bffi_stationTalk1blind:\"Blind am I, and faithless? I see you sow false relics to cause war among the Faithful.\"",
+    "original": "Blind am I, and faithless? I see you sow false relics to cause war among the Faithful.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3239,
+    "id": "BFFIstationTalkHubObjection2",
+    "column": "options",
+    "option_line": "bffi_stationTalk2fight:\"If it is an honest fight you want, then why the false relics scheme?\"",
+    "original": "If it is an honest fight you want, then why the false relics scheme?",
+    "translated": ""
+  }
+]

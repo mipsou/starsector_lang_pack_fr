@@ -1,0 +1,80 @@
+[
+  {
+    "csv_row": 2048,
+    "id": "LKEmazalotAskAdministrator3",
+    "column": "options",
+    "option_line": "lke_mazDKTellAboutYaribay:\"Je travaille pour Horus Yaribay. De la gens Yaribay. Vous les connaissez ?\"",
+    "original": "Je travaille pour Horus Yaribay. De la gens Yaribay. Vous les connaissez ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 2053,
+    "id": "LKEmazDKYaribayEnd",
+    "column": "text",
+    "original": "Son attitude se fige en un masque glacial, et sa main se tend vers l'interrupteur de communication.\n\n\"Ne me parlez pas.\"\n\nLa liaison se coupe.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2059,
+    "id": "LKEmazAdminAskBornanew1b",
+    "column": "options",
+    "option_line": "lke_mazalotAskBornanewPL1:\"Alors aidez-moi. Qui dirige la Voie par ici ?\"",
+    "original": "Alors aidez-moi. Qui dirige la Voie par ici ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 2062,
+    "id": "LKEmazAdminAskBornanewDKend1",
+    "column": "text",
+    "original": "\"Bien, ... bien,\" dit-il, incertain.\n\nOn dirait qu'il envisage de vous donner des avertissements plus graves, mais il ne dit rien en coupant les communications.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2088,
+    "id": "lkeMazBarAgentOptSiyavong",
+    "column": "options",
+    "option_line": "lke_mazBarAgentRespSiyavong:\"Je m'appelle Finlay Siyavong des Renseignements de la Flotte et j'ai des questions pour vous.\"",
+    "original": "Je m'appelle Finlay Siyavong des Renseignements de la Flotte et j'ai des questions pour vous.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2090,
+    "id": "lkeMazBarAgentOptPunch",
+    "column": "options",
+    "option_line": "lke_mazBarAgentOptPunch:Frapper l'agent du MUA au visage et prendre la fuite",
+    "original": "Frapper l'agent du MUA au visage et prendre la fuite",
+    "translated": ""
+  },
+  {
+    "csv_row": 2091,
+    "id": "lkeMazBarAgentRespYaribay",
+    "column": "options",
+    "option_line": "lke_mazBarAgentHelp1:\"Qui dirige la Voie par ici ? J'ai besoin d'informations.\"",
+    "original": "Qui dirige la Voie par ici ? J'ai besoin d'informations.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2092,
+    "id": "lkeMazBarAgentRespLeague",
+    "column": "options",
+    "option_line": "lke_mazBarAgentHelp1:\"Qui dirige la Voie par ici ? J'ai besoin d'informations.\"",
+    "original": "Qui dirige la Voie par ici ? J'ai besoin d'informations.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2097,
+    "id": "lkeMazBarAgentFinePunchOption",
+    "column": "options",
+    "option_line": "lke_mazBarAgentOptPunch:Frapper l'agent du MUA au visage et prendre la fuite",
+    "original": "Frapper l'agent du MUA au visage et prendre la fuite",
+    "translated": ""
+  },
+  {
+    "csv_row": 2098,
+    "id": "lkeMazBarAgentFineFineOption",
+    "column": "options",
+    "option_line": "lke_mazBarFine5k:Payer l'amende",
+    "original": "Payer l'amende",
+    "translated": ""
+  }
+]

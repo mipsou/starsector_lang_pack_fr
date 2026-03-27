@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 2785,
+    "id": "BFFImenesPartySteal8",
+    "column": "options",
+    "option_line": "bffi_mpSteal9b:\"Incredible. What would it take to persuade you to hold a tasting? Menes?\"",
+    "original": "Incredible. What would it take to persuade you to hold a tasting? Menes?",
+    "translated": ""
+  },
+  {
+    "csv_row": 2785,
+    "id": "BFFImenesPartySteal8",
+    "column": "options",
+    "option_line": "bffi_mpSteal9c:\"Fascinating. Do you think Leonis shot anyone with this, Menes?\"",
+    "original": "Fascinating. Do you think Leonis shot anyone with this, Menes?",
+    "translated": ""
+  },
+  {
+    "csv_row": 2787,
+    "id": "BFFImenesPartySteal9b",
+    "column": "text",
+    "original": "\"Ah? Oh yes, I cannot deny the temptation to open it for some appropriate event, given an appropriately appreciative audience- my dear cousin Horus for instance; I considered his marriage to Asherah, but I thought- no, not yet. I wonder at times if the delight of it is held by the anticipation, the thought...\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2788,
+    "id": "BFFImenesPartySteal9c",
+    "column": "text",
+    "original": "\"Oh? Oh, well, I do have a story for you! During negotiations with the buyer I thought, let us have a firearms expert examine this, and wouldn't you know that I happened to be hosting a wealthy financier who's done some work with Tri-Tachyon - and say what you will for the Company, they are good at what they do - and she happened to have a brother with an interest in a firm...\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2791,
+    "id": "BFFImenesPartySteal11",
+    "column": "text",
+    "original": "You both find Bornanew, still on his knees, with one hand stretched out to touch the glove - one finger upon it - lips still moving, eyes still blankly huge as if overcome by religious mania.\n\nMenes gives out a wordless cry of alarm, and begins lifting his cuff to call security.\n\nYour off-hand instinctively curls around a control interface for one of the clever little thieves-tools you have hidden about your uniform.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2791,
+    "id": "BFFImenesPartySteal11",
+    "column": "options",
+    "option_line": "bffi_mpSteal12a:\"$global.jethroName! Restrain yourself, man!\"",
+    "original": "$global.jethroName! Restrain yourself, man!",
+    "translated": ""
+  },
+  {
+    "csv_row": 2793,
+    "id": "BFFImenesPartySteal12b",
+    "column": "text",
+    "original": "Menes hesitates as you speak, then barks a codeword into his comms.\n\nYou freeze, understanding what this sort of protocol looks like. The lights flare into harsh illumination and a trio of gun turrets pop from subtle cupolas - one each tracks instantly to you and Bornanew while the third spins in a slow covering pattern.\n\nThe human guards arrive a moment later, uniforms bright-white, boots squeaking on the floor. Menes breathes heavily, watching the security net tighten.\n\nBornanew, meanwhile, has not moved but to turn his head toward you and Menes.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2794,
+    "id": "BFFImenesPartySteal13",
+    "column": "text",
+    "original": "\"Menes, Yaribay sir. I pray your forgiveness. I- I was overcome by... I had to...\" Bornanew trails off, pathetically.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2794,
+    "id": "BFFImenesPartySteal13",
+    "column": "options",
+    "option_line": "bffi_mpSteal14a:Ne rien dire",
+    "original": "Ne rien dire",
+    "translated": ""
+  },
+  {
+    "csv_row": 2796,
+    "id": "BFFImenesPartySteal14b",
+    "column": "text",
+    "original": "It takes a second, but Menes starts to laugh.\n\nAnd laugh, and laugh deep in his belly, almost a shout. He suddenly throws an arm over your shoulder, putting you off balance, as he struggles to contain himself.",
+    "translated": ""
+  }
+]

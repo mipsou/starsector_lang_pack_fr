@@ -1,0 +1,80 @@
+[
+  {
+    "csv_row": 4427,
+    "id": "gaFCFikenhildBotherQM3",
+    "column": "options",
+    "option_line": "gaFC_fikenhildBotherQM4a:\"Thank you for your time.\"",
+    "original": "Thank you for your time.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4427,
+    "id": "gaFCFikenhildBotherQM3",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 4428,
+    "id": "gaFCFikenhildBotherQM4a",
+    "column": "text",
+    "original": "$HeOrShe shrugs and picks the TriPad back up.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4429,
+    "id": "gaFCFikenhildBotherQM4b",
+    "column": "text",
+    "original": "$HeOrShe shrugs and picks the TriPad back up without acknowledging your tone.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4437,
+    "id": "gaFCAskAroundFikenhildBar5",
+    "column": "options",
+    "option_line": "backToBar:Revenir au bar",
+    "original": "Revenir au bar",
+    "translated": ""
+  },
+  {
+    "csv_row": 4443,
+    "id": "gaFCFikenhildAdonyaA",
+    "column": "options",
+    "option_line": "gaFC_fikenhildAdonyaLeave:Il est temps de partir",
+    "original": "Il est temps de partir",
+    "translated": ""
+  },
+  {
+    "csv_row": 4444,
+    "id": "gaFCFikenhildAdonyaB",
+    "column": "options",
+    "option_line": "gaFC_fikenhildAdonyaB2:\"Qui est Elissa ?\"",
+    "original": "Qui est Elissa ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 4446,
+    "id": "gaFCFikenhildAdonyaB3",
+    "column": "options",
+    "option_line": "gaFC_fikenhildAdonyaLeave:Il est temps de partir",
+    "original": "Il est temps de partir",
+    "translated": ""
+  },
+  {
+    "csv_row": 4447,
+    "id": "gaFCFikenhildAdonyaC",
+    "column": "options",
+    "option_line": "gaFC_fikenhildAdonyaLeave:Il est temps de partir",
+    "original": "Il est temps de partir",
+    "translated": ""
+  },
+  {
+    "csv_row": 4448,
+    "id": "gaFCFikenhildAdonyaLeave",
+    "column": "options",
+    "option_line": "gaFC_visitFikenhild:Revenir to the transport hub",
+    "original": "Revenir to the transport hub",
+    "translated": ""
+  }
+]

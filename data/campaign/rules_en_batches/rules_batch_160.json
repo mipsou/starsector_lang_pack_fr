@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 3557,
+    "id": "BFFIoutro2injuredBB",
+    "column": "options",
+    "option_line": "bffi_outro3:Tourner les talons",
+    "original": "Tourner les talons",
+    "translated": ""
+  },
+  {
+    "csv_row": 3558,
+    "id": "BFFIoutro3",
+    "column": "text",
+    "original": "Your shuttle returns you to your $shipOrFleet.\n\nA ping from your TriPad indicates a funds transfer.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3559,
+    "id": "BFFIoutro3noPayA",
+    "column": "text",
+    "original": "Your shuttle returns you to your $shipOrFleet.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3560,
+    "id": "BFFIoutro3noPayB",
+    "column": "text",
+    "original": "Your shuttle returns you to your $shipOrFleet.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3563,
+    "id": "BFFIaskJaspisOpt",
+    "column": "options",
+    "option_line": "bffi_jaspisAsk1:\"I'm working with Novice Bornanew. For his penance, the matter of a false relic...\"",
+    "original": "I'm working with Novice Bornanew. For his penance, the matter of a false relic...",
+    "translated": ""
+  },
+  {
+    "csv_row": 3564,
+    "id": "BFFIaskJaspis1",
+    "column": "text",
+    "original": "She holds up a hand to stop you from speaking further.\n\n\"My trust, and my prayers, are with Jethro. He will do what need be done, and if he trusts you, then I pray that you honor him.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3574,
+    "id": "aem_runSensorPackageOption",
+    "column": "options",
+    "option_line": "0:aem_runPackage:Lancer le module de capteurs",
+    "original": "aem_runPackage:Lancer le module de capteurs",
+    "translated": ""
+  },
+  {
+    "csv_row": 3601,
+    "id": "CMSNTextSuitedPart2_default",
+    "column": "text",
+    "original": "\"Alors, qu'en dites-vous ? Vous voulez toujours vous engager ?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3602,
+    "id": "CMSNTextWelcomePart1_default",
+    "column": "text",
+    "original": "\"Excellent ! Bienvenue dans le service.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3628,
+    "id": "CMSNTextWelcomePart1_hegemony",
+    "column": "text",
+    "original": "\"Excellent ! Bienvenue dans le service.\"",
+    "translated": ""
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 8847,
+    "id": "sdtuHyderTalk1GoalsNotMethods",
+    "column": "text",
+    "original": "\"Alors je vous demanderais de reevaluer votre perception de ses objectifs,\" dit Hyder avec hauteur.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8856,
+    "id": "sdtuHyderTalk1OfficerResponsesD",
+    "column": "options",
+    "option_line": "sdtu_hyderTalk1Unacceptable:\"Vous avez raison. La mutinerie est absolument inacceptable dans une flotte de guerre.\"",
+    "original": "Vous avez raison. La mutinerie est absolument inacceptable dans une flotte de guerre.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8857,
+    "id": "sdtuHyderTalk1OfficerResponsesE",
+    "column": "options",
+    "option_line": "sdtu_hyderTalk1UnacceptableLie:\"Vous avez raison. La mutinerie est absolument inacceptable dans une flotte de guerre.\" (lie)",
+    "original": "Vous avez raison. La mutinerie est absolument inacceptable dans une flotte de guerre.\" (lie)",
+    "translated": ""
+  },
+  {
+    "csv_row": 8858,
+    "id": "sdtuHyderTalk1JustJob",
+    "column": "text",
+    "original": "Ses yeux se plissent. \"Ils le sont. Et puisque vous vous trouvez presentement dans le volume juridique et ethique du Diktat Sindrien, vous devez respecter nos lois.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8863,
+    "id": "sdtuHyderTalk1Unacceptable2",
+    "column": "text",
+    "original": "\"Alors nous sommes unis sur cette question d'honneur,\" dit-elle avec un hochement de tete.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8874,
+    "id": "sdtuHyderTalk2ToMacario",
+    "column": "text",
+    "original": "\"Je vois,\" dit Hyder d'un ton neutre.\n\n\"Je propose ceci : votre objection sera consignee, puis vous transfererez le prisonnier. J'assumerai la responsabilite de la question de juridiction. Cela remplira votre obligation et laissera l'affaire aux lois du Diktat Sindrien.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8881,
+    "id": "sdtuHyderTalk2Promised3B",
+    "column": "text",
+    "original": "L'expression de Hyder se durcit. \"Votre serment d'officier au Diktat Sindrien ne signifie-t-il rien ? Vous avez donne votre parole a ce moment-la.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8883,
+    "id": "sdtuHyderTalk2PromisedB",
+    "column": "options",
+    "option_line": "sdtu_hyderReleasedInsist:\"J'insiste pour ne pas le faire. Si ma parole ne vaut rien, alors je ne suis rien.\"",
+    "original": "J'insiste pour ne pas le faire. Si ma parole ne vaut rien, alors je ne suis rien.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8883,
+    "id": "sdtuHyderTalk2PromisedB",
+    "column": "options",
+    "option_line": "sdtu_hyderReleasedInsistLie:\"J'insiste pour ne pas le faire. Si ma parole ne vaut rien, alors je ne suis rien.\" (lie)",
+    "original": "J'insiste pour ne pas le faire. Si ma parole ne vaut rien, alors je ne suis rien.\" (lie)",
+    "translated": ""
+  },
+  {
+    "csv_row": 8887,
+    "id": "sdtuHyderReleaseInsistCom1",
+    "column": "text",
+    "original": "L'expression de Hyder se durcit. \"Votre serment d'officier au Diktat Sindrien ne signifie-t-il rien ? Vous avez donne votre parole a ce moment-la. Et maintenant ?\"",
+    "translated": ""
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 9019,
+    "id": "sdtuPostHyderHegemonyOut2",
+    "column": "text",
+    "original": "\"Damnation !\" Macario frappe du poing sur la table, mais il ne peut s'empecher de continuer a sourire. \"Excellent travail. Je devrai explorer cette piste.\"\n\n\"Ce sera,\" il se frotte furieusement les mains, \"... amusant.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 9026,
+    "id": "sdtuPostHyderMission2a",
+    "column": "text",
+    "original": "Macario sourit sans joie. \"Vous vous entendrez a merveille pourvu que vous puissiez pretendre que votre plus grande aspiration est de lecher les bottes d'Andrada.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 9029,
+    "id": "sdtuMacarioPostHyderEnd",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9031,
+    "id": "sdtuMacarioPostHyderRetalk",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9043,
+    "id": "sdtuUmbraImoinu3b",
+    "column": "text",
+    "original": "Une pause tandis qu'elle prend connaissance de votre image. \"Encore vous ? Fichez le camp.\"\n\nElle coupe brutalement la communication.",
+    "translated": ""
+  },
+  {
+    "csv_row": 9043,
+    "id": "sdtuUmbraImoinu3b",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9049,
+    "id": "sdtuUmbraAskAgent",
+    "column": "text",
+    "original": "\"Un agent ?\" $HeOrShe a l'air suspicieux, \"Si vous savez quoi que ce soit sur un espion du Diktat sur Umbra, dites-le moi maintenant et je le ferai comparaitre devant un tribunal revolutionnaire avant la fin de la journee.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 9052,
+    "id": "sdtuUmbraAskAgentQM2",
+    "column": "text",
+    "original": "\"An agent. Here?\" A look of concern grows on her face.\n\n\"I can't say I'm surprised. If you have definitive intel about a Diktat spy on Umbra, then tell me. We'll assemble a revolutionary tribunal to sort this out.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 9052,
+    "id": "sdtuUmbraAskAgentQM2",
+    "column": "options",
+    "option_line": "sdtu_umbraImoinuAgent2:Explain the true situation",
+    "original": "Explain the true situation",
+    "translated": ""
+  },
+  {
+    "csv_row": 9052,
+    "id": "sdtuUmbraAskAgentQM2",
+    "column": "options",
+    "option_line": "sdtu_umbraTrickVIP:Explain as if they were a triple-agent (lie)",
+    "original": "Explain as if they were a triple-agent (lie)",
+    "translated": ""
+  }
+]

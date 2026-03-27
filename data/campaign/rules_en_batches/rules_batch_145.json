@@ -1,0 +1,73 @@
+[
+  {
+    "csv_row": 3419,
+    "id": "BFFIarrestShotBorn1",
+    "column": "options",
+    "option_line": "bffi_arrestShotBorn2b:Restrain the subcurate",
+    "original": "Restrain the subcurate",
+    "translated": ""
+  },
+  {
+    "csv_row": 3420,
+    "id": "BFFIarrestShotBorn2a",
+    "column": "text",
+    "original": "Ignoring the chaos surrounding, you rush to Bornanew's aid, assisting the Knight-Captain in attempting to staunch the flow of blood.\n\nThe Knight-Captain appears trained for this, working with grim determination, directing you without hesitation as needed.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3421,
+    "id": "BFFIarrestShotBorn2b",
+    "column": "text",
+    "original": "Pulling your eyes away from the bloody scene, you see Subcurate Keepfaith realizing that the chaos she has caused presents her with the perfect opportunity to slip away.\n\nIt takes just two long strides and you catch her arm. Bornanew's blood is slick on your hand, and she pulls, hard, screaming admonitions but does not manage escape.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3422,
+    "id": "BFFIarrestShotBornEscape",
+    "column": "text",
+    "original": "It is a close thing, that line between life and death. Like the thin line of atmo when looking down upon a breathing planet; nothing more than a razor's edge from the deathly black.\n\nYou notice the Knight-Captain's arms are red up to his elbows. And yours, too, as you assist. \n\nThere are shouts, and running footsteps. A doctor arrives, with assistent, who shoves you and the Knight-Captain aside after only the briefest exchange. ",
+    "translated": ""
+  },
+  {
+    "csv_row": 3423,
+    "id": "BFFIarrestShotBornEscape2",
+    "column": "text",
+    "original": "You stand back, dripping. The Knight-Captain is shaken, and, with a despairing look, fully removes the magazine of his carbine.\n\nThe bloody scene is illuminated by a ray of sunlight, a violent tableau. Shocked apprentices are recruited to help carry Bornanew elsewhere. Some kind of on-site infirmary.\n\nYou and the Knight-Captain turn toward one another to exchange a look. His eyes are wide.\n\nSubcurate Keepfaith has disappeared.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3424,
+    "id": "BFFIarrestShotBornCaught",
+    "column": "text",
+    "original": "The rogue subcurate's shouts are quelled by the horrified faces of her apprentices.\n\n\"I had it under control!\" she says, not quite pleading. \"It would never have been necessary if the Knights attended their duties. They're lax, lax and blind!\"\n\nShouts, and running steps. A doctor arrives to take over from the Knight-Captain, who, shaken, stands back from the bloody scene illuminated in a ray of sunlight. Shocked apprentices are recruited to help carry Bornanew elsewhere; some kind of on-site infirmary.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3425,
+    "id": "BFFIarrestShotBornCaught2",
+    "column": "text",
+    "original": "The Knight-Captain spots you, finally, and approaches. His arms are red to the elbows, his robes turn and spattered with the blood of his brother Knight.\n\n\"Come now, sister,\" he says coldly. \"Be not careless with your words, for the Inquisitors shall hear all of it. All of it.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3426,
+    "id": "BFFIarrestShotBornDeadCaught",
+    "column": "text",
+    "original": "You know it is over when the Knight-Captain goes quiet and still. His forearms are red with blood. Everywhere, blood, alit by the shaft of sunlight. Pale faces of apprentices look on, horrified.\n\nBornanew's body, weakened by Sedge's brutal attack, simply cannot hold out. In a matter of seconds, his life is spilled out of him onto the floor of the scriptorium.\n\n\"I had it under control,\" Keepfaith says, not quite pleading now. \"It would never have been necessary if the Knights attended their duties. They're lax, lax and blind!\"\n\nNo one is listening.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3427,
+    "id": "BFFIarrestShotBornDead",
+    "column": "text",
+    "original": "You know it is over when the Knight-Captain goes quiet and still. His forearms are red with blood. Everywhere, blood, alit by the shaft of sunlight. Pale faces of apprentices look on, horrified.\n\nBornanew's body, weakened by Sedge's brutal attack, simply cannot hold out. In a matter of seconds, his life is spilled out of him onto the floor of the scriptorium.\n\nDistant calls and shouts - a doctor arrives, too late.\n\nSubcurate Keepfaith is nowhere to be seen.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3428,
+    "id": "BFFIarrestShotShove0",
+    "column": "text",
+    "original": "You shove into Bornanew, your speed making up for his mass, tumbling him away from the barrel of the gun. \n\nA shot erupts from the carbine.\n\nLater, you watch a recording of the incident and see your blood anoint an arc of junior assistants of the scriptoria. A fine rain of droplets stains their papers and books.\n\nIn the moment, however, the world has become indistinct. A feeling like the familiar drift of zero-g overcomes you.",
+    "translated": ""
+  }
+]

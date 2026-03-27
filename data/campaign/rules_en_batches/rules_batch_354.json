@@ -1,0 +1,82 @@
+[
+  {
+    "csv_row": 10834,
+    "id": "gaDHOvisitElekHubSelA4b",
+    "column": "options",
+    "option_line": "gaDHO_visitElekHubSelA5b:\"Glad to hear it. I expect more than 100,000 credits, plus hazard.\"",
+    "original": "Glad to hear it. I expect more than 100,000 credits, plus hazard.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10835,
+    "id": "gaDHOvisitElekHubSelA5a",
+    "column": "options",
+    "option_line": "gaDHO_visitElekHubSelA6a:\"So it is Tri-Tachyon. They can afford at least 200,000 credits, plus hazard.\"",
+    "original": "So it is Tri-Tachyon. They can afford at least 200,000 credits, plus hazard.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10839,
+    "id": "gaDHOvisitElekHubSelA4bKnow",
+    "column": "options",
+    "option_line": "gaDHO_visitElekHubSelZGRa:\"Glad to hear it. I expect more than 100,000 credits, plus hazard.\"",
+    "original": "Glad to hear it. I expect more than 100,000 credits, plus hazard.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10839,
+    "id": "gaDHOvisitElekHubSelA4bKnow",
+    "column": "options",
+    "option_line": "gaDHO_visitElekHubSelZGRb:\"Tri-Tachyon can afford at least 200,000 credits, plus hazard.\"",
+    "original": "Tri-Tachyon can afford at least 200,000 credits, plus hazard.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10843,
+    "id": "gaDHOvisitElekAskPatron",
+    "column": "options",
+    "option_line": "gaDHO_visitElekAskPatron2a:\"More noble, by far, is your willingness to take up this cause.\" (lie)",
+    "original": "More noble, by far, is your willingness to take up this cause.\" (lie)",
+    "translated": ""
+  },
+  {
+    "csv_row": 10845,
+    "id": "gaDHOvisitElekAskPatron2b",
+    "column": "options",
+    "option_line": "gaDHO_visitElekAskPatron3:Nod enthusiastically as if you are entranced by his words",
+    "original": "Nod enthusiastically as if you are entranced by his words",
+    "translated": ""
+  },
+  {
+    "csv_row": 10847,
+    "id": "gaDHOvisitElekHubSelC",
+    "column": "options",
+    "option_line": "gaDHO_visitElekHubSelC2b:\"Aren't you a planetologist? This seems outside your field.\"",
+    "original": "Aren't you a planetologist? This seems outside your field.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10859,
+    "id": "gaDHOvisitElekAgainAccept2a",
+    "column": "options",
+    "option_line": "0:cutCommLink:Cut the commlink",
+    "original": "cutCommLink:Cut the commlink",
+    "translated": ""
+  },
+  {
+    "csv_row": 10860,
+    "id": "gaDHOvisitElekAgainAccept2b",
+    "column": "options",
+    "option_line": "0:cutCommLink:Cut the commlink",
+    "original": "cutCommLink:Cut the commlink",
+    "translated": ""
+  },
+  {
+    "csv_row": 10861,
+    "id": "gaDHOvisitElekAgainDecline",
+    "column": "options",
+    "option_line": "0:cutCommLink:Cut the commlink",
+    "original": "cutCommLink:Cut the commlink",
+    "translated": ""
+  }
+]

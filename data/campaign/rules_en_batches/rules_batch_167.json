@@ -1,0 +1,82 @@
+[
+  {
+    "csv_row": 4084,
+    "id": "genericBarEventBackToBar",
+    "column": "options",
+    "option_line": "backToBar:Jeter un œil autour du bar",
+    "original": "Jeter un œil autour du bar",
+    "translated": ""
+  },
+  {
+    "csv_row": 4100,
+    "id": "goToGA_barEvent1a",
+    "column": "options",
+    "option_line": "goToGA_barEvent2a:Lever un verre",
+    "original": "Lever un verre",
+    "translated": ""
+  },
+  {
+    "csv_row": 4100,
+    "id": "goToGA_barEvent1a",
+    "column": "options",
+    "option_line": "goToGA_barEvent2b:Le poser sur le comptoir",
+    "original": "Le poser sur le comptoir",
+    "translated": ""
+  },
+  {
+    "csv_row": 4101,
+    "id": "goToGA_barEvent1b",
+    "column": "options",
+    "option_line": "goToGA_barEvent2a:Lever un verre",
+    "original": "Lever un verre",
+    "translated": ""
+  },
+  {
+    "csv_row": 4101,
+    "id": "goToGA_barEvent1b",
+    "column": "options",
+    "option_line": "goToGA_barEvent2b:Le poser sur le comptoir",
+    "original": "Le poser sur le comptoir",
+    "translated": ""
+  },
+  {
+    "csv_row": 4105,
+    "id": "goToGA_barEvent4",
+    "column": "options",
+    "option_line": "backToBar:Revenir au bar",
+    "original": "Revenir au bar",
+    "translated": ""
+  },
+  {
+    "csv_row": 4108,
+    "id": "gaRequestMeeting",
+    "column": "options",
+    "option_line": "0:gaRequestMeeting1:Suivre the junior academy agent",
+    "original": "gaRequestMeeting1:Suivre the junior academy agent",
+    "translated": ""
+  },
+  {
+    "csv_row": 4123,
+    "id": "gaRequestMeeting5c",
+    "column": "options",
+    "option_line": "3:gaMeetingStipend:Questionner sur l'allocation que vous recevez",
+    "original": "gaMeetingStipend:Questionner sur l'allocation que vous recevez",
+    "translated": ""
+  },
+  {
+    "csv_row": 4131,
+    "id": "bairdGreetingGoAway",
+    "column": "options",
+    "option_line": "100:cutCommLinkNoText:Couper la comm",
+    "original": "cutCommLinkNoText:Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 4134,
+    "id": "bairdIntroGreeting",
+    "column": "options",
+    "option_line": "0:cutCommLink:Couper les comms",
+    "original": "cutCommLink:Couper les comms",
+    "translated": ""
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "csv_row": 5331,
+    "id": "gaATGIntroHub1option2",
+    "column": "options",
+    "option_line": "2:gaATG_introAsk2:\"Pourquoi cette personne de Yaribay m'aiderait-elle ? Ou vous ?\"",
+    "original": "gaATG_introAsk2:\"Pourquoi cette personne de Yaribay m'aiderait-elle ? Ou vous ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 5332,
+    "id": "gaATGIntroHub1option2PL",
+    "column": "options",
+    "option_line": "gaATG_introAsk2:\"Why would Gens Yaribay help you?\"",
+    "original": "Why would Gens Yaribay help you?",
+    "translated": ""
+  },
+  {
+    "csv_row": 5335,
+    "id": "gaATGintroAskMePL",
+    "column": "text",
+    "original": "\"A demarchon.\" Baird speaks the title with dismissive amusement.\n\n\"It is the gens that control Kazeron - and half the member-worlds, besides. And Kazeron is the League.\" \n\n\"If you do not bear accreditation in the name of Hannan, Yaribay, or Kato then you're not going to be taken seriously.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 5341,
+    "id": "gaATGIntroGotItPL",
+    "column": "text",
+    "original": "\"Go to Kazeron,\" Baird says. \"Remind your fellow League demarchon Horus Yaribay of how he and I stand.\"\n\n\"Then, when you meet High Hegemon Daud, tell him that the rewards of the Galatia Academy's research will be exclusive this time. I'll provide you the documents to give him.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 5348,
+    "id": "gaATGgetScannerStart2",
+    "column": "options",
+    "option_line": "gaATG_getScanner1a:\"Que voulez-vous exactement que je fasse ?\"",
+    "original": "Que voulez-vous exactement que je fasse ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 5348,
+    "id": "gaATGgetScannerStart2",
+    "column": "options",
+    "option_line": "gaATG_getScanner1b:Se racler la gorge impatiently",
+    "original": "Se racler la gorge impatiently",
+    "translated": ""
+  },
+  {
+    "csv_row": 5356,
+    "id": "gaATGgetScanner5",
+    "column": "options",
+    "option_line": "gaATG_getScannerMore:\"Que disiez-vous ?\"",
+    "original": "Que disiez-vous ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 5357,
+    "id": "gaATGgetScannerMore",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 5358,
+    "id": "gaATGgetScannerMoreOptionA",
+    "column": "options",
+    "option_line": "gaATG_getScannerMoreA:\"Qui est Elissa ?\"",
+    "original": "Qui est Elissa ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 5366,
+    "id": "gaATGgetScannerMoreOptionEnd",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  }
+]

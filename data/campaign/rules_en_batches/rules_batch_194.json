@@ -1,0 +1,79 @@
+[
+  {
+    "csv_row": 4931,
+    "id": "postGAFCNewArchonC",
+    "column": "options",
+    "option_line": "postGAFC_newArchonAskFamiliar:\"You look familiar...\"",
+    "original": "You look familiar...",
+    "translated": ""
+  },
+  {
+    "csv_row": 4934,
+    "id": "postGAFCnewArchonAskYoung",
+    "column": "text",
+    "original": "\"Not at all,\" he says, quite seriously.\n\n\"I bring the dynamism and culture of Kazeron to this staid backwater, and it will be much improved by my example and leadership.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 4935,
+    "id": "postGAFCnewArchonAskFamiliar",
+    "column": "text",
+    "original": "He smiles, turning his head slightly into a practiced angle to better emphasize his jawline.\n\n\"That would be Gens Hannan you recognize, $playerSirOrMadam\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 4938,
+    "id": "postGAFCNewArchon2opts",
+    "column": "options",
+    "option_line": "postGAFC_newArchonAsk3b:\"This post must be a terrible burden. Thank you for your service.\" (sarcastic)",
+    "original": "This post must be a terrible burden. Thank you for your service.\" (sarcastic)",
+    "translated": ""
+  },
+  {
+    "csv_row": 4938,
+    "id": "postGAFCNewArchon2opts",
+    "column": "options",
+    "option_line": "postGAFC_newArchonAsk3:\"This post must be a terrible burden. Thank you for your service.\"",
+    "original": "This post must be a terrible burden. Thank you for your service.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4939,
+    "id": "postGAFCNewArchon2optsPL",
+    "column": "options",
+    "option_line": "postGAFC_newArchonDemarchonCorrection:\"Demarchon. Not captain. I lead a member-polity in the League.\"",
+    "original": "Demarchon. Not captain. I lead a member-polity in the League.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4939,
+    "id": "postGAFCNewArchon2optsPL",
+    "column": "options",
+    "option_line": "postGAFC_newArchonAsk3b:\"This must be terrible for you. Thank you for your service.\" (sarcastic)",
+    "original": "This must be terrible for you. Thank you for your service.\" (sarcastic)",
+    "translated": ""
+  },
+  {
+    "csv_row": 4939,
+    "id": "postGAFCNewArchon2optsPL",
+    "column": "options",
+    "option_line": "postGAFC_newArchonAsk3:\"This must be terrible for you. Thank you for your service.\"",
+    "original": "This must be terrible for you. Thank you for your service.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4940,
+    "id": "postGAFCnewArchonDemarchonCorrection",
+    "column": "text",
+    "original": "\"Is that so?\" $HeOrShe raises an eyebrow.\n\n\"How charming. I'm sure your contribution to our League will be acknowledged sooner or later.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 4940,
+    "id": "postGAFCnewArchonDemarchonCorrection",
+    "column": "options",
+    "option_line": "postGAFC_newArchonAsk3b:\"This post must be a terrible burden. Thank you for your service.\" (sarcastic)",
+    "original": "This post must be a terrible burden. Thank you for your service.\" (sarcastic)",
+    "translated": ""
+  }
+]

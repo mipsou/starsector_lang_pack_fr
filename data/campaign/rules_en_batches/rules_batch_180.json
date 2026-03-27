@@ -1,0 +1,79 @@
+[
+  {
+    "csv_row": 4573,
+    "id": "GAFCSiyavongFikenhildHubB6",
+    "column": "options",
+    "option_line": "gaFC_fikenhildSiyavongLeague:\"As a demarchon of the League, you work for me. Remember?\"",
+    "original": "As a demarchon of the League, you work for me. Remember?",
+    "translated": ""
+  },
+  {
+    "csv_row": 4583,
+    "id": "GAFCSiyavongFikenhildOtherPeople2",
+    "column": "text",
+    "original": "\"Coureuse is in the Isirah system, of course. I will provide you-\" he pauses dramatically as he taps something out on his desk console. Your TriPad pings, \"-with a plausible-looking data intercept of a communication between her and Mr. Cavin Pharoh to 'prove' the success of your search here.\"\n\nHe puts his hands together, not quite hiding his grin. \"Provost Baird will be pleased, I'm sure.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 4584,
+    "id": "GAFCSiyavongFikenhildBaird",
+    "column": "options",
+    "option_line": "gaFC_fikenhildSiyavongCoureuseIsirah:\"Et qu'est-ce que c'est ?\"",
+    "original": "Et qu'est-ce que c'est ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 4585,
+    "id": "GAFCSiyavongFikenhildContactZal",
+    "column": "options",
+    "option_line": "gaFC_fikenhildSiyavongZal:Transmettre l'identifiant comm d'Elissa Zal",
+    "original": "Transmettre l'identifiant comm d'Elissa Zal",
+    "translated": ""
+  },
+  {
+    "csv_row": 4585,
+    "id": "GAFCSiyavongFikenhildContactZal",
+    "column": "options",
+    "option_line": "gaFC_fikenhildSiyavongHubB:\"Je ne pense pas.\"",
+    "original": "Je ne pense pas.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4587,
+    "id": "GAFCSiyavongMeLeague",
+    "column": "options",
+    "option_line": "gaFC_fikenhildSiyavongLeague2a:\"And that's what makes the League great. Do go on.\"",
+    "original": "And that's what makes the League great. Do go on.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4587,
+    "id": "GAFCSiyavongMeLeague",
+    "column": "options",
+    "option_line": "gaFC_fikenhildSiyavongLeague2b:\"That's the right attitude. So where's Coureuse?\"",
+    "original": "That's the right attitude. So where's Coureuse?",
+    "translated": ""
+  },
+  {
+    "csv_row": 4588,
+    "id": "GAFCSiyavongMeLeague2a",
+    "column": "text",
+    "original": "Siyavong puts on a dutifully, if not quite friendly, expression at your sudden display of patriotism.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4589,
+    "id": "GAFCSiyavongMeLeague2b",
+    "column": "text",
+    "original": "\"Direct to the last,\" Siyavong says to himself, patience not quite frayed. Not quite.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4591,
+    "id": "GAFCSiyavongFikenhildRevealOpt1",
+    "column": "options",
+    "option_line": "gaFC_fikenhildSiyavongHowKnowBaird:\"How do you know about Baird?\"",
+    "original": "How do you know about Baird?",
+    "translated": ""
+  }
+]

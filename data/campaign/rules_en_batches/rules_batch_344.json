@@ -1,0 +1,81 @@
+[
+  {
+    "csv_row": 10392,
+    "id": "PKSentinelOutSequenceAgain",
+    "column": "options",
+    "option_line": "defaultLeave:Revenir to orbit",
+    "original": "Revenir to orbit",
+    "translated": ""
+  },
+  {
+    "csv_row": 10394,
+    "id": "PKSentinelInteractionAgain",
+    "column": "options",
+    "option_line": "pkSentinel_shuttle:Descendre en navette",
+    "original": "Descendre en navette",
+    "translated": ""
+  },
+  {
+    "csv_row": 10408,
+    "id": "PKTellAboutSentinelOutOptC",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 10409,
+    "id": "PKTellAboutSentinelAIFleet",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 10410,
+    "id": "PKTellAboutSentinelAIFleetHegCom",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 10423,
+    "id": "shrineFleetConvOutDefault",
+    "column": "options",
+    "option_line": "shrineConvOut:Parler d'autre chose",
+    "original": "Parler d'autre chose",
+    "translated": ""
+  },
+  {
+    "csv_row": 10425,
+    "id": "shrineFleetConvHostile2",
+    "column": "options",
+    "option_line": "shrineConvOut:\"Nous verrons bien.\"",
+    "original": "Nous verrons bien.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10426,
+    "id": "shrineFleetConvHostile3",
+    "column": "options",
+    "option_line": "shrineConvHostile3Response:\"Quoi ? Je ne suis pas un monstre.\"",
+    "original": "Quoi ? Je ne suis pas un monstre.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10434,
+    "id": "shrineConvShrineResponseKilla",
+    "column": "text",
+    "original": "\"Nous voyageons vers le monde mort de Killa.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 10434,
+    "id": "shrineConvShrineResponseKilla",
+    "column": "options",
+    "option_line": "shrineConv_askKilla:\"Killa est une ruine. Comment peut-il y avoir un sanctuaire ?\"",
+    "original": "Killa est une ruine. Comment peut-il y avoir un sanctuaire ?",
+    "translated": ""
+  }
+]

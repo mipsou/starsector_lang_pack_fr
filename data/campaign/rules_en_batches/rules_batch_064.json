@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 2592,
+    "id": "BFFIonBoardAskRelic5e",
+    "column": "text",
+    "original": "He glances at you with a fleeting grimace of self-reflection.\n\n\"With further apology for the ramble through theology, captain; the matter of the false relic should be our focus.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2593,
+    "id": "BFFIonBoardAskRelic5f",
+    "column": "text",
+    "original": "Mention of Cotton dims Bornanew's expression. \"He's read the Word, too, of course. In his way.\"\n\nHe sighs, deeply. \"Let his crimes, worldly and spiritual, serve as bloody warning of the path those... that those uncertain of their faith might be compelled to follow. I pray it weren't so.\"\n\n\"Which, with apologies for the ramble through theology, brings us back to the false relic.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2594,
+    "id": "BFFIonBoardAskTart4",
+    "column": "text",
+    "original": "Bornanew gives you a look.\n\n\"It's a tedious story. And unimportant.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2595,
+    "id": "BFFIonBoardAskPlan1",
+    "column": "text",
+    "original": "Bornanew closes his book of notes.\n\n\"It has been made clear to me that the Church would like this problem, this false idol, to quietly disappear,\" he says. \"It can only tear open old rifts within the Church which would weaken the resolve of the Faithful. It would turn walker against walker in troubling times which promise naught but more trouble.\"\n\n\"I am prepared to ask nicely, but I do not believe Menes will agree to give someone like myself his glove.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2595,
+    "id": "BFFIonBoardAskPlan1",
+    "column": "options",
+    "option_line": "bffi_onBoardPlanToMe:\"But you think he might listen to someone like me.\"",
+    "original": "But you think he might listen to someone like me.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2595,
+    "id": "BFFIonBoardAskPlan1",
+    "column": "options",
+    "option_line": "bffi_onBoardPlanBuy:\"We could offer to buy it.\"",
+    "original": "We could offer to buy it.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2595,
+    "id": "BFFIonBoardAskPlan1",
+    "column": "options",
+    "option_line": "bffi_onBoardPlanSteal:\"We could steal it.\"",
+    "original": "We could steal it.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2595,
+    "id": "BFFIonBoardAskPlan1",
+    "column": "options",
+    "option_line": "bffi_onBoardPlanHorus:\"I could talk to Horus Yaribay. He leads his gens, presumably.\"",
+    "original": "I could talk to Horus Yaribay. He leads his gens, presumably.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2598,
+    "id": "BFFIonBoardPlanOptsHorus",
+    "column": "text",
+    "original": "\"Interesting.\" Bornanew rubs his chin. \"If you believe Horus will be receptive to you bearing this... news. I wonder if it may be as simple as that.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2600,
+    "id": "BFFIonBoardPlanOptsBuy",
+    "column": "text",
+    "original": "\"You could.\" Bornanew emphasizes 'you'. \"The Church refuses to acknowledge the false relic.\"",
+    "translated": ""
+  }
+]

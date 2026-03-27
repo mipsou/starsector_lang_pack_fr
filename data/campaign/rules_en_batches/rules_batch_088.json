@@ -1,0 +1,72 @@
+[
+  {
+    "csv_row": 2861,
+    "id": "BFFImpBuyerHub3OptDep225k",
+    "column": "text",
+    "original": "Menes smirks, and holds out his TriPad, ready to accept your transfer code. Perhaps he feels like he's calling your bluff.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2862,
+    "id": "BFFImpBuyerHub3OptDep250k",
+    "column": "text",
+    "original": "Menes smirks, and holds out his TriPad, ready to accept your transfer code. Perhaps he feels like he's calling your bluff.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2863,
+    "id": "BFFImpBuyerHub3OptDepDone",
+    "column": "text",
+    "original": "You tap your TriPad to his and it gives a happy little ping.\n\n\"Ah,\" Menes looks down to confirm. \"So you are serious. I must admit, your decisiveness is impressive. Most spacer captains, they're all talk. You,\" he lifts his eyebrows like a conspirator, \"mean business.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2867,
+    "id": "BFFImpBuyerHub3OptArroyo",
+    "column": "text",
+    "original": "\"Rayan Arroyo, you say?\" Menes perks up. \"Yes, I do believe I've met the man. An honest dealer. No-nonsense. Good head on his shoulders. Fantastic taste... have you met his tailor? Stars above, a wonder! I should have them cloned.\"\n\n\"Well,\" he nods to himself, \"I admit this does change my perspective. You should have mentioned him before!\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2868,
+    "id": "BFFImpBuyerHub3OptHorus",
+    "column": "text",
+    "original": "You draw your TriPad and demonstrate.\n\n\"By the stars, he did,\" Menes says, eyes wide. \"I knew I recognized your name from somewhere! There must have been a comms sent to the upper gens about this ploy Horus was running. That's cousin Horus for you, isn't it? Always pushing his little projects.\"\n\n\"Well,\" he looks as if he's reappraising you, \"If you're good enough for cousin Horus, I suppose I could be convinced to make certain allowances.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2869,
+    "id": "BFFImpBuyerHub3OptE2",
+    "column": "text",
+    "original": "\"Captain $playerName trusts you implicitly,\" Bornanew explains, \"So as $playerHisOrHer advisor, I must act the skeptic. I assure you, Demarch Yaribay, it brings me no pleasure to appear to question and besmirch your fine reputation.\"\n\nHe speaks with such sincerity, for just a moment you can almost believe $global.jethroName isn't lying.\n\n\"Consider it a policy of 'trust, but verify'. We trust you, of course. But what of your source? We would never wish to see you cheated, but alas, I know too well that sin which lives in the human heart... If anything, I believe your only weakness is being too kind a spirit, too generous a benefactor.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2870,
+    "id": "BFFImpBuyerHub3OptE3",
+    "column": "text",
+    "original": "Menes begins to nod, especially as Bornanew hits the last part of his 'explanation'.\n\n\"Yes,\" he exhales, \"I suppose you're right. I am, if anything, too giving. This was so true on Kazeron, where the resentful and dishonest sought to tear me down and entrap me in one scandal after another.\"\n\n\"Out here, the social environment is more rarified, more, dare I say it? Honest. Even if it is a hopeless backwater, I do try to illuminate the locals with the light of Kazeronian culture...\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2871,
+    "id": "BFFImpBuyerHub3Sum4",
+    "column": "text",
+    "original": "\"Well, I suppose that does it!\" Menes claps his hands together.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2873,
+    "id": "BFFImpBuyerHub3Sum4out2",
+    "column": "text",
+    "original": "\"Certainly! I'll have my secretary make the arrangements. But first - a toast to the start of what I am sure will be a bountiful partnership! Back to the party!\"\n\n\"Even you,\" he slaps a hand on Bornanew's shoulder, pulling him along, \"Surely you know how to celebrate a deal, my dour unbeliever? Perhaps not, so I'll show you!\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2874,
+    "id": "BFFImpBuyerOutro1",
+    "column": "text",
+    "original": "You and Bornanew are hauled back into the party, and the small crowd regaled with insinuations about a 'large purchase' by an unnamed 'wealthy spacer captain'.\n\nMenes grows less discreet, winking and nudging with each retelling - and with each additional round of drinks. His dutiful entourage joins in to toast a 'new business deal' and theorize about extensions to Menes' complex.\n\nYou can see the skinny man, Ulmus Pond, watching you. He has a particularly manic, piercing laugh.\n\nIt is some time before you are able to get a quiet word in with $global.jethroName.",
+    "translated": ""
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "csv_row": 3404,
+    "id": "BFFIarrest5",
+    "column": "text",
+    "original": "Bornanew approaches a proud figure all in holy vestments at the head of the room.\n\n\"Subcurate Cedra Keepfaith.\" $global.jethroName's voice is confident.\n\nThe figure turns, finally. \"Novice,\" she replies, tone intent on the gradient of authority. \"Why have you returned to my scriptorium? Have you been assigned additional penitential duties?\"\n\nA mocking smile flits upon her lip.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3404,
+    "id": "BFFIarrest5",
+    "column": "options",
+    "option_line": "bffi_arrest6:Watch him work",
+    "original": "Watch him work",
+    "translated": ""
+  },
+  {
+    "csv_row": 3405,
+    "id": "BFFIarrest6",
+    "column": "text",
+    "original": "\"It was you,\" Bornanew says with perfect earnestness.\n\n\"You scanned the glove said to be of Ludd. You did this in the vault of this cathedral, and you knowingly passed that scan data to an agent of the heretics called the Luddic Path. Their aim, and yours, was to sow discord within the Church of Galactic Redemption. This I shall prove before the judgement of the Inquisitors.\"\n\n\"For these crimes,\" he raises his voice against the growing murmurs, \"against the Holy Church, by the authority of the Reverend Archcurate Sophronia Jaspis, as a Knight of Ludd, I do now place you under arrest.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3406,
+    "id": "BFFIarrest6bb",
+    "column": "text",
+    "original": "\"It was you,\" Bornanew says with perfect earnestness. \"Traitor.\"\n\n\"You scanned the glove said to be of Ludd. You did this in the vault of this cathedral, and you knowingly passed that scan data to an agent of the heretics called the Luddic Path. Their aim, and yours, was to sow discord within the Church of Galactic Redemption. This I know, and this truth the Inquisitors shall pull from you!\"\n\n\"For these crimes,\" he raises his voice against the growing murmurs, \"against the Holy Church, by the authority of the Reverend Archcurate Sophronia Jaspis, as a Knight of Ludd, I do now place you under arrest.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3407,
+    "id": "BFFIarrest7",
+    "column": "text",
+    "original": "There are gasps, and a muffled clatter as some initiate drops their work. Keepfaith's gaze, already chilly, turns poisonous upon Bornanew.\n\n\"Blind Jaspis has no power here,\" she says. \"And you, a mere novice of a Knight, making ungodly accusations against a superior? I shall assign you further penance if a full apology is not made... instantly!\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3408,
+    "id": "BFFIarrest8",
+    "column": "text",
+    "original": "\"Brother Bornanew,\" a Knight-Captain appears behind the angry subcurate.\n\nHe attempts a comradely tone, his carbine slung at his side.\n\n\"Please,\" he says. \"Let us go together to resolve this misunderstanding with the archcurate of this cathedral. There is no need to herein bear the hammer and the sword-\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3409,
+    "id": "BFFIarrest9",
+    "column": "text",
+    "original": "\"There is no misunderstanding, brother,\" Bornanew cuts off the Knight-Captain's words, keeping his eyes on Keepfaith. \"I bear my quest not lightly, and seek to fulfill my duty sworn to the Excubitor Orbis.\"\n\nHe reaches into his robes.\n\n\"Knight-Captain,\" says Keepfaith, drawing her breath. \"Arrest your novice! He's to be punished for irreverence toward the authority of the Church and, and for these wild accusations!\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3410,
+    "id": "BFFIarrest10",
+    "column": "text",
+    "original": "Bornanew steps forward, prompting the Knight-Captain to raise the carbine he had held at his side. A hint of victory settles into Keepfaith's eyes.\n\n\"You dare assault a curate in this holy place?\" she says, projecting her voice to all corners of the room, ringing harshly. \"Is there no low to which this too-old novice won't sink?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3413,
+    "id": "BFFIarrest13",
+    "column": "text",
+    "original": "He steps forward again, pushing the barrel of the Knight-Captain's carbine into his chest. The Knight-Captain looks desperately uncomfortable. \"Brother,\" he says again, pleading.\n\n\"Do your duty, Knight-Captain!\" shouts Keepfaith. \n\nBornanew takes another step, bodily pushing back the Knight-Captain, still cradling the carbine. Finger on the trigger.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3413,
+    "id": "BFFIarrest13",
+    "column": "options",
+    "option_line": "bffi_arrestNoMove0:Make no sudden movements",
+    "original": "Make no sudden movements",
+    "translated": ""
+  }
+]

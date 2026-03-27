@@ -1,0 +1,73 @@
+[
+  {
+    "csv_row": 3395,
+    "id": "BFFIarrestOppo3b",
+    "column": "text",
+    "original": "\"As you will,\" he says. \"Just... I beg you follow my lead.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3396,
+    "id": "BFFIarrestOppo3c",
+    "column": "text",
+    "original": "He laughs. \"Boldly spoken from yourself, captain.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3397,
+    "id": "BFFIarrestOppo3d",
+    "column": "text",
+    "original": "\"I am,\" he says with a laugh, \"aren't I.\"\n\nHis expression grows serious after a moment. \"And yes, it must.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3398,
+    "id": "BFFIarrestEnter",
+    "column": "text",
+    "original": "You stand together at last in the plaza under the huge archway of the cathedral's entrance. Bornanew meets a uniformed though unarmored Knight to exchange a few words. Bornanew shows the Knight something in his hand which he returns to pocket in his robes.\n\nThe Knight steps aside, and allows you to enter, bypassing the lines of pilgrims awaiting the mid-morning prayer.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3398,
+    "id": "BFFIarrestEnter",
+    "column": "options",
+    "option_line": "bffi_arrest1:Enter the Cathedral of Holy Exodus",
+    "original": "Enter the Cathedral of Holy Exodus",
+    "translated": ""
+  },
+  {
+    "csv_row": 3399,
+    "id": "BFFIarrest1",
+    "column": "text",
+    "original": "You enter the great nave of the Cathedral of Holy Exodus.\n\nAmong towering columns are affixed recovered landing pods of the early Luddic refugee ships, now integrated into the vaults, painted with gilt and green, bedecked with candles and hanging glass ornaments which break the beams of the sun - filtered through ranks of high windows - into thousands of rainbow shards, endlessly refracting.\n\nIt is an ecstasy of light, a galaxy unto itself.\n\nBornanew pauses beside you, looking upward. Could one old work-glove and a lie tip all of this down to shatter upon the ground?",
+    "translated": ""
+  },
+  {
+    "csv_row": 3400,
+    "id": "BFFIarrest1b",
+    "column": "text",
+    "original": "You enter the great nave of the Cathedral of Holy Exodus.\n\nAmong towering columns are affixed recovered landing pods of the early Luddic refugee ships, now integrated into the vaults, painted with gilt and green, bedecked with candles and hanging glass ornament which break the beams of the sun - filtered through ranks of high windows - into thousands of rainbow shards endlessly refracting.\n\nIt is an ecstasy of light, a galaxy unto itself.\n\nBornanew pauses beside you, catching his breath, looking upward. Could one old work-glove and a lie tip all of this down to shatter upon the ground?",
+    "translated": ""
+  },
+  {
+    "csv_row": 3401,
+    "id": "BFFIarrest2",
+    "column": "text",
+    "original": "He leads you to a small alcove, invisible at the foot of the luminous architectural forest of cut stone and carved wood. And there, after exchanging words with an attendant, a door is revealed in the ornately carved wall.\n\nYou follow Bornanew's lead, stepping out of the glory of light into a cool, dark space. Your eyes take a moment to adjust to the dimness and relatively mundane - though still ornately hand-wrought - decor.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3402,
+    "id": "BFFIarrest3",
+    "column": "text",
+    "original": "There are halls and offices here, lit not by candles but humble glowplates belched legion from Asher's nanoforge. The walls of cut stone are trimmed with alternating panels and mouldings of wood.\n\nBornanew's words and the token, presumably provided by the Archcurate Jaspis, clear a path through frowning oblate-secretaries and young Knight-novices on guard duty.\n\nNot all are so dour; one or two initiates, scurrying by with armloads of books, greet Bornanew by name.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3403,
+    "id": "BFFIarrest4",
+    "column": "text",
+    "original": "You follow Bornanew into a long room, a gallery of columns intermingled with bookcases; cleverly designed lightwells - and, surely, a series of mirrors - provide shafts of sunlight, motes dancing with little concern in their small world within this analog archive. \n\nHeads turn to follow your progress past desks stacked with paper books, writing implements, and even the occasional low-fidelity interface terminal.\n\nYour tactical sense notes the figures at side-doors who disappear purposefully, clearly headed off to spread this news and summon gawkers - or allies.\n\nYour weapon-hand twitches.",
+    "translated": ""
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 2561,
+    "id": "BFFIonBoardYarbRespC",
+    "column": "options",
+    "option_line": "BFFI_onBoardingYarb2know:Explain this to $global.jethroName",
+    "original": "Explain this to $global.jethroName",
+    "translated": ""
+  },
+  {
+    "csv_row": 2563,
+    "id": "BFFIonBoardYarbRespBconfess",
+    "column": "text",
+    "original": "Bornanew looks concerned as you describe your dealings. \"Your conscience, your soul, is between you and- well, I am not your judge or confessor.\"\n\n\"From a practical standpoint, I would advise caution in asking too much of Horus of Gens Yaribay, to his face or behind it. He may know but choose not to act on your transgression.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2564,
+    "id": "BFFIonBoardYarbRespBnoConfess",
+    "column": "text",
+    "original": "A brief look of concern crosses Bornanew's face, and he pauses as if composing an awkward question. He puts his hand back down on the table, seeming to dismiss the notion, and responds in a different tone.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2565,
+    "id": "BFFIonBoardYarb2knowEm",
+    "column": "text",
+    "original": "\"This is providential,\" he says, nodding. \"Your previous dealings with Horus Yaribay could open an easier path to resolving the Church's problem.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2566,
+    "id": "BFFIonBoardYarb2",
+    "column": "text",
+    "original": "He nods and proceeds.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2567,
+    "id": "BFFIonBoardYarb3",
+    "column": "text",
+    "original": "\"The question, then, is how Horus Yaribay, the nominal gens leader, views Menes Yaribay's recent interest in religious artifacts.\"\n\nBornanew flips through his paper book, not really taking the time to read the dense notes therein. He runs a finger across lists of names.\n\n\"Not long ago Menes Yaribay was assigned the office of demarch, in essence the executive administrator, of Olinadu in the Kumari Kandam system. It is not a prestigious post. Olinadu is a small mining colony and the system is rife with Luddic Path activity. It is a dangerous, corrupt place.\"\n\nBornanew eye's return to you. \"This is why I need your help.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2568,
+    "id": "BFFIonBoardMenesOpt1",
+    "column": "options",
+    "option_line": "BFFI_onBoardAskMenes:\"You've done your research. Tell me about Menes Yaribay himself.\"",
+    "original": "You've done your research. Tell me about Menes Yaribay himself.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2569,
+    "id": "BFFIonBoardMenesOpt2",
+    "column": "options",
+    "option_line": "BFFI_onBoardAskInCharge:\"How did a Kazeron aristocrat get put in charge of Olinadu?\"",
+    "original": "How did a Kazeron aristocrat get put in charge of Olinadu?",
+    "translated": ""
+  },
+  {
+    "csv_row": 2570,
+    "id": "BFFIonBoardMenesOpt3",
+    "column": "options",
+    "option_line": "BFFI_onBoardAskRelic:\"Tell me more about the relic at the center of this. What is it?\"",
+    "original": "Tell me more about the relic at the center of this. What is it?",
+    "translated": ""
+  },
+  {
+    "csv_row": 2571,
+    "id": "BFFIonBoardMenesOpt4",
+    "column": "options",
+    "option_line": "BFFI_onBoardAskTart4:\"Wait, why's the real glove on Tartessus if Ludd removed it on Gilead?\"",
+    "original": "Wait, why's the real glove on Tartessus if Ludd removed it on Gilead?",
+    "translated": ""
+  }
+]

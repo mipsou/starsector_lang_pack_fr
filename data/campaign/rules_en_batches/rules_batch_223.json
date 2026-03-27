@@ -1,0 +1,81 @@
+[
+  {
+    "csv_row": 6629,
+    "id": "soeIntroNeriene1punch",
+    "column": "options",
+    "option_line": "soe_introNeriene2:\"En effet. Caspian s'en allait justement.\"",
+    "original": "En effet. Caspian s'en allait justement.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6630,
+    "id": "soeIntroNeriene1",
+    "column": "options",
+    "option_line": "soe_introNeriene2a:\"En effet. C'est un plaisir de vous rencontrer.\"",
+    "original": "En effet. C'est un plaisir de vous rencontrer.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6630,
+    "id": "soeIntroNeriene1",
+    "column": "options",
+    "option_line": "soe_introNeriene2:\"En effet. Caspian s'en allait justement.\"",
+    "original": "En effet. Caspian s'en allait justement.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6645,
+    "id": "soeDanceStarting2c",
+    "column": "options",
+    "option_line": "soe_danceEscape1:\"Non. Je vais partir maintenant.\"",
+    "original": "Non. Je vais partir maintenant.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6647,
+    "id": "soeDanceStarting2d",
+    "column": "options",
+    "option_line": "soe_danceStarting2b:Reposer le verre",
+    "original": "Reposer le verre",
+    "translated": ""
+  },
+  {
+    "csv_row": 6647,
+    "id": "soeDanceStarting2d",
+    "column": "options",
+    "option_line": "soe_danceStarting2a:Vider le verre d'un trait et le reposer",
+    "original": "Vider le verre d'un trait et le reposer",
+    "translated": ""
+  },
+  {
+    "csv_row": 6647,
+    "id": "soeDanceStarting2d",
+    "column": "options",
+    "option_line": "soe_danceEscape1:\"Euh. Je vais partir maintenant.\"",
+    "original": "Euh. Je vais partir maintenant.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6648,
+    "id": "soeDanceStarting2g",
+    "column": "text",
+    "original": "Elle vous lance un regard sceptique. \"Vous sentez-vous bien, $playerSirOrMadam ?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 6648,
+    "id": "soeDanceStarting2g",
+    "column": "options",
+    "option_line": "soe_danceStarting2b:\"Que souhaitez-vous faire ?\"",
+    "original": "Que souhaitez-vous faire ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 6648,
+    "id": "soeDanceStarting2g",
+    "column": "options",
+    "option_line": "soe_danceEscape1:\"Euh. Je vais partir maintenant.\"",
+    "original": "Euh. Je vais partir maintenant.",
+    "translated": ""
+  }
+]

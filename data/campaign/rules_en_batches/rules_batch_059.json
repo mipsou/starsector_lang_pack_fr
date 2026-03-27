@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 2541,
+    "id": "BFINnotNow2Gilead",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 2543,
+    "id": "BFINcontactBornanew",
+    "column": "options",
+    "option_line": "BFIN_repriseStart:\"About the matter of your fake relic...\"",
+    "original": "About the matter of your fake relic...",
+    "translated": ""
+  },
+  {
+    "csv_row": 2544,
+    "id": "BFINrepriseStart",
+    "column": "text",
+    "original": "\"Yes, it is still an ongoing concern,\" he says. \"Have you given my request more thought?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2547,
+    "id": "BFFIaccept1",
+    "column": "text",
+    "original": "Bornanew looks almost surprised at your words. He does not pray, or thank Providence. He simply looks directly at you through the waver of the comm-link.\n\n\"Thank you, captain. Against all odds, you've cast a light upon my path toward redemption.\"\n\nPerhaps apologetic for the moment of earnestness, he quickly adds, \"I am prepared to leave when you are ready for me. I shall await word of your shuttle.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2548,
+    "id": "BFFIshuttleBornanew",
+    "column": "text",
+    "original": "Traffic control is mercifully efficient when arranging transport for a Knight of Ludd.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2550,
+    "id": "BFFIshuttleBornanew2",
+    "column": "text",
+    "original": "Before long, Novice Bornanew steps aboard your flagship carrying only a small satchel of his possessions.\n\nYour TriPad pings acknowledgement of a funds transfer from the Church of Galactic Redemption.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2550,
+    "id": "BFFIshuttleBornanew2",
+    "column": "options",
+    "option_line": "BFFI_onBoardingBerthPenance:\"You'll be given a berth, like any member of the crew. Penance is penance.\"",
+    "original": "You'll be given a berth, like any member of the crew. Penance is penance.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2551,
+    "id": "BFFIonBoardingBerth",
+    "column": "text",
+    "original": "\"You have my thanks, captain,\" he says. \"That will serve my needs most adequately.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2552,
+    "id": "BFFIonBoardingBerthPenance",
+    "column": "text",
+    "original": "\"Of course, captain,\" he says. \"That will serve my needs most adequately.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2553,
+    "id": "BFFIonBoardingStateroom",
+    "column": "text",
+    "original": "\"Such extravagance is not necessary for a mere novice, captain,\" he says uncomfortably.",
+    "translated": ""
+  }
+]

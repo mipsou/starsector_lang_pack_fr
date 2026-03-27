@@ -1,0 +1,74 @@
+[
+  {
+    "csv_row": 3043,
+    "id": "BFFIupNotHereWhatRole",
+    "column": "text",
+    "original": "\"He would be - have been - well placed as a bridge for some element of the Luddic Path to influence Menes Yaribay. He would be the source of the relic.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3044,
+    "id": "BFFIupNotHereSourcesA",
+    "column": "text",
+    "original": "\"I cannot,\" he says. \"But I assure you they are as reliable as any heretic, guilty soul, or criminal.\" His look softens, \"Do trust that I am not simply asking around a spacer bar for a lead.\"\n\nA moment, then he gives a nod, almost a bow. \"Um. I do not condemn your methods. Your directness has oft proven effectual.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3045,
+    "id": "BFFIupNotHereSourcesB",
+    "column": "text",
+    "original": "\"It could be either.\" Bornanew folds his hands together. \"But we must look first where the light of truth shines brightest, dim though it may be, or known only by distinction against the shadow of deceit.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3046,
+    "id": "BFFIupNotHereIntentions",
+    "column": "text",
+    "original": "\"It is always possible.\" Bornanew meets your eyes, steady. \"The Knights pursue heretics and criminals as routine, and my inquiries were worded to imply my interest lay not upon Ulmus Pond himself, nor the Menes situation. Though, of course, you and I are already known to be associated with both.\"\n\n\"Expediency anticipates risk. I beg you trust my judgment in this matter.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3047,
+    "id": "BFFIulmusPondNotHereOut",
+    "column": "text",
+    "original": "Nav responds instantly to your orders.\n\nBornanew's image flickers with compression-grain from his cheap datapad.\n\n\"I pray that Ulmus Pond's hasty flight has not unwittingly forewarned heretic militants...\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3047,
+    "id": "BFFIulmusPondNotHereOut",
+    "column": "options",
+    "option_line": "cutCommLink:\"If we're quick, we won't need to pray.\" (cut the link)",
+    "original": "If we're quick, we won't need to pray.\" (cut the link)",
+    "translated": ""
+  },
+  {
+    "csv_row": 3050,
+    "id": "BFFIulmusStartOption",
+    "column": "options",
+    "option_line": "3:bffi_ulmusPrestart1:Find where Ulmus Pond is hiding",
+    "original": "bffi_ulmusPrestart1:Find where Ulmus Pond is hiding",
+    "translated": ""
+  },
+  {
+    "csv_row": 3051,
+    "id": "BFFIulmusPrestart1",
+    "column": "text",
+    "original": "Chalcedon rotates in the primary display before you.\n\nBornanew is at your side, tapping at his off-brand datapad, looking for all the worlds like a toy in his large hands.\n\n\"My sources indicate that a man matching the description of Ulmus Pond is almost certainly in a safehouse... here.\"\n\nA highlighted point appears on the globe, some logistical center in the scablands trailing like a stain from the primary spaceport.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3052,
+    "id": "BFFIulmusPrestart2",
+    "column": "text",
+    "original": "Bornanew watches the point as the globe obligingly comes to a gentle stop. The highlighted section detaches from the globe, which collapses away, and spreads into a tactical overview.\n\n\"He acts like a man drowning, grasping for help without concern for his rescuers.\" He turns from the globe toward you, \"In OPSEC terms, of course. He could have easily disappeared.\"\n\nA bitter smile appears, \"As once I did.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3053,
+    "id": "BFFIulmusPrestart3",
+    "column": "text",
+    "original": "Bornanew has his notebook and cheap old datapad packed in a satchel made of what looks like leather. You've heard of the primitive process the Luddics are said to use to produce the material; the skin of an animal is stripped then stewed, somehow, with its own waste products. It sounded unbearably primitive when described. Anti-Luddic misinformation, perhaps, because you don't detect the smell of feces at all.\n\n\"How shall we approach this?\" Bornanew asks. \"Like in MuniSec dramas- one of us is friendly to the subject, the other hostile?\"",
+    "translated": ""
+  }
+]

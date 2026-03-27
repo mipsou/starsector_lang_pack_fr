@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 8454,
+    "id": "ZGRmakePitch9OMKIbuy4mil",
+    "column": "options",
+    "option_line": "zgr_makePitch9OMKIbuy4mil2:\"Tri-Tachyon's Director of Special Acquisitions can afford a mere million credits. I accept.\"",
+    "original": "Tri-Tachyon's Director of Special Acquisitions can afford a mere million credits. I accept.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8456,
+    "id": "ZGRmakePitch9OMKIbuy4mil2",
+    "column": "text",
+    "original": "\"Done,\" she says, her voice as empty as the Abyss.\n\nAlmost instantly, your TriPad pings with several alerts - credits transfer, but also notification from your tactical officer concerning an approaching Tri-Tachyon portside-tender, swarming with engineering drones, and your comms, forwarding certain docking requests directly to the Onslaught Mk.I.\n\n\"Take a moment to ensure your affairs are in order, captain,\" Glamor-Rotanev says.\n\nYou'd think she enjoys overwhelming your officers with the speed of her response.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8456,
+    "id": "ZGRmakePitch9OMKIbuy4mil2",
+    "column": "options",
+    "option_line": "zgr_makePitch9OMKIscan0:Make the arrangements",
+    "original": "Make the arrangements",
+    "translated": ""
+  },
+  {
+    "csv_row": 8457,
+    "id": "ZGRmakePitch9OMKIbuy4later",
+    "column": "text",
+    "original": "\"Fine,\" she says, the spite cold in her voice.\n\n\"You've seen them. The Threat. Ancient, automated warfleets deep in the Abyss. And you lived.\" She is quite collected, suddenly, as she speaks.\n\n\"Would you part with recordings of your encounter with the Threat? I offer 100,000 credits for immediate transfer.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8457,
+    "id": "ZGRmakePitch9OMKIbuy4later",
+    "column": "options",
+    "option_line": "zgr_makePitch9No:\"Perhaps another time.\"",
+    "original": "Perhaps another time.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8458,
+    "id": "ZGRmakePitch9OMKIscan0",
+    "column": "text",
+    "original": "Director Glamor-Rotanev takes a moment to turn and appear to look out over her spectacular view of the Xanadu Geodivision.\n\nYou're certain she's watching her teams as they board the Onslaught Mk.I through what are no doubt top-of-the-line cybernetic implants and neural integrations.\n\nAnd, doubtless, watching your comms. Because just as you are finished, she turns back, resettling her facial muscles with a twitch.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8459,
+    "id": "ZGRmakePitch9OMKIscan1",
+    "column": "text",
+    "original": "\"As I was saying, I have a great interest in... specimens. Artifacts. Like yours. And like what I presume it was built to fight,\" she says. \n\n\"You have been far more successful than the others. I would propose you repeat that success.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8459,
+    "id": "ZGRmakePitch9OMKIscan1",
+    "column": "options",
+    "option_line": "zgr_makePitch11:\"So there was another expedition before me?\"",
+    "original": "So there was another expedition before me?",
+    "translated": ""
+  },
+  {
+    "csv_row": 8460,
+    "id": "ZGRmakePitch9OMKIscan1EndDuring",
+    "column": "text",
+    "original": "Her eyes flicker subtly, her expression more glazed and vacant than before.\n\n\"Very... good, captain,\" she says. Her words come more rapidly. \"You've seen them. The Threat. Ancient, automated warfleets deep in the Abyss. And you lived.\"\n\n\"Would you part with recordings of your encounter with the Threat? I offer 100,000 credits for immediate transfer.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8460,
+    "id": "ZGRmakePitch9OMKIscan1EndDuring",
+    "column": "options",
+    "option_line": "zgr_makePitch9No:\"Perhaps another time.\"",
+    "original": "Perhaps another time.",
+    "translated": ""
+  }
+]

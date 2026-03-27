@@ -1,0 +1,73 @@
+[
+  {
+    "csv_row": 3506,
+    "id": "BFFIdeliverToOakBody1howCkeep",
+    "column": "text",
+    "original": "Is that a twitch of impatience on the impassive face of the Excubitor Orbis? But truly, the read is in his clerk; she almost cringes at the insufficiency of your answer.\n\nOak lets out a slow breath.\n\n\"So be it,\" he says, looking away as if you're no longer worth his time.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3507,
+    "id": "BFFIdeliverToOakBody1howA",
+    "column": "text",
+    "original": "The Excubitor Orbis takes in your comment, his face impassive as the stone this hangar was blasted from.\n\nHis clerk's eyes are downcast.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3508,
+    "id": "BFFIdeliverToOakBody1howB",
+    "column": "text",
+    "original": "Is that a twitch of impatience on the impassive face of the Excubitor Orbis? But truly, the read is in his clerk; she almost cringes at the insufficiency of your answer.\n\nOak lets out a slow breath, and looks away from you as if your words are worth nothing to him. He makes a subtle movement with his hand.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3509,
+    "id": "BFFIdeliverToOakBody1howC",
+    "column": "text",
+    "original": "Is that a twitch of impatience on the impassive face of the Excubitor Orbis? But truly, the read is in his clerk; she almost cringes at the insufficiency of your answer.\n\nOak lets out a slow breath. \"So be it,\" he says, looking away, as if you're not worth his time.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3511,
+    "id": "BFFIdeliverToOakBody2",
+    "column": "text",
+    "original": "A quartet of armored Knights take this as their cue to approach Bornanew's coffin. Together, without needing a signal, they lift as one and bear him toward the door at the far end of the hangar. Their silhouettes make long shadows in the wedge of warm light.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3514,
+    "id": "BFFIdeliverToOakKeepfaithCheckA",
+    "column": "text",
+    "original": "The stony gaze of Gideon Oak then turns slowly toward the prisoner in a simple e-suit and bound by hand-restraints - a bit of symbolism more than security measure  - flanked by your guards.\n\n\"Keepfaith,\" he says.\n\nShe inhales as if she might speak, some righteous outburst, but falters. Her eyes fall toward the ground.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3515,
+    "id": "BFFIdeliverToOakKeepfaithCheckA2",
+    "column": "text",
+    "original": "The stony gaze of Gideon Oak turns slowly toward the prisoner in a simple temp suit with hand-restraints - a bit of symbolism more than security measure  - flanked by your guards.\n\n\"Keepfaith,\" he says.\n\nShe inhales as if she might speak, some righteous outburst, but falters. Her eyes fall toward the ground.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3516,
+    "id": "BFFIdeliverToOakKeepfaith1",
+    "column": "text",
+    "original": "Oak lets out a slow breath.\n\nHe makes a subtle movement with his hand, and a pair of the huge, armored guards step to Keepfaith.\n\nFaceless in their armor, they take her away.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3517,
+    "id": "BFFIdeliverToOakKeepfaith2a",
+    "column": "text",
+    "original": "You are left with Oak, his clerk, and Bornanew.\n\n\"The glove,\" says the Excubitor Orbis.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3517,
+    "id": "BFFIdeliverToOakKeepfaith2a",
+    "column": "options",
+    "option_line": "bffi_deliverGloveCheck:Look to $global.jethroName",
+    "original": "Look to $global.jethroName",
+    "translated": ""
+  }
+]

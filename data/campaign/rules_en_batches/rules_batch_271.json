@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 8240,
+    "id": "ZGRpostGADHOconfrontOpt",
+    "column": "options",
+    "option_line": "ZGR_postGADHOconfront1:\"I understand you've been funding Cornelius Elek. Giving him ideas.\"",
+    "original": "I understand you've been funding Cornelius Elek. Giving him ideas.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8241,
+    "id": "ZGRtalkPostGADHOimplyOpt",
+    "column": "options",
+    "option_line": "ZGR_postGADHOimply1:\"An Academician Elek said something funny- that he was being funded by Tri-Tachyon.\"",
+    "original": "An Academician Elek said something funny- that he was being funded by Tri-Tachyon.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8242,
+    "id": "ZGRtalkPostGADHOreturnOpt",
+    "column": "options",
+    "option_line": "ZGR_postGADHOreturn1:\"Academician Elek. You funded his research. And directed it.\"",
+    "original": "Academician Elek. You funded his research. And directed it.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8243,
+    "id": "ZGRpostGADHOconfrontStart",
+    "column": "text",
+    "original": "The Director's face creates a smile. \"He wasn't supposed to tell anyone. But this is Cornelius Elek, so I cannot be surprised.\"\n\nHer face, and tone, go blank again.\n\n\"You have something more to say about Elek. Proceed.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8243,
+    "id": "ZGRpostGADHOconfrontStart",
+    "column": "options",
+    "option_line": "ZGR_postGADHOimply1:\"He was looking into an old sensor array. It found the Onslaught Mk.I.\"",
+    "original": "He was looking into an old sensor array. It found the Onslaught Mk.I.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8245,
+    "id": "ZGRpostGADHOimply2",
+    "column": "text",
+    "original": "\"What made you think that, I wonder,\" she says.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8245,
+    "id": "ZGRpostGADHOimply2",
+    "column": "options",
+    "option_line": "ZGR_postGADHOimply3:\"Because you're Tri-Tachyon's Director of 'Special Acquisitions'.\"",
+    "original": "Because you're Tri-Tachyon's Director of 'Special Acquisitions'.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8246,
+    "id": "ZGRpostGADHOimply3a",
+    "column": "text",
+    "original": "Glamor-Rotanev creates a smile for you.\n\n\"Yes, I was admiring your new acquisition.\" Her eyes flicker oddly, and you detect what might be a rare spark of genuine amusement. \n\n\"Or perhaps I should call it your very, very old acquisition.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8247,
+    "id": "ZGRpostGADHOimply3b",
+    "column": "text",
+    "original": "Glamor-Rotanev creates a smile for you.\n\n\"And you found it.\" She sounds unsurprised by the news. \"Elek was distraught, I am to understand.\"\n\nHer eyes flicker oddly, and you detect what might be a rare spark of genuine amusement.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8248,
+    "id": "ZGRpostGADHOimply3c",
+    "column": "text",
+    "original": "Glamor-Rotanev creates a smile for you.\n\n\"And you found what he didn't know he was looking for.\" She sounds unsurprised. \"Elek was distraught, I am to understand.\"\n\nHer eyes flicker oddly, and you detect what might be a rare spark of genuine amusement.",
+    "translated": ""
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "csv_row": 7439,
+    "id": "MOTRplayerColonyOptC",
+    "column": "options",
+    "option_line": "motr_playerColonyNarc:Call security to have the mercs locked up.",
+    "original": "Call security to have the mercs locked up.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7440,
+    "id": "MOTRplayerColonyOptD",
+    "column": "options",
+    "option_line": "motr_playerColonyDrink:Decline the proposal, but stay for an 'Orbital Bombardment' to soften the blow\"",
+    "original": "Decline the proposal, but stay for an 'Orbital Bombardment' to soften the blow",
+    "translated": ""
+  },
+  {
+    "csv_row": 7441,
+    "id": "MOTRplayerColonyAskWhy",
+    "column": "text",
+    "original": "$HeOrShe gives a wary smile.\n\n\"I can't do that, boss. I look after my squad, one and all, and they look after me. S'how it works.\"\n\n$HisOrHer hand picks up an empty glass, as if to drink, pauses, then sets it back down.\n\n\"If you feel like you have to call MuniSec, then call MuniSec. Won't hold it against you.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7442,
+    "id": "MOTRplayerColonyNarc",
+    "column": "text",
+    "original": "You give the order through your personal comms unit. A security squad will be there soon. \n\nThe merc leader sighs, looking remarkably accepting of $hisOrHer fate.\n\n\"Let us have this one last round?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7443,
+    "id": "MOTRplayerColonyNarcAllow",
+    "column": "text",
+    "original": "The band of rogue marines perform their last 'orbital drop' and are still cheering as security officers file into the bar.\n\nThere are alarmed looks, and hands reach toward hidden weapons, but they are stayed with a small motion from the merc leader.\n\n\"End of the line, my hardies. Go easy. We had a good run, and maybe we'll get out there once more.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7444,
+    "id": "MOTRplayerColonyNarcNo",
+    "column": "text",
+    "original": "Security officers file into the bar. There are alarmed looks exchanged between the mercs, and scarred hands reach toward hidden weapons. \n\nThey are stayed with a small motion from the merc leader, who gives you one last sad look.\n\n\"End of the line, my hardies. Go easy; we had a good run.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7487,
+    "id": "RSOMofferOption",
+    "column": "options",
+    "option_line": "rsom_start:Questionner sur la destruction de l'avant-poste secret de son rival",
+    "original": "Questionner sur la destruction de l'avant-poste secret de son rival",
+    "translated": ""
+  },
+  {
+    "csv_row": 7502,
+    "id": "rsomAvoidCombat",
+    "column": "options",
+    "option_line": "rsom_getAvoidCombat2:Entrer hardiment",
+    "original": "Entrer hardiment",
+    "translated": ""
+  },
+  {
+    "csv_row": 7503,
+    "id": "rsomAvoidCombat2",
+    "column": "options",
+    "option_line": "rsom_getAvoidCombat3:Leur montrer comment on fait",
+    "original": "Leur montrer comment on fait",
+    "translated": ""
+  },
+  {
+    "csv_row": 7505,
+    "id": "rsomAvoidCombat4a",
+    "column": "options",
+    "option_line": "rsom_getAvoidCombat5a:\"Entre vous et moi, je pense qu'il le disait ironiquement, genre.\"",
+    "original": "Entre vous et moi, je pense qu'il le disait ironiquement, genre.",
+    "translated": ""
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "csv_row": 9554,
+    "id": "affkDeclineSel2",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9557,
+    "id": "affkAcceptSel",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9558,
+    "id": "KantaFavorCourierHailFailed",
+    "column": "options",
+    "option_line": "affkFailContinueWant:\"Que veut Kanta ?\"",
+    "original": "Que veut Kanta ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 9559,
+    "id": "KantaFavorCourierHailFailedA",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9560,
+    "id": "KantaFavorCourierHailFailedB",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9566,
+    "id": "pirateSKGreetingUntrustedBad",
+    "column": "options",
+    "option_line": "psk_discussBusinessStory:\"Je souhaite parler affaires.\"",
+    "original": "Je souhaite parler affaires.",
+    "translated": ""
+  },
+  {
+    "csv_row": 9566,
+    "id": "pirateSKGreetingUntrustedBad",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9569,
+    "id": "pirateStationKingBusinessSelUntrustedBad",
+    "column": "options",
+    "option_line": "psk_acceptStory:\"Vous aurez 10% du revenu brut de mes colonies et je vais vous dire pourquoi vous accepterez.\"",
+    "original": "Vous aurez 10% du revenu brut de mes colonies et je vais vous dire pourquoi vous accepterez.",
+    "translated": ""
+  },
+  {
+    "csv_row": 9569,
+    "id": "pirateStationKingBusinessSelUntrustedBad",
+    "column": "options",
+    "option_line": "psk_decline:\"Laissez tomber.\"",
+    "original": "Laissez tomber.",
+    "translated": ""
+  },
+  {
+    "csv_row": 9570,
+    "id": "pirateStationKingBusinessSelEndedFaceToFace",
+    "column": "options",
+    "option_line": "psk_acceptStory:\"Vous aurez 10% du revenu brut de mes colonies et je vais vous dire pourquoi vous accepterez.\"",
+    "original": "Vous aurez 10% du revenu brut de mes colonies et je vais vous dire pourquoi vous accepterez.",
+    "translated": ""
+  }
+]

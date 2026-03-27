@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 2697,
+    "id": "BFFImmBornOptRaid4a",
+    "column": "text",
+    "original": "You think to yourself that this isn't the time to bring up your experience at the Rao compound on Eventide.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2698,
+    "id": "BFFImmBornOptRaid4b",
+    "column": "text",
+    "original": "You think to yourself that this isn't the time to bring up your experience at the Rao compound on Eventide.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2700,
+    "id": "BFFImmBornOptRaid4d",
+    "column": "text",
+    "original": "\"Nonetheless, if you insist, then I shall be forced to concede,\" Bornanew says.\n\n\"If we... if you can execute a raid; if you can do it without implicating the Church; if seizing this fake relic quickly and quietly will lead us to its maker and thereafter to a swift conclusion of the whole matter... then maybe the Church can avoid schism and disaster.\"\n\n\"If, and only if, it is necessary,\" he concludes.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2700,
+    "id": "BFFImmBornOptRaid4d",
+    "column": "options",
+    "option_line": "bffi_mmBornDoRaid:\"It is necessary. I shall make the arrangements.\"",
+    "original": "It is necessary. I shall make the arrangements.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2701,
+    "id": "BFFImmBornOptRaidAgain",
+    "column": "text",
+    "original": "Bornanew frowns.\n\n\"If this raid can be executed without implicating the Church, and if seizing this false relic quickly and quietly will lead us to its maker and a swift conclusion to the whole matter... then it may be a worthwhile path.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2701,
+    "id": "BFFImmBornOptRaidAgain",
+    "column": "options",
+    "option_line": "bffi_mmBornDoRaid:\"It is necessary. I shall make the arrangements.\"",
+    "original": "It is necessary. I shall make the arrangements.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2702,
+    "id": "BFFImmBornDoInviteHorus",
+    "column": "text",
+    "original": "\"To Kazeron.\" He smiles easily as he pockets his notebook, then says \"I've never been.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2704,
+    "id": "BFFImmBornDoSteal",
+    "column": "text",
+    "original": "Sometimes acquiring something is as simple as taking it.\n\nBoth you and Bornanew - who is unenthusiastic, but professional throughout - are outfitted with an inconspicuous set of tools: a sheet-diamond rated cutter, EM glitcher, lockbreakers.\n\nBornanew sets aside some of the bulkier accoutrement with a shake of his head.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2705,
+    "id": "BFFImmBornDoSteal2",
+    "column": "text",
+    "original": "Your tech officer installs a schematic of Menes' complex and a suite of scramblers on your datapad, a remote interfacer is hidden inside a fashionable stylus.\n\nYou perform the operation of various gadgets with your armorer, and review the choreography of the heist with your tactical officer. It is not a perfect plan, but with a combination of initiative, redundancy, and exceptional access...\n\nBornanew is standing very still, his fist against his jaw.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2705,
+    "id": "BFFImmBornDoSteal2",
+    "column": "options",
+    "option_line": "bffi_mmBornDoSteal3:\"Yes? What is it?\"",
+    "original": "Yes? What is it?",
+    "translated": ""
+  }
+]

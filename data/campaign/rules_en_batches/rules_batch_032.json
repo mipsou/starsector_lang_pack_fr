@@ -1,0 +1,79 @@
+[
+  {
+    "csv_row": 1375,
+    "id": "lppVolturnCurateResponses1e",
+    "column": "options",
+    "option_line": "lpp_volturnCurateAskSeeShrine:\"Je suis ici pour voir le sanctuaire.\"",
+    "original": "Je suis ici pour voir le sanctuaire.",
+    "translated": ""
+  },
+  {
+    "csv_row": 1414,
+    "id": "lppVolturnCurateResponses2c",
+    "column": "options",
+    "option_line": "lpp_volturnCurateAreYouPath:\"Faites-vous partie de la Voie de Ludd ?\"",
+    "original": "Faites-vous partie de la Voie de Ludd ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 1416,
+    "id": "lppVolturnCurateResponses2e",
+    "column": "options",
+    "option_line": "lpp_volturnCurateCandle:Allumer la bougie",
+    "original": "Allumer la bougie",
+    "translated": ""
+  },
+  {
+    "csv_row": 1417,
+    "id": "lppVolturnCurateResponses2f",
+    "column": "options",
+    "option_line": "lpp_volturnCurateNotJustCandle:\"Ce n'est pas qu'une simple bougie.\"",
+    "original": "Ce n'est pas qu'une simple bougie.",
+    "translated": ""
+  },
+  {
+    "csv_row": 1418,
+    "id": "lppVolturnCurateResponses2fb",
+    "column": "options",
+    "option_line": "lpp_volturnCurateIsJustCandle:\"Ce n'est qu'une bougie.\"",
+    "original": "Ce n'est qu'une bougie.",
+    "translated": ""
+  },
+  {
+    "csv_row": 1420,
+    "id": "lppVolturnCurateResponses2i",
+    "column": "options",
+    "option_line": "lpp_volturnShrineFirstLeave1:Quitter le sanctuaire",
+    "original": "Quitter le sanctuaire",
+    "translated": ""
+  },
+  {
+    "csv_row": 1421,
+    "id": "lppVolturnCurateTroubling",
+    "column": "text",
+    "original": "La curatrice fronce les sourcils. \"Qu'est-ce qui vous trouble ?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 1425,
+    "id": "lppVolturnCurateTroublingHeavier",
+    "column": "text",
+    "original": "Un sourire double les rides de son visage. \"Je crois que nous nous comprenons.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 1429,
+    "id": "lppVolturnCurateNotJustCandle",
+    "column": "text",
+    "original": "\"Le Pneuma vit dans ces mots.\"\n\nElle fixe tristement, vous semble-t-il, les bougies devant vous.",
+    "translated": ""
+  },
+  {
+    "csv_row": 1434,
+    "id": "lppVolturnShrineRevisit2",
+    "column": "options",
+    "option_line": "lpp_volturnShrineRevisitCandle:Allumer une bougie",
+    "original": "Allumer une bougie",
+    "translated": ""
+  }
+]

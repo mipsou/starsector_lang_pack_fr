@@ -1,0 +1,73 @@
+[
+  {
+    "csv_row": 2687,
+    "id": "BFFImmBornBuyerColony",
+    "column": "text",
+    "original": "\"That's true,\" Bornanew says. \"You might be able to talk Menes into accepting payment in the form of smaller installments. Then if we can resolve the entire matter of the glove quickly, perhaps you would only have to pay the initial deposit...\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2688,
+    "id": "BFFImmBornBuyerLeague",
+    "column": "text",
+    "original": "\"An excellent point,\" Bornanew says, looking hopeful.\n\n\"This gives you exceptional credibility with Menes -- after all, you're a fellow demarch! I would wonder if you couldn't defer payment entirely, or convince him to accept a small percentage as a deposit to be paid later. And then if we resolve the matter of the glove quickly...\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2689,
+    "id": "BFFImmBornBuyerCheat",
+    "column": "text",
+    "original": "\"I'm, uh...\" Bornanew turns red.\n\n\"I... in the due course of investigation... if - no, not if - when we prove that the glove is a fake we demonstrate that the deal was made on invalid terms. But we need the glove first for physical evidence. It's... yes, it does involve a conscious deception... please don't look at me like that, captain,\" he says, almost indignant.\n\n\"It doesn't involve any killing, at least. I do pray it won't come to that.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2691,
+    "id": "BFFImmBornBuyerCheatB",
+    "column": "text",
+    "original": "He presses his hands together and nods.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2692,
+    "id": "BFFImmBornBuyerCheatC",
+    "column": "text",
+    "original": "He presses his hands together, though gives you a brief, suspicious look.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2693,
+    "id": "BFFImmBornBuyerOptSelAgain",
+    "column": "text",
+    "original": "\"If you have the credits,\" Bornanew says, \"Or if you can leverage existing assets and status, perhaps you can simply buy the glove from Menes.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2694,
+    "id": "BFFImmBornRaidOptSel",
+    "column": "text",
+    "original": "\"Captain, I must remind you that an interfactional incident must be avoided.\" He says this more evenly than you might have expected.\n\nBornanew looks down at this notebook, then up, \"And I myself pray,\" he says in a low and quiet voice, \"that I might avoid the shedding of innocent blood in this, this which is meant to be part of my act of penance.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2694,
+    "id": "BFFImmBornRaidOptSel",
+    "column": "options",
+    "option_line": "BFFI_meetMenesBornOptRaid2:\"Does not a Knight use violence to stop from greater violence?\"",
+    "original": "Does not a Knight use violence to stop from greater violence?",
+    "translated": ""
+  },
+  {
+    "csv_row": 2695,
+    "id": "BFFImmBornOptRaid2",
+    "column": "text",
+    "original": "\"Ah,\" Bornanew meets your eyes knowingly. \"I see where the arc of your rhetoric leads, and I cannot deny its endpoint. A Knight of Ludd does employ violence.\"\n\n\"'To protect the faith, to protect the faithful...'\" He is quoting something - his oath?",
+    "translated": ""
+  },
+  {
+    "csv_row": 2696,
+    "id": "BFFImmBornOptRaid3",
+    "column": "text",
+    "original": "\"Yes, well. The sword is a symbol, an image, captain. Imagine waving a sword around in this age.\" He shakes his head.",
+    "translated": ""
+  }
+]

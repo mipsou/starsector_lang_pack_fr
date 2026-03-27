@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 4402,
+    "id": "gaFCFikenhildBotherStatCom",
+    "column": "text",
+    "original": "\"Right. I don't know who that is.\" $HeOrShe sounds annoyed. \"I'm not a comm directory.\"\n\n\"I am here to coordinate Persean League civil and military assets to ensure the safety and security of Fikenhild and the local system. If you have business to discuss relating to these matters, I would be delighted to assist you.\" \n\n$HeOrShe doesn't sound particularly delighted, but your diplomatic intuition suggests it would be best not to point this out.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4405,
+    "id": "gaFCFikenhildBotherVIPoptA2",
+    "column": "options",
+    "option_line": "gaFC_fikenhildBotherVIPoptAsel1:\"I am a demarch of the Persean League and would appreciate some cooperation.\"",
+    "original": "I am a demarch of the Persean League and would appreciate some cooperation.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4408,
+    "id": "gaFCFikenhildBotherVIPoptD",
+    "column": "options",
+    "option_line": "gaFC_fikenhildBotherVIPoptDsel:\"You don't sound very delighted, $post.\"",
+    "original": "You don't sound very delighted, $post.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4409,
+    "id": "gaFCFikenhildBotherVIPoptAsel",
+    "column": "text",
+    "original": "$HeOrShe blinks, taken aback. \"$PlayerSirOrMadam.\" \n\nYou hear the tap of keys and a quick glance aside.\n\n\"My apologies. I was... your admittance to the League is quite recent. My congratulations.\"\n\n$HisOrHer voice doesn't quite have the warmth of enthusiasm $hisOrHer words would require to stand on their own.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4410,
+    "id": "gaFCfikenhildBotherVIPoptAsel2",
+    "column": "text",
+    "original": "\"As I'm sure you know, demarchon, there are certain procedures we have to follow. This is a League citizen on a League world? No outstanding warrant, no Fleet orders, no Council authorization?\"\n\n\"If the King had given an order, I'd know about it. So.\" $HeOrShe spreads $hisOrHer hands. \"I want to help you, but my office cannot do so unless we follow correct procedure. I'm sorry.\"\n\nThe $post looks aside. \"Unless...\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 4411,
+    "id": "gaFCFikenhildBotherVIPoptA3",
+    "column": "text",
+    "original": "\"Fleet Intelligence has more leeway in these matters. Post-Mairaath reforms and all that. I'm not saying it should be done lightly, but...\"\n\n$HeOrShe looks at you. \"Is it important?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 4411,
+    "id": "gaFCFikenhildBotherVIPoptA3",
+    "column": "options",
+    "option_line": "gaFC_fikenhildBotherVIPoptA4no:\"Not quite so important as that. Thank you.\"",
+    "original": "Not quite so important as that. Thank you.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4414,
+    "id": "gaFCFikenhildBotherVIPoptA4yes",
+    "column": "text",
+    "original": "\"Alright.\" $personName nods slowly, meeting your gaze.\n\n\"I'll have a word with... a contact. Then it'll be in his hands. That's the best I can do, demarchon.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 4417,
+    "id": "gaFCFikenhildBotherVIPoptCsel",
+    "column": "text",
+    "original": "$HeOrShe nods, and $hisOrHer expression settles into familiar bureaucratic impatience.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4418,
+    "id": "gaFCFikenhildBotherVIPoptDsel",
+    "column": "text",
+    "original": "\"A joker, huh.\" $HeOrShe narrows $hisOrHer eyes. \"You know that interfering with my duties is a civil offense? Lucky for you, you're not worth the bother of prosecution.\"\n\n\"In the meantime, here's a punchline.\"\n\nThe comms cut rather abruptly.",
+    "translated": ""
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "csv_row": 4609,
+    "id": "GAFCSiyavongStonewall1mem",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 4610,
+    "id": "GAFCSiyavongStonewall1",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 4614,
+    "id": "gaFCProbeSwitched",
+    "column": "text",
+    "original": "A common class of probe used for research, surveying, and surveillance. There is no active transponder, but your comms officer's active ping returns an ID-packet bearing codes for the Galatia Academy.\n\nEM leakage suggests functioning subsystems, perhaps collecting telemetry for some esoteric research project.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4617,
+    "id": "gaFCProbeObjectInteractionFirst",
+    "column": "options",
+    "option_line": "gaFC_probeInvestigate:Examiner la sonde",
+    "original": "Examiner la sonde",
+    "translated": ""
+  },
+  {
+    "csv_row": 4618,
+    "id": "gaFCProbeObjectInteraction",
+    "column": "options",
+    "option_line": "gaFC_probeInvestigate:Examiner la sonde",
+    "original": "Examiner la sonde",
+    "translated": ""
+  },
+  {
+    "csv_row": 4628,
+    "id": "gaFCProbe3InvestigationStart",
+    "column": "options",
+    "option_line": "gaFC_probeInvestigaitonWrapUp1:\"Des conclusions ?\"",
+    "original": "Des conclusions ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 4632,
+    "id": "gaFCProbeInvestigaitonWrapUp3",
+    "column": "text",
+    "original": "\"The receiver would show up as a neutrino source, just like any starship drive or civilian reactor. The hyperwave effects would be - well, it couldn't be placed somewhere populated, that's for sure. So this hyperwave comm relay would then tightbeam to the final receiver, whoever was listening, presumably. If we found the relay, we would know whoever is at the other end of this thing is nearby.\"\n\nStable orbit, neutrino source, uninhabited. The Isirah system.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4642,
+    "id": "gaFCScavengerWait3",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 4652,
+    "id": "gaFCStolenProbePodStartOption3",
+    "column": "options",
+    "option_line": "gaFC_probeInvestigaitonWrapUp1:\"Des conclusions ?\"",
+    "original": "Des conclusions ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 4656,
+    "id": "gaFCPatherAmbushGreeting",
+    "column": "options",
+    "option_line": "gaFC_patherAmbushBluff1:\"Vous avez raison, je sers bien Moloch...\" (bluff)",
+    "original": "Vous avez raison, je sers bien Moloch...\" (bluff)",
+    "translated": ""
+  }
+]

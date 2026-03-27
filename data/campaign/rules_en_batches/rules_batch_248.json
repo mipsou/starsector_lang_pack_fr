@@ -1,0 +1,73 @@
+[
+  {
+    "csv_row": 7842,
+    "id": "raoNerieneSelWonC2a",
+    "column": "text",
+    "original": "\"It could,\" Rao concedes. \"Though they're a faction known to have little favor from Baikal.\" His eyes dart to you, \"The High Hegemon of course. Nonetheless, he must make concessions from time to time...\"\n\nHe pauses, thoughtful. \"Say what you will of Baikal. He won't do it lightly, but he knows when to sacrifice a pawn.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7843,
+    "id": "raoNerieneSelWonC2a2a",
+    "column": "text",
+    "original": "He waits a moment, his look grim. As if he might say more. But he holds back, quite deliberately.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7844,
+    "id": "raoNerieneSelWonC2a2b",
+    "column": "text",
+    "original": "\"Someone easily spent when the cost is dear,\" he says. \"They are not generally aware of their status.\"\n\nHe waits out the moment, his look grim. As if he might say more. But he holds back, quite deliberately.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7845,
+    "id": "raoNerieneSelWonC2b",
+    "column": "text",
+    "original": "Rao seems to examine you. \"I have always found that putting an enemy out of mind is like walking into an ambush of your own making.\"\n\nHe shrugs, \"But perhaps you'll be lucky.\" He gets a sly look. \"I was.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7846,
+    "id": "raoNerieneSelWonC3a",
+    "column": "text",
+    "original": "He nods. \"To be true, it was Augusta who should never have allowed that to happen. The seasonal ball is a lovely time to visit Eventide, and I recall such occasions at House Rao fondly. Setting aside the unpleasantness, I'm sure there was some proper revelry.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7847,
+    "id": "raoNerieneSelWonC3b",
+    "column": "text",
+    "original": "He laughs. \"Even with Augusta doing her best to spoil it, I recall such times at House Rao fondly. Setting aside the unpleasantness, I'm sure there was some proper revelry.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7848,
+    "id": "raoNerieneSelWonC3c",
+    "column": "text",
+    "original": "Orcus Rao shakes his head. \"It's clear you're of your own mind. So let us speak of other matters.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7850,
+    "id": "raoNerieneSelWonD",
+    "column": "text",
+    "original": "\"You have? Neriene made no mention.\" He leans forward. \"How interesting. It is something of a lost art outside of the more traditional families of Eventide.\"\n\n\"Tell me, do you prefer the Hadi-style hilt or the Andreas?",
+    "translated": ""
+  },
+  {
+    "csv_row": 7850,
+    "id": "raoNerieneSelWonD",
+    "column": "options",
+    "option_line": "rao_nerieneSelWonDb:\"Andreas, of course. The flexibility is paramount.\"",
+    "original": "Andreas, of course. The flexibility is paramount.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7851,
+    "id": "raoNerieneSelWonDa",
+    "column": "text",
+    "original": "\"The Hadi is a fine choice, and my own in fact,\" he says, pleased. \"Now let me tell you...\"",
+    "translated": ""
+  }
+]

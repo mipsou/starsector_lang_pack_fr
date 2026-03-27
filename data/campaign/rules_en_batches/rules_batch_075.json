@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 2719,
+    "id": "BFFImmBornDoRaid",
+    "column": "text",
+    "original": "Bornanew bows his head to your words. His expression is grim.\n\nMenes has not been discreet. As a celebration of his first cycle as the new demarch of Olinadu, he invited a holodoc team for a puff-piece interview and viewing of his 'collection'. Your tactical team reviews the holos, constructing schematic of the interior of Menes' complex, inferring layout and defenses from this and other publicly available information.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2720,
+    "id": "BFFImmBornDoRaid2",
+    "column": "text",
+    "original": "It is estimated that roughly 100 marines will be required to pull off the operation.\n\nYour marines will be equipped with an eclectic mix of equipment to allow them to pose as high-level pirates. They will be secretly infiltrated into Olinadu as, variously, spacer crew on shore-leave, contract technicians, and ne'er-do-wells looking to spend ill-gotten gains somewhere away from heavy law enforcement.\n\nIt goes without saying that you shall need to approach Olinadu with your $shipOrFleet's transponder off. Menes' overly charitable outlook on your character and generalized inattention to his official duties should allow you to join his 'party' with little oversight about how you actually got there.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2721,
+    "id": "BFFImmBornDoRaid3",
+    "column": "text",
+    "original": "To avert suspicion and ensure optimal timing, you and Bornanew will personally attend Menes' party when the raid is executed.\n\nThe raid will commence when two of a series of randomly generated time-slots are passed without receiving a stand-down signal. This signal will be, by all appearances, a routine status query to your $shipOrFleet, and appear to be perfectly routine behaviour for a justifiably neurotic independent $shipOrFleet operator.\n\nBornanew is watchful throughout the planning process, only occasionally advocating for lower-force protocols when a particularly bloodthirsty marine squad leader expresses more enthusiasm than strictly required for certain tactical details.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2725,
+    "id": "BFFImmBornDoBuyer",
+    "column": "text",
+    "original": "Bornanew bows his head in thanks, his relief palpable, his hands clasped together.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2726,
+    "id": "BFFImmBornOutro",
+    "column": "text",
+    "original": "Later, in the briefing room, you find Bornanew standing over a detailed schematic of Menes' complex. It rotates slowly in the shared display volume, gradually shadowing and illuminating his face.\n\nIt takes a moment, but you see that his eyes are closed and his lips are moving.\n\nA prayer, you suspect.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2730,
+    "id": "BFFItalkHorusParty1",
+    "column": "text",
+    "original": "\"Cousin Menes,\" he says, and sighs.\n\n\"What is it he's done this time?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2731,
+    "id": "BFFItalkHorusPartyOptA",
+    "column": "options",
+    "option_line": "bffi_talkHorusPartyOptA:\"He might spark a religious conflict that could tear the Sector apart.\"",
+    "original": "He might spark a religious conflict that could tear the Sector apart.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2732,
+    "id": "BFFItalkHorusPartyOptB",
+    "column": "options",
+    "option_line": "bffi_talkHorusPartyOptB:\"He bought a sacred Luddic relic for his personal collection.\"",
+    "original": "He bought a sacred Luddic relic for his personal collection.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2733,
+    "id": "BFFItalkHorusPartyOptC",
+    "column": "options",
+    "option_line": "bffi_talkHorusPartyOptC:\"How do you get on with Menes? Not well?\"",
+    "original": "How do you get on with Menes? Not well?",
+    "translated": ""
+  },
+  {
+    "csv_row": 2734,
+    "id": "BFFItalkHorusPartyOptAsel",
+    "column": "text",
+    "original": "Horus blinks, and turns his head aside as if he didn't hear you correctly. His eyes snap back to yours through the comm-link.\n\n\"Elaborate upon your statement, if you would be so kind.\"\n\nA harsh note enters his tone, despite ostensibly polite words.",
+    "translated": ""
+  }
+]

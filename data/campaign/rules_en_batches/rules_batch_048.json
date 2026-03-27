@@ -1,0 +1,82 @@
+[
+  {
+    "csv_row": 2132,
+    "id": "lkeVirensCommsFirstWait",
+    "column": "options",
+    "option_line": "lke_virensComms2:Fermer l'interface de communication",
+    "original": "Fermer l'interface de communication",
+    "translated": ""
+  },
+  {
+    "csv_row": 2138,
+    "id": "LKEshuttleToVirens",
+    "column": "options",
+    "option_line": "3:lke_shuttleToVirens:Descendre en navette pour rencontrer Nile Virens",
+    "original": "lke_shuttleToVirens:Descendre en navette pour rencontrer Nile Virens",
+    "translated": ""
+  },
+  {
+    "csv_row": 2146,
+    "id": "LKEvirensGunCheckD",
+    "column": "options",
+    "option_line": "lke_virensGunCheckE:Revenir to your shuttle",
+    "original": "Revenir to your shuttle",
+    "translated": ""
+  },
+  {
+    "csv_row": 2151,
+    "id": "LKEvirensStart0a",
+    "column": "options",
+    "option_line": "lke_virensStartStand:Rester debout",
+    "original": "Rester debout",
+    "translated": ""
+  },
+  {
+    "csv_row": 2152,
+    "id": "LKEvirensStart0b",
+    "column": "options",
+    "option_line": "lke_virensStartStand:Rester debout",
+    "original": "Rester debout",
+    "translated": ""
+  },
+  {
+    "csv_row": 2157,
+    "id": "LKEvirensConvOptC",
+    "column": "options",
+    "option_line": "lke_virensAskSidearm:\"Pourquoi avez-vous pris mon arme de poing ?\"",
+    "original": "Pourquoi avez-vous pris mon arme de poing ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 2159,
+    "id": "LKEvirensConvOptE",
+    "column": "options",
+    "option_line": "lke_virensAskSedgeAlly:\"Comment un homme comme vous peut-il s'allier avec un homme comme Sedge ?\"",
+    "original": "Comment un homme comme vous peut-il s'allier avec un homme comme Sedge ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 2183,
+    "id": "LKEvirensKillSedgeKilledMe2b",
+    "column": "options",
+    "option_line": "lke_virensKillSedgeKilledMe3:\"Je suis content que ce soit clair.\"",
+    "original": "Je suis content que ce soit clair.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2184,
+    "id": "LKEvirensKillSedgeKilledMe2",
+    "column": "options",
+    "option_line": "lke_virensKillSedgeKilledMe3:\"Je suis content que ce soit clair.\"",
+    "original": "Je suis content que ce soit clair.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2195,
+    "id": "LKEvirensKillSedgeBrute2B",
+    "column": "options",
+    "option_line": "lke_virensKillSedgeBruteB-A:\"Je ne suis pas responsable des choix des autres.\"",
+    "original": "Je ne suis pas responsable des choix des autres.",
+    "translated": ""
+  }
+]

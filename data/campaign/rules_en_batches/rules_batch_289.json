@@ -1,0 +1,74 @@
+[
+  {
+    "csv_row": 8461,
+    "id": "ZGRmakePitch9OMKIscan1EndAfter",
+    "column": "text",
+    "original": "\"As I was saying, I have a great interest in... specimens. Artifacts. Like yours. And like what I presume it was built to fight,\" she says. \n\n\"You have been far more successful than the others. I would propose you repeat that success.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8462,
+    "id": "ZGRmakePitch9OMKIbuy4laterEnd",
+    "column": "text",
+    "original": "She says nothing, her disapproval resounding in the silence.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8463,
+    "id": "ZGRstartPitch9a",
+    "column": "text",
+    "original": "\"A threat, presumably. The hostile connotation lives in the name.\" A quick, bloodless smile. \"You'll prepare yourself for anything, I'm sure.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8464,
+    "id": "ZGRstartPitch9b",
+    "column": "text",
+    "original": "\"We assume it'll engage in some sort of hostile action against you or your $shipOrFleet,\" she says indifferently. \"Only this won't be pirate, Pather, or tariff patrol.\"\n\n\"Nor,\" she fixes you with a cool look, \"Some remnant AI warfleet. Those, those we know about.\"\n\n\"Disappointing conversationalists,\" she mutters. \"Superintelligence with no mind for business. Simply unbelievable...\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8465,
+    "id": "ZGRmakePitch9both",
+    "column": "text",
+    "original": "She blinks. Her eyes seem suddenly present for the first time. And she stares for several seconds, motionless.\n\n\"You're telling the truth,\" she says, outwardly cool.\n\n\"Would you part with recordings of your encounters with both of these... forces? I offer 150,000 credits for immediate transfer.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8465,
+    "id": "ZGRmakePitch9both",
+    "column": "options",
+    "option_line": "zgr_makePitch9No:\"Perhaps another time.\"",
+    "original": "Perhaps another time.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8468,
+    "id": "ZGRmakePitch9bothAsideOMKI",
+    "column": "text",
+    "original": "\"So you are open to dealing,\" she says. \"Good.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8469,
+    "id": "ZGRmakePitch9bothAsideOMKIgave",
+    "column": "text",
+    "original": "\"You've been most useful,\" she says, almost actually smiling. It looks uncomfortable.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8470,
+    "id": "ZGRstartPitch9both3",
+    "column": "text",
+    "original": "For a full two seconds her eyes close, moving rapidly.\n\nYour TriPad pings.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8470,
+    "id": "ZGRstartPitch9both3",
+    "column": "options",
+    "option_line": "zgr_makePitch11:\"So you knew what you were asking for. Was there another expedition before me?\"",
+    "original": "So you knew what you were asking for. Was there another expedition before me?",
+    "translated": ""
+  }
+]

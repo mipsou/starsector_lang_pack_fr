@@ -1,0 +1,80 @@
+[
+  {
+    "csv_row": 6254,
+    "id": "gaVIPMercOption5",
+    "column": "options",
+    "option_line": "4:gaVIP_mercAgree:Accepter de livrer le VIP",
+    "original": "gaVIP_mercAgree:Accepter de livrer le VIP",
+    "translated": ""
+  },
+  {
+    "csv_row": 6256,
+    "id": "gaVIPMercOption1Sel",
+    "column": "options",
+    "option_line": "gaVIP_mercHub:\"Donc ils n'ont commis aucun crime. Compris.\"",
+    "original": "Donc ils n'ont commis aucun crime. Compris.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6257,
+    "id": "gaVIPMercOption2Sel",
+    "column": "options",
+    "option_line": "gaVIP_mercHub:\"Donc vous n'avez pas de mandat. Compris.\"",
+    "original": "Donc vous n'avez pas de mandat. Compris.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6258,
+    "id": "gaVIPMercOption3Sel",
+    "column": "options",
+    "option_line": "gaVIP_mercHub:\"Sinon rien. Compris.\"",
+    "original": "Sinon rien. Compris.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6266,
+    "id": "gaVIPMercVIPPaymentNegotiate",
+    "column": "options",
+    "option_line": "gaVIP_mercTransfer:Accepter les conditions",
+    "original": "Accepter les conditions",
+    "translated": ""
+  },
+  {
+    "csv_row": 6266,
+    "id": "gaVIPMercVIPPaymentNegotiate",
+    "column": "options",
+    "option_line": "gaVIP_mercDecides:Refuser les conditions",
+    "original": "Refuser les conditions",
+    "translated": ""
+  },
+  {
+    "csv_row": 6288,
+    "id": "gaOpOfferOption",
+    "column": "options",
+    "option_line": "gaOp_start:Questionner sur le transport de scientifiques vers l'avant-poste de recherche dans $gaOp_systemName",
+    "original": "Questionner sur le transport de scientifiques vers l'avant-poste de recherche dans $gaOp_systemName",
+    "translated": ""
+  },
+  {
+    "csv_row": 6291,
+    "id": "gaOpPlanetInteraction",
+    "column": "text",
+    "original": "Votre $shipOrFleet approche de $entityName.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6292,
+    "id": "gaOpPrintHostilesText",
+    "column": "text",
+    "original": "Une flotte hostile a proximite surveille vos mouvements, rendant toute operation au sol impossible.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6325,
+    "id": "gaOpPlanetRogueAINegotiate3",
+    "column": "options",
+    "option_line": "gaOp_negAccept:Accepter les conditions and make arrangements for the exchange",
+    "original": "Accepter les conditions and make arrangements for the exchange",
+    "translated": ""
+  }
+]

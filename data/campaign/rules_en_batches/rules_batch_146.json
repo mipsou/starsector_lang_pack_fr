@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 3428,
+    "id": "BFFIarrestShotShove0",
+    "column": "options",
+    "option_line": "bffi_arrestShove1:Float upward",
+    "original": "Float upward",
+    "translated": ""
+  },
+  {
+    "csv_row": 3429,
+    "id": "BFFIarrestShotShove1",
+    "column": "text",
+    "original": "You fall back, ears buzzing, your eyes brought into line with the mural on the ceiling. Painted clouds and stars dance above you, attached to interlocking toothed wheels. The turning spheres of creation, the orbits and movements of celestial mechanics given literal form.\n\nIt's funny to you, the spacer, but you cannot laugh.\n\nYour body is not responding to your commands. Your ship is adrift. Fluxed out. Vent.\n\nDarkness.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3429,
+    "id": "BFFIarrestShotShove1",
+    "column": "options",
+    "option_line": "bffi_arrestOutroPCshot:Sleep dreamless and cold",
+    "original": "Sleep dreamless and cold",
+    "translated": ""
+  },
+  {
+    "csv_row": 3431,
+    "id": "BFFIarrestOutro1",
+    "column": "text",
+    "original": "* * *\n\nThe cadre of Luddic Knights guarding the Cathedral of Holy Exodus defer to Bornanew's authority.\n\nKeepfaith is delivered to your shuttle, restrained, and now - away from her small kingdom - is timid but glowering.\n\n\"I will be absolved,\" she says. \"You shall witness my righteousness before the end.\"\n\nBornanew shakes his head but does not reply. One of your guards switches on the dampening field so that you will not be troubled by Keepfaith's words.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3431,
+    "id": "BFFIarrestOutro1",
+    "column": "options",
+    "option_line": "bffi_arrestOutro2:Return to your $shipOrFleet",
+    "original": "Return to your $shipOrFleet",
+    "translated": ""
+  },
+  {
+    "csv_row": 3432,
+    "id": "BFFIarrestOutro2",
+    "column": "text",
+    "original": "You return to your $shipOrFleet. After the rogue subcurate is placed in the brig you meet with Bornanew in a briefing room.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3433,
+    "id": "BFFIarrestOutro3",
+    "column": "text",
+    "original": "\"We must take her to Hesperus,\" he says. \"To the Knight Inquisitors and their justice.\"\n\nHe stares out at a display of starry space, subdued.\n\n\"I shall submit my evidence, then the Inquisitors will question her before a quorum of authority determined by the severity of her crime. I suspect more than one archcurate shall be required.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3433,
+    "id": "BFFIarrestOutro3",
+    "column": "options",
+    "option_line": "bffi_arrestOutroAskPenance:\"Are you not pleased? Won't your penance be complete?\"",
+    "original": "Are you not pleased? Won't your penance be complete?",
+    "translated": ""
+  },
+  {
+    "csv_row": 3433,
+    "id": "BFFIarrestOutro3",
+    "column": "options",
+    "option_line": "bffi_arrestCurateEnd:Leave him to his thoughts",
+    "original": "Leave him to his thoughts",
+    "translated": ""
+  },
+  {
+    "csv_row": 3434,
+    "id": "BFFIarrestOutroAskPenance",
+    "column": "text",
+    "original": "He turns to you.\n\n\"Pleased? That is difficult. What we have uncovered is deeply concerning. As for my penance,\" he grimaces. \"You have not met the Excubitor Orbis of Hesperus.\"\n\nHe turns back to the stars.",
+    "translated": ""
+  }
+]

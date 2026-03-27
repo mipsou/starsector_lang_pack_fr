@@ -1,0 +1,81 @@
+[
+  {
+    "csv_row": 9226,
+    "id": "sdtuPostCadenEnd",
+    "column": "options",
+    "option_line": "sdtu_postCadenEndWhat:\"En quoi cette information est-elle si importante ?\"",
+    "original": "En quoi cette information est-elle si importante ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 9226,
+    "id": "sdtuPostCadenEnd",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9227,
+    "id": "sdtuPostCadenEndWhat",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9243,
+    "id": "sdtuMercOptionsC",
+    "column": "options",
+    "option_line": "sdtu_mercReact1whatDoing:\"Que faites-vous ?\"",
+    "original": "Que faites-vous ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 9245,
+    "id": "sdtuMercOptionsE",
+    "column": "options",
+    "option_line": "sdtu_mercReact1whoWork:\"Pour qui travaillez-vous ?\"",
+    "original": "Pour qui travaillez-vous ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 9247,
+    "id": "sdtuMercOptionsG",
+    "column": "options",
+    "option_line": "sdtu_mercReact1onMyWay:\"Je vais y aller maintenant.\"",
+    "original": "Je vais y aller maintenant.",
+    "translated": ""
+  },
+  {
+    "csv_row": 9248,
+    "id": "sdtuMercOptionsH",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9254,
+    "id": "sdtuMercReact1onMyWay",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9256,
+    "id": "sdtuMercReactWeaker",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9257,
+    "id": "sdtuMercReactStronger",
+    "column": "text",
+    "original": "\"Comme vous voulez,\" dit le mercenaire, puis coupe la transmission.",
+    "translated": ""
+  }
+]

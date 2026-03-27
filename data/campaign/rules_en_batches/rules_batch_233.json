@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 7347,
+    "id": "LOCRLoffloadToKnights2harsh",
+    "column": "text",
+    "original": "Le Chevalier fait une reverence raide et breve. \"Que la Providence nous guide.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7383,
+    "id": "locrlfReturnHubOptsD",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 7385,
+    "id": "locrlfToldReturningHereticsChurch2",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 7386,
+    "id": "locrlfToldReturningHereticsPath",
+    "column": "text",
+    "original": "Les yeux de $personName s'ecarquillent.\n\n\"Quoi ? La... Voie ? Et vous les avez amenes ici ?! Qu'est-ce qui, par le marteau de Ludd, vous a pris de faire une chose pareille ?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7387,
+    "id": "locrlfToldReturningHereticsPath2",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 7390,
+    "id": "locrlfToldReturningHereticsImportant",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 7392,
+    "id": "lptBlurbBar1",
+    "column": "text",
+    "original": "Un $lpt_manOrWoman en robes de pelerinage Luddic finement confectionnees semble s'adresser a divers capitaines de vaisseaux.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7394,
+    "id": "lptBlurbBar2",
+    "column": "text",
+    "original": "Un $manOrWoman en haillons de pelerin Luddic semble approcher des capitaines de vaisseaux pour se faire systematiquement econduire.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7416,
+    "id": "AVIPTblurbBar",
+    "column": "text",
+    "original": "A very well-dressed $manOrWoman is regaling the subdued bartender with complaints about a missed transport of some kind.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7417,
+    "id": "AVIPToptionBar",
+    "column": "options",
+    "option_line": "avipt_textBar1:Try to calm the well-dressed $manOrWoman bothering the bartender",
+    "original": "Try to calm the well-dressed $manOrWoman bothering the bartender",
+    "translated": ""
+  }
+]

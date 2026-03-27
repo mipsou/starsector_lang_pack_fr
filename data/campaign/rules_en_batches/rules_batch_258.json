@@ -1,0 +1,79 @@
+[
+  {
+    "csv_row": 7957,
+    "id": "RaoPitchChurchMaybe",
+    "column": "options",
+    "option_line": "rao_pitchChurchDisrespect:\"You disrespect the Faith with such comments.\"",
+    "original": "You disrespect the Faith with such comments.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7958,
+    "id": "RaoPitchChurchMaybeGuns",
+    "column": "text",
+    "original": "\"The Hegemony is no stranger to making common cause with the Church of Galactic Redemption...\" He makes a half-shrug, then pauses to look right at you.\n\n\"It's the guns you've given Standfast,\" his words are precise, \"that convince me of your dedication.\"\n\nHe looks away, casual again. \"If you can put up with me, I can deal with your god-bothering.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7958,
+    "id": "RaoPitchChurchMaybeGuns",
+    "column": "options",
+    "option_line": "rao_pitchNopeGentle:\"Thank you for the offer, but perhaps not just now.\"",
+    "original": "Thank you for the offer, but perhaps not just now.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7958,
+    "id": "RaoPitchChurchMaybeGuns",
+    "column": "options",
+    "option_line": "rao_pitchChurchDisrespect:\"You disrespect the Faith with such comments.\"",
+    "original": "You disrespect the Faith with such comments.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7959,
+    "id": "RaoPitchChurchDisrespect",
+    "column": "text",
+    "original": "\"Ludd, I think, doesn't need self-appointed curates to shield the Faith from my little comments,\" he says, his eyes suddenly sharp. \"Pray on the matter. I insist.\"\n\nHe leans back, and his face falls into shadow.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7960,
+    "id": "RaoPitchOffer",
+    "column": "text",
+    "original": "\"I'd like to offer you work. You don't have to salute me, and I'll make sure you're paid promptly.\"\n\nHe leans forward, his hands together. \"What do you think? Could be fun. Play your cards right, and you'll be a legend.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7961,
+    "id": "RaoPitchHubOptA",
+    "column": "options",
+    "option_line": "rao_pitchOptWhatNeed:\"What sort of work do you need done?\"",
+    "original": "What sort of work do you need done?",
+    "translated": ""
+  },
+  {
+    "csv_row": 7963,
+    "id": "RaoPitchHubOptC",
+    "column": "options",
+    "option_line": "rao_pitchOptCircumstances:\"What are these 'unique circumstances'? What is your goal?\"",
+    "original": "What are these 'unique circumstances'? What is your goal?",
+    "translated": ""
+  },
+  {
+    "csv_row": 7964,
+    "id": "RaoPitchHubOptD",
+    "column": "options",
+    "option_line": "rao_pitchOptTakeDiktat:\"Is this about taking down the Sindrian Diktat?\"",
+    "original": "Is this about taking down the Sindrian Diktat?",
+    "translated": ""
+  },
+  {
+    "csv_row": 7965,
+    "id": "RaoPitchHubOptE",
+    "column": "options",
+    "option_line": "rao_pitchOptPersonal:\"Why is it personal with Andrada?\"",
+    "original": "Why is it personal with Andrada?",
+    "translated": ""
+  }
+]

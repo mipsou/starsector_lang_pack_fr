@@ -1,0 +1,82 @@
+[
+  {
+    "csv_row": 11021,
+    "id": "gaDHOvisitElekStartB",
+    "column": "options",
+    "option_line": "3:gaDHO_visitElekStart2:Ask where you could find the office of Cornelius Elek",
+    "original": "gaDHO_visitElekStart2:Ask where you could find the office of Cornelius Elek",
+    "translated": ""
+  },
+  {
+    "csv_row": 11026,
+    "id": "gaDHOvisitElekIntro2x",
+    "column": "options",
+    "option_line": "gaDHO_visitElekAltIntro2b:\"They probably didn't make it. I'm sorry.\"",
+    "original": "They probably didn't make it. I'm sorry.",
+    "translated": ""
+  },
+  {
+    "csv_row": 11026,
+    "id": "gaDHOvisitElekIntro2x",
+    "column": "options",
+    "option_line": "gaDHO_visitElekAltIntro2c:\"If they're not back yet, they're probably dead.\"",
+    "original": "If they're not back yet, they're probably dead.",
+    "translated": ""
+  },
+  {
+    "csv_row": 11030,
+    "id": "gaDHOvisitElekAltIntro3",
+    "column": "options",
+    "option_line": "gaDHO_visitElekAltIntro4:\"Yes. And it worked. It gave me coordinates for something in the Abyss.\"",
+    "original": "Yes. And it worked. It gave me coordinates for something in the Abyss.",
+    "translated": ""
+  },
+  {
+    "csv_row": 11031,
+    "id": "gaDHOvisitElekAltIntroPayment",
+    "column": "options",
+    "option_line": "gaDHO_visitElekAltIntro4:\"Right. It worked. And gave me coordinates for something in the Abyss.\"",
+    "original": "Right. It worked. And gave me coordinates for something in the Abyss.",
+    "translated": ""
+  },
+  {
+    "csv_row": 11031,
+    "id": "gaDHOvisitElekAltIntroPayment",
+    "column": "options",
+    "option_line": "gaDHO_visitElekAltIntroPayment2a:\"Fine. We can talk about MY discovery first. Then payment.\"",
+    "original": "Fine. We can talk about MY discovery first. Then payment.",
+    "translated": ""
+  },
+  {
+    "csv_row": 11031,
+    "id": "gaDHOvisitElekAltIntroPayment",
+    "column": "options",
+    "option_line": "gaDHO_visitElekAltIntroPayment2b:\"MY discovery. And we'll talk about payment if you want any part in it.\"",
+    "original": "MY discovery. And we'll talk about payment if you want any part in it.",
+    "translated": ""
+  },
+  {
+    "csv_row": 11032,
+    "id": "gaDHOvisitElekAltIntroPayment2a",
+    "column": "options",
+    "option_line": "gaDHO_visitElekAltTransferData:Transferer les donnees recovered from the sensor array",
+    "original": "Transferer les donnees recovered from the sensor array",
+    "translated": ""
+  },
+  {
+    "csv_row": 11033,
+    "id": "gaDHOvisitElekAltIntroPayment2b",
+    "column": "options",
+    "option_line": "gaDHO_visitElekAltIntroBusiness:\"No, this is business. Your freelancer failed. Now I can do the job- if you pay.\"",
+    "original": "No, this is business. Your freelancer failed. Now I can do the job- if you pay.",
+    "translated": ""
+  },
+  {
+    "csv_row": 11033,
+    "id": "gaDHOvisitElekAltIntroPayment2b",
+    "column": "options",
+    "option_line": "gaDHO_visitElekAltIntroPiracy:\"Yes, it is. And if you don't pay me, you'll never get your precious data.\"",
+    "original": "Yes, it is. And if you don't pay me, you'll never get your precious data.",
+    "translated": ""
+  }
+]

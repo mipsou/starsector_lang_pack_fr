@@ -1,0 +1,82 @@
+[
+  {
+    "csv_row": 1612,
+    "id": "lppHesperusExcubitorEndAllowWait",
+    "column": "options",
+    "option_line": "0:cutCommLinkPolite:Couper la comm",
+    "original": "cutCommLinkPolite:Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 1613,
+    "id": "lppHesperusExcubitorAllowEndCutoff",
+    "column": "options",
+    "option_line": "0:cutCommLinkPolite:Couper la comm",
+    "original": "cutCommLinkPolite:Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 1614,
+    "id": "lppHesperusExcubitorAllowEndNice",
+    "column": "options",
+    "option_line": "0:cutCommLinkPolite:Couper la comm",
+    "original": "cutCommLinkPolite:Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 1618,
+    "id": "lppExcubitorResponseAsk",
+    "column": "options",
+    "option_line": "lpp_excubitorAskToVisit:\"Je suis venu demander la permission de visiter le sanctuaire.\"",
+    "original": "Je suis venu demander la permission de visiter le sanctuaire.",
+    "translated": ""
+  },
+  {
+    "csv_row": 1623,
+    "id": "lppExcubitorDidWait",
+    "column": "options",
+    "option_line": "lpp_hesperusExcubitorAllowEndNice:\"Et sur vous, Excubitor Orbis.\"",
+    "original": "Et sur vous, Excubitor Orbis.",
+    "translated": ""
+  },
+  {
+    "csv_row": 1623,
+    "id": "lppExcubitorDidWait",
+    "column": "options",
+    "option_line": "0:cutCommLinkPolite:Couper la comm",
+    "original": "cutCommLinkPolite:Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 1624,
+    "id": "lppExcubitorAllowAccess",
+    "column": "options",
+    "option_line": "lpp_hesperusExcubitorAllowEndNice:\"Et sur vous, Excubitor Orbis.\"",
+    "original": "Et sur vous, Excubitor Orbis.",
+    "translated": ""
+  },
+  {
+    "csv_row": 1624,
+    "id": "lppExcubitorAllowAccess",
+    "column": "options",
+    "option_line": "0:cutCommLinkPolite:Couper la comm",
+    "original": "cutCommLinkPolite:Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 1634,
+    "id": "lppExcubitorRedemptionCheckYes",
+    "column": "options",
+    "option_line": "0:cutCommLinkPolite:Couper la comm",
+    "original": "cutCommLinkPolite:Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 1641,
+    "id": "lppHesperusBarEventSel2",
+    "column": "options",
+    "option_line": "lpp_hesperusShrineSneakBribe:Payer le pot-de-vin",
+    "original": "Payer le pot-de-vin",
+    "translated": ""
+  }
+]

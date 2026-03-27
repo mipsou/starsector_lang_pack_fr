@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 6012,
+    "id": "asebScholarshipCauseB",
+    "column": "options",
+    "option_line": "aseb_scholarshipCauseB:\"Space exploration, to recover old knowledge and discover new.\"",
+    "original": "Space exploration, to recover old knowledge and discover new.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6015,
+    "id": "asebScholarshipCauseE",
+    "column": "options",
+    "option_line": "aseb_scholarshipCauseE:\"Study of the Luddic Word so students will remember their connection to Creation.\"",
+    "original": "Study of the Luddic Word so students will remember their connection to Creation.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6016,
+    "id": "asebScholarshipCauseF",
+    "column": "options",
+    "option_line": "aseb_scholarshipCauseF:\"The Gate system. We need to recover what was lost.\"",
+    "original": "The Gate system. We need to recover what was lost.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6017,
+    "id": "asebScholarshipCauseG",
+    "column": "options",
+    "option_line": "aseb_scholarshipCauseG:\"Weapons research. And I want results I can exploit as soon as possible.\"",
+    "original": "Weapons research. And I want results I can exploit as soon as possible.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6019,
+    "id": "asebScholarshipCauseBsel",
+    "column": "text",
+    "original": "\"Oh, adventurous! I would expect nothing less from a dashing spacer captain,\" he says happily, tapping away at his terminal. \"Nothing easier. Um, except all the exploration work of course. Very difficult. And, oh, possibly dangerous. But you know what I... uh, what I mean is, you're all set!\"\n\nHe smiles.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6022,
+    "id": "asebScholarshipCauseEsel",
+    "column": "text",
+    "original": "\"Luddic? Oh yes, of course. I just-\" He flashes an awkward smile, then drops it after he realizes it's not clear why he should be smiling so much.\n\n\"It's, that's just... unexpected. We can just, uh, there you go,\" he says, tapping at his terminal.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6023,
+    "id": "asebScholarshipCauseFsel",
+    "column": "text",
+    "original": "\"Oh! Um.\" Sebestyen's expression flutters away from... something. You can see him making a conscious effort to present a blandly pleasant countenance.\n\n\"What an interesting idea,\" he coughs, and clears his throat. \"I'll just... there, it's done.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 6024,
+    "id": "asebScholarshipCauseGsel",
+    "column": "text",
+    "original": "\"Oh,\" he hides his disappointment well. \"Um, of course. An interesting choice. I'll just... there. We're all set.\"\n\nHe forces a smile.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6025,
+    "id": "asebScholarshipOutroA",
+    "column": "text",
+    "original": "\"On behalf of the Galatia Academy,\" Sebestyen says, \"-its faculty, students, and um, administrators, I wish to offer you my heartfelt thanks for your contribution to the future of humanity.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 6026,
+    "id": "asebScholarshipOutroB",
+    "column": "text",
+    "original": "\"On behalf of the Galatia Academy,\" Sebestyen says, \"-its faculty, students, and um, administrators, I wish to offer you my heartfelt thanks for your contribution to the future of humanity.\"",
+    "translated": ""
+  }
+]

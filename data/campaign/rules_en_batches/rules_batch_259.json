@@ -1,0 +1,73 @@
+[
+  {
+    "csv_row": 7969,
+    "id": "RaoPitchOptRespect",
+    "column": "text",
+    "original": "\"The truth makes few friends.\" Rao produces a wry smile.\n\n\"I never could stand a fool, especially when they're members of the Strategic Assembly. So,\" he holds his hand out to indicate his surroundings, Ragnar Complex.\n\n\"It's not so bad.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7971,
+    "id": "RaoPitchOptWhatNeed2",
+    "column": "text",
+    "original": "\"Baikal was kind enough to find me a place where I could get important work done. I deal with... let us call them 'unique circumstances'. And for this I find it necessary to have energetic freelancers available.\"\n\n\"I'll ensure you're paid promptly for a roster of small merc jobs.\"\n\n\"Then, perhaps something big will come up. When it does, I want to know I can count on you.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7972,
+    "id": "RaoPitchOptTakeCircumstances",
+    "column": "text",
+    "original": "\"I'm offering you the chance to be the grit that throws history off its axis.\"\n\nHe lets a sly smile fade. \"There are many bodies of power turning just now. Slowly grinding away, warships and bombings and riots and resources.\"\n\n\"The Persean Sector needs change, or it will grind what's left of us to dust.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7973,
+    "id": "RaoPitchOptTakeDiktat",
+    "column": "text",
+    "original": "A cold, quick expression passes over his face.\n\n\"Let us say that I'd be as satisfied as any Hegemony officer to cut down that pompous traitor. Setting aside even the matter of honor, I have a personal dislike of the man.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7974,
+    "id": "RaoPitchOptPersonal",
+    "column": "text",
+    "original": "Rao lets out a slow breath. \"That's talk for old comrades, over drink.\"\n\nHe leans back, not quite committing to a frown.\n\n\"Patience, captain.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7975,
+    "id": "RaoPitchOptCourtMartial",
+    "column": "text",
+    "original": "\"There's rules to break when you need to win, and there's betrayal. These are very different things, fundamentally so, captain. He and I have done the former, but he threw away his honor with the latter.\"\n\n\"We are not. the. same.\" Rao's words come out slow, and cold. \n",
+    "translated": ""
+  },
+  {
+    "csv_row": 7976,
+    "id": "RaoPitchAccept",
+    "column": "text",
+    "original": "\"Good,\" his approval comes with a sly smile. \"Have your people set up secure comms. We'll show the Strategic Assembly how it's done.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7977,
+    "id": "RaoPitchNopeGentle",
+    "column": "text",
+    "original": "\"Let us speak again on the matter if your situation changes.\"\n\nHis tone makes it clear that the issue is settled. For now.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7978,
+    "id": "RaoPitchNopeFirm",
+    "column": "text",
+    "original": "\"Nothing more need be said.\"\n\nHis tone makes it clear that the conversation is over.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7978,
+    "id": "RaoPitchNopeFirm",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 8442,
+    "id": "ZGRstartPitch8OMKIbuy",
+    "column": "options",
+    "option_line": "zgr_makePitch9OMKIbuy:\"...You want to buy the Onslaught Mk.I from me?\"",
+    "original": "...You want to buy the Onslaught Mk.I from me?",
+    "translated": ""
+  },
+  {
+    "csv_row": 8443,
+    "id": "ZGRstartPitch8respA",
+    "column": "options",
+    "option_line": "zgr_makePitch9a:\"But what IS it?\"",
+    "original": "But what IS it?",
+    "translated": ""
+  },
+  {
+    "csv_row": 8444,
+    "id": "ZGRstartPitch8respB",
+    "column": "options",
+    "option_line": "zgr_makePitch9b:\"How will I know when I find it?\"",
+    "original": "How will I know when I find it?",
+    "translated": ""
+  },
+  {
+    "csv_row": 8449,
+    "id": "ZGRmakePitch9know",
+    "column": "text",
+    "original": "\"Crews talk, TriPads listen. There is little I cannot know if I so wish,\" she says, injecting a tone of boredom into her words.\n\n\"Accept it. Now let's speak of business.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8450,
+    "id": "ZGRmakePitch9elek",
+    "column": "text",
+    "original": "\"Old records,\" she says curtly.\n\n\"The Galatia Academy doesn't know what it has, much less how to make good use of it. Their lack of self-motivation is self-evident.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8451,
+    "id": "ZGRmakePitch9OMKIbuy",
+    "column": "text",
+    "original": "She laughs with a buzz like a malfunctioning agrav plate.\n\n\"Oh, no. That'd be far too provocative to...\" She gives a little flick of the hand, indicating enemies too irrelevant to bother acknowledging in speech.\n\nThe Hegemony, maybe.\n\n\"However,\" she fixes upon you. \"I would gladly pay for the opportunity to have my people take a close look at it. And take a few samples, very small, nothing damaging.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8451,
+    "id": "ZGRmakePitch9OMKIbuy",
+    "column": "options",
+    "option_line": "zgr_makePitch9OMKIbuy2:\"You can't detect them, can you. That's what you want.\"",
+    "original": "You can't detect them, can you. That's what you want.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8452,
+    "id": "ZGRmakePitch9OMKIbuy2",
+    "column": "text",
+    "original": "She blinks. \"Detect them?\"\n\nHer voice is emotionless.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8453,
+    "id": "ZGRmakePitch9OMKIbuy3",
+    "column": "options",
+    "option_line": "zgr_makePitch9OMKIbuy4mil:\"One million credits.\"",
+    "original": "One million credits.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8454,
+    "id": "ZGRmakePitch9OMKIbuy4mil",
+    "column": "text",
+    "original": "A long pause. Her eyes flicker, accessing. Calculating.\n\n\"This is possible.\" She speaks with an emotion suddenly present - quiet displeasure, presumably at your maneuvering.\n\n\"You ask for much, captain.\"",
+    "translated": ""
+  }
+]

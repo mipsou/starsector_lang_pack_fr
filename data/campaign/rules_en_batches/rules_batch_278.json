@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 8341,
+    "id": "ZGRpreFirstVisitGreeting",
+    "column": "text",
+    "original": "The link settles on feed of volatiles futures scrolling across the crest of the Tri-Tachyon corporation for just a moment before the comm-link connects you with a perfectly coiffed junior secretary.\n\n\"The Tri-Tachyon Corporation welcomes you to Eochu Bres. Their smile is uncannily bright. May we presume you wish to accept Director Glamor-Rotanev's invitation?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8341,
+    "id": "ZGRpreFirstVisitGreeting",
+    "column": "options",
+    "option_line": "cutCommLinkPolite:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 8342,
+    "id": "ZGRpreVisitResp1",
+    "column": "text",
+    "original": "\"Fantastic. A priority flight path has been pre-approved for your convenience. The Tri-Tachyon Corporation is pleased to wish you a most profitable meeting with the Director of Special Acquisitions.\"\n\nThe uncanny smile re-appears, perfectly, once more. It's a little unsettling.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8342,
+    "id": "ZGRpreVisitResp1",
+    "column": "options",
+    "option_line": "ZGR_visitOptDirect:Take a shuttle to visit Director of Special Acquisitions Glamor-Rotanev",
+    "original": "Take a shuttle to visit Director of Special Acquisitions Glamor-Rotanev",
+    "translated": ""
+  },
+  {
+    "csv_row": 8342,
+    "id": "ZGRpreVisitResp1",
+    "column": "options",
+    "option_line": "cutCommLinkPolite:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 8343,
+    "id": "ZGRpreVisitResp1Hostile",
+    "column": "text",
+    "original": "\"Fantastic.\" The face maintains an uncanny smile. \"The Director is most eager to meet you.\"\n\nAn apologetic - but not guilty - expression forms. \"Unfortunately, the automated defenses of the Tri-Tachyon Corporation have flagged your ID as a hostile and your shuttle would be gunned down upon approach. Please contact customer service to resolve this misunderstanding.\"\n\n\"We hope you have a pleasant and profitable day.\"\n\nThe smile re-appears.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8343,
+    "id": "ZGRpreVisitResp1Hostile",
+    "column": "options",
+    "option_line": "cutCommLinkPolite:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 8344,
+    "id": "ZGRfirstVisitOption",
+    "column": "options",
+    "option_line": "2:ZGR_visitOptDirect:Take a shuttle to visit Director of Special Acquisitions Glamor-Rotanev",
+    "original": "ZGR_visitOptDirect:Take a shuttle to visit Director of Special Acquisitions Glamor-Rotanev",
+    "translated": ""
+  },
+  {
+    "csv_row": 8346,
+    "id": "ZGRfirstVisitStart",
+    "column": "text",
+    "original": "Your shuttle descends into the young atmosphere of Eochu Bres, through towering battlements of clouds. A spray of rain darkens your viewport for a moment before it is wiped clean by the heat and speed of your descent.\n\nThe flight path immediately deviates from the general approach corridor which had started ticking off minor use-fees from the Tri-Tachyon owned flight control: general volume access fee, priority flight lane fee, service fee, customer satisfaction insurance charge, advertisement bypass fee.\n\nThe notifications self-delete, their fees automatically refunded, as the towering central arcologies of Xanadu emerge from the mist.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8347,
+    "id": "ZGRfirstVisitIntro1",
+    "column": "text",
+    "original": "Jagged mountain peaks ring the horizon. Gleaming monoliths glitter, spears of capital upthrust through the glowering flesh of the world. Skyarco II grows before you, prismatic.\n\nYour shuttle alights on a landing pad held at some distance from the facade by an airy support rib. It looks impossibly thin, but on touch down feels as solid as a coherent M-type asteroid.",
+    "translated": ""
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 3339,
+    "id": "BFFIpsDestroyed4",
+    "column": "text",
+    "original": "A junior officer pokes their head into the briefing room, \"$PlayerSirOrMadam, my apologies. The chief thought you'd want to see this.\"\n\nTwo burly salvors, still in their sweaty suit-liners, haul a crate and set it on the deckplates with a solid thump. With an impish grin, one of them looses the catches and together they pull the top-cover away.\n\nIt's filled with work-gloves. All of like chirality.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3340,
+    "id": "BFFIpsDestroyed5",
+    "column": "text",
+    "original": "Bornanew lets out a breath.\n\n\"I ought to have anticipated this.\" He sounds annoyed with himself. \"Costs no more to run a batch of one than of...\" He reaches in, picking up a glove, then pressing into the cargo container to feel for density. \"Five-twelve?\" He turns to you. \"Perhaps five hundred eleven, without our other hard-won specimen?\"\n\nHe wipes his hands, as if something unpleasant had got on them. \"These will need to be destroyed.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3340,
+    "id": "BFFIpsDestroyed5",
+    "column": "options",
+    "option_line": "bffi_psDestroyed6:Order it done",
+    "original": "Order it done",
+    "translated": ""
+  },
+  {
+    "csv_row": 3341,
+    "id": "BFFIpsDestroyed6",
+    "column": "text",
+    "original": "It is done with swift enthusiasm by a crew monitored by your ops chief.\n\nThe last step is the capture of Bornanew's mole on Tartessus.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3342,
+    "id": "BFFIpsDestroyedBornMed0",
+    "column": "text",
+    "original": "A cloud of icons, sigils, words forms. Names, front companies, ships, codewords, and references to theological agitprop. Your tech officer's hands blur as they manipulate an interface invisible to you; his subtle cybermods blink rapidly. And then stop, steady.\n\n\"Captain, we may have something.\"\n\nTheir eyes refocus on the real world again, taking a moment to adapt to mundanity. \"Something for your, ah, consultant. The Knight.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3342,
+    "id": "BFFIpsDestroyedBornMed0",
+    "column": "options",
+    "option_line": "bffi_psDestroyedBornMed1:\"What have you found?\"",
+    "original": "What have you found?",
+    "translated": ""
+  },
+  {
+    "csv_row": 3343,
+    "id": "BFFIpsDestroyedBornMed1",
+    "column": "text",
+    "original": "\"A word. Maybe a code? A name? It comes up several times, relating to Tartessus and the template they fed into the forge.\"\n\n\"The word is 'Keepfaith'. One word. Maybe it means something special to the Ludd... ics?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3343,
+    "id": "BFFIpsDestroyedBornMed1",
+    "column": "options",
+    "option_line": "bffi_psDestroyedBornMed2:\"Clean up some representative samples for me.\"",
+    "original": "Clean up some representative samples for me.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3344,
+    "id": "BFFIpsDestroyedBornMed2",
+    "column": "options",
+    "option_line": "bffi_psDestroyedBornMed3:Go to the medbay",
+    "original": "Go to the medbay",
+    "translated": ""
+  },
+  {
+    "csv_row": 3345,
+    "id": "BFFIpsDestroyedBornMed3",
+    "column": "text",
+    "original": "\"Keepfaith,\" Bornanew says, repeating the last word of your question.\n\nHe leans back in his bed, his eyes darting around some internal catalogue. His notebook appears in his hands - it is impressive to have snuck an outside object past the wary eye of your senior medical officer - and he flips to a page to check something. \n\n\"Subcurate Cedra Keepfaith. Authority over the scriptorium of the Holy Cathedral of Exodus, on Tartessus, in the Eos Exodus system.\"",
+    "translated": ""
+  }
+]

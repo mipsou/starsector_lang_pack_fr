@@ -1,0 +1,80 @@
+[
+  {
+    "csv_row": 9436,
+    "id": "ImoinuKatoUmbraSalute2b",
+    "column": "text",
+    "original": "She opens her mouth, then pauses, and closes it.\n\n\"Yes. That's... fair.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 9437,
+    "id": "ImoinuKatoUmbraSalute2a",
+    "column": "options",
+    "option_line": "imoinu_goKazeron:\"Why not go back to Kazeron and find a way to support the fight from inside the League?\"",
+    "original": "Why not go back to Kazeron and find a way to support the fight from inside the League?",
+    "translated": ""
+  },
+  {
+    "csv_row": 9437,
+    "id": "ImoinuKatoUmbraSalute2a",
+    "column": "options",
+    "option_line": "imoinu_goVolturn:\"What if you go to Volturn. Help the, um, Volturn Covenant?\"",
+    "original": "What if you go to Volturn. Help the, um, Volturn Covenant?",
+    "translated": ""
+  },
+  {
+    "csv_row": 9440,
+    "id": "ImoinuKantoUmbraDoomed1",
+    "column": "options",
+    "option_line": "imoinuKato_sayMother:\"Your grandmother hired a freelancer to talk you out of... this?\"",
+    "original": "Your grandmother hired a freelancer to talk you out of... this?",
+    "translated": ""
+  },
+  {
+    "csv_row": 9440,
+    "id": "ImoinuKantoUmbraDoomed1",
+    "column": "options",
+    "option_line": "imoinuKato_sayMotherB:\"Are you telling me I could have been paid for this?\"",
+    "original": "Are you telling me I could have been paid for this?",
+    "translated": ""
+  },
+  {
+    "csv_row": 9441,
+    "id": "ImoinuKantoUmbraDoomed1ARClie",
+    "column": "options",
+    "option_line": "imoinuKato_sayDoomedArcLie2:\"Hold on, now...\"",
+    "original": "Hold on, now...",
+    "translated": ""
+  },
+  {
+    "csv_row": 9442,
+    "id": "ImoinuKantoUmbraDoomed1ARClie2",
+    "column": "text",
+    "original": "\"Die in vacuum.\" She slams the cut-off.",
+    "translated": ""
+  },
+  {
+    "csv_row": 9443,
+    "id": "ImoinuKantoUmbraNoble1",
+    "column": "options",
+    "option_line": "imoinuKato_sayMotherB:\"Are you telling me I could have been paid for this?\"",
+    "original": "Are you telling me I could have been paid for this?",
+    "translated": ""
+  },
+  {
+    "csv_row": 9448,
+    "id": "ImoinuUmbraGoOptA",
+    "column": "options",
+    "option_line": "imoinuUmbra_goCavin:\"I know someone on Westernesse who might help you. Cavin Pharoh.\"",
+    "original": "I know someone on Westernesse who might help you. Cavin Pharoh.",
+    "translated": ""
+  },
+  {
+    "csv_row": 9450,
+    "id": "ImoinuUmbraGoOptC",
+    "column": "options",
+    "option_line": "imoinuUmbra_goOfferPassage:\"If you need safe transport to an independent world, I can arrange it.\"",
+    "original": "If you need safe transport to an independent world, I can arrange it.",
+    "translated": ""
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 2986,
+    "id": "BFFIpartyOutro3buyer",
+    "column": "text",
+    "original": "\"A nanoforge engineer could tell us where this came from,\" he says. \"Who made it. When, and where. By that truth, we can judge the answers we receive from those we... interview.\" His last word is muted by the shuttle's maneuverings.\n\n\"The Church operates a nanoforge on the planet Asher, in the Canaan system. The engineers there will cooperate with the authority I bear, and despite mostly being nonbelievers, their discretion is already paid for by the Church. Our inquiry will be safe.\"\n\nHe pauses, and looks away. \"So far as anything is, in the Church.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2986,
+    "id": "BFFIpartyOutro3buyer",
+    "column": "options",
+    "option_line": "bffi_partyOutro4:\"We should confirm our hard evidence before Menes starts asking questions.\"",
+    "original": "We should confirm our hard evidence before Menes starts asking questions.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2987,
+    "id": "BFFIpartyOutro4",
+    "column": "text",
+    "original": "Bornanew nods agreement.\n\nThe shuttle approaches your flagship and prepares to dock.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2991,
+    "id": "BFFItalkToEngineer0",
+    "column": "text",
+    "original": "Bornanew assists your comms officer in navigating through various levels of Church bureaucracy.\n\nBefore long, you have the senior nanoforge engineer of Asher on a comms-link.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2992,
+    "id": "BFFItalkToEngineer1",
+    "column": "text",
+    "original": "\"Yes, hello? Uh, good day? I was told there was an investigation.\" \n\nShe seems to examine you through the link. \"You don't look much like a Knight of Ludd.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2992,
+    "id": "BFFItalkToEngineer1",
+    "column": "options",
+    "option_line": "bffi_talkToEngineer2:\"I need an object analyzed. Very closely.\"",
+    "original": "I need an object analyzed. Very closely.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2993,
+    "id": "BFFItalkToEngineer2",
+    "column": "text",
+    "original": "\"I see.\" $PersonName takes a moment more to examine you, humming to herself.\n\n\"Forensic material analysis. Skilled work.\" $HeOrShe frowns. \"It won't be cheap.\"\n\nShe looks at some other display and starts tapping at an input. \"You'll have to bring the sample down, of course.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2993,
+    "id": "BFFItalkToEngineer2",
+    "column": "options",
+    "option_line": "bffi_talkToEngShuttle:Shuttle to the engineer's laboratory",
+    "original": "Shuttle to the engineer's laboratory",
+    "translated": ""
+  },
+  {
+    "csv_row": 2994,
+    "id": "BFFItalkToEngShuttle",
+    "column": "text",
+    "original": "Bornanew's authority - that of the Archcurate Sophronia Jaspis, in truth - is as good with the local traffic authority as it is with the Manufactoria Guild bureaucrats.\n\nYour shuttle descends into the atmosphere of Asher. The view shades toward a warm, murky gray as you descend through the stratospheric fines perpetually refreshed by towering dust storms. The display blots out entirely and switches to a false-rendering as you enter the lower atmosphere.\n\nThere is no hazard; the storms are impressive in scale but low in mass due to the deathly thin atmosphere.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2995,
+    "id": "BFFItalkToEngineer4",
+    "column": "text",
+    "original": "Senior Engineer Tanaica places the glove and its containment vessel onto a shelf which retracts into the towering white casing of the analysis suite. Transparent panes, probably diamond-matrix, reveal arcane inner workings.\n\nShe hits a command to evacuate the atmo from the sample slot, and sets a manipulator to extract the glove and place it on the scanning bed. All of this she performs with a casual ease born of practice. She speaks as she taps away at the control interface.\n\n\"If it came from a high-quality nanoforge like what the Heggies or League's got, this might not tell us much.\" \n\nSome kind of protective barrier shunts down, hiding the glove from view. A holo of the glove emerges from a display unit, gaining resolution until a doppelganger rotates in the air before you.",
+    "translated": ""
+  }
+]

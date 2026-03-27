@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 6650,
+    "id": "soeDanceStarting2f",
+    "column": "text",
+    "original": "Son regard sceptique prend un tour cinglant.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6650,
+    "id": "soeDanceStarting2f",
+    "column": "options",
+    "option_line": "soe_danceStarting2b:\"Que souhaitez-vous faire ?\"",
+    "original": "Que souhaitez-vous faire ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 6650,
+    "id": "soeDanceStarting2f",
+    "column": "options",
+    "option_line": "soe_danceEscape1:\"Euh. Je vais partir maintenant.\"",
+    "original": "Euh. Je vais partir maintenant.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6651,
+    "id": "soeDanceEscape1",
+    "column": "text",
+    "original": "Vous tournez les talons et vous dirigez vers le bord de la salle, laissant une Neriene de la Maison Rao perplexe sur la piste de danse.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6654,
+    "id": "soeDanceEscapeEnd",
+    "column": "text",
+    "original": "Votre navette rejoint votre $shipOrFleet au-dessus de $entityName.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6662,
+    "id": "soeDanceRound3felt",
+    "column": "text",
+    "original": "\"Alors c'est le destin,\" dit-elle avec un sourire narquois, \"Je ne vous aurais pas pris pour un romantique.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 6691,
+    "id": "soeDuelPrepResponseCoward2",
+    "column": "options",
+    "option_line": "soe_duelPrepCoward2:\"Que voulez-vous dire par des gens comme Cardona ?\"",
+    "original": "Que voulez-vous dire par des gens comme Cardona ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 6697,
+    "id": "soeDuelPrepResponseLeave",
+    "column": "options",
+    "option_line": "soe_duelPrepLeave:\"Vous avez raison, c'est stupide. Je m'en vais.\"",
+    "original": "Vous avez raison, c'est stupide. Je m'en vais.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6714,
+    "id": "soeDuelPrepLeaveEnd",
+    "column": "text",
+    "original": "Votre navette rejoint votre $shipOrFleet en orbite au-dessus de $entityName.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6729,
+    "id": "soeFightWinPrevail",
+    "column": "text",
+    "original": "Votre navette rejoint votre $shipOrFleet en orbite au-dessus de $entityName.",
+    "translated": ""
+  }
+]

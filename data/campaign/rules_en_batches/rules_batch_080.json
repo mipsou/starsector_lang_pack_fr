@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 2776,
+    "id": "BFFIattendPartyHub1Out2",
+    "column": "options",
+    "option_line": "bffi_mpEnterVault:Enter the vault",
+    "original": "Enter the vault",
+    "translated": ""
+  },
+  {
+    "csv_row": 2779,
+    "id": "BFFImpStealStart",
+    "column": "text",
+    "original": "On a pedestal of carved wood, in a spot of light like holy revelation, a single glove is upthrust. It's fingers appear frozen in the midst of just starting to curl back toward a relaxed state after giving you a little wave.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2780,
+    "id": "BFFImenesPartySteal3",
+    "column": "text",
+    "original": "\"Do you know what this is?\" Menes whispers to you. \n\n\"The Right-Hand Glove of Blessed Ludd,\" Bornanew answers, stepping forward, voice filled with trembling reverence.\n\n\"Removed by the Blessed Ludd, whereupon that prophet fell to the sacred Earth of Gilead to kiss that holy ground. Blessings be upon Ludd; Good is the Word; By the Holy Pneuma; By the Divine Light which illuminates the righteous Path through the Garden of Temptation...\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2781,
+    "id": "BFFImenesPartySteal4",
+    "column": "text",
+    "original": "Bornanew himself falls to his knees, half-whispering, half-sobbing in prayer, rocking back and forth, his eyes wide and focus vague. \n\nThis is a display you have never seen from $global.jethroName, completely at odds with his usual air of reserve.\n\nMenes steps back with you, looking somehow appalled and delighted at the same time. He stares at Bornanew like a voyeur.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2781,
+    "id": "BFFImenesPartySteal4",
+    "column": "options",
+    "option_line": "bffi_mpSteal6:Attendre a bit",
+    "original": "Attendre a bit",
+    "translated": ""
+  },
+  {
+    "csv_row": 2783,
+    "id": "BFFImenesPartySteal6",
+    "column": "text",
+    "original": "Bornanew keeps at it, absolutely rapt upon his prayer toward the glove, tears and phlegm running down his face. It is, truly, a pathetic and uncomfortably intimate sight.\n\nMenes keeps staring, an open half-smile on his lips.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2783,
+    "id": "BFFImenesPartySteal6",
+    "column": "options",
+    "option_line": "bffi_mpSteal7:\"Menes. We should let him be for a moment, don't you think? Menes?\"",
+    "original": "Menes. We should let him be for a moment, don't you think? Menes?",
+    "translated": ""
+  },
+  {
+    "csv_row": 2784,
+    "id": "BFFImenesPartySteal7",
+    "column": "options",
+    "option_line": "bffi_mpSteal8:Gently pull Menes' away and ask about other items in the collection",
+    "original": "Gently pull Menes' away and ask about other items in the collection",
+    "translated": ""
+  },
+  {
+    "csv_row": 2785,
+    "id": "BFFImenesPartySteal8",
+    "column": "text",
+    "original": "It takes a slightly more than polite tug to overcome Menes' inertia, but finally he's dislodged from Bornanew's spectacle toward another of the handful of chambers making up this 'inner sanctum'.\n\nMenes keeps glancing back toward Bornanew as he explains the story of one or another object: A captain's uniform of the Fourteenth Battlegroup, sword and all, from the period of the Cold Passage; a bottle of spirits from some core Domain star system near Old Earth; a pistol once owned by the Warlord Leonis; the crystalline xenocoral of a species extinct for half a billion years collected by the Exploraria.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2785,
+    "id": "BFFImenesPartySteal8",
+    "column": "options",
+    "option_line": "bffi_mpSteal9a:\"Astounding. Makes one think how we would handle the Cold Passage. Menes?\"",
+    "original": "Astounding. Makes one think how we would handle the Cold Passage. Menes?",
+    "translated": ""
+  }
+]

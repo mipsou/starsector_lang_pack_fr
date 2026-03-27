@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 3015,
+    "id": "BFFItalkToEngineer12optD",
+    "column": "options",
+    "option_line": "bffi_talkToEngineer13corruption:\"You serve the Church. Is this not corruption, $jethroName?\"",
+    "original": "You serve the Church. Is this not corruption, $jethroName?",
+    "translated": ""
+  },
+  {
+    "csv_row": 3018,
+    "id": "BFFItalkToEngineer13a",
+    "column": "text",
+    "original": "She looks between you and Bornanew.\n\n\"Didn't you tell your captain about the fee?\" She asks.\n\nYou'd swear, Bornanew is almost blushing.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3019,
+    "id": "BFFItalkToEngineer13b",
+    "column": "text",
+    "original": "You transfer the credits to Senior Engineer Tanaica's accounts while $global.jethroName holds the vessel.\n\nPresumably she'll forward payment for lab expenses to the Church-approved Manufactoria Guild.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3020,
+    "id": "BFFItalkToEngineer13bMerc",
+    "column": "text",
+    "original": "You transfer the credits to Senior Engineer Tanaica's accounts while $global.jethroName holds the vessel.\n\nPresumably she'll forward payment for lab expenses to the Church-approved Manufactoria Guild. Or not.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3021,
+    "id": "BFFItalkToEngineer13corruption",
+    "column": "text",
+    "original": "His neutral expression flickers.\n\n\"I... yes, the captain is correct. You are paid to serve the Church, and this,\" he hefts the ersatz reliquary, \"is business of the Church.\"\n\n\"Right you are,\" says Senior Engineer Tanaica through a tight smile. \"Good day, captain.\"\n\nHer eyes flick at Bornanew. \"Novice.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3022,
+    "id": "BFFItalkToEngineer13corruption2",
+    "column": "text",
+    "original": "Bornanew's tone was righteous, but without heart. You suspect he was not going to make an issue of the 'payment' until you brought it up.\n\nAs you return to your shuttle he gives you a look- guilt?\n\n\"Such things are not uncommon even in the shadow of the Church,\" he says. \"And elsewhere. I'm sure you well know.\"\n\nBornanew returns his attention to his datapad. He's making his 'thinking face'.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3022,
+    "id": "BFFItalkToEngineer13corruption2",
+    "column": "options",
+    "option_line": "bffi_postEngJethroTalk2:\"Out with it, $global.jethroName.\"",
+    "original": "Out with it, $global.jethroName.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3023,
+    "id": "BFFItalkToEngineer13c",
+    "column": "text",
+    "original": "He recovers quickly. \"I, of course,\" he awkwardly hands the ersatz reliquary to you then draws an off-brand datapad from his robes. Engineer $personLastName blinks at it.\n\n\"I can pay from the, uh, accounts of The Reverend Archcurate Sophronia Jaspis... here.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3024,
+    "id": "BFFItpostEngJethroTalk1",
+    "column": "text",
+    "original": "You return to your shuttle. \n\nBornanew's attention is uncharacteristically focused on his datapad. He's making his 'thinking face'.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3024,
+    "id": "BFFItpostEngJethroTalk1",
+    "column": "options",
+    "option_line": "bffi_postEngJethroTalk2:\"Out with it, $global.jethroName.\"",
+    "original": "Out with it, $global.jethroName.",
+    "translated": ""
+  }
+]

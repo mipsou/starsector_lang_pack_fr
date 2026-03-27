@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 10627,
+    "id": "devGotCottonBookSet2",
+    "column": "text",
+    "original": "Definir que le joueur a rencontre Frere Cotton et a recu son Livre de Ludd (normalement fait pendant le Projet Ziggurat). Definir egalement que le joueur s'est assis avec Cotton (pour indiquer que le joueur ne deteste pas les Patheristes a 1000 pour cent)",
+    "translated": ""
+  },
+  {
+    "csv_row": 10631,
+    "id": "ttDevMenuOption",
+    "column": "options",
+    "option_line": "200:ttDev_optionsMenu:>> (dev) Open test options menu",
+    "original": "ttDev_optionsMenu:>> (dev) Open test options menu",
+    "translated": ""
+  },
+  {
+    "csv_row": 10637,
+    "id": "ttDevMakeArroyoContactOption",
+    "column": "options",
+    "option_line": "ttDev_makeRayanContactOption:set Rayan Arroyo as met, and as potential contact",
+    "original": "set Rayan Arroyo as met, and as potential contact",
+    "translated": ""
+  },
+  {
+    "csv_row": 10638,
+    "id": "ttDevMakeArroyoContactOption2",
+    "column": "text",
+    "original": "Definir rencontre arroyo a vrai, et ajoute comme contact potentiel",
+    "translated": ""
+  },
+  {
+    "csv_row": 10639,
+    "id": "ttDevGiveDwellerLootOpt",
+    "column": "options",
+    "option_line": "ttDev_giveDwellerStuff:Set encountered Dweller and give special items",
+    "original": "Set encountered Dweller and give special items",
+    "translated": ""
+  },
+  {
+    "csv_row": 10640,
+    "id": "ttDevGiveDwellerLootSel",
+    "column": "text",
+    "original": "Set player encountered Weird and Dweller to TRUE",
+    "translated": ""
+  },
+  {
+    "csv_row": 10641,
+    "id": "ttDevGiveThreatLootOpt",
+    "column": "options",
+    "option_line": "ttDev_giveThreatStuff:Set encountered Threat and give special items",
+    "original": "Set encountered Threat and give special items",
+    "translated": ""
+  },
+  {
+    "csv_row": 10642,
+    "id": "ttDevGiveThreatLootSel",
+    "column": "text",
+    "original": "Set player encountered Weird and Threat to TRUE",
+    "translated": ""
+  },
+  {
+    "csv_row": 10694,
+    "id": "bqfsAskedForSuppliesScamOut",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 10705,
+    "id": "salSMOLstart",
+    "column": "text",
+    "original": "Your salvors spread out through the $nameInText in teams under the gruff direction of your Ops Chief. Salvage is rapidly identified, assessed, logged, and tagged with trackers, when appropriate, for follow-up teams to extract.\n\nComputers and datastores are accessed via disposable interfacers, rough and quick hardware jobs that send back any information they can lift from poorly shielded databanks. Back on your $shipOrFleet, your tech teams crack security and decrypts anything they can, forwarding useful information - maps, cargo manifests, engineering diagrams - back to the salvors to use.",
+    "translated": ""
+  }
+]

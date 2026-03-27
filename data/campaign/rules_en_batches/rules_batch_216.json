@@ -1,0 +1,81 @@
+[
+  {
+    "csv_row": 6027,
+    "id": "asebScholarshipOutroC",
+    "column": "text",
+    "original": "\"On behalf of the Galatia Academy,\" Sebestyen says, \"-its faculty, students, and um, administrators, I wish to offer you my heartfelt thanks for your contribution to the future of humanity.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 6034,
+    "id": "asebAskedForWorkBairdTalk",
+    "column": "options",
+    "option_line": "gaTTB_howAbout:\"Et si on parlait d'une mission ?\"",
+    "original": "Et si on parlait d'une mission ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 6073,
+    "id": "gaDataBluff1",
+    "column": "options",
+    "option_line": "cutCommLink:\"Je ne le ferai pas, promis.\"",
+    "original": "Je ne le ferai pas, promis.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6107,
+    "id": "gaDADeclineBuyAggroStronger",
+    "column": "options",
+    "option_line": "gaDA_buyAgree:Accepter le nouveau prix",
+    "original": "Accepter le nouveau prix",
+    "translated": ""
+  },
+  {
+    "csv_row": 6107,
+    "id": "gaDADeclineBuyAggroStronger",
+    "column": "options",
+    "option_line": "cutCommLink:Refuser. Snap comms off and power up battle-systems.",
+    "original": "Refuser. Snap comms off and power up battle-systems.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6111,
+    "id": "gaDAKantaSentMe1",
+    "column": "options",
+    "option_line": "gaDA_kanta1a:\"Absolument loyal.\"",
+    "original": "Absolument loyal.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6118,
+    "id": "gaDAScavBuy",
+    "column": "options",
+    "option_line": "gaDA_scavBuyAccept:Accepter leur prix",
+    "original": "Accepter leur prix",
+    "translated": ""
+  },
+  {
+    "csv_row": 6132,
+    "id": "gaCOOfferOption",
+    "column": "options",
+    "option_line": "gaCO_start:Questionner sur le scan de $gaCO_celestialObjectType",
+    "original": "Questionner sur le scan de $gaCO_celestialObjectType",
+    "translated": ""
+  },
+  {
+    "csv_row": 6136,
+    "id": "gaCOMissionTextBasicSlipUp2",
+    "column": "options",
+    "option_line": "aseb_decline:Refuser the mission",
+    "original": "Refuser the mission",
+    "translated": ""
+  },
+  {
+    "csv_row": 6139,
+    "id": "gaCOMissionTextBasicPulsar",
+    "column": "options",
+    "option_line": "gaCO_pulsarCont:Lever un sourcil",
+    "original": "Lever un sourcil",
+    "translated": ""
+  }
+]

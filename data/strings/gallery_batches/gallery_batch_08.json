@@ -1,0 +1,82 @@
+[
+  {
+    "csv_row": 695,
+    "id": "salvor_ruins",
+    "title": "Salvors in the Ruins",
+    "original_text": "It appeared empty at first. A colossal tomb, never filled.\n\nDrone-mounted radar drew a ghostly schematic while suit lights piled beams into the echoing volume, catching drifts of dust and gas set aloft by the opening. Cables gleamed in the dark, snaking along the long ranks of coffers.",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 696,
+    "id": "salvor_explore_hull",
+    "title": "Derelict Exploration",
+    "original_text": "\"It is said that an ex-salvor is either old or rich, never both.\"",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 697,
+    "id": "dead_zero_g",
+    "title": "Zero-G Dead",
+    "original_text": "\"It's finding the pieces that's the worst. Not so much out there, frozen or fried, but those bits that stick on 'til you're back inside.\"\n\n\"Doesn't smell much at first but after a few shifts you need to run a mil-grade dehaz on all your kit. Can't stand it.\"",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 698,
+    "id": "cache_large",
+    "title": "Large Cache",
+    "original_text": "A huge structure loomed, the monolithic facets of its hull scarred by countless cycles of space weathering. The hangars were large enough to hide a vast store of valuable commodities.\nOr, perhaps, a fleet of moderate size.",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 699,
+    "id": "tartessus",
+    "title": "Tartessus, the Cathedral of Holy Exodus",
+    "original_text": "You stood together at last in the plaza under the archway of the Cathedral of Holy Exodus.\n\n\"And it is the seat of not more than a few heretical notions of doctrine, I'm afraid,\" he said in a low voice.",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 700,
+    "id": "cathedral_skyline",
+    "title": "Cathedral of Holy Exodus",
+    "original_text": "Among towering columns were affixed recovered landing pods of the early Luddic refugee ships, now integrated into the vaults, painted with gilt and green, bedecked with candles and hanging glass ornaments which broke the beams of the sun - filtered through ranks of high windows - into thousands of rainbow shards endlessly refracting.\n\nIt was an ecstasy of light, a galaxy unto itself.",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 701,
+    "id": "abyssal_light",
+    "title": "Abyssal Light",
+    "original_text": "A cold light filled the viewscreen, stark against the utter darkness of the hyperspace abyss. It seemed to pulse, shifting dimmer and then brighter, following no discernable pattern. It did not flicker like a flame, nor like a failing comms signal, but like something flitting at the very edge of consciousness...",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 702,
+    "id": "abyssal_light2",
+    "title": "Abyssal Light Encounter",
+    "original_text": "Cold light began to grow in the primary display. A subtle pulse begged for attention.\n\nA call of alarm, a flare of red, and a pause as the bridge officers took in the eruption of alerts that spilled across their display interfaces.",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 703,
+    "id": "shrouded_weapon_assembly",
+    "title": "Exotic Weapon Assembly",
+    "original_text": "Haz-suited technicians tended the containment machinery, stepping over coils of tube and wire. A mess of makeshift components were pulled from the common microforge libraries then torn apart and re-engineered to operate in this unusual, even extraordinary, application.",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 704,
+    "id": "cargo_pod_drift",
+    "title": "Cargo Pods",
+    "original_text": "Often filled with recoverable goods, even operational cryopods, a clutch of cargo pods in open space are a tempting target to scavengers. \n\nTrade convoys fleeing pirates sometimes dump cargo in the hope that their pursuers will power down their engines and content themselves with easy plunder.",
+    "translated_title": "",
+    "translated_text": ""
+  }
+]

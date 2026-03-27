@@ -1,0 +1,74 @@
+[
+  {
+    "csv_row": 2802,
+    "id": "BFFImenesPartySteal17c",
+    "column": "options",
+    "option_line": "bffi_mpSteal18b:\"Next time, be sure to let me in on your plan.\"",
+    "original": "Next time, be sure to let me in on your plan.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2806,
+    "id": "BFFImenesPartySteal18d",
+    "column": "text",
+    "original": "His eyes keep watch on Menes as he replies.\n\n\"It's just a glove, captain. The color matches. I didn't think Menes would notice.\" His mouth quirks. \"He didn't.\"\n\n\"He will notice eventually, however. We should... become distant from this place.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2807,
+    "id": "BFFImenesPartySteal19",
+    "column": "text",
+    "original": "* * *\n\nIt is a feat of diplomacy that you manage to extract yourself and Bornanew as quickly as you are able.\n\nA faked containment failure alert from your chief engineer merely opens the door. Passing through requires shaking everyone's hand, exchanging pleasant words, and going through the motions of good-byes several times over - then each time the ritual is interrupted by some tangent or anecdote from Menes, he ensures that it is begun again from the start.\n\nAt last you find yourself back in your shuttle, a half-full glass still in your hand.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2810,
+    "id": "BFFImpBuyerStart",
+    "column": "text",
+    "original": "On a pedestal of carved wood, in a spot of light like holy revelation, a single glove is upthrust. It's fingers appear frozen in the midst of just starting to curl back toward a relaxed state after giving you a little wave.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2811,
+    "id": "BFFImpBuyer0",
+    "column": "text",
+    "original": "\"Do you know what this is?\" Menes whispers to you. \n\n\"It looks like a glove, demarch,\" Bornanew answers in feigned misunderstanding, stepping forward.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2812,
+    "id": "BFFImpBuyer1",
+    "column": "text",
+    "original": "\"Not any glove,\" Menes says with more than a hint of vexation.\n\nHe begins again in a reverent whisper, \"The glove worn by Ludd upon stepping upon the sacred Earth of Gilead. Ludd removed the glove and kissed the ground, according to the Luddic religion. Isn't that right, sir Knight? And this... is it.\"\n\nBornanew looks at you, his eyebrows rising slightly as if to give a cue. \"This would be a most impressive find,\" he says. \"If it is as you say.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2813,
+    "id": "BFFImpBuyer2",
+    "column": "text",
+    "original": "\"Thank-you captain!\" Menes says, relieved and more than a little pleased that someone appreciates his trinket.\n\n\"Setting aside its purely religious significance,\" he gives an annoyed glance at Bornanew, \"it represents a, a heralding of the changing tide of history! The ebbing influence of the Domain-era megacorporations, the rising of what some call - not my words of course, sir Knight - an atavistic populism. Truly, it is this small piece of the vastness of the story of Humanity which called to me when it was first described to me...\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2813,
+    "id": "BFFImpBuyer2",
+    "column": "options",
+    "option_line": "bffi_mpBuyer3:\"I, too, feel its call. Would you consider selling the piece?\"",
+    "original": "I, too, feel its call. Would you consider selling the piece?",
+    "translated": ""
+  },
+  {
+    "csv_row": 2814,
+    "id": "BFFImpBuyer3",
+    "column": "text",
+    "original": "\"Oh, captain.\" Menes chuckles approvingly. \"I couldn't possibly sell this, the prize of my collection. Nothing can compare!\"\n\n\"-Although,\" he quibbles with himself, \"I do possess a captain's uniform of the Fourteenth Battlegroup in excellent condition, and indeed a pistol once owned by the Warlord Leonis which I believe was used to execute prisoners at... well, you understand my point of course.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2815,
+    "id": "BFFImpBuyer3b",
+    "column": "text",
+    "original": "\"Of course,\" Bornanew says from behind Menes, who has fully turned his back to the Knight. \"If it is indeed the real glove of Ludd.\"\n\nYou maintain your composure while watching the look that crosses Menes' face.",
+    "translated": ""
+  }
+]

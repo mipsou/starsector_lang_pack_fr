@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 7583,
+    "id": "hijackOfferOption",
+    "column": "options",
+    "option_line": "hijack_start:Questionner sur le plan pour voler un vaisseau militaire",
+    "original": "Questionner sur le plan pour voler un vaisseau militaire",
+    "translated": ""
+  },
+  {
+    "csv_row": 7584,
+    "id": "hijackBlurbBar",
+    "column": "text",
+    "original": "Un $hijack_manOrWoman a l'air coriace en sous-combinaison d'armure assistee descend un alcool acre, intimidant quiconque s'approche trop pres d'un regard feral.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7589,
+    "id": "hijackBarLookAtFreighter",
+    "column": "text",
+    "original": "Le $hijack_manOrWoman tapote quelques boutons sur $hijack_hisOrHer TriPad cabossee pour vous montrer les schemas. \"Un sacre engin, hein ?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7590,
+    "id": "hijackLookAtFreighter",
+    "column": "text",
+    "original": "$personName tapote quelques boutons pour afficher un holoecran partage des schemas du vaisseau. \"Jetez un oeil,\" dit $heOrShe.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7595,
+    "id": "hijackOperation3NotBar",
+    "column": "text",
+    "original": "Apres que le vaisseau fraichement libere a rejoint votre flotte, vous passez en revue le rapport d'apres-action avec $personName.\n\n\"Tout s'est deroule comme prevu.\" $HeOrShe sourit comme un vieux pirate, \"Il faudra qu'on refasse ca un de ces jours.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7600,
+    "id": "jabrBlurbBar1",
+    "column": "text",
+    "original": "Dans un coin sombre, un $jabr_manOrWoman fumant un baton narcotique incandescent croise votre regard.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7601,
+    "id": "jabrOfferOptionBar1",
+    "column": "options",
+    "option_line": "jabr_startBar:Approcher l'$jabr_manOrWoman qui fume dans le coin sombre",
+    "original": "Approcher l'$jabr_manOrWoman qui fume dans le coin sombre",
+    "translated": ""
+  },
+  {
+    "csv_row": 7615,
+    "id": "ddroBlurb1",
+    "column": "text",
+    "original": "\"J'ai besoin qu'un colis soit livre. La destination doit rester secrete. Simple.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7623,
+    "id": "ddroObjectInteraction",
+    "column": "options",
+    "option_line": "ddro_scan:Le larguer en orbite stable",
+    "original": "Le larguer en orbite stable",
+    "translated": ""
+  },
+  {
+    "csv_row": 7624,
+    "id": "ddroObjectScan",
+    "column": "text",
+    "original": "Les portes de la soute s'ouvrent, et le drone cargo deploie ses bras. Puis, delicatement, ses manipulateurs relachent leur prise.\n\nC'est fait. Quoi que 'ce' soit.",
+    "translated": ""
+  }
+]

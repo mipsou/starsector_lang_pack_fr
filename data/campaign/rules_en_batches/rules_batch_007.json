@@ -1,0 +1,73 @@
+[
+  {
+    "csv_row": 133,
+    "id": "ShroudedHullmodItemRCL4",
+    "column": "text",
+    "original": "Both jump at your words, standing to attention. \"$PlayerSirOrMadam!\" they say in uncharacteristic unison.\n\nEngineering takes the opportunity to finally get a word in. \"Accuracy decreases in... interestingly, a sharp harmonic progression. But this means anything beyond mid-range combat parameters will effectively create an energetic burst at a random spot somewhere within the n-space universe.\" They side-eye Tech. \"Just another blip of cosmic background radiation.\"\n\nTech looks like they might say something, but no words come. Engineering fills the silence again. \"Practically, it could only target reasonably nearby hostiles.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 134,
+    "id": "ShroudedHullmodItemRCL5",
+    "column": "text",
+    "original": "You consider the undeniable possibility that the Luddic faith would view any use of this technology as literally demonic. You could be declared a heretical outlaw and hunted by the Knights of Ludd and Luddic Path alike.",
+    "translated": ""
+  },
+  {
+    "csv_row": 134,
+    "id": "ShroudedHullmodItemRCL5",
+    "column": "options",
+    "option_line": "defaultLeave:\"Have a proposal for me by end-of-shift.\"",
+    "original": "Have a proposal for me by end-of-shift.",
+    "translated": ""
+  },
+  {
+    "csv_row": 148,
+    "id": "GS_AI_CORES_open",
+    "column": "text",
+    "original": "Votre $shipOrFleet approche d'$aOrAn $nameInText.",
+    "translated": ""
+  },
+  {
+    "csv_row": 153,
+    "id": "GS_TRI_TACHYON_open",
+    "column": "text",
+    "original": "Votre $shipOrFleet approche d'$aOrAn $nameInText.",
+    "translated": ""
+  },
+  {
+    "csv_row": 159,
+    "id": "GS_ADVENTURERS_open",
+    "column": "text",
+    "original": "Votre $shipOrFleet approche d'$aOrAn $nameInText.",
+    "translated": ""
+  },
+  {
+    "csv_row": 166,
+    "id": "GS_OPIS_open",
+    "column": "text",
+    "original": "Votre $shipOrFleet approche d'$aOrAn $nameInText.",
+    "translated": ""
+  },
+  {
+    "csv_row": 172,
+    "id": "GS_PIRATES_open",
+    "column": "text",
+    "original": "Votre $shipOrFleet approche d'$aOrAn $nameInText.",
+    "translated": ""
+  },
+  {
+    "csv_row": 178,
+    "id": "GS_ZGR_MERC_cont1Sel",
+    "column": "text",
+    "original": "As your salvors approach, some kind of proximity sensor is triggered - a faint comms transmission begins. The power system is clearly degraded and running down, causing the transmission to sputter and warble.\n\nIt's a repeating recording, not an active feed. Your comms officer does their best to clean it up, and forwards it to your command console.\n\nA face appears, presumably the unfortunate ship's captain, his expression twisted by an appalling mixture of privation and hatred.",
+    "translated": ""
+  },
+  {
+    "csv_row": 180,
+    "id": "GS_ZGR_MERC_cont3SelA",
+    "column": "text",
+    "original": "He goes on to describe various torments deserved due to the poor character of someone called Zunya Glamor-Rotanev. By context clues you presume her to be some kind of high ranking Tri-Tachyon executive who commissioned him to carry out a failed expedition.",
+    "translated": ""
+  }
+]

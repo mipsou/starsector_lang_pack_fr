@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 3298,
+    "id": "BFFIpsRuseMeanOption",
+    "column": "options",
+    "option_line": "bffi_stationTalkRuseMean:Carry out the ruse to seize datastores and destroy the nanoforge",
+    "original": "Carry out the ruse to seize datastores and destroy the nanoforge",
+    "translated": ""
+  },
+  {
+    "csv_row": 3299,
+    "id": "BFFIpsRuseMeanAopt",
+    "column": "options",
+    "option_line": "bffi_psRuseMeanA:\"My capital ships will break your station apart. You have no chance of victory.\"",
+    "original": "My capital ships will break your station apart. You have no chance of victory.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3301,
+    "id": "BFFIpsRuseMeanA",
+    "column": "text",
+    "original": "\"Your brutality will only prove how far you are from the Word! Our... our deaths will be as martyrs.\"\n\nYou feel as though $hisOrHer heart isn't quite in it, somehow.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3302,
+    "id": "BFFIpsRuseMeanBopt",
+    "column": "options",
+    "option_line": "bffi_psRuseMeanB:\"I killed Wrestling Sedge, and I would kill you without remorse. The choice is yours.\"",
+    "original": "I killed Wrestling Sedge, and I would kill you without remorse. The choice is yours.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3304,
+    "id": "BFFIpsRuseMeanBsaidKilled",
+    "column": "text",
+    "original": "\"You persist with that, with that lie,\" $heOrShe examines you uncertainly.\n\n\"Of course, they do say he was shot in the back by a spacer. Maybe the low cunning of your kind makes you capable of such cold-blooded murder.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3305,
+    "id": "BFFIpsRuseMeanB",
+    "column": "text",
+    "original": "The Pather frowns. \"An obvious boast, typical of a Molochian.\" $HeOrShe makes a show of looking at you through the comms, \"You couldn't have taken Sedge. He was a greater warrior than you or I, by far.\"\n\n\"They do say he was shot in the back by a spacer. The low cunning of you people does suggest your capacity for cold-blooded murder.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3306,
+    "id": "BFFIpsRuseMeanCopt",
+    "column": "options",
+    "option_line": "bffi_psRuseMeanC:\"You know of me. My reputation for ruthlessness precedes me.\"",
+    "original": "You know of me. My reputation for ruthlessness precedes me.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3308,
+    "id": "BFFIpsRuseMeanC",
+    "column": "text",
+    "original": "\"It is true,\" $heOrShe says ruefully. \"Your name is a curse upon the sector. A harbinger of suffering.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3309,
+    "id": "BFFIpsRuseMeanDopt",
+    "column": "options",
+    "option_line": "bffi_psRuseMeanD:\"I am a great enemy known to all Pathers. How could you doubt my threat?\"",
+    "original": "I am a great enemy known to all Pathers. How could you doubt my threat?",
+    "translated": ""
+  },
+  {
+    "csv_row": 3311,
+    "id": "BFFIpsRuseMeanD",
+    "column": "text",
+    "original": "\"So it is you,\" $heOrShe says, brow furrowed. \"I had thought... surely not... why, pray, would Providence set such evil upon my Path?\" \n\nIf anything, $heOrShe looks sad rather than defiant.",
+    "translated": ""
+  }
+]

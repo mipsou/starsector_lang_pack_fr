@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 3082,
+    "id": "BFFIulmusTalkPcBad4a",
+    "column": "text",
+    "original": "\"I-I had no... you don't understand,\" Ulmus squirms.\n\nBornanew jumps in to direct Ulmus' narrative. \"He must have been threatened,\" he says. \"Blackmail! Of course. You help us find out who's really behind this! We'll make sure you're safe.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3082,
+    "id": "BFFIulmusTalkPcBad4a",
+    "column": "options",
+    "option_line": "bffi_ulmusTalkBad5a:\"If, and only if, $global.jethroName, he helps us. Otherwise he goes to the Inquisitors.\"",
+    "original": "If, and only if, $global.jethroName, he helps us. Otherwise he goes to the Inquisitors.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3084,
+    "id": "BFFIulmusTalkPcBad6a",
+    "column": "text",
+    "original": "Pond sniffles.\n\n\"There was... a Walker of the Path. He asked me to talk to Menes, to, to, to make the offer. He said Menes couldn't resist an artifact of such quality. And- and I was to arrange transport. Then make it appear legitimate. Set the documents straight, make it look correct.\"\n\nBornanew draws his cheap datapad from his satchel, the screen already set to a map of the greater Persean Sector.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3084,
+    "id": "BFFIulmusTalkPcBad6a",
+    "column": "options",
+    "option_line": "bffi_ulmusTalkSedgeCheck:\"Show him, Ulmus. It's us or the Inquisitors.\"",
+    "original": "Show him, Ulmus. It's us or the Inquisitors.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3087,
+    "id": "BFFIulmusTalkPcGood0",
+    "column": "text",
+    "original": "\"Are you man, or a bit of vermin slipping out the window?\" Bornanew bellows as he lifts Pond bodily, setting him on a sagging cot. You're not sure if the creak is the cheap furniture or Pond's ribs. \n\n\"The Knights have sent me a long way,\" his voice lowers threateningly, \"to deal with you. Pray your answers are to my liking lest I deliver you unto the Knight Inquisitors. They have methods of seeking truth hidden far from God's merciful light.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3087,
+    "id": "BFFIulmusTalkPcGood0",
+    "column": "options",
+    "option_line": "bffi_ulmusTalkGood1a:\"Easy $global.jethroName. Ulmus only had good intentions I'm sure.\"",
+    "original": "Easy $global.jethroName. Ulmus only had good intentions I'm sure.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3087,
+    "id": "BFFIulmusTalkPcGood0",
+    "column": "options",
+    "option_line": "bffi_ulmusTalkGood1b:\"Why wait for them? My techs can simply open up his brain...\"",
+    "original": "Why wait for them? My techs can simply open up his brain...",
+    "translated": ""
+  },
+  {
+    "csv_row": 3088,
+    "id": "BFFIulmusTalkPcGood1a",
+    "column": "text",
+    "original": "Pond's eyes go large and pleading- with his escape closed off, you are his only salvation.\n\n\"Yes, yes,\" he speaks quickly. \"The captain has it right! Menes, he wanted something special. I'm just a middleman, a, a communicator. I just make deals!\"\n\nHe licks his lips, looking between you and Bornanew, \"Menes was so pleased, I had no idea it wasn't real. I'm no relic-dealer or, or a curate or- you have to believe me, I'm innocent!\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3089,
+    "id": "BFFIulmusTalkPcGood1b",
+    "column": "text",
+    "original": "Pond's eyes go large, his face pale, his breaths coming in sharp gasps.\n\nBornanew tips his head at Pond and gives you a confused and consternated look. \n\n\"No, no,\" Pond pleads at you, \"No, no need for that, I'll- you see, it wasn't me, this is all a misunderstanding. I make deals. I'm a great communicator. Menes will tell you. It was business, just business!\" ",
+    "translated": ""
+  },
+  {
+    "csv_row": 3089,
+    "id": "BFFIulmusTalkPcGood1b",
+    "column": "options",
+    "option_line": "bffi_ulmusTalkGood1a:\"I apologize, Ulmus. It was a joke. I believe you.\"",
+    "original": "I apologize, Ulmus. It was a joke. I believe you.",
+    "translated": ""
+  }
+]

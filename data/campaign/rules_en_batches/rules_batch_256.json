@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 7943,
+    "id": "RaoPitchLeagueCom",
+    "column": "text",
+    "original": "\"As you bear the commission of the Persean League...\" He makes a half-shrug. \"I can't have you in a position of divided loyalty.\"\n\n\"Let us speak again on the matter if your situation changes.\"\n\nHis tone makes it clear that the issue is settled. For now.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7944,
+    "id": "RaoPitchLeagueMember",
+    "column": "text",
+    "original": "\"Seeing as you're a full, albeit junior, member of the Persean League we can't have you in a position of divided loyalty, can we.\"\n\nHe produces a little shrug. \"Let us speak again on the matter if your situation changes.\"\n\nHis tone makes it clear that the issue is settled. For now.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7945,
+    "id": "RaoPitchLeagueHannan",
+    "column": "text",
+    "original": "\"Seeing as you're a full, albeit junior, member of the Persean League... well, we can't very well divide your loyalties.\"\n\n\"Besides,\" a fleeting smile appears. \"I see you've fallen into Reynard Hannan's orbit. An ego of that size produces a gravity well which is very difficult to escape.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7945,
+    "id": "RaoPitchLeagueHannan",
+    "column": "options",
+    "option_line": "rao_pitchHannanA:\"My membership in the Persean League is my business.\"",
+    "original": "My membership in the Persean League is my business.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7945,
+    "id": "RaoPitchLeagueHannan",
+    "column": "options",
+    "option_line": "rao_pitchHannanB:\"Reynard is insufferable, but I could not get a better deal.\"",
+    "original": "Reynard is insufferable, but I could not get a better deal.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7945,
+    "id": "RaoPitchLeagueHannan",
+    "column": "options",
+    "option_line": "rao_pitchHannanC:\"Reynard is a great man. I follow him gladly.\"",
+    "original": "Reynard is a great man. I follow him gladly.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7946,
+    "id": "RaoPitchLeagueHannanA",
+    "column": "text",
+    "original": "\"Of course.\"\n\nHe sits back, face falling into shadow.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7947,
+    "id": "RaoPitchLeagueHannanB",
+    "column": "text",
+    "original": "\"But you made the deal,\" Rao says impishly. \"You didn't have to.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7948,
+    "id": "RaoPitchLeagueHannanBexplain",
+    "column": "text",
+    "original": "\"Then nothing more need be said.\"\n\nHis tone makes it clear that the conversation is over.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7948,
+    "id": "RaoPitchLeagueHannanBexplain",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  }
+]

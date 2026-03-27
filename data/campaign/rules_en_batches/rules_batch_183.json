@@ -1,0 +1,82 @@
+[
+  {
+    "csv_row": 4656,
+    "id": "gaFCPatherAmbushGreeting",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 4657,
+    "id": "gaFCPatherAmbushTalk",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 4661,
+    "id": "gaFCPatherAmbushBluffEnd",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 4667,
+    "id": "gaFCIsirahMercHubOption1",
+    "column": "options",
+    "option_line": "gaFC_isirahMercWhatInfo:\"De quelle information s'agit-il ?\"",
+    "original": "De quelle information s'agit-il ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 4668,
+    "id": "gaFCIsirahMercHubOption2",
+    "column": "options",
+    "option_line": "gaFC_isirahMercLetsDeal:\"Parlons de conclure un accord.\"",
+    "original": "Parlons de conclure un accord.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4669,
+    "id": "gaFCIsirahMercHubOption3",
+    "column": "options",
+    "option_line": "gaFC_isirahMercWhoWorkFor:\"Qui est exactement cet employeur ?\"",
+    "original": "Qui est exactement cet employeur ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 4671,
+    "id": "gaFCIsirahMercHubOption5",
+    "column": "options",
+    "option_line": "gaFC_isirahMercGetNothing:\"Vous n'obtiendrez rien de moi.\"",
+    "original": "Vous n'obtiendrez rien de moi.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4680,
+    "id": "gaFCIsirahMercGetNothing",
+    "column": "options",
+    "option_line": "gaFC_isirahMercGetNothing2:\"C'est tout ? Vous allez simplement partir ?\"",
+    "original": "C'est tout ? Vous allez simplement partir ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 4680,
+    "id": "gaFCIsirahMercGetNothing",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 4681,
+    "id": "gaFCIsirahMercGetNothing2",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  }
+]

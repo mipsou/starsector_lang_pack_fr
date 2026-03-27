@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 235,
+    "id": "oyaTanaicaVambrace3",
+    "column": "text",
+    "original": "The machine's hum drops an octave, and loses some of its urgency.\n\n\"Huh,\" she says. She wears a look of blank unease.\n\n\"Weird.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 236,
+    "id": "oyaTanaicaVambrace4",
+    "column": "text",
+    "original": "Tanaica manipulates her controls and a small cutaway pulls out of the rough block of armor. It scales to fill the volume of the holo.\n\nAnother segmentation of scale iterates, then another as Tanaica brings the resolution to the nearly-atomic. Patterns of false colour flash highlighting pseudo-crystals, various regular - and irregular - structures, as well as flaws.\n\n\"It's the damnedest thing, isn't it,\" she says, attention focused on the display.",
+    "translated": ""
+  },
+  {
+    "csv_row": 236,
+    "id": "oyaTanaicaVambrace4",
+    "column": "options",
+    "option_line": "oyaTanaica_vambrace5a:\"Definitely. Wow. Look at that. The... ah...\"",
+    "original": "Definitely. Wow. Look at that. The... ah...",
+    "translated": ""
+  },
+  {
+    "csv_row": 237,
+    "id": "oyaTanaicaVambrace5a",
+    "column": "text",
+    "original": "She turns to look at you, raising an eyebrow.",
+    "translated": ""
+  },
+  {
+    "csv_row": 238,
+    "id": "oyaTanaicaVambrace5-1",
+    "column": "text",
+    "original": "\"Sorry, cap,\" she says. \"I should be thinking out loud, you paid good credits for this after all.\"\n\nShe licks her lips, then releases a breath.",
+    "translated": ""
+  },
+  {
+    "csv_row": 239,
+    "id": "oyaTanaicaVambrace5-2",
+    "column": "text",
+    "original": "\"It's nanoforged. Obvious stuff, look at that drift,\" she taps something and a distortion in the material structure becomes exaggerated.\n\n\"Crude, relatively speaking. Modern forges won't do it like this. Hm. 'Modern' meaning anything from the last thousand cycles. Seems like you found a genuine museum piece. Not unheard of 'course. Scavengers pull in bits of old sporeships and Explorarium junk often enough. Saw a bit of cryosleeper scanned when I was in training. Fascinating stuff.\"\n\nShe taps not the controls, but the casing of the analysis suite. \"So it's old, but that's not what's strange.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 239,
+    "id": "oyaTanaicaVambrace5-2",
+    "column": "options",
+    "option_line": "oyaTanaica_vambrace6a:\"You like drawing this out for maximum drama, don't you.\"",
+    "original": "You like drawing this out for maximum drama, don't you.",
+    "translated": ""
+  },
+  {
+    "csv_row": 239,
+    "id": "oyaTanaicaVambrace5-2",
+    "column": "options",
+    "option_line": "oyaTanaica_vambrace6b:\"So what makes it strange?\"",
+    "original": "So what makes it strange?",
+    "translated": ""
+  },
+  {
+    "csv_row": 240,
+    "id": "oyaTanaicaVambrace6a",
+    "column": "text",
+    "original": "\"Ha!\" She smiles, if uneasily. \"Got me. It's boring as dirt here in Luddie-land, gotta make my own fun.\"\n\n\"Still, this really is interesting... There's no embedded fabrication-rights!\"\n\nShe looks at you significantly, as if this means something important.",
+    "translated": ""
+  },
+  {
+    "csv_row": 241,
+    "id": "oyaTanaicaVambrace6b",
+    "column": "text",
+    "original": "\"There are no embedded fabrication-rights!\"\n\nShe looks at you as if this means something important, and you're supposed to respond.",
+    "translated": ""
+  }
+]

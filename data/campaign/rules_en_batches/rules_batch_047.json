@@ -1,0 +1,81 @@
+[
+  {
+    "csv_row": 2099,
+    "id": "lkeMazBarAgentKatoThreat",
+    "column": "options",
+    "option_line": "lke_mazBarFineEyeContact:Maintenir le contact visuel",
+    "original": "Maintenir le contact visuel",
+    "translated": ""
+  },
+  {
+    "csv_row": 2099,
+    "id": "lkeMazBarAgentKatoThreat",
+    "column": "options",
+    "option_line": "lke_mazBarFine5k:Payer l'amende",
+    "original": "Payer l'amende",
+    "translated": ""
+  },
+  {
+    "csv_row": 2100,
+    "id": "lkeMazBarAgentLoud",
+    "column": "options",
+    "option_line": "lke_mazBarFineEyeContact:Maintenir le contact visuel",
+    "original": "Maintenir le contact visuel",
+    "translated": ""
+  },
+  {
+    "csv_row": 2100,
+    "id": "lkeMazBarAgentLoud",
+    "column": "options",
+    "option_line": "lke_mazBarFine5k:Payer l'amende",
+    "original": "Payer l'amende",
+    "translated": ""
+  },
+  {
+    "csv_row": 2103,
+    "id": "lkeMazBarFineEyeContactEO3",
+    "column": "options",
+    "option_line": "lke_mazBarReturn:Se retourner vers le bar",
+    "original": "Se retourner vers le bar",
+    "translated": ""
+  },
+  {
+    "csv_row": 2104,
+    "id": "lkeMazBarFineEyeContact",
+    "column": "options",
+    "option_line": "lke_mazBarAgentOptPunch:Frapper l'agent du MUA au visage et prendre la fuite",
+    "original": "Frapper l'agent du MUA au visage et prendre la fuite",
+    "translated": ""
+  },
+  {
+    "csv_row": 2104,
+    "id": "lkeMazBarFineEyeContact",
+    "column": "options",
+    "option_line": "lke_mazBarFine5k:Payer l'amende",
+    "original": "Payer l'amende",
+    "translated": ""
+  },
+  {
+    "csv_row": 2108,
+    "id": "lkeMazBarAgentRespBribe3",
+    "column": "text",
+    "original": "De la confusion, puis un rictus se dessine sur son visage.\n\n\"Ne jouez pas au malin avec moi, spationaute - vous ne voulez pas me trouver de mauvaise humeur.\" ",
+    "translated": ""
+  },
+  {
+    "csv_row": 2109,
+    "id": "lkeMazBarAgentRespBribe3a",
+    "column": "options",
+    "option_line": "lke_mazBarAgentRespBribe4:\"On appelle Dardan Kato pour lui expliquer le pot-de-vin que je viens de payer ?\"",
+    "original": "On appelle Dardan Kato pour lui expliquer le pot-de-vin que je viens de payer ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 2110,
+    "id": "lkeMazBarAgentRespBribe3b",
+    "column": "options",
+    "option_line": "lke_mazBarAgentRespBribe4:\"On appelle l'administrateur pour lui expliquer le pot-de-vin que je viens de payer ?\"",
+    "original": "On appelle l'administrateur pour lui expliquer le pot-de-vin que je viens de payer ?",
+    "translated": ""
+  }
+]

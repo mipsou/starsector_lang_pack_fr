@@ -1,0 +1,79 @@
+[
+  {
+    "csv_row": 4165,
+    "id": "bairdIntroScylla2PL",
+    "column": "text",
+    "original": "\"Your status in the Persean League could be useful. Officials might be willing to assist you. The League intelligence apparatus might even provide assistance.\" She gives you a knowing look. \"If they think they're working for the benefit of the League, that is.\" \n\n\"Alternatively, her department was operating experimental packages in the $gaFC_starName system. We have detected some ongoing telemetry that suggests these instruments are still in use, though it isn't clear by whom.\" She taps her desk interface, \"I've sent you the coordinates.\"\n\nThe provost looks at you over her spectacles. \"How do you want to handle this, captain? Are you a diplomat or an explorer? Do you want to find the probes in the $gaFC_starName system or talk your way through this on Fikenhild?\" ",
+    "translated": ""
+  },
+  {
+    "csv_row": 4165,
+    "id": "bairdIntroScylla2PL",
+    "column": "options",
+    "option_line": "bairdIntro_scylla2choiceB:Take the diplomatic path",
+    "original": "Take the diplomatic path",
+    "translated": ""
+  },
+  {
+    "csv_row": 4165,
+    "id": "bairdIntroScylla2PL",
+    "column": "options",
+    "option_line": "bairdIntro_scylla2choiceA:Take the exploration path",
+    "original": "Take the exploration path",
+    "translated": ""
+  },
+  {
+    "csv_row": 4168,
+    "id": "bairdIntroScylla3",
+    "column": "options",
+    "option_line": "bairdIntro_scylla4a:\"Devrais-je faire chanter Coureuse pour vous ?\"",
+    "original": "Devrais-je faire chanter Coureuse pour vous ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 4174,
+    "id": "bairdIntro_outro1",
+    "column": "options",
+    "option_line": "bairdIntro_project:\"Alors c'est quoi 'le projet' ?\"",
+    "original": "Alors c'est quoi 'le projet' ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 4175,
+    "id": "bairdIntro_outroProject",
+    "column": "text",
+    "original": "Le sourire de Baird n'atteint pas ses yeux. \"Vous verrez.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 4181,
+    "id": "gaKAArroyoGreetingIgnoreCall",
+    "column": "options",
+    "option_line": "cutCommLink:Couper les comms",
+    "original": "Couper les comms",
+    "translated": ""
+  },
+  {
+    "csv_row": 4185,
+    "id": "gaKAArroyoVisitOption",
+    "column": "options",
+    "option_line": "3:gaKA_visitChalet:Prendre une navette vers le chalet de Rayan Arroyo en surface",
+    "original": "gaKA_visitChalet:Prendre une navette vers le chalet de Rayan Arroyo en surface",
+    "translated": ""
+  },
+  {
+    "csv_row": 4195,
+    "id": "gaKAArroyoVisitAMoment2",
+    "column": "text",
+    "original": "Il soupire et verse quelque chose d'une carafe en cristal dans un verre, qu'il vide. \"A un accord qui empire tout le temps !\"\n\nPuis il s'en verse un autre. Il reflechit un instant, vous remarque, et incline la carafe pour vous offrir un verre.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4195,
+    "id": "gaKAArroyoVisitAMoment2",
+    "column": "options",
+    "option_line": "gaKA_arroyoDrinkAccept:Prendre un verre",
+    "original": "Prendre un verre",
+    "translated": ""
+  }
+]

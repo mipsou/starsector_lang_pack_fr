@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 8939,
+    "id": "sdtuHyderTalkBossPromotionOpt2",
+    "column": "options",
+    "option_line": "sdtu_hyderTalk3BossTalkAndrada:\"Alors pourquoi ne l'a-t-il pas fait ? Depuis combien de temps ?\"",
+    "original": "Alors pourquoi ne l'a-t-il pas fait ? Depuis combien de temps ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 8942,
+    "id": "sdtuGyderTalk3BossTalkAndrada",
+    "column": "text",
+    "original": "Ses yeux se fixent sur vous. Elle n'aime pas cette question, pas du tout.\n\n\"Cela ne vous regarde pas.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8943,
+    "id": "sdtuGyderTalk3BossTalkAndradaB",
+    "column": "text",
+    "original": "Ses yeux se fixent sur vous. Elle n'aime pas la question.\n\n\"Trop longtemps,\" dit-elle d'un ton egal.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8943,
+    "id": "sdtuGyderTalk3BossTalkAndradaB",
+    "column": "options",
+    "option_line": "sdtu_hyderTalk3Andrada:\"Il ne va pas bien, n'est-ce pas.\"",
+    "original": "Il ne va pas bien, n'est-ce pas.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8944,
+    "id": "sdtuHyderTalk3Andrada",
+    "column": "text",
+    "original": "La vitesse a laquelle Hyder ecrase l'interrupteur d'activation du champ de confidentialite est impressionnante pour une femme de son age.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8950,
+    "id": "sdtuHyderTalk3LeadershipYou",
+    "column": "text",
+    "original": "Elle vous regarde longuement, sans un mot.\n\nLa communication passe en attente.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8951,
+    "id": "sdtuHyderTalk3LeadershipMe",
+    "column": "text",
+    "original": "Elle vous regarde longuement, sans un mot.\n\nLa communication passe en attente.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8955,
+    "id": "sdtuHyderTalkEnd",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 8961,
+    "id": "sdtuMacarioNeedToInterceptPatrol",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 8962,
+    "id": "sdtuMacarioNeedToMeetHyder",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  }
+]

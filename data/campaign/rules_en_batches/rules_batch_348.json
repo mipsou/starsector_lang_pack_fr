@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 10608,
+    "id": "lpLKEtestSetting2b",
+    "column": "options",
+    "option_line": "lpp_testSetting2b:Skip to gaATG_epiphanyAskKidnapPolite",
+    "original": "Skip to gaATG_epiphanyAskKidnapPolite",
+    "translated": ""
+  },
+  {
+    "csv_row": 10609,
+    "id": "lpLKEtestSetting3",
+    "column": "options",
+    "option_line": "lpLKE_testSetting3:Player has luddicEthosPather",
+    "original": "Player has luddicEthosPather",
+    "translated": ""
+  },
+  {
+    "csv_row": 10610,
+    "id": "lpLKEtestSetting4",
+    "column": "options",
+    "option_line": "lpLKE_testSetting4:Player has luddicEthosFaithful",
+    "original": "Player has luddicEthosFaithful",
+    "translated": ""
+  },
+  {
+    "csv_row": 10615,
+    "id": "devGotCottonBookSet",
+    "column": "options",
+    "option_line": "dev_gotCottonBookSet:Brother Cotton gave player his Book of Ludd (and met, and had tea)",
+    "original": "Brother Cotton gave player his Book of Ludd (and met, and had tea)",
+    "translated": ""
+  },
+  {
+    "csv_row": 10619,
+    "id": "lpLKEtestSetting2set",
+    "column": "text",
+    "original": "Le joueur est defini comme ayant radicalise Ned Boot, l'Initie rencontre au Sanctuaire d'Hesperus",
+    "translated": ""
+  },
+  {
+    "csv_row": 10621,
+    "id": "lpLKEtestSetting3set",
+    "column": "text",
+    "original": "Attitude Luddic du joueur definie sur Adepte de la Voie",
+    "translated": ""
+  },
+  {
+    "csv_row": 10622,
+    "id": "lpLKEtestSetting4set",
+    "column": "text",
+    "original": "Attitude Luddic du joueur definie sur Fidele",
+    "translated": ""
+  },
+  {
+    "csv_row": 10623,
+    "id": "lpLKEtestSetAtheist",
+    "column": "text",
+    "original": "Attitude Luddic du joueur definie sur Athee",
+    "translated": ""
+  },
+  {
+    "csv_row": 10624,
+    "id": "lpLKEtestSetCynical",
+    "column": "text",
+    "original": "Attitude Luddic du joueur definie sur Cynique",
+    "translated": ""
+  },
+  {
+    "csv_row": 10625,
+    "id": "lpLKEtestSetting5set",
+    "column": "text",
+    "original": "Le joueur est defini comme ayant acquis Loke via un Raid sur Epiphany",
+    "translated": ""
+  }
+]

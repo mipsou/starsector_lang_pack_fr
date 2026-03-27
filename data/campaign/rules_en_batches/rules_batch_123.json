@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 3191,
+    "id": "BFFIpsaConHubTalkB",
+    "column": "text",
+    "original": "He thinks for a moment, a dark look threatening to grow.\n\n\"I pray it is so. But these are heretics, poisoned by a false Word and a dark Path. It would require some exceptional ruse or the charisma of a pr- no, let me not blaspheme by saying it. But you understand that it is, as I believe spacers say, 'a long shot'.\"\n\nHe contemplates the tactical display for a moment. \"As well, there is something to be said for the element of surprise.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3193,
+    "id": "BFFIpsaConHubBlast",
+    "column": "text",
+    "original": "Bornanew lets out a breath.\n\n\"You must not,\" he looks worried. \"Setting aside... objections of the heart, complete destruction would almost certainly destroy the evidence required to identify the agent of the Path who has infiltrated the Cathedral of Holy Exodus.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3193,
+    "id": "BFFIpsaConHubBlast",
+    "column": "options",
+    "option_line": "bffi_psaConHubRespBlastB:\"You suggest that leniency will prompt cooperation? From Pathers?\"",
+    "original": "You suggest that leniency will prompt cooperation? From Pathers?",
+    "translated": ""
+  },
+  {
+    "csv_row": 3193,
+    "id": "BFFIpsaConHubBlast",
+    "column": "options",
+    "option_line": "bffi_psaConHubRespBlastCa:\"Archcurate Jaspis seems less forgiving of Pathers than you.\"",
+    "original": "Archcurate Jaspis seems less forgiving of Pathers than you.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3194,
+    "id": "BFFIpsaConHubBlastbb",
+    "column": "text",
+    "original": "Bornanew takes a long breath. His eyes are dark, reflecting red pinpoints from the display.\n\n\"Doubtless such destruction would send an uncompromising message to these heretics who attempt to sew schism in the fields of the Mother Church. But.\" He raises his hand as if to grasp at his argument. \"Total obliteration poses a serious risk of destroying the evidence needed to track down the agent of the Path who has infiltrated the Cathedral of Holy Exodus. We need those data stores.\"\n\nHe pauses, then turns to you. \"Find the data first, through a marine raid, or some subterfuge. Then destroy the station. All would be served justice thus.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3194,
+    "id": "BFFIpsaConHubBlastbb",
+    "column": "options",
+    "option_line": "bffi_psaConHubRespBlastBBjasp:\"I believe that Archcurate Jaspis would approve of this 'message'.\"",
+    "original": "I believe that Archcurate Jaspis would approve of this 'message'.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3195,
+    "id": "BFFIpsaConHubBlastLen",
+    "column": "text",
+    "original": "\"Did you?\" he asks.\n\n\"You have made virtue of using a swift and strong hand in such matters. A Knight must learn to harden his heart when the situation calls for such... efficacy.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3196,
+    "id": "BFFIpsaConHubBlastBBjasp",
+    "column": "text",
+    "original": "\"Indeed.\" He casts his gaze up and far away. \"I thought her harsh, before. Cynicism of age. But I see now with the eyes of a man.\"\n\n\"And I, for my part, made the choice to trust you.\" He looks to you.\n\n\"So, captain, the path is yours. I shall follow.\" He clasps his hands together, bowing his head slightly.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3197,
+    "id": "BFFIpsaConHubBlastA",
+    "column": "text",
+    "original": "He raises an eyebrow at your noncommittal response, but nods acceptance, hands clasped.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3198,
+    "id": "BFFIpsaConHubBlastB",
+    "column": "text",
+    "original": "\"I do,\" he says. \"They are merely human, as are we all. Despite a history written in blood, I do not find that our species thrives on hatred.\"",
+    "translated": ""
+  }
+]

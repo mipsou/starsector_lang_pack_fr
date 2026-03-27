@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 8278,
+    "id": "ZGRgreetingPostWeirdBoth",
+    "column": "options",
+    "option_line": "zgr_postWeirdOptProceed:\"I believe I found what you're looking for. And more.\"",
+    "original": "I believe I found what you're looking for. And more.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8280,
+    "id": "ZGRgreetingPostWeirdDweller",
+    "column": "options",
+    "option_line": "zgr_postWeirdOptHostile:\"I found something... hostile. In the Abyss.\"",
+    "original": "I found something... hostile. In the Abyss.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8281,
+    "id": "ZGRpostWeirdProceed",
+    "column": "text",
+    "original": "\"Excellent.\"\n\nTo your shock, her smile is nearly human. The mask is replaced almost instantly, though a slackening echo of the expression remains on her lips.\n\n\"I, and my researchers, are most eager to examine your findings. And you to be paid, no doubt.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8282,
+    "id": "ZGRpostWeirdProceedB",
+    "column": "text",
+    "original": "\"It pleases me to hear that.\" She doesn't smile.\n\n\"I, and my researchers, are most eager to examine your findings. And you to be paid, no doubt.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8283,
+    "id": "ZGRpostWeirdOptHostile",
+    "column": "text",
+    "original": "\"Something.\" She raises an eyebrow.\n\n\"It was not human or AI-derived.\" This doesn't sound like a question.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8284,
+    "id": "ZGRpostWeirdNothingLie",
+    "column": "text",
+    "original": "Her eyes, previously distant, stare at you through the link for a several seconds before she replies.\n\n\"I am eager to reward you for your work.\" Her tone is not inviting. \"CEO Sun is in full agreement. There are extraordinary discoveries and profits to be made. I am uninterested in an obstinate parody of negotiation.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8284,
+    "id": "ZGRpostWeirdNothingLie",
+    "column": "options",
+    "option_line": "zgr_postWeirdNothingProceed:\"And I am eager to be paid. You got me.\"",
+    "original": "And I am eager to be paid. You got me.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8284,
+    "id": "ZGRpostWeirdNothingLie",
+    "column": "options",
+    "option_line": "cutCommLink:Close the link",
+    "original": "Close the link",
+    "translated": ""
+  },
+  {
+    "csv_row": 8285,
+    "id": "ZGRpostWeirdNothingLieOMKI",
+    "column": "text",
+    "original": "\"Don't act this obstinate pretense of negotiation. You $shipOrFleet has been scanned. And we knew what you found well before you arrived anyway.\" She pauses quite consciously.\n\n\"I am... most eager to reward your work.\"\n\nDespite her words, the tone is icy. \"CEO Sun is in full agreement. We may share in extraordinary discoveries and profits.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8285,
+    "id": "ZGRpostWeirdNothingLieOMKI",
+    "column": "options",
+    "option_line": "cutCommLink:Close the link",
+    "original": "Close the link",
+    "translated": ""
+  }
+]

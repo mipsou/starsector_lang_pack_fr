@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 7422,
+    "id": "AVIPTtextBarDeclineRude",
+    "column": "text",
+    "original": "The VIP stares at you, appalled at your manners. Behind, the bartender is doing an admirable job suppressing a grin. \n\nThe well-dressed $manOrWoman, confronted directly, seems to be at a complete loss. $HisOrHer mouth opens, then closes, opens again - and then $heOrShe storms out of the bar. \n\nThere's a pause as your ears adjust to the relatively muted din of the establishment before cheers and hurrahs erupt from the other patrons.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7425,
+    "id": "AVIPTcheckCompletionCont",
+    "column": "text",
+    "original": "You meet the VIP on the way out the airlock to a waiting private shuttle. It seems the politick thing to do, especially because the promised payment just cleared.\n\n\"The commander here,\" $heOrShe indicates the officer you assigned to the VIP (an officer-trainee, in fact, who drew the short straw and was given a fancy uniform), \"Performed acceptably, such that I might endorse a commendation.\"\n\nWith that, $heOrShe says merely, \"Captain,\" then turns on $hisOrHer heel and exits the ship, the small fleet of $hisOrHer luggage wheeling itself behind obediently. The airlock seals mercifully shut.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7429,
+    "id": "MOTRoptionBar",
+    "column": "options",
+    "option_line": "motr_textBar1:Join the table of tattooed mercs and see if their contract is up",
+    "original": "Join the table of tattooed mercs and see if their contract is up",
+    "translated": ""
+  },
+  {
+    "csv_row": 7430,
+    "id": "MOTRstart",
+    "column": "text",
+    "original": "You prove yourself worthy of association by partaking in a round of 'Atmo Drops', a drink centered around consuming eye-watering liquor as quickly as possible.\n\nThe mercs are drunk, for sure, but composed enough to speak around the details of why they're being investigated by local authorities.\n\nAfter a couple of the mercs head up to order a round of 'Orbital Bombardments' their leader pulls you aside and sketches out a proposal. \"We've got $motr_numberOfMarines suits, experienced operators. We can fight in vac or atmo, one to five gee.\" He smirks at the look you give, \"Okay, three. Four if it's quick and there's a bonus.\" A scarred hand dismisses this, \"Details!\"\n\n\"What matters is I'll offer our contract for $motr_priceText credits. Practically charity, isn't it? Put us to work, or sell it off elsewhere, doesn't matter to me if you can get us outta this fix. What'dya say?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7430,
+    "id": "MOTRstart",
+    "column": "options",
+    "option_line": "motr_accept:Buy the mercenary marine contract and sneak them off $entity.name",
+    "original": "Buy the mercenary marine contract and sneak them off $entity.name",
+    "translated": ""
+  },
+  {
+    "csv_row": 7430,
+    "id": "MOTRstart",
+    "column": "options",
+    "option_line": "motr_declineDrink:Decline the proposal, but stay for an 'Orbital Bombardment' to soften the blow",
+    "original": "Decline the proposal, but stay for an 'Orbital Bombardment' to soften the blow",
+    "translated": ""
+  },
+  {
+    "csv_row": 7432,
+    "id": "MOTRaccept",
+    "column": "text",
+    "original": "Some clever device provided by the mercs convinces the port authority automated scanners that two particular cargo containers are half-filled with mildly radioactive silicate gravel and nothing else.\n\nYour logistics officer sneaks them aboard your $shipOrFleet without inconvenience.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7433,
+    "id": "MOTRplayerColonyAccept",
+    "column": "text",
+    "original": "With a word, any objections from the port authority disappear and your logistics officer arranges to have the mercs, looking worse from the night of drinking, board your $shipOrFleet the next morning.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7436,
+    "id": "MOTRstartPlayerColony",
+    "column": "text",
+    "original": "You prove yourself worthy of association by partaking in a round of 'Atmo Drops', a drink centered around consuming eye-watering liquor as quickly as possible.\n\nThe mercs are drunk, for sure, but maintain their composure enough to speak around the details of why they're being investigated by local authorities - your local authorities.\n\nAfter a couple of the mercs head up to order a round of 'Orbital Bombardments' their leader pulls you aside and sketches out a proposal. \"We've got $motr_numberOfMarines suits, experienced operators. Be a shame if we couldn't see action, instead got locked up.\"\n\n\"I'll offer our contract for $motr_priceText credits. Practically charity, isn't it? Put us to work, or sell it off elsewhere, doesn't matter to me. After all,\" $heOrShe winks, \"You're the boss around here, yeah? You can get us out of this fix.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7437,
+    "id": "MOTRplayerColonyOptA",
+    "column": "options",
+    "option_line": "motr_playerColonyAccept:Buy the contract. You're the boss, after all.",
+    "original": "Buy the contract. You're the boss, after all.",
+    "translated": ""
+  }
+]

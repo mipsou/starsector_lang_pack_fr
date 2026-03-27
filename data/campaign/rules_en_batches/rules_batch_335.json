@@ -1,0 +1,81 @@
+[
+  {
+    "csv_row": 9921,
+    "id": "sdPunExSayDeal",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9922,
+    "id": "sdPunExCommsHostile",
+    "column": "text",
+    "original": "Apres un gresill de parasites, les communications se stabilisent tant bien que mal. Le $Post du Diktat Sindrien vous toise avec imperiosite.\n\n\"Nous appelons la flotte de $PlayerName. Je viens avec l'autorite de l'Executeur Supreme pour mettre un terme a votre lache guerre economique contre le Diktat Sindrien !\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 9929,
+    "id": "sdPunExCommsSDcomCompete",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9930,
+    "id": "sdPunExCommsSDcomSubmit",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9931,
+    "id": "sdPunExCommsSDcomSubmitLie",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9951,
+    "id": "SDMakeDealSelComOptA",
+    "column": "options",
+    "option_line": "sdDealConfirm:Confirmer l'accord",
+    "original": "Confirmer l'accord",
+    "translated": ""
+  },
+  {
+    "csv_row": 9957,
+    "id": "SDHAmakeDealSelComReject",
+    "column": "options",
+    "option_line": "sdDealConfirm:Confirmer l'accord",
+    "original": "Confirmer l'accord",
+    "translated": ""
+  },
+  {
+    "csv_row": 9958,
+    "id": "SDHAmakeDealSelComReject2",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9960,
+    "id": "SDMakeDealSelConfirm",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9966,
+    "id": "SDBreakDealConfirmSel",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  }
+]

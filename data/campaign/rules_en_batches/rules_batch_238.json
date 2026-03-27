@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 7558,
+    "id": "taboOfferOptionBar",
+    "column": "options",
+    "option_line": "tabo_startBar:Rejoindre l'officier en uniforme impeccable qui souhaite vous \"consulter\"",
+    "original": "Rejoindre l'officier en uniforme impeccable qui souhaite vous \"consulter",
+    "translated": ""
+  },
+  {
+    "csv_row": 7564,
+    "id": "TABOPatrolHail1",
+    "column": "text",
+    "original": "\"Votre bombardement de $entity.tabo_marketName ne restera pas sans reponse,\" declare hardiment le $rank. \"Maintenant, preparez-vous au combat !\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7565,
+    "id": "TABOPatrolHailLuddic",
+    "column": "text",
+    "original": "\"Vous serez juge dans l'autre vie pour avoir dechaine une telle destruction sur $entity.tabo_marketName,\" dit le $rank, les mains jointes dans une piete furieuse. \"Que la Providence guide a present ma main tandis que je vous rends justice en cette vie !\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7566,
+    "id": "TABOPatrolHailLuddicPath",
+    "column": "text",
+    "original": "\"Infame serviteur de Moloch !\" hurle le Voiliste, \"La Providence me sourit car ma Voie m'a conduit a vous, et je brandis le marteau vertueux de Ludd pour fracasser et disperser votre flotte !\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7567,
+    "id": "TABOPatrolHailTriTachyon",
+    "column": "text",
+    "original": "Le $rank de Tri-Tachyon a l'air d'avoir senti quelque chose de nauseabond. \"Cette... cette destruction gratuite des biens de la Compagnie est une attaque directe contre nos resultats financiers. Je vous assure, espece de pirate, de brigand, que vous serez rembourse au double !\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7568,
+    "id": "TABOPatrolHailPirates",
+    "column": "text",
+    "original": "\"T'as contrarie le patron,\" grogne le pirate. \"T'as fait sauter des trucs qui appartiennent au patron. Tu croyais pouvoir t'en tirer comme ca ? Personne ne contrarie le patron et s'en sort vivant.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7568,
+    "id": "TABOPatrolHailPirates",
+    "column": "options",
+    "option_line": "cutCommLink2:\"Je dois admettre que je pense toujours m'en tirer.\"",
+    "original": "Je dois admettre que je pense toujours m'en tirer.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7568,
+    "id": "TABOPatrolHailPirates",
+    "column": "options",
+    "option_line": "cutCommLink:Ne rien dire",
+    "original": "Ne rien dire",
+    "translated": ""
+  },
+  {
+    "csv_row": 7573,
+    "id": "secoBlurbBar",
+    "column": "text",
+    "original": "Au bar, un $seco_manOrWoman louche tripotant un connecteur cybermod vous lance un regard sinistre mais significatif avant de detourner les yeux.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7574,
+    "id": "secoOfferOptionBar",
+    "column": "options",
+    "option_line": "seco_startBar:Engager la conversation avec $seco_manOrWoman louche qui tripote un connecteur de cybermod",
+    "original": "Engager la conversation avec $seco_manOrWoman louche qui tripote un connecteur de cybermod",
+    "translated": ""
+  }
+]

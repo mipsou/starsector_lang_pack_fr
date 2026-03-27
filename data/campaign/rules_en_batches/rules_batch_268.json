@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 8199,
+    "id": "ArroyoAskAboutZGRoptE",
+    "column": "options",
+    "option_line": "arroyo_askAboutZGRoptEresp:\"I found a dead ship. Full of recordings of hatred for this Glamor-Rotanev.\"",
+    "original": "I found a dead ship. Full of recordings of hatred for this Glamor-Rotanev.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8200,
+    "id": "ArroyoAskAboutZGRoptB",
+    "column": "options",
+    "option_line": "arroyo_askAboutZGRoptBresp:\"She told me you didn't have the 'killer instinct for senior leadership'.\"",
+    "original": "She told me you didn't have the 'killer instinct for senior leadership'.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8203,
+    "id": "ArroyoAskAboutZGRoptD",
+    "column": "options",
+    "option_line": "arroyo_askAboutZGRoptDresp:\"You know what? Never mind.\"",
+    "original": "You know what? Never mind.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8204,
+    "id": "ArroyoAskAboutZGRoptAresp",
+    "column": "text",
+    "original": "\"You did, didn't you.\" He glares. Then makes an exasperated sigh.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8205,
+    "id": "ArroyoAskAboutZGRoptArespB",
+    "column": "text",
+    "original": "He glares at you for a moment. Then sighs, looking away.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8206,
+    "id": "ArroyoAskAboutZGRoptEresp",
+    "column": "text",
+    "original": "\"Of course!\" Arroyo says with a laugh. \"Oh, that's our Zunya alright.\"\n\nHe takes a deep breath and rubs his forehead, suddenly somber. \"Let me tell you about her.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8207,
+    "id": "ArroyoAskAboutZGRoptBresp",
+    "column": "text",
+    "original": "\"She would,\" he says.\n\n\"What I know is that business is about people. Business is deals, and people make deals. I'm a people person. That's why I'm looking out for you, $playerFirstName. Remember that.\"\n\nThen makes an exasperated sigh.\n\n\"Now. Glamor-Rotanev,\" he frowns and puts his hands together.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8208,
+    "id": "ArroyoAskAboutZGRoptCresp",
+    "column": "text",
+    "original": "He glares at you for a moment. Then sighs, exasperated.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8209,
+    "id": "ArroyoAskAboutZGRoptDresp",
+    "column": "text",
+    "original": "\"No, you can't just back out of this,\" he says with a glare. \"You need to know who you're dealing with.\"\n\nHe pauses for moment, considering you.\n\nThen sighs, exasperated.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8210,
+    "id": "ArroyoAskAboutZGR2",
+    "column": "text",
+    "original": "\"What she believes is that if she makes a show of how much she doesn't care about anything, anyone, it'll look like she's the most ruthless and focused executive in the Company. Just see how much she's willing to destroy to succeed! There must be something to it, right?\"\n\nHe sits back, fists clenched. \"It's a waste of capital! Human resources, too. Do you know how expensive it is to train good techs, competent management? Of course loyalty can be bought, but then her performance gets attached to the Company brand and makes buying it more expensive for the rest of us. So now I'm paying higher labor premiums? To boost HER career?\"",
+    "translated": ""
+  }
+]

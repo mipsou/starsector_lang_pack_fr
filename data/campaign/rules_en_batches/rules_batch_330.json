@@ -1,0 +1,82 @@
+[
+  {
+    "csv_row": 9737,
+    "id": "triTachCommerceRaiderComms",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9738,
+    "id": "triTachCommerceRaiderCommsWeaker",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9742,
+    "id": "ttma_detachmentCommsNotHostile",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9743,
+    "id": "ttma_detachmentCommsHostile",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9748,
+    "id": "TTMACommandOptions2",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9749,
+    "id": "ttma_offerBribe1Sel",
+    "column": "options",
+    "option_line": "ttma_offerBribe2:\"Je comprends. Un million, alors ?\"",
+    "original": "Je comprends. Un million, alors ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 9749,
+    "id": "ttma_offerBribe1Sel",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9758,
+    "id": "TTCR_BountyHunterOptionsButDer2",
+    "column": "options",
+    "option_line": "ttcrBH_butFaith:\"Comment avez-vous pu attaquer un $playerBrotherOrSister de la Foi ?\"",
+    "original": "Comment avez-vous pu attaquer un $playerBrotherOrSister de la Foi ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 9759,
+    "id": "TTCR_BountyHunterOptionsCut",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9761,
+    "id": "ttcrBH_butSelWolfpack",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  }
+]

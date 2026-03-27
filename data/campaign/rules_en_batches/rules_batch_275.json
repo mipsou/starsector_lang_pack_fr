@@ -1,0 +1,74 @@
+[
+  {
+    "csv_row": 8286,
+    "id": "ZGRpostWeirdNothingProceed",
+    "column": "text",
+    "original": "Her expression remains frozen with disdainful impatience.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8287,
+    "id": "ZGRpostWeirdNothingHostile",
+    "column": "text",
+    "original": "\"Tell me what you found.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8288,
+    "id": "ZGRpostWeirdNothingDweller",
+    "column": "text",
+    "original": "\"It was not the 'Threat',\" she says. It doesn't sound like a question.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8288,
+    "id": "ZGRpostWeirdNothingDweller",
+    "column": "options",
+    "option_line": "zgr_postWeirdNothingHostile2Know:\"No. But you already know that, don't you.\"",
+    "original": "No. But you already know that, don't you.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8289,
+    "id": "ZGRpostWeirdNothingHostile2Know",
+    "column": "text",
+    "original": "She blinks once.\n\n\"Tell me what you found.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8290,
+    "id": "ZGRpostWeirdNothingHostile2KnowB",
+    "column": "text",
+    "original": "\"Tell me what you found.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8300,
+    "id": "ZGRtechPlayerOMKIbother",
+    "column": "options",
+    "option_line": "zgr_makePitch9OMKIbuy:\"Why? Are you going to make me an offer for it?\"",
+    "original": "Why? Are you going to make me an offer for it?",
+    "translated": ""
+  },
+  {
+    "csv_row": 8301,
+    "id": "ZGRtechReturnOptFirst",
+    "column": "text",
+    "original": "\"My strategic predictors tagged you with reasonable odds of success,\" she says. \"I must congratulate their operators.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8302,
+    "id": "ZGRtechReturnOptAgain",
+    "column": "text",
+    "original": "\"Oh?\" Her eyes give a disconcerting twitch. \"I should like to examine your discoveries.\" ",
+    "translated": ""
+  },
+  {
+    "csv_row": 8303,
+    "id": "ZGRtechReturnOptAgainB",
+    "column": "text",
+    "original": "For a moment her brow develops a wrinkle. \"More?\" she says, and it disappears.",
+    "translated": ""
+  }
+]

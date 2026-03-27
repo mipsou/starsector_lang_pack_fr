@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 8471,
+    "id": "ZGRstartPitch9both3z",
+    "column": "text",
+    "original": "For a full two seconds her eyes close, moving rapidly.\n\nYour TriPad pings.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8471,
+    "id": "ZGRstartPitch9both3z",
+    "column": "options",
+    "option_line": "zgr_makePitch11:\"So you knew what you were asking for. Was there another expedition that succeeded?\"",
+    "original": "So you knew what you were asking for. Was there another expedition that succeeded?",
+    "translated": ""
+  },
+  {
+    "csv_row": 8472,
+    "id": "ZGRstartPitch9threat",
+    "column": "text",
+    "original": "She blinks. Her eyes seem suddenly present for the first time. \n\n\"And you lived to tell it,\" she says, outwardly cool. You suspect, however, that you've impressed the Director because she pauses a moment to consider your words.\n\n\"Would you part with recordings of your encounter with the Threat? I offer 100,000 credits for immediate transfer.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8472,
+    "id": "ZGRstartPitch9threat",
+    "column": "options",
+    "option_line": "zgr_makePitch9No:\"Perhaps another time.\"",
+    "original": "Perhaps another time.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8474,
+    "id": "ZGRstartPitch9threat2OMKI",
+    "column": "text",
+    "original": "\"So you are open to dealing,\" she says. \"Good.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8475,
+    "id": "ZGRstartPitch9threat3",
+    "column": "text",
+    "original": "For a full two seconds her eyes close, moving rapidly.\n\nYour TriPad pings a credits transfer.\n\n\"Interesting,\" she says, and releases a breath. \"Yes. This is what I am looking for.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8475,
+    "id": "ZGRstartPitch9threat3",
+    "column": "options",
+    "option_line": "zgr_makePitch11:\"So you know what it is. Was there another expedition before me?\"",
+    "original": "So you know what it is. Was there another expedition before me?",
+    "translated": ""
+  },
+  {
+    "csv_row": 8476,
+    "id": "ZGRstartPitch9threat3z",
+    "column": "text",
+    "original": "For a full two seconds her eyes close, moving rapidly.\n\nYour TriPad pings a credits transfer.\n\n\"Interesting,\" she says, and releases a breath. \"Yes. This is what I am looking for.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8476,
+    "id": "ZGRstartPitch9threat3z",
+    "column": "options",
+    "option_line": "zgr_makePitch11:\"So you know what it is. Was there another expedition that succeeded?\"",
+    "original": "So you know what it is. Was there another expedition that succeeded?",
+    "translated": ""
+  },
+  {
+    "csv_row": 8477,
+    "id": "ZGRstartPitch9dweller",
+    "column": "text",
+    "original": "She blinks. Her eyes seem suddenly present for the first time.\n\n\"That does not... quite fit with our working knowledge of the issue. Would you part with recordings of your... encounter with these entities? I offer 100,000 credits for immediate transfer.\"",
+    "translated": ""
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 2553,
+    "id": "BFFIonBoardingStateroom",
+    "column": "options",
+    "option_line": "BFFI_onBoardingStateroomDowngrade:\"If you wish, you will be given a crew-berth.\"",
+    "original": "If you wish, you will be given a crew-berth.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2554,
+    "id": "BFFIonBoardingRespWork",
+    "column": "text",
+    "original": "Bornanew nods, not quite a bow. \"You are right, of course.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2555,
+    "id": "BFFIonBoardingRespHosp",
+    "column": "text",
+    "original": "Bornanew nods, not quite a bow. \"My apologies, I did not intend to spurn your hospitality. It is a virtue.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2556,
+    "id": "BFFIonBoardingRespDowngrade",
+    "column": "text",
+    "original": "\"If you would, please,\" Bornanew says with a nod that isn't quite a bow. \"It would be most appropriate for my service of penance.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2558,
+    "id": "BFFIonBoardYarbStart",
+    "column": "text",
+    "original": "Novice Bornanew speaks from the head of the table on which he has placed a paper notebook. He seems disinclined to use the shared workspace of the holo visualization suite; you're not even sure he brought a datapad.\n\n\"...collector who now possesses this duplicate relic is a man by the name Menes Yaribay, a minor member of Gens Yaribay of Kazeron,\" he looks to you for a sign of recognition.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2559,
+    "id": "BFFIonBoardYarbRespA",
+    "column": "text",
+    "original": "Of course you know the Yaribays. You were given Horus Yaribay's diplomatic credentials to arrange a meeting with High Hegemon Daud.\n\nHorus Yaribay might owe you a favor, depending on how he views the situation.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2559,
+    "id": "BFFIonBoardYarbRespA",
+    "column": "options",
+    "option_line": "BFFI_onBoardingYarb2know:Explain this to $global.jethroName",
+    "original": "Explain this to $global.jethroName",
+    "translated": ""
+  },
+  {
+    "csv_row": 2560,
+    "id": "BFFIonBoardYarbRespB",
+    "column": "text",
+    "original": "Of course you know the Yaribays. You were given Horus Yaribay's diplomatic credentials to arrange a meeting with High Hegemon Daud and have, on at least one occasion, used those credentials to call a favor on account of Gens Yaribay's prestige.\n\nHopefully he didn't find out.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2560,
+    "id": "BFFIonBoardYarbRespB",
+    "column": "options",
+    "option_line": "BFFI_onBoardingYarb2confess:Explain everything to $global.jethroName",
+    "original": "Explain everything to $global.jethroName",
+    "translated": ""
+  },
+  {
+    "csv_row": 2561,
+    "id": "BFFIonBoardYarbRespC",
+    "column": "text",
+    "original": "Of course you know the Yaribays. You were given Horus Yaribay's diplomatic credentials to arrange a meeting with High Hegemon Daud. During that meeting, you handed over the key required for an encrypted channel between Horus Yaribay and Baikal Daud.\n\nHorus Yaribay might owe you a favor, depending on how he views the situation.",
+    "translated": ""
+  }
+]

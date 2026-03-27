@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 3240,
+    "id": "BFFIstationTalkHubObjection3",
+    "column": "options",
+    "option_line": "bffi_stationTalk2sedge:\"Why are you so willing to violate the tenets of your faith for Wrestling Sedge?\"",
+    "original": "Why are you so willing to violate the tenets of your faith for Wrestling Sedge?",
+    "translated": ""
+  },
+  {
+    "csv_row": 3242,
+    "id": "BFFIstationTalkSPsetupA",
+    "column": "options",
+    "option_line": "bffi_psRuseNiceSetup:\"We seek not your death, but to stop a scheme that will itself kill countless Faithful.\" (explain)",
+    "original": "We seek not your death, but to stop a scheme that will itself kill countless Faithful.\" (explain)",
+    "translated": ""
+  },
+  {
+    "csv_row": 3243,
+    "id": "BFFIstationTalkSPsetupB",
+    "column": "options",
+    "option_line": "bffi_psRuseMeanSetup:\"I can destroy you. Choose to lose all - or make a deal, and lose little.\" (explain)",
+    "original": "I can destroy you. Choose to lose all - or make a deal, and lose little.\" (explain)",
+    "translated": ""
+  },
+  {
+    "csv_row": 3244,
+    "id": "BFFIstationTalkHubOutA",
+    "column": "options",
+    "option_line": "bffi_stationTalkOutA:\"You're a hopeless fanatic. There is no reasoning with you.\"",
+    "original": "You're a hopeless fanatic. There is no reasoning with you.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3245,
+    "id": "BFFIstationTalkHubOutB",
+    "column": "options",
+    "option_line": "bffi_stationTalkOutB:\"Your heresy has twisted your faith. There is no reasoning with you.\" (cut the comms)",
+    "original": "Your heresy has twisted your faith. There is no reasoning with you.\" (cut the comms)",
+    "translated": ""
+  },
+  {
+    "csv_row": 3246,
+    "id": "BFFIstationTalkOutA",
+    "column": "text",
+    "original": "The Pather's face twists with anger. \"Then burn with the rest, Molochian!\" $HeOrShe disappears in a haze of compression artifacts.\n\nThe link plays a crackling buzz of a suppressed electronic warfare signal for a moment before your comms officer, considerately, shuts it off for you.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3247,
+    "id": "BFFIstationTalkOutB",
+    "column": "text",
+    "original": "The Pather's face twists with anger.  \"Then burn with the rest, Molochian!\" $heOrShe says, then disappears in a haze of compression artifacts.\n\nThe link plays a crackling buzz of a suppressed electronic warfare signal for a moment before your comms officer, considerately, shuts it off for you.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3248,
+    "id": "BFFIstationTalk1honesty",
+    "column": "text",
+    "original": "\"Question me not!\" True anger flashes across $hisOrHer eyes. \"What know you of verity? You are blind to God, blind to the Word, you worship only credits and power. This I see full well!\" \n\n\"Would you have me submit to the creeping decay of the Church's heresy? Submit to the Knight-Inquisitors that I might be tortured into false confession?\"\n\n$HeOrShe pauses, breathing heavily for a moment, then more quietly says, \"I was not made for such skulduggery. It is a Mammonite's trade.\" The words come more softly now. \"Will you now fight or no? Better to die a martyr than a hypocrite.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3249,
+    "id": "BFFIstationTalk1sin",
+    "column": "text",
+    "original": "\"So you accuse me of sin, Molochian?\" Anger flashes across $hisOrHer eyes. \"What choice have I? Submit to the creeping decay of the Church's heresy? Submit to the Knight-Inquisitors that I be tortured into false confession?\"\n\n\"Question not my piety, nor devotion. Give me arms, or none, and I shall face you or your brutes of the so-called Knights of Ludd to the end of my blood!\"\n\n$HeOrShe pauses a moment, almost overcome, to breathe heavily.\n\n\"I was not made for such skulduggery.\" The words come softly now. \"It is a Mammonite's trade. But what choice is given?\" $HeOrShe glares at you. \"Will you make me a martyr now, or no?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3250,
+    "id": "BFFIstationTalk1blind",
+    "column": "text",
+    "original": "True anger flashes through  $hisOrHer eyes. \"What choice have I? Shall I submit to the creeping decay of the Church's heresy? Submit to the Knight-Inquisitors that I might be tortured into false confession? It is they who slowly tear apart the Faith, not I! It is they who scorn the Word, not I!\"\n\n\"Question not my piety, nor my devotion! Give me arms, or none, and I shall face you and your brutes of the so-called Knights of Ludd to the end of my blood!\" $HeOrShe pauses a moment, almost overcome, to breathe heavily. \"I was not made for such skulduggery.\" The words come more softly now. \"It is a Mammonite's trade. But what choice is given? Will you make me a martyr now, or no?\"",
+    "translated": ""
+  }
+]

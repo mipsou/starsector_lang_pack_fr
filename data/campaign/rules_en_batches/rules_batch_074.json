@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 2706,
+    "id": "BFFImmBornDoSteal3",
+    "column": "text",
+    "original": "\"It won't work,\" he says.\n\n\"With all due respect, your tactician is no thief. And neither are you. It must be me.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2707,
+    "id": "BFFImmBornDoStealHubA",
+    "column": "options",
+    "option_line": "bffi_mmBornDoSteal4:\"Aren't you opposed to theft? You swore an oath.\"",
+    "original": "Aren't you opposed to theft? You swore an oath.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2709,
+    "id": "BFFImmBornDoStealHubC",
+    "column": "options",
+    "option_line": "bffi_mmBornDoStealFaith:\"I, too, have my faith. Is that nothing?\"",
+    "original": "I, too, have my faith. Is that nothing?",
+    "translated": ""
+  },
+  {
+    "csv_row": 2710,
+    "id": "BFFImmBornDoStealHubD",
+    "column": "options",
+    "option_line": "bffi_mmBornDoStealTell:\"Tell me what your plan is.\"",
+    "original": "Tell me what your plan is.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2712,
+    "id": "BFFImmBornDoStealHubF",
+    "column": "options",
+    "option_line": "bffi_mmBornOutro:\"If you insist, then.\"",
+    "original": "If you insist, then.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2713,
+    "id": "BFFImmBornDoSteal4",
+    "column": "text",
+    "original": "\"I am. I did,\" he says. \"But more necessary than my conscience is our success. I shall bear my burden.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2714,
+    "id": "BFFImmBornDoSteal5",
+    "column": "text",
+    "original": "\"Why should Menes leave you alone with the relic, or at all?\" He looks over at you. \n\n\"I am a Knight of Ludd, devoted and taciturn. I shall simply... display the power of my faith.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2715,
+    "id": "BFFImmBornDoStealSteal",
+    "column": "text",
+    "original": "\"Pray forgive me, captain; I do no question your faith.\" He presses his hands together.\n\n\"But Menes Yaribay cannot see into your soul. He will see your uniform, and my robes. That will be enough.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2716,
+    "id": "BFFImmBornDoStealTell",
+    "column": "text",
+    "original": "\"We attend Menes' party. Be interesting. Be yourself. Get Menes to show off the glove.\" \n\n\"I know this trade, captain. Have faith.\" He pauses for a moment, acknowledging some irony in his own words. \"It works best if you act natural.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2717,
+    "id": "BFFImmBornDoStealLetGo",
+    "column": "text",
+    "original": "He crosses his arms. \"I am not.\"",
+    "translated": ""
+  }
+]

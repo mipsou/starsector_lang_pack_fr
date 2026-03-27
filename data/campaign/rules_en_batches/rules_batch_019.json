@@ -1,0 +1,78 @@
+[
+  {
+    "csv_row": 531,
+    "id": "greetingTTHostileWeaker",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 532,
+    "id": "greetingTTHostileWeakerDefiant",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 533,
+    "id": "greetingTTHostileStronger",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 542,
+    "id": "TTpatrolWeirdMods0",
+    "column": "text",
+    "original": "\"On behalf of Tri-Tachyon, it is my pleasure to...\"\n\nThe $post halts $hisOrHer cheerfully plastic greeting. \n\n\"Captain.\" $HisOrHer eyes dart to another display, \"... $playerLastName. Please accept my greetings on behalf of the Tri-Tachyon corporation. I...\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 542,
+    "id": "TTpatrolWeirdMods0",
+    "column": "options",
+    "option_line": "TTpatrol_weirdMods1a:\"Thank you. Is everything alright?\"",
+    "original": "Thank you. Is everything alright?",
+    "translated": ""
+  },
+  {
+    "csv_row": 542,
+    "id": "TTpatrolWeirdMods0",
+    "column": "options",
+    "option_line": "TTpatrol_weirdMods1b:\"Is there some kind of problem, $post?\"",
+    "original": "Is there some kind of problem, $post?",
+    "translated": ""
+  },
+  {
+    "csv_row": 542,
+    "id": "TTpatrolWeirdMods0",
+    "column": "options",
+    "option_line": "TTpatrol_weirdMods1c:\"Is this about a bribe? Just tell me how much.\"",
+    "original": "Is this about a bribe? Just tell me how much.",
+    "translated": ""
+  },
+  {
+    "csv_row": 544,
+    "id": "TTpatrolWeirdMods1b",
+    "column": "text",
+    "original": "\"No, not at all. Nothing to worry about. I think. I mean, no, but...\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 545,
+    "id": "TTpatrolWeirdMods1c",
+    "column": "text",
+    "original": "\"A bribe? Ah, no, not at all. Nothing like that, captain. It's- well, you see...\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 546,
+    "id": "TTpatrolWeirdMods2",
+    "column": "text",
+    "original": "$HeOrShe pauses, then begins again.\n\n\"Your $shipOrFleet features some unusual modifications.\" $HeOrShe glances at a secondary display. \"Very unusual.\"\n\n$HisOrHer eyes dart back to stare through the comm-link.",
+    "translated": ""
+  }
+]

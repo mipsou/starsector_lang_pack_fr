@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 2580,
+    "id": "BFFIonBoardAskRelic",
+    "column": "options",
+    "option_line": "BFFI_onBoardAskRelic1c:\"What's Ludd going to do with two right-hand gloves?\"",
+    "original": "What's Ludd going to do with two right-hand gloves?",
+    "translated": ""
+  },
+  {
+    "csv_row": 2581,
+    "id": "BFFIonBoardAskRelic1a",
+    "column": "text",
+    "original": "\"It's a real glove,\" he says, \"That much is true.\"\n\n\"It's just a work glove, one of many designs prevalent through the immediate pre- and post-Collapse Persean Sector.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2584,
+    "id": "BFFIonBoardAskRelic2",
+    "column": "text",
+    "original": "\"My objection is that the glove, even if it is the glove, is not important. What is important is Ludd's message, Ludd's sacrifice; it is the act of a divine moral force touching the soul of humanity with supreme grace.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2585,
+    "id": "BFFIonBoardAskRelic3",
+    "column": "text",
+    "original": "\"What is a glove to the light of Revelation?\" The words come out forcefully.\n\n\"Even if it were Ludd's glove - and that we can't, and should not, be sure of - would God love you more for possessing it? Touching, looking upon, and worshipping it?\"\n\nHis brow furrows. \"Then some would try to extract DNA from the glove. Clone Ludd, they say, to re-open a connection to God.\" He shakes his head furiously, \"As if you could fool God with the twin of the prophet's body!\"\n\n\"Or the glove that body might have worn.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2586,
+    "id": "BFFIonBoardAskRelic4",
+    "column": "text",
+    "original": "\"It's the fool's logic of 'magic' of the lowest kind, the heretical notion that humanity might manipulate the Divine to our own ends. Creation turned on its head!\"\n\nYou've never seen Bornanew like this, his voice like a river; his physical size giving power to his words. Seeing you see this, he realizes it himself.\n\n\"I apologize for my outburst, captain,\" he says, looking down.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2586,
+    "id": "BFFIonBoardAskRelic4",
+    "column": "options",
+    "option_line": "BFFI_onBoardAskRelic5b:\"No need to apologize. I can't help but agree.\"",
+    "original": "No need to apologize. I can't help but agree.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2586,
+    "id": "BFFIonBoardAskRelic4",
+    "column": "options",
+    "option_line": "bffi_onBoardAskRelic5d:\"But magic isn't real. So what harm is focusing on a glove, fake relic or not?\"",
+    "original": "But magic isn't real. So what harm is focusing on a glove, fake relic or not?",
+    "translated": ""
+  },
+  {
+    "csv_row": 2587,
+    "id": "BFFIonBoardAskRelic5a",
+    "column": "text",
+    "original": "He nods, suppressing a smile, looking down at his notebook. He puts his hands together again.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2588,
+    "id": "BFFIonBoardAskRelic5b",
+    "column": "text",
+    "original": "He meets your gaze. \"I shall interpret your words as forgiveness. It is nonetheless unseemly for a Knight to let uncontrolled passion rule their actions.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2590,
+    "id": "BFFIonBoardAskRelic5d",
+    "column": "text",
+    "original": "\"Of course, of course.\" He rubs his chin, calmer now.\n\n\"The problem is not that it might work, but that such self-trickery will lead the Faithful astray from the Word. And if we don't follow the Word, then what use have we for revelation? Are we to simply discard God's gifts?\"\n\nHe sits, looking into the distance somewhere. \"Ludd chose the revealed path not because it was easy, and not because it was without suffering. Ludd chose because it was Good.\"",
+    "translated": ""
+  }
+]

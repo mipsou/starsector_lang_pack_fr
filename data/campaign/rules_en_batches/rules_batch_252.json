@@ -1,0 +1,78 @@
+[
+  {
+    "csv_row": 7876,
+    "id": "raoAskDiktatMerc3",
+    "column": "options",
+    "option_line": "rao_askDiktatMerc4c:\"Looks like someone is losing their bonus. Anyway, I want in.\"",
+    "original": "Looks like someone is losing their bonus. Anyway, I want in.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7876,
+    "id": "raoAskDiktatMerc3",
+    "column": "options",
+    "option_line": "rao_askDiktatMerc4d:\"Clearly you don't take this very seriously.\"",
+    "original": "Clearly you don't take this very seriously.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7877,
+    "id": "raoAskDiktatMerc4a",
+    "column": "text",
+    "original": "\"Really?\" Admiral Rao, leaning forward, puts on a look of concern.\n\nHe speaks officiously. \"As a patriotic citizen, I'm sure you'll have reported all such lapses of policy so that official action may be taken.\"\n\nThe pose holds for a moment, then half a smile cracks through.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7878,
+    "id": "raoAskDiktatMerc4d",
+    "column": "text",
+    "original": "He shrugs, holding his ironic half-smile in place. Behind it his eyes are cold, very cold.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7878,
+    "id": "raoAskDiktatMerc4d",
+    "column": "options",
+    "option_line": "rao_askDiktatMerc4b:\"If it's a fight against the Diktat, I want to be a part of it.\"",
+    "original": "If it's a fight against the Diktat, I want to be a part of it.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7878,
+    "id": "raoAskDiktatMerc4d",
+    "column": "options",
+    "option_line": "rao_askDiktatMerc4c:\"Looks like someone is losing their bonus. Anyway, I want in.\"",
+    "original": "Looks like someone is losing their bonus. Anyway, I want in.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7879,
+    "id": "raoAskDiktatMerc4dout",
+    "column": "text",
+    "original": "\"Then I bid you a good day, captain.\"\n\nRao flicks the comms cut-off.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7881,
+    "id": "raoAskDiktatMerc4b",
+    "column": "text",
+    "original": "\"Hmm.\" Rao looks you over. Is that a twinkle of amusement?\n\n\"Why?\"\n\nHe leaves the silence for you to fill.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7882,
+    "id": "raoAskDiktatMerc4optsA",
+    "column": "options",
+    "option_line": "rao_askDiktatMerc5merc:\"Because you'll pay me well, and on time. You were a freelancer, you know the life.\"",
+    "original": "Because you'll pay me well, and on time. You were a freelancer, you know the life.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7885,
+    "id": "raoAskDiktatMerc4optsD",
+    "column": "options",
+    "option_line": "rao_askDiktatMerc5faith:\"They're systematically killing the Faithful, they closed the Shrine of Volturn. My duty is to resist.\"",
+    "original": "They're systematically killing the Faithful, they closed the Shrine of Volturn. My duty is to resist.",
+    "translated": ""
+  }
+]

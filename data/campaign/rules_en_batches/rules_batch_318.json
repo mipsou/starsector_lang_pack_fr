@@ -1,0 +1,81 @@
+[
+  {
+    "csv_row": 9329,
+    "id": "anhDiktatPatrolStall2",
+    "column": "options",
+    "option_line": "anh_diktatPatrolStall30:\"Je ne veux pas savoir.\"",
+    "original": "Je ne veux pas savoir.",
+    "translated": ""
+  },
+  {
+    "csv_row": 9340,
+    "id": "anhDiktatPatrolAgainOptionD",
+    "column": "options",
+    "option_line": "anh_diktatPatrolRights:\"Vous n'avez pas le droit d'enlever mes passagers.\"",
+    "original": "Vous n'avez pas le droit d'enlever mes passagers.",
+    "translated": ""
+  },
+  {
+    "csv_row": 9343,
+    "id": "anhDiktatPatrolSearch2",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9349,
+    "id": "anhDiktatPatrolMixedEnd",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9350,
+    "id": "anhDiktatPatrolBothEnd",
+    "column": "options",
+    "option_line": "anh_diktatPatrolQuestEnd:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9351,
+    "id": "anhDiktatPatrolHostileEnd",
+    "column": "options",
+    "option_line": "cutCommLink:\"Postes de combat.\"",
+    "original": "Postes de combat.",
+    "translated": ""
+  },
+  {
+    "csv_row": 9352,
+    "id": "anhDiktatPatrolBluffEnd",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 9357,
+    "id": "anhCheckCompletion",
+    "column": "options",
+    "option_line": "anh_completeDeliveryMoon:\"Ce n'est qu'une lune, gamin. Avec un noyau rocheux.\"",
+    "original": "Ce n'est qu'une lune, gamin. Avec un noyau rocheux.",
+    "translated": ""
+  },
+  {
+    "csv_row": 9357,
+    "id": "anhCheckCompletion",
+    "column": "options",
+    "option_line": "anh_completeDelivery:Laisser tomber",
+    "original": "Laisser tomber",
+    "translated": ""
+  },
+  {
+    "csv_row": 9358,
+    "id": "anhCheckCompletion2",
+    "column": "text",
+    "original": "Le gamin parvient a ne pas avoir l'air decu par cette revelation.",
+    "translated": ""
+  }
+]

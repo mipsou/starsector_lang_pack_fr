@@ -1,0 +1,78 @@
+[
+  {
+    "csv_row": 3106,
+    "id": "BFFIulmusTalkPcWrong3b",
+    "column": "text",
+    "original": "Bornanew's datapad trembles in Pond's hands. He cannot designate a star system until Bornanew concedes by lowering him back onto the cot.\n\nGasping and choking, Pond marks a system. It is difficult to make out his words. Something about \"pather\".\n\n\"This Pather, Ulmus,\" Bornanew says, glancing at the datapad then placing it in his satchel. \"Tell us his name.\"\n\nTears stream down Ponds' face; the man looks deflated, and absolutely defeated. \"Sedge,\" he rasps, finally.\n\nBornanew shoots a look at you.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3106,
+    "id": "BFFIulmusTalkPcWrong3b",
+    "column": "options",
+    "option_line": "bffi_pondNoSedgeOutro1a:\"Wrestling Sedge. But he's dead.\"",
+    "original": "Wrestling Sedge. But he's dead.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3112,
+    "id": "BFFIulmusSedgeIntro",
+    "column": "text",
+    "original": "Bornanew's datapad trembles in Pond's hands. He cannot designate a star system until Bornanew holds the pad steady for him.\n\n\"This Pather, Ulmus,\" Bornanew says, glancing at the datapad then placing it in his satchel. The threat retreats from his voice. \"Tell us his name.\"\n\nTears stream down Ulmus' face; the man looks deflated, and absolutely defeated. Then he looks up and his eyes go wide.\n\n\"Sedge!\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3112,
+    "id": "BFFIulmusSedgeIntro",
+    "column": "options",
+    "option_line": "bffi_ulmusTalkSedge1:Turn around, slowly",
+    "original": "Turn around, slowly",
+    "translated": ""
+  },
+  {
+    "csv_row": 3113,
+    "id": "BFFIulmusSedge1",
+    "column": "text",
+    "original": "Wrestling Sedge shows you his broken smile.\n\n\"Captain $playerFirstName, again. And again the man with too much faith, Bornanew. Jethro Bornanew. See?\"\n\nSedge's pistol is unwavering.\n\n\"This time I remember for you.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3113,
+    "id": "BFFIulmusSedge1",
+    "column": "options",
+    "option_line": "bffi_ulmusTalkSedge2a:Subvocalize a call to your security team",
+    "original": "Subvocalize a call to your security team",
+    "translated": ""
+  },
+  {
+    "csv_row": 3113,
+    "id": "BFFIulmusSedge1",
+    "column": "options",
+    "option_line": "bffi_ulmusTalkSedge2b:\"We were just having a chat with Mister Pond here.\"",
+    "original": "We were just having a chat with Mister Pond here.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3113,
+    "id": "BFFIulmusSedge1",
+    "column": "options",
+    "option_line": "bffi_ulmusTalkSedge2d:Draw your weapon",
+    "original": "Draw your weapon",
+    "translated": ""
+  },
+  {
+    "csv_row": 3114,
+    "id": "BFFIulmusSedge1b",
+    "column": "text",
+    "original": "Wrestling Sedge shows you his broken smile.\n\n\"Captain $playerFirstName! It is good to see you. And again the man with too much faith, Bornanew. Jethro Bornanew. See?\"\n\nSedge's pistol is unwavering.\n\n\"This time I remember for you. But,\" he frowns, \"unlucky for me to find you on this path.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3114,
+    "id": "BFFIulmusSedge1b",
+    "column": "options",
+    "option_line": "bffi_ulmusTalkSedge2a:Subvocalize a call to your security team",
+    "original": "Subvocalize a call to your security team",
+    "translated": ""
+  }
+]

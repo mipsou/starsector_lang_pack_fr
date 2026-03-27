@@ -1,0 +1,74 @@
+[
+  {
+    "csv_row": 3541,
+    "id": "BFFIproblemCheckFundingLie2",
+    "column": "text",
+    "original": "The clerk coughs, \"We, ah,\" she flips a page on a paper notebook.\n\n\"While the Church does not recognize the purchase of,  um,\" her eyes flicker to the crucible, which has stopped glowing, but ticks away as it cools. \"The object in question. However, due to the promise made by a... representative,\" she looks quickly at Bornanew, then away. \"It was proposed that a... polite settlement with Mister Yaribay be made using the reward credits originally authorized by the Reverend Archcurate Jaspis...\"\n\n\"Do it,\" says the Excubitor Orbis.\n\nYou can't quite see if Bornanew is blushing, because his head is bowed toward Oak.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3542,
+    "id": "BFFIproblemCheckFundingLie2dead",
+    "column": "text",
+    "original": "The clerk coughs, \"We, ah,\" she flips a page on a paper notebook.\n\n\"While the Church does not recognize the purchase of,  um,\" her eyes flicker to the crucible, which has stopped glowing, but ticks away as it cools. \"The object in question. However, due to the promise made by a... representative,\" she looks quickly at Bornanew, then away. \"It was proposed that a... polite settlement with Mister Yaribay be made using the reward credits originally authorized by the Reverend Archcurate Jaspis...\"\n\n\"Do it,\" says the Excubitor Orbis.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3543,
+    "id": "BFFIproblemCheckRaided",
+    "column": "text",
+    "original": "The clerk clears her throat.\n\n\"Excubitor Orbis,\" her eyes dart at you and Bornanew. \"$playerSirOrMadam. Novice.\"\n\n\"There is a matter of the Demarch of Olinadu. A Menes Yaribay? He claims damages from an... incident. He claims that a valuable object was stolen during a violent raid on his personal compound. And, um, there is a list of potential suspects...\"\n\nYou hadn't thought Oak could look any more displeased.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3544,
+    "id": "BFFIproblemCheckRaided2",
+    "column": "text",
+    "original": "The clerk coughs, \"We, ah,\" she flips a page on a paper notebook.\n\n\"While the Church does not recognize the legitimacy of, um,\" her eyes flicker to the crucible, which has stopped glowing, but ticks away as it cools. \"The object in question. It was proposed that a... polite settlement of affairs with Mister Yaribay be made using the reward credits originally authorized by the Reverend Archcurate Jaspis for...\"\n\n\"Do it,\" says the Excubitor Orbis.\n\nYou can't quite see if Bornanew is blushing, because his head is bowed toward Oak.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3545,
+    "id": "BFFIproblemCheckRaided2dead",
+    "column": "text",
+    "original": "The clerk coughs, \"We, ah,\" she flips a page on a paper notebook.\n\n\"While the Church does not recognize the legitimacy of, um,\" her eyes flicker to the crucible, which has stopped glowing, but ticks away as it cools. \"The object in question. It was proposed that a... polite settlement of affairs with Mister Yaribay be made using the reward credits originally authorized by the Reverend Archcurate Jaspis for...\"\n\n\"Do it,\" says the Excubitor Orbis.\n\nYou can't quite see if Bornanew is blushing, because his head is bowed toward Oak.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3546,
+    "id": "BFFIproblemCheckOut",
+    "column": "options",
+    "option_line": "bffi_outro1c:\"$global.jethroName. We done here?\"",
+    "original": "$global.jethroName. We done here?",
+    "translated": ""
+  },
+  {
+    "csv_row": 3547,
+    "id": "BFFIproblemCheckOutDead",
+    "column": "text",
+    "original": "\"I t-think that's everything,\" the clerk says, looking between you and Oak.\n\nExcubitor Orbis Gideon Oak exhales, meeting your gaze. Then, without a word, he turns away and begins walking back to the far doorway casting its long wedge of light into the armored hangar.\n\nAfter a respectful pause, the clerk and guards rush to follow.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3547,
+    "id": "BFFIproblemCheckOutDead",
+    "column": "options",
+    "option_line": "bffi_outro3:Tourner les talons",
+    "original": "Tourner les talons",
+    "translated": ""
+  },
+  {
+    "csv_row": 3549,
+    "id": "BFFIoutro1a",
+    "column": "text",
+    "original": "Oak ignores you.\n\n\"The novice still wears a crown of pride,\" Oak says toward Bornanew. \"Still he has much to repent.\"\n\nBornanew turns slightly aside, keeping his eyes toward the Excubitor Orbis. \"I shall be staying here a while, I think,\" he says softly.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3550,
+    "id": "BFFIoutro1aBB",
+    "column": "text",
+    "original": "Oak ignores you.\n\n\"The novice still wears a crown of pride,\" Oak says toward Bornanew. \"Still he has much to repent.\"\n\nBornanew's look hardens. He matches the remorseless gaze of the Excubitor Orbis with his own. \"If it be so by Providence,\" he says.",
+    "translated": ""
+  }
+]

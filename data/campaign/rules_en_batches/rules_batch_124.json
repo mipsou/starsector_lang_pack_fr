@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 3198,
+    "id": "BFFIpsaConHubBlastB",
+    "column": "options",
+    "option_line": "bffi_psaConHubRespBlastCc:\"If they force me to, I will do what is necessary.\"",
+    "original": "If they force me to, I will do what is necessary.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3198,
+    "id": "BFFIpsaConHubBlastB",
+    "column": "options",
+    "option_line": "bffi_psaConHubRespBlastCa:\"Archcurate Jaspis seems less forgiving of Pathers than you.\"",
+    "original": "Archcurate Jaspis seems less forgiving of Pathers than you.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3199,
+    "id": "BFFIpsaConHubBlastBa",
+    "column": "text",
+    "original": "He nods acceptance, thankful, with hands clasped.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3200,
+    "id": "BFFIpsaConHubBlastC",
+    "column": "options",
+    "option_line": "bffi_psaConHubRespBlastCa:\"Archcurate Jaspis seems less forgiving of Pathers than you.\"",
+    "original": "Archcurate Jaspis seems less forgiving of Pathers than you.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3200,
+    "id": "BFFIpsaConHubBlastC",
+    "column": "options",
+    "option_line": "bffi_psaConHubRespBlastCc:\"If they force me to, I will do what is necessary.\"",
+    "original": "If they force me to, I will do what is necessary.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3202,
+    "id": "BFFIpsaConHubBlastCb",
+    "column": "text",
+    "original": "He raises a skeptical eyebrow at you, but nods, hands clasped.\n\n\"I'd like nothing more, captain. Truly.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3203,
+    "id": "BFFIpsaConHubBlastCb-bb",
+    "column": "text",
+    "original": "\"In truth, it is not,\" he says. \"I shan't ask the impossible.\" \n\nHe clasps his hands together. \"I trust you will achieve what you must, how you must.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3204,
+    "id": "BFFIpsaConHubBlastCc",
+    "column": "text",
+    "original": "He raises a skeptical eyebrow at you, but nods, hands clasped.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3205,
+    "id": "BFFIpsaConHubOptEResp",
+    "column": "text",
+    "original": "Bornanew lowers his head for just a moment, mumbling a short prayer to himself, then leaves the bridge to you and your officers.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3208,
+    "id": "BFFIpsApproachBornMedbay",
+    "column": "text",
+    "original": "Bornanew is conscious, you are told. You chief medical officer warns you against unnecessary stress; the healing process is fragile.",
+    "translated": ""
+  }
+]

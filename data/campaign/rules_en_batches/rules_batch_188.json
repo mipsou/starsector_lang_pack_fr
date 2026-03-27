@@ -1,0 +1,80 @@
+[
+  {
+    "csv_row": 4787,
+    "id": "gaFCarchonAskDemOptsBsel",
+    "column": "text",
+    "original": "\"I recall that, now.\" $HeOrShe shakes $hisOrHer head. \"To my shame, Laicaille voted approval of the measure. Gens Hannan... well, we could not refuse. Our vote might not have much weight, but it symbolized the 'support of the minor polities of the League'.\" \n\n\"Minor polities!\" The archon clenches $hisOrHer jaw then goes silent, a look of consternation settled on $hisOrHer face.\n\n\"I would make it up to you,\" $heOrShe says. \"And to ourselves. Anything to stick it in Reynard Hannan's eye just once.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 4788,
+    "id": "gaFCarchonAskDemOptsCsel",
+    "column": "options",
+    "option_line": "gaFC_archonAskDemOptsCsel2:\"And is he not the most proud, insufferable bully you've ever met?\"",
+    "original": "And is he not the most proud, insufferable bully you've ever met?",
+    "translated": ""
+  },
+  {
+    "csv_row": 4788,
+    "id": "gaFCarchonAskDemOptsCsel",
+    "column": "options",
+    "option_line": "gaFC_archonAskDemOptsCsel2b:\"Don't you want to be like him? His success, his power?\"",
+    "original": "Don't you want to be like him? His success, his power?",
+    "translated": ""
+  },
+  {
+    "csv_row": 4789,
+    "id": "gaFCarchonAskDemOptsCsel2b",
+    "column": "text",
+    "original": "$HeOrShe frowns.\n\n\"Maybe we're even less alike than I thought.\"\n\n$HisOrHer eyes glide away, not wanting to confront something. You, perhaps. Maybe something else.\n\n\"I have... a meeting. Burn bright, captain.\"\n\nA listless arm shifts, and the comms cut out.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4789,
+    "id": "gaFCarchonAskDemOptsCsel2b",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 4793,
+    "id": "gaFCarchonAskDemarchonOptsA",
+    "column": "options",
+    "option_line": "gaFCarch_extortionReynard:\"He's extorting me for League membership. Payments directly to Gens Hannan.\"",
+    "original": "He's extorting me for League membership. Payments directly to Gens Hannan.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4794,
+    "id": "gaFCarchonAskDemChubOptA",
+    "column": "options",
+    "option_line": "gaFCarch_voteOutReynard:\"I told Reynard I'd join the League to vote him out of office. Would you help?\"",
+    "original": "I told Reynard I'd join the League to vote him out of office. Would you help?",
+    "translated": ""
+  },
+  {
+    "csv_row": 4795,
+    "id": "gaFCarchonAskDemChubOptB",
+    "column": "options",
+    "option_line": "gaFCarch_cynicalReynard:\"I told Reynard to his face that his disregard for human life is unbelievably cynical.\"",
+    "original": "I told Reynard to his face that his disregard for human life is unbelievably cynical.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4796,
+    "id": "gaFCarchonAskDemChubOptC",
+    "column": "options",
+    "option_line": "gaFCarch_beatReynard:\"I beat Reynard at his own game. I joined the League, but on my terms.\"",
+    "original": "I beat Reynard at his own game. I joined the League, but on my terms.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4797,
+    "id": "gaFCarchonAskDemChubOptD",
+    "column": "options",
+    "option_line": "gaFCarchPL_willYouHelp:\"So will you help me?\"",
+    "original": "So will you help me?",
+    "translated": ""
+  }
+]

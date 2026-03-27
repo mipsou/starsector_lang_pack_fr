@@ -1,0 +1,82 @@
+[
+  {
+    "csv_row": 665,
+    "id": "hesperus",
+    "title": "Hesperus",
+    "original_text": "Monasteries clung to the sublime promontories which ringed the volcanic provinces forced through world-wrapping ice. Unseen were the bunkers, heavy batteries, and missile silos of the Knights of Ludd.\n\nThe reigning Presbyter Orbis declared a handful of special economic zones on the shifting floes; these transmitted welcomes, their beacons calling outside traders to port.",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 666,
+    "id": "hesperus_shrine",
+    "title": "Shrine of Hesperus",
+    "original_text": "The floor was a welded field of armored plates weathered into intricate patterns by the varied atmospheres of worlds on which the Knights of Ludd fought and died. The niches held empty helmets like so many skulls.",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 667,
+    "id": "killa_shrine",
+    "title": "Shrine of Killa",
+    "original_text": "There were empty sockets, rib-cages, femurs and spines set in recesses, built into columns, covering every surface. The dust came from the crumbling bodies, the bones.\n\nLike a veil, it flexed slowly in the electrostatic field strong enough to overcome the low gravity of the world to hang in near-vacuum.",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 668,
+    "id": "volturn_shrine",
+    "title": "Shrine of Volturn",
+    "original_text": "It was filled with guns, explosives, grenades, cellmags. Crates and racks piled high. The shrine itself was set under a round viewport holding back a titanic mass of water. A few candles struggled to maintain even a decent flicker among the ranks of their dead comrades.",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 669,
+    "id": "volturn_shrine_fake",
+    "title": "Shrine of Volturn, fake",
+    "original_text": "It was a sad thing set in the back of a back room, rows of candles arrayed around the wooden centerpiece carved with images of Ludd's travails. The candles were dead, the shrine illuminated only by grimy portholes.\n\n\"We do not have many visitors, you see,\" the curate said.",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 670,
+    "id": "protest",
+    "title": "Protest",
+    "original_text": "The steady advance of gendarmerie broke the protest line, shock-prods rose and fell to muffled shouts and silent screaming. Drones, flashing laser-light, deployed restraint foam on struggling forms. Fists, signs, and hand tools were useless against the power-armored officers.",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 671,
+    "id": "raid_prepare",
+    "title": "Preparation for Raid",
+    "original_text": "Each squad prepared as if for surgery, cool and precise. Hell was set to pour forth once the breaching charges blasted through access-points, into churning storms of dust and debris and fire strobing with weapon discharge.",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 672,
+    "id": "raid_valuables_result",
+    "title": "Raid for Valuables",
+    "original_text": "Dull thuds, nearly subsonic, were felt through the armored mass. Breaching charges. When the marines finally broke the vault proper, it was with overwhelming force of sound and light. No unsuited human could withstand the assault on the senses. They were blinded, in shock.",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 673,
+    "id": "raid_disrupt_result",
+    "title": "Disruption Raid",
+    "original_text": "The raid pivoted on mere minutes of chaos. Comms across the hemisphere crackled with static; only tightbeam relays could pierce the rain of EM scatter amid clouds of chaff and disruption. Casualty reports rolled in, displays on the bridge bleeding to fill the volume with a bloody glow.",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 674,
+    "id": "raid_covert_result",
+    "title": "Covert Raid",
+    "original_text": "The marine squads withdrew, leaving broken bulkheads and blaring alarms amid the sporadic return-fire. The MUNISEC were still mobilizing to lock down the port when the last raider shuttle lifted. Its jets kicked up dust that mixed with the leaking atmo.",
+    "translated_title": "",
+    "translated_text": ""
+  }
+]

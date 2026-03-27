@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 8358,
+    "id": "ZGRfirstVisit8",
+    "column": "options",
+    "option_line": "ZGR_acknowledgeContinue:Ne rien dire",
+    "original": "Ne rien dire",
+    "translated": ""
+  },
+  {
+    "csv_row": 8358,
+    "id": "ZGRfirstVisit8",
+    "column": "options",
+    "option_line": "ZGR_firstVisit9a:\"Been spying on me?\"",
+    "original": "Been spying on me?",
+    "translated": ""
+  },
+  {
+    "csv_row": 8358,
+    "id": "ZGRfirstVisit8",
+    "column": "options",
+    "option_line": "ZGR_firstVisit9b:\"My favorite subject, please proceed.\"",
+    "original": "My favorite subject, please proceed.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8359,
+    "id": "ZGRfirstVisit9a",
+    "column": "text",
+    "original": "The intimation of a smile flits over her expression, though her eyes remain chillingly distant.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8360,
+    "id": "ZGRfirstVisit9b",
+    "column": "text",
+    "original": "She gives you a curt look, but no comment.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8372,
+    "id": "ZGRacknowledgeGA2",
+    "column": "text",
+    "original": "\"You've proven useful to Provost Baird. And your accomplishment with the Gates...\"\n\nShe puts her hands together, not quite a single clap for all you've done. Her politely mechanical smile contains some bitterness, you sense.\n\n\"I admire Baird, truly I do. Her ability to overcome Hegemony stone-walling, and herding those academics with their notions... sadly, though, it appears as though her grip was too tight. Pity to lose top talent.\"\n\nThe bitterness, you see, has left Glamor-Rotanev's smile to be replaced with something more carnivorous.\n\n\"Our R&D is cutting-edge, eminently practical, and there's very little risk of runaways. Our results might match your ambitions, I think.\" ",
+    "translated": ""
+  },
+  {
+    "csv_row": 8375,
+    "id": "ZGRacknowledgeChurch1",
+    "column": "text",
+    "original": "\"Your interest in matters of the Luddics has been noted. Even working with, perhaps for, an archcurate. I can only assume it's a charity case for one so evidently practical as yourself. Am I wrong? You don't actually believe in that stuff, surely.\"\n\nShe looks cooly astonished at the thought, inviting your denial.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8376,
+    "id": "ZGRacknowledgeChurch2",
+    "column": "text",
+    "original": "\"We see you've taken up an interest with the Luddi- pardon me, with the Church of Galactic Redemption. I can only assume it's a charity case for one so otherwise practical as yourself. Am I wrong? You don't actually believe in that stuff, surely.\"\n\nShe looks cooly astonished at the thought, inviting your denial.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8378,
+    "id": "ZGRacknowledgeChurchOpsA2",
+    "column": "options",
+    "option_line": "ZGR_ackChurchOptDontThink:\"I don't think about it. Like you said, I'm practical.\"",
+    "original": "I don't think about it. Like you said, I'm practical.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8379,
+    "id": "ZGRacknowledgeChurchOpsB",
+    "column": "options",
+    "option_line": "ZGR_ackChurchOptYes:\"I do. I stand for the Church and the Church with me.\"",
+    "original": "I do. I stand for the Church and the Church with me.",
+    "translated": ""
+  }
+]

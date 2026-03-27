@@ -1,0 +1,78 @@
+[
+  {
+    "csv_row": 1752,
+    "id": "lkeChalcedonVIPoptsHostile5",
+    "column": "options",
+    "option_line": "lke_chalcedonVIPoptHostileSP:\"C'est un terrible malentendu ! Ce n'est pas ce que vous croyez.\"",
+    "original": "C'est un terrible malentendu ! Ce n'est pas ce que vous croyez.",
+    "translated": ""
+  },
+  {
+    "csv_row": 1753,
+    "id": "lkeChalcedonVIPoptsHostileEnd",
+    "column": "options",
+    "option_line": "cutCommLinkPolite:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 1766,
+    "id": "lkeChalcedonThreatGo2b",
+    "column": "text",
+    "original": "\"Vous voulez un recruteur ? Je ne comprends pas. N'importe quel recruteur ? Dites-moi franchement ce que vous voulez pour que vous puissiez emporter votre feu infernal loin de chez moi.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 1766,
+    "id": "lkeChalcedonThreatGo2b",
+    "column": "options",
+    "option_line": "lke_chalcedonThreatGo2:\"Je veux Jethro Bornanew.\"",
+    "original": "Je veux Jethro Bornanew.",
+    "translated": ""
+  },
+  {
+    "csv_row": 1770,
+    "id": "LKEchalcedonThreatSedgeB",
+    "column": "text",
+    "original": "\"Attendez, attendez !\" crie $heOrShe en transpirant.",
+    "translated": ""
+  },
+  {
+    "csv_row": 1772,
+    "id": "LKEchalcedonThreatSedge2",
+    "column": "text",
+    "original": "\"Sedge a accepte de vous rencontrer. Je ne sais pas pourquoi, mais c'est lui qui l'a propose. Dans un bar de spationautes, en plus. Terrain neutre, oui ? Il a dit qu'il voulait vous parler. Je ne comprends pas, mais il est... il est habite par le pneuma. Il ne craint pas la mort.\"\n\n\"C'est tout ce que je peux faire. S'il vous plait. Je vais vous transmettre les coordonnees maintenant.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 1772,
+    "id": "LKEchalcedonThreatSedge2",
+    "column": "options",
+    "option_line": "cutCommLinkPolite:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 1779,
+    "id": "lkeChalcedonVIPreason2",
+    "column": "text",
+    "original": "\"Et un jeune Chevalier Initie - ancien Initie, devrais-je dire - a parle en bien de vos paroles simples sur Hesperus qui l'ont mis sur une nouvelle Voie.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 1781,
+    "id": "lkeChalcedonVIPFriendlyResp1",
+    "column": "options",
+    "option_line": "lke_chalcedonLookingSomeone:\"Je cherche quelqu'un qui aurait rejoint la Voie.\"",
+    "original": "Je cherche quelqu'un qui aurait rejoint la Voie.",
+    "translated": ""
+  },
+  {
+    "csv_row": 1782,
+    "id": "lkeChalcedonVIPFriendlyResp2",
+    "column": "options",
+    "option_line": "lke_chalcedonLookingRecruiter:\"Je cherche quelqu'un qui recrute pour la Voie.\"",
+    "original": "Je cherche quelqu'un qui recrute pour la Voie.",
+    "translated": ""
+  }
+]

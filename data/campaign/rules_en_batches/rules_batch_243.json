@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 7763,
+    "id": "TseenKeAskDaudOpB",
+    "column": "text",
+    "original": "\"Aye, that's right!\" Caliban thumps his console. \"That's why he's the old man! None of those flighty notions aristos and academicians love dreaming up.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7764,
+    "id": "TseenKeAskDaudOpC",
+    "column": "options",
+    "option_line": "tseenKe_askDaudOpC2:\"You don't think sacrifices are ever necessary?\"",
+    "original": "You don't think sacrifices are ever necessary?",
+    "translated": ""
+  },
+  {
+    "csv_row": 7765,
+    "id": "TseenKeAskDaudOpC2",
+    "column": "text",
+    "original": "He sits back, puffs his cheeks out and blows air. As if to dispense with the heavy implications.\n\n\"That's above my pay-grade, captain. And I'm thankful for it.\" A grim look crosses his face. \"If Daud asks it, I'll do it. That much I'll say.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7767,
+    "id": "TseenKeAskDaudOpE",
+    "column": "text",
+    "original": "\"Ha-ha! Could you now? I've heard that said often enough in the mess over one thing or another.\"\n\n\"Those are easy words when there's a logistics mixup or you're on the short end of command policy,\" Caliban says, taking on a philosophical tone. \"But to be up there and have to make the call that's most right for all the millions? The higher you are, the more someone's always on the short end of your decision.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7768,
+    "id": "TseenKeAskDaudOpE2",
+    "column": "text",
+    "original": " \"Lot of stress, that. No right decision, sometimes. It makes enemies no matter what you do, sometimes.\" He shakes his head. \"No, I'm best pleased where Command decides I should be. My problems are small and I can set 'em aside after a liter of beer and get a good sleep.\"\n\n\"Hear me, captain,\" he looks at you more seriously. \"You don't want that.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7769,
+    "id": "TseenKeAskDaudOpF",
+    "column": "text",
+    "original": "\"Ohhh, well now...\" He rubs his chin. \"He's a bit of a fancy lad, is Admiral Rao. Though not a bad one, not bad.\"\n\n\"Maybe when it's the old man's time to step aside,\" Caliban speaks with a shrug. \"Rao wouldn't be so bad, maybe.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7774,
+    "id": "defaultRaoGreeting",
+    "column": "options",
+    "option_line": "0:cutCommLinkPolite:Couper la comm",
+    "original": "cutCommLinkPolite:Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 7776,
+    "id": "defaultRaoCommission2",
+    "column": "text",
+    "original": "\"Hmm,\" he looks you over through the comm-link.\n\n\"That's nice. Go talk to someone who wants to deal with the bureaucracy to make it happen.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7778,
+    "id": "raoWarHero1",
+    "column": "text",
+    "original": "He blows some air out through his nostrils, barely a laugh.\n\n\"Trading tired banter with you, it appears.\" He makes a show of checking a secondary display- for the time, perhaps.\n\n\"I am busy, if you can believe it. Perhaps you had something useful, or at least interesting to say?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7779,
+    "id": "RaoDevOption",
+    "column": "options",
+    "option_line": "100:raoDev_optionHubA:DEV >> Rao options",
+    "original": "raoDev_optionHubA:DEV >> Rao options",
+    "translated": ""
+  }
+]

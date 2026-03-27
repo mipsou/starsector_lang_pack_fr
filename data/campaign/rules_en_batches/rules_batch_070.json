@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 2660,
+    "id": "BFFImmBornOptStealAgain",
+    "column": "text",
+    "original": "A holo of the complex spins in ghostly form in the shared visual workspace.\n\nYour tools are multitude. All you really need to do is get yourself invited into the inner sanctum.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2661,
+    "id": "BFFImeetMenesBornanewOptDsel",
+    "column": "text",
+    "original": "\"A snoop?\" Bornanew asks, \"Is this some sort of hack? Would that even be possible? One presumes that the administrator of a Persean League polity can afford the best computer security.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2662,
+    "id": "BFFImmBornBuyerOptSel",
+    "column": "text",
+    "original": "\"Well. Menes likes you,\" he says. \"He likes people who are rich and exciting, and important. He wants you to like him. He wants to be associated with people who are like what he imagines you are.\"\n\n\"Offering to buy his 'relic'... he would like that, I think.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2662,
+    "id": "BFFImmBornBuyerOptSel",
+    "column": "options",
+    "option_line": "bffi_mmBornBuyerOpt3:\"It could be expensive, however.\"",
+    "original": "It could be expensive, however.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2663,
+    "id": "BFFImmBornBuyerOptBSel",
+    "column": "text",
+    "original": "\"To what end? We want Menes to reveal from whom he acquired the duplicate.\" He taps his notebook, thinking. Then looks back at you.\n\n\"What if you were a buyer.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2663,
+    "id": "BFFImmBornBuyerOptBSel",
+    "column": "options",
+    "option_line": "bffi_mmBornBuyerOpt2:\"What if I was?\"",
+    "original": "What if I was?",
+    "translated": ""
+  },
+  {
+    "csv_row": 2664,
+    "id": "BFFImmBornBuyerOpt2",
+    "column": "text",
+    "original": "\"Menes likes you,\" he says. \"He likes people who are rich and exciting. He wants you to like him. I suspect he could be persuaded to reveal his source. Or, if not, we could discover it if we had possession of the false relic...\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2664,
+    "id": "BFFImmBornBuyerOpt2",
+    "column": "options",
+    "option_line": "bffi_mmBornBuyerOpt3:\"Buy the relic from Menes? That could be expensive.\"",
+    "original": "Buy the relic from Menes? That could be expensive.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2665,
+    "id": "BFFImmBornBuyerOpt3",
+    "column": "text",
+    "original": "\"It could be,\" he says. \"And before you ask, the Church will not approve additional funding. The Reverend Archcurate herself has spent her covert budget too freely on my case already.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2666,
+    "id": "BFFImmBornBuyerOptHubPayPlan",
+    "column": "options",
+    "option_line": "bffi_mmBornBuyerCheat:\"Are you... proposing that I cheat Menes Yaribay?\"",
+    "original": "Are you... proposing that I cheat Menes Yaribay?",
+    "translated": ""
+  }
+]

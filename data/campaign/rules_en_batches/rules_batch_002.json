@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 76,
+    "id": "abyssalLight_maxSensorsSel",
+    "column": "text",
+    "original": "\"Aye $playerSirOrMadam! Executing.\" Sensors barks, then deftly executes a series of overrides. \n\nYour $shipOrFleet status is up on the central display - shield bubble an unsteady amber, incursions of N-space fissures marked in garish red. A blink of white as active sensors trigger and-\n\n-pressure on the drive bubble spikes, an amber flash, a cacophony of alarms...\n\n* * *\n\nA hidden blackness waiting, lurking, jolts awake. Tendrils lunge eagerly, hungrily, through fissures in the dark behind the night.",
+    "translated": ""
+  },
+  {
+    "csv_row": 77,
+    "id": "abyssalLight_emConSel",
+    "column": "text",
+    "original": "At your command, the unperceived chorus of a multitude of ship systems and machinery dies down with a deepening sigh into muted quietude.\n\nAll that remains is the breath and bodies of your bridge crew, a strange assertion of your shared humanity. \n\nBackup e-lighting, simple chemical things, provide an eerie glow. A series of dimly pulsing commands illuminate your executive interface - a flock of ardent subsystems ready to awaken from minimum operation at your touch.\n\n* * *\n\nA hidden blackness feels the brush of a shadow. Less than a morsel, unworthy of wakefulness. By some analog of distributed instinct a few listless tendrils explore this disturbance, this ripple in the darkness behind the night.",
+    "translated": ""
+  },
+  {
+    "csv_row": 78,
+    "id": "abyssalLight_dwellerWaitSel",
+    "column": "text",
+    "original": "You wait.\n\nAlarms are reset, battle restraints engaged. Activity on the bridge gradually quiets as all officers, crew, and systems reach a state of readiness, even anticipation - fight or flight.\n\nThe incursions crawl closer to the center of your display volume, expanding unwaveringly and intentionally. \n\nAll eyes are on command interfaces, and all attention is on your next order.",
+    "translated": ""
+  },
+  {
+    "csv_row": 81,
+    "id": "shroudedSubstrateBegin",
+    "column": "text",
+    "original": "You join your technology officer and engineering chief in a small briefing room overlooking the shop bay dedicated to what has been euphemistically dubbed \"special salvage\".\n\nHaz-suited technicians attend to the containment machinery, stepping over coils of tube and wire. A mess of makeshift components were pulled from the common microforge libraries then torn apart and re-engineered to operate in this unusual, even extraordinary, application.\n\nEngineering wears a frown, tapping a TriPad as they observe the ongoing work. Tech can barely contain their excitement. \n\n\"$PlayerSirOrMadam,\" they say in unison at your arrival.",
+    "translated": ""
+  },
+  {
+    "csv_row": 81,
+    "id": "shroudedSubstrateBegin",
+    "column": "options",
+    "option_line": "shroudedSubstrateBegin:\"So. What is it?\"",
+    "original": "So. What is it?",
+    "translated": ""
+  },
+  {
+    "csv_row": 82,
+    "id": "shroudedSubstrateBegin2",
+    "column": "text",
+    "original": "\"Exotic matter!\" Tech exclaims.\n\nEngineering interrupts. \"Another way of saying 'we don't know what it is', and 'it doesn't act how physics says it should'.\" \n\nYour technology officer begins again, enthusiasm tempered - somewhat. \"Obviously, I was about to- $playerSirOrMadam,\" Tech turns to face only you, perhaps to curb further interruptions. \"Analysis is preliminary and proceeding,\" a quick glimpse at the frowning engineering chief, \"carefully.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 84,
+    "id": "shroudedSubstrateOptGA",
+    "column": "options",
+    "option_line": "shroudedSubstrate_optSelAga2:\"The Galatia Academy would be interested, I think.\"",
+    "original": "The Galatia Academy would be interested, I think.",
+    "translated": ""
+  },
+  {
+    "csv_row": 85,
+    "id": "shroudedSubstrateOptB",
+    "column": "options",
+    "option_line": "shroudedSubstrate_optSelB:\"Is it valuable?\"",
+    "original": "Is it valuable?",
+    "translated": ""
+  },
+  {
+    "csv_row": 86,
+    "id": "shroudedSubstrateOptC",
+    "column": "options",
+    "option_line": "shroudedSubstrate_optSelC:\"Is it useful?\"",
+    "original": "Is it useful?",
+    "translated": ""
+  },
+  {
+    "csv_row": 87,
+    "id": "shroudedSubstrateOptD",
+    "column": "options",
+    "option_line": "shroudedSubstrate_optSelD:\"Can it be destroyed?\"",
+    "original": "Can it be destroyed?",
+    "translated": ""
+  }
+]

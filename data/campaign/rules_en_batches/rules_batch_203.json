@@ -1,0 +1,81 @@
+[
+  {
+    "csv_row": 5421,
+    "id": "gaATGsiyavongQuestioningEnd",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 5430,
+    "id": "gaATGdaudMeetingSetupEnd",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 5435,
+    "id": "gaATGdaudMeeting2",
+    "column": "options",
+    "option_line": "gaATG_daudMeeting3:Remettre votre arme de poing",
+    "original": "Remettre votre arme de poing",
+    "translated": ""
+  },
+  {
+    "csv_row": 5466,
+    "id": "gaATGdaudMeetingHubOptionB",
+    "column": "options",
+    "option_line": "gaATG_daudMeetingHubB1:\"Vous semblez en savoir beaucoup sur ce que je fais.\"",
+    "original": "Vous semblez en savoir beaucoup sur ce que je fais.",
+    "translated": ""
+  },
+  {
+    "csv_row": 5469,
+    "id": "gaATGdaudMeetingHubOptionD2",
+    "column": "options",
+    "option_line": "gaATG_daudMeetingHubD2:\"Joli croiseur. J'en ai de plus gros.\"",
+    "original": "Joli croiseur. J'en ai de plus gros.",
+    "translated": ""
+  },
+  {
+    "csv_row": 5478,
+    "id": "gaATGdaudMeetingHubEndEarly",
+    "column": "text",
+    "original": "He raises an eyebrow at you. \"Succinct.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 5484,
+    "id": "gaATGhegFleetDialog",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 5485,
+    "id": "gaATGhegFleetDialog2",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 5486,
+    "id": "gaATGhegFleetDialog3",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 5493,
+    "id": "gaATGhegFleetDialogHub5",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  }
+]

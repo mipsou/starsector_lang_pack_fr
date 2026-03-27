@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 3177,
+    "id": "BFFIpsaConHubOptA1",
+    "column": "options",
+    "option_line": "bffi_psaConHubRespA2:\"Shall we ask nicely how they did it?\"",
+    "original": "Shall we ask nicely how they did it?",
+    "translated": ""
+  },
+  {
+    "csv_row": 3178,
+    "id": "BFFIpsaConHubOptA2",
+    "column": "options",
+    "option_line": "bffi_psaConHubRespA3:\"These are fanatics. They'd sooner die than talk.\"",
+    "original": "These are fanatics. They'd sooner die than talk.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3180,
+    "id": "BFFIpsaConHubOptRespA1bb",
+    "column": "text",
+    "original": "\"Decisively,\" Bornanew says, turning to you. \"You have taught me that much. Violence is among a Knight's tools, and I must not cower from its use.\"\n\n\"A marine raid to seize datastores, comms buffers, and prisoners. Then the nanoforge and all of its support equipment should be destroyed.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3181,
+    "id": "BFFIpsaConHubOptRespA2bb",
+    "column": "text",
+    "original": "Bornanew gives you a weary look.\n\n\"You may jest, and I understand your need.\" He turns back to the tactical display. \"However I shan't close my eyes to the nature of my duty; you have taught me that much. Violence is among a Knight's tools, and I must not cower from its use.\"\n\n\"Consider: a marine raid to seize datastores, comms buffers, and prisoners. Then, you have demolitions experts? The nanoforge and all of its support equipment must be destroyed.\" ",
+    "translated": ""
+  },
+  {
+    "csv_row": 3183,
+    "id": "BFFIpsaConHubOptRespA3",
+    "column": "text",
+    "original": "\"Perhaps,\" says Bornanew. \"But do not let the fearsome reputation sown by the Luddic Path blind you to what they truly are - human. Fearful and fallible as you or I.\"\n\n\"They might be convinced to reveal something. Or if you can acquire comms buffers, they may prove illuminating.\" He looks at you, \"I believe there is a mole, an agent loyal to the Path within the Holy Cathedral of Exodus with access to the vaults. I need to narrow down my list of suspects.\"\n\n\"To say nothing of destroying this nanoforge and any data on the glove held in datacores.\" He considers a moment, then says \"Metadata from the scan of the glove may be useful, also.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3184,
+    "id": "BFFIpsaConHubOptRespA3bb",
+    "column": "text",
+    "original": "\"Of that I admit I have little doubt.\" Bornanew gives you a weary look.\n\nHe turns back to the tactical display. \"I shan't close my eyes to the nature of my duty; you have taught me that much. Violence is among a Knight's tools, and I must not cower from its use.\"\n\n\"Consider: a marine raid to seize datastores, comms buffers, and prisoners. Then... you have demolitions experts? The nanoforge and all of its support equipment must be destroyed.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3185,
+    "id": "BFFIpsaConHubOptCarefully",
+    "column": "options",
+    "option_line": "bffi_psaConHubRespCarefully:\"'Carefully,\" isn't enough. You suggest we talk to them?\"",
+    "original": "'Carefully,\" isn't enough. You suggest we talk to them?",
+    "translated": ""
+  },
+  {
+    "csv_row": 3188,
+    "id": "BFFIpsaConHubOptC",
+    "column": "options",
+    "option_line": "bffi_psaConHubRespBlast:\"We could simply blast this station apart and sift the wreckage for datastores and prisoners.\"",
+    "original": "We could simply blast this station apart and sift the wreckage for datastores and prisoners.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3189,
+    "id": "BFFIpsaConHubRespCarefully",
+    "column": "text",
+    "original": "\"I apologize for dissembling,\" he looks down for a moment, then back to you. \"Talk? Perhaps,\" he says.\n\n\"Don't let the fearsome reputation of the Luddic Path blind you to what they are - as human and fallible as you or I. We were given free will, and I would accept peaceable surrender if it were given.\"\n\n\"That is unlikely, however. Consider: a marine raid to seize datastores and comms buffers. Then... you have demolitions experts? The nanoforge itself must be destroyed.\" ",
+    "translated": ""
+  },
+  {
+    "csv_row": 3190,
+    "id": "BFFIpsaConHubTalk",
+    "column": "text",
+    "original": "He thinks for a moment.\n\n\"I pray it is so. It would require some exceptional ruse or the charisma of a pr- no, let me not blaspheme by saying it. But you understand that it is, as I believe spacers say, 'a long shot'.\"",
+    "translated": ""
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 2494,
+    "id": "BFINdevSetPlayerKilledSedgeLater",
+    "column": "text",
+    "original": "DEV set PC killed Wrestling Sedge during Ulmus Pond encounter AND Bornanew got shot",
+    "translated": ""
+  },
+  {
+    "csv_row": 2495,
+    "id": "BFINdevSetBornanewBadBoy",
+    "column": "text",
+    "original": "DEV made Bornanew a bad boy",
+    "translated": ""
+  },
+  {
+    "csv_row": 2498,
+    "id": "BFINdevForceKnowHorus",
+    "column": "text",
+    "original": "DEV Set player to have working relationship with Horus Yaribay.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2499,
+    "id": "BFINdevForceKnowHorusB",
+    "column": "text",
+    "original": "DEV Set player to have working relationship with Horus Yaribay... and to have abused the Yaribay credentials.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2502,
+    "id": "BFINstart0",
+    "column": "text",
+    "original": "As your officers perform routine approach procedures, Comms signals for your attention.\n\n\"$PlayerSirOrMadam, there's an incoming link using a Knights of Ludd signifier. A Jethro Bornanew wishes to speak with you. Just a novice, it looks like.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2504,
+    "id": "BFINstartOptA",
+    "column": "options",
+    "option_line": "BFIN_start2b:\"A call from Jeff? Of course, put him through.\"",
+    "original": "A call from Jeff? Of course, put him through.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2505,
+    "id": "BFINstartOptB",
+    "column": "options",
+    "option_line": "BFIN_start2:Accept the link from Bornanew",
+    "original": "Accept the link from Bornanew",
+    "translated": ""
+  },
+  {
+    "csv_row": 2509,
+    "id": "BFINstart2",
+    "column": "text",
+    "original": "\"Captain $playerName. I do not forget your assistance.\" He makes a crooked smile.\n\nThe link is poor-quality; his voice is hollowed, lacking the warmth you remember.\n\n\"I would ask, beg if I must, for your service once more.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2509,
+    "id": "BFINstart2",
+    "column": "options",
+    "option_line": "BFIN_start3:\"What do you ask?\"",
+    "original": "What do you ask?",
+    "translated": ""
+  },
+  {
+    "csv_row": 2510,
+    "id": "BFINstart3",
+    "column": "text",
+    "original": "\"What I ask, it is a part of the penance I must serve.\" He raises a hand, as if to stop your objections, \"I do also believe it will also serve a spiritual and intrinsic good.\" \n\n\"And,\" he clears his throat, \"for your assistance, a substantial reward of credits has been authorized by the Reverend Archcurate Jaspis.\"\n\n\"The service...\" He releases a breath. \"An object considered holy by some in the mother Church has appeared in the possession of a wealthy collector.\"",
+    "translated": ""
+  }
+]

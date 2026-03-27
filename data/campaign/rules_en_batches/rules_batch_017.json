@@ -1,0 +1,78 @@
+[
+  {
+    "csv_row": 490,
+    "id": "PathFleetWeirdMods1",
+    "column": "text",
+    "original": "\"Befouler, defiler, sinful spite-God! Demoniac!\" The look of rage and religious mania pulls the $post's face into a devilish mask as $heOrShe shouts.\n\n\"What work-of-Moloch $shipOrFleet is this? What unholy combination of human craft and abomination? You are to be destroyed on sight, accursed by God and all who follow the Path of our faith!\"\n\nTargeting alerts chime from your tactical officer's console.\nOR\n\"You accursed meddler, servant of Moloch! What unnatural work have you wrought in the shadow so far from the Path?\"\n\nTargeting alerts chime from your tactical officer's console.\n\n\"I name you abomination, adversary, god-spite! It is my holy duty to destroy your infernal $shipOrFleet,\" $heOrShe shouts, flecks of spittle flashing in the holo. \"-And you as well before you slither back into the abyss whence you spawned!\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 490,
+    "id": "PathFleetWeirdMods1",
+    "column": "options",
+    "option_line": "pathFleet_weirdMods2:\"Hold a moment, let us talk this through.\"",
+    "original": "Hold a moment, let us talk this through.",
+    "translated": ""
+  },
+  {
+    "csv_row": 490,
+    "id": "PathFleetWeirdMods1",
+    "column": "options",
+    "option_line": "pathFleet_weirdMods2a:\"You should calm down before doing something you'll regret.\"",
+    "original": "You should calm down before doing something you'll regret.",
+    "translated": ""
+  },
+  {
+    "csv_row": 490,
+    "id": "PathFleetWeirdMods1",
+    "column": "options",
+    "option_line": "pathFleet_weirdMods2b:\"Funny way to ask for a bribe, but let's talk credits...\"",
+    "original": "Funny way to ask for a bribe, but let's talk credits...",
+    "translated": ""
+  },
+  {
+    "csv_row": 490,
+    "id": "PathFleetWeirdMods1",
+    "column": "options",
+    "option_line": "pathFleet_weirdMods2c:\"Enough of this. Battle stations!\" (cut comms)",
+    "original": "Enough of this. Battle stations!\" (cut comms)",
+    "translated": ""
+  },
+  {
+    "csv_row": 495,
+    "id": "PathFleetWeirdModsEnd4",
+    "column": "text",
+    "original": "\"Before me I saw evil incarnate, and I stood strong...\" The $Post's words are for $hisOrHer crew, not you.\n\nThe link shudders into static, the last image is of hands clasped in a brief prayer.",
+    "translated": ""
+  },
+  {
+    "csv_row": 497,
+    "id": "PathFleetWeirdModsAgainStart",
+    "column": "text",
+    "original": "\"May the Path be r-\" The $post's eyes go suddenly wide at a red flash from a secondary display.\n\nThey return to the comm-link, fixed with fear... and hatred.\nOR\n\"May the Path be r-\" The $post's eyes go suddenly wide at a red flash from a secondary display.\n\n\"Blessed Ludd!\" $heOrShe gasps.",
+    "translated": ""
+  },
+  {
+    "csv_row": 498,
+    "id": "PathFleetWeirdModsAgain2",
+    "column": "text",
+    "original": "\"Before me I saw evil incarnate, and I stood strong...\" The Pather's words are for $hisOrHer crew, not you.\n\nThe link shudders into static, the last image is of hands clasped in a brief prayer.\nOR\n\"Before me I saw evil incarnate, and-\"\n\nThe Pather's words are lost in static as you hit the comms-cutoff.",
+    "translated": ""
+  },
+  {
+    "csv_row": 498,
+    "id": "PathFleetWeirdModsAgain2",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 511,
+    "id": "greetingDefaultTOffNormal",
+    "column": "options",
+    "option_line": "turnOnTransponder:Activer votre transpondeur",
+    "original": "Activer votre transpondeur",
+    "translated": ""
+  }
+]

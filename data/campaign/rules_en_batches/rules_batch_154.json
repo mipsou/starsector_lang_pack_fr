@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 3499,
+    "id": "BFFIdeliverToOakBodyCheckA",
+    "column": "text",
+    "original": "\"Captain $playerName,\" the Excubitor Orbis nods, his voice gravelly.\n\nHis dark eyes take in the spacer's coffin carried by your entourage. You turn to give them a nod, and they set the coffin on the floor of the hangar.  \n\n\"Novice Bornanew,\" he says.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3500,
+    "id": "BFFIdeliverToOakBodyCheckB",
+    "column": "text",
+    "original": "\"Captain $playerName,\" the Excubitor Orbis nods, his voice gravelly.\n\nHis dark eyes take in the spacer's coffin carried by your entourage. You turn to give them a nod, and they set the coffin on the floor of the hangar.  \n\n\"Novice Bornanew,\" he says.\n\nHe seems to be ignoring Keepfaith entirely. For now.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3501,
+    "id": "BFFIdeliverToOakBodyCheckC",
+    "column": "text",
+    "original": "\"Captain $playerName,\" the Excubitor Orbis nods, his voice gravelly.\n\nHis dark eyes take in Knight-Novice Bornanew beside you. He wears a light vac suit and bears his small satchel of possessions in one hand and the sample case with the false relic glove in the other. He insisted that he needed no help with it.\n\n\"Novice Bornanew,\" Oak says.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3502,
+    "id": "BFFIdeliverToOakBodyCheckD",
+    "column": "text",
+    "original": "\"Captain $playerName,\" the Excubitor Orbis nods, his voice gravelly.\n\nHis dark eyes take in the spacer's coffin carried by your entourage. You turn to give them a nod, and they set the coffin on the floor of the hangar.  \n\n\"Novice Bornanew,\" he says.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3503,
+    "id": "BFFIdeliverToOakBody1",
+    "column": "text",
+    "original": "Gideon Oak shifts his stony gaze to you.\n\n\"Tell me how,\" he says.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3503,
+    "id": "BFFIdeliverToOakBody1",
+    "column": "options",
+    "option_line": "bffi_deliverToOakBodyHowA:\"He died bravely. Confronting the traitor in the cathedral.\"",
+    "original": "He died bravely. Confronting the traitor in the cathedral.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3503,
+    "id": "BFFIdeliverToOakBody1",
+    "column": "options",
+    "option_line": "bffi_deliverToOakBodyHowB:\"One of your Knight-Captains lost control of his weapon.\"",
+    "original": "One of your Knight-Captains lost control of his weapon.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3503,
+    "id": "BFFIdeliverToOakBody1",
+    "column": "options",
+    "option_line": "bffi_deliverToOakBodyHowC:\"If we'd done it my way, he'd still be alive.\"",
+    "original": "If we'd done it my way, he'd still be alive.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3504,
+    "id": "BFFIdeliverToOakBody1howAkeep",
+    "column": "text",
+    "original": "Keepfaith inhales as if she might speak, some righteous outburst, but falters. Her eyes fall back toward the ground.\n\nThe Excubitor Orbis takes in your comment, his face impassive as the stone this hangar was blasted from. His clerk's eyes are downcast.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3505,
+    "id": "BFFIdeliverToOakBody1howBkeep",
+    "column": "text",
+    "original": "Is that a twitch of impatience on the impassive face of the Excubitor Orbis? But truly, the read is in his clerk; she almost cringes at the insufficiency of your answer.\n\nOak lets out a slow breath.\n\n\"So be it,\" he says, looking away as if you're no longer worth his time.",
+    "translated": ""
+  }
+]

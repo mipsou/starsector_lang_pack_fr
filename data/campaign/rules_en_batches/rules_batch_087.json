@@ -1,0 +1,78 @@
+[
+  {
+    "csv_row": 2848,
+    "id": "BFFImpBuyerHub3OptBv2",
+    "column": "options",
+    "option_line": "bffi_mpBuyerHub3OptDemarch:\"It may not be part of the League, but as a fellow executive of an independent colony...\"",
+    "original": "It may not be part of the League, but as a fellow executive of an independent colony...",
+    "translated": ""
+  },
+  {
+    "csv_row": 2849,
+    "id": "BFFImpBuyerHub3OptC",
+    "column": "options",
+    "option_line": "bffi_mpBuyerHub3OptCommission:\"My commissioned status with the Persean League must count for something.\"",
+    "original": "My commissioned status with the Persean League must count for something.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2850,
+    "id": "BFFImpBuyerHub3OptD",
+    "column": "options",
+    "option_line": "bffi_mpBuyerHub3OptHorus:\"Your cousin Horus Yaribay trusted me with his diplomatic credentials...\"",
+    "original": "Your cousin Horus Yaribay trusted me with his diplomatic credentials...",
+    "translated": ""
+  },
+  {
+    "csv_row": 2853,
+    "id": "BFFImpBuyerHub3OptG",
+    "column": "options",
+    "option_line": "bffi_mpBuyerConChurch:\"In fact, the Church is backing my purchase.\" (lie)",
+    "original": "In fact, the Church is backing my purchase.\" (lie)",
+    "translated": ""
+  },
+  {
+    "csv_row": 2854,
+    "id": "BFFImpBuyerHub3OptGagain",
+    "column": "options",
+    "option_line": "bffi_mpBuyerConChurchA:\"Sorry, more spacer humor. The Church truly is backing my bid.\" (commit)",
+    "original": "Sorry, more spacer humor. The Church truly is backing my bid.\" (commit)",
+    "translated": ""
+  },
+  {
+    "csv_row": 2856,
+    "id": "BFFImpBuyerConChurch1",
+    "column": "text",
+    "original": "He doesn't see the shock on Bornanew's face. \"Is that so?\" Menes asks, sounding pleased.\n\nBornanew quickly shakes his head, no, and makes a little cut-off motion with his hand.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2856,
+    "id": "BFFImpBuyerConChurch1",
+    "column": "options",
+    "option_line": "bffi_mpBuyerConChurchB:\"No, no, just a little joke. My apologies.\" (back off)",
+    "original": "No, no, just a little joke. My apologies.\" (back off)",
+    "translated": ""
+  },
+  {
+    "csv_row": 2857,
+    "id": "BFFImpBuyerConChurch1commit",
+    "column": "text",
+    "original": "As you commit to the lie, Bornanew gives you a look of absolute weariness.\n\nMenes turns to him, \"This is true? This is why you're here, isn't it. The backing of the Church, of course!\"\n\n\"Yes,\" Bornanew says robotically, his attempt at a pleasant countenance looks like an appalling mask of pain.\n\nEven Menes seems to sense something is off. \"Are you feeling well, Knight?\" he asks. \"Perhaps you aren't used to the quality of drink I serve.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2858,
+    "id": "BFFImpBuyerConChurch1backOff",
+    "column": "text",
+    "original": "Bornanew closes his eyes, and you hear his sigh of relief.\n\nMenes glances at him, giving a funny look, then back at you. \"Ah, of course. Ha-ha.\" He clears his throat. \"Odd folk, you spacers,\" he says as if to himself.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2860,
+    "id": "BFFImpBuyerHub3OptDep200k",
+    "column": "text",
+    "original": "Menes smirks, and holds out his TriPad, ready to accept your transfer code. Perhaps he feels like he's calling your bluff.",
+    "translated": ""
+  }
+]

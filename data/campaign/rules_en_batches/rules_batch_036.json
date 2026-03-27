@@ -1,0 +1,82 @@
+[
+  {
+    "csv_row": 1571,
+    "id": "lppJangalaOutsideMaskOn3",
+    "column": "options",
+    "option_line": "lpp_jangalaShrineExtLeave:Revenir to the complex interior",
+    "original": "Revenir to the complex interior",
+    "translated": ""
+  },
+  {
+    "csv_row": 1578,
+    "id": "lppHesperusShrineOption",
+    "column": "options",
+    "option_line": "3:lpp_hesperusVisitStart:Prendre une navette pour visiter le sanctuaire luddique",
+    "original": "lpp_hesperusVisitStart:Prendre une navette pour visiter le sanctuaire luddique",
+    "translated": ""
+  },
+  {
+    "csv_row": 1579,
+    "id": "lppHesperusShrineOptionRevisit",
+    "column": "options",
+    "option_line": "3:lpp_hesperusVisitStart:Prendre une navette pour visiter le sanctuaire luddique",
+    "original": "lpp_hesperusVisitStart:Prendre une navette pour visiter le sanctuaire luddique",
+    "translated": ""
+  },
+  {
+    "csv_row": 1586,
+    "id": "lppHesperusShrineVisitNoWait",
+    "column": "options",
+    "option_line": "lpp_hesperusGetMeExcubitor:\"Passez-moi l'Excubitor Orbis en comm.\"",
+    "original": "Passez-moi l'Excubitor Orbis en comm.",
+    "translated": ""
+  },
+  {
+    "csv_row": 1586,
+    "id": "lppHesperusShrineVisitNoWait",
+    "column": "options",
+    "option_line": "lpp_hesperusShrineCancelShuttle:Annuler le vol",
+    "original": "Annuler le vol",
+    "translated": ""
+  },
+  {
+    "csv_row": 1587,
+    "id": "lppHesperusShrineVisitNoDenied",
+    "column": "options",
+    "option_line": "lpp_hesperusGetMeExcubitor:\"Passez-moi l'Excubitor Orbis en comm.\"",
+    "original": "Passez-moi l'Excubitor Orbis en comm.",
+    "translated": ""
+  },
+  {
+    "csv_row": 1587,
+    "id": "lppHesperusShrineVisitNoDenied",
+    "column": "options",
+    "option_line": "lpp_hesperusShrineCancelShuttle:Annuler le vol",
+    "original": "Annuler le vol",
+    "translated": ""
+  },
+  {
+    "csv_row": 1611,
+    "id": "lppHesperusExcubitorEndAllow",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 1612,
+    "id": "lppHesperusExcubitorEndAllowWait",
+    "column": "options",
+    "option_line": "lpp_hesperusExcubitorAllowEndCutoff:\"Pourquoi me faire attendre ?\"",
+    "original": "Pourquoi me faire attendre ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 1612,
+    "id": "lppHesperusExcubitorEndAllowWait",
+    "column": "options",
+    "option_line": "lpp_hesperusExcubitorAllowEndNice:\"Et sur vous, Excubitor Orbis.\"",
+    "original": "Et sur vous, Excubitor Orbis.",
+    "translated": ""
+  }
+]

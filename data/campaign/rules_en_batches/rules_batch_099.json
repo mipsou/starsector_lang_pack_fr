@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 2966,
+    "id": "BFFImcHubResponseA1",
+    "column": "text",
+    "original": "Menes is uncharacteristically quiet for a long moment.\n\n\"I see,\" he says, looking away. \"Tell me if you find him. I have... questions.\"\n\nHis face is blank, his eyes watery. The silence stretches long.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2966,
+    "id": "BFFImcHubResponseA1",
+    "column": "options",
+    "option_line": "cutCommLink:\"Of course. I'll, um, let you go now.\" (Cut the link)",
+    "original": "Of course. I'll, um, let you go now.\" (Cut the link)",
+    "translated": ""
+  },
+  {
+    "csv_row": 2967,
+    "id": "BFFImcHubResponseA2",
+    "column": "text",
+    "original": "Menes is uncharacteristically quiet for a long moment.\n\n\"I see,\" he says, looking away. \"Tell me if you find him. I have... questions.\"\n\nHis face is blank, his eyes watery. The silence stretches long.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2967,
+    "id": "BFFImcHubResponseA2",
+    "column": "options",
+    "option_line": "cutCommLink:\"I'll do that. And I'll, um, let you go now.\" (Cut the link)",
+    "original": "I'll do that. And I'll, um, let you go now.\" (Cut the link)",
+    "translated": ""
+  },
+  {
+    "csv_row": 2969,
+    "id": "BFFImcHubResponseC",
+    "column": "text",
+    "original": "Menes says nothing for a long moment. It is unsettlingly uncharacteristic of him.\n\nFinally, he sighs, and looks away. \"And he did. I suppose you've confirmed his story.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2972,
+    "id": "BFFImcHubResponseFate",
+    "column": "text",
+    "original": "You explain the crimes of Ulmus Pond, and his fate.\n\nMenes is uncharacteristically quiet when you finish.\n\n\"I see,\" he says, looking away. His face is blank, his eyes watery.\n\nThe silence stretches long.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2972,
+    "id": "BFFImcHubResponseFate",
+    "column": "options",
+    "option_line": "cutCommLink:\"I'll... let you go now.\" (Cut the comm link)",
+    "original": "I'll... let you go now.\" (Cut the comm link)",
+    "translated": ""
+  },
+  {
+    "csv_row": 2975,
+    "id": "BFFIpartyOutro1",
+    "column": "text",
+    "original": "Bornanew places the glove carefully into a clear-sided containment vessel, the kind used by salvors to take biological samples. Illuminated by the vessel's interior glowstrips, the glove seems to be held in a reliquary shining with holy light.\n\n\"Mere evidence,\" Bornanew says, seeing your look. \"Now the question is, where did this come from?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2975,
+    "id": "BFFIpartyOutro1",
+    "column": "options",
+    "option_line": "bffi_partyOutro2b:\"What did you make of that Ulmus Pond?\"",
+    "original": "What did you make of that Ulmus Pond?",
+    "translated": ""
+  },
+  {
+    "csv_row": 2976,
+    "id": "BFFIpartyOutro1buyer",
+    "column": "text",
+    "original": "At last you find yourself back in your shuttle.\n\nBornanew sets a drinking bulb of cold water in your hand, then places a clear-sided containment vessel, the kind used by salvors to take biological samples, in the seat next to you. Illuminated by the vessel's interior embedded glowstrips, the glove seems to be held in a reliquary shining with holy light.\n\n\"Physical evidence,\" Bornanew says, seeing your look. \"Nothing more.\"",
+    "translated": ""
+  }
+]

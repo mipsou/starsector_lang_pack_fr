@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 3413,
+    "id": "BFFIarrest13",
+    "column": "options",
+    "option_line": "bffi_arrestShotBorn0:Draw your own weapon",
+    "original": "Draw your own weapon",
+    "translated": ""
+  },
+  {
+    "csv_row": 3413,
+    "id": "BFFIarrest13",
+    "column": "options",
+    "option_line": "bffi_arrestShove0:Push Bornanew aside",
+    "original": "Push Bornanew aside",
+    "translated": ""
+  },
+  {
+    "csv_row": 3414,
+    "id": "BFFIarrest13bb",
+    "column": "text",
+    "original": "He steps forward again, pushing the barrel of the Knight-Captain's carbine into his chest. The Knight-Captain looks desperately uncomfortable. \"Brother,\" he says again, pleading.\n\n\"Do your duty, Knight-Captain!\" shouts Keepfaith. \n\nBornanew takes another step, bodily pushing back the Knight-Captain, still cradling the carbine. Finger on the trigger.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3414,
+    "id": "BFFIarrest13bb",
+    "column": "options",
+    "option_line": "bffi_arrestShotBorn0:Draw your own weapon",
+    "original": "Draw your own weapon",
+    "translated": ""
+  },
+  {
+    "csv_row": 3414,
+    "id": "BFFIarrest13bb",
+    "column": "options",
+    "option_line": "bffi_arrestShove0:Push Bornanew aside",
+    "original": "Push Bornanew aside",
+    "translated": ""
+  },
+  {
+    "csv_row": 3414,
+    "id": "BFFIarrest13bb",
+    "column": "options",
+    "option_line": "bffi_arrestNoMove0:Make no sudden movements",
+    "original": "Make no sudden movements",
+    "translated": ""
+  },
+  {
+    "csv_row": 3415,
+    "id": "BFFIarrestNoMove0",
+    "column": "text",
+    "original": "A pathetic struggle ensues, Keepfaith's hands locked around the Knight-Captain's, who struggles to keep the weapon under his control.\n\nBornanew simply watches until, finally, both Curate and Knight-captain tumble into a workdesk, sending papers and tools flying.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3416,
+    "id": "BFFIarrestNoMove1",
+    "column": "text",
+    "original": "Expressions among the apprentices range from appalled second-hand embarrassment to impish delight.\n\nRed-faced, the Knight-Captain, regains his feet with Subcurate Keepfaith restrained in his arms. There is little dignity remaining for either.\n\nBornanew, meanwhile, remains standing in a stray beam of sunlight - a product of the clever arrangement of lightwells. The effect places him as the glowing centerpiece to an instructive tableau.\n\nThis can't have been happenstance; Bornanew's insistence on pushing forward, toward the light...",
+    "translated": ""
+  },
+  {
+    "csv_row": 3417,
+    "id": "BFFIarrestNoMove2",
+    "column": "text",
+    "original": "Coincidence or performance, the invisible consensus is irrevocably turned against Keepfaith.\n\n\"It was under control!\" she screams. \"It would never have been necessary if you Knights attended your duties. You're lax, lax and blind!\"\n\n\"Come now, sister,\" says the Knight-Captain, leading her away. \"Be not careless with your words, for the Inquisitors shall hear all...\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3419,
+    "id": "BFFIarrestShotBorn1",
+    "column": "text",
+    "original": "Horrified, the Knight-Captain shoves Subcurate Keepfaith aside and safeties his weapon. She crashes into a workdesk, papers and tools and dignity scattered all around.\n\nThere are screams. Is there a doctor? Orders are shouted. The Knight-Captain is tearing his robe, holding a piece of cloth to Bornanew's wound. The red bubbles up into the white.",
+    "translated": ""
+  }
+]

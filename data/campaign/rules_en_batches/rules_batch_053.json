@@ -1,0 +1,79 @@
+[
+  {
+    "csv_row": 2413,
+    "id": "LKEjethroWhyOptB",
+    "column": "options",
+    "option_line": "lke_jethroWhyOptB:\"Des gens sont morts pour que je vous trouve.\"",
+    "original": "Des gens sont morts pour que je vous trouve.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2415,
+    "id": "LKEjethroWhyOptD",
+    "column": "options",
+    "option_line": "lke_jethroWhyOptD:\"Personne d'autre ne semble avoir grande estime pour vous.\"",
+    "original": "Personne d'autre ne semble avoir grande estime pour vous.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2420,
+    "id": "LKEjethroWhyOptBRespYes",
+    "column": "text",
+    "original": "Il vous regarde avec malaise, mais ne dit rien.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2440,
+    "id": "LKEjethroDeadOut2b",
+    "column": "text",
+    "original": "\"Mais...\" il se tait.\n\nAu bout d'une longue minute, il semble accepter vos paroles.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2453,
+    "id": "LKEreturnToGileadDeadJaspis2",
+    "column": "options",
+    "option_line": "lke_returnToGileadDeadJaspis5:\"Je lui ai dit que je vous dirais qu'il est mort.\"",
+    "original": "Je lui ai dit que je vous dirais qu'il est mort.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2456,
+    "id": "LKEreturnToGileadDeadJaspis5",
+    "column": "options",
+    "option_line": "lke_returnToGileadDeadJaspis5c:\"Peu importe.\"",
+    "original": "Peu importe.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2472,
+    "id": "LKEreturnToGileadJaspis3",
+    "column": "options",
+    "option_line": "1:cutCommLink:Couper la comm",
+    "original": "cutCommLink:Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 2474,
+    "id": "LKEreturnToGileadShuttle",
+    "column": "options",
+    "option_line": "3:lke_shuttleDownBornanew:Prendre une navette avec Bornanew vers la surface",
+    "original": "lke_shuttleDownBornanew:Prendre une navette avec Bornanew vers la surface",
+    "translated": ""
+  },
+  {
+    "csv_row": 2475,
+    "id": "LKEendingStart",
+    "column": "text",
+    "original": "Votre navette se voit attribuer une trajectoire de vol inhabituellement rapide vers le complexe abritant le bureau de Jaspis.\n\nBornanew regarde le monde verdoyant de Gilead grandir sous vous.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2475,
+    "id": "LKEendingStart",
+    "column": "options",
+    "option_line": "lke_endingJaspisStart:Le laisser regarder",
+    "original": "Le laisser regarder",
+    "translated": ""
+  }
+]

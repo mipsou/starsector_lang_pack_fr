@@ -1,0 +1,74 @@
+[
+  {
+    "csv_row": 3114,
+    "id": "BFFIulmusSedge1b",
+    "column": "options",
+    "option_line": "bffi_ulmusTalkSedge2b:\"We were just having a chat with Mister Pond here.\"",
+    "original": "We were just having a chat with Mister Pond here.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3114,
+    "id": "BFFIulmusSedge1b",
+    "column": "options",
+    "option_line": "bffi_ulmusTalkSedge2d:Draw your weapon",
+    "original": "Draw your weapon",
+    "translated": ""
+  },
+  {
+    "csv_row": 3115,
+    "id": "BFFIulmusSedge2a",
+    "column": "text",
+    "original": "You and Sedge exchange a look as muffled pops and screams sound from the surrounding structures, echoing strangely down the lightwell beyond the translucent plastic panel that passes for a window. He makes a dissatisfied grunt.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3116,
+    "id": "BFFIulmusSedge2b",
+    "column": "text",
+    "original": "Sedge makes a dissatisfied grunt. Muffled pops and screams sound from the surrounding structures, echoing strangely down the lightwell beyond the translucent plastic panel that passes for a window. ",
+    "translated": ""
+  },
+  {
+    "csv_row": 3117,
+    "id": "BFFIulmusSedge2c",
+    "column": "text",
+    "original": "Sedge makes a grunt which sounds like agreement. Muffled pops and screams sound from the surrounding structures, echoing strangely down the lightwell beyond the translucent plastic panel that passes for a window. ",
+    "translated": ""
+  },
+  {
+    "csv_row": 3118,
+    "id": "BFFIulmusSedge2d",
+    "column": "text",
+    "original": "As your hand moves toward your belt, Sedge's pistol twitches at your center of mass. He meets your eyes, his gleaming with fearless intensity, and gives a tiny shake of his head. Muffled pops and screams sound from the surrounding structures, echoing strangely down the lightwell beyond the translucent plastic panel that passes for a window.  ",
+    "translated": ""
+  },
+  {
+    "csv_row": 3119,
+    "id": "BFFIulmusSedge2e",
+    "column": "text",
+    "original": "\"Because I must do this.\" Sedge's pistol twitches toward your center of mass. \"It is the Path.\"\n\nMuffled pops and screams sound from the surrounding structures, echoing strangely down the lightwell beyond the translucent plastic panel that passes for a window.  ",
+    "translated": ""
+  },
+  {
+    "csv_row": 3120,
+    "id": "BFFIulmusSedge3",
+    "column": "text",
+    "original": "\"The Path cannot bend. Not now,\" he says gruffly. His gun twitches at Ulmus Pond and makes a grinding shriek like a tool dropped into a rotary engine.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3121,
+    "id": "BFFIulmusSedge3b",
+    "column": "text",
+    "original": "Ulmus' blood splatters across the window panel, turning the room a muddy red. In that moment, Bornanew launches himself at Sedge.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3122,
+    "id": "BFFIulmusSedge4",
+    "column": "text",
+    "original": "The pistol grinds again, catching Bornanew mid-leap.\n\nHis massive body, twitching and bleeding, crashes into Sedge's legs, setting the Pather off-balance.",
+    "translated": ""
+  }
+]

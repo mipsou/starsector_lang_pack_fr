@@ -1,0 +1,82 @@
+[
+  {
+    "csv_row": 685,
+    "id": "bombard_prepare",
+    "title": "Prepare for Bombardment",
+    "original_text": "\"If it's just followin' orders, it's not me that's going against the convention. Then it's on the captain. Right?\"",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 686,
+    "id": "bombard_tactical_result",
+    "title": "Tactical Bombardment",
+    "original_text": "A spatter of hollowed icons represented dead targets across the display. The last one, full and red, blinked out into a scabrous brown.\n\nA subtle gesture collapsed the image and the icons winked out as one. The holomatrix snowed, then reformed into nav mode, the fleet holding station in low orbit.",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 687,
+    "id": "bombard_saturation_result",
+    "title": "Saturation Bombardment",
+    "original_text": "When Loke came from the Abyss /\nThe first world, he burned /\nThe second, he took without a shot /\nThe third- look out, there he is!",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 688,
+    "id": "crew_leaving",
+    "title": "Missed Crew Payment",
+    "original_text": "\"The contract can suck vacuum. No credits, no crew.\"",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 689,
+    "id": "nav_buoy",
+    "title": "Nav Buoy",
+    "original_text": "A navigation buoy dating to the Domain era monitored local system hyperfield topography. The telemetry was of great use to configure and tune fleet drive bubbles.",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 690,
+    "id": "free_orbit",
+    "title": "Free Orbit",
+    "original_text": "I asked what drew him back out there, time and time again. The old spacer took a long time before he answered.\n\n\"Because it's clean,\" he said.",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 691,
+    "id": "sensor_array",
+    "title": "Sensor Array",
+    "original_text": "The Domain-era array could passively monitor an entire star system and had a transmitter capable of encrypted real-time FTL data transmission to friendly fleets. The telemetry would supplement fleet-based sensors, effectively increasing their power and range.",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 692,
+    "id": "sensor_array_makeshift",
+    "title": "Sensor Array, Makeshift",
+    "original_text": "Makeshift sensor arrays built using post-Collapse technology passively monitored entire star systems. An on-board transmitter was capable of encrypted real-time, FTL data transmission to friendly fleets. This telemetry would supplement fleet-based sensors, effectively increasing their power and range.",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 693,
+    "id": "galatia_academy",
+    "title": "Galatia Academy",
+    "original_text": "The Galatia Academy is the most prestigious university in the Persean Sector. The office of provost directs teaching and research and draws upon alumni to influence new generations of the brightest - or richest - students.",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 694,
+    "id": "fusion_lamp",
+    "title": "Fusion Lamp",
+    "original_text": "\"Don't be too impressed, walker. It's a dim imitation of God's first day.\"",
+    "translated_title": "",
+    "translated_text": ""
+  }
+]

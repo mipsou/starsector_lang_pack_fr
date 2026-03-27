@@ -1,0 +1,80 @@
+[
+  {
+    "csv_row": 2223,
+    "id": "LKEvirensIntentionsCjokeResp",
+    "column": "text",
+    "original": "Il vous lance un regard qui ne contient pas la moindre trace d'amusement.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2228,
+    "id": "LKEvirensThreatenWithMarines",
+    "column": "options",
+    "option_line": "lke_virensThreatenWithMarines2:\"Et pourquoi donc.\"",
+    "original": "Et pourquoi donc.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2234,
+    "id": "LKEvirensEndingOptC",
+    "column": "options",
+    "option_line": "lke_virensEndingOptCResp1:\"C'est tout ? Rien sur 'la Voie' ?\"",
+    "original": "C'est tout ? Rien sur 'la Voie' ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 2236,
+    "id": "LKEvirensEndingOptE",
+    "column": "options",
+    "option_line": "lke_virensEndingOptEResp1:\"Je vous remercie ; qu'un chemin de paix s'ouvre devant vous.\"",
+    "original": "Je vous remercie ; qu'un chemin de paix s'ouvre devant vous.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2246,
+    "id": "LKEvirensEndingOptGResp1",
+    "column": "text",
+    "original": "L'expression de Virens se refroidit sensiblement.\n\n\"Vraiment,\" dit-il ; ce n'est pas une question. \"Avec cela, je ne peux pas vous aider.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2260,
+    "id": "lkeVirensRaidFinishedB",
+    "column": "options",
+    "option_line": "lke_virensRaidFinished2:Aller au cachot",
+    "original": "Aller au cachot",
+    "translated": ""
+  },
+  {
+    "csv_row": 2262,
+    "id": "lkeVirensRaidOptionA",
+    "column": "options",
+    "option_line": "lke_virensRaidJethro:\"Je cherche Jethro Bornanew.\"",
+    "original": "Je cherche Jethro Bornanew.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2263,
+    "id": "lkeVirensRaidOptionA2",
+    "column": "options",
+    "option_line": "lke_virensRaidWhoTold:\"Qui vous a dit que je cherche Jethro Bornanew.\"",
+    "original": "Qui vous a dit que je cherche Jethro Bornanew.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2268,
+    "id": "lkeVirensRaidOptionE",
+    "column": "options",
+    "option_line": "lke_virensRaidToBusiness:\"Donc vous n'allez pas me traiter de serviteur de Moloch ? De rejeton de Mammon ?\"",
+    "original": "Donc vous n'allez pas me traiter de serviteur de Moloch ? De rejeton de Mammon ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 2269,
+    "id": "lkeVirensRaidOptionF",
+    "column": "options",
+    "option_line": "lke_virensRaidNotPather:\"Vous n'avez pas l'air d'un grand Voilier.\"",
+    "original": "Vous n'avez pas l'air d'un grand Voilier.",
+    "translated": ""
+  }
+]

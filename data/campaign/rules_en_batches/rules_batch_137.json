@@ -1,0 +1,78 @@
+[
+  {
+    "csv_row": 3345,
+    "id": "BFFIpsDestroyedBornMed3",
+    "column": "options",
+    "option_line": "bffi_psDestroyedBornMed4:\"Over the what?\"",
+    "original": "Over the what?",
+    "translated": ""
+  },
+  {
+    "csv_row": 3346,
+    "id": "BFFIpsDestroyedBornMed4",
+    "column": "text",
+    "original": "\"Apologies,\" he says, closing the notebook, then tapping its cover. \"Books. They repair and reproduce books for the library. And,\" his voice drops, \"the vaults. She would have access.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3346,
+    "id": "BFFIpsDestroyedBornMed4",
+    "column": "options",
+    "option_line": "bffi_psDestroyedBornMed5:\"So this Keepfaith is your Pather mole.\"",
+    "original": "So this Keepfaith is your Pather mole.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3347,
+    "id": "BFFIpsDestroyedBornMed5",
+    "column": "text",
+    "original": "\"She would fit,\" he says, thinking. \"Her ambitions... were great, and unfulfilled.\"\n\n\"These logs show correspondence. She turned down a payment of credits from the Path.\" He takes several slow breaths. \"Would spite be payment enough for her?\"\n\n\"Didn't act alone.\" His eyes close, his breaths coming roughly now. \"But she was their access. Must be arrested. Taken to the Inquisitors.\"\n\nThe distinct sound of your chief medical officer clearing their throat sounds from the doorway.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3347,
+    "id": "BFFIpsDestroyedBornMed5",
+    "column": "options",
+    "option_line": "bffi_psDestroyedBornMed6:\"Get some rest. We're going to Tartessus.\"",
+    "original": "Get some rest. We're going to Tartessus.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3352,
+    "id": "BFFIarrestOptionDev2",
+    "column": "options",
+    "option_line": "3:bffi_arrest2dev:> DEV - BFFI set Bornanew was shot by Sedge",
+    "original": "bffi_arrest2dev:> DEV - BFFI set Bornanew was shot by Sedge",
+    "translated": ""
+  },
+  {
+    "csv_row": 3354,
+    "id": "BFFIarrest2dev",
+    "column": "text",
+    "original": "Set $global.bornanewWasShotBySedge to true.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3355,
+    "id": "BFFIarrestOption",
+    "column": "options",
+    "option_line": "2:bffi_arrestCurate1:Shuttle down to the cathedral with $global.jethroName",
+    "original": "bffi_arrestCurate1:Shuttle down to the cathedral with $global.jethroName",
+    "translated": ""
+  },
+  {
+    "csv_row": 3356,
+    "id": "BFFIarrestCurate1",
+    "column": "text",
+    "original": "Bornanew's credentials - in truth, those of Archcurate Jaspis - fell the meddling traffic control bureaucrats who stand in your way, one after another.\n\nA Knight-novice, of equal rank but rather lesser age than $global.jethroName, puts on a grimace as he is forced to reassign the shuttle-slot of some curate from the landing pad nearest to the Cathedral of Holy Exodus.    \n\nNearest is a relative term. On Tartessus, the Church of Galactic Redemption takes the view that spaceborn traffic is a shameful act to be hidden away from the eyes of land-dwellers. As your shuttle lands, Bornanew observes that the cathedral is somewhat over the horizon.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3356,
+    "id": "BFFIarrestCurate1",
+    "column": "options",
+    "option_line": "bffi_idolTalkIntro1:Board what passes for transport on Tartessus",
+    "original": "Board what passes for transport on Tartessus",
+    "translated": ""
+  }
+]

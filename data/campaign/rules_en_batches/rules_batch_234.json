@@ -1,0 +1,78 @@
+[
+  {
+    "csv_row": 7418,
+    "id": "AVIPTtextBar1",
+    "column": "text",
+    "original": "You manage to insert yourself into the $manOrWoman's field of attention with a friendly greeting. The bartender gives you a thankful nod behind $hisOrHer back.\n\n\"These people, these space-pilots, are so addled by rocket fuel and zero-g that they simply cannot comprehend respectful! Customer! Service!\"\n\nEach of these three words is accompanied by an open handed slap on the bar. You watch as a small splash leaps over the rim of an otherwise untouched drink at each impact.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7418,
+    "id": "AVIPTtextBar1",
+    "column": "options",
+    "option_line": "avipt_textBar2:Perform an act of leadership",
+    "original": "Perform an act of leadership",
+    "translated": ""
+  },
+  {
+    "csv_row": 7418,
+    "id": "AVIPTtextBar1",
+    "column": "options",
+    "option_line": "avipt_textBarDecline:Disengage while you still can",
+    "original": "Disengage while you still can",
+    "translated": ""
+  },
+  {
+    "csv_row": 7419,
+    "id": "AVIPTtextBar2",
+    "column": "text",
+    "original": "You put on a look of stern and stoic authority, that look your bridge officers whisper about as your 'captain face' when they think you can't hear them.\n\nThis seems to do the trick.\n\nThis individual - wealthy, important, and well-connected, by their own description - paid $avipt_reward credits upfront for priority transport within $avipt_timelimit days to $avipt_marketName, but the ship left port early last night without a word for reasons you cannot fathom. This is 'a shocking disgrace' which 'besmirches the already dubious name of all space-captainry'.\n\nYou nod, your expression suitably grim at hearing of such terrible treatment.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7419,
+    "id": "AVIPTtextBar2",
+    "column": "options",
+    "option_line": "avipt_textBarAccept:Offer to transport the VIP for the same fee",
+    "original": "Offer to transport the VIP for the same fee",
+    "translated": ""
+  },
+  {
+    "csv_row": 7419,
+    "id": "AVIPTtextBar2",
+    "column": "options",
+    "option_line": "avipt_textBarDecline:Try to withdraw from the conversation",
+    "original": "Try to withdraw from the conversation",
+    "translated": ""
+  },
+  {
+    "csv_row": 7419,
+    "id": "AVIPTtextBar2",
+    "column": "options",
+    "option_line": "avipt_textBarDeclineRude:Explain to the VIP that they probably deserved this",
+    "original": "Explain to the VIP that they probably deserved this",
+    "translated": ""
+  },
+  {
+    "csv_row": 7420,
+    "id": "AVIPTtextBarAccept",
+    "column": "text",
+    "original": "Your offer manages to stop the $manOrWoman from talking at you for several seconds as $heOrShe considers your demeanor and your offer. \n\n\"I accept,\" $heOrShe says with the enunciation of royalty, \"Though I shall only be paying after we arrive at $avipt_marketName. And I shall require some of your crew to handle my luggage. I need not remind you that these are my valuable personal goods, not crates of... of common space-bolts to be tossed about by half-drunken dockworkers.\"\n\nAs you confirm final details over a free round from the bartender, you consider which of your junior officers to assign to babysitting duty...",
+    "translated": ""
+  },
+  {
+    "csv_row": 7421,
+    "id": "AVIPTtextBarDecline",
+    "column": "text",
+    "original": "You stand as if at attention, give the alleged VIP a formal farewell, and march to the other end of the bar without a backward glance. \n\n$HeOrShe is too confused by your formality to express outrage until it is too late and you are well out of range.\n\nFrom the corner of your eye, you can see the well-dressed $manOrWoman slowly start working $himOrHerself into another, slightly different rage.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7421,
+    "id": "AVIPTtextBarDecline",
+    "column": "options",
+    "option_line": "contact_declineBarNoContinue:Avert your eyes before you are forced to re-engage",
+    "original": "Avert your eyes before you are forced to re-engage",
+    "translated": ""
+  }
+]

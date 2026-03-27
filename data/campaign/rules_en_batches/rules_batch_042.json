@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 1837,
+    "id": "lkeChalcedonBarBribe2k",
+    "column": "text",
+    "original": "Vous vous rasseyez et transferez les credits.",
+    "translated": ""
+  },
+  {
+    "csv_row": 1838,
+    "id": "lkeChalcedonAskBarMeetingSet",
+    "column": "text",
+    "original": "\"Je vais faire des recherches, et vous allez attendre et revenir apres un jour pour une bonne reponse.\"\n\nIl tambourine un roulement sur la table et rit quand un pot de 'the' arrive. \"Ce soir, on boit et on fete ca !\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 1841,
+    "id": "lkeChalcedonBarDrinkLots",
+    "column": "options",
+    "option_line": "lke_barMammoniteDrink2:\"Pourquoi pas ?\"",
+    "original": "Pourquoi pas ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 1841,
+    "id": "lkeChalcedonBarDrinkLots",
+    "column": "options",
+    "option_line": "lke_barEndOut:Trouver une excuse et partir",
+    "original": "Trouver une excuse et partir",
+    "translated": ""
+  },
+  {
+    "csv_row": 1842,
+    "id": "lkeChalcedonBarDrinkLotsMore",
+    "column": "options",
+    "option_line": "lke_barMammoniteDrink3:Faut qu'j'trouve les toilettes...",
+    "original": "Faut qu'j'trouve les toilettes...",
+    "translated": ""
+  },
+  {
+    "csv_row": 1846,
+    "id": "lkeChalcedonBarDrinkLotsMore3b",
+    "column": "text",
+    "original": "Vous tatonnez pour trouver votre arme de poing, et decouvrez que votre etui est vide. Ils ont du la prendre.",
+    "translated": ""
+  },
+  {
+    "csv_row": 1854,
+    "id": "lkeChalcedonBarReturnNextDay2b",
+    "column": "options",
+    "option_line": "lke_chalcedonBarNextday3:Franchir la porte",
+    "original": "Franchir la porte",
+    "translated": ""
+  },
+  {
+    "csv_row": 1855,
+    "id": "lkeChalcedonBarReturnNextDay2c",
+    "column": "options",
+    "option_line": "lke_chalcedonBarNextday3:Franchir la porte",
+    "original": "Franchir la porte",
+    "translated": ""
+  },
+  {
+    "csv_row": 1856,
+    "id": "lkeChalcedonBarReturnNextDay3",
+    "column": "text",
+    "original": "Vous franchissez la porte.\n\nDaylight, une rare eclaircie dans les tempetes, vous aveugle un instant.",
+    "translated": ""
+  },
+  {
+    "csv_row": 1857,
+    "id": "lkeChalcedonBarReturnNextDay4",
+    "column": "text",
+    "original": "Un coup de feu vous claque les tympans.",
+    "translated": ""
+  }
+]

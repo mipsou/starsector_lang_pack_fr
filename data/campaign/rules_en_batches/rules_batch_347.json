@@ -1,0 +1,82 @@
+[
+  {
+    "csv_row": 10570,
+    "id": "BarOwnColFreeDrink0",
+    "column": "options",
+    "option_line": "barOwnColFreeDrink0B:Prendre le verre",
+    "original": "Prendre le verre",
+    "translated": ""
+  },
+  {
+    "csv_row": 10570,
+    "id": "BarOwnColFreeDrink0",
+    "column": "options",
+    "option_line": "barOwnColFreeDrink0E:\"Non merci. Je n'ai, euh, pas soif.\"",
+    "original": "Non merci. Je n'ai, euh, pas soif.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10573,
+    "id": "BarOwnColFreeDrink0C",
+    "column": "options",
+    "option_line": "barOwnColFreeDrink0B:Prendre le verre",
+    "original": "Prendre le verre",
+    "translated": ""
+  },
+  {
+    "csv_row": 10573,
+    "id": "BarOwnColFreeDrink0C",
+    "column": "options",
+    "option_line": "barOwnColFreeDrink0D:\"Je souhaite payer comme n'importe quel autre client. J'insiste.\"",
+    "original": "Je souhaite payer comme n'importe quel autre client. J'insiste.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10573,
+    "id": "BarOwnColFreeDrink0C",
+    "column": "options",
+    "option_line": "barOwnColFreeDrink0E:\"Non merci. Je n'ai, euh, pas soif.\"",
+    "original": "Non merci. Je n'ai, euh, pas soif.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10574,
+    "id": "BarOwnColFreeDrink0D",
+    "column": "options",
+    "option_line": "barHRE_goToNormalBar:Revenir au bar",
+    "original": "Revenir au bar",
+    "translated": ""
+  },
+  {
+    "csv_row": 10575,
+    "id": "BarOwnColFreeDrink0E",
+    "column": "options",
+    "option_line": "barHRE_goToNormalBar:Regarder autour de vous dans le bar",
+    "original": "Regarder autour de vous dans le bar",
+    "translated": ""
+  },
+  {
+    "csv_row": 10597,
+    "id": "LCDEVshowOak",
+    "column": "options",
+    "option_line": "LCDEV_showOakSel:set Gideon Oak visible",
+    "original": "set Gideon Oak visible",
+    "translated": ""
+  },
+  {
+    "csv_row": 10598,
+    "id": "LCDEVsedgeShotJeff",
+    "column": "options",
+    "option_line": "LCDEV_sedgeShotJeffSel:set Sedge shot Bornanew",
+    "original": "set Sedge shot Bornanew",
+    "translated": ""
+  },
+  {
+    "csv_row": 10606,
+    "id": "lpLKEtestSetting1",
+    "column": "options",
+    "option_line": "lpLKE_testSetting1:Player met Cotton and sat to have tea",
+    "original": "Player met Cotton and sat to have tea",
+    "translated": ""
+  }
+]

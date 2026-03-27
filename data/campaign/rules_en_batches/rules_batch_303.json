@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 8729,
+    "id": "sdtuRamMacarioWeaponDropOpt3",
+    "column": "options",
+    "option_line": "sdtu_ramSafehouse10c:Attacher la boucle de votre fourreau",
+    "original": "Attacher la boucle de votre fourreau",
+    "translated": ""
+  },
+  {
+    "csv_row": 8734,
+    "id": "sdtuRamSafehouse10",
+    "column": "text",
+    "original": "Il rengaine son pistolet et, enjambant le corps refroidissant de Ram, tire une chaise de la table. \"Asseyons-nous un instant. Toute cette agitation... j'aimerais beaucoup avoir une petite conversation avec vous.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8735,
+    "id": "sdtuRamSafehouse10-2",
+    "column": "text",
+    "original": "Macario congedie ses soldats d'un petit geste desinvolte. Vous supposez qu'ils resteront en alerte a proximite.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8736,
+    "id": "sdtuRamSafehouse10-3",
+    "column": "text",
+    "original": "Vous restez debout. Macario l'ignore, congediant ses soldats d'un petit geste desinvolte. Vous supposez qu'ils resteront en alerte a proximite.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8740,
+    "id": "sdtuMacrioIntroHubCa",
+    "column": "options",
+    "option_line": "sdtu_macIntroWhyHelp:\"Pourquoi me feriez-vous autant confiance ?\"",
+    "original": "Pourquoi me feriez-vous autant confiance ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 8741,
+    "id": "sdtuMacrioIntroHubCb",
+    "column": "options",
+    "option_line": "sdtu_macIntroWhyHelp:\"Pourquoi voudrais-je vous aider ?\"",
+    "original": "Pourquoi voudrais-je vous aider ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 8743,
+    "id": "sdtuMacrioIntroHubAneutral",
+    "column": "options",
+    "option_line": "sdtu_macIntroWhatPlan:\"Quel plan ? Il divaguait.\"",
+    "original": "Quel plan ? Il divaguait.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8746,
+    "id": "sdtuMacrioIntroHubA3",
+    "column": "options",
+    "option_line": "sdtu_macIntroAndradaKnow:\"Andrada est-il au courant de ce plan ?\"",
+    "original": "Andrada est-il au courant de ce plan ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 8752,
+    "id": "sdtuMacIntroYouTraitor",
+    "column": "text",
+    "original": "\"Bien sur que non,\" dit Macario, presque agace par cette idee.\n\n\"L'autorite decoule du pouvoir,\" explique-t-il. \"Une fois que j'aurai assure l'avenir du Diktat, les seuls traitres seront ceux qui s'opposent a moi.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8758,
+    "id": "sdtuMacIntroAnswerNo",
+    "column": "text",
+    "original": "\"Mes oreilles me trompent-elles, cher capitaine ?\" dit Macario avec une deception feinte.\n\n\"Je vous en prie, terminons notre agreable conversation. Ensuite nous pourrons y reflechir, hmm ?\"",
+    "translated": ""
+  }
+]

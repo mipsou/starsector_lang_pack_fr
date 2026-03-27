@@ -1,0 +1,79 @@
+[
+  {
+    "csv_row": 8640,
+    "id": "sdtuRamStartMission",
+    "column": "text",
+    "original": "Vous evaluez vos options pour cette rencontre.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8645,
+    "id": "sdtuRamPrepDone",
+    "column": "options",
+    "option_line": "sdtu_ramSafehouse0:Monter dans la navette et rejoindre le Refuge de Ram",
+    "original": "Monter dans la navette et rejoindre le Refuge de Ram",
+    "translated": ""
+  },
+  {
+    "csv_row": 8648,
+    "id": "sdtuRamPrepMarines",
+    "column": "options",
+    "option_line": "sdtu_prepMarines:Emmener une escouade de marines en renfort",
+    "original": "Emmener une escouade de marines en renfort",
+    "translated": ""
+  },
+  {
+    "csv_row": 8653,
+    "id": "sdtuRamPrepWeaponPistol1",
+    "column": "options",
+    "option_line": "sdtu_prepWeaponPistol:Un pistolet en polycarbonate noir mat",
+    "original": "Un pistolet en polycarbonate noir mat",
+    "translated": ""
+  },
+  {
+    "csv_row": 8655,
+    "id": "sdtuRamPrepWeaponSpray1",
+    "column": "options",
+    "option_line": "sdtu_prepWeaponSpray:Une minuscule capsule de poison en spray",
+    "original": "Une minuscule capsule de poison en spray",
+    "translated": ""
+  },
+  {
+    "csv_row": 8657,
+    "id": "sdtuRamPrepWeaponNone1",
+    "column": "options",
+    "option_line": "sdtu_prepWeaponNone:Pas d'arme ; vous n'en avez pas besoin",
+    "original": "Pas d'arme ; vous n'en avez pas besoin",
+    "translated": ""
+  },
+  {
+    "csv_row": 8660,
+    "id": "sdtuRamPrepWeaponGren2",
+    "column": "text",
+    "original": "Votre armurier vous explique le processus d'activation et de desactivation des grenades, et vous familiarise avec leur minuterie et leur poids de lancer. Vous en dissimulez une demi-douzaine sur votre uniforme.\n\nCes petites choses infernales ont un sacre punch.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8671,
+    "id": "sdtuRamSafehouse2",
+    "column": "text",
+    "original": "La planque de Ram se trouve dans un complexe logistique et d'entreposage rattache a l'embranchement de l'un de ces clusters industriels.\n\nL'air est charge de la puanteur sucree des produits petrochimiques.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8671,
+    "id": "sdtuRamSafehouse2",
+    "column": "options",
+    "option_line": "sdtu_ramSafehouse3:Entrer the safehouse",
+    "original": "Entrer the safehouse",
+    "translated": ""
+  },
+  {
+    "csv_row": 8676,
+    "id": "sdtuRamSafehouseReaction0",
+    "column": "options",
+    "option_line": "sdtu_ramSafehouse5:Rester calme pour l'instant ; le laisser parler davantage",
+    "original": "Rester calme pour l'instant ; le laisser parler davantage",
+    "translated": ""
+  }
+]

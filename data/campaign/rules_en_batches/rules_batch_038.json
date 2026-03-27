@@ -1,0 +1,80 @@
+[
+  {
+    "csv_row": 1641,
+    "id": "lppHesperusBarEventSel2",
+    "column": "options",
+    "option_line": "lpp_hesperus_returnToBar:Revenir au bar",
+    "original": "Revenir au bar",
+    "translated": ""
+  },
+  {
+    "csv_row": 1649,
+    "id": "lppHesperusShrineVisitFirst3",
+    "column": "text",
+    "original": "Au dernier virage du canyon, le complexe du sanctuaire apparait, une fleche lumineuse d'habitats, de tours et de mats s'elevant des restes brumeux d'une titanesque usine de traitement atmospherique.\n\nVotre oeil exerce repere les positions probables d'emplacements d'armes lourdes : des parois rocheuses trop lisses a des angles commodes, les sols suspicieusement plats de certaines vallees suspendues.",
+    "translated": ""
+  },
+  {
+    "csv_row": 1655,
+    "id": "lppHesperusShrineOptionLeave",
+    "column": "options",
+    "option_line": "shrineDoLeave:Partir maintenant",
+    "original": "Partir maintenant",
+    "translated": ""
+  },
+  {
+    "csv_row": 1681,
+    "id": "lppHesperusInitiateContinue2a",
+    "column": "text",
+    "original": "Il vous fixe un moment, puis reporte lentement son regard vers les martyrs radioactifs.",
+    "translated": ""
+  },
+  {
+    "csv_row": 1683,
+    "id": "lppHesperusShrineWrapUp",
+    "column": "options",
+    "option_line": "shrineDoLeave:Quitter le sanctuaire",
+    "original": "Quitter le sanctuaire",
+    "translated": ""
+  },
+  {
+    "csv_row": 1687,
+    "id": "lppHesperusShrineDoVisitAgain3",
+    "column": "options",
+    "option_line": "shrineDoLeave:Quitter le sanctuaire",
+    "original": "Quitter le sanctuaire",
+    "translated": ""
+  },
+  {
+    "csv_row": 1701,
+    "id": "lkeJaspisInfoAsk2",
+    "column": "options",
+    "option_line": "lke_jaspisInfoReply2:\"Et si je ne le trouve pas ? Et s'il est mort ?\"",
+    "original": "Et si je ne le trouve pas ? Et s'il est mort ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 1703,
+    "id": "lkeJaspisInfoAsk4",
+    "column": "options",
+    "option_line": "lke_jaspisInfoReply4:Questionner sur autre chose",
+    "original": "Questionner sur autre chose",
+    "translated": ""
+  },
+  {
+    "csv_row": 1713,
+    "id": "lkeJaspisStartHubOp1",
+    "column": "options",
+    "option_line": "lke_jaspisStartEnd1:\"Alors je trouverai Bornanew.\"",
+    "original": "Alors je trouverai Bornanew.",
+    "translated": ""
+  },
+  {
+    "csv_row": 1714,
+    "id": "lkeJaspisStartHubOp1b",
+    "column": "options",
+    "option_line": "lke_jaspisStartEnd1b:\"Je ne peux que promettre d'essayer.\"",
+    "original": "Je ne peux que promettre d'essayer.",
+    "translated": ""
+  }
+]

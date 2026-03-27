@@ -1,0 +1,81 @@
+[
+  {
+    "csv_row": 11034,
+    "id": "gaDHOvisitElekAltIntroBusiness",
+    "column": "options",
+    "option_line": "gaDHO_visitElekAltTransferData:Transferer les donnees recovered from the sensor array",
+    "original": "Transferer les donnees recovered from the sensor array",
+    "translated": ""
+  },
+  {
+    "csv_row": 11034,
+    "id": "gaDHOvisitElekAltIntroBusiness",
+    "column": "options",
+    "option_line": "gaDHO_visitElekAltIntroBusiness100k:\"That's not enough. Make it 100k.\"",
+    "original": "That's not enough. Make it 100k.",
+    "translated": ""
+  },
+  {
+    "csv_row": 11035,
+    "id": "gaDHOvisitElekAltIntroBusiness100k",
+    "column": "options",
+    "option_line": "gaDHO_visitElekAltTransferData:Transferer les donnees recovered from the sensor array",
+    "original": "Transferer les donnees recovered from the sensor array",
+    "translated": ""
+  },
+  {
+    "csv_row": 11037,
+    "id": "gaDHOvisitElekAltIntroPiracyOutA",
+    "column": "text",
+    "original": "The only way forward is to investigate the coordinates in the Abyss yourself.",
+    "translated": ""
+  },
+  {
+    "csv_row": 11039,
+    "id": "gaDHOvisitElekAltTransferData",
+    "column": "options",
+    "option_line": "gaDHO_visitElekAltWhatIsIt:\"What is it? What were you looking for?\"",
+    "original": "What is it? What were you looking for?",
+    "translated": ""
+  },
+  {
+    "csv_row": 11040,
+    "id": "gaDHOvisitElekAltTransferDataB",
+    "column": "options",
+    "option_line": "gaDHO_visitElekAltPaymentPlease:\"Now the payment, please.\"",
+    "original": "Now the payment, please.",
+    "translated": ""
+  },
+  {
+    "csv_row": 11041,
+    "id": "gaDHOvisitElekAltTransferDataB2",
+    "column": "options",
+    "option_line": "gaDHO_visitElekAltWhatIsIt:\"So what is it? What were you looking for?\"",
+    "original": "So what is it? What were you looking for?",
+    "translated": ""
+  },
+  {
+    "csv_row": 11042,
+    "id": "gaDHOvisitElekAltIntro4",
+    "column": "options",
+    "option_line": "gaDHO_visitElekAltTransferData:Transferer les donnees recovered from the sensor array",
+    "original": "Transferer les donnees recovered from the sensor array",
+    "translated": ""
+  },
+  {
+    "csv_row": 11048,
+    "id": "gaDHOvisitElekAltAskHubOptA",
+    "column": "options",
+    "option_line": "gaDHO_visitElekAltWhatIsItAgain:\"So what is at those coordinates in the Abyss?",
+    "original": "So what is at those coordinates in the Abyss?",
+    "translated": ""
+  },
+  {
+    "csv_row": 11049,
+    "id": "gaDHOvisitElekAltAskHubOptB",
+    "column": "options",
+    "option_line": "gaDHO_visitElekAltAboutThatPayment:\"So about payment...\"",
+    "original": "So about payment...",
+    "translated": ""
+  }
+]

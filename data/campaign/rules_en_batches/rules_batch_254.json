@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 7903,
+    "id": "RaoAskDiktatDolosOptsAsel",
+    "column": "text",
+    "original": "\"So you just... went along?\"\n\nHe shakes his head, looking perplexed.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7908,
+    "id": "RaoAskDiktatDolosOptsE2",
+    "column": "text",
+    "original": "\"No.\" He shakes his head. \"I don't think so.\"\n\n\"If you were lucky you could be another Loke or Leonis. But they never built anything, they only destroyed. And how they died...\"\n\nRao gives you a look- is that how you want to end up?",
+    "translated": ""
+  },
+  {
+    "csv_row": 7909,
+    "id": "RaoAskDiktatDolosOptsFsel",
+    "column": "text",
+    "original": "\"Then you will have no answers in return,\" he says.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7928,
+    "id": "RaoPitchTestTooSoon",
+    "column": "text",
+    "original": "\"You've got promise, captain, that's true. But,\" he takes on an avuncular tone, \"I don't think you've got enough experience to handle what I've got in mind.\"\n\n\"Put yourself out there, take on some jobs. We may speak again on this later.\"\n\nHis tone makes it clear that the issue is settled. For now.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7929,
+    "id": "RaoPitchTestSDTU",
+    "column": "options",
+    "option_line": "rao_pitchOffer:\"And what do you have in mind?\"",
+    "original": "And what do you have in mind?",
+    "translated": ""
+  },
+  {
+    "csv_row": 7930,
+    "id": "RaoPitchTestGAKAbluff",
+    "column": "text",
+    "original": "\"You've got promise, captain. You know how to slip out of a trap. You know how to use any means available to win.\"\n\nHe pauses. \"It speaks well for what I have in mind.\"\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7930,
+    "id": "RaoPitchTestGAKAbluff",
+    "column": "options",
+    "option_line": "rao_pitchOffer:\"And what do you have in mind?\"",
+    "original": "And what do you have in mind?",
+    "translated": ""
+  },
+  {
+    "csv_row": 7931,
+    "id": "RaoPitchTestSwords",
+    "column": "text",
+    "original": "\"You've got promise, captain. Especially if your captaining is anything like your swordplay. You spilled blood for honor in personal combat. That is more than most can say.\"\n\nHe pauses. \"It speaks well for you, for what I have in mind.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7931,
+    "id": "RaoPitchTestSwords",
+    "column": "options",
+    "option_line": "rao_pitchOffer:\"And what do you have in mind?\"",
+    "original": "And what do you have in mind?",
+    "translated": ""
+  },
+  {
+    "csv_row": 7932,
+    "id": "RaoPitchTestSwords2",
+    "column": "text",
+    "original": "\"You've got promise, captain. You were brave enough to take up the sword with full knowledge of the art, fight... and lose. Your blood was spilled for honor in personal combat. That is more than most can say.\"\n\nHe pauses. \"It speaks well for you, for what I have in mind.\"",
+    "translated": ""
+  }
+]

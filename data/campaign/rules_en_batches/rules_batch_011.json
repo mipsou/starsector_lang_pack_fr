@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 228,
+    "id": "oyaTanaicaAskSampleVambrace",
+    "column": "text",
+    "original": "\"The Abyss?\" Her eyes widen. \"You're braver than you look. Or stupider.\"\n\n\"Anyway, come on down. I'll feed some excuse to traffic control.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 228,
+    "id": "oyaTanaicaAskSampleVambrace",
+    "column": "options",
+    "option_line": "oyaTanaica_sampleShuttle:Shuttle down with the armor sample",
+    "original": "Shuttle down with the armor sample",
+    "translated": ""
+  },
+  {
+    "csv_row": 228,
+    "id": "oyaTanaicaAskSampleVambrace",
+    "column": "options",
+    "option_line": "oyaTanaica_sampleBack:\"Never mind.\"",
+    "original": "Never mind.",
+    "translated": ""
+  },
+  {
+    "csv_row": 229,
+    "id": "oyaTanaicaAskNeverMind",
+    "column": "text",
+    "original": "\"Alright.\"\n\nShe glances aside, not bothering to hide that she's checking the time.",
+    "translated": ""
+  },
+  {
+    "csv_row": 230,
+    "id": "oyaTanaicaAskSampleShuttle",
+    "column": "text",
+    "original": "Descending to Asher, you glance out the viewport of your shuttle.\n\nStars disappear from the black tapestry of space as it begins to glow with a deep violet-blue before sinking into dim, ruddy brown.\n\nThe thick clouds of suspended fines are whipped away by the shuttle's flight through cold winds, and the shadow is replaced by the generalized sandy murk of Asher.",
+    "translated": ""
+  },
+  {
+    "csv_row": 231,
+    "id": "oyaTanaicaVambrace0",
+    "column": "text",
+    "original": "* * *\n\n\"Doesn't look like much, does it,\" says Senior Engineer Tanaica as she takes the sample from you - a block of armor composite, edges rough from the salvors' plasma cutters.\n\nShe places the sample onto a shelf which retracts into the towering white casing of the analysis suite. Transparent panes reveal the machine's arcane inner workings.\n\n\"You found it in the Abyss, you said?\"\n\nA containment shield drops over the sample port with a satisfying clunk.",
+    "translated": ""
+  },
+  {
+    "csv_row": 231,
+    "id": "oyaTanaicaVambrace0",
+    "column": "options",
+    "option_line": "oyaTanaica_vambrace1:\"A planetoid in the Abyss. Some nameless rock.\"",
+    "original": "A planetoid in the Abyss. Some nameless rock.",
+    "translated": ""
+  },
+  {
+    "csv_row": 232,
+    "id": "oyaTanaicaVambrace1",
+    "column": "text",
+    "original": "\"Most of 'em are, aren't they.\"\n\nShe manipulates the controls, evacuating the atmo from the sample container. Then she stops to look at you.\n\n\"If this is just a chunk of starship armor, I can tell you that for free. Saves you 10,000 credits.\"\n\n\"But if you want me to look real close and do some professional speculation,\" she holds out her datapad, ready to receive payment.",
+    "translated": ""
+  },
+  {
+    "csv_row": 233,
+    "id": "oyaTanaicaVambraceEarlyOut",
+    "column": "text",
+    "original": "She shrugs, and reverses the sample insertion procedure. \n\nSenior Engineer Tanaica sends you on your way back to orbit with no more farewell than a succinct \"Right then.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 234,
+    "id": "oyaTanaicaVambrace2",
+    "column": "text",
+    "original": "Your TriPad pings confirmation, and hers responds cheerfully.\n\n\"Right then,\" she says, equally cheerful.\n\nTanaica's datapad disappears as she turns back to the controls. A loud humming grows - it feels almost ticklish in your teeth for a moment as she adjusts power levels.\n\nDisplays bloom with readouts, cheerful greens abounding. A holo of the sample flickers into being.",
+    "translated": ""
+  }
+]

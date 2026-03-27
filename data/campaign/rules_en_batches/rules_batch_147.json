@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 3434,
+    "id": "BFFIarrestOutroAskPenance",
+    "column": "options",
+    "option_line": "bffi_arrestCurateEnd:Leave him to his thoughts",
+    "original": "Leave him to his thoughts",
+    "translated": ""
+  },
+  {
+    "csv_row": 3435,
+    "id": "BFFIarrestOutroAskPenanceBB",
+    "column": "text",
+    "original": "He turns to you.\n\n\"Pleased? That is difficult. What we have uncovered is deeply concerning. As for my penance,\" he grimaces. \"The Excubitor Orbis of Hesperus would have me punished for the sins he imagines of the Reverend Archcurate Jaspis, and others who do not fully agree with him besides, I am sure. There will be little wordly relief within his domain. But to there I must return.\"\n\nHe turns back to the stars.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3435,
+    "id": "BFFIarrestOutroAskPenanceBB",
+    "column": "options",
+    "option_line": "bffi_arrestCurateEnd:Leave him to his thoughts",
+    "original": "Leave him to his thoughts",
+    "translated": ""
+  },
+  {
+    "csv_row": 3436,
+    "id": "BFFIarrestOutroAskPenanceB",
+    "column": "text",
+    "original": "He turns to you.\n\n\"Pleased? That is difficult. What we have uncovered is deeply concerning. As for my penance,\" he grimaces. \"You have met Excubitor Orbis Oak, yes?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3436,
+    "id": "BFFIarrestOutroAskPenanceB",
+    "column": "options",
+    "option_line": "bffi_arrestOutroPenForgive:\"Maybe he'll be in a forgiving mood after you deliver a traitor and the false relic.\"",
+    "original": "Maybe he'll be in a forgiving mood after you deliver a traitor and the false relic.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3437,
+    "id": "BFFIarrestOutroAskPenUnderstand",
+    "column": "options",
+    "option_line": "bffi_arrestCurateEnd:Leave $global.jethroName to his thoughts",
+    "original": "Leave $global.jethroName to his thoughts",
+    "translated": ""
+  },
+  {
+    "csv_row": 3438,
+    "id": "BFFIarrestOutroAskPenForgive",
+    "column": "text",
+    "original": "\"Maybe,\" he says. He is quiet for a moment, nods, then turns back to the stars.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3438,
+    "id": "BFFIarrestOutroAskPenForgive",
+    "column": "options",
+    "option_line": "bffi_arrestCurateEnd:Leave $global.jethroName to his thoughts",
+    "original": "Leave $global.jethroName to his thoughts",
+    "translated": ""
+  },
+  {
+    "csv_row": 3440,
+    "id": "BFFIarrestCurateEndGotShot",
+    "column": "text",
+    "original": "You dream of stars, but they flit and dance in the tapestry of the night to music you can't quite hear.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3441,
+    "id": "BFFIarrestOutroPCshot",
+    "column": "text",
+    "original": "* * *\n\nYou awake to the familiar hum of your flagship, in orbit.\n\nFor a moment, your mind drifts without context. A machine chirps helpfully somewhere.\n\nYour vision is a blur, slowly resolving like a bad comm-link signal running poorly-adjusted inference algorithms.\n\nThere's a human-shaped blob. The details come rushing back.",
+    "translated": ""
+  }
+]

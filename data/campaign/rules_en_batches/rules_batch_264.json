@@ -1,0 +1,78 @@
+[
+  {
+    "csv_row": 8074,
+    "id": "kdKantaFirstIntro5",
+    "column": "text",
+    "original": "Le petit docteur s'avance et se racle la gorge, puis dit : \"Je suis le Docteur Cydonia, assistant personnel du seigneur de guerre.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8088,
+    "id": "DardanKatoAskImoinu2",
+    "column": "text",
+    "original": "Dardan lets out a sigh.\n\n\"I already know about her little crusade. I'd thank you not to mention her- unless she's finally decided to do the right thing and return to the Gens?\"\n\nHe barely waits before he says \"Didn't think so.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8089,
+    "id": "DardanKatoAskImoinuOptsA",
+    "column": "options",
+    "option_line": "dardanKato_askImoinuOptA:\"My impression was that she wishes to stay where she is.\"",
+    "original": "My impression was that she wishes to stay where she is.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8090,
+    "id": "DardanKatoAskImoinuOptsB",
+    "column": "options",
+    "option_line": "dardanKato_askImoinuOptB:\"I gave her material support for the ARC. She seems capable of looking after herself.\"",
+    "original": "I gave her material support for the ARC. She seems capable of looking after herself.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8093,
+    "id": "DardanKatoAskImoinuOptB",
+    "column": "text",
+    "original": "He gives you a wretched look. \"Tell me you didn't.\"\n\n\"No,\" he holds up a hand. \"Don't tell me at all. I don't want to know. Drop it. We're not talking about this.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8094,
+    "id": "DardanKatoAskImoinuOptC",
+    "column": "text",
+    "original": "\"By the bloody stars, please and thank-you,\" he mutters under his breath,",
+    "translated": ""
+  },
+  {
+    "csv_row": 8097,
+    "id": "YaribayFollowupNotDone",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 8098,
+    "id": "YaribayFollowup",
+    "column": "options",
+    "option_line": "yaribay_followup1:\"Des nouvelles de notre ami commun ?\"",
+    "original": "Des nouvelles de notre ami commun ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 8099,
+    "id": "YaribayFollowup1",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 8100,
+    "id": "YaribayFollowup2",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  }
+]

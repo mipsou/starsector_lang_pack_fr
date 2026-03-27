@@ -1,0 +1,79 @@
+[
+  {
+    "csv_row": 8575,
+    "id": "defaultCadenGreetPostSDTU",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 8579,
+    "id": "postSDTUMacarioGreeting",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 8585,
+    "id": "sdBarRaid1",
+    "column": "options",
+    "option_line": "sdbr_raid2:Rester calme",
+    "original": "Rester calme",
+    "translated": ""
+  },
+  {
+    "csv_row": 8586,
+    "id": "sdBarRaid2",
+    "column": "options",
+    "option_line": "sdbr_raid3b:Ne pas regarder",
+    "original": "Ne pas regarder",
+    "translated": ""
+  },
+  {
+    "csv_row": 8588,
+    "id": "sdBarRaid3",
+    "column": "options",
+    "option_line": "sdbr_sayNothing:Ne rien dire",
+    "original": "Ne rien dire",
+    "translated": ""
+  },
+  {
+    "csv_row": 8588,
+    "id": "sdBarRaid3",
+    "column": "options",
+    "option_line": "sdbr_sayThankYou:\"Merci pour votre service, monsieur.\"",
+    "original": "Merci pour votre service, monsieur.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8588,
+    "id": "sdBarRaid3",
+    "column": "options",
+    "option_line": "sdbr_saySarcastic:\"Merci pour votre service, monsieur.\" (sarcastic)",
+    "original": "Merci pour votre service, monsieur.\" (sarcastic)",
+    "translated": ""
+  },
+  {
+    "csv_row": 8589,
+    "id": "sdBarRaid2nothing",
+    "column": "text",
+    "original": "Ses yeux se plissent et descendent vers son scanner.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8595,
+    "id": "sdBarRaidBeatingTreatment",
+    "column": "text",
+    "original": "Ce serait presque plus rassurant de sentir la douleur. Sans elle, vous vous sentez vide. Et epuise.\n\nAvec l'aide de vos gardes, vous regagnez lentement votre vaisseau.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8596,
+    "id": "sdBarRaidBeatingRevenge",
+    "column": "text",
+    "original": "Vous vous concentrez sur le visage de l'officier de l'INTSEC, utilisant votre douleur physique pour le graver dans votre memoire.\n\nUn jour, vous le jurez, il recevra justice.",
+    "translated": ""
+  }
+]

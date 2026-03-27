@@ -1,0 +1,82 @@
+[
+  {
+    "csv_row": 1171,
+    "id": "lppHookCurateCottonKill2a",
+    "column": "options",
+    "option_line": "lpp_hookCurateSeeya:Faire vos adieux et partir",
+    "original": "Faire vos adieux et partir",
+    "translated": ""
+  },
+  {
+    "csv_row": 1172,
+    "id": "lppHookCurateCottonKill2b",
+    "column": "options",
+    "option_line": "lpp_hookCurateSeeya:Faire vos adieux et partir",
+    "original": "Faire vos adieux et partir",
+    "translated": ""
+  },
+  {
+    "csv_row": 1181,
+    "id": "lppBeholderShrineMainOptions",
+    "column": "options",
+    "option_line": "0:lpp_beholderShrineVisit:Visiter le sanctuaire",
+    "original": "lpp_beholderShrineVisit:Visiter le sanctuaire",
+    "translated": ""
+  },
+  {
+    "csv_row": 1181,
+    "id": "lppBeholderShrineMainOptions",
+    "column": "options",
+    "option_line": "1:beholderShrineMakeOffering:Faire une offrande",
+    "original": "beholderShrineMakeOffering:Faire une offrande",
+    "translated": ""
+  },
+  {
+    "csv_row": 1181,
+    "id": "lppBeholderShrineMainOptions",
+    "column": "options",
+    "option_line": "10:lpp_beholderShrineRealLeave:Revenir to your $shipOrFleet",
+    "original": "lpp_beholderShrineRealLeave:Revenir to your $shipOrFleet",
+    "translated": ""
+  },
+  {
+    "csv_row": 1186,
+    "id": "lppBeholderShrineOfferingEnough",
+    "column": "options",
+    "option_line": "1:beholderShrineCancelOffering:Peu importe",
+    "original": "beholderShrineCancelOffering:Peu importe",
+    "translated": ""
+  },
+  {
+    "csv_row": 1193,
+    "id": "lppGileadMissionEndDevA",
+    "column": "options",
+    "option_line": "lpp_devAddFaithful:Add Faithful playerAttitude",
+    "original": "Add Faithful playerAttitude",
+    "translated": ""
+  },
+  {
+    "csv_row": 1194,
+    "id": "lppGileadMissionEndDevB",
+    "column": "options",
+    "option_line": "lpp_devAddAgnostic:Add Agnostic playerAttitude",
+    "original": "Add Agnostic playerAttitude",
+    "translated": ""
+  },
+  {
+    "csv_row": 1195,
+    "id": "lppGileadMissionEndDevC",
+    "column": "options",
+    "option_line": "lpp_devAddAtheistic:Add Atheistic playerAttitude",
+    "original": "Add Atheistic playerAttitude",
+    "translated": ""
+  },
+  {
+    "csv_row": 1196,
+    "id": "lppGileadMissionEndDevD",
+    "column": "options",
+    "option_line": "lpp_devAddCynical:Add Cynical playerAttitude",
+    "original": "Add Cynical playerAttitude",
+    "translated": ""
+  }
+]

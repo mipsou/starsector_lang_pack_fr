@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 2652,
+    "id": "BFFImeetMenesBornOptSteal2b",
+    "column": "text",
+    "original": "\"Yes, I- That's not-\"\n\nHe exhales sharply. \"Not only is theft a sin. I did also swear a sacred oath that I would never steal again.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2652,
+    "id": "BFFImeetMenesBornOptSteal2b",
+    "column": "options",
+    "option_line": "BFFI_meetMenesBornOptSteal3:\"Then I'll steal it. You can just show up and be yourself.\"",
+    "original": "Then I'll steal it. You can just show up and be yourself.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2653,
+    "id": "BFFImeetMenesBornOptSteal3",
+    "column": "text",
+    "original": "\"But I, I-\" he stutters to a halt. \"I suppose, in the strictest sense this is... captain, I do not like it. Is there no alternative?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2653,
+    "id": "BFFImeetMenesBornOptSteal3",
+    "column": "options",
+    "option_line": "BFFI_meetMenesBornOptSteal4a:\"No one gets hurt. And it's a fake which they stole from your people in the first place.\"",
+    "original": "No one gets hurt. And it's a fake which they stole from your people in the first place.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2653,
+    "id": "BFFImeetMenesBornOptSteal3",
+    "column": "options",
+    "option_line": "BFFI_meetMenesBornOptSteal4c:\"I could threaten to bombard the planet until Menes surrenders the relic.\"",
+    "original": "I could threaten to bombard the planet until Menes surrenders the relic.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2655,
+    "id": "BFFImeetMenesBornOptSteal4b",
+    "column": "text",
+    "original": "Bornanew gives you a distraught look.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2656,
+    "id": "BFFImeetMenesBornOptSteal4c",
+    "column": "text",
+    "original": "Bornanew gives you a distraught look.\n\n\"I pray that is merely a joke in poor taste.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2658,
+    "id": "BFFImmStealOptEnd",
+    "column": "text",
+    "original": "Your tactical officer has already spearheaded an effort to discreetly collect what public information is available on Menes Yaribay's compound. Sensors has arranged passive scans to correlate with on-record plans of the structure. Comms found a PR puff-piece holo in which Menes gives a personal tour of part of his 'collection'.  \n\nAll you really need to do is get yourself invited into the inner sanctum.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2658,
+    "id": "BFFImmStealOptEnd",
+    "column": "options",
+    "option_line": "bffi_mmBornDoSteal:\"Then it's decided. I'll have tools, it'll be fine.\"",
+    "original": "Then it's decided. I'll have tools, it'll be fine.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2659,
+    "id": "BFFImmBornOptStealAgainB",
+    "column": "text",
+    "original": "Your tactical officer has already spearheaded an effort to discreetly collect what public information is available on Menes Yaribay's compound. Sensors has arranged passive scans to correlate with on-record plans of the structure. Comms found a PR puff-piece holo in which Menes gives a personal tour of part of his 'collection'.  \n\nAll you really need to do is get yourself invited into the inner sanctum.",
+    "translated": ""
+  }
+]

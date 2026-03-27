@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 4453,
+    "id": "GAFCQuestionBioneAgentName2",
+    "column": "options",
+    "option_line": "10:gaFC_fikenhildBioneB:\"Qui exactement est venu vous interroger avant moi ?\"",
+    "original": "gaFC_fikenhildBioneB:\"Qui exactement est venu vous interroger avant moi ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 4457,
+    "id": "gaFCQuestionBioneElissaZal",
+    "column": "text",
+    "original": "Elissa Zal. Ce nom est une nouvelle connexion. Vous prenez une note rapide sur votre TriPad.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4462,
+    "id": "gaFCFikenhildBioneD",
+    "column": "options",
+    "option_line": "gaFC_fikenhildBioneD2:Voir ce qu'elle veut",
+    "original": "Voir ce qu'elle veut",
+    "translated": ""
+  },
+  {
+    "csv_row": 4464,
+    "id": "gaFCFikenhildBioneLeave",
+    "column": "options",
+    "option_line": "gaFC_visitFikenhild:Revenir to the transport hub",
+    "original": "Revenir to the transport hub",
+    "translated": ""
+  },
+  {
+    "csv_row": 4470,
+    "id": "gaFCFikenhildCavinStartInterruptPL",
+    "column": "text",
+    "original": "As you raise your hand to knock, the commsplate by the door sputters to life and speaks.\n\n\"You've made your point, Demarchon $playerName.\" \n\nAn officious voice, though distorted by the damaged commsplate. It signals an elite education and the relaxed authority which comes naturally to its speaker. \n\n\"You want us to know you're looking for Scylla Coureuse and you're going to shout it from every street corner on Fikenhild until we acknowledge it.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 4471,
+    "id": "gaFCFikenhildCavinStartInterruptPL2",
+    "column": "text",
+    "original": "As you raise your hand to knock, the commsplate by the door sputters to life and speaks.\n\n\"Demarchon $playerName. I apologize for delaying my response the inquiry you made through official channels.\" \n\nAn officious voice, though distorted by the damaged commsplate. It signals an elite education and the relaxed authority which comes naturally to its speaker. \n\n\"You're looking for someone quite specific, and I should like to assist you.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 4476,
+    "id": "gaFCFikenhildSiyavongInterruptA-PL",
+    "column": "text",
+    "original": "\"You presume correctly, demarchon.\" The voice sounds almost impressed.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4478,
+    "id": "gaFCFikenhildSiyavongInterruptB-PL",
+    "column": "text",
+    "original": "\"You have a way of insisting, demarchon.\" The voice sounds just a touch annoyed.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4479,
+    "id": "gaFCFikenhildSiyavongInterruptC",
+    "column": "text",
+    "original": "\"Pour une bonne raison,\" dit la voix avec patience.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4484,
+    "id": "gaFCFikenhildCavinHubResponse1",
+    "column": "options",
+    "option_line": "gaFC_fikenhildCavinA:\"Qui d'autre posait des questions sur Coureuse ?\"",
+    "original": "Qui d'autre posait des questions sur Coureuse ?",
+    "translated": ""
+  }
+]

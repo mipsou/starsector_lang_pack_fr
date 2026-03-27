@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 180,
+    "id": "GS_ZGR_MERC_cont3SelA",
+    "column": "options",
+    "option_line": "GS_ZGR_MERC_cont4:Try to find out what Tri-Tachyon was looking for out here",
+    "original": "Try to find out what Tri-Tachyon was looking for out here",
+    "translated": ""
+  },
+  {
+    "csv_row": 181,
+    "id": "GS_ZGR_MERC_cont3SelB",
+    "column": "text",
+    "original": "He goes on to describe various torments deserved due to the poor character of Director of Special Acquisitions Zunya Glamor-Rotanev. It seems unlikely that she would be interested in a recording of the transmission.",
+    "translated": ""
+  },
+  {
+    "csv_row": 181,
+    "id": "GS_ZGR_MERC_cont3SelB",
+    "column": "options",
+    "option_line": "GS_ZGR_MERC_cont4:Try to find records of what the mercenaries may have found",
+    "original": "Try to find records of what the mercenaries may have found",
+    "translated": ""
+  },
+  {
+    "csv_row": 182,
+    "id": "GS_ZGR_MERC_cont4Sel",
+    "column": "text",
+    "original": "Your ops chief gives the order, and salvage teams move to prioritize the recovery of datacores and sensor buffers.\n\nThey are efficient in their work, and soon their relays hum with recovered data. Tiny packet drones shuttle recovered hardware between the wreck and your $shipOrFleet.",
+    "translated": ""
+  },
+  {
+    "csv_row": 182,
+    "id": "GS_ZGR_MERC_cont4Sel",
+    "column": "options",
+    "option_line": "GS_ZGR_MERC_cont5:Investigate the results",
+    "original": "Investigate the results",
+    "translated": ""
+  },
+  {
+    "csv_row": 183,
+    "id": "GS_ZGR_MERC_cont5Sel",
+    "column": "options",
+    "option_line": "salExplore:Assess the ship's salvage value",
+    "original": "Assess the ship's salvage value",
+    "translated": ""
+  },
+  {
+    "csv_row": 187,
+    "id": "GS_ACADEMY_cont1Sel",
+    "column": "text",
+    "original": "This hull is damaged, but through the scars of impacts and stripped armor your sensors officer recognizes the crest of the Galatia Academy. This expedition was lightly and inconspicuously armed, enough to discourage casual piracy while not offending the official neutrality of the Academy.\n\nPerhaps this was not enough.\n\nSalvage repeaters - a common feature of high-risk Academy probes and expeditions which promise a reward for return of data - are all dead. Manually disabled, overloaded and fused or even smashed with hand-tools, from the looks of it. Clearly someone did not want them transmitting their message, or any message, in this place.",
+    "translated": ""
+  },
+  {
+    "csv_row": 188,
+    "id": "GS_ACADEMY_cont2Sel",
+    "column": "text",
+    "original": "The expedition's equipment is not the best money can buy, but the sensor suites and detector arrays were obviously lovingly modified and maintained - what's left of them, anyway. They're torn apart, twisted and burnt into jagged black filaments.\n\nShielded datacores are recovered by salvor teams and returned for analysis in a signal-quarantined vault kept for this purpose. It does not take long for your tech officer to report results.",
+    "translated": ""
+  },
+  {
+    "csv_row": 189,
+    "id": "GS_ACADEMY_cont2Selb",
+    "column": "text",
+    "original": "\"Judging from logs and fabrication tags, the expedition dates to circa cycle 176,\" your tech officer says. \"This was the flagship of a small flotilla. The rest were... lost.\"\n\n\"Someone... tried to erase all records. Forge-reset.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 189,
+    "id": "GS_ACADEMY_cont2Selb",
+    "column": "options",
+    "option_line": "GS_ACADEMY_cont3:\"So there's nothing?\"",
+    "original": "So there's nothing?",
+    "translated": ""
+  }
+]

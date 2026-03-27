@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 190,
+    "id": "GS_ACADEMY_cont3Sel",
+    "column": "text",
+    "original": "\"Not quite,\" your tech officer suppresses a sly grin.\n\nThere's simple deletion and there's systemic erasure done to ensure that data recovery is effectively impossible. Whoever did this was not proficient enough to do the latter.",
+    "translated": ""
+  },
+  {
+    "csv_row": 190,
+    "id": "GS_ACADEMY_cont3Sel",
+    "column": "options",
+    "option_line": "GS_ACADEMY_cont4:Find out what happened to the expedition",
+    "original": "Find out what happened to the expedition",
+    "translated": ""
+  },
+  {
+    "csv_row": 191,
+    "id": "GS_ACADEMY_cont4Sel",
+    "column": "text",
+    "original": "Datastreams are painstakingly recovered, the high-interest combat logs prioritized by your techs. The data is lossy, and the gaps must be filled by algorithms which, used improperly, have a reputation for confidently asserting false results.\n\nNonetheless.\n\nYou see the black of the abyss, and the cluster of lights and icons signifying the Galatia Expedition's flotilla. The view is highly abstract, a reconstruction of a visualization necessary in not only hyperspace but the uncertain depths of the Abyss.\n\nYou speed the stream forward to the point where everything goes wrong.",
+    "translated": ""
+  },
+  {
+    "csv_row": 192,
+    "id": "GS_ACADEMY_cont4SelB",
+    "column": "text",
+    "original": "The fleet approaches an Abyssal Light. A glow in the simulated display, a foggy illumination which somehow captures the cold and solipsistic loneliness of the veil beyond deep space.\n\nThe flagship comms hum with excited academicians eager to finally perform their experiments after long weeks of boredom.",
+    "translated": ""
+  },
+  {
+    "csv_row": 193,
+    "id": "GS_ACADEMY_cont5Sel",
+    "column": "text",
+    "original": "The flotilla's hyperspace bubble ripples, then strains under an impossible force. Anomalous sensor readings are tagged, then...\n\nAn error pops up from your own software. \nEXTREME UNRELIABILITY. Output may not reflect accurate reconstruction of data. Continue?",
+    "translated": ""
+  },
+  {
+    "csv_row": 194,
+    "id": "GS_ACADEMY_cont6Sel",
+    "column": "text",
+    "original": "The display is full of red icons, jagged warnings vectoring toward elements of the flotilla.\n\nThe chief Academician orders a full sensor burst, max power, using the integrated suite of the entire flotilla. There is a flash as EM surges; and gravimetrics pulse, hyperwave doppler, Atherton resonators...\n\nAnother error.\nINTERRUPT: INSUFFICIENT DATA. Continue to next viable reconstruction?",
+    "translated": ""
+  },
+  {
+    "csv_row": 195,
+    "id": "GS_ACADEMY_cont7Sel",
+    "column": "text",
+    "original": "The feed is degraded, patchy. The flotilla is gone; only the flagship remains, panicked voices on ship comms, in retreat from its previous course. The timeline show a halting record of desperate damage repairs and the crews' slow realization that they cannot make it back to civilized space.\n\nIt is a death-spiral known and feared by all spacer crews.\n\nSystems break down, fuel and supplies dwindle. Morale breaks down. Then discipline. It unravels faster than usual with so many civilians.\n\nYou shut it off.",
+    "translated": ""
+  },
+  {
+    "csv_row": 195,
+    "id": "GS_ACADEMY_cont7Sel",
+    "column": "options",
+    "option_line": "salExplore:Assess the ship's salvage value",
+    "original": "Assess the ship's salvage value",
+    "translated": ""
+  },
+  {
+    "csv_row": 202,
+    "id": "gsVambOptHubA",
+    "column": "options",
+    "option_line": "gsVambrace_explore1:Run a detailed scan",
+    "original": "Run a detailed scan",
+    "translated": ""
+  },
+  {
+    "csv_row": 203,
+    "id": "gsVambOptHubB",
+    "column": "options",
+    "option_line": "gsVambrace_salvors1:Send salvors in for a closer look",
+    "original": "Send salvors in for a closer look",
+    "translated": ""
+  }
+]

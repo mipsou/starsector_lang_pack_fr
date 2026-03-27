@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 2641,
+    "id": "BFFImmBornInviteHorusOpt",
+    "column": "options",
+    "option_line": "bffi_mmBornOptHorusInvitePropose:\"I should invite Horus Yaribay to this 'gathering'.\"",
+    "original": "I should invite Horus Yaribay to this 'gathering'.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2642,
+    "id": "BFFImmBornInviteHorusOptAgain",
+    "column": "options",
+    "option_line": "bffi_mmBornOptHorusInvitePropose:\"Let's discuss inviting Horus Yaribay to this party.\"",
+    "original": "Let's discuss inviting Horus Yaribay to this party.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2646,
+    "id": "BFFImeetMenesOptInviteHtalkBack",
+    "column": "text",
+    "original": "Bornanew nods, putting his hand back on his book as if drawing knowledge from it.\nOR\n\"Of course, captain,\" Bornanew says.\nOR\nBornanew looks down at his notebook and turns a page, then turns it back. \"Of course, yes.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2647,
+    "id": "BFFImeetMenesBornOptInviteHsel",
+    "column": "text",
+    "original": "Bornanew looks at you for a long moment.\n\n\"Do you think Horus Yaribay will help?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2648,
+    "id": "BFFImeetMenesOptInviteHtalk1",
+    "column": "options",
+    "option_line": "BFFI_mmBornDoInviteHorus:\"Then it's decided. I'll speak with Horus first.\"",
+    "original": "Then it's decided. I'll speak with Horus first.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2649,
+    "id": "BFFImmBornInviteHorusAgain",
+    "column": "text",
+    "original": "\"If you can persuade Horus to intervene in the situation before it gets out of hand-\" Bornanew sighs loudly, catching himself. \"Forgive my choice of word; jocularity is not my intent.\"\n\nHe begins again, \"If Horus sees it in his interest to force Menes to surrender the glove - and its source - then all might be resolved peaceably.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2649,
+    "id": "BFFImmBornInviteHorusAgain",
+    "column": "options",
+    "option_line": "BFFI_mmBornDoInviteHorus:\"Then it's decided. I'll speak with Horus first.\"",
+    "original": "Then it's decided. I'll speak with Horus first.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2650,
+    "id": "BFFImmBornOptStealFirst",
+    "column": "text",
+    "original": "You can tell he doesn't like the idea.\n\n\"That seems... it would be a blunt approach,\" he says. \"And risky.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2651,
+    "id": "BFFImeetMenesBornOptSteal2a",
+    "column": "text",
+    "original": "He looks at you, and you see that he knows he has no argument for you.\n\nBornanew sighs. \"Nonetheless, theft is a sin. And I did swear a sacred oath that I would never steal again.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2651,
+    "id": "BFFImeetMenesBornOptSteal2a",
+    "column": "options",
+    "option_line": "BFFI_meetMenesBornOptSteal3:\"Then I'll steal it. You can just show up and be yourself.\"",
+    "original": "Then I'll steal it. You can just show up and be yourself.",
+    "translated": ""
+  }
+]

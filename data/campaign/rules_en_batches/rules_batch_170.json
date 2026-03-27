@@ -1,0 +1,80 @@
+[
+  {
+    "csv_row": 4196,
+    "id": "gaKAArroyoVisitDrinkNo",
+    "column": "text",
+    "original": "Il hausse les epaules et sirote son deuxieme verre. \"Restez avec Baird. Vous trouverez votre propre vice pour tenir le coup,\" dit-il.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4200,
+    "id": "gaKAArroyoVisitBairdWhatOpt",
+    "column": "options",
+    "option_line": "gaKA_arroyoBairdWhat:\"Qu'est-ce que Baird a contre vous, au juste ?\"",
+    "original": "Qu'est-ce que Baird a contre vous, au juste ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 4228,
+    "id": "gaKANewMaxiosVisit2",
+    "column": "options",
+    "option_line": "gaKA_visitStorage3:\"Qui sont tous ces gens ?\"",
+    "original": "Qui sont tous ces gens ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 4236,
+    "id": "gaKA_relayObjectInteraction",
+    "column": "text",
+    "original": "Votre $shipOrFleet approche de $name.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4236,
+    "id": "gaKA_relayObjectInteraction",
+    "column": "options",
+    "option_line": "daKA_installHack:Installer le dispositif de piratage de Gargoyle sur le Relais Aztlan",
+    "original": "Installer le dispositif de piratage de Gargoyle sur le Relais Aztlan",
+    "translated": ""
+  },
+  {
+    "csv_row": 4244,
+    "id": "gaKAGargoyle2DoYouHaveArchive",
+    "column": "options",
+    "option_line": "gaKA_gargoyleDoYouHave:\"Avez-vous les Archives de Kallichore ?\"",
+    "original": "Avez-vous les Archives de Kallichore ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 4245,
+    "id": "gaKAGargoyle2WhatIfIJustLeaveYou",
+    "column": "options",
+    "option_line": "gaKA_gargoyleWhatIf:\"Et si je vous laissais simplement ici ?\"",
+    "original": "Et si je vous laissais simplement ici ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 4259,
+    "id": "gaKAPatrolCut",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 4260,
+    "id": "gaKAPatrolWeapons",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 4264,
+    "id": "gaKAPatrolLie4",
+    "column": "options",
+    "option_line": "gaKA_patrolLie5:\"Bonne chasse. $SirOrMadam.\"",
+    "original": "Bonne chasse. $SirOrMadam.",
+    "translated": ""
+  }
+]

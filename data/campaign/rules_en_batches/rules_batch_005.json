@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 113,
+    "id": "ShroudedHullmodItemRCMantle1b",
+    "column": "text",
+    "original": "You find your technology officer and chief engineer in another discussion over one of the unusual specimens held in the \"special salvage' bay.",
+    "translated": ""
+  },
+  {
+    "csv_row": 114,
+    "id": "ShroudedHullmodItemRCMantle2",
+    "column": "text",
+    "original": "Engineering is frowning, manipulating a diagram of a ship with abrupt flicks at the interface. \"It'd have to be anchored to the flux grid. Only way to keep it wrapped close enough to the hull geometry.\"\n\n\"Precisely,\" Tech says. \"To keep the exotic material from diminishing! It will draw energy from incoming projectiles, storing it in the, um... meta-plasma?\"\n\nEngineering snorts dismissively.\n\n\"Merely a working term,\" Tech says defensively.",
+    "translated": ""
+  },
+  {
+    "csv_row": 115,
+    "id": "ShroudedHullmodItemRCMantle3",
+    "column": "text",
+    "original": "\"We can't store energy forever in this theoretical, pretend-plasma,\" Engineering says. \"It'll have to go somewhere.\"\n\n\"Invert the polarity of the flux converters and flicker the drive field. Boom, a gentle bump to local time-space.\" Tech looks self-satisfied. \"Um, by which I mean the ship itself.\"\n\n\"You hope it's a gentle bump.\" Engineering frowns, pulling up agrav inertial suppression timing charts. \"If it works.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 116,
+    "id": "ShroudedHullmodItemRCMantle4a",
+    "column": "options",
+    "option_line": "ShroudedHMM_talk5:\"Prove it. I want a full proposal and testing schedule by end-of-shift.\"",
+    "original": "Prove it. I want a full proposal and testing schedule by end-of-shift.",
+    "translated": ""
+  },
+  {
+    "csv_row": 117,
+    "id": "ShroudedHullmodItemRCMantle4b",
+    "column": "text",
+    "original": "\"It'll work,\" Tech says. \"Remember last time?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 117,
+    "id": "ShroudedHullmodItemRCMantle4b",
+    "column": "options",
+    "option_line": "ShroudedHMM_talk5:\"Prove it. I want a full proposal and testing schedule by end-of-shift.\"",
+    "original": "Prove it. I want a full proposal and testing schedule by end-of-shift.",
+    "translated": ""
+  },
+  {
+    "csv_row": 118,
+    "id": "ShroudedHullmodItemRCMantle5",
+    "column": "text",
+    "original": "Both jump to attention, having been so involved in their argument that neither noticed you approach.\n\n\"$PlayerSirOrMadam, yes $playerSirOrMadam,\" they say, saluting.",
+    "translated": ""
+  },
+  {
+    "csv_row": 119,
+    "id": "ShroudedHullmodItemRCMantle5l",
+    "column": "text",
+    "original": "Both jump to attention, having been so involved in their argument that neither noticed you approach.\n\n\"$PlayerSirOrMadam, yes $playerSirOrMadam,\" they say, saluting.",
+    "translated": ""
+  },
+  {
+    "csv_row": 120,
+    "id": "ShroudedHullmodItemRCMantle6",
+    "column": "text",
+    "original": "You consider the undeniable possibility that the Luddic faith would view any use of this technology as literally demonic. You could be declared a heretical outlaw and hunted by the Knights of Ludd and Luddic Path alike.",
+    "translated": ""
+  },
+  {
+    "csv_row": 120,
+    "id": "ShroudedHullmodItemRCMantle6",
+    "column": "options",
+    "option_line": "defaultLeave:\"As you were.\"",
+    "original": "As you were.",
+    "translated": ""
+  }
+]

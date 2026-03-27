@@ -1,0 +1,78 @@
+[
+  {
+    "csv_row": 10935,
+    "id": "gaDHOendingHeBelieves3aAbyss",
+    "column": "options",
+    "option_line": "gaDHO_endingHeBelievesNoPay:\"That won't be necessary. I'm satisfied with my profits.\"",
+    "original": "That won't be necessary. I'm satisfied with my profits.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10936,
+    "id": "gaDHOendingHeBelieves3aAbyssNo",
+    "column": "text",
+    "original": "\"If...\" He gives you an odd look. \"If you say so.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 10937,
+    "id": "gaDHOendingHeBelieves3b",
+    "column": "text",
+    "original": "He touches his forehead. \"Your payment!\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 10937,
+    "id": "gaDHOendingHeBelieves3b",
+    "column": "options",
+    "option_line": "gaDHO_endingHeBelievesNoPay:\"That won't be necessary. Knowledge is it's own reward.\"",
+    "original": "That won't be necessary. Knowledge is it's own reward.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10938,
+    "id": "gaDHOendingHeBelieves3bNo",
+    "column": "text",
+    "original": "\"I... I suppose it is.\"\n\nElek briefly attempts a sad smile before giving up.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10945,
+    "id": "gaDHOendingHeBelievesPay3",
+    "column": "options",
+    "option_line": "gaDHO_endingHazard0:\"... And the hazard pay.\"",
+    "original": "... And the hazard pay.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10954,
+    "id": "gaDHOendingHazOutTangent",
+    "column": "options",
+    "option_line": "gaDHO_endingTellFound:Tell him about what you found",
+    "original": "Tell him about what you found",
+    "translated": ""
+  },
+  {
+    "csv_row": 10955,
+    "id": "gaDHOendingHeBelievesOut",
+    "column": "options",
+    "option_line": "0:cutCommLink:Cut the commlink",
+    "original": "cutCommLink:Cut the commlink",
+    "translated": ""
+  },
+  {
+    "csv_row": 10963,
+    "id": "gaDHOendingWrapUpOptsB",
+    "column": "options",
+    "option_line": "gaDHO_endingWrapUp2b:\"Look at my $shipOrFleet. The Onslaught Mk.I is in orbit.\"",
+    "original": "Look at my $shipOrFleet. The Onslaught Mk.I is in orbit.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10965,
+    "id": "gaDHOendingWrapUp2b",
+    "column": "text",
+    "original": "He says nothing, motionless for several seconds, then taps at his datapad. His expression is grim as he sets his datapad deliberately onto his desk. Is it your imagination, or are his hands trembling?\n\n\"A holofeed hack, nothing more,\" he insists. \"It's trivial to fake, with resources and, and t-time. It's nothing at all.\"\n\n\"I'm... we're done here, captain.\" Elek's eyes wander around his office, as if searching for escape. \"G-good day, $playerSirOrMadam.\"",
+    "translated": ""
+  }
+]

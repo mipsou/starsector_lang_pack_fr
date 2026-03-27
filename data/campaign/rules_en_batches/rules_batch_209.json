@@ -1,0 +1,81 @@
+[
+  {
+    "csv_row": 5722,
+    "id": "gaATGzalMissionCreditsTake",
+    "column": "text",
+    "original": "\"D'accord... d'accord bien, le transfert est termine,\" dit Coureuse. \"Je suis juste contente de pouvoir aider un tant soit peu.\"\n\nGargoyle vous observe, immobile, avec juste un soupcon de sourire.",
+    "translated": ""
+  },
+  {
+    "csv_row": 5726,
+    "id": "gaATGzalMissionMakeItUp",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 5727,
+    "id": "gaATGzalMissionGotPlan",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 5728,
+    "id": "gaATGzalMissionShootPlan",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 5735,
+    "id": "gaATGkantaWield",
+    "column": "options",
+    "option_line": "gaATG_kantaPaymentZal:\"Mon paiement sera Zal.\"",
+    "original": "Mon paiement sera Zal.",
+    "translated": ""
+  },
+  {
+    "csv_row": 5759,
+    "id": "gaATGWorkingForKanta",
+    "column": "options",
+    "option_line": "gaVIP_informPirate:Informer le pirate que vous travaillez pour le Seigneur de guerre Kanta",
+    "original": "Informer le pirate que vous travaillez pour le Seigneur de guerre Kanta",
+    "translated": ""
+  },
+  {
+    "csv_row": 5792,
+    "id": "gaATGEpiphanyAskLoke",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 5795,
+    "id": "gaATGEpiphanyAskCredits",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 5798,
+    "id": "gaATGEpiphanyAskCottonAccept",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 5799,
+    "id": "gaATGEpiphanyAskCottonAcceptB",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  }
+]

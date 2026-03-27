@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 7719,
+    "id": "defaultJaspisGreeting",
+    "column": "text",
+    "original": "Vous parlez d'abord avec une sorte de secretaire qui vous persuade poliment de patienter.\n\nApres un court moment, l'image de l'Archicuree Jaspis apparait. Elle fait peu d'effort pour regarder le flux de communication tandis qu'elle s'affaire dans son bureau.\n\n\"Nous sommes benis par ce jour,\" dit-elle.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7719,
+    "id": "defaultJaspisGreeting",
+    "column": "options",
+    "option_line": "0:cutCommLinkPolite:Couper la comm",
+    "original": "cutCommLinkPolite:Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 7721,
+    "id": "defaultBornanewGreeting",
+    "column": "text",
+    "original": "The comms system provided by the Knights of Ludd for its members appears to be intentionally low-bandwidth. \n\n\"Good day, captain,\" he says, voice hollowed of its usual warmth. \n\nThe image of $global.jethroName Bornanew twitches occasionally before reforming based on the automation's best guess to fill the gaps in the feed.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7721,
+    "id": "defaultBornanewGreeting",
+    "column": "options",
+    "option_line": "0:cutCommLinkPolite:Couper la comm",
+    "original": "cutCommLinkPolite:Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 7723,
+    "id": "greetingStandfastDefault",
+    "column": "text",
+    "original": "Les communications mettent du temps a s'etablir, et la transmission est hachee, comme si elle passait par des relais endommages ou surcharges. Neanmoins, la Curatrice Sacraria Standfast apparait.\n\n\"Tiens, regardez qui echoue sur des rivages agites,\" dit-elle. \"Comment une servante de la Providence peut-elle vous aider en ce jour ?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7724,
+    "id": "standfastResponseOfferArms",
+    "column": "options",
+    "option_line": "0:standfastMakeOffering:Proposer de l'armement lourd pour l'insurrection",
+    "original": "standfastMakeOffering:Proposer de l'armement lourd pour l'insurrection",
+    "translated": ""
+  },
+  {
+    "csv_row": 7731,
+    "id": "greetingStandfastDiktat",
+    "column": "text",
+    "original": "Les communications mettent du temps a s'etablir, et la transmission est hachee, comme si elle passait par des relais endommages ou surcharges. Neanmoins, la Curatrice Sacraria Standfast apparait.\n\n\"Le vrai croyant est de retour,\" dit-elle froidement. \"Venu expliquer un nouveau compromis ?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7731,
+    "id": "greetingStandfastDiktat",
+    "column": "options",
+    "option_line": "0:cutCommLinkPolite:Couper la comm",
+    "original": "cutCommLinkPolite:Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 7733,
+    "id": "greetingVirensDefault",
+    "column": "text",
+    "original": "Apres une courte attente, votre demande de connexion est refusee.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7733,
+    "id": "greetingVirensDefault",
+    "column": "options",
+    "option_line": "0:cutCommLink:Couper la comm",
+    "original": "cutCommLink:Couper la comm",
+    "translated": ""
+  }
+]

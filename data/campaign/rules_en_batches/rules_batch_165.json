@@ -1,0 +1,81 @@
+[
+  {
+    "csv_row": 3951,
+    "id": "saic_giveCoreSel",
+    "column": "options",
+    "option_line": "saic_continueGiveCore:Piller le reste de la cache",
+    "original": "Piller le reste de la cache",
+    "translated": ""
+  },
+  {
+    "csv_row": 3952,
+    "id": "saic_takeCoreSel",
+    "column": "options",
+    "option_line": "saic_continueTakeCore:Piller le reste de la cache",
+    "original": "Piller le reste de la cache",
+    "translated": ""
+  },
+  {
+    "csv_row": 3980,
+    "id": "mercs_leavingInitial",
+    "column": "options",
+    "option_line": "mercs_answer:Accepter la demande de liaison comm",
+    "original": "Accepter la demande de liaison comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 3993,
+    "id": "delivery_completedButNoDocking",
+    "column": "text",
+    "original": "Vous ne pouvez pas honorer votre contrat de livraison pour le moment.",
+    "translated": ""
+  },
+  {
+    "csv_row": 4015,
+    "id": "salRuins_scattered",
+    "column": "options",
+    "option_line": "5:salExplore:Explorer the ruins",
+    "original": "salExplore:Explorer the ruins",
+    "translated": ""
+  },
+  {
+    "csv_row": 4016,
+    "id": "salRuins_widespread",
+    "column": "options",
+    "option_line": "5:salExplore:Explorer the ruins",
+    "original": "salExplore:Explorer the ruins",
+    "translated": ""
+  },
+  {
+    "csv_row": 4017,
+    "id": "salRuins_extensive",
+    "column": "options",
+    "option_line": "5:salExplore:Explorer the ruins",
+    "original": "salExplore:Explorer the ruins",
+    "translated": ""
+  },
+  {
+    "csv_row": 4018,
+    "id": "salRuins_vast",
+    "column": "options",
+    "option_line": "5:salExplore:Explorer the ruins",
+    "original": "salExplore:Explorer the ruins",
+    "translated": ""
+  },
+  {
+    "csv_row": 4020,
+    "id": "salRuinsGG_scattered",
+    "column": "options",
+    "option_line": "5:salExplore:Explorer the ruins",
+    "original": "salExplore:Explorer the ruins",
+    "translated": ""
+  },
+  {
+    "csv_row": 4021,
+    "id": "salRuinsGG_widespread",
+    "column": "options",
+    "option_line": "5:salExplore:Explorer the ruins",
+    "original": "salExplore:Explorer the ruins",
+    "translated": ""
+  }
+]

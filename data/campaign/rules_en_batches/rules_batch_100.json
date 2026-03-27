@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 2976,
+    "id": "BFFIpartyOutro1buyer",
+    "column": "options",
+    "option_line": "bffi_partyOutro2c:\"Thanks. What did you make of that Ulmus Pond?\"",
+    "original": "Thanks. What did you make of that Ulmus Pond?",
+    "translated": ""
+  },
+  {
+    "csv_row": 2979,
+    "id": "BFFIpartyOutro1horus",
+    "column": "text",
+    "original": "You place the glove into a clear-sided containment vessel, the kind used by salvors to take biological samples. Illuminated by the vessel's interior embedded glowstrips, the glove seems to be held in a reliquary shining with holy light.\n\n\"Mere evidence,\" Bornanew says, seeing your look. \"Now the question is, where did this come from?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2979,
+    "id": "BFFIpartyOutro1horus",
+    "column": "options",
+    "option_line": "bffi_partyOutro2b:\"What did you make of that Ulmus Pond?\"",
+    "original": "What did you make of that Ulmus Pond?",
+    "translated": ""
+  },
+  {
+    "csv_row": 2980,
+    "id": "BFFIpartyOutro1horus2",
+    "column": "text",
+    "original": "Bornanew places the glove carefully into a clear-sided containment vessel, the kind used by salvors to take biological samples. Illuminated by the vessel's interior embedded glowstrips, the glove seems to be held in a reliquary shining with holy light.\n\n\"Mere evidence,\" Bornanew says, seeing your look. \"Now the question is, where did this come from?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2980,
+    "id": "BFFIpartyOutro1horus2",
+    "column": "options",
+    "option_line": "bffi_partyOutro2b:\"What did you make of that Ulmus Pond?\"",
+    "original": "What did you make of that Ulmus Pond?",
+    "translated": ""
+  },
+  {
+    "csv_row": 2981,
+    "id": "BFFIpartyOutro2a",
+    "column": "text",
+    "original": "Bornanew raises an eyebrow at you. \"I wouldn't suppose, no.\"\n\nHe looks back to the glove in its containment vessel. \"The glove might answer our questions, however.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2982,
+    "id": "BFFIpartyOutro2b",
+    "column": "text",
+    "original": "\"He's a Pather agent,\" Bornanew says as if it were the most obvious thing in the world. He meets your look.\n\n\"We spoke briefly,\" he explains. \"The circumstantial evidence is convincing enough, but it was his heretical understanding of theology which I found truly damning.\"\n\n\"He may be connected, but first we should ask the glove.\" He looks back down at the glove in its containment vessel.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2983,
+    "id": "BFFIpartyOutro2c",
+    "column": "text",
+    "original": "\"He's a Pather agent,\" Bornanew says as if it were the most obvious thing in the world. He meets your look.\n\n\"We spoke briefly,\" he explains. \"The circumstantial evidence is convincing enough, but it was his heretical understanding of theology which I found truly damning.\"\n\n\"He's also a liar. So.\" He looks down at the glove once more.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2984,
+    "id": "BFFIpartyOutro3horus",
+    "column": "text",
+    "original": "\"A nanoforge engineer could tell us where this came from,\" he says. \"Who made it. When, and where. By that truth, we can judge the answers we receive from those we... interview.\" His last word is muted by the shuttle's maneuverings.\n\n\"The Church operates a nanoforge on the planet Asher, in the Canaan system. The engineers there will cooperate with the authority I bear, and despite mostly being nonbelievers, their discretion is already paid for by the Church. Our inquiry will be safe.\"\n\nHe pauses, and looks away. \"So far as anything is, in the Church.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2985,
+    "id": "BFFIpartyOutro3steal",
+    "column": "text",
+    "original": "\"A nanoforge engineer could tell us where this came from,\" he says. \"Who made it. When, and where. By that truth, we can judge the answers we receive from those we... interview.\" His last word is muted by the shuttle's maneuverings.\n\n\"The Church operates a nanoforge on the planet Asher, in the Canaan system. The engineers there will cooperate with the authority I bear, and despite mostly being nonbelievers, their discretion is already paid for by the Church. Our inquiry will be safe.\"\n\nHe pauses, and looks away. \"So far as anything is, in the Church.\"",
+    "translated": ""
+  }
+]

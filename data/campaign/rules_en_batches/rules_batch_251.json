@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 7868,
+    "id": "raoNerieneConvOut1",
+    "column": "text",
+    "original": "\"Indeed it is not,\" he says, waving the thought away.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7869,
+    "id": "raoNerieneConvOut2",
+    "column": "text",
+    "original": "\"She did,\" he says, holding you with a look for a long moment. Then says, \"Her mind is her business, of course.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7870,
+    "id": "raoNerieneConvOut3",
+    "column": "text",
+    "original": "\"Neriene was a talent. Her rebellion by way of abandoning the art...\" He looks away.\n\n\"It struck true,\" he says quietly, putting a hand on his chest. \"Anyway, you don't need an old man like me to tell you what to think. Her mind is her own business.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7871,
+    "id": "raoNerieneConvOutPitchCheckA",
+    "column": "text",
+    "original": "He is quiet for a moment, eyes on you. \"A thought occurs...\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7872,
+    "id": "raoNerieneConvOutPitchCheckB",
+    "column": "text",
+    "original": "He folds his hands together. \"Let us speak of other things.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7874,
+    "id": "raoAskDiktatMerc",
+    "column": "options",
+    "option_line": "rao_askDiktatMerc2:\"A merc on the Askonia fringe told me to visit Ragnar. I assume that means you.\"",
+    "original": "A merc on the Askonia fringe told me to visit Ragnar. I assume that means you.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7875,
+    "id": "raoAskDiktatMerc2",
+    "column": "text",
+    "original": "\"Is that so,\" he says, nonchalant. \"I wonder why they would have said that.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7875,
+    "id": "raoAskDiktatMerc2",
+    "column": "options",
+    "option_line": "rao_askDiktatMerc3:\"I think they were working for you. And under orders not to say so.\"",
+    "original": "I think they were working for you. And under orders not to say so.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7876,
+    "id": "raoAskDiktatMerc3",
+    "column": "options",
+    "option_line": "rao_askDiktatMerc4a:\"What? The Hegemony regularly employs mercenaries.\"",
+    "original": "What? The Hegemony regularly employs mercenaries.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7876,
+    "id": "raoAskDiktatMerc3",
+    "column": "options",
+    "option_line": "rao_askDiktatMerc4b:\"If it's a fight against the Diktat, I want to be a part of it.\"",
+    "original": "If it's a fight against the Diktat, I want to be a part of it.",
+    "translated": ""
+  }
+]

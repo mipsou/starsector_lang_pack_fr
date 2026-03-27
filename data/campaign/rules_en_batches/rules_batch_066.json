@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 2608,
+    "id": "BFFIonBoardEndHostilePL3c",
+    "column": "text",
+    "original": "He gives you a look. \"My speculation on behalf of his character, captain.\"\n\nBornanew shuts his notebook somewhat more forcefully than the first time.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2609,
+    "id": "BFFIonBoardEndHostilePL4",
+    "column": "text",
+    "original": "Bornanew shuts his notebook again.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2613,
+    "id": "BFFImeetMenes2",
+    "column": "text",
+    "original": "A tap confirms that Bornanew is receiving a split of the comms feed.\n\n\"Indeed!\" Menes says, perking up. \"In truth, I consider myself something of an antiquarian. It provides me with a... a connection to the great individuals who have come before and changed the worlds for,\" he pauses for drama, \"...good or ill.\"\n\n\"If I may, if I may,\" he says, growing more excited by the moment, \"I did peek at your dossier before accepting the comm link. I'm given to understand you're something of an adventurer? Perhaps you've stumbled on historical objects of interest in your travels?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2613,
+    "id": "BFFImeetMenes2",
+    "column": "options",
+    "option_line": "BFFI_meetMenes3c:\"I've seen things you wouldn't believe. Attack ships on fire off the Orion-Perseus abyss...\"",
+    "original": "I've seen things you wouldn't believe. Attack ships on fire off the Orion-Perseus abyss...",
+    "translated": ""
+  },
+  {
+    "csv_row": 2614,
+    "id": "BFFImeetMenes2hostile",
+    "column": "text",
+    "original": "A tap confirms that Bornanew is receiving a split of the comms feed.\n\n\"Indeed!\" Menes says, perking up. \"I consider myself something of an antiquarian. It provides a... a connection to the great individuals who have come before and changed the worlds for,\" he pauses for drama, \"...good or ill.\"\n\n\"If I may, if I may,\" he says, more excited by the moment, \"I did peek at your dossier before accepting the comm link. You've made some people very angry, haven't you. How... disreputable.\"\n\nYou're not sure you've seen someone's eyes twinkle before, but you swear that his just did.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2615,
+    "id": "BFFImeetMenes2hostile2",
+    "column": "text",
+    "original": "\"I'm given to understand you're something of an adventurer,\" he continues. \"A rogue element, if you will. You play by your own rules. I like to think I'm of like mind,\" he says with a wink.\n\n\"Perhaps you've stumbled on historical objects of interest in your... adventures?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2615,
+    "id": "BFFImeetMenes2hostile2",
+    "column": "options",
+    "option_line": "BFFI_meetMenes3c:\"I've seen things you wouldn't believe. Attack ships on fire off the Orion-Perseus abyss...\"",
+    "original": "I've seen things you wouldn't believe. Attack ships on fire off the Orion-Perseus abyss...",
+    "translated": ""
+  },
+  {
+    "csv_row": 2619,
+    "id": "BFFImeetMenes3",
+    "column": "text",
+    "original": "\"Splendid!\" Menes gushes, \"Absolutely splendid!\"\n\n\"You simply must join one of my little weekly gatherings. Just a little get together of what few cultured minds may be found in this ghastly backwater. We'd adore hearing about your adventures. Oh, a legitimate spacer captain would lend some spice to the event! I am excited.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2620,
+    "id": "BFFImeetMenes3guest",
+    "column": "text",
+    "original": "\"And I'll have to make sure to invite-\" Menes is smiling, distracted by his own party planning. \"-ah, a guest? I'm sure it'd be no bother. Who did you have in mind?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2620,
+    "id": "BFFImeetMenes3guest",
+    "column": "options",
+    "option_line": "BFFI_meetMenes4a:\"A hardened criminal who changed his name and became a Knight of Ludd.\"",
+    "original": "A hardened criminal who changed his name and became a Knight of Ludd.",
+    "translated": ""
+  }
+]

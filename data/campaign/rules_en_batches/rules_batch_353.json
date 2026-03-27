@@ -1,0 +1,81 @@
+[
+  {
+    "csv_row": 10817,
+    "id": "gaDHOvisitElekHubOptC",
+    "column": "options",
+    "option_line": "gaDHO_visitElekHubSelC:\"Why is this data so important? What did this sensor array find?\"",
+    "original": "Why is this data so important? What did this sensor array find?",
+    "translated": ""
+  },
+  {
+    "csv_row": 10818,
+    "id": "gaDHOvisitElekHubOptA",
+    "column": "options",
+    "option_line": "gaDHO_visitElekHubSelA:\"In your message, you mentioned a reward. The words 'vast fortune' were used.\"",
+    "original": "In your message, you mentioned a reward. The words 'vast fortune' were used.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10819,
+    "id": "gaDHOvisitElekHubOptA2",
+    "column": "options",
+    "option_line": "gaDHO_visitElekHubSelA2:\"I didn't get a clear answer about this reward. How much is it?\"",
+    "original": "I didn't get a clear answer about this reward. How much is it?",
+    "translated": ""
+  },
+  {
+    "csv_row": 10820,
+    "id": "gaDHOvisitElekHubOptB",
+    "column": "options",
+    "option_line": "gaDHO_visitElekHubSelB:\"Who exactly is this 'friend' of yours?\"",
+    "original": "Who exactly is this 'friend' of yours?",
+    "translated": ""
+  },
+  {
+    "csv_row": 10828,
+    "id": "gaDHOvisitElekHubSelA2",
+    "column": "options",
+    "option_line": "gaDHO_visitElekHubSelA2b:\"Are you sure? Sounds low for a trip to the Fringe, much less the Abyss.\"",
+    "original": "Are you sure? Sounds low for a trip to the Fringe, much less the Abyss.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10828,
+    "id": "gaDHOvisitElekHubSelA2",
+    "column": "options",
+    "option_line": "gaDHO_visitElekHubSelA2a:\"Uh, thank you. That seems... sufficient.\"",
+    "original": "Uh, thank you. That seems... sufficient.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10830,
+    "id": "gaDHOvisitElekHubSelA2b",
+    "column": "text",
+    "original": "\"It does?\" Elek is taken aback. \"I was sure that was enough. Maybe it was 50,000?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 10832,
+    "id": "gaDHOvisitElekHubSelA3",
+    "column": "options",
+    "option_line": "gaDHO_visitElekHubSelA4b:\"100,000 would be the baseline. And a large hazard fee for the Abyss.\"",
+    "original": "100,000 would be the baseline. And a large hazard fee for the Abyss.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10832,
+    "id": "gaDHOvisitElekHubSelA3",
+    "column": "options",
+    "option_line": "gaDHO_visitElekHubSelA4a:\"Uh, thank you. That seems... sufficient.\"",
+    "original": "Uh, thank you. That seems... sufficient.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10834,
+    "id": "gaDHOvisitElekHubSelA4b",
+    "column": "options",
+    "option_line": "gaDHO_visitElekHubSelA5a:\"Tri-Tachyon is backing your project?\"",
+    "original": "Tri-Tachyon is backing your project?",
+    "translated": ""
+  }
+]

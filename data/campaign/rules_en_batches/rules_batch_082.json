@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 2796,
+    "id": "BFFImenesPartySteal14b",
+    "column": "options",
+    "option_line": "bffi_mpSteal15:Try to remain standing",
+    "original": "Try to remain standing",
+    "translated": ""
+  },
+  {
+    "csv_row": 2798,
+    "id": "BFFImenesPartySteal15",
+    "column": "text",
+    "original": "\"You there,\" Menes calls out, \"Knight $global.jethroName, get yourself off the floor. Come wash your face, you look absolutely disgusting. Back to the party! Drinks are on me, ha-ha!\"\n\nAs almost an afterthought he calls to the security team, \"You lot, clean this up and get out of here... ruining the mood.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2799,
+    "id": "BFFImenesPartySteal16",
+    "column": "text",
+    "original": "You and Bornanew, he given a basin and washcloth by a servitor, are hauled back into the party, and the entire crowd regaled with the story of Bornanew being overcome with awe at the relic and then caught setting off the security alarm.\n\nMenes seems to find it more hilarious with every telling - and each additional round of drinks. His dutiful entourage joins in the laughter each time. The skinny man, Ulmus Pond, has a particularly manic, piercing laugh.\n\nIt is some time before you are able to get a quiet word in with $global.jethroName.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2799,
+    "id": "BFFImenesPartySteal16",
+    "column": "options",
+    "option_line": "bffi_mpSteal17a:\"What in Ludd's seven hells was that?\"",
+    "original": "What in Ludd's seven hells was that?",
+    "translated": ""
+  },
+  {
+    "csv_row": 2799,
+    "id": "BFFImenesPartySteal16",
+    "column": "options",
+    "option_line": "bffi_mpSteal17b:\"What went wrong?\"",
+    "original": "What went wrong?",
+    "translated": ""
+  },
+  {
+    "csv_row": 2800,
+    "id": "BFFImenesPartySteal17a",
+    "column": "text",
+    "original": "\"I beg pardon for your blasphemy, captain,\" Bornanew says with a hint of strain in his voice. \"Ludd's conception of hell was, so much as the Word reveals, a description of mortal torment in a Domain without God.\"\n\n\"But I do have the glove. What remains is-\" an almost malicious smile briefly appears, \"a fake.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2801,
+    "id": "BFFImenesPartySteal17b",
+    "column": "text",
+    "original": "\"Little, but for the monotony of my humiliation, however justly earned,\" Bornanew says with a hint of strain in his voice. \"But I do have the glove. What remains is a-\" an almost malicious smile very briefly appears, \"fake.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2802,
+    "id": "BFFImenesPartySteal17c",
+    "column": "text",
+    "original": "He lifts a finger to his lips, and with his other hand pats a fold in his Knight's robes.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2802,
+    "id": "BFFImenesPartySteal17c",
+    "column": "options",
+    "option_line": "bffi_mpSteal18d:\"You had a fake glove? This whole time?\"",
+    "original": "You had a fake glove? This whole time?",
+    "translated": ""
+  },
+  {
+    "csv_row": 2802,
+    "id": "BFFImenesPartySteal17c",
+    "column": "options",
+    "option_line": "bffi_mpSteal18a:\"Good work, $global.jethroName. Great work, in fact.\"",
+    "original": "Good work, $global.jethroName. Great work, in fact.",
+    "translated": ""
+  }
+]

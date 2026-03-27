@@ -1,0 +1,79 @@
+[
+  {
+    "csv_row": 556,
+    "id": "TTpatrolWeirdMods5a",
+    "column": "text",
+    "original": "$HeOrShe looks aside again. \"My apologies, I wasn't meant to tell you that part. The reward is for me.\"\n\nA smile breaks through $hisOrHer nervous demeanor. \"-For finding you. I should thank you, Captain $playerLastName.\"\n\n\"So... Thank you.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 557,
+    "id": "TTpatrolWeirdMods5b",
+    "column": "text",
+    "original": "$HeOrShe looks skeptical. \"You don't... You haven't heard of Director Glamor-Rotanev? Hmm.\"\n\nThe $post takes a conflicted moment to think.\n\n\"Let's just say it's above my pay grade.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 558,
+    "id": "TTpatrolWeirdMods6",
+    "column": "text",
+    "original": "$HeOrShe pretends to cough, then says \"I'll send you the attached address. Good luck.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 563,
+    "id": "greetingDiktatHostileWeaker",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 564,
+    "id": "greetingDiktatHostileWeakerDefiant",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 565,
+    "id": "greetingDiktatHostileStronger",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 569,
+    "id": "greetingLCHostileWeaker",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 570,
+    "id": "greetingLCHostileWeakerDefiant",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 571,
+    "id": "greetingLCHostileStronger",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 575,
+    "id": "greetingLPHostileWeaker",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  }
+]

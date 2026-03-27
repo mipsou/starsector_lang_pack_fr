@@ -1,0 +1,81 @@
+[
+  {
+    "csv_row": 10513,
+    "id": "DevBarOOCtest",
+    "column": "options",
+    "option_line": "dev_barOOCfreeDrink:On Own Colony free drink event",
+    "original": "On Own Colony free drink event",
+    "translated": ""
+  },
+  {
+    "csv_row": 10514,
+    "id": "DevBarHREtest",
+    "column": "options",
+    "option_line": "dev_barHighRepEventTest:High rep bar event test",
+    "original": "High rep bar event test",
+    "translated": ""
+  },
+  {
+    "csv_row": 10515,
+    "id": "DevBarLREtest",
+    "column": "options",
+    "option_line": "dev_barLREtest:Low rep bar event test",
+    "original": "Low rep bar event test",
+    "translated": ""
+  },
+  {
+    "csv_row": 10517,
+    "id": "DevBarSetMetEveryone",
+    "column": "options",
+    "option_line": "dev_barSetMetEveryone:Player met everyone who gives unique HRE anecdote",
+    "original": "Player met everyone who gives unique HRE anecdote",
+    "translated": ""
+  },
+  {
+    "csv_row": 10520,
+    "id": "DevBarSetMetEveryone2",
+    "column": "text",
+    "original": "Termine.\n\nNOTE : ceci est un truc en force brute pour les tests. Il est possible que cela casse d'autres missions dans le jeu, donc ne lancez pas ca avant d'avoir teste le reste.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10548,
+    "id": "BarHREHumble2",
+    "column": "options",
+    "option_line": "barHRE_goToNormalBar:Regarder autour de vous dans le bar",
+    "original": "Regarder autour de vous dans le bar",
+    "translated": ""
+  },
+  {
+    "csv_row": 10549,
+    "id": "BarHRE0calm",
+    "column": "options",
+    "option_line": "barHighRepEvent0join:Autant les rejoindre pour un verre",
+    "original": "Autant les rejoindre pour un verre",
+    "translated": ""
+  },
+  {
+    "csv_row": 10550,
+    "id": "BarHRE0nod",
+    "column": "options",
+    "option_line": "barHRE_goToNormalBar:Regarder autour de vous dans le bar",
+    "original": "Regarder autour de vous dans le bar",
+    "translated": ""
+  },
+  {
+    "csv_row": 10552,
+    "id": "BarHREtransitionOut",
+    "column": "options",
+    "option_line": "barHRE_goToNormalBar:Regarder autour de vous dans le bar",
+    "original": "Regarder autour de vous dans le bar",
+    "translated": ""
+  },
+  {
+    "csv_row": 10553,
+    "id": "BarHREtransitionOutB",
+    "column": "options",
+    "option_line": "barHRE_goToNormalBar:Regarder autour de vous dans le bar",
+    "original": "Regarder autour de vous dans le bar",
+    "translated": ""
+  }
+]

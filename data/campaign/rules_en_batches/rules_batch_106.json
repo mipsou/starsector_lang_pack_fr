@@ -1,0 +1,80 @@
+[
+  {
+    "csv_row": 3033,
+    "id": "BFFIulmusPondNotHere",
+    "column": "options",
+    "option_line": "bffi_ulmusPondNotHere2:\"You're sure. How do you know this?\"",
+    "original": "You're sure. How do you know this?",
+    "translated": ""
+  },
+  {
+    "csv_row": 3034,
+    "id": "BFFIulmusPondNotHere2",
+    "column": "options",
+    "option_line": "bffi_ulmusPondNotHere3:\"Your oath. Of course.\"",
+    "original": "Your oath. Of course.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3035,
+    "id": "BFFIulmusPondNotHere3",
+    "column": "text",
+    "original": "\"Yes.\" Bornanew clears his throat.\n\n\"The word is that he has fled to Chalcedon on a tramp freighter, a smuggler, known to move materiel for the Luddic Path.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3035,
+    "id": "BFFIulmusPondNotHere3",
+    "column": "options",
+    "option_line": "bffi_ulmusPondNotHere4a:\"Does an innocent man run?\"",
+    "original": "Does an innocent man run?",
+    "translated": ""
+  },
+  {
+    "csv_row": 3035,
+    "id": "BFFIulmusPondNotHere3",
+    "column": "options",
+    "option_line": "bffi_ulmusPondNotHere4b:\"Then we follow.\"",
+    "original": "Then we follow.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3036,
+    "id": "BFFIulmusPondNotHere4a",
+    "column": "text",
+    "original": "He turns his head. \"He might, if he had to. But I suspect that Ulmus is not an innocent man.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3039,
+    "id": "BFFIupNotHereConvOptB",
+    "column": "options",
+    "option_line": "bffi_upNotHereAskRole:\"What's Ulmus Pond's role? What does finding him do for us?\"",
+    "original": "What's Ulmus Pond's role? What does finding him do for us?",
+    "translated": ""
+  },
+  {
+    "csv_row": 3040,
+    "id": "BFFIupNotHereConvOptC",
+    "column": "options",
+    "option_line": "bffi_upNotHereSourcesB:\"What if these are pirates, or a major faction misleading us?\"",
+    "original": "What if these are pirates, or a major faction misleading us?",
+    "translated": ""
+  },
+  {
+    "csv_row": 3041,
+    "id": "BFFIupNotHereConvOptD",
+    "column": "options",
+    "option_line": "bffi_upNotHereSourcesA:\"Before we act, let us speak of your Knights' 'sources'.\"",
+    "original": "Before we act, let us speak of your Knights' 'sources'.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3042,
+    "id": "BFFIupNotHereConvOptE",
+    "column": "options",
+    "option_line": "bffi_upNotHereIntentions:\"Could your queries have revealed our intentions?\"",
+    "original": "Could your queries have revealed our intentions?",
+    "translated": ""
+  }
+]

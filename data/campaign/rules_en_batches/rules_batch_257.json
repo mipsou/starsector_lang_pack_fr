@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 7949,
+    "id": "RaoPitchLeagueHannanBprot",
+    "column": "text",
+    "original": "Rao holds a finger to his cheek for a moment, thinking.\n\n\"It could be earned,\" he says. \"But that's up to you.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7950,
+    "id": "RaoPitchLeagueHannanC",
+    "column": "text",
+    "original": "\"What admirable loyalty! How Reynard earns it, I've never understood. I must study his leadership closely, for I obviously have much to learn.\" The sarcasm runs thick.\n\nRao sits back, face falling into shadow.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7951,
+    "id": "RaoPitchLeagueYaribay",
+    "column": "text",
+    "original": "\"Seeing as you're a full, albeit junior, member of the Persean League... we can't have you in a position of divided loyalty, can we.\"\n\nHe produces a little shrug.\n\n\"But perhaps,\" he looks aside. \"We might have a mutual friend on Kazeron?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7952,
+    "id": "RaoPitchLeagueYaribayMum",
+    "column": "text",
+    "original": "\"I understand. Keeping with his trust is more important than serving that goal.\" He leans back, \"It's interesting.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7952,
+    "id": "RaoPitchLeagueYaribayMum",
+    "column": "options",
+    "option_line": "rao_pitchYaribayMum2a:\"Speculate if you like, I have nothing to say.\"",
+    "original": "Speculate if you like, I have nothing to say.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7954,
+    "id": "RaoPitchLeagueYaribayMum2b",
+    "column": "text",
+    "original": "Rao raises an eyebrow, his expression amused.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7955,
+    "id": "RaoPitchLeagueYaribay2",
+    "column": "text",
+    "original": "He smiles coyly, leaving your statement deliberately unanswered.\n\n\"It is possible our work together would serve certain common goals.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7955,
+    "id": "RaoPitchLeagueYaribay2",
+    "column": "options",
+    "option_line": "rao_pitchNopeGentle:\"Thank you for the offer, but perhaps not just now.\"",
+    "original": "Thank you for the offer, but perhaps not just now.",
+    "translated": ""
+  },
+  {
+    "csv_row": 7957,
+    "id": "RaoPitchChurchMaybe",
+    "column": "text",
+    "original": "\"The Hegemony is no stranger to making common cause with the Church of Galactic Redemption...\" He makes a half-shrug.\n\n\"I suppose,\" he says slowly, \"If you can put up with me, I can deal with your god-bothering.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 7957,
+    "id": "RaoPitchChurchMaybe",
+    "column": "options",
+    "option_line": "rao_pitchNopeGentle:\"Thank you for the offer, but perhaps not just now.\"",
+    "original": "Thank you for the offer, but perhaps not just now.",
+    "translated": ""
+  }
+]

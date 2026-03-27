@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 6002,
+    "id": "asebScholarshipPitchAgainSel",
+    "column": "text",
+    "original": "\"Of course, I'm more than happy to discuss a scholarship.\" Sebestyen starts tapping away at his terminal, pulling up the required forms.\n\n\"You have the chance to provide real opportunities to the up-and-coming minds of the next generation, a truly noble cause!\"\n\nHe clears his throat. \"So, um. It's only really worth doing if we can put at least 100,000 credits into a trust...\"\n\nYou have $player.credits credits available.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6002,
+    "id": "asebScholarshipPitchAgainSel",
+    "column": "options",
+    "option_line": "aseb_scholarship100k:\"I'll give 100,000 credits. For our future.\"",
+    "original": "I'll give 100,000 credits. For our future.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6002,
+    "id": "asebScholarshipPitchAgainSel",
+    "column": "options",
+    "option_line": "aseb_scholarship200k:\"Double it, 200,000 credits.\"",
+    "original": "Double it, 200,000 credits.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6002,
+    "id": "asebScholarshipPitchAgainSel",
+    "column": "options",
+    "option_line": "aseb_scholarship500k:\"Can you do 500,000 credits?\"",
+    "original": "Can you do 500,000 credits?",
+    "translated": ""
+  },
+  {
+    "csv_row": 6002,
+    "id": "asebScholarshipPitchAgainSel",
+    "column": "options",
+    "option_line": "aseb_scholarshipBack:\"Ah, interesting. Perhaps another time?\"",
+    "original": "Ah, interesting. Perhaps another time?",
+    "translated": ""
+  },
+  {
+    "csv_row": 6007,
+    "id": "asebScholarship200k",
+    "column": "text",
+    "original": "\"Fantastic!\" Sebestyen beams a smile at you. \"That's so, so... you're a very generous captain, um, captain. This will do so much to provide for our students who don't come from families of means...\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 6008,
+    "id": "asebScholarship500k",
+    "column": "text",
+    "original": "\"I, I, I-\" Sebestyen gapes, at a loss for words at your generosity.\n\nYou patiently allow him a few moments to recover, because he needs them.\n\n\"I, of course, yes, absolutely captain. Wow! This is incredible! I don't know what to say.\" He looks around, smiling, and a bit dazed.",
+    "translated": ""
+  },
+  {
+    "csv_row": 6009,
+    "id": "asebScholarshipBack",
+    "column": "text",
+    "original": "\"Ah, I- of course, yes.\" Sebestyen taps a key, closing the work he already started. \"If you change your mind, just let me know at any time.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 6010,
+    "id": "asebScholarshipCause",
+    "column": "text",
+    "original": "\"Oh!\" He looks at his terminal for a moment. \"You have an opportunity to, um, is there some particular cause you would like to promote through your scholarship trust? As the patron, it's up to you.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 6011,
+    "id": "asebScholarshipCauseA",
+    "column": "options",
+    "option_line": "aseb_scholarshipCauseA:\"I wish to help those who cannot afford to attend the Academy on their own.\"",
+    "original": "I wish to help those who cannot afford to attend the Academy on their own.",
+    "translated": ""
+  }
+]

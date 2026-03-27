@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 2754,
+    "id": "BFFIattendParty3b",
+    "column": "text",
+    "original": "\"May this day be blessed by Providence,\" he says.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2755,
+    "id": "BFFIattendParty3",
+    "column": "text",
+    "original": "Bornanew nods, not quite a bow, with his hands held together. Perhaps to avoid Menes' much-ringed hands from grabbing his. You are not so lucky, and must endure an overlong handshake.\n\nMenes is delighted at all of this, eyes flashing with something akin to greed.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2756,
+    "id": "BFFIattendPartyHub1Intro1",
+    "column": "text",
+    "original": "Menes leads you past gilded statues posed to guard the portal to the main complex; the forms are evocative of splashes of molten gold frozen by happenstance into sensual humanoid figures.\n\nYou endure a rolling barrage of patter from Menes about the expense of renovations, the acquisition of artworks, the exclusivity of access to particular artists and engineering firms who have contributed to his home, his manor, and its collection.\n\nOccasionally a robotic or human servitor appears to offer drinks or nibbles, and you've a growing feeling that Menes has picked up a glass from one only to place it back on the tray of another without ever taking a sip between the two.\n\nA fresh glass in hand, delicate amber liquid fizzing away, Menes leads you into what can only be his prize entertaining space.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2757,
+    "id": "BFFIattendPartyHub1Intro2",
+    "column": "text",
+    "original": "The space is at once cavernous and intimate; the sightlines and carved, wrought, and woven details calculated to replicate the appearance of cozy warmth like the den of some thoughtful patron of art, history, and literature.\n\nA double handful of well-dressed remoras mill about, interrupting their conversations to smile and lift a glass as Menes enters. They look to be a collection of industrialists, financiers, distant gens-relatives, and at least one officer from atop the local military detachment who appears a little worse for his drink. Most nod to you and Bornanew, eyes not lingering to the point of impoliteness.\n\nOne skinny man in a finely embroidered suit has no such compunction, and rushes to greet your party, eyes agog at the newest additions to Menes' collection.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2758,
+    "id": "BFFIattendPartyHub1Intro3",
+    "column": "text",
+    "original": "He nearly trips over himself to speak. \"The great Captain $playerName! If half of what Menes has said is true... why, half the Sector must tremble at the appearance of your $shipOrFleet!\"\n\n\"We'll have to ask Navarch Atreus over there what he thinks of your combat record,\" the man grins wickedly, \"If he hasn't had too many of these, of course; with all thanks to our kind host, a true gentleman and scholar.\" He lifts his glass approvingly at Menes, and you see his eyes slide toward Bornanew.\n\n\"And Jethro Bornanew, I believe? A Knight of Ludd?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2759,
+    "id": "BFFIattendPartyHub1Intro4",
+    "column": "options",
+    "option_line": "bffi_attendPartyHub1Intro4a:\"Pleased to meet you...?\"",
+    "original": "Pleased to meet you...?",
+    "translated": ""
+  },
+  {
+    "csv_row": 2759,
+    "id": "BFFIattendPartyHub1Intro4",
+    "column": "options",
+    "option_line": "bffi_attendPartyHub1Intro5b:Ne rien dire",
+    "original": "Ne rien dire",
+    "translated": ""
+  },
+  {
+    "csv_row": 2759,
+    "id": "BFFIattendPartyHub1Intro4",
+    "column": "options",
+    "option_line": "bffi_attendPartyHub1Intro5c:\"No need to be prickly, $global.jethroName, the man is being friendly.\"",
+    "original": "No need to be prickly, $global.jethroName, the man is being friendly.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2761,
+    "id": "BFFIattendPartyHub1Intro4c",
+    "column": "text",
+    "original": "Bornanew forces out the equivalent of a smile.\n\n\"Of course, captain.\" He turns to the man. \"Pray forgive me, sir, my forgotten manners,\" he says.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2762,
+    "id": "BFFIattendPartyHub1Intro5",
+    "column": "text",
+    "original": "Menes laughs heartily.\n\n\"Let me introduce Ulmus Pond,\" he says. \"Now he'll claim to be a mere commodities trader,\" Menes winks as if you are in on a shared joke, \"but I daresay he knows everyone of any importance in the Kumari Kandam system. And if you need anything.\" He lowers his voice, \"Anything at all. He's your man.\"\n\nPond, grinning widely, makes a brushing-off gesture as if to dismiss Menes' words - but not so assertively as to deny them.",
+    "translated": ""
+  }
+]

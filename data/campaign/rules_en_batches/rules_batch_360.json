@@ -1,0 +1,82 @@
+[
+  {
+    "csv_row": 10980,
+    "id": "gaDHOjustFoundArray5",
+    "column": "options",
+    "option_line": "gaDHO_justFoundArrayEndElek:Talk to Academician Elek at the Galatia Academy first",
+    "original": "Talk to Academician Elek at the Galatia Academy first",
+    "translated": ""
+  },
+  {
+    "csv_row": 10980,
+    "id": "gaDHOjustFoundArray5",
+    "column": "options",
+    "option_line": "gaDHO_justFoundArrayEndAbyss:Why wait? Go straight to the coordinates in the Abyss",
+    "original": "Why wait? Go straight to the coordinates in the Abyss",
+    "translated": ""
+  },
+  {
+    "csv_row": 10986,
+    "id": "gaDHOabyssEndElekStart",
+    "column": "options",
+    "option_line": "3:gaDHO_visitElekStart2:Ask where you could find the office of Cornelius Elek",
+    "original": "gaDHO_visitElekStart2:Ask where you could find the office of Cornelius Elek",
+    "translated": ""
+  },
+  {
+    "csv_row": 10988,
+    "id": "gaDHOabyssEndElekIntro2",
+    "column": "options",
+    "option_line": "gaDHO_visitElekAltIntro2b:\"They probably didn't make it. I'm sorry.\"",
+    "original": "They probably didn't make it. I'm sorry.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10988,
+    "id": "gaDHOabyssEndElekIntro2",
+    "column": "options",
+    "option_line": "gaDHO_visitElekAltIntro2c:\"If they're not back yet, they're probably dead.\"",
+    "original": "If they're not back yet, they're probably dead.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10989,
+    "id": "gaDHOabyssEndElekAltIntro3",
+    "column": "options",
+    "option_line": "gaDHO_abyssEndElekIntro1:\"Yes. It worked. It gave me coordinates in the Abyss and I went there.\"",
+    "original": "Yes. It worked. It gave me coordinates in the Abyss and I went there.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10990,
+    "id": "gaDHOabyssEndIntroPayment",
+    "column": "options",
+    "option_line": "gaDHO_abyssEndElekIntro1:\"Right. It worked, gave me coordinates in the Abyss, and I went there.\"",
+    "original": "Right. It worked, gave me coordinates in the Abyss, and I went there.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10990,
+    "id": "gaDHOabyssEndIntroPayment",
+    "column": "options",
+    "option_line": "gaDHO_abyssEndElekMyData:\"Fine. We can talk about MY discovery first. Then payment.\"",
+    "original": "Fine. We can talk about MY discovery first. Then payment.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10990,
+    "id": "gaDHOabyssEndIntroPayment",
+    "column": "options",
+    "option_line": "gaDHO_abyssEndElekMyDiscovery:\"It's MY discovery. And we'll talk about payment if you want any part in it.\"",
+    "original": "It's MY discovery. And we'll talk about payment if you want any part in it.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10993,
+    "id": "gaDHOabyssEndStartOptsA",
+    "column": "options",
+    "option_line": "gaDHO_abyssEndFoundFirst:\"First, I want to talk about what I found. It was... hazardous.\"",
+    "original": "First, I want to talk about what I found. It was... hazardous.",
+    "translated": ""
+  }
+]

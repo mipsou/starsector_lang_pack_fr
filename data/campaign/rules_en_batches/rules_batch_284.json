@@ -1,0 +1,79 @@
+[
+  {
+    "csv_row": 8417,
+    "id": "ZGRstartPitch2optsB",
+    "column": "options",
+    "option_line": "zgr_makePitch3z:\"I found some mercs in the Abyss who appeared to regret their deal with you.\"",
+    "original": "I found some mercs in the Abyss who appeared to regret their deal with you.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8417,
+    "id": "ZGRstartPitch2optsB",
+    "column": "options",
+    "option_line": "zgr_makePitch3a:\"Returns, you say. That sounds like a lot of credits.\"",
+    "original": "Returns, you say. That sounds like a lot of credits.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8417,
+    "id": "ZGRstartPitch2optsB",
+    "column": "options",
+    "option_line": "zgr_makePitch3b:\"Exploration and new technology is of interest to me.\"",
+    "original": "Exploration and new technology is of interest to me.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8417,
+    "id": "ZGRstartPitch2optsB",
+    "column": "options",
+    "option_line": "zgr_makePitch3c:\"You speak of meddling in things which should be left alone.\"",
+    "original": "You speak of meddling in things which should be left alone.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8418,
+    "id": "ZGRstartPitch3z",
+    "column": "text",
+    "original": "Her head gives a small twitch.\n\n\"Regret, you say.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8418,
+    "id": "ZGRstartPitch3z",
+    "column": "options",
+    "option_line": "zgr_makePitch3zA:\"They used rather stronger language to express the sentiment.\"",
+    "original": "They used rather stronger language to express the sentiment.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8418,
+    "id": "ZGRstartPitch3z",
+    "column": "options",
+    "option_line": "zgr_makePitch3zB:\"They came to a poor end. I should like to avoid that for myself.\"",
+    "original": "They came to a poor end. I should like to avoid that for myself.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8419,
+    "id": "ZGRstartPitch3zA",
+    "column": "text",
+    "original": "\"I see,\" she says.\n\n\"You found them. In the Abyss. And returned.\" The Director pauses a moment. \"This simply proves your fitness for the operation.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8419,
+    "id": "ZGRstartPitch3zA",
+    "column": "options",
+    "option_line": "zgr_makePitch3c:\"It's dangerous out there. Very dangerous.\"",
+    "original": "It's dangerous out there. Very dangerous.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8420,
+    "id": "ZGRstartPitch3zB",
+    "column": "text",
+    "original": "\"Evidently, you already have,\" she says.\n\n\"This simply proves your fitness for the operation.\"",
+    "translated": ""
+  }
+]

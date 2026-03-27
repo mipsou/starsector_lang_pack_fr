@@ -1,0 +1,74 @@
+[
+  {
+    "csv_row": 8517,
+    "id": "GRBHexamineA",
+    "column": "text",
+    "original": "He laughs beautifully.\n\n\"Most welcome. You're holding the opportunity of a lifetime,\" he says with a wink. \"I recommend you have a chat with Director Glamor-Rotanev. At your earliest convenience, of course.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8518,
+    "id": "GRBHexamineB",
+    "column": "text",
+    "original": "He laughs beautifully.\n\n\"Oh, oh no,\" he says, almost bashful. \"You're holding the opportunity of a lifetime. I recommend you have a chat with Director Glamor-Rotanev. At your earliest convenience, of course.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8519,
+    "id": "GRBHexamineC",
+    "column": "text",
+    "original": "He laughs beautifully.\n\n\"You're holding the opportunity of a lifetime,\" he says with a wink. \"I recommend you have a chat with Director Glamor-Rotanev. At your earliest convenience, of course.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8520,
+    "id": "GRBHexamineAagain",
+    "column": "text",
+    "original": "He laughs beautifully, again.\n\n\"Most welcome. You're holding the opportunity of a lifetime,\" he says with a wink. \"I recommend you have a chat with Director Glamor-Rotanev. At your earliest convenience, of course.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8521,
+    "id": "GRBHexamineBagain",
+    "column": "text",
+    "original": "He laughs beautifully, again.\n\n\"Oh, oh no,\" he says, almost bashful. \"You're holding the opportunity of a lifetime. I recommend you have a chat with Director Glamor-Rotanev. At your earliest convenience, of course.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8522,
+    "id": "GRBHexamineCagain",
+    "column": "text",
+    "original": "He laughs beautifully, again.\n\n\"You're holding the opportunity of a lifetime,\" he says with a wink. \"I recommend you have a chat with Director Glamor-Rotanev. At your earliest convenience, of course.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8523,
+    "id": "GRBHoutro1",
+    "column": "text",
+    "original": "He puts his hands together with a soft clap, and does something not quite like a bow.\n\n\"My task here is concluded. Enjoy yourself. Tonight's tab shall be on Mz. Glamor-Rotanev.\"\n\nHe turns, and exits the bar, leaving you with the 'business-card'.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8523,
+    "id": "GRBHoutro1",
+    "column": "options",
+    "option_line": "grbh_outro2:Pocket the card and look back to the bar",
+    "original": "Pocket the card and look back to the bar",
+    "translated": ""
+  },
+  {
+    "csv_row": 8538,
+    "id": "ttContactBribeRep500kOffer",
+    "column": "text",
+    "original": "\"Je peux probablement faire ca pour 500 000 credits. Personne ne deviendra votre ami, mais ca vous met le pied dans la porte pour arranger les choses.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8539,
+    "id": "ttContactBribeRep500kAccept",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  }
+]

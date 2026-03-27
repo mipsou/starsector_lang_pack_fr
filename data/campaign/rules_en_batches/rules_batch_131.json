@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 3269,
+    "id": "BFFIpsRuseOpenNice2",
+    "column": "text",
+    "original": "\"Why should I trust you to keep your word?\" $HeOrShe is clearly unhappy with your terms. \"You're no servant of Providence following the holy Word passed to us by Ludd. How can there be light in your heart?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3270,
+    "id": "BFFIpsRuseOpenNiceAlmost",
+    "column": "text",
+    "original": "$HeOrShe looks upon you, face now more open than before, as if almost convinced...",
+    "translated": ""
+  },
+  {
+    "csv_row": 3271,
+    "id": "BFFIpsRuseOpenNiceDone",
+    "column": "text",
+    "original": "\"Cease, I beg you.\" $HeOrShe puts $hisOrHer head in $hisOrHer hands. \"I pray this is the correct Path, that you are not the monster you appear.\"\n\n\"I must accept your terms,\" $heOrShe says, \"I shall pray for forgiveness. And may any hellfire of this world or the next fall upon myself first and not those I seek to protect.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3272,
+    "id": "BFFIpsRuseNiceOption",
+    "column": "options",
+    "option_line": "bffi_stationTalkRuseNice:Carry out the ruse to seize datastores and destroy the nanoforge",
+    "original": "Carry out the ruse to seize datastores and destroy the nanoforge",
+    "translated": ""
+  },
+  {
+    "csv_row": 3274,
+    "id": "BFFIpsRuseNiceFopt",
+    "column": "options",
+    "option_line": "bffi_psRuseNiceF:\"I have given the Path a great gift, and that deal has held.\"",
+    "original": "I have given the Path a great gift, and that deal has held.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3276,
+    "id": "BFFIpsRuseNiceF",
+    "column": "text",
+    "original": "\"I admit, I have heard word of the one with whom this deal was struck.\" $HisOrHer brow furrows. \"I cannot say I fully understand it, but we are... requested not to harm you, if it is so possible.\"\n\nThe Pather looks up and away for a moment. \"This is a strange Path I find myself walking,\" $heOrShe says, as if to some greater power. \"I pray that its truth may be revealed before long...\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3279,
+    "id": "BFFIpsRuseNiceA",
+    "column": "text",
+    "original": "\"Your lucre...\" A troubled look crosses $hisOrHer face, as if $hisOrHer heart isn't in this condemnation.\n\n\"You cannot simply buy your path away from perdition. Many a Mammonite has tried before, and they- they are still judged.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3280,
+    "id": "BFFIpsRuseNiceBopt",
+    "column": "options",
+    "option_line": "bffi_psRuseNiceB:\"I have walked the Pilgrim's Path. We may not see eye-to-eye, but I am a fellow walker.\"",
+    "original": "I have walked the Pilgrim's Path. We may not see eye-to-eye, but I am a fellow walker.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3282,
+    "id": "BFFIpsRuseNiceB",
+    "column": "text",
+    "original": "$HeOrShe nods, frowning. \"Be that as it may, the corrupt seed of heresy lies in your heart. It is no simple matter to remove such a thing. Your path will take you through blood and pain before it can be pure.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3285,
+    "id": "BFFIpsRuseNiceC",
+    "column": "text",
+    "original": "\"So it is known,\" $heOrShe says with a sigh. \"You... confound me. Your cooperation with a goon of the Knights, a bully and torturer of a false light... I try to see some greater Plan in it, but I cannot.\"",
+    "translated": ""
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "csv_row": 10915,
+    "id": "gaDHOendingDataTransferOptA",
+    "column": "options",
+    "option_line": "gaDHO_endingTellFound:Tell him about the Onslaught Mk.I and the Threat",
+    "original": "Tell him about the Onslaught Mk.I and the Threat",
+    "translated": ""
+  },
+  {
+    "csv_row": 10918,
+    "id": "gaDHOendingDataTransferOptC",
+    "column": "options",
+    "option_line": "gaDHO_endingWrapUp:\"Have a look. There's your proof.\"",
+    "original": "Have a look. There's your proof.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10929,
+    "id": "gaDHOendingFoundFirst2a",
+    "column": "text",
+    "original": "He gives you an unconvinced look. \"I'm not angry, I'm... disappointed,\" he says.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10929,
+    "id": "gaDHOendingFoundFirst2a",
+    "column": "options",
+    "option_line": "gaDHO_endingWrapUp:\"Just look at the data.\"",
+    "original": "Just look at the data.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10930,
+    "id": "gaDHOendingFoundFirst2b",
+    "column": "options",
+    "option_line": "gaDHO_endingWrapUp:\"Just look at the data.\"",
+    "original": "Just look at the data.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10931,
+    "id": "gaDHOendingFoundFirst2c",
+    "column": "text",
+    "original": "\"I'm not angry,\" he says. \"I'm disappointed. That's your story? I'd need some very good data indeed if I am to believe a word of it.\"\n\nHe taps his datapad, opening a stream for you, then fixes you with a skeptical glare.\n\n\"I say, $playerSirOrMadam - prove yourself.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 10931,
+    "id": "gaDHOendingFoundFirst2c",
+    "column": "options",
+    "option_line": "gaDHO_endingDataTransfer:Transferer les donnees",
+    "original": "Transferer les donnees",
+    "translated": ""
+  },
+  {
+    "csv_row": 10933,
+    "id": "gaDHOendingHeBelieves3a",
+    "column": "text",
+    "original": "He touches his forehead. \"Your hazard pay!\"\n\nElek remembered. He must be truly out of sorts.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10933,
+    "id": "gaDHOendingHeBelieves3a",
+    "column": "options",
+    "option_line": "gaDHO_endingHeBelievesNoPay:\"That won't be necessary. I'm satisfied with my profits.\"",
+    "original": "That won't be necessary. I'm satisfied with my profits.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10935,
+    "id": "gaDHOendingHeBelieves3aAbyss",
+    "column": "text",
+    "original": "He touches his forehead. \"Your hazard pay!\"",
+    "translated": ""
+  }
+]

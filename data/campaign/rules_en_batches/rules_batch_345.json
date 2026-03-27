@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 10435,
+    "id": "shrineConvShrineResponseVolturn",
+    "column": "text",
+    "original": "\"Nous voyageons vers Volturn, bien que ce soit... un endroit trouble.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 10439,
+    "id": "shrineConvShrineResponseJangala",
+    "column": "text",
+    "original": "\"Nous voyageons vers Jangala.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 10441,
+    "id": "shrineConvAskJangala",
+    "column": "options",
+    "option_line": "shrineConv_askJangala2a:\"... Des histoires ?\"",
+    "original": "... Des histoires ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 10452,
+    "id": "PilgrimRevengeHail",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper les comms",
+    "original": "Couper les comms",
+    "translated": ""
+  },
+  {
+    "csv_row": 10460,
+    "id": "academyFleetConvEnki",
+    "column": "options",
+    "option_line": "cutCommLink:Faire vos adieux et couper la liaison comm",
+    "original": "Faire vos adieux et couper la liaison comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 10462,
+    "id": "academyFleetConvPay1",
+    "column": "text",
+    "original": "\"A votre service,\" dit $heOrShe, ravi(e) de transmettre un peu de sagesse de spationaute. \"En parlant de temps, je crois qu'il est temps pour moi de mettre les voiles. Bon voyage, capitaine.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 10462,
+    "id": "academyFleetConvPay1",
+    "column": "options",
+    "option_line": "cutCommLink:Faire vos adieux et couper la liaison comm",
+    "original": "Faire vos adieux et couper la liaison comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 10463,
+    "id": "academyFleetConvPay2",
+    "column": "text",
+    "original": "\"Comme vous voudrez,\" dit $heOrShe en levant les yeux au ciel. \"Je suppose que vous savez ou vous allez, alors. Bonne journee a vous, capitaine,\" conclut $heOrShe, utilisant intentionnellement une formule de terrien.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 10463,
+    "id": "academyFleetConvPay2",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 10466,
+    "id": "greetingsScavMairaathNeutral",
+    "column": "text",
+    "original": "\"Communications ouvertes, a l'ecoute,\" dit le $Post $name. \"On est juste la a chercher un vestige de la gloire passee de Mairaath.\"\nOR\n\"Scan et identification confirmes. Maintien de la distance et du cap.\"\n\nLe $post vous observe et decide de faire la conversation. \"Ca me mine de voir Mairaath comme ca.\"",
+    "translated": ""
+  }
+]

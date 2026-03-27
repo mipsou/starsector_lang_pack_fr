@@ -1,0 +1,79 @@
+[
+  {
+    "csv_row": 11065,
+    "id": "gaDHOvisitElekAltWrapup4a",
+    "column": "text",
+    "original": "\"Alas.\" He shakes his head, \"It would be unthinkable.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 11067,
+    "id": "gaDHOvisitElekAltWrapupTT1",
+    "column": "options",
+    "option_line": "gaDHO_visitElekAltWrapupTT2b:\"Tri-Tachyon is backing your project?\"",
+    "original": "Tri-Tachyon is backing your project?",
+    "translated": ""
+  },
+  {
+    "csv_row": 11068,
+    "id": "gaDHOvisitElekAltWrapupTT2a",
+    "column": "text",
+    "original": "\"Good. That's... very good of you, captain.\" An extra wrinkle remains on his forehead.",
+    "translated": ""
+  },
+  {
+    "csv_row": 11073,
+    "id": "gaDHOvisitElekAltEnd",
+    "column": "options",
+    "option_line": "gaDHO_visitElekAltEnd2:Leave him to his musing",
+    "original": "Leave him to his musing",
+    "translated": ""
+  },
+  {
+    "csv_row": 11074,
+    "id": "gaDHOvisitElekAltEnd2",
+    "column": "text",
+    "original": "You're not sure Elek even noticed you leave.",
+    "translated": ""
+  },
+  {
+    "csv_row": 11078,
+    "id": "gaDHOtalkElekGoToLocation2",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 11081,
+    "id": "devAdonyaVisOption",
+    "column": "options",
+    "option_line": "100:devAdonya_visOption2:DEV make Adonya visible in comm directory",
+    "original": "devAdonya_visOption2:DEV make Adonya visible in comm directory",
+    "translated": ""
+  },
+  {
+    "csv_row": 11086,
+    "id": "adonyaOptMoreHolos",
+    "column": "options",
+    "option_line": "adonya_moreHolos:\"Comms more often? She's been in contact? But you said...\"",
+    "original": "Comms more often? She's been in contact? But you said...",
+    "translated": ""
+  },
+  {
+    "csv_row": 11087,
+    "id": "adonyaOptImportantToFind",
+    "column": "options",
+    "option_line": "adonya_importantToFind:\"I don't think I've emphasized how important it is for me to find Scylla and Elissa.\"",
+    "original": "I don't think I've emphasized how important it is for me to find Scylla and Elissa.",
+    "translated": ""
+  },
+  {
+    "csv_row": 11088,
+    "id": "adonyaOptImportantToFind2",
+    "column": "options",
+    "option_line": "adonya_importantToFind2:\"It's extremely important. The fate of the Persean Sector is at stake!\"",
+    "original": "It's extremely important. The fate of the Persean Sector is at stake!",
+    "translated": ""
+  }
+]

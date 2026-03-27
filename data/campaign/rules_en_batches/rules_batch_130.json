@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 3257,
+    "id": "BFFIstationTalk2sedgeBZ",
+    "column": "text",
+    "original": "\"Hah!\" The Pather has a mean smile. \"An obvious boast, typical of a Molochian.\" $HeOrShe makes a show of looking at you through the comms, \"You couldn't have taken Sedge... except by cowardly ambush, or some other deception. He was a greater warrior than you or I, by far.\"\n\n\"Nonetheless, I weep not to be free of his... leadership.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3258,
+    "id": "BFFIpsRuseNiceSetup",
+    "column": "text",
+    "original": "You explain that no devotion or zealotry, however righteous, can overcome the power of your $shipOrFleet, or the others that would follow if you failed to win the day.\n\nIs $heOrShe so loyal to Sedge's plan that $heOrShe is willing to die for it - even after it's fallen apart? Besides, a schism across the whole of the ecumene of the Luddic faith would lead to a sectarian war which could see millions of Faithful dead. And not even for the cause of the Path, but for a falsehood!\n\n$HeOrShe has a choice, you explain. Call it a Molochian bargain. Either this is a major loss of personnel, materiel, and the station, or it can be a minor loss of certain assets - for a failed barbaric scheme $heOrShe doesn't even really believe in.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3258,
+    "id": "BFFIpsRuseNiceSetup",
+    "column": "options",
+    "option_line": "bffi_psRuseOpenNice:Propose terms",
+    "original": "Propose terms",
+    "translated": ""
+  },
+  {
+    "csv_row": 3259,
+    "id": "BFFIpsRuseMeanSetup",
+    "column": "text",
+    "original": "You explain that there's one way that this is going to go, no devotion or zealotry can overcome the truth of the power of your $shipOrFleet - all ends result in $hisOrHer annihilation, and that of $hisOrHer followers, and of the station.\n\n$HeOrShe has a choice, you explain. Call it a Molochian bargain, if it makes them feel better. Either this is a major loss of personnel, materiel, and the station, or it can be a minor loss of certain assets for a scheme $heOrShe doesn't even really believe in.\n\nIs $heOrShe so loyal to Sedge's sect that $heOrShe is willing to die for it - even after it's already falling apart?",
+    "translated": ""
+  },
+  {
+    "csv_row": 3259,
+    "id": "BFFIpsRuseMeanSetup",
+    "column": "options",
+    "option_line": "bffi_psRuseOpenMean:Propose terms",
+    "original": "Propose terms",
+    "translated": ""
+  },
+  {
+    "csv_row": 3261,
+    "id": "BFFIpsTalkFailStart",
+    "column": "text",
+    "original": "\"Well,\" Bornanew says from beside you. \"Let it not be said that you did not attempt diplomacy.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3261,
+    "id": "BFFIpsTalkFailStart",
+    "column": "options",
+    "option_line": "bffi_psTalkFail:Ne rien dire",
+    "original": "Ne rien dire",
+    "translated": ""
+  },
+  {
+    "csv_row": 3261,
+    "id": "BFFIpsTalkFailStart",
+    "column": "options",
+    "option_line": "bffi_psTalkFailc:\"Good. Now we can do this my way.\"",
+    "original": "Good. Now we can do this my way.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3268,
+    "id": "BFFIpsRuseOpenNice",
+    "column": "text",
+    "original": "You explain that you will require comms buffers and datastores pertaining to Sedge's scheme. You will need the datastores of the nanoforge, and must be given access in order to destroy it.\n\nNo one need be hurt; it can be done quickly, without bloodshed, and without compromising $hisOrHer leadership status if $heOrShe secretly gives you their primary security codes. Blame it on the injection of a semi-sentient computer virus, a 'daemon' of the sort Molochians conjure in their AI-labs.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3268,
+    "id": "BFFIpsRuseOpenNice",
+    "column": "options",
+    "option_line": "bffi_psRuseOpenNice2:\"Accept my terms. It is the Path of least harm for all.\"",
+    "original": "Accept my terms. It is the Path of least harm for all.",
+    "translated": ""
+  }
+]

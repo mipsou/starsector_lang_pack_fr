@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 3450,
+    "id": "BFFIarrestOutroPCshot4",
+    "column": "options",
+    "option_line": "bffi_arrestCurateEnd:Sleep for a while",
+    "original": "Sleep for a while",
+    "translated": ""
+  },
+  {
+    "csv_row": 3451,
+    "id": "BFFIarrestOutroEscape",
+    "column": "text",
+    "original": "You are of little use in the search, being unfamiliar with the cathedral. The Knight-Captain whose name you almost forgot to ask - \"Larix,\" he said, \"Knight-Captain Dejan Larix\" before shouting orders to a hastily assembled squad of Knight-Novices, all obviously far younger than Bornanew.\n\nBornanew, for one, is stabilized in the infirmary, part of the sprawling church infrastructure spilling from the cathedral. ",
+    "translated": ""
+  },
+  {
+    "csv_row": 3452,
+    "id": "BFFIarrestOutroCaught",
+    "column": "text",
+    "original": "* * *\n\nYou are nearly forgotten in the chaos. Before long, a meek apprentice directs you to the offices of the Luddic Knights where you make a statement and discuss the incident with the Knight-Captain. You only just remember to ask him his name. \n\n\"Larix,\" he says, \"Knight-Captain Dejan Larix\" before shouting orders to a hastily assembled squad of Knight-novices, all obviously far younger than Bornanew.\n\nWho, for one, is stabilized in the infirmary, part of the sprawling church infrastructure spilling from the cathedral. ",
+    "translated": ""
+  },
+  {
+    "csv_row": 3453,
+    "id": "BFFIarrestOutroInjured",
+    "column": "text",
+    "original": "The resident physician is more practical than traditional, and sees fit to consult with your own chief medical officer. A patient transfer is arranged, and even a special dispensation (granted by the embarrassed archcurate) to land a shuttle on a field near to the Cathedral of Holy Exodus.\n\nThe implicit use of technologies which would be awkward to employ on Church grounds to save Bornanew's life is left unsaid.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3453,
+    "id": "BFFIarrestOutroInjured",
+    "column": "options",
+    "option_line": "bffi_arrestOutroInjured2:Return to your $shipOrFleet in orbit",
+    "original": "Return to your $shipOrFleet in orbit",
+    "translated": ""
+  },
+  {
+    "csv_row": 3454,
+    "id": "BFFIarrestOutroInjured2",
+    "column": "text",
+    "original": "The cadre of Luddic Knights guarding the Cathedral of Holy Exodus defer to Bornanew's authority, despite his unconsciousness.\n\nKeepfaith, just Cedra now that her subcurateship has been summarily revoked by order of the archcurate, is delivered to you flagship. She is restrained, and now - away from her small kingdom - timid, though still glowering.\n\n\"I will be absolved,\" she says hoarsely. \"You shall witness my righteousness before the end.\"\n\nOne of your guards closes the brig door, its weight silent.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3454,
+    "id": "BFFIarrestOutroInjured2",
+    "column": "options",
+    "option_line": "bffi_arrestOutroInjured3:Aller voir Bornanew",
+    "original": "Aller voir Bornanew",
+    "translated": ""
+  },
+  {
+    "csv_row": 3455,
+    "id": "BFFIarrestOutroInjured2escape",
+    "column": "text",
+    "original": "The cadre of Luddic Knights guarding the Cathedral of Holy Exodus defer to Bornanew's authority, despite his unconsciousness.\n\nKeepfaith, just Cedra now that her subcurateship has been summarily revoked by order of the archcurate, is nowhere to be found. You can only speculate that she called upon her Pather contacts for assistance.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3455,
+    "id": "BFFIarrestOutroInjured2escape",
+    "column": "options",
+    "option_line": "bffi_arrestOutroInjured3escape:Aller voir Bornanew",
+    "original": "Aller voir Bornanew",
+    "translated": ""
+  },
+  {
+    "csv_row": 3456,
+    "id": "BFFIarrestOutroInjured3",
+    "column": "text",
+    "original": "It is some time before Bornanew regains consciousness.\n\nYour chief medical officer hovers nearby, giving you a stern look. You know you will not be allowed to overtrouble their patient.",
+    "translated": ""
+  }
+]

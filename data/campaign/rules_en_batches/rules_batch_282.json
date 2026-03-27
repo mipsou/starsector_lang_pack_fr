@@ -1,0 +1,72 @@
+[
+  {
+    "csv_row": 8393,
+    "id": "ZGRackChurchOptDontThink",
+    "column": "text",
+    "original": "\"I see,\" she says as if she quite distinctly doesn't.\n\nHer head tilts very slightly, perplexed.",
+    "translated": ""
+  },
+  {
+    "csv_row": 8394,
+    "id": "ZGRacknowledgeDiktat",
+    "column": "text",
+    "original": "\"We've noticed that Mr. Macario - apologies,\" she laughs like a wind chime, \"'The Chief High Inspector' has taken you for one of his pawns.\"\n\n\"You and I both know you're more and better than that. I believe your innovative perspective could be worth more than his entire tin-pot slum-bully's secret budget of bribes and favors.\"\n\nHer eyebrows lift precisely. \"Do you?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8395,
+    "id": "ZGRacknowledgeDiktatB",
+    "column": "text",
+    "original": "\"We've noticed that Mr. Macario - apologies,\" she laughs like a wind chime, \"'The Chief High Inspector' has taken you for one of his pawns.\"\n\n\"You and I both know you're more than that. Better than that. And I believe your innovative perspective could be worth more than his entire tin-pot slum-bully's secret budget of bribes and favors. That silly little battleship he gave you? A child's toy compared to what I offer.\"\n\nShe brushes one hand off with the other. ",
+    "translated": ""
+  },
+  {
+    "csv_row": 8397,
+    "id": "ZGRacknowledgeLeague",
+    "column": "text",
+    "original": "\"You've a League commission. They see value in you, but not so much that they've invited you to share power as a member,\" she says. \n\n\"Why play the mercenary for below-market rates? You're better than that, I think.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8398,
+    "id": "ZGRacknowledgeLeagueB",
+    "column": "text",
+    "original": "\"You've a League commission. They see value in you,\" she looks down, and aside, placing a hand on the empty expanse of her enormous desk.\n\n\"But not enough to invite you to become a full member of the League, despite your colonial enterprise.\" She makes a small sound, halfways between pity and disappointment.\n\n\"Consider what you will gain from being a partner rather than a subject.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8399,
+    "id": "ZGRacknowledgeLeagueC",
+    "column": "text",
+    "original": "\"You're a member of the League. A junior member, however. Perhaps not in name, but... tell me, do the gens respect you as a peer?\"\n\n\"Or are you just another vassal to their little empire? Consider your future, captain, and how you might truly achieve greatness.\"\n\nHer eyes narrow. \"As a partner rather than a subject.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8400,
+    "id": "ZGRacknowledgeLeagueD",
+    "column": "text",
+    "original": "\"Tell me the truth, are you content to be a mere lackey of our mutual friend Reynard Hannan? He drains you like a leech from atop his so-called League. Let me give you a taste of real business, of real credits.\"\n\nHer eyes narrow. \"As a partner rather than a subject.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8401,
+    "id": "ZGRacknowledgeArroyo",
+    "column": "text",
+    "original": "\"Tell me, how is Rayan Arroyo? I've always admired his entrepreneurial spirit, but.\" She forms a little smile that might have been apologetic if it weren't so condescending.\n\n\"He doesn't have the killer instinct required for senior leadership. Isn't that funny? But we do need people like him.\"\n\n\"And we need people like you. Go-getters, achievers; builders and destroyers. And what we need, we at Tri-Tachyon pay for. Only the best.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8402,
+    "id": "ZGRacknowledgeTTDeal",
+    "column": "text",
+    "original": "\"You cut a deal with the Company after some... assertive negotiations. To our mutual benefit. I applaud your audacity.\"\n\nHer teeth glisten.\n\n\"Such fierce initiative is exactly what Tri-Tachyon needs.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 8403,
+    "id": "ZGRacknowledgeTTcom",
+    "column": "text",
+    "original": "\"You've had a taste of working for the Company. A mundane commission, mercenary fare. Boilerplate. Busywork. We'd have automated all that sort of thing long ago, of course, if not for-\" \n\nShe pulls her gaze back down, \"Well, I digress. I believe you're capable of more, so much more. Think of this as the next step.\"",
+    "translated": ""
+  }
+]

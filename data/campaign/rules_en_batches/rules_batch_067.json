@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 2620,
+    "id": "BFFImeetMenes3guest",
+    "column": "options",
+    "option_line": "BFFI_meetMenes4b:\"A man who broke his Knightly vows only to hide among terrorists and become a hermit.\"",
+    "original": "A man who broke his Knightly vows only to hide among terrorists and become a hermit.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2620,
+    "id": "BFFImeetMenes3guest",
+    "column": "options",
+    "option_line": "BFFI_meetMenes4c:\"A Knight who lost his way - but never his faith - now seeking absolution by way of epic quest.\"",
+    "original": "A Knight who lost his way - but never his faith - now seeking absolution by way of epic quest.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2624,
+    "id": "BFFImeetMenes4",
+    "column": "text",
+    "original": "\"Oh!\" Menes claps his hands together in delight. \"That would be just the perfect, perfect thing!\"\n\n\"Bring your friend,\" a mischievous look grows on his face. \"I have an object in my special collection,\" his eyebrows bounce, \"that'll launch his tabard directly into orbit! You'll see, you'll see. Oh, this is so perfect.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2627,
+    "id": "BFFImeetMenesBornanew",
+    "column": "text",
+    "original": "You close the comms, then summon Bornanew to a briefing room to discuss the next phase of the plan.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2628,
+    "id": "BFFImeetMenesBornanew1b",
+    "column": "text",
+    "original": "Bornanew's head is lowered as he enters, carrying his paper notebook as well as an off-brand datapad.\n\nThe notebook slaps onto the table a little harder than would be considered strictly polite.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2630,
+    "id": "BFFImeetMenesBornanew2b",
+    "column": "text",
+    "original": "\"I think it is uncharitable to the point of slander to describe the people of Mazalot as 'terrorists' so easily. And although it was a remote farming community, I was hardly hermit, to say nothing of-\" He stops mid-rebuttal and looks up.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2631,
+    "id": "BFFImeetMenesBornanew2c",
+    "column": "text",
+    "original": "\"Although technically a Knight of Ludd, I'm merely a novice - and one in poor standing at that. As for this 'epic quest' you describe, it's more of-\" He stops speaking and looks up at you.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2632,
+    "id": "BFFImeetMenesBornanew3",
+    "column": "options",
+    "option_line": "BFFI_meetMenesBornanew4b:\"You knew what this would entail. Think of the good it will accomplish.\"",
+    "original": "You knew what this would entail. Think of the good it will accomplish.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2636,
+    "id": "BFFImmBornStealOpt",
+    "column": "options",
+    "option_line": "bffi_mmBornStealOpt:\"We should steal the glove.\"",
+    "original": "We should steal the glove.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2639,
+    "id": "BFFImmBornBuyerOptB",
+    "column": "options",
+    "option_line": "bffi_mmBornBuyerOptB:\"I could pretend to have a relic to sell. Any ideas?\"",
+    "original": "I could pretend to have a relic to sell. Any ideas?",
+    "translated": ""
+  }
+]

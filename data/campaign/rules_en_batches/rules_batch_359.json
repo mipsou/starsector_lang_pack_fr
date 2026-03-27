@@ -1,0 +1,80 @@
+[
+  {
+    "csv_row": 10966,
+    "id": "gaDHOendingWrapUp2a",
+    "column": "text",
+    "original": "\"Will you be so 'honest' with COMSEC when they come smashing down your airlock? Will you?\" His eyes are fiery.\n\nHe holds the fierce look for just a moment longer, then visibly deflates. \"It'll be... fine. My patron... it was all fakery, of course. A misunderstanding...\"\n\n\"I'll... we're done here, captain.\" Elek's eyes wander around his office, as if searching for escape. \"G-good day, $playerSirOrMadam.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 10967,
+    "id": "gaDHOendingWrapUp3a",
+    "column": "options",
+    "option_line": "gaDHO_endingHeBelievesPay2:\"Hold on- we're not done 'til I get paid.\"",
+    "original": "Hold on- we're not done 'til I get paid.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10967,
+    "id": "gaDHOendingWrapUp3a",
+    "column": "options",
+    "option_line": "gaDHO_endingWrapUpNoPay:\"I will forgo payment. Advancement of knowledge is wealth enough.\"",
+    "original": "I will forgo payment. Advancement of knowledge is wealth enough.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10969,
+    "id": "gaDHOendingWrapUp3b",
+    "column": "text",
+    "original": "He catches you with a desperate look before hitting the cut-off.",
+    "translated": ""
+  },
+  {
+    "csv_row": 10969,
+    "id": "gaDHOendingWrapUp3b",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 10972,
+    "id": "gaDHOjustFoundArrayStart",
+    "column": "options",
+    "option_line": "gaDHO_justFoundArray0:Investigate the modifications",
+    "original": "Investigate the modifications",
+    "translated": ""
+  },
+  {
+    "csv_row": 10975,
+    "id": "gaDHOjustFoundArray2",
+    "column": "options",
+    "option_line": "gaDHO_justFoundArray3:\"How can you tell?\"",
+    "original": "How can you tell?",
+    "translated": ""
+  },
+  {
+    "csv_row": 10976,
+    "id": "gaDHOjustFoundArray3",
+    "column": "options",
+    "option_line": "gaDHO_justFoundArray4:\"What are they looking for and what did they find?\"",
+    "original": "What are they looking for and what did they find?",
+    "translated": ""
+  },
+  {
+    "csv_row": 10978,
+    "id": "gaDHOjustFoundArray3e2",
+    "column": "options",
+    "option_line": "gaDHO_justFoundArray4:\"What was Elek looking for and what this find?\"",
+    "original": "What was Elek looking for and what this find?",
+    "translated": ""
+  },
+  {
+    "csv_row": 10979,
+    "id": "gaDHOjustFoundArray4",
+    "column": "options",
+    "option_line": "gaDHO_justFoundArray5:\"Some nameless rock, huh. Let's have the coordinates.\"",
+    "original": "Some nameless rock, huh. Let's have the coordinates.",
+    "translated": ""
+  }
+]

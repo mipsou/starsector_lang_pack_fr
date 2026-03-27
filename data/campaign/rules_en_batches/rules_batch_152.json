@@ -1,0 +1,80 @@
+[
+  {
+    "csv_row": 3475,
+    "id": "BFFIdeliverOakRespBornDead",
+    "column": "options",
+    "option_line": "bffi_deliverKeepfaithOak:Deliver Bornanew's body into custody of the Knights of Ludd.",
+    "original": "Deliver Bornanew's body into custody of the Knights of Ludd.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3476,
+    "id": "BFFIdeliverOakRespBornDeadB",
+    "column": "text",
+    "original": "The expression of the Excubitor Orbis does not change. Nonetheless, a coldness seems to have come over him, as if transformed into a statue.\n\nThe moment draws out and you think he might not respond, then he speaks. \"Bring them both.\"\n\nHe remains stone-faced.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3476,
+    "id": "BFFIdeliverOakRespBornDeadB",
+    "column": "options",
+    "option_line": "bffi_deliverKeepfaithOak:Deliver Bornanew and Keepfaith into custody of the Knights of Ludd.",
+    "original": "Deliver Bornanew and Keepfaith into custody of the Knights of Ludd.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3477,
+    "id": "BFFIdeliverOakResp2",
+    "column": "text",
+    "original": "The Excubitor Orbis seems uninclined to make further conversation, so you close the link and order your comms officer to handle the details while a shuttle is prepared.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3477,
+    "id": "BFFIdeliverOakResp2",
+    "column": "options",
+    "option_line": "bffi_deliverToOak:Board a shuttle",
+    "original": "Board a shuttle",
+    "translated": ""
+  },
+  {
+    "csv_row": 3479,
+    "id": "BFFIdeliverOptionKeepfaith",
+    "column": "options",
+    "option_line": "2:bffi_deliverToOak:Deliver Cedra Keepfaith into custody of the Knights of Ludd",
+    "original": "bffi_deliverToOak:Deliver Cedra Keepfaith into custody of the Knights of Ludd",
+    "translated": ""
+  },
+  {
+    "csv_row": 3480,
+    "id": "BFFIdeliverOptionReturnEarly",
+    "column": "options",
+    "option_line": "2:bffi_deliverToOak:Shuttle down to deliver Bornanew to the Knights of Ludd",
+    "original": "bffi_deliverToOak:Shuttle down to deliver Bornanew to the Knights of Ludd",
+    "translated": ""
+  },
+  {
+    "csv_row": 3481,
+    "id": "BFFIdeliverOptionBornAliveEscaped",
+    "column": "options",
+    "option_line": "2:bffi_deliverToOak:Shuttle down to deliver Bornanew back to the Knights of Ludd",
+    "original": "bffi_deliverToOak:Shuttle down to deliver Bornanew back to the Knights of Ludd",
+    "translated": ""
+  },
+  {
+    "csv_row": 3482,
+    "id": "BFFIdeliverOptionBornDeadEscaped",
+    "column": "options",
+    "option_line": "2:bffi_deliverToOak:Shuttle down to deliver Bornanew's body to the Knights of Ludd",
+    "original": "bffi_deliverToOak:Shuttle down to deliver Bornanew's body to the Knights of Ludd",
+    "translated": ""
+  },
+  {
+    "csv_row": 3483,
+    "id": "BFFIdeliverOptionBornDeadCaptured",
+    "column": "options",
+    "option_line": "2:bffi_deliverToOak:Shuttle down to deliver Bornanew's body and the prisoner to the Knights",
+    "original": "bffi_deliverToOak:Shuttle down to deliver Bornanew's body and the prisoner to the Knights",
+    "translated": ""
+  }
+]

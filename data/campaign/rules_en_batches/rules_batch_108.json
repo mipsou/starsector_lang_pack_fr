@@ -1,0 +1,73 @@
+[
+  {
+    "csv_row": 3053,
+    "id": "BFFIulmusPrestart3",
+    "column": "options",
+    "option_line": "bffi_ulmusPondYouBad:\"You be the bad guy.\"",
+    "original": "You be the bad guy.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3056,
+    "id": "BFFIulmusPrestartLoadout1",
+    "column": "text",
+    "original": "Your personal security team has been briefed, and are dressed as a mix of common spacers, local techs, and Luddic laborers. Their arsenal is multitude and well-concealed.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3057,
+    "id": "BFFIulmusPrestartLoadout2a",
+    "column": "text",
+    "original": "Your own hand finds your trusty sidearm, a matte polycarbonate pistol. An ideal firearm for use in tight spaces, its mass rests securely in your holster.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3058,
+    "id": "BFFIulmusPrestartLoadout2b",
+    "column": "text",
+    "original": "You, of course, have your clutch of devilish little grenades built to resist milliradar detection. Fearful and unexpected, they trigger with a practiced twitch from your hand.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3061,
+    "id": "BFFIulmusPrestartLoadout2e",
+    "column": "text",
+    "original": "You, of course, have a monomolecular wire hidden in a false fingertip, ready to deploy into an invisible cutting edge with but a short, sharp twist. It is a venerable weapon favored by assassins of a certain class.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3062,
+    "id": "BFFIulmusPrestartLoadout2f",
+    "column": "text",
+    "original": "You, of course, need trust nothing more than your limbs. Starship combat is mass and energy applied at scale; absurdly reduced to the scale of the human body, the mechanics applied are not completely dissimilar.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3063,
+    "id": "BFFIulmusPrestartLoadout2g",
+    "column": "text",
+    "original": "Your hand finds the hilt of your officers' sword at your side, the mass of a steel blade a comfort shared with warriors dating to the primitive conflicts of Old Earth.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3065,
+    "id": "BFFIulmusStart",
+    "column": "text",
+    "original": "You stand with Bornanew in an uncomfortably narrow alley. The sky above sends nasty rivulets of fluid down the conduits and moldy canopies that diffuse the light into a flattening murk.\n\nYour security team is invisible, discreet in nearby alcoves and rooftops.\n\n$global.jethroName runs his hands over a door, as if feeling under it's moisture-warped surface for a clue.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3069,
+    "id": "BFFIulmusStart3",
+    "column": "text",
+    "original": "Bornanew takes a step back then slams a powerful leg into a worn spot, about waist-high. With a sharp crack, the entire door falls inward, crumbling hinges and locking mechanism still attached.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3070,
+    "id": "BFFIulmusStart4",
+    "column": "text",
+    "original": "Bornanew charges inside. You follow his steps through an entryway, plastic rain cloaks mildewing, through a prefab kitchen and wash unit stained the yellow of old teeth. A sitting area, chair toppled. There's a muffled thump from above.\n\nBornanew glances at you, his eyes giving a bounce upwards. Ulmus Pond.",
+    "translated": ""
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "csv_row": 3528,
+    "id": "BFFIdeliverToOakKeepfaithCheckB2",
+    "column": "text",
+    "original": "He glances at you. \"The station, and the nanoforge, were annihilated. We did not find evidence of a mole in the Cathedral of Holy Exodus. Humbly, sir, if you would allow-\"\n\nOak's eyes narrow, which is enough to prompt silence. Oak's clerk looks between him and Bornanew curiously, but she also holds her tongue.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3529,
+    "id": "BFFIdeliverToOakKeepfaithCheckBbb",
+    "column": "text",
+    "original": "The Excubitor Orbis had never stopped watching you. \"Your theory. Tartessus,\" he prompts $global.jethroName.\n\nBornanew steps forward. \"I tracked the source of the false relic to a nanoforge operated by Pather heretics. A godless hive of a station on the far fringe, in the $bffi_patherStationSystem.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3530,
+    "id": "BFFIdeliverToOakKeepfaithCheckB2bb",
+    "column": "text",
+    "original": "He does not look at you, but continues. \"We destroyed the station and the nanoforge. We have not found additional evidence of the mole in the Cathedral of Holy Exodus. The Inquisition should simply declare-\"\n\nOak's eyes narrow, which is enough to prompt silence, though $global.jethroName bridles to contain himself. Oak's clerk looks between the Excubitor Orbis and Bornanew curiously, and she too holds her tongue.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3532,
+    "id": "BFFIdeliverGloveCheckBornAlive",
+    "column": "text",
+    "original": "Bornanew bows, then places the sample container he was carrying on the hangar floor.\n\nWithout rush or flourish, he unlatches the cover and withdraws it to reveal the false relic, the upthrust work-glove which was never touched by Ludd.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3533,
+    "id": "BFFIdeliverGloveCheckBornAliveBB",
+    "column": "text",
+    "original": "Bornanew does not bow, but matches Oak's glare as he places the sample container onto the hangar floor.\n\nWithout rush or flourish, he unlatches the cover and withdraws it to reveal the false relic, the upthrust work-glove which was never touched by Ludd.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3534,
+    "id": "BFFIdeliverGloveCheckBornDead",
+    "column": "text",
+    "original": "A pair of your bodyguards step forward, carrying the sample case between them.\n\nThey place the container on the hangar floor and without rush or flourish unlatch the cover and withdraw it to reveal the false relic, the upthrust work-glove which was never touched by Ludd.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3535,
+    "id": "BFFIdeliverGloveCheck1",
+    "column": "text",
+    "original": "Oak turns his head ever so slightly. \"Destroy it,\" he rumbles.\n\nThe clerk mutters into her cuff.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3536,
+    "id": "BFFIdeliverGloveCheck2",
+    "column": "text",
+    "original": "Oak is content to remain silent as technicians of the Knights wheel out a heavy crucible of sorts, festooned with tubes and patterned heat-dispersal tiles. They halt it several meters from you, then scurry over to retrieve the glove - still in its open sample case - and place the whole lot carefully into the blackened interior. They slowly lower and then seal the heavy top-cover then adjust some knobs and switches. The lead tech looks to the Excubitor Orbis.\n\nHe gives a tiny nod.\n\nA dull roar sounds from the device, like a torrential waterfall behind a hardened airlock. Indentations in the tiled carapace begin to glow; you can feel the radiated heat on your exposed skin.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3539,
+    "id": "BFFIproblemCheckNone",
+    "column": "text",
+    "original": "The clerk shuffles nervously, flipping open a notebook, pausing a moment, then flipping it closed. She looks at the Excubitor Orbis.\n\nHe nods at her, then looks back to you.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3540,
+    "id": "BFFIproblemCheckFundingLie",
+    "column": "text",
+    "original": "The clerk clears her throat.\n\n\"Excubitor Orbis,\" her eyes dart at you and Bornanew. \"$playerSirOrMadam. Novice.\"\n\n\"There is a matter of the Demarch of Olinadu. A Menes Yaribay? He claims he was promised payments for the, um, purchase of a relic.\"\n\nYou hadn't thought Oak could look any more displeased.",
+    "translated": ""
+  }
+]

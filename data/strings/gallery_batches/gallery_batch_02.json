@@ -1,0 +1,86 @@
+[
+  {
+    "csv_row": 635,
+    "id": "jangala_station",
+    "title": "Jangala Station",
+    "original_text": "Orbiting megacity, naval yard, and port; the axis of Corvus, swarmed by Starship traffic. Ancient repair gantries skulked between corroded industrial hangars in the shadow of laboratory rings and support modules. Higher still, commercial bays and metroplex districts were shepherded by the C&C spire bristling with weapons pods.",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 636,
+    "id": "industrial_megafacility",
+    "title": "Industrial Megafacility",
+    "original_text": "Heavy industrial manufacturing relied on great nanoforges recovered from the ruins of the Domain. However their output quality decayed over cycles; nanoscale corruption led to growing macroscopic flaws. Much of the output had to be repaired by cruder methods, and much was scrapped and fed back as the refined feedstock for which the aging forges ever hungered.",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 637,
+    "id": "terran_orbit",
+    "title": "Terran Orbit",
+    "original_text": "The Eridani-Utopia Terraforming Corporation specs provide the most widely accepted \"terran\" baseline for the allegedly ideal human environment.\n\nThe many deviations of natural planetary environments from the specifications may be corrected through technological intervention including ice-asteroid bombardment, orbital burns, biomodded ecosystems, orbital megastructures, and other methods provided by the EUT.",
+    "translated_title": "",
+    "translated_text": "",
+    "text2": "unlocked"
+  },
+  {
+    "csv_row": 638,
+    "id": "pirate_station",
+    "title": "Pirate Station",
+    "original_text": "\"Chaos? No sir, what it is, is honesty. Here, if a man wants you dead, you'll see it in his eyes 'fore he makes a move. Better that than a computer in some off-world office deciding your air supply isn't worth maintaining.\"\n\nSadly my guide was found dead the next shift. Shot in the back, ironically.",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 639,
+    "id": "urban00",
+    "title": "Metroplex 00",
+    "original_text": "Statistical sampling suggests that a significant percent of all economic activity in the Sector is 'off the books', and a significant portion of that goes toward 'pirates' and so-called 'decivilized' populations, to say nothing of the undocumented populations within the Core itself. The census of the Persean Sector could be off by as much as an order of magnitude. Imagine!",
+    "translated_title": "",
+    "translated_text": "",
+    "text2": "unlocked"
+  },
+  {
+    "csv_row": 640,
+    "id": "urban01",
+    "title": "Metroplex 01",
+    "original_text": "The people of Chicomoztoc, the majority population of the Persean Sector, lived in vast underground arcologies blasted into the sleeping crust of their world. This cluster of conjoined hive-cities were ruled as often by powerful demagogues promising reform and employment as by technocrat-criminal patronage networks distributing spoils to their supporters -- and influence to whoever was paying them off.",
+    "translated_title": "",
+    "translated_text": "",
+    "text2": "unlocked"
+  },
+  {
+    "csv_row": 641,
+    "id": "urban02",
+    "title": "Kay-arco",
+    "original_text": "Cyclopean arcology substructure flashed by the windows of the primary ring tube toward a far segment of the metroplex. A smaller passenger lift filled with the smell of sweat and machine oil as a shift of undersea laborers returned home. Glimpses of the towering arms of Kay-arco appeared for short seconds, glittering with thousands of windows, before being again darkened by a blur of mildewed plating.",
+    "translated_title": "",
+    "translated_text": "",
+    "text2": "unlocked"
+  },
+  {
+    "csv_row": 642,
+    "id": "urban03",
+    "title": "Hive City",
+    "original_text": "The hives of Chicomoztoc were occasionally locked down by riots, protest, or insurrection. But so long as the great Forges kept churning out starships, machinery, and goods, the Hegemony meddled only lightly in that great underworld of humanity.",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 643,
+    "id": "orbital",
+    "title": "Orbital Station",
+    "original_text": "Enormous orbital stations hosted shipyards, habitats, factories, and stockpiles of weapons and supplies.\n\nThese platforms allowed what remained of humanity to organize interstellar polities and project military and commercial power across the Persean Sector.",
+    "translated_title": "",
+    "translated_text": ""
+  },
+  {
+    "csv_row": 644,
+    "id": "mine",
+    "title": "Mine",
+    "original_text": "\"It's a story as old as time. We gotta get what's good down in there up and out where it can go off somewhere else to make someone else rich.\"\n\n\"Miserable work, it's true, but there's ways of coping.\"",
+    "translated_title": "",
+    "translated_text": ""
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 3251,
+    "id": "BFFIstationTalk2tracked",
+    "column": "text",
+    "original": "\"So you have,\" $heOrShe admits. \"I had thought that not possible - and assured it was not by Brother Sedge.\"\n\nThe Pather looks away. \"That man would have told me anything to get his way, I think. And if somehow I didn't agree... I give thanks that it did not come to that.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3252,
+    "id": "BFFIstationTalk2fight",
+    "column": "text",
+    "original": "\"We're all given our place,\" $heOrShe says, both annoyed and discouraged. \"The Path is not easy, nor does it provide comfort. For that, we were given the Word.\"\n\n$HisOrHer eyes are searching, $hisOrHer devotion to this aspect of the cause obviously wavering. \"Sedge was strong, and many followed him. Besides, he was backed by-\" $HeOrShe catches $himOrHerself. \"Backed by a better Walker by far, blessed be his Path.\"\n\n\"Well, it's done now, isn't it? That scheme is dead, and you bring here the technology of death.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3253,
+    "id": "BFFIstationTalk2sedge",
+    "column": "text",
+    "original": "$HisOrHer eyes narrow. \"It doesn't matter now; I hear he was murdered, shot in the back by some spacer mercenary who is more machine than flesh.\"\n\n\"Merciful Providence forgive me,\" $hisOrHer tone softens slightly, \"for to speak ill of the dead, and a martyr to our cause at that, but. The man was a beast and I am better pleased to find him on the other side of the infinite.\" ",
+    "translated": ""
+  },
+  {
+    "csv_row": 3253,
+    "id": "BFFIstationTalk2sedge",
+    "column": "options",
+    "option_line": "bffi_stationTalk2sedgeA:\"Then praise the Path! You're free of the beast and his schemes.\"",
+    "original": "Then praise the Path! You're free of the beast and his schemes.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3253,
+    "id": "BFFIstationTalk2sedge",
+    "column": "options",
+    "option_line": "bffi_stationTalk2sedgeB:\"It is I who shot Sedge. Though I'm less machine than you'd hope.\"",
+    "original": "It is I who shot Sedge. Though I'm less machine than you'd hope.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3254,
+    "id": "BFFIstationTalk2sedgeZ",
+    "column": "text",
+    "original": "$HisOrHer eyes narrow. \"It doesn't matter now; I hear he was murdered, shot in the back by some spacer mercenary who is more machine than flesh.\"\n\n\"Merciful Providence forgive me,\" $hisOrHer tone softens slightly, \"for to speak ill of the dead, and a martyr to our cause at that, but. The man was a beast and I am better pleased to find him on the other side of the infinite.\" ",
+    "translated": ""
+  },
+  {
+    "csv_row": 3254,
+    "id": "BFFIstationTalk2sedgeZ",
+    "column": "options",
+    "option_line": "bffi_stationTalk2sedgeA:\"Then praise the Path! You're free of the beast and his schemes.\"",
+    "original": "Then praise the Path! You're free of the beast and his schemes.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3254,
+    "id": "BFFIstationTalk2sedgeZ",
+    "column": "options",
+    "option_line": "bffi_stationTalk2sedgeB:\"It is I who killed Sedge. After he murdered the man I was speaking to.\"",
+    "original": "It is I who killed Sedge. After he murdered the man I was speaking to.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3255,
+    "id": "BFFIstationTalk2sedgeA",
+    "column": "text",
+    "original": "\"Mind, do hide your forked tongue.\" The Pather has a mean smile. \"I see your obvious ploy, to turn me from the Path. But as is said by teachers wiser than I, 'the devil will lie by the truth itself'.\" $HeOrShe makes a show of looking you over through the comms.\n\n\"Nonetheless. I do find myself free of his... customs of leadership.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3256,
+    "id": "BFFIstationTalk2sedgeB",
+    "column": "text",
+    "original": "\"Hah!\" The Pather has a mean smile. \"An obvious boast, typical of a Molochian.\" $HeOrShe makes a show of looking at you through the comms, \"You couldn't have taken Sedge. He was a greater warrior than you or I, by far.\"\n\n\"Nonetheless, I weep not to be free of his... leadership.\"",
+    "translated": ""
+  }
+]

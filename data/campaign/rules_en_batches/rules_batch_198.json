@@ -1,0 +1,82 @@
+[
+  {
+    "csv_row": 5144,
+    "id": "gaPZHegemonyEncounterStandard",
+    "column": "options",
+    "option_line": "gaPZ_heg1:Envisager vos options",
+    "original": "Envisager vos options",
+    "translated": ""
+  },
+  {
+    "csv_row": 5159,
+    "id": "gaPZ_hegHub2",
+    "column": "options",
+    "option_line": "gaPZ_hegHub2a:Attendre as the scan proceeds",
+    "original": "Attendre as the scan proceeds",
+    "translated": ""
+  },
+  {
+    "csv_row": 5163,
+    "id": "gaPZ_hegHubVanish1",
+    "column": "options",
+    "option_line": "gaPZ_hegHubVanish2:Attendre it out",
+    "original": "Attendre it out",
+    "translated": ""
+  },
+  {
+    "csv_row": 5174,
+    "id": "GAPZTTHub2",
+    "column": "options",
+    "option_line": "gaPZ_ttHubPry:\"Il faudra me l'arracher de mes mains froides et mortes.\"",
+    "original": "Il faudra me l'arracher de mes mains froides et mortes.",
+    "translated": ""
+  },
+  {
+    "csv_row": 5193,
+    "id": "gaPZ_lcWhy",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 5194,
+    "id": "gaPZ_lcSerious",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 5195,
+    "id": "gaPZ_lcReceived",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 5224,
+    "id": "gaPZDiktatEncounterNoZig",
+    "column": "options",
+    "option_line": "gaPZ_diktatEncounterNoZig2:\"Il semble que je n'aie pas d'exemplaire de cette classe de vaisseau dans ma flotte.\"",
+    "original": "Il semble que je n'aie pas d'exemplaire de cette classe de vaisseau dans ma flotte.",
+    "translated": ""
+  },
+  {
+    "csv_row": 5229,
+    "id": "GAPZDiktatHub2",
+    "column": "options",
+    "option_line": "gaPZ_diktatIfRefuse:\"Et si je refuse ?\"",
+    "original": "Et si je refuse ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 5231,
+    "id": "GAPZDiktatHub4",
+    "column": "options",
+    "option_line": "gaPZ_diktatVanish:Cacher le Ziggurat",
+    "original": "Cacher le Ziggurat",
+    "translated": ""
+  }
+]

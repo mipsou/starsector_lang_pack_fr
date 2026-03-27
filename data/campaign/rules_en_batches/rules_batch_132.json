@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 3288,
+    "id": "BFFIpsRuseNiceD",
+    "column": "text",
+    "original": "\"Yours is a path of blood, but there are those who say your soul is not lost to Perdition.\"\n\n$HeOrShe glares at you sullenly.\n\n\"I did not say I was amongst them.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3289,
+    "id": "BFFIpsRuseNiceEopt",
+    "column": "options",
+    "option_line": "bffi_psRuseNiceE:\"Surely my humanitarian reputation precedes me.\"",
+    "original": "Surely my humanitarian reputation precedes me.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3291,
+    "id": "BFFIpsRuseNiceE",
+    "column": "text",
+    "original": "\"How lost you are, and how far from the light.\" $HeOrShe shakes $hisOrHer head, \"If the rumors are true, then perhaps some part of you hears a whisper of the Word. That can be the only explanation.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3292,
+    "id": "BFFIpsRuseNiceOutA",
+    "column": "options",
+    "option_line": "bffi_stationTalkOutA:\"My patience is spent. There can be no deal, and that's on you.\" (cut comms)",
+    "original": "My patience is spent. There can be no deal, and that's on you.\" (cut comms)",
+    "translated": ""
+  },
+  {
+    "csv_row": 3293,
+    "id": "BFFIpsRuseNiceOutB",
+    "column": "options",
+    "option_line": "bffi_stationTalkOutB:\"Your heresy has corrupted you too far. I pray the infinite accepts you.\" (cut comms)",
+    "original": "Your heresy has corrupted you too far. I pray the infinite accepts you.\" (cut comms)",
+    "translated": ""
+  },
+  {
+    "csv_row": 3294,
+    "id": "BFFIpsRuseOpenMean",
+    "column": "text",
+    "original": "You explain that you will require comms buffers and datastores pertaining to Sedge's scheme. You will need the datastores of the nanoforge as well, and must be given access in order to destroy it.\n\nFew need be hurt, if they cooperate; it can be done quickly and without compromising $hisOrHer leadership status if $heOrShe secretly gives you their primary security codes. Blame it on the injection of a semi-sentient computer virus, a 'daemon' of the sort Molochians conjure in their AI-labs.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3294,
+    "id": "BFFIpsRuseOpenMean",
+    "column": "options",
+    "option_line": "bffi_psRuseOpenMean2:\"Those are the terms. My wrath is great and won't be long contained.\"",
+    "original": "Those are the terms. My wrath is great and won't be long contained.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3295,
+    "id": "BFFIpsRuseOpenMean2",
+    "column": "text",
+    "original": "\"Why should I trust you - you, who threaten me so?\"\n\n$HeOrShe is clearly unhappy with your terms. \"You're a slave of not only Mammon and Moloch, but Wrath itself. Suffering is your daily bread.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3296,
+    "id": "BFFIpsRuseOpenMeanAlmost",
+    "column": "text",
+    "original": "$HisOrHer eyes are watering, $hisOrHer hands wringing. Just one more push should convince $himOrHer...",
+    "translated": ""
+  },
+  {
+    "csv_row": 3297,
+    "id": "BFFIpsRuseOpenMeanDone",
+    "column": "text",
+    "original": "\"Cease your threats!\" $HeOrShe puts $hisOrHer head in $hisOrHer hands. \"You are a monster out of Hell, and surely that is where I shall find myself for making this deal... but this has gone on long enough. I must protect my people.\"\n\n\"I must accept your terms,\" $heOrShe says, defeated. \"I pray this is the Path.\"",
+    "translated": ""
+  }
+]

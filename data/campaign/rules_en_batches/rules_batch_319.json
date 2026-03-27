@@ -1,0 +1,79 @@
+[
+  {
+    "csv_row": 9359,
+    "id": "anhCheckCompletionOnlyKid",
+    "column": "options",
+    "option_line": "anh_completeDeliveryOnlyKid0:\"On fait tous ce qu'il faut pour survivre, petit.\"",
+    "original": "On fait tous ce qu'il faut pour survivre, petit.",
+    "translated": ""
+  },
+  {
+    "csv_row": 9359,
+    "id": "anhCheckCompletionOnlyKid",
+    "column": "options",
+    "option_line": "anh_completeDelivery:Laisser tomber",
+    "original": "Laisser tomber",
+    "translated": ""
+  },
+  {
+    "csv_row": 9360,
+    "id": "anhCheckCompletionOnlyKidReroute",
+    "column": "text",
+    "original": "He looks like he's going to take the bait, but the robot bleeps at him, defusing his anger.",
+    "translated": ""
+  },
+  {
+    "csv_row": 9376,
+    "id": "ImoinuUmbraGreetingsLiar",
+    "column": "text",
+    "original": "\"$playerName the liar.\" She scowls. \"Didn't I tell you to suck vacuum?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 9378,
+    "id": "ImoinuUmbraGreetingSDcom",
+    "column": "options",
+    "option_line": "imoinuKato_SDcomConfrontB:\"Ah, so you've heard of me. Very good.\"",
+    "original": "Ah, so you've heard of me. Very good.",
+    "translated": ""
+  },
+  {
+    "csv_row": 9378,
+    "id": "ImoinuUmbraGreetingSDcom",
+    "column": "options",
+    "option_line": "imoinuKato_SDcomConfrontC:\"Perhaps you've mistaken me for someone else.\" (lie)",
+    "original": "Perhaps you've mistaken me for someone else.\" (lie)",
+    "translated": ""
+  },
+  {
+    "csv_row": 9386,
+    "id": "ImoinuKatoUmbraAskWhat",
+    "column": "options",
+    "option_line": "imoinuKato_askWhatUmbra:\"Aren't you Gens Kato? What are you doing on Umbra?\"",
+    "original": "Aren't you Gens Kato? What are you doing on Umbra?",
+    "translated": ""
+  },
+  {
+    "csv_row": 9387,
+    "id": "ImoinuKatoUmbraSayAndrada",
+    "column": "options",
+    "option_line": "imoinuKato_sayAndrada1:\"Speaking of Andrada... I've got some good news for you.\"",
+    "original": "Speaking of Andrada... I've got some good news for you.",
+    "translated": ""
+  },
+  {
+    "csv_row": 9388,
+    "id": "ImoinuKatoUmbraSayAndrada1",
+    "column": "text",
+    "original": "\"What about him?\" She watches you carefully.",
+    "translated": ""
+  },
+  {
+    "csv_row": 9388,
+    "id": "ImoinuKatoUmbraSayAndrada1",
+    "column": "options",
+    "option_line": "imoinuKato_sayAndrada2:\"I'm pretty sure he's braindead. Dolos Macario as much as admitted it to me.\"",
+    "original": "I'm pretty sure he's braindead. Dolos Macario as much as admitted it to me.",
+    "translated": ""
+  }
+]

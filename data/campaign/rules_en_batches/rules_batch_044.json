@@ -1,0 +1,81 @@
+[
+  {
+    "csv_row": 1946,
+    "id": "lkePatherFleetRespB",
+    "column": "options",
+    "option_line": "lke_patherFleetCeaseLie:\"Si c'est ce que la Voie exige, je cesserai.\" (mensonge)",
+    "original": "Si c'est ce que la Voie exige, je cesserai.\" (mensonge)",
+    "translated": ""
+  },
+  {
+    "csv_row": 1948,
+    "id": "lkePatherFleetRespD",
+    "column": "options",
+    "option_line": "lke_patherFleetServePath:\"Je souhaite servir la Voie ; trouver Bornanew servira la cause que nous partageons.\"",
+    "original": "Je souhaite servir la Voie ; trouver Bornanew servira la cause que nous partageons.",
+    "translated": ""
+  },
+  {
+    "csv_row": 1949,
+    "id": "lkePatherFleetRespE",
+    "column": "options",
+    "option_line": "lke_patherFleetServePathB:\"Trouver Bornanew servira la Voie. Ayez la foi.\"",
+    "original": "Trouver Bornanew servira la Voie. Ayez la foi.",
+    "translated": ""
+  },
+  {
+    "csv_row": 1955,
+    "id": "lkePatherFleetRespJ",
+    "column": "options",
+    "option_line": "lke_patherFleetEndFight:Couper les comms",
+    "original": "Couper les comms",
+    "translated": ""
+  },
+  {
+    "csv_row": 1956,
+    "id": "LKEpatherFleetNotStopping",
+    "column": "text",
+    "original": "\"Mais vous le devez,\" dit $heOrShe, presque perplexe. \"J'attaquerai si vous ne cessez pas.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 1983,
+    "id": "LKEmazTestSetting1",
+    "column": "options",
+    "option_line": "LKE_mazTest1a:set $player.gotYaribayCredentials true",
+    "original": "set $player.gotYaribayCredentials true",
+    "translated": ""
+  },
+  {
+    "csv_row": 1984,
+    "id": "LKEmazTestSetting2",
+    "column": "options",
+    "option_line": "LKE_mazTest2a:set $player.metSiyavong true",
+    "original": "set $player.metSiyavong true",
+    "translated": ""
+  },
+  {
+    "csv_row": 1985,
+    "id": "LKEmazTestSetting3",
+    "column": "options",
+    "option_line": "LKE_mazTest3a:Test Bornanew end convo",
+    "original": "Test Bornanew end convo",
+    "translated": ""
+  },
+  {
+    "csv_row": 1992,
+    "id": "LKEmazConvOptionLeaveAuto",
+    "column": "options",
+    "option_line": "lke_MazCutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  },
+  {
+    "csv_row": 1993,
+    "id": "LKEmazConvOptionLeavePoliteAuto",
+    "column": "options",
+    "option_line": "lke_MazCutCommLinkPolite:Couper la comm",
+    "original": "Couper la comm",
+    "translated": ""
+  }
+]

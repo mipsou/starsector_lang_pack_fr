@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 2996,
+    "id": "BFFItalkToEngineer5",
+    "column": "text",
+    "original": "\"Hm. Good output, this. But I'm thinking not good-perfect. Ludd...ics,\" her eyes dart at Bornanew, \"No offense, but they don't go in for training much native talent. S'why you lot pay me.\"\n\n\"Anyway, when you get into really delicate products, your forge quality starts to matter. A work-rated vac-glove though?\" She rolls her eyes. \"This better be good.\"\n\nThe analysis suite is making some kind of humming sound, and there's a clunk. The engineer doesn't react, so neither do you. Her display erupts with numbers and icons, then something she does pulls a cutaway from the holo-glove, which scales as the rest of it disappears. \n\nAnother segmentation of scale iterates, then another.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2996,
+    "id": "BFFItalkToEngineer5",
+    "column": "options",
+    "option_line": "bffi_talkToEngineer6:Watch closely",
+    "original": "Watch closely",
+    "translated": ""
+  },
+  {
+    "csv_row": 2997,
+    "id": "BFFItalkToEngineer6",
+    "column": "text",
+    "original": "\"We can see signs of what we call 'drift' here,\" she says. A colored indicator ring flashes around an orderly pattern of small-scale structures deep within the glove, the representation of individual atoms, perhaps, just visible like the grain of sandstone.\n\n\"These defects are unique to the faults in an individual nanoforge. More or less.\" \n\n\"Like a fingerprint,\" Bornanew says.\n\n\"No.\" The engineer shrugs. \"But sure, if you like.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2998,
+    "id": "BFFItalkToEngineer7",
+    "column": "text",
+    "original": "\"Someone's been naughty,\" she says, sounding more delighted than upset. \"The glove is new, but the model is old. A closed-source pre-Collapse template. There are fabrication-rights codes embedded in its structure.\"\n\nWith a tap, another colored indicator ring flashes on a sheared-square section of material containing a complex pattern. \"Tells the forge not to make unauthorized copies.\"\n\n\"Closed products from the Domain-era tend to be far higher quality than forges running post-Collapse hacks.\" She smiles, \"This isn't that, but it's close. Tells us two things.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2999,
+    "id": "BFFItalkToEngineer8",
+    "column": "text",
+    "original": "\"One, this was made by an industrial-grade Domain-era forge. Heavy industry stuff. Bit of a waste to use it to make a glove,\" she glances at you, \"If you ask me.\"\n\n\"Two, either this forge is loaded with valid fabrication rights and it's damaged, or it's been hacked to bypass the embedded copy protections. And it's damaged. I mean, stars and ruin, look at this mess,\" she zooms in on the 'drift' patterns while making a disgusted look.\n\n$global.jethroName speaks up now, \"Three, we're dealing with a sophisticated forgery operation.\"\n\nThe engineer shoots a look back at him, \"Neat.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2999,
+    "id": "BFFItalkToEngineer8",
+    "column": "options",
+    "option_line": "bffi_talkToEngineer9:\"What forge made this? Where's it from?\"",
+    "original": "What forge made this? Where's it from?",
+    "translated": ""
+  },
+  {
+    "csv_row": 3000,
+    "id": "BFFItalkToEngineer9",
+    "column": "text",
+    "original": "\"Right,\" she manipulates the interface again.\n\nThe drift-pattern from the glove remains locked, and she brings up similar - but distinct - examples of patterns in an expanding grid. Small labels show a string of glyphs, most of which contain the names of industrial combines, shipyards, and polities known to you. Some you recognize as dating to the Collapse. Others are unfamiliar.\n\n\"This is the drift library we've got here on Asher. Useful stuff, but other factions got better.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3000,
+    "id": "BFFItalkToEngineer9",
+    "column": "options",
+    "option_line": "bffi_talkToEngineer10:\"So you can match the 'drift' to the forge.\"",
+    "original": "So you can match the 'drift' to the forge.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3001,
+    "id": "BFFItalkToEngineer10",
+    "column": "text",
+    "original": "\"Exactly,\" she's pleased that you put it together. \"Got bad news though, cap. Your glove doesn't match anything in this library.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3001,
+    "id": "BFFItalkToEngineer10",
+    "column": "options",
+    "option_line": "bffi_talkToEngineer11a:\"Can drift be obscured, faked?\"",
+    "original": "Can drift be obscured, faked?",
+    "translated": ""
+  }
+]

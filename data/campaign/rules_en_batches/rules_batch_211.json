@@ -1,0 +1,80 @@
+[
+  {
+    "csv_row": 5843,
+    "id": "gaATGmeetCottonTeaHubG",
+    "column": "options",
+    "option_line": "gaATG_meetCottonTaking:\"Je prends le clone de Loke.\"",
+    "original": "Je prends le clone de Loke.",
+    "translated": ""
+  },
+  {
+    "csv_row": 5850,
+    "id": "gaATGmeetCottonTeaKnight2",
+    "column": "options",
+    "option_line": "gaATG_meetCottonKnight3:\"Et quelle en est la signification ?\"",
+    "original": "Et quelle en est la signification ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 5851,
+    "id": "gaATGmeetCottonTeaKnight3",
+    "column": "text",
+    "original": "Il marque une pause, l'air presque timide un instant, puis dit \"Cela... nous en parlerons avant d'en avoir fini ici.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 5868,
+    "id": "gaATGmeetCottonEnd3",
+    "column": "options",
+    "option_line": "gaATG_meetCottonEnd4:Entrer the shuttle",
+    "original": "Entrer the shuttle",
+    "translated": ""
+  },
+  {
+    "csv_row": 5877,
+    "id": "gaATGreturnLokeFirst",
+    "column": "options",
+    "option_line": "gaATG_returnLokeNowZal1:\"Maintenant envoyez-moi Zal.\"",
+    "original": "Maintenant envoyez-moi Zal.",
+    "translated": ""
+  },
+  {
+    "csv_row": 5884,
+    "id": "gaATGreturnLokeZal2",
+    "column": "options",
+    "option_line": "gaATG_returnLokeZal3:\"Ouvrez les portes du sas, ops.\"",
+    "original": "Ouvrez les portes du sas, ops.",
+    "translated": ""
+  },
+  {
+    "csv_row": 5900,
+    "id": "gaATGMagecGateOptScan",
+    "column": "options",
+    "option_line": "gaATG_magecGateDoScan:Scanner le Portail",
+    "original": "Scanner le Portail",
+    "translated": ""
+  },
+  {
+    "csv_row": 5901,
+    "id": "gaATGMagecGateOptZalScan1",
+    "column": "text",
+    "original": "\"Vous devrez scanner le Portail,\" dit Zal doucement sur votre canal de communication. \"Et ensuite...\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 5902,
+    "id": "gaATGMagecGateOptZalScan2",
+    "column": "options",
+    "option_line": "gaATG_magecGateAndThen:\"Et ensuite ?\"",
+    "original": "Et ensuite ?",
+    "translated": ""
+  },
+  {
+    "csv_row": 5904,
+    "id": "gaATGMagecGateOptJanus2",
+    "column": "options",
+    "option_line": "gaATG_MagecGateJanus:\"Branchez le dispositif Janus.\"",
+    "original": "Branchez le dispositif Janus.",
+    "translated": ""
+  }
+]

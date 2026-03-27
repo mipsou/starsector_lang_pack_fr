@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 3219,
+    "id": "BFFIstationMedConWhatDo1",
+    "column": "text",
+    "original": "\"Ah. Then Ulmus told us true.\" A flicker of a smile crosses Bornanew's face.\n\n\"We must... destroy the nanoforge. And find out who the mole is, in the cathedral. Tartessus.\" He closes his eyes and takes a slow breath.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3219,
+    "id": "BFFIstationMedConWhatDo1",
+    "column": "options",
+    "option_line": "bffi_stationMedConIntendA:\"I intend to negotiate with the Pather in charge here.\"",
+    "original": "I intend to negotiate with the Pather in charge here.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3219,
+    "id": "BFFIstationMedConWhatDo1",
+    "column": "options",
+    "option_line": "bffi_stationMedConIntendB:\"I intend to send a marine raid. Seize datastores, destroy the forge.\"",
+    "original": "I intend to send a marine raid. Seize datastores, destroy the forge.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3219,
+    "id": "BFFIstationMedConWhatDo1",
+    "column": "options",
+    "option_line": "bffi_stationMedConIntendC:\"I intend to attack directly. Destroy the station.\"",
+    "original": "I intend to attack directly. Destroy the station.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3220,
+    "id": "BFFIstationMedConIntendA",
+    "column": "text",
+    "original": "\"They are... as human and fallible as any of us. To convince them, would be a miracle.\" He looks at you skeptically.\n\n\"If... that fails. Acquire hard data. The scan of the original glove, the metadata may tell us. Comms buffers. Archives. All useful.\" He looks at you, \"I have a list of suspects. A mole in the Holy Cathedral of Exodus. Need evidence. Who to... put to inquisition.\" \n\nDefensive, he adds, \"The rumors... slander. Mostly.\" His eyes are closed, his breathing shallow. \"And... destroy the forge. Must be destroyed.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3221,
+    "id": "BFFIstationMedConIntendB",
+    "column": "text",
+    "original": "\"The Pathers' reputation... they are as human as any. Not all heretical zealots. Fallible, fearful.\" He looks at you skeptically.\n\n\"I have a list of suspects. A mole in the Holy Cathedral of Exodus. Need evidence. Who to... put to inquisition. Acquire hard data. The scan of the original glove, the metadata may tell us. Comms buffers. Archives. All useful.\" \n\nHe looks at you. \"Inquisition... the rumors. Slander. Mostly.\" His eyes are closed, his breathing shallow. \"And... destroy the forge. Must be destroyed.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3222,
+    "id": "BFFIstationMedConIntendC",
+    "column": "text",
+    "original": "\"No!\" He speaks a little too forcefully; a blinking light turns yellow.\n\n\"Risky... need acquire hard data. Scan of the original glove, the metadata. Comms buffers. Archives.\" He takes a deep breath then looks at you, \"I have a list of suspects. A mole in the Holy Cathedral of Exodus. Need evidence. Who to... put to inquisition.\" \n\nHe pauses, then says, \"Inquisitors. The rumors... slander. Mostly.\" His eyes are closed, his breathing shallow. \"And... destroy the forge. Must be destroyed.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3223,
+    "id": "BFFIstationMedConOutro1",
+    "column": "text",
+    "original": "\"$PlayerSirOrMadam.\" Your chief medical officer appears behind you. \"The patient needs rest. I must insist.\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 3224,
+    "id": "BFFIstationMedConOutro2a",
+    "column": "text",
+    "original": "Your med chief's face is crossed by a network of fine wrinkles, evidence of many cycles of service. They say nothing, but turn their head at a small and precise angle.\n\nBornanew's breathing is slow, regular. His eyes closed. Unconscious.",
+    "translated": ""
+  },
+  {
+    "csv_row": 3225,
+    "id": "BFFIstationMedConOutro2b",
+    "column": "text",
+    "original": "The expression on your med chief's face doesn't change, but the network of fine wrinkles tells of sufficient cycles of service such that they will stand firm against your overstep of authority.\n\n\"Nonetheless,\" your chief medical officer says, turning their head a small and precise angle.\n\nBornanew's breathing is slow, regular. His eyes closed. Unconscious.",
+    "translated": ""
+  }
+]

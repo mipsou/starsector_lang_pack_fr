@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 2741,
+    "id": "BFFItalkHorusPartyAttendEnd",
+    "column": "text",
+    "original": "\"I shall make my own way to Olinadu, thank you. Have your people coordinate with my people.\"\n\n\"We'll sort out Menes' indiscretion and set things right with the Church,\" he says brusquely, then turns away.\n\n\"After all I've done for that ungrateful-\" \n\nThe comms cut.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2741,
+    "id": "BFFItalkHorusPartyAttendEnd",
+    "column": "options",
+    "option_line": "bffi_talkHorusPartyEnd2:Couper les comms",
+    "original": "Couper les comms",
+    "translated": ""
+  },
+  {
+    "csv_row": 2742,
+    "id": "BFFItalkHorusPartyAttendEnd2",
+    "column": "text",
+    "original": "Now you have a party to attend - with an uninvited guest of honor.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2748,
+    "id": "BFFIattendPartyIntro1",
+    "column": "text",
+    "original": "Menes' invitation provides you with a flight path and Demarch-level traffic control override codes.\n\nIt's probably a violation of Persean League ethical guidelines for you to be using these to attend a personal party, but from what you can overhear of the pilot's comms, the locals have a casual attitude toward the arrangement.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2749,
+    "id": "BFFIattendPartyIntro1raid",
+    "column": "text",
+    "original": "You and Bornanew make an 'undocumented' arrival on Olinadu then transfer to a private shuttle service in order to attend Menes' party.\n\nYour hired pilot gives a shrug as she shows you a flight path blocked out with red DENIED tags - until you apply the key attached to your invitation, which turns out to be a Demarch-level override code.\n\nIt's probably a violation of Persean League ethical guidelines for you to be using these to attend a personal party, but the pilot simply smiles and proceeds. This sort of thing isn't unusual under Menes' administration, it appears.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2751,
+    "id": "BFFIattendPartyIntro3",
+    "column": "text",
+    "original": "One set of hangar bay doors dutifully open, and your shuttle descends through the glowing atmo-field. Such gadgetry is an ostentatious addition to a personal residence, but it avoids the bother of visitors (and their shuttles) having to undergo pressure-cycling.\n\nAn enthusiastic Menes is already approaching your shuttle's access ramp as it sets itself down and signals the all-clear.\n\nBornanew exchanges a look with you, then rises to disembark.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2752,
+    "id": "BFFIattendParty1",
+    "column": "text",
+    "original": "\"Captain $playerName,\" Menes crosses his chest with one arm, hand on heart, the other held behind, giving a small bow. \"Allow me to welcome you to my home.\"\n\n\"And you've brought your fascinating friend!\" he exclaims, as if it was a surprise. \"This must be...?\"",
+    "translated": ""
+  },
+  {
+    "csv_row": 2752,
+    "id": "BFFIattendParty1",
+    "column": "options",
+    "option_line": "BFFI_attendParty3a:\"This is $global.jethroName.\"",
+    "original": "This is $global.jethroName.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2752,
+    "id": "BFFIattendParty1",
+    "column": "options",
+    "option_line": "BFFI_attendParty3b:\"Jethro Bornanew, a novice of the Knights of Ludd.\"",
+    "original": "Jethro Bornanew, a novice of the Knights of Ludd.",
+    "translated": ""
+  },
+  {
+    "csv_row": 2753,
+    "id": "BFFIattendParty3a",
+    "column": "text",
+    "original": "\"Jethro Bornanew,\" he adds quickly. \"Novice Bornanew of the Knights of Ludd, at your service. May this day be blessed by Providence.\"",
+    "translated": ""
+  }
+]
