@@ -74,7 +74,7 @@ Activité Pirate,pirate_activity,,,TRUE,com.fs.starfarer.api.impl.campaign.intel
 
 Les pirates disposent très probablement d'une base quelque part dans les environs.",graphics/icons/markets/pirate_activity.png,1300
 Activité Hostile,hostile_activity,,,TRUE,com.fs.starfarer.api.impl.campaign.intel.events.HostileActivity,,graphics/icons/markets/pirate_activity.png,1350
-Répit de Piraterie,piracy_respite,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.PiracyRespite,Cette colonie bénéficie d'un répit face aux ravages de la piraterie, si courante dans le Secteur.,graphics/icons/markets/respite40.png,1375
+Répit de Piraterie,piracy_respite,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.PiracyRespite,"Cette colonie bénéficie d'un répit face aux ravages de la piraterie, si courante dans le Secteur.",graphics/icons/markets/respite40.png,1375
 Régime Établi,established_polity,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.EstablishedPolity,,graphics/icons/markets/established_polity.png,1380
 Blocus,blockaded,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Blockaded,"Le système où se trouve cette colonie subit un blocus, et le trafic commercial régulier est victime de harcèlement, voire pire. Les effets persisteront tant que la force de blocus ne se sera pas retirée ou n'aura pas été solidement défaite.",graphics/icons/markets/blockade.png,1385
 Cellules du Sentier Luddique,pather_cells,,,TRUE,com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathCells,,graphics/icons/markets/pather_cells.png,1400
@@ -138,7 +138,7 @@ Pollution,pollution,,,,com.fs.starfarer.api.impl.campaign.econ.Pollution,"L'indu
 Gisements de Minerai Épars,ore_sparse,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"Quelques gisements de minerai épars existent ici, mais ils relèvent davantage de l'intérêt académique qu'industriel car leur extraction est à peine rentable.",graphics/icons/markets/ore_sparse.png,50
 Gisements de Minerai Modérés,ore_moderate,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"$Market contient des gisements de minerai modérés qui, dans les bonnes conditions économiques, pourraient être exploités de manière rentable.",graphics/icons/markets/ore_moderate.png,50
 Gisements de Minerai Abondants,ore_abundant,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"Des gisements de minerai abondants, étendus et exploitables de manière rentable se trouvent sur $market.",graphics/icons/markets/ore_abundant.png,50
-Gisements de Minerai Riches,ore_rich,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,De riches gisements minéraux forment un réseau dense dans la croûte de $market, mais il faut un industriel ambitieux pour les exploiter et en tirer des profits fabuleux.,graphics/icons/markets/ore_rich.png,50
+Gisements de Minerai Riches,ore_rich,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"De riches gisements minéraux forment un réseau dense dans la croûte de $market, mais il faut un industriel ambitieux pour les exploiter et en tirer des profits fabuleux.",graphics/icons/markets/ore_rich.png,50
 Gisements de Minerai Ultra-Riches,ore_ultrarich,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"Une richesse minérale existe sur $market, touchée par Midas au-delà des fantasmes les plus fous des légendaires mégacorporations minières de l'ère du Domaine.",graphics/icons/markets/ore_ultrarich.png,50
 ,,,,,,,,
 ,,,,,,,,
