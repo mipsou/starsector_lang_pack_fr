@@ -12,7 +12,7 @@ Black market transactions may catch the eye of authorities, resulting in cargo s
 
 Engaging in legitimate trade as a ""cover"" also reduces the probability of attracting the attention of authorities.",com.fs.starfarer.api.impl.campaign.submarkets.BlackMarketPlugin,graphics/factions/black_market.png,999
 storage,Storage,player,Storage space for ships and cargo.,com.fs.starfarer.api.impl.campaign.submarkets.StoragePlugin,graphics/factions/storage.png,1000
-generic_military,,,"Trade with $theFaction military base.
+generic_military,,,"Commercer avec la base militaire $theFaction.
 
 Weapons and other military hardware can be bought and sold here even if they're illegal on the open market. A commission and better standing with $theFaction results in higher-grade hardware being available.
 
