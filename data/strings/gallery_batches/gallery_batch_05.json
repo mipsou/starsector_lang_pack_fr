@@ -5,7 +5,7 @@
     "title": "Hesperus",
     "original_text": "Monasteries clung to the sublime promontories which ringed the volcanic provinces forced through world-wrapping ice. Unseen were the bunkers, heavy batteries, and missile silos of the Knights of Ludd.\n\nThe reigning Presbyter Orbis declared a handful of special economic zones on the shifting floes; these transmitted welcomes, their beacons calling outside traders to port.",
     "translated_title": "Hesperus",
-    "translated_text": "Des monastères s'accrochaient aux promontoires sublimes qui ceinturaient les provinces volcaniques percées à travers la glace enveloppant le monde. Des pèlerins peu nombreux mais déterminés faisaient le voyage périlleux pour chercher la sagesse de ceux qui avaient renoncé au confort matériel."
+    "translated_text": "Des monastères s'accrochaient aux promontoires sublimes qui ceinturaient les provinces volcaniques percées à travers la glace enveloppant le monde. Invisibles étaient les bunkers, les batteries lourdes et les silos à missiles des Chevaliers de Ludd.\n\nLe Presbytère Orbis régnant déclara une poignée de zones économiques spéciales sur les banquises dérivantes ; celles-ci émettaient des messages de bienvenue, leurs balises appelant les marchands extérieurs au port."
   },
   {
     "csv_row": 666,
@@ -13,7 +13,7 @@
     "title": "Shrine of Hesperus",
     "original_text": "The floor was a welded field of armored plates weathered into intricate patterns by the varied atmospheres of worlds on which the Knights of Ludd fought and died. The niches held empty helmets like so many skulls.",
     "translated_title": "Sanctuaire d'Hesperus",
-    "translated_text": "Le sol était un champ soudé de plaques blindées patinées en motifs complexes par les atmosphères variées des mondes sur lesquels ces plaques avaient autrefois servi. Des bougies projetaient une lumière vacillante sur un autel simple où reposaient des reliques de l'ère du Domain."
+    "translated_text": "Le sol était un champ soudé de plaques blindées patinées en motifs complexes par les atmosphères variées des mondes sur lesquels les Chevaliers de Ludd avaient combattu et péri. Les niches abritaient des casques vides, tels autant de crânes."
   },
   {
     "csv_row": 667,
@@ -21,7 +21,7 @@
     "title": "Shrine of Killa",
     "original_text": "There were empty sockets, rib-cages, femurs and spines set in recesses, built into columns, covering every surface. The dust came from the crumbling bodies, the bones.\n\nLike a veil, it flexed slowly in the electrostatic field strong enough to overcome the low gravity of the world to hang in near-vacuum.",
     "translated_title": "Sanctuaire de Killa",
-    "translated_text": "Il y avait des orbites vides, des cages thoraciques, des fémurs et des colonnes vertébrales encastrés dans des renfoncements, intégrés dans des piliers, couvrant chaque surface. Les os d'anciens fidèles composaient l'architecture même du sanctuaire, un mémorial macabre à la dévotion."
+    "translated_text": "Il y avait des orbites vides, des cages thoraciques, des fémurs et des colonnes vertébrales encastrés dans des renfoncements, intégrés dans des piliers, couvrant chaque surface. La poussière provenait des corps en décomposition, des os.\n\nComme un voile, elle ondulait lentement dans le champ électrostatique assez puissant pour vaincre la faible gravité du monde et flotter dans le quasi-vide."
   },
   {
     "csv_row": 668,
@@ -29,7 +29,7 @@
     "title": "Shrine of Volturn",
     "original_text": "It was filled with guns, explosives, grenades, cellmags. Crates and racks piled high. The shrine itself was set under a round viewport holding back a titanic mass of water. A few candles struggled to maintain even a decent flicker among the ranks of their dead comrades.",
     "translated_title": "Sanctuaire de Volturn",
-    "translated_text": "Il était rempli d'armes, d'explosifs, de grenades, de chargeurs cellulaires. Des caisses et des râteliers empilés haut. Le sanctuaire lui-même était installé sous un filet de camouflage, caché des regards indiscrets des autorités."
+    "translated_text": "Il était rempli d'armes, d'explosifs, de grenades, de chargeurs cellulaires. Des caisses et des râteliers empilés haut. Le sanctuaire lui-même était installé sous un hublot rond retenant une masse titanesque d'eau. Quelques bougies luttaient pour maintenir ne serait-ce qu'une lueur décente parmi les rangs de leurs consœurs éteintes."
   },
   {
     "csv_row": 669,
@@ -37,7 +37,7 @@
     "title": "Shrine of Volturn, fake",
     "original_text": "It was a sad thing set in the back of a back room, rows of candles arrayed around the wooden centerpiece carved with images of Ludd's travails. The candles were dead, the shrine illuminated only by grimy portholes.\n\n\"We do not have many visitors, you see,\" the curate said.",
     "translated_title": "Sanctuaire de Volturn, factice",
-    "translated_text": "C'était une triste chose installée au fond d'une arrière-salle, des rangées de bougies disposées autour de la pièce centrale en bois sculptée d'images de saints Luddic. Un leurre pour les inspecteurs, rien de plus."
+    "translated_text": "C'était une triste chose installée au fond d'une arrière-salle, des rangées de bougies disposées autour de la pièce centrale en bois sculptée d'images des épreuves de Ludd. Les bougies étaient mortes, le sanctuaire éclairé seulement par des hublots crasseux.\n\n« Nous n'avons pas beaucoup de visiteurs, voyez-vous, » dit le curé."
   },
   {
     "csv_row": 670,
@@ -45,7 +45,7 @@
     "title": "Protest",
     "original_text": "The steady advance of gendarmerie broke the protest line, shock-prods rose and fell to muffled shouts and silent screaming. Drones, flashing laser-light, deployed restraint foam on struggling forms. Fists, signs, and hand tools were useless against the power-armored officers.",
     "translated_title": "Manifestation",
-    "translated_text": "L'avancée régulière de la gendarmerie brisa la ligne de protestation, les aiguillons de choc montaient et descendaient au rythme de cris étouffés et de hurlements silencieux sur les visages de ceux qui tombaient."
+    "translated_text": "L'avancée régulière de la gendarmerie brisa la ligne de protestation, les aiguillons de choc montaient et descendaient au rythme de cris étouffés et de hurlements silencieux. Des drones, clignotant de lumière laser, déployaient de la mousse de contention sur les corps qui se débattaient. Poings, pancartes et outils manuels étaient inutiles contre les officiers en armure assistée."
   },
   {
     "csv_row": 671,
@@ -53,7 +53,7 @@
     "title": "Preparation for Raid",
     "original_text": "Each squad prepared as if for surgery, cool and precise. Hell was set to pour forth once the breaching charges blasted through access-points, into churning storms of dust and debris and fire strobing with weapon discharge.",
     "translated_title": "Préparation au Raid",
-    "translated_text": "Chaque escouade se préparait comme pour une chirurgie, calme et précise. L'enfer était prêt à se déverser une fois que les charges de brèche auraient fait exploser les sas."
+    "translated_text": "Chaque escouade se préparait comme pour une chirurgie, calme et précise. L'enfer était prêt à se déverser une fois que les charges de brèche auraient explosé à travers les points d'accès, dans des tempêtes tourbillonnantes de poussière, de débris et de feu strié par les décharges d'armes."
   },
   {
     "csv_row": 672,
@@ -61,7 +61,7 @@
     "title": "Raid for Valuables",
     "original_text": "Dull thuds, nearly subsonic, were felt through the armored mass. Breaching charges. When the marines finally broke the vault proper, it was with overwhelming force of sound and light. No unsuited human could withstand the assault on the senses. They were blinded, in shock.",
     "translated_title": "Raid pour Ressources",
-    "translated_text": "Des chocs sourds, presque subsoniques, se faisaient sentir à travers la masse blindée. Des charges de brèche. Quand les marines percèrent enfin les portes blindées, ce qu'ils trouvèrent à l'intérieur valait bien le risque."
+    "translated_text": "Des chocs sourds, presque subsoniques, se faisaient sentir à travers la masse blindée. Des charges de brèche. Quand les marines percèrent enfin la chambre forte proprement dite, ce fut avec une force écrasante de son et de lumière. Aucun humain sans combinaison ne pouvait résister à l'assaut sur les sens. Ils étaient aveuglés, en état de choc."
   },
   {
     "csv_row": 673,
@@ -69,7 +69,7 @@
     "title": "Disruption Raid",
     "original_text": "The raid pivoted on mere minutes of chaos. Comms across the hemisphere crackled with static; only tightbeam relays could pierce the rain of EM scatter amid clouds of chaff and disruption. Casualty reports rolled in, displays on the bridge bleeding to fill the volume with a bloody glow.",
     "translated_title": "Raid de Perturbation",
-    "translated_text": "Le raid pivota sur de simples minutes de chaos. Les communications à travers l'hémisphère crépitaient de parasites ; seuls les relais à faisceau étroit pouvaient percer le brouillage."
+    "translated_text": "Le raid pivota sur de simples minutes de chaos. Les communications à travers l'hémisphère crépitaient de parasites ; seuls les relais à faisceau étroit pouvaient percer la pluie de dispersion électromagnétique parmi les nuages de leurres et de brouillage. Les rapports de pertes affluaient, les écrans de la passerelle saignant pour emplir le volume d'une lueur sanglante."
   },
   {
     "csv_row": 674,
@@ -77,6 +77,6 @@
     "title": "Covert Raid",
     "original_text": "The marine squads withdrew, leaving broken bulkheads and blaring alarms amid the sporadic return-fire. The MUNISEC were still mobilizing to lock down the port when the last raider shuttle lifted. Its jets kicked up dust that mixed with the leaking atmo.",
     "translated_title": "Raid Secret",
-    "translated_text": "Les escouades de marines se retirèrent, laissant derrière elles des cloisons brisées et des alarmes hurlantes parmi les tirs de riposte sporadiques. La MUNISEC était dépassée, au moins temporairement."
+    "translated_text": "Les escouades de marines se retirèrent, laissant derrière elles des cloisons brisées et des alarmes hurlantes parmi les tirs de riposte sporadiques. La MUNISEC était encore en train de se mobiliser pour verrouiller le port quand la dernière navette de raid décolla. Ses réacteurs soulevèrent de la poussière qui se mêla à l'atmosphère qui fuyait."
   }
 ]

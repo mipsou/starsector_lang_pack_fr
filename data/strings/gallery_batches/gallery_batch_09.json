@@ -5,7 +5,7 @@
     "title": "Coronal Tap, Interior",
     "original_text": "These megastructures once powered the unfathomable industrial might of the Domain, putting the human civilization well toward Kardashev type II status. It is capable of extracting energy on an astronomical scale directly from the linked star.",
     "translated_title": "Siphon Coronal, Intérieur",
-    "translated_text": "Ces mégastructures alimentaient autrefois la puissance industrielle insondable du Domain, plaçant la civilisation humaine bien au-delà de l'échelle de toute civilisation précédente dans l'histoire connue."
+    "translated_text": "Ces mégastructures alimentaient autrefois la puissance industrielle insondable du Domain, plaçant la civilisation humaine bien en voie d'atteindre le statut de type II sur l'échelle de Kardashev. Elles sont capables d'extraire de l'énergie à une échelle astronomique directement depuis l'étoile liée."
   },
   {
     "csv_row": 706,
@@ -13,7 +13,7 @@
     "title": "Coronal Tap, Exterior",
     "original_text": "These megastructures once powered the unfathomable industrial might of the Domain, putting the human civilization well toward Kardashev type II status. It is capable of extracting energy on an astronomical scale directly from the linked star.",
     "translated_title": "Siphon Coronal, Extérieur",
-    "translated_text": "Ces mégastructures alimentaient autrefois la puissance industrielle insondable du Domain, plaçant la civilisation humaine bien au-delà de l'échelle de toute civilisation précédente dans l'histoire connue."
+    "translated_text": "Ces mégastructures alimentaient autrefois la puissance industrielle insondable du Domain, plaçant la civilisation humaine bien en voie d'atteindre le statut de type II sur l'échelle de Kardashev. Elles sont capables d'extraire de l'énergie à une échelle astronomique directement depuis l'étoile liée."
   },
   {
     "csv_row": 707,
@@ -21,7 +21,7 @@
     "title": "Cryosleeper",
     "original_text": "\"Those who awake from cryosleep who were laid to rest in the time of the Domain are perhaps the most lost of all. Many, though not all, imagined they would populate the far end of a rich frontier; they accepted that they would leave behind all they once knew. Now they all find themselves cut loose from all reference, unmoored in history.\"",
     "translated_title": "Cryodormeur",
-    "translated_text": "\"Ceux qui s'éveillent du cryosommeil et qui furent mis en repos à l'époque du Domain sont peut-être les plus perdus de tous. Beaucoup ne s'adaptent jamais au Secteur tel qu'il est devenu.\""
+    "translated_text": "« Ceux qui s'éveillent du cryosommeil et qui furent mis en repos à l'époque du Domain sont peut-être les plus perdus de tous. Beaucoup, mais pas tous, imaginaient qu'ils peupleraient l'extrémité lointaine d'une riche frontière ; ils avaient accepté de laisser derrière eux tout ce qu'ils connaissaient. Désormais, ils se retrouvent tous coupés de toute référence, déracinés dans l'histoire. »"
   },
   {
     "csv_row": 708,
@@ -29,6 +29,6 @@
     "title": "Uncrewed Probe",
     "original_text": "It was a common class of probe used for research, surveying, and surveillance, the sort of hardware used by civilian enterprise and research institutions. Often run without an active transponder so as not to invite opportunistic scavengers, an active ping will return the ID-packet required both under interfactional commerce law and by most credible insurance combines.",
     "translated_title": "Sonde Automatique",
-    "translated_text": "C'était une classe commune de sonde utilisée pour la recherche, l'étude et la surveillance, le type de matériel utilisé par les entreprises civiles autant que par les installations militaires."
+    "translated_text": "C'était une classe commune de sonde utilisée pour la recherche, l'étude et la surveillance, le type de matériel utilisé par les entreprises civiles et les institutions de recherche. Souvent exploitée sans transpondeur actif pour ne pas attirer les récupérateurs opportunistes, un ping actif renverra le paquet d'identification requis tant par le droit commercial interfactionnel que par la plupart des consortiums d'assurance crédibles."
   }
 ]
