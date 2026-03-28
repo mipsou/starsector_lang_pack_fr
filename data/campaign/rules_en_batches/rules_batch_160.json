@@ -5,28 +5,28 @@
     "column": "options",
     "option_line": "bffi_outro3:Tourner les talons",
     "original": "Tourner les talons",
-    "translated": ""
+    "translated": "Tourner les talons"
   },
   {
     "csv_row": 3558,
     "id": "BFFIoutro3",
     "column": "text",
     "original": "Your shuttle returns you to your $shipOrFleet.\n\nA ping from your TriPad indicates a funds transfer.",
-    "translated": ""
+    "translated": "Votre navette vous ramène à votre $shipOrFleet.\n\nUn signal de votre TriPad indique un transfert de fonds."
   },
   {
     "csv_row": 3559,
     "id": "BFFIoutro3noPayA",
     "column": "text",
     "original": "Your shuttle returns you to your $shipOrFleet.",
-    "translated": ""
+    "translated": "Votre navette vous ramène à votre $shipOrFleet."
   },
   {
     "csv_row": 3560,
     "id": "BFFIoutro3noPayB",
     "column": "text",
     "original": "Your shuttle returns you to your $shipOrFleet.",
-    "translated": ""
+    "translated": "Votre navette vous ramène à votre $shipOrFleet."
   },
   {
     "csv_row": 3563,
@@ -34,14 +34,14 @@
     "column": "options",
     "option_line": "bffi_jaspisAsk1:\"I'm working with Novice Bornanew. For his penance, the matter of a false relic...\"",
     "original": "I'm working with Novice Bornanew. For his penance, the matter of a false relic...",
-    "translated": ""
+    "translated": "Je travaille avec le Novice Bornanew. Pour sa pénitence, l'affaire d'une fausse relique..."
   },
   {
     "csv_row": 3564,
     "id": "BFFIaskJaspis1",
     "column": "text",
     "original": "She holds up a hand to stop you from speaking further.\n\n\"My trust, and my prayers, are with Jethro. He will do what need be done, and if he trusts you, then I pray that you honor him.\"",
-    "translated": ""
+    "translated": "Elle lève une main pour vous empêcher de parler davantage.\n\n\"Ma confiance, et mes prières, sont avec Jethro. Il fera ce qui doit être fait, et s'il vous fait confiance, alors je prie pour que vous l'honoriez.\""
   },
   {
     "csv_row": 3574,
@@ -49,27 +49,27 @@
     "column": "options",
     "option_line": "0:aem_runPackage:Lancer le module de capteurs",
     "original": "aem_runPackage:Lancer le module de capteurs",
-    "translated": ""
+    "translated": "aem_runPackage:Lancer le module de capteurs"
   },
   {
     "csv_row": 3601,
     "id": "CMSNTextSuitedPart2_default",
     "column": "text",
     "original": "\"Alors, qu'en dites-vous ? Vous voulez toujours vous engager ?\"",
-    "translated": ""
+    "translated": "\"Alors, qu'en dites-vous ? Vous voulez toujours vous engager ?\""
   },
   {
     "csv_row": 3602,
     "id": "CMSNTextWelcomePart1_default",
     "column": "text",
     "original": "\"Excellent ! Bienvenue dans le service.\"",
-    "translated": ""
+    "translated": "\"Excellent ! Bienvenue dans le service.\""
   },
   {
     "csv_row": 3628,
     "id": "CMSNTextWelcomePart1_hegemony",
     "column": "text",
     "original": "\"Excellent ! Bienvenue dans le service.\"",
-    "translated": ""
+    "translated": "\"Excellent ! Bienvenue dans le service.\""
   }
 ]

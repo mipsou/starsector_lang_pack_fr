@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "0:cutCommLinkPolite:Couper la comm",
     "original": "cutCommLinkPolite:Couper la comm",
-    "translated": ""
+    "translated": "cutCommLinkPolite:Couper la comm"
   },
   {
     "csv_row": 3755,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "0:cutCommLinkPolite:Couper la comm",
     "original": "cutCommLinkPolite:Couper la comm",
-    "translated": ""
+    "translated": "cutCommLinkPolite:Couper la comm"
   },
   {
     "csv_row": 3758,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "0:cutCommLinkPolite:Couper la comm",
     "original": "cutCommLinkPolite:Couper la comm",
-    "translated": ""
+    "translated": "cutCommLinkPolite:Couper la comm"
   },
   {
     "csv_row": 3765,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "cutCommLinkPolite:\"Je verrai ce que je peux faire.\"",
     "original": "Je verrai ce que je peux faire.",
-    "translated": ""
+    "translated": "Je verrai ce que je peux faire."
   },
   {
     "csv_row": 3770,
@@ -37,7 +37,7 @@
     "column": "options",
     "option_line": "tutGotCore3:\"Quelle est cette alternative ?\"",
     "original": "Quelle est cette alternative ?",
-    "translated": ""
+    "translated": "Quelle est cette alternative ?"
   },
   {
     "csv_row": 3771,
@@ -45,7 +45,7 @@
     "column": "options",
     "option_line": "cutCommLinkPolite:\"Merci. Je reviendrai avec les vaisseaux.\"",
     "original": "Merci. Je reviendrai avec les vaisseaux.",
-    "translated": ""
+    "translated": "Merci. Je reviendrai avec les vaisseaux."
   },
   {
     "csv_row": 3774,
@@ -53,7 +53,7 @@
     "column": "options",
     "option_line": "tutGotShips1:\"En parlant d'armes...\"",
     "original": "En parlant d'armes...",
-    "translated": ""
+    "translated": "En parlant d'armes..."
   },
   {
     "csv_row": 3775,
@@ -61,7 +61,7 @@
     "column": "options",
     "option_line": "tutGotShips2:\"Vous avez donc l'algorithme de stabilisation, n'est-ce pas ?\"",
     "original": "Vous avez donc l'algorithme de stabilisation, n'est-ce pas ?",
-    "translated": ""
+    "translated": "Vous avez donc l'algorithme de stabilisation, n'est-ce pas ?"
   },
   {
     "csv_row": 3787,
@@ -69,7 +69,7 @@
     "column": "options",
     "option_line": "tutReport1:\"Que dois-je faire maintenant ?\"",
     "original": "Que dois-je faire maintenant ?",
-    "translated": ""
+    "translated": "Que dois-je faire maintenant ?"
   },
   {
     "csv_row": 3797,
@@ -77,6 +77,6 @@
     "column": "options",
     "option_line": "RACA_answer:Accepter la demande de connexion",
     "original": "Accepter la demande de connexion",
-    "translated": ""
+    "translated": "Accepter la demande de connexion"
   }
 ]

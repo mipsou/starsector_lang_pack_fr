@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "bffi_stationTalk2sedge:\"Why are you so willing to violate the tenets of your faith for Wrestling Sedge?\"",
     "original": "Why are you so willing to violate the tenets of your faith for Wrestling Sedge?",
-    "translated": ""
+    "translated": "Pourquoi êtes-vous si disposé à violer les préceptes de votre foi pour Sedge le Lutteur ?"
   },
   {
     "csv_row": 3242,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "bffi_psRuseNiceSetup:\"We seek not your death, but to stop a scheme that will itself kill countless Faithful.\" (explain)",
     "original": "We seek not your death, but to stop a scheme that will itself kill countless Faithful.\" (explain)",
-    "translated": ""
+    "translated": "Nous ne cherchons pas votre mort, mais à stopper un stratagème qui tuera lui-même d'innombrables Fidèles.\" (expliquer)"
   },
   {
     "csv_row": 3243,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "bffi_psRuseMeanSetup:\"I can destroy you. Choose to lose all - or make a deal, and lose little.\" (explain)",
     "original": "I can destroy you. Choose to lose all - or make a deal, and lose little.\" (explain)",
-    "translated": ""
+    "translated": "Je peux vous détruire. Choisissez de tout perdre — ou faites un marché, et perdez peu.\" (expliquer)"
   },
   {
     "csv_row": 3244,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "bffi_stationTalkOutA:\"You're a hopeless fanatic. There is no reasoning with you.\"",
     "original": "You're a hopeless fanatic. There is no reasoning with you.",
-    "translated": ""
+    "translated": "Vous êtes un fanatique sans espoir. Il est impossible de raisonner avec vous."
   },
   {
     "csv_row": 3245,
@@ -37,41 +37,41 @@
     "column": "options",
     "option_line": "bffi_stationTalkOutB:\"Your heresy has twisted your faith. There is no reasoning with you.\" (cut the comms)",
     "original": "Your heresy has twisted your faith. There is no reasoning with you.\" (cut the comms)",
-    "translated": ""
+    "translated": "Votre hérésie a dévoyé votre foi. Il est impossible de raisonner avec vous.\" (couper les communications)"
   },
   {
     "csv_row": 3246,
     "id": "BFFIstationTalkOutA",
     "column": "text",
     "original": "The Pather's face twists with anger. \"Then burn with the rest, Molochian!\" $HeOrShe disappears in a haze of compression artifacts.\n\nThe link plays a crackling buzz of a suppressed electronic warfare signal for a moment before your comms officer, considerately, shuts it off for you.",
-    "translated": ""
+    "translated": "Le visage du Pèlerin se tord de colère. \"Alors brûlez avec les autres, Molochien !\" $HeOrShe disparaît dans un brouillard d'artefacts de compression.\n\nLe lien diffuse un bourdonnement crépitant d'un signal de guerre électronique supprimé pendant un moment avant que votre officier des communications, par égard, ne le coupe pour vous."
   },
   {
     "csv_row": 3247,
     "id": "BFFIstationTalkOutB",
     "column": "text",
     "original": "The Pather's face twists with anger.  \"Then burn with the rest, Molochian!\" $heOrShe says, then disappears in a haze of compression artifacts.\n\nThe link plays a crackling buzz of a suppressed electronic warfare signal for a moment before your comms officer, considerately, shuts it off for you.",
-    "translated": ""
+    "translated": "Le visage du Pèlerin se tord de colère. \"Alors brûlez avec les autres, Molochien !\" dit $heOrShe, puis disparaît dans un brouillard d'artefacts de compression.\n\nLe lien diffuse un bourdonnement crépitant d'un signal de guerre électronique supprimé pendant un moment avant que votre officier des communications, par égard, ne le coupe pour vous."
   },
   {
     "csv_row": 3248,
     "id": "BFFIstationTalk1honesty",
     "column": "text",
     "original": "\"Question me not!\" True anger flashes across $hisOrHer eyes. \"What know you of verity? You are blind to God, blind to the Word, you worship only credits and power. This I see full well!\" \n\n\"Would you have me submit to the creeping decay of the Church's heresy? Submit to the Knight-Inquisitors that I might be tortured into false confession?\"\n\n$HeOrShe pauses, breathing heavily for a moment, then more quietly says, \"I was not made for such skulduggery. It is a Mammonite's trade.\" The words come more softly now. \"Will you now fight or no? Better to die a martyr than a hypocrite.\"",
-    "translated": ""
+    "translated": "\"Ne me questionnez pas !\" Une colère sincère traverse les yeux de $hisOrHer. \"Que savez-vous de la vérité ? Vous êtes aveugle à Dieu, aveugle à la Parole, vous n'adorez que les crédits et le pouvoir. Ça, je le vois bien !\"\n\n\"Voudriez-vous que je me soumette à la dégénérescence rampante de l'hérésie de l'Église ? Que je me soumette aux Chevaliers-Inquisiteurs pour être torturé jusqu'à un faux aveu ?\"\n\n$HeOrShe fait une pause, respirant lourdement un instant, puis dit plus doucement, \"Je n'ai pas été fait pour de telles machinations. C'est un métier de Mammonite.\" Les mots viennent plus doucement maintenant. \"Allez-vous combattre, oui ou non ? Mieux vaut mourir martyr qu'hypocrite.\""
   },
   {
     "csv_row": 3249,
     "id": "BFFIstationTalk1sin",
     "column": "text",
     "original": "\"So you accuse me of sin, Molochian?\" Anger flashes across $hisOrHer eyes. \"What choice have I? Submit to the creeping decay of the Church's heresy? Submit to the Knight-Inquisitors that I be tortured into false confession?\"\n\n\"Question not my piety, nor devotion. Give me arms, or none, and I shall face you or your brutes of the so-called Knights of Ludd to the end of my blood!\"\n\n$HeOrShe pauses a moment, almost overcome, to breathe heavily.\n\n\"I was not made for such skulduggery.\" The words come softly now. \"It is a Mammonite's trade. But what choice is given?\" $HeOrShe glares at you. \"Will you make me a martyr now, or no?\"",
-    "translated": ""
+    "translated": "\"Alors vous m'accusez de péché, Molochien ?\" La colère traverse les yeux de $hisOrHer. \"Quel choix ai-je ? Me soumettre à la dégénérescence rampante de l'hérésie de l'Église ? Me soumettre aux Chevaliers-Inquisiteurs pour être torturé jusqu'à un faux aveu ?\"\n\n\"Ne remettez pas en question ma piété, ni ma dévotion. Donnez-moi des armes, ou aucune, et j'affronterai vous ou vos brutes des soi-disant Chevaliers de Ludd jusqu'à la dernière goutte de mon sang !\"\n\n$HeOrShe fait une pause un instant, presque submergé, pour respirer lourdement.\n\n\"Je n'ai pas été fait pour de telles machinations.\" Les mots viennent doucement maintenant. \"C'est un métier de Mammonite. Mais quel choix m'est donné ?\" $HeOrShe vous fusille du regard. \"Allez-vous faire de moi un martyr maintenant, oui ou non ?\""
   },
   {
     "csv_row": 3250,
     "id": "BFFIstationTalk1blind",
     "column": "text",
     "original": "True anger flashes through  $hisOrHer eyes. \"What choice have I? Shall I submit to the creeping decay of the Church's heresy? Submit to the Knight-Inquisitors that I might be tortured into false confession? It is they who slowly tear apart the Faith, not I! It is they who scorn the Word, not I!\"\n\n\"Question not my piety, nor my devotion! Give me arms, or none, and I shall face you and your brutes of the so-called Knights of Ludd to the end of my blood!\" $HeOrShe pauses a moment, almost overcome, to breathe heavily. \"I was not made for such skulduggery.\" The words come more softly now. \"It is a Mammonite's trade. But what choice is given? Will you make me a martyr now, or no?\"",
-    "translated": ""
+    "translated": "Une colère sincère traverse les yeux de $hisOrHer. \"Quel choix ai-je ? Devrais-je me soumettre à la dégénérescence rampante de l'hérésie de l'Église ? Me soumettre aux Chevaliers-Inquisiteurs pour être torturé jusqu'à un faux aveu ? Ce sont eux qui déchirent lentement la Foi, pas moi ! Ce sont eux qui méprisent la Parole, pas moi !\"\n\n\"Ne remettez pas en question ma piété, ni ma dévotion ! Donnez-moi des armes, ou aucune, et j'affronterai vous et vos brutes des soi-disant Chevaliers de Ludd jusqu'à la dernière goutte de mon sang !\" $HeOrShe fait une pause un instant, presque submergé, pour respirer lourdement. \"Je n'ai pas été fait pour de telles machinations.\" Les mots viennent plus doucement maintenant. \"C'est un métier de Mammonite. Mais quel choix m'est donné ? Allez-vous faire de moi un martyr maintenant, oui ou non ?\""
   }
 ]

@@ -5,14 +5,14 @@
     "column": "options",
     "option_line": "bffi_psRuseMeanE:\"Trust that I am mercenary. I'm avoiding a fight to save credits.\"",
     "original": "Trust that I am mercenary. I'm avoiding a fight to save credits.",
-    "translated": ""
+    "translated": "Croyez bien que je suis mercenaire. J'évite un combat pour économiser des crédits."
   },
   {
     "csv_row": 3314,
     "id": "BFFIpsRuseMeanE",
     "column": "text",
     "original": "And despite your fearsome reputation, you'll let them in on a little secret: it's cheaper, you explain, to accomplish your mission parameters without a fight. Thus the credits you gain, that Mammonite lucre, is ever greater than before.\n\n\"I knew it,\" $heOrShe smirks righteously. \"It's always credits in the end with your kind, isn't it.\"",
-    "translated": ""
+    "translated": "Et malgré votre redoutable réputation, vous allez leur confier un petit secret : c'est moins cher, vous expliquez, d'accomplir les paramètres de votre mission sans combat. Ainsi les crédits que vous gagnez, ce lucre Mammonite, sont toujours plus grands qu'avant.\n\n\"Je le savais,\" $heOrShe ricane vertueusement. \"C'est toujours les crédits à la fin avec votre espèce, n'est-ce pas.\""
   },
   {
     "csv_row": 3315,
@@ -20,7 +20,7 @@
     "column": "options",
     "option_line": "bffi_stationTalkOutA:\"My patience with you is spent.\" (cut comms)",
     "original": "My patience with you is spent.\" (cut comms)",
-    "translated": ""
+    "translated": "Ma patience envers vous est épuisée.\" (couper les comms)"
   },
   {
     "csv_row": 3316,
@@ -28,35 +28,35 @@
     "column": "options",
     "option_line": "bffi_stationTalkOutB:\"I cannot deal with a mad heretic. Pray now for a quick death.\" (cut comms)",
     "original": "I cannot deal with a mad heretic. Pray now for a quick death.\" (cut comms)",
-    "translated": ""
+    "translated": "Je ne peux pas traiter avec un hérétique fou. Priez maintenant pour une mort rapide.\" (couper les comms)"
   },
   {
     "csv_row": 3317,
     "id": "BFFIpsRuseNiceGo",
     "column": "text",
     "original": "Cowed by your promises of mercy, the Pather leader provides you with security codes and your ops team mounts what appears to be a lightning-raid which catches the defenders completely by surprise.",
-    "translated": ""
+    "translated": "Intimidé par vos promesses de clémence, le chef Pather vous fournit les codes de sécurité et votre équipe d'opérations monte ce qui semble être un raid éclair qui prend les défenseurs complètement par surprise."
   },
   {
     "csv_row": 3318,
     "id": "BFFIpsRuseNiceGoBribe",
     "column": "text",
     "original": "Cowed by your promises of mercy - and, perhaps, your credits - the Pather leader provides you with security codes and your ops team mounts what appears to be a lightning-raid which catches the defenders completely by surprise.",
-    "translated": ""
+    "translated": "Intimidé par vos promesses de clémence - et, peut-être, vos crédits - le chef Pather vous fournit les codes de sécurité et votre équipe d'opérations monte ce qui semble être un raid éclair qui prend les défenseurs complètement par surprise."
   },
   {
     "csv_row": 3319,
     "id": "BFFIpsRuseMeanGo",
     "column": "text",
     "original": "Cowed by your brutal posturing, the Pather leader provides you with security codes and your ops team mounts what appears to be a lightning-raid which catches the defenders completely by surprise.",
-    "translated": ""
+    "translated": "Intimidé par vos postures brutales, le chef Pather vous fournit les codes de sécurité et votre équipe d'opérations monte ce qui semble être un raid éclair qui prend les défenseurs complètement par surprise."
   },
   {
     "csv_row": 3324,
     "id": "BFFIpatherStationDefeated",
     "column": "text",
     "original": "The primary defenses are destroyed, the command and control section holed and venting fiery atmo. The superstructure's own spin is pulling the station apart like slow butchery.\n\nYou destroyed the nanoforge, but did not secure the evidence Bornanew needed to find the mole in the Cathedral of Holy Exodus on Tartessus.\n\n\"It is the best that could be done,\" Bornanew says, eyes downcast. His notebook is closed, before him. \"I must submit myself to the Excubitor Orbis for judgment. On Hesperus.\"",
-    "translated": ""
+    "translated": "Les défenses principales sont détruites, la section de commandement et de contrôle percée et ventilant une atmosphère enflammée. La rotation propre de la superstructure arrache la station comme un lent dépeçage.\n\nVous avez détruit la nanoforge, mais n'avez pas sécurisé les preuves dont Bornanew avait besoin pour trouver la taupe dans la Cathédrale du Saint Exode sur Tartessus.\n\n\"C'est le mieux que nous pouvions faire,\" dit Bornanew, les yeux baissés. Son carnet est fermé, devant lui. \"Je dois me soumettre à l'Excubitor Orbis pour être jugé. Sur Hesperus.\""
   },
   {
     "csv_row": 3327,
@@ -64,13 +64,13 @@
     "column": "options",
     "option_line": "2:bffi_stationRaidStart:Assemble your officers to plan a raid to capture the nanoforge",
     "original": "bffi_stationRaidStart:Assemble your officers to plan a raid to capture the nanoforge",
-    "translated": ""
+    "translated": "bffi_stationRaidStart:Rassembler vos officiers pour planifier un raid afin de capturer la nanoforge"
   },
   {
     "csv_row": 3329,
     "id": "BFFIpatherStationRaidStart",
     "column": "text",
     "original": "You convene your officers, and Bornanew, to evaluate the situation.\n\nPather resistance is expected to be fierce; the core of their militants have a zealous faith, little fear of death, and are often experienced fighters. However they eschew top of the line technology and combat enhancement, whether cybernetic or biochemical.\n\nBornanew clears his throat and speaks. \"Certain classes of combat drugs are accepted among Luddic Path militants. They favor, ah, 'natural' sources.\" He takes in the confused looks. \"Plants,\" he adds.\n\nCapturing high-value datastores before they're wiped creates exceptional difficulties. The assault must be lightning-quick, and disabling rather than destructive as much as possible.",
-    "translated": ""
+    "translated": "Vous convoquez vos officiers, et Bornanew, pour évaluer la situation.\n\nLa résistance Pather devrait être féroce ; le noyau de leurs militants possède une foi zélée, peu de peur de la mort, et ce sont souvent des combattants expérimentés. Cependant ils rejettent la technologie de pointe et les améliorations de combat, qu'elles soient cybernétiques ou biochimiques.\n\nBornanew se racle la gorge et prend la parole. \"Certaines catégories de drogues de combat sont acceptées parmi les militants du Sentier Luddique. Ils favorisent, euh, les sources 'naturelles'.\" Il prend acte des regards confus. \"Les plantes,\" ajoute-t-il.\n\nCapturer des banques de données de haute valeur avant qu'elles ne soient effacées crée des difficultés exceptionnelles. L'assaut doit être foudroyant, et désactivant plutôt que destructeur autant que possible."
   }
 ]

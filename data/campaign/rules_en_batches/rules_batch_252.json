@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "rao_askDiktatMerc4c:\"Looks like someone is losing their bonus. Anyway, I want in.\"",
     "original": "Looks like someone is losing their bonus. Anyway, I want in.",
-    "translated": ""
+    "translated": "On dirait que quelqu'un va perdre sa prime. Bref, je veux en etre."
   },
   {
     "csv_row": 7876,
@@ -13,21 +13,21 @@
     "column": "options",
     "option_line": "rao_askDiktatMerc4d:\"Clearly you don't take this very seriously.\"",
     "original": "Clearly you don't take this very seriously.",
-    "translated": ""
+    "translated": "De toute evidence, vous ne prenez pas cela tres au serieux."
   },
   {
     "csv_row": 7877,
     "id": "raoAskDiktatMerc4a",
     "column": "text",
     "original": "\"Really?\" Admiral Rao, leaning forward, puts on a look of concern.\n\nHe speaks officiously. \"As a patriotic citizen, I'm sure you'll have reported all such lapses of policy so that official action may be taken.\"\n\nThe pose holds for a moment, then half a smile cracks through.",
-    "translated": ""
+    "translated": "\"Vraiment ?\" L'amiral Rao, se penchant en avant, affiche un air preoccupe.\n\nIl parle d'un ton officieux. \"En tant que citoyen patriote, je suis sur que vous aurez signale tous ces manquements a la politique pour que des mesures officielles puissent etre prises.\"\n\nLa pose tient un moment, puis un demi-sourire perce."
   },
   {
     "csv_row": 7878,
     "id": "raoAskDiktatMerc4d",
     "column": "text",
     "original": "He shrugs, holding his ironic half-smile in place. Behind it his eyes are cold, very cold.",
-    "translated": ""
+    "translated": "Il hausse les epaules, maintenant son demi-sourire ironique en place. Derriere, ses yeux sont froids, tres froids."
   },
   {
     "csv_row": 7878,
@@ -35,7 +35,7 @@
     "column": "options",
     "option_line": "rao_askDiktatMerc4b:\"If it's a fight against the Diktat, I want to be a part of it.\"",
     "original": "If it's a fight against the Diktat, I want to be a part of it.",
-    "translated": ""
+    "translated": "Si c'est un combat contre le Diktat, je veux en faire partie."
   },
   {
     "csv_row": 7878,
@@ -43,21 +43,21 @@
     "column": "options",
     "option_line": "rao_askDiktatMerc4c:\"Looks like someone is losing their bonus. Anyway, I want in.\"",
     "original": "Looks like someone is losing their bonus. Anyway, I want in.",
-    "translated": ""
+    "translated": "On dirait que quelqu'un va perdre sa prime. Bref, je veux en etre."
   },
   {
     "csv_row": 7879,
     "id": "raoAskDiktatMerc4dout",
     "column": "text",
     "original": "\"Then I bid you a good day, captain.\"\n\nRao flicks the comms cut-off.",
-    "translated": ""
+    "translated": "\"Alors je vous souhaite une bonne journee, capitaine.\"\n\nRao coupe la communication d'un geste."
   },
   {
     "csv_row": 7881,
     "id": "raoAskDiktatMerc4b",
     "column": "text",
     "original": "\"Hmm.\" Rao looks you over. Is that a twinkle of amusement?\n\n\"Why?\"\n\nHe leaves the silence for you to fill.",
-    "translated": ""
+    "translated": "\"Hmm.\" Rao vous examine. Est-ce une lueur d'amusement ?\n\n\"Pourquoi ?\"\n\nIl laisse le silence pour que vous le combliez."
   },
   {
     "csv_row": 7882,
@@ -65,7 +65,7 @@
     "column": "options",
     "option_line": "rao_askDiktatMerc5merc:\"Because you'll pay me well, and on time. You were a freelancer, you know the life.\"",
     "original": "Because you'll pay me well, and on time. You were a freelancer, you know the life.",
-    "translated": ""
+    "translated": "Parce que vous me paierez bien, et a temps. Vous etiez independant, vous connaissez la vie."
   },
   {
     "csv_row": 7885,
@@ -73,6 +73,6 @@
     "column": "options",
     "option_line": "rao_askDiktatMerc5faith:\"They're systematically killing the Faithful, they closed the Shrine of Volturn. My duty is to resist.\"",
     "original": "They're systematically killing the Faithful, they closed the Shrine of Volturn. My duty is to resist.",
-    "translated": ""
+    "translated": "Ils tuent systematiquement les Fideles, ils ont ferme le Sanctuaire de Volturn. Mon devoir est de resister."
   }
 ]

@@ -5,21 +5,21 @@
     "column": "options",
     "option_line": "bffi_ulmusStart5:Find a way upstairs",
     "original": "Find a way upstairs",
-    "translated": ""
+    "translated": "Trouver un chemin vers l'étage"
   },
   {
     "csv_row": 3071,
     "id": "BFFIulmusStart5",
     "column": "text",
     "original": "A moment of frantic search reveals the narrow stairwell behind a loose wall-panel.\n\nBornanew pounds up the stairs, and you follow.\n\nIn his half-second lead, Bornanew has caught Ulmus Pond in a bearhug, Pond's skinny arms still grabbing at the loosened attachment-points of a sheet of translucent plastic which lies between him and the lightwell; escape. Pond loses his grip with a cry of despair as Bornanew pulls him away.\n\nThe window panel snaps back into place.",
-    "translated": ""
+    "translated": "Un moment de recherche frénétique révèle l'escalier étroit derrière un panneau mural mal fixé.\n\nBornanew grimpe les marches au pas de charge, et vous suivez.\n\nDans sa demi-seconde d'avance, Bornanew a attrapé Ulmus Pond dans une étreinte d'ours, les bras maigres de Pond agrippant encore les points d'attache desserrés d'une feuille de plastique translucide qui se trouve entre lui et le puits de lumière ; la fuite. Pond perd sa prise avec un cri de désespoir tandis que Bornanew le tire en arrière.\n\nLe panneau de fenêtre claque en reprenant sa place."
   },
   {
     "csv_row": 3073,
     "id": "BFFIulmusTalkPcBad",
     "column": "text",
     "original": "\"Ulmus Pond,\" Bornanew roars with overbearing gusto, \"This is no season to be opening a window!\"\n\n\"Sit, I insist, before you hurt yourself! We are doubly blessed to find you so well. You must understand our fear- no answer to comms, rumors of kidnappings... Menes has been worried sick about his very good friend.\"\n\nThe bear-hug has turned into something like a side-grab as Bornanew sets Pond bodily onto the cot beside him. You're not sure if the creaking is from the cheap furniture or Pond' ribs.",
-    "translated": ""
+    "translated": "\"Ulmus Pond,\" rugit Bornanew avec un enthousiasme imposant, \"Ce n'est pas la saison pour ouvrir une fenêtre !\"\n\n\"Asseyez-vous, j'insiste, avant de vous blesser ! Nous sommes doublement bénis de vous trouver en si bonne forme. Vous devez comprendre notre peur — pas de réponse aux comms, des rumeurs d'enlèvements... Menes s'est fait un sang d'encre pour son très bon ami.\"\n\nL'étreinte d'ours s'est transformée en une sorte de prise latérale tandis que Bornanew installe physiquement Pond sur le lit de camp à côté de lui. Vous n'êtes pas sûr si les craquements viennent du mobilier bon marché ou des côtes de Pond."
   },
   {
     "csv_row": 3073,
@@ -27,7 +27,7 @@
     "column": "options",
     "option_line": "bffi_ulmusTalkBad1a:\"More than worried. He suspects you, Pond. We're going to get answers.\"",
     "original": "More than worried. He suspects you, Pond. We're going to get answers.",
-    "translated": ""
+    "translated": "Plus qu'inquiet. Il vous soupçonne, Pond. Nous allons obtenir des réponses."
   },
   {
     "csv_row": 3073,
@@ -35,14 +35,14 @@
     "column": "options",
     "option_line": "bffi_ulmusTalkBad1b:\"Easy $global.jethroName. Ulmus only had good intentions I'm sure.\"",
     "original": "Easy $global.jethroName. Ulmus only had good intentions I'm sure.",
-    "translated": ""
+    "translated": "Doucement $global.jethroName. Ulmus n'avait que de bonnes intentions, j'en suis sûr."
   },
   {
     "csv_row": 3074,
     "id": "BFFIulmusTalkPcBad1a",
     "column": "text",
     "original": "\"A- answers?\" Pond's eyes go wider still as he gasps for breath. \"I, um, appreciate your concern but I'm fine, here. Nothing is the matter, truly!\"\n\n\"Look at him, captain,\" Bornanew says. \"He's an innocent. He'd tell us straightaway if some ill-intentioned party were taking advantage of his good nature.\"",
-    "translated": ""
+    "translated": "\"Des- des réponses ?\" Les yeux de Pond s'écarquillent encore plus tandis qu'il halète. \"Je, euh, j'apprécie votre inquiétude mais je vais bien, ici. Il n'y a aucun problème, vraiment !\"\n\n\"Regardez-le, capitaine,\" dit Bornanew. \"C'est un innocent. Il nous dirait tout de suite si quelque parti malintentionné profitait de sa bonne nature.\""
   },
   {
     "csv_row": 3074,
@@ -50,7 +50,7 @@
     "column": "options",
     "option_line": "bffi_ulmusTalkBad2a:\"No, I think Ulmus is behind it. We should do an active scan on his brain.\"",
     "original": "No, I think Ulmus is behind it. We should do an active scan on his brain.",
-    "translated": ""
+    "translated": "Non, je pense qu'Ulmus est derrière tout ça. On devrait faire un scan actif de son cerveau."
   },
   {
     "csv_row": 3074,
@@ -58,14 +58,14 @@
     "column": "options",
     "option_line": "bffi_ulmusTalkBad2b:\"Perhaps you're right, he does look pretty innocent.\"",
     "original": "Perhaps you're right, he does look pretty innocent.",
-    "translated": ""
+    "translated": "Peut-être avez-vous raison, il a l'air plutôt innocent."
   },
   {
     "csv_row": 3075,
     "id": "BFFIulmusTalkPcBad2a",
     "column": "text",
     "original": "\"Ulmus?\" Bornanew looks at you, shocked at the idea. \n\n\"...'active' scan?\" Ulmus manages to squeak.\n\n\"The captain would never,\" insists Bornanew. \"You're a merchant, a middleman. You just wanted to help your friend Menes find a unique object for his collection. Isn't that right?\" He gives Ulmus another squeeze.\n\n\"Y-yes, that's right,\" Ulmus says, looking between you and Bornanew. \"I, uh, I set up connections. Deals. I help people!\"",
-    "translated": ""
+    "translated": "\"Ulmus ?\" Bornanew vous regarde, choqué par l'idée.\n\n\"...'scan actif' ?\" Ulmus parvient à couiner.\n\n\"Le capitaine ne ferait jamais ça,\" insiste Bornanew. \"Vous êtes un marchand, un intermédiaire. Vous vouliez simplement aider votre ami Menes à trouver un objet unique pour sa collection. N'est-ce pas ?\" Il donne une autre pression à Ulmus.\n\n\"O-oui, c'est ça,\" dit Ulmus, regardant alternativement entre vous et Bornanew. \"Je, euh, j'établis des contacts. Des affaires. J'aide les gens !\""
   },
   {
     "csv_row": 3075,
@@ -73,6 +73,6 @@
     "column": "options",
     "option_line": "bffi_ulmusTalkBad3a:\"So you admit you 'helped' Menes buy a fake relic from the Pathers!\"",
     "original": "So you admit you 'helped' Menes buy a fake relic from the Pathers!",
-    "translated": ""
+    "translated": "Alors vous admettez avoir 'aidé' Menes à acheter une fausse relique aux Sentieristes !"
   }
 ]

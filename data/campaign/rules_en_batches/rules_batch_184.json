@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "gaFC_groombridgeSearch3:\"Alors vous savez quoi chercher. Faites-le.\"",
     "original": "Alors vous savez quoi chercher. Faites-le.",
-    "translated": ""
+    "translated": "Alors vous savez quoi chercher. Faites-le."
   },
   {
     "csv_row": 4709,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "gaFC_kapteynBossBother1:\"Je cherche quelqu'un du nom de Scylla Coureuse.\"",
     "original": "Je cherche quelqu'un du nom de Scylla Coureuse.",
-    "translated": ""
+    "translated": "Je cherche quelqu'un du nom de Scylla Coureuse."
   },
   {
     "csv_row": 4712,
@@ -29,14 +29,14 @@
     "column": "options",
     "option_line": "gaFC_kapteynBossInfoDump1:\"Vous pouvez compter dessus, ami.\"",
     "original": "Vous pouvez compter dessus, ami.",
-    "translated": ""
+    "translated": "Vous pouvez compter dessus, ami."
   },
   {
     "csv_row": 4719,
     "id": "gaFCKapteynBossAppealFailure2",
     "column": "text",
     "original": "Le chef pirate tape sur la console de communications et la ligne se coupe, vous laissant fixer de la neige.",
-    "translated": ""
+    "translated": "Le chef pirate tape sur la console de communications et la ligne se coupe, vous laissant fixer de la neige."
   },
   {
     "csv_row": 4719,
@@ -60,7 +60,7 @@
     "column": "options",
     "option_line": "backToBar:Revenir au bar",
     "original": "Revenir au bar",
-    "translated": ""
+    "translated": "Revenir au bar"
   },
   {
     "csv_row": 4731,
@@ -68,7 +68,7 @@
     "column": "options",
     "option_line": "backToBar:Revenir au bar",
     "original": "Revenir au bar",
-    "translated": ""
+    "translated": "Revenir au bar"
   },
   {
     "csv_row": 4737,
@@ -76,6 +76,6 @@
     "column": "options",
     "option_line": "backToBar:Revenir au bar",
     "original": "Revenir au bar",
-    "translated": ""
+    "translated": "Revenir au bar"
   }
 ]

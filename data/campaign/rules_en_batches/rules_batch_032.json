@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "lpp_volturnCurateAskSeeShrine:\"Je suis ici pour voir le sanctuaire.\"",
     "original": "Je suis ici pour voir le sanctuaire.",
-    "translated": ""
+    "translated": "Je suis ici pour voir le sanctuaire."
   },
   {
     "csv_row": 1414,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "lpp_volturnCurateAreYouPath:\"Faites-vous partie de la Voie de Ludd ?\"",
     "original": "Faites-vous partie de la Voie de Ludd ?",
-    "translated": ""
+    "translated": "Faites-vous partie de la Voie de Ludd ?"
   },
   {
     "csv_row": 1416,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "lpp_volturnCurateCandle:Allumer la bougie",
     "original": "Allumer la bougie",
-    "translated": ""
+    "translated": "Allumer la bougie"
   },
   {
     "csv_row": 1417,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "lpp_volturnCurateNotJustCandle:\"Ce n'est pas qu'une simple bougie.\"",
     "original": "Ce n'est pas qu'une simple bougie.",
-    "translated": ""
+    "translated": "Ce n'est pas qu'une simple bougie."
   },
   {
     "csv_row": 1418,
@@ -37,7 +37,7 @@
     "column": "options",
     "option_line": "lpp_volturnCurateIsJustCandle:\"Ce n'est qu'une bougie.\"",
     "original": "Ce n'est qu'une bougie.",
-    "translated": ""
+    "translated": "Ce n'est qu'une bougie."
   },
   {
     "csv_row": 1420,
@@ -45,28 +45,28 @@
     "column": "options",
     "option_line": "lpp_volturnShrineFirstLeave1:Quitter le sanctuaire",
     "original": "Quitter le sanctuaire",
-    "translated": ""
+    "translated": "Quitter le sanctuaire"
   },
   {
     "csv_row": 1421,
     "id": "lppVolturnCurateTroubling",
     "column": "text",
     "original": "La curatrice fronce les sourcils. \"Qu'est-ce qui vous trouble ?\"",
-    "translated": ""
+    "translated": "La curatrice fronce les sourcils. \"Qu'est-ce qui vous trouble ?\""
   },
   {
     "csv_row": 1425,
     "id": "lppVolturnCurateTroublingHeavier",
     "column": "text",
     "original": "Un sourire double les rides de son visage. \"Je crois que nous nous comprenons.\"",
-    "translated": ""
+    "translated": "Un sourire double les rides de son visage. \"Je crois que nous nous comprenons.\""
   },
   {
     "csv_row": 1429,
     "id": "lppVolturnCurateNotJustCandle",
     "column": "text",
     "original": "\"Le Pneuma vit dans ces mots.\"\n\nElle fixe tristement, vous semble-t-il, les bougies devant vous.",
-    "translated": ""
+    "translated": "\"Le Pneuma vit dans ces mots.\"\n\nElle fixe tristement, vous semble-t-il, les bougies devant vous."
   },
   {
     "csv_row": 1434,
@@ -74,6 +74,6 @@
     "column": "options",
     "option_line": "lpp_volturnShrineRevisitCandle:Allumer une bougie",
     "original": "Allumer une bougie",
-    "translated": ""
+    "translated": "Allumer une bougie"
   }
 ]

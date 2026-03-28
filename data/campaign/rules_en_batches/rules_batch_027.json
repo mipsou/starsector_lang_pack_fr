@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "0:podsOpen:Examiner le contenu de la capsule",
     "original": "podsOpen:Examiner le contenu de la capsule",
-    "translated": ""
+    "translated": "podsOpen:Examiner le contenu de la capsule"
   },
   {
     "csv_row": 1061,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "1:podsStabilize:Placer les capsules en orbite stable",
     "original": "podsStabilize:Placer les capsules en orbite stable",
-    "translated": ""
+    "translated": "podsStabilize:Placer les capsules en orbite stable"
   },
   {
     "csv_row": 1065,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "0:podsBreak:Faire sauter les verrous",
     "original": "podsBreak:Faire sauter les verrous",
-    "translated": ""
+    "translated": "podsBreak:Faire sauter les verrous"
   },
   {
     "csv_row": 1070,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "1:podsStabAbort:Peu importe",
     "original": "podsStabAbort:Peu importe",
-    "translated": ""
+    "translated": "podsStabAbort:Peu importe"
   },
   {
     "csv_row": 1089,
@@ -37,7 +37,7 @@
     "column": "options",
     "option_line": "lpp_hookTroll:\"Je soutiens fermement les droits des IA.\"",
     "original": "Je soutiens fermement les droits des IA.",
-    "translated": ""
+    "translated": "Je soutiens fermement les droits des IA."
   },
   {
     "csv_row": 1131,
@@ -45,14 +45,14 @@
     "column": "options",
     "option_line": "lpp_hookCurateNotPilgrim:\"Je ne fais que visiter.\"",
     "original": "Je ne fais que visiter.",
-    "translated": ""
+    "translated": "Je ne fais que visiter."
   },
   {
     "csv_row": 1165,
     "id": "lppHookCurateCottonLooking",
     "column": "text",
     "original": "\"Et si vous le trouviez ?\"",
-    "translated": ""
+    "translated": "\"Et si vous le trouviez ?\""
   },
   {
     "csv_row": 1166,
@@ -60,7 +60,7 @@
     "column": "options",
     "option_line": "lpp_hookCurateSeeya:Faire vos adieux et partir",
     "original": "Faire vos adieux et partir",
-    "translated": ""
+    "translated": "Faire vos adieux et partir"
   },
   {
     "csv_row": 1168,
@@ -68,7 +68,7 @@
     "column": "options",
     "option_line": "lpp_hookCurateSeeya:Faire vos adieux et partir",
     "original": "Faire vos adieux et partir",
-    "translated": ""
+    "translated": "Faire vos adieux et partir"
   },
   {
     "csv_row": 1169,
@@ -76,6 +76,6 @@
     "column": "options",
     "option_line": "lpp_hookCurateSeeya:Faire vos adieux et partir",
     "original": "Faire vos adieux et partir",
-    "translated": ""
+    "translated": "Faire vos adieux et partir"
   }
 ]

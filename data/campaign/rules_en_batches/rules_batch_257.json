@@ -4,28 +4,28 @@
     "id": "RaoPitchLeagueHannanBprot",
     "column": "text",
     "original": "Rao holds a finger to his cheek for a moment, thinking.\n\n\"It could be earned,\" he says. \"But that's up to you.\"",
-    "translated": ""
+    "translated": "Rao pose un doigt sur sa joue un instant, pensif.\n\n\"Ca pourrait se meriter,\" dit-il. \"Mais c'est a vous de voir.\""
   },
   {
     "csv_row": 7950,
     "id": "RaoPitchLeagueHannanC",
     "column": "text",
     "original": "\"What admirable loyalty! How Reynard earns it, I've never understood. I must study his leadership closely, for I obviously have much to learn.\" The sarcasm runs thick.\n\nRao sits back, face falling into shadow.",
-    "translated": ""
+    "translated": "\"Quelle admirable loyaute ! Comment Reynard la merite, je ne l'ai jamais compris. Je dois etudier son leadership de pres, car j'ai manifestement beaucoup a apprendre.\" Le sarcasme coule a flots.\n\nRao se cale dans son siege, le visage tombant dans l'ombre."
   },
   {
     "csv_row": 7951,
     "id": "RaoPitchLeagueYaribay",
     "column": "text",
     "original": "\"Seeing as you're a full, albeit junior, member of the Persean League... we can't have you in a position of divided loyalty, can we.\"\n\nHe produces a little shrug.\n\n\"But perhaps,\" he looks aside. \"We might have a mutual friend on Kazeron?\"",
-    "translated": ""
+    "translated": "\"Etant donne que vous etes un membre a part entiere, bien que subalterne, de la Ligue Perseenne... nous ne pouvons pas vous mettre dans une position de loyaute divisee, n'est-ce pas.\"\n\nIl fait un petit haussement d'epaules.\n\n\"Mais peut-etre,\" il regarde de cote. \"Aurions-nous un ami commun sur Kazeron ?\""
   },
   {
     "csv_row": 7952,
     "id": "RaoPitchLeagueYaribayMum",
     "column": "text",
     "original": "\"I understand. Keeping with his trust is more important than serving that goal.\" He leans back, \"It's interesting.\"",
-    "translated": ""
+    "translated": "\"Je comprends. Garder sa confiance est plus important que de servir cet objectif.\" Il se cale dans son siege, \"C'est interessant.\""
   },
   {
     "csv_row": 7952,
@@ -33,21 +33,21 @@
     "column": "options",
     "option_line": "rao_pitchYaribayMum2a:\"Speculate if you like, I have nothing to say.\"",
     "original": "Speculate if you like, I have nothing to say.",
-    "translated": ""
+    "translated": "Speculez si vous voulez, je n'ai rien a dire."
   },
   {
     "csv_row": 7954,
     "id": "RaoPitchLeagueYaribayMum2b",
     "column": "text",
     "original": "Rao raises an eyebrow, his expression amused.",
-    "translated": ""
+    "translated": "Rao hausse un sourcil, l'air amuse."
   },
   {
     "csv_row": 7955,
     "id": "RaoPitchLeagueYaribay2",
     "column": "text",
     "original": "He smiles coyly, leaving your statement deliberately unanswered.\n\n\"It is possible our work together would serve certain common goals.\"",
-    "translated": ""
+    "translated": "Il sourit d'un air entendu, laissant deliberement votre declaration sans reponse.\n\n\"Il est possible que notre collaboration serve certains objectifs communs.\""
   },
   {
     "csv_row": 7955,
@@ -55,14 +55,14 @@
     "column": "options",
     "option_line": "rao_pitchNopeGentle:\"Thank you for the offer, but perhaps not just now.\"",
     "original": "Thank you for the offer, but perhaps not just now.",
-    "translated": ""
+    "translated": "Merci pour l'offre, mais peut-etre pas pour le moment."
   },
   {
     "csv_row": 7957,
     "id": "RaoPitchChurchMaybe",
     "column": "text",
     "original": "\"The Hegemony is no stranger to making common cause with the Church of Galactic Redemption...\" He makes a half-shrug.\n\n\"I suppose,\" he says slowly, \"If you can put up with me, I can deal with your god-bothering.\"",
-    "translated": ""
+    "translated": "\"L'Hegemonie n'est pas etrangere a l'idee de faire cause commune avec l'Eglise de la Redemption Galactique...\" Il fait un demi-haussement d'epaules.\n\n\"Je suppose,\" dit-il lentement, \"que si vous pouvez me supporter, je peux faire avec vos bondieuseries.\""
   },
   {
     "csv_row": 7957,
@@ -70,6 +70,6 @@
     "column": "options",
     "option_line": "rao_pitchNopeGentle:\"Thank you for the offer, but perhaps not just now.\"",
     "original": "Thank you for the offer, but perhaps not just now.",
-    "translated": ""
+    "translated": "Merci pour l'offre, mais peut-etre pas pour le moment."
   }
 ]

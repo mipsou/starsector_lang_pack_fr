@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "gaATG_daudMeeting3:Remettre votre arme de poing",
     "original": "Remettre votre arme de poing",
-    "translated": ""
+    "translated": "Remettre votre arme de poing"
   },
   {
     "csv_row": 5466,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "gaATG_daudMeetingHubB1:\"Vous semblez en savoir beaucoup sur ce que je fais.\"",
     "original": "Vous semblez en savoir beaucoup sur ce que je fais.",
-    "translated": ""
+    "translated": "Vous semblez en savoir beaucoup sur ce que je fais."
   },
   {
     "csv_row": 5469,
@@ -37,14 +37,14 @@
     "column": "options",
     "option_line": "gaATG_daudMeetingHubD2:\"Joli croiseur. J'en ai de plus gros.\"",
     "original": "Joli croiseur. J'en ai de plus gros.",
-    "translated": ""
+    "translated": "Joli croiseur. J'en ai de plus gros."
   },
   {
     "csv_row": 5478,
     "id": "gaATGdaudMeetingHubEndEarly",
     "column": "text",
     "original": "He raises an eyebrow at you. \"Succinct.\"",
-    "translated": ""
+    "translated": "Il lève un sourcil vers vous. \"Succinct.\""
   },
   {
     "csv_row": 5484,

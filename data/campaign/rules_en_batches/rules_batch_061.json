@@ -5,42 +5,42 @@
     "column": "options",
     "option_line": "BFFI_onBoardingYarb2know:Explain this to $global.jethroName",
     "original": "Explain this to $global.jethroName",
-    "translated": ""
+    "translated": "Expliquer cela à $global.jethroName"
   },
   {
     "csv_row": 2563,
     "id": "BFFIonBoardYarbRespBconfess",
     "column": "text",
     "original": "Bornanew looks concerned as you describe your dealings. \"Your conscience, your soul, is between you and- well, I am not your judge or confessor.\"\n\n\"From a practical standpoint, I would advise caution in asking too much of Horus of Gens Yaribay, to his face or behind it. He may know but choose not to act on your transgression.\"",
-    "translated": ""
+    "translated": "Bornanew semble préoccupé tandis que vous décrivez vos transactions. \"Votre conscience, votre âme, c'est entre vous et... enfin, je ne suis ni votre juge ni votre confesseur.\"\n\n\"D'un point de vue pratique, je vous conseillerais la prudence si vous comptez trop demander à Horus de la Gens Yaribay, en face ou dans son dos. Il est possible qu'il sache, mais qu'il choisisse de ne pas agir sur votre transgression.\""
   },
   {
     "csv_row": 2564,
     "id": "BFFIonBoardYarbRespBnoConfess",
     "column": "text",
     "original": "A brief look of concern crosses Bornanew's face, and he pauses as if composing an awkward question. He puts his hand back down on the table, seeming to dismiss the notion, and responds in a different tone.",
-    "translated": ""
+    "translated": "Une brève expression d'inquiétude traverse le visage de Bornanew, et il marque une pause comme s'il formulait une question délicate. Il repose sa main sur la table, semblant écarter cette idée, et répond sur un ton différent."
   },
   {
     "csv_row": 2565,
     "id": "BFFIonBoardYarb2knowEm",
     "column": "text",
     "original": "\"This is providential,\" he says, nodding. \"Your previous dealings with Horus Yaribay could open an easier path to resolving the Church's problem.\"",
-    "translated": ""
+    "translated": "\"C'est providentiel,\" dit-il en hochant la tête. \"Vos précédentes relations avec Horus Yaribay pourraient ouvrir une voie plus facile pour résoudre le problème de l'Église.\""
   },
   {
     "csv_row": 2566,
     "id": "BFFIonBoardYarb2",
     "column": "text",
     "original": "He nods and proceeds.",
-    "translated": ""
+    "translated": "Il hoche la tête et poursuit."
   },
   {
     "csv_row": 2567,
     "id": "BFFIonBoardYarb3",
     "column": "text",
     "original": "\"The question, then, is how Horus Yaribay, the nominal gens leader, views Menes Yaribay's recent interest in religious artifacts.\"\n\nBornanew flips through his paper book, not really taking the time to read the dense notes therein. He runs a finger across lists of names.\n\n\"Not long ago Menes Yaribay was assigned the office of demarch, in essence the executive administrator, of Olinadu in the Kumari Kandam system. It is not a prestigious post. Olinadu is a small mining colony and the system is rife with Luddic Path activity. It is a dangerous, corrupt place.\"\n\nBornanew eye's return to you. \"This is why I need your help.\"",
-    "translated": ""
+    "translated": "\"La question, donc, est de savoir comment Horus Yaribay, le chef nominal de la gens, perçoit l'intérêt récent de Menes Yaribay pour les artefacts religieux.\"\n\nBornanew feuillette son livre en papier, sans vraiment prendre le temps de lire les notes denses qu'il contient. Il fait glisser son doigt sur des listes de noms.\n\n\"Il n'y a pas si longtemps, Menes Yaribay a été assigné au poste de démarque, en substance l'administrateur exécutif, d'Olinadu dans le système Kumari Kandam. Ce n'est pas un poste prestigieux. Olinadu est une petite colonie minière et le système est infesté d'activité du Sentier Luddique. C'est un endroit dangereux et corrompu.\"\n\nLe regard de Bornanew revient vers vous. \"C'est pour cela que j'ai besoin de votre aide.\""
   },
   {
     "csv_row": 2568,
@@ -48,7 +48,7 @@
     "column": "options",
     "option_line": "BFFI_onBoardAskMenes:\"You've done your research. Tell me about Menes Yaribay himself.\"",
     "original": "You've done your research. Tell me about Menes Yaribay himself.",
-    "translated": ""
+    "translated": "Vous avez fait vos recherches. Parlez-moi de Menes Yaribay lui-même."
   },
   {
     "csv_row": 2569,
@@ -56,7 +56,7 @@
     "column": "options",
     "option_line": "BFFI_onBoardAskInCharge:\"How did a Kazeron aristocrat get put in charge of Olinadu?\"",
     "original": "How did a Kazeron aristocrat get put in charge of Olinadu?",
-    "translated": ""
+    "translated": "Comment un aristocrate de Kazeron s'est-il retrouvé à la tête d'Olinadu ?"
   },
   {
     "csv_row": 2570,
@@ -64,7 +64,7 @@
     "column": "options",
     "option_line": "BFFI_onBoardAskRelic:\"Tell me more about the relic at the center of this. What is it?\"",
     "original": "Tell me more about the relic at the center of this. What is it?",
-    "translated": ""
+    "translated": "Parlez-moi davantage de la relique au centre de tout cela. De quoi s'agit-il ?"
   },
   {
     "csv_row": 2571,
@@ -72,6 +72,6 @@
     "column": "options",
     "option_line": "BFFI_onBoardAskTart4:\"Wait, why's the real glove on Tartessus if Ludd removed it on Gilead?\"",
     "original": "Wait, why's the real glove on Tartessus if Ludd removed it on Gilead?",
-    "translated": ""
+    "translated": "Attendez, pourquoi le vrai gant se trouve-t-il sur Tartessus si Ludd l'a retiré sur Gilead ?"
   }
 ]

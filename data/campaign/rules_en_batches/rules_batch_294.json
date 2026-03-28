@@ -4,14 +4,14 @@
     "id": "ZGRstartPitchOutro",
     "column": "text",
     "original": "* * *\n\nYou expect the Director will shed no tears if you and your crew perish. But she has a reputation for effective, if shadowy, investment and development.\n\nAnd for brutally cutting underperforming elements while rewarding success.\n\nYou could make good money and powerful connections. Or die in the Abyss, screaming to yourself in a darkness blacker than space.",
-    "translated": ""
+    "translated": "* * *\n\nVous ne vous attendez pas a ce que la Directrice verse des larmes si vous et votre equipage perissez. Mais elle a la reputation de mener des investissements et developpements efficaces, quoique obscurs.\n\nEt de couper brutalement les elements sous-performants tout en recompensant le succes.\n\nVous pourriez gagner beaucoup d'argent et nouer des connexions puissantes. Ou mourir dans l'Abime, hurlant dans une obscurite plus noire que l'espace."
   },
   {
     "csv_row": 8510,
     "id": "GRBHbarStart2",
     "column": "text",
     "original": "As you enter, an impeccably dressed young-appearing man lounging at the bar stands and approaches with an easy, open expression. His eyes literally twinkle - subtle cybernetics - as he greets you.\n\n\"Captain $playerName, I cannot express how happy I am to connect.\" His handshake lingers a moment too long.",
-    "translated": ""
+    "translated": "En entrant, un homme d'apparence jeune et impeccablement vetu, nonchalamment installe au bar, se leve et s'approche avec une expression detendue et ouverte. Ses yeux scintillent litteralement - cybernetique subtile - tandis qu'il vous salue.\n\n\"Capitaine $playerName, je ne saurais exprimer a quel point je suis heureux de cette rencontre.\" Sa poignee de main s'attarde un instant de trop."
   },
   {
     "csv_row": 8510,
@@ -19,7 +19,7 @@
     "column": "options",
     "option_line": "grbh_startRespA:\"And what's your business?\"",
     "original": "And what's your business?",
-    "translated": ""
+    "translated": "Et quelle est votre affaire ?"
   },
   {
     "csv_row": 8510,
@@ -27,7 +27,7 @@
     "column": "options",
     "option_line": "grbh_startRespB:\"Always pleased to meet a fan. Did you want a holo with me?\"",
     "original": "Always pleased to meet a fan. Did you want a holo with me?",
-    "translated": ""
+    "translated": "Toujours ravi de rencontrer un admirateur. Vous voulez un holo avec moi ?"
   },
   {
     "csv_row": 8510,
@@ -35,7 +35,7 @@
     "column": "options",
     "option_line": "grbh_startRespC:\"Excuse me, I have important business to attend to.\"",
     "original": "Excuse me, I have important business to attend to.",
-    "translated": ""
+    "translated": "Excusez-moi, j'ai d'importantes affaires a regler."
   },
   {
     "csv_row": 8510,
@@ -43,34 +43,34 @@
     "column": "options",
     "option_line": "grbh_startRespD:\"Excuse me, I have important drinking to attend to.\"",
     "original": "Excuse me, I have important drinking to attend to.",
-    "translated": ""
+    "translated": "Excusez-moi, j'ai d'importants verres a boire."
   },
   {
     "csv_row": 8511,
     "id": "GRBHstartRespA",
     "column": "text",
     "original": "His perfect eyebrows lift. \"Just this,\" he says.",
-    "translated": ""
+    "translated": "Ses sourcils parfaits se haussent. \"Juste ceci,\" dit-il."
   },
   {
     "csv_row": 8512,
     "id": "GRBHstartRespB",
     "column": "text",
     "original": "He laughs beautifully, perfect teeth flashing.",
-    "translated": ""
+    "translated": "Il rit magnifiquement, ses dents parfaites etincelant."
   },
   {
     "csv_row": 8515,
     "id": "GRBHstartResp2",
     "column": "text",
     "original": "It takes a moment for you to realize that you are holding a card. Placed through some sleight-of-hand, no doubt.",
-    "translated": ""
+    "translated": "Il vous faut un moment pour realiser que vous tenez une carte. Placee par quelque tour de passe-passe, sans aucun doute."
   },
   {
     "csv_row": 8516,
     "id": "GRBHexamine",
     "column": "text",
     "original": "The subtle, off-white material has a luxurious heft. An embossed Tri-Tachyon crest is just visible through the barely translucent polyply stock.\n\nThis is an affectation of the business class dating all the way back to Terran prehistory called a 'business-card', a sort of analog commlink ID data-packet. It reads:",
-    "translated": ""
+    "translated": "Le materiau subtil, blanc casse, a un poids luxueux. Un blason de Tri-Tachyon en relief est tout juste visible a travers le support polyply a peine translucide.\n\nC'est une affectation de la classe des affaires remontant a la prehistoire terrienne, appelee 'carte de visite', une sorte de paquet de donnees d'identifiant comm analogique. On y lit :"
   }
 ]

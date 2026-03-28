@@ -4,7 +4,7 @@
     "id": "BFFIstationMedConsultOut",
     "column": "text",
     "original": "You leave Bornanew to the stern care of your chief medical officer.",
-    "translated": ""
+    "translated": "Vous laissez Bornanew aux soins sévères de votre médecin-chef."
   },
   {
     "csv_row": 3230,
@@ -12,35 +12,35 @@
     "column": "options",
     "option_line": "bffi_stationConfront:\"Your nanoforge assembled a very interesting item. I have questions.\"",
     "original": "Your nanoforge assembled a very interesting item. I have questions.",
-    "translated": ""
+    "translated": "Votre nanoforge a assemblé un objet très intéressant. J'ai des questions."
   },
   {
     "csv_row": 3232,
     "id": "BFFIpatherStationTalkIgnore",
     "column": "text",
     "original": "Your comms request is denied with a burst of obsolete EW malware.",
-    "translated": ""
+    "translated": "Votre demande de communication est refusée avec une salve de malware de guerre électronique obsolète."
   },
   {
     "csv_row": 3233,
     "id": "BFFIstationBuyer1",
     "column": "text",
     "original": "\"A Mammonite's lie, I expect.\" $HisOrHer faces twists with contempt. \"Look at you, spacer, so far from the light of the Path.\"",
-    "translated": ""
+    "translated": "\"Un mensonge de Mammonite, j'imagine.\" Le visage de $HisOrHer se tord de mépris. \"Regardez-vous, spatial, si loin de la lumière du Sentier.\""
   },
   {
     "csv_row": 3234,
     "id": "BFFIstationConfront1",
     "column": "text",
     "original": "\"Questions?\" $HeOrShe smirks, eyes scanning some intel report. \"What questions might a Molochian have? How to more completely suborn the human soul? How to extract ever increasing lucre from sin?\"",
-    "translated": ""
+    "translated": "\"Des questions ?\" $HeOrShe ricane, les yeux parcourant un rapport de renseignement. \"Quelles questions un Molochien pourrait-il avoir ? Comment corrompre plus complètement l'âme humaine ? Comment extraire un lucre toujours croissant du péché ?\""
   },
   {
     "csv_row": 3235,
     "id": "BFFIstationConcerns1",
     "column": "text",
     "original": "\"A walker, so you claim. Aye, you are known to us. A minion of the so-called 'Church' which is naught but a shadow of the domain wearing a mask of twisted piety.\"\n\n$HeOrShe almost looks pitying. \"Are you so far gone, so blind to the light, that you cannot see it?\"",
-    "translated": ""
+    "translated": "\"Un marcheur, à ce que vous prétendez. Oui, vous nous êtes connu. Un sbire de la soi-disant 'Église' qui n'est rien d'autre qu'une ombre du Domain portant un masque de piété dévoyée.\"\n\n$HeOrShe a presque l'air apitoyé. \"Êtes-vous si perdu, si aveugle à la lumière, que vous ne pouvez pas le voir ?\""
   },
   {
     "csv_row": 3236,
@@ -48,7 +48,7 @@
     "column": "options",
     "option_line": "bffi_stationTalk1honesty:\"Light or no, I am honest. You sow false relics to cause war among the Faithful.\"",
     "original": "Light or no, I am honest. You sow false relics to cause war among the Faithful.",
-    "translated": ""
+    "translated": "Lumière ou pas, je suis honnête. Vous semez de fausses reliques pour provoquer la guerre parmi les Fidèles."
   },
   {
     "csv_row": 3237,
@@ -56,7 +56,7 @@
     "column": "options",
     "option_line": "bffi_stationTalk1sin:\"You speak of sin while you sow false relics to cause war among the Faithful?\"",
     "original": "You speak of sin while you sow false relics to cause war among the Faithful?",
-    "translated": ""
+    "translated": "Vous parlez de péché alors que vous semez de fausses reliques pour provoquer la guerre parmi les Fidèles ?"
   },
   {
     "csv_row": 3238,
@@ -64,7 +64,7 @@
     "column": "options",
     "option_line": "bffi_stationTalk1blind:\"Blind am I, and faithless? I see you sow false relics to cause war among the Faithful.\"",
     "original": "Blind am I, and faithless? I see you sow false relics to cause war among the Faithful.",
-    "translated": ""
+    "translated": "Aveugle, moi, et sans foi ? Je vois bien que vous semez de fausses reliques pour provoquer la guerre parmi les Fidèles."
   },
   {
     "csv_row": 3239,
@@ -72,6 +72,6 @@
     "column": "options",
     "option_line": "bffi_stationTalk2fight:\"If it is an honest fight you want, then why the false relics scheme?\"",
     "original": "If it is an honest fight you want, then why the false relics scheme?",
-    "translated": ""
+    "translated": "Si c'est un combat honnête que vous voulez, alors pourquoi ce stratagème de fausses reliques ?"
   }
 ]

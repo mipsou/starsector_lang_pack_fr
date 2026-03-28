@@ -4,7 +4,7 @@
     "id": "BFFIpsRuseNiceD",
     "column": "text",
     "original": "\"Yours is a path of blood, but there are those who say your soul is not lost to Perdition.\"\n\n$HeOrShe glares at you sullenly.\n\n\"I did not say I was amongst them.\"",
-    "translated": ""
+    "translated": "\"Le vôtre est un sentier de sang, mais certains disent que votre âme n'est pas perdue pour la Perdition.\"\n\n$HeOrShe vous fixe d'un air maussade.\n\n\"Je n'ai pas dit que j'étais parmi eux.\""
   },
   {
     "csv_row": 3289,
@@ -12,14 +12,14 @@
     "column": "options",
     "option_line": "bffi_psRuseNiceE:\"Surely my humanitarian reputation precedes me.\"",
     "original": "Surely my humanitarian reputation precedes me.",
-    "translated": ""
+    "translated": "Ma réputation humanitaire me précède, certainement."
   },
   {
     "csv_row": 3291,
     "id": "BFFIpsRuseNiceE",
     "column": "text",
     "original": "\"How lost you are, and how far from the light.\" $HeOrShe shakes $hisOrHer head, \"If the rumors are true, then perhaps some part of you hears a whisper of the Word. That can be the only explanation.\"",
-    "translated": ""
+    "translated": "\"Comme vous êtes perdu, et si loin de la lumière.\" $HeOrShe secoue $hisOrHer tête, \"Si les rumeurs sont vraies, alors peut-être qu'une part de vous entend un murmure de la Parole. C'est la seule explication possible.\""
   },
   {
     "csv_row": 3292,
@@ -27,7 +27,7 @@
     "column": "options",
     "option_line": "bffi_stationTalkOutA:\"My patience is spent. There can be no deal, and that's on you.\" (cut comms)",
     "original": "My patience is spent. There can be no deal, and that's on you.\" (cut comms)",
-    "translated": ""
+    "translated": "Ma patience est épuisée. Il n'y aura pas d'accord, et c'est votre faute.\" (couper les comms)"
   },
   {
     "csv_row": 3293,
@@ -35,14 +35,14 @@
     "column": "options",
     "option_line": "bffi_stationTalkOutB:\"Your heresy has corrupted you too far. I pray the infinite accepts you.\" (cut comms)",
     "original": "Your heresy has corrupted you too far. I pray the infinite accepts you.\" (cut comms)",
-    "translated": ""
+    "translated": "Votre hérésie vous a trop corrompu. Je prie pour que l'infini vous accueille.\" (couper les comms)"
   },
   {
     "csv_row": 3294,
     "id": "BFFIpsRuseOpenMean",
     "column": "text",
     "original": "You explain that you will require comms buffers and datastores pertaining to Sedge's scheme. You will need the datastores of the nanoforge as well, and must be given access in order to destroy it.\n\nFew need be hurt, if they cooperate; it can be done quickly and without compromising $hisOrHer leadership status if $heOrShe secretly gives you their primary security codes. Blame it on the injection of a semi-sentient computer virus, a 'daemon' of the sort Molochians conjure in their AI-labs.",
-    "translated": ""
+    "translated": "Vous expliquez que vous aurez besoin des tampons de communication et des banques de données concernant le complot de Sedge. Vous aurez également besoin des banques de données de la nanoforge, et devez y avoir accès pour la détruire.\n\nPeu de gens seront blessés, s'ils coopèrent ; cela peut être fait rapidement et sans compromettre $hisOrHer statut de dirigeant si $heOrShe vous donne secrètement leurs codes de sécurité principaux. Mettez la faute sur l'injection d'un virus informatique semi-sentient, un 'démon' du genre que les Molochiens invoquent dans leurs laboratoires d'IA."
   },
   {
     "csv_row": 3294,
@@ -50,27 +50,27 @@
     "column": "options",
     "option_line": "bffi_psRuseOpenMean2:\"Those are the terms. My wrath is great and won't be long contained.\"",
     "original": "Those are the terms. My wrath is great and won't be long contained.",
-    "translated": ""
+    "translated": "Voilà les conditions. Ma colère est grande et ne sera pas contenue bien longtemps."
   },
   {
     "csv_row": 3295,
     "id": "BFFIpsRuseOpenMean2",
     "column": "text",
     "original": "\"Why should I trust you - you, who threaten me so?\"\n\n$HeOrShe is clearly unhappy with your terms. \"You're a slave of not only Mammon and Moloch, but Wrath itself. Suffering is your daily bread.\"",
-    "translated": ""
+    "translated": "\"Pourquoi devrais-je vous faire confiance - vous, qui me menacez ainsi ?\"\n\n$HeOrShe est clairement mécontent de vos conditions. \"Vous êtes un esclave non seulement de Mammon et de Moloch, mais de la Colère elle-même. La souffrance est votre pain quotidien.\""
   },
   {
     "csv_row": 3296,
     "id": "BFFIpsRuseOpenMeanAlmost",
     "column": "text",
     "original": "$HisOrHer eyes are watering, $hisOrHer hands wringing. Just one more push should convince $himOrHer...",
-    "translated": ""
+    "translated": "Les yeux de $HisOrHer sont larmoyants, $hisOrHer mains se tordent. Encore un petit effort devrait le/la convaincre..."
   },
   {
     "csv_row": 3297,
     "id": "BFFIpsRuseOpenMeanDone",
     "column": "text",
     "original": "\"Cease your threats!\" $HeOrShe puts $hisOrHer head in $hisOrHer hands. \"You are a monster out of Hell, and surely that is where I shall find myself for making this deal... but this has gone on long enough. I must protect my people.\"\n\n\"I must accept your terms,\" $heOrShe says, defeated. \"I pray this is the Path.\"",
-    "translated": ""
+    "translated": "\"Cessez vos menaces !\" $HeOrShe met $hisOrHer tête dans $hisOrHer mains. \"Vous êtes un monstre sorti de l'Enfer, et c'est sûrement là que je me retrouverai pour avoir conclu ce marché... mais cela a assez duré. Je dois protéger mon peuple.\"\n\n\"Je dois accepter vos conditions,\" dit $heOrShe, vaincu. \"Je prie pour que ce soit le Sentier.\""
   }
 ]

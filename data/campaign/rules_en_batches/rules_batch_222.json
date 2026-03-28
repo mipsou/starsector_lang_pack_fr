@@ -4,14 +4,14 @@
     "id": "soeDeleteInvite",
     "column": "text",
     "original": "D'un simple tapotement, vous supprimez l'invitation pour toujours.\n\nYou, assister a un bal avec une bande d'aristocrates pretentieux ? Avec cet insupportable Caspian Sang ? Rien de bon ne pourrait en sortir.",
-    "translated": ""
+    "translated": "D'un simple tapotement, vous supprimez l'invitation pour toujours.\n\nVous, assister a un bal avec une bande d'aristocrates pretentieux ? Avec cet insupportable Caspian Sang ? Rien de bon ne pourrait en sortir."
   },
   {
     "csv_row": 6591,
     "id": "soeArriveToBall",
     "column": "text",
     "original": "Tandis que vous enfilez vos plus beaux atours et qu'une navette est preparee, vous considerez votre objectif principal, qui est de...",
-    "translated": ""
+    "translated": "Tandis que vous enfilez vos plus beaux atours et qu'une navette est preparee, vous considerez votre objectif principal, qui est de..."
   },
   {
     "csv_row": 6599,
@@ -19,7 +19,7 @@
     "column": "options",
     "option_line": "soe_houseRao5:Entrer the ballroom",
     "original": "Entrer the ballroom",
-    "translated": ""
+    "translated": "Entrer dans la salle de bal"
   },
   {
     "csv_row": 6614,
@@ -27,7 +27,7 @@
     "column": "options",
     "option_line": "soe_sangRound2YesYouHave:\"Je ne suis pas venu ici pour me quereller avec vous, Sang.\"",
     "original": "Je ne suis pas venu ici pour me quereller avec vous, Sang.",
-    "translated": ""
+    "translated": "Je ne suis pas venu ici pour me quereller avec vous, Sang."
   },
   {
     "csv_row": 6616,
@@ -35,7 +35,7 @@
     "column": "options",
     "option_line": "soe_sangRound2enjoyDrink:\"Du calme, as du flux, j'essaie juste de profiter d'un verre.\"",
     "original": "Du calme, as du flux, j'essaie juste de profiter d'un verre.",
-    "translated": ""
+    "translated": "Du calme, as du flux, j'essaie juste de profiter d'un verre."
   },
   {
     "csv_row": 6617,
@@ -43,7 +43,7 @@
     "column": "options",
     "option_line": "soe_sangRound2auxiliaries:\"Vous appelez toujours les auxiliaires pour faire quoi que ce soit, lieutenant ?\"",
     "original": "Vous appelez toujours les auxiliaires pour faire quoi que ce soit, lieutenant ?",
-    "translated": ""
+    "translated": "Vous appelez toujours les auxiliaires pour faire quoi que ce soit, lieutenant ?"
   },
   {
     "csv_row": 6619,
@@ -51,7 +51,7 @@
     "column": "options",
     "option_line": "soe_sangRound2throwDrink:Lui jeter le verre au visage",
     "original": "Lui jeter le verre au visage",
-    "translated": ""
+    "translated": "Lui jeter le verre au visage"
   },
   {
     "csv_row": 6628,
@@ -59,7 +59,7 @@
     "column": "options",
     "option_line": "soe_introNeriene2a:\"En effet. C'est un plaisir de vous rencontrer.\"",
     "original": "En effet. C'est un plaisir de vous rencontrer.",
-    "translated": ""
+    "translated": "En effet. C'est un plaisir de vous rencontrer."
   },
   {
     "csv_row": 6628,
@@ -67,7 +67,7 @@
     "column": "options",
     "option_line": "soe_introNeriene2:\"En effet. Caspian s'en allait justement.\"",
     "original": "En effet. Caspian s'en allait justement.",
-    "translated": ""
+    "translated": "En effet. Caspian s'en allait justement."
   },
   {
     "csv_row": 6629,
@@ -75,6 +75,6 @@
     "column": "options",
     "option_line": "soe_introNeriene2a:\"En effet. C'est un plaisir de vous rencontrer.\"",
     "original": "En effet. C'est un plaisir de vous rencontrer.",
-    "translated": ""
+    "translated": "En effet. C'est un plaisir de vous rencontrer."
   }
 ]

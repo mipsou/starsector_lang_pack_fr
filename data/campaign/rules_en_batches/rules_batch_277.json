@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "zgr_askQuestionsThreatAI:\"Does exploitating this technology not risk another AI War?\"",
     "original": "Does exploitating this technology not risk another AI War?",
-    "translated": ""
+    "translated": "Exploiter cette technologie ne risque-t-il pas de provoquer une autre Guerre des IA ?"
   },
   {
     "csv_row": 8324,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "zgr_askQuestionsThreatAre:\"Do you know what the 'Threat' are, or where they came from?\"",
     "original": "Do you know what the 'Threat' are, or where they came from?",
-    "translated": ""
+    "translated": "Savez-vous ce que la 'Menace' est, ou d'ou elle vient ?"
   },
   {
     "csv_row": 8325,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "zgr_askQuestionsThreatAlive:\"So the 'Threat' are not alive, not intelligent?\"",
     "original": "So the 'Threat' are not alive, not intelligent?",
-    "translated": ""
+    "translated": "Donc la 'Menace' n'est pas vivante, pas intelligente ?"
   },
   {
     "csv_row": 8327,
@@ -29,48 +29,48 @@
     "column": "options",
     "option_line": "zgr_askQuestionsMonsterAre:\"Do you know what these 'other' specimens... are?\"",
     "original": "Do you know what these 'other' specimens... are?",
-    "translated": ""
+    "translated": "Savez-vous ce que ces 'autres' specimens... sont ?"
   },
   {
     "csv_row": 8332,
     "id": "ZGRthreatTechAskThreatDo1",
     "column": "text",
     "original": "\"Research and development,\" she says. Her expression isn't quite a smirk.\n\n\"These components are obviously derived from a neglected branch of Domain-era technology. This makes them fundamentally human technology. The path to profitable exploitation is fundamentally open, albeit complex. The Tri-Tachyon corporation is ideally placed to exploit them.\"",
-    "translated": ""
+    "translated": "\"Recherche et developpement,\" dit-elle. Son expression n'est pas tout a fait un rictus.\n\n\"Ces composants sont manifestement derives d'une branche negligee de la technologie de l'ere du Domain. Cela en fait fondamentalement une technologie humaine. La voie vers une exploitation rentable est fondamentalement ouverte, bien que complexe. La corporation Tri-Tachyon est idealement placee pour les exploiter.\""
   },
   {
     "csv_row": 8333,
     "id": "ZGRthreatTechAskThreatAre1",
     "column": "text",
     "original": "\"In the simplest terms,\" her voice contains more than a hint of condescension, \"they are autonomous self-fabricating, self-modifying constructs derived from ancient Domain designs. Their intent, so far as they could be said to have intent, is destructive toward our technological base.\"\n\n\"'Why' is a more difficult question.\"\n\nHer dead eyes move oddly. \"I find it amusing that the Luddics would recoil in horror, but they could not find a better ally to their cause.\"",
-    "translated": ""
+    "translated": "\"En termes simples,\" sa voix contient plus qu'une pointe de condescendance, \"ce sont des constructs autonomes auto-fabricants et auto-modifiants derives d'anciens designs du Domain. Leur intention, dans la mesure ou l'on peut leur attribuer une intention, est destructrice envers notre base technologique.\"\n\n\"'Pourquoi' est une question plus difficile.\"\n\nSes yeux morts bougent etrangement. \"Je trouve amusant que les Luddiques reculeraient d'horreur, mais ils ne pourraient trouver meilleur allie pour leur cause.\""
   },
   {
     "csv_row": 8335,
     "id": "ZGRthreatTechAskThreatAlive1",
     "column": "text",
     "original": "\"Is a machine alive? Is a virus?\" She pauses for a fraction of a second before providing her own answer.\n\n\"I don't care.\"",
-    "translated": ""
+    "translated": "\"Une machine est-elle vivante ? Un virus l'est-il ?\" Elle marque une pause d'une fraction de seconde avant de fournir sa propre reponse.\n\n\"Je m'en moque.\""
   },
   {
     "csv_row": 8336,
     "id": "ZGRthreatTechAskThreatAlive2",
     "column": "text",
     "original": "\"Functionally the 'Threat' phenomenon demonstrates no attempt to present a sense of selfhood, collective or otherwise. What passes for communication is hostile and garbled; the loose ends of automatic warnings and obsolete Domain decrees. If it is conscious in any form, it is impossibly solipsistic.\"\n\n\"Which is just as well,\" the Director produces a robotic half-smile. \"It will be a better tool that way.\"",
-    "translated": ""
+    "translated": "\"Fonctionnellement, le phenomene de la 'Menace' ne montre aucune tentative de presenter un sens d'identite propre, collectif ou autre. Ce qui passe pour de la communication est hostile et brouille ; les vestiges d'avertissements automatiques et de decrets obsoletes du Domain. Si elle est consciente sous quelque forme que ce soit, elle est d'un solipsisme impossible.\"\n\n\"Ce qui est aussi bien,\" la Directrice produit un demi-sourire robotique. \"Elle en sera un meilleur outil.\""
   },
   {
     "csv_row": 8337,
     "id": "ZGRmonsterTechAskMonsterDo1",
     "column": "text",
     "original": "\"Research and development.\" \n\nThe Director releases a deliberate breath.\n\n\"We know it isn't human. We know it is powerful. The return on investment, therefore, is beyond human imagination.\"\n\nShe looks satisfied with the thought.",
-    "translated": ""
+    "translated": "\"Recherche et developpement.\"\n\nLa Directrice expire deliberement.\n\n\"Nous savons que ce n'est pas humain. Nous savons que c'est puissant. Le retour sur investissement, par consequent, depasse l'imagination humaine.\"\n\nElle semble satisfaite de cette pensee."
   },
   {
     "csv_row": 8338,
     "id": "ZGRmonsterTechAskMonsterAre1",
     "column": "text",
     "original": "\"That is speculation for the research division. Or perhaps you would care to ask a philosopher? Or a curate?\" This last idea appears to amuse her, insofar as she is capable of expressing that, or any, emotion.\n\n\"My interest is in what these specimens, these phenomena, can DO. For me. Or the Company.\"\n\nShe pulls her glassy eyes back to the comm-link. \n\n\"For humanity. At least that small percentage of it willing to accept the radical and necessary future.\"",
-    "translated": ""
+    "translated": "\"C'est de la speculation pour la division recherche. Ou peut-etre souhaiteriez-vous interroger un philosophe ? Ou un cure ?\" Cette derniere idee semble l'amuser, dans la mesure ou elle est capable d'exprimer cette emotion, ou toute autre.\n\n\"Mon interet porte sur ce que ces specimens, ces phenomenes, peuvent FAIRE. Pour moi. Ou pour la Compagnie.\"\n\nElle ramene ses yeux vitreux vers le lien comm.\n\n\"Pour l'humanite. Du moins ce faible pourcentage dispose a accepter l'avenir radical et necessaire.\""
   }
 ]

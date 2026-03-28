@@ -4,42 +4,42 @@
     "id": "BFFIarrestOutroPCshotA",
     "column": "text",
     "original": "The shape leans forward and turns into Bornanew.\n\n\"Yes, captain,\" he says. \"And you are alive, thank Providence. And your medical team, of course.\"",
-    "translated": ""
+    "translated": "La forme se penche en avant et se transforme en Bornanew.\n\n\"Oui, capitaine,\" dit-il. \"Et vous êtes en vie, grâce à la Providence. Et votre équipe médicale, bien sûr.\""
   },
   {
     "csv_row": 3444,
     "id": "BFFIarrestOutroPCshotB",
     "column": "text",
     "original": "At least, that's what you try to say. What leaves your mouth is an indeterminate mush of phonemes.\n\nThe shape leans forward and turns into Bornanew.\n\n\"You've been shot,\" he says. \"Try not to move.\"",
-    "translated": ""
+    "translated": "Du moins, c'est ce que vous essayez de dire. Ce qui sort de votre bouche est une bouillie indéterminée de phonèmes.\n\nLa forme se penche en avant et se transforme en Bornanew.\n\n\"Vous avez été touché par balle,\" dit-il. \"Essayez de ne pas bouger.\""
   },
   {
     "csv_row": 3445,
     "id": "BFFIarrestOutroPCshotC",
     "column": "text",
     "original": "At least, that's what you try to say. What leaves your mouth is an indetermine mush of phonemes.\n\nThe shape leans forward and turns into Bornanew.\n\n\"Good morning, captain,\" he says. \"By local reference, anyway.\"",
-    "translated": ""
+    "translated": "Du moins, c'est ce que vous essayez de dire. Ce qui sort de votre bouche est une bouillie indéterminée de phonèmes.\n\nLa forme se penche en avant et se transforme en Bornanew.\n\n\"Bonjour, capitaine,\" dit-il. \"En référence locale, en tout cas.\""
   },
   {
     "csv_row": 3446,
     "id": "BFFIarrestOutroPCshotArroyoA",
     "column": "text",
     "original": "The shape leans forward and turns into Bornanew.\n\n\"It's just me. Jethro,\" he says. \"Good morning captain. By ah, local reference, anyway.\"",
-    "translated": ""
+    "translated": "La forme se penche en avant et se transforme en Bornanew.\n\n\"Ce n'est que moi. Jethro,\" dit-il. \"Bonjour capitaine. En, euh, référence locale, en tout cas.\""
   },
   {
     "csv_row": 3447,
     "id": "BFFIarrestOutroPCshotArroyoAj",
     "column": "text",
     "original": "The shape leans forward and turns into Bornanew.\n\n\"It's just me. Jeth... um, Jeff,\" he says. \"Good morning captain. By ah, local reference, anyway.\"",
-    "translated": ""
+    "translated": "La forme se penche en avant et se transforme en Bornanew.\n\n\"Ce n'est que moi. Jeth... euh, Jeff,\" dit-il. \"Bonjour capitaine. En, euh, référence locale, en tout cas.\""
   },
   {
     "csv_row": 3448,
     "id": "BFFIarrestOutroPCshot2",
     "column": "text",
     "original": "\"Knight-Captain Larix applied first aid to you.\" Bornanew speaks softly. \"I do think he saved your life.\" \n\nHe leans back. \"And I, I managed to catch Keepfaith before she could flee. She's in the brig, now. And no longer a subcurate. The Reverend Archcurate of the Cathedral of Holy Exodus - Bywater, his name is - was quite distraught about the shooting. He revoked her curateship.\"\n\nHe pauses a moment to let everything sink in.",
-    "translated": ""
+    "translated": "\"Le Chevalier-Capitaine Larix vous a administré les premiers soins.\" Bornanew parle doucement. \"Je pense qu'il vous a sauvé la vie.\"\n\nIl se cale en arrière. \"Et moi, j'ai réussi à attraper Keepfaith avant qu'elle ne puisse fuir. Elle est en cellule, maintenant. Et n'est plus sous-curée. Le Révérend Archicuré de la Cathédrale du Saint Exode - Bywater, c'est son nom - était très bouleversé par la fusillade. Il a révoqué son rang de curée.\"\n\nIl fait une pause pour laisser tout cela faire son chemin."
   },
   {
     "csv_row": 3448,
@@ -47,14 +47,14 @@
     "column": "options",
     "option_line": "bffi_arrestOutroPCshot3:Attempt to speak",
     "original": "Attempt to speak",
-    "translated": ""
+    "translated": "Tenter de parler"
   },
   {
     "csv_row": 3449,
     "id": "BFFIarrestOutroPCshot3",
     "column": "text",
     "original": "\"Please, not yet,\" he says. \"Be at ease.\"\n\n\"Keepfaith should be given over to the Knight-Inquisitors, on Hesperus. She still must be investigated for her crimes and put before a quorum of appropriate authority for judgement.\" He pauses. \"Her other crimes, I mean. We have a score of witnesses for the shooting, and...\"\n\nHe trails off, knowing little need be said of that just now. Another voice speaks, from outside the room - the medical recovery bay.",
-    "translated": ""
+    "translated": "\"S'il vous plaît, pas encore,\" dit-il. \"Restez tranquille.\"\n\n\"Keepfaith devrait être remise aux Chevaliers-Inquisiteurs, sur Hesperus. Elle doit encore faire l'objet d'une enquête pour ses crimes et être présentée devant un quorum d'autorité appropriée pour jugement.\" Il fait une pause. \"Ses autres crimes, je veux dire. Nous avons une vingtaine de témoins pour la fusillade, et...\"\n\nIl s'interrompt, sachant que peu de choses doivent être dites à ce sujet pour l'instant. Une autre voix parle, depuis l'extérieur de la salle - la baie de récupération médicale."
   },
   {
     "csv_row": 3449,
@@ -62,13 +62,13 @@
     "column": "options",
     "option_line": "bffi_arrestOutroPCshot4:Do not attempt to speak",
     "original": "Do not attempt to speak",
-    "translated": ""
+    "translated": "Ne pas tenter de parler"
   },
   {
     "csv_row": 3450,
     "id": "BFFIarrestOutroPCshot4",
     "column": "text",
     "original": "Bornanew nods at some instruction then, standing up, looks back to you.\n\n\"Thank you, captain. For my life, again.\"",
-    "translated": ""
+    "translated": "Bornanew hoche la tête à une instruction puis, se levant, vous regarde.\n\n\"Merci, capitaine. Pour ma vie, encore une fois.\""
   }
 ]

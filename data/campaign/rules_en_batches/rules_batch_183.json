@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "gaFC_isirahMercWhatInfo:\"De quelle information s'agit-il ?\"",
     "original": "De quelle information s'agit-il ?",
-    "translated": ""
+    "translated": "De quelle information s'agit-il ?"
   },
   {
     "csv_row": 4668,
@@ -37,7 +37,7 @@
     "column": "options",
     "option_line": "gaFC_isirahMercLetsDeal:\"Parlons de conclure un accord.\"",
     "original": "Parlons de conclure un accord.",
-    "translated": ""
+    "translated": "Parlons de conclure un accord."
   },
   {
     "csv_row": 4669,
@@ -45,7 +45,7 @@
     "column": "options",
     "option_line": "gaFC_isirahMercWhoWorkFor:\"Qui est exactement cet employeur ?\"",
     "original": "Qui est exactement cet employeur ?",
-    "translated": ""
+    "translated": "Qui est exactement cet employeur ?"
   },
   {
     "csv_row": 4671,
@@ -53,7 +53,7 @@
     "column": "options",
     "option_line": "gaFC_isirahMercGetNothing:\"Vous n'obtiendrez rien de moi.\"",
     "original": "Vous n'obtiendrez rien de moi.",
-    "translated": ""
+    "translated": "Vous n'obtiendrez rien de moi."
   },
   {
     "csv_row": 4680,
@@ -61,7 +61,7 @@
     "column": "options",
     "option_line": "gaFC_isirahMercGetNothing2:\"C'est tout ? Vous allez simplement partir ?\"",
     "original": "C'est tout ? Vous allez simplement partir ?",
-    "translated": ""
+    "translated": "C'est tout ? Vous allez simplement partir ?"
   },
   {
     "csv_row": 4680,

@@ -4,28 +4,28 @@
     "id": "BFFIapHorus23g",
     "column": "text",
     "original": "Bornanew spares you a single rueful look.",
-    "translated": ""
+    "translated": "Bornanew vous accorde un seul regard navré."
   },
   {
     "csv_row": 2916,
     "id": "BFFImpRaidStart",
     "column": "text",
     "original": "On a pedestal of carved wood, in a spot of light like holy revelation, a single glove is upthrust. Its fingers appear frozen in the midst of just starting to curl back toward a relaxed state after giving you a little wave.",
-    "translated": ""
+    "translated": "Sur un piédestal de bois sculpté, dans un halo de lumière semblable à une révélation divine, un unique gant se dresse. Ses doigts semblent figés en train de se recourber vers une position détendue, comme après vous avoir fait un petit signe."
   },
   {
     "csv_row": 2917,
     "id": "BFFImpRaid0",
     "column": "text",
     "original": "\"Do you know what this is?\" Menes whispers to you. \n\n\"It looks like a glove, demarch,\" Bornanew answers in feigned misunderstanding, stepping forward.",
-    "translated": ""
+    "translated": "\"Savez-vous ce que c'est ?\" murmure Menes.\n\n\"On dirait un gant, démarque,\" répond Bornanew en feignant l'incompréhension, s'avançant."
   },
   {
     "csv_row": 2918,
     "id": "BFFImpRaid1",
     "column": "text",
     "original": "\"Not any glove,\" Menes says with more than a hint of vexation.\n\nHe begins again in a reverent whisper, \"The glove worn by Ludd upon stepping upon the sacred Earth of Gilead. Ludd removed the glove and kissed the ground, according to the Luddic religion. Isn't that right, sir Knight? And this... is it.\"\n\nBornanew looks at you, his eyebrows rising. \"Could it be?\" he asks, allowing some melodrama to enter his voice.",
-    "translated": ""
+    "translated": "\"Pas n'importe quel gant,\" dit Menes avec plus qu'un soupçon de vexation.\n\nIl reprend dans un murmure révérencieux : \"Le gant porté par Ludd lorsqu'il posa le pied sur la Terre sacrée de Gilead. Ludd retira le gant et embrassa le sol, selon la religion luddique. N'est-ce pas, messire Chevalier ? Et ceci... c'est celui-là.\"\n\nBornanew vous regarde, les sourcils se haussant. \"Se pourrait-il ?\" demande-t-il, laissant un peu de mélodrame entrer dans sa voix."
   },
   {
     "csv_row": 2918,
@@ -33,14 +33,14 @@
     "column": "options",
     "option_line": "bffi_mpCallRaid:Call in the raid",
     "original": "Call in the raid",
-    "translated": ""
+    "translated": "Lancer le raid"
   },
   {
     "csv_row": 2919,
     "id": "BFFImpRaid2",
     "column": "text",
     "original": "\"Precisely my reaction upon first hearing word of this unique artifact!\" Menes beams, more than a little pleased that someone appreciates his trinket.\n\n\"Setting aside its purely religious significance,\" he gives a glance at Bornanew, \"it represents a, a heralding of the changing tides of history! The ebbing influence of the Domain-era megacorporations, the rising of what some call - not my words of course, sir Knight - an atavistic populism. Truly, it is this small piece of the vastness of the story of Humanity which called to me when it was first described to me...\"\n\nMenes seems prepared to continue this for quite some time.",
-    "translated": ""
+    "translated": "\"Précisément ma réaction en entendant parler pour la première fois de cet artefact unique !\" Menes rayonne, plus qu'un peu ravi que quelqu'un apprécie son bibelot.\n\n\"En mettant de côté sa signification purement religieuse,\" il jette un regard à Bornanew, \"il représente un, un signe avant-coureur du tournant de l'histoire ! Le reflux de l'influence des mégacorporations de l'ère du Domain, la montée de ce que certains appellent - ce ne sont pas mes mots bien sûr, messire Chevalier - un populisme atavique. Vraiment, c'est ce petit fragment de l'immensité de l'histoire de l'Humanité qui m'a appelé lorsqu'on me l'a décrit pour la première fois...\"\n\nMenes semble prêt à continuer ainsi pendant un bon moment."
   },
   {
     "csv_row": 2919,
@@ -48,27 +48,27 @@
     "column": "options",
     "option_line": "bffi_mpCallRaid:Call in the raid",
     "original": "Call in the raid",
-    "translated": ""
+    "translated": "Lancer le raid"
   },
   {
     "csv_row": 2920,
     "id": "BFFIraidGoBackOverride",
     "column": "text",
     "original": "Menes is blathering on about something or other while Bornanew pretends to listen.",
-    "translated": ""
+    "translated": "Menes babille à propos de ceci ou cela tandis que Bornanew fait semblant d'écouter."
   },
   {
     "csv_row": 2922,
     "id": "BFFImpBuyerCallRaid",
     "column": "text",
     "original": "This isn't working. It's a good thing you prepared a backup plan.\n\nYou'll simply call in a marine raid while keeping Menes distracted. You give a grim nod to Bornanew and with only a small pause he follows your lead, asking Menes an insightful question about another item in his collection.",
-    "translated": ""
+    "translated": "Ça ne marche pas. Heureusement que vous avez préparé un plan de secours.\n\nVous allez simplement lancer un raid de marines tout en gardant Menes distrait. Vous faites un signe de tête sombre à Bornanew et après une courte pause, il suit votre exemple, posant à Menes une question pertinente sur un autre objet de sa collection."
   },
   {
     "csv_row": 2923,
     "id": "BFFIpartyBeginRaid",
     "column": "text",
     "original": "You glance at your comms. Everything has been planned ahead of time, and care taken to hide tactical teams among the general population of offworld crew taking a bit of shore-leave. Signal discipline has been unerring.\n\nThe coded response, hidden in routine status reports, shows all teams are prepped and ready to move.",
-    "translated": ""
+    "translated": "Vous jetez un coup d'oeil à vos comms. Tout a été planifié à l'avance, et des précautions ont été prises pour dissimuler les équipes tactiques parmi la population générale d'équipages extraplanétaires en permission. La discipline de signal a été irréprochable.\n\nLa réponse codée, cachée dans les rapports de statut routiniers, montre que toutes les équipes sont prêtes et en position."
   }
 ]

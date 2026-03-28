@@ -5,21 +5,21 @@
     "column": "options",
     "option_line": "gaATG_magecGateUse:\"Nav, activez le Dispositif Janus et emmenez-nous.\"",
     "original": "Nav, activez le Dispositif Janus et emmenez-nous.",
-    "translated": ""
+    "translated": "Nav, activez le Dispositif Janus et emmenez-nous."
   },
   {
     "csv_row": 5915,
     "id": "gaATGMagecGateExplode2b",
     "column": "text",
     "original": "\"Ce n'est pas ce que vous avez fait,\" dit-elle avec impatience. \"Concentrons-nous sur la crise actuelle. Vous avez le Portail devant vous. Utilisez-le.\"",
-    "translated": ""
+    "translated": "\"Ce n'est pas ce que vous avez fait,\" dit-elle avec impatience. \"Concentrons-nous sur la crise actuelle. Vous avez le Portail devant vous. Utilisez-le.\""
   },
   {
     "csv_row": 5928,
     "id": "gaATGlastReturnVictory2",
     "column": "text",
     "original": "Zal croise votre regard. \"Toujours,\" dit-elle.",
-    "translated": ""
+    "translated": "Zal croise votre regard. \"Toujours,\" dit-elle."
   },
   {
     "csv_row": 5943,
@@ -27,7 +27,7 @@
     "column": "options",
     "option_line": "gaATG_bairdEndingWanted:\"Vous avez obtenu ce que vous vouliez, non ?\"",
     "original": "Vous avez obtenu ce que vous vouliez, non ?",
-    "translated": ""
+    "translated": "Vous avez obtenu ce que vous vouliez, non ?"
   },
   {
     "csv_row": 5961,
@@ -43,7 +43,7 @@
     "column": "options",
     "option_line": "gaATG_postSebestyenGetPaid3b:\"Je n'aurais pas pu le faire sans vous.\"",
     "original": "Je n'aurais pas pu le faire sans vous.",
-    "translated": ""
+    "translated": "Je n'aurais pas pu le faire sans vous."
   },
   {
     "csv_row": 5963,
@@ -74,6 +74,6 @@
     "id": "gaATGpostSebestyenGoodJob",
     "column": "text",
     "original": "Il vous regarde un long moment, puis dit simplement \"Merci.\"",
-    "translated": ""
+    "translated": "Il vous regarde un long moment, puis dit simplement \"Merci.\""
   }
 ]

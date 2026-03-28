@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "5:salExplore:Explorer the ruins",
     "original": "salExplore:Explorer the ruins",
-    "translated": ""
+    "translated": "salExplore:Explorer the ruins"
   },
   {
     "csv_row": 4023,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "5:salExplore:Explorer the ruins",
     "original": "salExplore:Explorer the ruins",
-    "translated": ""
+    "translated": "salExplore:Explorer the ruins"
   },
   {
     "csv_row": 4042,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "zigAlphaContinue3:Ordonner la poursuite de l'exploration",
     "original": "Ordonner la poursuite de l'exploration",
-    "translated": ""
+    "translated": "Ordonner la poursuite de l'exploration"
   },
   {
     "csv_row": 4051,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "0:alphaSiteExplore1:Send a salvage team down to the facility",
     "original": "alphaSiteExplore1:Send a salvage team down to the facility",
-    "translated": ""
+    "translated": "alphaSiteExplore1:Envoyer une équipe de récupération dans l'installation"
   },
   {
     "csv_row": 4052,
@@ -37,7 +37,7 @@
     "column": "options",
     "option_line": "0:alphaSiteExplore1:Replay the recording",
     "original": "alphaSiteExplore1:Replay the recording",
-    "translated": ""
+    "translated": "alphaSiteExplore1:Rejouer l'enregistrement"
   },
   {
     "csv_row": 4054,
@@ -45,7 +45,7 @@
     "column": "options",
     "option_line": "0:alphaSiteExplore1:Replay the recording",
     "original": "alphaSiteExplore1:Replay the recording",
-    "translated": ""
+    "translated": "alphaSiteExplore1:Rejouer l'enregistrement"
   },
   {
     "csv_row": 4070,
@@ -53,7 +53,7 @@
     "column": "options",
     "option_line": "0:gaDuringTutorialMoreInfo1:\"Que se passe-t-il ici ?\"",
     "original": "gaDuringTutorialMoreInfo1:\"Que se passe-t-il ici ?",
-    "translated": ""
+    "translated": "gaDuringTutorialMoreInfo1:\"Que se passe-t-il ici ?"
   },
   {
     "csv_row": 4070,
@@ -61,7 +61,7 @@
     "column": "options",
     "option_line": "100:defaultLeave:Remercier l'officier et raccrocher.",
     "original": "defaultLeave:Remercier l'officier et raccrocher.",
-    "translated": ""
+    "translated": "defaultLeave:Remercier l'officier et raccrocher."
   },
   {
     "csv_row": 4072,
@@ -69,7 +69,7 @@
     "column": "options",
     "option_line": "100:defaultLeave:Remercier l'officier et raccrocher.",
     "original": "defaultLeave:Remercier l'officier et raccrocher.",
-    "translated": ""
+    "translated": "defaultLeave:Remercier l'officier et raccrocher."
   },
   {
     "csv_row": 4083,
@@ -77,6 +77,6 @@
     "column": "options",
     "option_line": "backToBar:Jeter un œil autour du bar",
     "original": "Jeter un œil autour du bar",
-    "translated": ""
+    "translated": "Jeter un œil autour du bar"
   }
 ]

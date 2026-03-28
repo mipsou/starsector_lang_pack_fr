@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "cutCommLinkNoText2:Couper brutalement la comm",
     "original": "Couper brutalement la comm",
-    "translated": ""
+    "translated": "Couper brutalement la comm"
   },
   {
     "csv_row": 9645,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "devReynardUseBrainWave:DEV Utiliser des pouvoirs mentaux pour qu'il vous laisse entrer dans la Ligue",
     "original": "DEV Utiliser des pouvoirs mentaux pour qu'il vous laisse entrer dans la Ligue",
-    "translated": ""
+    "translated": "DEV Utiliser des pouvoirs mentaux pour qu'il vous laisse entrer dans la Ligue"
   },
   {
     "csv_row": 9646,
@@ -37,7 +37,7 @@
     "column": "options",
     "option_line": "cutCommLinkNoText2:Couper brutalement la comm",
     "original": "Couper brutalement la comm",
-    "translated": ""
+    "translated": "Couper brutalement la comm"
   },
   {
     "csv_row": 9646,
@@ -76,6 +76,6 @@
     "id": "plReynardHannanJoinSelYes",
     "column": "text",
     "original": "Reynard Hannan vous regarde avec approbation. \"Les details sont infinis, mais vous n'avez qu'a vous preoccuper du niveau le plus eleve de l'arrangement. Ce n'est pas complexe.\"",
-    "translated": ""
+    "translated": "Reynard Hannan vous regarde avec approbation. \"Les details sont infinis, mais vous n'avez qu'a vous preoccuper du niveau le plus eleve de l'arrangement. Ce n'est pas complexe.\""
   }
 ]

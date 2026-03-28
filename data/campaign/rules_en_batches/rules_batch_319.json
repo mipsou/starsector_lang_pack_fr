@@ -1,79 +1,80 @@
 [
   {
-    "csv_row": 9359,
-    "id": "anhCheckCompletionOnlyKid",
+    "csv_row": 9392,
+    "id": "ImoinuUmbraMacarioHubOptA",
     "column": "options",
-    "option_line": "anh_completeDeliveryOnlyKid0:\"On fait tous ce qu'il faut pour survivre, petit.\"",
-    "original": "On fait tous ce qu'il faut pour survivre, petit.",
-    "translated": ""
+    "option_line": "imoinuUmbra_macarioHubSelA:\"I'm just a merc. He was extremely assertive about giving me a job.\"",
+    "original": "I'm just a merc. He was extremely assertive about giving me a job.",
+    "translated": "Je ne suis qu'un mercenaire. Il a été extrêmement insistant pour me confier un travail."
   },
   {
-    "csv_row": 9359,
-    "id": "anhCheckCompletionOnlyKid",
+    "csv_row": 9395,
+    "id": "ImoinuUmbraMacarioHubOptD",
     "column": "options",
-    "option_line": "anh_completeDelivery:Laisser tomber",
-    "original": "Laisser tomber",
-    "translated": ""
+    "option_line": "imoinuUmbra_macarioHubSelD:\"I'm a secret Hegemony agent working to undermine the Diktat.\" (lie)",
+    "original": "I'm a secret Hegemony agent working to undermine the Diktat.\" (lie)",
+    "translated": "Je suis un agent secret de l'Hégémonie travaillant à saper le Diktat.\" (mensonge)"
   },
   {
-    "csv_row": 9360,
-    "id": "anhCheckCompletionOnlyKidReroute",
+    "csv_row": 9397,
+    "id": "ImoinuUmbraMacarioHubOptF",
+    "column": "options",
+    "option_line": "imoinuUmbra_macarioHubSelF:\"I am of the Luddic faith and I'm taking them down from the inside.\" (lie)",
+    "original": "I am of the Luddic faith and I'm taking them down from the inside.\" (lie)",
+    "translated": "Je suis de la foi luddique et je les sabote de l'intérieur.\" (mensonge)"
+  },
+  {
+    "csv_row": 9398,
+    "id": "ImoinuUmbraMacarioHubOptG",
+    "column": "options",
+    "option_line": "imoinuUmbra_macarioHubSelG:\"I am of the Luddic faith and I'm taking them down from the inside.\"",
+    "original": "I am of the Luddic faith and I'm taking them down from the inside.",
+    "translated": "Je suis de la foi luddique et je les sabote de l'intérieur."
+  },
+  {
+    "csv_row": 9399,
+    "id": "ImoinuUmbraMacarioHubOptH",
+    "column": "options",
+    "option_line": "imoinuUmbra_macarioHubSelH:\"I'm Persean League fleet intelligence. My real name is 'Siyavong'.\" (lie)",
+    "original": "I'm Persean League fleet intelligence. My real name is 'Siyavong'.\" (lie)",
+    "translated": "Renseignements de la flotte de la Ligue Perséane. Mon vrai nom est 'Siyavong'.\" (mensonge)"
+  },
+  {
+    "csv_row": 9404,
+    "id": "ImoinuUmbraMacarioHubSelD",
     "column": "text",
-    "original": "He looks like he's going to take the bait, but the robot bleeps at him, defusing his anger.",
-    "translated": ""
+    "original": "\"Sure. Okay.\" She crosses her arms and gives you an incredulous look.\n\n",
+    "translated": "\"Bien sûr. D'accord.\" Elle croise les bras et vous lance un regard incrédule.\n\n"
   },
   {
-    "csv_row": 9376,
-    "id": "ImoinuUmbraGreetingsLiar",
+    "csv_row": 9405,
+    "id": "ImoinuUmbraMacarioHubSelE",
     "column": "text",
-    "original": "\"$playerName the liar.\" She scowls. \"Didn't I tell you to suck vacuum?\"",
-    "translated": ""
+    "original": "\"No you're not.\" Imoinu crosses her arms. \"You're as much a liar as Macario.\"",
+    "translated": "\"Non, vous ne l'êtes pas.\" Imoinu croise les bras. \"Vous êtes aussi menteur que Macario.\""
   },
   {
-    "csv_row": 9378,
-    "id": "ImoinuUmbraGreetingSDcom",
+    "csv_row": 9414,
+    "id": "ImoinuKatoUmbraOptDardan",
     "column": "options",
-    "option_line": "imoinuKato_SDcomConfrontB:\"Ah, so you've heard of me. Very good.\"",
-    "original": "Ah, so you've heard of me. Very good.",
-    "translated": ""
+    "option_line": "imoinuKato_sayDardan:\"I met Dardan. Is he your brother?\"",
+    "original": "I met Dardan. Is he your brother?",
+    "translated": "J'ai rencontré Dardan. C'est votre frère ?"
   },
   {
-    "csv_row": 9378,
-    "id": "ImoinuUmbraGreetingSDcom",
+    "csv_row": 9415,
+    "id": "ImoinuKatoUmbraOptSalute",
     "column": "options",
-    "option_line": "imoinuKato_SDcomConfrontC:\"Perhaps you've mistaken me for someone else.\" (lie)",
-    "original": "Perhaps you've mistaken me for someone else.\" (lie)",
-    "translated": ""
+    "option_line": "imoinuKato_saySalute:\"I salute your dedication. It is a just cause.\"",
+    "original": "I salute your dedication. It is a just cause.",
+    "translated": "Je salue votre dévouement. C'est une juste cause."
   },
   {
-    "csv_row": 9386,
-    "id": "ImoinuKatoUmbraAskWhat",
+    "csv_row": 9416,
+    "id": "ImoinuKatoUmbraOptDoomed",
     "column": "options",
-    "option_line": "imoinuKato_askWhatUmbra:\"Aren't you Gens Kato? What are you doing on Umbra?\"",
-    "original": "Aren't you Gens Kato? What are you doing on Umbra?",
-    "translated": ""
-  },
-  {
-    "csv_row": 9387,
-    "id": "ImoinuKatoUmbraSayAndrada",
-    "column": "options",
-    "option_line": "imoinuKato_sayAndrada1:\"Speaking of Andrada... I've got some good news for you.\"",
-    "original": "Speaking of Andrada... I've got some good news for you.",
-    "translated": ""
-  },
-  {
-    "csv_row": 9388,
-    "id": "ImoinuKatoUmbraSayAndrada1",
-    "column": "text",
-    "original": "\"What about him?\" She watches you carefully.",
-    "translated": ""
-  },
-  {
-    "csv_row": 9388,
-    "id": "ImoinuKatoUmbraSayAndrada1",
-    "column": "options",
-    "option_line": "imoinuKato_sayAndrada2:\"I'm pretty sure he's braindead. Dolos Macario as much as admitted it to me.\"",
-    "original": "I'm pretty sure he's braindead. Dolos Macario as much as admitted it to me.",
-    "translated": ""
+    "option_line": "imoinuKato_sayDoomed:\"It seems a doomed cause. Don't you want to go home?\"",
+    "original": "It seems a doomed cause. Don't you want to go home?",
+    "translated": "Cela semble être une cause perdue. Vous ne voulez pas rentrer chez vous ?"
   }
 ]

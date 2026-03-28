@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "gaFC_fikenhildBotherQM4a:\"Thank you for your time.\"",
     "original": "Thank you for your time.",
-    "translated": ""
+    "translated": "Merci pour votre temps."
   },
   {
     "csv_row": 4427,
@@ -20,14 +20,14 @@
     "id": "gaFCFikenhildBotherQM4a",
     "column": "text",
     "original": "$HeOrShe shrugs and picks the TriPad back up.",
-    "translated": ""
+    "translated": "$HeOrShe hausse les épaules et reprend le TriPad."
   },
   {
     "csv_row": 4429,
     "id": "gaFCFikenhildBotherQM4b",
     "column": "text",
     "original": "$HeOrShe shrugs and picks the TriPad back up without acknowledging your tone.",
-    "translated": ""
+    "translated": "$HeOrShe hausse les épaules et reprend le TriPad sans relever votre ton."
   },
   {
     "csv_row": 4437,
@@ -35,7 +35,7 @@
     "column": "options",
     "option_line": "backToBar:Revenir au bar",
     "original": "Revenir au bar",
-    "translated": ""
+    "translated": "Revenir au bar"
   },
   {
     "csv_row": 4443,
@@ -43,7 +43,7 @@
     "column": "options",
     "option_line": "gaFC_fikenhildAdonyaLeave:Il est temps de partir",
     "original": "Il est temps de partir",
-    "translated": ""
+    "translated": "Il est temps de partir"
   },
   {
     "csv_row": 4444,
@@ -51,7 +51,7 @@
     "column": "options",
     "option_line": "gaFC_fikenhildAdonyaB2:\"Qui est Elissa ?\"",
     "original": "Qui est Elissa ?",
-    "translated": ""
+    "translated": "Qui est Elissa ?"
   },
   {
     "csv_row": 4446,
@@ -59,7 +59,7 @@
     "column": "options",
     "option_line": "gaFC_fikenhildAdonyaLeave:Il est temps de partir",
     "original": "Il est temps de partir",
-    "translated": ""
+    "translated": "Il est temps de partir"
   },
   {
     "csv_row": 4447,
@@ -67,7 +67,7 @@
     "column": "options",
     "option_line": "gaFC_fikenhildAdonyaLeave:Il est temps de partir",
     "original": "Il est temps de partir",
-    "translated": ""
+    "translated": "Il est temps de partir"
   },
   {
     "csv_row": 4448,
@@ -75,6 +75,6 @@
     "column": "options",
     "option_line": "gaFC_visitFikenhild:Revenir to the transport hub",
     "original": "Revenir to the transport hub",
-    "translated": ""
+    "translated": "Retourner au centre de transit"
   }
 ]

@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "gaPZ_adminAstraia1:Questionner sur Kelise Astraia",
     "original": "Questionner sur Kelise Astraia",
-    "translated": ""
+    "translated": "Questionner sur Kelise Astraia"
   },
   {
     "csv_row": 5021,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "gaPZ_adminAstraia4a:Payer le pot-de-vin",
     "original": "Payer le pot-de-vin",
-    "translated": ""
+    "translated": "Payer le pot-de-vin"
   },
   {
     "csv_row": 5025,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "cutCommLink:Trouver une excuse et couper la liaison comm",
     "original": "Trouver une excuse et couper la liaison comm",
-    "translated": ""
+    "translated": "Trouver une excuse et couper la liaison comm"
   },
   {
     "csv_row": 5040,
@@ -37,7 +37,7 @@
     "column": "options",
     "option_line": "gaPZ_calHamatsu:Questionner sur le Hamatsu",
     "original": "Questionner sur le Hamatsu",
-    "translated": ""
+    "translated": "Questionner sur le Hamatsu"
   },
   {
     "csv_row": 5040,
@@ -53,7 +53,7 @@
     "column": "options",
     "option_line": "gaPZ_calHamatsu1b:\"Comment le savez-vous ?\"",
     "original": "Comment le savez-vous ?",
-    "translated": ""
+    "translated": "Comment le savez-vous ?"
   },
   {
     "csv_row": 5060,
@@ -61,7 +61,7 @@
     "column": "options",
     "option_line": "gaPZ_investigateRelay:Examiner la plateforme instrumentale",
     "original": "Examiner la plateforme instrumentale",
-    "translated": ""
+    "translated": "Examiner la plateforme instrumentale"
   },
   {
     "csv_row": 5090,
@@ -69,7 +69,7 @@
     "column": "options",
     "option_line": "gaRH_noHamatsu1:\"... Vous parlez de votre vaisseau ?\"",
     "original": "... Vous parlez de votre vaisseau ?",
-    "translated": ""
+    "translated": "... Vous parlez de votre vaisseau ?"
   },
   {
     "csv_row": 5097,

@@ -4,69 +4,69 @@
     "id": "BFFImpBuyerHub3OptDep225k",
     "column": "text",
     "original": "Menes smirks, and holds out his TriPad, ready to accept your transfer code. Perhaps he feels like he's calling your bluff.",
-    "translated": ""
+    "translated": "Menes ricane et tend son TriPad, prêt à accepter votre code de transfert. Peut-être pense-t-il qu'il force votre bluff."
   },
   {
     "csv_row": 2862,
     "id": "BFFImpBuyerHub3OptDep250k",
     "column": "text",
     "original": "Menes smirks, and holds out his TriPad, ready to accept your transfer code. Perhaps he feels like he's calling your bluff.",
-    "translated": ""
+    "translated": "Menes ricane et tend son TriPad, prêt à accepter votre code de transfert. Peut-être pense-t-il qu'il force votre bluff."
   },
   {
     "csv_row": 2863,
     "id": "BFFImpBuyerHub3OptDepDone",
     "column": "text",
     "original": "You tap your TriPad to his and it gives a happy little ping.\n\n\"Ah,\" Menes looks down to confirm. \"So you are serious. I must admit, your decisiveness is impressive. Most spacer captains, they're all talk. You,\" he lifts his eyebrows like a conspirator, \"mean business.\"",
-    "translated": ""
+    "translated": "Vous tapez votre TriPad contre le sien et il émet un petit bip joyeux.\n\n\"Ah,\" Menes baisse les yeux pour confirmer. \"Alors vous êtes sérieux. Je dois admettre que votre esprit de décision est impressionnant. La plupart des capitaines spaciens, ils ne font que parler. Vous,\" il hausse les sourcils comme un conspirateur, \"vous ne plaisantez pas.\""
   },
   {
     "csv_row": 2867,
     "id": "BFFImpBuyerHub3OptArroyo",
     "column": "text",
     "original": "\"Rayan Arroyo, you say?\" Menes perks up. \"Yes, I do believe I've met the man. An honest dealer. No-nonsense. Good head on his shoulders. Fantastic taste... have you met his tailor? Stars above, a wonder! I should have them cloned.\"\n\n\"Well,\" he nods to himself, \"I admit this does change my perspective. You should have mentioned him before!\"",
-    "translated": ""
+    "translated": "\"Rayan Arroyo, dites-vous ?\" Menes s'anime. \"Oui, je crois bien avoir rencontré l'homme. Un négociant honnête. Pas de chichis. La tête sur les épaules. Un goût fantastique... avez-vous rencontré son tailleur ? Par les étoiles, une merveille ! Je devrais le faire cloner.\"\n\n\"Eh bien,\" il hoche la tête pour lui-même, \"j'admets que cela change ma perspective. Vous auriez dû le mentionner plus tôt !\""
   },
   {
     "csv_row": 2868,
     "id": "BFFImpBuyerHub3OptHorus",
     "column": "text",
     "original": "You draw your TriPad and demonstrate.\n\n\"By the stars, he did,\" Menes says, eyes wide. \"I knew I recognized your name from somewhere! There must have been a comms sent to the upper gens about this ploy Horus was running. That's cousin Horus for you, isn't it? Always pushing his little projects.\"\n\n\"Well,\" he looks as if he's reappraising you, \"If you're good enough for cousin Horus, I suppose I could be convinced to make certain allowances.\"",
-    "translated": ""
+    "translated": "Vous sortez votre TriPad et faites la démonstration.\n\n\"Par les étoiles, il l'a fait,\" dit Menes, les yeux écarquillés. \"Je savais que votre nom me disait quelque chose ! Il a dû y avoir un communiqué envoyé aux gens supérieurs à propos du stratagème d'Horus. C'est bien le cousin Horus, n'est-ce pas ? Toujours à pousser ses petits projets.\"\n\n\"Eh bien,\" il a l'air de vous réévaluer, \"si vous êtes assez bien pour le cousin Horus, je suppose que je pourrais me laisser convaincre de faire certaines concessions.\""
   },
   {
     "csv_row": 2869,
     "id": "BFFImpBuyerHub3OptE2",
     "column": "text",
     "original": "\"Captain $playerName trusts you implicitly,\" Bornanew explains, \"So as $playerHisOrHer advisor, I must act the skeptic. I assure you, Demarch Yaribay, it brings me no pleasure to appear to question and besmirch your fine reputation.\"\n\nHe speaks with such sincerity, for just a moment you can almost believe $global.jethroName isn't lying.\n\n\"Consider it a policy of 'trust, but verify'. We trust you, of course. But what of your source? We would never wish to see you cheated, but alas, I know too well that sin which lives in the human heart... If anything, I believe your only weakness is being too kind a spirit, too generous a benefactor.\"",
-    "translated": ""
+    "translated": "\"Le capitaine $playerName vous fait implicitement confiance,\" explique Bornanew, \"Donc en tant que conseiller de $playerHisOrHer, je me dois de jouer le sceptique. Je vous assure, Démarque Yaribay, cela ne me procure aucun plaisir de sembler remettre en question et entacher votre excellente réputation.\"\n\nIl parle avec une telle sincérité que, l'espace d'un instant, vous pourriez presque croire que $global.jethroName ne ment pas.\n\n\"Considérez cela comme une politique de 'confiance, mais vérification'. Nous vous faisons confiance, bien sûr. Mais qu'en est-il de votre source ? Nous ne voudrions jamais vous voir trompé, mais hélas, je ne connais que trop bien ce péché qui vit dans le coeur humain... Si tant est que vous ayez une faiblesse, je crois que c'est d'être un esprit trop bon, un bienfaiteur trop généreux.\""
   },
   {
     "csv_row": 2870,
     "id": "BFFImpBuyerHub3OptE3",
     "column": "text",
     "original": "Menes begins to nod, especially as Bornanew hits the last part of his 'explanation'.\n\n\"Yes,\" he exhales, \"I suppose you're right. I am, if anything, too giving. This was so true on Kazeron, where the resentful and dishonest sought to tear me down and entrap me in one scandal after another.\"\n\n\"Out here, the social environment is more rarified, more, dare I say it? Honest. Even if it is a hopeless backwater, I do try to illuminate the locals with the light of Kazeronian culture...\"",
-    "translated": ""
+    "translated": "Menes commence à hocher la tête, surtout quand Bornanew arrive à la dernière partie de son 'explication'.\n\n\"Oui,\" expire-t-il, \"je suppose que vous avez raison. Je suis, si tant est, trop généreux. C'était si vrai sur Kazeron, où les jaloux et les malhonnêtes cherchaient à me détruire et à me piéger dans un scandale après l'autre.\"\n\n\"Ici, l'environnement social est plus raréfié, plus, oserais-je dire ? Honnête. Même si c'est un trou perdu sans espoir, j'essaie d'illuminer les locaux avec la lumière de la culture kazéronienne...\""
   },
   {
     "csv_row": 2871,
     "id": "BFFImpBuyerHub3Sum4",
     "column": "text",
     "original": "\"Well, I suppose that does it!\" Menes claps his hands together.",
-    "translated": ""
+    "translated": "\"Eh bien, je suppose que c'est réglé !\" Menes tape dans ses mains."
   },
   {
     "csv_row": 2873,
     "id": "BFFImpBuyerHub3Sum4out2",
     "column": "text",
     "original": "\"Certainly! I'll have my secretary make the arrangements. But first - a toast to the start of what I am sure will be a bountiful partnership! Back to the party!\"\n\n\"Even you,\" he slaps a hand on Bornanew's shoulder, pulling him along, \"Surely you know how to celebrate a deal, my dour unbeliever? Perhaps not, so I'll show you!\"",
-    "translated": ""
+    "translated": "\"Certainement ! Je demanderai à mon secrétaire de tout organiser. Mais d'abord - un toast au début de ce qui sera, j'en suis sûr, un partenariat fructueux ! Retournons à la fête !\"\n\n\"Vous aussi,\" il donne une tape sur l'épaule de Bornanew, l'entraînant avec lui, \"Vous savez sûrement comment célébrer un accord, mon sombre incroyant ? Peut-être pas, alors je vais vous montrer !\""
   },
   {
     "csv_row": 2874,
     "id": "BFFImpBuyerOutro1",
     "column": "text",
     "original": "You and Bornanew are hauled back into the party, and the small crowd regaled with insinuations about a 'large purchase' by an unnamed 'wealthy spacer captain'.\n\nMenes grows less discreet, winking and nudging with each retelling - and with each additional round of drinks. His dutiful entourage joins in to toast a 'new business deal' and theorize about extensions to Menes' complex.\n\nYou can see the skinny man, Ulmus Pond, watching you. He has a particularly manic, piercing laugh.\n\nIt is some time before you are able to get a quiet word in with $global.jethroName.",
-    "translated": ""
+    "translated": "Bornanew et vous êtes ramenés à la fête, et la petite assemblée est régalée d'insinuations à propos d'un 'gros achat' par un 'riche capitaine spacien' anonyme.\n\nMenes devient de moins en moins discret, faisant des clins d'oeil et des coups de coude à chaque récit - et à chaque tournée supplémentaire. Son entourage zélé se joint pour porter un toast au 'nouvel accord commercial' et théoriser sur les extensions du complexe de Menes.\n\nVous pouvez voir l'homme maigre, Ulmus Pond, qui vous observe. Il a un rire particulièrement maniaque et perçant.\n\nIl faut un certain temps avant que vous puissiez échanger un mot en privé avec $global.jethroName."
   }
 ]

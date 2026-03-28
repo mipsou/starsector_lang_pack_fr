@@ -4,42 +4,42 @@
     "id": "BFFImenesPPinsideJob2a",
     "column": "text",
     "original": "He watches you, looking more sad than anything. Then shakes his head.",
-    "translated": ""
+    "translated": "Il vous observe, l'air plus triste que tout. Puis secoue la tête."
   },
   {
     "csv_row": 2955,
     "id": "BFFImenesPPinsideJob2b",
     "column": "text",
     "original": "\"Ha, yes. So it could be.\" He doesn't sound convinced, but carries on. \"Betrayal in another form, perhaps?\"",
-    "translated": ""
+    "translated": "\"Ha, oui. C'est possible.\" Il n'a pas l'air convaincu, mais continue. \"Une trahison sous une autre forme, peut-être ?\""
   },
   {
     "csv_row": 2956,
     "id": "BFFImenesPPinsideJob2c",
     "column": "text",
     "original": "His eyes go wide, and his arm grabs at the side of his desk, pulling him to a more formal sitting position.",
-    "translated": ""
+    "translated": "Ses yeux s'écarquillent, et son bras agrippe le bord de son bureau, le tirant vers une position assise plus formelle."
   },
   {
     "csv_row": 2957,
     "id": "BFFImenesPPaskUlmus",
     "column": "text",
     "original": "\"What do you know of Ulmus Pond?\" he asks fiercely.",
-    "translated": ""
+    "translated": "\"Que savez-vous d'Ulmus Pond ?\" demande-t-il avec véhémence."
   },
   {
     "csv_row": 2958,
     "id": "BFFImenesPPinsideJob3",
     "column": "text",
     "original": "\"What do you know of Ulmus Pond?\" he asks fiercely.",
-    "translated": ""
+    "translated": "\"Que savez-vous d'Ulmus Pond ?\" demande-t-il avec véhémence."
   },
   {
     "csv_row": 2959,
     "id": "BFFImenesPPinsideJob3b",
     "column": "text",
     "original": "A long pause. \"Have you heard from Ulmus?\" he asks. \"Ulmus Pond. You recall him, surely.\"",
-    "translated": ""
+    "translated": "Un long silence. \"Avez-vous eu des nouvelles d'Ulmus ?\" demande-t-il. \"Ulmus Pond. Vous vous souvenez de lui, certainement.\""
   },
   {
     "csv_row": 2962,
@@ -47,7 +47,7 @@
     "column": "options",
     "option_line": "bffi_menesPPpondB:\"He's dead. On Chalcedon. A Pather called Sedge shot him.\" ",
     "original": "He's dead. On Chalcedon. A Pather called Sedge shot him.",
-    "translated": ""
+    "translated": "Il est mort. Sur Chalcedon. Un Sentieriste nommé Sedge lui a tiré dessus."
   },
   {
     "csv_row": 2963,
@@ -55,7 +55,7 @@
     "column": "options",
     "option_line": "bffi_menesPPpondC:\"I caught him. He promised to confess everything to you.\"",
     "original": "I caught him. He promised to confess everything to you.",
-    "translated": ""
+    "translated": "Je l'ai attrapé. Il a promis de tout vous avouer."
   },
   {
     "csv_row": 2964,
@@ -63,7 +63,7 @@
     "column": "options",
     "option_line": "bffi_menesPPpondD:\"I caught him on Chalcedon. He sold you a fake relic. The Knights hold him now.\"",
     "original": "I caught him on Chalcedon. He sold you a fake relic. The Knights hold him now.",
-    "translated": ""
+    "translated": "Je l'ai attrapé sur Chalcedon. Il vous a vendu une fausse relique. Les Chevaliers le détiennent maintenant."
   },
   {
     "csv_row": 2965,
@@ -71,6 +71,6 @@
     "column": "options",
     "option_line": "bffi_menesPPpondE:\"I caught him on Chalcedon. He sold you a fake relic. The Path has him now.\"",
     "original": "I caught him on Chalcedon. He sold you a fake relic. The Path has him now.",
-    "translated": ""
+    "translated": "Je l'ai attrapé sur Chalcedon. Il vous a vendu une fausse relique. Le Sentier le détient maintenant."
   }
 ]

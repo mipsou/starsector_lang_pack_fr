@@ -4,7 +4,7 @@
     "id": "BFFIidolTalkTrouble",
     "column": "text",
     "original": "He replies calmly, eyes on the path ahead.\n\n\"There was... passive opposition to my investigation. I intend to arrest Subcurate Cedra Keepfaith. Opposition may become... less passive.\"",
-    "translated": ""
+    "translated": "Il répond calmement, les yeux sur le chemin devant.\n\n\"Il y a eu... une opposition passive à mon enquête. J'ai l'intention d'arrêter la Sous-curée Cedra Keepfaith. L'opposition pourrait devenir... moins passive.\""
   },
   {
     "csv_row": 3379,
@@ -12,7 +12,7 @@
     "column": "options",
     "option_line": "bffi_arrestOppoA:\"So you're just going to walk in, unarmed, and make an arrest?\"",
     "original": "So you're just going to walk in, unarmed, and make an arrest?",
-    "translated": ""
+    "translated": "Alors vous allez simplement entrer, désarmé, et procéder à une arrestation ?"
   },
   {
     "csv_row": 3379,
@@ -20,7 +20,7 @@
     "column": "options",
     "option_line": "bffi_arrestOppoB:\"You mention this now? We should have prepared.\"",
     "original": "You mention this now? We should have prepared.",
-    "translated": ""
+    "translated": "Vous mentionnez ça maintenant ? Nous aurions dû nous préparer."
   },
   {
     "csv_row": 3379,
@@ -28,7 +28,7 @@
     "column": "options",
     "option_line": "bffi_arrestOppoD:\"Not to worry. I'm prepared.\" (pat your weapon)",
     "original": "Not to worry. I'm prepared.\" (pat your weapon)",
-    "translated": ""
+    "translated": "Ne vous inquiétez pas. Je suis prêt.\" (tapoter votre arme)"
   },
   {
     "csv_row": 3380,
@@ -36,7 +36,7 @@
     "column": "options",
     "option_line": "bffi_arrestOppoE:\"With your injury... you're sure you want to do this?\"",
     "original": "With your injury... you're sure you want to do this?",
-    "translated": ""
+    "translated": "Avec votre blessure... vous êtes sûr de vouloir faire ça ?"
   },
   {
     "csv_row": 3380,
@@ -44,7 +44,7 @@
     "column": "options",
     "option_line": "bffi_arrestOppoA:\"So you're just going to walk in, unarmed, to arrest a curate?\"",
     "original": "So you're just going to walk in, unarmed, to arrest a curate?",
-    "translated": ""
+    "translated": "Alors vous allez simplement entrer, désarmé, pour arrêter une curée ?"
   },
   {
     "csv_row": 3380,
@@ -52,27 +52,27 @@
     "column": "options",
     "option_line": "bffi_arrestOppoD:\"Not to worry. I'm prepared.\" (pat your weapon)",
     "original": "Not to worry. I'm prepared.\" (pat your weapon)",
-    "translated": ""
+    "translated": "Ne vous inquiétez pas. Je suis prêt.\" (tapoter votre arme)"
   },
   {
     "csv_row": 3381,
     "id": "BFFIarrestOppoA",
     "column": "text",
     "original": "\"I suppose I am,\" he says, turning to smile and give a bow, hands together, to a group of elderly pilgrims resting under a tree.\n\n\"This must be done as Ludd would, with open hands and heart.\"",
-    "translated": ""
+    "translated": "\"Je suppose que oui,\" dit-il, se retournant pour sourire et faire une révérence, mains jointes, à un groupe de pèlerins âgés se reposant sous un arbre.\n\n\"Cela doit être fait comme Ludd l'aurait fait, les mains et le cœur ouverts.\""
   },
   {
     "csv_row": 3382,
     "id": "BFFIarrestOppoAbb",
     "column": "text",
     "original": "\"I am,\" he says, turning give a bow, hands together, to a group of elderly pilgrims resting under a tree. \"This must be done as Ludd would, with open hands.\"\n\n\"Besides,\" he adds with a wry smile, \"you've seen fit to remain armed.\"",
-    "translated": ""
+    "translated": "\"C'est le cas,\" dit-il, se retournant pour faire une révérence, mains jointes, à un groupe de pèlerins âgés se reposant sous un arbre. \"Cela doit être fait comme Ludd l'aurait fait, les mains ouvertes.\"\n\n\"D'ailleurs,\" ajoute-t-il avec un sourire en coin, \"vous avez jugé bon de rester armé.\""
   },
   {
     "csv_row": 3383,
     "id": "BFFIarrestOppoB",
     "column": "text",
     "original": "\"I am prepared,\" he says, turning to smile and give a bow, hands together, to a group of elderly pilgrims resting under a tree.\n\n\"This must be done as Ludd would, with open hands and heart.\"",
-    "translated": ""
+    "translated": "\"Je suis préparé,\" dit-il, se retournant pour sourire et faire une révérence, mains jointes, à un groupe de pèlerins âgés se reposant sous un arbre.\n\n\"Cela doit être fait comme Ludd l'aurait fait, les mains et le cœur ouverts.\""
   }
 ]

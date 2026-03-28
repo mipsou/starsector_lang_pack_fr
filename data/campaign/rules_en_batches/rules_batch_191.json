@@ -5,14 +5,14 @@
     "column": "options",
     "option_line": "gaFC_archonConfront:\"J'ai la preuve que Scylla Coureuse est sur cette station.\"",
     "original": "J'ai la preuve que Scylla Coureuse est sur cette station.",
-    "translated": ""
+    "translated": "J'ai la preuve que Scylla Coureuse est sur cette station."
   },
   {
     "csv_row": 4828,
     "id": "gaFCArchonSearchRestEasy",
     "column": "text",
     "original": "\"Heureux de rendre service,\" dit-$heOrShe d'un ton sec.",
-    "translated": ""
+    "translated": "\"Heureux de rendre service,\" dit-$heOrShe d'un ton sec."
   },
   {
     "csv_row": 4830,
@@ -28,7 +28,7 @@
     "column": "options",
     "option_line": "cutCommLink:\"Je reviendrai quand je pourrai le prouver.\"",
     "original": "Je reviendrai quand je pourrai le prouver.",
-    "translated": ""
+    "translated": "Je reviendrai quand je pourrai le prouver."
   },
   {
     "csv_row": 4847,
@@ -36,7 +36,7 @@
     "column": "options",
     "option_line": "gaFC_archonLetMeSeeHerAppeal2:Ne rien dire",
     "original": "Ne rien dire",
-    "translated": ""
+    "translated": "Ne rien dire"
   },
   {
     "csv_row": 4854,
@@ -44,7 +44,7 @@
     "column": "options",
     "option_line": "1:gaFC_installHack:Install and run the snoop algorithm",
     "original": "gaFC_installHack:Install and run the snoop algorithm",
-    "translated": ""
+    "translated": "gaFC_installHack:Installer et exécuter l'algorithme d'espionnage"
   },
   {
     "csv_row": 4863,
@@ -52,7 +52,7 @@
     "column": "options",
     "option_line": "1:gaFC_visitLaicailleSafehouse:Rencontrer l'Archonte et visiter le refuge de Scylla Coureuse",
     "original": "gaFC_visitLaicailleSafehouse:Rencontrer l'Archonte et visiter le refuge de Scylla Coureuse",
-    "translated": ""
+    "translated": "gaFC_visitLaicailleSafehouse:Rencontrer l'Archonte et visiter le refuge de Scylla Coureuse"
   },
   {
     "csv_row": 4868,
@@ -60,7 +60,7 @@
     "column": "options",
     "option_line": "gaFC_laicailleVisit2:Suivre the archon",
     "original": "Suivre the archon",
-    "translated": ""
+    "translated": "Suivre l'archonte"
   },
   {
     "csv_row": 4869,
@@ -68,7 +68,7 @@
     "column": "options",
     "option_line": "gaFC_laicailleVisit3:Observer what happens",
     "original": "Observer what happens",
-    "translated": ""
+    "translated": "Observer ce qui se passe"
   },
   {
     "csv_row": 4871,
@@ -76,6 +76,6 @@
     "column": "options",
     "option_line": "gaFC_laicailleVisit4b:Entrer the airlock",
     "original": "Entrer the airlock",
-    "translated": ""
+    "translated": "Entrer dans le sas"
   }
 ]

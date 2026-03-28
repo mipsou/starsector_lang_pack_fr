@@ -1,80 +1,78 @@
 [
   {
-    "csv_row": 9436,
-    "id": "ImoinuKatoUmbraSalute2b",
+    "csv_row": 9453,
+    "id": "ImoinuUmbraGoOptF",
+    "column": "options",
+    "option_line": "imoinuUmbra_offerHelp:\"Do you need armaments? Supplies? Credits?\"",
+    "original": "Do you need armaments? Supplies? Credits?",
+    "translated": "Avez-vous besoin d'armement ? De ravitaillement ? De crédits ?"
+  },
+  {
+    "csv_row": 9455,
+    "id": "ImoinuUmbraGoOptH",
+    "column": "options",
+    "option_line": "imoinuUmbra_goStay:\"Then stay here and freeze! I can't solve all your problems for you.\"",
+    "original": "Then stay here and freeze! I can't solve all your problems for you.",
+    "translated": "Alors restez ici et gelez ! Je ne peux pas résoudre tous vos problèmes à votre place."
+  },
+  {
+    "csv_row": 9460,
+    "id": "imoinuUmbraGoGargoyle",
+    "column": "options",
+    "option_line": "imoinuUmbra_goGargoyle2:\"This one hacked a Hegemony Ministry for... it's a long story, actually.\"",
+    "original": "This one hacked a Hegemony Ministry for... it's a long story, actually.",
+    "translated": "Celui-ci a piraté un Ministère de l'Hégémonie pour... c'est une longue histoire, en fait."
+  },
+  {
+    "csv_row": 9461,
+    "id": "imoinuUmbraGoGargoyle2",
+    "column": "options",
+    "option_line": "imoinuUmbra_goGargoyle3a:\"Gargoyle can be difficult, but I think they'll be a valuable asset to your cause.\"",
+    "original": "Gargoyle can be difficult, but I think they'll be a valuable asset to your cause.",
+    "translated": "Gargoyle peut être difficile, mais je pense qu'il sera un atout précieux pour votre cause."
+  },
+  {
+    "csv_row": 9461,
+    "id": "imoinuUmbraGoGargoyle2",
+    "column": "options",
+    "option_line": "imoinuUmbra_goGargoyle3b:\"You have no idea what you're in for.\"",
+    "original": "You have no idea what you're in for.",
+    "translated": "Vous n'avez aucune idée de ce qui vous attend."
+  },
+  {
+    "csv_row": 9463,
+    "id": "imoinuUmbraGoGargoyle3b",
     "column": "text",
-    "original": "She opens her mouth, then pauses, and closes it.\n\n\"Yes. That's... fair.\"",
-    "translated": ""
+    "original": "She gives you a funny look.",
+    "translated": "Elle vous lance un drôle de regard."
   },
   {
-    "csv_row": 9437,
-    "id": "ImoinuKatoUmbraSalute2a",
-    "column": "options",
-    "option_line": "imoinu_goKazeron:\"Why not go back to Kazeron and find a way to support the fight from inside the League?\"",
-    "original": "Why not go back to Kazeron and find a way to support the fight from inside the League?",
-    "translated": ""
-  },
-  {
-    "csv_row": 9437,
-    "id": "ImoinuKatoUmbraSalute2a",
-    "column": "options",
-    "option_line": "imoinu_goVolturn:\"What if you go to Volturn. Help the, um, Volturn Covenant?\"",
-    "original": "What if you go to Volturn. Help the, um, Volturn Covenant?",
-    "translated": ""
-  },
-  {
-    "csv_row": 9440,
-    "id": "ImoinuKantoUmbraDoomed1",
-    "column": "options",
-    "option_line": "imoinuKato_sayMother:\"Your grandmother hired a freelancer to talk you out of... this?\"",
-    "original": "Your grandmother hired a freelancer to talk you out of... this?",
-    "translated": ""
-  },
-  {
-    "csv_row": 9440,
-    "id": "ImoinuKantoUmbraDoomed1",
-    "column": "options",
-    "option_line": "imoinuKato_sayMotherB:\"Are you telling me I could have been paid for this?\"",
-    "original": "Are you telling me I could have been paid for this?",
-    "translated": ""
-  },
-  {
-    "csv_row": 9441,
-    "id": "ImoinuKantoUmbraDoomed1ARClie",
-    "column": "options",
-    "option_line": "imoinuKato_sayDoomedArcLie2:\"Hold on, now...\"",
-    "original": "Hold on, now...",
-    "translated": ""
-  },
-  {
-    "csv_row": 9442,
-    "id": "ImoinuKantoUmbraDoomed1ARClie2",
+    "csv_row": 9464,
+    "id": "imoinuUmbraGoGargoyle3c",
     "column": "text",
-    "original": "\"Die in vacuum.\" She slams the cut-off.",
-    "translated": ""
+    "original": "She gives you a funny look.\n\n\"Thanks?\"",
+    "translated": "Elle vous lance un drôle de regard.\n\n\"Merci ?\""
   },
   {
-    "csv_row": 9443,
-    "id": "ImoinuKantoUmbraNoble1",
-    "column": "options",
-    "option_line": "imoinuKato_sayMotherB:\"Are you telling me I could have been paid for this?\"",
-    "original": "Are you telling me I could have been paid for this?",
-    "translated": ""
+    "csv_row": 9468,
+    "id": "imoinuUmbraGoVolturnKid",
+    "column": "text",
+    "original": "\"A kid and a robot?\" She makes a face. \"I don't see how that's helpful.\"",
+    "translated": "\"Un gamin et un robot ?\" Elle fait la moue. \"Je ne vois pas en quoi c'est utile.\""
   },
   {
-    "csv_row": 9448,
-    "id": "ImoinuUmbraGoOptA",
-    "column": "options",
-    "option_line": "imoinuUmbra_goCavin:\"I know someone on Westernesse who might help you. Cavin Pharoh.\"",
-    "original": "I know someone on Westernesse who might help you. Cavin Pharoh.",
-    "translated": ""
+    "csv_row": 9476,
+    "id": "imoinuUmbraOfferHelp",
+    "column": "text",
+    "original": "She perks up. \"Yes. Absolutely.\"\nOR\n\"It would be much appreciated,\" she says.",
+    "translated": "Elle se redresse. \"Oui. Absolument.\"\nOR\n\"Ce serait très apprécié,\" dit-elle."
   },
   {
-    "csv_row": 9450,
-    "id": "ImoinuUmbraGoOptC",
+    "csv_row": 9476,
+    "id": "imoinuUmbraOfferHelp",
     "column": "options",
-    "option_line": "imoinuUmbra_goOfferPassage:\"If you need safe transport to an independent world, I can arrange it.\"",
-    "original": "If you need safe transport to an independent world, I can arrange it.",
-    "translated": ""
+    "option_line": "imoinuUmbra_offerHelpBack:\"Maybe another time.\"",
+    "original": "Maybe another time.",
+    "translated": "Peut-être une autre fois."
   }
 ]

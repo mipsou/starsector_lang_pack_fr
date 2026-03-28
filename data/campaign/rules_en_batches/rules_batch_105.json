@@ -4,7 +4,7 @@
     "id": "BFFItpostEngJethroTalk2",
     "column": "text",
     "original": "\"Ulmus Pond,\" he says. Then looks up at you.\n\n\"That strange little man from Menes Yaribay's party. Obviously an agent for the Luddic Path. That the Path would have eyes and influence on Menes is no surprise. But if he's the one that supplied the glove...\"\n\n\"We need to get to him,\" he says. \"Confront him. Compel him to talk.\"",
-    "translated": ""
+    "translated": "\"Ulmus Pond,\" dit-il. Puis il lève les yeux vers vous.\n\n\"Ce drôle de petit homme de la fête de Menes Yaribay. De toute évidence un agent du Sentier Luddique. Que le Sentier ait des yeux et de l'influence sur Menes n'est pas une surprise. Mais si c'est lui qui a fourni le gant...\"\n\n\"Nous devons l'atteindre,\" dit-il. \"Le confronter. Le forcer à parler.\""
   },
   {
     "csv_row": 3025,
@@ -12,14 +12,14 @@
     "column": "options",
     "option_line": "bffi_postEngJethroTalk3:\"Guess we're going back to Olinadu.\"",
     "original": "Guess we're going back to Olinadu.",
-    "translated": ""
+    "translated": "On dirait qu'on retourne à Olinadu."
   },
   {
     "csv_row": 3026,
     "id": "BFFItpostEngJethroTalk2know",
     "column": "text",
     "original": "\"Ulmus Pond,\" he says. Then looks up at you. \"He's a Pather agent,\" Bornanew says as if it were the most obvious thing in the world.\n\n\"We spoke briefly at Menes' party,\" he explains. \"The circumstantial evidence is convincing enough, but it was his heretical understanding of theology which I found truly damning.\"\n\n\"We need to get to him,\" he says. \"Confront him. Compel him to talk.\"",
-    "translated": ""
+    "translated": "\"Ulmus Pond,\" dit-il. Puis il lève les yeux vers vous. \"C'est un agent du Sentier,\" dit Bornanew comme si c'était la chose la plus évidente du monde.\n\n\"Nous avons brièvement parlé à la fête de Menes,\" explique-t-il. \"Les preuves circonstancielles sont assez convaincantes, mais c'est sa compréhension hérétique de la théologie que j'ai trouvée véritablement accablante.\"\n\n\"Nous devons l'atteindre,\" dit-il. \"Le confronter. Le forcer à parler.\""
   },
   {
     "csv_row": 3026,
@@ -27,35 +27,35 @@
     "column": "options",
     "option_line": "bffi_postEngJethroTalk3:\"Guess we're going back to Olinadu.\"",
     "original": "Guess we're going back to Olinadu.",
-    "translated": ""
+    "translated": "On dirait qu'on retourne à Olinadu."
   },
   {
     "csv_row": 3027,
     "id": "BFFItpostEngJethroTalk3",
     "column": "text",
     "original": "\"Guess so,\" he replies. \"We may not wish to draw any attention from Menes, of course...\"\n\nThe shuttle docks with your flagship.",
-    "translated": ""
+    "translated": "\"On dirait bien,\" répond-il. \"Nous ne souhaitons pas attirer l'attention de Menes, bien sûr...\"\n\nLa navette s'amarre à votre vaisseau amiral."
   },
   {
     "csv_row": 3028,
     "id": "BFFItpostEngJethroTalk3didRaid",
     "column": "text",
     "original": "\"Guess so,\" he replies. \"But perhaps... Menes' might not be pleased to see us show up.\"\n\nThe shuttle docks with your flagship.",
-    "translated": ""
+    "translated": "\"On dirait bien,\" répond-il. \"Mais peut-être... Menes ne sera pas ravi de nous voir débarquer.\"\n\nLa navette s'amarre à votre vaisseau amiral."
   },
   {
     "csv_row": 3029,
     "id": "BFFItpostEngJethroTalk4",
     "column": "text",
     "original": "You step off the shuttle.",
-    "translated": ""
+    "translated": "Vous descendez de la navette."
   },
   {
     "csv_row": 3032,
     "id": "BFFIulmusPondGreeting",
     "column": "text",
     "original": "The comms signal hits a holding signal and waits. And waits. You have your comms officer take over to watch the link and make a few inquiries.\n\nWithin minutes, a comms request alert appears. It's Bornanew on an internal link.",
-    "translated": ""
+    "translated": "Le signal comm atteint un signal d'attente et patiente. Et patiente. Vous faites prendre le relais à votre officier de communications pour surveiller la liaison et faire quelques recherches.\n\nEn quelques minutes, une alerte de demande comm apparaît. C'est Bornanew sur une liaison interne."
   },
   {
     "csv_row": 3032,
@@ -63,13 +63,13 @@
     "column": "options",
     "option_line": "bffi_ulmusPondNotHere:Open the comm link",
     "original": "Open the comm link",
-    "translated": ""
+    "translated": "Ouvrir la liaison comm"
   },
   {
     "csv_row": 3033,
     "id": "BFFIulmusPondNotHere",
     "column": "text",
     "original": "\"Captain,\" he says. \"I apologize for the interruption.\"\n\n\"Ulmus Pond is not on Olinadu.\"",
-    "translated": ""
+    "translated": "\"Capitaine,\" dit-il. \"Je m'excuse pour l'interruption.\"\n\n\"Ulmus Pond n'est pas sur Olinadu.\""
   }
 ]

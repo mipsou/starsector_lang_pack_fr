@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "gaDHO_abyssEndFoundFirst1:Tell him about the Onslaught Mk.I",
     "original": "Tell him about the Onslaught Mk.I",
-    "translated": ""
+    "translated": "Lui parler de l'Onslaught Mk.I"
   },
   {
     "csv_row": 11008,
@@ -13,14 +13,14 @@
     "column": "options",
     "option_line": "gaDHO_abyssEndElekAltIntroPiracy:\"Yes, it is. And if you don't pay me, you'll never get your precious data.\"",
     "original": "Yes, it is. And if you don't pay me, you'll never get your precious data.",
-    "translated": ""
+    "translated": "Oui, c'est le cas. Et si vous ne me payez pas, vous n'obtiendrez jamais vos précieuses données."
   },
   {
     "csv_row": 11011,
     "id": "gaDHOabyssEndElekMyDiscovery4a",
     "column": "text",
     "original": "\"Here we are,\" he says, raising his eyebrows at you.\n\nYour TriPad pings softly.",
-    "translated": ""
+    "translated": "\"Voilà,\" dit-il en haussant les sourcils dans votre direction.\n\nVotre TriPad émet un bip discret."
   },
   {
     "csv_row": 11011,
@@ -28,7 +28,7 @@
     "column": "options",
     "option_line": "gaDHO_endingDataTransfer:\"Correct. Transferring data now.\"",
     "original": "Correct. Transferring data now.",
-    "translated": ""
+    "translated": "Exact. Transfert des données en cours."
   },
   {
     "csv_row": 11012,
@@ -36,7 +36,7 @@
     "column": "options",
     "option_line": "gaDHO_endingDataTransfer:\"Correct. Transferring data now.\"",
     "original": "Correct. Transferring data now.",
-    "translated": ""
+    "translated": "Exact. Transfert des données en cours."
   },
   {
     "csv_row": 11013,
@@ -44,7 +44,7 @@
     "column": "options",
     "option_line": "gaDHO_endingDataTransfer:Transferer les donnees",
     "original": "Transferer les donnees",
-    "translated": ""
+    "translated": "Transférer les données"
   },
   {
     "csv_row": 11015,
@@ -52,7 +52,7 @@
     "column": "options",
     "option_line": "gaDHO_endingDataTransfer:Transferer les donnees",
     "original": "Transferer les donnees",
-    "translated": ""
+    "translated": "Transférer les données"
   },
   {
     "csv_row": 11016,
@@ -60,7 +60,7 @@
     "column": "options",
     "option_line": "gaDHO_endingTellFound:Tell him about what you found",
     "original": "Tell him about what you found",
-    "translated": ""
+    "translated": "Lui raconter ce que vous avez trouvé"
   },
   {
     "csv_row": 11017,
@@ -68,7 +68,7 @@
     "column": "options",
     "option_line": "gaDHO_endingDataTransfer:Transferer les donnees",
     "original": "Transferer les donnees",
-    "translated": ""
+    "translated": "Transférer les données"
   },
   {
     "csv_row": 11017,
@@ -76,6 +76,6 @@
     "column": "options",
     "option_line": "gaDHO_endingTellFound:Tell him about what you found",
     "original": "Tell him about what you found",
-    "translated": ""
+    "translated": "Lui raconter ce que vous avez trouvé"
   }
 ]

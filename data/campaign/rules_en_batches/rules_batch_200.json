@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "gaPZ_cottonNoShake:Ne pas lui serrer la main",
     "original": "Ne pas lui serrer la main",
-    "translated": ""
+    "translated": "Ne pas lui serrer la main"
   },
   {
     "csv_row": 5269,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "gaPZ_cottonWhat:\"Que demandez-vous ?\"",
     "original": "Que demandez-vous ?",
-    "translated": ""
+    "translated": "Que demandez-vous ?"
   },
   {
     "csv_row": 5275,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "gaPZ_cottonStand:Rester debout  ",
     "original": "Rester debout",
-    "translated": ""
+    "translated": "Rester debout"
   },
   {
     "csv_row": 5294,
@@ -29,14 +29,14 @@
     "column": "options",
     "option_line": "gaPZ_cottonLeaveCont:Revenir au bar",
     "original": "Revenir au bar",
-    "translated": ""
+    "translated": "Revenir au bar"
   },
   {
     "csv_row": 5295,
     "id": "gaPZ_cottonReturnToBar",
     "column": "text",
     "original": "Vous retournez au bar.",
-    "translated": ""
+    "translated": "Vous retournez au bar."
   },
   {
     "csv_row": 5306,
@@ -44,7 +44,7 @@
     "column": "options",
     "option_line": "gaATG_devComplete2:DEV Set gaATG_missionComplete",
     "original": "DEV Set gaATG_missionComplete",
-    "translated": ""
+    "translated": "DEV Set gaATG_missionComplete"
   },
   {
     "csv_row": 5311,
@@ -52,7 +52,7 @@
     "column": "options",
     "option_line": "gaDev_setBairdVisible2:Set Baird and Sebestyen visible",
     "original": "Set Baird and Sebestyen visible",
-    "translated": ""
+    "translated": "Set Baird and Sebestyen visible"
   },
   {
     "csv_row": 5313,
@@ -60,20 +60,20 @@
     "column": "options",
     "option_line": "gaDev_startGADHO:Start gaDHO Detect Hyperspace Oddity",
     "original": "Start gaDHO Detect Hyperspace Oddity",
-    "translated": ""
+    "translated": "Start gaDHO Detect Hyperspace Oddity"
   },
   {
     "csv_row": 5314,
     "id": "gaDevStartGADHO2",
     "column": "text",
     "original": "done\n\nGo dock at any non-pirate/Pather/Church world over size 3 with your transponder on.",
-    "translated": ""
+    "translated": "done\n\nGo dock at any non-pirate/Pather/Church world over size 3 with your transponder on."
   },
   {
     "csv_row": 5327,
     "id": "gaATGIntro7leagueMember",
     "column": "text",
     "original": "\"You are a member of the Persean League in good standing, are you not,\" she says. \"I trust you're familiar with the political situation.\"",
-    "translated": ""
+    "translated": "\"Vous êtes un membre en règle de la Ligue Persane, n'est-ce pas,\" dit-elle. \"Je suppose que vous connaissez la situation politique.\""
   }
 ]

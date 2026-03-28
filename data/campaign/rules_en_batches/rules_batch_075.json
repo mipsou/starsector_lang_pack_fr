@@ -4,14 +4,14 @@
     "id": "BFFImmBornDoRaid",
     "column": "text",
     "original": "Bornanew bows his head to your words. His expression is grim.\n\nMenes has not been discreet. As a celebration of his first cycle as the new demarch of Olinadu, he invited a holodoc team for a puff-piece interview and viewing of his 'collection'. Your tactical team reviews the holos, constructing schematic of the interior of Menes' complex, inferring layout and defenses from this and other publicly available information.",
-    "translated": "Bornanew incline la tête à vos mots. Son expression est sombre.\n\nMenes n'a pas été discret. Pour célébrer son premier cycle en tant que nouveau démarque d'Olinadu, il a invité une équipe d'holodoc pour une interview promotionnelle et une visite de sa « collection ». Votre équipe tactique examine les holos, reconstituant le plan intérieur du complexe de Menes, déduisant l'agencement et les défenses à partir de ces données et d'autres informations publiques."
+    "translated": "Bornanew incline la tête à vos mots. Son expression est sombre.\n\nMenes n'a pas été discret. Pour célébrer son premier cycle en tant que nouveau démarque d'Olinadu, il a invité une équipe d'holodoc pour une interview promotionnelle et une visite de sa \"collection\". Votre équipe tactique examine les holos, reconstituant le plan intérieur du complexe de Menes, déduisant l'agencement et les défenses à partir de ces données et d'autres informations publiques."
   },
   {
     "csv_row": 2720,
     "id": "BFFImmBornDoRaid2",
     "column": "text",
     "original": "It is estimated that roughly 100 marines will be required to pull off the operation.\n\nYour marines will be equipped with an eclectic mix of equipment to allow them to pose as high-level pirates. They will be secretly infiltrated into Olinadu as, variously, spacer crew on shore-leave, contract technicians, and ne'er-do-wells looking to spend ill-gotten gains somewhere away from heavy law enforcement.\n\nIt goes without saying that you shall need to approach Olinadu with your $shipOrFleet's transponder off. Menes' overly charitable outlook on your character and generalized inattention to his official duties should allow you to join his 'party' with little oversight about how you actually got there.",
-    "translated": "On estime qu'environ 100 marines seront nécessaires pour mener l'opération à bien.\n\nVos marines seront équipés d'un mélange éclectique de matériel pour se faire passer pour des pirates de haut rang. Ils seront secrètement infiltrés sur Olinadu sous diverses couvertures : équipages spatiaux en permission, techniciens contractuels, et vauriens cherchant à dépenser leurs gains mal acquis loin des forces de l'ordre.\n\nIl va sans dire que vous devrez approcher Olinadu avec le transpondeur de votre $shipOrFleet désactivé. La vision excessivement charitable que Menes a de votre personne et son inattention généralisée à ses devoirs officiels devraient vous permettre de rejoindre sa « fête » sans trop de questions sur la façon dont vous êtes arrivé là."
+    "translated": "On estime qu'environ 100 marines seront nécessaires pour mener l'opération à bien.\n\nVos marines seront équipés d'un mélange éclectique de matériel pour se faire passer pour des pirates de haut rang. Ils seront secrètement infiltrés sur Olinadu sous diverses couvertures : équipages spatiaux en permission, techniciens contractuels, et vauriens cherchant à dépenser leurs gains mal acquis loin des forces de l'ordre.\n\nIl va sans dire que vous devrez approcher Olinadu avec le transpondeur de votre $shipOrFleet désactivé. La vision excessivement charitable que Menes a de votre personne et son inattention généralisée à ses devoirs officiels devraient vous permettre de rejoindre sa \"fête\" sans trop de questions sur la façon dont vous êtes arrivé là."
   },
   {
     "csv_row": 2721,
@@ -45,7 +45,7 @@
     "csv_row": 2731,
     "id": "BFFItalkHorusPartyOptA",
     "column": "options",
-    "option_line": "bffi_talkHorusPartyOptA:\"He might spark a religious conflict that could tear the Sector apart.\"",
+    "option_line": "bffi_talkHorusPartyOptA:\"Il risque de déclencher un conflit religieux qui pourrait déchirer le Secteur.\"",
     "original": "He might spark a religious conflict that could tear the Sector apart.",
     "translated": "Il risque de déclencher un conflit religieux qui pourrait déchirer le Secteur."
   },
@@ -53,7 +53,7 @@
     "csv_row": 2732,
     "id": "BFFItalkHorusPartyOptB",
     "column": "options",
-    "option_line": "bffi_talkHorusPartyOptB:\"He bought a sacred Luddic relic for his personal collection.\"",
+    "option_line": "bffi_talkHorusPartyOptB:\"Il a acheté une relique sacrée luddique pour sa collection personnelle.\"",
     "original": "He bought a sacred Luddic relic for his personal collection.",
     "translated": "Il a acheté une relique sacrée luddique pour sa collection personnelle."
   },
@@ -61,7 +61,7 @@
     "csv_row": 2733,
     "id": "BFFItalkHorusPartyOptC",
     "column": "options",
-    "option_line": "bffi_talkHorusPartyOptC:\"How do you get on with Menes? Not well?\"",
+    "option_line": "bffi_talkHorusPartyOptC:\"Vous vous entendez comment avec Menes ? Pas très bien ?\"",
     "original": "How do you get on with Menes? Not well?",
     "translated": "Vous vous entendez comment avec Menes ? Pas très bien ?"
   },

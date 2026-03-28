@@ -4,14 +4,14 @@
     "id": "gaBAPirateBluff3c",
     "column": "text",
     "original": "Vous coupez le signal. La ligne de communication instable scintille et s'efface dans le noir.",
-    "translated": ""
+    "translated": "Vous coupez le signal. La ligne de communication instable scintille et s'efface dans le noir."
   },
   {
     "csv_row": 6414,
     "id": "pwi2Bluff",
     "column": "text",
     "original": "Vous prenez un air de profonde inquietude, \"$BrotherOrSister, je crains que vous n'ayez completement mal compris la situation. Je marche sur la Voie, comme vous, mais moi ?\" Vous baissez la voix jusqu'au murmure, \"Dans l'ombre.\"\n\nLa confusion grandit sur le visage du Pather tandis qu'$heOrShe tente de comprendre ce que vous voulez dire.\n\n\"Souvenez-vous de Mairaath,",
-    "translated": ""
+    "translated": "Vous prenez un air de profonde inquietude, \"$BrotherOrSister, je crains que vous n'ayez completement mal compris la situation. Je marche sur la Voie, comme vous, mais moi ?\" Vous baissez la voix jusqu'au murmure, \"Dans l'ombre.\"\n\nLa confusion grandit sur le visage du Pather tandis qu'$heOrShe tente de comprendre ce que vous voulez dire.\n\n\"Souvenez-vous de Mairaath,"
   },
   {
     "csv_row": 6433,
@@ -19,7 +19,7 @@
     "column": "options",
     "option_line": "gaRR_cannibals:\"Des cannibales ?\"",
     "original": "Des cannibales ?",
-    "translated": ""
+    "translated": "Des cannibales ?"
   },
   {
     "csv_row": 6433,
@@ -27,7 +27,7 @@
     "column": "options",
     "option_line": "gaRR_briefing1:\"Des pirates ?\"",
     "original": "Des pirates ?",
-    "translated": ""
+    "translated": "Des pirates ?"
   },
   {
     "csv_row": 6434,
@@ -35,21 +35,21 @@
     "column": "options",
     "option_line": "gaRR_briefing1:\"Des pirates.\"",
     "original": "Des pirates.",
-    "translated": ""
+    "translated": "Des pirates."
   },
   {
     "csv_row": 6437,
     "id": "gaRRMissionTextPirate3",
     "column": "text",
     "original": "L'Academicien Sebestyen leve les yeux, apparemment rassure par cela. \"Alors vous le ferez ?\"",
-    "translated": ""
+    "translated": "L'Academicien Sebestyen leve les yeux, apparemment rassure par cela. \"Alors vous le ferez ?\""
   },
   {
     "csv_row": 6473,
     "id": "gaRRPirateBluff3c",
     "column": "text",
     "original": "Vous tournez le dos et coupez les communications d'une chiquenaude.",
-    "translated": ""
+    "translated": "Vous tournez le dos et coupez les communications d'une chiquenaude."
   },
   {
     "csv_row": 6482,
@@ -57,7 +57,7 @@
     "column": "options",
     "option_line": "gaTJ_start:Questionner sur la mission d'extraction du site noir Tri-Tachyon",
     "original": "Questionner sur la mission d'extraction du site noir Tri-Tachyon",
-    "translated": ""
+    "translated": "Questionner sur la mission d'extraction du site noir Tri-Tachyon"
   },
   {
     "csv_row": 6518,
@@ -65,13 +65,13 @@
     "column": "options",
     "option_line": "gaIntro2_start2:\"Et le signal ?\"",
     "original": "Et le signal ?",
-    "translated": ""
+    "translated": "Et le signal ?"
   },
   {
     "csv_row": 6527,
     "id": "gaIntro2what",
     "column": "text",
     "original": "\"Eh bien,\" votre officier technologique fronce les sourcils, \"Des enregistrements. Des journaux de senseurs. Detectant, euh.\" Il met en pause le flux de donnees, examinant certains chiffres. \"Une sorte de... force de champ ?\"\n\nVous commencez a avoir l'impression que votre officier tech ne sait pas ce que cet appareil mesurait.",
-    "translated": ""
+    "translated": "\"Eh bien,\" votre officier technologique fronce les sourcils, \"Des enregistrements. Des journaux de senseurs. Detectant, euh.\" Il met en pause le flux de donnees, examinant certains chiffres. \"Une sorte de... force de champ ?\"\n\nVous commencez a avoir l'impression que votre officier tech ne sait pas ce que cet appareil mesurait."
   }
 ]

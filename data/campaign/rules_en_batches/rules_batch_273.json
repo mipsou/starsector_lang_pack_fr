@@ -4,21 +4,21 @@
     "id": "ZGRpostGADHrouteFromBuy",
     "column": "text",
     "original": "\"Then this topic serves no more purpose,\" she says frostily.\n\n\"Anything else?\"",
-    "translated": ""
+    "translated": "\"Alors ce sujet n'a plus lieu d'etre,\" dit-elle glacialement.\n\n\"Autre chose ?\""
   },
   {
     "csv_row": 8262,
     "id": "ZGRpostGADHout",
     "column": "text",
     "original": "She makes no response.",
-    "translated": ""
+    "translated": "Elle ne repond rien."
   },
   {
     "csv_row": 8266,
     "id": "ZGRomkiScanOfferRedux",
     "column": "text",
     "original": "Her eyes flicker oddly.\n\n\"You've revised your position?\"",
-    "translated": ""
+    "translated": "Ses yeux tremblotent etrangement.\n\n\"Vous avez reconsidere votre position ?\""
   },
   {
     "csv_row": 8266,
@@ -26,42 +26,42 @@
     "column": "options",
     "option_line": "zgr_omkiScanOfferReduxMil:\"My position is one million credits.\"",
     "original": "My position is one million credits.",
-    "translated": ""
+    "translated": "Ma position, c'est un million de credits."
   },
   {
     "csv_row": 8268,
     "id": "ZGRomkiScanOfferReduxLater",
     "column": "text",
     "original": "She leans back ever so slightly, but makes no outward response.\n\nHer expression hasn't changed, but it feels somehow more impatient.",
-    "translated": ""
+    "translated": "Elle se recule tres legerement, mais ne reagit pas exterieurement.\n\nSon expression n'a pas change, mais elle semble en quelque sorte plus impatiente."
   },
   {
     "csv_row": 8269,
     "id": "ZGRomkiScanOfferReduxLaterB",
     "column": "text",
     "original": "She leans back ever so slightly, but makes no outward response.\n\nHer expression hasn't changed, but it feels somehow more impatient.",
-    "translated": ""
+    "translated": "Elle se recule tres legerement, mais ne reagit pas exterieurement.\n\nSon expression n'a pas change, mais elle semble en quelque sorte plus impatiente."
   },
   {
     "csv_row": 8270,
     "id": "ZGRomkiScanOfferReduxScan1",
     "column": "text",
     "original": "Her eyes flicker subtly, her expression more glazed and vacant than before.\n\n\"Very... good, captain,\" she says.",
-    "translated": ""
+    "translated": "Ses yeux clignotent subtilement, son expression plus vitreuse et absente qu'auparavant.\n\n\"Tres... bien, capitaine,\" dit-elle."
   },
   {
     "csv_row": 8273,
     "id": "ZGRgreetingPostWeird",
     "column": "text",
     "original": "Your comms are routed through a secretary, either a holosim or product of uncanny cosmetic and behavior tuning, then, after a brief wait, the link blinks to Director Glamor-Rotanev.\n\n\"Captain $playerLastName,\" she says, then pauses. \"You found something, didn't you.\"",
-    "translated": ""
+    "translated": "Vos comms sont rediriges via un secretaire, soit un holosim soit le produit d'un travail cosmetique et comportemental saisissant, puis, apres une breve attente, le lien bascule vers la Directrice Glamor-Rotanev.\n\n\"Capitaine $playerLastName,\" dit-elle, puis marque une pause. \"Vous avez trouve quelque chose, n'est-ce pas.\""
   },
   {
     "csv_row": 8274,
     "id": "ZGRgreetingPostWeirdOMKI",
     "column": "text",
     "original": "The comms flick into an active feed nearly instantly.\n\n\"Captain,\" Director Glamor-Rotanev greets you, simply. \"I was just admiring your new acquisition.\"\n\nHer eyes flicker oddly, and you detect what might be a rare spark of genuine amusement. \n\n\"Or perhaps it is better described as your very, very old acquisition.\"",
-    "translated": ""
+    "translated": "Les comms basculent sur un flux actif presque instantanement.\n\n\"Capitaine,\" la Directrice Glamor-Rotanev vous salue, simplement. \"J'admirais justement votre nouvelle acquisition.\"\n\nSes yeux tremblotent etrangement, et vous detectez ce qui pourrait etre une rare etincelle d'amusement sincere.\n\n\"Ou peut-etre vaudrait-il mieux parler de votre tres, tres ancienne acquisition.\""
   },
   {
     "csv_row": 8275,
@@ -69,6 +69,6 @@
     "column": "options",
     "option_line": "zgr_postWeirdOptProceed:\"I found... many things. And an Onslaught Mk.I.\"",
     "original": "I found... many things. And an Onslaught Mk.I.",
-    "translated": ""
+    "translated": "J'ai trouve... beaucoup de choses. Et un Onslaught Mk.I."
   }
 ]

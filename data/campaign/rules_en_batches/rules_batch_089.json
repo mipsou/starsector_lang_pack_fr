@@ -4,28 +4,28 @@
     "id": "BFFImpBuyerOutro2a",
     "column": "text",
     "original": "\"He's a Pather agent,\" Bornanew says as if it were the most obvious thing in the world. He meets your look.\n\n\"We spoke briefly,\" he explains. \"The circumstantial evidence is convincing enough, but it was his heretical understanding of theology which I found truly damning.\"\n\n\"I propose we retire from this, ah, celebration as soon as we can with the glove. Then investigate Pond.\"",
-    "translated": ""
+    "translated": "\"C'est un agent du Sentier,\" dit Bornanew comme si c'était la chose la plus évidente au monde. Il soutient votre regard.\n\n\"Nous avons brièvement parlé,\" explique-t-il. \"Les preuves circonstancielles sont assez convaincantes, mais c'est sa compréhension hérétique de la théologie que j'ai trouvée véritablement accablante.\"\n\n\"Je propose que nous nous retirions de cette, ah, célébration dès que possible avec le gant. Puis que nous enquêtions sur Pond.\""
   },
   {
     "csv_row": 2876,
     "id": "BFFImpBuyerOutro2b",
     "column": "text",
     "original": "\"Um,\" Bornanew shifts uncomfortably.\n\n\"I... Yes, I can take that for you, captain.\" He carefully takes your drink from you without spilling, and then gently places it on a protruding piece of architecture.\n\n\"Did you bring any anti-inebriants? Perhaps we should get you back to your flagship. Here, just take my arm...\"",
-    "translated": ""
+    "translated": "\"Euh,\" Bornanew se tortille, mal à l'aise.\n\n\"Je... Oui, je peux prendre ça pour vous, capitaine.\" Il prend délicatement votre verre sans renverser, puis le pose doucement sur un élément d'architecture saillant.\n\n\"Avez-vous apporté des anti-enivrants ? Peut-être devrions-nous vous ramener à votre vaisseau amiral. Tenez, prenez mon bras...\""
   },
   {
     "csv_row": 2877,
     "id": "BFFImpBuyerOutro3b",
     "column": "text",
     "original": "* * *\n\nIt is a feat of diplomacy that you manage to extract yourself and Bornanew as quickly as you are able.\n\nA faked containment failure alert from your chief engineer merely opens the door. Passing through requires shaking everyone's hand, exchanging pleasant words, and going through the motions of good-byes several times over - then each time the ritual is interrupted by some tangent or anecdote from Menes, he ensures that it is begun against from the start.\n\nAt last you find yourself back in your shuttle, a half-full glass still in your hand.",
-    "translated": ""
+    "translated": "* * *\n\nC'est un exploit diplomatique que de parvenir à vous extraire, vous et Bornanew, aussi vite que possible.\n\nUne fausse alerte de défaillance de confinement de votre ingénieur en chef ne fait qu'ouvrir la porte. La franchir nécessite de serrer la main de tout le monde, d'échanger des mots aimables, et de passer par le rituel des adieux à plusieurs reprises - puis à chaque fois que le rituel est interrompu par une tangente ou une anecdote de Menes, il s'assure qu'il recommence depuis le début.\n\nVous vous retrouvez enfin dans votre navette, un verre à moitié plein encore à la main."
   },
   {
     "csv_row": 2878,
     "id": "BFFImpBuyerOutro3a",
     "column": "text",
     "original": "* * *\n\nIt is a feat of diplomacy that Bornanew manages to extract you as quickly as he does.\n\nYou have little difficulty playing up a state of stumbling drunkenness as Bornanew makes excuses, explaining that he will \"pray for the captain's intemperance\", much to the amusement of Menes' guests.\n\nIt is not your most dignified moment, but it ensures you can avoid the ritual of shaking everyone's hand, exchanging pleasant words, and going through the motions of good-byes.",
-    "translated": ""
+    "translated": "* * *\n\nC'est un exploit diplomatique que Bornanew parvienne à vous extraire aussi vite.\n\nVous n'avez aucune difficulté à jouer un état d'ébriété titubante tandis que Bornanew présente des excuses, expliquant qu'il va \"prier pour l'intempérance du capitaine\", au grand amusement des invités de Menes.\n\nCe n'est pas votre moment le plus digne, mais cela vous permet d'éviter le rituel de serrer la main de tout le monde, d'échanger des mots aimables et de passer par les adieux."
   },
   {
     "csv_row": 2881,
@@ -33,41 +33,41 @@
     "column": "options",
     "option_line": "2:bffi_apHorus0:Shuttle down with Horus Yaribay to Menes' compound.",
     "original": "bffi_apHorus0:Shuttle down with Horus Yaribay to Menes' compound.",
-    "translated": ""
+    "translated": "bffi_apHorus0:Descendre en navette avec Horus Yaribay au complexe de Menes."
   },
   {
     "csv_row": 2882,
     "id": "BFFIapHorus0",
     "column": "text",
     "original": "Horus transfers to your $shipOrFleet in orbit, greeting you and Bornanew tersely then making little in the way of conversation.\n\nMenes' invitation provides you with a flight path and Demarch-level traffic control override codes. Horus would certainly receive similar treatment had he declared his presence openly.\n\nAs it is, it's probably a violation of Persean League ethical guidelines for you to be using these to attend a personal party, but from what you can overhear of the pilot's comms, the locals have a casual attitude toward the arrangement.",
-    "translated": ""
+    "translated": "Horus transfère vers votre $shipOrFleet en orbite, vous saluant vous et Bornanew laconiquement puis ne faisant guère la conversation.\n\nL'invitation de Menes vous fournit un plan de vol et des codes de contrôle du trafic de niveau Démarque. Horus aurait certainement reçu un traitement similaire s'il avait déclaré ouvertement sa présence.\n\nEn l'état, c'est probablement une violation des directives éthiques de la Ligue Perséenne d'utiliser ceux-ci pour assister à une fête privée, mais d'après ce que vous entendez des communications du pilote, les locaux ont une attitude décontractée envers cet arrangement."
   },
   {
     "csv_row": 2884,
     "id": "BFFIapHorus2",
     "column": "text",
     "original": "One set of hangar bay doors dutifully open, and your shuttle descends through the glowing atmo-field. Such gadgetry is an ostentatious addition to a personal residence, but it avoids the bother of visitors (and their shuttles) having to undergo pressure-cycling.\n\nAn enthusiastic Menes is already approaching your shuttle's access ramp as it sets itself down and signals the all-clear.\n\nHorus Yaribay puts out his hand in a 'you first' gesture.",
-    "translated": ""
+    "translated": "Un ensemble de portes de hangar s'ouvre docilement, et votre navette descend à travers le champ atmosphérique lumineux. Un tel gadget est un ajout ostentatoire à une résidence privée, mais il évite aux visiteurs (et à leurs navettes) le désagrément du cycle de pressurisation.\n\nUn Menes enthousiaste s'approche déjà de la rampe d'accès de votre navette alors qu'elle se pose et signale que la voie est libre.\n\nHorus Yaribay tend la main dans un geste de 'vous d'abord'."
   },
   {
     "csv_row": 2885,
     "id": "BFFIapHorus3",
     "column": "text",
     "original": "\"Captain $playerName - with your Knight of Ludd! Let me welcome you both to my humble...\"\n\nAs Menes sees Horus step off the shuttle his face contorts through a fascinating sequence of expressions before settling into an alarmed rictus of welcome.\n\n\"C-cousin Horus. What an unexpected surprise!\"\n\nMenes' eyes, watery with a minor aspect of terror, dart to yours then away before the accusation fully solidifies.",
-    "translated": ""
+    "translated": "\"Capitaine $playerName - avec votre Chevalier de Ludd ! Permettez-moi de vous souhaiter la bienvenue dans mon humble...\"\n\nQuand Menes voit Horus descendre de la navette, son visage se contorsionne à travers une fascinante séquence d'expressions avant de se figer dans un rictus d'accueil alarmé.\n\n\"C-cousin Horus. Quelle surprise inattendue !\"\n\nLes yeux de Menes, larmoyants avec un soupçon de terreur, se tournent vers les vôtres puis s'en détournent avant que l'accusation ne se solidifie complètement."
   },
   {
     "csv_row": 2886,
     "id": "BFFIapHorus4",
     "column": "text",
     "original": "Horus' smile in return is cool as he steps forward to the offered hands with only one of his own. \"Menes. Where has the last cycle gone? It feels as though your inaugural flight to Olinadu was just yesterday.\"\n\nMenes manages to respond with an obliging laugh.\n\nBornanew, quite forgotten, follows you and the Yaribays.",
-    "translated": ""
+    "translated": "Le sourire d'Horus en retour est glacial tandis qu'il s'avance vers les mains tendues avec une seule des siennes. \"Menes. Où est passé le dernier cycle ? On dirait que votre vol inaugural vers Olinadu, c'était hier.\"\n\nMenes parvient à répondre par un rire obligeant.\n\nBornanew, tout à fait oublié, vous suit, vous et les Yaribay."
   },
   {
     "csv_row": 2887,
     "id": "BFFIapHorus5",
     "column": "text",
     "original": "Menes leads your party past gilded statues guarding the portal to the main complex; the forms are evocative of splashes of molten gold frozen by happenstance into sensual humanoid figures.\n\nYou watch as Horus, lean and intense as some small predator, endures the patter from Menes, a man of more generous form and character. Menes plays down the 'frontier quality' of renovations, the poor selection of artworks, the difficulty of accessing the best artists and engineering firms to contribute to his home in 'all but exile'.\n\nOccasionally a robotic or human servitor appears to offer drinks or nibbles, and you've a growing feeling that Menes has picked up a glass from one only to place it back on the tray of another without ever taking a sip.\n\nA fresh glass in hand, Menes tentatively leads Horus into what can only be his prize entertaining space.",
-    "translated": ""
+    "translated": "Menes guide votre groupe devant des statues dorées gardant le portail du complexe principal ; les formes évoquent des éclaboussures d'or fondu figées par hasard en silhouettes humanoïdes sensuelles.\n\nVous observez Horus, mince et intense comme un petit prédateur, endurer le bavardage de Menes, un homme de formes et de caractère plus généreux. Menes minimise la 'qualité frontalière' des rénovations, le maigre choix d'oeuvres d'art, la difficulté d'accéder aux meilleurs artistes et firmes d'ingénierie pour contribuer à sa demeure 'en quasi-exil'.\n\nDe temps en temps, un serviteur robotique ou humain apparaît pour offrir des boissons ou des amuse-bouches, et vous avez le sentiment croissant que Menes a pris un verre sur un plateau pour le reposer sur celui d'un autre sans jamais prendre une gorgée.\n\nUn verre frais en main, Menes guide prudemment Horus dans ce qui ne peut être que son espace de réception favori."
   }
 ]

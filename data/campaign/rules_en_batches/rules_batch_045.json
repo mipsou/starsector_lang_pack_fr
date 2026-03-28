@@ -4,7 +4,7 @@
     "id": "LKEmazConvEnd",
     "column": "text",
     "original": "Vous coupez la communication.",
-    "translated": ""
+    "translated": "Vous coupez la communication."
   },
   {
     "csv_row": 2011,
@@ -12,7 +12,7 @@
     "column": "options",
     "option_line": "lke_mazalotAskPMresp5Opt:\"Je comprends. Parlons d'autre chose.\"",
     "original": "Je comprends. Parlons d'autre chose.",
-    "translated": ""
+    "translated": "Je comprends. Parlons d'autre chose."
   },
   {
     "csv_row": 2018,
@@ -28,7 +28,7 @@
     "column": "options",
     "option_line": "lke_mazalotAskPath:\"Je cherche celui qui dirige la Voie Luddique dans le coin.\"",
     "original": "Je cherche celui qui dirige la Voie Luddique dans le coin.",
-    "translated": ""
+    "translated": "Je cherche celui qui dirige la Voie Luddique dans le coin."
   },
   {
     "csv_row": 2031,
@@ -36,7 +36,7 @@
     "column": "options",
     "option_line": "lke_mazQMTryYaribayA:\"Je dois entrer en contact avec la Voie de Ludd sur Mazalot.\"",
     "original": "Je dois entrer en contact avec la Voie de Ludd sur Mazalot.",
-    "translated": ""
+    "translated": "Je dois entrer en contact avec la Voie de Ludd sur Mazalot."
   },
   {
     "csv_row": 2031,
@@ -44,14 +44,14 @@
     "column": "options",
     "option_line": "lke_mazQMTryYaribayForget:\"Vous savez quoi, oubliez ce que j'ai dit sur Yaribay.\"",
     "original": "Vous savez quoi, oubliez ce que j'ai dit sur Yaribay.",
-    "translated": ""
+    "translated": "Vous savez quoi, oubliez ce que j'ai dit sur Yaribay."
   },
   {
     "csv_row": 2033,
     "id": "LKEmazQMTryYaribayA1",
     "column": "text",
     "original": "$PersonName sourit docilement.",
-    "translated": ""
+    "translated": "$PersonName sourit docilement."
   },
   {
     "csv_row": 2036,
@@ -59,14 +59,14 @@
     "column": "options",
     "option_line": "lke_mazQMTryYaribayA4:\"Merci pour votre service.\"",
     "original": "Merci pour votre service.",
-    "translated": ""
+    "translated": "Merci pour votre service."
   },
   {
     "csv_row": 2037,
     "id": "LKEmazQMTryYaribayA4",
     "column": "text",
     "original": "\"Il n'y a pas de quoi, $playerSirOrMadam,\" dit $personName presque timidement.",
-    "translated": ""
+    "translated": "\"Il n'y a pas de quoi, $playerSirOrMadam,\" dit $personName presque timidement."
   },
   {
     "csv_row": 2046,
@@ -74,6 +74,6 @@
     "column": "options",
     "option_line": "lke_mazalotAskPath:\"Je cherche celui qui dirige la Voie Luddique dans le coin.\"",
     "original": "Je cherche celui qui dirige la Voie Luddique dans le coin.",
-    "translated": ""
+    "translated": "Je cherche celui qui dirige la Voie Luddique dans le coin."
   }
 ]

@@ -12,14 +12,14 @@
     "id": "relLevelPiratesKantasProtectionNo",
     "column": "text",
     "original": "Vous aviez, et avez perdu, la protection du Seigneur de guerre Kanta sur vos possessions.",
-    "translated": ""
+    "translated": "Vous aviez, et avez perdu, la protection du Seigneur de guerre Kanta sur vos possessions."
   },
   {
     "csv_row": 696,
     "id": "relLevelDiktatSDTU",
     "column": "text",
     "original": "Des rumeurs circulent selon lesquelles vous seriez un agent double ou triple travaillant pour - ou contre ? - Dolos Macario.",
-    "translated": ""
+    "translated": "Des rumeurs circulent selon lesquelles vous seriez un agent double ou triple travaillant pour - ou contre ? - Dolos Macario."
   },
   {
     "csv_row": 767,
@@ -27,7 +27,7 @@
     "column": "options",
     "option_line": "0:cantAffordToll:Expliquer que vous n'avez pas les moyens de payer",
     "original": "cantAffordToll:Expliquer que vous n'avez pas les moyens de payer",
-    "translated": ""
+    "translated": "cantAffordToll:Expliquer que vous n'avez pas les moyens de payer"
   },
   {
     "csv_row": 768,
@@ -35,7 +35,7 @@
     "column": "options",
     "option_line": "0:cantAffordFine:Expliquer que vous n'avez pas les moyens de payer",
     "original": "cantAffordFine:Expliquer que vous n'avez pas les moyens de payer",
-    "translated": ""
+    "translated": "cantAffordFine:Expliquer que vous n'avez pas les moyens de payer"
   },
   {
     "csv_row": 769,
@@ -43,7 +43,7 @@
     "column": "options",
     "option_line": "10:refuseCIToll:Refuser de payer",
     "original": "refuseCIToll:Refuser de payer",
-    "translated": ""
+    "translated": "refuseCIToll:Refuser de payer"
   },
   {
     "csv_row": 816,
@@ -51,7 +51,7 @@
     "column": "options",
     "option_line": "0:ngcTutorial:Commencer avec le tutoriel !",
     "original": "ngcTutorial:Commencer avec le tutoriel !",
-    "translated": ""
+    "translated": "ngcTutorial:Commencer avec le tutoriel !"
   },
   {
     "csv_row": 833,
@@ -59,7 +59,7 @@
     "column": "options",
     "option_line": "0:cutCommLink:Couper la comm",
     "original": "cutCommLink:Couper la comm",
-    "translated": ""
+    "translated": "cutCommLink:Couper la comm"
   },
   {
     "csv_row": 834,
@@ -67,7 +67,7 @@
     "column": "options",
     "option_line": "0:cutCommLink:Couper la comm",
     "original": "cutCommLink:Couper la comm",
-    "translated": ""
+    "translated": "cutCommLink:Couper la comm"
   },
   {
     "csv_row": 859,
@@ -75,6 +75,6 @@
     "column": "options",
     "option_line": "100:cutCommLink:Couper la comm",
     "original": "cutCommLink:Couper la comm",
-    "translated": ""
+    "translated": "cutCommLink:Couper la comm"
   }
 ]

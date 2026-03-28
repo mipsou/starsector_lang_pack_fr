@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "BFFI_onBoardAskPlan:\"What's the plan? Ask Menes nicely for the glove?\"",
     "original": "What's the plan? Ask Menes nicely for the glove?",
-    "translated": ""
+    "translated": "C'est quoi le plan ? Demander gentiment le gant à Menes ?"
   },
   {
     "csv_row": 2574,
@@ -13,49 +13,49 @@
     "column": "options",
     "option_line": "BFFI_onBoardAskChalcedon:\"Kumari Kandam? You were on Chalcedon. With the Path.\"",
     "original": "Kumari Kandam? You were on Chalcedon. With the Path.",
-    "translated": ""
+    "translated": "Kumari Kandam ? Vous étiez sur Chalcedon. Avec le Sentier."
   },
   {
     "csv_row": 2575,
     "id": "BFFIonBoardAskChalcedon",
     "column": "text",
     "original": "\"Indeed I was.\" He's steady. \"You know of this. There I met Wrestling Sedge of the Luddic Path, and there I left my vows. For a time.\"\n\nA pause. \"You followed my path, and spoke with the man Sedge. He told you where I went from there, Mazalot, where you found me.\"",
-    "translated": ""
+    "translated": "\"En effet.\" Il est imperturbable. \"Vous le savez. C'est là que j'ai rencontré Wrestling Sedge du Sentier Luddique, et c'est là que j'ai abandonné mes vœux. Pour un temps.\"\n\nUne pause. \"Vous avez suivi ma trace, et parlé avec l'homme Sedge. Il vous a dit où j'étais allé ensuite, Mazalot, où vous m'avez trouvé.\""
   },
   {
     "csv_row": 2576,
     "id": "BFFIonBoardAskChalcedonShot",
     "column": "text",
     "original": "\"Indeed I was.\" He's steady as he speaks. \"You know of this. There I met Wrestling Sedge of the Luddic Path, and there I left my vows. For a time.\"\n\nA pause. \"And you killed the man Sedge,\" he says. \"The Path will have no love for you there, but I trust that you will be prepared for... that.\"",
-    "translated": ""
+    "translated": "\"En effet.\" Il est imperturbable tandis qu'il parle. \"Vous le savez. C'est là que j'ai rencontré Wrestling Sedge du Sentier Luddique, et c'est là que j'ai abandonné mes vœux. Pour un temps.\"\n\nUne pause. \"Et vous avez tué l'homme Sedge,\" dit-il. \"Le Sentier ne vous portera pas dans son cœur là-bas, mais j'ai confiance que vous serez préparé à... cela.\""
   },
   {
     "csv_row": 2577,
     "id": "BFFIonBoardAskMenes",
     "column": "text",
     "original": "\"Certain tawdry media outlets in the outer League worlds and beyond report rumor and gossip about affairs, social vendettas, and... how shall I put this... decadent festivities undertaken by Menes. More so in his younger years, at least.\" Bornanew turns pages in his notebook, not reading, but recalling as he goes through the motions with his hands.\n\n\"His enthusiasm for such pursuits has waned from the cycles of his youth, and his interests have shifted. At heart, I suspect Menes is still a man who wishes for all to hear his name, and for all who hear it to be very impressed.\"",
-    "translated": ""
+    "translated": "\"Certains médias racoleurs des mondes extérieurs de la Ligue et au-delà rapportent rumeurs et ragots sur des liaisons, des vendettas mondaines, et... comment dire... des festivités décadentes auxquelles Menes a participé. Davantage dans ses jeunes cycles, du moins.\" Bornanew tourne les pages de son carnet, sans lire, mais se remémorant au fil des gestes de ses mains.\n\n\"Son enthousiasme pour ces occupations s'est estompé depuis les cycles de sa jeunesse, et ses intérêts ont changé. Au fond, je soupçonne que Menes reste un homme qui souhaite que tous entendent son nom, et que tous ceux qui l'entendent soient très impressionnés.\""
   },
   {
     "csv_row": 2578,
     "id": "BFFIonBoardAskMenes2",
     "column": "text",
     "original": "\"Unfortunately for his ambition, he is a natural dilettante in all pursuits. He avoids challenge, seeking instead flattery and the appearance of success which may be purchased with credits.\" Bornanew reports this without obvious outward judgment, as if discussing the results of a gravimetric survey.\n\n\"To his gens, Menes has given only scandal and debt. I suspect he was placed in the Olinadu administration to limit his ability to further damage their reputation.\"\n\nBornanew smiles grimly now. \"It is some irony that he has potentially stumbled into more trouble than ever.\"",
-    "translated": ""
+    "translated": "\"Malheureusement pour son ambition, c'est un dilettante né dans toutes ses entreprises. Il évite les défis, cherchant plutôt la flatterie et les apparences du succès que l'on peut acheter avec des crédits.\" Bornanew rapporte cela sans jugement apparent, comme s'il discutait des résultats d'un relevé gravimétrique.\n\n\"À sa gens, Menes n'a apporté que scandale et dettes. Je soupçonne qu'il a été placé à l'administration d'Olinadu pour limiter sa capacité à nuire davantage à leur réputation.\"\n\nBornanew sourit sombrement à présent. \"Il y a une certaine ironie dans le fait qu'il ait potentiellement trébuché dans plus d'ennuis que jamais.\""
   },
   {
     "csv_row": 2579,
     "id": "BFFIonBoardAskInCharge",
     "column": "text",
     "original": "\"Gens Yaribay has a controlling interest in the military corporation which exercises the monopoly of violence for the polity of Olinadu. The Pathers are an ever-present threat, so those who don't cooperate... well, that is the stick which compels. The carrot, on the other hand, is a stream of investment credits facilitated by Gens Yaribay brokers.\"\n\n\"The locals cooperate with this arrangement, and agreed to vote Menes Yaribay to an executive position, perhaps understanding that he'd play the role as a figurehead rather than a serious administrator. Olinadu receives investment and safety while, from all accounts, Menes Yaribay simply wants to be liked.\"\n\n\"Compared to the alternatives,\" says Bornanew, \"he is an ideal overlord.\"",
-    "translated": ""
+    "translated": "\"La Gens Yaribay détient une participation majoritaire dans la corporation militaire qui exerce le monopole de la violence pour l'entité politique d'Olinadu. Les Sentieristes sont une menace omniprésente, donc ceux qui ne coopèrent pas... eh bien, c'est le bâton qui contraint. La carotte, en revanche, est un flux de crédits d'investissement facilité par les courtiers de la Gens Yaribay.\"\n\n\"Les locaux coopèrent avec cet arrangement, et ont accepté de voter Menes Yaribay à un poste exécutif, comprenant peut-être qu'il jouerait le rôle de figure de proue plutôt que d'administrateur sérieux. Olinadu reçoit investissement et sécurité tandis que, de l'avis de tous, Menes Yaribay veut simplement être apprécié.\"\n\n\"Comparé aux alternatives,\" dit Bornanew, \"c'est un suzerain idéal.\""
   },
   {
     "csv_row": 2580,
     "id": "BFFIonBoardAskRelic",
     "column": "text",
     "original": "\"Yes, the... artifact.\" Bornanew looks down, clasping his hands together, then taking them apart and setting them deliberately on the table.\n\n\"Ludd's right-hand glove,\" an abashed smile appears.\n\n\"A standard work-glove of Domain manufacture. Light vac-suit compatible. The story is that Ludd removed it to touch the ground of Gilead.\"",
-    "translated": ""
+    "translated": "\"Oui, l'... artefact.\" Bornanew baisse les yeux, joignant les mains, puis les séparant et les posant délibérément sur la table.\n\n\"Le gant droit de Ludd,\" un sourire penaud apparaît.\n\n\"Un gant de travail standard de fabrication du Domain. Compatible combinaison pressurisée légère. L'histoire raconte que Ludd l'a retiré pour toucher le sol de Gilead.\""
   },
   {
     "csv_row": 2580,
@@ -63,7 +63,7 @@
     "column": "options",
     "option_line": "BFFI_onBoardAskRelic1a:\"And you don't think it's real? The original, I mean.\"",
     "original": "And you don't think it's real? The original, I mean.",
-    "translated": ""
+    "translated": "Et vous ne pensez pas qu'il est authentique ? L'original, je veux dire."
   },
   {
     "csv_row": 2580,
@@ -71,6 +71,6 @@
     "column": "options",
     "option_line": "BFFI_onBoardAskRelic1b:\"Seems like a lot to get worked up about.\"",
     "original": "Seems like a lot to get worked up about.",
-    "translated": ""
+    "translated": "Ça semble être beaucoup d'agitation pour pas grand-chose."
   }
 ]

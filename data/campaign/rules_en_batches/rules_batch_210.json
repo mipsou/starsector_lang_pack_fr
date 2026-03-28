@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "gaATG_epiphanyBarTalk1a:\"Je ne voulais pas offenser. Je souhaite simplement voir votre patron.\"",
     "original": "Je ne voulais pas offenser. Je souhaite simplement voir votre patron.",
-    "translated": ""
+    "translated": "Je ne voulais pas offenser. Je souhaite simplement voir votre patron."
   },
   {
     "csv_row": 5812,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "gaATG_epiphanyBarTalk1:Le fixer du regard",
     "original": "Le fixer du regard",
-    "translated": ""
+    "translated": "Le fixer du regard"
   },
   {
     "csv_row": 5827,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "gaATG_meetCottonShake:Lui serrer la main",
     "original": "Lui serrer la main",
-    "translated": ""
+    "translated": "Lui serrer la main"
   },
   {
     "csv_row": 5827,
@@ -29,21 +29,21 @@
     "column": "options",
     "option_line": "gaATG_meetCottonNoShake:Ne pas lui serrer la main",
     "original": "Ne pas lui serrer la main",
-    "translated": ""
+    "translated": "Ne pas lui serrer la main"
   },
   {
     "csv_row": 5831,
     "id": "gaATGmeetCottonTeaStand",
     "column": "text",
     "original": "\"Bienvenue. \" Il se tape sur l'une de ses jambes, \"Celle-ci va se plaindre si je reste debout, alors pardonnez-moi de prendre mes aises quand je le peux.\"",
-    "translated": ""
+    "translated": "\"Bienvenue. \" Il se tape sur l'une de ses jambes, \"Celle-ci va se plaindre si je reste debout, alors pardonnez-moi de prendre mes aises quand je le peux.\""
   },
   {
     "csv_row": 5832,
     "id": "gaATGmeetCottonTeaNever",
     "column": "text",
     "original": "Il sourit, \"Alors je me contenterai de la joie de votre visage.\"",
-    "translated": ""
+    "translated": "Il sourit, \"Alors je me contenterai de la joie de votre visage.\""
   },
   {
     "csv_row": 5837,
@@ -51,7 +51,7 @@
     "column": "options",
     "option_line": "gaATG_meetCottonUngodly:\"Que voulez-vous faire du clone de Loke, s'il est si impie ?\"",
     "original": "Que voulez-vous faire du clone de Loke, s'il est si impie ?",
-    "translated": ""
+    "translated": "Que voulez-vous faire du clone de Loke, s'il est si impie ?"
   },
   {
     "csv_row": 5838,
@@ -59,7 +59,7 @@
     "column": "options",
     "option_line": "gaATG_meetCottonUngodly2:\"Alors qu'allez-vous faire du clone ?\"",
     "original": "Alors qu'allez-vous faire du clone ?",
-    "translated": ""
+    "translated": "Alors qu'allez-vous faire du clone ?"
   },
   {
     "csv_row": 5840,
@@ -67,7 +67,7 @@
     "column": "options",
     "option_line": "gaATG_meetCottonClone:\"Pourquoi ce clone est-il si important pour Kanta ?\"",
     "original": "Pourquoi ce clone est-il si important pour Kanta ?",
-    "translated": ""
+    "translated": "Pourquoi ce clone est-il si important pour Kanta ?"
   },
   {
     "csv_row": 5841,
@@ -75,6 +75,6 @@
     "column": "options",
     "option_line": "gaATG_meetCottonClone2:\"Vous allez juste me donner Loke ?\"",
     "original": "Vous allez juste me donner Loke ?",
-    "translated": ""
+    "translated": "Vous allez juste me donner Loke ?"
   }
 ]

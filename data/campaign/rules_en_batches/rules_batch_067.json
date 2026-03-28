@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "BFFI_meetMenes4b:\"A man who broke his Knightly vows only to hide among terrorists and become a hermit.\"",
     "original": "A man who broke his Knightly vows only to hide among terrorists and become a hermit.",
-    "translated": ""
+    "translated": "Un homme qui a rompu ses vœux de Chevalier pour se cacher parmi des terroristes et devenir un ermite."
   },
   {
     "csv_row": 2620,
@@ -13,42 +13,42 @@
     "column": "options",
     "option_line": "BFFI_meetMenes4c:\"A Knight who lost his way - but never his faith - now seeking absolution by way of epic quest.\"",
     "original": "A Knight who lost his way - but never his faith - now seeking absolution by way of epic quest.",
-    "translated": ""
+    "translated": "Un Chevalier qui a perdu son chemin - mais jamais sa foi - et qui cherche désormais l'absolution par une quête épique."
   },
   {
     "csv_row": 2624,
     "id": "BFFImeetMenes4",
     "column": "text",
     "original": "\"Oh!\" Menes claps his hands together in delight. \"That would be just the perfect, perfect thing!\"\n\n\"Bring your friend,\" a mischievous look grows on his face. \"I have an object in my special collection,\" his eyebrows bounce, \"that'll launch his tabard directly into orbit! You'll see, you'll see. Oh, this is so perfect.\"",
-    "translated": ""
+    "translated": "\"Oh !\" Menes frappe dans ses mains de ravissement. \"Ce serait tout simplement parfait, parfait !\"\n\n\"Amenez votre ami,\" un air espiègle se dessine sur son visage. \"J'ai un objet dans ma collection spéciale,\" ses sourcils s'agitent, \"qui va propulser son tabard directement en orbite ! Vous verrez, vous verrez. Oh, c'est tellement parfait.\""
   },
   {
     "csv_row": 2627,
     "id": "BFFImeetMenesBornanew",
     "column": "text",
     "original": "You close the comms, then summon Bornanew to a briefing room to discuss the next phase of the plan.",
-    "translated": ""
+    "translated": "Vous coupez les communications, puis convoquez Bornanew dans une salle de briefing pour discuter de la prochaine phase du plan."
   },
   {
     "csv_row": 2628,
     "id": "BFFImeetMenesBornanew1b",
     "column": "text",
     "original": "Bornanew's head is lowered as he enters, carrying his paper notebook as well as an off-brand datapad.\n\nThe notebook slaps onto the table a little harder than would be considered strictly polite.",
-    "translated": ""
+    "translated": "Bornanew entre la tête baissée, portant son carnet en papier ainsi qu'un datapad de marque générique.\n\nLe carnet claque sur la table un peu plus fort que ce qui serait considéré comme strictement poli."
   },
   {
     "csv_row": 2630,
     "id": "BFFImeetMenesBornanew2b",
     "column": "text",
     "original": "\"I think it is uncharitable to the point of slander to describe the people of Mazalot as 'terrorists' so easily. And although it was a remote farming community, I was hardly hermit, to say nothing of-\" He stops mid-rebuttal and looks up.",
-    "translated": ""
+    "translated": "\"Je pense qu'il est malveillant au point de la diffamation de décrire les gens de Mazalot comme des 'terroristes' aussi facilement. Et bien que ce fût une communauté agricole isolée, j'étais loin d'être un ermite, sans parler de...\" Il s'interrompt au milieu de sa réfutation et lève les yeux."
   },
   {
     "csv_row": 2631,
     "id": "BFFImeetMenesBornanew2c",
     "column": "text",
     "original": "\"Although technically a Knight of Ludd, I'm merely a novice - and one in poor standing at that. As for this 'epic quest' you describe, it's more of-\" He stops speaking and looks up at you.",
-    "translated": ""
+    "translated": "\"Bien que techniquement Chevalier de Ludd, je ne suis qu'un novice - et un novice en mauvaise posture qui plus est. Quant à cette 'quête épique' que vous décrivez, c'est plutôt...\" Il cesse de parler et lève les yeux vers vous."
   },
   {
     "csv_row": 2632,
@@ -56,7 +56,7 @@
     "column": "options",
     "option_line": "BFFI_meetMenesBornanew4b:\"You knew what this would entail. Think of the good it will accomplish.\"",
     "original": "You knew what this would entail. Think of the good it will accomplish.",
-    "translated": ""
+    "translated": "Vous saviez ce que cela impliquait. Pensez au bien que cela accomplira."
   },
   {
     "csv_row": 2636,
@@ -64,7 +64,7 @@
     "column": "options",
     "option_line": "bffi_mmBornStealOpt:\"We should steal the glove.\"",
     "original": "We should steal the glove.",
-    "translated": ""
+    "translated": "Nous devrions voler le gant."
   },
   {
     "csv_row": 2639,
@@ -72,6 +72,6 @@
     "column": "options",
     "option_line": "bffi_mmBornBuyerOptB:\"I could pretend to have a relic to sell. Any ideas?\"",
     "original": "I could pretend to have a relic to sell. Any ideas?",
-    "translated": ""
+    "translated": "Je pourrais prétendre avoir une relique à vendre. Des idées ?"
   }
 ]

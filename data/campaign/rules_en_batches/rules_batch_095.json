@@ -4,28 +4,28 @@
     "id": "BFFIattendPartyRaidFinishedA",
     "column": "text",
     "original": "Menes is describing another of his expensive acquisitions when the lights cut out.\n\nA moment passes in absolute darkness, the crushing weight of silence falling as the ventilation whirs to a stop. This is the terrible abyss of spacers' death; a reminder that you exist by the whim of machines caught in deadly vacuum, in a precarious balance of temperature and artificial atmosphere.\n\nThe subdued red emergency lighting strips flicker to life. Menes produces a nervous smile, \"I'm sure it's just, um, a glitch.\" He mumbles something into his cuff, then gives it a confused shake.\n\nComms down. By the plan.",
-    "translated": ""
+    "translated": "Menes décrit une autre de ses coûteuses acquisitions quand les lumières s'éteignent.\n\nUn moment passe dans l'obscurité absolue, le poids écrasant du silence tombant tandis que la ventilation s'arrête en sifflant. C'est le terrible abîme de la mort des spaciens ; un rappel que vous existez au gré de machines prises dans le vide mortel, dans un équilibre précaire de température et d'atmosphère artificielle.\n\nLes bandes d'éclairage de secours rouge tamisé vacillent et s'allument. Menes affiche un sourire nerveux : \"Je suis sûr que c'est juste, euh, un bug.\" Il marmonne quelque chose dans sa manche, puis la secoue avec confusion.\n\nComms coupées. Selon le plan."
   },
   {
     "csv_row": 2925,
     "id": "BFFIapRaidOutro1",
     "column": "text",
     "original": "\"It's probably- I'm certain- I, I,\" Menes stutters, \"The power will come back soon. Those rad-addled Olinadu contractors,\" he attempts a nervous laugh.\n\nYou feel the dull thuds, nearly subsonic, through the armored mass of the vault. Breaching charges for the first layer of defense. You know the big one will come soon, and where.\n\nMenes is in a growing panic.",
-    "translated": ""
+    "translated": "\"C'est probablement- j'en suis sûr- je, je,\" bafouille Menes, \"Le courant va revenir bientôt. Ces entrepreneurs d'Olinadu rongés par les radiations,\" il tente un rire nerveux.\n\nVous sentez les coups sourds, presque infrasoniques, à travers la masse blindée du coffre. Des charges de brèche pour la première couche de défense. Vous savez que la grande charge va bientôt arriver, et où.\n\nMenes est pris d'une panique croissante."
   },
   {
     "csv_row": 2926,
     "id": "BFFIapRaidOutro2",
     "column": "text",
     "original": "When the marines finally breach the vault proper, it is with overwhelming force of sound and light. No unprotected human can withstand this assault on the senses; you are blinded, shocked, and rendered immobile. All you can do is cling to the kernel of self at the center of a storm of pain.\n\n* * *\n\nThe return is slow, an awakening from a terrible and drugged sleep to emergency medical personnel and Menes' somewhat tardy security teams in their gleaming armor.\n\nYou and Bornanew leave the compound among the other victims. Bandaged, bruised, head aching, ears ringing.",
-    "translated": ""
+    "translated": "Quand les marines percent finalement le coffre, c'est avec une force écrasante de son et de lumière. Aucun humain non protégé ne peut résister à cet assaut sur les sens ; vous êtes aveuglé, choqué et rendu immobile. Tout ce que vous pouvez faire est de vous accrocher au noyau de votre être au centre d'une tempête de douleur.\n\n* * *\n\nLe retour est lent, un réveil d'un sommeil terrible et drogué face au personnel médical d'urgence et aux équipes de sécurité de Menes, quelque peu tardives, dans leur armure étincelante.\n\nVous et Bornanew quittez le complexe parmi les autres victimes. Bandés, contusionnés, la tête douloureuse, les oreilles bourdonnantes."
   },
   {
     "csv_row": 2927,
     "id": "BFFIapRaidOutro3",
     "column": "text",
     "original": "Hours later, after a series of transfers to obscure your movements from the heightened official surveillance, you step back onto your own shuttle - and the attentions of your personal medical team.\n\nA chime on your TriPad confirms that the operation was a success. A holo of the simple work-glove that human beings fought and died over rotates mockingly. \n\n\"Evidence,\" Bornanew says, tired but alert. His eyes are alarmingly bloodshot. \"The seed of schism and war. Now whence did this come?\"",
-    "translated": ""
+    "translated": "Des heures plus tard, après une série de transferts pour masquer vos mouvements de la surveillance officielle renforcée, vous remontez dans votre propre navette - et les attentions de votre équipe médicale personnelle.\n\nUn carillon sur votre TriPad confirme le succès de l'opération. Un holo du simple gant de travail pour lequel des êtres humains se sont battus et sont morts tourne de façon moqueuse.\n\n\"Des preuves,\" dit Bornanew, fatigué mais alerte. Ses yeux sont d'un rouge sang alarmant. \"La graine du schisme et de la guerre. D'où est-ce que cela vient ?\""
   },
   {
     "csv_row": 2927,
@@ -33,28 +33,28 @@
     "column": "options",
     "option_line": "bffi_mpRaidOutro4b:\"What did you make of that Ulmus Pond?\"",
     "original": "What did you make of that Ulmus Pond?",
-    "translated": ""
+    "translated": "Que pensez-vous de cet Ulmus Pond ?"
   },
   {
     "csv_row": 2928,
     "id": "BFFIapRaidOutro4a",
     "column": "text",
     "original": "\"No,\" he manages a smile for just a moment. \"I would suppose not.\"\n\nHe looks back down at the holo.",
-    "translated": ""
+    "translated": "\"Non,\" il esquisse un sourire l'espace d'un instant. \"J'imagine que non.\"\n\nIl baisse les yeux vers l'holo."
   },
   {
     "csv_row": 2929,
     "id": "BFFIapRaidOutro4b",
     "column": "text",
     "original": "\"A Pather agent,\" he says conclusively.\n\n\"We spoke briefly,\" he says. \"In the aftermath. He insisted the medical team check him. Wasn't hurt.\" \n\nBornanew takes a deep breath, wincing. \"But he slipped up. Heretical theology. Devil in the details. You can tell where one learned the Word, or, rather, a corruption of the Word, from the details.\"\n\n\"He may be connected, but first we should ask the glove.\" He looks back down at the holo.",
-    "translated": ""
+    "translated": "\"Un agent du Sentier,\" dit-il de manière conclusive.\n\n\"Nous avons brièvement parlé,\" dit-il. \"Dans les suites. Il a insisté pour que l'équipe médicale l'examine. Il n'était pas blessé.\"\n\nBornanew prend une profonde inspiration, grimaçant. \"Mais il a fait une erreur. Théologie hérétique. Le diable est dans les détails. On peut dire où quelqu'un a appris la Parole, ou plutôt, une corruption de la Parole, par les détails.\"\n\n\"Il est peut-être lié, mais d'abord nous devrions interroger le gant.\" Il baisse les yeux vers l'holo."
   },
   {
     "csv_row": 2930,
     "id": "BFFIapRaidOutro5",
     "column": "text",
     "original": "\"A nanoforge engineer could tell us much of this object,\" he says. \"Who made it. When, and where. By the truths found in the false glove, we may judge answers we receive from those we... ask.\" His last word is muted by the shuttle's maneuverings.\n\n\"The Church's nanoforge is on Asher. Canaan system. The techs there will submit to the authority I bear. Our inquiry will be secret.\"\n\nHe pauses, and looks away. \"So far as anything is, in the Church.\"",
-    "translated": ""
+    "translated": "\"Un ingénieur de nanoforge pourrait nous en dire beaucoup sur cet objet,\" dit-il. \"Qui l'a fabriqué. Quand, et où. Par les vérités trouvées dans le faux gant, nous pourrons juger les réponses que nous recevrons de ceux que nous... interrogerons.\" Son dernier mot est étouffé par les manoeuvres de la navette.\n\n\"La nanoforge de l'Église est sur Asher. Système de Canaan. Les techniciens là-bas se soumettront à l'autorité que je porte. Notre enquête sera secrète.\"\n\nIl marque une pause et détourne le regard. \"Autant que quoi que ce soit puisse l'être, dans l'Église.\""
   },
   {
     "csv_row": 2930,
@@ -62,13 +62,13 @@
     "column": "options",
     "option_line": "bffi_mpRaidOutro6:\"We should confirm our hard evidence before Menes puts the pieces together here.\"",
     "original": "We should confirm our hard evidence before Menes puts the pieces together here.",
-    "translated": ""
+    "translated": "Nous devrions confirmer nos preuves concrètes avant que Menes ne reconstitue le puzzle ici."
   },
   {
     "csv_row": 2931,
     "id": "BFFIapRaidOutro6",
     "column": "text",
     "original": "Bornanew nods agreement.\n\nThe shuttle approaches your flagship and prepares to dock.",
-    "translated": ""
+    "translated": "Bornanew hoche la tête en signe d'accord.\n\nLa navette s'approche de votre vaisseau amiral et se prépare à s'amarrer."
   }
 ]

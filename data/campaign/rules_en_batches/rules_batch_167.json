@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "backToBar:Jeter un œil autour du bar",
     "original": "Jeter un œil autour du bar",
-    "translated": ""
+    "translated": "Jeter un œil autour du bar"
   },
   {
     "csv_row": 4100,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "goToGA_barEvent2a:Lever un verre",
     "original": "Lever un verre",
-    "translated": ""
+    "translated": "Lever un verre"
   },
   {
     "csv_row": 4100,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "goToGA_barEvent2b:Le poser sur le comptoir",
     "original": "Le poser sur le comptoir",
-    "translated": ""
+    "translated": "Le poser sur le comptoir"
   },
   {
     "csv_row": 4101,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "goToGA_barEvent2a:Lever un verre",
     "original": "Lever un verre",
-    "translated": ""
+    "translated": "Lever un verre"
   },
   {
     "csv_row": 4101,
@@ -37,7 +37,7 @@
     "column": "options",
     "option_line": "goToGA_barEvent2b:Le poser sur le comptoir",
     "original": "Le poser sur le comptoir",
-    "translated": ""
+    "translated": "Le poser sur le comptoir"
   },
   {
     "csv_row": 4105,
@@ -45,7 +45,7 @@
     "column": "options",
     "option_line": "backToBar:Revenir au bar",
     "original": "Revenir au bar",
-    "translated": ""
+    "translated": "Revenir au bar"
   },
   {
     "csv_row": 4108,
@@ -53,7 +53,7 @@
     "column": "options",
     "option_line": "0:gaRequestMeeting1:Suivre the junior academy agent",
     "original": "gaRequestMeeting1:Suivre the junior academy agent",
-    "translated": ""
+    "translated": "gaRequestMeeting1:Suivre the junior academy agent"
   },
   {
     "csv_row": 4123,
@@ -61,7 +61,7 @@
     "column": "options",
     "option_line": "3:gaMeetingStipend:Questionner sur l'allocation que vous recevez",
     "original": "gaMeetingStipend:Questionner sur l'allocation que vous recevez",
-    "translated": ""
+    "translated": "gaMeetingStipend:Questionner sur l'allocation que vous recevez"
   },
   {
     "csv_row": 4131,
@@ -69,7 +69,7 @@
     "column": "options",
     "option_line": "100:cutCommLinkNoText:Couper la comm",
     "original": "cutCommLinkNoText:Couper la comm",
-    "translated": ""
+    "translated": "cutCommLinkNoText:Couper la comm"
   },
   {
     "csv_row": 4134,
@@ -77,6 +77,6 @@
     "column": "options",
     "option_line": "0:cutCommLink:Couper les comms",
     "original": "cutCommLink:Couper les comms",
-    "translated": ""
+    "translated": "cutCommLink:Couper les comms"
   }
 ]

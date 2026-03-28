@@ -3,7 +3,7 @@
     "csv_row": 2764,
     "id": "BFFIattendPartyHub1optB",
     "column": "options",
-    "option_line": "bffi_apHub1optB:\"Everyone, you say? Does that include the Luddic Path?\"",
+    "option_line": "bffi_apHub1optB:\"Tout le monde, dites-vous ? Ça inclut le Sentier Luddique ?\"",
     "original": "Everyone, you say? Does that include the Luddic Path?",
     "translated": "Tout le monde, dites-vous ? Ça inclut le Sentier Luddique ?"
   },
@@ -11,7 +11,7 @@
     "csv_row": 2765,
     "id": "BFFIattendPartyHub1optC",
     "column": "options",
-    "option_line": "bffi_apHub1optC:\"So, Ulmus was it? How do you know $global.jethroName?\"",
+    "option_line": "bffi_apHub1optC:\"Alors, Ulmus, c'est ça ? Comment connaissez-vous $global.jethroName ?\"",
     "original": "So, Ulmus was it? How do you know $global.jethroName?",
     "translated": "Alors, Ulmus, c'est ça ? Comment connaissez-vous $global.jethroName ?"
   },
@@ -61,7 +61,7 @@
     "csv_row": 2775,
     "id": "BFFIattendPartyHub1Out1",
     "column": "options",
-    "option_line": "bffi_apHub1Out2:Allow Menes to pull you along",
+    "option_line": "bffi_apHub1Out2:Laisser Menes vous entraîner",
     "original": "Allow Menes to pull you along",
     "translated": "Laisser Menes vous entraîner"
   },

@@ -4,7 +4,7 @@
     "id": "gaATGzalMissionCreditsTake",
     "column": "text",
     "original": "\"D'accord... d'accord bien, le transfert est termine,\" dit Coureuse. \"Je suis juste contente de pouvoir aider un tant soit peu.\"\n\nGargoyle vous observe, immobile, avec juste un soupcon de sourire.",
-    "translated": ""
+    "translated": "\"D'accord... d'accord bien, le transfert est termine,\" dit Coureuse. \"Je suis juste contente de pouvoir aider un tant soit peu.\"\n\nGargoyle vous observe, immobile, avec juste un soupcon de sourire."
   },
   {
     "csv_row": 5726,
@@ -36,7 +36,7 @@
     "column": "options",
     "option_line": "gaATG_kantaPaymentZal:\"Mon paiement sera Zal.\"",
     "original": "Mon paiement sera Zal.",
-    "translated": ""
+    "translated": "Mon paiement sera Zal."
   },
   {
     "csv_row": 5759,
@@ -44,7 +44,7 @@
     "column": "options",
     "option_line": "gaVIP_informPirate:Informer le pirate que vous travaillez pour le Seigneur de guerre Kanta",
     "original": "Informer le pirate que vous travaillez pour le Seigneur de guerre Kanta",
-    "translated": ""
+    "translated": "Informer le pirate que vous travaillez pour le Seigneur de guerre Kanta"
   },
   {
     "csv_row": 5792,

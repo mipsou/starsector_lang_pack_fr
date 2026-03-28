@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "affkFailContinueWant:\"Que veut Kanta ?\"",
     "original": "Que veut Kanta ?",
-    "translated": ""
+    "translated": "Que veut Kanta ?"
   },
   {
     "csv_row": 9559,
@@ -45,7 +45,7 @@
     "column": "options",
     "option_line": "psk_discussBusinessStory:\"Je souhaite parler affaires.\"",
     "original": "Je souhaite parler affaires.",
-    "translated": ""
+    "translated": "Je souhaite parler affaires."
   },
   {
     "csv_row": 9566,
@@ -61,7 +61,7 @@
     "column": "options",
     "option_line": "psk_acceptStory:\"Vous aurez 10% du revenu brut de mes colonies et je vais vous dire pourquoi vous accepterez.\"",
     "original": "Vous aurez 10% du revenu brut de mes colonies et je vais vous dire pourquoi vous accepterez.",
-    "translated": ""
+    "translated": "Vous aurez 10% du revenu brut de mes colonies et je vais vous dire pourquoi vous accepterez."
   },
   {
     "csv_row": 9569,
@@ -69,7 +69,7 @@
     "column": "options",
     "option_line": "psk_decline:\"Laissez tomber.\"",
     "original": "Laissez tomber.",
-    "translated": ""
+    "translated": "Laissez tomber."
   },
   {
     "csv_row": 9570,
@@ -77,6 +77,6 @@
     "column": "options",
     "option_line": "psk_acceptStory:\"Vous aurez 10% du revenu brut de mes colonies et je vais vous dire pourquoi vous accepterez.\"",
     "original": "Vous aurez 10% du revenu brut de mes colonies et je vais vous dire pourquoi vous accepterez.",
-    "translated": ""
+    "translated": "Vous aurez 10% du revenu brut de mes colonies et je vais vous dire pourquoi vous accepterez."
   }
 ]

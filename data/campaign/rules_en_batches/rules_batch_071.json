@@ -3,72 +3,72 @@
     "csv_row": 2667,
     "id": "BFFImmBornBuyerOptHubA",
     "column": "options",
-    "option_line": "bffi_mmBornBuyerChurch:\"If the Church isn't paying... you're asking me to pay.\"",
+    "option_line": "bffi_mmBornBuyerChurch:\"Si l'Église ne paie pas... vous me demandez de payer.\"",
     "original": "If the Church isn't paying... you're asking me to pay.",
-    "translated": ""
+    "translated": "Si l'Église ne paie pas... vous me demandez de payer."
   },
   {
     "csv_row": 2670,
     "id": "BFFImmBornBuyerOptHubBalt",
     "column": "options",
-    "option_line": "bffi_mmBornStealOpt:\"It sounds like we should just steal the glove.\"",
+    "option_line": "bffi_mmBornStealOpt:\"On dirait qu'on devrait tout simplement voler le gant.\"",
     "original": "It sounds like we should just steal the glove.",
-    "translated": ""
+    "translated": "On dirait qu'on devrait tout simplement voler le gant."
   },
   {
     "csv_row": 2679,
     "id": "BFFImmBornArroyo",
     "column": "text",
     "original": "Bornanew looks up. \"Do you think he would assist us in this matter?\"",
-    "translated": ""
+    "translated": "Bornanew lève les yeux. \"Pensez-vous qu'il nous aiderait dans cette affaire ?\""
   },
   {
     "csv_row": 2680,
     "id": "BFFImmBornArroyoA",
     "column": "text",
     "original": "\"I see,\" he says. \"Perhaps we should consider a different option.\"",
-    "translated": ""
+    "translated": "\"Je vois,\" dit-il. \"Peut-être devrions-nous envisager une autre option.\""
   },
   {
     "csv_row": 2681,
     "id": "BFFImmBornArroyoB",
     "column": "text",
     "original": "\"I see,\" he says. \"Perhaps we should consider a different option.\"",
-    "translated": ""
+    "translated": "\"Je vois,\" dit-il. \"Peut-être devrions-nous envisager une autre option.\""
   },
   {
     "csv_row": 2682,
     "id": "BFFImmBornArroyoC",
     "column": "text",
     "original": "\"I see,\" he says. \"Perhaps we should consider a different option.\"",
-    "translated": ""
+    "translated": "\"Je vois,\" dit-il. \"Peut-être devrions-nous envisager une autre option.\""
   },
   {
     "csv_row": 2683,
     "id": "BFFImmBornArroyoD",
     "column": "text",
     "original": "\"I see,\" he says. \"Perhaps we should consider a different option.\"",
-    "translated": ""
+    "translated": "\"Je vois,\" dit-il. \"Peut-être devrions-nous envisager une autre option.\""
   },
   {
     "csv_row": 2684,
     "id": "BFFImmBornBuyerChurch",
     "column": "text",
     "original": "You can see the inner conflict on Bornanew's face.\n\nHe knows he is asking far, far too much. But he wants to. If he had the credits, he would give them to the cause of the Church without a second thought. But he is a Knight of Ludd, sworn to poverty but for the allowance granted to him by his order - or by the indulgence of the Reverend Archcurate Jaspis.\n\nHe sees that you see all of this. And, knowing that words can only do harm, he makes the barest movement toward a shrug. A way of saying, you know who I am; what I am; what I need ask. Your choice is yours.",
-    "translated": ""
+    "translated": "Vous pouvez voir le conflit intérieur sur le visage de Bornanew.\n\nIl sait qu'il demande bien, bien trop. Mais il le veut. S'il avait les crédits, il les donnerait à la cause de l'Église sans hésiter. Mais il est un Chevalier de Ludd, ayant fait voeu de pauvreté hormis l'allocation que lui accorde son ordre - ou par l'indulgence du Révérend Archicuré Jaspis.\n\nIl voit que vous voyez tout cela. Et, sachant que les mots ne peuvent que nuire, il ébauche à peine un haussement d'épaules. Une façon de dire : vous savez qui je suis ; ce que je suis ; ce que je dois demander. Votre choix vous appartient."
   },
   {
     "csv_row": 2685,
     "id": "BFFImmBornBuyerPoor",
     "column": "text",
     "original": "\"That is a problem,\" Bornanew admits.\n\n\"I don't believe Menes will take an offer seriously unless you demonstrate that you possess immense wealth. A half million credits, at least. To be safe.\" He taps his book, \"Though if you could talk him into accepting payment in the form of installments, you'd only have to pay a fraction of the full price to take possession of the glove...\"",
-    "translated": ""
+    "translated": "\"C'est un problème,\" admet Bornanew.\n\n\"Je ne crois pas que Menes prendra une offre au sérieux à moins que vous ne démontriez que vous possédez une immense richesse. Un demi-million de crédits, au minimum. Pour être sûr.\" Il tapote son livre, \"Cependant, si vous pouviez le convaincre d'accepter un paiement échelonné, vous n'auriez à payer qu'une fraction du prix total pour prendre possession du gant...\""
   },
   {
     "csv_row": 2686,
     "id": "BFFImmBornBuyerDestroy",
     "column": "text",
     "original": "\"Yes,\" Bornanew admits.\n\n\"I don't believe Menes will take an offer seriously unless you can demonstrate that you possess immense wealth. A half million credits, at least. To be safe.\" He taps his book, \"Though if you could talk him into accepting payment in the form of installments, you might only have to pay a fraction of the full price to take possession...\"",
-    "translated": ""
+    "translated": "\"Oui,\" admet Bornanew.\n\n\"Je ne crois pas que Menes prendra une offre au sérieux à moins que vous ne puissiez démontrer que vous possédez une immense richesse. Un demi-million de crédits, au minimum. Pour être sûr.\" Il tapote son livre, \"Cependant, si vous pouviez le convaincre d'accepter un paiement échelonné, vous n'auriez peut-être à payer qu'une fraction du prix total pour en prendre possession...\""
   }
 ]

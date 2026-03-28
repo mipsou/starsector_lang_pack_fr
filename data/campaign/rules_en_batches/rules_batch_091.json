@@ -5,14 +5,14 @@
     "column": "options",
     "option_line": "bffi_apHorus14:\"And it's almost certainly a fake.\"",
     "original": "And it's almost certainly a fake.",
-    "translated": ""
+    "translated": "Et c'est presque certainement un faux."
   },
   {
     "csv_row": 2897,
     "id": "BFFIapHorus14",
     "column": "text",
     "original": "Menes looks shocked.\n\nHorus gives you a look of his own. \"Of course it is,\" he says. \"And here I thought only a Luddie would be foolish enough to believe in this sort of thing.\"\n\n\"Cousin!\" Menes exclaims, appalled.\n\n\"Do not 'cousin' me!\" Horus shouts, now, after an icy restraint held for so long.\n\n\"Remember how I saved you last time? The promises you made? And here, you've wasted stars-know how many credits on more nonsense, a bomb waiting to explode under the gens!\"",
-    "translated": ""
+    "translated": "Menes a l'air choqué.\n\nHorus vous lance son propre regard. \"Bien sûr que oui,\" dit-il. \"Et moi qui pensais que seul un luddique serait assez sot pour croire à ce genre de chose.\"\n\n\"Cousin !\" s'exclame Menes, consterné.\n\n\"Ne me 'cousin' pas !\" crie Horus, maintenant, après une retenue glaciale maintenue si longtemps.\n\n\"Tu te souviens comment je t'ai sauvé la dernière fois ? Les promesses que tu as faites ? Et te voilà, ayant gaspillé les étoiles savent combien de crédits en d'autres absurdités, une bombe prête à exploser sous la gens !\""
   },
   {
     "csv_row": 2897,
@@ -20,21 +20,21 @@
     "column": "options",
     "option_line": "bffi_apHorus15:Keep your mouth shut, for now",
     "original": "Keep your mouth shut, for now",
-    "translated": ""
+    "translated": "Garder la bouche fermée, pour l'instant"
   },
   {
     "csv_row": 2898,
     "id": "BFFIapHorus15",
     "column": "text",
     "original": "\"What would Reynard Hannan do if he knew what you were up to here, do you think?\"\n\nMenes shakes his head, speechless.\n\n\"He would loose the Church on us! And their bloody-minded Pathers! Think, think for once, 'cousin'.\" Horus spits the word poisonously. \"Think of anyone in the Sector aside from yourself. Think of your gens!\"\n\n\"The Chu- Path?\" Menes sputters pathetically. \"If Captain $playerLastName said it's a fake, it shouldn't be-\"\n\n\"Oh, so now it's a fake?\" Horus cuts him off. \"Enough! Here is what will happen.\"",
-    "translated": ""
+    "translated": "\"Que ferait Reynard Hannan s'il savait ce que vous faites ici, d'après vous ?\"\n\nMenes secoue la tête, sans voix.\n\n\"Il lâcherait l'Église sur nous ! Et leurs maudits Pathers ! Réfléchis, réfléchis pour une fois, 'cousin'.\" Horus crache le mot avec venin. \"Pense à quelqu'un d'autre dans le Secteur que toi-même. Pense à ta gens !\"\n\n\"L'Égli- Sentier ?\" bafouille Menes pathétiquement. \"Si le capitaine $playerLastName dit que c'est un faux, ça ne devrait pas-\"\n\n\"Oh, alors maintenant c'est un faux ?\" Horus le coupe. \"Assez ! Voici ce qui va se passer.\""
   },
   {
     "csv_row": 2899,
     "id": "BFFIapHorus16",
     "column": "text",
     "original": "\"Captain $playerLastName and $playerHisOrHer pet Knight of Ludd shall take possession of the damnable trinket. Immediately. As a sign of good faith to our Luddic 'friends' in the Church of Galactic Redemption.\"\n\nHe gives you a look, \"See that they appreciate what I've done for them.\"\n\nBack to Menes. \"From now on I am taking personal control of your accounts. No frivolities without approval from my office.\"\n\nMenes begins to make a sound of objection but is cut off as Horus raises a single finger. A Reaper torpedo, armed and ready to launch into the unshielded breach.\n\n\"You and I,\" Horus says, \"Shall continue our conversation in private.\" He doesn't turn to you again. \"Captain, if you would kindly?\"",
-    "translated": ""
+    "translated": "\"Le capitaine $playerLastName et $playerHisOrHer Chevalier de Ludd prendront possession du maudit bibelot. Immédiatement. En signe de bonne foi envers nos 'amis' luddiques de l'Église de la Rédemption Galactique.\"\n\nIl vous lance un regard : \"Faites en sorte qu'ils apprécient ce que j'ai fait pour eux.\"\n\nRetour à Menes. \"Désormais, je prends personnellement le contrôle de tes comptes. Aucune frivolité sans l'approbation de mon bureau.\"\n\nMenes commence à émettre un son d'objection mais est coupé quand Horus lève un seul doigt. Une torpille Reaper, armée et prête à être lancée dans la brèche sans bouclier.\n\n\"Toi et moi,\" dit Horus, \"allons poursuivre notre conversation en privé.\" Il ne se retourne plus vers vous. \"Capitaine, si vous voulez bien ?\""
   },
   {
     "csv_row": 2899,
@@ -42,14 +42,14 @@
     "column": "options",
     "option_line": "bffi_apHorus17:Take the glove",
     "original": "Take the glove",
-    "translated": ""
+    "translated": "Prendre le gant"
   },
   {
     "csv_row": 2900,
     "id": "BFFIapHorus17",
     "column": "text",
     "original": "Despite knowing what it is - or, rather, isn't - it feels almost like sacrilege to simply reach over to touch this object of such presumed expense and such evident disgrace. A vessel assigned such power and import, faith and violence, despite its reified deceit.\n\nIt is the glowing prize at the center of this temple, this shrine to the ego of Menes Yaribay bought with the lucre of the Kazeronian empire, fueled by faith and blood from over two hundred cycles since someone who took the name Ludd did something, probably, half-remembered then gilded in glorious myth on a planet named Gilead.",
-    "translated": ""
+    "translated": "Malgré la connaissance de ce que c'est - ou plutôt, de ce que ce n'est pas - on ressent presque un sacrilège à simplement tendre la main pour toucher cet objet d'un tel coût présumé et d'une telle disgrâce évidente. Un réceptacle auquel on a attribué tant de pouvoir et d'importance, de foi et de violence, malgré sa tromperie réifiée.\n\nC'est le prix lumineux au centre de ce temple, ce sanctuaire dédié à l'ego de Menes Yaribay acheté avec le lucre de l'empire kazéronien, alimenté par la foi et le sang depuis plus de deux cents cycles depuis que quelqu'un qui prit le nom de Ludd fit quelque chose, probablement, à moitié oublié puis doré de mythe glorieux sur une planète nommée Gilead."
   },
   {
     "csv_row": 2900,
@@ -57,14 +57,14 @@
     "column": "options",
     "option_line": "bffi_apHorus19:Just take the glove already",
     "original": "Just take the glove already",
-    "translated": ""
+    "translated": "Prendre le gant, tout simplement"
   },
   {
     "csv_row": 2901,
     "id": "BFFIapHorus18",
     "column": "text",
     "original": "The quiet of the air circulation looms. Horus clears his throat.",
-    "translated": ""
+    "translated": "Le silence de la circulation d'air pèse. Horus se racle la gorge."
   },
   {
     "csv_row": 2901,
@@ -72,6 +72,6 @@
     "column": "options",
     "option_line": "bffi_apHorus19:Take the glove",
     "original": "Take the glove",
-    "translated": ""
+    "translated": "Prendre le gant"
   }
 ]

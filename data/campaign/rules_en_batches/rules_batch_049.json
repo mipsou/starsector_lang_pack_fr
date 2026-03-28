@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "lke_virensKillSedgeBruteB-B:\"Et ils mourront aussi, s'ils choisissent le meurtre et le terrorisme.\"",
     "original": "Et ils mourront aussi, s'ils choisissent le meurtre et le terrorisme.",
-    "translated": ""
+    "translated": "Et ils mourront aussi, s'ils choisissent le meurtre et le terrorisme."
   },
   {
     "csv_row": 2195,
@@ -13,14 +13,14 @@
     "column": "options",
     "option_line": "lke_virensWhyKillSedgeOut:Parler d'autre chose",
     "original": "Parler d'autre chose",
-    "translated": ""
+    "translated": "Parler d'autre chose"
   },
   {
     "csv_row": 2196,
     "id": "LKEvirensKillSedgeBrute2B-A",
     "column": "text",
     "original": "\"Non. Mais ils choisissent,\" dit Virens.",
-    "translated": ""
+    "translated": "\"Non. Mais ils choisissent,\" dit Virens."
   },
   {
     "csv_row": 2198,
@@ -28,7 +28,7 @@
     "column": "options",
     "option_line": "lke_virensKillSedgeBruteC2:\"Vous ne pouvez pas simplement ignorer Mairaath, et ce que la Voie y a fait.\"",
     "original": "Vous ne pouvez pas simplement ignorer Mairaath, et ce que la Voie y a fait.",
-    "translated": ""
+    "translated": "Vous ne pouvez pas simplement ignorer Mairaath, et ce que la Voie y a fait."
   },
   {
     "csv_row": 2198,
@@ -36,7 +36,7 @@
     "column": "options",
     "option_line": "lke_virensWhyKillSedgeOut:Parler d'autre chose",
     "original": "Parler d'autre chose",
-    "translated": ""
+    "translated": "Parler d'autre chose"
   },
   {
     "csv_row": 2201,
@@ -44,7 +44,7 @@
     "column": "options",
     "option_line": "lke_virensKillSedgePurity2b:\"Beaucoup moins une fois que quelques-uns auront servi d'exemple.\"",
     "original": "Beaucoup moins une fois que quelques-uns auront servi d'exemple.",
-    "translated": ""
+    "translated": "Beaucoup moins une fois que quelques-uns auront servi d'exemple."
   },
   {
     "csv_row": 2201,
@@ -52,7 +52,7 @@
     "column": "options",
     "option_line": "lke_virensWhyKillSedgeOut:Parler d'autre chose",
     "original": "Parler d'autre chose",
-    "translated": ""
+    "translated": "Parler d'autre chose"
   },
   {
     "csv_row": 2210,
@@ -60,7 +60,7 @@
     "column": "options",
     "option_line": "lke_virensKillSedgePurity2b:\"Beaucoup moins une fois que quelques-uns auront servi d'exemple.\"",
     "original": "Beaucoup moins une fois que quelques-uns auront servi d'exemple.",
-    "translated": ""
+    "translated": "Beaucoup moins une fois que quelques-uns auront servi d'exemple."
   },
   {
     "csv_row": 2210,
@@ -68,7 +68,7 @@
     "column": "options",
     "option_line": "lke_virensWhyKillSedgeOut:Parler d'autre chose",
     "original": "Parler d'autre chose",
-    "translated": ""
+    "translated": "Parler d'autre chose"
   },
   {
     "csv_row": 2219,
@@ -76,6 +76,6 @@
     "column": "options",
     "option_line": "lke_virensIntentionsCjoke:\"Mes excuses. C'est juste de l'humour de spacien.\"",
     "original": "Mes excuses. C'est juste de l'humour de spacien.",
-    "translated": ""
+    "translated": "Mes excuses. C'est juste de l'humour de spacien."
   }
 ]

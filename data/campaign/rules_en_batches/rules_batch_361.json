@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "gaDHO_endingDataFirst:\"Transmitting data now...\"",
     "original": "Transmitting data now...",
-    "translated": ""
+    "translated": "Transmission des données en cours..."
   },
   {
     "csv_row": 10995,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "gaDHO_endingDataFirst:\"Transmitting data now...\"",
     "original": "Transmitting data now...",
-    "translated": ""
+    "translated": "Transmission des données en cours..."
   },
   {
     "csv_row": 10996,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "gaDHO_endingRewardFirst:\"Let's talk about payment first. Then the data.\"",
     "original": "Let's talk about payment first. Then the data.",
-    "translated": ""
+    "translated": "Parlons d'abord du paiement. Ensuite les données."
   },
   {
     "csv_row": 10998,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "gaDHO_abyssEndFoundFirst1:Tell him about the Onslaught Mk.I",
     "original": "Tell him about the Onslaught Mk.I",
-    "translated": ""
+    "translated": "Lui parler de l'Onslaught Mk.I"
   },
   {
     "csv_row": 10999,
@@ -37,7 +37,7 @@
     "column": "options",
     "option_line": "gaDHO_endingDataTransfer:\"My combat recordings and sensor data prove it. Transmitting now.\"",
     "original": "My combat recordings and sensor data prove it. Transmitting now.",
-    "translated": ""
+    "translated": "Mes enregistrements de combat et données de capteurs le prouvent. Transmission en cours."
   },
   {
     "csv_row": 10999,
@@ -45,14 +45,14 @@
     "column": "options",
     "option_line": "gaDHO_abyssEndAskReward:\"My combat recordings and sensor data prove it. I'll transmit after payment.\"",
     "original": "My combat recordings and sensor data prove it. I'll transmit after payment.",
-    "translated": ""
+    "translated": "Mes enregistrements de combat et données de capteurs le prouvent. Je transmettrai après paiement."
   },
   {
     "csv_row": 11000,
     "id": "gaDHOabyssEndFoundFirst2",
     "column": "text",
     "original": "\"What?\" He lets out an impatient huff.\n\n\"For your nonsense story? I'll need to examine the data itself before I believe a word of it.\"\n\nHe taps his datapad, opening a stream for you, then fixes you with a skeptical glare.\n\n\"I say, $playerSirOrMadam - prove it.\"",
-    "translated": ""
+    "translated": "\"Quoi ?\" Il laisse échapper un soupir impatient.\n\n\"Pour votre histoire abracadabrante ? Il me faudra examiner les données elles-mêmes avant d'en croire un traître mot.\"\n\nIl tapote sa tablette, ouvrant un flux pour vous, puis vous fixe d'un regard sceptique.\n\n\"Prouvez-le, $playerSirOrMadam.\""
   },
   {
     "csv_row": 11000,
@@ -60,7 +60,7 @@
     "column": "options",
     "option_line": "gaDHO_endingDataTransfer:Transmit the data",
     "original": "Transmit the data",
-    "translated": ""
+    "translated": "Transmettre les données"
   },
   {
     "csv_row": 11001,
@@ -68,7 +68,7 @@
     "column": "options",
     "option_line": "gaDHO_endingDataTransfer:Transferer les donnees",
     "original": "Transferer les donnees",
-    "translated": ""
+    "translated": "Transférer les données"
   },
   {
     "csv_row": 11004,
@@ -76,6 +76,6 @@
     "column": "options",
     "option_line": "gaDHO_endingDataTransfer:\"Good. Transferring data now.\"",
     "original": "Good. Transferring data now.",
-    "translated": ""
+    "translated": "Bien. Transfert des données en cours."
   }
 ]

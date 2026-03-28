@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "100:cutCommLink:Couper la comm",
     "original": "cutCommLink:Couper la comm",
-    "translated": ""
+    "translated": "cutCommLink:Couper la comm"
   },
   {
     "csv_row": 593,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "gaVIP_informPirate:Informer le pirate que vous travaillez pour le Seigneur de guerre Kanta",
     "original": "Informer le pirate que vous travaillez pour le Seigneur de guerre Kanta",
-    "translated": ""
+    "translated": "Informer le pirate que vous travaillez pour le Seigneur de guerre Kanta"
   },
   {
     "csv_row": 598,

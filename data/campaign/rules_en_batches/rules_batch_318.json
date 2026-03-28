@@ -1,81 +1,79 @@
 [
   {
-    "csv_row": 9329,
-    "id": "anhDiktatPatrolStall2",
+    "csv_row": 9359,
+    "id": "anhCheckCompletionOnlyKid",
     "column": "options",
-    "option_line": "anh_diktatPatrolStall30:\"Je ne veux pas savoir.\"",
-    "original": "Je ne veux pas savoir.",
-    "translated": ""
+    "option_line": "anh_completeDeliveryOnlyKid0:\"On fait tous ce qu'il faut pour survivre, petit.\"",
+    "original": "On fait tous ce qu'il faut pour survivre, petit.",
+    "translated": "On fait tous ce qu'il faut pour survivre, petit."
   },
   {
-    "csv_row": 9340,
-    "id": "anhDiktatPatrolAgainOptionD",
-    "column": "options",
-    "option_line": "anh_diktatPatrolRights:\"Vous n'avez pas le droit d'enlever mes passagers.\"",
-    "original": "Vous n'avez pas le droit d'enlever mes passagers.",
-    "translated": ""
-  },
-  {
-    "csv_row": 9343,
-    "id": "anhDiktatPatrolSearch2",
-    "column": "options",
-    "option_line": "cutCommLink:Couper la comm",
-    "original": "Couper la comm",
-    "translated": "Couper la comm"
-  },
-  {
-    "csv_row": 9349,
-    "id": "anhDiktatPatrolMixedEnd",
-    "column": "options",
-    "option_line": "cutCommLink:Couper la comm",
-    "original": "Couper la comm",
-    "translated": "Couper la comm"
-  },
-  {
-    "csv_row": 9350,
-    "id": "anhDiktatPatrolBothEnd",
-    "column": "options",
-    "option_line": "anh_diktatPatrolQuestEnd:Couper la comm",
-    "original": "Couper la comm",
-    "translated": "Couper la comm"
-  },
-  {
-    "csv_row": 9351,
-    "id": "anhDiktatPatrolHostileEnd",
-    "column": "options",
-    "option_line": "cutCommLink:\"Postes de combat.\"",
-    "original": "Postes de combat.",
-    "translated": ""
-  },
-  {
-    "csv_row": 9352,
-    "id": "anhDiktatPatrolBluffEnd",
-    "column": "options",
-    "option_line": "cutCommLink:Couper la comm",
-    "original": "Couper la comm",
-    "translated": "Couper la comm"
-  },
-  {
-    "csv_row": 9357,
-    "id": "anhCheckCompletion",
-    "column": "options",
-    "option_line": "anh_completeDeliveryMoon:\"Ce n'est qu'une lune, gamin. Avec un noyau rocheux.\"",
-    "original": "Ce n'est qu'une lune, gamin. Avec un noyau rocheux.",
-    "translated": ""
-  },
-  {
-    "csv_row": 9357,
-    "id": "anhCheckCompletion",
+    "csv_row": 9359,
+    "id": "anhCheckCompletionOnlyKid",
     "column": "options",
     "option_line": "anh_completeDelivery:Laisser tomber",
     "original": "Laisser tomber",
-    "translated": ""
+    "translated": "Laisser tomber"
   },
   {
-    "csv_row": 9358,
-    "id": "anhCheckCompletion2",
+    "csv_row": 9360,
+    "id": "anhCheckCompletionOnlyKidReroute",
     "column": "text",
-    "original": "Le gamin parvient a ne pas avoir l'air decu par cette revelation.",
-    "translated": ""
+    "original": "He looks like he's going to take the bait, but the robot bleeps at him, defusing his anger.",
+    "translated": "Il a l'air de mordre à l'hameçon, mais le robot émet un bip dans sa direction, désamorçant sa colère."
+  },
+  {
+    "csv_row": 9376,
+    "id": "ImoinuUmbraGreetingsLiar",
+    "column": "text",
+    "original": "\"$playerName the liar.\" She scowls. \"Didn't I tell you to suck vacuum?\"",
+    "translated": "\"$playerName le menteur.\" Elle fronce les sourcils. \"Je ne vous avais pas dit d'aller respirer le vide ?\""
+  },
+  {
+    "csv_row": 9378,
+    "id": "ImoinuUmbraGreetingSDcom",
+    "column": "options",
+    "option_line": "imoinuKato_SDcomConfrontB:\"Ah, so you've heard of me. Very good.\"",
+    "original": "Ah, so you've heard of me. Very good.",
+    "translated": "Ah, vous avez entendu parler de moi. Très bien."
+  },
+  {
+    "csv_row": 9378,
+    "id": "ImoinuUmbraGreetingSDcom",
+    "column": "options",
+    "option_line": "imoinuKato_SDcomConfrontC:\"Perhaps you've mistaken me for someone else.\" (lie)",
+    "original": "Perhaps you've mistaken me for someone else.\" (lie)",
+    "translated": "Vous me confondez peut-être avec quelqu'un d'autre.\" (mensonge)"
+  },
+  {
+    "csv_row": 9386,
+    "id": "ImoinuKatoUmbraAskWhat",
+    "column": "options",
+    "option_line": "imoinuKato_askWhatUmbra:\"Aren't you Gens Kato? What are you doing on Umbra?\"",
+    "original": "Aren't you Gens Kato? What are you doing on Umbra?",
+    "translated": "N'êtes-vous pas Gens Kato ? Que faites-vous sur Umbra ?"
+  },
+  {
+    "csv_row": 9387,
+    "id": "ImoinuKatoUmbraSayAndrada",
+    "column": "options",
+    "option_line": "imoinuKato_sayAndrada1:\"Speaking of Andrada... I've got some good news for you.\"",
+    "original": "Speaking of Andrada... I've got some good news for you.",
+    "translated": "En parlant d'Andrada... j'ai de bonnes nouvelles pour vous."
+  },
+  {
+    "csv_row": 9388,
+    "id": "ImoinuKatoUmbraSayAndrada1",
+    "column": "text",
+    "original": "\"What about him?\" She watches you carefully.",
+    "translated": "\"Quoi à son sujet ?\" Elle vous observe attentivement."
+  },
+  {
+    "csv_row": 9388,
+    "id": "ImoinuKatoUmbraSayAndrada1",
+    "column": "options",
+    "option_line": "imoinuKato_sayAndrada2:\"I'm pretty sure he's braindead. Dolos Macario as much as admitted it to me.\"",
+    "original": "I'm pretty sure he's braindead. Dolos Macario as much as admitted it to me.",
+    "translated": "Je suis pratiquement sûr qu'il est en état de mort cérébrale. Dolos Macario me l'a quasiment avoué."
   }
 ]

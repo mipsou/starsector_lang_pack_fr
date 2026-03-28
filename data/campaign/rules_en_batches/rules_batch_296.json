@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "ttContact_bribeRep1mAccept:\"Un million, allons-y.\"",
     "original": "Un million, allons-y.",
-    "translated": ""
+    "translated": "Un million, allons-y."
   },
   {
     "csv_row": 8541,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "ttContact_bribeRep10mAccept:\"Faites-le. Transfert en cours.\"",
     "original": "Faites-le. Transfert en cours.",
-    "translated": ""
+    "translated": "Faites-le. Transfert en cours."
   },
   {
     "csv_row": 8543,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "ttContact_bribeRep10mOutrageous:\"Cela semble scandaleusement cher.\"",
     "original": "Cela semble scandaleusement cher.",
-    "translated": ""
+    "translated": "Cela semble scandaleusement cher."
   },
   {
     "csv_row": 8545,
@@ -52,21 +52,21 @@
     "id": "ttContactBribeRepDecline",
     "column": "text",
     "original": "\"Je ne fais que vous presenter une option,\" dit $heOrShe, strictement professionnel. \"Faites-moi signe si vous changez d'avis.\"",
-    "translated": ""
+    "translated": "\"Je ne fais que vous presenter une option,\" dit $heOrShe, strictement professionnel. \"Faites-moi signe si vous changez d'avis.\""
   },
   {
     "csv_row": 8550,
     "id": "defaultCallistoGreeting",
     "column": "text",
     "original": "Elle fronce les sourcils et vous examine, evaluant la situation.\n\n\"Bonjour, ici Callisto Ibrahim d'Ibrahim Interstellaire Transport et Recuperation.\"",
-    "translated": ""
+    "translated": "Elle fronce les sourcils et vous examine, evaluant la situation.\n\n\"Bonjour, ici Callisto Ibrahim d'Ibrahim Interstellaire Transport et Recuperation.\""
   },
   {
     "csv_row": 8551,
     "id": "ibrahimGreetingGaveKantaHamatsu",
     "column": "text",
     "original": "La liaison attend, coupe la connexion, puis reessaie. Les comms ne semblent pas fonctionner correctement.\n\nOu alors Ibrahim a associe votre identifiant a une deconnexion automatique.",
-    "translated": ""
+    "translated": "La liaison attend, coupe la connexion, puis reessaie. Les comms ne semblent pas fonctionner correctement.\n\nOu alors Ibrahim a associe votre identifiant a une deconnexion automatique."
   },
   {
     "csv_row": 8551,

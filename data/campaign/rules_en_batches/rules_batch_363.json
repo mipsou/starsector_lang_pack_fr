@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "3:gaDHO_visitElekStart2:Ask where you could find the office of Cornelius Elek",
     "original": "gaDHO_visitElekStart2:Ask where you could find the office of Cornelius Elek",
-    "translated": ""
+    "translated": "gaDHO_visitElekStart2:Demander où se trouve le bureau de Cornelius Elek"
   },
   {
     "csv_row": 11026,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "gaDHO_visitElekAltIntro2b:\"They probably didn't make it. I'm sorry.\"",
     "original": "They probably didn't make it. I'm sorry.",
-    "translated": ""
+    "translated": "Ils n'ont probablement pas survécu. Je suis désolé."
   },
   {
     "csv_row": 11026,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "gaDHO_visitElekAltIntro2c:\"If they're not back yet, they're probably dead.\"",
     "original": "If they're not back yet, they're probably dead.",
-    "translated": ""
+    "translated": "S'ils ne sont pas encore revenus, ils sont probablement morts."
   },
   {
     "csv_row": 11030,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "gaDHO_visitElekAltIntro4:\"Yes. And it worked. It gave me coordinates for something in the Abyss.\"",
     "original": "Yes. And it worked. It gave me coordinates for something in the Abyss.",
-    "translated": ""
+    "translated": "Oui. Et ça a fonctionné. Ça m'a donné des coordonnées pour quelque chose dans l'Abysse."
   },
   {
     "csv_row": 11031,
@@ -37,7 +37,7 @@
     "column": "options",
     "option_line": "gaDHO_visitElekAltIntro4:\"Right. It worked. And gave me coordinates for something in the Abyss.\"",
     "original": "Right. It worked. And gave me coordinates for something in the Abyss.",
-    "translated": ""
+    "translated": "Exact. Ça a fonctionné. Et ça m'a donné des coordonnées pour quelque chose dans l'Abysse."
   },
   {
     "csv_row": 11031,
@@ -45,7 +45,7 @@
     "column": "options",
     "option_line": "gaDHO_visitElekAltIntroPayment2a:\"Fine. We can talk about MY discovery first. Then payment.\"",
     "original": "Fine. We can talk about MY discovery first. Then payment.",
-    "translated": ""
+    "translated": "Très bien. Nous pouvons parler de MA découverte d'abord. Ensuite le paiement."
   },
   {
     "csv_row": 11031,
@@ -53,7 +53,7 @@
     "column": "options",
     "option_line": "gaDHO_visitElekAltIntroPayment2b:\"MY discovery. And we'll talk about payment if you want any part in it.\"",
     "original": "MY discovery. And we'll talk about payment if you want any part in it.",
-    "translated": ""
+    "translated": "MA découverte. Et nous parlerons du paiement si vous voulez y prendre part."
   },
   {
     "csv_row": 11032,
@@ -61,7 +61,7 @@
     "column": "options",
     "option_line": "gaDHO_visitElekAltTransferData:Transferer les donnees recovered from the sensor array",
     "original": "Transferer les donnees recovered from the sensor array",
-    "translated": ""
+    "translated": "Transférer les données récupérées du réseau de capteurs"
   },
   {
     "csv_row": 11033,
@@ -69,7 +69,7 @@
     "column": "options",
     "option_line": "gaDHO_visitElekAltIntroBusiness:\"No, this is business. Your freelancer failed. Now I can do the job- if you pay.\"",
     "original": "No, this is business. Your freelancer failed. Now I can do the job- if you pay.",
-    "translated": ""
+    "translated": "Non, c'est du commerce. Votre freelance a échoué. Maintenant je peux faire le travail — si vous payez."
   },
   {
     "csv_row": 11033,
@@ -77,6 +77,6 @@
     "column": "options",
     "option_line": "gaDHO_visitElekAltIntroPiracy:\"Yes, it is. And if you don't pay me, you'll never get your precious data.\"",
     "original": "Yes, it is. And if you don't pay me, you'll never get your precious data.",
-    "translated": ""
+    "translated": "Oui, c'est le cas. Et si vous ne me payez pas, vous n'obtiendrez jamais vos précieuses données."
   }
 ]

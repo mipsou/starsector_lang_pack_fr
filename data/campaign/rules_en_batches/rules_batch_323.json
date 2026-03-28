@@ -1,78 +1,77 @@
 [
   {
-    "csv_row": 9453,
-    "id": "ImoinuUmbraGoOptF",
-    "column": "options",
-    "option_line": "imoinuUmbra_offerHelp:\"Do you need armaments? Supplies? Credits?\"",
-    "original": "Do you need armaments? Supplies? Credits?",
-    "translated": ""
-  },
-  {
-    "csv_row": 9455,
-    "id": "ImoinuUmbraGoOptH",
-    "column": "options",
-    "option_line": "imoinuUmbra_goStay:\"Then stay here and freeze! I can't solve all your problems for you.\"",
-    "original": "Then stay here and freeze! I can't solve all your problems for you.",
-    "translated": ""
-  },
-  {
-    "csv_row": 9460,
-    "id": "imoinuUmbraGoGargoyle",
-    "column": "options",
-    "option_line": "imoinuUmbra_goGargoyle2:\"This one hacked a Hegemony Ministry for... it's a long story, actually.\"",
-    "original": "This one hacked a Hegemony Ministry for... it's a long story, actually.",
-    "translated": ""
-  },
-  {
-    "csv_row": 9461,
-    "id": "imoinuUmbraGoGargoyle2",
-    "column": "options",
-    "option_line": "imoinuUmbra_goGargoyle3a:\"Gargoyle can be difficult, but I think they'll be a valuable asset to your cause.\"",
-    "original": "Gargoyle can be difficult, but I think they'll be a valuable asset to your cause.",
-    "translated": ""
-  },
-  {
-    "csv_row": 9461,
-    "id": "imoinuUmbraGoGargoyle2",
-    "column": "options",
-    "option_line": "imoinuUmbra_goGargoyle3b:\"You have no idea what you're in for.\"",
-    "original": "You have no idea what you're in for.",
-    "translated": ""
-  },
-  {
-    "csv_row": 9463,
-    "id": "imoinuUmbraGoGargoyle3b",
+    "csv_row": 9483,
+    "id": "imoinuUmbraOfferHelpCredits",
     "column": "text",
-    "original": "She gives you a funny look.",
-    "translated": ""
+    "original": "\"Thank you $playerName,\" she says. \"These credits will go toward ARC ships and munitions.\"",
+    "translated": "\"Merci $playerName,\" dit-elle. \"Ces crédits serviront à acquérir des vaisseaux et des munitions pour l'ARC.\""
   },
   {
-    "csv_row": 9464,
-    "id": "imoinuUmbraGoGargoyle3c",
+    "csv_row": 9495,
+    "id": "kpAudience1StoleZal2",
     "column": "text",
-    "original": "She gives you a funny look.\n\n\"Thanks?\"",
-    "translated": ""
+    "original": "La cour murmure, des bottes lourdes raclent le sol ; vous entendez le cliquetis distinct d'un projectile cinetique lourd qu'on chambre ; c'est une manipulation d'arme peu recommandee dans un environnement pressurise, meme dans les meilleures circonstances. Il y a de la haine parmi les pirates, vous le voyez bien, et Cydonia l'attise contre vous.",
+    "translated": "La cour murmure, des bottes lourdes raclent le sol ; vous entendez le cliquetis distinct d'un projectile cinétique lourd qu'on chambre ; c'est une manipulation d'arme peu recommandée dans un environnement pressurisé, même dans les meilleures circonstances. Il y a de la haine parmi les pirates, vous le voyez bien, et Cydonia l'attise contre vous."
   },
   {
-    "csv_row": 9468,
-    "id": "imoinuUmbraGoVolturnKid",
-    "column": "text",
-    "original": "\"A kid and a robot?\" She makes a face. \"I don't see how that's helpful.\"",
-    "translated": ""
-  },
-  {
-    "csv_row": 9476,
-    "id": "imoinuUmbraOfferHelp",
-    "column": "text",
-    "original": "She perks up. \"Yes. Absolutely.\"\nOR\n\"It would be much appreciated,\" she says.",
-    "translated": ""
-  },
-  {
-    "csv_row": 9476,
-    "id": "imoinuUmbraOfferHelp",
+    "csv_row": 9508,
+    "id": "kpZiggurat",
     "column": "options",
-    "option_line": "imoinuUmbra_offerHelpBack:\"Maybe another time.\"",
-    "original": "Maybe another time.",
-    "translated": ""
+    "option_line": "kpZiggurat:Un vaisseau de classe Ziggurat, le seul de son genre",
+    "original": "Un vaisseau de classe Ziggurat, le seul de son genre",
+    "translated": "Un vaisseau de classe Ziggurat, le seul de son genre"
+  },
+  {
+    "csv_row": 9533,
+    "id": "kpContact",
+    "column": "options",
+    "option_line": "kpContact:Informations compromettantes sur $foundContactName, $foundContactFaction $foundContactPost et contact de confiance",
+    "original": "Informations compromettantes sur $foundContactName, $foundContactFaction $foundContactPost et contact de confiance",
+    "translated": "Informations compromettantes sur $foundContactName, $foundContactFaction $foundContactPost et contact de confiance"
+  },
+  {
+    "csv_row": 9535,
+    "id": "kpContactSel2",
+    "column": "text",
+    "original": "Elle parle avec la voix d'un demon mecanique, \"Un traitre consentant ; des plus delectable. Vous comprenez que l'arme la plus douce peut causer la plus grande douleur.\"\n\nSon corps cyberaugmente inspire profondement, un souffle rauque, et elle poursuit, \"L'anticipation nous procurera un tel plaisir.\"",
+    "translated": "Elle parle avec la voix d'un démon mécanique, \"Un traître consentant ; des plus délectable. Vous comprenez que l'arme la plus douce peut causer la plus grande douleur.\"\n\nSon corps cyberaugmenté inspire profondément, un souffle rauque, et elle poursuit, \"L'anticipation nous procurera un tel plaisir.\""
+  },
+  {
+    "csv_row": 9546,
+    "id": "KantaFavorCourierHail",
+    "column": "options",
+    "option_line": "affkContinueWant:\"Que veut Kanta ?\"",
+    "original": "Que veut Kanta ?",
+    "translated": "Que veut Kanta ?"
+  },
+  {
+    "csv_row": 9549,
+    "id": "KantaFavorCourierHail2b",
+    "column": "text",
+    "original": "Le pirate esquisse un sourire mince et moqueur qui devoile $hisOrHer dents aiguisees.",
+    "translated": "Le pirate esquisse un sourire mince et moqueur qui dévoile $hisOrHer dents aiguisées."
+  },
+  {
+    "csv_row": 9551,
+    "id": "affkDeclineSelA",
+    "column": "text",
+    "original": "Le pirate prend un air preoccupe, probablement feint. \"Ce n'est pas une negociation, capitaine. La Seigneure de guerre exige sang et ruine, et c'est vous qui les fournirez.\"\n\n\"Ca viendra soit de $affk_marketName, soit de vous,\" $heOrShe laisse tomber negligemment $hisOrHer datapad. \"Le choix vous appartient.\"",
+    "translated": "Le pirate prend un air préoccupé, probablement feint. \"Ce n'est pas une négociation, capitaine. La Seigneure de guerre exige sang et ruine, et c'est vous qui les fournirez.\"\n\n\"Ça viendra soit de $affk_marketName, soit de vous,\" $heOrShe laisse tomber négligemment $hisOrHer datapad. \"Le choix vous appartient.\""
+  },
+  {
+    "csv_row": 9553,
+    "id": "affkDeclineSel",
+    "column": "options",
+    "option_line": "affkAccept:Accepter la mission finalement",
+    "original": "Accepter la mission finalement",
+    "translated": "Accepter la mission finalement"
+  },
+  {
+    "csv_row": 9553,
+    "id": "affkDeclineSel",
+    "column": "options",
+    "option_line": "affkDecline2:Affirmer que vous refusez la demande de Kanta",
+    "original": "Affirmer que vous refusez la demande de Kanta",
+    "translated": "Affirmer que vous refusez la demande de Kanta"
   }
 ]

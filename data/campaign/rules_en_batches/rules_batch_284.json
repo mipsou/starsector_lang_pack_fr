@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "zgr_makePitch3z:\"I found some mercs in the Abyss who appeared to regret their deal with you.\"",
     "original": "I found some mercs in the Abyss who appeared to regret their deal with you.",
-    "translated": ""
+    "translated": "J'ai trouve des mercenaires dans l'Abime qui semblaient regretter leur accord avec vous."
   },
   {
     "csv_row": 8417,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "zgr_makePitch3a:\"Returns, you say. That sounds like a lot of credits.\"",
     "original": "Returns, you say. That sounds like a lot of credits.",
-    "translated": ""
+    "translated": "Des rendements, vous dites. Ca semble representer beaucoup de credits."
   },
   {
     "csv_row": 8417,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "zgr_makePitch3b:\"Exploration and new technology is of interest to me.\"",
     "original": "Exploration and new technology is of interest to me.",
-    "translated": ""
+    "translated": "L'exploration et les nouvelles technologies m'interessent."
   },
   {
     "csv_row": 8417,
@@ -29,14 +29,14 @@
     "column": "options",
     "option_line": "zgr_makePitch3c:\"You speak of meddling in things which should be left alone.\"",
     "original": "You speak of meddling in things which should be left alone.",
-    "translated": ""
+    "translated": "Vous parlez de vous meler de choses qu'il vaudrait mieux laisser tranquilles."
   },
   {
     "csv_row": 8418,
     "id": "ZGRstartPitch3z",
     "column": "text",
     "original": "Her head gives a small twitch.\n\n\"Regret, you say.\"",
-    "translated": ""
+    "translated": "Sa tete a un petit tressaillement.\n\n\"Des regrets, vous dites.\""
   },
   {
     "csv_row": 8418,
@@ -44,7 +44,7 @@
     "column": "options",
     "option_line": "zgr_makePitch3zA:\"They used rather stronger language to express the sentiment.\"",
     "original": "They used rather stronger language to express the sentiment.",
-    "translated": ""
+    "translated": "Ils ont employe un langage bien plus fort pour exprimer le sentiment."
   },
   {
     "csv_row": 8418,
@@ -52,14 +52,14 @@
     "column": "options",
     "option_line": "zgr_makePitch3zB:\"They came to a poor end. I should like to avoid that for myself.\"",
     "original": "They came to a poor end. I should like to avoid that for myself.",
-    "translated": ""
+    "translated": "Ils ont mal fini. J'aimerais eviter ce sort."
   },
   {
     "csv_row": 8419,
     "id": "ZGRstartPitch3zA",
     "column": "text",
     "original": "\"I see,\" she says.\n\n\"You found them. In the Abyss. And returned.\" The Director pauses a moment. \"This simply proves your fitness for the operation.\"",
-    "translated": ""
+    "translated": "\"Je vois,\" dit-elle.\n\n\"Vous les avez trouves. Dans l'Abime. Et vous en etes revenu.\" La Directrice marque une pause. \"Cela prouve simplement que vous etes apte pour l'operation.\""
   },
   {
     "csv_row": 8419,
@@ -67,13 +67,13 @@
     "column": "options",
     "option_line": "zgr_makePitch3c:\"It's dangerous out there. Very dangerous.\"",
     "original": "It's dangerous out there. Very dangerous.",
-    "translated": ""
+    "translated": "C'est dangereux la-bas. Tres dangereux."
   },
   {
     "csv_row": 8420,
     "id": "ZGRstartPitch3zB",
     "column": "text",
     "original": "\"Evidently, you already have,\" she says.\n\n\"This simply proves your fitness for the operation.\"",
-    "translated": ""
+    "translated": "\"De toute evidence, c'est deja le cas,\" dit-elle.\n\n\"Cela prouve simplement que vous etes apte pour l'operation.\""
   }
 ]

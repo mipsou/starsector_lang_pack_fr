@@ -12,7 +12,7 @@
     "id": "LCP_notEnoughLieSel",
     "column": "text",
     "original": "Le Chevalier n'est que legerement decontenance par votre mensonge ehonte.\n\n\"Si.\" Une pause significative, \"S'il en est ainsi,\" commence $heOrShe, \"alors nous serions assurement les mieux places pour livrer-\"",
-    "translated": ""
+    "translated": "Le Chevalier n'est que legerement decontenance par votre mensonge ehonte.\n\n\"Si.\" Une pause significative, \"S'il en est ainsi,\" commence $heOrShe, \"alors nous serions assurement les mieux places pour livrer-\""
   },
   {
     "csv_row": 9840,
@@ -27,14 +27,14 @@
     "id": "LCP_notHappeningSelFaithful",
     "column": "text",
     "original": "\"Mais il le faut,\" dit $heOrShe.",
-    "translated": ""
+    "translated": "\"Mais il le faut,\" dit $heOrShe."
   },
   {
     "csv_row": 9843,
     "id": "LCP_complySel",
     "column": "text",
     "original": "Alors que le transfert de cargaison est confirme, le Chevalier joint calmement les mains de $hisOrHer, image meme de la piete.\n\n\"Votre charite est un phare d'espoir dans un monde d'iniquite,\" dit le $post. \"Les Chevaliers apprecient votre pieuse et desinteressee generosite.\"",
-    "translated": ""
+    "translated": "Alors que le transfert de cargaison est confirme, le Chevalier joint calmement les mains de $hisOrHer, image meme de la piete.\n\n\"Votre charite est un phare d'espoir dans un monde d'iniquite,\" dit le $post. \"Les Chevaliers apprecient votre pieuse et desinteressee generosite.\""
   },
   {
     "csv_row": 9843,
@@ -50,7 +50,7 @@
     "column": "options",
     "option_line": "lcMakeDeal:\"Les Chevaliers de Ludd commettent essentiellement de la piraterie dans mon secteur et j'exige que cela cesse.\"",
     "original": "Les Chevaliers de Ludd commettent essentiellement de la piraterie dans mon secteur et j'exige que cela cesse.",
-    "translated": ""
+    "translated": "Les Chevaliers de Ludd commettent essentiellement de la piraterie dans mon secteur et j'exige que cela cesse."
   },
   {
     "csv_row": 9853,
@@ -58,7 +58,7 @@
     "column": "options",
     "option_line": "lcDealConfirm:Confirmer le concordat",
     "original": "Confirmer le concordat",
-    "translated": ""
+    "translated": "Confirmer le concordat"
   },
   {
     "csv_row": 9853,
@@ -74,6 +74,6 @@
     "column": "options",
     "option_line": "lcMakeDealPropose:\"Alors que proposez-vous ?\"",
     "original": "Alors que proposez-vous ?",
-    "translated": ""
+    "translated": "Alors que proposez-vous ?"
   }
 ]

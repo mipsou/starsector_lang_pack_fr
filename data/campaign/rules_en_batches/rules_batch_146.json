@@ -5,14 +5,14 @@
     "column": "options",
     "option_line": "bffi_arrestShove1:Float upward",
     "original": "Float upward",
-    "translated": ""
+    "translated": "Flotter vers le haut"
   },
   {
     "csv_row": 3429,
     "id": "BFFIarrestShotShove1",
     "column": "text",
     "original": "You fall back, ears buzzing, your eyes brought into line with the mural on the ceiling. Painted clouds and stars dance above you, attached to interlocking toothed wheels. The turning spheres of creation, the orbits and movements of celestial mechanics given literal form.\n\nIt's funny to you, the spacer, but you cannot laugh.\n\nYour body is not responding to your commands. Your ship is adrift. Fluxed out. Vent.\n\nDarkness.",
-    "translated": ""
+    "translated": "Vous tombez en arrière, les oreilles bourdonnantes, vos yeux amenés en ligne avec la fresque au plafond. Des nuages peints et des étoiles dansent au-dessus de vous, attachés à des roues dentées imbriquées. Les sphères tournantes de la création, les orbites et mouvements de la mécanique céleste prenant forme littérale.\n\nC'est drôle pour vous, le spacien, mais vous ne pouvez pas rire.\n\nVotre corps ne répond pas à vos commandes. Votre vaisseau est à la dérive. Flux saturé. Purge.\n\nObscurité."
   },
   {
     "csv_row": 3429,
@@ -20,14 +20,14 @@
     "column": "options",
     "option_line": "bffi_arrestOutroPCshot:Sleep dreamless and cold",
     "original": "Sleep dreamless and cold",
-    "translated": ""
+    "translated": "Dormir sans rêves et dans le froid"
   },
   {
     "csv_row": 3431,
     "id": "BFFIarrestOutro1",
     "column": "text",
     "original": "* * *\n\nThe cadre of Luddic Knights guarding the Cathedral of Holy Exodus defer to Bornanew's authority.\n\nKeepfaith is delivered to your shuttle, restrained, and now - away from her small kingdom - is timid but glowering.\n\n\"I will be absolved,\" she says. \"You shall witness my righteousness before the end.\"\n\nBornanew shakes his head but does not reply. One of your guards switches on the dampening field so that you will not be troubled by Keepfaith's words.",
-    "translated": ""
+    "translated": "* * *\n\nLe cadre de Chevaliers Luddiques gardant la Cathédrale du Saint Exode s'en remet à l'autorité de Bornanew.\n\nKeepfaith est livrée à votre navette, entravée, et désormais - loin de son petit royaume - est timide mais menaçante du regard.\n\n\"Je serai absoute,\" dit-elle. \"Vous serez témoins de ma droiture avant la fin.\"\n\nBornanew secoue la tête mais ne répond pas. L'un de vos gardes active le champ d'amortissement pour que vous ne soyez pas importuné par les paroles de Keepfaith."
   },
   {
     "csv_row": 3431,
@@ -35,21 +35,21 @@
     "column": "options",
     "option_line": "bffi_arrestOutro2:Return to your $shipOrFleet",
     "original": "Return to your $shipOrFleet",
-    "translated": ""
+    "translated": "Retourner à votre $shipOrFleet"
   },
   {
     "csv_row": 3432,
     "id": "BFFIarrestOutro2",
     "column": "text",
     "original": "You return to your $shipOrFleet. After the rogue subcurate is placed in the brig you meet with Bornanew in a briefing room.",
-    "translated": ""
+    "translated": "Vous retournez à votre $shipOrFleet. Après que la sous-curée renégate est placée en cellule, vous retrouvez Bornanew dans une salle de briefing."
   },
   {
     "csv_row": 3433,
     "id": "BFFIarrestOutro3",
     "column": "text",
     "original": "\"We must take her to Hesperus,\" he says. \"To the Knight Inquisitors and their justice.\"\n\nHe stares out at a display of starry space, subdued.\n\n\"I shall submit my evidence, then the Inquisitors will question her before a quorum of authority determined by the severity of her crime. I suspect more than one archcurate shall be required.\"",
-    "translated": ""
+    "translated": "\"Nous devons l'emmener à Hesperus,\" dit-il. \"Aux Chevaliers Inquisiteurs et leur justice.\"\n\nIl fixe un écran d'espace étoilé, assombri.\n\n\"Je soumettrai mes preuves, puis les Inquisiteurs l'interrogeront devant un quorum d'autorité déterminé par la gravité de son crime. Je soupçonne que plus d'un archicuré sera requis.\""
   },
   {
     "csv_row": 3433,
@@ -57,7 +57,7 @@
     "column": "options",
     "option_line": "bffi_arrestOutroAskPenance:\"Are you not pleased? Won't your penance be complete?\"",
     "original": "Are you not pleased? Won't your penance be complete?",
-    "translated": ""
+    "translated": "N'êtes-vous pas satisfait ? Votre pénitence ne sera-t-elle pas accomplie ?"
   },
   {
     "csv_row": 3433,
@@ -65,13 +65,13 @@
     "column": "options",
     "option_line": "bffi_arrestCurateEnd:Leave him to his thoughts",
     "original": "Leave him to his thoughts",
-    "translated": ""
+    "translated": "Le laisser à ses pensées"
   },
   {
     "csv_row": 3434,
     "id": "BFFIarrestOutroAskPenance",
     "column": "text",
     "original": "He turns to you.\n\n\"Pleased? That is difficult. What we have uncovered is deeply concerning. As for my penance,\" he grimaces. \"You have not met the Excubitor Orbis of Hesperus.\"\n\nHe turns back to the stars.",
-    "translated": ""
+    "translated": "Il se tourne vers vous.\n\n\"Satisfait ? C'est difficile. Ce que nous avons découvert est profondément préoccupant. Quant à ma pénitence,\" il grimace. \"Vous n'avez pas rencontré l'Excubitor Orbis d'Hesperus.\"\n\nIl se retourne vers les étoiles."
   }
 ]

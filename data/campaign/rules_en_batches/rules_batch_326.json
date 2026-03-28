@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "psk_decline:\"Laissez tomber.\"",
     "original": "Laissez tomber.",
-    "translated": ""
+    "translated": "Laissez tomber."
   },
   {
     "csv_row": 9571,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "psk_decline:Refuser the deal",
     "original": "Refuser the deal",
-    "translated": ""
+    "translated": "Refuser l'accord"
   },
   {
     "csv_row": 9572,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "psk_businessTooMuchReasonable:\"10 pour cent, c'est trop. Soyez raisonnable.\"",
     "original": "10 pour cent, c'est trop. Soyez raisonnable.",
-    "translated": ""
+    "translated": "10 pour cent, c'est trop. Soyez raisonnable."
   },
   {
     "csv_row": 9576,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "psk_businessTooMuchReasonableA:\"Vous justifiez la piraterie avec ces sottises ?\"",
     "original": "Vous justifiez la piraterie avec ces sottises ?",
-    "translated": ""
+    "translated": "Vous justifiez la piraterie avec ces sottises ?"
   },
   {
     "csv_row": 9576,
@@ -37,7 +37,7 @@
     "column": "options",
     "option_line": "psk_businessTooMuchReasonableB:\"Donc vous me trouvez faible.\"",
     "original": "Donc vous me trouvez faible.",
-    "translated": ""
+    "translated": "Donc vous me trouvez faible."
   },
   {
     "csv_row": 9576,
@@ -45,7 +45,7 @@
     "column": "options",
     "option_line": "psk_businessTooMuchReasonableC:\"Donc vous me trouvez puissant.\"",
     "original": "Donc vous me trouvez puissant.",
-    "translated": ""
+    "translated": "Donc vous me trouvez puissant."
   },
   {
     "csv_row": 9581,
@@ -53,7 +53,7 @@
     "column": "options",
     "option_line": "psk_accept:\"Je savais que vous entendriez raison.\"",
     "original": "Je savais que vous entendriez raison.",
-    "translated": ""
+    "translated": "Je savais que vous entendriez raison."
   },
   {
     "csv_row": 9586,
@@ -61,14 +61,14 @@
     "column": "options",
     "option_line": "50:psk_cancelDeal:\"Notre accord ne me convient plus.\"",
     "original": "psk_cancelDeal:\"Notre accord ne me convient plus.",
-    "translated": ""
+    "translated": "psk_cancelDeal:\"Notre accord ne me convient plus."
   },
   {
     "csv_row": 9589,
     "id": "psk_cancelDealConfirm",
     "column": "text",
     "original": "$HeOrShe se fige. \"Je, je crois que nous nous comprenons, $playerName.\"\n\n\"Mes pillards vont vous traquer. Ne les ennuyez pas, hein.\" Le $post affiche un rictus dentu et sans joie.",
-    "translated": ""
+    "translated": "$HeOrShe se fige. \"Je, je crois que nous nous comprenons, $playerName.\"\n\n\"Mes pillards vont vous traquer. Ne les ennuyez pas, hein.\" Le $post affiche un rictus dentu et sans joie."
   },
   {
     "csv_row": 9599,
@@ -76,6 +76,6 @@
     "column": "options",
     "option_line": "plEnforcerAgain:\"Je viens de subir une 'inspection', vous ne communiquez pas entre vous ?\"",
     "original": "Je viens de subir une 'inspection', vous ne communiquez pas entre vous ?",
-    "translated": ""
+    "translated": "Je viens de subir une 'inspection', vous ne communiquez pas entre vous ?"
   }
 ]

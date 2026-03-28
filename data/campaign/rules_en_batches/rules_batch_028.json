@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "lpp_hookCurateSeeya:Faire vos adieux et partir",
     "original": "Faire vos adieux et partir",
-    "translated": ""
+    "translated": "Faire vos adieux et partir"
   },
   {
     "csv_row": 1172,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "lpp_hookCurateSeeya:Faire vos adieux et partir",
     "original": "Faire vos adieux et partir",
-    "translated": ""
+    "translated": "Faire vos adieux et partir"
   },
   {
     "csv_row": 1181,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "0:lpp_beholderShrineVisit:Visiter le sanctuaire",
     "original": "lpp_beholderShrineVisit:Visiter le sanctuaire",
-    "translated": ""
+    "translated": "lpp_beholderShrineVisit:Visiter le sanctuaire"
   },
   {
     "csv_row": 1181,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "1:beholderShrineMakeOffering:Faire une offrande",
     "original": "beholderShrineMakeOffering:Faire une offrande",
-    "translated": ""
+    "translated": "beholderShrineMakeOffering:Faire une offrande"
   },
   {
     "csv_row": 1181,
@@ -37,7 +37,7 @@
     "column": "options",
     "option_line": "10:lpp_beholderShrineRealLeave:Revenir to your $shipOrFleet",
     "original": "lpp_beholderShrineRealLeave:Revenir to your $shipOrFleet",
-    "translated": ""
+    "translated": "lpp_beholderShrineRealLeave:Retourner vers votre $shipOrFleet"
   },
   {
     "csv_row": 1186,
@@ -45,7 +45,7 @@
     "column": "options",
     "option_line": "1:beholderShrineCancelOffering:Peu importe",
     "original": "beholderShrineCancelOffering:Peu importe",
-    "translated": ""
+    "translated": "beholderShrineCancelOffering:Peu importe"
   },
   {
     "csv_row": 1193,
@@ -53,7 +53,7 @@
     "column": "options",
     "option_line": "lpp_devAddFaithful:Add Faithful playerAttitude",
     "original": "Add Faithful playerAttitude",
-    "translated": ""
+    "translated": "Add Faithful playerAttitude"
   },
   {
     "csv_row": 1194,
@@ -61,7 +61,7 @@
     "column": "options",
     "option_line": "lpp_devAddAgnostic:Add Agnostic playerAttitude",
     "original": "Add Agnostic playerAttitude",
-    "translated": ""
+    "translated": "Add Agnostic playerAttitude"
   },
   {
     "csv_row": 1195,
@@ -69,7 +69,7 @@
     "column": "options",
     "option_line": "lpp_devAddAtheistic:Add Atheistic playerAttitude",
     "original": "Add Atheistic playerAttitude",
-    "translated": ""
+    "translated": "Add Atheistic playerAttitude"
   },
   {
     "csv_row": 1196,
@@ -77,6 +77,6 @@
     "column": "options",
     "option_line": "lpp_devAddCynical:Add Cynical playerAttitude",
     "original": "Add Cynical playerAttitude",
-    "translated": ""
+    "translated": "Add Cynical playerAttitude"
   }
 ]

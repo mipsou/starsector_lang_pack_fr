@@ -4,7 +4,7 @@
     "id": "asebScholarshipPitchAgainSel",
     "column": "text",
     "original": "\"Of course, I'm more than happy to discuss a scholarship.\" Sebestyen starts tapping away at his terminal, pulling up the required forms.\n\n\"You have the chance to provide real opportunities to the up-and-coming minds of the next generation, a truly noble cause!\"\n\nHe clears his throat. \"So, um. It's only really worth doing if we can put at least 100,000 credits into a trust...\"\n\nYou have $player.credits credits available.",
-    "translated": ""
+    "translated": "\"Bien sûr, je suis ravi de discuter d'une bourse d'études.\" Sebestyen commence à taper sur son terminal, ouvrant les formulaires nécessaires.\n\n\"Vous avez la chance d'offrir de vraies opportunités aux esprits prometteurs de la prochaine génération, une cause véritablement noble !\"\n\nIl se racle la gorge. \"Donc, euh. Ça ne vaut vraiment le coup que si nous pouvons mettre au moins 100 000 crédits dans un fonds...\"\n\nVous avez $player.credits crédits disponibles."
   },
   {
     "csv_row": 6002,
@@ -12,7 +12,7 @@
     "column": "options",
     "option_line": "aseb_scholarship100k:\"I'll give 100,000 credits. For our future.\"",
     "original": "I'll give 100,000 credits. For our future.",
-    "translated": ""
+    "translated": "Je donnerai 100 000 crédits. Pour notre avenir."
   },
   {
     "csv_row": 6002,
@@ -20,7 +20,7 @@
     "column": "options",
     "option_line": "aseb_scholarship200k:\"Double it, 200,000 credits.\"",
     "original": "Double it, 200,000 credits.",
-    "translated": ""
+    "translated": "Doublez la mise, 200 000 crédits."
   },
   {
     "csv_row": 6002,
@@ -28,7 +28,7 @@
     "column": "options",
     "option_line": "aseb_scholarship500k:\"Can you do 500,000 credits?\"",
     "original": "Can you do 500,000 credits?",
-    "translated": ""
+    "translated": "Peut-on faire 500 000 crédits ?"
   },
   {
     "csv_row": 6002,
@@ -36,35 +36,35 @@
     "column": "options",
     "option_line": "aseb_scholarshipBack:\"Ah, interesting. Perhaps another time?\"",
     "original": "Ah, interesting. Perhaps another time?",
-    "translated": ""
+    "translated": "Ah, intéressant. Peut-être une autre fois ?"
   },
   {
     "csv_row": 6007,
     "id": "asebScholarship200k",
     "column": "text",
     "original": "\"Fantastic!\" Sebestyen beams a smile at you. \"That's so, so... you're a very generous captain, um, captain. This will do so much to provide for our students who don't come from families of means...\"",
-    "translated": ""
+    "translated": "\"Fantastique !\" Sebestyen vous adresse un sourire radieux. \"C'est tellement, tellement... vous êtes un capitaine très généreux, euh, capitaine. Cela fera énormément pour aider nos étudiants qui ne viennent pas de familles aisées...\""
   },
   {
     "csv_row": 6008,
     "id": "asebScholarship500k",
     "column": "text",
     "original": "\"I, I, I-\" Sebestyen gapes, at a loss for words at your generosity.\n\nYou patiently allow him a few moments to recover, because he needs them.\n\n\"I, of course, yes, absolutely captain. Wow! This is incredible! I don't know what to say.\" He looks around, smiling, and a bit dazed.",
-    "translated": ""
+    "translated": "\"Je, je, je-\" Sebestyen reste bouche bée, à court de mots devant votre générosité.\n\nVous lui laissez patiemment quelques instants pour se remettre, car il en a besoin.\n\n\"Je, bien sûr, oui, absolument capitaine. Ouah ! C'est incroyable ! Je ne sais pas quoi dire.\" Il regarde autour de lui, souriant, un peu étourdi."
   },
   {
     "csv_row": 6009,
     "id": "asebScholarshipBack",
     "column": "text",
     "original": "\"Ah, I- of course, yes.\" Sebestyen taps a key, closing the work he already started. \"If you change your mind, just let me know at any time.\"",
-    "translated": ""
+    "translated": "\"Ah, je- bien sûr, oui.\" Sebestyen appuie sur une touche, fermant le travail qu'il avait déjà commencé. \"Si vous changez d'avis, faites-le-moi savoir à tout moment.\""
   },
   {
     "csv_row": 6010,
     "id": "asebScholarshipCause",
     "column": "text",
     "original": "\"Oh!\" He looks at his terminal for a moment. \"You have an opportunity to, um, is there some particular cause you would like to promote through your scholarship trust? As the patron, it's up to you.\"",
-    "translated": ""
+    "translated": "\"Oh !\" Il regarde son terminal un instant. \"Vous avez l'opportunité de, euh, y a-t-il une cause particulière que vous souhaiteriez promouvoir à travers votre bourse d'études ? En tant que mécène, c'est à vous de décider.\""
   },
   {
     "csv_row": 6011,
@@ -72,6 +72,6 @@
     "column": "options",
     "option_line": "aseb_scholarshipCauseA:\"I wish to help those who cannot afford to attend the Academy on their own.\"",
     "original": "I wish to help those who cannot afford to attend the Academy on their own.",
-    "translated": ""
+    "translated": "Je souhaite aider ceux qui n'ont pas les moyens de fréquenter l'Académie par eux-mêmes."
   }
 ]

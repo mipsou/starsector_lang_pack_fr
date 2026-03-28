@@ -5,14 +5,14 @@
     "column": "options",
     "option_line": "rao_fastOneCb:\"That must have been a different $playerName.\"",
     "original": "That must have been a different $playerName.",
-    "translated": ""
+    "translated": "Ca devait etre un autre $playerName."
   },
   {
     "csv_row": 7806,
     "id": "raoFastOneB2b",
     "column": "text",
     "original": "\"It is, yes,\" he says. \"And the absolute oaf in command who believed your ruse.\"",
-    "translated": ""
+    "translated": "\"Ca l'est, oui,\" dit-il. \"Et le parfait rustre au commandement qui a cru a votre ruse.\""
   },
   {
     "csv_row": 7806,
@@ -20,55 +20,55 @@
     "column": "options",
     "option_line": "rao_fastOneCd:Withhold comment",
     "original": "Withhold comment",
-    "translated": ""
+    "translated": "S'abstenir de commenter"
   },
   {
     "csv_row": 7807,
     "id": "raoFastOneCd",
     "column": "text",
     "original": "He waves the thought away, then takes in a deep breath, quiet now, and drums his fingers on his console. Staring at you. Assessing.\n\n\"Let us speak plainly,\" he says.",
-    "translated": ""
+    "translated": "Il balaye la pensee d'un geste, puis prend une profonde inspiration, silencieux maintenant, et tambourine des doigts sur sa console. Il vous fixe. Il vous jauge.\n\n\"Parlons franchement,\" dit-il."
   },
   {
     "csv_row": 7808,
     "id": "raoFastOneCe",
     "column": "text",
     "original": "\"Don't apologize for winning,\" he says. \"It's unbecoming.\"\n\nRao takes in a deep breath, quiet now, and drums his fingers on his console. Staring at you. Assessing.\n\n\"Let us speak plainly,\" he says.",
-    "translated": ""
+    "translated": "\"Ne vous excusez pas de gagner,\" dit-il. \"C'est malseant.\"\n\nRao prend une profonde inspiration, silencieux maintenant, et tambourine des doigts sur sa console. Il vous fixe. Il vous jauge.\n\n\"Parlons franchement,\" dit-il."
   },
   {
     "csv_row": 7809,
     "id": "raoFastOneCc",
     "column": "text",
     "original": "He snorts at that.\n\nRao takes a quiet moment then drums his fingers on his console. Staring at you. Assessing.\n\n\"Let us speak plainly,\" he says.",
-    "translated": ""
+    "translated": "Il renifle dedaigneusement.\n\nRao prend un instant de silence puis tambourine des doigts sur sa console. Il vous fixe. Il vous jauge.\n\n\"Parlons franchement,\" dit-il."
   },
   {
     "csv_row": 7810,
     "id": "raoFastOneCa",
     "column": "text",
     "original": "\"I'm glad to hear it, captain,\" he says. \"Now we may speak plainly.\"\n\n\"From captain to... what have they made me, an $rank? My, it makes you wonder who's in charge, doesn't it.\"",
-    "translated": ""
+    "translated": "\"Ravi de l'entendre, capitaine,\" dit-il. \"Maintenant nous pouvons parler franchement.\"\n\n\"De capitaine a... qu'est-ce qu'ils ont fait de moi, un $rank ? Eh bien, on se demande qui commande, n'est-ce pas.\""
   },
   {
     "csv_row": 7811,
     "id": "raoFastOneCa2",
     "column": "text",
     "original": "\"One should think,\" he says pointedly. \"But never mind- what I mean to say is that you played the ruse well.\"\n\n\"Better than a puffed-up uniform of the sort Eventide seems to spawn each cycle would. You remind me a bit of myself when I was younger and didn't have to sit at a desk.\"",
-    "translated": ""
+    "translated": "\"On devrait bien,\" dit-il avec insistance. \"Mais peu importe - ce que je veux dire, c'est que vous avez bien joue la ruse.\"\n\n\"Mieux qu'un uniforme bouffi du genre qu'Eventide semble produire a chaque cycle. Vous me rappelez un peu moi-meme quand j'etais plus jeune et que je n'avais pas a rester assis derriere un bureau.\""
   },
   {
     "csv_row": 7813,
     "id": "raoFastOneSpeak",
     "column": "text",
     "original": "\"You played it well,\" he says.\n\n\"Outsmarted a puffed-up uniform of the sort Eventide seems to spawn more of each cycle. You remind me a bit of myself when I was younger and didn't have to sit at a desk.\"\n\nHe pauses a moment, studying you. \"I had the thought...\"",
-    "translated": ""
+    "translated": "\"Vous avez bien joue,\" dit-il.\n\n\"Vous avez roule un uniforme bouffi du genre qu'Eventide semble produire de plus en plus a chaque cycle. Vous me rappelez un peu moi-meme quand j'etais plus jeune et que je n'avais pas a rester assis derriere un bureau.\"\n\nIl fait une pause, vous etudiant. \"J'ai eu une idee...\""
   },
   {
     "csv_row": 7817,
     "id": "raoMetNeriene2",
     "column": "text",
     "original": "\"She's a promising young woman.\" His voice fills with pride. \"She's got the talent, I think.\" ",
-    "translated": ""
+    "translated": "\"C'est une jeune femme prometteuse.\" Sa voix se remplit de fierte. \"Elle a du talent, je crois.\""
   }
 ]

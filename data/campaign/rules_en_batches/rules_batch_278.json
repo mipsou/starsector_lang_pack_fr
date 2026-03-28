@@ -4,7 +4,7 @@
     "id": "ZGRpreFirstVisitGreeting",
     "column": "text",
     "original": "The link settles on feed of volatiles futures scrolling across the crest of the Tri-Tachyon corporation for just a moment before the comm-link connects you with a perfectly coiffed junior secretary.\n\n\"The Tri-Tachyon Corporation welcomes you to Eochu Bres. Their smile is uncannily bright. May we presume you wish to accept Director Glamor-Rotanev's invitation?\"",
-    "translated": ""
+    "translated": "Le lien se stabilise un instant sur un flux de cours a terme de volatils defilant sur le blason de la corporation Tri-Tachyon avant de vous connecter a un jeune secretaire parfaitement coiffe.\n\n\"La Corporation Tri-Tachyon vous souhaite la bienvenue a Eochu Bres.\" Son sourire est d'une luminosite troublante. \"Pouvons-nous presumer que vous souhaitez accepter l'invitation de la Directrice Glamor-Rotanev ?\""
   },
   {
     "csv_row": 8341,
@@ -19,7 +19,7 @@
     "id": "ZGRpreVisitResp1",
     "column": "text",
     "original": "\"Fantastic. A priority flight path has been pre-approved for your convenience. The Tri-Tachyon Corporation is pleased to wish you a most profitable meeting with the Director of Special Acquisitions.\"\n\nThe uncanny smile re-appears, perfectly, once more. It's a little unsettling.",
-    "translated": ""
+    "translated": "\"Fantastique. Un couloir de vol prioritaire a ete pre-approuve pour votre confort. La Corporation Tri-Tachyon est heureuse de vous souhaiter une rencontre des plus profitables avec la Directrice des Acquisitions Speciales.\"\n\nLe sourire troublant reapparait, parfaitement, une fois de plus. C'est un peu destabilisant."
   },
   {
     "csv_row": 8342,
@@ -27,7 +27,7 @@
     "column": "options",
     "option_line": "ZGR_visitOptDirect:Take a shuttle to visit Director of Special Acquisitions Glamor-Rotanev",
     "original": "Take a shuttle to visit Director of Special Acquisitions Glamor-Rotanev",
-    "translated": ""
+    "translated": "Prendre une navette pour rendre visite a la Directrice des Acquisitions Speciales Glamor-Rotanev"
   },
   {
     "csv_row": 8342,
@@ -42,7 +42,7 @@
     "id": "ZGRpreVisitResp1Hostile",
     "column": "text",
     "original": "\"Fantastic.\" The face maintains an uncanny smile. \"The Director is most eager to meet you.\"\n\nAn apologetic - but not guilty - expression forms. \"Unfortunately, the automated defenses of the Tri-Tachyon Corporation have flagged your ID as a hostile and your shuttle would be gunned down upon approach. Please contact customer service to resolve this misunderstanding.\"\n\n\"We hope you have a pleasant and profitable day.\"\n\nThe smile re-appears.",
-    "translated": ""
+    "translated": "\"Fantastique.\" Le visage maintient un sourire troublant. \"La Directrice est tres impatiente de vous rencontrer.\"\n\nUne expression apologetique - mais sans culpabilite - se forme. \"Malheureusement, les defenses automatisees de la Corporation Tri-Tachyon ont signale votre identifiant comme hostile et votre navette serait abattue a l'approche. Veuillez contacter le service client pour resoudre ce malentendu.\"\n\n\"Nous vous souhaitons une journee agreable et profitable.\"\n\nLe sourire reapparait."
   },
   {
     "csv_row": 8343,
@@ -58,20 +58,20 @@
     "column": "options",
     "option_line": "2:ZGR_visitOptDirect:Take a shuttle to visit Director of Special Acquisitions Glamor-Rotanev",
     "original": "ZGR_visitOptDirect:Take a shuttle to visit Director of Special Acquisitions Glamor-Rotanev",
-    "translated": ""
+    "translated": "ZGR_visitOptDirect:Prendre une navette pour rendre visite a la Directrice des Acquisitions Speciales Glamor-Rotanev"
   },
   {
     "csv_row": 8346,
     "id": "ZGRfirstVisitStart",
     "column": "text",
     "original": "Your shuttle descends into the young atmosphere of Eochu Bres, through towering battlements of clouds. A spray of rain darkens your viewport for a moment before it is wiped clean by the heat and speed of your descent.\n\nThe flight path immediately deviates from the general approach corridor which had started ticking off minor use-fees from the Tri-Tachyon owned flight control: general volume access fee, priority flight lane fee, service fee, customer satisfaction insurance charge, advertisement bypass fee.\n\nThe notifications self-delete, their fees automatically refunded, as the towering central arcologies of Xanadu emerge from the mist.",
-    "translated": ""
+    "translated": "Votre navette descend dans la jeune atmosphere d'Eochu Bres, a travers d'imposants remparts de nuages. Une giclure de pluie assombrit votre hublot un instant avant d'etre balayee par la chaleur et la vitesse de votre descente.\n\nLe couloir de vol devie immediatement du corridor d'approche general qui avait commence a egrener des frais d'utilisation mineurs du controle aerien de Tri-Tachyon : frais d'acces au volume general, frais de voie de vol prioritaire, frais de service, assurance satisfaction client, frais de contournement publicitaire.\n\nLes notifications s'auto-suppriment, leurs frais automatiquement rembourses, tandis que les imposantes arcologies centrales de Xanadu emergent de la brume."
   },
   {
     "csv_row": 8347,
     "id": "ZGRfirstVisitIntro1",
     "column": "text",
     "original": "Jagged mountain peaks ring the horizon. Gleaming monoliths glitter, spears of capital upthrust through the glowering flesh of the world. Skyarco II grows before you, prismatic.\n\nYour shuttle alights on a landing pad held at some distance from the facade by an airy support rib. It looks impossibly thin, but on touch down feels as solid as a coherent M-type asteroid.",
-    "translated": ""
+    "translated": "Des pics montagneux dechiquetes ceinturent l'horizon. Des monolithes etincelants scintillent, lances de capital jaillissant a travers la chair maussade du monde. Skyarco II grandit devant vous, prismatique.\n\nVotre navette se pose sur une plateforme d'atterrissage maintenue a distance de la facade par une nervure de soutien aerienne. Elle semble impossiblement fine, mais au toucher, elle est aussi solide qu'un asteroide coherent de type M."
   }
 ]

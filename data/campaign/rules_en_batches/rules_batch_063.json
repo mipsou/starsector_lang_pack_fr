@@ -5,35 +5,35 @@
     "column": "options",
     "option_line": "BFFI_onBoardAskRelic1c:\"What's Ludd going to do with two right-hand gloves?\"",
     "original": "What's Ludd going to do with two right-hand gloves?",
-    "translated": ""
+    "translated": "Qu'est-ce que Ludd va faire avec deux gants droits ?"
   },
   {
     "csv_row": 2581,
     "id": "BFFIonBoardAskRelic1a",
     "column": "text",
     "original": "\"It's a real glove,\" he says, \"That much is true.\"\n\n\"It's just a work glove, one of many designs prevalent through the immediate pre- and post-Collapse Persean Sector.\"",
-    "translated": ""
+    "translated": "\"C'est un vrai gant,\" dit-il, \"Ça au moins, c'est vrai.\"\n\n\"C'est juste un gant de travail, un modèle parmi tant d'autres répandus dans le Secteur Perséen juste avant et après l'Effondrement.\""
   },
   {
     "csv_row": 2584,
     "id": "BFFIonBoardAskRelic2",
     "column": "text",
     "original": "\"My objection is that the glove, even if it is the glove, is not important. What is important is Ludd's message, Ludd's sacrifice; it is the act of a divine moral force touching the soul of humanity with supreme grace.\"",
-    "translated": ""
+    "translated": "\"Mon objection, c'est que le gant, même s'il s'agit bien du gant, n'a aucune importance. Ce qui compte, c'est le message de Ludd, le sacrifice de Ludd ; c'est l'acte d'une force morale divine touchant l'âme de l'humanité avec une grâce suprême.\""
   },
   {
     "csv_row": 2585,
     "id": "BFFIonBoardAskRelic3",
     "column": "text",
     "original": "\"What is a glove to the light of Revelation?\" The words come out forcefully.\n\n\"Even if it were Ludd's glove - and that we can't, and should not, be sure of - would God love you more for possessing it? Touching, looking upon, and worshipping it?\"\n\nHis brow furrows. \"Then some would try to extract DNA from the glove. Clone Ludd, they say, to re-open a connection to God.\" He shakes his head furiously, \"As if you could fool God with the twin of the prophet's body!\"\n\n\"Or the glove that body might have worn.\"",
-    "translated": ""
+    "translated": "\"Que représente un gant face à la lumière de la Révélation ?\" Les mots sortent avec force.\n\n\"Même si c'était le gant de Ludd — et nous ne pouvons pas, et ne devrions pas, en être certains — Dieu vous aimerait-il davantage pour l'avoir possédé ? Pour l'avoir touché, contemplé et vénéré ?\"\n\nSon front se plisse. \"Ensuite, certains voudraient extraire l'ADN du gant. Cloner Ludd, disent-ils, pour rouvrir une connexion avec Dieu.\" Il secoue la tête furieusement, \"Comme si on pouvait tromper Dieu avec le double du corps du prophète !\"\n\n\"Ou le gant que ce corps aurait pu porter.\""
   },
   {
     "csv_row": 2586,
     "id": "BFFIonBoardAskRelic4",
     "column": "text",
     "original": "\"It's the fool's logic of 'magic' of the lowest kind, the heretical notion that humanity might manipulate the Divine to our own ends. Creation turned on its head!\"\n\nYou've never seen Bornanew like this, his voice like a river; his physical size giving power to his words. Seeing you see this, he realizes it himself.\n\n\"I apologize for my outburst, captain,\" he says, looking down.",
-    "translated": ""
+    "translated": "\"C'est la logique des imbéciles, la 'magie' de la pire espèce, l'idée hérétique que l'humanité pourrait manipuler le Divin à ses propres fins. La Création renversée !\"\n\nVous n'avez jamais vu Bornanew ainsi, sa voix pareille à un torrent ; sa stature physique donnant de la puissance à ses mots. Voyant que vous le remarquez, il en prend lui-même conscience.\n\n\"Je m'excuse pour mon emportement, capitaine,\" dit-il en baissant les yeux."
   },
   {
     "csv_row": 2586,
@@ -41,7 +41,7 @@
     "column": "options",
     "option_line": "BFFI_onBoardAskRelic5b:\"No need to apologize. I can't help but agree.\"",
     "original": "No need to apologize. I can't help but agree.",
-    "translated": ""
+    "translated": "Inutile de vous excuser. Je ne peux qu'être d'accord."
   },
   {
     "csv_row": 2586,
@@ -49,27 +49,27 @@
     "column": "options",
     "option_line": "bffi_onBoardAskRelic5d:\"But magic isn't real. So what harm is focusing on a glove, fake relic or not?\"",
     "original": "But magic isn't real. So what harm is focusing on a glove, fake relic or not?",
-    "translated": ""
+    "translated": "Mais la magie n'existe pas. Alors quel mal y a-t-il à se focaliser sur un gant, fausse relique ou non ?"
   },
   {
     "csv_row": 2587,
     "id": "BFFIonBoardAskRelic5a",
     "column": "text",
     "original": "He nods, suppressing a smile, looking down at his notebook. He puts his hands together again.",
-    "translated": ""
+    "translated": "Il hoche la tête, réprimant un sourire, le regard baissé vers son carnet. Il joint à nouveau les mains."
   },
   {
     "csv_row": 2588,
     "id": "BFFIonBoardAskRelic5b",
     "column": "text",
     "original": "He meets your gaze. \"I shall interpret your words as forgiveness. It is nonetheless unseemly for a Knight to let uncontrolled passion rule their actions.\"",
-    "translated": ""
+    "translated": "Il soutient votre regard. \"J'interpréterai vos paroles comme un pardon. Il est néanmoins malséant pour un Chevalier de laisser une passion incontrôlée gouverner ses actes.\""
   },
   {
     "csv_row": 2590,
     "id": "BFFIonBoardAskRelic5d",
     "column": "text",
     "original": "\"Of course, of course.\" He rubs his chin, calmer now.\n\n\"The problem is not that it might work, but that such self-trickery will lead the Faithful astray from the Word. And if we don't follow the Word, then what use have we for revelation? Are we to simply discard God's gifts?\"\n\nHe sits, looking into the distance somewhere. \"Ludd chose the revealed path not because it was easy, and not because it was without suffering. Ludd chose because it was Good.\"",
-    "translated": ""
+    "translated": "\"Bien sûr, bien sûr.\" Il se frotte le menton, plus calme à présent.\n\n\"Le problème n'est pas que cela pourrait fonctionner, mais qu'une telle duperie de soi-même égarera les Fidèles loin de la Parole. Et si nous ne suivons pas la Parole, alors à quoi nous sert la révélation ? Devons-nous simplement rejeter les dons de Dieu ?\"\n\nIl reste assis, le regard perdu au loin. \"Ludd a choisi le chemin révélé non parce qu'il était facile, et non parce qu'il était exempt de souffrance. Ludd a choisi parce que c'était le Bien.\""
   }
 ]

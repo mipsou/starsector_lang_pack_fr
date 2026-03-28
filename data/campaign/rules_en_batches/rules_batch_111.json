@@ -4,7 +4,7 @@
     "id": "BFFIulmusTalkPcBad4a",
     "column": "text",
     "original": "\"I-I had no... you don't understand,\" Ulmus squirms.\n\nBornanew jumps in to direct Ulmus' narrative. \"He must have been threatened,\" he says. \"Blackmail! Of course. You help us find out who's really behind this! We'll make sure you're safe.\"",
-    "translated": ""
+    "translated": "\"J-Je n'avais pas... vous ne comprenez pas,\" Ulmus se tortille.\n\nBornanew intervient pour orienter le récit d'Ulmus. \"Il a dû être menacé,\" dit-il. \"Du chantage ! Bien sûr. Vous nous aidez à découvrir qui est vraiment derrière tout ça ! Nous veillerons à votre sécurité.\""
   },
   {
     "csv_row": 3082,
@@ -12,14 +12,14 @@
     "column": "options",
     "option_line": "bffi_ulmusTalkBad5a:\"If, and only if, $global.jethroName, he helps us. Otherwise he goes to the Inquisitors.\"",
     "original": "If, and only if, $global.jethroName, he helps us. Otherwise he goes to the Inquisitors.",
-    "translated": ""
+    "translated": "Si, et seulement si, $global.jethroName, il nous aide. Sinon il ira devant les Inquisiteurs."
   },
   {
     "csv_row": 3084,
     "id": "BFFIulmusTalkPcBad6a",
     "column": "text",
     "original": "Pond sniffles.\n\n\"There was... a Walker of the Path. He asked me to talk to Menes, to, to, to make the offer. He said Menes couldn't resist an artifact of such quality. And- and I was to arrange transport. Then make it appear legitimate. Set the documents straight, make it look correct.\"\n\nBornanew draws his cheap datapad from his satchel, the screen already set to a map of the greater Persean Sector.",
-    "translated": ""
+    "translated": "Pond renifle.\n\n\"Il y avait... un Marcheur du Sentier. Il m'a demandé de parler à Menes, de, de, de faire l'offre. Il a dit que Menes ne pourrait pas résister à un artefact d'une telle qualité. Et— et je devais organiser le transport. Puis faire en sorte que ça paraisse légitime. Mettre les documents en ordre, que tout ait l'air correct.\"\n\nBornanew sort son datapad bon marché de sa sacoche, l'écran déjà réglé sur une carte du grand Secteur Persien."
   },
   {
     "csv_row": 3084,
@@ -27,14 +27,14 @@
     "column": "options",
     "option_line": "bffi_ulmusTalkSedgeCheck:\"Show him, Ulmus. It's us or the Inquisitors.\"",
     "original": "Show him, Ulmus. It's us or the Inquisitors.",
-    "translated": ""
+    "translated": "Montrez-lui, Ulmus. C'est nous ou les Inquisiteurs."
   },
   {
     "csv_row": 3087,
     "id": "BFFIulmusTalkPcGood0",
     "column": "text",
     "original": "\"Are you man, or a bit of vermin slipping out the window?\" Bornanew bellows as he lifts Pond bodily, setting him on a sagging cot. You're not sure if the creak is the cheap furniture or Pond's ribs. \n\n\"The Knights have sent me a long way,\" his voice lowers threateningly, \"to deal with you. Pray your answers are to my liking lest I deliver you unto the Knight Inquisitors. They have methods of seeking truth hidden far from God's merciful light.\"",
-    "translated": ""
+    "translated": "\"Êtes-vous un homme, ou de la vermine qui file par la fenêtre ?\" rugit Bornanew en soulevant Pond à bout de bras, le posant sur un lit de camp affaissé. Vous n'êtes pas sûr si le craquement vient du mobilier bon marché ou des côtes de Pond.\n\n\"Les Chevaliers m'ont envoyé de loin,\" sa voix se fait menaçante, \"pour m'occuper de vous. Priez pour que vos réponses me conviennent, de peur que je ne vous livre aux Chevaliers Inquisiteurs. Ils ont des méthodes pour chercher la vérité, cachées loin de la lumière miséricordieuse de Dieu.\""
   },
   {
     "csv_row": 3087,
@@ -42,7 +42,7 @@
     "column": "options",
     "option_line": "bffi_ulmusTalkGood1a:\"Easy $global.jethroName. Ulmus only had good intentions I'm sure.\"",
     "original": "Easy $global.jethroName. Ulmus only had good intentions I'm sure.",
-    "translated": ""
+    "translated": "Doucement $global.jethroName. Ulmus n'avait que de bonnes intentions, j'en suis sûr."
   },
   {
     "csv_row": 3087,
@@ -50,21 +50,21 @@
     "column": "options",
     "option_line": "bffi_ulmusTalkGood1b:\"Why wait for them? My techs can simply open up his brain...\"",
     "original": "Why wait for them? My techs can simply open up his brain...",
-    "translated": ""
+    "translated": "Pourquoi les attendre ? Mes techniciens peuvent simplement lui ouvrir le cerveau..."
   },
   {
     "csv_row": 3088,
     "id": "BFFIulmusTalkPcGood1a",
     "column": "text",
     "original": "Pond's eyes go large and pleading- with his escape closed off, you are his only salvation.\n\n\"Yes, yes,\" he speaks quickly. \"The captain has it right! Menes, he wanted something special. I'm just a middleman, a, a communicator. I just make deals!\"\n\nHe licks his lips, looking between you and Bornanew, \"Menes was so pleased, I had no idea it wasn't real. I'm no relic-dealer or, or a curate or- you have to believe me, I'm innocent!\"",
-    "translated": ""
+    "translated": "Les yeux de Pond s'écarquillent, implorants — sa fuite coupée, vous êtes son seul salut.\n\n\"Oui, oui,\" dit-il rapidement. \"Le capitaine a raison ! Menes, il voulait quelque chose de spécial. Je ne suis qu'un intermédiaire, un, un communicateur. Je fais juste des affaires !\"\n\nIl se lèche les lèvres, regardant alternativement vous et Bornanew, \"Menes était tellement content, je n'avais aucune idée que ce n'était pas authentique. Je ne suis pas un marchand de reliques ou, ou un curé ou— vous devez me croire, je suis innocent !\""
   },
   {
     "csv_row": 3089,
     "id": "BFFIulmusTalkPcGood1b",
     "column": "text",
     "original": "Pond's eyes go large, his face pale, his breaths coming in sharp gasps.\n\nBornanew tips his head at Pond and gives you a confused and consternated look. \n\n\"No, no,\" Pond pleads at you, \"No, no need for that, I'll- you see, it wasn't me, this is all a misunderstanding. I make deals. I'm a great communicator. Menes will tell you. It was business, just business!\" ",
-    "translated": ""
+    "translated": "Les yeux de Pond s'écarquillent, son visage blêmit, sa respiration se fait haletante.\n\nBornanew penche la tête vers Pond et vous lance un regard confus et consterné.\n\n\"Non, non,\" Pond vous supplie, \"Non, pas besoin de ça, je vais— voyez-vous, ce n'était pas moi, c'est un malentendu. Je fais des affaires. Je suis un excellent communicateur. Menes vous le dira. C'étaient des affaires, juste des affaires !\""
   },
   {
     "csv_row": 3089,
@@ -72,6 +72,6 @@
     "column": "options",
     "option_line": "bffi_ulmusTalkGood1a:\"I apologize, Ulmus. It was a joke. I believe you.\"",
     "original": "I apologize, Ulmus. It was a joke. I believe you.",
-    "translated": ""
+    "translated": "Je m'excuse, Ulmus. C'était une plaisanterie. Je vous crois."
   }
 ]

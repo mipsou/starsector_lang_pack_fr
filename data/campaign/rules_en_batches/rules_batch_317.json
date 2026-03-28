@@ -1,80 +1,89 @@
 [
   {
-    "csv_row": 9257,
-    "id": "sdtuMercReactStronger",
-    "column": "options",
-    "option_line": "cutCommLinkNoText:Couper la comm",
-    "original": "Couper la comm",
-    "translated": "Couper la comm"
-  },
-  {
-    "csv_row": 9262,
-    "id": "sdtuMercHegReact1onMyWay",
-    "column": "options",
-    "option_line": "cutCommLink:Couper la comm",
-    "original": "Couper la comm",
-    "translated": "Couper la comm"
-  },
-  {
-    "csv_row": 9267,
-    "id": "sdtuMercGreetingGotDebris",
-    "column": "options",
-    "option_line": "cutCommLink:Couper la comm",
-    "original": "Couper la comm",
-    "translated": "Couper la comm"
-  },
-  {
-    "csv_row": 9279,
-    "id": "sdtuNewsEndYourDoing",
-    "column": "text",
-    "original": "\"Vous me blessez par cette accusation, capitaine,\" dit Macario avec une pointe d'amusement glacial.",
-    "translated": ""
-  },
-  {
-    "csv_row": 9285,
-    "id": "sdtuReturnNewsEnd",
-    "column": "options",
-    "option_line": "sdtu_returnNewsEnd2:Couper la comm",
-    "original": "Couper la comm",
-    "translated": "Couper la comm"
-  },
-  {
-    "csv_row": 9293,
-    "id": "anhCantinaAskStartCap",
-    "column": "options",
-    "option_line": "anh_cantinaReturn:Retourner au bar",
-    "original": "Retourner au bar",
-    "translated": ""
-  },
-  {
-    "csv_row": 9309,
-    "id": "anhCantinaDontLookTerrorists",
-    "column": "text",
-    "original": "Le sourire du vieil homme revient, comme s'il s'attendait a ce que vous disiez cela.",
-    "translated": ""
-  },
-  {
-    "csv_row": 9311,
-    "id": "anhCantinaFeelings",
-    "column": "options",
-    "option_line": "anh_cantinaAskFeelings2:\"Je suppose que oui.\"",
-    "original": "Je suppose que oui.",
-    "translated": ""
-  },
-  {
-    "csv_row": 9321,
-    "id": "anhCantinaAccept",
-    "column": "options",
-    "option_line": "anh_cantinaReturn:Retourner au bar",
-    "original": "Retourner au bar",
-    "translated": ""
-  },
-  {
     "csv_row": 9329,
     "id": "anhDiktatPatrolStall2",
     "column": "options",
     "option_line": "anh_diktatPatrolStall3:\"Vous voulez bien m'expliquer ?\"",
     "original": "Vous voulez bien m'expliquer ?",
-    "translated": ""
+    "translated": "Vous voulez bien m'expliquer ?"
+  },
+  {
+    "csv_row": 9329,
+    "id": "anhDiktatPatrolStall2",
+    "column": "options",
+    "option_line": "anh_diktatPatrolStall30:\"Je ne veux pas savoir.\"",
+    "original": "Je ne veux pas savoir.",
+    "translated": "Je ne veux pas savoir."
+  },
+  {
+    "csv_row": 9340,
+    "id": "anhDiktatPatrolAgainOptionD",
+    "column": "options",
+    "option_line": "anh_diktatPatrolRights:\"Vous n'avez pas le droit d'enlever mes passagers.\"",
+    "original": "Vous n'avez pas le droit d'enlever mes passagers.",
+    "translated": "Vous n'avez pas le droit d'enlever mes passagers."
+  },
+  {
+    "csv_row": 9343,
+    "id": "anhDiktatPatrolSearch2",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 9349,
+    "id": "anhDiktatPatrolMixedEnd",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 9350,
+    "id": "anhDiktatPatrolBothEnd",
+    "column": "options",
+    "option_line": "anh_diktatPatrolQuestEnd:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 9351,
+    "id": "anhDiktatPatrolHostileEnd",
+    "column": "options",
+    "option_line": "cutCommLink:\"Postes de combat.\"",
+    "original": "Postes de combat.",
+    "translated": "Postes de combat."
+  },
+  {
+    "csv_row": 9352,
+    "id": "anhDiktatPatrolBluffEnd",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 9357,
+    "id": "anhCheckCompletion",
+    "column": "options",
+    "option_line": "anh_completeDeliveryMoon:\"Ce n'est qu'une lune, gamin. Avec un noyau rocheux.\"",
+    "original": "Ce n'est qu'une lune, gamin. Avec un noyau rocheux.",
+    "translated": "Ce n'est qu'une lune, gamin. Avec un noyau rocheux."
+  },
+  {
+    "csv_row": 9357,
+    "id": "anhCheckCompletion",
+    "column": "options",
+    "option_line": "anh_completeDelivery:Laisser tomber",
+    "original": "Laisser tomber",
+    "translated": "Laisser tomber"
+  },
+  {
+    "csv_row": 9358,
+    "id": "anhCheckCompletion2",
+    "column": "text",
+    "original": "Le gamin parvient a ne pas avoir l'air decu par cette revelation.",
+    "translated": "Le gamin parvient à ne pas avoir l'air déçu par cette révélation."
   }
 ]

@@ -4,7 +4,7 @@
     "id": "ZGRtalkPostGADHOreturn1",
     "column": "text",
     "original": "Glamor-Rotanev creates a smile for you.\n\n\"I am a patron of the sciences. Didn't you hear?\"",
-    "translated": ""
+    "translated": "Glamor-Rotanev vous fabrique un sourire.\n\n\"Je suis une mecene des sciences. Vous n'etiez pas au courant ?\""
   },
   {
     "csv_row": 8250,
@@ -12,7 +12,7 @@
     "column": "options",
     "option_line": "ZGR_postGADHOelekPrefer:\"Elek prefers his science abstract and very far away, I think.\"",
     "original": "Elek prefers his science abstract and very far away, I think.",
-    "translated": ""
+    "translated": "Elek prefere que sa science reste abstraite et tres lointaine, je crois."
   },
   {
     "csv_row": 8251,
@@ -20,7 +20,7 @@
     "column": "options",
     "option_line": "ZGR_postGADHOelekHowKnow:\"You prompted him. How did you know what that sensor array found?\"",
     "original": "You prompted him. How did you know what that sensor array found?",
-    "translated": ""
+    "translated": "Vous l'avez pousse a chercher. Comment saviez-vous ce que ce reseau de capteurs avait trouve ?"
   },
   {
     "csv_row": 8252,
@@ -28,14 +28,14 @@
     "column": "options",
     "option_line": "zgr_makePitch9OMKIbuy:\"Do you want to buy the Onslaught Mk.I from me?\"",
     "original": "Do you want to buy the Onslaught Mk.I from me?",
-    "translated": ""
+    "translated": "Voulez-vous m'acheter l'Onslaught Mk.I ?"
   },
   {
     "csv_row": 8255,
     "id": "ZGRpostGADHOelekPrefer",
     "column": "text",
     "original": "She nods slowly, once.\n\n\"It will take some time, and credits, for him to become a useful asset again. It is much as any investment.\"",
-    "translated": ""
+    "translated": "Elle hoche lentement la tete, une seule fois.\n\n\"Il faudra du temps, et des credits, pour qu'il redevienne un atout utile. C'est comme tout investissement.\""
   },
   {
     "csv_row": 8255,
@@ -43,34 +43,34 @@
     "column": "options",
     "option_line": "ZGR_postGADHOelekPrefer2a:\"So was the payoff worth the investment?\"",
     "original": "So was the payoff worth the investment?",
-    "translated": ""
+    "translated": "Alors, le rendement valait-il l'investissement ?"
   },
   {
     "csv_row": 8256,
     "id": "ZGRpostGADHOelekPrefer2a",
     "column": "text",
     "original": "\"I cannot answer, as that investment has not fully matured,\" she says. \"Which brings me to business.\"",
-    "translated": ""
+    "translated": "\"Je ne peux repondre, car cet investissement n'a pas encore pleinement muri,\" dit-elle. \"Ce qui m'amene aux affaires.\""
   },
   {
     "csv_row": 8257,
     "id": "ZGRpostGADHOelekPrefer2b",
     "column": "text",
     "original": "\"Your impulse to moralize is irrelevant to my interests,\" she says. \"Let us return to business.\"",
-    "translated": ""
+    "translated": "\"Votre propension a moraliser ne presente aucun interet pour moi,\" dit-elle. \"Revenons aux affaires.\""
   },
   {
     "csv_row": 8258,
     "id": "ZGRpostGADHOelekPrefer3",
     "column": "text",
     "original": "Her eyes fix upon you through the link. \"And that business is the Onslaught Mk.I, which you found.\"",
-    "translated": ""
+    "translated": "Ses yeux se fixent sur vous a travers le lien. \"Et ces affaires concernent l'Onslaught Mk.I, que vous avez trouve.\""
   },
   {
     "csv_row": 8259,
     "id": "ZGRpostGADHOelekHowKnow",
     "column": "text",
     "original": "\"Old records,\" she says curtly.\n\n\"The Galatia Academy doesn't know what it has, much less how to make good use of it. Their lack of self-motivation is self-evident.\"",
-    "translated": ""
+    "translated": "\"D'anciens registres,\" dit-elle sechement.\n\n\"L'Academie de Galatia ne sait pas ce qu'elle possede, et encore moins comment en faire bon usage. Leur manque d'initiative est flagrant.\""
   }
 ]

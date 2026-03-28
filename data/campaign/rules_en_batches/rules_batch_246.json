@@ -4,21 +4,21 @@
     "id": "raoMetNeriene3Lost",
     "column": "text",
     "original": "He pauses. \n\n\"I trust you weren't hurt too badly? The night of the ball.\"",
-    "translated": ""
+    "translated": "Il fait une pause.\n\n\"J'espere que vous n'avez pas ete trop blesse ? La nuit du bal.\""
   },
   {
     "csv_row": 7819,
     "id": "raoMetNeriene3Won",
     "column": "text",
     "original": "\"You made some enemies that night with your display during the ball, I think.\"",
-    "translated": ""
+    "translated": "\"Vous vous etes fait quelques ennemis cette nuit-la avec votre demonstration lors du bal, je crois.\""
   },
   {
     "csv_row": 7820,
     "id": "raoMetNeriene3Left",
     "column": "text",
     "original": "\"You avoided a bit of trouble that night of the ball, I think. Mostly.\"",
-    "translated": ""
+    "translated": "\"Vous avez evite quelques ennuis cette nuit-la lors du bal, je crois. En grande partie.\""
   },
   {
     "csv_row": 7821,
@@ -26,7 +26,7 @@
     "column": "options",
     "option_line": "rao_nerieneSelWonD:\"And easily. Those brutes did not realize that I had studied the blade.\"",
     "original": "And easily. Those brutes did not realize that I had studied the blade.",
-    "translated": ""
+    "translated": "Et facilement. Ces brutes n'ont pas realise que j'avais etudie l'epee."
   },
   {
     "csv_row": 7822,
@@ -34,7 +34,7 @@
     "column": "options",
     "option_line": "rao_nerieneSelLostBlade:\"It was a shame to lose... for I have studied the blade.\"",
     "original": "It was a shame to lose... for I have studied the blade.",
-    "translated": ""
+    "translated": "C'etait dommage de perdre... car j'ai etudie l'epee."
   },
   {
     "csv_row": 7825,
@@ -42,7 +42,7 @@
     "column": "options",
     "option_line": "rao_nerieneSelLostC:\"Just my pride, perhaps. But don't worry, it's more than recovered.\"",
     "original": "Just my pride, perhaps. But don't worry, it's more than recovered.",
-    "translated": ""
+    "translated": "Juste ma fierte, peut-etre. Mais ne vous inquietez pas, elle s'en est plus que remise."
   },
   {
     "csv_row": 7826,
@@ -50,7 +50,7 @@
     "column": "options",
     "option_line": "rao_nerieneSelLostD:\"What matters is I stood to their insults and fought. My honor is intact.\"",
     "original": "What matters is I stood to their insults and fought. My honor is intact.",
-    "translated": ""
+    "translated": "Ce qui compte, c'est que j'ai tenu tete a leurs insultes et que je me suis battu. Mon honneur est intact."
   },
   {
     "csv_row": 7827,
@@ -58,7 +58,7 @@
     "column": "options",
     "option_line": "rao_nerieneSelWonA:\"They chose to make me their enemy long before that night.\"",
     "original": "They chose to make me their enemy long before that night.",
-    "translated": ""
+    "translated": "Ils ont choisi de faire de moi leur ennemi bien avant cette nuit-la."
   },
   {
     "csv_row": 7829,
@@ -66,7 +66,7 @@
     "column": "options",
     "option_line": "rao_nerieneSelWonC:\"Someone had to put those aristocratic bullies in their place.\"",
     "original": "Someone had to put those aristocratic bullies in their place.",
-    "translated": ""
+    "translated": "Quelqu'un devait remettre ces brutes aristocratiques a leur place."
   },
   {
     "csv_row": 7830,
@@ -74,6 +74,6 @@
     "column": "options",
     "option_line": "rao_nerieneSelLeftA:\"I did not go to House Rao to start a brawl, sir.\"",
     "original": "I did not go to House Rao to start a brawl, sir.",
-    "translated": ""
+    "translated": "Je ne suis pas alle a la Maison Rao pour declencher une bagarre, monsieur."
   }
 ]

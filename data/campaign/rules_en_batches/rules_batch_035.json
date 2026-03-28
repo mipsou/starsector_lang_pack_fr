@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "3:lpp_jangalaVisitStart:Prendre une navette pour visiter le sanctuaire luddique",
     "original": "lpp_jangalaVisitStart:Prendre une navette pour visiter le sanctuaire luddique",
-    "translated": ""
+    "translated": "lpp_jangalaVisitStart:Prendre une navette pour visiter le sanctuaire luddique"
   },
   {
     "csv_row": 1536,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "3:lpp_jangalaVisitStart:Prendre une navette pour visiter le sanctuaire luddique",
     "original": "lpp_jangalaVisitStart:Prendre une navette pour visiter le sanctuaire luddique",
-    "translated": ""
+    "translated": "lpp_jangalaVisitStart:Prendre une navette pour visiter le sanctuaire luddique"
   },
   {
     "csv_row": 1537,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "3:lpp_jangalaVisitStart:Prendre une navette pour visiter le sanctuaire luddique",
     "original": "lpp_jangalaVisitStart:Prendre une navette pour visiter le sanctuaire luddique",
-    "translated": ""
+    "translated": "lpp_jangalaVisitStart:Prendre une navette pour visiter le sanctuaire luddique"
   },
   {
     "csv_row": 1539,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "lpp_JangalaEnter1:Entrer dans le complexe du sanctuaire",
     "original": "Entrer dans le complexe du sanctuaire",
-    "translated": ""
+    "translated": "Entrer dans le complexe du sanctuaire"
   },
   {
     "csv_row": 1544,
@@ -37,7 +37,7 @@
     "column": "options",
     "option_line": "lpp_JangalaEnter1:Entrer dans le complexe du sanctuaire",
     "original": "Entrer dans le complexe du sanctuaire",
-    "translated": ""
+    "translated": "Entrer dans le complexe du sanctuaire"
   },
   {
     "csv_row": 1548,
@@ -45,7 +45,7 @@
     "column": "options",
     "option_line": "lpp_jangalaattendantVisit:Visiter le sanctuaire",
     "original": "Visiter le sanctuaire",
-    "translated": ""
+    "translated": "Visiter le sanctuaire"
   },
   {
     "csv_row": 1561,
@@ -53,7 +53,7 @@
     "column": "options",
     "option_line": "lpp_jangalaVisitShrine:Suivre the curate",
     "original": "Suivre the curate",
-    "translated": ""
+    "translated": "Suivre la curatrice"
   },
   {
     "csv_row": 1563,
@@ -61,7 +61,7 @@
     "column": "options",
     "option_line": "lpp_jangalaShrineLeave:Revenir to the reception hall",
     "original": "Revenir to the reception hall",
-    "translated": ""
+    "translated": "Retourner dans le hall de réception"
   },
   {
     "csv_row": 1566,
@@ -69,7 +69,7 @@
     "column": "options",
     "option_line": "lpp_jangalaOutsideMaskOff1:Les rejoindre",
     "original": "Les rejoindre",
-    "translated": ""
+    "translated": "Les rejoindre"
   },
   {
     "csv_row": 1568,
@@ -77,6 +77,6 @@
     "column": "options",
     "option_line": "lpp_jangalaShrineExtLeave:Revenir to the complex interior",
     "original": "Revenir to the complex interior",
-    "translated": ""
+    "translated": "Retourner à l'intérieur du complexe"
   }
 ]

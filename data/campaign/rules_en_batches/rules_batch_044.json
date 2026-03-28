@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "lke_patherFleetCeaseLie:\"Si c'est ce que la Voie exige, je cesserai.\" (mensonge)",
     "original": "Si c'est ce que la Voie exige, je cesserai.\" (mensonge)",
-    "translated": ""
+    "translated": "Si c'est ce que la Voie exige, je cesserai.\" (mensonge)"
   },
   {
     "csv_row": 1948,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "lke_patherFleetServePath:\"Je souhaite servir la Voie ; trouver Bornanew servira la cause que nous partageons.\"",
     "original": "Je souhaite servir la Voie ; trouver Bornanew servira la cause que nous partageons.",
-    "translated": ""
+    "translated": "Je souhaite servir la Voie ; trouver Bornanew servira la cause que nous partageons."
   },
   {
     "csv_row": 1949,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "lke_patherFleetServePathB:\"Trouver Bornanew servira la Voie. Ayez la foi.\"",
     "original": "Trouver Bornanew servira la Voie. Ayez la foi.",
-    "translated": ""
+    "translated": "Trouver Bornanew servira la Voie. Ayez la foi."
   },
   {
     "csv_row": 1955,
@@ -29,14 +29,14 @@
     "column": "options",
     "option_line": "lke_patherFleetEndFight:Couper les comms",
     "original": "Couper les comms",
-    "translated": ""
+    "translated": "Couper les comms"
   },
   {
     "csv_row": 1956,
     "id": "LKEpatherFleetNotStopping",
     "column": "text",
     "original": "\"Mais vous le devez,\" dit $heOrShe, presque perplexe. \"J'attaquerai si vous ne cessez pas.\"",
-    "translated": ""
+    "translated": "\"Mais vous le devez,\" dit $heOrShe, presque perplexe. \"J'attaquerai si vous ne cessez pas.\""
   },
   {
     "csv_row": 1983,
@@ -44,7 +44,7 @@
     "column": "options",
     "option_line": "LKE_mazTest1a:set $player.gotYaribayCredentials true",
     "original": "set $player.gotYaribayCredentials true",
-    "translated": ""
+    "translated": "set $player.gotYaribayCredentials true"
   },
   {
     "csv_row": 1984,
@@ -52,7 +52,7 @@
     "column": "options",
     "option_line": "LKE_mazTest2a:set $player.metSiyavong true",
     "original": "set $player.metSiyavong true",
-    "translated": ""
+    "translated": "set $player.metSiyavong true"
   },
   {
     "csv_row": 1985,
@@ -60,7 +60,7 @@
     "column": "options",
     "option_line": "LKE_mazTest3a:Test Bornanew end convo",
     "original": "Test Bornanew end convo",
-    "translated": ""
+    "translated": "Test Bornanew end convo"
   },
   {
     "csv_row": 1992,

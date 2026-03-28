@@ -5,56 +5,56 @@
     "column": "options",
     "option_line": "gaFCarch_back:\"I guess that's our lot. Shall we discuss something else?\"",
     "original": "I guess that's our lot. Shall we discuss something else?",
-    "translated": ""
+    "translated": "Je suppose que c'est tout. Pouvons-nous parler d'autre chose ?"
   },
   {
     "csv_row": 4799,
     "id": "gaFCarchBack",
     "column": "text",
     "original": "\"I- I suppose. If you like.\" $HeOrShe sounds confused.",
-    "translated": ""
+    "translated": "\"Je- je suppose. Si vous voulez.\" $HeOrShe a l'air confus."
   },
   {
     "csv_row": 4800,
     "id": "gaFCarchPLwillYouHelp",
     "column": "text",
     "original": "$HisOrHer smile fades into something more melancholic.\n\n\"You say the right words, demarchon. Like many a supposed friend of Laicaille, of the 'minor' polities of the League.\" $HeOrShe pauses. \"But do our interests align? When the storm grows hot, will you abandon us?\"\n\n$HeOrShe shrugs gently.\n\n\"I don't think there's anything else to say.\"",
-    "translated": ""
+    "translated": "Son sourire s'efface pour laisser place à quelque chose de plus mélancolique.\n\n\"Vous dites les mots justes, démarque. Comme tant de soi-disant amis de Laicaille, des 'petits' États de la Ligue.\" $HeOrShe marque une pause. \"Mais nos intérêts sont-ils alignés ? Quand la tempête se déchaînera, nous abandonnerez-vous ?\"\n\n$HeOrShe hausse doucement les épaules.\n\n\"Je ne pense pas qu'il y ait autre chose à dire.\""
   },
   {
     "csv_row": 4801,
     "id": "gaFCarchExtortionReynard",
     "column": "text",
     "original": "\"Unbelievable,\" $heOrShe says, shaking $hisOrHer head.\n\n$HeOrShe stops, and gives you a look. Somehow more determined than you've seen. \"But that's Reynard, isn't it. That's Gens Hannan. Every gens. That's all of them. Blood-sucking parasites, all of them.\"",
-    "translated": ""
+    "translated": "\"Incroyable,\" dit $heOrShe en secouant la tête.\n\n$HeOrShe s'arrête et vous lance un regard. D'une détermination comme vous n'en avez jamais vue. \"Mais c'est Reynard, n'est-ce pas. C'est Gens Hannan. Chaque gens. Tous autant qu'ils sont. Des parasites suceurs de sang, tous.\""
   },
   {
     "csv_row": 4802,
     "id": "gaFCarchVoteOutReynard",
     "column": "text",
     "original": "\"Hah!\"\n\n$HeOrShe shakes $hisOrHer head, a grim smile on $hisOrHer face. It slowly fades.\n\nAfter a quiet moment, $heOrShe says, \"You know what? Yes. Yes I would. He'd make me pay, he'd make Laicaille pay. But it'd be worth it to see him lose for once.\"",
-    "translated": ""
+    "translated": "\"Ha !\"\n\n$HeOrShe secoue la tête, un sourire sinistre sur le visage. Il s'efface lentement.\n\nAprès un moment de silence, $heOrShe dit : \"Vous savez quoi ? Oui. Oui, je le ferais. Il me le ferait payer, il ferait payer Laicaille. Mais ça vaudrait le coup de le voir perdre pour une fois.\""
   },
   {
     "csv_row": 4804,
     "id": "gaFCarchBeatReynard",
     "column": "text",
     "original": "$HeOrShe pauses for a long moment, looking at you.\n\n\"I heard about that. Hardly believed it. Someone taking Reynard Hannan down a notch? Couldn't happen. Man is invincible.\"\n\n\"So we all thought,\" $heOrShe says quietly. ",
-    "translated": ""
+    "translated": "$HeOrShe marque une longue pause, vous regardant.\n\n\"J'en ai entendu parler. J'avais du mal à y croire. Quelqu'un qui remet Reynard Hannan à sa place ? Impossible. Cet homme est invincible.\"\n\n\"C'est ce qu'on croyait tous,\" dit $heOrShe doucement."
   },
   {
     "csv_row": 4805,
     "id": "gaFCarchPLexcuse",
     "column": "text",
     "original": "\"Hm,\" $heOrShe rubs $hisOrHer chin. \"About our Scylla Coureuse problem.\"\n\n\"I need an excuse. Some exceptional reason to intervene. Evidence of... some risk, some misstep involving Coureuse. A leak in their operation. Can you give me one?\"",
-    "translated": ""
+    "translated": "\"Hm,\" $heOrShe se frotte le menton. \"À propos de notre problème Scylla Coureuse.\"\n\n\"J'ai besoin d'un prétexte. Une raison exceptionnelle d'intervenir. La preuve d'un... risque, d'une erreur impliquant Coureuse. Une faille dans leur opération. Pouvez-vous m'en fournir une ?\""
   },
   {
     "csv_row": 4806,
     "id": "gaFCarchPLexcuseAgain",
     "column": "text",
     "original": "\"Yes,\" $heOrShe says. \"I need a reason to intervene. Evidence of some misstep I can hold against the Kazeron operation on my station. Can you give me one?\"",
-    "translated": ""
+    "translated": "\"Oui,\" dit $heOrShe. \"J'ai besoin d'une raison d'intervenir. La preuve d'une erreur que je puisse retenir contre l'opération de Kazeron sur ma station. Pouvez-vous m'en fournir une ?\""
   },
   {
     "csv_row": 4807,
@@ -62,7 +62,7 @@
     "column": "options",
     "option_line": "gaFC_archonPLtellPathers:Tell the archon about the Pather cell operating on Laicaille",
     "original": "Tell the archon about the Pather cell operating on Laicaille",
-    "translated": ""
+    "translated": "Informer l'archonte de la cellule Pather opérant sur Laicaille"
   },
   {
     "csv_row": 4808,
@@ -70,6 +70,6 @@
     "column": "options",
     "option_line": "gaFC_archonPLtellRelay:Tell the archon about the secret hypercomms relay on Groombridge station",
     "original": "Tell the archon about the secret hypercomms relay on Groombridge station",
-    "translated": ""
+    "translated": "Informer l'archonte du relais hypercomm secret sur la station Groombridge"
   }
 ]

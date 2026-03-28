@@ -4,72 +4,72 @@
     "id": "BFFImmBornOptRaid4a",
     "column": "text",
     "original": "You think to yourself that this isn't the time to bring up your experience at the Rao compound on Eventide.",
-    "translated": ""
+    "translated": "Vous vous dites que ce n'est pas le moment d'évoquer votre expérience au complexe Rao sur Eventide."
   },
   {
     "csv_row": 2698,
     "id": "BFFImmBornOptRaid4b",
     "column": "text",
     "original": "You think to yourself that this isn't the time to bring up your experience at the Rao compound on Eventide.",
-    "translated": ""
+    "translated": "Vous vous dites que ce n'est pas le moment d'évoquer votre expérience au complexe Rao sur Eventide."
   },
   {
     "csv_row": 2700,
     "id": "BFFImmBornOptRaid4d",
     "column": "text",
     "original": "\"Nonetheless, if you insist, then I shall be forced to concede,\" Bornanew says.\n\n\"If we... if you can execute a raid; if you can do it without implicating the Church; if seizing this fake relic quickly and quietly will lead us to its maker and thereafter to a swift conclusion of the whole matter... then maybe the Church can avoid schism and disaster.\"\n\n\"If, and only if, it is necessary,\" he concludes.",
-    "translated": ""
+    "translated": "\"Néanmoins, si vous insistez, je serai contraint de céder,\" dit Bornanew.\n\n\"Si nous... si vous pouvez exécuter un raid ; si vous pouvez le faire sans impliquer l'Église ; si la saisie rapide et discrète de cette fausse relique nous mène à son créateur et ensuite à une conclusion rapide de toute cette affaire... alors peut-être l'Église pourra-t-elle éviter le schisme et le désastre.\"\n\n\"Si, et seulement si, c'est nécessaire,\" conclut-il."
   },
   {
     "csv_row": 2700,
     "id": "BFFImmBornOptRaid4d",
     "column": "options",
-    "option_line": "bffi_mmBornDoRaid:\"It is necessary. I shall make the arrangements.\"",
+    "option_line": "bffi_mmBornDoRaid:\"C'est nécessaire. Je vais prendre les dispositions.\"",
     "original": "It is necessary. I shall make the arrangements.",
-    "translated": ""
+    "translated": "C'est nécessaire. Je vais prendre les dispositions."
   },
   {
     "csv_row": 2701,
     "id": "BFFImmBornOptRaidAgain",
     "column": "text",
     "original": "Bornanew frowns.\n\n\"If this raid can be executed without implicating the Church, and if seizing this false relic quickly and quietly will lead us to its maker and a swift conclusion to the whole matter... then it may be a worthwhile path.\"",
-    "translated": ""
+    "translated": "Bornanew fronce les sourcils.\n\n\"Si ce raid peut être exécuté sans impliquer l'Église, et si la saisie rapide et discrète de cette fausse relique nous mène à son créateur et à une conclusion rapide de toute cette affaire... alors c'est peut-être une voie qui en vaut la peine.\""
   },
   {
     "csv_row": 2701,
     "id": "BFFImmBornOptRaidAgain",
     "column": "options",
-    "option_line": "bffi_mmBornDoRaid:\"It is necessary. I shall make the arrangements.\"",
+    "option_line": "bffi_mmBornDoRaid:\"C'est nécessaire. Je vais prendre les dispositions.\"",
     "original": "It is necessary. I shall make the arrangements.",
-    "translated": ""
+    "translated": "C'est nécessaire. Je vais prendre les dispositions."
   },
   {
     "csv_row": 2702,
     "id": "BFFImmBornDoInviteHorus",
     "column": "text",
     "original": "\"To Kazeron.\" He smiles easily as he pockets his notebook, then says \"I've never been.\"",
-    "translated": ""
+    "translated": "\"Direction Kazeron.\" Il sourit facilement en rangeant son carnet, puis dit \"Je n'y suis jamais allé.\""
   },
   {
     "csv_row": 2704,
     "id": "BFFImmBornDoSteal",
     "column": "text",
     "original": "Sometimes acquiring something is as simple as taking it.\n\nBoth you and Bornanew - who is unenthusiastic, but professional throughout - are outfitted with an inconspicuous set of tools: a sheet-diamond rated cutter, EM glitcher, lockbreakers.\n\nBornanew sets aside some of the bulkier accoutrement with a shake of his head.",
-    "translated": ""
+    "translated": "Parfois, acquérir quelque chose est aussi simple que de le prendre.\n\nVous et Bornanew - qui est peu enthousiaste, mais professionnel de bout en bout - êtes équipés d'un ensemble discret d'outils : un découpeur calibré diamant, un brouilleur EM, des crocheteurs de serrures.\n\nBornanew met de côté certains des accessoires les plus encombrants en secouant la tête."
   },
   {
     "csv_row": 2705,
     "id": "BFFImmBornDoSteal2",
     "column": "text",
     "original": "Your tech officer installs a schematic of Menes' complex and a suite of scramblers on your datapad, a remote interfacer is hidden inside a fashionable stylus.\n\nYou perform the operation of various gadgets with your armorer, and review the choreography of the heist with your tactical officer. It is not a perfect plan, but with a combination of initiative, redundancy, and exceptional access...\n\nBornanew is standing very still, his fist against his jaw.",
-    "translated": ""
+    "translated": "Votre officier technique installe un schéma du complexe de Menes et une suite de brouilleurs sur votre datapad, un interfaceur distant est dissimulé dans un stylet élégant.\n\nVous répétez la manipulation de divers gadgets avec votre armurier, et passez en revue la chorégraphie du cambriolage avec votre officier tactique. Ce n'est pas un plan parfait, mais avec une combinaison d'initiative, de redondance et d'un accès exceptionnel...\n\nBornanew se tient parfaitement immobile, le poing contre la mâchoire."
   },
   {
     "csv_row": 2705,
     "id": "BFFImmBornDoSteal2",
     "column": "options",
-    "option_line": "bffi_mmBornDoSteal3:\"Yes? What is it?\"",
+    "option_line": "bffi_mmBornDoSteal3:\"Oui ? Qu'y a-t-il ?\"",
     "original": "Yes? What is it?",
-    "translated": ""
+    "translated": "Oui ? Qu'y a-t-il ?"
   }
 ]

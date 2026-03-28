@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "gaPZ_return1d:\"Je n'ai jamais eu l'intention de l'abandonner.\"",
     "original": "Je n'ai jamais eu l'intention de l'abandonner.",
-    "translated": ""
+    "translated": "Je n'ai jamais eu l'intention de l'abandonner."
   },
   {
     "csv_row": 5105,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "gaPZ_return1c:Ne rien dire",
     "original": "Ne rien dire",
-    "translated": ""
+    "translated": "Ne rien dire"
   },
   {
     "csv_row": 5115,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "gaPZ_gargoylePostDistraction:\"Compris quoi ?\"",
     "original": "Compris quoi ?",
-    "translated": ""
+    "translated": "Compris quoi ?"
   },
   {
     "csv_row": 5120,
@@ -37,7 +37,7 @@
     "column": "options",
     "option_line": "gaPZ_gargPostUsing:\"Baird se sert de moi, je sais.\"",
     "original": "Baird se sert de moi, je sais.",
-    "translated": ""
+    "translated": "Baird se sert de moi, je sais."
   },
   {
     "csv_row": 5123,
@@ -45,7 +45,7 @@
     "column": "options",
     "option_line": "gaPZ_gargoylePostDistraction:\"Compris quoi ?\"",
     "original": "Compris quoi ?",
-    "translated": ""
+    "translated": "Compris quoi ?"
   },
   {
     "csv_row": 5123,
@@ -53,7 +53,7 @@
     "column": "options",
     "option_line": "gaPZ_gargPostUsing:\"Baird se sert de moi, je sais.\"",
     "original": "Baird se sert de moi, je sais.",
-    "translated": ""
+    "translated": "Baird se sert de moi, je sais."
   },
   {
     "csv_row": 5124,
@@ -61,7 +61,7 @@
     "column": "options",
     "option_line": "paPZ_gargPostNeat:\"Super chouette.\"",
     "original": "Super chouette.",
-    "translated": ""
+    "translated": "Super chouette."
   },
   {
     "csv_row": 5124,
@@ -69,7 +69,7 @@
     "column": "options",
     "option_line": "paPZ_gargPostNotNeat:\"Pas vraiment, non.\"",
     "original": "Pas vraiment, non.",
-    "translated": ""
+    "translated": "Pas vraiment, non."
   },
   {
     "csv_row": 5140,

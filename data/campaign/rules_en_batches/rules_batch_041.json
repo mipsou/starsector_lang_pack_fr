@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "lke_chalcedonLookingBornanew:\"Il est venu ici pour rejoindre la Voie de Ludd. Son nom est Jethro Bornanew.\"",
     "original": "Il est venu ici pour rejoindre la Voie de Ludd. Son nom est Jethro Bornanew.",
-    "translated": ""
+    "translated": "Il est venu ici pour rejoindre la Voie de Ludd. Son nom est Jethro Bornanew."
   },
   {
     "csv_row": 1785,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "lke_chalcedonLookingBornanew:\"Je recherche Jethro Bornanew.\"",
     "original": "Je recherche Jethro Bornanew.",
-    "translated": ""
+    "translated": "Je recherche Jethro Bornanew."
   },
   {
     "csv_row": 1786,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "lke_chalcedonLookingRecMad2:Couper les comms",
     "original": "Couper les comms",
-    "translated": ""
+    "translated": "Couper les comms"
   },
   {
     "csv_row": 1811,
@@ -45,7 +45,7 @@
     "column": "options",
     "option_line": "lke_chalcedonBarAskSomeone:\"Je cherche quelqu'un qui aurait rejoint la Voie.\"",
     "original": "Je cherche quelqu'un qui aurait rejoint la Voie.",
-    "translated": ""
+    "translated": "Je cherche quelqu'un qui aurait rejoint la Voie."
   },
   {
     "csv_row": 1825,
@@ -53,7 +53,7 @@
     "column": "options",
     "option_line": "lke_chalcedonBarAskRec:\"Je cherche quelqu'un qui recrute pour la Voie.\"",
     "original": "Je cherche quelqu'un qui recrute pour la Voie.",
-    "translated": ""
+    "translated": "Je cherche quelqu'un qui recrute pour la Voie."
   },
   {
     "csv_row": 1827,
@@ -61,20 +61,20 @@
     "column": "options",
     "option_line": "lke_barEnd:Le remercier pour son temps et partir.",
     "original": "Le remercier pour son temps et partir.",
-    "translated": ""
+    "translated": "Le remercier pour son temps et partir."
   },
   {
     "csv_row": 1835,
     "id": "lkeChalcedonBarBribe5k",
     "column": "text",
     "original": "Vous transferez les credits sur le datapad poisseux offert par votre nouvel ami.",
-    "translated": ""
+    "translated": "Vous transferez les credits sur le datapad poisseux offert par votre nouvel ami."
   },
   {
     "csv_row": 1836,
     "id": "lkeChalcedonBarBribe3k",
     "column": "text",
     "original": "Vous transferez les credits sur le datapad poisseux offert par votre nouvel ami.",
-    "translated": ""
+    "translated": "Vous transferez les credits sur le datapad poisseux offert par votre nouvel ami."
   }
 ]

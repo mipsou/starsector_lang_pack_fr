@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "SL_cancelBuild:Peu importe",
     "original": "Peu importe",
-    "translated": ""
+    "translated": "Peu importe"
   },
   {
     "csv_row": 3820,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "SL_cancelBuild:Peu importe",
     "original": "Peu importe",
-    "translated": ""
+    "translated": "Peu importe"
   },
   {
     "csv_row": 3836,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "10:COB_hack:Installer un intercepteur de comm",
     "original": "COB_hack:Installer un intercepteur de comm",
-    "translated": ""
+    "translated": "COB_hack:Installer un intercepteur de comm"
   },
   {
     "csv_row": 3840,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "20:COB_takeControl:Revendiquer le $shortName et le mettre en service",
     "original": "COB_takeControl:Revendiquer le $shortName et le mettre en service",
-    "translated": ""
+    "translated": "COB_takeControl:Revendiquer le $shortName et le mettre en service"
   },
   {
     "csv_row": 3854,
@@ -37,7 +37,7 @@
     "column": "options",
     "option_line": "COB_cancelAction:Peu importe",
     "original": "Peu importe",
-    "translated": ""
+    "translated": "Peu importe"
   },
   {
     "csv_row": 3855,
@@ -45,7 +45,7 @@
     "column": "options",
     "option_line": "COB_cancelAction:Peu importe",
     "original": "Peu importe",
-    "translated": ""
+    "translated": "Peu importe"
   },
   {
     "csv_row": 3885,
@@ -53,27 +53,27 @@
     "column": "options",
     "option_line": "buyHTData:Proposer de payer pour des cartes des routes hyperespace et courants locaux",
     "original": "Proposer de payer pour des cartes des routes hyperespace et courants locaux",
-    "translated": ""
+    "translated": "Proposer de payer pour des cartes des routes hyperespace et courants locaux"
   },
   {
     "csv_row": 3894,
     "id": "buyHTDataNeverMindSel",
     "column": "text",
     "original": "$HeOrShe prend votre refus avec bonne humeur et demande si vous souhaitiez discuter d'autre chose.",
-    "translated": ""
+    "translated": "$HeOrShe prend votre refus avec bonne humeur et demande si vous souhaitiez discuter d'autre chose."
   },
   {
     "csv_row": 3895,
     "id": "buyHTDataNeverMindSelSpacer",
     "column": "text",
     "original": "\"Venez pas vous plaindre si vous vous perdez par ici,\" dit-$heOrShe avec humour.",
-    "translated": ""
+    "translated": "\"Venez pas vous plaindre si vous vous perdez par ici,\" dit-$heOrShe avec humour."
   },
   {
     "csv_row": 3927,
     "id": "ttli_payLoanResp",
     "column": "text",
     "original": "\"C'est un plaisir de faire affaire avec vous,\" dit $heOrShe avec un sourire carnassier, et coupe la communication sans plus de bavardage. Vous coupez la connexion sur le logo tournant de Tri-Tachyon.",
-    "translated": ""
+    "translated": "\"C'est un plaisir de faire affaire avec vous,\" dit $heOrShe avec un sourire carnassier, et coupe la communication sans plus de bavardage. Vous coupez la connexion sur le logo tournant de Tri-Tachyon."
   }
 ]

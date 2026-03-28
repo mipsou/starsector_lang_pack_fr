@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "gaKA_returnThinkOfGargoyle:\"Alors que pensez-vous de Gargoyle ?\"",
     "original": "Alors que pensez-vous de Gargoyle ?",
-    "translated": ""
+    "translated": "Alors que pensez-vous de Gargoyle ?"
   },
   {
     "csv_row": 4277,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "gaKA_return7:Ne rien dire",
     "original": "Ne rien dire",
-    "translated": ""
+    "translated": "Ne rien dire"
   },
   {
     "csv_row": 4289,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "gaKA_return11b2:\"Pas vraiment. La paie est bonne.\"",
     "original": "Pas vraiment. La paie est bonne.",
-    "translated": ""
+    "translated": "Pas vraiment. La paie est bonne."
   },
   {
     "csv_row": 4289,
@@ -37,7 +37,7 @@
     "column": "options",
     "option_line": "gaKA_return11b3:Ne rien dire.",
     "original": "Ne rien dire.",
-    "translated": ""
+    "translated": "Ne rien dire."
   },
   {
     "csv_row": 4290,
@@ -45,7 +45,7 @@
     "column": "options",
     "option_line": "gaKA_return11b2:\"Pas vraiment. La paie est bonne.\"",
     "original": "Pas vraiment. La paie est bonne.",
-    "translated": ""
+    "translated": "Pas vraiment. La paie est bonne."
   },
   {
     "csv_row": 4290,
@@ -53,7 +53,7 @@
     "column": "options",
     "option_line": "gaKA_return11b3:Ne rien dire. You won't fall for this again.",
     "original": "Ne rien dire. You won't fall for this again.",
-    "translated": ""
+    "translated": "Ne rien dire. Vous ne vous ferez plus avoir."
   },
   {
     "csv_row": 4296,
@@ -61,7 +61,7 @@
     "column": "options",
     "option_line": "gaKA_returnIntentions:\"Je veux parler de vos intentions avec cette technologie.\"",
     "original": "Je veux parler de vos intentions avec cette technologie.",
-    "translated": ""
+    "translated": "Je veux parler de vos intentions avec cette technologie."
   },
   {
     "csv_row": 4315,
@@ -69,7 +69,7 @@
     "column": "options",
     "option_line": "gaKA_courBaird:\"Pensez-vous que Baird soit digne de confiance ?\"",
     "original": "Pensez-vous que Baird soit digne de confiance ?",
-    "translated": ""
+    "translated": "Pensez-vous que Baird soit digne de confiance ?"
   },
   {
     "csv_row": 4324,
@@ -77,6 +77,6 @@
     "column": "options",
     "option_line": "cutCommLink:Couper la liaison",
     "original": "Couper la liaison",
-    "translated": ""
+    "translated": "Couper la liaison"
   }
 ]

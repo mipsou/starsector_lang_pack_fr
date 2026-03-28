@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "postGAFC_newArchonAsk3:\"This post must be a terrible burden. Thank you for your service.\"",
     "original": "This post must be a terrible burden. Thank you for your service.",
-    "translated": ""
+    "translated": "Ce poste doit être un terrible fardeau. Merci pour votre service."
   },
   {
     "csv_row": 4942,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "gaPZ_introCont6a:Attendre it out",
     "original": "Attendre it out",
-    "translated": ""
+    "translated": "Attendre que ça passe"
   },
   {
     "csv_row": 4969,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "gaPZ_gargKelise1:\"Bien. Alors vous pouvez aider ?\"",
     "original": "Bien. Alors vous pouvez aider ?",
-    "translated": ""
+    "translated": "Bien. Alors vous pouvez aider ?"
   },
   {
     "csv_row": 4982,
@@ -37,7 +37,7 @@
     "column": "options",
     "option_line": "gaPZ_arroyoAskKelise:Demander de l'aide pour obtenir des informations sur Kelise Astraia",
     "original": "Demander de l'aide pour obtenir des informations sur Kelise Astraia",
-    "translated": ""
+    "translated": "Demander de l'aide pour obtenir des informations sur Kelise Astraia"
   },
   {
     "csv_row": 4983,
@@ -45,14 +45,14 @@
     "column": "options",
     "option_line": "gaPZ_arroyoAskKelise1:\"Quel genre de faveur ?\"",
     "original": "Quel genre de faveur ?",
-    "translated": ""
+    "translated": "Quel genre de faveur ?"
   },
   {
     "csv_row": 4990,
     "id": "gaPZ_arroyoAskKelise2b",
     "column": "text",
     "original": "\"Parfait. Peu importe ce que vous pensez, du moment que c'est le bazar.\"",
-    "translated": ""
+    "translated": "\"Parfait. Peu importe ce que vous pensez, du moment que c'est le bazar.\""
   },
   {
     "csv_row": 4993,
@@ -60,7 +60,7 @@
     "column": "options",
     "option_line": "cutCommLinkNoText:Couper les comms",
     "original": "Couper les comms",
-    "translated": ""
+    "translated": "Couper les comms"
   },
   {
     "csv_row": 5005,
@@ -76,6 +76,6 @@
     "column": "options",
     "option_line": "gaPZ_returnArroyo3:\"Mais quoi ?\"",
     "original": "Mais quoi ?",
-    "translated": ""
+    "translated": "Mais quoi ?"
   }
 ]

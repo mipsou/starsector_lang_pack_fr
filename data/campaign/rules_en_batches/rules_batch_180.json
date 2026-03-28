@@ -5,14 +5,14 @@
     "column": "options",
     "option_line": "gaFC_fikenhildSiyavongLeague:\"As a demarchon of the League, you work for me. Remember?\"",
     "original": "As a demarchon of the League, you work for me. Remember?",
-    "translated": ""
+    "translated": "En tant que démarque de la Ligue, vous travaillez pour moi. Vous vous souvenez ?"
   },
   {
     "csv_row": 4583,
     "id": "GAFCSiyavongFikenhildOtherPeople2",
     "column": "text",
     "original": "\"Coureuse is in the Isirah system, of course. I will provide you-\" he pauses dramatically as he taps something out on his desk console. Your TriPad pings, \"-with a plausible-looking data intercept of a communication between her and Mr. Cavin Pharoh to 'prove' the success of your search here.\"\n\nHe puts his hands together, not quite hiding his grin. \"Provost Baird will be pleased, I'm sure.\"",
-    "translated": ""
+    "translated": "\"Coureuse est dans le système Isirah, bien sûr. Je vais vous fournir-\" il fait une pause théâtrale en tapant quelque chose sur sa console de bureau. Votre TriPad émet un signal, \"-une interception de données d'apparence plausible d'une communication entre elle et M. Cavin Pharoh pour 'prouver' le succès de votre recherche ici.\"\n\nIl joint les mains, cachant à peine son sourire. \"La Prévôte Baird sera ravie, j'en suis sûr.\""
   },
   {
     "csv_row": 4584,
@@ -20,7 +20,7 @@
     "column": "options",
     "option_line": "gaFC_fikenhildSiyavongCoureuseIsirah:\"Et qu'est-ce que c'est ?\"",
     "original": "Et qu'est-ce que c'est ?",
-    "translated": ""
+    "translated": "Et qu'est-ce que c'est ?"
   },
   {
     "csv_row": 4585,
@@ -28,7 +28,7 @@
     "column": "options",
     "option_line": "gaFC_fikenhildSiyavongZal:Transmettre l'identifiant comm d'Elissa Zal",
     "original": "Transmettre l'identifiant comm d'Elissa Zal",
-    "translated": ""
+    "translated": "Transmettre l'identifiant comm d'Elissa Zal"
   },
   {
     "csv_row": 4585,
@@ -36,7 +36,7 @@
     "column": "options",
     "option_line": "gaFC_fikenhildSiyavongHubB:\"Je ne pense pas.\"",
     "original": "Je ne pense pas.",
-    "translated": ""
+    "translated": "Je ne pense pas."
   },
   {
     "csv_row": 4587,
@@ -44,7 +44,7 @@
     "column": "options",
     "option_line": "gaFC_fikenhildSiyavongLeague2a:\"And that's what makes the League great. Do go on.\"",
     "original": "And that's what makes the League great. Do go on.",
-    "translated": ""
+    "translated": "Et c'est ce qui fait la grandeur de la Ligue. Poursuivez."
   },
   {
     "csv_row": 4587,
@@ -52,21 +52,21 @@
     "column": "options",
     "option_line": "gaFC_fikenhildSiyavongLeague2b:\"That's the right attitude. So where's Coureuse?\"",
     "original": "That's the right attitude. So where's Coureuse?",
-    "translated": ""
+    "translated": "C'est la bonne attitude. Alors où est Coureuse ?"
   },
   {
     "csv_row": 4588,
     "id": "GAFCSiyavongMeLeague2a",
     "column": "text",
     "original": "Siyavong puts on a dutifully, if not quite friendly, expression at your sudden display of patriotism.",
-    "translated": ""
+    "translated": "Siyavong affiche une expression consciencieuse, bien que pas tout à fait amicale, face à votre soudain élan de patriotisme."
   },
   {
     "csv_row": 4589,
     "id": "GAFCSiyavongMeLeague2b",
     "column": "text",
     "original": "\"Direct to the last,\" Siyavong says to himself, patience not quite frayed. Not quite.",
-    "translated": ""
+    "translated": "\"Direct jusqu'au bout,\" se dit Siyavong, la patience pas tout à fait à bout. Pas tout à fait."
   },
   {
     "csv_row": 4591,
@@ -74,6 +74,6 @@
     "column": "options",
     "option_line": "gaFC_fikenhildSiyavongHowKnowBaird:\"How do you know about Baird?\"",
     "original": "How do you know about Baird?",
-    "translated": ""
+    "translated": "Comment connaissez-vous Baird ?"
   }
 ]

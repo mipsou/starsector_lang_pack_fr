@@ -4,7 +4,7 @@
     "id": "sitmBlurb1",
     "column": "text",
     "original": "\"Un de mes informateurs m'a transmis la localisation $sitm_aOrAnItem. Je partagerais cette information avec vous pour un prix raisonnable.\"",
-    "translated": ""
+    "translated": "\"Un de mes informateurs m'a transmis la localisation $sitm_aOrAnItem. Je partagerais cette information avec vous pour un prix raisonnable.\""
   },
   {
     "csv_row": 7629,
@@ -12,7 +12,7 @@
     "column": "options",
     "option_line": "sitm_start:Questionner sur l'emplacement du $sitm_item",
     "original": "Questionner sur l'emplacement du $sitm_item",
-    "translated": ""
+    "translated": "Questionner sur l'emplacement du $sitm_item"
   },
   {
     "csv_row": 7647,
@@ -20,7 +20,7 @@
     "column": "options",
     "option_line": "cutCommLink2:\"Le pardon ne paie pas les factures.\"",
     "original": "Le pardon ne paie pas les factures.",
-    "translated": ""
+    "translated": "Le pardon ne paie pas les factures."
   },
   {
     "csv_row": 7647,
@@ -28,7 +28,7 @@
     "column": "options",
     "option_line": "cutCommLink:Ne rien dire",
     "original": "Ne rien dire",
-    "translated": ""
+    "translated": "Ne rien dire"
   },
   {
     "csv_row": 7653,
@@ -36,14 +36,14 @@
     "column": "options",
     "option_line": "fwt_accept:Remettre $entity.fwt_theThing in exchange for a payment",
     "original": "Remettre $entity.fwt_theThing in exchange for a payment",
-    "translated": ""
+    "translated": "Remettre $entity.fwt_theThing en echange d'un paiement"
   },
   {
     "csv_row": 7656,
     "id": "fwt_acceptSelPay",
     "column": "text",
     "original": "Le $personRank $faction semble satisfait en transmettant le paiement.\n\n\"Excellent ! Parfait. Ravi de faire affaire avec vous, $playerName.\" Vous echangez quelques politesses creuses et coupez la liaison comm.",
-    "translated": ""
+    "translated": "Le $personRank $faction semble satisfait en transmettant le paiement.\n\n\"Excellent ! Parfait. Ravi de faire affaire avec vous, $playerName.\" Vous echangez quelques politesses creuses et coupez la liaison comm."
   },
   {
     "csv_row": 7678,
@@ -51,7 +51,7 @@
     "column": "options",
     "option_line": "fwt_acceptMerc:Accepter et remettre le $entity.fwt_theThing",
     "original": "Accepter et remettre le $entity.fwt_theThing",
-    "translated": ""
+    "translated": "Accepter et remettre le $entity.fwt_theThing"
   },
   {
     "csv_row": 7679,
@@ -59,14 +59,14 @@
     "column": "options",
     "option_line": "fwt_acceptMerc:Accepter et remettre le $entity.fwt_theThing in exchange for a payment",
     "original": "Accepter et remettre le $entity.fwt_theThing in exchange for a payment",
-    "translated": ""
+    "translated": "Accepter et remettre le $entity.fwt_theThing en echange d'un paiement"
   },
   {
     "csv_row": 7687,
     "id": "fwt_acceptRemnantSelNoPay",
     "column": "text",
     "original": "\"Transpondeur de propriete Tri-Tachyon detecte. La corporation Tri-Tachyon vous remercie pour votre c-c-c-\" // \"...veuillez contacter un represen-\"\n\nINTERRUPT\n\nset memory value: $playerName SUSCEPTIBLE_TO_TERMINATION_THREAT true\ntransaction protocol END",
-    "translated": ""
+    "translated": "\"Transpondeur de propriete Tri-Tachyon detecte. La corporation Tri-Tachyon vous remercie pour votre c-c-c-\" // \"...veuillez contacter un represen-\"\n\nINTERRUPT\n\nset memory value: $playerName SUSCEPTIBLE_TO_TERMINATION_THREAT true\ntransaction protocol END"
   },
   {
     "csv_row": 7717,
@@ -74,6 +74,6 @@
     "column": "options",
     "option_line": "0:cutCommLinkPolite:Couper la comm",
     "original": "cutCommLinkPolite:Couper la comm",
-    "translated": ""
+    "translated": "cutCommLinkPolite:Couper la comm"
   }
 ]

@@ -4,7 +4,7 @@
     "id": "gaKAArroyoVisitDrinkNo",
     "column": "text",
     "original": "Il hausse les epaules et sirote son deuxieme verre. \"Restez avec Baird. Vous trouverez votre propre vice pour tenir le coup,\" dit-il.",
-    "translated": ""
+    "translated": "Il hausse les epaules et sirote son deuxieme verre. \"Restez avec Baird. Vous trouverez votre propre vice pour tenir le coup,\" dit-il."
   },
   {
     "csv_row": 4200,
@@ -12,7 +12,7 @@
     "column": "options",
     "option_line": "gaKA_arroyoBairdWhat:\"Qu'est-ce que Baird a contre vous, au juste ?\"",
     "original": "Qu'est-ce que Baird a contre vous, au juste ?",
-    "translated": ""
+    "translated": "Qu'est-ce que Baird a contre vous, au juste ?"
   },
   {
     "csv_row": 4228,
@@ -20,14 +20,14 @@
     "column": "options",
     "option_line": "gaKA_visitStorage3:\"Qui sont tous ces gens ?\"",
     "original": "Qui sont tous ces gens ?",
-    "translated": ""
+    "translated": "Qui sont tous ces gens ?"
   },
   {
     "csv_row": 4236,
     "id": "gaKA_relayObjectInteraction",
     "column": "text",
     "original": "Votre $shipOrFleet approche de $name.",
-    "translated": ""
+    "translated": "Votre $shipOrFleet approche de $name."
   },
   {
     "csv_row": 4236,
@@ -35,7 +35,7 @@
     "column": "options",
     "option_line": "daKA_installHack:Installer le dispositif de piratage de Gargoyle sur le Relais Aztlan",
     "original": "Installer le dispositif de piratage de Gargoyle sur le Relais Aztlan",
-    "translated": ""
+    "translated": "Installer le dispositif de piratage de Gargoyle sur le Relais Aztlan"
   },
   {
     "csv_row": 4244,
@@ -43,7 +43,7 @@
     "column": "options",
     "option_line": "gaKA_gargoyleDoYouHave:\"Avez-vous les Archives de Kallichore ?\"",
     "original": "Avez-vous les Archives de Kallichore ?",
-    "translated": ""
+    "translated": "Avez-vous les Archives de Kallichore ?"
   },
   {
     "csv_row": 4245,
@@ -51,7 +51,7 @@
     "column": "options",
     "option_line": "gaKA_gargoyleWhatIf:\"Et si je vous laissais simplement ici ?\"",
     "original": "Et si je vous laissais simplement ici ?",
-    "translated": ""
+    "translated": "Et si je vous laissais simplement ici ?"
   },
   {
     "csv_row": 4259,
@@ -75,6 +75,6 @@
     "column": "options",
     "option_line": "gaKA_patrolLie5:\"Bonne chasse. $SirOrMadam.\"",
     "original": "Bonne chasse. $SirOrMadam.",
-    "translated": ""
+    "translated": "Bonne chasse. $SirOrMadam."
   }
 ]

@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "lke_jethroAngelsTalkOut:\"Parlons d'autre chose.\"",
     "original": "Parlons d'autre chose.",
-    "translated": ""
+    "translated": "Parlons d'autre chose."
   },
   {
     "csv_row": 2367,
@@ -13,28 +13,28 @@
     "column": "options",
     "option_line": "lke_jethroAngelsTalkOut:\"Laissez tomber. Ce n'est plus important maintenant.\"",
     "original": "Laissez tomber. Ce n'est plus important maintenant.",
-    "translated": ""
+    "translated": "Laissez tomber. Ce n'est plus important maintenant."
   },
   {
     "csv_row": 2369,
     "id": "LKEjethroAngelsPOLb",
     "column": "text",
     "original": "\"Je prie pour votre force,\" dit-il.",
-    "translated": ""
+    "translated": "\"Je prie pour votre force,\" dit-il."
   },
   {
     "csv_row": 2376,
     "id": "LKEjethroAngelsTalkTellGatesA2",
     "column": "text",
     "original": "\"Alors j'implore la Providence de nous sauver,\" murmure presque Bornanew. \"J'ignore quelle porte vous avez ouverte.\"",
-    "translated": ""
+    "translated": "\"Alors j'implore la Providence de nous sauver,\" murmure presque Bornanew. \"J'ignore quelle porte vous avez ouverte.\""
   },
   {
     "csv_row": 2378,
     "id": "LKEjethroAngelsTalkTellGatesB-A",
     "column": "text",
     "original": "\"J'admets, capitaine, que je ne peux que regarder ce don avec suspicion quand les ossements du Domaine pourrissent autour de nous.\"",
-    "translated": ""
+    "translated": "\"J'admets, capitaine, que je ne peux que regarder ce don avec suspicion quand les ossements du Domaine pourrissent autour de nous.\""
   },
   {
     "csv_row": 2394,
@@ -42,7 +42,7 @@
     "column": "options",
     "option_line": "lke_jethroJeffA:\"Va pour Jeff. Plus efficace.\"",
     "original": "Va pour Jeff. Plus efficace.",
-    "translated": ""
+    "translated": "Va pour Jeff. Plus efficace."
   },
   {
     "csv_row": 2394,
@@ -50,7 +50,7 @@
     "column": "options",
     "option_line": "lke_jethroJeffB:\"Va pour Jeff. C'est moins... enfin, vous voyez.\"",
     "original": "Va pour Jeff. C'est moins... enfin, vous voyez.",
-    "translated": ""
+    "translated": "Va pour Jeff. C'est moins... enfin, vous voyez."
   },
   {
     "csv_row": 2394,
@@ -58,20 +58,20 @@
     "column": "options",
     "option_line": "lke_jethroJeffC:\"Je plaisante. Votre nom, c'est Jethro.\"",
     "original": "Je plaisante. Votre nom, c'est Jethro.",
-    "translated": ""
+    "translated": "Je plaisante. Votre nom, c'est Jethro."
   },
   {
     "csv_row": 2407,
     "id": "LKEjethroWhatSedgeKilledCb",
     "column": "text",
     "original": "\"Je ne peux pas faire cela,\" dit-il.",
-    "translated": ""
+    "translated": "\"Je ne peux pas faire cela,\" dit-il."
   },
   {
     "csv_row": 2410,
     "id": "LKEjethroWhatSedgeKilled3B",
     "column": "text",
     "original": "\"Vos paroles sont une maigre consolation, capitaine.\"",
-    "translated": ""
+    "translated": "\"Vos paroles sont une maigre consolation, capitaine.\""
   }
 ]

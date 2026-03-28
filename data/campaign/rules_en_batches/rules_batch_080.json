@@ -3,7 +3,7 @@
     "csv_row": 2776,
     "id": "BFFIattendPartyHub1Out2",
     "column": "options",
-    "option_line": "bffi_mpEnterVault:Enter the vault",
+    "option_line": "bffi_mpEnterVault:Entrer dans la chambre forte",
     "original": "Enter the vault",
     "translated": "Entrer dans la chambre forte"
   },
@@ -32,7 +32,7 @@
     "csv_row": 2781,
     "id": "BFFImenesPartySteal4",
     "column": "options",
-    "option_line": "bffi_mpSteal6:Attendre a bit",
+    "option_line": "bffi_mpSteal6:Attendre un peu",
     "original": "Attendre a bit",
     "translated": "Attendre un peu"
   },
@@ -47,7 +47,7 @@
     "csv_row": 2783,
     "id": "BFFImenesPartySteal6",
     "column": "options",
-    "option_line": "bffi_mpSteal7:\"Menes. We should let him be for a moment, don't you think? Menes?\"",
+    "option_line": "bffi_mpSteal7:\"Menes. On devrait le laisser un moment, vous ne pensez pas ? Menes ?\"",
     "original": "Menes. We should let him be for a moment, don't you think? Menes?",
     "translated": "Menes. On devrait le laisser un moment, vous ne pensez pas ? Menes ?"
   },
@@ -55,7 +55,7 @@
     "csv_row": 2784,
     "id": "BFFImenesPartySteal7",
     "column": "options",
-    "option_line": "bffi_mpSteal8:Gently pull Menes' away and ask about other items in the collection",
+    "option_line": "bffi_mpSteal8:Éloigner doucement Menes et l'interroger sur d'autres pièces de la collection",
     "original": "Gently pull Menes' away and ask about other items in the collection",
     "translated": "Éloigner doucement Menes et l'interroger sur d'autres pièces de la collection"
   },
@@ -64,13 +64,13 @@
     "id": "BFFImenesPartySteal8",
     "column": "text",
     "original": "It takes a slightly more than polite tug to overcome Menes' inertia, but finally he's dislodged from Bornanew's spectacle toward another of the handful of chambers making up this 'inner sanctum'.\n\nMenes keeps glancing back toward Bornanew as he explains the story of one or another object: A captain's uniform of the Fourteenth Battlegroup, sword and all, from the period of the Cold Passage; a bottle of spirits from some core Domain star system near Old Earth; a pistol once owned by the Warlord Leonis; the crystalline xenocoral of a species extinct for half a billion years collected by the Exploraria.",
-    "translated": "Il faut une traction un peu plus qu'aimable pour vaincre l'inertie de Menes, mais vous finissez par le déloger du spectacle de Bornanew vers une autre des quelques salles composant ce « sanctuaire intérieur ».\n\nMenes ne cesse de jeter des coups d'oeil vers Bornanew tandis qu'il raconte l'histoire de tel ou tel objet : un uniforme de capitaine du Quatorzième Groupe de Combat, épée comprise, de la période du Passage Froid ; une bouteille d'alcool d'un système stellaire central du Domain près de la Vieille Terre ; un pistolet ayant appartenu au Seigneur de Guerre Leonis ; le xénocorail cristallin d'une espèce éteinte depuis un demi-milliard d'années collecté par l'Exploraria."
+    "translated": "Il faut une traction un peu plus qu'aimable pour vaincre l'inertie de Menes, mais vous finissez par le déloger du spectacle de Bornanew vers une autre des quelques salles composant ce \"sanctuaire intérieur\".\n\nMenes ne cesse de jeter des coups d'oeil vers Bornanew tandis qu'il raconte l'histoire de tel ou tel objet : un uniforme de capitaine du Quatorzième Groupe de Combat, épée comprise, de la période du Passage Froid ; une bouteille d'alcool d'un système stellaire central du Domain près de la Vieille Terre ; un pistolet ayant appartenu au Seigneur de Guerre Leonis ; le xénocorail cristallin d'une espèce éteinte depuis un demi-milliard d'années collecté par l'Exploraria."
   },
   {
     "csv_row": 2785,
     "id": "BFFImenesPartySteal8",
     "column": "options",
-    "option_line": "bffi_mpSteal9a:\"Astounding. Makes one think how we would handle the Cold Passage. Menes?\"",
+    "option_line": "bffi_mpSteal9a:\"Stupéfiant. Ça fait réfléchir à comment nous aurions géré le Passage Froid. Menes ?\"",
     "original": "Astounding. Makes one think how we would handle the Cold Passage. Menes?",
     "translated": "Stupéfiant. Ça fait réfléchir à comment nous aurions géré le Passage Froid. Menes ?"
   }

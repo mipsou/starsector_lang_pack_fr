@@ -5,14 +5,14 @@
     "column": "options",
     "option_line": "zgr_makePitch3c:\"It's dangerous out there. Very dangerous.\"",
     "original": "It's dangerous out there. Very dangerous.",
-    "translated": ""
+    "translated": "C'est dangereux la-bas. Tres dangereux."
   },
   {
     "csv_row": 8423,
     "id": "ZGRstartPitch3c",
     "column": "text",
     "original": "\"Yes. Does that frighten you?\" she asks.",
-    "translated": ""
+    "translated": "\"Oui. Cela vous effraie-t-il ?\" demande-t-elle."
   },
   {
     "csv_row": 8423,
@@ -20,49 +20,49 @@
     "column": "options",
     "option_line": "zgr_makePitch3cComp:\"Yes. Which is why I require adequate compensation.\"",
     "original": "Yes. Which is why I require adequate compensation.",
-    "translated": ""
+    "translated": "Oui. C'est pourquoi j'exige une compensation adequate."
   },
   {
     "csv_row": 8424,
     "id": "ZGRstartPitch3cNo",
     "column": "text",
     "original": "She pauses a moment, making no outward reaction to your bravado.\n\n\"I see,\" she allows, finally.",
-    "translated": ""
+    "translated": "Elle marque une pause, ne montrant aucune reaction exterieure a votre bravade.\n\n\"Je vois,\" concede-t-elle, finalement."
   },
   {
     "csv_row": 8425,
     "id": "ZGRstartPitch3cNoLie",
     "column": "text",
     "original": "She pauses a moment, making no outward reaction to your pretense of bravado.\n\n\"I see,\" she allows, finally.",
-    "translated": ""
+    "translated": "Elle marque une pause, ne montrant aucune reaction exterieure a votre pretention de bravoure.\n\n\"Je vois,\" concede-t-elle, finalement."
   },
   {
     "csv_row": 8428,
     "id": "ZGRstartPitch4zz",
     "column": "text",
     "original": "She makes no outward reaction to your implication, simply proceeding as if you'd said nothing at all.",
-    "translated": ""
+    "translated": "Elle ne montre aucune reaction exterieure a votre sous-entendu, poursuivant simplement comme si vous n'aviez rien dit du tout."
   },
   {
     "csv_row": 8429,
     "id": "ZGRstartPitch4z",
     "column": "text",
     "original": "\"The Perseus-Orion Abyss is a melodramatic name. I find spacers are a superstitious lot, present company excepted. Self-limiting mythology is best discarded if one means to ascend to the fullest of human potential.\" She looks away for a moment, making a dismissive flick with her flingers.",
-    "translated": ""
+    "translated": "\"L'Abime de Persee-Orion est un nom melodramatique. Je trouve que les spationautes sont superstitieux, presente compagnie exceptee. La mythologie auto-limitante est a jeter si l'on veut atteindre le plein potentiel humain.\" Elle detourne le regard un instant, faisant un geste dedaigneux des doigts."
   },
   {
     "csv_row": 8430,
     "id": "ZGRstartPitch4",
     "column": "text",
     "original": "\"You know of the Perseus-Orion Abyss? A melodramatic name. I find spacers are a superstitious lot, excepting present company. Self-limiting mythology is best discarded if one means to ascend to the fullest of human potential.\" She looks away for a moment, making a dismissive flick with her flingers.",
-    "translated": ""
+    "translated": "\"Vous connaissez l'Abime de Persee-Orion ? Un nom melodramatique. Je trouve que les spationautes sont superstitieux, presente compagnie exceptee. La mythologie auto-limitante est a jeter si l'on veut atteindre le plein potentiel humain.\" Elle detourne le regard un instant, faisant un geste dedaigneux des doigts."
   },
   {
     "csv_row": 8431,
     "id": "ZGRstartPitch4b",
     "column": "text",
     "original": "\"It is true, however, that the Abyss is hostile to our hyperspace technology. That is precisely why the secrets it holds may be all the more profitably disruptive.\"\n\nShe turns to look you full-on, once more. \"I want you to go there. I have data... there is something to find. Very old. Very dangerous. Very valuable. Bring me scans, samples. You will be paid handsomely for tangible specimens.\"",
-    "translated": ""
+    "translated": "\"Il est vrai, cependant, que l'Abime est hostile a notre technologie d'hyperespace. C'est precisement pourquoi les secrets qu'il recele pourraient etre d'autant plus rentablement perturbateurs.\"\n\nElle se tourne pour vous regarder en face, une fois de plus. \"Je veux que vous y alliez. J'ai des donnees... il y a quelque chose a trouver. Tres ancien. Tres dangereux. Tres precieux. Apportez-moi des scans, des echantillons. Vous serez genereusement paye pour des specimens tangibles.\""
   },
   {
     "csv_row": 8431,
@@ -70,6 +70,6 @@
     "column": "options",
     "option_line": "zgr_makePitch5:\"You haven't said exactly what I'm looking for. Salvage?\"",
     "original": "You haven't said exactly what I'm looking for. Salvage?",
-    "translated": ""
+    "translated": "Vous n'avez pas dit exactement ce que je cherche. De la recupe ?"
   }
 ]

@@ -4,21 +4,21 @@
     "id": "TTpatrolWeirdMods5a",
     "column": "text",
     "original": "$HeOrShe looks aside again. \"My apologies, I wasn't meant to tell you that part. The reward is for me.\"\n\nA smile breaks through $hisOrHer nervous demeanor. \"-For finding you. I should thank you, Captain $playerLastName.\"\n\n\"So... Thank you.\"",
-    "translated": ""
+    "translated": "$HeOrShe détourne à nouveau le regard. \"Mes excuses, je n'étais pas censé vous dire cette partie. La récompense est pour moi.\"\n\nUn sourire perce à travers l'air nerveux de $hisOrHer. \"-Pour vous avoir trouvé. Je devrais vous remercier, Capitaine $playerLastName.\"\n\n\"Alors... Merci.\""
   },
   {
     "csv_row": 557,
     "id": "TTpatrolWeirdMods5b",
     "column": "text",
     "original": "$HeOrShe looks skeptical. \"You don't... You haven't heard of Director Glamor-Rotanev? Hmm.\"\n\nThe $post takes a conflicted moment to think.\n\n\"Let's just say it's above my pay grade.\"",
-    "translated": ""
+    "translated": "$HeOrShe looks skeptical. \"You don't... You haven't heard of Director Glamor-Rotanev? Hmm.\"\n\nThe $post takes a conflicted moment to think.\n\n\"Let's just say it's above my pay grade.\""
   },
   {
     "csv_row": 558,
     "id": "TTpatrolWeirdMods6",
     "column": "text",
     "original": "$HeOrShe pretends to cough, then says \"I'll send you the attached address. Good luck.\"",
-    "translated": ""
+    "translated": "$HeOrShe fait semblant de tousser, puis dit \"Je vous envoie l'adresse en pièce jointe. Bonne chance.\""
   },
   {
     "csv_row": 563,

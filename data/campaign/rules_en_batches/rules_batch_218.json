@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "4:gaVIP_mercAgree:Accepter de livrer le VIP",
     "original": "gaVIP_mercAgree:Accepter de livrer le VIP",
-    "translated": ""
+    "translated": "gaVIP_mercAgree:Accepter de livrer le VIP"
   },
   {
     "csv_row": 6256,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "gaVIP_mercHub:\"Donc ils n'ont commis aucun crime. Compris.\"",
     "original": "Donc ils n'ont commis aucun crime. Compris.",
-    "translated": ""
+    "translated": "Donc ils n'ont commis aucun crime. Compris."
   },
   {
     "csv_row": 6257,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "gaVIP_mercHub:\"Donc vous n'avez pas de mandat. Compris.\"",
     "original": "Donc vous n'avez pas de mandat. Compris.",
-    "translated": ""
+    "translated": "Donc vous n'avez pas de mandat. Compris."
   },
   {
     "csv_row": 6258,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "gaVIP_mercHub:\"Sinon rien. Compris.\"",
     "original": "Sinon rien. Compris.",
-    "translated": ""
+    "translated": "Sinon rien. Compris."
   },
   {
     "csv_row": 6266,
@@ -37,7 +37,7 @@
     "column": "options",
     "option_line": "gaVIP_mercTransfer:Accepter les conditions",
     "original": "Accepter les conditions",
-    "translated": ""
+    "translated": "Accepter les conditions"
   },
   {
     "csv_row": 6266,
@@ -45,7 +45,7 @@
     "column": "options",
     "option_line": "gaVIP_mercDecides:Refuser les conditions",
     "original": "Refuser les conditions",
-    "translated": ""
+    "translated": "Refuser les conditions"
   },
   {
     "csv_row": 6288,
@@ -53,21 +53,21 @@
     "column": "options",
     "option_line": "gaOp_start:Questionner sur le transport de scientifiques vers l'avant-poste de recherche dans $gaOp_systemName",
     "original": "Questionner sur le transport de scientifiques vers l'avant-poste de recherche dans $gaOp_systemName",
-    "translated": ""
+    "translated": "Questionner sur le transport de scientifiques vers l'avant-poste de recherche dans $gaOp_systemName"
   },
   {
     "csv_row": 6291,
     "id": "gaOpPlanetInteraction",
     "column": "text",
     "original": "Votre $shipOrFleet approche de $entityName.",
-    "translated": ""
+    "translated": "Votre $shipOrFleet approche de $entityName."
   },
   {
     "csv_row": 6292,
     "id": "gaOpPrintHostilesText",
     "column": "text",
     "original": "Une flotte hostile a proximite surveille vos mouvements, rendant toute operation au sol impossible.",
-    "translated": ""
+    "translated": "Une flotte hostile a proximite surveille vos mouvements, rendant toute operation au sol impossible."
   },
   {
     "csv_row": 6325,
@@ -75,6 +75,6 @@
     "column": "options",
     "option_line": "gaOp_negAccept:Accepter les conditions and make arrangements for the exchange",
     "original": "Accepter les conditions and make arrangements for the exchange",
-    "translated": ""
+    "translated": "Accepter les conditions et organiser l'échange"
   }
 ]

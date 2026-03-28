@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "bffi_arrestShotBorn0:Draw your own weapon",
     "original": "Draw your own weapon",
-    "translated": ""
+    "translated": "Dégainer votre propre arme"
   },
   {
     "csv_row": 3413,
@@ -13,14 +13,14 @@
     "column": "options",
     "option_line": "bffi_arrestShove0:Push Bornanew aside",
     "original": "Push Bornanew aside",
-    "translated": ""
+    "translated": "Pousser Bornanew sur le côté"
   },
   {
     "csv_row": 3414,
     "id": "BFFIarrest13bb",
     "column": "text",
     "original": "He steps forward again, pushing the barrel of the Knight-Captain's carbine into his chest. The Knight-Captain looks desperately uncomfortable. \"Brother,\" he says again, pleading.\n\n\"Do your duty, Knight-Captain!\" shouts Keepfaith. \n\nBornanew takes another step, bodily pushing back the Knight-Captain, still cradling the carbine. Finger on the trigger.",
-    "translated": ""
+    "translated": "Il fait un autre pas en avant, poussant le canon de la carabine du Chevalier-Capitaine contre sa poitrine. Le Chevalier-Capitaine a l'air désespérément mal à l'aise. \"Frère,\" dit-il encore, suppliant.\n\n\"Faites votre devoir, Chevalier-Capitaine !\" crie Keepfaith.\n\nBornanew fait encore un pas, repoussant physiquement le Chevalier-Capitaine, qui tient toujours la carabine. Le doigt sur la détente."
   },
   {
     "csv_row": 3414,
@@ -28,7 +28,7 @@
     "column": "options",
     "option_line": "bffi_arrestShotBorn0:Draw your own weapon",
     "original": "Draw your own weapon",
-    "translated": ""
+    "translated": "Dégainer votre propre arme"
   },
   {
     "csv_row": 3414,
@@ -36,7 +36,7 @@
     "column": "options",
     "option_line": "bffi_arrestShove0:Push Bornanew aside",
     "original": "Push Bornanew aside",
-    "translated": ""
+    "translated": "Pousser Bornanew sur le côté"
   },
   {
     "csv_row": 3414,
@@ -44,34 +44,34 @@
     "column": "options",
     "option_line": "bffi_arrestNoMove0:Make no sudden movements",
     "original": "Make no sudden movements",
-    "translated": ""
+    "translated": "Ne faire aucun mouvement brusque"
   },
   {
     "csv_row": 3415,
     "id": "BFFIarrestNoMove0",
     "column": "text",
     "original": "A pathetic struggle ensues, Keepfaith's hands locked around the Knight-Captain's, who struggles to keep the weapon under his control.\n\nBornanew simply watches until, finally, both Curate and Knight-captain tumble into a workdesk, sending papers and tools flying.",
-    "translated": ""
+    "translated": "Une lutte pathétique s'ensuit, les mains de Keepfaith verrouillées autour de celles du Chevalier-Capitaine, qui lutte pour garder l'arme sous son contrôle.\n\nBornanew observe simplement jusqu'à ce que, finalement, la Curée et le Chevalier-Capitaine s'effondrent contre un bureau de travail, envoyant papiers et outils voler."
   },
   {
     "csv_row": 3416,
     "id": "BFFIarrestNoMove1",
     "column": "text",
     "original": "Expressions among the apprentices range from appalled second-hand embarrassment to impish delight.\n\nRed-faced, the Knight-Captain, regains his feet with Subcurate Keepfaith restrained in his arms. There is little dignity remaining for either.\n\nBornanew, meanwhile, remains standing in a stray beam of sunlight - a product of the clever arrangement of lightwells. The effect places him as the glowing centerpiece to an instructive tableau.\n\nThis can't have been happenstance; Bornanew's insistence on pushing forward, toward the light...",
-    "translated": ""
+    "translated": "Les expressions parmi les apprentis vont de la gêne horrifiée par procuration au ravissement espiègle.\n\nRouge de honte, le Chevalier-Capitaine se relève avec la Sous-curée Keepfaith retenue dans ses bras. Il ne reste guère de dignité pour l'un ou l'autre.\n\nBornanew, pendant ce temps, reste debout dans un rayon de soleil égaré - produit de l'arrangement ingénieux des puits de lumière. L'effet le place comme la pièce maîtresse luminescente d'un tableau instructif.\n\nCela ne peut pas avoir été un hasard ; l'insistance de Bornanew à avancer, vers la lumière..."
   },
   {
     "csv_row": 3417,
     "id": "BFFIarrestNoMove2",
     "column": "text",
     "original": "Coincidence or performance, the invisible consensus is irrevocably turned against Keepfaith.\n\n\"It was under control!\" she screams. \"It would never have been necessary if you Knights attended your duties. You're lax, lax and blind!\"\n\n\"Come now, sister,\" says the Knight-Captain, leading her away. \"Be not careless with your words, for the Inquisitors shall hear all...\"",
-    "translated": ""
+    "translated": "Coïncidence ou mise en scène, le consensus invisible s'est irrémédiablement retourné contre Keepfaith.\n\n\"C'était sous contrôle !\" hurle-t-elle. \"Ça n'aurait jamais été nécessaire si vous, Chevaliers, remplissiez vos devoirs. Vous êtes laxistes, laxistes et aveugles !\"\n\n\"Allons, ma sœur,\" dit le Chevalier-Capitaine en l'emmenant. \"Ne soyez pas imprudente avec vos paroles, car les Inquisiteurs entendront tout...\""
   },
   {
     "csv_row": 3419,
     "id": "BFFIarrestShotBorn1",
     "column": "text",
     "original": "Horrified, the Knight-Captain shoves Subcurate Keepfaith aside and safeties his weapon. She crashes into a workdesk, papers and tools and dignity scattered all around.\n\nThere are screams. Is there a doctor? Orders are shouted. The Knight-Captain is tearing his robe, holding a piece of cloth to Bornanew's wound. The red bubbles up into the white.",
-    "translated": ""
+    "translated": "Horrifié, le Chevalier-Capitaine repousse la Sous-curée Keepfaith et met son arme en sécurité. Elle s'écrase contre un bureau de travail, papiers, outils et dignité éparpillés tout autour.\n\nIl y a des cris. Y a-t-il un médecin ? Des ordres sont hurlés. Le Chevalier-Capitaine déchire sa robe, pressant un morceau de tissu contre la blessure de Bornanew. Le rouge remonte dans le blanc."
   }
 ]

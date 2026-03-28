@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "gaDHO_justFoundArrayEndElek:Talk to Academician Elek at the Galatia Academy first",
     "original": "Talk to Academician Elek at the Galatia Academy first",
-    "translated": ""
+    "translated": "Parler d'abord à l'Académicien Elek à l'Académie Galatia"
   },
   {
     "csv_row": 10980,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "gaDHO_justFoundArrayEndAbyss:Why wait? Go straight to the coordinates in the Abyss",
     "original": "Why wait? Go straight to the coordinates in the Abyss",
-    "translated": ""
+    "translated": "Pourquoi attendre ? Aller directement aux coordonnées dans l'Abysse"
   },
   {
     "csv_row": 10986,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "3:gaDHO_visitElekStart2:Ask where you could find the office of Cornelius Elek",
     "original": "gaDHO_visitElekStart2:Ask where you could find the office of Cornelius Elek",
-    "translated": ""
+    "translated": "gaDHO_visitElekStart2:Demander où se trouve le bureau de Cornelius Elek"
   },
   {
     "csv_row": 10988,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "gaDHO_visitElekAltIntro2b:\"They probably didn't make it. I'm sorry.\"",
     "original": "They probably didn't make it. I'm sorry.",
-    "translated": ""
+    "translated": "Ils n'ont probablement pas survécu. Je suis désolé."
   },
   {
     "csv_row": 10988,
@@ -37,7 +37,7 @@
     "column": "options",
     "option_line": "gaDHO_visitElekAltIntro2c:\"If they're not back yet, they're probably dead.\"",
     "original": "If they're not back yet, they're probably dead.",
-    "translated": ""
+    "translated": "S'ils ne sont pas encore revenus, ils sont probablement morts."
   },
   {
     "csv_row": 10989,
@@ -45,7 +45,7 @@
     "column": "options",
     "option_line": "gaDHO_abyssEndElekIntro1:\"Yes. It worked. It gave me coordinates in the Abyss and I went there.\"",
     "original": "Yes. It worked. It gave me coordinates in the Abyss and I went there.",
-    "translated": ""
+    "translated": "Oui. Ça a fonctionné. Ça m'a donné des coordonnées dans l'Abysse et j'y suis allé."
   },
   {
     "csv_row": 10990,
@@ -53,7 +53,7 @@
     "column": "options",
     "option_line": "gaDHO_abyssEndElekIntro1:\"Right. It worked, gave me coordinates in the Abyss, and I went there.\"",
     "original": "Right. It worked, gave me coordinates in the Abyss, and I went there.",
-    "translated": ""
+    "translated": "Exact. Ça a fonctionné, ça m'a donné des coordonnées dans l'Abysse, et j'y suis allé."
   },
   {
     "csv_row": 10990,
@@ -61,7 +61,7 @@
     "column": "options",
     "option_line": "gaDHO_abyssEndElekMyData:\"Fine. We can talk about MY discovery first. Then payment.\"",
     "original": "Fine. We can talk about MY discovery first. Then payment.",
-    "translated": ""
+    "translated": "Très bien. Nous pouvons parler de MA découverte d'abord. Ensuite le paiement."
   },
   {
     "csv_row": 10990,
@@ -69,7 +69,7 @@
     "column": "options",
     "option_line": "gaDHO_abyssEndElekMyDiscovery:\"It's MY discovery. And we'll talk about payment if you want any part in it.\"",
     "original": "It's MY discovery. And we'll talk about payment if you want any part in it.",
-    "translated": ""
+    "translated": "C'est MA découverte. Et nous parlerons du paiement si vous voulez y prendre part."
   },
   {
     "csv_row": 10993,
@@ -77,6 +77,6 @@
     "column": "options",
     "option_line": "gaDHO_abyssEndFoundFirst:\"First, I want to talk about what I found. It was... hazardous.\"",
     "original": "First, I want to talk about what I found. It was... hazardous.",
-    "translated": ""
+    "translated": "D'abord, je veux parler de ce que j'ai trouvé. C'était... dangereux."
   }
 ]

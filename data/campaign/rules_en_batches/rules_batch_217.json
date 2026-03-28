@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "gaProbe_returnHazard:Expliquer calmement le concept de prime de risque",
     "original": "Expliquer calmement le concept de prime de risque",
-    "translated": ""
+    "translated": "Expliquer calmement le concept de prime de risque"
   },
   {
     "csv_row": 6184,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "gaProbe_itsNothing:\"Ce n'est rien. Vous disiez ?\"",
     "original": "Ce n'est rien. Vous disiez ?",
-    "translated": ""
+    "translated": "Ce n'est rien. Vous disiez ?"
   },
   {
     "csv_row": 6196,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "gaProbe_giveAid:Leur donner les provisions et le carburant",
     "original": "Leur donner les provisions et le carburant",
-    "translated": ""
+    "translated": "Leur donner les provisions et le carburant"
   },
   {
     "csv_row": 6196,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "gaProbe_denyAid:Leur refuser toute aide",
     "original": "Leur refuser toute aide",
-    "translated": ""
+    "translated": "Leur refuser toute aide"
   },
   {
     "csv_row": 6217,
@@ -37,7 +37,7 @@
     "column": "options",
     "option_line": "gaVIP_start:Questionner sur le transport VIP",
     "original": "Questionner sur le transport VIP",
-    "translated": ""
+    "translated": "Questionner sur le transport VIP"
   },
   {
     "csv_row": 6218,
@@ -45,7 +45,7 @@
     "column": "options",
     "option_line": "gaVIP_threats:\"Des menaces ?\"",
     "original": "Des menaces ?",
-    "translated": ""
+    "translated": "Des menaces ?"
   },
   {
     "csv_row": 6220,
@@ -53,14 +53,14 @@
     "column": "options",
     "option_line": "gaVIP_briefingCont:Sans commentaire, le laisser finir",
     "original": "Sans commentaire, le laisser finir",
-    "translated": ""
+    "translated": "Sans commentaire, le laisser finir"
   },
   {
     "csv_row": 6226,
     "id": "gaVIP_completedButNoDocking",
     "column": "text",
     "original": "Vous ne pouvez pas effectuer la livraison VIP pour le moment.",
-    "translated": ""
+    "translated": "Vous ne pouvez pas effectuer la livraison VIP pour le moment."
   },
   {
     "csv_row": 6250,
@@ -68,7 +68,7 @@
     "column": "options",
     "option_line": "0:gaVIP_mercWhatCrime:\"Quel crime ont-ils commis ?\"",
     "original": "gaVIP_mercWhatCrime:\"Quel crime ont-ils commis ?",
-    "translated": ""
+    "translated": "gaVIP_mercWhatCrime:\"Quel crime ont-ils commis ?"
   },
   {
     "csv_row": 6252,
@@ -76,6 +76,6 @@
     "column": "options",
     "option_line": "2:gaVIP_mercOrElse:\"Sinon quoi ?\"",
     "original": "gaVIP_mercOrElse:\"Sinon quoi ?",
-    "translated": ""
+    "translated": "gaVIP_mercOrElse:\"Sinon quoi ?"
   }
 ]

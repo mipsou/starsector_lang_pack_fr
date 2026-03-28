@@ -5,14 +5,14 @@
     "column": "options",
     "option_line": "adonya_tell:\"I found Scylla on Laicaille Habitat, then...\" (explain)",
     "original": "I found Scylla on Laicaille Habitat, then...\" (explain)",
-    "translated": ""
+    "translated": "J'ai trouvé Scylla sur l'Habitat Laicaille, puis...\" (expliquer)"
   },
   {
     "csv_row": 11094,
     "id": "adonyaNotFleet",
     "column": "text",
     "original": "\"Oh... isn't that nice.\" She smiles. \"You must be very successful.\"",
-    "translated": ""
+    "translated": "\"Oh... c'est bien.\" Elle sourit. \"Vous devez avoir beaucoup de succès.\""
   },
   {
     "csv_row": 11097,
@@ -20,7 +20,7 @@
     "column": "options",
     "option_line": "adonya_tell4b:\"And then Scylla and Zal disappeared. I don't know where to.\"",
     "original": "And then Scylla and Zal disappeared. I don't know where to.",
-    "translated": ""
+    "translated": "Et puis Scylla et Zal ont disparu. Je ne sais pas où."
   },
   {
     "csv_row": 11097,
@@ -28,6 +28,6 @@
     "column": "options",
     "option_line": "adonya_tell4c:\"Then they disappeared together. I'm trying to find them.\"",
     "original": "Then they disappeared together. I'm trying to find them.",
-    "translated": ""
+    "translated": "Puis ils ont disparu ensemble. J'essaie de les retrouver."
   }
 ]

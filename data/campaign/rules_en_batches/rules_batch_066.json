@@ -4,21 +4,21 @@
     "id": "BFFIonBoardEndHostilePL3c",
     "column": "text",
     "original": "He gives you a look. \"My speculation on behalf of his character, captain.\"\n\nBornanew shuts his notebook somewhat more forcefully than the first time.",
-    "translated": ""
+    "translated": "Il vous lance un regard. \"Simple spéculation de ma part concernant son caractère, capitaine.\"\n\nBornanew referme son carnet un peu plus brutalement que la première fois."
   },
   {
     "csv_row": 2609,
     "id": "BFFIonBoardEndHostilePL4",
     "column": "text",
     "original": "Bornanew shuts his notebook again.",
-    "translated": ""
+    "translated": "Bornanew referme à nouveau son carnet."
   },
   {
     "csv_row": 2613,
     "id": "BFFImeetMenes2",
     "column": "text",
     "original": "A tap confirms that Bornanew is receiving a split of the comms feed.\n\n\"Indeed!\" Menes says, perking up. \"In truth, I consider myself something of an antiquarian. It provides me with a... a connection to the great individuals who have come before and changed the worlds for,\" he pauses for drama, \"...good or ill.\"\n\n\"If I may, if I may,\" he says, growing more excited by the moment, \"I did peek at your dossier before accepting the comm link. I'm given to understand you're something of an adventurer? Perhaps you've stumbled on historical objects of interest in your travels?\"",
-    "translated": ""
+    "translated": "Un bip confirme que Bornanew reçoit une copie du flux de communication.\n\n\"En effet !\" dit Menes, s'animant. \"À vrai dire, je me considère comme une sorte d'antiquaire. Cela me procure une... une connexion avec les grands individus qui nous ont précédés et ont changé les mondes pour,\" il marque une pause théâtrale, \"...le meilleur ou le pire.\"\n\n\"Si vous permettez, si vous permettez,\" dit-il, de plus en plus enthousiaste, \"j'ai jeté un coup d'œil à votre dossier avant d'accepter la liaison comm. J'ai cru comprendre que vous étiez une sorte d'aventurier ? Peut-être avez-vous découvert des objets historiques intéressants au cours de vos voyages ?\""
   },
   {
     "csv_row": 2613,
@@ -26,21 +26,21 @@
     "column": "options",
     "option_line": "BFFI_meetMenes3c:\"I've seen things you wouldn't believe. Attack ships on fire off the Orion-Perseus abyss...\"",
     "original": "I've seen things you wouldn't believe. Attack ships on fire off the Orion-Perseus abyss...",
-    "translated": ""
+    "translated": "J'ai vu des choses que vous ne croiriez pas. Des vaisseaux d'attaque en flammes au large de l'abîme Orion-Persée..."
   },
   {
     "csv_row": 2614,
     "id": "BFFImeetMenes2hostile",
     "column": "text",
     "original": "A tap confirms that Bornanew is receiving a split of the comms feed.\n\n\"Indeed!\" Menes says, perking up. \"I consider myself something of an antiquarian. It provides a... a connection to the great individuals who have come before and changed the worlds for,\" he pauses for drama, \"...good or ill.\"\n\n\"If I may, if I may,\" he says, more excited by the moment, \"I did peek at your dossier before accepting the comm link. You've made some people very angry, haven't you. How... disreputable.\"\n\nYou're not sure you've seen someone's eyes twinkle before, but you swear that his just did.",
-    "translated": ""
+    "translated": "Un bip confirme que Bornanew reçoit une copie du flux de communication.\n\n\"En effet !\" dit Menes, s'animant. \"Je me considère comme une sorte d'antiquaire. Cela procure une... une connexion avec les grands individus qui nous ont précédés et ont changé les mondes pour,\" il marque une pause théâtrale, \"...le meilleur ou le pire.\"\n\n\"Si vous permettez, si vous permettez,\" dit-il, de plus en plus enthousiaste, \"j'ai jeté un coup d'œil à votre dossier avant d'accepter la liaison comm. Vous avez mis certaines personnes très en colère, n'est-ce pas. Comme c'est... peu recommandable.\"\n\nVous n'êtes pas sûr d'avoir déjà vu les yeux de quelqu'un pétiller, mais vous jurez que les siens viennent de le faire."
   },
   {
     "csv_row": 2615,
     "id": "BFFImeetMenes2hostile2",
     "column": "text",
     "original": "\"I'm given to understand you're something of an adventurer,\" he continues. \"A rogue element, if you will. You play by your own rules. I like to think I'm of like mind,\" he says with a wink.\n\n\"Perhaps you've stumbled on historical objects of interest in your... adventures?\"",
-    "translated": ""
+    "translated": "\"J'ai cru comprendre que vous étiez une sorte d'aventurier,\" poursuit-il. \"Un électron libre, si vous voulez. Vous jouez selon vos propres règles. J'aime à penser que je suis du même acabit,\" dit-il avec un clin d'œil.\n\n\"Peut-être avez-vous découvert des objets historiques intéressants au cours de vos... aventures ?\""
   },
   {
     "csv_row": 2615,
@@ -48,21 +48,21 @@
     "column": "options",
     "option_line": "BFFI_meetMenes3c:\"I've seen things you wouldn't believe. Attack ships on fire off the Orion-Perseus abyss...\"",
     "original": "I've seen things you wouldn't believe. Attack ships on fire off the Orion-Perseus abyss...",
-    "translated": ""
+    "translated": "J'ai vu des choses que vous ne croiriez pas. Des vaisseaux d'attaque en flammes au large de l'abîme Orion-Persée..."
   },
   {
     "csv_row": 2619,
     "id": "BFFImeetMenes3",
     "column": "text",
     "original": "\"Splendid!\" Menes gushes, \"Absolutely splendid!\"\n\n\"You simply must join one of my little weekly gatherings. Just a little get together of what few cultured minds may be found in this ghastly backwater. We'd adore hearing about your adventures. Oh, a legitimate spacer captain would lend some spice to the event! I am excited.\"",
-    "translated": ""
+    "translated": "\"Splendide !\" s'exclame Menes, \"Absolument splendide !\"\n\n\"Vous devez absolument vous joindre à l'une de mes petites réunions hebdomadaires. Juste un petit rassemblement des rares esprits cultivés que l'on peut trouver dans ce trou perdu sinistre. Nous adorerions entendre parler de vos aventures. Oh, un véritable capitaine de l'espace ajouterait du piquant à l'événement ! Je suis ravi.\""
   },
   {
     "csv_row": 2620,
     "id": "BFFImeetMenes3guest",
     "column": "text",
     "original": "\"And I'll have to make sure to invite-\" Menes is smiling, distracted by his own party planning. \"-ah, a guest? I'm sure it'd be no bother. Who did you have in mind?\"",
-    "translated": ""
+    "translated": "\"Et je devrai m'assurer d'inviter—\" Menes sourit, distrait par ses propres préparatifs de réception. \"—ah, un invité ? Je suis sûr que ce ne sera pas un problème. À qui pensiez-vous ?\""
   },
   {
     "csv_row": 2620,
@@ -70,6 +70,6 @@
     "column": "options",
     "option_line": "BFFI_meetMenes4a:\"A hardened criminal who changed his name and became a Knight of Ludd.\"",
     "original": "A hardened criminal who changed his name and became a Knight of Ludd.",
-    "translated": ""
+    "translated": "Un criminel endurci qui a changé de nom et est devenu un Chevalier de Ludd."
   }
 ]

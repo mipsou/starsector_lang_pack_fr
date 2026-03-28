@@ -4,73 +4,73 @@
     "id": "BFFIonBoardAskRelic5e",
     "column": "text",
     "original": "He glances at you with a fleeting grimace of self-reflection.\n\n\"With further apology for the ramble through theology, captain; the matter of the false relic should be our focus.\"",
-    "translated": ""
+    "translated": "Il vous lance un regard accompagné d'une grimace fugace d'introspection.\n\n\"Avec de nouvelles excuses pour cette digression théologique, capitaine ; la question de la fausse relique devrait être notre priorité.\""
   },
   {
     "csv_row": 2593,
     "id": "BFFIonBoardAskRelic5f",
     "column": "text",
     "original": "Mention of Cotton dims Bornanew's expression. \"He's read the Word, too, of course. In his way.\"\n\nHe sighs, deeply. \"Let his crimes, worldly and spiritual, serve as bloody warning of the path those... that those uncertain of their faith might be compelled to follow. I pray it weren't so.\"\n\n\"Which, with apologies for the ramble through theology, brings us back to the false relic.\"",
-    "translated": ""
+    "translated": "La mention de Cotton assombrit l'expression de Bornanew. \"Il a lu la Parole, lui aussi, bien sûr. À sa manière.\"\n\nIl soupire profondément. \"Que ses crimes, terrestres et spirituels, servent de sanglant avertissement sur le chemin que ceux... que ceux qui doutent de leur foi pourraient être contraints de suivre. Je prie pour qu'il n'en soit rien.\"\n\n\"Ce qui, avec mes excuses pour cette digression théologique, nous ramène à la fausse relique.\""
   },
   {
     "csv_row": 2594,
     "id": "BFFIonBoardAskTart4",
     "column": "text",
     "original": "Bornanew gives you a look.\n\n\"It's a tedious story. And unimportant.\"",
-    "translated": ""
+    "translated": "Bornanew vous lance un regard.\n\n\"C'est une histoire ennuyeuse. Et sans importance.\""
   },
   {
     "csv_row": 2595,
     "id": "BFFIonBoardAskPlan1",
     "column": "text",
     "original": "Bornanew closes his book of notes.\n\n\"It has been made clear to me that the Church would like this problem, this false idol, to quietly disappear,\" he says. \"It can only tear open old rifts within the Church which would weaken the resolve of the Faithful. It would turn walker against walker in troubling times which promise naught but more trouble.\"\n\n\"I am prepared to ask nicely, but I do not believe Menes will agree to give someone like myself his glove.\"",
-    "translated": ""
+    "translated": "Bornanew ferme son carnet de notes.\n\n\"On m'a clairement fait comprendre que l'Église souhaiterait que ce problème, cette fausse idole, disparaisse discrètement,\" dit-il. \"Cela ne peut que rouvrir d'anciennes fractures au sein de l'Église, ce qui affaiblirait la résolution des Fidèles. Cela dresserait marcheur contre marcheur en des temps troubles qui ne promettent rien d'autre que davantage de troubles.\"\n\n\"Je suis prêt à demander poliment, mais je ne crois pas que Menes acceptera de donner son gant à quelqu'un comme moi.\""
   },
   {
     "csv_row": 2595,
     "id": "BFFIonBoardAskPlan1",
     "column": "options",
-    "option_line": "bffi_onBoardPlanToMe:\"But you think he might listen to someone like me.\"",
+    "option_line": "bffi_onBoardPlanToMe:\"Mais vous pensez qu'il pourrait écouter quelqu'un comme moi.\"",
     "original": "But you think he might listen to someone like me.",
-    "translated": ""
+    "translated": "Mais vous pensez qu'il pourrait écouter quelqu'un comme moi."
   },
   {
     "csv_row": 2595,
     "id": "BFFIonBoardAskPlan1",
     "column": "options",
-    "option_line": "bffi_onBoardPlanBuy:\"We could offer to buy it.\"",
+    "option_line": "bffi_onBoardPlanBuy:\"On pourrait proposer de l'acheter.\"",
     "original": "We could offer to buy it.",
-    "translated": ""
+    "translated": "On pourrait proposer de l'acheter."
   },
   {
     "csv_row": 2595,
     "id": "BFFIonBoardAskPlan1",
     "column": "options",
-    "option_line": "bffi_onBoardPlanSteal:\"We could steal it.\"",
+    "option_line": "bffi_onBoardPlanSteal:\"On pourrait le voler.\"",
     "original": "We could steal it.",
-    "translated": ""
+    "translated": "On pourrait le voler."
   },
   {
     "csv_row": 2595,
     "id": "BFFIonBoardAskPlan1",
     "column": "options",
-    "option_line": "bffi_onBoardPlanHorus:\"I could talk to Horus Yaribay. He leads his gens, presumably.\"",
+    "option_line": "bffi_onBoardPlanHorus:\"Je pourrais parler à Horus Yaribay. C'est lui qui dirige sa gens, je présume.\"",
     "original": "I could talk to Horus Yaribay. He leads his gens, presumably.",
-    "translated": ""
+    "translated": "Je pourrais parler à Horus Yaribay. C'est lui qui dirige sa gens, je présume."
   },
   {
     "csv_row": 2598,
     "id": "BFFIonBoardPlanOptsHorus",
     "column": "text",
     "original": "\"Interesting.\" Bornanew rubs his chin. \"If you believe Horus will be receptive to you bearing this... news. I wonder if it may be as simple as that.\"",
-    "translated": ""
+    "translated": "\"Intéressant.\" Bornanew se frotte le menton. \"Si vous pensez que Horus sera réceptif au fait que vous lui apportiez cette... nouvelle. Je me demande si ce pourrait être aussi simple que cela.\""
   },
   {
     "csv_row": 2600,
     "id": "BFFIonBoardPlanOptsBuy",
     "column": "text",
     "original": "\"You could.\" Bornanew emphasizes 'you'. \"The Church refuses to acknowledge the false relic.\"",
-    "translated": ""
+    "translated": "\"Vous pourriez.\" Bornanew appuie sur le 'vous'. \"L'Église refuse de reconnaître la fausse relique.\""
   }
 ]

@@ -5,14 +5,14 @@
     "column": "options",
     "option_line": "lcMakeDealProposeAbrupt:\"Ne perdez pas mon temps avec des chiffres. Quelle est votre exigence ?\"",
     "original": "Ne perdez pas mon temps avec des chiffres. Quelle est votre exigence ?",
-    "translated": ""
+    "translated": "Ne perdez pas mon temps avec des chiffres. Quelle est votre exigence ?"
   },
   {
     "csv_row": 9868,
     "id": "LCmakeDealPath",
     "column": "text",
     "original": "Une expression distincte de consternation traverse le visage du $post malgre ses efforts.\n\n\"Je ne m'abaisserai pas a considerer votre insinuation, ni a me laisser provoquer dans un debat dogmatique. Menez votre combat spirituel avec un cure ; je suis ici pour conclure un accord temporel.\"",
-    "translated": ""
+    "translated": "Une expression distincte de consternation traverse le visage du $post malgre ses efforts.\n\n\"Je ne m'abaisserai pas a considerer votre insinuation, ni a me laisser provoquer dans un debat dogmatique. Menez votre combat spirituel avec un cure ; je suis ici pour conclure un accord temporel.\""
   },
   {
     "csv_row": 9875,
@@ -20,7 +20,7 @@
     "column": "options",
     "option_line": "lcDealConfirm:Confirmer le concordat",
     "original": "Confirmer le concordat",
-    "translated": ""
+    "translated": "Confirmer le concordat"
   },
   {
     "csv_row": 9875,
@@ -44,7 +44,7 @@
     "column": "options",
     "option_line": "lcBreakDeal:\"Le concordat d'immigration ne me convient plus.\"",
     "original": "Le concordat d'immigration ne me convient plus.",
-    "translated": ""
+    "translated": "Le concordat d'immigration ne me convient plus."
   },
   {
     "csv_row": 9881,
@@ -60,7 +60,7 @@
     "column": "options",
     "option_line": "kolt_armadaCommsRespB:\"Vous pratiquez ouvertement la piraterie et propagez l'insurrection. J'exige que vous cessiez !\"",
     "original": "Vous pratiquez ouvertement la piraterie et propagez l'insurrection. J'exige que vous cessiez !",
-    "translated": ""
+    "translated": "Vous pratiquez ouvertement la piraterie et propagez l'insurrection. J'exige que vous cessiez !"
   },
   {
     "csv_row": 9891,
@@ -68,7 +68,7 @@
     "column": "options",
     "option_line": "kolt_armadaCommsRespBdeath:\"Si vous voulez $KOLT_target, il faudra me l'arracher des mains.\"",
     "original": "Si vous voulez $KOLT_target, il faudra me l'arracher des mains.",
-    "translated": ""
+    "translated": "Si vous voulez $KOLT_target, il faudra me l'arracher des mains."
   },
   {
     "csv_row": 9893,

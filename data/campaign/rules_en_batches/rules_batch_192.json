@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "gaFC_laicailleVisit5Alamang2:\"Un cadeau d'Elissa.\"",
     "original": "Un cadeau d'Elissa.",
-    "translated": ""
+    "translated": "Un cadeau d'Elissa."
   },
   {
     "csv_row": 4877,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "gaFC_laicailleVisit7:Lui donner le message de Baird sur votre datapad",
     "original": "Lui donner le message de Baird sur votre datapad",
-    "translated": ""
+    "translated": "Lui donner le message de Baird sur votre datapad"
   },
   {
     "csv_row": 4878,
@@ -21,14 +21,14 @@
     "column": "options",
     "option_line": "gaFC_laicailleVisit8b:Regarder autour de vous",
     "original": "Regarder autour de vous",
-    "translated": ""
+    "translated": "Regarder autour de vous"
   },
   {
     "csv_row": 4882,
     "id": "gaFCLaicailleVisit10",
     "column": "text",
     "original": "Coureuse vous regarde avec des yeux durcis et esquisse un demi-sourire ironique. \"Baird obtient toujours ce qu'elle veut, vous ne le saviez pas ?\"",
-    "translated": ""
+    "translated": "Coureuse vous regarde avec des yeux durcis et esquisse un demi-sourire ironique. \"Baird obtient toujours ce qu'elle veut, vous ne le saviez pas ?\""
   },
   {
     "csv_row": 4887,
@@ -36,7 +36,7 @@
     "column": "options",
     "option_line": "gaFC_return1:Ouvrir un canal",
     "original": "Ouvrir un canal",
-    "translated": ""
+    "translated": "Ouvrir un canal"
   },
   {
     "csv_row": 4893,
@@ -44,7 +44,7 @@
     "column": "options",
     "option_line": "gaFC_return6:Monter dans la capsule de transport",
     "original": "Monter dans la capsule de transport",
-    "translated": ""
+    "translated": "Monter dans la capsule de transport"
   },
   {
     "csv_row": 4896,
@@ -52,7 +52,7 @@
     "column": "options",
     "option_line": "gaFC_returnHubLeague:\"Je ne pense pas que la Ligue Persane sera heureuse de perdre Coureuse.\"",
     "original": "Je ne pense pas que la Ligue Persane sera heureuse de perdre Coureuse.",
-    "translated": ""
+    "translated": "Je ne pense pas que la Ligue Persane sera heureuse de perdre Coureuse."
   },
   {
     "csv_row": 4897,
@@ -60,7 +60,7 @@
     "column": "options",
     "option_line": "gaFC_returnHubScylla:\"Elle ne vous aime pas, n'est-ce pas.\"",
     "original": "Elle ne vous aime pas, n'est-ce pas.",
-    "translated": ""
+    "translated": "Elle ne vous aime pas, n'est-ce pas."
   },
   {
     "csv_row": 4898,
@@ -68,7 +68,7 @@
     "column": "options",
     "option_line": "gaFC_returnHubNothing:Ne rien dire",
     "original": "Ne rien dire",
-    "translated": ""
+    "translated": "Ne rien dire"
   },
   {
     "csv_row": 4913,
@@ -76,6 +76,6 @@
     "column": "options",
     "option_line": "gaFC_return11b2:\"Pas vraiment. La paie est bonne.\"",
     "original": "Pas vraiment. La paie est bonne.",
-    "translated": ""
+    "translated": "Pas vraiment. La paie est bonne."
   }
 ]

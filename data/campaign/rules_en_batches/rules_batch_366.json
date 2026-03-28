@@ -4,7 +4,7 @@
     "id": "gaDHOvisitElekAltWrapup4a",
     "column": "text",
     "original": "\"Alas.\" He shakes his head, \"It would be unthinkable.\"",
-    "translated": ""
+    "translated": "\"Hélas.\" Il secoue la tête. \"Ce serait impensable.\""
   },
   {
     "csv_row": 11067,
@@ -12,14 +12,14 @@
     "column": "options",
     "option_line": "gaDHO_visitElekAltWrapupTT2b:\"Tri-Tachyon is backing your project?\"",
     "original": "Tri-Tachyon is backing your project?",
-    "translated": ""
+    "translated": "Tri-Tachyon finance votre projet ?"
   },
   {
     "csv_row": 11068,
     "id": "gaDHOvisitElekAltWrapupTT2a",
     "column": "text",
     "original": "\"Good. That's... very good of you, captain.\" An extra wrinkle remains on his forehead.",
-    "translated": ""
+    "translated": "\"Bien. C'est... très aimable à vous, capitaine.\" Une ride supplémentaire persiste sur son front."
   },
   {
     "csv_row": 11073,
@@ -27,14 +27,14 @@
     "column": "options",
     "option_line": "gaDHO_visitElekAltEnd2:Leave him to his musing",
     "original": "Leave him to his musing",
-    "translated": ""
+    "translated": "Le laisser à ses réflexions"
   },
   {
     "csv_row": 11074,
     "id": "gaDHOvisitElekAltEnd2",
     "column": "text",
     "original": "You're not sure Elek even noticed you leave.",
-    "translated": ""
+    "translated": "Vous n'êtes pas sûr qu'Elek ait même remarqué votre départ."
   },
   {
     "csv_row": 11078,
@@ -50,7 +50,7 @@
     "column": "options",
     "option_line": "100:devAdonya_visOption2:DEV make Adonya visible in comm directory",
     "original": "devAdonya_visOption2:DEV make Adonya visible in comm directory",
-    "translated": ""
+    "translated": "devAdonya_visOption2:DEV rendre Adonya visible dans le répertoire comm"
   },
   {
     "csv_row": 11086,
@@ -58,7 +58,7 @@
     "column": "options",
     "option_line": "adonya_moreHolos:\"Comms more often? She's been in contact? But you said...\"",
     "original": "Comms more often? She's been in contact? But you said...",
-    "translated": ""
+    "translated": "Des comms plus fréquentes ? Elle a été en contact ? Mais vous avez dit..."
   },
   {
     "csv_row": 11087,
@@ -66,7 +66,7 @@
     "column": "options",
     "option_line": "adonya_importantToFind:\"I don't think I've emphasized how important it is for me to find Scylla and Elissa.\"",
     "original": "I don't think I've emphasized how important it is for me to find Scylla and Elissa.",
-    "translated": ""
+    "translated": "Je ne pense pas avoir suffisamment insisté sur l'importance de retrouver Scylla et Elissa."
   },
   {
     "csv_row": 11088,
@@ -74,6 +74,6 @@
     "column": "options",
     "option_line": "adonya_importantToFind2:\"It's extremely important. The fate of the Persean Sector is at stake!\"",
     "original": "It's extremely important. The fate of the Persean Sector is at stake!",
-    "translated": ""
+    "translated": "C'est extrêmement important. Le sort du Secteur Persien est en jeu !"
   }
 ]

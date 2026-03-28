@@ -5,21 +5,21 @@
     "column": "options",
     "option_line": "postGAFC_newArchonAskFamiliar:\"You look familiar...\"",
     "original": "You look familiar...",
-    "translated": ""
+    "translated": "Vous me semblez familier..."
   },
   {
     "csv_row": 4934,
     "id": "postGAFCnewArchonAskYoung",
     "column": "text",
     "original": "\"Not at all,\" he says, quite seriously.\n\n\"I bring the dynamism and culture of Kazeron to this staid backwater, and it will be much improved by my example and leadership.\"",
-    "translated": ""
+    "translated": "\"Pas du tout,\" dit-il, très sérieusement.\n\n\"J'apporte le dynamisme et la culture de Kazeron à ce trou perdu guindé, et il sera grandement amélioré par mon exemple et mon leadership.\""
   },
   {
     "csv_row": 4935,
     "id": "postGAFCnewArchonAskFamiliar",
     "column": "text",
     "original": "He smiles, turning his head slightly into a practiced angle to better emphasize his jawline.\n\n\"That would be Gens Hannan you recognize, $playerSirOrMadam\"",
-    "translated": ""
+    "translated": "Il sourit, tournant légèrement la tête selon un angle étudié pour mieux mettre en valeur sa mâchoire.\n\n\"C'est Gens Hannan que vous reconnaissez, $playerSirOrMadam.\""
   },
   {
     "csv_row": 4938,
@@ -27,7 +27,7 @@
     "column": "options",
     "option_line": "postGAFC_newArchonAsk3b:\"This post must be a terrible burden. Thank you for your service.\" (sarcastic)",
     "original": "This post must be a terrible burden. Thank you for your service.\" (sarcastic)",
-    "translated": ""
+    "translated": "Ce poste doit être un terrible fardeau. Merci pour votre service.\" (sarcastique)"
   },
   {
     "csv_row": 4938,
@@ -35,7 +35,7 @@
     "column": "options",
     "option_line": "postGAFC_newArchonAsk3:\"This post must be a terrible burden. Thank you for your service.\"",
     "original": "This post must be a terrible burden. Thank you for your service.",
-    "translated": ""
+    "translated": "Ce poste doit être un terrible fardeau. Merci pour votre service."
   },
   {
     "csv_row": 4939,
@@ -43,7 +43,7 @@
     "column": "options",
     "option_line": "postGAFC_newArchonDemarchonCorrection:\"Demarchon. Not captain. I lead a member-polity in the League.\"",
     "original": "Demarchon. Not captain. I lead a member-polity in the League.",
-    "translated": ""
+    "translated": "Démarque. Pas capitaine. Je dirige un État membre de la Ligue."
   },
   {
     "csv_row": 4939,
@@ -51,7 +51,7 @@
     "column": "options",
     "option_line": "postGAFC_newArchonAsk3b:\"This must be terrible for you. Thank you for your service.\" (sarcastic)",
     "original": "This must be terrible for you. Thank you for your service.\" (sarcastic)",
-    "translated": ""
+    "translated": "Cela doit être terrible pour vous. Merci pour votre service.\" (sarcastique)"
   },
   {
     "csv_row": 4939,
@@ -59,14 +59,14 @@
     "column": "options",
     "option_line": "postGAFC_newArchonAsk3:\"This must be terrible for you. Thank you for your service.\"",
     "original": "This must be terrible for you. Thank you for your service.",
-    "translated": ""
+    "translated": "Cela doit être terrible pour vous. Merci pour votre service."
   },
   {
     "csv_row": 4940,
     "id": "postGAFCnewArchonDemarchonCorrection",
     "column": "text",
     "original": "\"Is that so?\" $HeOrShe raises an eyebrow.\n\n\"How charming. I'm sure your contribution to our League will be acknowledged sooner or later.\"",
-    "translated": ""
+    "translated": "\"Vraiment ?\" $HeOrShe lève un sourcil.\n\n\"Comme c'est charmant. Je suis sûr que votre contribution à notre Ligue sera reconnue tôt ou tard.\""
   },
   {
     "csv_row": 4940,
@@ -74,6 +74,6 @@
     "column": "options",
     "option_line": "postGAFC_newArchonAsk3b:\"This post must be a terrible burden. Thank you for your service.\" (sarcastic)",
     "original": "This post must be a terrible burden. Thank you for your service.\" (sarcastic)",
-    "translated": ""
+    "translated": "Ce poste doit être un terrible fardeau. Merci pour votre service.\" (sarcastique)"
   }
 ]

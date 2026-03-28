@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "gaATG_luddicScan4:\"En tant que, euh, serviteur de la foi, j'ai une proposition.\"",
     "original": "En tant que, euh, serviteur de la foi, j'ai une proposition.",
-    "translated": ""
+    "translated": "En tant que, euh, serviteur de la foi, j'ai une proposition."
   },
   {
     "csv_row": 5558,
@@ -20,7 +20,7 @@
     "id": "gaATGluddicScan5",
     "column": "text",
     "original": "Le choc se lit sur le visage de $heOrShe. \"Vraiment, vous feriez cette chose terrible ?\" demande $heOrShe. \"Ce serait un massacre. Nous sommes des civils, avec peu d'armes.\"",
-    "translated": ""
+    "translated": "Le choc se lit sur le visage de $heOrShe. \"Vraiment, vous feriez cette chose terrible ?\" demande $heOrShe. \"Ce serait un massacre. Nous sommes des civils, avec peu d'armes.\""
   },
   {
     "csv_row": 5578,
@@ -36,14 +36,14 @@
     "column": "options",
     "option_line": "gaATG_pirateScanReason4:Attendre for it",
     "original": "Attendre for it",
-    "translated": ""
+    "translated": "Attendre la suite"
   },
   {
     "csv_row": 5615,
     "id": "gaATGscavScanEncounter",
     "column": "text",
     "original": "Votre officier capteurs prend la parole, \"Capitaine, vous devriez savoir qu'ils nous bombardent avec des balayages de scanners esoteriques depuis que nous sommes entres a proximite du Portail. Ils pensent probablement qu'on ne le sait pas, mais,\" dit-il avec une pointe de fierte, \"j'ai capte un rayonnement de fond d'aspect bizarre.\"",
-    "translated": ""
+    "translated": "Votre officier capteurs prend la parole, \"Capitaine, vous devriez savoir qu'ils nous bombardent avec des balayages de scanners esoteriques depuis que nous sommes entres a proximite du Portail. Ils pensent probablement qu'on ne le sait pas, mais,\" dit-il avec une pointe de fierte, \"j'ai capte un rayonnement de fond d'aspect bizarre.\""
   },
   {
     "csv_row": 5619,
@@ -51,7 +51,7 @@
     "column": "options",
     "option_line": "gaATG_scavScanDialog21:\"Il n'y a rien ici. Pourquoi rester ?\"",
     "original": "Il n'y a rien ici. Pourquoi rester ?",
-    "translated": ""
+    "translated": "Il n'y a rien ici. Pourquoi rester ?"
   },
   {
     "csv_row": 5620,
@@ -59,7 +59,7 @@
     "column": "options",
     "option_line": "gaATG_scavScanDialog22:\"Je pense qu'il est temps pour vous de partir. J'insiste.\"",
     "original": "Je pense qu'il est temps pour vous de partir. J'insiste.",
-    "translated": ""
+    "translated": "Je pense qu'il est temps pour vous de partir. J'insiste."
   },
   {
     "csv_row": 5622,
@@ -67,7 +67,7 @@
     "column": "options",
     "option_line": "gaATG_scavScanDialog31:\"On dirait bien que vous surveillez le Portail. Vous attendez que quelque chose en sorte ?\"",
     "original": "On dirait bien que vous surveillez le Portail. Vous attendez que quelque chose en sorte ?",
-    "translated": ""
+    "translated": "On dirait bien que vous surveillez le Portail. Vous attendez que quelque chose en sorte ?"
   },
   {
     "csv_row": 5624,
@@ -75,6 +75,6 @@
     "column": "options",
     "option_line": "gaATG_scavScanDialog4:\"Pour qui travaillez-vous ?\"",
     "original": "Pour qui travaillez-vous ?",
-    "translated": ""
+    "translated": "Pour qui travaillez-vous ?"
   }
 ]

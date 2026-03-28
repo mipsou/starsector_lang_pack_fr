@@ -38,7 +38,7 @@
     "csv_row": 2759,
     "id": "BFFIattendPartyHub1Intro4",
     "column": "options",
-    "option_line": "bffi_attendPartyHub1Intro4a:\"Pleased to meet you...?\"",
+    "option_line": "bffi_attendPartyHub1Intro4a:\"Enchanté de vous rencontrer... ?\"",
     "original": "Pleased to meet you...?",
     "translated": "Enchanté de vous rencontrer... ?"
   },
@@ -54,7 +54,7 @@
     "csv_row": 2759,
     "id": "BFFIattendPartyHub1Intro4",
     "column": "options",
-    "option_line": "bffi_attendPartyHub1Intro5c:\"No need to be prickly, $global.jethroName, the man is being friendly.\"",
+    "option_line": "bffi_attendPartyHub1Intro5c:\"Pas besoin d'être susceptible, $global.jethroName, cet homme est amical.\"",
     "original": "No need to be prickly, $global.jethroName, the man is being friendly.",
     "translated": "Pas besoin d'être susceptible, $global.jethroName, cet homme est amical."
   },

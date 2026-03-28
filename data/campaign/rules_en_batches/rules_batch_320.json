@@ -1,80 +1,80 @@
 [
   {
-    "csv_row": 9392,
-    "id": "ImoinuUmbraMacarioHubOptA",
+    "csv_row": 9418,
+    "id": "ImoinuKatoUmbraOptRich",
     "column": "options",
-    "option_line": "imoinuUmbra_macarioHubSelA:\"I'm just a merc. He was extremely assertive about giving me a job.\"",
-    "original": "I'm just a merc. He was extremely assertive about giving me a job.",
-    "translated": ""
+    "option_line": "imoinuKato_sayRich:\"That's rich talk coming from a Gens baby.\"",
+    "original": "That's rich talk coming from a Gens baby.",
+    "translated": "C'est facile à dire pour une enfant de Gens."
   },
   {
-    "csv_row": 9395,
-    "id": "ImoinuUmbraMacarioHubOptD",
+    "csv_row": 9421,
+    "id": "ImoinuKatoUmbraOptNotMy",
     "column": "options",
-    "option_line": "imoinuUmbra_macarioHubSelD:\"I'm a secret Hegemony agent working to undermine the Diktat.\" (lie)",
-    "original": "I'm a secret Hegemony agent working to undermine the Diktat.\" (lie)",
-    "translated": ""
+    "option_line": "imoinuKato_NotMySel:\"You do what you like. Forget I brought it up, it's not my business.\"",
+    "original": "You do what you like. Forget I brought it up, it's not my business.",
+    "translated": "Faites ce que vous voulez. Oubliez que j'en ai parlé, ce ne sont pas mes affaires."
   },
   {
-    "csv_row": 9397,
-    "id": "ImoinuUmbraMacarioHubOptF",
+    "csv_row": 9423,
+    "id": "ImoinuKatoUmbraOptBackOffSelLiar",
     "column": "options",
-    "option_line": "imoinuUmbra_macarioHubSelF:\"I am of the Luddic faith and I'm taking them down from the inside.\" (lie)",
-    "original": "I am of the Luddic faith and I'm taking them down from the inside.\" (lie)",
-    "translated": ""
+    "option_line": "imoinuKato_sayMotherB:\"Are you telling me I could have been paid for this?\"",
+    "original": "Are you telling me I could have been paid for this?",
+    "translated": "Vous êtes en train de me dire que j'aurais pu être payé pour ça ?"
   },
   {
-    "csv_row": 9398,
-    "id": "ImoinuUmbraMacarioHubOptG",
-    "column": "options",
-    "option_line": "imoinuUmbra_macarioHubSelG:\"I am of the Luddic faith and I'm taking them down from the inside.\"",
-    "original": "I am of the Luddic faith and I'm taking them down from the inside.",
-    "translated": ""
-  },
-  {
-    "csv_row": 9399,
-    "id": "ImoinuUmbraMacarioHubOptH",
-    "column": "options",
-    "option_line": "imoinuUmbra_macarioHubSelH:\"I'm Persean League fleet intelligence. My real name is 'Siyavong'.\" (lie)",
-    "original": "I'm Persean League fleet intelligence. My real name is 'Siyavong'.\" (lie)",
-    "translated": ""
-  },
-  {
-    "csv_row": 9404,
-    "id": "ImoinuUmbraMacarioHubSelD",
+    "csv_row": 9424,
+    "id": "ImoinuKatoUmbraOptThrowAwaySel",
     "column": "text",
-    "original": "\"Sure. Okay.\" She crosses her arms and gives you an incredulous look.\n\n",
-    "translated": ""
+    "original": "\"We have nothing to talk about,\" she snaps, then hits the comms cut-off.",
+    "translated": "\"Nous n'avons rien à nous dire,\" lance-t-elle sèchement, puis coupe les communications."
   },
   {
-    "csv_row": 9405,
-    "id": "ImoinuUmbraMacarioHubSelE",
+    "csv_row": 9425,
+    "id": "ImoinuKatoUmbraOptNotMySel",
     "column": "text",
-    "original": "\"No you're not.\" Imoinu crosses her arms. \"You're as much a liar as Macario.\"",
-    "translated": ""
+    "original": "\"That's right,\" she says. \"Now did you have anything useful to say, or are we done?\"",
+    "translated": "\"C'est exact,\" dit-elle. \"Maintenant, aviez-vous quelque chose d'utile à dire, ou avons-nous terminé ?\""
   },
   {
-    "csv_row": 9414,
-    "id": "ImoinuKatoUmbraOptDardan",
+    "csv_row": 9427,
+    "id": "ImoinuKatoUmbraDardanOptA",
     "column": "options",
-    "option_line": "imoinuKato_sayDardan:\"I met Dardan. Is he your brother?\"",
-    "original": "I met Dardan. Is he your brother?",
-    "translated": ""
+    "option_line": "ImoinuKanto_dardanOptAsel:\"He is. He became... rather angry at me.\"",
+    "original": "He is. He became... rather angry at me.",
+    "translated": "C'est lui. Il est devenu... plutôt furieux contre moi."
   },
   {
-    "csv_row": 9415,
-    "id": "ImoinuKatoUmbraOptSalute",
+    "csv_row": 9428,
+    "id": "ImoinuKatoUmbraDardanOptB",
     "column": "options",
-    "option_line": "imoinuKato_saySalute:\"I salute your dedication. It is a just cause.\"",
-    "original": "I salute your dedication. It is a just cause.",
-    "translated": ""
+    "option_line": "ImoinuKanto_dardanOptBsel:\"He is. He was helpful.\"",
+    "original": "He is. He was helpful.",
+    "translated": "C'est lui. Il a été serviable."
   },
   {
-    "csv_row": 9416,
-    "id": "ImoinuKatoUmbraOptDoomed",
+    "csv_row": 9429,
+    "id": "ImoinuKatoUmbraDardanOptC",
     "column": "options",
-    "option_line": "imoinuKato_sayDoomed:\"It seems a doomed cause. Don't you want to go home?\"",
-    "original": "It seems a doomed cause. Don't you want to go home?",
-    "translated": ""
+    "option_line": "ImoinuKanto_dardanOptCsel:\"He is. He seems unhappy in his current post.\"",
+    "original": "He is. He seems unhappy in his current post.",
+    "translated": "C'est lui. Il semble malheureux à son poste actuel."
+  },
+  {
+    "csv_row": 9434,
+    "id": "ImoinuKantoUmbraSaluteLiar",
+    "column": "options",
+    "option_line": "imoinuKato_sayMotherB:\"Are you telling me I could have been paid for this?\"",
+    "original": "Are you telling me I could have been paid for this?",
+    "translated": "Vous êtes en train de me dire que j'aurais pu être payé pour ça ?"
+  },
+  {
+    "csv_row": 9435,
+    "id": "ImoinuKatoUmbraSalute1",
+    "column": "options",
+    "option_line": "imoinuKato_saySalute2b:\"You mean, being stuck on a pirate-infested icecube with no fleet.\"",
+    "original": "You mean, being stuck on a pirate-infested icecube with no fleet.",
+    "translated": "Vous voulez dire, coincée sur un glaçon infesté de pirates sans aucune flotte."
   }
 ]

@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "bairdIntroC2:Entrer the inner office",
     "original": "Entrer the inner office",
-    "translated": ""
+    "translated": "Entrer dans le bureau intérieur"
   },
   {
     "csv_row": 4139,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "bairdIntroC4:\"Et quel est ce 'grand oeuvre' ?\"",
     "original": "Et quel est ce 'grand oeuvre' ?",
-    "translated": ""
+    "translated": "Et quel est ce 'grand oeuvre' ?"
   },
   {
     "csv_row": 4142,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "0:bairdIntro_tellMeMore:La laisser poursuivre son discours",
     "original": "bairdIntro_tellMeMore:La laisser poursuivre son discours",
-    "translated": ""
+    "translated": "bairdIntro_tellMeMore:La laisser poursuivre son discours"
   },
   {
     "csv_row": 4143,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "1:bairdIntro_whyMe:\"Pourquoi avez-vous besoin de moi ?\"",
     "original": "bairdIntro_whyMe:\"Pourquoi avez-vous besoin de moi ?",
-    "translated": ""
+    "translated": "bairdIntro_whyMe:\"Pourquoi avez-vous besoin de moi ?"
   },
   {
     "csv_row": 4144,
@@ -37,7 +37,7 @@
     "column": "options",
     "option_line": "1:bairdIntro_whyMe:\"Point pris. Qu'attendez-vous de moi ?\"",
     "original": "bairdIntro_whyMe:\"Point pris. Qu'attendez-vous de moi ?",
-    "translated": ""
+    "translated": "bairdIntro_whyMe:\"Point pris. Qu'attendez-vous de moi ?"
   },
   {
     "csv_row": 4145,
@@ -45,7 +45,7 @@
     "column": "options",
     "option_line": "3:bairdIntro_whyShould:\"Et pourquoi devrais-je vous aider ?\"",
     "original": "bairdIntro_whyShould:\"Et pourquoi devrais-je vous aider ?",
-    "translated": ""
+    "translated": "bairdIntro_whyShould:\"Et pourquoi devrais-je vous aider ?"
   },
   {
     "csv_row": 4146,
@@ -53,7 +53,7 @@
     "column": "options",
     "option_line": "2:bairdIntro_willSee:\"On verra bien.\"",
     "original": "bairdIntro_willSee:\"On verra bien.",
-    "translated": ""
+    "translated": "bairdIntro_willSee:\"On verra bien."
   },
   {
     "csv_row": 4159,
@@ -61,7 +61,7 @@
     "column": "options",
     "option_line": "bairdIntro_archive2a:\"Vous voulez que je fasse chanter un cadre de Tri-Tachyon ?\"",
     "original": "Vous voulez que je fasse chanter un cadre de Tri-Tachyon ?",
-    "translated": ""
+    "translated": "Vous voulez que je fasse chanter un cadre de Tri-Tachyon ?"
   },
   {
     "csv_row": 4164,
@@ -69,7 +69,7 @@
     "column": "options",
     "option_line": "bairdIntro_scylla2choiceB:Choisir la voie diplomatique",
     "original": "Choisir la voie diplomatique",
-    "translated": ""
+    "translated": "Choisir la voie diplomatique"
   },
   {
     "csv_row": 4164,
@@ -77,6 +77,6 @@
     "column": "options",
     "option_line": "bairdIntro_scylla2choiceA:Choisir la voie de l'exploration",
     "original": "Choisir la voie de l'exploration",
-    "translated": ""
+    "translated": "Choisir la voie de l'exploration"
   }
 ]

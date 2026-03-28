@@ -33,7 +33,7 @@
     "id": "BFFIattendPartyIntro1raid",
     "column": "text",
     "original": "You and Bornanew make an 'undocumented' arrival on Olinadu then transfer to a private shuttle service in order to attend Menes' party.\n\nYour hired pilot gives a shrug as she shows you a flight path blocked out with red DENIED tags - until you apply the key attached to your invitation, which turns out to be a Demarch-level override code.\n\nIt's probably a violation of Persean League ethical guidelines for you to be using these to attend a personal party, but the pilot simply smiles and proceeds. This sort of thing isn't unusual under Menes' administration, it appears.",
-    "translated": "Vous et Bornanew effectuez une arrivée « non documentée » sur Olinadu puis transférez vers une navette privée pour assister à la fête de Menes.\n\nVotre pilote engagée hausse les épaules en vous montrant un plan de vol bloqué par des balises rouges REFUSÉ - jusqu'à ce que vous appliquiez la clé jointe à votre invitation, qui s'avère être un code de priorité de niveau Démarque.\n\nC'est probablement une violation des directives éthiques de la Ligue Perséenne que de les utiliser pour assister à une fête privée, mais la pilote se contente de sourire et poursuit. Ce genre de chose n'est pas inhabituel sous l'administration de Menes, apparemment."
+    "translated": "Vous et Bornanew effectuez une arrivée \"non documentée\" sur Olinadu puis transférez vers une navette privée pour assister à la fête de Menes.\n\nVotre pilote engagée hausse les épaules en vous montrant un plan de vol bloqué par des balises rouges REFUSÉ - jusqu'à ce que vous appliquiez la clé jointe à votre invitation, qui s'avère être un code de priorité de niveau Démarque.\n\nC'est probablement une violation des directives éthiques de la Ligue Perséenne que de les utiliser pour assister à une fête privée, mais la pilote se contente de sourire et poursuit. Ce genre de chose n'est pas inhabituel sous l'administration de Menes, apparemment."
   },
   {
     "csv_row": 2751,
@@ -53,7 +53,7 @@
     "csv_row": 2752,
     "id": "BFFIattendParty1",
     "column": "options",
-    "option_line": "BFFI_attendParty3a:\"This is $global.jethroName.\"",
+    "option_line": "BFFI_attendParty3a:\"Voici $global.jethroName.\"",
     "original": "This is $global.jethroName.",
     "translated": "Voici $global.jethroName."
   },
@@ -61,7 +61,7 @@
     "csv_row": 2752,
     "id": "BFFIattendParty1",
     "column": "options",
-    "option_line": "BFFI_attendParty3b:\"Jethro Bornanew, a novice of the Knights of Ludd.\"",
+    "option_line": "BFFI_attendParty3b:\"Jethro Bornanew, un novice des Chevaliers de Ludd.\"",
     "original": "Jethro Bornanew, a novice of the Knights of Ludd.",
     "translated": "Jethro Bornanew, un novice des Chevaliers de Ludd."
   },

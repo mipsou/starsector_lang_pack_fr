@@ -4,28 +4,28 @@
     "id": "BFFIoutro1b",
     "column": "text",
     "original": "\"No,\" says Oak. \"The novice still wears a crown of pride. He has much to repent.\"\n\nBornanew turns aside and says quietly to you, \"I shall be staying here a while, I think.\"",
-    "translated": ""
+    "translated": "\"Non,\" dit Oak. \"Le novice porte encore une couronne d'orgueil. Il a beaucoup à expier.\"\n\nBornanew se tourne de côté et vous dit doucement, \"Je vais rester ici un moment, je pense.\""
   },
   {
     "csv_row": 3552,
     "id": "BFFIoutro1bBB",
     "column": "text",
     "original": "\"No,\" says Oak. \"The novice still wears a crown of pride. He has much to repent.\"\n\nBornanew does not turn aside from Gideon Oak, matching his remorseless look with his own. \"The Excubitor Orbis believes there is much sin for which I must pay. I shall be staying here, as it pleases him.\"\n\nOak, for his part, looks very much less than pleased at Bornanew's commentary. His clerk looks mortified.",
-    "translated": ""
+    "translated": "\"Non,\" dit Oak. \"Le novice porte encore une couronne d'orgueil. Il a beaucoup à expier.\"\n\nBornanew ne se détourne pas de Gideon Oak, soutenant son regard impitoyable avec le sien. \"L'Excubitor Orbis croit qu'il y a beaucoup de péchés pour lesquels je dois payer. Je vais rester ici, comme il lui plaît.\"\n\nOak, pour sa part, a l'air bien moins que satisfait du commentaire de Bornanew. Sa greffière a l'air mortifiée."
   },
   {
     "csv_row": 3553,
     "id": "BFFIoutro1c",
     "column": "text",
     "original": "\"Yes,\" says Bornanew, still caught in a staring-contest with Oak. \"You are. I shall be staying here a while, I think.\"\n\nThe world's smallest smile makes a new crease on the Excubitor Orbis' face as he turns to you.\n\n\"Novice Bornanew owes you much. But still he wears a crown of pride. Still he must repent.\"",
-    "translated": ""
+    "translated": "\"Oui,\" dit Bornanew, toujours pris dans un duel de regards avec Oak. \"C'est le cas. Je vais rester ici un moment, je pense.\"\n\nLe plus infime des sourires creuse un nouveau pli sur le visage de l'Excubitor Orbis tandis qu'il se tourne vers vous.\n\n\"Le Novice Bornanew vous doit beaucoup. Mais il porte encore une couronne d'orgueil. Il doit encore expier.\""
   },
   {
     "csv_row": 3554,
     "id": "BFFIoutro2",
     "column": "text",
     "original": "\"But I have a feeling that our paths shall cross again,\" $global.jethroName says, pulling his simple bundle of possessions onto his shoulder.\n\nBornanew follows his fellow Knights to the doorway casting its long wedge of light into the armored hangar.",
-    "translated": ""
+    "translated": "\"Mais j'ai le sentiment que nos chemins se croiseront à nouveau,\" dit $global.jethroName, tirant son simple balluchon sur son épaule.\n\nBornanew suit ses compagnons Chevaliers vers la porte qui projette son long triangle de lumière dans le hangar blindé."
   },
   {
     "csv_row": 3554,
@@ -33,14 +33,14 @@
     "column": "options",
     "option_line": "bffi_outro3:Tourner les talons",
     "original": "Tourner les talons",
-    "translated": ""
+    "translated": "Tourner les talons"
   },
   {
     "csv_row": 3555,
     "id": "BFFIoutro2BB",
     "column": "text",
     "original": "\"Our paths shall cross again,\" $global.jethroName says, eyes in shadow. He pulls his simple bundle of possessions onto his shoulder. \"Hammer in one hand, sword in the other.\"\n\nOak, ever displeased, turns his back without further comment and begins marching to the far end of the hangar. After a moment, the other Knights, and Bornanew, follow.\n\nThey shrink to silhouettes in the long wedge of light cast into the armored hangar, then disappear.",
-    "translated": ""
+    "translated": "\"Nos chemins se croiseront à nouveau,\" dit $global.jethroName, les yeux dans l'ombre. Il tire son simple balluchon sur son épaule. \"Le marteau dans une main, l'épée dans l'autre.\"\n\nOak, toujours mécontent, tourne le dos sans plus de commentaire et commence à marcher vers l'extrémité du hangar. Après un moment, les autres Chevaliers, et Bornanew, suivent.\n\nIls se réduisent à des silhouettes dans le long triangle de lumière projeté dans le hangar blindé, puis disparaissent."
   },
   {
     "csv_row": 3555,
@@ -48,14 +48,14 @@
     "column": "options",
     "option_line": "bffi_outro3:Tourner les talons",
     "original": "Tourner les talons",
-    "translated": ""
+    "translated": "Tourner les talons"
   },
   {
     "csv_row": 3556,
     "id": "BFFIoutro2injured",
     "column": "text",
     "original": "\"But I have a feeling that our paths shall cross again,\" $global.jethroName says, pulling his simple bundle of possessions onto his shoulder.\n\nBornanew, limping slightly, follows his fellow Knights to the doorway casting its long wedge of light into the armored hangar.",
-    "translated": ""
+    "translated": "\"Mais j'ai le sentiment que nos chemins se croiseront à nouveau,\" dit $global.jethroName, tirant son simple balluchon sur son épaule.\n\nBornanew, boitant légèrement, suit ses compagnons Chevaliers vers la porte qui projette son long triangle de lumière dans le hangar blindé."
   },
   {
     "csv_row": 3556,
@@ -63,13 +63,13 @@
     "column": "options",
     "option_line": "bffi_outro3:Tourner les talons",
     "original": "Tourner les talons",
-    "translated": ""
+    "translated": "Tourner les talons"
   },
   {
     "csv_row": 3557,
     "id": "BFFIoutro2injuredBB",
     "column": "text",
     "original": "\"Our paths shall cross again,\" $global.jethroName says, eyes in shadow. He pulls his simple bundle of possessions onto his shoulder. \"Hammer in one hand, sword in the other.\"\n\nOak, ever displeased, turns his back without further comment and begins marching to the far end of the hangar. After a moment, the other Knights, and Bornanew - limping slightly - follow.\n\nThey shrink to silhouettes in the long wedge of light cast into the armored hangar, then disappear.",
-    "translated": ""
+    "translated": "\"Nos chemins se croiseront à nouveau,\" dit $global.jethroName, les yeux dans l'ombre. Il tire son simple balluchon sur son épaule. \"Le marteau dans une main, l'épée dans l'autre.\"\n\nOak, toujours mécontent, tourne le dos sans plus de commentaire et commence à marcher vers l'extrémité du hangar. Après un moment, les autres Chevaliers, et Bornanew - boitant légèrement - suivent.\n\nIls se réduisent à des silhouettes dans le long triangle de lumière projeté dans le hangar blindé, puis disparaissent."
   }
 ]

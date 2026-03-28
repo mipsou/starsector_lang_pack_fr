@@ -1,77 +1,81 @@
 [
   {
-    "csv_row": 9657,
-    "id": "plReynardHannanCommissionNone",
-    "column": "text",
-    "original": "\"Vous ne detenez la commission d'aucune faction majeure,\" dit-il, les yeux rives sur un subtil implant d'interface. \"Compte tenu de vos... activites, vous devrez vous engager a accepter une commission de la Ligue Persane dans le cadre de l'accord d'adhesion ; un arrangement standard.\"",
-    "translated": ""
-  },
-  {
-    "csv_row": 9660,
-    "id": "PLDealARgumentsDefeatedSDF",
+    "csv_row": 9639,
+    "id": "PLArmadaCynicalYes",
     "column": "options",
-    "option_line": "rh_defeatedSDF:\"Your system defense fleet, the pride of Kazeron, broke upon me.\"",
-    "original": "Your system defense fleet, the pride of Kazeron, broke upon me.",
-    "translated": ""
-  },
-  {
-    "csv_row": 9665,
-    "id": "PLDealArgumentsNeverMind",
-    "column": "options",
-    "option_line": "rh_goBack:\"Laissez tomber.\"",
-    "original": "Laissez tomber.",
-    "translated": ""
-  },
-  {
-    "csv_row": 9672,
-    "id": "PLCheckArgumentsEnoughA",
-    "column": "text",
-    "original": "Reynard est exterieurement receptif, mais pas convaincu. Vous sentez qu'il faudra un dernier argument solide pour remporter cette negociation.",
-    "translated": ""
-  },
-  {
-    "csv_row": 9720,
-    "id": "rh_confirmNoPaySel",
-    "column": "options",
-    "option_line": "cutCommLink:Couper la comm",
+    "option_line": "cutCommLinkPolite:Couper la comm",
     "original": "Couper la comm",
     "translated": "Couper la comm"
   },
   {
-    "csv_row": 9724,
-    "id": "rh_restartPaymentsSel",
-    "column": "text",
-    "original": "\"Pauvre creature.\" Reynard sourit tristement, la facade du pardon inscrite sur son visage. \"J'espere que vous avez retenu la lecon.\"\n\nIl abandonne cette expression pour une indifference d'acier. \"Comprenez bien que vous n'aurez qu'une seule chance de me contrarier et de revenir.\"",
-    "translated": ""
-  },
-  {
-    "csv_row": 9724,
-    "id": "rh_restartPaymentsSel",
+    "csv_row": 9645,
+    "id": "plReynardHannanJoinSelNo",
     "column": "options",
-    "option_line": "rh_confirmPayAgain:\"Oui, j'ai commis une terrible erreur. Veuillez accepter mes excuses.\"",
-    "original": "Oui, j'ai commis une terrible erreur. Veuillez accepter mes excuses.",
-    "translated": ""
+    "option_line": "cutCommLinkNoText2:Couper brutalement la comm",
+    "original": "Couper brutalement la comm",
+    "translated": "Couper brutalement la comm"
   },
   {
-    "csv_row": 9724,
-    "id": "rh_restartPaymentsSel",
+    "csv_row": 9645,
+    "id": "plReynardHannanJoinSelNo",
     "column": "options",
-    "option_line": "rh_abortPayAgain:\"Laissez tomber, je ne suis pas venu ici pour mendier.\"",
-    "original": "Laissez tomber, je ne suis pas venu ici pour mendier.",
-    "translated": ""
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
   },
   {
-    "csv_row": 9725,
-    "id": "rh_abortPayAgainSel",
-    "column": "text",
-    "original": "Reynard soupire en levant les yeux au ciel.",
-    "translated": ""
+    "csv_row": 9646,
+    "id": "plReynardHannanJoinSelNoDev",
+    "column": "options",
+    "option_line": "devReynardUseBrainWave:DEV Utiliser des pouvoirs mentaux pour qu'il vous laisse entrer dans la Ligue",
+    "original": "DEV Utiliser des pouvoirs mentaux pour qu'il vous laisse entrer dans la Ligue",
+    "translated": "DEV Utiliser des pouvoirs mentaux pour qu'il vous laisse entrer dans la Ligue"
   },
   {
-    "csv_row": 9728,
-    "id": "rh_restartPaymentsRefuse1",
+    "csv_row": 9646,
+    "id": "plReynardHannanJoinSelNoDev",
+    "column": "options",
+    "option_line": "cutCommLinkNoText2:Couper brutalement la comm",
+    "original": "Couper brutalement la comm",
+    "translated": "Couper brutalement la comm"
+  },
+  {
+    "csv_row": 9646,
+    "id": "plReynardHannanJoinSelNoDev",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 9649,
+    "id": "plReynardHannanJoinSelNoPunExAsk",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 9650,
+    "id": "plReynardHannanJoinSelNoTooMany",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 9651,
+    "id": "plReynardHannanJoinSelNo2",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 9652,
+    "id": "plReynardHannanJoinSelYes",
     "column": "text",
-    "original": "\"Rappelez-vous mes paroles, capitaine. Vous aviez une chance d'obtenir le pardon,\" dit-il sombrement, \"et vous l'avez gachee.\"\n\n\"Ne me rappelez pas votre trahison.\"",
-    "translated": ""
+    "original": "Reynard Hannan vous regarde avec approbation. \"Les details sont infinis, mais vous n'avez qu'a vous preoccuper du niveau le plus eleve de l'arrangement. Ce n'est pas complexe.\"",
+    "translated": "Reynard Hannan vous regarde avec approbation. \"Les détails sont infinis, mais vous n'avez qu'à vous préoccuper du niveau le plus élevé de l'arrangement. Ce n'est pas complexe.\""
   }
 ]

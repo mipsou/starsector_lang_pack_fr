@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "lpp_devAddPather:Add Pather playerAttitude",
     "original": "Add Pather playerAttitude",
-    "translated": ""
+    "translated": "Add Pather playerAttitude"
   },
   {
     "csv_row": 1198,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "lpp_devAddCotton:Player put Cotton's holy book on shrine to true",
     "original": "Player put Cotton's holy book on shrine to true",
-    "translated": ""
+    "translated": "Player put Cotton's holy book on shrine to true"
   },
   {
     "csv_row": 1199,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "lpp_devMetBaird:Set player metBaird true",
     "original": "Set player metBaird true",
-    "translated": ""
+    "translated": "Set player metBaird true"
   },
   {
     "csv_row": 1224,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "lpp_ending1:Suivre the route",
     "original": "Suivre the route",
-    "translated": ""
+    "translated": "Suivre la route"
   },
   {
     "csv_row": 1224,
@@ -37,7 +37,7 @@
     "column": "options",
     "option_line": "lpp_startEndingAbort:Revenir to your $shipOrFleet instead",
     "original": "Revenir to your $shipOrFleet instead",
-    "translated": ""
+    "translated": "Retourner vers votre $shipOrFleet instead"
   },
   {
     "csv_row": 1225,
@@ -45,7 +45,7 @@
     "column": "options",
     "option_line": "lpp_ending1:Suivre the route",
     "original": "Suivre the route",
-    "translated": ""
+    "translated": "Suivre la route"
   },
   {
     "csv_row": 1225,
@@ -53,7 +53,7 @@
     "column": "options",
     "option_line": "lpp_startEndingAbort:Revenir to your $shipOrFleet instead",
     "original": "Revenir to your $shipOrFleet instead",
-    "translated": ""
+    "translated": "Retourner vers votre $shipOrFleet instead"
   },
   {
     "csv_row": 1227,
@@ -61,7 +61,7 @@
     "column": "options",
     "option_line": "lpp_ending1:Suivre the route",
     "original": "Suivre the route",
-    "translated": ""
+    "translated": "Suivre la route"
   },
   {
     "csv_row": 1227,
@@ -69,7 +69,7 @@
     "column": "options",
     "option_line": "lpp_startEndingAbortB:Revenir to your $shipOrFleet instead",
     "original": "Revenir to your $shipOrFleet instead",
-    "translated": ""
+    "translated": "Retourner vers votre $shipOrFleet instead"
   },
   {
     "csv_row": 1232,
@@ -77,6 +77,6 @@
     "column": "options",
     "option_line": "lpp_gileadShrineVisit:Visiter le sanctuaire",
     "original": "Visiter le sanctuaire",
-    "translated": ""
+    "translated": "Visiter le sanctuaire"
   }
 ]

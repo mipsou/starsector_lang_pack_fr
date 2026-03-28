@@ -1,80 +1,80 @@
 [
   {
-    "csv_row": 9418,
-    "id": "ImoinuKatoUmbraOptRich",
-    "column": "options",
-    "option_line": "imoinuKato_sayRich:\"That's rich talk coming from a Gens baby.\"",
-    "original": "That's rich talk coming from a Gens baby.",
-    "translated": ""
+    "csv_row": 9436,
+    "id": "ImoinuKatoUmbraSalute2b",
+    "column": "text",
+    "original": "She opens her mouth, then pauses, and closes it.\n\n\"Yes. That's... fair.\"",
+    "translated": "Elle ouvre la bouche, puis marque une pause, et la referme.\n\n\"Oui. C'est... juste.\""
   },
   {
-    "csv_row": 9421,
-    "id": "ImoinuKatoUmbraOptNotMy",
+    "csv_row": 9437,
+    "id": "ImoinuKatoUmbraSalute2a",
     "column": "options",
-    "option_line": "imoinuKato_NotMySel:\"You do what you like. Forget I brought it up, it's not my business.\"",
-    "original": "You do what you like. Forget I brought it up, it's not my business.",
-    "translated": ""
+    "option_line": "imoinu_goKazeron:\"Why not go back to Kazeron and find a way to support the fight from inside the League?\"",
+    "original": "Why not go back to Kazeron and find a way to support the fight from inside the League?",
+    "translated": "Pourquoi ne pas retourner sur Kazeron et trouver un moyen de soutenir la lutte de l'intérieur de la Ligue ?"
   },
   {
-    "csv_row": 9423,
-    "id": "ImoinuKatoUmbraOptBackOffSelLiar",
+    "csv_row": 9437,
+    "id": "ImoinuKatoUmbraSalute2a",
+    "column": "options",
+    "option_line": "imoinu_goVolturn:\"What if you go to Volturn. Help the, um, Volturn Covenant?\"",
+    "original": "What if you go to Volturn. Help the, um, Volturn Covenant?",
+    "translated": "Et si vous alliez à Volturn. Aider le, euh, Pacte de Volturn ?"
+  },
+  {
+    "csv_row": 9440,
+    "id": "ImoinuKantoUmbraDoomed1",
+    "column": "options",
+    "option_line": "imoinuKato_sayMother:\"Your grandmother hired a freelancer to talk you out of... this?\"",
+    "original": "Your grandmother hired a freelancer to talk you out of... this?",
+    "translated": "Votre grand-mère a engagé un indépendant pour vous dissuader de... tout ça ?"
+  },
+  {
+    "csv_row": 9440,
+    "id": "ImoinuKantoUmbraDoomed1",
     "column": "options",
     "option_line": "imoinuKato_sayMotherB:\"Are you telling me I could have been paid for this?\"",
     "original": "Are you telling me I could have been paid for this?",
-    "translated": ""
+    "translated": "Vous êtes en train de me dire que j'aurais pu être payé pour ça ?"
   },
   {
-    "csv_row": 9424,
-    "id": "ImoinuKatoUmbraOptThrowAwaySel",
+    "csv_row": 9441,
+    "id": "ImoinuKantoUmbraDoomed1ARClie",
+    "column": "options",
+    "option_line": "imoinuKato_sayDoomedArcLie2:\"Hold on, now...\"",
+    "original": "Hold on, now...",
+    "translated": "Attendez un instant..."
+  },
+  {
+    "csv_row": 9442,
+    "id": "ImoinuKantoUmbraDoomed1ARClie2",
     "column": "text",
-    "original": "\"We have nothing to talk about,\" she snaps, then hits the comms cut-off.",
-    "translated": ""
+    "original": "\"Die in vacuum.\" She slams the cut-off.",
+    "translated": "\"Crevez dans le vide.\" Elle écrase le bouton de coupure."
   },
   {
-    "csv_row": 9425,
-    "id": "ImoinuKatoUmbraOptNotMySel",
-    "column": "text",
-    "original": "\"That's right,\" she says. \"Now did you have anything useful to say, or are we done?\"",
-    "translated": ""
-  },
-  {
-    "csv_row": 9427,
-    "id": "ImoinuKatoUmbraDardanOptA",
-    "column": "options",
-    "option_line": "ImoinuKanto_dardanOptAsel:\"He is. He became... rather angry at me.\"",
-    "original": "He is. He became... rather angry at me.",
-    "translated": ""
-  },
-  {
-    "csv_row": 9428,
-    "id": "ImoinuKatoUmbraDardanOptB",
-    "column": "options",
-    "option_line": "ImoinuKanto_dardanOptBsel:\"He is. He was helpful.\"",
-    "original": "He is. He was helpful.",
-    "translated": ""
-  },
-  {
-    "csv_row": 9429,
-    "id": "ImoinuKatoUmbraDardanOptC",
-    "column": "options",
-    "option_line": "ImoinuKanto_dardanOptCsel:\"He is. He seems unhappy in his current post.\"",
-    "original": "He is. He seems unhappy in his current post.",
-    "translated": ""
-  },
-  {
-    "csv_row": 9434,
-    "id": "ImoinuKantoUmbraSaluteLiar",
+    "csv_row": 9443,
+    "id": "ImoinuKantoUmbraNoble1",
     "column": "options",
     "option_line": "imoinuKato_sayMotherB:\"Are you telling me I could have been paid for this?\"",
     "original": "Are you telling me I could have been paid for this?",
-    "translated": ""
+    "translated": "Vous êtes en train de me dire que j'aurais pu être payé pour ça ?"
   },
   {
-    "csv_row": 9435,
-    "id": "ImoinuKatoUmbraSalute1",
+    "csv_row": 9448,
+    "id": "ImoinuUmbraGoOptA",
     "column": "options",
-    "option_line": "imoinuKato_saySalute2b:\"You mean, being stuck on a pirate-infested icecube with no fleet.\"",
-    "original": "You mean, being stuck on a pirate-infested icecube with no fleet.",
-    "translated": ""
+    "option_line": "imoinuUmbra_goCavin:\"I know someone on Westernesse who might help you. Cavin Pharoh.\"",
+    "original": "I know someone on Westernesse who might help you. Cavin Pharoh.",
+    "translated": "Je connais quelqu'un sur Westernesse qui pourrait vous aider. Cavin Pharoh."
+  },
+  {
+    "csv_row": 9450,
+    "id": "ImoinuUmbraGoOptC",
+    "column": "options",
+    "option_line": "imoinuUmbra_goOfferPassage:\"If you need safe transport to an independent world, I can arrange it.\"",
+    "original": "If you need safe transport to an independent world, I can arrange it.",
+    "translated": "Si vous avez besoin d'un transport sûr vers un monde indépendant, je peux m'en charger."
   }
 ]

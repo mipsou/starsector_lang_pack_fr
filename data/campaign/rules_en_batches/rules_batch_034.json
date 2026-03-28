@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "lpp_killaWillRememberB:\"Je ne comprends pas.\"",
     "original": "Je ne comprends pas.",
-    "translated": ""
+    "translated": "Je ne comprends pas."
   },
   {
     "csv_row": 1468,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "lpp_killaWillRememberC:\"On ne les oubliera jamais.\"",
     "original": "On ne les oubliera jamais.",
-    "translated": ""
+    "translated": "On ne les oubliera jamais."
   },
   {
     "csv_row": 1468,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "lpp_killaHelpAvenge:\"Je me battrai pour les venger.\"",
     "original": "Je me battrai pour les venger.",
-    "translated": ""
+    "translated": "Je me battrai pour les venger."
   },
   {
     "csv_row": 1480,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "lpp_killaShrineStayAWhile:Rester un moment",
     "original": "Rester un moment",
-    "translated": ""
+    "translated": "Rester un moment"
   },
   {
     "csv_row": 1480,
@@ -37,7 +37,7 @@
     "column": "options",
     "option_line": "lpp_killaShrineFirstLeaveStart:Revenir to your shuttle",
     "original": "Revenir to your shuttle",
-    "translated": ""
+    "translated": "Retourner vers votre navette"
   },
   {
     "csv_row": 1481,
@@ -45,7 +45,7 @@
     "column": "options",
     "option_line": "lpp_killaShrineFirstLeaveStart:Revenir to your shuttle",
     "original": "Revenir to your shuttle",
-    "translated": ""
+    "translated": "Retourner vers votre navette"
   },
   {
     "csv_row": 1484,
@@ -53,7 +53,7 @@
     "column": "options",
     "option_line": "lpp_killaShrineStayAWhile:Rester un moment",
     "original": "Rester un moment",
-    "translated": ""
+    "translated": "Rester un moment"
   },
   {
     "csv_row": 1484,
@@ -61,7 +61,7 @@
     "column": "options",
     "option_line": "lpp_killaShrineLeaveStart:Revenir to your shuttle",
     "original": "Revenir to your shuttle",
-    "translated": ""
+    "translated": "Retourner vers votre navette"
   },
   {
     "csv_row": 1501,
@@ -69,7 +69,7 @@
     "column": "options",
     "option_line": "lpp_jangalaProtestMarinesHelp:Proposer vos marines pour disperser la manifestation",
     "original": "Proposer vos marines pour disperser la manifestation",
-    "translated": ""
+    "translated": "Proposer vos marines pour disperser la manifestation"
   },
   {
     "csv_row": 1502,
@@ -77,6 +77,6 @@
     "column": "options",
     "option_line": "lpp_jangalaProtestMarines:Utiliser vos marines pour forcer le passage maintenant",
     "original": "Utiliser vos marines pour forcer le passage maintenant",
-    "translated": ""
+    "translated": "Utiliser vos marines pour forcer le passage maintenant"
   }
 ]

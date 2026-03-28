@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "RACA_force:Ordonner le retrait du noyau d'IA du pouvoir",
     "original": "Ordonner le retrait du noyau d'IA du pouvoir",
-    "translated": ""
+    "translated": "Ordonner le retrait du noyau d'IA du pouvoir"
   },
   {
     "csv_row": 3797,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "RACA_ignore:Laisser le noyau d'IA aux commandes et laisser les choses telles quelles",
     "original": "Laisser le noyau d'IA aux commandes et laisser les choses telles quelles",
-    "translated": ""
+    "translated": "Laisser le noyau d'IA aux commandes et laisser les choses telles quelles"
   },
   {
     "csv_row": 3801,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "RACA_force:Ordonner le retrait du noyau d'IA du pouvoir",
     "original": "Ordonner le retrait du noyau d'IA du pouvoir",
-    "translated": ""
+    "translated": "Ordonner le retrait du noyau d'IA du pouvoir"
   },
   {
     "csv_row": 3802,
@@ -37,7 +37,7 @@
     "column": "options",
     "option_line": "RACA_ignore:Laisser le noyau d'IA aux commandes et laisser les choses telles quelles",
     "original": "Laisser le noyau d'IA aux commandes et laisser les choses telles quelles",
-    "translated": ""
+    "translated": "Laisser le noyau d'IA aux commandes et laisser les choses telles quelles"
   },
   {
     "csv_row": 3803,
@@ -45,7 +45,7 @@
     "column": "options",
     "option_line": "RACA_confirm:Confirmer l'ordre",
     "original": "Confirmer l'ordre",
-    "translated": ""
+    "translated": "Confirmer l'ordre"
   },
   {
     "csv_row": 3803,
@@ -53,7 +53,7 @@
     "column": "options",
     "option_line": "RACA_ignore:Laisser le noyau d'IA aux commandes et laisser les choses telles quelles",
     "original": "Laisser le noyau d'IA aux commandes et laisser les choses telles quelles",
-    "translated": ""
+    "translated": "Laisser le noyau d'IA aux commandes et laisser les choses telles quelles"
   },
   {
     "csv_row": 3803,
@@ -61,7 +61,7 @@
     "column": "options",
     "option_line": "(dev)RACA_override:Retirer le noyau d'IA [mode dev uniquement]",
     "original": "Retirer le noyau d'IA [mode dev uniquement]",
-    "translated": ""
+    "translated": "Retirer le noyau d'IA [mode dev uniquement]"
   },
   {
     "csv_row": 3810,
@@ -69,7 +69,7 @@
     "column": "options",
     "option_line": "10:SL_buildRelay:Construire un relais comm de fortune",
     "original": "SL_buildRelay:Construire un relais comm de fortune",
-    "translated": ""
+    "translated": "SL_buildRelay:Construire un relais comm de fortune"
   },
   {
     "csv_row": 3812,
@@ -77,6 +77,6 @@
     "column": "options",
     "option_line": "30:SL_buildBuoy:Construire une balise de navigation de fortune",
     "original": "SL_buildBuoy:Construire une balise de navigation de fortune",
-    "translated": ""
+    "translated": "SL_buildBuoy:Construire une balise de navigation de fortune"
   }
 ]

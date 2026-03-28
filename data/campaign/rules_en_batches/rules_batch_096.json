@@ -4,14 +4,14 @@
     "id": "BFFIapRaidOutro7",
     "column": "text",
     "original": "Your comms officer intercepts you on the way to the medbay looking determined but apologetic.\n\n\"$PlayerSirOrMadam. The local security authority has issued a blanket order for all fleets to stay in orbit pending an investigation into an, ah, attack against the demarch of Olinadu.\"",
-    "translated": ""
+    "translated": "Votre officier de communications vous intercepte en chemin vers l'infirmerie, l'air déterminé mais contrit.\n\n\"$PlayerSirOrMadam. L'autorité de sécurité locale a émis un ordre général pour que toutes les flottes restent en orbite dans l'attente d'une enquête sur une, euh, attaque contre le démarque d'Olinadu.\""
   },
   {
     "csv_row": 2933,
     "id": "BFFIapRaidOutro8",
     "column": "text",
     "original": "\"Affirmative, $playerSirOrMadam,\" they reply. \"However we can assume that the present higher state of alert will detect the $shipOrFleet's de-orbit burn.\"",
-    "translated": ""
+    "translated": "\"Affirmatif, $playerSirOrMadam,\" répondent-ils. \"Cependant, nous pouvons supposer que l'état d'alerte renforcé actuel détectera la manœuvre de désorbitation du $shipOrFleet.\""
   },
   {
     "csv_row": 2933,
@@ -19,14 +19,14 @@
     "column": "options",
     "option_line": "bffi_mpRaidOutro9:\"Then we'd better go fast when we go.\"",
     "original": "Then we'd better go fast when we go.",
-    "translated": ""
+    "translated": "Alors il vaudra mieux aller vite quand on partira."
   },
   {
     "csv_row": 2934,
     "id": "BFFIapRaidOutro9",
     "column": "text",
     "original": "\"$PlayerSirOrMadam.\" They salute and step back so the med tech can finish waving a scanner - the high-pitched hum just inside your hearing - in search of broken bones. $global.jethroName undergoes a similar procedure in the next bay.\n\nBefore the hour you are discharged with a smart stimpack strapped to your side, under your uniform jacket, to control the pain and keep you alert.\n\nYou're not out yet. You can easily see that the local authorities don't discover Menes' trinket if your $shipOrFleet is searched, but that search would waste valuable time and disrupt operations.",
-    "translated": ""
+    "translated": "\"$PlayerSirOrMadam.\" Ils saluent et reculent pour laisser le technicien médical finir de passer un scanner — le bourdonnement aigu juste à la limite de votre audition — à la recherche de fractures. $global.jethroName subit une procédure similaire dans la baie voisine.\n\nAvant la fin de l'heure, vous êtes libéré avec un stimpack intelligent fixé à votre flanc, sous votre veste d'uniforme, pour contrôler la douleur et vous garder alerte.\n\nVous n'êtes pas encore sorti d'affaire. Vous pouvez facilement faire en sorte que les autorités locales ne découvrent pas le bibelot de Menes si votre $shipOrFleet est fouillé, mais cette fouille gaspillerait un temps précieux et perturberait les opérations."
   },
   {
     "csv_row": 2934,
@@ -34,21 +34,21 @@
     "column": "options",
     "option_line": "defaultLeave:Break orbit",
     "original": "Break orbit",
-    "translated": ""
+    "translated": "Quitter l'orbite"
   },
   {
     "csv_row": 2938,
     "id": "BFFImenesPostPartyBought",
     "column": "text",
     "original": "It takes longer than before to open the link. Menes' image flickers into being.\n\n\"Oh, Captain $playerName.\" He sets down a glass. \"Have you quite completed your assessment of the... item?\"",
-    "translated": ""
+    "translated": "Il faut plus de temps qu'avant pour ouvrir la liaison. L'image de Menes vacille avant d'apparaître.\n\n\"Oh, Capitaine $playerName.\" Il repose un verre. \"Avez-vous tout à fait terminé votre évaluation de l'... objet ?\""
   },
   {
     "csv_row": 2939,
     "id": "BFFImenesPostPartyBoughtAgain",
     "column": "text",
     "original": "It takes longer than before to open the link. Menes' image flickers into being.\n\n\"Captain $playerName,\" he pauses, looking down. \"Don't let me delay your... assessment. I've entrusted you with quite a treasure.\"",
-    "translated": ""
+    "translated": "Il faut plus de temps qu'avant pour ouvrir la liaison. L'image de Menes vacille avant d'apparaître.\n\n\"Capitaine $playerName,\" il marque une pause, baissant les yeux. \"Ne me laissez pas retarder votre... évaluation. Je vous ai confié un véritable trésor.\""
   },
   {
     "csv_row": 2940,
@@ -56,14 +56,14 @@
     "column": "options",
     "option_line": "bffi_menesPostPartyBoughtOpt2:\"I'm still consulting with experts. Top experts.\"",
     "original": "I'm still consulting with experts. Top experts.",
-    "translated": ""
+    "translated": "Je consulte encore des experts. Les meilleurs experts."
   },
   {
     "csv_row": 2942,
     "id": "BFFImenesPostPartyTalk",
     "column": "text",
     "original": "It takes longer than before to open the link.\n\nMenes' image flickers into pseudoreality and is still but for the occasional wave of algorithmic correction.\n\n\"Captain, oh captain,\" he says finally, his voice more brittle than before. There are dark circles under his eyes. \"Things have not been well.\"",
-    "translated": ""
+    "translated": "Il faut plus de temps qu'avant pour ouvrir la liaison.\n\nL'image de Menes vacille dans une pseudo-réalité et reste immobile, à l'exception d'ondulations occasionnelles de correction algorithmique.\n\n\"Capitaine, ô capitaine,\" dit-il enfin, sa voix plus fragile qu'auparavant. Il a des cernes sombres sous les yeux. \"Les choses n'ont pas été au mieux.\""
   },
   {
     "csv_row": 2943,
@@ -71,6 +71,6 @@
     "column": "options",
     "option_line": "bffi_menesPPoptA:\"I was nearly killed at your 'party', Menes. We were both there.\"",
     "original": "I was nearly killed at your 'party', Menes. We were both there.",
-    "translated": ""
+    "translated": "J'ai failli être tué à votre 'fête', Menes. Nous y étions tous les deux."
   }
 ]

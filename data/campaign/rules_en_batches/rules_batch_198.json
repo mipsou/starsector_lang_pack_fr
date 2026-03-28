@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "gaPZ_heg1:Envisager vos options",
     "original": "Envisager vos options",
-    "translated": ""
+    "translated": "Envisager vos options"
   },
   {
     "csv_row": 5159,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "gaPZ_hegHub2a:Attendre as the scan proceeds",
     "original": "Attendre as the scan proceeds",
-    "translated": ""
+    "translated": "Attendre pendant que le scan se déroule"
   },
   {
     "csv_row": 5163,
@@ -21,7 +21,7 @@
     "column": "options",
     "option_line": "gaPZ_hegHubVanish2:Attendre it out",
     "original": "Attendre it out",
-    "translated": ""
+    "translated": "Attendre que ça passe"
   },
   {
     "csv_row": 5174,
@@ -29,7 +29,7 @@
     "column": "options",
     "option_line": "gaPZ_ttHubPry:\"Il faudra me l'arracher de mes mains froides et mortes.\"",
     "original": "Il faudra me l'arracher de mes mains froides et mortes.",
-    "translated": ""
+    "translated": "Il faudra me l'arracher de mes mains froides et mortes."
   },
   {
     "csv_row": 5193,
@@ -61,7 +61,7 @@
     "column": "options",
     "option_line": "gaPZ_diktatEncounterNoZig2:\"Il semble que je n'aie pas d'exemplaire de cette classe de vaisseau dans ma flotte.\"",
     "original": "Il semble que je n'aie pas d'exemplaire de cette classe de vaisseau dans ma flotte.",
-    "translated": ""
+    "translated": "Il semble que je n'aie pas d'exemplaire de cette classe de vaisseau dans ma flotte."
   },
   {
     "csv_row": 5229,
@@ -69,7 +69,7 @@
     "column": "options",
     "option_line": "gaPZ_diktatIfRefuse:\"Et si je refuse ?\"",
     "original": "Et si je refuse ?",
-    "translated": ""
+    "translated": "Et si je refuse ?"
   },
   {
     "csv_row": 5231,
@@ -77,6 +77,6 @@
     "column": "options",
     "option_line": "gaPZ_diktatVanish:Cacher le Ziggurat",
     "original": "Cacher le Ziggurat",
-    "translated": ""
+    "translated": "Cacher le Ziggurat"
   }
 ]

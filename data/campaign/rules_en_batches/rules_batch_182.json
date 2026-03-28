@@ -20,7 +20,7 @@
     "id": "gaFCProbeSwitched",
     "column": "text",
     "original": "A common class of probe used for research, surveying, and surveillance. There is no active transponder, but your comms officer's active ping returns an ID-packet bearing codes for the Galatia Academy.\n\nEM leakage suggests functioning subsystems, perhaps collecting telemetry for some esoteric research project.",
-    "translated": ""
+    "translated": "Un type courant de sonde utilisé pour la recherche, l'arpentage et la surveillance. Il n'y a pas de transpondeur actif, mais le ping actif de votre officier comm renvoie un paquet d'identification portant les codes de l'Académie Galatia.\n\nLes fuites EM suggèrent des sous-systèmes fonctionnels, collectant peut-être de la télémétrie pour un projet de recherche ésotérique."
   },
   {
     "csv_row": 4617,
@@ -28,7 +28,7 @@
     "column": "options",
     "option_line": "gaFC_probeInvestigate:Examiner la sonde",
     "original": "Examiner la sonde",
-    "translated": ""
+    "translated": "Examiner la sonde"
   },
   {
     "csv_row": 4618,
@@ -36,7 +36,7 @@
     "column": "options",
     "option_line": "gaFC_probeInvestigate:Examiner la sonde",
     "original": "Examiner la sonde",
-    "translated": ""
+    "translated": "Examiner la sonde"
   },
   {
     "csv_row": 4628,
@@ -44,14 +44,14 @@
     "column": "options",
     "option_line": "gaFC_probeInvestigaitonWrapUp1:\"Des conclusions ?\"",
     "original": "Des conclusions ?",
-    "translated": ""
+    "translated": "Des conclusions ?"
   },
   {
     "csv_row": 4632,
     "id": "gaFCProbeInvestigaitonWrapUp3",
     "column": "text",
     "original": "\"The receiver would show up as a neutrino source, just like any starship drive or civilian reactor. The hyperwave effects would be - well, it couldn't be placed somewhere populated, that's for sure. So this hyperwave comm relay would then tightbeam to the final receiver, whoever was listening, presumably. If we found the relay, we would know whoever is at the other end of this thing is nearby.\"\n\nStable orbit, neutrino source, uninhabited. The Isirah system.",
-    "translated": ""
+    "translated": "\"Le récepteur apparaîtrait comme une source de neutrinos, tout comme n'importe quel propulseur de vaisseau ou réacteur civil. Les effets d'hyperonde seraient - eh bien, ça ne pourrait pas être placé dans un endroit peuplé, c'est certain. Donc ce relais comm hyperonde transmettrait ensuite en faisceau étroit au récepteur final, quiconque écoutait, vraisemblablement. Si nous trouvions le relais, nous saurions que quiconque est à l'autre bout de ce truc est à proximité.\"\n\nOrbite stable, source de neutrinos, inhabité. Le système Isirah."
   },
   {
     "csv_row": 4642,
@@ -67,7 +67,7 @@
     "column": "options",
     "option_line": "gaFC_probeInvestigaitonWrapUp1:\"Des conclusions ?\"",
     "original": "Des conclusions ?",
-    "translated": ""
+    "translated": "Des conclusions ?"
   },
   {
     "csv_row": 4656,
@@ -75,6 +75,6 @@
     "column": "options",
     "option_line": "gaFC_patherAmbushBluff1:\"Vous avez raison, je sers bien Moloch...\" (bluff)",
     "original": "Vous avez raison, je sers bien Moloch...\" (bluff)",
-    "translated": ""
+    "translated": "Vous avez raison, je sers bien Moloch...\" (bluff)"
   }
 ]
