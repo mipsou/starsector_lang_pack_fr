@@ -4,7 +4,7 @@
     "id": "ZGRmakePitch9OMKIscan1EndAfter",
     "column": "text",
     "original": "\"As I was saying, I have a great interest in... specimens. Artifacts. Like yours. And like what I presume it was built to fight,\" she says. \n\n\"You have been far more successful than the others. I would propose you repeat that success.\"",
-    "translated": "\"Comme je le disais, j'ai un grand interet pour... les specimens. Les artefacts. Comme le votre. Et comme ce contre quoi il a ete construit pour combattre, je presume,\" dit-elle.\n\n\"Vous avez ete bien plus efficace que les autres. Je vous propose de renouveler ce succes.\""
+    "translated": "\"Comme je le disais, j'ai un grand interet pour... les specimens. Les artefacts. Comme le votre. Et comme ce contre quoi il a ete construit pour combattre, je présumé,\" dit-elle.\n\n\"Vous avez ete bien plus efficace que les autres. Je vous propose de renouveler ce succes.\""
   },
   {
     "csv_row": 8462,
@@ -25,14 +25,14 @@
     "id": "ZGRstartPitch9b",
     "column": "text",
     "original": "\"We assume it'll engage in some sort of hostile action against you or your $shipOrFleet,\" she says indifferently. \"Only this won't be pirate, Pather, or tariff patrol.\"\n\n\"Nor,\" she fixes you with a cool look, \"Some remnant AI warfleet. Those, those we know about.\"\n\n\"Disappointing conversationalists,\" she mutters. \"Superintelligence with no mind for business. Simply unbelievable...\"",
-    "translated": "\"Nous supposons qu'elle engagera une forme d'action hostile contre vous ou votre $shipOrFleet,\" dit-elle avec indifference. \"Seulement ce ne sera ni de la piraterie, ni du Sentier Luddique, ni une patrouille douaniere.\"\n\n\"Ni,\" elle vous fixe d'un regard froid, \"une quelconque flotte de guerre IA residuelle. Celles-la, nous les connaissons.\"\n\n\"De pitoyables interlocuteurs,\" marmonne-t-elle. \"Une superintelligence sans aucun sens des affaires. Tout simplement incroyable...\""
+    "translated": "\"Nous supposons qu'elle engagera une forme d'action hostile contre vous où votre $shipOrFleet,\" dit-elle avec indifference. \"Seulement ce ne sera ni de la piraterie, ni du Sentier Luddique, ni une patrouille douaniere.\"\n\n\"Ni,\" elle vous fixe d'un regard froid, \"une quelconque flotte de guerre IA residuelle. Celles-la, nous les connaissons.\"\n\n\"De pitoyables interlocuteurs,\" marmonne-t-elle. \"Une superintelligence sans aucun sens des affaires. Tout simplement incroyable...\""
   },
   {
     "csv_row": 8465,
     "id": "ZGRmakePitch9both",
     "column": "text",
     "original": "She blinks. Her eyes seem suddenly present for the first time. And she stares for several seconds, motionless.\n\n\"You're telling the truth,\" she says, outwardly cool.\n\n\"Would you part with recordings of your encounters with both of these... forces? I offer 150,000 credits for immediate transfer.\"",
-    "translated": "Elle cligne des yeux. Ses yeux semblent soudain presents pour la premiere fois. Et elle fixe pendant plusieurs secondes, immobile.\n\n\"Vous dites la verite,\" dit-elle, exterieurement calme.\n\n\"Accepteriez-vous de ceder les enregistrements de vos rencontres avec ces deux... forces ? J'offre 150 000 credits pour un transfert immediat.\""
+    "translated": "Elle cligne des yeux. Ses yeux semblent soudain presents pour la première fois. Et elle fixe pendant plusieurs secondes, immobile.\n\n\"Vous dites la vérité,\" dit-elle, exterieurement calme.\n\n\"Accepteriez-vous de ceder les enregistrements de vos rencontres avec ces deux... forces ? J'offre 150 000 credits pour un transfert immediat.\""
   },
   {
     "csv_row": 8465,

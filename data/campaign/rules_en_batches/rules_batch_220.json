@@ -11,7 +11,7 @@
     "id": "pwi2Bluff",
     "column": "text",
     "original": "Vous prenez un air de profonde inquietude, \"$BrotherOrSister, je crains que vous n'ayez completement mal compris la situation. Je marche sur la Voie, comme vous, mais moi ?\" Vous baissez la voix jusqu'au murmure, \"Dans l'ombre.\"\n\nLa confusion grandit sur le visage du Pather tandis qu'$heOrShe tente de comprendre ce que vous voulez dire.\n\n\"Souvenez-vous de Mairaath,",
-    "translated": "Vous prenez un air de profonde inquietude, \"$BrotherOrSister, je crains que vous n'ayez completement mal compris la situation. Je marche sur la Voie, comme vous, mais moi ?\" Vous baissez la voix jusqu'au murmure, \"Dans l'ombre.\"\n\nLa confusion grandit sur le visage du Pather tandis qu'$heOrShe tente de comprendre ce que vous voulez dire.\n\n\"Souvenez-vous de Mairaath,"
+    "translated": "Vous prenez un air de profonde inquiétude, \"$BrotherOrSister, je crains que vous n'ayez complètement mal compris la situation. Je marche sur la Voie, comme vous, mais moi ?\" Vous baissez la voix jusqu'au murmure, \"Dans l'ombre.\"\n\nLa confusion grandit sur le visage du Pather tandis qu'$heOrShe tente de comprendre ce que vous voulez dire.\n\n\"Souvenez-vous de Mairaath,"
   },
   {
     "csv_row": 6433,
@@ -42,7 +42,7 @@
     "id": "gaRRMissionTextPirate3",
     "column": "text",
     "original": "L'Academicien Sebestyen leve les yeux, apparemment rassure par cela. \"Alors vous le ferez ?\"",
-    "translated": "L'Academicien Sebestyen leve les yeux, apparemment rassure par cela. \"Alors vous le ferez ?\""
+    "translated": "L'Académicien Sebestyen leve les yeux, apparemment rassuré par cela. \"Alors vous le ferez ?\""
   },
   {
     "csv_row": 6473,
@@ -72,6 +72,6 @@
     "id": "gaIntro2what",
     "column": "text",
     "original": "\"Eh bien,\" votre officier technologique fronce les sourcils, \"Des enregistrements. Des journaux de senseurs. Detectant, euh.\" Il met en pause le flux de donnees, examinant certains chiffres. \"Une sorte de... force de champ ?\"\n\nVous commencez a avoir l'impression que votre officier tech ne sait pas ce que cet appareil mesurait.",
-    "translated": "\"Eh bien,\" votre officier technologique fronce les sourcils, \"Des enregistrements. Des journaux de senseurs. Detectant, euh.\" Il met en pause le flux de donnees, examinant certains chiffres. \"Une sorte de... force de champ ?\"\n\nVous commencez a avoir l'impression que votre officier tech ne sait pas ce que cet appareil mesurait."
+    "translated": "\"Eh bien,\" votre officier technologique fronce les sourcils, \"Des enregistrements. Des journaux de senseurs. Détectant, euh.\" Il met en pause le flux de données, examinant certains chiffres. \"Une sorte de... force de champ ?\"\n\nVous commencez a avoir l'impression que votre officier tech ne sait pas ce que cet appareil mesurait."
   }
 ]

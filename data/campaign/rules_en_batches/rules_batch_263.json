@@ -51,14 +51,14 @@
     "id": "kdLandingDeniedStopMe",
     "column": "text",
     "original": "\"Non, l'ami.\" Il jette un coup d'oeil par-dessus son epaule vers une escouade de brutes lourdement armees qui trainent autour d'une enorme porte blindee ornee d'un motif de crane.\n\n\"Mais eux, oui.\"",
-    "translated": "\"Non, l'ami.\" Il jette un coup d'oeil par-dessus son epaule vers une escouade de brutes lourdement armees qui trainent autour d'une enorme porte blindee ornee d'un motif de crane.\n\n\"Mais eux, oui.\""
+    "translated": "\"Non, l'ami.\" Il jette un coup d'oeil par-dessus son épaule vers une escouade de brutes lourdement armees qui trainent autour d'une énorme porte blindee ornee d'un motif de crane.\n\n\"Mais eux, oui.\""
   },
   {
     "csv_row": 8063,
     "id": "kdLandingDeniedOther",
     "column": "text",
     "original": "Vous vous eloignez et observez le hall comme si vous n'aviez jamais eu l'intention de parler a Kanta. Le pirate ne fait aucun commentaire.",
-    "translated": "Vous vous eloignez et observez le hall comme si vous n'aviez jamais eu l'intention de parler a Kanta. Le pirate ne fait aucun commentaire."
+    "translated": "Vous vous éloignez et observez le hall comme si vous n'aviez jamais eu l'intention de parler a Kanta. Le pirate ne fait aucun commentaire."
   },
   {
     "csv_row": 8070,
@@ -72,6 +72,6 @@
     "id": "kdKantaFirstIntro4",
     "column": "text",
     "original": "Devant elle, un homme etrange et petit se tient voute. Il porte une parodie de tenue chirurgicale de medecin.\n\n\"Vous feriez mieux de vous agenouiller,\" siffle le docteur.",
-    "translated": "Devant elle, un homme etrange et petit se tient voute. Il porte une parodie de tenue chirurgicale de medecin.\n\n\"Vous feriez mieux de vous agenouiller,\" siffle le docteur."
+    "translated": "Devant elle, un homme étrange et petit se tient voute. Il porte une parodie de tenue chirurgicale de medecin.\n\n\"Vous feriez mieux de vous agenouiller,\" siffle le docteur."
   }
 ]

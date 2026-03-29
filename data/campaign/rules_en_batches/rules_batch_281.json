@@ -28,21 +28,21 @@
     "id": "ZGRackChurchOptNotBusiness",
     "column": "text",
     "original": "If her look could become any colder without freezing the local atmo, it would.\n\n\"An interest in your business is my business if we are to do business. I shall repeat the point for emphasis: it is important that I know where we stand.\" Her hands, neatly folded, gently draw apart and close. Not clenched into fists, but...\n\n\"Do you believe?\"",
-    "translated": "Si son regard pouvait devenir plus glacial sans geler l'atmosphere locale, il le ferait.\n\n\"M'interesser a vos affaires est mon affaire si nous devons faire affaire. Je repeterai ce point pour insister : il est important que je sache ou nous en sommes.\" Ses mains, soigneusement jointes, s'ecartent et se referment doucement. Pas serrees en poings, mais...\n\n\"Croyez-vous ?\""
+    "translated": "Si son regard pouvait devenir plus glacial sans geler l'atmosphère locale, il le ferait.\n\n\"M'interesser a vos affaires est mon affaire si nous devons faire affaire. Je repeterai ce point pour insister : il est important que je sache où nous en sommes.\" Ses mains, soigneusement jointes, s'ecartent et se referment doucement. Pas serrees en poings, mais...\n\n\"Croyez-vous ?\""
   },
   {
     "csv_row": 8386,
     "id": "ZGRackChurchOptYes",
     "column": "text",
     "original": "\"I see,\" she says as if she quite distinctly doesn't.\n\nHer head tilts very slightly, perplexed.",
-    "translated": "\"Je vois,\" dit-elle comme si elle ne voyait manifestement pas.\n\nSa tete s'incline tres legerement, perplexe."
+    "translated": "\"Je vois,\" dit-elle comme si elle ne voyait manifestement pas.\n\nSa tête s'incline tres légèrement, perplexe."
   },
   {
     "csv_row": 8388,
     "id": "ZGRackChurchOptYesNotChurch",
     "column": "text",
     "original": "\"How interesting,\" she says.\n\nHer head tilts very slightly, perplexed.",
-    "translated": "\"Comme c'est interessant,\" dit-elle.\n\nSa tete s'incline tres legerement, perplexe."
+    "translated": "\"Comme c'est intéressant,\" dit-elle.\n\nSa tête s'incline tres légèrement, perplexe."
   },
   {
     "csv_row": 8389,
@@ -56,7 +56,7 @@
     "id": "ZGRackChurchOptMercenary",
     "column": "text",
     "original": "\"How unexpected,\" she says, curious.\n\n\"I suppose one must concede that the Church is not without some wealth and not without need for services unclouded by... fanatic enthusiasm. I suppose you've found something of a niche market for yourself. However limited.\"",
-    "translated": "\"Comme c'est inattendu,\" dit-elle, curieuse.\n\n\"Je suppose qu'il faut conceder que l'Eglise n'est pas depourvue de richesse ni de besoin de services exempts d'un... enthousiasme fanatique. Je suppose que vous vous etes trouve un marche de niche. Aussi limite soit-il.\""
+    "translated": "\"Comme c'est inattendu,\" dit-elle, curieuse.\n\n\"Je suppose qu'il faut conceder que l'Église n'est pas depourvue de richesse ni de besoin de services exempts d'un... enthousiasme fanatique. Je suppose que vous vous etes trouve un marche de niche. Aussi limite soit-il.\""
   },
   {
     "csv_row": 8391,

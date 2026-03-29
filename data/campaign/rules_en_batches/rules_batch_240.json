@@ -36,14 +36,14 @@
     "column": "options",
     "option_line": "fwt_accept:Remettre $entity.fwt_theThing in exchange for a payment",
     "original": "Remettre $entity.fwt_theThing in exchange for a payment",
-    "translated": "Remettre $entity.fwt_theThing en echange d'un paiement"
+    "translated": "Remettre $entity.fwt_theThing en échange d'un paiement"
   },
   {
     "csv_row": 7656,
     "id": "fwt_acceptSelPay",
     "column": "text",
     "original": "Le $personRank $faction semble satisfait en transmettant le paiement.\n\n\"Excellent ! Parfait. Ravi de faire affaire avec vous, $playerName.\" Vous echangez quelques politesses creuses et coupez la liaison comm.",
-    "translated": "Le $personRank $faction semble satisfait en transmettant le paiement.\n\n\"Excellent ! Parfait. Ravi de faire affaire avec vous, $playerName.\" Vous echangez quelques politesses creuses et coupez la liaison comm."
+    "translated": "Le $personRank $faction semble satisfait en transmettant le paiement.\n\n\"Excellent ! Parfait. Ravi de faire affaire avec vous, $playerName.\" Vous échangez quelques politesses creuses et coupez la liaison comm."
   },
   {
     "csv_row": 7678,
@@ -59,7 +59,7 @@
     "column": "options",
     "option_line": "fwt_acceptMerc:Accepter et remettre le $entity.fwt_theThing in exchange for a payment",
     "original": "Accepter et remettre le $entity.fwt_theThing in exchange for a payment",
-    "translated": "Accepter et remettre le $entity.fwt_theThing en echange d'un paiement"
+    "translated": "Accepter et remettre le $entity.fwt_theThing en échange d'un paiement"
   },
   {
     "csv_row": 7687,

@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "zgr_makePitch3a:\"Returns, you say. That sounds like a lot of credits.\"",
     "original": "Returns, you say. That sounds like a lot of credits.",
-    "translated": "Des rendements, vous dites. Ca semble representer beaucoup de credits."
+    "translated": "Des rendements, vous dites. Ça semble représentér beaucoup de credits."
   },
   {
     "csv_row": 8417,
@@ -36,7 +36,7 @@
     "id": "ZGRstartPitch3z",
     "column": "text",
     "original": "Her head gives a small twitch.\n\n\"Regret, you say.\"",
-    "translated": "Sa tete a un petit tressaillement.\n\n\"Des regrets, vous dites.\""
+    "translated": "Sa tête a un petit tressaillement.\n\n\"Des regrets, vous dites.\""
   },
   {
     "csv_row": 8418,
@@ -52,7 +52,7 @@
     "column": "options",
     "option_line": "zgr_makePitch3zB:\"They came to a poor end. I should like to avoid that for myself.\"",
     "original": "They came to a poor end. I should like to avoid that for myself.",
-    "translated": "Ils ont mal fini. J'aimerais eviter ce sort."
+    "translated": "Ils ont mal fini. J'aimerais éviter ce sort."
   },
   {
     "csv_row": 8419,

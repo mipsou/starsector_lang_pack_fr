@@ -35,7 +35,7 @@
     "id": "ZGRpostGADHOelekPrefer",
     "column": "text",
     "original": "She nods slowly, once.\n\n\"It will take some time, and credits, for him to become a useful asset again. It is much as any investment.\"",
-    "translated": "Elle hoche lentement la tete, une seule fois.\n\n\"Il faudra du temps, et des credits, pour qu'il redevienne un atout utile. C'est comme tout investissement.\""
+    "translated": "Elle hoche lentement la tête, une seule fois.\n\n\"Il faudra du temps, et des credits, pour qu'il redevienne un atout utile. C'est comme tout investissement.\""
   },
   {
     "csv_row": 8255,
@@ -57,7 +57,7 @@
     "id": "ZGRpostGADHOelekPrefer2b",
     "column": "text",
     "original": "\"Your impulse to moralize is irrelevant to my interests,\" she says. \"Let us return to business.\"",
-    "translated": "\"Votre propension a moraliser ne presente aucun interet pour moi,\" dit-elle. \"Revenons aux affaires.\""
+    "translated": "\"Votre propension a moraliser ne présenté aucun interet pour moi,\" dit-elle. \"Revenons aux affaires.\""
   },
   {
     "csv_row": 8258,
@@ -71,6 +71,6 @@
     "id": "ZGRpostGADHOelekHowKnow",
     "column": "text",
     "original": "\"Old records,\" she says curtly.\n\n\"The Galatia Academy doesn't know what it has, much less how to make good use of it. Their lack of self-motivation is self-evident.\"",
-    "translated": "\"D'anciens registres,\" dit-elle sechement.\n\n\"L'Academie de Galatia ne sait pas ce qu'elle possede, et encore moins comment en faire bon usage. Leur manque d'initiative est flagrant.\""
+    "translated": "\"D'anciens registres,\" dit-elle sechement.\n\n\"L'Academie de Galatia ne sait pas ce qu'elle possède, et encore moins comment en faire bon usage. Leur manque d'initiative est flagrant.\""
   }
 ]

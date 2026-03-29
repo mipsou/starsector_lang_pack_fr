@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "ZGR_postGADHOimply1:\"An Academician Elek said something funny- that he was being funded by Tri-Tachyon.\"",
     "original": "An Academician Elek said something funny- that he was being funded by Tri-Tachyon.",
-    "translated": "Un certain Academicien Elek a dit quelque chose d'amusant - qu'il etait finance par Tri-Tachyon."
+    "translated": "Un certain Academicien Elek a dit quelque chose d'amusant - qu'il était finance par Tri-Tachyon."
   },
   {
     "csv_row": 8242,
@@ -28,7 +28,7 @@
     "id": "ZGRpostGADHOconfrontStart",
     "column": "text",
     "original": "The Director's face creates a smile. \"He wasn't supposed to tell anyone. But this is Cornelius Elek, so I cannot be surprised.\"\n\nHer face, and tone, go blank again.\n\n\"You have something more to say about Elek. Proceed.\"",
-    "translated": "Le visage de la Directrice esquisse un sourire. \"Il n'etait pas cense en parler a quiconque. Mais c'est Cornelius Elek, je ne peux pas etre surprise.\"\n\nSon visage, et son ton, redeviennent vides.\n\n\"Vous avez autre chose a dire au sujet d'Elek. Poursuivez.\""
+    "translated": "Le visage de la Directrice esquisse un sourire. \"Il n'était pas cense en parler a quiconque. Mais c'est Cornelius Elek, je ne peux pas etre surprise.\"\n\nSon visage, et son ton, redeviennent vides.\n\n\"Vous avez autre chose a dire au sujet d'Elek. Poursuivez.\""
   },
   {
     "csv_row": 8243,
@@ -58,20 +58,20 @@
     "id": "ZGRpostGADHOimply3a",
     "column": "text",
     "original": "Glamor-Rotanev creates a smile for you.\n\n\"Yes, I was admiring your new acquisition.\" Her eyes flicker oddly, and you detect what might be a rare spark of genuine amusement. \n\n\"Or perhaps I should call it your very, very old acquisition.\"",
-    "translated": "Glamor-Rotanev vous fabrique un sourire.\n\n\"Oui, j'admirais votre nouvelle acquisition.\" Ses yeux tremblotent etrangement, et vous detectez ce qui pourrait etre une rare etincelle d'amusement sincere.\n\n\"Ou peut-etre devrais-je dire votre tres, tres ancienne acquisition.\""
+    "translated": "Glamor-Rotanev vous fabrique un sourire.\n\n\"Oui, j'admirais votre nouvelle acquisition.\" Ses yeux tremblotent étrangement, et vous detectez ce qui pourrait etre une rare étincelle d'amusement sincère.\n\n\"Ou peut-etre devrais-je dire votre tres, tres ancienne acquisition.\""
   },
   {
     "csv_row": 8247,
     "id": "ZGRpostGADHOimply3b",
     "column": "text",
     "original": "Glamor-Rotanev creates a smile for you.\n\n\"And you found it.\" She sounds unsurprised by the news. \"Elek was distraught, I am to understand.\"\n\nHer eyes flicker oddly, and you detect what might be a rare spark of genuine amusement.",
-    "translated": "Glamor-Rotanev vous fabrique un sourire.\n\n\"Et vous l'avez trouve.\" Elle ne semble pas surprise par la nouvelle. \"Elek etait effondre, si j'ai bien compris.\"\n\nSes yeux tremblotent etrangement, et vous detectez ce qui pourrait etre une rare etincelle d'amusement sincere."
+    "translated": "Glamor-Rotanev vous fabrique un sourire.\n\n\"Et vous l'avez trouve.\" Elle ne semble pas surprise par la nouvelle. \"Elek était éffondre, si j'ai bien compris.\"\n\nSes yeux tremblotent étrangement, et vous detectez ce qui pourrait etre une rare étincelle d'amusement sincère."
   },
   {
     "csv_row": 8248,
     "id": "ZGRpostGADHOimply3c",
     "column": "text",
     "original": "Glamor-Rotanev creates a smile for you.\n\n\"And you found what he didn't know he was looking for.\" She sounds unsurprised. \"Elek was distraught, I am to understand.\"\n\nHer eyes flicker oddly, and you detect what might be a rare spark of genuine amusement.",
-    "translated": "Glamor-Rotanev vous fabrique un sourire.\n\n\"Et vous avez trouve ce qu'il ne savait pas qu'il cherchait.\" Elle ne semble pas surprise. \"Elek etait effondre, si j'ai bien compris.\"\n\nSes yeux tremblotent etrangement, et vous detectez ce qui pourrait etre une rare etincelle d'amusement sincere."
+    "translated": "Glamor-Rotanev vous fabrique un sourire.\n\n\"Et vous avez trouve ce qu'il ne savait pas qu'il cherchait.\" Elle ne semble pas surprise. \"Elek était éffondre, si j'ai bien compris.\"\n\nSes yeux tremblotent étrangement, et vous detectez ce qui pourrait etre une rare étincelle d'amusement sincère."
   }
 ]

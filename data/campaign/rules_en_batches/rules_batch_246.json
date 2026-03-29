@@ -4,7 +4,7 @@
     "id": "raoMetNeriene3Lost",
     "column": "text",
     "original": "He pauses. \n\n\"I trust you weren't hurt too badly? The night of the ball.\"",
-    "translated": "Il fait une pause.\n\n\"J'espere que vous n'avez pas ete trop blesse ? La nuit du bal.\""
+    "translated": "Il fait une pause.\n\n\"J'espère que vous n'avez pas ete trop blesse ? La nuit du bal.\""
   },
   {
     "csv_row": 7819,
@@ -18,7 +18,7 @@
     "id": "raoMetNeriene3Left",
     "column": "text",
     "original": "\"You avoided a bit of trouble that night of the ball, I think. Mostly.\"",
-    "translated": "\"Vous avez evite quelques ennuis cette nuit-la lors du bal, je crois. En grande partie.\""
+    "translated": "\"Vous avez évite quelques ennuis cette nuit-la lors du bal, je crois. En grande partie.\""
   },
   {
     "csv_row": 7821,
@@ -26,7 +26,7 @@
     "column": "options",
     "option_line": "rao_nerieneSelWonD:\"And easily. Those brutes did not realize that I had studied the blade.\"",
     "original": "And easily. Those brutes did not realize that I had studied the blade.",
-    "translated": "Et facilement. Ces brutes n'ont pas realise que j'avais etudie l'epee."
+    "translated": "Et facilement. Ces brutes n'ont pas realise que j'avais etudie l'épee."
   },
   {
     "csv_row": 7822,
@@ -34,7 +34,7 @@
     "column": "options",
     "option_line": "rao_nerieneSelLostBlade:\"It was a shame to lose... for I have studied the blade.\"",
     "original": "It was a shame to lose... for I have studied the blade.",
-    "translated": "C'etait dommage de perdre... car j'ai etudie l'epee."
+    "translated": "C'était dommage de perdre... car j'ai etudie l'épee."
   },
   {
     "csv_row": 7825,
@@ -50,7 +50,7 @@
     "column": "options",
     "option_line": "rao_nerieneSelLostD:\"What matters is I stood to their insults and fought. My honor is intact.\"",
     "original": "What matters is I stood to their insults and fought. My honor is intact.",
-    "translated": "Ce qui compte, c'est que j'ai tenu tete a leurs insultes et que je me suis battu. Mon honneur est intact."
+    "translated": "Ce qui compte, c'est que j'ai tenu tête a leurs insultes et que je me suis battu. Mon honneur est intact."
   },
   {
     "csv_row": 7827,

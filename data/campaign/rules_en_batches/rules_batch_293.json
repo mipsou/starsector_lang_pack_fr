@@ -4,14 +4,14 @@
     "id": "ZGRstartPitch12",
     "column": "text",
     "original": "\"Return with something useful,\" she says, turning her back to you to look upon the vista of mountaintops and shining arcologies growing like crystals from the slums of Eochu Bres.\n\n\"And I'll make you glitter.\"",
-    "translated": "\"Revenez avec quelque chose d'utile,\" dit-elle, vous tournant le dos pour contempler le panorama des sommets montagneux et des arcologies etincelantes poussant comme des cristaux depuis les bidonvilles d'Eochu Bres.\n\n\"Et je vous ferai briller.\""
+    "translated": "\"Revenez avec quelque chose d'utile,\" dit-elle, vous tournant le dos pour contempler le panorama des sommets montagneux et des arcologies étincelantes poussant comme des cristaux depuis les bidonvilles d'Eochu Bres.\n\n\"Et je vous ferai briller.\""
   },
   {
     "csv_row": 8490,
     "id": "ZGRstartPitch12didSale",
     "column": "text",
     "original": "\"Return with more finds,\" she says, turning her back to you to look upon the vista of mountaintops and shining arcologies growing like crystals from the slums of Eochu Bres.\n\n\"And I'll make you glitter.\"",
-    "translated": "\"Revenez avec d'autres trouvailles,\" dit-elle, vous tournant le dos pour contempler le panorama des sommets montagneux et des arcologies etincelantes poussant comme des cristaux depuis les bidonvilles d'Eochu Bres.\n\n\"Et je vous ferai briller.\""
+    "translated": "\"Revenez avec d'autres trouvailles,\" dit-elle, vous tournant le dos pour contempler le panorama des sommets montagneux et des arcologies étincelantes poussant comme des cristaux depuis les bidonvilles d'Eochu Bres.\n\n\"Et je vous ferai briller.\""
   },
   {
     "csv_row": 8491,
@@ -43,7 +43,7 @@
     "column": "options",
     "option_line": "zgr_makePitch9OMKIbuy4mil:\"I've considered your offer. One million credits for scan and samples from the Onslaught Mk.I. Agreed?\"",
     "original": "I've considered your offer. One million credits for scan and samples from the Onslaught Mk.I. Agreed?",
-    "translated": "J'ai considere votre offre. Un million de credits pour le scan et les echantillons de l'Onslaught Mk.I. D'accord ?"
+    "translated": "J'ai considère votre offre. Un million de credits pour le scan et les echantillons de l'Onslaught Mk.I. D'accord ?"
   },
   {
     "csv_row": 8500,
@@ -57,7 +57,7 @@
     "id": "ZGRstartPitchEndRequestFuel2no",
     "column": "text",
     "original": "She looks at you over her shoulder.\n\n\"You'll find that my charity is a shallow well, captain. I will trust in your boundless initiative,\" $personLastName says.",
-    "translated": "Elle vous regarde par-dessus son epaule.\n\n\"Vous constaterez que ma charite est un puits peu profond, capitaine. Je ferai confiance a votre initiative sans bornes,\" dit $personLastName."
+    "translated": "Elle vous regarde par-dessus son épaule.\n\n\"Vous constaterez que ma charite est un puits peu profond, capitaine. Je ferai confiance a votre initiative sans bornes,\" dit $personLastName."
   },
   {
     "csv_row": 8502,
@@ -71,6 +71,6 @@
     "id": "ZGRstartPitchOutroB",
     "column": "text",
     "original": "\"You'll get no better,\" she says, her tone a dismissal.\n\n* * *\n\nYou expect the Director will shed no tears if you and your crew perish. But she has a reputation for rewarding success and effective, if shadowy, investment and development.\n\nAnd for brutally cutting underperforming elements.\n\nYou could make good money and powerful connections. Or die in the Abyss, screaming to yourself in a darkness blacker than space.",
-    "translated": "\"Vous ne trouverez pas mieux,\" dit-elle, son ton valant un congediement.\n\n* * *\n\nVous ne vous attendez pas a ce que la Directrice verse des larmes si vous et votre equipage perissez. Mais elle a la reputation de recompenser le succes et de mener des investissements et developpements efficaces, quoique obscurs.\n\nEt de couper brutalement les elements sous-performants.\n\nVous pourriez gagner beaucoup d'argent et nouer des connexions puissantes. Ou mourir dans l'Abime, hurlant dans une obscurite plus noire que l'espace."
+    "translated": "\"Vous ne trouverez pas mieux,\" dit-elle, son ton valant un congediement.\n\n* * *\n\nVous ne vous attendez pas a ce que la Directrice verse des larmes si vous et votre équipage perissez. Mais elle a la réputation de récompenser le succes et de mener des investissements et développements efficaces, quoique obscurs.\n\nEt de couper brutalement les elements sous-performants.\n\nVous pourriez gagner beaucoup d'argent et nouer des connexions puissantes. Ou mourir dans l'Abime, hurlant dans une obscurite plus noire que l'espace."
   }
 ]

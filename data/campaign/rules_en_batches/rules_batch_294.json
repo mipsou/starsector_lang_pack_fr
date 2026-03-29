@@ -4,7 +4,7 @@
     "id": "ZGRstartPitchOutro",
     "column": "text",
     "original": "* * *\n\nYou expect the Director will shed no tears if you and your crew perish. But she has a reputation for effective, if shadowy, investment and development.\n\nAnd for brutally cutting underperforming elements while rewarding success.\n\nYou could make good money and powerful connections. Or die in the Abyss, screaming to yourself in a darkness blacker than space.",
-    "translated": "* * *\n\nVous ne vous attendez pas a ce que la Directrice verse des larmes si vous et votre equipage perissez. Mais elle a la reputation de mener des investissements et developpements efficaces, quoique obscurs.\n\nEt de couper brutalement les elements sous-performants tout en recompensant le succes.\n\nVous pourriez gagner beaucoup d'argent et nouer des connexions puissantes. Ou mourir dans l'Abime, hurlant dans une obscurite plus noire que l'espace."
+    "translated": "* * *\n\nVous ne vous attendez pas a ce que la Directrice verse des larmes si vous et votre équipage perissez. Mais elle a la réputation de mener des investissements et développements efficaces, quoique obscurs.\n\nEt de couper brutalement les elements sous-performants tout en récompensant le succes.\n\nVous pourriez gagner beaucoup d'argent et nouer des connexions puissantes. Ou mourir dans l'Abime, hurlant dans une obscurite plus noire que l'espace."
   },
   {
     "csv_row": 8510,
@@ -57,7 +57,7 @@
     "id": "GRBHstartRespB",
     "column": "text",
     "original": "He laughs beautifully, perfect teeth flashing.",
-    "translated": "Il rit magnifiquement, ses dents parfaites etincelant."
+    "translated": "Il rit magnifiquement, ses dents parfaites étincelant."
   },
   {
     "csv_row": 8515,
@@ -71,6 +71,6 @@
     "id": "GRBHexamine",
     "column": "text",
     "original": "The subtle, off-white material has a luxurious heft. An embossed Tri-Tachyon crest is just visible through the barely translucent polyply stock.\n\nThis is an affectation of the business class dating all the way back to Terran prehistory called a 'business-card', a sort of analog commlink ID data-packet. It reads:",
-    "translated": "Le materiau subtil, blanc casse, a un poids luxueux. Un blason de Tri-Tachyon en relief est tout juste visible a travers le support polyply a peine translucide.\n\nC'est une affectation de la classe des affaires remontant a la prehistoire terrienne, appelee 'carte de visite', une sorte de paquet de donnees d'identifiant comm analogique. On y lit :"
+    "translated": "Le materiau subtil, blanc casse, a un poids luxueux. Un blason de Tri-Tachyon en relief est tout juste visible a travers le support polyply a peine translucide.\n\nC'est une affectation de la classe des affaires remontant a la prehistoire terrienne, appelee 'carte de visite', une sorte de paquet de données d'identifiant comm analogique. On y lit :"
   }
 ]

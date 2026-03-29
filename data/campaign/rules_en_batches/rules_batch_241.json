@@ -19,7 +19,7 @@
     "id": "defaultBornanewGreeting",
     "column": "text",
     "original": "The comms system provided by the Knights of Ludd for its members appears to be intentionally low-bandwidth. \n\n\"Good day, captain,\" he says, voice hollowed of its usual warmth. \n\nThe image of $global.jethroName Bornanew twitches occasionally before reforming based on the automation's best guess to fill the gaps in the feed.",
-    "translated": "Le systeme de communication fourni par les Chevaliers de Ludd a ses membres semble etre intentionnellement a faible debit.\n\n\"Bonjour, capitaine,\" dit-il, sa voix videe de sa chaleur habituelle.\n\nL'image de $global.jethroName Bornanew tressaille occasionnellement avant de se reformer selon la meilleure estimation de l'automatisme pour combler les lacunes du flux."
+    "translated": "Le système de communication fourni par les Chevaliers de Ludd a ses membres semble etre intentionnellement a faible debit.\n\n\"Bonjour, capitaine,\" dit-il, sa voix videe de sa chaleur habituelle.\n\nL'image de $global.jethroName Bornanew tressaille occasionnellement avant de se reformer selon la meilleure estimation de l'automatisme pour combler les lacunes du flux."
   },
   {
     "csv_row": 7721,
@@ -34,7 +34,7 @@
     "id": "greetingStandfastDefault",
     "column": "text",
     "original": "Les communications mettent du temps a s'etablir, et la transmission est hachee, comme si elle passait par des relais endommages ou surcharges. Neanmoins, la Curatrice Sacraria Standfast apparait.\n\n\"Tiens, regardez qui echoue sur des rivages agites,\" dit-elle. \"Comment une servante de la Providence peut-elle vous aider en ce jour ?\"",
-    "translated": "Les communications mettent du temps a s'etablir, et la transmission est hachee, comme si elle passait par des relais endommages ou surcharges. Neanmoins, la Curatrice Sacraria Standfast apparait.\n\n\"Tiens, regardez qui echoue sur des rivages agites,\" dit-elle. \"Comment une servante de la Providence peut-elle vous aider en ce jour ?\""
+    "translated": "Les communications mettent du temps a s'établir, et la transmission est hachee, comme si elle passait par des relais endommages où surcharges. Neanmoins, la Curatrice Sacraria Standfast apparait.\n\n\"Tiens, regardez qui echoue sur des rivages agites,\" dit-elle. \"Comment une servante de la Providence peut-elle vous aider en ce jour ?\""
   },
   {
     "csv_row": 7724,
@@ -49,7 +49,7 @@
     "id": "greetingStandfastDiktat",
     "column": "text",
     "original": "Les communications mettent du temps a s'etablir, et la transmission est hachee, comme si elle passait par des relais endommages ou surcharges. Neanmoins, la Curatrice Sacraria Standfast apparait.\n\n\"Le vrai croyant est de retour,\" dit-elle froidement. \"Venu expliquer un nouveau compromis ?\"",
-    "translated": "Les communications mettent du temps a s'etablir, et la transmission est hachee, comme si elle passait par des relais endommages ou surcharges. Neanmoins, la Curatrice Sacraria Standfast apparait.\n\n\"Le vrai croyant est de retour,\" dit-elle froidement. \"Venu expliquer un nouveau compromis ?\""
+    "translated": "Les communications mettent du temps a s'établir, et la transmission est hachee, comme si elle passait par des relais endommages où surcharges. Neanmoins, la Curatrice Sacraria Standfast apparait.\n\n\"Le vrai croyant est de retour,\" dit-elle froidement. \"Venu expliquer un nouveau compromis ?\""
   },
   {
     "csv_row": 7731,

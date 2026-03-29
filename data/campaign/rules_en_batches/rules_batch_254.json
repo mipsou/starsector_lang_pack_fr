@@ -4,14 +4,14 @@
     "id": "RaoAskDiktatDolosOptsAsel",
     "column": "text",
     "original": "\"So you just... went along?\"\n\nHe shakes his head, looking perplexed.",
-    "translated": "\"Alors vous avez juste... suivi le mouvement ?\"\n\nIl secoue la tete, l'air perplexe."
+    "translated": "\"Alors vous avez juste... suivi le mouvement ?\"\n\nIl secoue la tête, l'air perplexe."
   },
   {
     "csv_row": 7908,
     "id": "RaoAskDiktatDolosOptsE2",
     "column": "text",
     "original": "\"No.\" He shakes his head. \"I don't think so.\"\n\n\"If you were lucky you could be another Loke or Leonis. But they never built anything, they only destroyed. And how they died...\"\n\nRao gives you a look- is that how you want to end up?",
-    "translated": "\"Non.\" Il secoue la tete. \"Je ne crois pas.\"\n\n\"Si vous aviez de la chance, vous pourriez devenir un autre Loke ou Leonis. Mais ils n'ont jamais rien construit, ils n'ont fait que detruire. Et la facon dont ils sont morts...\"\n\nRao vous lance un regard - c'est comme ca que vous voulez finir ?"
+    "translated": "\"Non.\" Il secoue la tête. \"Je ne crois pas.\"\n\n\"Si vous aviez de la chance, vous pourriez devenir un autre Loke où Leonis. Mais ils n'ont jamais rien construit, ils n'ont fait que detruire. Et la façon dont ils sont morts...\"\n\nRao vous lance un regard - c'est comme ça que vous voulez finir ?"
   },
   {
     "csv_row": 7909,
@@ -25,7 +25,7 @@
     "id": "RaoPitchTestTooSoon",
     "column": "text",
     "original": "\"You've got promise, captain, that's true. But,\" he takes on an avuncular tone, \"I don't think you've got enough experience to handle what I've got in mind.\"\n\n\"Put yourself out there, take on some jobs. We may speak again on this later.\"\n\nHis tone makes it clear that the issue is settled. For now.",
-    "translated": "\"Vous avez du potentiel, capitaine, c'est vrai. Mais,\" il prend un ton paternel, \"je ne pense pas que vous ayez assez d'experience pour gerer ce que j'ai en tete.\"\n\n\"Lancez-vous, acceptez quelques missions. Nous en reparlerons plus tard.\"\n\nSon ton indique clairement que la question est reglee. Pour l'instant."
+    "translated": "\"Vous avez du potentiel, capitaine, c'est vrai. Mais,\" il prend un ton paternel, \"je ne pense pas que vous ayez assez d'experience pour gerer ce que j'ai en tête.\"\n\n\"Lancez-vous, acceptez quelques missions. Nous en reparlerons plus tard.\"\n\nSon ton indique clairement que la question est reglee. Pour l'instant."
   },
   {
     "csv_row": 7929,
@@ -33,14 +33,14 @@
     "column": "options",
     "option_line": "rao_pitchOffer:\"And what do you have in mind?\"",
     "original": "And what do you have in mind?",
-    "translated": "Et qu'avez-vous en tete ?"
+    "translated": "Et qu'avez-vous en tête ?"
   },
   {
     "csv_row": 7930,
     "id": "RaoPitchTestGAKAbluff",
     "column": "text",
     "original": "\"You've got promise, captain. You know how to slip out of a trap. You know how to use any means available to win.\"\n\nHe pauses. \"It speaks well for what I have in mind.\"\"",
-    "translated": "\"Vous avez du potentiel, capitaine. Vous savez comment vous tirer d'un piege. Vous savez utiliser tous les moyens disponibles pour gagner.\"\n\nIl fait une pause. \"C'est de bon augure pour ce que j'ai en tete.\""
+    "translated": "\"Vous avez du potentiel, capitaine. Vous savez comment vous tirer d'un piege. Vous savez utiliser tous les moyens disponibles pour gagner.\"\n\nIl fait une pause. \"C'est de bon augure pour ce que j'ai en tête.\""
   },
   {
     "csv_row": 7930,
@@ -48,14 +48,14 @@
     "column": "options",
     "option_line": "rao_pitchOffer:\"And what do you have in mind?\"",
     "original": "And what do you have in mind?",
-    "translated": "Et qu'avez-vous en tete ?"
+    "translated": "Et qu'avez-vous en tête ?"
   },
   {
     "csv_row": 7931,
     "id": "RaoPitchTestSwords",
     "column": "text",
     "original": "\"You've got promise, captain. Especially if your captaining is anything like your swordplay. You spilled blood for honor in personal combat. That is more than most can say.\"\n\nHe pauses. \"It speaks well for you, for what I have in mind.\"",
-    "translated": "\"Vous avez du potentiel, capitaine. Surtout si votre commandement ressemble a votre maniement de l'epee. Vous avez verse du sang pour l'honneur en combat singulier. C'est plus que la plupart ne peuvent en dire.\"\n\nIl fait une pause. \"C'est de bon augure pour vous, pour ce que j'ai en tete.\""
+    "translated": "\"Vous avez du potentiel, capitaine. Surtout si votre commandement ressemble a votre maniement de l'épee. Vous avez verse du sang pour l'honneur en combat singulier. C'est plus que la plupart ne peuvent en dire.\"\n\nIl fait une pause. \"C'est de bon augure pour vous, pour ce que j'ai en tête.\""
   },
   {
     "csv_row": 7931,
@@ -63,13 +63,13 @@
     "column": "options",
     "option_line": "rao_pitchOffer:\"And what do you have in mind?\"",
     "original": "And what do you have in mind?",
-    "translated": "Et qu'avez-vous en tete ?"
+    "translated": "Et qu'avez-vous en tête ?"
   },
   {
     "csv_row": 7932,
     "id": "RaoPitchTestSwords2",
     "column": "text",
     "original": "\"You've got promise, captain. You were brave enough to take up the sword with full knowledge of the art, fight... and lose. Your blood was spilled for honor in personal combat. That is more than most can say.\"\n\nHe pauses. \"It speaks well for you, for what I have in mind.\"",
-    "translated": "\"Vous avez du potentiel, capitaine. Vous avez eu le courage de prendre l'epee en pleine connaissance de l'art, de combattre... et de perdre. Votre sang a ete verse pour l'honneur en combat singulier. C'est plus que la plupart ne peuvent en dire.\"\n\nIl fait une pause. \"C'est de bon augure pour vous, pour ce que j'ai en tete.\""
+    "translated": "\"Vous avez du potentiel, capitaine. Vous avez eu le courage de prendre l'épee en pleine connaissance de l'art, de combattre... et de perdre. Votre sang a ete verse pour l'honneur en combat singulier. C'est plus que la plupart ne peuvent en dire.\"\n\nIl fait une pause. \"C'est de bon augure pour vous, pour ce que j'ai en tête.\""
   }
 ]

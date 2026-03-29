@@ -42,21 +42,21 @@
     "id": "ZGRacknowledgeGA2",
     "column": "text",
     "original": "\"You've proven useful to Provost Baird. And your accomplishment with the Gates...\"\n\nShe puts her hands together, not quite a single clap for all you've done. Her politely mechanical smile contains some bitterness, you sense.\n\n\"I admire Baird, truly I do. Her ability to overcome Hegemony stone-walling, and herding those academics with their notions... sadly, though, it appears as though her grip was too tight. Pity to lose top talent.\"\n\nThe bitterness, you see, has left Glamor-Rotanev's smile to be replaced with something more carnivorous.\n\n\"Our R&D is cutting-edge, eminently practical, and there's very little risk of runaways. Our results might match your ambitions, I think.\" ",
-    "translated": "\"Vous avez prouve votre utilite au Prevot Baird. Et vos accomplissements avec les Portails...\"\n\nElle joint les mains, pas tout a fait un applaudissement pour tout ce que vous avez fait. Son sourire poliment mecanique contient une certaine amertume, vous le sentez.\n\n\"J'admire Baird, vraiment. Sa capacite a surmonter l'obstruction de l'Hegemonie, et a diriger ces academiciens avec leurs lubies... malheureusement, il semble que sa poigne etait trop ferme. Dommage de perdre de tels talents.\"\n\nL'amertume, vous le constatez, a quitte le sourire de Glamor-Rotanev pour etre remplacee par quelque chose de plus carnassier.\n\n\"Notre R&D est a la pointe, eminemment pratique, et il y a tres peu de risque de derives. Nos resultats pourraient etre a la hauteur de vos ambitions, je crois.\""
+    "translated": "\"Vous avez prouve votre utilite au Prevot Baird. Et vos accomplissements avec les Portails...\"\n\nElle joint les mains, pas tout a fait un applaudissement pour tout ce que vous avez fait. Son sourire poliment mecanique contient une certaine amertume, vous le sentez.\n\n\"J'admire Baird, vraiment. Sa capacité a surmonter l'obstruction de l'Hegemonie, et a diriger ces academiciens avec leurs lubies... malheureusement, il semble que sa poigne était trop ferme. Dommage de perdre de tels talents.\"\n\nL'amertume, vous le constatez, a quitté le sourire de Glamor-Rotanev pour etre remplacee par quelque chose de plus carnassier.\n\n\"Notre R&D est a la pointe, eminemment pratique, et il y a tres peu de risque de derives. Nos résultats pourraient etre a la hauteur de vos ambitions, je crois.\""
   },
   {
     "csv_row": 8375,
     "id": "ZGRacknowledgeChurch1",
     "column": "text",
     "original": "\"Your interest in matters of the Luddics has been noted. Even working with, perhaps for, an archcurate. I can only assume it's a charity case for one so evidently practical as yourself. Am I wrong? You don't actually believe in that stuff, surely.\"\n\nShe looks cooly astonished at the thought, inviting your denial.",
-    "translated": "\"Votre interet pour les affaires des Luddiques a ete note. Travaillant meme avec, peut-etre pour, un archi-cure. Je ne peux que supposer qu'il s'agit d'un acte de charite pour quelqu'un d'aussi evidemment pragmatique que vous. Ai-je tort ? Vous ne croyez pas vraiment a ces choses, tout de meme.\"\n\nElle affiche un etonnement froidement calcule, invitant votre denegation."
+    "translated": "\"Votre interet pour les affaires des Luddiques a ete note. Travaillant même avec, peut-etre pour, un archi-cure. Je ne peux que supposer qu'il s'agit d'un acte de charite pour quelqu'un d'aussi evidemment pragmatique que vous. Ai-je tort ? Vous ne croyez pas vraiment a ces choses, tout de même.\"\n\nElle affiche un étonnement froidement calcule, invitant votre denegation."
   },
   {
     "csv_row": 8376,
     "id": "ZGRacknowledgeChurch2",
     "column": "text",
     "original": "\"We see you've taken up an interest with the Luddi- pardon me, with the Church of Galactic Redemption. I can only assume it's a charity case for one so otherwise practical as yourself. Am I wrong? You don't actually believe in that stuff, surely.\"\n\nShe looks cooly astonished at the thought, inviting your denial.",
-    "translated": "\"Nous avons constate que vous vous etes interesse aux Luddi- pardonnez-moi, a l'Eglise de la Redemption Galactique. Je ne peux que supposer qu'il s'agit d'un acte de charite pour quelqu'un de si pragmatique par ailleurs. Ai-je tort ? Vous ne croyez pas vraiment a ces choses, tout de meme.\"\n\nElle affiche un etonnement froidement calcule, invitant votre denegation."
+    "translated": "\"Nous avons constate que vous vous etes interesse aux Luddi- pardonnez-moi, a l'Église de la Redemption Galactique. Je ne peux que supposer qu'il s'agit d'un acte de charite pour quelqu'un de si pragmatique par ailleurs. Ai-je tort ? Vous ne croyez pas vraiment a ces choses, tout de même.\"\n\nElle affiche un étonnement froidement calcule, invitant votre denegation."
   },
   {
     "csv_row": 8378,
@@ -72,6 +72,6 @@
     "column": "options",
     "option_line": "ZGR_ackChurchOptYes:\"I do. I stand for the Church and the Church with me.\"",
     "original": "I do. I stand for the Church and the Church with me.",
-    "translated": "Si, j'y crois. Je soutiens l'Eglise et l'Eglise me soutient."
+    "translated": "Si, j'y crois. Je soutiens l'Église et l'Église me soutient."
   }
 ]

@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "arroyo_askAboutZGR3c:\"So her plan was to get those mercs killed?\"",
     "original": "So her plan was to get those mercs killed?",
-    "translated": "Donc son plan etait de faire tuer ces mercenaires ?"
+    "translated": "Donc son plan était de faire tuer ces mercenaires ?"
   },
   {
     "csv_row": 8213,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "arroyo_askAboutZGR3d:\"Surely you can use this against her.\"",
     "original": "Surely you can use this against her.",
-    "translated": "Vous pouvez surement utiliser ca contre elle."
+    "translated": "Vous pouvez surement utiliser ça contre elle."
   },
   {
     "csv_row": 8214,
@@ -28,7 +28,7 @@
     "id": "ArroyoAskAboutZGR3a",
     "column": "text",
     "original": "He gives you a look.\n\n\"Don't even start.\"",
-    "translated": "Il vous lance un regard.\n\n\"Ne commencez meme pas.\""
+    "translated": "Il vous lance un regard.\n\n\"Ne commencez même pas.\""
   },
   {
     "csv_row": 8216,
@@ -56,7 +56,7 @@
     "id": "ArroyoAskAboutZGR4",
     "column": "text",
     "original": "\"My advice is, if you get involved? Watch your back. Mind yourself. Don't trust her.\"\n\nHe looks away, thinking. His hands held together in front of his mouth, not quite the form of Luddic prayer.\n\n\"Seen a few fleet operators fall right off the map. She's looking for something. Big risk. I'd bet if I knew what it was I'd say it wasn't worth it.\"",
-    "translated": "\"Mon conseil, si vous vous impliquez ? Surveillez vos arrieres. Faites attention a vous. Ne lui faites pas confiance.\"\n\nIl detourne le regard, pensif. Les mains jointes devant sa bouche, pas tout a fait dans la posture de la priere Luddique.\n\n\"J'ai vu quelques operateurs de flotte disparaitre de la circulation. Elle cherche quelque chose. Gros risques. Je parie que si je savais quoi, je dirais que ca n'en vaut pas la peine.\""
+    "translated": "\"Mon conseil, si vous vous impliquez ? Surveillez vos arrières. Faites attention a vous. Ne lui faites pas confiance.\"\n\nIl détourné le regard, pensif. Les mains jointes devant sa bouche, pas tout a fait dans la posture de la prière Luddique.\n\n\"J'ai vu quelques operateurs de flotte disparaitre de la circulation. Elle cherche quelque chose. Gros risques. Je parie que si je savais quoi, je dirais que ça n'en vaut pas la peine.\""
   },
   {
     "csv_row": 8219,

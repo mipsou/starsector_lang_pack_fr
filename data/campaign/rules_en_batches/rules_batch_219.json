@@ -20,21 +20,21 @@
     "id": "gaOpCanAccept",
     "column": "text",
     "original": "Vous disposez de $player.fuel de carburant, $player.supplies de fournitures, et $player.machinery unites de machines lourdes.",
-    "translated": "Vous disposez de $player.fuel de carburant, $player.supplies de fournitures, et $player.machinery unites de machines lourdes."
+    "translated": "Vous disposez de $player.fuel de carburant, $player.supplies de fournitures, et $player.machinery unités de machines lourdes."
   },
   {
     "csv_row": 6327,
     "id": "gaOpCanNotAccept",
     "column": "text",
     "original": "Vous ne disposez que de $player.fuel de carburant, $player.supplies de fournitures, et $player.machinery unites de machines lourdes - pas assez pour acceder aux exigences du noyau.",
-    "translated": "Vous ne disposez que de $player.fuel de carburant, $player.supplies de fournitures, et $player.machinery unites de machines lourdes - pas assez pour acceder aux exigences du noyau."
+    "translated": "Vous ne disposez que de $player.fuel de carburant, $player.supplies de fournitures, et $player.machinery unités de machines lourdes - pas assez pour accéder aux exigences du noyau."
   },
   {
     "csv_row": 6328,
     "id": "gaOpPlanetRogueAINegAccept",
     "column": "text",
     "original": "Vous informez l'IA que vous acceptez les termes et que vous enverrez deux navettes - une pour les otages, une avec le contenu du manifeste de demandes.\n\nmerci, $player.name [inexprimable], repond-elle.\n\nLes communications se coupent brusquement.",
-    "translated": "Vous informez l'IA que vous acceptez les termes et que vous enverrez deux navettes - une pour les otages, une avec le contenu du manifeste de demandes.\n\nmerci, $player.name [inexprimable], repond-elle.\n\nLes communications se coupent brusquement."
+    "translated": "Vous informez l'IA que vous acceptez les termes et que vous enverrez deux navettes - une pour les otages, une avec le contenu du manifeste de demandes.\n\nmerci, $player.name [inexprimable], répond-elle.\n\nLes communications se coupent brusquement."
   },
   {
     "csv_row": 6340,
@@ -65,13 +65,13 @@
     "id": "gaBAPatherGreeting1",
     "column": "text",
     "original": "\"Oui. Oui, j'ai... la technologie.\" $HeOrShe prononce le mot avec une emphase etrange. Une malediction. Ou est-ce de la culpabilite ?\"",
-    "translated": "\"Oui. Oui, j'ai... la technologie.\" $HeOrShe prononce le mot avec une emphase etrange. Une malediction. Ou est-ce de la culpabilite ?\""
+    "translated": "\"Oui. Oui, j'ai... la technologie.\" $HeOrShe prononce le mot avec une emphase étrange. Une malediction. Ou est-ce de la culpabilité ?\""
   },
   {
     "csv_row": 6361,
     "id": "GABAPatherMainOptions",
     "column": "text",
     "original": "\"Procedons aux arrangements. Vite. J'ai entendu parler de Chevaliers operant dans ce volume et je ne souhaiterais pas subir leur interrogatoire. Transferez $gaBA_costHigh credits sur mon identifiant de communication et je ferai remettre le colis entre vos mains.\"",
-    "translated": "\"Procedons aux arrangements. Vite. J'ai entendu parler de Chevaliers operant dans ce volume et je ne souhaiterais pas subir leur interrogatoire. Transferez $gaBA_costHigh credits sur mon identifiant de communication et je ferai remettre le colis entre vos mains.\""
+    "translated": "\"Procédons aux arrangements. Vite. J'ai entendu parler de Chevaliers operant dans ce volume et je ne souhaiterais pas subir leur interrogatoire. Transférez $gaBA_costHigh credits sur mon identifiant de communication et je ferai remettre le colis entre vos mains.\""
   }
 ]

@@ -52,7 +52,7 @@
     "id": "ttContactBribeRepDecline",
     "column": "text",
     "original": "\"Je ne fais que vous presenter une option,\" dit $heOrShe, strictement professionnel. \"Faites-moi signe si vous changez d'avis.\"",
-    "translated": "\"Je ne fais que vous presenter une option,\" dit $heOrShe, strictement professionnel. \"Faites-moi signe si vous changez d'avis.\""
+    "translated": "\"Je ne fais que vous présentér une option,\" dit $heOrShe, strictement professionnel. \"Faites-moi signe si vous changez d'avis.\""
   },
   {
     "csv_row": 8550,

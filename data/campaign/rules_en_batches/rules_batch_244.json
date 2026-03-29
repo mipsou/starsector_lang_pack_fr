@@ -51,7 +51,7 @@
     "id": "raoGreetingFastOne",
     "column": "text",
     "original": "The link opens with a surprisingly brief wait for an officer of Rao's rank. He appears with the hint of an amused smile.\n\n\"$PlayerName! I see you've carried out my orders to the letter. Great work,\" he says, seemingly earnest.\n\n\"Perhaps I should award you a medal for your service?\"",
-    "translated": "La liaison s'ouvre apres une attente etonnamment breve pour un officier du rang de Rao. Il apparait avec l'ombre d'un sourire amuse.\n\n\"$PlayerName ! Je vois que vous avez execute mes ordres a la lettre. Excellent travail,\" dit-il, apparemment sincere.\n\n\"Peut-etre devrais-je vous decerner une medaille pour vos services ?\""
+    "translated": "La liaison s'ouvre apres une attente étonnamment breve pour un officier du rang de Rao. Il apparait avec l'ombre d'un sourire amuse.\n\n\"$PlayerName ! Je vois que vous avez execute mes ordres a la lettre. Excellent travail,\" dit-il, apparemment sincère.\n\n\"Peut-etre devrais-je vous decerner une medaille pour vos services ?\""
   },
   {
     "csv_row": 7802,
@@ -66,7 +66,7 @@
     "id": "raoFastOneA",
     "column": "text",
     "original": "His eyes glitter frostily.\n\n\"I'm talking about a liar.\" His finger flicks to point at you.\n\n\"The one with the gall to open a comm link to my face after I received a most fascinating report from one of our fleet commanders about an encounter during an emergency intercept near Tse Franchise Station.\"",
-    "translated": "Ses yeux brillent d'un eclat glacial.\n\n\"Je parle d'un menteur.\" Son doigt se leve pour vous pointer.\n\n\"Celui qui a le culot d'ouvrir une liaison comm devant ma figure apres que j'ai recu un rapport des plus fascinants de l'un de nos commandants de flotte au sujet d'une rencontre lors d'une interception d'urgence pres de la Station Franchise Tse.\""
+    "translated": "Ses yeux brillent d'un éclat glacial.\n\n\"Je parle d'un menteur.\" Son doigt se leve pour vous pointer.\n\n\"Celui qui a le culot d'ouvrir une liaison comm devant ma figure apres que j'ai reçu un rapport des plus fascinants de l'un de nos commandants de flotte au sujet d'une rencontre lors d'une interception d'urgence pres de la Station Franchise Tse.\""
   },
   {
     "csv_row": 7803,
@@ -74,6 +74,6 @@
     "column": "options",
     "option_line": "rao_fastOneCb:\"That must have been a different $playerName.\"",
     "original": "That must have been a different $playerName.",
-    "translated": "Ca devait etre un autre $playerName."
+    "translated": "Ça devait etre un autre $playerName."
   }
 ]

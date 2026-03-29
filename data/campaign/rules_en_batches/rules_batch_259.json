@@ -4,21 +4,21 @@
     "id": "RaoPitchOptRespect",
     "column": "text",
     "original": "\"The truth makes few friends.\" Rao produces a wry smile.\n\n\"I never could stand a fool, especially when they're members of the Strategic Assembly. So,\" he holds his hand out to indicate his surroundings, Ragnar Complex.\n\n\"It's not so bad.\"",
-    "translated": "\"La verite fait peu d'amis.\" Rao esquisse un sourire desabuse.\n\n\"Je n'ai jamais pu supporter un imbecile, surtout quand il siege a l'Assemblee Strategique. Alors,\" il tend la main pour designer son environnement, le Complexe Ragnar.\n\n\"Ce n'est pas si mal.\""
+    "translated": "\"La vérité fait peu d'amis.\" Rao esquisse un sourire desabuse.\n\n\"Je n'ai jamais pu supporter un imbecile, surtout quand il siege a l'Assemblee Strategique. Alors,\" il tend la main pour designer son environnement, le Complexe Ragnar.\n\n\"Ce n'est pas si mal.\""
   },
   {
     "csv_row": 7971,
     "id": "RaoPitchOptWhatNeed2",
     "column": "text",
     "original": "\"Baikal was kind enough to find me a place where I could get important work done. I deal with... let us call them 'unique circumstances'. And for this I find it necessary to have energetic freelancers available.\"\n\n\"I'll ensure you're paid promptly for a roster of small merc jobs.\"\n\n\"Then, perhaps something big will come up. When it does, I want to know I can count on you.\"",
-    "translated": "\"Baikal a eu la bonte de me trouver un endroit ou je pourrais accomplir un travail important. Je traite de... appelons cela des 'circonstances particulieres'. Et pour cela, il m'est necessaire d'avoir des independants energiques a disposition.\"\n\n\"Je veillerai a ce que vous soyez paye rapidement pour une serie de petits contrats de mercenaire.\"\n\n\"Puis, peut-etre que quelque chose de gros se presentera. Quand ce sera le cas, je veux savoir que je peux compter sur vous.\""
+    "translated": "\"Baikal a eu la bonte de me trouver un endroit où je pourrais accomplir un travail important. Je traite de... appelons cela des 'circonstances particulières'. Et pour cela, il m'est nécessaire d'avoir des independants energiques a disposition.\"\n\n\"Je veillerai a ce que vous soyez payé rapidement pour une serie de petits contrats de mercenaire.\"\n\n\"Puis, peut-etre que quelque chose de gros se présentéra. Quand ce sera le cas, je veux savoir que je peux compter sur vous.\""
   },
   {
     "csv_row": 7972,
     "id": "RaoPitchOptTakeCircumstances",
     "column": "text",
     "original": "\"I'm offering you the chance to be the grit that throws history off its axis.\"\n\nHe lets a sly smile fade. \"There are many bodies of power turning just now. Slowly grinding away, warships and bombings and riots and resources.\"\n\n\"The Persean Sector needs change, or it will grind what's left of us to dust.\"",
-    "translated": "\"Je vous offre la chance d'etre le grain de sable qui fait devier l'histoire de son axe.\"\n\nIl laisse un sourire ruse s'estomper. \"Il y a de nombreux corps de pouvoir en mouvement en ce moment. Qui broient lentement, vaisseaux de guerre et bombardements et emeutes et ressources.\"\n\n\"Le Secteur Perseen a besoin de changement, ou il reduira en poussiere ce qu'il reste de nous.\""
+    "translated": "\"Je vous offre la chance d'etre le grain de sable qui fait devier l'histoire de son axe.\"\n\nIl laisse un sourire ruse s'estomper. \"Il y a de nombreux corps de pouvoir en mouvement en ce moment. Qui broient lentement, vaisseaux de guerre et bombardements et emeutes et ressources.\"\n\n\"Le Secteur Perseen a besoin de changement, où il reduira en poussière ce qu'il reste de nous.\""
   },
   {
     "csv_row": 7973,
@@ -32,21 +32,21 @@
     "id": "RaoPitchOptPersonal",
     "column": "text",
     "original": "Rao lets out a slow breath. \"That's talk for old comrades, over drink.\"\n\nHe leans back, not quite committing to a frown.\n\n\"Patience, captain.\"",
-    "translated": "Rao laisse echapper un souffle lent. \"C'est une discussion pour de vieux camarades, autour d'un verre.\"\n\nIl se cale dans son siege, sans tout a fait froncer les sourcils.\n\n\"Patience, capitaine.\""
+    "translated": "Rao laisse échapper un souffle lent. \"C'est une discussion pour de vieux camarades, autour d'un verre.\"\n\nIl se cale dans son siege, sans tout a fait froncer les sourcils.\n\n\"Patience, capitaine.\""
   },
   {
     "csv_row": 7975,
     "id": "RaoPitchOptCourtMartial",
     "column": "text",
     "original": "\"There's rules to break when you need to win, and there's betrayal. These are very different things, fundamentally so, captain. He and I have done the former, but he threw away his honor with the latter.\"\n\n\"We are not. the. same.\" Rao's words come out slow, and cold. \n",
-    "translated": "\"Il y a des regles a enfreindre quand on doit gagner, et il y a la trahison. Ce sont des choses tres differentes, fondamentalement differentes, capitaine. Lui et moi avons fait la premiere, mais il a jete son honneur avec la seconde.\"\n\n\"Nous ne sommes. pas. les memes.\" Les mots de Rao sortent lentement, et froidement."
+    "translated": "\"Il y a des regles a enfreindre quand on doit gagner, et il y a la trahison. Ce sont des choses tres différentes, fondamentalement différentes, capitaine. Lui et moi avons fait la première, mais il a jete son honneur avec la seconde.\"\n\n\"Nous ne sommes. pas. les memes.\" Les mots de Rao sortent lentement, et froidement."
   },
   {
     "csv_row": 7976,
     "id": "RaoPitchAccept",
     "column": "text",
     "original": "\"Good,\" his approval comes with a sly smile. \"Have your people set up secure comms. We'll show the Strategic Assembly how it's done.\"",
-    "translated": "\"Bien,\" son approbation s'accompagne d'un sourire ruse. \"Demandez a vos gens d'etablir des comms securisees. Nous allons montrer a l'Assemblee Strategique comment on fait.\""
+    "translated": "\"Bien,\" son approbation s'accompagne d'un sourire ruse. \"Demandez a vos gens d'établir des comms securisees. Nous allons montrer a l'Assemblee Strategique comment on fait.\""
   },
   {
     "csv_row": 7977,

@@ -35,7 +35,7 @@
     "id": "dhiBlurbBar",
     "column": "text",
     "original": "Vous reconnaissez un officier de haut rang de $TheFaction dans un box prive - et il semble qu'on vous ait egalement reconnu, car un adjudant est envoye pour vous inviter a 'un entretien'.",
-    "translated": "Vous reconnaissez un officier de haut rang de $TheFaction dans un box prive - et il semble qu'on vous ait egalement reconnu, car un adjudant est envoye pour vous inviter a 'un entretien'."
+    "translated": "Vous reconnaissez un officier de haut rang de $TheFaction dans un box prive - et il semble qu'on vous ait également reconnu, car un adjudant est envoye pour vous inviter a 'un entretien'."
   },
   {
     "csv_row": 7534,
@@ -57,7 +57,7 @@
     "id": "dspRaidFinished",
     "column": "text",
     "original": "La mission est accomplie selon les specifications de $dsp_personName, et quel que soit le chantage ou l'intimidation qu'elle devait appuyer, les choses suivent certainement leur cours.",
-    "translated": "La mission est accomplie selon les specifications de $dsp_personName, et quel que soit le chantage ou l'intimidation qu'elle devait appuyer, les choses suivent certainement leur cours."
+    "translated": "La mission est accomplie selon les specifications de $dsp_personName, et quel que soit le chantage où l'intimidation qu'elle devait appuyer, les choses suivent certainement leur cours."
   },
   {
     "csv_row": 7556,
@@ -72,6 +72,6 @@
     "id": "taboBlurbBar",
     "column": "text",
     "original": "Un officier de haut rang en uniforme impeccable croise votre regard depuis un box prive. Son adjudant s'approche de vous : \"Mon superieur souhaiterait s'entretenir avec vous d'une affaire necessitant une certaine discretion. $PlayerSirOrMadam. A votre convenance.\"",
-    "translated": "Un officier de haut rang en uniforme impeccable croise votre regard depuis un box prive. Son adjudant s'approche de vous : \"Mon superieur souhaiterait s'entretenir avec vous d'une affaire necessitant une certaine discretion. $PlayerSirOrMadam. A votre convenance.\""
+    "translated": "Un officier de haut rang en uniforme impeccable croise votre regard depuis un box prive. Son adjudant s'approche de vous : \"Mon superieur souhaiterait s'entretenir avec vous d'une affaire nécessitant une certaine discrétion. $PlayerSirOrMadam. A votre convenance.\""
   }
 ]

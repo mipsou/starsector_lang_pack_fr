@@ -4,7 +4,7 @@
     "id": "LOCRLoffloadToKnights2harsh",
     "column": "text",
     "original": "Le Chevalier fait une reverence raide et breve. \"Que la Providence nous guide.\"",
-    "translated": "Le Chevalier fait une reverence raide et breve. \"Que la Providence nous guide.\""
+    "translated": "Le Chevalier fait une révérence raide et breve. \"Que la Providence nous guide.\""
   },
   {
     "csv_row": 7383,
@@ -27,7 +27,7 @@
     "id": "locrlfToldReturningHereticsPath",
     "column": "text",
     "original": "Les yeux de $personName s'ecarquillent.\n\n\"Quoi ? La... Voie ? Et vous les avez amenes ici ?! Qu'est-ce qui, par le marteau de Ludd, vous a pris de faire une chose pareille ?\"",
-    "translated": "Les yeux de $personName s'ecarquillent.\n\n\"Quoi ? La... Voie ? Et vous les avez amenes ici ?! Qu'est-ce qui, par le marteau de Ludd, vous a pris de faire une chose pareille ?\""
+    "translated": "Les yeux de $personName s'écarquillent.\n\n\"Quoi ? La... Voie ? Et vous les avez amenes ici ?! Qu'est-ce qui, par le marteau de Ludd, vous a pris de faire une chose pareille ?\""
   },
   {
     "csv_row": 7387,
@@ -57,14 +57,14 @@
     "id": "lptBlurbBar2",
     "column": "text",
     "original": "Un $manOrWoman en haillons de pelerin Luddic semble approcher des capitaines de vaisseaux pour se faire systematiquement econduire.",
-    "translated": "Un $manOrWoman en haillons de pelerin Luddic semble approcher des capitaines de vaisseaux pour se faire systematiquement econduire."
+    "translated": "Un $manOrWoman en haillons de pelerin Luddic semble approcher des capitaines de vaisseaux pour se faire systematiquement éconduire."
   },
   {
     "csv_row": 7416,
     "id": "AVIPTblurbBar",
     "column": "text",
     "original": "A very well-dressed $manOrWoman is regaling the subdued bartender with complaints about a missed transport of some kind.",
-    "translated": "Un $manOrWoman tres bien habille est en train d'abreuver le barman resigne de plaintes a propos d'un transport manque."
+    "translated": "Un $manOrWoman tres bien habillé est en train d'abreuver le barman résigné de plaintes a propos d'un transport manque."
   },
   {
     "csv_row": 7417,
@@ -72,6 +72,6 @@
     "column": "options",
     "option_line": "avipt_textBar1:Try to calm the well-dressed $manOrWoman bothering the bartender",
     "original": "Try to calm the well-dressed $manOrWoman bothering the bartender",
-    "translated": "Essayer de calmer le $manOrWoman bien habille qui importune le barman"
+    "translated": "Essayer de calmer le $manOrWoman bien habillé qui importune le barman"
   }
 ]

@@ -4,14 +4,14 @@
     "id": "soeDeleteInvite",
     "column": "text",
     "original": "D'un simple tapotement, vous supprimez l'invitation pour toujours.\n\nYou, assister a un bal avec une bande d'aristocrates pretentieux ? Avec cet insupportable Caspian Sang ? Rien de bon ne pourrait en sortir.",
-    "translated": "D'un simple tapotement, vous supprimez l'invitation pour toujours.\n\nVous, assister a un bal avec une bande d'aristocrates pretentieux ? Avec cet insupportable Caspian Sang ? Rien de bon ne pourrait en sortir."
+    "translated": "D'un simple tapotement, vous supprimez l'invitation pour toujours.\n\nVous, assister a un bal avec une bande d'aristocrates prétentieux ? Avec cet insupportable Caspian Sang ? Rien de bon ne pourrait en sortir."
   },
   {
     "csv_row": 6591,
     "id": "soeArriveToBall",
     "column": "text",
     "original": "Tandis que vous enfilez vos plus beaux atours et qu'une navette est preparee, vous considerez votre objectif principal, qui est de...",
-    "translated": "Tandis que vous enfilez vos plus beaux atours et qu'une navette est preparee, vous considerez votre objectif principal, qui est de..."
+    "translated": "Tandis que vous enfilez vos plus beaux atours et qu'une navette est préparée, vous considérez votre objectif principal, qui est de..."
   },
   {
     "csv_row": 6599,

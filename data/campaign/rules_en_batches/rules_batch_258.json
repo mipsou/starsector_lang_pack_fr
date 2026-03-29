@@ -12,7 +12,7 @@
     "id": "RaoPitchChurchMaybeGuns",
     "column": "text",
     "original": "\"The Hegemony is no stranger to making common cause with the Church of Galactic Redemption...\" He makes a half-shrug, then pauses to look right at you.\n\n\"It's the guns you've given Standfast,\" his words are precise, \"that convince me of your dedication.\"\n\nHe looks away, casual again. \"If you can put up with me, I can deal with your god-bothering.\"",
-    "translated": "\"L'Hegemonie n'est pas etrangere a l'idee de faire cause commune avec l'Eglise de la Redemption Galactique...\" Il fait un demi-haussement d'epaules, puis s'arrete pour vous regarder droit dans les yeux.\n\n\"Ce sont les armes que vous avez donnees a Standfast,\" ses mots sont precis, \"qui me convainquent de votre devouement.\"\n\nIl detourne le regard, decontracte a nouveau. \"Si vous pouvez me supporter, je peux faire avec vos bondieuseries.\""
+    "translated": "\"L'Hegemonie n'est pas étrangere a l'idee de faire cause commune avec l'Église de la Redemption Galactique...\" Il fait un demi-haussement d'épaules, puis s'arrête pour vous regarder droit dans les yeux.\n\n\"Ce sont les armes que vous avez données a Standfast,\" ses mots sont precis, \"qui me convainquent de votre dévouement.\"\n\nIl détourné le regard, decontracte a nouveau. \"Si vous pouvez me supporter, je peux faire avec vos bondieuseries.\""
   },
   {
     "csv_row": 7958,
@@ -42,7 +42,7 @@
     "id": "RaoPitchOffer",
     "column": "text",
     "original": "\"I'd like to offer you work. You don't have to salute me, and I'll make sure you're paid promptly.\"\n\nHe leans forward, his hands together. \"What do you think? Could be fun. Play your cards right, and you'll be a legend.\"",
-    "translated": "\"J'aimerais vous proposer du travail. Vous n'avez pas a me saluer, et je veillerai a ce que vous soyez paye rapidement.\"\n\nIl se penche en avant, les mains jointes. \"Qu'en pensez-vous ? Ca pourrait etre amusant. Jouez bien vos cartes, et vous deviendrez une legende.\""
+    "translated": "\"J'aimerais vous proposer du travail. Vous n'avez pas a me saluer, et je veillerai a ce que vous soyez payé rapidement.\"\n\nIl se penche en avant, les mains jointes. \"Qu'en pensez-vous ? Ça pourrait etre amusant. Jouez bien vos cartes, et vous deviendrez une legende.\""
   },
   {
     "csv_row": 7961,
@@ -58,7 +58,7 @@
     "column": "options",
     "option_line": "rao_pitchOptCircumstances:\"What are these 'unique circumstances'? What is your goal?\"",
     "original": "What are these 'unique circumstances'? What is your goal?",
-    "translated": "Quelles sont ces 'circonstances particulieres' ? Quel est votre objectif ?"
+    "translated": "Quelles sont ces 'circonstances particulières' ? Quel est votre objectif ?"
   },
   {
     "csv_row": 7964,
@@ -66,7 +66,7 @@
     "column": "options",
     "option_line": "rao_pitchOptTakeDiktat:\"Is this about taking down the Sindrian Diktat?\"",
     "original": "Is this about taking down the Sindrian Diktat?",
-    "translated": "Est-ce que ca concerne la chute du Diktat Sindrien ?"
+    "translated": "Est-ce que ça concerne la chute du Diktat Sindrien ?"
   },
   {
     "csv_row": 7965,

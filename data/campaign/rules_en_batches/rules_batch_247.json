@@ -5,7 +5,7 @@
     "column": "options",
     "option_line": "rao_nerieneSelLeftB:\"Did I? It was a cowardly exit.\"",
     "original": "Did I? It was a cowardly exit.",
-    "translated": "Vraiment ? C'etait une sortie lache."
+    "translated": "Vraiment ? C'était une sortie lache."
   },
   {
     "csv_row": 7832,
@@ -13,7 +13,7 @@
     "column": "options",
     "option_line": "rao_nerieneSelLeftC:\"It was looked upon poorly, but I had to think of Neriene.\"",
     "original": "It was looked upon poorly, but I had to think of Neriene.",
-    "translated": "C'etait mal vu, mais je devais penser a Neriene."
+    "translated": "C'était mal vu, mais je devais penser a Neriene."
   },
   {
     "csv_row": 7833,
@@ -21,14 +21,14 @@
     "column": "options",
     "option_line": "rao_nerieneSelLeftD:\"It's a stupid tradition anyway. Who fights with oversized knives in this age?\"",
     "original": "It's a stupid tradition anyway. Who fights with oversized knives in this age?",
-    "translated": "C'est une tradition stupide de toute facon. Qui se bat avec des couteaux surdimensionnes a notre epoque ?"
+    "translated": "C'est une tradition stupide de toute façon. Qui se bat avec des couteaux surdimensionnes a notre époque ?"
   },
   {
     "csv_row": 7834,
     "id": "raoNerieneSelLostA",
     "column": "text",
     "original": "He raises an eyebrow.\n\n\"Well. It's a mark on the Rao name that it came to that. Augusta let things get out of hand.\"\n\nOrcus Rao sighs, and looking distant, says \"I cannot apologize for her, as she's never sought my council in the matter of 'her' house.\"",
-    "translated": "Il hausse un sourcil.\n\n\"Eh bien. C'est une tache sur le nom des Rao que les choses en soient arrivees la. Augusta a laisse les choses degénerer.\"\n\nOrcus Rao soupire, et le regard lointain, dit \"Je ne peux pas m'excuser pour elle, car elle n'a jamais cherche mon conseil en matiere de 'sa' maison.\""
+    "translated": "Il hausse un sourcil.\n\n\"Eh bien. C'est une tache sur le nom des Rao que les choses en soient arrivees la. Augusta a laisse les choses degénerer.\"\n\nOrcus Rao soupire, et le regard lointain, dit \"Je ne peux pas m'excuser pour elle, car elle n'a jamais cherche mon conseil en matière de 'sa' maison.\""
   },
   {
     "csv_row": 7835,
@@ -42,21 +42,21 @@
     "id": "raoNerieneSelLostC",
     "column": "text",
     "original": "A smile appears. \"I am glad to hear it.\"\n\nThe smile fades. \"But it is a mark on the Rao name that it came to that. Augusta let things get out of hand.\"\n\nOrcus Rao sighs, and looking distant, says \"I cannot apologize for her, as she's never sought my council in the matter of 'her' house.\"",
-    "translated": "Un sourire apparait. \"Je suis heureux de l'entendre.\"\n\nLe sourire s'efface. \"Mais c'est une tache sur le nom des Rao que les choses en soient arrivees la. Augusta a laisse les choses degénerer.\"\n\nOrcus Rao soupire, et le regard lointain, dit \"Je ne peux pas m'excuser pour elle, car elle n'a jamais cherche mon conseil en matiere de 'sa' maison.\""
+    "translated": "Un sourire apparait. \"Je suis heureux de l'entendre.\"\n\nLe sourire s'efface. \"Mais c'est une tache sur le nom des Rao que les choses en soient arrivees la. Augusta a laisse les choses degénerer.\"\n\nOrcus Rao soupire, et le regard lointain, dit \"Je ne peux pas m'excuser pour elle, car elle n'a jamais cherche mon conseil en matière de 'sa' maison.\""
   },
   {
     "csv_row": 7837,
     "id": "raoNerieneSelLostD",
     "column": "text",
     "original": "\"That you did,\" he says approvingly. \"Some would say you were foolish, but it was an act of bravery to face a blooding as you did.\"\n\nHe looks aside, troubled. \"Still, it is a mark on the Rao name that it came to that. Augusta let things get out of hand. I cannot apologize for her, as she's never sought my council in the matter of 'her' house...\"",
-    "translated": "\"Ca oui,\" dit-il avec approbation. \"Certains diraient que c'etait insense, mais c'etait un acte de bravoure que d'affronter un bapteme du sang comme vous l'avez fait.\"\n\nIl detourne le regard, trouble. \"Neanmoins, c'est une tache sur le nom des Rao que les choses en soient arrivees la. Augusta a laisse les choses degénerer. Je ne peux pas m'excuser pour elle, car elle n'a jamais cherche mon conseil en matiere de 'sa' maison...\""
+    "translated": "\"Ça oui,\" dit-il avec approbation. \"Certains diraient que c'était insense, mais c'était un acte de bravoure que d'affronter un bapteme du sang comme vous l'avez fait.\"\n\nIl détourné le regard, trouble. \"Neanmoins, c'est une tache sur le nom des Rao que les choses en soient arrivees la. Augusta a laisse les choses degénerer. Je ne peux pas m'excuser pour elle, car elle n'a jamais cherche mon conseil en matière de 'sa' maison...\""
   },
   {
     "csv_row": 7838,
     "id": "raoNerieneSelWonA",
     "column": "text",
     "original": "\"Mm. I suppose the fact that it wasn't truly a personal matter is little consolation for the provocation which Augusta allowed in 'our' family home.\"\n\nOrcus Rao sighs, and looks distant for a moment. \"But I won't apologize for her. She's never sought my council in the matters of 'her' house...\"",
-    "translated": "\"Mm. Je suppose que le fait que ce n'etait pas vraiment une affaire personnelle est une maigre consolation pour la provocation qu'Augusta a autorisee dans 'notre' demeure familiale.\"\n\nOrcus Rao soupire, et prend un air lointain un instant. \"Mais je ne m'excuserai pas pour elle. Elle n'a jamais cherche mon conseil dans les affaires de 'sa' maison...\""
+    "translated": "\"Mm. Je suppose que le fait que ce n'était pas vraiment une affaire personnelle est une maigre consolation pour la provocation qu'Augusta a autorisee dans 'notre' demeure familiale.\"\n\nOrcus Rao soupire, et prend un air lointain un instant. \"Mais je ne m'excuserai pas pour elle. Elle n'a jamais cherche mon conseil dans les affaires de 'sa' maison...\""
   },
   {
     "csv_row": 7839,
@@ -70,6 +70,6 @@
     "id": "raoNerieneSelWonC",
     "column": "text",
     "original": "\"And impressively so, I hear. Not from Neriene, of course.\" He smirks. Though there's a touch of... sadness? He speaks before you're certain.\n\n\"Though mind, captain, those were no mere 'thugs'. The Cardonas hold a grudge, and one of their own sits on the Strategic Assembly.\"",
-    "translated": "\"Et de maniere impressionnante, a ce qu'on m'a dit. Pas par Neriene, bien entendu.\" Il sourit narquoisement. Bien qu'il y ait une touche de... tristesse ? Il parle avant que vous en soyez certain.\n\n\"Mais attention, capitaine, ce n'etaient pas de simples 'voyous'. Les Cardona gardent rancune, et l'un des leurs siege a l'Assemblee Strategique.\""
+    "translated": "\"Et de manière impressionnante, a ce qu'on m'a dit. Pas par Neriene, bien entendu.\" Il sourit narquoisement. Bien qu'il y ait une touche de... tristesse ? Il parle avant que vous en soyez certain.\n\n\"Mais attention, capitaine, ce n'étaient pas de simples 'voyous'. Les Cardona gardent rancune, et l'un des leurs siege a l'Assemblee Strategique.\""
   }
 ]

@@ -4,7 +4,7 @@
     "id": "raoNerieneSelWonC2a",
     "column": "text",
     "original": "\"It could,\" Rao concedes. \"Though they're a faction known to have little favor from Baikal.\" His eyes dart to you, \"The High Hegemon of course. Nonetheless, he must make concessions from time to time...\"\n\nHe pauses, thoughtful. \"Say what you will of Baikal. He won't do it lightly, but he knows when to sacrifice a pawn.\"",
-    "translated": "\"C'est possible,\" concede Rao. \"Bien qu'ils soient une faction connue pour avoir peu de faveur aupres de Baikal.\" Ses yeux se tournent vers vous, \"Le Haut Hegemon, bien entendu. Neanmoins, il doit faire des concessions de temps a autre...\"\n\nIl fait une pause, pensif. \"Dites ce que vous voulez de Baikal. Il ne le fera pas a la legere, mais il sait quand sacrifier un pion.\""
+    "translated": "\"C'est possible,\" concede Rao. \"Bien qu'ils soient une faction connue pour avoir peu de faveur aupres de Baikal.\" Ses yeux se tournent vers vous, \"Le Haut Hegemon, bien entendu. Neanmoins, il doit faire des concessions de temps a autre...\"\n\nIl fait une pause, pensif. \"Dites ce que vous voulez de Baikal. Il ne le fera pas a la légère, mais il sait quand sacrifier un pion.\""
   },
   {
     "csv_row": 7843,
@@ -18,21 +18,21 @@
     "id": "raoNerieneSelWonC2a2b",
     "column": "text",
     "original": "\"Someone easily spent when the cost is dear,\" he says. \"They are not generally aware of their status.\"\n\nHe waits out the moment, his look grim. As if he might say more. But he holds back, quite deliberately.",
-    "translated": "\"Quelqu'un qu'on sacrifie aisement quand le prix est eleve,\" dit-il. \"Ils ne sont generalement pas conscients de leur statut.\"\n\nIl laisse passer le moment, le regard sombre. Comme s'il allait en dire plus. Mais il se retient, tres deliberement."
+    "translated": "\"Quelqu'un qu'on sacrifie aisement quand le prix est éleve,\" dit-il. \"Ils ne sont généralement pas conscients de leur statut.\"\n\nIl laisse passer le moment, le regard sombre. Comme s'il allait en dire plus. Mais il se retient, tres deliberement."
   },
   {
     "csv_row": 7845,
     "id": "raoNerieneSelWonC2b",
     "column": "text",
     "original": "Rao seems to examine you. \"I have always found that putting an enemy out of mind is like walking into an ambush of your own making.\"\n\nHe shrugs, \"But perhaps you'll be lucky.\" He gets a sly look. \"I was.\"",
-    "translated": "Rao semble vous examiner. \"J'ai toujours trouve que chasser un ennemi de son esprit revient a marcher dans une embuscade de sa propre fabrication.\"\n\nIl hausse les epaules, \"Mais peut-etre aurez-vous de la chance.\" Il prend un air ruse. \"Moi, j'en ai eu.\""
+    "translated": "Rao semble vous examiner. \"J'ai toujours trouve que chasser un ennemi de son esprit revient a marcher dans une embuscade de sa propre fabrication.\"\n\nIl hausse les épaules, \"Mais peut-etre aurez-vous de la chance.\" Il prend un air ruse. \"Moi, j'en ai eu.\""
   },
   {
     "csv_row": 7846,
     "id": "raoNerieneSelWonC3a",
     "column": "text",
     "original": "He nods. \"To be true, it was Augusta who should never have allowed that to happen. The seasonal ball is a lovely time to visit Eventide, and I recall such occasions at House Rao fondly. Setting aside the unpleasantness, I'm sure there was some proper revelry.\"",
-    "translated": "Il hoche la tete. \"A vrai dire, c'est Augusta qui n'aurait jamais du laisser cela arriver. Le bal saisonnier est un moment charmant pour visiter Eventide, et je me souviens de telles occasions a la Maison Rao avec tendresse. En mettant de cote les desagrements, je suis sur qu'il y a eu de vrais rejouissances.\""
+    "translated": "Il hoche la tête. \"A vrai dire, c'est Augusta qui n'aurait jamais du laisser cela arriver. Le bal saisonnier est un moment charmant pour visiter Eventide, et je me souviens de telles occasions a la Maison Rao avec tendresse. En mettant de cote les desagrements, je suis sur qu'il y a eu de vrais rejouissances.\""
   },
   {
     "csv_row": 7847,
@@ -46,14 +46,14 @@
     "id": "raoNerieneSelWonC3c",
     "column": "text",
     "original": "Orcus Rao shakes his head. \"It's clear you're of your own mind. So let us speak of other matters.\"",
-    "translated": "Orcus Rao secoue la tete. \"Il est clair que vous avez votre propre opinion. Alors parlons d'autre chose.\""
+    "translated": "Orcus Rao secoue la tête. \"Il est clair que vous avez votre propre opinion. Alors parlons d'autre chose.\""
   },
   {
     "csv_row": 7850,
     "id": "raoNerieneSelWonD",
     "column": "text",
     "original": "\"You have? Neriene made no mention.\" He leans forward. \"How interesting. It is something of a lost art outside of the more traditional families of Eventide.\"\n\n\"Tell me, do you prefer the Hadi-style hilt or the Andreas?",
-    "translated": "\"Vraiment ? Neriene n'en a rien dit.\" Il se penche en avant. \"Comme c'est interessant. C'est un art quelque peu perdu en dehors des familles les plus traditionnelles d'Eventide.\"\n\n\"Dites-moi, preferez-vous la garde de style Hadi ou l'Andreas ?"
+    "translated": "\"Vraiment ? Neriene n'en a rien dit.\" Il se penche en avant. \"Comme c'est intéressant. C'est un art quelque peu perdu en dehors des familles les plus traditionnelles d'Eventide.\"\n\n\"Dites-moi, preferez-vous la garde de style Hadi où l'Andreas ?"
   },
   {
     "csv_row": 7850,

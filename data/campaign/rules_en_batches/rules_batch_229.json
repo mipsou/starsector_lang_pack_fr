@@ -28,7 +28,7 @@
     "id": "LOCRMcontact0",
     "column": "text",
     "original": "Apres quelques faux departs, les protocoles de communication se stabilisent pour etablir une connexion intermittente.",
-    "translated": "Apres quelques faux departs, les protocoles de communication se stabilisent pour etablir une connexion intermittente."
+    "translated": "Apres quelques faux departs, les protocoles de communication se stabilisent pour établir une connexion intermittente."
   },
   {
     "csv_row": 7106,
@@ -58,7 +58,7 @@
     "id": "LOCRMleaveLie",
     "column": "text",
     "original": "\"C'est etrange,\" $heOrShe dit. \"Nous ne detectons pas-\"\n\nVous coupez les communications.",
-    "translated": "\"C'est etrange,\" $heOrShe dit. \"Nous ne detectons pas-\"\n\nVous coupez les communications."
+    "translated": "\"C'est étrange,\" $heOrShe dit. \"Nous ne detectons pas-\"\n\nVous coupez les communications."
   },
   {
     "csv_row": 7123,
@@ -72,6 +72,6 @@
     "id": "LOCRMaskWhoLeftYouBack",
     "column": "text",
     "original": "\"Faut bien s'en sortir,\" $heOrShe hausse les epaules. \"Mais d'abord, il faut qu'on retourne dans les mondes du coeur. Si... vous pouviez nous aider.\"",
-    "translated": "\"Faut bien s'en sortir,\" $heOrShe hausse les epaules. \"Mais d'abord, il faut qu'on retourne dans les mondes du coeur. Si... vous pouviez nous aider.\""
+    "translated": "\"Faut bien s'en sortir,\" $heOrShe hausse les épaules. \"Mais d'abord, il faut qu'on retourne dans les mondes du coeur. Si... vous pouviez nous aider.\""
   }
 ]

@@ -12,14 +12,14 @@
     "id": "TABOPatrolHail1",
     "column": "text",
     "original": "\"Votre bombardement de $entity.tabo_marketName ne restera pas sans reponse,\" declare hardiment le $rank. \"Maintenant, preparez-vous au combat !\"",
-    "translated": "\"Votre bombardement de $entity.tabo_marketName ne restera pas sans reponse,\" declare hardiment le $rank. \"Maintenant, preparez-vous au combat !\""
+    "translated": "\"Votre bombardement de $entity.tabo_marketName ne restera pas sans reponse,\" déclaré hardiment le $rank. \"Maintenant, preparez-vous au combat !\""
   },
   {
     "csv_row": 7565,
     "id": "TABOPatrolHailLuddic",
     "column": "text",
     "original": "\"Vous serez juge dans l'autre vie pour avoir dechaine une telle destruction sur $entity.tabo_marketName,\" dit le $rank, les mains jointes dans une piete furieuse. \"Que la Providence guide a present ma main tandis que je vous rends justice en cette vie !\"",
-    "translated": "\"Vous serez juge dans l'autre vie pour avoir dechaine une telle destruction sur $entity.tabo_marketName,\" dit le $rank, les mains jointes dans une piete furieuse. \"Que la Providence guide a present ma main tandis que je vous rends justice en cette vie !\""
+    "translated": "\"Vous serez juge dans l'autre vie pour avoir déchaîné une telle destruction sur $entity.tabo_marketName,\" dit le $rank, les mains jointes dans une piété furieuse. \"Que la Providence guide a present ma main tandis que je vous rends justice en cette vie !\""
   },
   {
     "csv_row": 7566,
@@ -33,14 +33,14 @@
     "id": "TABOPatrolHailTriTachyon",
     "column": "text",
     "original": "Le $rank de Tri-Tachyon a l'air d'avoir senti quelque chose de nauseabond. \"Cette... cette destruction gratuite des biens de la Compagnie est une attaque directe contre nos resultats financiers. Je vous assure, espece de pirate, de brigand, que vous serez rembourse au double !\"",
-    "translated": "Le $rank de Tri-Tachyon a l'air d'avoir senti quelque chose de nauseabond. \"Cette... cette destruction gratuite des biens de la Compagnie est une attaque directe contre nos resultats financiers. Je vous assure, espece de pirate, de brigand, que vous serez rembourse au double !\""
+    "translated": "Le $rank de Tri-Tachyon a l'air d'avoir senti quelque chose de nauséabond. \"Cette... cette destruction gratuite des biens de la Compagnie est une attaque directe contre nos résultats financiers. Je vous assure, espece de pirate, de brigand, que vous serez rembourse au double !\""
   },
   {
     "csv_row": 7568,
     "id": "TABOPatrolHailPirates",
     "column": "text",
     "original": "\"T'as contrarie le patron,\" grogne le pirate. \"T'as fait sauter des trucs qui appartiennent au patron. Tu croyais pouvoir t'en tirer comme ca ? Personne ne contrarie le patron et s'en sort vivant.\"",
-    "translated": "\"T'as contrarie le patron,\" grogne le pirate. \"T'as fait sauter des trucs qui appartiennent au patron. Tu croyais pouvoir t'en tirer comme ca ? Personne ne contrarie le patron et s'en sort vivant.\""
+    "translated": "\"T'as contrarié le patron,\" grogne le pirate. \"T'as fait sauter des trucs qui appartiennent au patron. Tu croyais pouvoir t'en tirer comme ça ? Personne ne contrarié le patron et s'en sort vivant.\""
   },
   {
     "csv_row": 7568,
@@ -63,7 +63,7 @@
     "id": "secoBlurbBar",
     "column": "text",
     "original": "Au bar, un $seco_manOrWoman louche tripotant un connecteur cybermod vous lance un regard sinistre mais significatif avant de detourner les yeux.",
-    "translated": "Au bar, un $seco_manOrWoman louche tripotant un connecteur cybermod vous lance un regard sinistre mais significatif avant de detourner les yeux."
+    "translated": "Au bar, un $seco_manOrWoman louche tripotant un connecteur cybermod vous lance un regard sinistre mais significatif avant de détournér les yeux."
   },
   {
     "csv_row": 7574,

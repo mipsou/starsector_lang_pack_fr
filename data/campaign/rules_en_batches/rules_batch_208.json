@@ -12,7 +12,7 @@
     "id": "gaATGreturnAfterJanusFail3",
     "column": "text",
     "original": "Baird se tourne vers Coureuse, \"Academicienne. Quand la prochaine iteration du prototype sera-t-elle terminee ?\"",
-    "translated": "Baird se tourne vers Coureuse, \"Academicienne. Quand la prochaine iteration du prototype sera-t-elle terminee ?\""
+    "translated": "Baird se tourne vers Coureuse, \"Académicienne. Quand la prochaine itération du prototype sera-t-elle terminée ?\""
   },
   {
     "csv_row": 5689,
@@ -27,7 +27,7 @@
     "id": "gaATGzalMissionStart3",
     "column": "text",
     "original": "\"Ca n'arrivera plus,\" dit-elle avec conviction. \"Je vous le promets.\"",
-    "translated": "\"Ca n'arrivera plus,\" dit-elle avec conviction. \"Je vous le promets.\""
+    "translated": "\"Ça n'arrivera plus,\" dit-elle avec conviction. \"Je vous le promets.\""
   },
   {
     "csv_row": 5696,
@@ -65,7 +65,7 @@
     "id": "gaATGzalMissionHubC2",
     "column": "text",
     "original": "\"J'ai dit ca ?\" dit Gargoyle, echouant a avoir l'air innocent.\n\n\"- Bon, oui. Un autre. Tu te souviens du piratage du relais d'Aztlan ?\" Le hacker prend un air nostalgique, \"Zal a vraiment assure pour moi sur ce coup-la.\"",
-    "translated": "\"J'ai dit ca ?\" dit Gargoyle, echouant a avoir l'air innocent.\n\n\"- Bon, oui. Un autre. Tu te souviens du piratage du relais d'Aztlan ?\" Le hacker prend un air nostalgique, \"Zal a vraiment assure pour moi sur ce coup-la.\""
+    "translated": "\"J'ai dit ca ?\" dit Gargoyle, échouant a avoir l'air innocent.\n\n\"- Bon, oui. Un autre. Tu te souviens du piratage du relais d'Aztlan ?\" Le hacker prend un air nostalgique, \"Zal a vraiment assuré pour moi sur ce coup-la.\""
   },
   {
     "csv_row": 5714,

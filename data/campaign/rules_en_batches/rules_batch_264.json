@@ -19,7 +19,7 @@
     "column": "options",
     "option_line": "dardanKato_askImoinuOptA:\"My impression was that she wishes to stay where she is.\"",
     "original": "My impression was that she wishes to stay where she is.",
-    "translated": "J'ai eu l'impression qu'elle souhaitait rester ou elle est."
+    "translated": "J'ai eu l'impression qu'elle souhaitait rester où elle est."
   },
   {
     "csv_row": 8090,
@@ -34,14 +34,14 @@
     "id": "DardanKatoAskImoinuOptB",
     "column": "text",
     "original": "He gives you a wretched look. \"Tell me you didn't.\"\n\n\"No,\" he holds up a hand. \"Don't tell me at all. I don't want to know. Drop it. We're not talking about this.\"",
-    "translated": "Il vous lance un regard miserable. \"Dites-moi que vous n'avez pas fait ca.\"\n\n\"Non,\" il leve la main. \"Ne me dites rien du tout. Je ne veux pas savoir. Laissez tomber. On ne parle pas de ca.\""
+    "translated": "Il vous lance un regard miserable. \"Dites-moi que vous n'avez pas fait ça.\"\n\n\"Non,\" il leve la main. \"Ne me dites rien du tout. Je ne veux pas savoir. Laissez tomber. On ne parle pas de ça.\""
   },
   {
     "csv_row": 8094,
     "id": "DardanKatoAskImoinuOptC",
     "column": "text",
     "original": "\"By the bloody stars, please and thank-you,\" he mutters under his breath,",
-    "translated": "\"Par les etoiles sanglantes, je vous en prie,\" marmonne-t-il dans sa barbe,"
+    "translated": "\"Par les étoiles sanglantes, je vous en prie,\" marmonne-t-il dans sa barbe,"
   },
   {
     "csv_row": 8097,

@@ -5,14 +5,14 @@
     "column": "options",
     "option_line": "rao_fastOneCb:\"That must have been a different $playerName.\"",
     "original": "That must have been a different $playerName.",
-    "translated": "Ca devait etre un autre $playerName."
+    "translated": "Ça devait etre un autre $playerName."
   },
   {
     "csv_row": 7806,
     "id": "raoFastOneB2b",
     "column": "text",
     "original": "\"It is, yes,\" he says. \"And the absolute oaf in command who believed your ruse.\"",
-    "translated": "\"Ca l'est, oui,\" dit-il. \"Et le parfait rustre au commandement qui a cru a votre ruse.\""
+    "translated": "\"Ça l'est, oui,\" dit-il. \"Et le parfait rustre au commandement qui a cru a votre ruse.\""
   },
   {
     "csv_row": 7806,
@@ -27,7 +27,7 @@
     "id": "raoFastOneCd",
     "column": "text",
     "original": "He waves the thought away, then takes in a deep breath, quiet now, and drums his fingers on his console. Staring at you. Assessing.\n\n\"Let us speak plainly,\" he says.",
-    "translated": "Il balaye la pensee d'un geste, puis prend une profonde inspiration, silencieux maintenant, et tambourine des doigts sur sa console. Il vous fixe. Il vous jauge.\n\n\"Parlons franchement,\" dit-il."
+    "translated": "Il balaye la pensée d'un geste, puis prend une profonde inspiration, silencieux maintenant, et tambourine des doigts sur sa console. Il vous fixe. Il vous jauge.\n\n\"Parlons franchement,\" dit-il."
   },
   {
     "csv_row": 7808,
@@ -55,14 +55,14 @@
     "id": "raoFastOneCa2",
     "column": "text",
     "original": "\"One should think,\" he says pointedly. \"But never mind- what I mean to say is that you played the ruse well.\"\n\n\"Better than a puffed-up uniform of the sort Eventide seems to spawn each cycle would. You remind me a bit of myself when I was younger and didn't have to sit at a desk.\"",
-    "translated": "\"On devrait bien,\" dit-il avec insistance. \"Mais peu importe - ce que je veux dire, c'est que vous avez bien joue la ruse.\"\n\n\"Mieux qu'un uniforme bouffi du genre qu'Eventide semble produire a chaque cycle. Vous me rappelez un peu moi-meme quand j'etais plus jeune et que je n'avais pas a rester assis derriere un bureau.\""
+    "translated": "\"On devrait bien,\" dit-il avec insistance. \"Mais peu importe - ce que je veux dire, c'est que vous avez bien joue la ruse.\"\n\n\"Mieux qu'un uniforme bouffi du genre qu'Eventide semble produire a chaque cycle. Vous me rappelez un peu moi-même quand j'etais plus jeune et que je n'avais pas a rester assis derrière un bureau.\""
   },
   {
     "csv_row": 7813,
     "id": "raoFastOneSpeak",
     "column": "text",
     "original": "\"You played it well,\" he says.\n\n\"Outsmarted a puffed-up uniform of the sort Eventide seems to spawn more of each cycle. You remind me a bit of myself when I was younger and didn't have to sit at a desk.\"\n\nHe pauses a moment, studying you. \"I had the thought...\"",
-    "translated": "\"Vous avez bien joue,\" dit-il.\n\n\"Vous avez roule un uniforme bouffi du genre qu'Eventide semble produire de plus en plus a chaque cycle. Vous me rappelez un peu moi-meme quand j'etais plus jeune et que je n'avais pas a rester assis derriere un bureau.\"\n\nIl fait une pause, vous etudiant. \"J'ai eu une idee...\""
+    "translated": "\"Vous avez bien joue,\" dit-il.\n\n\"Vous avez roule un uniforme bouffi du genre qu'Eventide semble produire de plus en plus a chaque cycle. Vous me rappelez un peu moi-même quand j'etais plus jeune et que je n'avais pas a rester assis derrière un bureau.\"\n\nIl fait une pause, vous etudiant. \"J'ai eu une idée...\""
   },
   {
     "csv_row": 7817,

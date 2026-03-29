@@ -4,7 +4,7 @@
     "id": "gaIntro2sayso",
     "column": "text",
     "original": "\"$PlayerSirOrMadam. Oui, bien sur.\" Est-ce une pointe de rougeur ? La reprimande est faite, alors vous n'insistez pas davantage.",
-    "translated": "\"$PlayerSirOrMadam. Oui, bien sur.\" Est-ce une pointe de rougeur ? La reprimande est faite, alors vous n'insistez pas davantage."
+    "translated": "\"$PlayerSirOrMadam. Oui, bien sûr.\" Est-ce une pointe de rougeur ? La réprimande est faite, alors vous n'insistez pas davantage."
   },
   {
     "csv_row": 6535,
@@ -19,7 +19,7 @@
     "id": "gaIntro2returnSeb3",
     "column": "text",
     "original": "\"Je, euh.\" Sebestyen est pris de court par votre franchise. \"...L'Academicien Elek ?\"",
-    "translated": "\"Je, euh.\" Sebestyen est pris de court par votre franchise. \"...L'Academicien Elek ?\""
+    "translated": "\"Je, euh.\" Sebestyen est pris de court par votre franchise. \"...L'Académicien Elek ?\""
   },
   {
     "csv_row": 6562,
@@ -34,21 +34,21 @@
     "id": "soeMeetCaspianPay",
     "column": "text",
     "original": "Sang se redresse, comme au garde-a-vous. \"Et la restauration du Domaine !\" crie-t-il, declenchant une serie d'approbations et de coups sur la table de ses compagnons de boisson.",
-    "translated": "Sang se redresse, comme au garde-a-vous. \"Et la restauration du Domaine !\" crie-t-il, declenchant une serie d'approbations et de coups sur la table de ses compagnons de boisson."
+    "translated": "Sang se redresse, comme au garde-à-vous. \"Et la restauration du Domaine !\" crie-t-il, declenchant une série d'approbations et de coups sur la table de ses compagnons de boisson."
   },
   {
     "csv_row": 6579,
     "id": "soeMeetCaspian4maybe",
     "column": "text",
     "original": "\"Ne reflechissez pas trop longtemps, capitaine auxiliaire,\" dit Sang avec un sourire narquois. \"C'est l'action decisive qui vous a mene a ces hauteurs.\"",
-    "translated": "\"Ne reflechissez pas trop longtemps, capitaine auxiliaire,\" dit Sang avec un sourire narquois. \"C'est l'action decisive qui vous a mene a ces hauteurs.\""
+    "translated": "\"Ne réfléchissez pas trop longtemps, capitaine auxiliaire,\" dit Sang avec un sourire narquois. \"C'est l'action décisive qui vous a mené a ces hauteurs.\""
   },
   {
     "csv_row": 6580,
     "id": "soeMeetCaspian4decline",
     "column": "text",
     "original": "\"L'offre tient jusqu'a ce que vous manquiez toute la fete, capitaine auxiliaire,\" dit Sang avec un sourire narquois.",
-    "translated": "\"L'offre tient jusqu'a ce que vous manquiez toute la fete, capitaine auxiliaire,\" dit Sang avec un sourire narquois."
+    "translated": "\"L'offre tient jusqu'a ce que vous manquiez toute la fête, capitaine auxiliaire,\" dit Sang avec un sourire narquois."
   },
   {
     "csv_row": 6582,

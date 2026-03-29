@@ -5,14 +5,14 @@
     "column": "options",
     "option_line": "rao_askDiktatMerc5cynical:\"Because they're falling apart. They're going to lose and I like being on the winning side.\"",
     "original": "Because they're falling apart. They're going to lose and I like being on the winning side.",
-    "translated": "Parce qu'ils s'effondrent. Ils vont perdre et j'aime etre du cote des vainqueurs."
+    "translated": "Parce qu'ils s'éffondrent. Ils vont perdre et j'aime etre du cote des vainqueurs."
   },
   {
     "csv_row": 7887,
     "id": "raoAskDiktatMerc5merc",
     "column": "text",
     "original": "He nods, eyes closed. \"I will, I was, and I do.\" His eyes open, and he says \"That's not all, though.\"",
-    "translated": "Il hoche la tete, les yeux fermes. \"Je le ferai, je l'etais, et je sais.\" Ses yeux s'ouvrent, et il dit \"Ce n'est pas tout, cependant.\""
+    "translated": "Il hoche la tête, les yeux fermes. \"Je le ferai, je l'etais, et je sais.\" Ses yeux s'ouvrent, et il dit \"Ce n'est pas tout, cependant.\""
   },
   {
     "csv_row": 7888,
@@ -26,7 +26,7 @@
     "id": "raoAskDiktatMerc5human",
     "column": "text",
     "original": "He nods, watching you. \"Got the fire, I see. Good.\"",
-    "translated": "Il hoche la tete, vous observant. \"Vous avez le feu, a ce que je vois. Bien.\""
+    "translated": "Il hoche la tête, vous observant. \"Vous avez le feu, a ce que je vois. Bien.\""
   },
   {
     "csv_row": 7891,
@@ -40,7 +40,7 @@
     "id": "raoAskDiktatMerc5cynical",
     "column": "text",
     "original": "\"Is your loyalty so contingent? I suppose that is true for many, perhaps most- and almost all are loathe to admit it. How brave, then, to admit it.\" His tone is rhetorical, and rather more sardonic than earnest.\n\nRao looks to you again. \"Nonetheless, I agree with your assessment of the enemy.\"",
-    "translated": "\"Votre loyaute est-elle si conditionnelle ? Je suppose que c'est vrai pour beaucoup, peut-etre la plupart - et presque tous repugnent a l'admettre. Quel courage, alors, de l'admettre.\" Son ton est rhetorique, et plutot sardonique que sincere.\n\nRao vous regarde a nouveau. \"Neanmoins, je suis d'accord avec votre evaluation de l'ennemi.\""
+    "translated": "\"Votre loyauté est-elle si conditionnelle ? Je suppose que c'est vrai pour beaucoup, peut-etre la plupart - et presque tous repugnent a l'admettre. Quel courage, alors, de l'admettre.\" Son ton est rhetorique, et plutôt sardonique que sincère.\n\nRao vous regarde a nouveau. \"Neanmoins, je suis d'accord avec votre evaluation de l'ennemi.\""
   },
   {
     "csv_row": 7896,
@@ -55,7 +55,7 @@
     "column": "options",
     "option_line": "rao_askDiktatDolosOptB:\"He paid me in credits and hardware for some jobs. I have no loyalty to him.\"",
     "original": "He paid me in credits and hardware for some jobs. I have no loyalty to him.",
-    "translated": "Il m'a paye en credits et en materiel pour quelques missions. Je ne lui dois aucune loyaute."
+    "translated": "Il m'a payé en credits et en materiel pour quelques missions. Je ne lui dois aucune loyauté."
   },
   {
     "csv_row": 7900,
@@ -63,7 +63,7 @@
     "column": "options",
     "option_line": "rao_askDiktatDolosOptD:\"To bring the Diktat down from the inside. Are you going to help or not?\"",
     "original": "To bring the Diktat down from the inside. Are you going to help or not?",
-    "translated": "Pour abattre le Diktat de l'interieur. Allez-vous m'aider ou non ?"
+    "translated": "Pour abattre le Diktat de l'interieur. Allez-vous m'aider où non ?"
   },
   {
     "csv_row": 7901,
@@ -71,6 +71,6 @@
     "column": "options",
     "option_line": "rao_askDiktatDolosOptE:\"I figure I could take over the Sindrian Diktat if I played this right.\"",
     "original": "I figure I could take over the Sindrian Diktat if I played this right.",
-    "translated": "Je me dis que je pourrais prendre le controle du Diktat Sindrien si je jouais bien mes cartes."
+    "translated": "Je me dis que je pourrais prendre le contrôle du Diktat Sindrien si je jouais bien mes cartes."
   }
 ]

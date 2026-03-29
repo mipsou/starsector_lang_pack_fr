@@ -18,7 +18,7 @@
     "id": "ZGRomkiScanOfferRedux",
     "column": "text",
     "original": "Her eyes flicker oddly.\n\n\"You've revised your position?\"",
-    "translated": "Ses yeux tremblotent etrangement.\n\n\"Vous avez reconsidere votre position ?\""
+    "translated": "Ses yeux tremblotent étrangement.\n\n\"Vous avez reconsidere votre position ?\""
   },
   {
     "csv_row": 8266,
@@ -33,14 +33,14 @@
     "id": "ZGRomkiScanOfferReduxLater",
     "column": "text",
     "original": "She leans back ever so slightly, but makes no outward response.\n\nHer expression hasn't changed, but it feels somehow more impatient.",
-    "translated": "Elle se recule tres legerement, mais ne reagit pas exterieurement.\n\nSon expression n'a pas change, mais elle semble en quelque sorte plus impatiente."
+    "translated": "Elle se recule tres légèrement, mais ne reagit pas exterieurement.\n\nSon expression n'a pas change, mais elle semble en quelque sorte plus impatiente."
   },
   {
     "csv_row": 8269,
     "id": "ZGRomkiScanOfferReduxLaterB",
     "column": "text",
     "original": "She leans back ever so slightly, but makes no outward response.\n\nHer expression hasn't changed, but it feels somehow more impatient.",
-    "translated": "Elle se recule tres legerement, mais ne reagit pas exterieurement.\n\nSon expression n'a pas change, mais elle semble en quelque sorte plus impatiente."
+    "translated": "Elle se recule tres légèrement, mais ne reagit pas exterieurement.\n\nSon expression n'a pas change, mais elle semble en quelque sorte plus impatiente."
   },
   {
     "csv_row": 8270,
@@ -61,7 +61,7 @@
     "id": "ZGRgreetingPostWeirdOMKI",
     "column": "text",
     "original": "The comms flick into an active feed nearly instantly.\n\n\"Captain,\" Director Glamor-Rotanev greets you, simply. \"I was just admiring your new acquisition.\"\n\nHer eyes flicker oddly, and you detect what might be a rare spark of genuine amusement. \n\n\"Or perhaps it is better described as your very, very old acquisition.\"",
-    "translated": "Les comms basculent sur un flux actif presque instantanement.\n\n\"Capitaine,\" la Directrice Glamor-Rotanev vous salue, simplement. \"J'admirais justement votre nouvelle acquisition.\"\n\nSes yeux tremblotent etrangement, et vous detectez ce qui pourrait etre une rare etincelle d'amusement sincere.\n\n\"Ou peut-etre vaudrait-il mieux parler de votre tres, tres ancienne acquisition.\""
+    "translated": "Les comms basculent sur un flux actif presque instantanement.\n\n\"Capitaine,\" la Directrice Glamor-Rotanev vous salue, simplement. \"J'admirais justement votre nouvelle acquisition.\"\n\nSes yeux tremblotent étrangement, et vous detectez ce qui pourrait etre une rare étincelle d'amusement sincère.\n\n\"Ou peut-etre vaudrait-il mieux parler de votre tres, tres ancienne acquisition.\""
   },
   {
     "csv_row": 8275,

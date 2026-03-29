@@ -33,7 +33,7 @@
     "id": "hijackOperation3NotBar",
     "column": "text",
     "original": "Apres que le vaisseau fraichement libere a rejoint votre flotte, vous passez en revue le rapport d'apres-action avec $personName.\n\n\"Tout s'est deroule comme prevu.\" $HeOrShe sourit comme un vieux pirate, \"Il faudra qu'on refasse ca un de ces jours.\"",
-    "translated": "Apres que le vaisseau fraichement libere a rejoint votre flotte, vous passez en revue le rapport d'apres-action avec $personName.\n\n\"Tout s'est deroule comme prevu.\" $HeOrShe sourit comme un vieux pirate, \"Il faudra qu'on refasse ca un de ces jours.\""
+    "translated": "Apres que le vaisseau fraichement libere a rejoint votre flotte, vous passez en revue le rapport d'apres-action avec $personName.\n\n\"Tout s'est deroule comme prevu.\" $HeOrShe sourit comme un vieux pirate, \"Il faudra qu'on refasse ça un de ces jours.\""
   },
   {
     "csv_row": 7600,
@@ -70,6 +70,6 @@
     "id": "ddroObjectScan",
     "column": "text",
     "original": "Les portes de la soute s'ouvrent, et le drone cargo deploie ses bras. Puis, delicatement, ses manipulateurs relachent leur prise.\n\nC'est fait. Quoi que 'ce' soit.",
-    "translated": "Les portes de la soute s'ouvrent, et le drone cargo deploie ses bras. Puis, delicatement, ses manipulateurs relachent leur prise.\n\nC'est fait. Quoi que 'ce' soit."
+    "translated": "Les portes de la soute s'ouvrent, et le drone cargo déploie ses bras. Puis, delicatement, ses manipulateurs relachent leur prise.\n\nC'est fait. Quoi que 'ce' soit."
   }
 ]

@@ -34,14 +34,14 @@
     "id": "kdSKHelloFirstTimeA",
     "column": "text",
     "original": "\"Ouais, t'es qui toi ?\" grogne $personName avant de daigner jeter un oeil a un datapad crasseux.\n\n\"Ah,\" $heOrShe lache un grognement en laissant tomber le datapad dans un fracas. \"Je vois. T'es pas rien, hein. T'as une flotte, c'est ca. T'as des affaires a discuter ?\"",
-    "translated": "\"Ouais, t'es qui toi ?\" grogne $personName avant de daigner jeter un oeil a un datapad crasseux.\n\n\"Ah,\" $heOrShe lache un grognement en laissant tomber le datapad dans un fracas. \"Je vois. T'es pas rien, hein. T'as une flotte, c'est ca. T'as des affaires a discuter ?\""
+    "translated": "\"Ouais, t'es qui toi ?\" grogne $personName avant de daigner jeter un oeil a un datapad crasseux.\n\n\"Ah,\" $heOrShe lache un grognement en laissant tomber le datapad dans un fracas. \"Je vois. T'es pas rien, hein. T'as une flotte, c'est ça. T'as des affaires a discuter ?\""
   },
   {
     "csv_row": 8012,
     "id": "kdSKHelloFirstTimeB",
     "column": "text",
     "original": "\"Ouais, t'es qui toi ?\" grogne $personName avant de daigner jeter un oeil a un datapad crasseux.\n\n\"Ah,\" $heOrShe lache un grognement en laissant tomber le datapad dans un fracas. \"Je vois. T'es pas rien, hein. T'as une colonie ou deux, c'est ca. T'as des affaires a discuter ?\"",
-    "translated": "\"Ouais, t'es qui toi ?\" grogne $personName avant de daigner jeter un oeil a un datapad crasseux.\n\n\"Ah,\" $heOrShe lache un grognement en laissant tomber le datapad dans un fracas. \"Je vois. T'es pas rien, hein. T'as une colonie ou deux, c'est ca. T'as des affaires a discuter ?\""
+    "translated": "\"Ouais, t'es qui toi ?\" grogne $personName avant de daigner jeter un oeil a un datapad crasseux.\n\n\"Ah,\" $heOrShe lache un grognement en laissant tomber le datapad dans un fracas. \"Je vois. T'es pas rien, hein. T'as une colonie où deux, c'est ça. T'as des affaires a discuter ?\""
   },
   {
     "csv_row": 8013,
