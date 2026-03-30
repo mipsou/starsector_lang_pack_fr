@@ -1,0 +1,81 @@
+[
+  {
+    "csv_row": 9067,
+    "id": "sdtuUmbraTrickVIPOptionZ",
+    "column": "options",
+    "option_line": "sdtu_umbraTrickVIPhelped:\"Trust me. I've helped the ARC before, just ask Imoinu.\"",
+    "original": "Trust me. I've helped the ARC before, just ask Imoinu.",
+    "translated": "Faites-moi confiance. J'ai déjà aidé l'ARC, demandez à Imoinu."
+  },
+  {
+    "csv_row": 9071,
+    "id": "sdtuUmbraTrickVIPOptionD",
+    "column": "options",
+    "option_line": "sdtu_umbraTrickVIPD:\"Une cellule ARC clandestine dont vous n'avez jamais entendu parler.\" (mensonge)",
+    "original": "Une cellule ARC clandestine dont vous n'avez jamais entendu parler.\" (mensonge)",
+    "translated": "Une cellule ARC clandestine dont vous n'avez jamais entendu parler.\" (mensonge)"
+  },
+  {
+    "csv_row": 9072,
+    "id": "sdtuUmbraTrickVIPOptionE",
+    "column": "options",
+    "option_line": "sdtu_umbraTrickVIPE:\"Je suis de la foi luddique et je combats notre ennemi commun.\" (lie)",
+    "original": "Je suis de la foi luddique et je combats notre ennemi commun.\" (lie)",
+    "translated": "Je suis de la foi luddique et je combats notre ennemi commun.\" (mensonge)"
+  },
+  {
+    "csv_row": 9073,
+    "id": "sdtuUmbraTrickVIPOptionF",
+    "column": "options",
+    "option_line": "sdtu_umbraTrickVIPF:\"Je suis de la foi luddique et je combats notre ennemi commun.\"",
+    "original": "Je suis de la foi luddique et je combats notre ennemi commun.",
+    "translated": "Je suis de la foi luddique et je combats notre ennemi commun."
+  },
+  {
+    "csv_row": 9074,
+    "id": "sdtuUmbraTrickVIPOptionG",
+    "column": "options",
+    "option_line": "sdtu_umbraTrickVIPG:\"Renseignements de la flotte de la Ligue Persane. Mon vrai nom est 'Siyavong'.\" (mensonge)",
+    "original": "Renseignements de la flotte de la Ligue Persane. Mon vrai nom est 'Siyavong'.\" (mensonge)",
+    "translated": "Renseignements de la flotte de la Ligue Perséane. Mon vrai nom est 'Siyavong'.\" (mensonge)"
+  },
+  {
+    "csv_row": 9075,
+    "id": "sdtuUmbraTrickVIPOptionZsel",
+    "column": "text",
+    "original": "\"I will,\" $heOrShe says, then mutes the feed for a moment, turning to a secondary display.\n\nYou watch one side of a short conversation play out, and $heOrShe turns back to you, $hisOrHer expression much friendlier.\n\n\"I'm sorry for that, captain. Imoinu swears you're a friend of the United Front of the Askonian Resistance who has made valuable material contributions to the cause.\" $HeOrShe nods respectfully, \"Then let me say that I'm proud to call you a comrade.\"",
+    "translated": "\"C'est ce que je vais faire,\" dit $heOrShe, puis coupe le son un instant, se tournant vers un écran secondaire.\n\nVous observez un côté d'une brève conversation se dérouler, et $heOrShe se retourne vers vous, $hisOrHer expression bien plus amicale.\n\n\"Je suis désolé pour cela, capitaine. Imoinu jure que vous êtes un ami du Front Uni de la Résistance Askonienne qui a apporté de précieuses contributions matérielles à la cause.\" $HeOrShe hoche respectueusement la tête, \"Alors permettez-moi de dire que je suis fier de vous appeler camarade.\""
+  },
+  {
+    "csv_row": 9075,
+    "id": "sdtuUmbraTrickVIPOptionZsel",
+    "column": "options",
+    "option_line": "sdtu_umbraTrickVIPending1:\"Glad to hear it. Now about this agent...\"",
+    "original": "Glad to hear it. Now about this agent...",
+    "translated": "Ravi de l'entendre. Maintenant, à propos de cet agent..."
+  },
+  {
+    "csv_row": 9084,
+    "id": "sdtuUmbraTrickVIPOpt2imoinu",
+    "column": "options",
+    "option_line": "sdtu_umbraTrickVIPGimoinu2:\"Funny you should ask...\"",
+    "original": "Funny you should ask...",
+    "translated": "C'est drôle que vous posiez la question..."
+  },
+  {
+    "csv_row": 9096,
+    "id": "sdtuUmbraReleaseArcAgent",
+    "column": "options",
+    "option_line": "sdtu_umbraReleaseArcAgentLet:Let them off here",
+    "original": "Let them off here",
+    "translated": "Les débarquer ici"
+  },
+  {
+    "csv_row": 9096,
+    "id": "sdtuUmbraReleaseArcAgent",
+    "column": "options",
+    "option_line": "sdtu_umbraReleaseArcAgentJob:Offer them a job",
+    "original": "Offer them a job",
+    "translated": "Leur proposer un emploi"
+  }
+]

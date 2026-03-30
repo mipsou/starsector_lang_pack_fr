@@ -1,0 +1,74 @@
+[
+  {
+    "csv_row": 8120,
+    "id": "MenesYaribayIgnoresYouTemp",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 8121,
+    "id": "MenesPettyRevenge",
+    "column": "text",
+    "original": "\"$PlayerSirOrMadam,\" your comms officer calls your attention. \"Port authority is... they were acting strangely. Contact's mood shifted after the $shipOrFleet was identified.\"\n\nComms look up from their console. \"I think we've been quietly flagged by the authorities for some reason.\"",
+    "translated": "\"$PlayerSirOrMadam,\" votre officier comm attire votre attention. \"L'autorite portuaire... ils agissaient bizarrement. L'attitude du contact a change apres l'identification de $shipOrFleet.\"\n\nLa comm leve les yeux de sa console. \"Je crois qu'on a ete discretement signales par les autorités pour une raison quelconque.\""
+  },
+  {
+    "csv_row": 8128,
+    "id": "RHannanGreeting",
+    "column": "text",
+    "original": "La communication se connecte instantanement, redirigeant votre lien vers une file d'attente. Apres une minute, un secretaire a l'apparence d'une perfection eprouvante repond.\n\n\"Bureau de la gens Hannan. Comment puis-je vous aider ?\"",
+    "translated": "La communication se connecté instantanement, redirigeant votre lien vers une file d'attente. Apres une minute, un secretaire a l'apparence d'une perfection eprouvante repond.\n\n\"Bureau de la gens Hannan. Comment puis-je vous aider ?\""
+  },
+  {
+    "csv_row": 8131,
+    "id": "RHannanGreetingReal",
+    "column": "text",
+    "original": "\"Bien sur, $playerName. Un instant, je vous prie.\"\n\nLe secretaire remet votre lien en file d'attente, l'embleme du bureau du Premier Demarque entrelace avec celui de la gens Hannan.",
+    "translated": "\"Bien sur, $playerName. Un instant, je vous prie.\"\n\nLe secretaire remet votre lien en file d'attente, l'embleme du bureau du Premier Demarque entrelace avec celui de la gens Hannan."
+  },
+  {
+    "csv_row": 8132,
+    "id": "RHannanGreetingRealGAFCnope",
+    "column": "text",
+    "original": "After a few minutes the secretary reappears.\n\n\"I'm sorry,\" they say, smiling. \"But the Prime Demarchon is unavailable. Would you like to leave a message?\"",
+    "translated": "Apres quelques minutes, le secretaire reapparait.\n\n\"Je suis desole,\" dit-il avec un sourire. \"Mais le Premier Demarque n'est pas disponible. Souhaitez-vous laisser un message ?\""
+  },
+  {
+    "csv_row": 8134,
+    "id": "RHannanGreetingReal2first",
+    "column": "text",
+    "original": "Apres quelques minutes, Reynard Hannan en personne apparait devant vous. Il vous considere avec une regalite desinvolte.\n\n\"$playerName,\" dit-il. \"Bienvenue a Kazeron.\"",
+    "translated": "Apres quelques minutes, Reynard Hannan en personne apparait devant vous. Il vous considère avec une regalite desinvolte.\n\n\"$playerName,\" dit-il. \"Bienvenue a Kazeron.\""
+  },
+  {
+    "csv_row": 8135,
+    "id": "RHannanGreetingReal2firstDEV",
+    "column": "text",
+    "original": "After a few minutes, Reynard Hannan himself appears before you. He regards you with casual regality.\n\n\"$playerName,\" he says. \"Welcome to Kazeron.\"",
+    "translated": "Apres quelques minutes, Reynard Hannan en personne apparait devant vous. Il vous considère avec une regalite desinvolte.\n\n\"$playerName,\" dit-il. \"Bienvenue a Kazeron.\""
+  },
+  {
+    "csv_row": 8143,
+    "id": "RHannanMessageHubOut",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 8161,
+    "id": "RHannanWhyHarassingReact2b",
+    "column": "text",
+    "original": "Une lueur d'amusement entre dans ses yeux.\n\n\"Je savourerai votre tentative.\"",
+    "translated": "Une lueur d'amusement entre dans ses yeux.\n\n\"Je savourerai votre tentative.\""
+  },
+  {
+    "csv_row": 8162,
+    "id": "RHannanWhyHarassingReact2c",
+    "column": "text",
+    "original": "\"Les coeurs purs sont pour les martyrs et les poetes, j'en ai peur. Considerant votre petit empire,\" dit-il avec un rictus, \"je ne vous prends pour ni l'un ni l'autre.\"",
+    "translated": "\"Les coeurs purs sont pour les martyrs et les poetes, j'en ai peur. Considerant votre petit empire,\" dit-il avec un rictus, \"je ne vous prends pour ni l'un ni l'autre.\""
+  }
+]

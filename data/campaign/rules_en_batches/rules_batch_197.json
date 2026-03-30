@@ -1,0 +1,82 @@
+[
+  {
+    "csv_row": 5105,
+    "id": "gaPZ_return0",
+    "column": "options",
+    "option_line": "gaPZ_return1d:\"Je n'ai jamais eu l'intention de l'abandonner.\"",
+    "original": "Je n'ai jamais eu l'intention de l'abandonner.",
+    "translated": "Je n'ai jamais eu l'intention de l'abandonner."
+  },
+  {
+    "csv_row": 5105,
+    "id": "gaPZ_return0",
+    "column": "options",
+    "option_line": "gaPZ_return1c:Ne rien dire",
+    "original": "Ne rien dire",
+    "translated": "Ne rien dire"
+  },
+  {
+    "csv_row": 5115,
+    "id": "gaPZ_return7",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 5120,
+    "id": "paPZ_gargPostMaybe",
+    "column": "options",
+    "option_line": "gaPZ_gargoylePostDistraction:\"Compris quoi ?\"",
+    "original": "Compris quoi ?",
+    "translated": "Compris quoi ?"
+  },
+  {
+    "csv_row": 5120,
+    "id": "paPZ_gargPostMaybe",
+    "column": "options",
+    "option_line": "gaPZ_gargPostUsing:\"Baird se sert de moi, je sais.\"",
+    "original": "Baird se sert de moi, je sais.",
+    "translated": "Baird se sert de moi, je sais."
+  },
+  {
+    "csv_row": 5123,
+    "id": "paPZ_gargPostLikes",
+    "column": "options",
+    "option_line": "gaPZ_gargoylePostDistraction:\"Compris quoi ?\"",
+    "original": "Compris quoi ?",
+    "translated": "Compris quoi ?"
+  },
+  {
+    "csv_row": 5123,
+    "id": "paPZ_gargPostLikes",
+    "column": "options",
+    "option_line": "gaPZ_gargPostUsing:\"Baird se sert de moi, je sais.\"",
+    "original": "Baird se sert de moi, je sais.",
+    "translated": "Baird se sert de moi, je sais."
+  },
+  {
+    "csv_row": 5124,
+    "id": "gaPZ_gargoylePostDistraction",
+    "column": "options",
+    "option_line": "paPZ_gargPostNeat:\"Super chouette.\"",
+    "original": "Super chouette.",
+    "translated": "Super chouette."
+  },
+  {
+    "csv_row": 5124,
+    "id": "gaPZ_gargoylePostDistraction",
+    "column": "options",
+    "option_line": "paPZ_gargPostNotNeat:\"Pas vraiment, non.\"",
+    "original": "Pas vraiment, non.",
+    "translated": "Pas vraiment, non."
+  },
+  {
+    "csv_row": 5140,
+    "id": "gaPZ_bairdHurryUp2",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  }
+]

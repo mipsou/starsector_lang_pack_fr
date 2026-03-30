@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 3191,
+    "id": "BFFIpsaConHubTalkB",
+    "column": "text",
+    "original": "He thinks for a moment, a dark look threatening to grow.\n\n\"I pray it is so. But these are heretics, poisoned by a false Word and a dark Path. It would require some exceptional ruse or the charisma of a pr- no, let me not blaspheme by saying it. But you understand that it is, as I believe spacers say, 'a long shot'.\"\n\nHe contemplates the tactical display for a moment. \"As well, there is something to be said for the element of surprise.\"",
+    "translated": "Il réfléchit un instant, une expression sombre menaçant de s'installer.\n\n\"Je prie pour qu'il en soit ainsi. Mais ce sont des hérétiques, empoisonnés par une fausse Parole et un Sentier obscur. Il faudrait une ruse exceptionnelle ou le charisme d'un pr— non, ne blasphémons pas en le disant. Mais vous comprenez que c'est, comme disent les spatiaux je crois, 'un pari risqué'.\"\n\nIl contemple l'affichage tactique un instant. \"De plus, l'effet de surprise a ses mérites.\""
+  },
+  {
+    "csv_row": 3193,
+    "id": "BFFIpsaConHubBlast",
+    "column": "text",
+    "original": "Bornanew lets out a breath.\n\n\"You must not,\" he looks worried. \"Setting aside... objections of the heart, complete destruction would almost certainly destroy the evidence required to identify the agent of the Path who has infiltrated the Cathedral of Holy Exodus.\"",
+    "translated": "Bornanew laisse échapper un souffle.\n\n\"Vous ne devez pas,\" il a l'air inquiet. \"Mettant de côté... les objections du coeur, une destruction complète détruirait presque certainement les preuves nécessaires pour identifier l'agent du Sentier qui a infiltré la Cathédrale du Saint Exode.\""
+  },
+  {
+    "csv_row": 3193,
+    "id": "BFFIpsaConHubBlast",
+    "column": "options",
+    "option_line": "bffi_psaConHubRespBlastB:\"You suggest that leniency will prompt cooperation? From Pathers?\"",
+    "original": "You suggest that leniency will prompt cooperation? From Pathers?",
+    "translated": "Vous suggérez que la clémence suscitera la coopération ? De la part de Pèlerins ?"
+  },
+  {
+    "csv_row": 3193,
+    "id": "BFFIpsaConHubBlast",
+    "column": "options",
+    "option_line": "bffi_psaConHubRespBlastCa:\"Archcurate Jaspis seems less forgiving of Pathers than you.\"",
+    "original": "Archcurate Jaspis seems less forgiving of Pathers than you.",
+    "translated": "L'Archicuré Jaspis semble moins indulgent envers les Pèlerins que vous."
+  },
+  {
+    "csv_row": 3194,
+    "id": "BFFIpsaConHubBlastbb",
+    "column": "text",
+    "original": "Bornanew takes a long breath. His eyes are dark, reflecting red pinpoints from the display.\n\n\"Doubtless such destruction would send an uncompromising message to these heretics who attempt to sew schism in the fields of the Mother Church. But.\" He raises his hand as if to grasp at his argument. \"Total obliteration poses a serious risk of destroying the evidence needed to track down the agent of the Path who has infiltrated the Cathedral of Holy Exodus. We need those data stores.\"\n\nHe pauses, then turns to you. \"Find the data first, through a marine raid, or some subterfuge. Then destroy the station. All would be served justice thus.\"",
+    "translated": "Bornanew prend une longue inspiration. Ses yeux sont sombres, reflétant des points rouges de l'affichage.\n\n\"Sans doute qu'une telle destruction enverrait un message sans compromis à ces hérétiques qui tentent de semer le schisme dans les champs de l'Église Mère. Mais.\" Il lève la main comme pour saisir son argument. \"L'oblitération totale pose un risque sérieux de détruire les preuves nécessaires pour retrouver l'agent du Sentier qui a infiltré la Cathédrale du Saint Exode. Nous avons besoin de ces banques de données.\"\n\nIl fait une pause, puis se tourne vers vous. \"Trouvez les données d'abord, par un raid de marines, ou quelque subterfuge. Ensuite détruisez la station. La justice serait ainsi rendue à tous.\""
+  },
+  {
+    "csv_row": 3194,
+    "id": "BFFIpsaConHubBlastbb",
+    "column": "options",
+    "option_line": "bffi_psaConHubRespBlastBBjasp:\"I believe that Archcurate Jaspis would approve of this 'message'.\"",
+    "original": "I believe that Archcurate Jaspis would approve of this 'message'.",
+    "translated": "Je crois que l'Archicuré Jaspis approuverait ce 'message'."
+  },
+  {
+    "csv_row": 3195,
+    "id": "BFFIpsaConHubBlastLen",
+    "column": "text",
+    "original": "\"Did you?\" he asks.\n\n\"You have made virtue of using a swift and strong hand in such matters. A Knight must learn to harden his heart when the situation calls for such... efficacy.\"",
+    "translated": "\"Vraiment ?\" demande-t-il.\n\n\"Vous avez fait vertu d'user d'une main rapide et forte en pareilles affaires. Un Chevalier doit apprendre à endurcir son coeur quand la situation exige une telle... efficacité.\""
+  },
+  {
+    "csv_row": 3196,
+    "id": "BFFIpsaConHubBlastBBjasp",
+    "column": "text",
+    "original": "\"Indeed.\" He casts his gaze up and far away. \"I thought her harsh, before. Cynicism of age. But I see now with the eyes of a man.\"\n\n\"And I, for my part, made the choice to trust you.\" He looks to you.\n\n\"So, captain, the path is yours. I shall follow.\" He clasps his hands together, bowing his head slightly.",
+    "translated": "\"En effet.\" Il lève le regard au loin. \"Je la trouvais dure, avant. Le cynisme de l'âge. Mais je vois maintenant avec les yeux d'un homme.\"\n\n\"Et moi, pour ma part, j'ai fait le choix de vous faire confiance.\" Il vous regarde.\n\n\"Alors, capitaine, le chemin est le vôtre. Je suivrai.\" Il joint ses mains, inclinant légèrement la tête."
+  },
+  {
+    "csv_row": 3197,
+    "id": "BFFIpsaConHubBlastA",
+    "column": "text",
+    "original": "He raises an eyebrow at your noncommittal response, but nods acceptance, hands clasped.",
+    "translated": "Il hausse un sourcil face à votre réponse évasive, mais hoche la tête en signe d'acceptation, mains jointes."
+  },
+  {
+    "csv_row": 3198,
+    "id": "BFFIpsaConHubBlastB",
+    "column": "text",
+    "original": "\"I do,\" he says. \"They are merely human, as are we all. Despite a history written in blood, I do not find that our species thrives on hatred.\"",
+    "translated": "\"C'est ce que je pense,\" dit-il. \"Ils ne sont que des humains, comme nous tous. Malgré une histoire écrite dans le sang, je ne trouve pas que notre espèce prospère dans la haine.\""
+  }
+]

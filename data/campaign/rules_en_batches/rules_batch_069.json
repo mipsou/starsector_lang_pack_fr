@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 2652,
+    "id": "BFFImeetMenesBornOptSteal2b",
+    "column": "text",
+    "original": "\"Yes, I- That's not-\"\n\nHe exhales sharply. \"Not only is theft a sin. I did also swear a sacred oath that I would never steal again.\"",
+    "translated": "\"Oui, je- Ce n'est pas-\"\n\nIl expire brusquement. \"Non seulement le vol est un péché. J'ai aussi prêté un serment sacré de ne plus jamais voler.\""
+  },
+  {
+    "csv_row": 2652,
+    "id": "BFFImeetMenesBornOptSteal2b",
+    "column": "options",
+    "option_line": "BFFI_meetMenesBornOptSteal3:\"Then I'll steal it. You can just show up and be yourself.\"",
+    "original": "Then I'll steal it. You can just show up and be yourself.",
+    "translated": "Alors c'est moi qui le volerai. Vous n'aurez qu'à vous montrer et être vous-même."
+  },
+  {
+    "csv_row": 2653,
+    "id": "BFFImeetMenesBornOptSteal3",
+    "column": "text",
+    "original": "\"But I, I-\" he stutters to a halt. \"I suppose, in the strictest sense this is... captain, I do not like it. Is there no alternative?\"",
+    "translated": "\"Mais je, je-\" il bégaie et s'arrête. \"Je suppose que, au sens le plus strict, c'est... capitaine, cela ne me plaît pas. N'y a-t-il pas d'alternative ?\""
+  },
+  {
+    "csv_row": 2653,
+    "id": "BFFImeetMenesBornOptSteal3",
+    "column": "options",
+    "option_line": "BFFI_meetMenesBornOptSteal4a:\"No one gets hurt. And it's a fake which they stole from your people in the first place.\"",
+    "original": "No one gets hurt. And it's a fake which they stole from your people in the first place.",
+    "translated": "Personne ne sera blessé. Et c'est un faux qu'ils ont volé à votre peuple en premier lieu."
+  },
+  {
+    "csv_row": 2653,
+    "id": "BFFImeetMenesBornOptSteal3",
+    "column": "options",
+    "option_line": "BFFI_meetMenesBornOptSteal4c:\"I could threaten to bombard the planet until Menes surrenders the relic.\"",
+    "original": "I could threaten to bombard the planet until Menes surrenders the relic.",
+    "translated": "Je pourrais menacer de bombarder la planète jusqu'à ce que Menes remette la relique."
+  },
+  {
+    "csv_row": 2655,
+    "id": "BFFImeetMenesBornOptSteal4b",
+    "column": "text",
+    "original": "Bornanew gives you a distraught look.",
+    "translated": "Bornanew vous lance un regard éperdu."
+  },
+  {
+    "csv_row": 2656,
+    "id": "BFFImeetMenesBornOptSteal4c",
+    "column": "text",
+    "original": "Bornanew gives you a distraught look.\n\n\"I pray that is merely a joke in poor taste.\"",
+    "translated": "Bornanew vous lance un regard éperdu.\n\n\"Je prie pour que ce ne soit qu'une plaisanterie de mauvais goût.\""
+  },
+  {
+    "csv_row": 2658,
+    "id": "BFFImmStealOptEnd",
+    "column": "text",
+    "original": "Your tactical officer has already spearheaded an effort to discreetly collect what public information is available on Menes Yaribay's compound. Sensors has arranged passive scans to correlate with on-record plans of the structure. Comms found a PR puff-piece holo in which Menes gives a personal tour of part of his 'collection'.  \n\nAll you really need to do is get yourself invited into the inner sanctum.",
+    "translated": "Votre officier tactique a déjà pris les devants pour collecter discrètement les informations publiques disponibles sur le complexe de Menes Yaribay. Les capteurs ont organisé des scans passifs à recouper avec les plans officiels de la structure. Les communications ont trouvé un holo promotionnel dans lequel Menes fait une visite personnelle d'une partie de sa \"collection\".\n\nTout ce que vous avez vraiment à faire, c'est vous faire inviter dans le sanctuaire intérieur."
+  },
+  {
+    "csv_row": 2658,
+    "id": "BFFImmStealOptEnd",
+    "column": "options",
+    "option_line": "bffi_mmBornDoSteal:\"Then it's decided. I'll have tools, it'll be fine.\"",
+    "original": "Then it's decided. I'll have tools, it'll be fine.",
+    "translated": "Alors c'est décidé. J'aurai des outils, ça ira."
+  },
+  {
+    "csv_row": 2659,
+    "id": "BFFImmBornOptStealAgainB",
+    "column": "text",
+    "original": "Your tactical officer has already spearheaded an effort to discreetly collect what public information is available on Menes Yaribay's compound. Sensors has arranged passive scans to correlate with on-record plans of the structure. Comms found a PR puff-piece holo in which Menes gives a personal tour of part of his 'collection'.  \n\nAll you really need to do is get yourself invited into the inner sanctum.",
+    "translated": "Votre officier tactique a déjà pris les devants pour collecter discrètement les informations publiques disponibles sur le complexe de Menes Yaribay. Les capteurs ont organisé des scans passifs à recouper avec les plans officiels de la structure. Les communications ont trouvé un holo promotionnel dans lequel Menes fait une visite personnelle d'une partie de sa \"collection\".\n\nTout ce que vous avez vraiment à faire, c'est vous faire inviter dans le sanctuaire intérieur."
+  }
+]

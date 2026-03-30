@@ -1,0 +1,80 @@
+[
+  {
+    "csv_row": 9418,
+    "id": "ImoinuKatoUmbraOptRich",
+    "column": "options",
+    "option_line": "imoinuKato_sayRich:\"That's rich talk coming from a Gens baby.\"",
+    "original": "That's rich talk coming from a Gens baby.",
+    "translated": "C'est facile à dire pour une enfant de Gens."
+  },
+  {
+    "csv_row": 9421,
+    "id": "ImoinuKatoUmbraOptNotMy",
+    "column": "options",
+    "option_line": "imoinuKato_NotMySel:\"You do what you like. Forget I brought it up, it's not my business.\"",
+    "original": "You do what you like. Forget I brought it up, it's not my business.",
+    "translated": "Faites ce que vous voulez. Oubliez que j'en ai parlé, ce ne sont pas mes affaires."
+  },
+  {
+    "csv_row": 9423,
+    "id": "ImoinuKatoUmbraOptBackOffSelLiar",
+    "column": "options",
+    "option_line": "imoinuKato_sayMotherB:\"Are you telling me I could have been paid for this?\"",
+    "original": "Are you telling me I could have been paid for this?",
+    "translated": "Vous êtes en train de me dire que j'aurais pu être payé pour ça ?"
+  },
+  {
+    "csv_row": 9424,
+    "id": "ImoinuKatoUmbraOptThrowAwaySel",
+    "column": "text",
+    "original": "\"We have nothing to talk about,\" she snaps, then hits the comms cut-off.",
+    "translated": "\"Nous n'avons rien à nous dire,\" lance-t-elle sèchement, puis coupe les communications."
+  },
+  {
+    "csv_row": 9425,
+    "id": "ImoinuKatoUmbraOptNotMySel",
+    "column": "text",
+    "original": "\"That's right,\" she says. \"Now did you have anything useful to say, or are we done?\"",
+    "translated": "\"C'est exact,\" dit-elle. \"Maintenant, aviez-vous quelque chose d'utile à dire, ou avons-nous terminé ?\""
+  },
+  {
+    "csv_row": 9427,
+    "id": "ImoinuKatoUmbraDardanOptA",
+    "column": "options",
+    "option_line": "ImoinuKanto_dardanOptAsel:\"He is. He became... rather angry at me.\"",
+    "original": "He is. He became... rather angry at me.",
+    "translated": "C'est lui. Il est devenu... plutôt furieux contre moi."
+  },
+  {
+    "csv_row": 9428,
+    "id": "ImoinuKatoUmbraDardanOptB",
+    "column": "options",
+    "option_line": "ImoinuKanto_dardanOptBsel:\"He is. He was helpful.\"",
+    "original": "He is. He was helpful.",
+    "translated": "C'est lui. Il a été serviable."
+  },
+  {
+    "csv_row": 9429,
+    "id": "ImoinuKatoUmbraDardanOptC",
+    "column": "options",
+    "option_line": "ImoinuKanto_dardanOptCsel:\"He is. He seems unhappy in his current post.\"",
+    "original": "He is. He seems unhappy in his current post.",
+    "translated": "C'est lui. Il semble malheureux à son poste actuel."
+  },
+  {
+    "csv_row": 9434,
+    "id": "ImoinuKantoUmbraSaluteLiar",
+    "column": "options",
+    "option_line": "imoinuKato_sayMotherB:\"Are you telling me I could have been paid for this?\"",
+    "original": "Are you telling me I could have been paid for this?",
+    "translated": "Vous êtes en train de me dire que j'aurais pu être payé pour ça ?"
+  },
+  {
+    "csv_row": 9435,
+    "id": "ImoinuKatoUmbraSalute1",
+    "column": "options",
+    "option_line": "imoinuKato_saySalute2b:\"You mean, being stuck on a pirate-infested icecube with no fleet.\"",
+    "original": "You mean, being stuck on a pirate-infested icecube with no fleet.",
+    "translated": "Vous voulez dire, coincée sur un glaçon infesté de pirates sans aucune flotte."
+  }
+]

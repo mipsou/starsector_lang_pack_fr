@@ -1,0 +1,79 @@
+[
+  {
+    "csv_row": 4365,
+    "id": "gaKA_hegLeaveSorrySel",
+    "column": "options",
+    "option_line": "gaKA_hegJustLeave:Quitter le bar",
+    "original": "Quitter le bar",
+    "translated": "Quitter le bar"
+  },
+  {
+    "csv_row": 4372,
+    "id": "GAFCBairdSwitchToProbes",
+    "column": "options",
+    "option_line": "gaFC_BairdSwitchNeverMind:\"Laissez tomber.\"",
+    "original": "Laissez tomber.",
+    "translated": "Laissez tomber."
+  },
+  {
+    "csv_row": 4375,
+    "id": "GAFCBairdSwitchToFikenhild",
+    "column": "options",
+    "option_line": "gaFC_BairdSwitchNeverMind:\"Laissez tomber.\"",
+    "original": "Laissez tomber.",
+    "translated": "Laissez tomber."
+  },
+  {
+    "csv_row": 4390,
+    "id": "gaFCFikenhildHubOption6",
+    "column": "options",
+    "option_line": "10:gaFC_fikenhildLeaveEarly:Revenir to your shuttle",
+    "original": "gaFC_fikenhildLeaveEarly:Revenir to your shuttle",
+    "translated": "gaFC_fikenhildLeaveEarly:Retourner vers votre navette"
+  },
+  {
+    "csv_row": 4391,
+    "id": "gaFCFikenhildHubOption6b",
+    "column": "options",
+    "option_line": "10:gaFC_fikenhildLeaveDone:Revenir to your shuttle",
+    "original": "gaFC_fikenhildLeaveDone:Revenir to your shuttle",
+    "translated": "gaFC_fikenhildLeaveDone:Retourner vers votre navette"
+  },
+  {
+    "csv_row": 4397,
+    "id": "gaFCFikenhildBotherAdministrator",
+    "column": "options",
+    "option_line": "gaFC_fikenhildBotherA:\"Je cherche Scylla Coureuse.\"",
+    "original": "Je cherche Scylla Coureuse.",
+    "translated": "Je cherche Scylla Coureuse."
+  },
+  {
+    "csv_row": 4398,
+    "id": "gaFCFikenhildBotherCommander",
+    "column": "options",
+    "option_line": "gaFC_fikenhildBotherB:\"Je cherche Scylla Coureuse.\"",
+    "original": "Je cherche Scylla Coureuse.",
+    "translated": "Je cherche Scylla Coureuse."
+  },
+  {
+    "csv_row": 4399,
+    "id": "gaFCfikenhildBotherAdminAlready",
+    "column": "text",
+    "original": "\"Coureuse?\" $HeOrShe gives you a skeptical look. \"I believe you discussed this individual with our station commander already.\"\n\n\"The prime navarch's resolution has my full support, captain. We'll have to leave the matter at that.\"",
+    "translated": "\"Coureuse ?\" $HeOrShe vous lance un regard sceptique. \"Je crois que vous avez déjà discuté de cette personne avec notre commandant de station.\"\n\n\"La résolution du premier navarque a mon plein soutien, capitaine. Nous devrons en rester là.\""
+  },
+  {
+    "csv_row": 4400,
+    "id": "gaFCfikenhildBotherStatComAlready",
+    "column": "text",
+    "original": "\"Coureuse?\" $HeOrShe gives you a skeptical look. \"I believe you discussed this individual with the administration already.\"\n\n\"Their resolution has my full support, captain. We'll have to leave the matter at that.\"",
+    "translated": "\"Coureuse ?\" $HeOrShe vous lance un regard sceptique. \"Je crois que vous avez déjà discuté de cette personne avec l'administration.\"\n\n\"Leur résolution a mon plein soutien, capitaine. Nous devrons en rester là.\""
+  },
+  {
+    "csv_row": 4401,
+    "id": "gaFCFikenhildBotherAdmin",
+    "column": "text",
+    "original": "\"I don't have any associates by that name.\" $HeOrShe sounds irritated.\n\n\"I'm answering your call because facilitating interstellar trade with independent operators is within my purview. If you're simply looking for a comms ID, I suggest you query a public search terminal.\"\n\n\"Now. Do you have any real business to discuss?\"",
+    "translated": "\"Je n'ai aucun associé de ce nom.\" $HeOrShe a l'air irrité.\n\n\"Je réponds à votre appel parce que faciliter le commerce interstellaire avec les opérateurs indépendants fait partie de mes attributions. Si vous cherchez simplement un identifiant comm, je vous suggère d'interroger un terminal de recherche public.\"\n\n\"Maintenant. Avez-vous de véritables affaires à discuter ?\""
+  }
+]

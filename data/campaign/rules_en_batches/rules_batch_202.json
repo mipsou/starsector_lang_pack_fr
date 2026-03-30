@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 5369,
+    "id": "gaATGcontactYaribayStart",
+    "column": "text",
+    "original": "\"Oui, est-ce que je vous connais ?\" demande Horus Yaribay avec impatience, son attention visiblement ailleurs. \"Avons-nous affaire ensemble ?\"",
+    "translated": "\"Oui, est-ce que je vous connais ?\" demande Horus Yaribay avec impatience, son attention visiblement ailleurs. \"Avons-nous affaire ensemble ?\""
+  },
+  {
+    "csv_row": 5371,
+    "id": "gaATGcontactYaribayStartOptA",
+    "column": "options",
+    "option_line": "gaATG_contactYaribay1:Explain that you are acting as Provost Baird's representative",
+    "original": "Explain that you are acting as Provost Baird's representative",
+    "translated": "Expliquer que vous agissez en tant que représentant de la Prévôte Baird"
+  },
+  {
+    "csv_row": 5372,
+    "id": "gaATG_contactYaribay1PL",
+    "column": "text",
+    "original": "\"Ah, it comes to be now. A recent member, are you not?\"\n\nHis expression is pleasant, though reserved.\n\n\"Allow me to wish you welcome to the Persean League. Do you come to me regarding some matter to be raised in the League Council?\"",
+    "translated": "\"Ah, ça me revient maintenant. Un membre récent, n'est-ce pas ?\"\n\nSon expression est agréable, quoique réservée.\n\n\"Permettez-moi de vous souhaiter la bienvenue dans la Ligue Persane. Venez-vous me voir au sujet d'une question à soulever au Conseil de la Ligue ?\""
+  },
+  {
+    "csv_row": 5373,
+    "id": "gaATG_contactYaribay1PL_didBFFI",
+    "column": "text",
+    "original": "\"Ah, it comes to me now. A recent member, are you not?\"\n\nThen he frowns.\n\n\"And I recall now, you had some involvement in... you are an associate of my cousin Menes, I believe.\"",
+    "translated": "\"Ah, ça me revient maintenant. Un membre récent, n'est-ce pas ?\"\n\nPuis il fronce les sourcils.\n\n\"Et je me rappelle maintenant, vous avez été impliqué dans... vous êtes un associé de mon cousin Menes, je crois.\""
+  },
+  {
+    "csv_row": 5373,
+    "id": "gaATG_contactYaribay1PL_didBFFI",
+    "column": "options",
+    "option_line": "gaATG_contactYaribay1PL_didBFFI2:\"I wouldn't say I'm an associate. We had only a passing acquaintance.\"",
+    "original": "I wouldn't say I'm an associate. We had only a passing acquaintance.",
+    "translated": "Je ne dirais pas que je suis un associé. Nous n'avions qu'une connaissance en passant."
+  },
+  {
+    "csv_row": 5373,
+    "id": "gaATG_contactYaribay1PL_didBFFI",
+    "column": "options",
+    "option_line": "gaATG_contactYaribay1PL_didBFFI3:\"I cleaned up the mess he made with the Church, yes. Someone had to.\"",
+    "original": "I cleaned up the mess he made with the Church, yes. Someone had to.",
+    "translated": "J'ai nettoyé le désordre qu'il a causé avec l'Église, oui. Il fallait bien que quelqu'un le fasse."
+  },
+  {
+    "csv_row": 5374,
+    "id": "gaATG_contactYaribay1PL_didBFFI2",
+    "column": "text",
+    "original": "\"Passing. I see.\" He re-examines you. \"To your credit.\"\n\n\"Allow me to wish you welcome to the Persean League. Do you come to me regarding some matter to be raised in the League Council?\"",
+    "translated": "\"En passant. Je vois.\" Il vous réexamine. \"À votre crédit.\"\n\n\"Permettez-moi de vous souhaiter la bienvenue dans la Ligue Persane. Venez-vous me voir au sujet d'une question à soulever au Conseil de la Ligue ?\""
+  },
+  {
+    "csv_row": 5375,
+    "id": "gaATG_contactYaribay1PL_didBFFI3",
+    "column": "text",
+    "original": "\"Of course.\" He blinks.\n\nHorus quite intentionally leaves it at that. No apology, no thanks.",
+    "translated": "\"Bien sûr.\" Il cligne des yeux.\n\nHorus laisse intentionnellement les choses en l'état. Pas d'excuses, pas de remerciements."
+  },
+  {
+    "csv_row": 5385,
+    "id": "gaATGcontactYaribayHubC",
+    "column": "options",
+    "option_line": "gaATG_contactYaribayC1:\"J'imagine que le point de vue des Yaribay n'est pas populaire sur Kazeron.\"",
+    "original": "J'imagine que le point de vue des Yaribay n'est pas populaire sur Kazeron.",
+    "translated": "J'imagine que le point de vue des Yaribay n'est pas populaire sur Kazeron."
+  },
+  {
+    "csv_row": 5388,
+    "id": "gaATGcontactYaribayA2",
+    "column": "text",
+    "original": "Horus sourit, \"Excellent. Je vous remercie.\"",
+    "translated": "Horus sourit, \"Excellent. Je vous remercie.\""
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "csv_row": 8220,
+    "id": "ArroyoAskAboutZGR4b",
+    "column": "text",
+    "original": "\"My advice is don't get involved. And you're not going to listen, are you.\"\n\nHe looks away, thinking. His hands held together in front of his mouth, not quite the form of Luddic prayer.\n\n\"Seen a few fleet operators fall right off the map. She's looking for something. Big risk. I'd bet if I knew what it was I'd say it wasn't worth it.\"",
+    "translated": "\"Mon conseil : ne vous impliquez pas. Et vous n'allez pas m'écouter, n'est-ce pas.\"\n\nIl détourné le regard, pensif. Les mains jointes devant sa bouche, pas tout a fait dans la posture de la prière Luddique.\n\n\"J'ai vu quelques operateurs de flotte disparaitre de la circulation. Elle cherche quelque chose. Gros risques. Je parie que si je savais quoi, je dirais que ça n'en vaut pas la peine.\""
+  },
+  {
+    "csv_row": 8220,
+    "id": "ArroyoAskAboutZGR4b",
+    "column": "options",
+    "option_line": "arroyo_askAboutZGR6d:\"...Thanks for the warning.\"",
+    "original": "...Thanks for the warning.",
+    "translated": "...Merci pour la mise en garde."
+  },
+  {
+    "csv_row": 8221,
+    "id": "ArroyoAskAboutZGR5a",
+    "column": "text",
+    "original": "His eyes meet yours through the link.\n\n\"We won't. I'm going to be rich, get richer, and enjoy my splendid home. You can go do something very stupid if you have to. Just hope it doesn't get us all killed.\"",
+    "translated": "Ses yeux rencontrent les votres a travers le lien.\n\n\"Pas nous. Moi, je vais etre riche, devenir encore plus riche, et profiter de ma splendide demeure. Vous pouvez aller faire quelque chose de tres stupide si vous y tenez. J'espère juste que ça ne nous fera pas tous tuer.\""
+  },
+  {
+    "csv_row": 8222,
+    "id": "ArroyoAskAboutZGR5b",
+    "column": "text",
+    "original": "His eyes meet yours through the link.\n\n\"I'm going to be rich, get richer, and enjoy my splendid home. You should do the same.\"\n\nHe looks away again, presumably at achingly beautiful mountain vistas. \"But you won't.\"",
+    "translated": "Ses yeux rencontrent les votres a travers le lien.\n\n\"Moi, je vais etre riche, devenir encore plus riche, et profiter de ma splendide demeure. Vous devriez en faire autant.\"\n\nIl détourné de nouveau le regard, probablement vers de sublimes panoramas montagneux. \"Mais vous ne le ferez pas.\""
+  },
+  {
+    "csv_row": 8223,
+    "id": "ArroyoAskAboutZGR5c",
+    "column": "text",
+    "original": "His eyes meet yours through the link.\n\n\"That sounds like the third worst idea I've ever heard.\"",
+    "translated": "Ses yeux rencontrent les votres a travers le lien.\n\n\"Ça ressemble a la troisieme pire idée que j'aie jamais entendue.\""
+  },
+  {
+    "csv_row": 8223,
+    "id": "ArroyoAskAboutZGR5c",
+    "column": "options",
+    "option_line": "arroyo_askAboutZGR6b:\"What are the first two?\"",
+    "original": "What are the first two?",
+    "translated": "Quelles sont les deux premières ?"
+  },
+  {
+    "csv_row": 8225,
+    "id": "ArroyoAskAboutZGR6b",
+    "column": "text",
+    "original": "He falls back in his chair with an unhappy sound.\n\n\"Not now.\"",
+    "translated": "Il se laisse retomber dans son fauteuil avec un grognement mecontent.\n\n\"Pas maintenant.\""
+  },
+  {
+    "csv_row": 8226,
+    "id": "ArroyoAskAboutZGR6c",
+    "column": "text",
+    "original": "He leans back in his chair.\n\n\"Sure.\"",
+    "translated": "Il se cale dans son fauteuil.\n\n\"Bien sur.\""
+  },
+  {
+    "csv_row": 8227,
+    "id": "ArroyoAskAboutZGR6d",
+    "column": "text",
+    "original": "He leans back in his chair.\n\n\"Sure.\"",
+    "translated": "Il se cale dans son fauteuil.\n\n\"Bien sur.\""
+  },
+  {
+    "csv_row": 8237,
+    "id": "ZGRgreetingDefault",
+    "column": "text",
+    "original": "Your comms are routed through a secretary, either a holosim or product of uncanny cosmetic and behavior tuning, then, after a brief wait, the link blinks to Director Glamor-Rotanev.\n\n\"Captain $playerLastName,\" she says with diminishing breeziness.",
+    "translated": "Vos comms sont rediriges via un secretaire, soit un holosim soit le produit d'un travail cosmetique et comportemental saisissant, puis, apres une breve attente, le lien bascule vers la Directrice Glamor-Rotanev.\n\n\"Capitaine $playerLastName,\" dit-elle avec une desinvolture declinante."
+  }
+]

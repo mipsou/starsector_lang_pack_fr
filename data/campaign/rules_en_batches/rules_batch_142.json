@@ -1,0 +1,73 @@
+[
+  {
+    "csv_row": 3395,
+    "id": "BFFIarrestOppo3b",
+    "column": "text",
+    "original": "\"As you will,\" he says. \"Just... I beg you follow my lead.\"",
+    "translated": "\"Comme vous voudrez,\" dit-il. \"Juste... je vous prie de suivre mon exemple.\""
+  },
+  {
+    "csv_row": 3396,
+    "id": "BFFIarrestOppo3c",
+    "column": "text",
+    "original": "He laughs. \"Boldly spoken from yourself, captain.\"",
+    "translated": "Il rit. \"Des paroles audacieuses venant de vous, capitaine.\""
+  },
+  {
+    "csv_row": 3397,
+    "id": "BFFIarrestOppo3d",
+    "column": "text",
+    "original": "\"I am,\" he says with a laugh, \"aren't I.\"\n\nHis expression grows serious after a moment. \"And yes, it must.\"",
+    "translated": "\"C'est vrai,\" dit-il avec un rire, \"n'est-ce pas.\"\n\nSon expression devient sérieuse après un moment. \"Et oui, il le faut.\""
+  },
+  {
+    "csv_row": 3398,
+    "id": "BFFIarrestEnter",
+    "column": "text",
+    "original": "You stand together at last in the plaza under the huge archway of the cathedral's entrance. Bornanew meets a uniformed though unarmored Knight to exchange a few words. Bornanew shows the Knight something in his hand which he returns to pocket in his robes.\n\nThe Knight steps aside, and allows you to enter, bypassing the lines of pilgrims awaiting the mid-morning prayer.",
+    "translated": "Vous vous tenez enfin ensemble sur la place sous l'immense arc de l'entrée de la cathédrale. Bornanew rencontre un Chevalier en uniforme mais sans armure pour échanger quelques mots. Bornanew montre au Chevalier quelque chose dans sa main qu'il range ensuite dans ses robes.\n\nLe Chevalier s'écarte, et vous permet d'entrer, contournant les files de pèlerins attendant la prière de la mi-matinée."
+  },
+  {
+    "csv_row": 3398,
+    "id": "BFFIarrestEnter",
+    "column": "options",
+    "option_line": "bffi_arrest1:Enter the Cathedral of Holy Exodus",
+    "original": "Enter the Cathedral of Holy Exodus",
+    "translated": "Entrer dans la Cathédrale du Saint Exode"
+  },
+  {
+    "csv_row": 3399,
+    "id": "BFFIarrest1",
+    "column": "text",
+    "original": "You enter the great nave of the Cathedral of Holy Exodus.\n\nAmong towering columns are affixed recovered landing pods of the early Luddic refugee ships, now integrated into the vaults, painted with gilt and green, bedecked with candles and hanging glass ornaments which break the beams of the sun - filtered through ranks of high windows - into thousands of rainbow shards, endlessly refracting.\n\nIt is an ecstasy of light, a galaxy unto itself.\n\nBornanew pauses beside you, looking upward. Could one old work-glove and a lie tip all of this down to shatter upon the ground?",
+    "translated": "Vous entrez dans la grande nef de la Cathédrale du Saint Exode.\n\nParmi les colonnes imposantes sont fixées des capsules d'atterrissage récupérées des premiers vaisseaux de réfugiés Luddiques, désormais intégrées aux voûtes, peintes de dorures et de vert, ornées de bougies et d'ornements en verre suspendus qui brisent les rayons du soleil - filtrés à travers des rangées de hautes fenêtres - en des milliers de fragments arc-en-ciel, se réfractant à l'infini.\n\nC'est une extase de lumière, une galaxie à part entière.\n\nBornanew fait une pause à vos côtés, regardant vers le haut. Un vieux gant de travail et un mensonge pourraient-ils faire s'effondrer tout cela et le briser au sol ?"
+  },
+  {
+    "csv_row": 3400,
+    "id": "BFFIarrest1b",
+    "column": "text",
+    "original": "You enter the great nave of the Cathedral of Holy Exodus.\n\nAmong towering columns are affixed recovered landing pods of the early Luddic refugee ships, now integrated into the vaults, painted with gilt and green, bedecked with candles and hanging glass ornament which break the beams of the sun - filtered through ranks of high windows - into thousands of rainbow shards endlessly refracting.\n\nIt is an ecstasy of light, a galaxy unto itself.\n\nBornanew pauses beside you, catching his breath, looking upward. Could one old work-glove and a lie tip all of this down to shatter upon the ground?",
+    "translated": "Vous entrez dans la grande nef de la Cathédrale du Saint Exode.\n\nParmi les colonnes imposantes sont fixées des capsules d'atterrissage récupérées des premiers vaisseaux de réfugiés Luddiques, désormais intégrées aux voûtes, peintes de dorures et de vert, ornées de bougies et d'ornements en verre suspendus qui brisent les rayons du soleil - filtrés à travers des rangées de hautes fenêtres - en des milliers de fragments arc-en-ciel se réfractant à l'infini.\n\nC'est une extase de lumière, une galaxie à part entière.\n\nBornanew fait une pause à vos côtés, reprenant son souffle, regardant vers le haut. Un vieux gant de travail et un mensonge pourraient-ils faire s'effondrer tout cela et le briser au sol ?"
+  },
+  {
+    "csv_row": 3401,
+    "id": "BFFIarrest2",
+    "column": "text",
+    "original": "He leads you to a small alcove, invisible at the foot of the luminous architectural forest of cut stone and carved wood. And there, after exchanging words with an attendant, a door is revealed in the ornately carved wall.\n\nYou follow Bornanew's lead, stepping out of the glory of light into a cool, dark space. Your eyes take a moment to adjust to the dimness and relatively mundane - though still ornately hand-wrought - decor.",
+    "translated": "Il vous conduit vers une petite alcôve, invisible au pied de la forêt architecturale lumineuse de pierre taillée et de bois sculpté. Et là, après avoir échangé quelques mots avec un préposé, une porte est révélée dans le mur richement sculpté.\n\nVous suivez l'exemple de Bornanew, quittant la gloire de la lumière pour un espace frais et sombre. Vos yeux prennent un moment pour s'adapter à l'obscurité et au décor relativement ordinaire - bien que toujours richement ouvragé à la main."
+  },
+  {
+    "csv_row": 3402,
+    "id": "BFFIarrest3",
+    "column": "text",
+    "original": "There are halls and offices here, lit not by candles but humble glowplates belched legion from Asher's nanoforge. The walls of cut stone are trimmed with alternating panels and mouldings of wood.\n\nBornanew's words and the token, presumably provided by the Archcurate Jaspis, clear a path through frowning oblate-secretaries and young Knight-novices on guard duty.\n\nNot all are so dour; one or two initiates, scurrying by with armloads of books, greet Bornanew by name.",
+    "translated": "Il y a des couloirs et des bureaux ici, éclairés non par des bougies mais par d'humbles plaques luminescentes produites en masse par la nanoforge d'Asher. Les murs de pierre taillée sont bordés de panneaux alternés et de moulures en bois.\n\nLes paroles de Bornanew et le jeton, vraisemblablement fourni par l'Archicuré Jaspis, dégagent un chemin à travers des oblats-secrétaires renfrognés et de jeunes Chevaliers-novices en faction.\n\nTous ne sont pas si austères ; un ou deux initiés, filant avec des brassées de livres, saluent Bornanew par son nom."
+  },
+  {
+    "csv_row": 3403,
+    "id": "BFFIarrest4",
+    "column": "text",
+    "original": "You follow Bornanew into a long room, a gallery of columns intermingled with bookcases; cleverly designed lightwells - and, surely, a series of mirrors - provide shafts of sunlight, motes dancing with little concern in their small world within this analog archive. \n\nHeads turn to follow your progress past desks stacked with paper books, writing implements, and even the occasional low-fidelity interface terminal.\n\nYour tactical sense notes the figures at side-doors who disappear purposefully, clearly headed off to spread this news and summon gawkers - or allies.\n\nYour weapon-hand twitches.",
+    "translated": "Vous suivez Bornanew dans une longue salle, une galerie de colonnes entremêlées de bibliothèques ; des puits de lumière ingénieusement conçus - et, sûrement, une série de miroirs - fournissent des faisceaux de lumière solaire, des poussières dansant sans souci dans leur petit monde au sein de ces archives analogiques.\n\nLes têtes se tournent pour suivre votre progression devant des bureaux empilés de livres en papier, d'instruments d'écriture, et même occasionnellement un terminal d'interface basse fidélité.\n\nVotre sens tactique note les silhouettes aux portes latérales qui disparaissent résolument, clairement parties pour répandre la nouvelle et convoquer des badauds - ou des alliés.\n\nVotre main d'arme tressaille."
+  }
+]

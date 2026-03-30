@@ -1,0 +1,80 @@
+[
+  {
+    "csv_row": 933,
+    "id": "tOffPatrolOpenCommTOn",
+    "column": "options",
+    "option_line": "0:tOff_comply2:Autoriser le scan",
+    "original": "tOff_comply2:Autoriser le scan",
+    "translated": "tOff_comply2:Autoriser le scan"
+  },
+  {
+    "csv_row": 933,
+    "id": "tOffPatrolOpenCommTOn",
+    "column": "options",
+    "option_line": "2:tOff_refuse:Refuser et couper la liaison comm",
+    "original": "tOff_refuse:Refuser et couper la liaison comm",
+    "translated": "tOff_refuse:Refuser et couper la liaison comm"
+  },
+  {
+    "csv_row": 937,
+    "id": "tOffComply",
+    "column": "text",
+    "original": "Vous donnez l'ordre d'activer le transpondeur et attendez que l'analyse de cargaison se termine.",
+    "translated": "Vous donnez l'ordre d'activer le transpondeur et attendez que l'analyse de cargaison se termine."
+  },
+  {
+    "csv_row": 938,
+    "id": "tOffComply2",
+    "column": "text",
+    "original": "Vous attendez que l'analyse de cargaison se termine.",
+    "translated": "Vous attendez que l'analyse de cargaison se termine."
+  },
+  {
+    "csv_row": 949,
+    "id": "tOffCargoScanContraband",
+    "column": "options",
+    "option_line": "0:tOff_comply_contraband:Remettre la contrebande et couper la liaison comm",
+    "original": "tOff_comply_contraband:Remettre la contrebande et couper la liaison comm",
+    "translated": "tOff_comply_contraband:Remettre la contrebande et couper la liaison comm"
+  },
+  {
+    "csv_row": 949,
+    "id": "tOffCargoScanContraband",
+    "column": "options",
+    "option_line": "1:tOff_refuse:Refuser et couper la liaison comm",
+    "original": "tOff_refuse:Refuser et couper la liaison comm",
+    "translated": "tOff_refuse:Refuser et couper la liaison comm"
+  },
+  {
+    "csv_row": 955,
+    "id": "cargoScanFirstComms",
+    "column": "options",
+    "option_line": "0:cargoScan_comply:Autoriser le scan",
+    "original": "cargoScan_comply:Autoriser le scan",
+    "translated": "cargoScan_comply:Autoriser le scan"
+  },
+  {
+    "csv_row": 955,
+    "id": "cargoScanFirstComms",
+    "column": "options",
+    "option_line": "2:cargoScan_refuse:Refuser et couper la liaison comm",
+    "original": "cargoScan_refuse:Refuser et couper la liaison comm",
+    "translated": "cargoScan_refuse:Refuser et couper la liaison comm"
+  },
+  {
+    "csv_row": 965,
+    "id": "cargoScanContraband",
+    "column": "options",
+    "option_line": "0:cargoScan_comply_contraband:Remettre la contrebande et couper la liaison comm",
+    "original": "cargoScan_comply_contraband:Remettre la contrebande et couper la liaison comm",
+    "translated": "cargoScan_comply_contraband:Remettre la contrebande et couper la liaison comm"
+  },
+  {
+    "csv_row": 965,
+    "id": "cargoScanContraband",
+    "column": "options",
+    "option_line": "1:cargoScan_refuse:Refuser et couper la liaison comm",
+    "original": "cargoScan_refuse:Refuser et couper la liaison comm",
+    "translated": "cargoScan_refuse:Refuser et couper la liaison comm"
+  }
+]

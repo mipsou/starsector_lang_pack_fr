@@ -1,0 +1,80 @@
+[
+  {
+    "csv_row": 7000,
+    "id": "extrOfferOption1",
+    "column": "options",
+    "option_line": "extr_start:Questionner sur la mission d'extraction 'atypique' impliquant une faction majeure",
+    "original": "Questionner sur la mission d'extraction 'atypique' impliquant une faction majeure",
+    "translated": "Questionner sur la mission d'extraction 'atypique' impliquant une faction majeure"
+  },
+  {
+    "csv_row": 7002,
+    "id": "extrOfferOption2",
+    "column": "options",
+    "option_line": "extr_start:Questionner sur la mission d'extraction 'non conventionnelle' impliquant des pirates",
+    "original": "Questionner sur la mission d'extraction 'non conventionnelle' impliquant des pirates",
+    "translated": "Questionner sur la mission d'extraction 'non conventionnelle' impliquant des pirates"
+  },
+  {
+    "csv_row": 7004,
+    "id": "extrOfferOption3",
+    "column": "options",
+    "option_line": "extr_start:Questionner sur la mission d'extraction 'non conventionnelle' impliquant des Voiliers",
+    "original": "Questionner sur la mission d'extraction 'non conventionnelle' impliquant des Voiliers",
+    "translated": "Questionner sur la mission d'extraction 'non conventionnelle' impliquant des Voiliers"
+  },
+  {
+    "csv_row": 7024,
+    "id": "extr_barIntercept",
+    "column": "options",
+    "option_line": "extr_pickUp:Accepter la demande de connexion",
+    "original": "Accepter la demande de connexion",
+    "translated": "Accepter la demande de connexion"
+  },
+  {
+    "csv_row": 7042,
+    "id": "mcbOfferOption",
+    "column": "options",
+    "option_line": "mcb_start:Questionner sur les primes disponibles au registre",
+    "original": "Questionner sur les primes disponibles au registre",
+    "translated": "Questionner sur les primes disponibles au registre"
+  },
+  {
+    "csv_row": 7051,
+    "id": "MCBShowBountyShowShips",
+    "column": "options",
+    "option_line": "mcb_showOptions:Questionner sur l'une des autres cibles",
+    "original": "Questionner sur l'une des autres cibles",
+    "translated": "Questionner sur l'une des autres cibles"
+  },
+  {
+    "csv_row": 7053,
+    "id": "MCBShowBountyShowShipsBar",
+    "column": "options",
+    "option_line": "mcb_showOptionsBar:Questionner sur l'une des autres cibles",
+    "original": "Questionner sur l'une des autres cibles",
+    "translated": "Questionner sur l'une des autres cibles"
+  },
+  {
+    "csv_row": 7058,
+    "id": "CBPirateAristo",
+    "column": "text",
+    "original": "$HeOrShe taps on one of the entries to enlarge the report. A face scowls at you from an arrest record holo.\n\n\"This charming individual believes they're some kind of pirate.\" $PersonName gets a carnivorous look in $hisOrHer eyes, \"$bcb_TargetHeOrShe stole from me. This is unacceptable.\" $HeOrShe leans back, casually, \"The lost credits are irrelevant, of course. What's important is the message such brigandage sends. We can't simply have pirates stealing the hard-earned wealth from those who rightfully possess it.\"\n\n\"The target is hiding in the $bcb_systemName which is $bcb_dist light-years distant. I shall reward you with $bcb_reward credits once you have put down the menace and I shall give you $bcb_days days to do so. Are we agreed?\"",
+    "translated": "$HeOrShe tapote l'une des entrées pour agrandir le rapport. Un visage renfrogné vous fixe depuis un hologramme de casier judiciaire.\n\n\"Ce charmant individu se prend pour une sorte de pirate.\" $PersonName prend un air carnassier dans $hisOrHer regard, \"$bcb_TargetHeOrShe m'a vole. C'est inacceptable.\" $HeOrShe se recule nonchalamment, \"Les credits perdus sont sans importance, bien entendu. Ce qui compte, c'est le message qu'envoie un tel brigandage. On ne peut tout simplement pas laisser des pirates derober les richesses durement acquises par ceux qui les possedent légitimement.\"\n\n\"La cible se cache dans le système $bcb_systemName, a $bcb_dist annees-lumière d'ici. Je vous récompenserai de $bcb_reward credits une fois que vous aurez élimine la menace, et je vous accorde $bcb_days jours pour ce faire. Sommes-nous d'accord ?\""
+  },
+  {
+    "csv_row": 7060,
+    "id": "CBPather1Aristo",
+    "column": "text",
+    "original": "\"Ah, this one, yes,\" $heOrShe pulls up an intel file. \"An adherent of the so-called 'Luddic Path'. Believes we'd all be better off smashing our computers and living in caves or some nonsense. You wouldn't believe the damage they cause when they can bring themselves to apply technology to meet their goals. This one is hiding out in the $bcb_systemName, $bcb_dist light-years away, and has caused great personal offense.\"\n\n\"I shall provide a reward of $bcb_reward credits for taking care of this fanatic. You'd have $bcb_days days to complete the mission.\"",
+    "translated": "\"Ah, celui-la, oui,\" $heOrShe ouvre un dossier de renseignement. \"Un adepte de la soi-disant 'Voie Luddique'. Persuade qu'on serait tous mieux a fracasser nos ordinateurs et vivre dans des grottes, où je ne sais quelle absurdite. Vous n'imaginez pas les dégâts qu'ils causent quand ils daignent utiliser la technologie pour atteindre leurs objectifs. Celui-ci se planque dans le système $bcb_systemName, a $bcb_dist annees-lumière, et m'a cause un affront personnel considérable.\"\n\n\"Je fournirai une récompense de $bcb_reward credits pour avoir regle le compte de ce fanatique. Vous aurez $bcb_days jours pour accomplir la mission.\""
+  },
+  {
+    "csv_row": 7076,
+    "id": "ucbOfferOption",
+    "column": "options",
+    "option_line": "ucb_start:Questionner sur l'une des primes disponibles",
+    "original": "Questionner sur l'une des primes disponibles",
+    "translated": "Questionner sur l'une des primes disponibles"
+  }
+]

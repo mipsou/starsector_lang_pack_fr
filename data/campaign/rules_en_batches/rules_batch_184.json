@@ -1,0 +1,81 @@
+[
+  {
+    "csv_row": 4696,
+    "id": "gaFCGroombridgeSearch2",
+    "column": "options",
+    "option_line": "gaFC_groombridgeSearch3:\"Alors vous savez quoi chercher. Faites-le.\"",
+    "original": "Alors vous savez quoi chercher. Faites-le.",
+    "translated": "Alors vous savez quoi chercher. Faites-le."
+  },
+  {
+    "csv_row": 4709,
+    "id": "gaFCKapteynBotherAdministrator",
+    "column": "options",
+    "option_line": "gaFC_kapteynBossBother1:\"Je cherche quelqu'un du nom de Scylla Coureuse.\"",
+    "original": "Je cherche quelqu'un du nom de Scylla Coureuse.",
+    "translated": "Je cherche quelqu'un du nom de Scylla Coureuse."
+  },
+  {
+    "csv_row": 4712,
+    "id": "gaFCKapteynBossKantaAppeal",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 4717,
+    "id": "gaFCKapteynBossAppealSuccess2",
+    "column": "options",
+    "option_line": "gaFC_kapteynBossInfoDump1:\"Vous pouvez compter dessus, ami.\"",
+    "original": "Vous pouvez compter dessus, ami.",
+    "translated": "Vous pouvez compter dessus, ami."
+  },
+  {
+    "csv_row": 4719,
+    "id": "gaFCKapteynBossAppealFailure2",
+    "column": "text",
+    "original": "Le chef pirate tape sur la console de communications et la ligne se coupe, vous laissant fixer de la neige.",
+    "translated": "Le chef pirate tape sur la console de communications et la ligne se coupe, vous laissant fixer de la neige."
+  },
+  {
+    "csv_row": 4719,
+    "id": "gaFCKapteynBossAppealFailure2",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 4723,
+    "id": "gaFC_kapteynBossInfoDump4",
+    "column": "options",
+    "option_line": "gaFC_kapteynWrapUp:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 4730,
+    "id": "gaFCAskLaicailleBar1Option2",
+    "column": "options",
+    "option_line": "backToBar:Revenir au bar",
+    "original": "Revenir au bar",
+    "translated": "Revenir au bar"
+  },
+  {
+    "csv_row": 4731,
+    "id": "gaFCAskLaicailleBarPather",
+    "column": "options",
+    "option_line": "backToBar:Revenir au bar",
+    "original": "Revenir au bar",
+    "translated": "Revenir au bar"
+  },
+  {
+    "csv_row": 4737,
+    "id": "gaFCAskAroundLaicailleBar6",
+    "column": "options",
+    "option_line": "backToBar:Revenir au bar",
+    "original": "Revenir au bar",
+    "translated": "Revenir au bar"
+  }
+]

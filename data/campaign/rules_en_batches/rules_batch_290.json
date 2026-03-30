@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 8471,
+    "id": "ZGRstartPitch9both3z",
+    "column": "text",
+    "original": "For a full two seconds her eyes close, moving rapidly.\n\nYour TriPad pings.",
+    "translated": "Pendant deux secondes entieres, ses yeux se ferment, bougeant rapidement.\n\nVotre TriPad sonne."
+  },
+  {
+    "csv_row": 8471,
+    "id": "ZGRstartPitch9both3z",
+    "column": "options",
+    "option_line": "zgr_makePitch11:\"So you knew what you were asking for. Was there another expedition that succeeded?\"",
+    "original": "So you knew what you were asking for. Was there another expedition that succeeded?",
+    "translated": "Donc vous saviez ce que vous demandiez. Y a-t-il eu une autre expedition qui a reussi ?"
+  },
+  {
+    "csv_row": 8472,
+    "id": "ZGRstartPitch9threat",
+    "column": "text",
+    "original": "She blinks. Her eyes seem suddenly present for the first time. \n\n\"And you lived to tell it,\" she says, outwardly cool. You suspect, however, that you've impressed the Director because she pauses a moment to consider your words.\n\n\"Would you part with recordings of your encounter with the Threat? I offer 100,000 credits for immediate transfer.\"",
+    "translated": "Elle cligne des yeux. Ses yeux semblent soudain presents pour la première fois.\n\n\"Et vous avez survecu pour le raconter,\" dit-elle, exterieurement calme. Vous soupconnez cependant d'avoir impressionne la Directrice car elle marque une pause pour considerer vos mots.\n\n\"Accepteriez-vous de ceder les enregistrements de votre rencontre avec la Menace ? J'offre 100 000 credits pour un transfert immediat.\""
+  },
+  {
+    "csv_row": 8472,
+    "id": "ZGRstartPitch9threat",
+    "column": "options",
+    "option_line": "zgr_makePitch9No:\"Perhaps another time.\"",
+    "original": "Perhaps another time.",
+    "translated": "Peut-etre une autre fois."
+  },
+  {
+    "csv_row": 8474,
+    "id": "ZGRstartPitch9threat2OMKI",
+    "column": "text",
+    "original": "\"So you are open to dealing,\" she says. \"Good.\"",
+    "translated": "\"Vous etes donc ouvert aux affaires,\" dit-elle. \"Bien.\""
+  },
+  {
+    "csv_row": 8475,
+    "id": "ZGRstartPitch9threat3",
+    "column": "text",
+    "original": "For a full two seconds her eyes close, moving rapidly.\n\nYour TriPad pings a credits transfer.\n\n\"Interesting,\" she says, and releases a breath. \"Yes. This is what I am looking for.\"",
+    "translated": "Pendant deux secondes entieres, ses yeux se ferment, bougeant rapidement.\n\nVotre TriPad sonne un transfert de credits.\n\n\"Interessant,\" dit-elle en relachant un souffle. \"Oui. C'est ce que je cherche.\""
+  },
+  {
+    "csv_row": 8475,
+    "id": "ZGRstartPitch9threat3",
+    "column": "options",
+    "option_line": "zgr_makePitch11:\"So you know what it is. Was there another expedition before me?\"",
+    "original": "So you know what it is. Was there another expedition before me?",
+    "translated": "Donc vous savez ce que c'est. Y avait-il une autre expedition avant moi ?"
+  },
+  {
+    "csv_row": 8476,
+    "id": "ZGRstartPitch9threat3z",
+    "column": "text",
+    "original": "For a full two seconds her eyes close, moving rapidly.\n\nYour TriPad pings a credits transfer.\n\n\"Interesting,\" she says, and releases a breath. \"Yes. This is what I am looking for.\"",
+    "translated": "Pendant deux secondes entieres, ses yeux se ferment, bougeant rapidement.\n\nVotre TriPad sonne un transfert de credits.\n\n\"Interessant,\" dit-elle en relachant un souffle. \"Oui. C'est ce que je cherche.\""
+  },
+  {
+    "csv_row": 8476,
+    "id": "ZGRstartPitch9threat3z",
+    "column": "options",
+    "option_line": "zgr_makePitch11:\"So you know what it is. Was there another expedition that succeeded?\"",
+    "original": "So you know what it is. Was there another expedition that succeeded?",
+    "translated": "Donc vous savez ce que c'est. Y a-t-il eu une autre expedition qui a reussi ?"
+  },
+  {
+    "csv_row": 8477,
+    "id": "ZGRstartPitch9dweller",
+    "column": "text",
+    "original": "She blinks. Her eyes seem suddenly present for the first time.\n\n\"That does not... quite fit with our working knowledge of the issue. Would you part with recordings of your... encounter with these entities? I offer 100,000 credits for immediate transfer.\"",
+    "translated": "Elle cligne des yeux. Ses yeux semblent soudain presents pour la première fois.\n\n\"Cela ne... correspond pas tout a fait a nos connaissances actuelles du problème. Accepteriez-vous de ceder les enregistrements de votre... rencontre avec ces entites ? J'offre 100 000 credits pour un transfert immediat.\""
+  }
+]

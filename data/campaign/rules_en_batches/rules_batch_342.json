@@ -1,0 +1,81 @@
+[
+  {
+    "csv_row": 10244,
+    "id": "PKTurnInChurchSel",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 10245,
+    "id": "PKTurnInChurchAvoid",
+    "column": "text",
+    "original": "\"Oui. Bien.\" $HeOrShe vous examine avec suspicion. \"Y avait-il quelque chose dont vous souhaitiez discuter ?\"",
+    "translated": "\"Oui. Bien.\" $HeOrShe vous examine avec suspicion. \"Y avait-il quelque chose dont vous souhaitiez discuter ?\""
+  },
+  {
+    "csv_row": 10248,
+    "id": "pkHandInHesperusMetOak",
+    "column": "options",
+    "option_line": "pkHandIn_hesp5:\"I have a planetkiller weapon to give into the custody of the Knights of Ludd.\"",
+    "original": "I have a planetkiller weapon to give into the custody of the Knights of Ludd.",
+    "translated": "J'ai une arme planéticide à confier à la garde des Chevaliers de Ludd."
+  },
+  {
+    "csv_row": 10249,
+    "id": "pkHandInHesperus",
+    "column": "options",
+    "option_line": "20:pkHandInHesperus_start:Open a coded comms channel to discuss the planetkiller weapon with the Knights of Ludd",
+    "original": "pkHandInHesperus_start:Open a coded comms channel to discuss the planetkiller weapon with the Knights of Ludd",
+    "translated": "pkHandInHesperus_start:Ouvrir un canal de communication codé pour discuter de l'arme planéticide avec les Chevaliers de Ludd"
+  },
+  {
+    "csv_row": 10250,
+    "id": "pkHandInHesperus2",
+    "column": "options",
+    "option_line": "pkHandIn_hesp3:Take over the comms and emphasize the importance of your mission",
+    "original": "Take over the comms and emphasize the importance of your mission",
+    "translated": "Prendre le contrôle des comms et insister sur l'importance de votre mission"
+  },
+  {
+    "csv_row": 10251,
+    "id": "pkHandInHesperus3",
+    "column": "options",
+    "option_line": "pkHandIn_hesp4:Attendre to speak with whoever 'he' is",
+    "original": "Attendre to speak with whoever 'he' is",
+    "translated": "Attendre de parler avec celui qu'on appelle 'lui'"
+  },
+  {
+    "csv_row": 10252,
+    "id": "pkHandInHesperus4",
+    "column": "options",
+    "option_line": "pkHandIn_hesp5:\"I have a planetkiller weapon to give into the custody of the Knights of Ludd.\"",
+    "original": "I have a planetkiller weapon to give into the custody of the Knights of Ludd.",
+    "translated": "J'ai une arme planéticide à confier à la garde des Chevaliers de Ludd."
+  },
+  {
+    "csv_row": 10252,
+    "id": "pkHandInHesperus4",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 10253,
+    "id": "pkHandInHesperus5",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 10254,
+    "id": "pkHandInHesperus6",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  }
+]

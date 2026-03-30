@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 2764,
+    "id": "BFFIattendPartyHub1optB",
+    "column": "options",
+    "option_line": "bffi_apHub1optB:\"Tout le monde, dites-vous ? Ça inclut le Sentier Luddique ?\"",
+    "original": "Everyone, you say? Does that include the Luddic Path?",
+    "translated": "Tout le monde, dites-vous ? Ça inclut le Sentier Luddique ?"
+  },
+  {
+    "csv_row": 2765,
+    "id": "BFFIattendPartyHub1optC",
+    "column": "options",
+    "option_line": "bffi_apHub1optC:\"Alors, Ulmus, c'est ça ? Comment connaissez-vous $global.jethroName ?\"",
+    "original": "So, Ulmus was it? How do you know $global.jethroName?",
+    "translated": "Alors, Ulmus, c'est ça ? Comment connaissez-vous $global.jethroName ?"
+  },
+  {
+    "csv_row": 2769,
+    "id": "BFFIapHub1optA",
+    "column": "text",
+    "original": "Pond grins wider, and begins to speak. \"The feeling, I'm sure-\"",
+    "translated": "Pond sourit plus largement et commence à parler. \"C'est réciproque, j'en suis-\""
+  },
+  {
+    "csv_row": 2770,
+    "id": "BFFIapHub1optB",
+    "column": "text",
+    "original": "Pond laughs too loudly. \"Dear Menes, where did you find such a fantastic character? Without you, I'm certain we'd all die of boredom out here.\"",
+    "translated": "Pond rit trop fort. \"Cher Menes, où avez-vous déniché un personnage aussi fantastique ? Sans vous, je suis certain que nous mourrions tous d'ennui ici.\""
+  },
+  {
+    "csv_row": 2771,
+    "id": "BFFIapHub1optC",
+    "column": "text",
+    "original": "Pond laughs a little too loudly. \"Of course we've just met, but dear Menes spoke of a Knight from some unseemly background, and it's a tale which can't but seize the imagination, am I wrong?\"",
+    "translated": "Pond rit un peu trop fort. \"Bien sûr, nous venons à peine de nous rencontrer, mais cher Menes nous a parlé d'un Chevalier aux origines quelque peu inconvenantes, et c'est un récit qui ne peut que captiver l'imagination, n'est-ce pas ?\""
+  },
+  {
+    "csv_row": 2772,
+    "id": "BFFIapHub1optD",
+    "column": "text",
+    "original": "Pond's grin widens. \"My thoughts are the same, and you know what they say about great-\"",
+    "translated": "Le sourire de Pond s'élargit. \"Mes pensées sont les mêmes, et vous savez ce qu'on dit des grands-\""
+  },
+  {
+    "csv_row": 2774,
+    "id": "BFFIapHub1optF",
+    "column": "text",
+    "original": "Pond laughs too loudly. \"How odd! Dear Menes, where did you find such a fantastic character? I, for one, cannot wait to discover what this evening has in store.\"",
+    "translated": "Pond rit trop fort. \"Comme c'est étrange ! Cher Menes, où avez-vous déniché un personnage aussi fantastique ? Pour ma part, j'ai hâte de découvrir ce que cette soirée nous réserve.\""
+  },
+  {
+    "csv_row": 2775,
+    "id": "BFFIattendPartyHub1Out1",
+    "column": "text",
+    "original": "Menes slaps a hand on Pond's shoulder, causing him to nearly spill his drink.\n\n\"Ulmus, Ulmus! You'll have plenty of time to speak with the good captain later. I did promise a surprise, a private showing for $playerHimOrHer and $playerHisOrHer noble Knight. You might know the piece, my friend,\" he winks again, this time to Pond.\n\n\"Come along, come along!\" Menes says, grabbing your arm. Ulmus Pond's eyes follow you, fawning oozingly.",
+    "translated": "Menes tape sur l'épaule de Pond, manquant de lui faire renverser son verre.\n\n\"Ulmus, Ulmus ! Vous aurez tout le temps de parler avec le bon capitaine plus tard. J'avais promis une surprise, une présentation privée pour $playerHimOrHer et $playerHisOrHer noble Chevalier. Vous connaissez peut-être la pièce, mon ami,\" il fait un nouveau clin d'oeil, cette fois à Pond.\n\n\"Venez, venez !\" dit Menes en vous attrapant le bras. Les yeux d'Ulmus Pond vous suivent, obséquieux à souhait."
+  },
+  {
+    "csv_row": 2775,
+    "id": "BFFIattendPartyHub1Out1",
+    "column": "options",
+    "option_line": "bffi_apHub1Out2:Laisser Menes vous entraîner",
+    "original": "Allow Menes to pull you along",
+    "translated": "Laisser Menes vous entraîner"
+  },
+  {
+    "csv_row": 2776,
+    "id": "BFFIattendPartyHub1Out2",
+    "column": "text",
+    "original": "Menes leads you and Bornanew to his inner sanctum, flashing a grin as he operates a series of obtrusive biometric checks.\n\nThe air cools by a degree, perhaps two, the armored mass of the walls felt as a dullness through your feet. The subdued lighting, drapery, and framing of the space suggest the interior of a bank vault or a shrine, though not to the praise of any Luddic virtue.\n\nQuite the contrary, depending on one's outlook.",
+    "translated": "Menes vous guide, vous et Bornanew, vers son sanctuaire intérieur, affichant un sourire alors qu'il procède à une série de contrôles biométriques ostensibles.\n\nL'air se rafraîchit d'un degré, peut-être deux, la masse blindée des murs se fait sentir comme une lourdeur à travers vos pieds. L'éclairage tamisé, les draperies et l'agencement de l'espace évoquent l'intérieur d'un coffre-fort bancaire ou d'un sanctuaire, bien que ce ne soit pas en l'honneur d'une quelconque vertu luddique.\n\nBien au contraire, selon le point de vue."
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 9053,
+    "id": "sdtuUmbraAskAgentQMback",
+    "column": "text",
+    "original": "\"Wait, what? You just said...\"\n\n$HeOrShe gives you a funny look.",
+    "translated": "\"Attendez, quoi ? Vous venez de dire...\"\n\n$HeOrShe vous lance un drôle de regard."
+  },
+  {
+    "csv_row": 9054,
+    "id": "sdtuUmbraAskAgentQM3",
+    "column": "options",
+    "option_line": "sdtu_umbraImoinuAgent3:\"They're burned, Imoinu. This way still gets a win for the ARC and the United Front.\"",
+    "original": "They're burned, Imoinu. This way still gets a win for the ARC and the United Front.",
+    "translated": "Ils sont grillés, Imoinu. De cette façon, l'ARC et le Front Uni y gagnent quand même."
+  },
+  {
+    "csv_row": 9055,
+    "id": "sdtuUmbraAskAgentQM4",
+    "column": "options",
+    "option_line": "sdtu_umbraImoinuAgent4:\"And they'll come to no harm.\"",
+    "original": "And they'll come to no harm.",
+    "translated": "Et il ne leur sera fait aucun mal."
+  },
+  {
+    "csv_row": 9055,
+    "id": "sdtuUmbraAskAgentQM4",
+    "column": "options",
+    "option_line": "sdtu_umbraImoinuAgent4lie:\"And they'll definitely come to no harm.\" (lie)",
+    "original": "And they'll definitely come to no harm.\" (lie)",
+    "translated": "Et il ne leur sera fait absolument aucun mal.\" (mensonge)"
+  },
+  {
+    "csv_row": 9057,
+    "id": "sdtuUmbraAskAgentQM5",
+    "column": "text",
+    "original": "Arrangements are made, the agent - the strong-jawed image of the perfect Lion's Guard recruit - is briefed, then quietly transferred to your $shipOrFleet in a volatiles tank modified for smuggling human passengers.\n\n\"I hope you know what you're doing,\" Imoinu says.",
+    "translated": "Les dispositions sont prises, l'agent - l'image à la mâchoire carrée de la recrue parfaite de la Garde du Lion - est briefé, puis discrètement transféré vers votre $shipOrFleet dans un réservoir de volatiles modifié pour le transport clandestin de passagers.\n\n\"J'espère que vous savez ce que vous faites,\" dit Imoinu."
+  },
+  {
+    "csv_row": 9061,
+    "id": "sdtuUmbraTrickVIPimoinu",
+    "column": "text",
+    "original": "You explain that an agent who Horacio Caden thinks is working for the Lion's Guard, and who the resistance thinks is working for them, is in fact working for a separate branch of Sindrian Diktat intelligence entirely - under Dolos Macario's command. \n\nA triple agent, in other words. How else would you have such detailed inside information 'stolen' directly from Macario's INTSEC database?\n\nIt's a complex story, but you begin to see your suggested truth sink in to $personName.\n\n\"You mean to tell me they've been working against the uprising the whole time,\" she says, her outrage growing. \"How do you have this information?\"",
+    "translated": "Vous expliquez qu'un agent qu'Horacio Caden croit travailler pour la Garde du Lion, et que la résistance croit travailler pour elle, travaille en réalité pour une branche entièrement distincte du renseignement du Diktat Sindrien - sous les ordres de Dolos Macario.\n\nUn triple agent, en d'autres termes. Comment sinon auriez-vous des informations aussi détaillées 'volées' directement dans la base de données de l'INTSEC de Macario ?\n\nC'est une histoire complexe, mais vous commencez à voir votre vérité suggérée faire son chemin chez $personName.\n\n\"Vous voulez me dire qu'ils ont travaillé contre le soulèvement depuis le début,\" dit-elle, son indignation grandissante. \"Comment avez-vous ces informations ?\""
+  },
+  {
+    "csv_row": 9062,
+    "id": "sdtuUmbraTrickVIPimoinuB",
+    "column": "text",
+    "original": "You explain that an agent who Horacio Caden thinks is working for the Lion's Guard, and who the resistance thinks is working for them, is in fact working for a separate branch of Sindrian Diktat intelligence entirely - under Dolos Macario's command. \n\nA triple agent, in other words. How else would you have such detailed inside information 'stolen' directly from Macario's INTSEC database?\n\nIt's a complex story, but you begin to see your suggested truth sink in to $personName.\n\n\"You mean to tell me they've been working against the uprising the whole time,\" she says, her outrage growing. \"You've helped us before, captain... and now this.\"",
+    "translated": "Vous expliquez qu'un agent qu'Horacio Caden croit travailler pour la Garde du Lion, et que la résistance croit travailler pour elle, travaille en réalité pour une branche entièrement distincte du renseignement du Diktat Sindrien - sous les ordres de Dolos Macario.\n\nUn triple agent, en d'autres termes. Comment sinon auriez-vous des informations aussi détaillées 'volées' directement dans la base de données de l'INTSEC de Macario ?\n\nC'est une histoire complexe, mais vous commencez à voir votre vérité suggérée faire son chemin chez $personName.\n\n\"Vous voulez me dire qu'ils ont travaillé contre le soulèvement depuis le début,\" dit-elle, son indignation grandissante. \"Vous nous avez aidés avant, capitaine... et maintenant ceci.\""
+  },
+  {
+    "csv_row": 9062,
+    "id": "sdtuUmbraTrickVIPimoinuB",
+    "column": "options",
+    "option_line": "sdtu_umbraTrickVIPimoinuB2:\"And I need this agent. To get into Macario's favor, infiltrate his schemes.\"",
+    "original": "And I need this agent. To get into Macario's favor, infiltrate his schemes.",
+    "translated": "Et j'ai besoin de cet agent. Pour gagner les faveurs de Macario, infiltrer ses manigances."
+  },
+  {
+    "csv_row": 9063,
+    "id": "sdtuUmbraTrickVIPimoinuB2",
+    "column": "options",
+    "option_line": "sdtu_umbraTrickVIPending2:\"For the United Front!\"",
+    "original": "For the United Front!",
+    "translated": "Pour le Front Uni !"
+  },
+  {
+    "csv_row": 9064,
+    "id": "sdtuUmbraTrickVIPwarned",
+    "column": "text",
+    "original": "You explain that an agent who Horacio Caden thinks is working for the Lion's Guard, and who the resistance thinks is working for them, is in fact working for a separate branch of Sindrian Diktat intelligence entirely - under Dolos Macario's command. \n\nA triple agent, in other words. How else would you have such detailed inside information 'stolen' directly from Macario's INTSEC database?\n\nIt's a complex story. And $personName is not buying it.",
+    "translated": "Vous expliquez qu'un agent qu'Horacio Caden croit travailler pour la Garde du Lion, et que la résistance croit travailler pour elle, travaille en réalité pour une branche entièrement distincte du renseignement du Diktat Sindrien - sous les ordres de Dolos Macario.\n\nUn triple agent, en d'autres termes. Comment sinon auriez-vous des informations aussi détaillées 'volées' directement dans la base de données de l'INTSEC de Macario ?\n\nC'est une histoire complexe. Et $personName n'y croit pas."
+  }
+]

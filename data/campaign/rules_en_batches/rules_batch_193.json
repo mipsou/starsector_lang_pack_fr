@@ -1,0 +1,80 @@
+[
+  {
+    "csv_row": 4913,
+    "id": "gaFCReturnToAcademy11b",
+    "column": "options",
+    "option_line": "gaFC_return11b3:\"Vous essayez manifestement de rouvrir les Portails.\"",
+    "original": "Vous essayez manifestement de rouvrir les Portails.",
+    "translated": "Vous essayez manifestement de rouvrir les Portails."
+  },
+  {
+    "csv_row": 4913,
+    "id": "gaFCReturnToAcademy11b",
+    "column": "options",
+    "option_line": "gaFC_return11b4:Ne rien dire. You won't fall for this again.",
+    "original": "Ne rien dire. You won't fall for this again.",
+    "translated": "Ne rien dire. Vous ne vous ferez pas avoir cette fois."
+  },
+  {
+    "csv_row": 4920,
+    "id": "gaFCReturnToAcademy14b",
+    "column": "options",
+    "option_line": "gaFC_return15b:\"Je veux parler de vos intentions avec cette technologie.\"",
+    "original": "Je veux parler de vos intentions avec cette technologie.",
+    "translated": "Je veux parler de vos intentions avec cette technologie."
+  },
+  {
+    "csv_row": 4924,
+    "id": "postGAFCretiredArchonPL",
+    "column": "text",
+    "original": "$HeOrShe recognizes you with a start and $hisOrHer attempt to put on a neutral face to greet the comm request collapses.\n\n\"Demarchon $playerName. We meet again.\"",
+    "translated": "$HeOrShe vous reconnaît avec un sursaut et sa tentative d'afficher un visage neutre pour accueillir la demande de comm s'effondre.\n\n\"Démarque $playerName. Nous nous revoyons.\""
+  },
+  {
+    "csv_row": 4924,
+    "id": "postGAFCretiredArchonPL",
+    "column": "options",
+    "option_line": "postGAFC_retiredArchonPL1:\"What happened? Weren't you the archon of Laicaille?\"",
+    "original": "What happened? Weren't you the archon of Laicaille?",
+    "translated": "Que s'est-il passé ? N'étiez-vous pas l'archonte de Laicaille ?"
+  },
+  {
+    "csv_row": 4927,
+    "id": "postGAFCretiredArchon1b",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 4928,
+    "id": "postGAFCretiredArchonPL1",
+    "column": "text",
+    "original": "\"I was, yes.\" $HeOrShe lets this stand for a moment. \"I, we, embarrassed some important people. Gens out of Kazeron.\" \n\n$HeOrShe pauses, then shrugs. \"Reynard Hannan. He didn't like the way things went. Made him look bad. He turned our executive council against me. Wasn't hard for him. Gens Hannan is behind most of the out-of-system investment, to say nothing of control over Fleet patrols. And that was it.\"\n\n\"I don't hold anything against you, demarchon. They won,\" $heOrShe says, then shakes $hisOrHer head. \"Laicaille Habitat is small and poor in the grand scheme of the Persean League. Despite what the charter says, that's all there is to it.\"",
+    "translated": "\"Je l'étais, oui.\" $HeOrShe laisse planer un silence. \"J'ai, nous avons, embarrassé des personnes importantes. Des gens de Kazeron.\"\n\n$HeOrShe marque une pause, puis hausse les épaules. \"Reynard Hannan. Il n'a pas aimé la tournure des événements. Ça l'a fait passer pour un imbécile. Il a retourné notre conseil exécutif contre moi. Ce n'était pas difficile pour lui. Gens Hannan est derrière la plupart des investissements hors-système, sans parler du contrôle des patrouilles de la Flotte. Et voilà.\"\n\n\"Je ne vous en veux pas, démarque. Ils ont gagné,\" dit $heOrShe, puis secoue la tête. \"L'Habitat Laicaille est petit et pauvre dans le grand ordre de la Ligue Persane. Malgré ce que dit la charte, c'est tout ce qu'il y a à en dire.\""
+  },
+  {
+    "csv_row": 4928,
+    "id": "postGAFCretiredArchonPL1",
+    "column": "options",
+    "option_line": "postGAFC_retiredArchon2:\"This is unjust. Is there anything I can do?\"",
+    "original": "This is unjust. Is there anything I can do?",
+    "translated": "C'est injuste. Puis-je faire quelque chose ?"
+  },
+  {
+    "csv_row": 4928,
+    "id": "postGAFCretiredArchonPL1",
+    "column": "options",
+    "option_line": "postGAFC_retiredArchon1b:\"Are they going to come after me next?\"",
+    "original": "Are they going to come after me next?",
+    "translated": "Vont-ils s'en prendre à moi ensuite ?"
+  },
+  {
+    "csv_row": 4928,
+    "id": "postGAFCretiredArchonPL1",
+    "column": "options",
+    "option_line": "cutCommLink:\"My condolences. I must be on my way.\" (cut comm link)",
+    "original": "My condolences. I must be on my way.\" (cut comm link)",
+    "translated": "Mes condoléances. Je dois y aller.\" (couper la comm)"
+  }
+]

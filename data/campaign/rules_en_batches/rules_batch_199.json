@@ -1,0 +1,82 @@
+[
+  {
+    "csv_row": 5232,
+    "id": "GAPZDiktatHub5",
+    "column": "options",
+    "option_line": "gaPZ_diktatComp:\"Et une quelconque compensation ?\"",
+    "original": "Et une quelconque compensation ?",
+    "translated": "Et une quelconque compensation ?"
+  },
+  {
+    "csv_row": 5233,
+    "id": "GAPZDiktatHub6",
+    "column": "options",
+    "option_line": "gaPZ_diktatSurrender:\"Comme vous voudrez.\" (surrender the Ziggurat-class hull)",
+    "original": "Comme vous voudrez.\" (surrender the Ziggurat-class hull)",
+    "translated": "Comme vous voudrez.\" (remettre la coque de classe Ziggurat)"
+  },
+  {
+    "csv_row": 5234,
+    "id": "gaPZ_diktatCom",
+    "column": "options",
+    "option_line": "gaPZ_diktatComComp:\"Et une compensation ?\"",
+    "original": "Et une compensation ?",
+    "translated": "Et une compensation ?"
+  },
+  {
+    "csv_row": 5241,
+    "id": "gaPZ_diktatDefend",
+    "column": "options",
+    "option_line": "gaPZ_diktatDisobedience:\"La mort, soit.\"",
+    "original": "La mort, soit.",
+    "translated": "La mort, soit."
+  },
+  {
+    "csv_row": 5245,
+    "id": "gaPZ_diktatVanish1",
+    "column": "options",
+    "option_line": "gaPZ_diktatVanish2:Attendre it out",
+    "original": "Attendre it out",
+    "translated": "Attendre que ça passe"
+  },
+  {
+    "csv_row": 5257,
+    "id": "gaPZ_cotton",
+    "column": "options",
+    "option_line": "gaPZ_cottonNoFollow:Ne pas suivre",
+    "original": "Ne pas suivre",
+    "translated": "Ne pas suivre"
+  },
+  {
+    "csv_row": 5258,
+    "id": "gaKA_cotton2",
+    "column": "options",
+    "option_line": "gaPZ_cottonLeave:Revenir au bar instead",
+    "original": "Revenir au bar instead",
+    "translated": "Revenir au bar plutôt"
+  },
+  {
+    "csv_row": 5262,
+    "id": "GAPZCottonGreet1",
+    "column": "options",
+    "option_line": "gaPZ_cottonShake:Lui serrer la main",
+    "original": "Lui serrer la main",
+    "translated": "Lui serrer la main"
+  },
+  {
+    "csv_row": 5262,
+    "id": "GAPZCottonGreet1",
+    "column": "options",
+    "option_line": "gaPZ_cottonNoShake:Ne pas lui serrer la main",
+    "original": "Ne pas lui serrer la main",
+    "translated": "Ne pas lui serrer la main"
+  },
+  {
+    "csv_row": 5263,
+    "id": "GAPZCottonGreet2",
+    "column": "options",
+    "option_line": "gaPZ_cottonShake:Lui serrer la main",
+    "original": "Lui serrer la main",
+    "translated": "Lui serrer la main"
+  }
+]

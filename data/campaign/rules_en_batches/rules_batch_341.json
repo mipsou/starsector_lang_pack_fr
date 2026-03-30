@@ -1,0 +1,79 @@
+[
+  {
+    "csv_row": 10229,
+    "id": "pk_diktatComplySel",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 10230,
+    "id": "pk_diktatComplyHappySel",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 10232,
+    "id": "pk_diktatCreditsSel2",
+    "column": "text",
+    "original": "\"Votre egoisme et votre cupidite ne seront pas oublies, $playerName.\"",
+    "translated": "\"Votre égoïsme et votre cupidité ne seront pas oubliés, $playerName.\""
+  },
+  {
+    "csv_row": 10232,
+    "id": "pk_diktatCreditsSel2",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 10235,
+    "id": "pk_executorInsistSel2",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 10236,
+    "id": "pk_executorSpecialSel",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 10237,
+    "id": "PKDiktatExecutorNotReady",
+    "column": "text",
+    "original": "\"Vous,\" dit $heOrShe avec un rictus veritablement laid qui vous dit tout sur son opinion.\n\n\"Ce n'est pas pret.\"\n\nLe $Rank du Diktat Sindrien coupe brutalement les communications.",
+    "translated": "\"Vous,\" dit $heOrShe avec un rictus véritablement laid qui vous dit tout sur son opinion.\n\n\"Ce n'est pas prêt.\"\n\nLe $Rank du Diktat Sindrien coupe brutalement les communications."
+  },
+  {
+    "csv_row": 10237,
+    "id": "PKDiktatExecutorNotReady",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 10238,
+    "id": "PKDiktatExecutorReady",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 10242,
+    "id": "PKGiveToChurchAgain",
+    "column": "text",
+    "original": "\"Hors d'ici !\" crie $HeOrShe avant de couper la communication.",
+    "translated": "\"Hors d'ici !\" crie $HeOrShe avant de couper la communication."
+  }
+]

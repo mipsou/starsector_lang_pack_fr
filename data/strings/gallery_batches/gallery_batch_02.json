@@ -1,0 +1,86 @@
+[
+  {
+    "csv_row": 635,
+    "id": "jangala_station",
+    "title": "Jangala Station",
+    "original_text": "Orbiting megacity, naval yard, and port; the axis of Corvus, swarmed by Starship traffic. Ancient repair gantries skulked between corroded industrial hangars in the shadow of laboratory rings and support modules. Higher still, commercial bays and metroplex districts were shepherded by the C&C spire bristling with weapons pods.",
+    "translated_title": "Station Jangala",
+    "translated_text": "Mégapole orbitale, chantier naval et port ; l'axe de Corvus, grouillant de trafic stellaire. D'anciens portiques de réparation se tapissaient entre des hangars industriels corrodés, à l'ombre des anneaux de laboratoires et des modules de support. Plus haut encore, des baies commerciales et des quartiers de métroplex étaient surveillés par la flèche de commandement et contrôle hérissée de pods d'armement."
+  },
+  {
+    "csv_row": 636,
+    "id": "industrial_megafacility",
+    "title": "Industrial Megafacility",
+    "original_text": "Heavy industrial manufacturing relied on great nanoforges recovered from the ruins of the Domain. However their output quality decayed over cycles; nanoscale corruption led to growing macroscopic flaws. Much of the output had to be repaired by cruder methods, and much was scrapped and fed back as the refined feedstock for which the aging forges ever hungered.",
+    "translated_title": "Mégafacilité Industrielle",
+    "translated_text": "La fabrication industrielle lourde reposait sur de grandes nanoforges récupérées des ruines du Domain. Cependant, leur qualité de production se dégradait au fil des cycles ; la corruption à l'échelle nanométrique entraînait des défauts macroscopiques croissants. Une grande partie de la production devait être réparée par des méthodes plus grossières, et une bonne part était mise au rebut puis réinjectée comme matière première raffinée dont les forges vieillissantes étaient éternellement affamées."
+  },
+  {
+    "csv_row": 637,
+    "id": "terran_orbit",
+    "title": "Terran Orbit",
+    "original_text": "The Eridani-Utopia Terraforming Corporation specs provide the most widely accepted \"terran\" baseline for the allegedly ideal human environment.\n\nThe many deviations of natural planetary environments from the specifications may be corrected through technological intervention including ice-asteroid bombardment, orbital burns, biomodded ecosystems, orbital megastructures, and other methods provided by the EUT.",
+    "translated_title": "Orbite Terrienne",
+    "translated_text": "Les spécifications de la Corporation de Terraformation Eridani-Utopia fournissent la référence « terrienne » la plus largement acceptée pour l'environnement humain prétendument idéal.\n\nLes nombreuses déviations des environnements planétaires naturels par rapport aux spécifications peuvent être corrigées par des interventions technologiques incluant le bombardement d'astéroïdes de glace, les brûlages orbitaux, les écosystèmes biomodifiés, les mégastructures orbitales et d'autres méthodes fournies par l'EUT.",
+    "text2": "unlocked"
+  },
+  {
+    "csv_row": 638,
+    "id": "pirate_station",
+    "title": "Pirate Station",
+    "original_text": "\"Chaos? No sir, what it is, is honesty. Here, if a man wants you dead, you'll see it in his eyes 'fore he makes a move. Better that than a computer in some off-world office deciding your air supply isn't worth maintaining.\"\n\nSadly my guide was found dead the next shift. Shot in the back, ironically.",
+    "translated_title": "Station Pirate",
+    "translated_text": "« Le chaos ? Non monsieur, c'est de l'honnêteté. Ici, si un homme vous veut mort, vous le verrez dans ses yeux avant qu'il fasse un geste. C'est mieux qu'un ordinateur dans un bureau hors-monde qui décide que votre approvisionnement en air ne vaut pas le coût d'entretien. »\n\nTristement, mon guide fut retrouvé mort au quart suivant. Abattu dans le dos, ironiquement."
+  },
+  {
+    "csv_row": 639,
+    "id": "urban00",
+    "title": "Metroplex 00",
+    "original_text": "Statistical sampling suggests that a significant percent of all economic activity in the Sector is 'off the books', and a significant portion of that goes toward 'pirates' and so-called 'decivilized' populations, to say nothing of the undocumented populations within the Core itself. The census of the Persean Sector could be off by as much as an order of magnitude. Imagine!",
+    "translated_title": "Métroplex 00",
+    "translated_text": "L'échantillonnage statistique suggère qu'un pourcentage significatif de toute l'activité économique du Secteur se fait « au noir », et qu'une part importante de celle-ci profite aux « pirates » et aux populations dites « décivilisées », sans parler des populations non recensées au sein même du Noyau. Le recensement du Secteur Persane pourrait être erroné d'un ordre de grandeur. Imaginez !",
+    "text2": "unlocked"
+  },
+  {
+    "csv_row": 640,
+    "id": "urban01",
+    "title": "Metroplex 01",
+    "original_text": "The people of Chicomoztoc, the majority population of the Persean Sector, lived in vast underground arcologies blasted into the sleeping crust of their world. This cluster of conjoined hive-cities were ruled as often by powerful demagogues promising reform and employment as by technocrat-criminal patronage networks distributing spoils to their supporters -- and influence to whoever was paying them off.",
+    "translated_title": "Métroplex 01",
+    "translated_text": "Le peuple de Chicomoztoc, la population majoritaire du Secteur Persane, vivait dans de vastes arcologies souterraines creusées dans la croûte endormie de leur monde. Cet amas de cités-ruches conjointes était gouverné aussi souvent par de puissants démagogues promettant réforme et emploi que par des réseaux de patronage technocrate-criminel distribuant le butin à leurs partisans — et l'influence à quiconque les arrosait.",
+    "text2": "unlocked"
+  },
+  {
+    "csv_row": 641,
+    "id": "urban02",
+    "title": "Kay-arco",
+    "original_text": "Cyclopean arcology substructure flashed by the windows of the primary ring tube toward a far segment of the metroplex. A smaller passenger lift filled with the smell of sweat and machine oil as a shift of undersea laborers returned home. Glimpses of the towering arms of Kay-arco appeared for short seconds, glittering with thousands of windows, before being again darkened by a blur of mildewed plating.",
+    "translated_title": "Kay-arco",
+    "translated_text": "L'infrastructure cyclopéenne de l'arcologie défilait par les fenêtres du tube annulaire principal vers un segment éloigné du métroplex. Un ascenseur de passagers plus petit s'emplissait de l'odeur de sueur et d'huile de machine tandis qu'une équipe d'ouvriers sous-marins rentrait chez elle. Les bras imposants de Kay-arco apparaissaient fugacement, scintillant de milliers de fenêtres, avant d'être à nouveau obscurcis par un défilé flou de plaques moisies.",
+    "text2": "unlocked"
+  },
+  {
+    "csv_row": 642,
+    "id": "urban03",
+    "title": "Hive City",
+    "original_text": "The hives of Chicomoztoc were occasionally locked down by riots, protest, or insurrection. But so long as the great Forges kept churning out starships, machinery, and goods, the Hegemony meddled only lightly in that great underworld of humanity.",
+    "translated_title": "Cité-Ruche",
+    "translated_text": "Les ruches de Chicomoztoc étaient parfois confinées par des émeutes, des protestations ou des insurrections. Mais tant que les grandes Forges continuaient à produire des vaisseaux, des machines et des marchandises, l'Hégémonie n'intervenait que légèrement dans ce grand monde souterrain de l'humanité."
+  },
+  {
+    "csv_row": 643,
+    "id": "orbital",
+    "title": "Orbital Station",
+    "original_text": "Enormous orbital stations hosted shipyards, habitats, factories, and stockpiles of weapons and supplies.\n\nThese platforms allowed what remained of humanity to organize interstellar polities and project military and commercial power across the Persean Sector.",
+    "translated_title": "Station Orbitale",
+    "translated_text": "D'énormes stations orbitales abritaient des chantiers navals, des habitats, des usines et des stocks d'armes et de fournitures.\n\nCes plateformes permirent à ce qui restait de l'humanité d'organiser des entités politiques interstellaires et de projeter leur puissance militaire et commerciale à travers le Secteur Persane."
+  },
+  {
+    "csv_row": 644,
+    "id": "mine",
+    "title": "Mine",
+    "original_text": "\"It's a story as old as time. We gotta get what's good down in there up and out where it can go off somewhere else to make someone else rich.\"\n\n\"Miserable work, it's true, but there's ways of coping.\"",
+    "translated_title": "Mine",
+    "translated_text": "« C'est une histoire vieille comme le monde. Faut sortir c'qui est bon là en bas pour l'envoyer ailleurs rendre quelqu'un d'autre riche. »\n\n« Un boulot misérable, c'est vrai, mais y'a des moyens de tenir le coup. »"
+  }
+]

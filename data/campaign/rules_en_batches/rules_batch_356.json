@@ -1,0 +1,78 @@
+[
+  {
+    "csv_row": 10893,
+    "id": "gaDHOendingRewardFirstBnm",
+    "column": "text",
+    "original": "Elek raises his eyebrows and gives you a skeptical look.",
+    "translated": "Elek hausse les sourcils et vous lance un regard sceptique."
+  },
+  {
+    "csv_row": 10894,
+    "id": "gaDHOendingRewardFirst",
+    "column": "text",
+    "original": "He lets out an impatient huff.",
+    "translated": "Il laisse échapper un soupir impatient."
+  },
+  {
+    "csv_row": 10897,
+    "id": "gaDHOendingAskReward20k",
+    "column": "text",
+    "original": "\"Here we are. The payment.\"\n\nYour TriPad pings softly.",
+    "translated": "\"Voilà. Le paiement.\"\n\nVotre TriPad émet un bip discret."
+  },
+  {
+    "csv_row": 10898,
+    "id": "gaDHOendingAskReward50k",
+    "column": "text",
+    "original": "\"Here we are,\" he says, raising his eyebrows at you.\n\nYour TriPad pings softly.",
+    "translated": "\"Voilà,\" dit-il en haussant les sourcils dans votre direction.\n\nVotre TriPad émet un bip discret."
+  },
+  {
+    "csv_row": 10902,
+    "id": "gaDHOendingAskRewardPostOptA",
+    "column": "options",
+    "option_line": "gaDHO_endingDataTransfer:\"Correct. Transferring data now.\"",
+    "original": "Correct. Transferring data now.",
+    "translated": "Exact. Transfert des données en cours."
+  },
+  {
+    "csv_row": 10903,
+    "id": "gaDHOendingAskRewardPostOptA2",
+    "column": "options",
+    "option_line": "gaDHO_endingDataTransfer:\"Transferring data now.\"",
+    "original": "Transferring data now.",
+    "translated": "Transfert des données en cours."
+  },
+  {
+    "csv_row": 10905,
+    "id": "gaDHOendingAskRewardPostOptC",
+    "column": "options",
+    "option_line": "gaDHO_endingTellFound:Tell him about the Onslaught Mk.I and the Threat",
+    "original": "Tell him about the Onslaught Mk.I and the Threat",
+    "translated": "Lui parler de l'Onslaught Mk.I et de la Menace"
+  },
+  {
+    "csv_row": 10906,
+    "id": "gaDHOendingAskRewardPostOptD",
+    "column": "options",
+    "option_line": "gaDHO_endingWrapUp:\"Well? What do you think of the data?\"",
+    "original": "Well? What do you think of the data?",
+    "translated": "Alors ? Qu'en pensez-vous, de ces données ?"
+  },
+  {
+    "csv_row": 10910,
+    "id": "gaDHOendingFoundFirst1",
+    "column": "options",
+    "option_line": "gaDHO_endingDataTransfer:\"My combat recordings and sensor data prove it. Transmitting now.\"",
+    "original": "My combat recordings and sensor data prove it. Transmitting now.",
+    "translated": "Mes enregistrements de combat et données de capteurs le prouvent. Transmission en cours."
+  },
+  {
+    "csv_row": 10910,
+    "id": "gaDHOendingFoundFirst1",
+    "column": "options",
+    "option_line": "gaDHO_endingAskReward:\"My combat recordings and sensor data prove it. I'll transmit after payment.\"",
+    "original": "My combat recordings and sensor data prove it. I'll transmit after payment.",
+    "translated": "Mes enregistrements de combat et données de capteurs le prouvent. Je transmettrai après paiement."
+  }
+]

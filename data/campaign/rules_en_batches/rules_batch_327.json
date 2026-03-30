@@ -1,0 +1,82 @@
+[
+  {
+    "csv_row": 9602,
+    "id": "plEnforcerComplySel2",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 9604,
+    "id": "plEnforcerRefusePlayerStrongerSel",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 9606,
+    "id": "plEnforcerJoinLeagueGoodSel",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 9612,
+    "id": "plPunExComms",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 9613,
+    "id": "plPunExComms2",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 9615,
+    "id": "plBlockaderComms",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 9635,
+    "id": "PLArmadaThisIsPiracy2d",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper les comms",
+    "original": "Couper les comms",
+    "translated": "Couper les comms"
+  },
+  {
+    "csv_row": 9636,
+    "id": "PLArmadaIdealisticNo",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 9637,
+    "id": "PLArmadaIdealisticYes",
+    "column": "options",
+    "option_line": "cutCommLinkPolite:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 9638,
+    "id": "PLArmadaCynicalNo",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  }
+]

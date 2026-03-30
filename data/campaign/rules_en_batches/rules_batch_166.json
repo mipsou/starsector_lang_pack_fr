@@ -1,0 +1,82 @@
+[
+  {
+    "csv_row": 4022,
+    "id": "salRuinsGG_extensive",
+    "column": "options",
+    "option_line": "5:salExplore:Explorer the ruins",
+    "original": "salExplore:Explorer the ruins",
+    "translated": "salExplore:Explorer les ruines"
+  },
+  {
+    "csv_row": 4023,
+    "id": "salRuinsGG_vast",
+    "column": "options",
+    "option_line": "5:salExplore:Explorer the ruins",
+    "original": "salExplore:Explorer the ruins",
+    "translated": "salExplore:Explorer les ruines"
+  },
+  {
+    "csv_row": 4042,
+    "id": "zig_alphaContinueOpt2",
+    "column": "options",
+    "option_line": "zigAlphaContinue3:Ordonner la poursuite de l'exploration",
+    "original": "Ordonner la poursuite de l'exploration",
+    "translated": "Ordonner la poursuite de l'exploration"
+  },
+  {
+    "csv_row": 4051,
+    "id": "zig_alphaSite",
+    "column": "options",
+    "option_line": "0:alphaSiteExplore1:Send a salvage team down to the facility",
+    "original": "alphaSiteExplore1:Send a salvage team down to the facility",
+    "translated": "alphaSiteExplore1:Envoyer une équipe de récupération dans l'installation"
+  },
+  {
+    "csv_row": 4052,
+    "id": "zig_alphaSiteAlreadyExplored",
+    "column": "options",
+    "option_line": "0:alphaSiteExplore1:Replay the recording",
+    "original": "alphaSiteExplore1:Replay the recording",
+    "translated": "alphaSiteExplore1:Rejouer l'enregistrement"
+  },
+  {
+    "csv_row": 4054,
+    "id": "zig_alphaSiteAlreadyExploredNoSat",
+    "column": "options",
+    "option_line": "0:alphaSiteExplore1:Replay the recording",
+    "original": "alphaSiteExplore1:Replay the recording",
+    "translated": "alphaSiteExplore1:Rejouer l'enregistrement"
+  },
+  {
+    "csv_row": 4070,
+    "id": "gaOpenDialogDuringTutorial",
+    "column": "options",
+    "option_line": "0:gaDuringTutorialMoreInfo1:\"Que se passe-t-il ici ?\"",
+    "original": "gaDuringTutorialMoreInfo1:\"Que se passe-t-il ici ?",
+    "translated": "gaDuringTutorialMoreInfo1:\"Que se passe-t-il ici ?"
+  },
+  {
+    "csv_row": 4070,
+    "id": "gaOpenDialogDuringTutorial",
+    "column": "options",
+    "option_line": "100:defaultLeave:Remercier l'officier et raccrocher.",
+    "original": "defaultLeave:Remercier l'officier et raccrocher.",
+    "translated": "defaultLeave:Remercier l'officier et raccrocher."
+  },
+  {
+    "csv_row": 4072,
+    "id": "gaDuringTutorialMoreInfo2",
+    "column": "options",
+    "option_line": "100:defaultLeave:Remercier l'officier et raccrocher.",
+    "original": "defaultLeave:Remercier l'officier et raccrocher.",
+    "translated": "defaultLeave:Remercier l'officier et raccrocher."
+  },
+  {
+    "csv_row": 4083,
+    "id": "gaMeetHegLtCoatl4",
+    "column": "options",
+    "option_line": "backToBar:Jeter un œil autour du bar",
+    "original": "Jeter un œil autour du bar",
+    "translated": "Jeter un œil autour du bar"
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 3450,
+    "id": "BFFIarrestOutroPCshot4",
+    "column": "options",
+    "option_line": "bffi_arrestCurateEnd:Sleep for a while",
+    "original": "Sleep for a while",
+    "translated": "Dormir un moment"
+  },
+  {
+    "csv_row": 3451,
+    "id": "BFFIarrestOutroEscape",
+    "column": "text",
+    "original": "You are of little use in the search, being unfamiliar with the cathedral. The Knight-Captain whose name you almost forgot to ask - \"Larix,\" he said, \"Knight-Captain Dejan Larix\" before shouting orders to a hastily assembled squad of Knight-Novices, all obviously far younger than Bornanew.\n\nBornanew, for one, is stabilized in the infirmary, part of the sprawling church infrastructure spilling from the cathedral. ",
+    "translated": "Vous êtes de peu d'utilité dans les recherches, ne connaissant pas la cathédrale. Le Chevalier-Capitaine dont vous avez failli oublier de demander le nom - \"Larix,\" dit-il, \"Chevalier-Capitaine Dejan Larix\" avant de crier des ordres à une escouade de Chevaliers-Novices hâtivement rassemblée, tous visiblement bien plus jeunes que Bornanew.\n\nBornanew, quant à lui, est stabilisé à l'infirmerie, partie de la vaste infrastructure ecclésiastique qui s'étend depuis la cathédrale. "
+  },
+  {
+    "csv_row": 3452,
+    "id": "BFFIarrestOutroCaught",
+    "column": "text",
+    "original": "* * *\n\nYou are nearly forgotten in the chaos. Before long, a meek apprentice directs you to the offices of the Luddic Knights where you make a statement and discuss the incident with the Knight-Captain. You only just remember to ask him his name. \n\n\"Larix,\" he says, \"Knight-Captain Dejan Larix\" before shouting orders to a hastily assembled squad of Knight-novices, all obviously far younger than Bornanew.\n\nWho, for one, is stabilized in the infirmary, part of the sprawling church infrastructure spilling from the cathedral. ",
+    "translated": "* * *\n\nVous êtes presque oublié dans le chaos. Bientôt, un apprenti timide vous dirige vers les bureaux des Chevaliers Luddiques où vous faites une déposition et discutez de l'incident avec le Chevalier-Capitaine. Vous vous souvenez tout juste de lui demander son nom.\n\n\"Larix,\" dit-il, \"Chevalier-Capitaine Dejan Larix\" avant de crier des ordres à une escouade de Chevaliers-Novices hâtivement rassemblée, tous visiblement bien plus jeunes que Bornanew.\n\nQui, quant à lui, est stabilisé à l'infirmerie, partie de la vaste infrastructure ecclésiastique qui s'étend depuis la cathédrale. "
+  },
+  {
+    "csv_row": 3453,
+    "id": "BFFIarrestOutroInjured",
+    "column": "text",
+    "original": "The resident physician is more practical than traditional, and sees fit to consult with your own chief medical officer. A patient transfer is arranged, and even a special dispensation (granted by the embarrassed archcurate) to land a shuttle on a field near to the Cathedral of Holy Exodus.\n\nThe implicit use of technologies which would be awkward to employ on Church grounds to save Bornanew's life is left unsaid.",
+    "translated": "Le médecin résident est plus pragmatique que traditionaliste, et juge bon de consulter votre propre médecin-chef. Un transfert de patient est organisé, ainsi qu'une dispense spéciale (accordée par l'archicuré embarrassé) pour poser une navette sur un terrain proche de la Cathédrale du Saint Exode.\n\nL'usage implicite de technologies qu'il serait gênant d'employer sur les terres de l'Église pour sauver la vie de Bornanew reste non-dit."
+  },
+  {
+    "csv_row": 3453,
+    "id": "BFFIarrestOutroInjured",
+    "column": "options",
+    "option_line": "bffi_arrestOutroInjured2:Return to your $shipOrFleet in orbit",
+    "original": "Return to your $shipOrFleet in orbit",
+    "translated": "Retourner à votre $shipOrFleet en orbite"
+  },
+  {
+    "csv_row": 3454,
+    "id": "BFFIarrestOutroInjured2",
+    "column": "text",
+    "original": "The cadre of Luddic Knights guarding the Cathedral of Holy Exodus defer to Bornanew's authority, despite his unconsciousness.\n\nKeepfaith, just Cedra now that her subcurateship has been summarily revoked by order of the archcurate, is delivered to you flagship. She is restrained, and now - away from her small kingdom - timid, though still glowering.\n\n\"I will be absolved,\" she says hoarsely. \"You shall witness my righteousness before the end.\"\n\nOne of your guards closes the brig door, its weight silent.",
+    "translated": "Le cadre de Chevaliers Luddiques gardant la Cathédrale du Saint Exode s'en remet à l'autorité de Bornanew, malgré son inconscience.\n\nKeepfaith, simplement Cedra maintenant que sa charge de sous-curée a été sommairement révoquée par ordre de l'archicuré, est livrée à votre vaisseau amiral. Elle est entravée, et désormais - loin de son petit royaume - timide, bien que toujours menaçante du regard.\n\n\"Je serai absoute,\" dit-elle d'une voix rauque. \"Vous serez témoin de ma droiture avant la fin.\"\n\nL'un de vos gardes ferme la porte de la cellule, son poids silencieux."
+  },
+  {
+    "csv_row": 3454,
+    "id": "BFFIarrestOutroInjured2",
+    "column": "options",
+    "option_line": "bffi_arrestOutroInjured3:Aller voir Bornanew",
+    "original": "Aller voir Bornanew",
+    "translated": "Aller voir Bornanew"
+  },
+  {
+    "csv_row": 3455,
+    "id": "BFFIarrestOutroInjured2escape",
+    "column": "text",
+    "original": "The cadre of Luddic Knights guarding the Cathedral of Holy Exodus defer to Bornanew's authority, despite his unconsciousness.\n\nKeepfaith, just Cedra now that her subcurateship has been summarily revoked by order of the archcurate, is nowhere to be found. You can only speculate that she called upon her Pather contacts for assistance.",
+    "translated": "Le cadre de Chevaliers Luddiques gardant la Cathédrale du Saint Exode s'en remet à l'autorité de Bornanew, malgré son inconscience.\n\nKeepfaith, simplement Cedra maintenant que sa charge de sous-curée a été sommairement révoquée par ordre de l'archicuré, est introuvable. Vous ne pouvez que supposer qu'elle a fait appel à ses contacts Pathers pour obtenir de l'aide."
+  },
+  {
+    "csv_row": 3455,
+    "id": "BFFIarrestOutroInjured2escape",
+    "column": "options",
+    "option_line": "bffi_arrestOutroInjured3escape:Aller voir Bornanew",
+    "original": "Aller voir Bornanew",
+    "translated": "Aller voir Bornanew"
+  },
+  {
+    "csv_row": 3456,
+    "id": "BFFIarrestOutroInjured3",
+    "column": "text",
+    "original": "It is some time before Bornanew regains consciousness.\n\nYour chief medical officer hovers nearby, giving you a stern look. You know you will not be allowed to overtrouble their patient.",
+    "translated": "Il faut un certain temps avant que Bornanew ne reprenne conscience.\n\nVotre médecin-chef rôde à proximité, vous lançant un regard sévère. Vous savez qu'on ne vous laissera pas importuner son patient."
+  }
+]

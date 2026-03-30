@@ -1,0 +1,79 @@
+[
+  {
+    "csv_row": 9097,
+    "id": "sdtuUmbraReleaseArcAgentLet",
+    "column": "text",
+    "original": "You see the agent off in a shuttle. \"Thank you, captain,\" they say.\n\n\"Burn bright.\"",
+    "translated": "Vous raccompagnez l'agent jusqu'à une navette. \"Merci, capitaine,\" disent-ils.\n\n\"Brillez intensément.\""
+  },
+  {
+    "csv_row": 9102,
+    "id": "sdtuMacarioNeedToTalkCaden",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 9122,
+    "id": "sdtuCadenDemandOptD",
+    "column": "options",
+    "option_line": "sdtu_cadenAgentMacarioLieB:\"Macario ordered the arrest. I've already delivered the agent to him.\" (lie)",
+    "original": "Macario ordered the arrest. I've already delivered the agent to him.\" (lie)",
+    "translated": "Macario a ordonné l'arrestation. Je lui ai déjà livré l'agent.\" (mensonge)"
+  },
+  {
+    "csv_row": 9127,
+    "id": "sdtuCadenAgentMacarioLieB",
+    "column": "options",
+    "option_line": "#sdtu_cadenAgentMacarioSecondLie:\"But... Macario said only his authority was second to the Supreme Executor...\" (lie)",
+    "original": "But... Macario said only his authority was second to the Supreme Executor...\" (lie)",
+    "translated": "Mais... Macario a dit que seule son autorité était seconde après celle de l'Exécuteur Suprême...\" (mensonge)"
+  },
+  {
+    "csv_row": 9127,
+    "id": "sdtuCadenAgentMacarioLieB",
+    "column": "options",
+    "option_line": "#sdtu_cadenTooFar:\"Treason it is, I guess. Death to Andrada! Death to all oppressors!\"",
+    "original": "Treason it is, I guess. Death to Andrada! Death to all oppressors!",
+    "translated": "Trahison, soit. Mort à Andrada ! Mort à tous les oppresseurs !"
+  },
+  {
+    "csv_row": 9138,
+    "id": "sdtuCadenTooFar",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 9142,
+    "id": "sdtuCadenMacControl1",
+    "column": "options",
+    "option_line": "sdtu_cadenMacPuppet1:\"Comme je l'ai dit. Macario croit qu'il dirigera le Diktat avec vous comme pantin.\"",
+    "original": "Comme je l'ai dit. Macario croit qu'il dirigera le Diktat avec vous comme pantin.",
+    "translated": "Comme je l'ai dit. Macario croit qu'il dirigera le Diktat avec vous comme pantin."
+  },
+  {
+    "csv_row": 9145,
+    "id": "sdtuCadenMacPuppet2b",
+    "column": "text",
+    "original": "\"Oui. Absolument.\" Caden frappe un poing dans l'autre pour appuyer ses mots.",
+    "translated": "\"Oui. Absolument.\" Caden frappe un poing dans l'autre pour appuyer ses mots."
+  },
+  {
+    "csv_row": 9154,
+    "id": "sdtuCadenExecRepliesB2a",
+    "column": "text",
+    "original": "Il ignore votre ton ou ne le percoit pas.",
+    "translated": "Il ignore votre ton ou ne le perçoit pas."
+  },
+  {
+    "csv_row": 9162,
+    "id": "sdtuCadenHyderBackWarn",
+    "column": "options",
+    "option_line": "sdtu_cadenHyderBackWarn1:\"Un avertissement. Hyder et la marine ne vous soutiendront pas.\"",
+    "original": "Un avertissement. Hyder et la marine ne vous soutiendront pas.",
+    "translated": "Un avertissement. Hyder et la marine ne vous soutiendront pas."
+  }
+]

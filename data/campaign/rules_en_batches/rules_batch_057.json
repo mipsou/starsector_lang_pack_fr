@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 2521,
+    "id": "BFINconvOptDontConsider",
+    "column": "options",
+    "option_line": "BFIN_dontConsider:\"It sounds like you don't consider this object to be a legitimate holy relic.\"",
+    "original": "It sounds like you don't consider this object to be a legitimate holy relic.",
+    "translated": "On dirait que vous ne considérez pas cet objet comme une relique sacrée légitime."
+  },
+  {
+    "csv_row": 2522,
+    "id": "BFINconvOptD",
+    "column": "options",
+    "option_line": "BFIN_howPenance:\"Just how much penance are they going to make you do?\"",
+    "original": "Just how much penance are they going to make you do?",
+    "translated": "Quelle pénitence vont-ils vous imposer exactement ?"
+  },
+  {
+    "csv_row": 2523,
+    "id": "BFINconvOptE",
+    "column": "options",
+    "option_line": "BFIN_howPenanceLuddic:\"Tell me of your penance.\"",
+    "original": "Tell me of your penance.",
+    "translated": "Parlez-moi de votre pénitence."
+  },
+  {
+    "csv_row": 2525,
+    "id": "BFINconvOptAcceptOut",
+    "column": "options",
+    "option_line": "BFFI_shuttleBornanew:Arrange a shuttle for Bornanew and close the comms",
+    "original": "Arrange a shuttle for Bornanew and close the comms",
+    "translated": "Organiser une navette pour Bornanew et couper la comm"
+  },
+  {
+    "csv_row": 2529,
+    "id": "BFINconvOptNotNow2",
+    "column": "options",
+    "option_line": "BFIN_notNow2:Make some excuse and close the comms.",
+    "original": "Make some excuse and close the comms.",
+    "translated": "Trouver une excuse et couper la comm."
+  },
+  {
+    "csv_row": 2530,
+    "id": "BFINpaidYou",
+    "column": "text",
+    "original": "\"Truly?\" He sighs, deflated at this revelation. \"The arighting of one errant novice cannot be worth that sum.\"",
+    "translated": "\"Vraiment ?\" Il soupire, abattu par cette révélation. \"La remise dans le droit chemin d'un novice égaré ne peut pas valoir cette somme.\""
+  },
+  {
+    "csv_row": 2531,
+    "id": "BFINaskCredits",
+    "column": "text",
+    "original": "\"My apologies,\" he says, opening a battered notebook. \"I am unused to this sort of, of bookkeeping.\"\n\n\"Yes, 50,000 upfront, and another 50,000 credits upon resolution. It is hoped that the false artifact might be removed from consideration, one way or another.\"\n\nHe gives you a questioning look. \"Without causing an interfactional incident, that is.\"",
+    "translated": "\"Mes excuses,\" dit-il en ouvrant un carnet usé. \"Je ne suis pas habitué à ce genre de, de comptabilité.\"\n\n\"Oui, 50 000 d'avance, et 50 000 crédits supplémentaires à la résolution. On espère que le faux artéfact pourra être écarté, d'une manière ou d'une autre.\"\n\nIl vous lance un regard interrogateur. \"Sans provoquer d'incident interfactionnel, bien entendu.\""
+  },
+  {
+    "csv_row": 2532,
+    "id": "BFINremindReward",
+    "column": "text",
+    "original": "\"Of course,\" he says, opening a battered notebook. \"The Church anticipates expenses. Well,\" he grimaces, \"Reverend Archcurate Jaspis does.\"\n\n\"Yes, 50,000 upfront, and another 50,000 credits upon satisfactory resolution. It is hoped that the false artifact might be removed from consideration, one way or another.\"\n\nHe gives you a questioning look. \"Without causing an interfactional incident, that is.\"",
+    "translated": "\"Bien sûr,\" dit-il en ouvrant un carnet usé. \"L'Église anticipe les dépenses. Enfin,\" il grimace, \"la Révérende Archicuratrice Jaspis, oui.\"\n\n\"Oui, 50 000 d'avance, et 50 000 crédits supplémentaires à la résolution satisfaisante. On espère que le faux artéfact pourra être écarté, d'une manière ou d'une autre.\"\n\nIl vous lance un regard interrogateur. \"Sans provoquer d'incident interfactionnel, bien entendu.\""
+  },
+  {
+    "csv_row": 2533,
+    "id": "BFINhowPenance",
+    "column": "text",
+    "original": "\"This is only the beginning, I am certain,\" he says with resigned humor. \"Violation of Knightly vows is no small falsity, and I am uncertain even that I am truly meant to 'solve' this task set before me.\"\n\nHe pauses, then speaks more quietly, \"I fear that my failure might be intended to chasten Jaspis. The Reverend Archcurate, I mean.\" He looks upward, and lets out a sigh. \"She has put altogether too much faith in me.\"",
+    "translated": "\"Ce n'est que le début, j'en suis certain,\" dit-il avec un humour résigné. \"La violation des vœux de Chevalier n'est pas une mince faute, et je ne suis même pas sûr d'être vraiment censé 'résoudre' cette tâche qui m'est imposée.\"\n\nIl marque une pause, puis parle plus doucement, \"Je crains que mon échec ne soit destiné à humilier Jaspis. La Révérende Archicuratrice, je veux dire.\" Il lève les yeux et laisse échapper un soupir. \"Elle a mis bien trop de foi en moi.\""
+  },
+  {
+    "csv_row": 2534,
+    "id": "BFINhowPenanceLuddic",
+    "column": "text",
+    "original": "\"It is... trying,\" he says. \"I am not, I am sure, meant to 'solve' this quest set before me to my violation of Knightly vows. Remorse, contrition... those I give freely, and wholly.\"\n\nHe speaks more quietly, \"I speculate that my failure and disgrace is being arranged to humble the influence of the Reverend Archcurate Jaspis.\" He shakes his head, \"She has put altogether too much faith into me.\"",
+    "translated": "\"C'est... éprouvant,\" dit-il. \"Je ne suis pas, j'en suis sûr, censé 'résoudre' cette quête imposée pour ma violation des vœux de Chevalier. Le remords, la contrition... ceux-là, je les offre librement, et entièrement.\"\n\nIl parle plus doucement, \"Je suppose que mon échec et ma disgrâce sont orchestrés pour humilier l'influence de la Révérende Archicuratrice Jaspis.\" Il secoue la tête, \"Elle a mis bien trop de foi en moi.\""
+  }
+]

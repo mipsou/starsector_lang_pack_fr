@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 2796,
+    "id": "BFFImenesPartySteal14b",
+    "column": "options",
+    "option_line": "bffi_mpSteal15:Try to remain standing",
+    "original": "Try to remain standing",
+    "translated": "Essayer de rester debout"
+  },
+  {
+    "csv_row": 2798,
+    "id": "BFFImenesPartySteal15",
+    "column": "text",
+    "original": "\"You there,\" Menes calls out, \"Knight $global.jethroName, get yourself off the floor. Come wash your face, you look absolutely disgusting. Back to the party! Drinks are on me, ha-ha!\"\n\nAs almost an afterthought he calls to the security team, \"You lot, clean this up and get out of here... ruining the mood.\"",
+    "translated": "\"Vous, là,\" lance Menes, \"Chevalier $global.jethroName, relevez-vous du sol. Allez vous laver le visage, vous êtes absolument répugnant. Retournons à la fête ! Les boissons sont pour moi, ha-ha !\"\n\nPresque après coup, il interpelle l'équipe de sécurité : \"Vous autres, nettoyez-moi ça et dégagez d'ici... vous gâchez l'ambiance.\""
+  },
+  {
+    "csv_row": 2799,
+    "id": "BFFImenesPartySteal16",
+    "column": "text",
+    "original": "You and Bornanew, he given a basin and washcloth by a servitor, are hauled back into the party, and the entire crowd regaled with the story of Bornanew being overcome with awe at the relic and then caught setting off the security alarm.\n\nMenes seems to find it more hilarious with every telling - and each additional round of drinks. His dutiful entourage joins in the laughter each time. The skinny man, Ulmus Pond, has a particularly manic, piercing laugh.\n\nIt is some time before you are able to get a quiet word in with $global.jethroName.",
+    "translated": "Bornanew, à qui un serviteur a fourni une bassine et un linge, et vous êtes ramenés à la fête, et toute l'assemblée est régalée de l'histoire de Bornanew submergé d'émerveillement devant la relique puis pris en train de déclencher l'alarme de sécurité.\n\nMenes semble trouver cela plus hilarant à chaque récit - et à chaque tournée de boissons supplémentaire. Son entourage zélé se joint au rire à chaque fois. L'homme maigre, Ulmus Pond, a un rire particulièrement maniaque et perçant.\n\nIl faut un certain temps avant que vous puissiez échanger un mot en privé avec $global.jethroName."
+  },
+  {
+    "csv_row": 2799,
+    "id": "BFFImenesPartySteal16",
+    "column": "options",
+    "option_line": "bffi_mpSteal17a:\"What in Ludd's seven hells was that?\"",
+    "original": "What in Ludd's seven hells was that?",
+    "translated": "Mais c'était quoi, par les sept enfers de Ludd ?"
+  },
+  {
+    "csv_row": 2799,
+    "id": "BFFImenesPartySteal16",
+    "column": "options",
+    "option_line": "bffi_mpSteal17b:\"What went wrong?\"",
+    "original": "What went wrong?",
+    "translated": "Qu'est-ce qui a mal tourné ?"
+  },
+  {
+    "csv_row": 2800,
+    "id": "BFFImenesPartySteal17a",
+    "column": "text",
+    "original": "\"I beg pardon for your blasphemy, captain,\" Bornanew says with a hint of strain in his voice. \"Ludd's conception of hell was, so much as the Word reveals, a description of mortal torment in a Domain without God.\"\n\n\"But I do have the glove. What remains is-\" an almost malicious smile briefly appears, \"a fake.\"",
+    "translated": "\"Je vous prie de pardonner votre blasphème, capitaine,\" dit Bornanew avec une pointe de tension dans la voix. \"La conception de l'enfer selon Ludd était, autant que la Parole le révèle, une description du tourment mortel dans un Domain sans Dieu.\"\n\n\"Mais j'ai bien le gant. Ce qui reste est-\" un sourire presque malicieux apparaît brièvement, \"un faux.\""
+  },
+  {
+    "csv_row": 2801,
+    "id": "BFFImenesPartySteal17b",
+    "column": "text",
+    "original": "\"Little, but for the monotony of my humiliation, however justly earned,\" Bornanew says with a hint of strain in his voice. \"But I do have the glove. What remains is a-\" an almost malicious smile very briefly appears, \"fake.\"",
+    "translated": "\"Pas grand-chose, si ce n'est la monotonie de mon humiliation, aussi méritée soit-elle,\" dit Bornanew avec une pointe de tension dans la voix. \"Mais j'ai bien le gant. Ce qui reste est un-\" un sourire presque malicieux apparaît très brièvement, \"faux.\""
+  },
+  {
+    "csv_row": 2802,
+    "id": "BFFImenesPartySteal17c",
+    "column": "text",
+    "original": "He lifts a finger to his lips, and with his other hand pats a fold in his Knight's robes.",
+    "translated": "Il porte un doigt à ses lèvres, et de l'autre main tapote un pli de sa robe de Chevalier."
+  },
+  {
+    "csv_row": 2802,
+    "id": "BFFImenesPartySteal17c",
+    "column": "options",
+    "option_line": "bffi_mpSteal18d:\"You had a fake glove? This whole time?\"",
+    "original": "You had a fake glove? This whole time?",
+    "translated": "Vous aviez un faux gant ? Depuis le début ?"
+  },
+  {
+    "csv_row": 2802,
+    "id": "BFFImenesPartySteal17c",
+    "column": "options",
+    "option_line": "bffi_mpSteal18a:\"Good work, $global.jethroName. Great work, in fact.\"",
+    "original": "Good work, $global.jethroName. Great work, in fact.",
+    "translated": "Beau travail, $global.jethroName. Excellent travail, même."
+  }
+]

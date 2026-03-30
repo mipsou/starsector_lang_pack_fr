@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 4809,
+    "id": "gaFCArchonPLexcuseOptC",
+    "column": "options",
+    "option_line": "gaFC_archonPLtellIntel:Tell the archon how easily you discovered information on the intel operation on Laicaille",
+    "original": "Tell the archon how easily you discovered information on the intel operation on Laicaille",
+    "translated": "Expliquer à l'archonte avec quelle facilité vous avez découvert des informations sur l'opération de renseignement sur Laicaille"
+  },
+  {
+    "csv_row": 4810,
+    "id": "gaFCArchonPLexcuseOptD",
+    "column": "options",
+    "option_line": "gaFC_archonPLtellCavin:Tell the archon about the 'comm intercepts' to Laicaille from a 'radical agitator' on Fikenhild",
+    "original": "Tell the archon about the 'comm intercepts' to Laicaille from a 'radical agitator' on Fikenhild",
+    "translated": "Informer l'archonte des 'interceptions comm' vers Laicaille provenant d'un 'agitateur radical' sur Fikenhild"
+  },
+  {
+    "csv_row": 4813,
+    "id": "gaFCArchonPLtellPathers",
+    "column": "text",
+    "original": "You explain to Archon $personLastName that you intercepted comm logs which reveal that a cell of Pather terrorists has infiltrated Laicaille Habitat under false identities to track down Scylla Coureuse. They know about the League intelligence safehouse and they have requested reinforcements to finish the job.\n\nAs the archon reads your uploaded log analysis, $heOrShe pales. \"Siyavong told me they'd run a tight operation- no screwups. And now there are Pathers crawling around my station?\"",
+    "translated": "Vous expliquez à l'Archonte $personLastName que vous avez intercepté des journaux de communication révélant qu'une cellule de terroristes Pathers a infiltré l'Habitat Laicaille sous de fausses identités pour traquer Scylla Coureuse. Ils connaissent le refuge du renseignement de la Ligue et ont demandé des renforts pour terminer le travail.\n\nTandis que l'archonte lit votre analyse des journaux téléversés, $heOrShe pâlit. \"Siyavong m'avait dit qu'ils mèneraient une opération serrée - pas d'erreurs. Et maintenant il y a des Pathers qui grouillent sur ma station ?\""
+  },
+  {
+    "csv_row": 4814,
+    "id": "gaFCArchonPLtellRelay",
+    "column": "text",
+    "original": "As you upload salvage logs, you explain to Archon $personLastName that you discovered a secret hypercommunication relay in the derelict Groombridge Habitat that's been sending periodic transmissions to a repeater close to Laicaille Habitat. And it, in turn, has been receiving transmissions from an array of probes around a distant star. And this array was compromised by a scavenger on the far end, and...\n\nThe archon goes pale, \"-so pirates, or even Pathers, could be...\"\n\nYou nod.\n\nThe archon shakes $hisOrHer head, \"They said there'd be no wild experiments! Everyone remembers Galatia.\"",
+    "translated": "Tout en téléversant les journaux de récupération, vous expliquez à l'Archonte $personLastName que vous avez découvert un relais de hypercommunication secret dans l'Habitat Groombridge abandonné qui envoyait des transmissions périodiques à un répéteur proche de l'Habitat Laicaille. Et ce répéteur, à son tour, recevait des transmissions d'un réseau de sondes autour d'une étoile lointaine. Et ce réseau a été compromis par un récupérateur à l'autre bout, et...\n\nL'archonte pâlit, \"- donc des pirates, ou même des Pathers, pourraient...\"\n\nVous acquiescez.\n\nL'archonte secoue la tête, \"Ils avaient dit qu'il n'y aurait pas d'expériences hasardeuses ! Tout le monde se souvient de Galatia.\""
+  },
+  {
+    "csv_row": 4815,
+    "id": "gaFCArchonPLtellRelay2",
+    "column": "text",
+    "original": "As you upload sensor readings and the scans recorded by rad-hardened drones, you explain to Archon $personLastName that you discovered a secret hypercommunication relay in the derelict Groombridge Habitat and it's been sending periodic transmissions to a repeater close to Laicaille Habitat. Someone has been talking without using official channels...\n\nThe archon goes pale, \"I was told that, that it'd all be above-board. If they're keeping secrets from me, there's no telling what they could be doing...\"\n\nYou nod.\n\nThe archon looks grim. \"They said there'd be no wild experiments! Everyone remembers Galatia.\"",
+    "translated": "Tout en téléversant les relevés de capteurs et les scans enregistrés par des drones durcis aux radiations, vous expliquez à l'Archonte $personLastName que vous avez découvert un relais de hypercommunication secret dans l'Habitat Groombridge abandonné qui envoyait des transmissions périodiques à un répéteur proche de l'Habitat Laicaille. Quelqu'un communiquait sans utiliser les canaux officiels...\n\nL'archonte pâlit, \"On m'avait dit que, que tout serait régulier. S'ils me cachent des choses, on ne sait pas ce qu'ils pourraient faire...\"\n\nVous acquiescez.\n\nL'archonte a l'air sombre. \"Ils avaient dit qu'il n'y aurait pas d'expériences hasardeuses ! Tout le monde se souvient de Galatia.\""
+  },
+  {
+    "csv_row": 4816,
+    "id": "gaFCArchonPLtellIntel",
+    "column": "text",
+    "original": "You explain to Archon $personLastName that you have full documentation of the org chart, budget, and watch schedule of a League Fleet intel operation on Laicaille. There's even a line-item for a safehouse, and it aligns suspiciously with the cessation of a Fleet Intel search for Scylla Coureuse.\n\nYou forward the documents you received to drive the point home that you got everything on this sloppy operation by throwing a few credits around in-system. You hint at what a Pather cell could do with this information; the Persean League doesn't seem to be taking Laicaille Habitat's security very seriously.\n\nThe archon clenches $hisOrHer jaw. \"I was given assurances...\" ",
+    "translated": "Vous expliquez à l'Archonte $personLastName que vous possédez la documentation complète de l'organigramme, du budget et du calendrier de surveillance d'une opération de renseignement de la Flotte de la Ligue sur Laicaille. Il y a même une ligne budgétaire pour un refuge, et elle coïncide de manière suspecte avec l'arrêt d'une recherche du Renseignement de la Flotte concernant Scylla Coureuse.\n\nVous transmettez les documents que vous avez reçus pour bien faire comprendre que vous avez obtenu toutes les informations sur cette opération bâclée en distribuant quelques crédits dans le système. Vous faites allusion à ce qu'une cellule Pather pourrait faire avec ces informations ; la Ligue Persane ne semble pas prendre très au sérieux la sécurité de l'Habitat Laicaille.\n\nL'archonte serre la mâchoire. \"On m'avait donné des assurances...\""
+  },
+  {
+    "csv_row": 4817,
+    "id": "gaFCArchonPLtellCavin",
+    "column": "text",
+    "original": "You explain that you have a communication intercept sent by Cavin Pharoh - a dangerous radical agitator on Fikenhild - to Scylla Coureuse. On Laicaille.\n\nIf Fleet Intel knows about this, then what's their game? And if Fleet Intel doesn't know about this, then that's even worse, isn't it?\n\nThe archon looks grim at this prospect.\n\nAs you forward the fake intercept, the archon finally finds $hisOrHer words. \"They told me everyone would be quiet, no trouble, no games...\"",
+    "translated": "Vous expliquez que vous détenez une interception de communication envoyée par Cavin Pharoh - un dangereux agitateur radical sur Fikenhild - à Scylla Coureuse. Sur Laicaille.\n\nSi le Renseignement de la Flotte est au courant, quel est leur jeu ? Et si le Renseignement de la Flotte n'est pas au courant, c'est encore pire, non ?\n\nL'archonte a l'air sombre face à cette perspective.\n\nTandis que vous transmettez la fausse interception, l'archonte trouve enfin ses mots. \"Ils m'avaient dit que tout le monde resterait discret, pas de problèmes, pas de jeux...\""
+  },
+  {
+    "csv_row": 4818,
+    "id": "gaFCArchonPLconclude1",
+    "column": "text",
+    "original": "\"Laicaille is free and proud! And by the stars, that means something to the so-called 'minor' polities of the Persean League,\" $heOrShe nods significantly to you. \"-even if Gens Hannan doesn't respect it.\"\n\n\"They say 'don't ask questions', they say 'League defense' and 'need to know' and 'we've got a handle on it'. It's been a mess from start. And Laicaille is to shoulder all the risk?\"\n\nArchon $personLastName takes several deep breaths, then meets your gaze.\n\n\"I've been letting those Kazeronian spies push me around. Push Laicaille around. Lord it over us with their 'security clearance' dross.\"",
+    "translated": "\"Laicaille est libre et fière ! Et par les étoiles, cela signifie quelque chose pour les soi-disant 'petits' États de la Ligue Persane,\" $heOrShe vous fait un signe de tête appuyé. \"- même si Gens Hannan ne le respecte pas.\"\n\n\"Ils disent 'ne posez pas de questions', ils disent 'défense de la Ligue' et 'confidentiel' et 'on gère la situation'. C'est un fiasco depuis le début. Et Laicaille devrait supporter tout le risque ?\"\n\nL'Archonte $personLastName prend plusieurs profondes inspirations, puis soutient votre regard.\n\n\"J'ai laissé ces espions de Kazeron me bousculer. Bousculer Laicaille. Nous dominer avec leurs histoires d'habilitation de sécurité.\""
+  },
+  {
+    "csv_row": 4819,
+    "id": "gaFCArchonPLconclue2",
+    "column": "text",
+    "original": "The archon's voice steadies with a cold rage that's been building for many cycles. \"We're better than that. We'll show them who Laicaille really belongs to - not a bunch of Kazeron gens babies tracking dirt onto our fine station.\"",
+    "translated": "La voix de l'archonte se raffermit avec une rage froide qui couvait depuis de nombreux cycles. \"Nous valons mieux que ça. Nous leur montrerons à qui appartient vraiment Laicaille - pas à une bande de rejetons des gens de Kazeron qui salissent notre belle station.\""
+  },
+  {
+    "csv_row": 4823,
+    "id": "gaFCArchonAskCoureuseAgainB",
+    "column": "options",
+    "option_line": "gaFC_archonConfront:\"Et je peux le prouver.\"",
+    "original": "Et je peux le prouver.",
+    "translated": "Et je peux le prouver."
+  }
+]

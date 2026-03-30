@@ -1,0 +1,74 @@
+[
+  {
+    "csv_row": 3043,
+    "id": "BFFIupNotHereWhatRole",
+    "column": "text",
+    "original": "\"He would be - have been - well placed as a bridge for some element of the Luddic Path to influence Menes Yaribay. He would be the source of the relic.\"",
+    "translated": "\"Il serait — aurait été — bien placé comme intermédiaire pour qu'un élément du Sentier Luddique influence Menes Yaribay. Il serait la source de la relique.\""
+  },
+  {
+    "csv_row": 3044,
+    "id": "BFFIupNotHereSourcesA",
+    "column": "text",
+    "original": "\"I cannot,\" he says. \"But I assure you they are as reliable as any heretic, guilty soul, or criminal.\" His look softens, \"Do trust that I am not simply asking around a spacer bar for a lead.\"\n\nA moment, then he gives a nod, almost a bow. \"Um. I do not condemn your methods. Your directness has oft proven effectual.\"",
+    "translated": "\"Je ne peux pas,\" dit-il. \"Mais je vous assure qu'elles sont aussi fiables que n'importe quel hérétique, âme coupable ou criminel.\" Son regard s'adoucit. \"Faites confiance au fait que je ne me contente pas de poser des questions dans un bar de spatiens pour trouver une piste.\"\n\nUn moment, puis il fait un signe de tête, presque une révérence. \"Euh. Je ne condamne pas vos méthodes. Votre franchise s'est souvent avérée efficace.\""
+  },
+  {
+    "csv_row": 3045,
+    "id": "BFFIupNotHereSourcesB",
+    "column": "text",
+    "original": "\"It could be either.\" Bornanew folds his hands together. \"But we must look first where the light of truth shines brightest, dim though it may be, or known only by distinction against the shadow of deceit.\"",
+    "translated": "\"Cela pourrait être l'un ou l'autre.\" Bornanew joint les mains. \"Mais nous devons d'abord regarder là où la lumière de la vérité brille le plus fort, aussi faible soit-elle, ou connue seulement par sa distinction face à l'ombre de la tromperie.\""
+  },
+  {
+    "csv_row": 3046,
+    "id": "BFFIupNotHereIntentions",
+    "column": "text",
+    "original": "\"It is always possible.\" Bornanew meets your eyes, steady. \"The Knights pursue heretics and criminals as routine, and my inquiries were worded to imply my interest lay not upon Ulmus Pond himself, nor the Menes situation. Though, of course, you and I are already known to be associated with both.\"\n\n\"Expediency anticipates risk. I beg you trust my judgment in this matter.\"",
+    "translated": "\"C'est toujours possible.\" Bornanew soutient votre regard, imperturbable. \"Les Chevaliers poursuivent les hérétiques et les criminels de manière routinière, et mes demandes étaient formulées pour laisser entendre que mon intérêt ne portait pas sur Ulmus Pond lui-même, ni sur la situation de Menes. Bien que, naturellement, vous et moi soyons déjà connus pour être associés aux deux.\"\n\n\"La diligence anticipe le risque. Je vous prie de faire confiance à mon jugement en la matière.\""
+  },
+  {
+    "csv_row": 3047,
+    "id": "BFFIulmusPondNotHereOut",
+    "column": "text",
+    "original": "Nav responds instantly to your orders.\n\nBornanew's image flickers with compression-grain from his cheap datapad.\n\n\"I pray that Ulmus Pond's hasty flight has not unwittingly forewarned heretic militants...\"",
+    "translated": "La navigation répond instantanément à vos ordres.\n\nL'image de Bornanew scintille avec le grain de compression de son datapad bon marché.\n\n\"Je prie pour que la fuite précipitée d'Ulmus Pond n'ait pas involontairement prévenu des militants hérétiques...\""
+  },
+  {
+    "csv_row": 3047,
+    "id": "BFFIulmusPondNotHereOut",
+    "column": "options",
+    "option_line": "cutCommLink:\"If we're quick, we won't need to pray.\" (cut the link)",
+    "original": "If we're quick, we won't need to pray.\" (cut the link)",
+    "translated": "Si on fait vite, on n'aura pas besoin de prier.\" (couper la liaison)"
+  },
+  {
+    "csv_row": 3050,
+    "id": "BFFIulmusStartOption",
+    "column": "options",
+    "option_line": "3:bffi_ulmusPrestart1:Find where Ulmus Pond is hiding",
+    "original": "bffi_ulmusPrestart1:Find where Ulmus Pond is hiding",
+    "translated": "bffi_ulmusPrestart1:Trouver où Ulmus Pond se cache"
+  },
+  {
+    "csv_row": 3051,
+    "id": "BFFIulmusPrestart1",
+    "column": "text",
+    "original": "Chalcedon rotates in the primary display before you.\n\nBornanew is at your side, tapping at his off-brand datapad, looking for all the worlds like a toy in his large hands.\n\n\"My sources indicate that a man matching the description of Ulmus Pond is almost certainly in a safehouse... here.\"\n\nA highlighted point appears on the globe, some logistical center in the scablands trailing like a stain from the primary spaceport.",
+    "translated": "Chalcedon tourne dans l'affichage principal devant vous.\n\nBornanew est à vos côtés, tapotant sur son datapad de marque obscure, qui dans ses grandes mains ressemble à un jouet.\n\n\"Mes sources indiquent qu'un homme correspondant à la description d'Ulmus Pond se trouve presque certainement dans une planque... ici.\"\n\nUn point surligné apparaît sur le globe, un centre logistique dans les terres arides qui s'étirent comme une tache depuis le spatioport principal."
+  },
+  {
+    "csv_row": 3052,
+    "id": "BFFIulmusPrestart2",
+    "column": "text",
+    "original": "Bornanew watches the point as the globe obligingly comes to a gentle stop. The highlighted section detaches from the globe, which collapses away, and spreads into a tactical overview.\n\n\"He acts like a man drowning, grasping for help without concern for his rescuers.\" He turns from the globe toward you, \"In OPSEC terms, of course. He could have easily disappeared.\"\n\nA bitter smile appears, \"As once I did.\"",
+    "translated": "Bornanew observe le point tandis que le globe s'arrête docilement. La section surlignée se détache du globe, qui se réduit, et s'étend en une vue tactique.\n\n\"Il agit comme un homme en train de se noyer, s'accrochant à l'aide sans se soucier de ses sauveteurs.\" Il se tourne du globe vers vous, \"En termes de sécurité opérationnelle, bien sûr. Il aurait pu facilement disparaître.\"\n\nUn sourire amer apparaît, \"Comme je l'ai fait autrefois.\""
+  },
+  {
+    "csv_row": 3053,
+    "id": "BFFIulmusPrestart3",
+    "column": "text",
+    "original": "Bornanew has his notebook and cheap old datapad packed in a satchel made of what looks like leather. You've heard of the primitive process the Luddics are said to use to produce the material; the skin of an animal is stripped then stewed, somehow, with its own waste products. It sounded unbearably primitive when described. Anti-Luddic misinformation, perhaps, because you don't detect the smell of feces at all.\n\n\"How shall we approach this?\" Bornanew asks. \"Like in MuniSec dramas- one of us is friendly to the subject, the other hostile?\"",
+    "translated": "Bornanew a son carnet et son vieux datapad bon marché rangés dans une sacoche faite de ce qui ressemble à du cuir. Vous avez entendu parler du procédé primitif que les Luddiques utiliseraient pour produire ce matériau ; la peau d'un animal est découpée puis mijotée, en quelque sorte, avec ses propres déchets. Cela semblait insupportablement primitif quand on vous l'a décrit. De la désinformation anti-Luddique, peut-être, car vous ne détectez aucune odeur d'excréments.\n\n\"Comment allons-nous aborder ceci ?\" demande Bornanew. \"Comme dans les drames de la MuniSec — l'un de nous est amical avec le sujet, l'autre hostile ?\""
+  }
+]

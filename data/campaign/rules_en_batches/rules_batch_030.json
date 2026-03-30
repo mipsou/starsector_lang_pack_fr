@@ -1,0 +1,81 @@
+[
+  {
+    "csv_row": 1233,
+    "id": "lppGileadShrineStartHubResponse2",
+    "column": "options",
+    "option_line": "lpp_gileadShrineInfo1:Questionner sur le sanctuaire",
+    "original": "Questionner sur le sanctuaire",
+    "translated": "Questionner sur le sanctuaire"
+  },
+  {
+    "csv_row": 1236,
+    "id": "lppGileadShrineVisit1",
+    "column": "options",
+    "option_line": "lpp_gileadShrineVisit2:Suivre le chemin",
+    "original": "Suivre le chemin",
+    "translated": "Suivre le chemin"
+  },
+  {
+    "csv_row": 1237,
+    "id": "lppGileadShrineVisit2",
+    "column": "options",
+    "option_line": "lpp_gileadShrineVisit3:Approcher du sanctuaire",
+    "original": "Approcher du sanctuaire",
+    "translated": "Approcher du sanctuaire"
+  },
+  {
+    "csv_row": 1243,
+    "id": "lppGileadShrineVisit4",
+    "column": "options",
+    "option_line": "lpp_gileadShrineLeave1:Revenir to your $shipOrFleet",
+    "original": "Revenir to your $shipOrFleet",
+    "translated": "Retourner vers votre $shipOrFleet"
+  },
+  {
+    "csv_row": 1246,
+    "id": "lppGileadPilgrimageEndHowKnow",
+    "column": "options",
+    "option_line": "lpp_gileadPilgrimageEndHowKnow2:\"Vous pensez que des temps difficiles vont venir ?\"",
+    "original": "Vous pensez que des temps difficiles vont venir ?",
+    "translated": "Vous pensez que des temps difficiles vont venir ?"
+  },
+  {
+    "csv_row": 1255,
+    "id": "lppGileadShrineLeave0",
+    "column": "options",
+    "option_line": "shrineDoLeavePostEnd:Quitter le sanctuaire",
+    "original": "Quitter le sanctuaire",
+    "translated": "Quitter le sanctuaire"
+  },
+  {
+    "csv_row": 1280,
+    "id": "lppEnding5blindOpt3",
+    "column": "options",
+    "option_line": "lpp_endingDrinkWater:Boire un peu d'eau",
+    "original": "Boire un peu d'eau",
+    "translated": "Boire un peu d'eau"
+  },
+  {
+    "csv_row": 1294,
+    "id": "lppEndingJaspisHub1",
+    "column": "options",
+    "option_line": "lpp_jaspisWhatDo:\"Donc vous voulez que je sois votre 'marteau' ?\"",
+    "original": "Donc vous voulez que je sois votre 'marteau' ?",
+    "translated": "Donc vous voulez que je sois votre 'marteau' ?"
+  },
+  {
+    "csv_row": 1295,
+    "id": "lppEndingJaspisHub1b",
+    "column": "options",
+    "option_line": "lpp_jaspisWhatGoal:\"Que voulez-vous au juste ? Quel est votre objectif ?\"",
+    "original": "Que voulez-vous au juste ? Quel est votre objectif ?",
+    "translated": "Que voulez-vous au juste ? Quel est votre objectif ?"
+  },
+  {
+    "csv_row": 1303,
+    "id": "lppJaspisCotton2",
+    "column": "text",
+    "original": "\"C'est le cas,\" dit-elle simplement. \"Que cela suffise pour le moment.\"",
+    "translated": "\"C'est le cas,\" dit-elle simplement. \"Que cela suffise pour le moment.\""
+  }
+]

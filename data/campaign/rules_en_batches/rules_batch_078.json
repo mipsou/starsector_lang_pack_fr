@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 2754,
+    "id": "BFFIattendParty3b",
+    "column": "text",
+    "original": "\"May this day be blessed by Providence,\" he says.",
+    "translated": "\"Puisse cette journée être bénie par la Providence,\" dit-il."
+  },
+  {
+    "csv_row": 2755,
+    "id": "BFFIattendParty3",
+    "column": "text",
+    "original": "Bornanew nods, not quite a bow, with his hands held together. Perhaps to avoid Menes' much-ringed hands from grabbing his. You are not so lucky, and must endure an overlong handshake.\n\nMenes is delighted at all of this, eyes flashing with something akin to greed.",
+    "translated": "Bornanew hoche la tête, pas tout à fait une révérence, les mains jointes. Peut-être pour éviter que les mains couvertes de bagues de Menes ne saisissent les siennes. Vous n'avez pas cette chance, et devez endurer une poignée de main interminable.\n\nMenes est ravi de tout cela, ses yeux brillant de quelque chose qui ressemble à de l'avidité."
+  },
+  {
+    "csv_row": 2756,
+    "id": "BFFIattendPartyHub1Intro1",
+    "column": "text",
+    "original": "Menes leads you past gilded statues posed to guard the portal to the main complex; the forms are evocative of splashes of molten gold frozen by happenstance into sensual humanoid figures.\n\nYou endure a rolling barrage of patter from Menes about the expense of renovations, the acquisition of artworks, the exclusivity of access to particular artists and engineering firms who have contributed to his home, his manor, and its collection.\n\nOccasionally a robotic or human servitor appears to offer drinks or nibbles, and you've a growing feeling that Menes has picked up a glass from one only to place it back on the tray of another without ever taking a sip between the two.\n\nA fresh glass in hand, delicate amber liquid fizzing away, Menes leads you into what can only be his prize entertaining space.",
+    "translated": "Menes vous guide devant des statues dorées posées en gardiennes du portail vers le complexe principal ; leurs formes évoquent des éclaboussures d'or fondu figées par le hasard en silhouettes humanoïdes sensuelles.\n\nVous endurez un barrage continu de bavardages de Menes sur le coût des rénovations, l'acquisition d'oeuvres d'art, l'exclusivité de l'accès à tel ou tel artiste et cabinet d'ingénierie ayant contribué à sa demeure, son manoir et sa collection.\n\nDe temps en temps, un serviteur robotique ou humain apparaît pour offrir des boissons ou des amuse-bouches, et vous avez le sentiment croissant que Menes prend un verre sur un plateau pour le reposer sur celui d'un autre sans jamais en boire une gorgée entre les deux.\n\nUn verre frais à la main, un délicat liquide ambré pétillant, Menes vous mène dans ce qui ne peut être que sa pièce de réception de prestige."
+  },
+  {
+    "csv_row": 2757,
+    "id": "BFFIattendPartyHub1Intro2",
+    "column": "text",
+    "original": "The space is at once cavernous and intimate; the sightlines and carved, wrought, and woven details calculated to replicate the appearance of cozy warmth like the den of some thoughtful patron of art, history, and literature.\n\nA double handful of well-dressed remoras mill about, interrupting their conversations to smile and lift a glass as Menes enters. They look to be a collection of industrialists, financiers, distant gens-relatives, and at least one officer from atop the local military detachment who appears a little worse for his drink. Most nod to you and Bornanew, eyes not lingering to the point of impoliteness.\n\nOne skinny man in a finely embroidered suit has no such compunction, and rushes to greet your party, eyes agog at the newest additions to Menes' collection.",
+    "translated": "L'espace est à la fois caverneux et intime ; les lignes de vue et les détails sculptés, forgés et tissés sont calculés pour reproduire l'apparence d'une chaleur douillette, comme le repaire d'un mécène avisé des arts, de l'histoire et de la littérature.\n\nUne bonne dizaine de parasites bien habillés déambulent, interrompant leurs conversations pour sourire et lever leur verre à l'entrée de Menes. Ils semblent être un assortiment d'industriels, de financiers, de parents éloignés de sa gens, et au moins un officier du détachement militaire local qui semble un peu éméché. La plupart vous adressent un signe de tête, à vous et Bornanew, sans s'attarder au point d'être impolis.\n\nUn homme maigre en costume finement brodé n'a pas de tels scrupules, et se précipite pour accueillir votre groupe, les yeux écarquillés devant les dernières acquisitions de la collection de Menes."
+  },
+  {
+    "csv_row": 2758,
+    "id": "BFFIattendPartyHub1Intro3",
+    "column": "text",
+    "original": "He nearly trips over himself to speak. \"The great Captain $playerName! If half of what Menes has said is true... why, half the Sector must tremble at the appearance of your $shipOrFleet!\"\n\n\"We'll have to ask Navarch Atreus over there what he thinks of your combat record,\" the man grins wickedly, \"If he hasn't had too many of these, of course; with all thanks to our kind host, a true gentleman and scholar.\" He lifts his glass approvingly at Menes, and you see his eyes slide toward Bornanew.\n\n\"And Jethro Bornanew, I believe? A Knight of Ludd?\"",
+    "translated": "Il manque de trébucher dans sa hâte de parler. \"Le grand Capitaine $playerName ! Si la moitié de ce que Menes a dit est vrai... eh bien, la moitié du Secteur doit trembler à l'apparition de votre $shipOrFleet !\"\n\n\"Il faudra demander au Navarque Atreus là-bas ce qu'il pense de votre palmarès au combat,\" l'homme sourit malicieusement, \"s'il n'a pas trop abusé de ceux-ci, bien sûr ; avec tous nos remerciements à notre aimable hôte, un vrai gentilhomme et érudit.\" Il lève son verre en signe d'approbation vers Menes, et vous voyez son regard glisser vers Bornanew.\n\n\"Et Jethro Bornanew, je crois ? Un Chevalier de Ludd ?\""
+  },
+  {
+    "csv_row": 2759,
+    "id": "BFFIattendPartyHub1Intro4",
+    "column": "options",
+    "option_line": "bffi_attendPartyHub1Intro4a:\"Enchanté de vous rencontrer... ?\"",
+    "original": "Pleased to meet you...?",
+    "translated": "Enchanté de vous rencontrer... ?"
+  },
+  {
+    "csv_row": 2759,
+    "id": "BFFIattendPartyHub1Intro4",
+    "column": "options",
+    "option_line": "bffi_attendPartyHub1Intro5b:Ne rien dire",
+    "original": "Ne rien dire",
+    "translated": "Ne rien dire"
+  },
+  {
+    "csv_row": 2759,
+    "id": "BFFIattendPartyHub1Intro4",
+    "column": "options",
+    "option_line": "bffi_attendPartyHub1Intro5c:\"Pas besoin d'être susceptible, $global.jethroName, cet homme est amical.\"",
+    "original": "No need to be prickly, $global.jethroName, the man is being friendly.",
+    "translated": "Pas besoin d'être susceptible, $global.jethroName, cet homme est amical."
+  },
+  {
+    "csv_row": 2761,
+    "id": "BFFIattendPartyHub1Intro4c",
+    "column": "text",
+    "original": "Bornanew forces out the equivalent of a smile.\n\n\"Of course, captain.\" He turns to the man. \"Pray forgive me, sir, my forgotten manners,\" he says.",
+    "translated": "Bornanew force l'équivalent d'un sourire.\n\n\"Bien sûr, capitaine.\" Il se tourne vers l'homme. \"Veuillez pardonner mes manières oubliées, monsieur,\" dit-il."
+  },
+  {
+    "csv_row": 2762,
+    "id": "BFFIattendPartyHub1Intro5",
+    "column": "text",
+    "original": "Menes laughs heartily.\n\n\"Let me introduce Ulmus Pond,\" he says. \"Now he'll claim to be a mere commodities trader,\" Menes winks as if you are in on a shared joke, \"but I daresay he knows everyone of any importance in the Kumari Kandam system. And if you need anything.\" He lowers his voice, \"Anything at all. He's your man.\"\n\nPond, grinning widely, makes a brushing-off gesture as if to dismiss Menes' words - but not so assertively as to deny them.",
+    "translated": "Menes rit de bon coeur.\n\n\"Permettez-moi de vous présenter Ulmus Pond,\" dit-il. \"Il prétendra n'être qu'un simple négociant en matières premières,\" Menes fait un clin d'oeil comme si vous étiez complice d'une blague partagée, \"mais j'oserais dire qu'il connaît tous les gens d'importance dans le système Kumari Kandam. Et si vous avez besoin de quoi que ce soit.\" Il baisse la voix, \"Absolument n'importe quoi. C'est votre homme.\"\n\nPond, souriant largement, fait un geste évasif comme pour balayer les propos de Menes - mais pas assez fermement pour les démentir."
+  }
+]

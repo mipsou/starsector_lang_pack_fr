@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 2275,
+    "id": "LKEvirensRaidJethro",
+    "column": "text",
+    "original": "Il sourit avec lassitude.\n\n\"Oui,\" dit-il, \"je ne le vois que trop bien, Capitaine $playerName. Vous semblez croire que je le cache quelque part.\"",
+    "translated": "Il sourit avec lassitude.\n\n\"Oui,\" dit-il, \"je ne le vois que trop bien, Capitaine $playerName. Vous semblez croire que je le cache quelque part.\""
+  },
+  {
+    "csv_row": 2278,
+    "id": "lkeVirensRaidTeaBcuffed",
+    "column": "text",
+    "original": "He lifts his cuffed hands to awkwardly pour tea in the two cups, one after the other.\n\n\"Blessed peace upon us,\" Virens says, his voice thick with irony. \"I offer my hospitality, and the welcome of my home: Mazalot, world of dust.\"",
+    "translated": "He lifts his cuffed hands to awkwardly pour tea in the two cups, one after the other.\n\n\"Blessed peace upon us,\" Virens says, his voice thick with irony. \"I offer my hospitality, and the welcome of my home: Mazalot, world of dust.\""
+  },
+  {
+    "csv_row": 2279,
+    "id": "lkeVirensRaidTeaBuncuffed",
+    "column": "text",
+    "original": "He lifts his injured hands to pour tea in the two cups, one after the other. He spills only a little.\n\n\"Blessed peace upon us,\" Virens says, his voice thick with irony. \"I offer my hospitality, and the welcome of my home: Mazalot, world of dust.\"",
+    "translated": "He lifts his injured hands to pour tea in the two cups, one after the other. He spills only a little.\n\n\"Blessed peace upon us,\" Virens says, his voice thick with irony. \"I offer my hospitality, and the welcome of my home: Mazalot, world of dust.\""
+  },
+  {
+    "csv_row": 2301,
+    "id": "LKEvirensRaidJethroFreeB",
+    "column": "options",
+    "option_line": "lke_virensRaidJethroFree2b:Sortir votre datapad personnel",
+    "original": "Sortir votre datapad personnel",
+    "translated": "Sortir votre datapad personnel"
+  },
+  {
+    "csv_row": 2310,
+    "id": "LKEvirensRaidJethroLie2",
+    "column": "text",
+    "original": "\"Attendez !\" Virens essaie de se lever, \"Nous avions un accord.\"",
+    "translated": "\"Attendez !\" Virens essaie de se lever, \"Nous avions un accord.\""
+  },
+  {
+    "csv_row": 2315,
+    "id": "LKEvirensRaidJethroLie2b1",
+    "column": "options",
+    "option_line": "lke_virensRaidJethroLie2b2:Le laisser parler",
+    "original": "Le laisser parler",
+    "translated": "Le laisser parler"
+  },
+  {
+    "csv_row": 2332,
+    "id": "LKEbornanewShuttleDown3",
+    "column": "options",
+    "option_line": "lke_bornanewShuttle4:Approcher du bosquet",
+    "original": "Approcher du bosquet",
+    "translated": "Approcher du bosquet"
+  },
+  {
+    "csv_row": 2341,
+    "id": "LKEjethroOptionMission",
+    "column": "options",
+    "option_line": "lke_jethroWhat:\"Qu'en est-il de l'infiltration de la Voie ? Vous aviez une mission.\"",
+    "original": "Qu'en est-il de l'infiltration de la Voie ? Vous aviez une mission.",
+    "translated": "Qu'en est-il de l'infiltration de la Voie ? Vous aviez une mission."
+  },
+  {
+    "csv_row": 2358,
+    "id": "LKEjethroAngelsTalkB1",
+    "column": "text",
+    "original": "Il hausse un sourcil dans votre direction.",
+    "translated": "Il hausse un sourcil dans votre direction."
+  },
+  {
+    "csv_row": 2361,
+    "id": "LKEjethroAngelsTalkTellZigOrbit",
+    "column": "options",
+    "option_line": "lke_jethroAngelsTalkTellZigOrbit:\"Ce vaisseau, le Ziggurat, est en orbite. Dans ma flotte.\"",
+    "original": "Ce vaisseau, le Ziggurat, est en orbite. Dans ma flotte.",
+    "translated": "Ce vaisseau, le Ziggurat, est en orbite. Dans ma flotte."
+  }
+]

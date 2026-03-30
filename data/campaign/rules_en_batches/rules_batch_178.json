@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 4495,
+    "id": "gaFCFikenhildCavinCHub1",
+    "column": "options",
+    "option_line": "gaFC_fikenhildCavinB:\"Je veux juste aider Scylla.\"",
+    "original": "Je veux juste aider Scylla.",
+    "translated": "Je veux juste aider Scylla."
+  },
+  {
+    "csv_row": 4497,
+    "id": "gaFCFikenhildCavinCHub3",
+    "column": "options",
+    "option_line": "gaFC_fikenhildCavinD:\"Je cherche Elissa Zal. Je pense qu'elle peut aider Scylla.\"",
+    "original": "Je cherche Elissa Zal. Je pense qu'elle peut aider Scylla.",
+    "translated": "Je cherche Elissa Zal. Je pense qu'elle peut aider Scylla."
+  },
+  {
+    "csv_row": 4513,
+    "id": "gaFCFikenhildCavinLeaveInterruptA-PL",
+    "column": "text",
+    "original": "\"You presume correctly, Demarchon $PlayerName.\" The voice sounds almost impressed.",
+    "translated": "\"Vous présumez correctement, Démarque $PlayerName.\" La voix semble presque impressionnée."
+  },
+  {
+    "csv_row": 4515,
+    "id": "gaFCFikenhildCavinLeaveInterruptB-PL",
+    "column": "text",
+    "original": "\"You have a way of insisting, demarchon.\" The voice sounds a touch annoyed.",
+    "translated": "\"Vous avez une façon d'insister, démarque.\" La voix semble légèrement agacée."
+  },
+  {
+    "csv_row": 4516,
+    "id": "gaFCFikenhildCavinLeaveInterruptC",
+    "column": "text",
+    "original": "\"Pour de bonnes raisons,\" dit la voix patiemment.",
+    "translated": "\"Pour de bonnes raisons,\" dit la voix patiemment."
+  },
+  {
+    "csv_row": 4518,
+    "id": "gaFCFikenhildCavinLeaveEnd",
+    "column": "options",
+    "option_line": "gaFC_visitFikenhild:Revenir to the transit hub",
+    "original": "Revenir to the transit hub",
+    "translated": "Retourner au centre de transit"
+  },
+  {
+    "csv_row": 4528,
+    "id": "gaFCZalRecordingEnd",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 4546,
+    "id": "gaFCZalAllYouGet",
+    "column": "options",
+    "option_line": "gaFC_zalLeave:Couper les communications",
+    "original": "Couper les communications",
+    "translated": "Couper les communications"
+  },
+  {
+    "csv_row": 4552,
+    "id": "GAFCSiyavongFikenhildGreet1PL",
+    "column": "text",
+    "original": "\"Demarchon $playerName.\" His tone is respectful, perhaps with a note of amusement.\n\n\"Finally, we may speak directly. Finlay Siyavong, at your service.\"",
+    "translated": "\"Démarque $playerName.\" Son ton est respectueux, peut-être avec une note d'amusement.\n\n\"Enfin, nous pouvons parler directement. Finlay Siyavong, à votre service.\""
+  },
+  {
+    "csv_row": 4554,
+    "id": "GAFCSiyavongFikenhildGreet2PL",
+    "column": "text",
+    "original": "\"Demarchon $playerName. I am Finlay Siyavong; finally we may speak directly. And discreetly.\" He lowers his head, his expression hardening somewhat, \"A skill, alongside tact, which I would expect a demarchon of the League would better appreciate.\"\n\nHe looks aside. \"There's a risk of complicating matters. Such as a certain surveillance operation in the Kay-arco undercity. Let me emphasize- \" he stops himself.\n\n\"No, I apologize. I shall speak only to the matter at hand.\"",
+    "translated": "\"Démarque $playerName. Je suis Finlay Siyavong ; enfin nous pouvons parler directement. Et discrètement.\" Il baisse la tête, son expression se durcissant quelque peu, \"Un talent, avec le tact, qu'on attendrait d'un démarque de la Ligue.\"\n\nIl regarde de côté. \"Il y a un risque de compliquer les choses. Comme une certaine opération de surveillance dans la ville basse de Kay-arco. Permettez-moi d'insister-\" il se reprend.\n\n\"Non, je m'excuse. Je ne parlerai que de l'affaire qui nous occupe.\""
+  }
+]

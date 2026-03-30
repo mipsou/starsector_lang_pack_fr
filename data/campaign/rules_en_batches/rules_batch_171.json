@@ -1,0 +1,82 @@
+[
+  {
+    "csv_row": 4265,
+    "id": "gaKAPatrolLie5",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 4276,
+    "id": "GAKABairdHubB",
+    "column": "options",
+    "option_line": "gaKA_returnThinkOfGargoyle:\"Alors que pensez-vous de Gargoyle ?\"",
+    "original": "Alors que pensez-vous de Gargoyle ?",
+    "translated": "Alors que pensez-vous de Gargoyle ?"
+  },
+  {
+    "csv_row": 4277,
+    "id": "GAKABairdHubC",
+    "column": "options",
+    "option_line": "gaKA_return7:Ne rien dire",
+    "original": "Ne rien dire",
+    "translated": "Ne rien dire"
+  },
+  {
+    "csv_row": 4289,
+    "id": "gaKAReturnToAcademy10b",
+    "column": "options",
+    "option_line": "gaKA_return11b2:\"Pas vraiment. La paie est bonne.\"",
+    "original": "Pas vraiment. La paie est bonne.",
+    "translated": "Pas vraiment. La paie est bonne."
+  },
+  {
+    "csv_row": 4289,
+    "id": "gaKAReturnToAcademy10b",
+    "column": "options",
+    "option_line": "gaKA_return11b3:Ne rien dire.",
+    "original": "Ne rien dire.",
+    "translated": "Ne rien dire."
+  },
+  {
+    "csv_row": 4290,
+    "id": "gaKAReturnToAcademy10b2",
+    "column": "options",
+    "option_line": "gaKA_return11b2:\"Pas vraiment. La paie est bonne.\"",
+    "original": "Pas vraiment. La paie est bonne.",
+    "translated": "Pas vraiment. La paie est bonne."
+  },
+  {
+    "csv_row": 4290,
+    "id": "gaKAReturnToAcademy10b2",
+    "column": "options",
+    "option_line": "gaKA_return11b3:Ne rien dire. You won't fall for this again.",
+    "original": "Ne rien dire. You won't fall for this again.",
+    "translated": "Ne rien dire. Vous ne vous ferez plus avoir."
+  },
+  {
+    "csv_row": 4296,
+    "id": "gaKAReturnToAcademy13b",
+    "column": "options",
+    "option_line": "gaKA_returnIntentions:\"Je veux parler de vos intentions avec cette technologie.\"",
+    "original": "Je veux parler de vos intentions avec cette technologie.",
+    "translated": "Je veux parler de vos intentions avec cette technologie."
+  },
+  {
+    "csv_row": 4315,
+    "id": "gaKACoureuseBairdOpt",
+    "column": "options",
+    "option_line": "gaKA_courBaird:\"Pensez-vous que Baird soit digne de confiance ?\"",
+    "original": "Pensez-vous que Baird soit digne de confiance ?",
+    "translated": "Pensez-vous que Baird soit digne de confiance ?"
+  },
+  {
+    "csv_row": 4324,
+    "id": "gaKACoureuseAskAbtCavinA2",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la liaison",
+    "original": "Couper la liaison",
+    "translated": "Couper la liaison"
+  }
+]

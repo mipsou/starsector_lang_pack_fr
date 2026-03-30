@@ -120,7 +120,7 @@
 		"tooltipCrashMothball": "Certains de vos vaisseaux souffrent d'une faible aptitude au combat et pourraient subir des dysfonctionnements pendant la bataille.\n\nLeurs systemes de combat peuvent etre mis hors tension pour eviter les dysfonctionnements et permettre aux vaisseaux d'atteindre leur vitesse maximale pour s'échapper.",
 		"tooltipCrashMothballUnavailable": "Tous vos vaisseaux sont prêts àu combat et ne risquent pas de subir de dysfonctionnements.",
 		"tooltipPursue": "Force un combat dans lequel les forces en repli tentent de s'échapper.",
-		"tooltipPursueAutoresolve": "Ordonne a votre second de gerer la poursuite. N'expose pas vos vaisseaux, mais probablement moins efficace que de commander la poursuite vous-meme.",
+		"tooltipPursueAutoresolve": "Ordonne à votre second de gérer la poursuite. N'expose pas vos vaisseaux, mais probablement moins efficace que de commander la poursuite vous-même.",
 		"tooltipPursueLostLast": "Vos forces ont ete défaites lors du dernier engagement et sont incapables de poursuivre.",
 		"tooltipPursueStoodDown": "Vos forces ont cesse le combat apres le dernier engagement et sont incapables de poursuivre.",
 		"tooltipPursueSeriousLosses": "Vos forces ont subi de lourdes pertes lors du dernier engagement et sont incapables de poursuivre.",
@@ -163,7 +163,7 @@
 	},
 	"jumpPointInteractionDialog": {
 		"approach": "Votre $fleetOrShip s'approche du point de saut.",
-		"starAnchor": "Sauter a travers le vortex genere par le champ gravitationnel de l'etoile est un veritable exploit de navigation. Seuls les plus experimentes envisageraient de le tenter, et meme alors, les resultats sont imprevisibles.",
+		"starAnchor": "Sauter à travers le vortex généré par le champ gravitationnel de l'étoile est un véritable exploit de navigation. Seuls les plus expérimentés envisageraient de le tenter, et même alors, les résultats sont imprévisibles.",
 		"starAnchorUnusable": "Vous ne pouvez pas utiliser ce point de saut.",
 		"noFuel": "Votre $fleetOrShip n'a plus de carburant et ne peut pas effectuer de saut.",
 		"noExits": "Le point de saut ne semble avoir aucune sortie fonctionnelle et est effectivement inutilisable."

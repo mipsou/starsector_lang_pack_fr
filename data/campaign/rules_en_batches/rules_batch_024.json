@@ -1,0 +1,79 @@
+[
+  {
+    "csv_row": 860,
+    "id": "convOptionLeavePolite",
+    "column": "options",
+    "option_line": "100:cutCommLinkPolite:Couper la comm",
+    "original": "cutCommLinkPolite:Couper la comm",
+    "translated": "cutCommLinkPolite:Couper la comm"
+  },
+  {
+    "csv_row": 861,
+    "id": "convEnd",
+    "column": "text",
+    "original": "Vous coupez la liaison comm.",
+    "translated": "Vous coupez la liaison comm."
+  },
+  {
+    "csv_row": 862,
+    "id": "convEnd2",
+    "column": "text",
+    "original": "Vous coupez la liaison comm.",
+    "translated": "Vous coupez la liaison comm."
+  },
+  {
+    "csv_row": 868,
+    "id": "playerOptionsVSContactingNPC",
+    "column": "text",
+    "original": "En vous approchant de $entityName, vous recevez une demande de communication entrante.",
+    "translated": "En vous approchant de $entityName, vous recevez une demande de communication entrante."
+  },
+  {
+    "csv_row": 868,
+    "id": "playerOptionsVSContactingNPC",
+    "column": "options",
+    "option_line": "acceptNPCComm:Accepter la demande de liaison comm",
+    "original": "Accepter la demande de liaison comm",
+    "translated": "Accepter la demande de liaison comm"
+  },
+  {
+    "csv_row": 880,
+    "id": "generic_refuseToDealKnownInhospitable",
+    "column": "options",
+    "option_line": "0:cutCommLink:Couper la comm",
+    "original": "cutCommLink:Couper la comm",
+    "translated": "cutCommLink:Couper la comm"
+  },
+  {
+    "csv_row": 882,
+    "id": "mpm_greetingNeedTOff",
+    "column": "options",
+    "option_line": "0:cutCommLink:Couper la comm",
+    "original": "cutCommLink:Couper la comm",
+    "translated": "cutCommLink:Couper la comm"
+  },
+  {
+    "csv_row": 895,
+    "id": "mpm_notEnoughPirateOption",
+    "column": "options",
+    "option_line": "0:mpm_notEnoughPirate:Expliquer que vous n'avez pas de $mpm_commodityName",
+    "original": "mpm_notEnoughPirate:Expliquer que vous n'avez pas de $mpm_commodityName",
+    "translated": "mpm_notEnoughPirate:Expliquer que vous n'avez pas de $mpm_commodityName"
+  },
+  {
+    "csv_row": 908,
+    "id": "ome_askHire",
+    "column": "options",
+    "option_line": "1:ome_askHire:Proposer d'engager $himOrHer",
+    "original": "ome_askHire:Proposer d'engager $himOrHer",
+    "translated": "ome_askHire:Proposer d'engager $himOrHer"
+  },
+  {
+    "csv_row": 909,
+    "id": "ome_askHireMerc",
+    "column": "options",
+    "option_line": "1:ome_askHire:Questionner sur les termes du contrat",
+    "original": "ome_askHire:Questionner sur les termes du contrat",
+    "translated": "ome_askHire:Questionner sur les termes du contrat"
+  }
+]

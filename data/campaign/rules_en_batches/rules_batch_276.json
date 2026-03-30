@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 8304,
+    "id": "ZGRtechPlayerHasOptionOMKI",
+    "column": "options",
+    "option_line": "zgr_makePitch9OMKIbuy:\"Why? Are you going to make me an offer for it?\"",
+    "original": "Why? Are you going to make me an offer for it?",
+    "translated": "Pourquoi ? Vous allez me faire une offre ?"
+  },
+  {
+    "csv_row": 8305,
+    "id": "ZGRtechPlayerHasOptionOMKIagain",
+    "column": "options",
+    "option_line": "zgr_makePitch9OMKIbuy4mil:\"I've considered your offer. One million credits for access and scanning of the Mk.I.\"",
+    "original": "I've considered your offer. One million credits for access and scanning of the Mk.I.",
+    "translated": "J'ai considère votre offre. Un million de credits pour l'acces et le scan du Mk.I."
+  },
+  {
+    "csv_row": 8306,
+    "id": "ZGRtechPlayerHasOption",
+    "column": "options",
+    "option_line": "0:zgr_techSelectCargo:Select specimens to turn in",
+    "original": "zgr_techSelectCargo:Select specimens to turn in",
+    "translated": "zgr_techSelectCargo:Selectionner les specimens a remettre"
+  },
+  {
+    "csv_row": 8311,
+    "id": "ZGRtechTurnInOptionSelected",
+    "column": "text",
+    "original": "Glamor-Rotanev gives you a frosty look.",
+    "translated": "Glamor-Rotanev vous lance un regard glacial."
+  },
+  {
+    "csv_row": 8314,
+    "id": "ZGRtechTurnInResponseThreat",
+    "column": "text",
+    "original": "\"A marvelous find, captain,\" the Director says softly.\n\n\"This is precisely what I have been searching for. You've been... quite essential.\"\n\nHer eyes are very still, like a corpse.",
+    "translated": "\"Une trouvaille merveilleuse, capitaine,\" dit doucement la Directrice.\n\n\"C'est precisement ce que je cherchais. Vous avez ete... tout a fait essentiel.\"\n\nSes yeux sont parfaitement immobiles, comme ceux d'un cadavre."
+  },
+  {
+    "csv_row": 8315,
+    "id": "ZGGtechTurnInResponseThreatAgain",
+    "column": "text",
+    "original": "\"These are exceedingly useful. We shall...\" She pauses.\n\nThen creates the approximation of a smile.\n\n\"Great things shall be made, captain. You will see.\"\nOR\n\"Excellent,\" she says placidly, eyes seemingly focused elsewhere. \"This will do much to advance my initiative.\"\nOR\nHer eyes are inhumanly still.\n\n\"We shall want more. You must bring more.\"\nOR\n\"I eagerly anticipate investigation of these artifacts.\" Her eyes twitch disconcertingly.",
+    "translated": "\"Ceci est extremement utile. Nous allons...\" Elle marque une pause.\n\nPuis esquisse l'approximation d'un sourire.\n\n\"De grandes choses seront accomplies, capitaine. Vous verrez.\"\nOR\n\"Excellent,\" dit-elle placidement, les yeux apparemment fixes ailleurs. \"Cela contribuera grandement a faire avancer mon initiative.\"\nOR\nSes yeux sont inhumainement immobiles.\n\n\"Nous en voudrons davantage. Vous devez en apporter davantage.\"\nOR\n\"J'attends avec impatience l'étude de ces artefacts.\" Ses yeux tressaillent de manière deconcertante."
+  },
+  {
+    "csv_row": 8316,
+    "id": "ZGRtechTurnInResponseMonster",
+    "column": "text",
+    "original": "\"These are quite... unique.\"\n\nA rare smile flits on the Director's lips.\n\n\"You must find more for me, captain.\"",
+    "translated": "\"Ceux-ci sont... uniques.\"\n\nUn rare sourire effleure les levres de la Directrice.\n\n\"Vous devez m'en trouver davantage, capitaine.\""
+  },
+  {
+    "csv_row": 8317,
+    "id": "ZGRtechTurnInResponseMonsterAgain",
+    "column": "text",
+    "original": "\"More fascinating specimens.\" Her voice is dark.\n\n\"Our results have already proven to be most stimulating.\"\nOR\n\"Breathtaking,\" the Director of Special Acquisitions says softly.\n\nHer eyes twitch inhumanly.",
+    "translated": "\"D'autres specimens fascinants.\" Sa voix est sombre.\n\n\"Nos résultats se sont deja révélés des plus stimulants.\"\nOR\n\"A couper le souffle,\" dit doucement la Directrice des Acquisitions Speciales.\n\nSes yeux tressaillent de manière inhumaine."
+  },
+  {
+    "csv_row": 8320,
+    "id": "ZGRaskQuestionsHub",
+    "column": "text",
+    "original": "She says nothing, but her eyebrow raises fractionally. It is not an invitation to continue.\n\nNonetheless.",
+    "translated": "Elle ne dit rien, mais son sourcil se hausse imperceptiblement. Ce n'est pas une invitation a poursuivre.\n\nNeanmoins."
+  },
+  {
+    "csv_row": 8322,
+    "id": "ZGRthreatTechAskThreatDoOpt",
+    "column": "options",
+    "option_line": "zgr_askQuestionsThreatDo:\"What are you going to do with the 'Threat' artifacts?\"",
+    "original": "What are you going to do with the 'Threat' artifacts?",
+    "translated": "Qu'allez-vous faire des artefacts de la 'Menace' ?"
+  }
+]
