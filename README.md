@@ -13,12 +13,10 @@
 ```
 data/
 ├── campaign/           # Dialogues, économie, événements
-│   ├── rules.csv       # 4 933 dialogues FR (8 369 lignes CSV)
+│   ├── rules.csv       # 40 000+ lignes — dialogues, quêtes, IA
 │   ├── reports.csv     # 330+ événements Intel
-│   ├── abilities.csv, commodities.csv, industries.csv, ...
-│   ├── batch_*.json    # Textes source EN (102 fichiers)
-│   ├── tr_*.json       # Traductions FR (102 fichiers)
-│   └── retranslate_batches/  # Retraductions complètes (46 batches)
+│   └── abilities.csv, commodities.csv, industries.csv, ...
+├── codex/              # Manuel du Spacer (combat, UI, techno)
 ├── strings/            # Interface, tooltips, tips, ship_names
 ├── config/             # Labels, planètes, entités, factions
 ├── characters/         # Compétences, personnalités
@@ -34,12 +32,12 @@ data/
 
 ## Pipeline de traduction
 
-1. **Extraction** — `extract_full.py` extrait les textes EN depuis le CSV vanilla
-2. **Découpage** — Textes répartis en batches de ~50 (`batch_X_Y.json`)
-3. **Traduction** — Agents parallèles produisent les `tr_X_Y.json`
-4. **QA multi-passes** — Vérification \n, variables $, terminologie, accents
-5. **Assemblage** — `integrate_and_assemble.py` : intègre retranslations → applique sur vanilla → fix accents → fix terminologie
-6. **Test en jeu** — Nouvelle partie, vérification dialogues
+1. **Extraction** — extraction des textes EN depuis les CSV vanilla
+2. **Traduction** — agents Claude parallèles par fichier
+3. **QA multi-passes** — vérification variables $, terminologie, accents, guillemets CSV
+4. **Validation** — `tools/validate_csv.py` : parité guillemets + field count vs vanilla
+5. **Test en jeu** — nouvelle partie, vérification dialogues
+6. **Publication** — PR dev → main → release
 
 ---
 
@@ -47,14 +45,14 @@ data/
 
 | Catégorie | Fichiers | Version |
 |-----------|----------|---------|
-| Dialogues | rules.csv, reports.csv, strings.json | v1.2.7 |
-| Interface | tips.json, tooltips.json, descriptions.csv, ship_names.json | v1.2.0+ |
-| Équipement | hull_mods.csv, ship_data.csv, weapon_data.csv, ship_systems.csv | v1.2.2 |
-| Campagne | abilities, submarkets, commodities, special_items, industries, market_conditions | v1.2.5 |
-| Personnages | skill_data.csv, aptitude_data.csv, personalities.csv | v1.2.5 |
-| Config | battle_objectives, contact_tag_data, custom_entities, planets, tag_data | v1.2.6 |
-| Factions | default_fleet_type_names, default_ranks | v1.2.6 |
-| Missions | mission_list.csv + 15 mission_text.txt | v1.2.7 |
+| Dialogues | rules.csv, reports.csv, strings.json | v2.0.0-rc1 |
+| Interface | tips.json, tooltips.json, descriptions.csv, ship_names.json | v2.0.0-rc1 |
+| Équipement | hull_mods.csv, ship_data.csv, weapon_data.csv, ship_systems.csv | v2.0.0-rc1 |
+| Campagne | abilities, submarkets, commodities, special_items, industries, market_conditions | v2.0.0-rc1 |
+| Personnages | skill_data.csv, aptitude_data.csv, personalities.csv | v2.0.0-rc1 |
+| Config | battle_objectives, contact_tag_data, custom_entities, planets, tag_data | v2.0.0-rc1 |
+| Factions | default_fleet_type_names, default_ranks | v2.0.0-rc1 |
+| Missions | mission_list.csv + 15 mission_text.txt | v2.0.0-rc1 |
 | Codex | spacers_manual_combat/ui/other + text_codex_entries.csv | v2.0.0-rc1 |
 
 ---
