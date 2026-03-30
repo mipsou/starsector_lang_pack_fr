@@ -4,12 +4,12 @@
 	"displayNameWithArticle":"le Diktat Sindrien",
 	"ranks":{
 		"ranks":{
-			"factionLeader":{"name":"Executeur Supreme"},
+			"factionLeader":{"name":"Exécuteur Suprême"},
 		},
 		"posts":{
-			"factionLeader":{"name":"Executeur Supreme"},
-			"guardLeader":{"name":"Chef de la Garde executrice"},
-			"militaryAdministrator":{"name":"Controleur-General"},
+			"factionLeader":{"name":"Exécuteur Suprême"},
+			"guardLeader":{"name":"Chef de la Garde exécutrice"},
+			"militaryAdministrator":{"name":"Contrôleur-Général"},
 		},
 	},
 	"fleetTypeNames":{
@@ -18,9 +18,9 @@
 		"smallTrader":"Marchand",
 		"patrolSmall":"Avant-garde rapide",
 		"patrolMedium":"Patrouille",
-		"patrolLarge":"Detachement",
-		"inspectionFleet":"Flotte de securite interieure",
-		"taskForce":"Force operationnelle",
+		"patrolLarge":"Détachement",
+		"inspectionFleet":"Flotte de sécurité intérieure",
+		"taskForce":"Force opérationnelle",
 		"foodReliefFleet":"Convoi humanitaire",
 	},
 }
