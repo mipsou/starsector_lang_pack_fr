@@ -4,27 +4,27 @@
 	"displayNameWithArticle":"la Voie de Ludd",
 	"ranks":{
 		"ranks":{
-			"spaceCommander":{"name":"Marcheur beni"},
+			"spaceCommander":{"name":"Marcheur béni"},
 		},
 		"posts":{
 			"patrolCommander":{"name":"Suppliant"},
 			"fleetCommander":{"name":"Marteau"},
 			"baseCommander":{"name":"Berger-militant"},
-			"administrator":{"name":"Berger-metropolitain"},
+			"administrator":{"name":"Berger-métropolitain"},
 			"portmaster":{"name":"Gardien du port"},
 			"quartermaster":{"name":"Intendant"},
 			"stationCommander":{"name":"Berger-militant"},
 		},
 	},
 	"fleetTypeNames":{
-		"trade":"Convoi des fideles",
-		"smallTrader":"Marchand fidele",
-		"tradeLiner":"Pelerinage",
+		"trade":"Convoi des fidèles",
+		"smallTrader":"Marchand fidèle",
+		"tradeLiner":"Pèlerinage",
 		"tradeSmuggler":"Contrebandier",
 		"patrolSmall":"Veilleurs",
 		"patrolMedium":"Flottille vertueuse",
 		"patrolLarge":"Sainte Armada",
-		"inspectionFleet":"Arbitre beni",
+		"inspectionFleet":"Arbitre béni",
 		"taskForce":"Croisade",
 	},
 }

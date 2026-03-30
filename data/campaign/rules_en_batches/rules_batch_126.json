@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 3219,
+    "id": "BFFIstationMedConWhatDo1",
+    "column": "text",
+    "original": "\"Ah. Then Ulmus told us true.\" A flicker of a smile crosses Bornanew's face.\n\n\"We must... destroy the nanoforge. And find out who the mole is, in the cathedral. Tartessus.\" He closes his eyes and takes a slow breath.",
+    "translated": "\"Ah. Alors Ulmus nous a dit la vérité.\" Un bref sourire traverse le visage de Bornanew.\n\n\"Nous devons... détruire la nanoforge. Et découvrir qui est la taupe, dans la cathédrale. Tartessus.\" Il ferme les yeux et prend une longue inspiration."
+  },
+  {
+    "csv_row": 3219,
+    "id": "BFFIstationMedConWhatDo1",
+    "column": "options",
+    "option_line": "bffi_stationMedConIntendA:\"I intend to negotiate with the Pather in charge here.\"",
+    "original": "I intend to negotiate with the Pather in charge here.",
+    "translated": "J'ai l'intention de négocier avec le Pèlerin qui commande ici."
+  },
+  {
+    "csv_row": 3219,
+    "id": "BFFIstationMedConWhatDo1",
+    "column": "options",
+    "option_line": "bffi_stationMedConIntendB:\"I intend to send a marine raid. Seize datastores, destroy the forge.\"",
+    "original": "I intend to send a marine raid. Seize datastores, destroy the forge.",
+    "translated": "J'ai l'intention d'envoyer un raid de marines. Saisir les banques de données, détruire la forge."
+  },
+  {
+    "csv_row": 3219,
+    "id": "BFFIstationMedConWhatDo1",
+    "column": "options",
+    "option_line": "bffi_stationMedConIntendC:\"I intend to attack directly. Destroy the station.\"",
+    "original": "I intend to attack directly. Destroy the station.",
+    "translated": "J'ai l'intention d'attaquer directement. Détruire la station."
+  },
+  {
+    "csv_row": 3220,
+    "id": "BFFIstationMedConIntendA",
+    "column": "text",
+    "original": "\"They are... as human and fallible as any of us. To convince them, would be a miracle.\" He looks at you skeptically.\n\n\"If... that fails. Acquire hard data. The scan of the original glove, the metadata may tell us. Comms buffers. Archives. All useful.\" He looks at you, \"I have a list of suspects. A mole in the Holy Cathedral of Exodus. Need evidence. Who to... put to inquisition.\" \n\nDefensive, he adds, \"The rumors... slander. Mostly.\" His eyes are closed, his breathing shallow. \"And... destroy the forge. Must be destroyed.\"",
+    "translated": "\"Ils sont... aussi humains et faillibles que n'importe lequel d'entre nous. Les convaincre serait un miracle.\" Il vous regarde avec scepticisme.\n\n\"Si... cela échoue. Acquérir des données concrètes. Le scan du gant original, les métadonnées pourraient nous en apprendre. Mémoires tampon de communications. Archives. Tout est utile.\" Il vous regarde, \"J'ai une liste de suspects. Une taupe dans la Sainte Cathédrale de l'Exode. Besoin de preuves. Qui... soumettre à l'inquisition.\"\n\nSur la défensive, il ajoute, \"Les rumeurs... de la calomnie. Pour la plupart.\" Ses yeux sont fermés, sa respiration superficielle. \"Et... détruire la forge. Elle doit être détruite.\""
+  },
+  {
+    "csv_row": 3221,
+    "id": "BFFIstationMedConIntendB",
+    "column": "text",
+    "original": "\"The Pathers' reputation... they are as human as any. Not all heretical zealots. Fallible, fearful.\" He looks at you skeptically.\n\n\"I have a list of suspects. A mole in the Holy Cathedral of Exodus. Need evidence. Who to... put to inquisition. Acquire hard data. The scan of the original glove, the metadata may tell us. Comms buffers. Archives. All useful.\" \n\nHe looks at you. \"Inquisition... the rumors. Slander. Mostly.\" His eyes are closed, his breathing shallow. \"And... destroy the forge. Must be destroyed.\"",
+    "translated": "\"La réputation des Pèlerins... ils sont aussi humains que quiconque. Pas tous des zélotes hérétiques. Faillibles, craintifs.\" Il vous regarde avec scepticisme.\n\n\"J'ai une liste de suspects. Une taupe dans la Sainte Cathédrale de l'Exode. Besoin de preuves. Qui... soumettre à l'inquisition. Acquérir des données concrètes. Le scan du gant original, les métadonnées pourraient nous en apprendre. Mémoires tampon de communications. Archives. Tout est utile.\"\n\nIl vous regarde. \"L'inquisition... les rumeurs. De la calomnie. Pour la plupart.\" Ses yeux sont fermés, sa respiration superficielle. \"Et... détruire la forge. Elle doit être détruite.\""
+  },
+  {
+    "csv_row": 3222,
+    "id": "BFFIstationMedConIntendC",
+    "column": "text",
+    "original": "\"No!\" He speaks a little too forcefully; a blinking light turns yellow.\n\n\"Risky... need acquire hard data. Scan of the original glove, the metadata. Comms buffers. Archives.\" He takes a deep breath then looks at you, \"I have a list of suspects. A mole in the Holy Cathedral of Exodus. Need evidence. Who to... put to inquisition.\" \n\nHe pauses, then says, \"Inquisitors. The rumors... slander. Mostly.\" His eyes are closed, his breathing shallow. \"And... destroy the forge. Must be destroyed.\"",
+    "translated": "\"Non !\" Il parle un peu trop fort ; un voyant clignotant passe au jaune.\n\n\"Risqué... besoin d'acquérir des données concrètes. Le scan du gant original, les métadonnées. Mémoires tampon de communications. Archives.\" Il prend une profonde inspiration puis vous regarde, \"J'ai une liste de suspects. Une taupe dans la Sainte Cathédrale de l'Exode. Besoin de preuves. Qui... soumettre à l'inquisition.\"\n\nIl fait une pause, puis dit, \"Les Inquisiteurs. Les rumeurs... de la calomnie. Pour la plupart.\" Ses yeux sont fermés, sa respiration superficielle. \"Et... détruire la forge. Elle doit être détruite.\""
+  },
+  {
+    "csv_row": 3223,
+    "id": "BFFIstationMedConOutro1",
+    "column": "text",
+    "original": "\"$PlayerSirOrMadam.\" Your chief medical officer appears behind you. \"The patient needs rest. I must insist.\"",
+    "translated": "\"$PlayerSirOrMadam.\" Votre médecin-chef apparaît derrière vous. \"Le patient a besoin de repos. Je dois insister.\""
+  },
+  {
+    "csv_row": 3224,
+    "id": "BFFIstationMedConOutro2a",
+    "column": "text",
+    "original": "Your med chief's face is crossed by a network of fine wrinkles, evidence of many cycles of service. They say nothing, but turn their head at a small and precise angle.\n\nBornanew's breathing is slow, regular. His eyes closed. Unconscious.",
+    "translated": "Le visage de votre médecin-chef est parcouru d'un réseau de fines rides, preuve de nombreux cycles de service. Il ne dit rien, mais tourne la tête d'un angle petit et précis.\n\nLa respiration de Bornanew est lente, régulière. Ses yeux fermés. Inconscient."
+  },
+  {
+    "csv_row": 3225,
+    "id": "BFFIstationMedConOutro2b",
+    "column": "text",
+    "original": "The expression on your med chief's face doesn't change, but the network of fine wrinkles tells of sufficient cycles of service such that they will stand firm against your overstep of authority.\n\n\"Nonetheless,\" your chief medical officer says, turning their head a small and precise angle.\n\nBornanew's breathing is slow, regular. His eyes closed. Unconscious.",
+    "translated": "L'expression sur le visage de votre médecin-chef ne change pas, mais le réseau de fines rides témoigne de suffisamment de cycles de service pour qu'il tienne bon face à votre abus d'autorité.\n\n\"Néanmoins,\" dit votre médecin-chef, tournant la tête d'un angle petit et précis.\n\nLa respiration de Bornanew est lente, régulière. Ses yeux fermés. Inconscient."
+  }
+]

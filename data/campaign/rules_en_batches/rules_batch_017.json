@@ -1,0 +1,78 @@
+[
+  {
+    "csv_row": 490,
+    "id": "PathFleetWeirdMods1",
+    "column": "text",
+    "original": "\"Befouler, defiler, sinful spite-God! Demoniac!\" The look of rage and religious mania pulls the $post's face into a devilish mask as $heOrShe shouts.\n\n\"What work-of-Moloch $shipOrFleet is this? What unholy combination of human craft and abomination? You are to be destroyed on sight, accursed by God and all who follow the Path of our faith!\"\n\nTargeting alerts chime from your tactical officer's console.\nOR\n\"You accursed meddler, servant of Moloch! What unnatural work have you wrought in the shadow so far from the Path?\"\n\nTargeting alerts chime from your tactical officer's console.\n\n\"I name you abomination, adversary, god-spite! It is my holy duty to destroy your infernal $shipOrFleet,\" $heOrShe shouts, flecks of spittle flashing in the holo. \"-And you as well before you slither back into the abyss whence you spawned!\"",
+    "translated": "\"Profanateur, souilleur, pécheur qui défie Dieu ! Démoniaque !\" L'expression de rage et de manie religieuse déforme le visage du $post en un masque diabolique tandis qu'$heOrShe hurle.\n\n\"Quel $shipOrFleet œuvre-de-Moloch est-ce là ? Quelle combinaison impie d'artisanat humain et d'abomination ? Vous devez être détruit à vue, maudit par Dieu et tous ceux qui suivent le Sentier de notre foi !\"\n\nLes alertes de ciblage retentissent depuis la console de votre officier tactique.\nOR\n\"Maudit intrigant, serviteur de Moloch ! Quelle œuvre contre-nature avez-vous forgée dans l'ombre, si loin du Sentier ?\"\n\nLes alertes de ciblage retentissent depuis la console de votre officier tactique.\n\n\"Je vous nomme abomination, adversaire, défi-à-Dieu ! C'est mon saint devoir de détruire votre infernal $shipOrFleet,\" hurle $heOrShe, des postillons scintillant dans l'holo. \"-Et vous aussi avant que vous ne rampiez dans l'abysse d'où vous avez surgi !\""
+  },
+  {
+    "csv_row": 490,
+    "id": "PathFleetWeirdMods1",
+    "column": "options",
+    "option_line": "pathFleet_weirdMods2:\"Un instant, discutons-en.\"",
+    "original": "Hold a moment, let us talk this through.",
+    "translated": "Un instant, discutons-en."
+  },
+  {
+    "csv_row": 490,
+    "id": "PathFleetWeirdMods1",
+    "column": "options",
+    "option_line": "pathFleet_weirdMods2a:\"Vous devriez vous calmer avant de faire quelque chose que vous regretterez.\"",
+    "original": "You should calm down before doing something you'll regret.",
+    "translated": "Vous devriez vous calmer avant de faire quelque chose que vous regretterez."
+  },
+  {
+    "csv_row": 490,
+    "id": "PathFleetWeirdMods1",
+    "column": "options",
+    "option_line": "pathFleet_weirdMods2b:\"Drôle de façon de demander un pot-de-vin, mais parlons crédits...\"",
+    "original": "Funny way to ask for a bribe, but let's talk credits...",
+    "translated": "Drôle de façon de demander un pot-de-vin, mais parlons crédits..."
+  },
+  {
+    "csv_row": 490,
+    "id": "PathFleetWeirdMods1",
+    "column": "options",
+    "option_line": "pathFleet_weirdMods2c:\"Assez ! Postes de combat !\" (couper les comms)",
+    "original": "Enough of this. Battle stations!\" (cut comms)",
+    "translated": "Assez ! Postes de combat !\" (couper les comms)"
+  },
+  {
+    "csv_row": 495,
+    "id": "PathFleetWeirdModsEnd4",
+    "column": "text",
+    "original": "\"Before me I saw evil incarnate, and I stood strong...\" The $Post's words are for $hisOrHer crew, not you.\n\nThe link shudders into static, the last image is of hands clasped in a brief prayer.",
+    "translated": "\"Devant moi j'ai vu le mal incarné, et j'ai tenu bon...\" Les paroles du $Post sont destinées à $hisOrHer équipage, pas à vous.\n\nLe lien se brouille de parasites, la dernière image est celle de mains jointes en une brève prière."
+  },
+  {
+    "csv_row": 497,
+    "id": "PathFleetWeirdModsAgainStart",
+    "column": "text",
+    "original": "\"May the Path be r-\" The $post's eyes go suddenly wide at a red flash from a secondary display.\n\nThey return to the comm-link, fixed with fear... and hatred.\nOR\n\"May the Path be r-\" The $post's eyes go suddenly wide at a red flash from a secondary display.\n\n\"Blessed Ludd!\" $heOrShe gasps.",
+    "translated": "\"Que le Sentier soit r-\" Les yeux du $post s'écarquillent soudain face à un éclair rouge sur un écran secondaire.\n\nIls reviennent au lien de communication, figés de peur... et de haine.\nOR\n\"Que le Sentier soit r-\" Les yeux du $post s'écarquillent soudain face à un éclair rouge sur un écran secondaire.\n\n\"Ludd béni !\" $heOrShe halète."
+  },
+  {
+    "csv_row": 498,
+    "id": "PathFleetWeirdModsAgain2",
+    "column": "text",
+    "original": "\"Before me I saw evil incarnate, and I stood strong...\" The Pather's words are for $hisOrHer crew, not you.\n\nThe link shudders into static, the last image is of hands clasped in a brief prayer.\nOR\n\"Before me I saw evil incarnate, and-\"\n\nThe Pather's words are lost in static as you hit the comms-cutoff.",
+    "translated": "\"Devant moi j'ai vu le mal incarné, et j'ai tenu bon...\" Les paroles du Pathéen sont destinées à $hisOrHer équipage, pas à vous.\n\nLe lien se brouille de parasites, la dernière image est celle de mains jointes en une brève prière.\nOR\n\"Devant moi j'ai vu le mal incarné, et-\"\n\nLes paroles du Pathéen se perdent dans les parasites quand vous coupez la communication."
+  },
+  {
+    "csv_row": 498,
+    "id": "PathFleetWeirdModsAgain2",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 511,
+    "id": "greetingDefaultTOffNormal",
+    "column": "options",
+    "option_line": "turnOnTransponder:Activer votre transpondeur",
+    "original": "Activer votre transpondeur",
+    "translated": "Activer votre transpondeur"
+  }
+]

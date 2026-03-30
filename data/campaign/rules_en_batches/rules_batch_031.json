@@ -1,0 +1,82 @@
+[
+  {
+    "csv_row": 1315,
+    "id": "lppJaspisWrapUp2b",
+    "column": "options",
+    "option_line": "lpp_jaspisWrapUp3care:\"Il est important pour vous.\"",
+    "original": "Il est important pour vous.",
+    "translated": "Il est important pour vous."
+  },
+  {
+    "csv_row": 1324,
+    "id": "lppVolturnShrineOption",
+    "column": "options",
+    "option_line": "3:lpp_volturnVisitStart:Prendre une navette pour visiter le sanctuaire luddique",
+    "original": "lpp_volturnVisitStart:Prendre une navette pour visiter le sanctuaire luddique",
+    "translated": "lpp_volturnVisitStart:Prendre une navette pour visiter le sanctuaire luddique"
+  },
+  {
+    "csv_row": 1325,
+    "id": "lppVolturnShrineOptionAgain",
+    "column": "options",
+    "option_line": "3:lpp_volturnVisitStart:Prendre une navette pour visiter le sanctuaire luddique",
+    "original": "lpp_volturnVisitStart:Prendre une navette pour visiter le sanctuaire luddique",
+    "translated": "lpp_volturnVisitStart:Prendre une navette pour visiter le sanctuaire luddique"
+  },
+  {
+    "csv_row": 1326,
+    "id": "lppVolturnShrineOptionPostLPP",
+    "column": "options",
+    "option_line": "3:lpp_volturnVisitStart:Prendre une navette pour visiter le sanctuaire luddique",
+    "original": "lpp_volturnVisitStart:Prendre une navette pour visiter le sanctuaire luddique",
+    "translated": "lpp_volturnVisitStart:Prendre une navette pour visiter le sanctuaire luddique"
+  },
+  {
+    "csv_row": 1349,
+    "id": "lppVolturnOfficialLie1",
+    "column": "options",
+    "option_line": "lpp_volturnOfficialLie1b:\"Ce serait une terrible erreur.\"",
+    "original": "Ce serait une terrible erreur.",
+    "translated": "Ce serait une terrible erreur."
+  },
+  {
+    "csv_row": 1351,
+    "id": "lppVolturnOfficialLie1c",
+    "column": "options",
+    "option_line": "lpp_volturnOfficialLie2:\"D'en haut. Du plus haut. Mission essentielle. Confidentiel.\"",
+    "original": "D'en haut. Du plus haut. Mission essentielle. Confidentiel.",
+    "translated": "D'en haut. Du plus haut. Mission essentielle. Confidentiel."
+  },
+  {
+    "csv_row": 1359,
+    "id": "lppVolturnOfficialBribe2offer5k",
+    "column": "options",
+    "option_line": "lpp_volturnOfficialBribe3:Confirmer le pot-de-vin",
+    "original": "Confirmer le pot-de-vin",
+    "translated": "Confirmer le pot-de-vin"
+  },
+  {
+    "csv_row": 1360,
+    "id": "lppVolturnOfficialBribe2offer2k",
+    "column": "options",
+    "option_line": "lpp_volturnOfficialBribe3:Confirmer le pot-de-vin",
+    "original": "Confirmer le pot-de-vin",
+    "translated": "Confirmer le pot-de-vin"
+  },
+  {
+    "csv_row": 1363,
+    "id": "lppVolturnShrineFirstVisit1",
+    "column": "options",
+    "option_line": "lpp_volturnShrineFirstVisit2:Franchir les portes",
+    "original": "Franchir les portes",
+    "translated": "Franchir les portes"
+  },
+  {
+    "csv_row": 1371,
+    "id": "lppVolturnCurateResponses1b",
+    "column": "options",
+    "option_line": "lpp_volturnCurateAskInsurgency:\"Je veux dire, faites-vous partie de l'insurrection de Volturn ?\"",
+    "original": "Je veux dire, faites-vous partie de l'insurrection de Volturn ?",
+    "translated": "Je veux dire, faites-vous partie de l'insurrection de Volturn ?"
+  }
+]

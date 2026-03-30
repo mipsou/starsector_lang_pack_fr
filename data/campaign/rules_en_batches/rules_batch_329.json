@@ -1,0 +1,81 @@
+[
+  {
+    "csv_row": 9639,
+    "id": "PLArmadaCynicalYes",
+    "column": "options",
+    "option_line": "cutCommLinkPolite:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 9645,
+    "id": "plReynardHannanJoinSelNo",
+    "column": "options",
+    "option_line": "cutCommLinkNoText2:Couper brutalement la comm",
+    "original": "Couper brutalement la comm",
+    "translated": "Couper brutalement la comm"
+  },
+  {
+    "csv_row": 9645,
+    "id": "plReynardHannanJoinSelNo",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 9646,
+    "id": "plReynardHannanJoinSelNoDev",
+    "column": "options",
+    "option_line": "devReynardUseBrainWave:DEV Utiliser des pouvoirs mentaux pour qu'il vous laisse entrer dans la Ligue",
+    "original": "DEV Utiliser des pouvoirs mentaux pour qu'il vous laisse entrer dans la Ligue",
+    "translated": "DEV Utiliser des pouvoirs mentaux pour qu'il vous laisse entrer dans la Ligue"
+  },
+  {
+    "csv_row": 9646,
+    "id": "plReynardHannanJoinSelNoDev",
+    "column": "options",
+    "option_line": "cutCommLinkNoText2:Couper brutalement la comm",
+    "original": "Couper brutalement la comm",
+    "translated": "Couper brutalement la comm"
+  },
+  {
+    "csv_row": 9646,
+    "id": "plReynardHannanJoinSelNoDev",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 9649,
+    "id": "plReynardHannanJoinSelNoPunExAsk",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 9650,
+    "id": "plReynardHannanJoinSelNoTooMany",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 9651,
+    "id": "plReynardHannanJoinSelNo2",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 9652,
+    "id": "plReynardHannanJoinSelYes",
+    "column": "text",
+    "original": "Reynard Hannan vous regarde avec approbation. \"Les details sont infinis, mais vous n'avez qu'a vous preoccuper du niveau le plus eleve de l'arrangement. Ce n'est pas complexe.\"",
+    "translated": "Reynard Hannan vous regarde avec approbation. \"Les détails sont infinis, mais vous n'avez qu'à vous préoccuper du niveau le plus élevé de l'arrangement. Ce n'est pas complexe.\""
+  }
+]

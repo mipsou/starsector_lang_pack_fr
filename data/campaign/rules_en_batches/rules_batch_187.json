@@ -1,0 +1,78 @@
+[
+  {
+    "csv_row": 4772,
+    "id": "gaFCArchonSearchHubOptionPL",
+    "column": "options",
+    "option_line": "gaFC_archonAskDemarchon:\"I'm a fellow demarchon of the League. We need to work together.\"",
+    "original": "I'm a fellow demarchon of the League. We need to work together.",
+    "translated": "Je suis un démarque de la Ligue, comme vous. Nous devons travailler ensemble."
+  },
+  {
+    "csv_row": 4775,
+    "id": "gaFCArchonSearchHubOption3",
+    "column": "options",
+    "option_line": "gaFC_archonConfront:\"Je sais que Coureuse est sur cette station et je peux le prouver.\"",
+    "original": "Je sais que Coureuse est sur cette station et je peux le prouver.",
+    "translated": "Je sais que Coureuse est sur cette station et je peux le prouver."
+  },
+  {
+    "csv_row": 4777,
+    "id": "gaFCArchonSearchHubOptionLeave",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 4779,
+    "id": "gaFCArchonSearchHubOptionDEV2",
+    "column": "text",
+    "original": "Set the following:\nplayer.isLeagueMember = true\nplayer.didWhyPLharassingTalk = true\nplayer.metReynardHannan = true\nplayer.payingHouseHannan = true\nplayer.toldReynardVoteHimOut = true\nplayer.toldReynardHeWastesHumanLife = true\nplayer.hasGoodPLMembershipDeal = true",
+    "translated": "Set the following:\nplayer.isLeagueMember = true\nplayer.didWhyPLharassingTalk = true\nplayer.metReynardHannan = true\nplayer.payingHouseHannan = true\nplayer.toldReynardVoteHimOut = true\nplayer.toldReynardHeWastesHumanLife = true\nplayer.hasGoodPLMembershipDeal = true"
+  },
+  {
+    "csv_row": 4780,
+    "id": "gaFCarchonAskDemarchon",
+    "column": "text",
+    "original": "\"Demarchon.\" $HisOrHer eyes are fixed on you now. \n\n\"Look. I respect your office, and the ideals of the League, the true ideals...\" $HeOrShe trails off with a sigh. \"I've heard that line before, is what I am saying.\"\n\n$PersonName takes a deep breath.\n\n\"Laicaille Habitat is not a large polity, nor a powerful one. And we've got lots of problems. Pirates, Pathers... meddling gens sniffing around for weakness to exploit. From where I'm sitting, I don't know what makes you any different. Perhaps you're working for them.\"",
+    "translated": "\"Démarque.\" Ses yeux sont fixés sur vous à présent.\n\n\"Écoutez. Je respecte votre charge, et les idéaux de la Ligue, les vrais idéaux...\" $HeOrShe laisse sa phrase en suspens avec un soupir. \"J'ai déjà entendu ce discours, c'est ce que je veux dire.\"\n\n$PersonName prend une profonde inspiration.\n\n\"L'Habitat Laicaille n'est pas un grand État, ni un État puissant. Et nous avons beaucoup de problèmes. Des pirates, des Pathers... des gens qui fouinent partout à la recherche de faiblesses à exploiter. D'où je suis, je ne vois pas ce qui vous différencie des autres. Peut-être travaillez-vous pour eux.\""
+  },
+  {
+    "csv_row": 4781,
+    "id": "gaFCarchonAskDemarchonAgain",
+    "column": "text",
+    "original": "\"Demarchon,\" $heOrShe says. \"This again.\"\n\n\"You may have fine words for me, but words don't keep Laicaille Habitat free.\"",
+    "translated": "\"Démarque,\" dit $heOrShe. \"Encore ça.\"\n\n\"Vous avez peut-être de belles paroles pour moi, mais les mots ne suffisent pas à garder l'Habitat Laicaille libre.\""
+  },
+  {
+    "csv_row": 4782,
+    "id": "gaFCarchonAskDemarchonAgainNo",
+    "column": "text",
+    "original": "\"With all due respect to your office, demarchon, we discussed this,\" $heOrShe says.\n\n\"If you need help, I suggest you ask the great Reynard Hannan. I'm sure he'll drop everything to assist the demarchon of a 'minor polity'.\"\n\n\"I have... a meeting.\" $HeOrShe looks aside. \"Burn bright.\"",
+    "translated": "\"Avec tout le respect dû à votre charge, démarque, nous en avons déjà discuté,\" dit $heOrShe.\n\n\"Si vous avez besoin d'aide, je vous suggère de demander au grand Reynard Hannan. Je suis sûr qu'il laissera tout tomber pour aider le démarque d'un 'petit État'.\"\n\n\"J'ai... une réunion.\" $HeOrShe détourne le regard. \"Brûlez d'un vif éclat.\""
+  },
+  {
+    "csv_row": 4782,
+    "id": "gaFCarchonAskDemarchonAgainNo",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 4783,
+    "id": "gaFCarchonAskDemarchonOptsC",
+    "column": "options",
+    "option_line": "gaFC_archonAskDemOptsCsel:\"Have you ever met Reynard Hannan?\"",
+    "original": "Have you ever met Reynard Hannan?",
+    "translated": "Avez-vous déjà rencontré Reynard Hannan ?"
+  },
+  {
+    "csv_row": 4784,
+    "id": "gaFCarchonAskDemarchonOptsB",
+    "column": "options",
+    "option_line": "gaFC_archonAskDemOptsBsel:\"I understand. The Persean League blockaded my colonies to force me to join.\"",
+    "original": "I understand. The Persean League blockaded my colonies to force me to join.",
+    "translated": "Je comprends. La Ligue Persane a bloqué mes colonies pour me forcer à la rejoindre."
+  }
+]

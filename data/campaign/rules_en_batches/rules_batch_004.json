@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 98,
+    "id": "shroudedSubstrateOptSelC",
+    "column": "text",
+    "original": "\"Very,\" your technology officer exchanges another look with Engineering. \"In my professional opinion.\"\n\n\"When stabilized, and... provoked, it appears to create energy from... somewhere else. Or transform it, enhance it. The gain is spectacular.\"\n\nYour chief engineer steps forward. \"That test with the laser-cutter would have blown a hole through the hull if,\" a glance at Tech, \"if we were not following protocol by using a blast-plate backing in the test zone.\"\n\n\"Look, I did concede you were correct to-\" Tech catches your expression and shuts up, putting on a deferential look.",
+    "translated": "\"Très,\" votre officier technique échange un autre regard avec le chef mécanicien. \"Selon mon avis professionnel.\"\n\n\"Une fois stabilisé et... provoqué, il semble créer de l'énergie depuis... ailleurs. Ou la transformer, l'amplifier. Le gain est spectaculaire.\"\n\nVotre chef mécanicien s'avance. \"Ce test avec le laser de découpe aurait percé un trou dans la coque si,\" un coup d'œil vers l'officier technique, \"si nous n'avions pas suivi le protocole en utilisant une plaque de blindage dans la zone d'essai.\"\n\n\"Écoutez, j'ai concédé que vous aviez raison de-\" L'officier technique capte votre expression et se tait, arborant un air déférent."
+  },
+  {
+    "csv_row": 99,
+    "id": "shroudedSubstrateOptSelD",
+    "column": "text",
+    "original": "Engineering smirks at Tech.\n\n\"It is essentially unstable, if left alone,\" Tech admits. \"Without containment, it will,\" a pause, searching for the word. \n\n\"Fade away? No, withdraw. Slowly. The process is non-linear, and appears to accelerate, given time. Although it's hard to measure exact terms of mass, volume, or... output. It all just becomes... less.\"",
+    "translated": "Le chef mécanicien adresse un sourire narquois à l'officier technique.\n\n\"C'est essentiellement instable, si on le laisse tranquille,\" admet l'officier technique. \"Sans confinement, ça va,\" une pause, cherchant le mot. \n\n\"S'estomper ? Non, se retirer. Lentement. Le processus est non-linéaire et semble s'accélérer avec le temps. Bien qu'il soit difficile de mesurer en termes exacts de masse, de volume ou... de production. Tout devient simplement... moins.\""
+  },
+  {
+    "csv_row": 100,
+    "id": "shroudedSubstrateOptSelE",
+    "column": "text",
+    "original": "Tech looks to Engineering, who can barely suppress a grin despite a previous air of skepticism. Your chief engineer nods, and flips a TriPad around.\n\n\"It's pretty simple, $playerSirOrMadam. Scale up the testing rig using modified common equipment to produce outputs in the combat application range. A robust chassis is not difficult. We're already equipped to repair modular components of most weapon systems using microforged components and existing supply stocks.\" \n\nThey pause, looking into the workbay once more. \"The key is this 'substrate'. It provides the core, the... amplification, the transformation.\"",
+    "translated": "L'officier technique se tourne vers le chef mécanicien, qui peut à peine réprimer un sourire malgré son air sceptique précédent. Votre chef mécanicien hoche la tête et retourne un TriPad.\n\n\"C'est assez simple, $playerSirOrMadam. Augmenter l'échelle du banc d'essai avec de l'équipement standard modifié pour produire des résultats dans la gamme d'application au combat. Un châssis robuste n'est pas difficile. Nous sommes déjà équipés pour réparer les composants modulaires de la plupart des systèmes d'armes en utilisant des composants microforgés et les stocks existants.\" \n\nIl fait une pause, regardant à nouveau dans la baie d'atelier. \"La clé, c'est ce 'substrat'. Il fournit le cœur, l'... amplification, la transformation.\""
+  },
+  {
+    "csv_row": 101,
+    "id": "shroudedSubstrateOptSelE2",
+    "column": "text",
+    "original": "Tech speaks up, \"Using sensor data recorded during our encounter with the, um, hostile entities, we believe it is possible to reliably reproduce certain effects which have been observed.\"\n\nThe schematics scrolling before you are complex, but you recognize the conduits and capacitors common to energy weapon mounts. And something strange at the center of each design, some beating heart which does not belong within these human creations.\n\nYou trust your officers enough not to ask if the projected power outputs are an error - you've already seen what these things are capable of.",
+    "translated": "L'officier technique prend la parole : \"En utilisant les données capteurs enregistrées lors de notre rencontre avec les, euh, entités hostiles, nous pensons qu'il est possible de reproduire de manière fiable certains effets qui ont été observés.\"\n\nLes schémas défilant devant vous sont complexes, mais vous reconnaissez les conduits et condensateurs communs aux supports d'armes à énergie. Et quelque chose d'étrange au centre de chaque conception, un cœur battant qui n'a pas sa place dans ces créations humaines.\n\nVous faites suffisamment confiance à vos officiers pour ne pas demander si les niveaux de puissance projetés sont une erreur - vous avez déjà vu de quoi ces choses sont capables."
+  },
+  {
+    "csv_row": 102,
+    "id": "shroudedSubstrateOptSelF",
+    "column": "options",
+    "option_line": "substrate_selectWeapons:Select weapons to assemble",
+    "original": "Select weapons to assemble",
+    "translated": "Sélectionner les armes à assembler"
+  },
+  {
+    "csv_row": 104,
+    "id": "shroudedSubstrateWasAnalyzed",
+    "column": "text",
+    "original": "You consult with your technical officer and engineering chief in a small briefing room overlooking a workbay adapted to store and analyze the unusual specimens you've found. They are poring over schematics, deep in an argument over implementation details. You are pleased to note that their disagreement plays out within a foundation built of professional respect.  \n\nThey notice you and, in unison, say \"$PlayerSirOrMadam.\"\n\nShrouded Substrate available: $player.shroudedSubstrateAvailable unit(s).",
+    "translated": "Vous consultez votre officier technique et votre chef mécanicien dans une petite salle de briefing surplombant une baie d'atelier adaptée pour stocker et analyser les spécimens inhabituels que vous avez trouvés. Ils sont penchés sur des schémas, plongés dans une discussion sur les détails de mise en œuvre. Vous êtes satisfait de constater que leur désaccord se déroule dans un cadre fondé sur le respect professionnel.  \n\nIls vous remarquent et, à l'unisson, disent \"$PlayerSirOrMadam.\"\n\nSubstrat voilé disponible : $player.shroudedSubstrateAvailable unité(s)."
+  },
+  {
+    "csv_row": 104,
+    "id": "shroudedSubstrateWasAnalyzed",
+    "column": "options",
+    "option_line": "substrate_selectWeapons:Select weapons to assemble",
+    "original": "Select weapons to assemble",
+    "translated": "Sélectionner les armes à assembler"
+  },
+  {
+    "csv_row": 106,
+    "id": "SubstrateWeaponsPicked",
+    "column": "text",
+    "original": "Your technical officer and chief engineer pore over the schematics, arguing over implementation details. You are pleased to note that their disagreement plays out within a foundation built of professional respect.  \n\nShrouded Substrate available: $player.shroudedSubstrateAvailable unit(s).",
+    "translated": "Votre officier technique et votre chef mécanicien sont penchés sur les schémas, argumentant sur les détails de mise en œuvre. Vous êtes satisfait de constater que leur désaccord se déroule dans un cadre fondé sur le respect professionnel.  \n\nSubstrat voilé disponible : $player.shroudedSubstrateAvailable unité(s)."
+  },
+  {
+    "csv_row": 106,
+    "id": "SubstrateWeaponsPicked",
+    "column": "options",
+    "option_line": "substrate_selectWeapons:Select weapons to assemble",
+    "original": "Select weapons to assemble",
+    "translated": "Sélectionner les armes à assembler"
+  },
+  {
+    "csv_row": 112,
+    "id": "ShroudedHullmodItemRCMantle1a",
+    "column": "text",
+    "original": "You find your technology officer and chief engineer in deep discussion over one of the unusual specimens held in the \"special salvage' bay.",
+    "translated": "Vous trouvez votre officier technique et votre chef mécanicien en pleine discussion à propos de l'un des spécimens inhabituels conservés dans la baie de \"récupération spéciale\"."
+  }
+]

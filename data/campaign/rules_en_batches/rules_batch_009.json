@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 190,
+    "id": "GS_ACADEMY_cont3Sel",
+    "column": "text",
+    "original": "\"Not quite,\" your tech officer suppresses a sly grin.\n\nThere's simple deletion and there's systemic erasure done to ensure that data recovery is effectively impossible. Whoever did this was not proficient enough to do the latter.",
+    "translated": "\"Pas exactement,\" votre officier technique réprime un sourire malicieux.\n\nIl y a la simple suppression et il y a l'effacement systémique conçu pour rendre la récupération de données effectivement impossible. Celui qui a fait ça n'était pas assez compétent pour la seconde option."
+  },
+  {
+    "csv_row": 190,
+    "id": "GS_ACADEMY_cont3Sel",
+    "column": "options",
+    "option_line": "GS_ACADEMY_cont4:Find out what happened to the expedition",
+    "original": "Find out what happened to the expedition",
+    "translated": "Découvrir ce qui est arrivé à l'expédition"
+  },
+  {
+    "csv_row": 191,
+    "id": "GS_ACADEMY_cont4Sel",
+    "column": "text",
+    "original": "Datastreams are painstakingly recovered, the high-interest combat logs prioritized by your techs. The data is lossy, and the gaps must be filled by algorithms which, used improperly, have a reputation for confidently asserting false results.\n\nNonetheless.\n\nYou see the black of the abyss, and the cluster of lights and icons signifying the Galatia Expedition's flotilla. The view is highly abstract, a reconstruction of a visualization necessary in not only hyperspace but the uncertain depths of the Abyss.\n\nYou speed the stream forward to the point where everything goes wrong.",
+    "translated": "Les flux de données sont laborieusement récupérés, les journaux de combat prioritaires traités en premier par vos techniciens. Les données sont dégradées, et les lacunes doivent être comblées par des algorithmes qui, mal utilisés, ont la réputation d'affirmer avec assurance des résultats erronés.\n\nNéanmoins.\n\nVous voyez le noir de l'abîme et l'amas de lumières et d'icônes signifiant la flottille de l'Expédition de Galatia. La vue est hautement abstraite, une reconstitution d'une visualisation nécessaire non seulement dans l'hyperespace mais aussi dans les profondeurs incertaines de l'Abîme.\n\nVous accélérez le flux jusqu'au moment où tout tourne mal."
+  },
+  {
+    "csv_row": 192,
+    "id": "GS_ACADEMY_cont4SelB",
+    "column": "text",
+    "original": "The fleet approaches an Abyssal Light. A glow in the simulated display, a foggy illumination which somehow captures the cold and solipsistic loneliness of the veil beyond deep space.\n\nThe flagship comms hum with excited academicians eager to finally perform their experiments after long weeks of boredom.",
+    "translated": "La flotte s'approche d'une Lumière Abyssale. Une lueur dans l'affichage simulé, une illumination brumeuse qui capture d'une manière ou d'une autre la solitude froide et solipsiste du voile au-delà de l'espace profond.\n\nLes communications du vaisseau amiral bourdonnent d'académiciens enthousiastes, impatients de pouvoir enfin mener leurs expériences après de longues semaines d'ennui."
+  },
+  {
+    "csv_row": 193,
+    "id": "GS_ACADEMY_cont5Sel",
+    "column": "text",
+    "original": "The flotilla's hyperspace bubble ripples, then strains under an impossible force. Anomalous sensor readings are tagged, then...\n\nAn error pops up from your own software. \nEXTREME UNRELIABILITY. Output may not reflect accurate reconstruction of data. Continue?",
+    "translated": "La bulle hyperespace de la flottille ondule, puis se tend sous une force impossible. Des relevés capteurs anomaux sont marqués, puis...\n\nUne erreur apparaît de votre propre logiciel. \nFIABILITÉ EXTRÊMEMENT FAIBLE. La sortie peut ne pas refléter une reconstitution fidèle des données. Continuer ?"
+  },
+  {
+    "csv_row": 194,
+    "id": "GS_ACADEMY_cont6Sel",
+    "column": "text",
+    "original": "The display is full of red icons, jagged warnings vectoring toward elements of the flotilla.\n\nThe chief Academician orders a full sensor burst, max power, using the integrated suite of the entire flotilla. There is a flash as EM surges; and gravimetrics pulse, hyperwave doppler, Atherton resonators...\n\nAnother error.\nINTERRUPT: INSUFFICIENT DATA. Continue to next viable reconstruction?",
+    "translated": "L'écran est rempli d'icônes rouges, d'alertes dentelées convergeant vers les éléments de la flottille.\n\nL'académicien en chef ordonne une salve capteurs complète, puissance maximale, utilisant la suite intégrée de toute la flottille. Il y a un flash d'ondes EM ; et pulsation gravimétrique, doppler hyperonde, résonateurs Atherton...\n\nUne autre erreur.\nINTERRUPTION : DONNÉES INSUFFISANTES. Continuer vers la prochaine reconstitution viable ?"
+  },
+  {
+    "csv_row": 195,
+    "id": "GS_ACADEMY_cont7Sel",
+    "column": "text",
+    "original": "The feed is degraded, patchy. The flotilla is gone; only the flagship remains, panicked voices on ship comms, in retreat from its previous course. The timeline show a halting record of desperate damage repairs and the crews' slow realization that they cannot make it back to civilized space.\n\nIt is a death-spiral known and feared by all spacer crews.\n\nSystems break down, fuel and supplies dwindle. Morale breaks down. Then discipline. It unravels faster than usual with so many civilians.\n\nYou shut it off.",
+    "translated": "Le flux est dégradé, fragmentaire. La flottille a disparu ; seul le vaisseau amiral reste, des voix paniquées sur les communications du vaisseau, en retraite de sa trajectoire précédente. La chronologie montre un enregistrement haché de réparations de dommages désespérées et la lente prise de conscience de l'équipage qu'ils ne pourront pas revenir dans l'espace civilisé.\n\nC'est une spirale de la mort connue et redoutée par tous les équipages spatiaux.\n\nLes systèmes tombent en panne, le carburant et les fournitures s'épuisent. Le moral s'effondre. Puis la discipline. Tout se délite plus vite que d'habitude avec autant de civils.\n\nVous coupez."
+  },
+  {
+    "csv_row": 195,
+    "id": "GS_ACADEMY_cont7Sel",
+    "column": "options",
+    "option_line": "salExplore:Assess the ship's salvage value",
+    "original": "Assess the ship's salvage value",
+    "translated": "Évaluer la valeur de récupération du vaisseau"
+  },
+  {
+    "csv_row": 202,
+    "id": "gsVambOptHubA",
+    "column": "options",
+    "option_line": "gsVambrace_explore1:Run a detailed scan",
+    "original": "Run a detailed scan",
+    "translated": "Effectuer un scan détaillé"
+  },
+  {
+    "csv_row": 203,
+    "id": "gsVambOptHubB",
+    "column": "options",
+    "option_line": "gsVambrace_salvors1:Send salvors in for a closer look",
+    "original": "Send salvors in for a closer look",
+    "translated": "Envoyer les récupérateurs pour un examen de plus près"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "csv_row": 7852,
+    "id": "raoNerieneSelWonDb",
+    "column": "text",
+    "original": "He gives a laugh. \"I daresay, $playerSirOrMadam, I am not the least bit surprised to hear you say that. Let me tell you...\"",
+    "translated": "Il éclate de rire. \"J'ose dire, $playerSirOrMadam, que je ne suis pas le moins du monde surpris de vous entendre dire cela. Laissez-moi vous dire...\""
+  },
+  {
+    "csv_row": 7853,
+    "id": "raoNerieneSelWonDc",
+    "column": "text",
+    "original": "\"How unusual!\" He looks perplexed, and intrigued.\n\n\"I've only ever met one, maybe two, who shared your preference, but let me tell you...\" ",
+    "translated": "\"Comme c'est inhabituel !\" Il a l'air perplexe, et intrigue.\n\n\"Je n'ai rencontre qu'une, peut-etre deux personnes partageant votre preference, mais laissez-moi vous dire...\""
+  },
+  {
+    "csv_row": 7854,
+    "id": "raoNerieneSelWonD2",
+    "column": "text",
+    "original": "* * *\n\nYou proceed to have a lengthy discussion on the finer points of hardware and technique with Orcus Rao.\n\nHe is more than an enthusiast, showing great depths of knowledge and obvious practical experience on the subject. Your own perspective is a worthy match for his, and you find that you have more to agree than disagree about. \n\nIt is satisfying to meet a mind as sharp as Rao's on a favored subject. The feeling is mutual, you can tell. ",
+    "translated": "* * *\n\nVous entamez une longue discussion sur les subtilites du materiel et de la technique avec Orcus Rao.\n\nIl est bien plus qu'un passione, faisant preuve d'une grande profondeur de connaissances et d'une experience pratique evidente en la matière. Votre propre perspective est a la hauteur de la sienne, et vous decouvrez que vous etes plus souvent d'accord qu'en desaccord.\n\nC'est satisfaisant de rencontrer un esprit aussi aiguise que celui de Rao sur un sujet de predilection. Le sentiment est reciproque, vous le sentez bien."
+  },
+  {
+    "csv_row": 7855,
+    "id": "raoNerieneSelWonD3",
+    "column": "text",
+    "original": "After some time, your talk lulls. Admiral Rao speaks, idly, \"How ever did we get here?\"",
+    "translated": "Au bout d'un moment, votre conversation s'apaise. L'amiral Rao dit, nonchalamment, \"Comment en sommes-nous arrives la ?\""
+  },
+  {
+    "csv_row": 7858,
+    "id": "raoNerieneSelLeftA",
+    "column": "text",
+    "original": "\"To your credit, captain, I'm sure,\" he says. \"Though it is a mark on the Rao name that it came to that. Augusta let things get out of hand.\"\n\nOrcus Rao sighs, and looking distant, says \"I cannot apologize for her, as she's never sought my council in the matter of 'her' house.\"",
+    "translated": "\"A votre honneur, capitaine, j'en suis certain,\" dit-il. \"Bien que ce soit une tache sur le nom des Rao que les choses en soient arrivees la. Augusta a laisse les choses degénerer.\"\n\nOrcus Rao soupire, et le regard lointain, dit \"Je ne peux pas m'excuser pour elle, car elle n'a jamais cherche mon conseil en matière de 'sa' maison.\""
+  },
+  {
+    "csv_row": 7859,
+    "id": "raoNerieneSelLeftAz2",
+    "column": "text",
+    "original": "\"Still. I recall such times at House Rao fondly. Setting aside the unpleasantness, I'm sure there was some proper revelry.\"",
+    "translated": "\"Neanmoins. Je me souviens de tels moments a la Maison Rao avec tendresse. En mettant de cote les desagrements, je suis sur qu'il y a eu de vrais rejouissances.\""
+  },
+  {
+    "csv_row": 7860,
+    "id": "raoNerieneSelLeftA2a",
+    "column": "text",
+    "original": "He pauses. \"At least, that is how Neriene described it.\"\n\nHe's watching you closely.",
+    "translated": "Il fait une pause. \"Du moins, c'est ainsi que Neriene l'a decrit.\"\n\nIl vous observe attentivement."
+  },
+  {
+    "csv_row": 7860,
+    "id": "raoNerieneSelLeftA2a",
+    "column": "options",
+    "option_line": "rao_nerieneConvOut2:\"Then she spoke to you... about me?\"",
+    "original": "Then she spoke to you... about me?",
+    "translated": "Alors elle vous a parle... de moi ?"
+  },
+  {
+    "csv_row": 7860,
+    "id": "raoNerieneSelLeftA2a",
+    "column": "options",
+    "option_line": "rao_nerieneConvOut1:\"Not my concern.\"",
+    "original": "Not my concern.",
+    "translated": "Ça ne me concerne pas."
+  },
+  {
+    "csv_row": 7861,
+    "id": "raoNerieneSelLeftA2b",
+    "column": "text",
+    "original": "He pauses a moment. \"Though Neriene doesn't quite see it that way. She had... some words.\"",
+    "translated": "Il fait une pause. \"Bien que Neriene ne voie pas tout a fait les choses ainsi. Elle a eu... quelques mots.\""
+  }
+]

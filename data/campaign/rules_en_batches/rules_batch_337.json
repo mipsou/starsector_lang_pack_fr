@@ -1,0 +1,81 @@
+[
+  {
+    "csv_row": 10031,
+    "id": "heg_talkAboutInspectionsEnd",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 10036,
+    "id": "PSKMercOptionsNoncommital",
+    "column": "options",
+    "option_line": "pskMerc_noncommital:\"Merci pour l'avertissement.\"",
+    "original": "Merci pour l'avertissement.",
+    "translated": "Merci pour l'avertissement."
+  },
+  {
+    "csv_row": 10038,
+    "id": "PSKMercOptionsThreaten",
+    "column": "options",
+    "option_line": "pskMerc_threaten:\"Cette station ne regarde que moi. C'est vous qui allez partir. Maintenant.\"",
+    "original": "Cette station ne regarde que moi. C'est vous qui allez partir. Maintenant.",
+    "translated": "Cette station ne regarde que moi. C'est vous qui allez partir. Maintenant."
+  },
+  {
+    "csv_row": 10040,
+    "id": "PSKMercOptionsCutLink",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 10041,
+    "id": "PSKMercOptionsNoncommitalSel",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 10042,
+    "id": "PSKMercOptionsAttackSel",
+    "column": "text",
+    "original": "Vous vous passez des politesses.",
+    "translated": "Vous vous passez des politesses."
+  },
+  {
+    "csv_row": 10051,
+    "id": "patherBaseCommanderGreetingDev",
+    "column": "options",
+    "option_line": "100:pk_recoverMissionDev:Start the PK mission",
+    "original": "pk_recoverMissionDev:Start the PK mission",
+    "translated": "pk_recoverMissionDev:Lancer la mission PK"
+  },
+  {
+    "csv_row": 10051,
+    "id": "patherBaseCommanderGreetingDev",
+    "column": "options",
+    "option_line": "101:pk_recoverMissionDev2:Start the PK conversation",
+    "original": "pk_recoverMissionDev2:Start the PK conversation",
+    "translated": "pk_recoverMissionDev2:Lancer la conversation PK"
+  },
+  {
+    "csv_row": 10052,
+    "id": "pk_recoverMissionDevSel",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 10056,
+    "id": "PKPatherComPKOptionPather",
+    "column": "options",
+    "option_line": "pkPather_recoverMission:\"Nous ne sommes pas ennemis. Pourquoi attaquez-vous mon peuple ?\"",
+    "original": "Nous ne sommes pas ennemis. Pourquoi attaquez-vous mon peuple ?",
+    "translated": "Nous ne sommes pas ennemis. Pourquoi attaquez-vous mon peuple ?"
+  }
+]

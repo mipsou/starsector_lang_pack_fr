@@ -1,0 +1,83 @@
+[
+  {
+    "csv_row": 645,
+    "id": "mairaath",
+    "title": "Ruins of Mairaath",
+    "original_text": "Nightmarish storms circled the globe, stirring the ashes of a murdered world.\n\nEven after the apocalyptic ruin of Mairaath humanity still huddled in the broken shells of great cities brought low, blasted by unending wind.",
+    "translated_title": "Ruines de Mairaath",
+    "translated_text": "Des tempêtes cauchemardesques encerclaient le globe, remuant les cendres d'un monde assassiné.\n\nMême après la ruine apocalyptique de Mairaath, l'humanité se blottissait encore dans les coquilles brisées de grandes cités mises à terre, fouettées par un vent sans fin."
+  },
+  {
+    "csv_row": 646,
+    "id": "eochu_bres",
+    "title": "Eochu Bres, Xanadu",
+    "original_text": "Shining Tri-Tachyon Corporation arcologies towered over a riotous sprawl of shantytown conurbation. Company salariat were born, lived, and died protected by security drones in the high city Xanadu while a desperate class of immiserated laborers dwelled in the low city where anything at all was bought or sold.",
+    "translated_title": "Eochu Bres, Xanadu",
+    "translated_text": "Les arcologies étincelantes de la Corporation Tri-Tachyon dominaient un étalement anarchique de bidonvilles. Les salariés de la compagnie naissaient, vivaient et mouraient protégés par des drones de sécurité dans la haute ville de Xanadu, tandis qu'une classe désespérée de travailleurs appauvris demeurait dans la ville basse, où absolument tout s'achetait et se vendait."
+  },
+  {
+    "csv_row": 647,
+    "id": "eochu_bres_landing",
+    "title": "Eochu Bres, Skyarco II",
+    "original_text": "Gleaming monoliths glittered, spears of capital upthrust through the glowering flesh of the world. Skyarco II loomed prismatic.\n\nThe shuttle alit on a landing pad held at some distance from the facade by an airy support rib. It looked impossibly thin, but after touch down felt solid as a mountain.",
+    "translated_title": "Eochu Bres, Skyarco II",
+    "translated_text": "Des monolithes luisants scintillaient, lances de capital jaillies à travers la chair menaçante du monde. Skyarco II se dressait, prismatique.\n\nLa navette se posa sur un pad d'atterrissage maintenu à distance de la façade par une fine nervure de support. Elle semblait impossiblement mince, mais après l'atterrissage, se révéla solide comme une montagne."
+  },
+  {
+    "csv_row": 648,
+    "id": "survey",
+    "title": "Planetary Survey",
+    "original_text": "The fringe of the Persean Second is filled with worlds lost, forgotten, and never seen at all by consciousness born of flesh.\n\nThere are green fields of toxic xenolife, tombs frosted with nitrogen snow, roiling cauldrons of magma and brimstone, and planets made of living storm; vast fortunes to be uncovered, barbarian-worlds incapable of starflight, and the weapons of ancient wars primed to attack any interloper.",
+    "translated_title": "Relevé Planétaire",
+    "translated_text": "La frange du Secteur Persane est emplie de mondes perdus, oubliés, et jamais vus par une conscience née de la chair.\n\nOn y trouve des champs verdoyants de xénovie toxique, des tombeaux givrés de neige d'azote, des chaudrons bouillonnants de magma et de soufre, et des planètes faites de tempêtes vivantes ; de vastes fortunes à découvrir, des mondes barbares incapables de vol stellaire, et les armes de guerres anciennes prêtes à attaquer tout intrus.",
+    "text2": "unlocked"
+  },
+  {
+    "csv_row": 649,
+    "id": "luddic_shrine",
+    "title": "Luddic Shrine",
+    "original_text": "Pilgrims were offered tea, water, and ritual washing. The air was filled with sweat and incense. All around, a river of faith and ritual flowed.\nIn the hardship of life in the Persean Sector, as in the hardship of the pilgrimage, the Faithful found a kind of peace and meaning in the vacuum left by the Collapse.",
+    "translated_title": "Sanctuaire Luddic",
+    "translated_text": "On offrait aux pèlerins du thé, de l'eau et des ablutions rituelles. L'air était empli de sueur et d'encens. Tout autour, un fleuve de foi et de rituel coulait.\nDans l'adversité de la vie dans le Secteur Persane, comme dans l'adversité du pèlerinage, les Fidèles trouvaient une sorte de paix et de sens dans le vide laissé par l'Effondrement."
+  },
+  {
+    "csv_row": 650,
+    "id": "orbital_construction",
+    "title": "Orbital Construction",
+    "original_text": "The ceramoid plating slowly peeled away in an aeon-long cascading fail state. Metallic ribs exposed, bleached by stellar winds, charged and released the pulsing dance of magnetic fields, the thrumming of orbits and the gnawing sirocco of micrometeorites.",
+    "translated_title": "Construction Orbitale",
+    "translated_text": "Le blindage céramoïde se détachait lentement dans une défaillance en cascade longue d'un éon. Les nervures métalliques exposées, blanchies par les vents stellaires, se chargeaient et libéraient la danse pulsante des champs magnétiques, le bourdonnement des orbites et le sirocco rongeur des micrométéorites."
+  },
+  {
+    "csv_row": 651,
+    "id": "dead_gate",
+    "title": "Dead Gate",
+    "original_text": "\"Humanity was thence scattered abroad upon the face of the galaxy, speaking one tongue, united by the demon Gates in one body of worldly law. But we had forgotten the laws of God, mightier than any fusion lance! God would remind humanity of its place in this universe.\"",
+    "translated_title": "Portail Inactif",
+    "translated_text": "« L'humanité fut ainsi dispersée sur la face de la galaxie, parlant une seule langue, unie par les Portails démoniaques en un seul corps de loi temporelle. Mais nous avions oublié les lois de Dieu, plus puissantes que n'importe quelle lance à fusion ! Dieu rappellerait à l'humanité sa place dans cet univers. »"
+  },
+  {
+    "csv_row": 652,
+    "id": "active_gate",
+    "title": "Active Gate",
+    "original_text": "It is a humming ring of adamantine material. If one knows how to look, sensors can detect their faint vibration in higher dimensions.\n\nIt is like a barely heard song, a door waiting to be opened.",
+    "translated_title": "Portail Actif",
+    "translated_text": "C'est un anneau bourdonnant de matériau adamantin. Si l'on sait comment regarder, les capteurs peuvent détecter leur faible vibration dans les dimensions supérieures.\n\nC'est comme un chant à peine audible, une porte attendant d'être ouverte."
+  },
+  {
+    "csv_row": 653,
+    "id": "eventide",
+    "title": "Eventide",
+    "original_text": "Leading families of Eventide sponsored the stellar mirrors and shades to maintain islands of comfortable habitability. The disgraced and poor, meanwhile, lived in the twilight peripheries where harsh climactic shifts of the slow summer-day/winter-night cycle had to be endured in full force.",
+    "translated_title": "Eventide",
+    "translated_text": "Les grandes familles d'Eventide finançaient les miroirs et voiles stellaires pour maintenir des îlots d'habitabilité confortable. Les disgraciés et les pauvres, quant à eux, vivaient dans les périphéries crépusculaires où les rudes changements climatiques du lent cycle jour-été/nuit-hiver devaient être endurés de plein fouet."
+  },
+  {
+    "csv_row": 654,
+    "id": "volturn",
+    "title": "Volturn, Ocean World",
+    "original_text": "The port of Volturn was built on a loose flotilla of huge, singed-looking barges that wallowed in an oily sea. Offloading spacers are interrogated by dour security officers, then allowed into the traders' concourse. Merchants in dull suits, loyalty pins dutifully displayed on the collar, passed around a datapad loaded with incoming cargo manifests.",
+    "translated_title": "Volturn, Monde Océanique",
+    "translated_text": "Le port de Volturn était construit sur une flottille éparse d'énormes barges à l'aspect calciné qui se vautraient dans une mer huileuse. Les spacers débarquant étaient interrogés par de mornes officiers de sécurité, puis autorisés à pénétrer dans le hall des marchands. Des commerçants en costumes ternes, épingles de loyauté dûment arborées au col, se passaient un datapad chargé des manifestes de cargo entrant."
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "csv_row": 10966,
+    "id": "gaDHOendingWrapUp2a",
+    "column": "text",
+    "original": "\"Will you be so 'honest' with COMSEC when they come smashing down your airlock? Will you?\" His eyes are fiery.\n\nHe holds the fierce look for just a moment longer, then visibly deflates. \"It'll be... fine. My patron... it was all fakery, of course. A misunderstanding...\"\n\n\"I'll... we're done here, captain.\" Elek's eyes wander around his office, as if searching for escape. \"G-good day, $playerSirOrMadam.\"",
+    "translated": "\"Serez-vous aussi 'honnête' avec la COMSEC quand ils viendront défoncer votre sas ? Hein ?\" Ses yeux sont enflammés.\n\nIl maintient le regard féroce un instant de plus, puis se dégonfle visiblement. \"Ce sera... ça ira. Mon mécène... c'était du faux, bien sûr. Un malentendu...\"\n\n\"Je... nous en avons terminé, capitaine.\" Les yeux d'Elek errent autour de son bureau, comme s'il cherchait une échappatoire. \"B-bonne journée, $playerSirOrMadam.\""
+  },
+  {
+    "csv_row": 10967,
+    "id": "gaDHOendingWrapUp3a",
+    "column": "options",
+    "option_line": "gaDHO_endingHeBelievesPay2:\"Hold on- we're not done 'til I get paid.\"",
+    "original": "Hold on- we're not done 'til I get paid.",
+    "translated": "Attendez — on n'a pas fini tant que je ne suis pas payé."
+  },
+  {
+    "csv_row": 10967,
+    "id": "gaDHOendingWrapUp3a",
+    "column": "options",
+    "option_line": "gaDHO_endingWrapUpNoPay:\"I will forgo payment. Advancement of knowledge is wealth enough.\"",
+    "original": "I will forgo payment. Advancement of knowledge is wealth enough.",
+    "translated": "Je renonce au paiement. L'avancement du savoir est une richesse suffisante."
+  },
+  {
+    "csv_row": 10969,
+    "id": "gaDHOendingWrapUp3b",
+    "column": "text",
+    "original": "He catches you with a desperate look before hitting the cut-off.",
+    "translated": "Il vous lance un regard désespéré avant de couper la communication."
+  },
+  {
+    "csv_row": 10969,
+    "id": "gaDHOendingWrapUp3b",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 10972,
+    "id": "gaDHOjustFoundArrayStart",
+    "column": "options",
+    "option_line": "gaDHO_justFoundArray0:Investigate the modifications",
+    "original": "Investigate the modifications",
+    "translated": "Examiner les modifications"
+  },
+  {
+    "csv_row": 10975,
+    "id": "gaDHOjustFoundArray2",
+    "column": "options",
+    "option_line": "gaDHO_justFoundArray3:\"How can you tell?\"",
+    "original": "How can you tell?",
+    "translated": "Comment pouvez-vous le savoir ?"
+  },
+  {
+    "csv_row": 10976,
+    "id": "gaDHOjustFoundArray3",
+    "column": "options",
+    "option_line": "gaDHO_justFoundArray4:\"What are they looking for and what did they find?\"",
+    "original": "What are they looking for and what did they find?",
+    "translated": "Que cherchaient-ils et qu'ont-ils trouvé ?"
+  },
+  {
+    "csv_row": 10978,
+    "id": "gaDHOjustFoundArray3e2",
+    "column": "options",
+    "option_line": "gaDHO_justFoundArray4:\"What was Elek looking for and what this find?\"",
+    "original": "What was Elek looking for and what this find?",
+    "translated": "Que cherchait Elek et qu'est-ce que c'est que cette trouvaille ?"
+  },
+  {
+    "csv_row": 10979,
+    "id": "gaDHOjustFoundArray4",
+    "column": "options",
+    "option_line": "gaDHO_justFoundArray5:\"Some nameless rock, huh. Let's have the coordinates.\"",
+    "original": "Some nameless rock, huh. Let's have the coordinates.",
+    "translated": "Un caillou sans nom, hein. Donnez-moi les coordonnées."
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "csv_row": 8286,
+    "id": "ZGRpostWeirdNothingProceed",
+    "column": "text",
+    "original": "Her expression remains frozen with disdainful impatience.",
+    "translated": "Son expression reste figee dans une impatience dedaigneuse."
+  },
+  {
+    "csv_row": 8287,
+    "id": "ZGRpostWeirdNothingHostile",
+    "column": "text",
+    "original": "\"Tell me what you found.\"",
+    "translated": "\"Dites-moi ce que vous avez trouve.\""
+  },
+  {
+    "csv_row": 8288,
+    "id": "ZGRpostWeirdNothingDweller",
+    "column": "text",
+    "original": "\"It was not the 'Threat',\" she says. It doesn't sound like a question.",
+    "translated": "\"Ce n'était pas la 'Menace',\" dit-elle. Cela ne ressemble pas a une question."
+  },
+  {
+    "csv_row": 8288,
+    "id": "ZGRpostWeirdNothingDweller",
+    "column": "options",
+    "option_line": "zgr_postWeirdNothingHostile2Know:\"No. But you already know that, don't you.\"",
+    "original": "No. But you already know that, don't you.",
+    "translated": "Non. Mais vous le savez deja, n'est-ce pas."
+  },
+  {
+    "csv_row": 8289,
+    "id": "ZGRpostWeirdNothingHostile2Know",
+    "column": "text",
+    "original": "She blinks once.\n\n\"Tell me what you found.\"",
+    "translated": "Elle cligne des yeux une fois.\n\n\"Dites-moi ce que vous avez trouve.\""
+  },
+  {
+    "csv_row": 8290,
+    "id": "ZGRpostWeirdNothingHostile2KnowB",
+    "column": "text",
+    "original": "\"Tell me what you found.\"",
+    "translated": "\"Dites-moi ce que vous avez trouve.\""
+  },
+  {
+    "csv_row": 8300,
+    "id": "ZGRtechPlayerOMKIbother",
+    "column": "options",
+    "option_line": "zgr_makePitch9OMKIbuy:\"Why? Are you going to make me an offer for it?\"",
+    "original": "Why? Are you going to make me an offer for it?",
+    "translated": "Pourquoi ? Vous allez me faire une offre ?"
+  },
+  {
+    "csv_row": 8301,
+    "id": "ZGRtechReturnOptFirst",
+    "column": "text",
+    "original": "\"My strategic predictors tagged you with reasonable odds of success,\" she says. \"I must congratulate their operators.\"",
+    "translated": "\"Mes predicteurs strategiques vous avaient attribue des chances raisonnables de succes,\" dit-elle. \"Je dois feliciter leurs operateurs.\""
+  },
+  {
+    "csv_row": 8302,
+    "id": "ZGRtechReturnOptAgain",
+    "column": "text",
+    "original": "\"Oh?\" Her eyes give a disconcerting twitch. \"I should like to examine your discoveries.\" ",
+    "translated": "\"Oh ?\" Ses yeux ont un tressaillement deconcertant. \"J'aimerais examiner vos decouvertes.\""
+  },
+  {
+    "csv_row": 8303,
+    "id": "ZGRtechReturnOptAgainB",
+    "column": "text",
+    "original": "For a moment her brow develops a wrinkle. \"More?\" she says, and it disappears.",
+    "translated": "Pendant un instant, son front se plisse. \"Encore ?\" dit-elle, et le pli disparait."
+  }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "csv_row": 2475,
+    "id": "LKEendingStart",
+    "column": "options",
+    "option_line": "lke_endingStartA:\"Ce n'est pas Mazalot, hein.\"",
+    "original": "Ce n'est pas Mazalot, hein.",
+    "translated": "Ce n'est pas Mazalot, hein."
+  },
+  {
+    "csv_row": 2475,
+    "id": "LKEendingStart",
+    "column": "options",
+    "option_line": "lke_endingStartB:\"Comment allez-vous, $global.jethroName ?\"",
+    "original": "Comment allez-vous, $global.jethroName ?",
+    "translated": "Comment allez-vous, $global.jethroName ?"
+  },
+  {
+    "csv_row": 2480,
+    "id": "LKEendingJaspis2",
+    "column": "options",
+    "option_line": "lke_endingWrapup1:\"Bonne chance, $global.jethroName.\"",
+    "original": "Bonne chance, $global.jethroName.",
+    "translated": "Bonne chance, $global.jethroName."
+  },
+  {
+    "csv_row": 2486,
+    "id": "lkeJaspisGreeting",
+    "column": "options",
+    "option_line": "lke_jaspisTalkNotYet:\"Pas encore.\"",
+    "original": "Pas encore.",
+    "translated": "Pas encore."
+  },
+  {
+    "csv_row": 2486,
+    "id": "lkeJaspisGreeting",
+    "column": "options",
+    "option_line": "cutCommLinkPolite:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 2491,
+    "id": "BFINdevMenu",
+    "column": "options",
+    "option_line": "bfin_devStart:Start from the beginning of BFIN as if LKE etc are done.",
+    "original": "Start from the beginning of BFIN as if LKE etc are done.",
+    "translated": "Start from the beginning of BFIN as if LKE etc are done."
+  },
+  {
+    "csv_row": 2491,
+    "id": "BFINdevMenu",
+    "column": "options",
+    "option_line": "bfin_devSetPlayerKilledSedgeEarlier:Player killed Sedge during LKE (earlier)",
+    "original": "Player killed Sedge during LKE (earlier)",
+    "translated": "Player killed Sedge during LKE (earlier)"
+  },
+  {
+    "csv_row": 2491,
+    "id": "BFINdevMenu",
+    "column": "options",
+    "option_line": "bfin_devSetPlayerKilledSedgeLater:Player killed Sedge during BFFI (later)",
+    "original": "Player killed Sedge during BFFI (later)",
+    "translated": "Player killed Sedge during BFFI (later)"
+  },
+  {
+    "csv_row": 2491,
+    "id": "BFINdevMenu",
+    "column": "options",
+    "option_line": "bfin_devSetBornanewBadBoy:make Bornanew bad",
+    "original": "make Bornanew bad",
+    "translated": "make Bornanew bad"
+  },
+  {
+    "csv_row": 2492,
+    "id": "BFINdevStart",
+    "column": "text",
+    "original": "As your officers perform routine approach procedures, Comms signals for your attention.\n\n\"$PlayerSirOrMadam, there is an incoming link using a Knights of Ludd signifier. A... Jethro Bornanew wishes to speak with you. Just a novice of the Knights, it looks like.\"",
+    "translated": "Tandis que vos officiers effectuent les procédures d'approche de routine, le poste Comm vous signale.\n\n\"$PlayerSirOrMadam, il y a un appel entrant pour vous. C'est un... Chevalier de Ludd ?\""
+  }
+]

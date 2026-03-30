@@ -1,0 +1,80 @@
+[
+  {
+    "csv_row": 3033,
+    "id": "BFFIulmusPondNotHere",
+    "column": "options",
+    "option_line": "bffi_ulmusPondNotHere2:\"You're sure. How do you know this?\"",
+    "original": "You're sure. How do you know this?",
+    "translated": "Vous en êtes sûr. Comment le savez-vous ?"
+  },
+  {
+    "csv_row": 3034,
+    "id": "BFFIulmusPondNotHere2",
+    "column": "options",
+    "option_line": "bffi_ulmusPondNotHere3:\"Your oath. Of course.\"",
+    "original": "Your oath. Of course.",
+    "translated": "Votre serment. Bien sûr."
+  },
+  {
+    "csv_row": 3035,
+    "id": "BFFIulmusPondNotHere3",
+    "column": "text",
+    "original": "\"Yes.\" Bornanew clears his throat.\n\n\"The word is that he has fled to Chalcedon on a tramp freighter, a smuggler, known to move materiel for the Luddic Path.\"",
+    "translated": "\"Oui.\" Bornanew s'éclaircit la gorge.\n\n\"Le bruit court qu'il a fui vers Chalcedon sur un cargo vagabond, un contrebandier, connu pour transporter du matériel pour le Sentier Luddique.\""
+  },
+  {
+    "csv_row": 3035,
+    "id": "BFFIulmusPondNotHere3",
+    "column": "options",
+    "option_line": "bffi_ulmusPondNotHere4a:\"Does an innocent man run?\"",
+    "original": "Does an innocent man run?",
+    "translated": "Un innocent prend-il la fuite ?"
+  },
+  {
+    "csv_row": 3035,
+    "id": "BFFIulmusPondNotHere3",
+    "column": "options",
+    "option_line": "bffi_ulmusPondNotHere4b:\"Then we follow.\"",
+    "original": "Then we follow.",
+    "translated": "Alors nous le suivons."
+  },
+  {
+    "csv_row": 3036,
+    "id": "BFFIulmusPondNotHere4a",
+    "column": "text",
+    "original": "He turns his head. \"He might, if he had to. But I suspect that Ulmus is not an innocent man.\"",
+    "translated": "Il tourne la tête. \"Il le pourrait, s'il le devait. Mais je soupçonne qu'Ulmus n'est pas un homme innocent.\""
+  },
+  {
+    "csv_row": 3039,
+    "id": "BFFIupNotHereConvOptB",
+    "column": "options",
+    "option_line": "bffi_upNotHereAskRole:\"What's Ulmus Pond's role? What does finding him do for us?\"",
+    "original": "What's Ulmus Pond's role? What does finding him do for us?",
+    "translated": "Quel est le rôle d'Ulmus Pond ? Qu'est-ce que le trouver nous apporte ?"
+  },
+  {
+    "csv_row": 3040,
+    "id": "BFFIupNotHereConvOptC",
+    "column": "options",
+    "option_line": "bffi_upNotHereSourcesB:\"What if these are pirates, or a major faction misleading us?\"",
+    "original": "What if these are pirates, or a major faction misleading us?",
+    "translated": "Et si c'étaient des pirates, ou une faction majeure qui nous induit en erreur ?"
+  },
+  {
+    "csv_row": 3041,
+    "id": "BFFIupNotHereConvOptD",
+    "column": "options",
+    "option_line": "bffi_upNotHereSourcesA:\"Before we act, let us speak of your Knights' 'sources'.\"",
+    "original": "Before we act, let us speak of your Knights' 'sources'.",
+    "translated": "Avant d'agir, parlons des 'sources' de vos Chevaliers."
+  },
+  {
+    "csv_row": 3042,
+    "id": "BFFIupNotHereConvOptE",
+    "column": "options",
+    "option_line": "bffi_upNotHereIntentions:\"Could your queries have revealed our intentions?\"",
+    "original": "Could your queries have revealed our intentions?",
+    "translated": "Vos recherches auraient-elles pu révéler nos intentions ?"
+  }
+]

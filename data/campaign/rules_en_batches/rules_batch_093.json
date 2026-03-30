@@ -1,0 +1,78 @@
+[
+  {
+    "csv_row": 2907,
+    "id": "BFFIapHorus22",
+    "column": "options",
+    "option_line": "bffi_apHorus23e:\"Yup. Have a look for yourself.\" (give him the glove)",
+    "original": "Yup. Have a look for yourself.\" (give him the glove)",
+    "translated": "Ouais. Voyez par vous-même.\" (lui donner le gant)"
+  },
+  {
+    "csv_row": 2907,
+    "id": "BFFIapHorus22",
+    "column": "options",
+    "option_line": "bffi_apHorus23c:\"I do. Did you see their faces, $global.jethroName?\"",
+    "original": "I do. Did you see their faces, $global.jethroName?",
+    "translated": "Oui. Vous avez vu leurs têtes, $global.jethroName ?"
+  },
+  {
+    "csv_row": 2908,
+    "id": "BFFIapHorus22b",
+    "column": "text",
+    "original": "Pond gapes at you, furthering the piscine effect.\n\nBornanew places an untouched drink of something fizzy and golden into Pond's hand, then walks with you back to the shuttle bay.\n\n\"I think, perhaps,\" he says quietly, eyes forward, \"that you should have put the glove somewhere out of sight.\"",
+    "translated": "Pond vous dévisage bouche bée, renforçant l'effet piscicole.\n\nBornanew place un verre intact de quelque chose de pétillant et doré dans la main de Pond, puis marche avec vous vers le hangar de navettes.\n\n\"Je pense, peut-être,\" dit-il doucement, les yeux droit devant, \"que vous auriez dû mettre le gant hors de vue.\""
+  },
+  {
+    "csv_row": 2908,
+    "id": "BFFIapHorus22b",
+    "column": "options",
+    "option_line": "bffi_apHorus23b:\"Perhaps you're right.\"",
+    "original": "Perhaps you're right.",
+    "translated": "Vous avez peut-être raison."
+  },
+  {
+    "csv_row": 2908,
+    "id": "BFFIapHorus22b",
+    "column": "options",
+    "option_line": "bffi_apHorus23c:\"Maybe. But did you see their faces, $global.jethroName?\"",
+    "original": "Maybe. But did you see their faces, $global.jethroName?",
+    "translated": "Peut-être. Mais vous avez vu leurs têtes, $global.jethroName ?"
+  },
+  {
+    "csv_row": 2909,
+    "id": "BFFIapHorus23a",
+    "column": "text",
+    "original": "He accepts the glove, a little surprised, quickly placing it within some hidden pocket of his robes.",
+    "translated": "Il accepte le gant, un peu surpris, le rangeant rapidement dans une poche cachée de sa robe."
+  },
+  {
+    "csv_row": 2910,
+    "id": "BFFIapHorus23b",
+    "column": "text",
+    "original": "He simply nods, placing his hands together. He doesn't do anything more, but you swear he's praying.",
+    "translated": "Il hoche simplement la tête, joignant les mains. Il ne fait rien de plus, mais vous jurez qu'il prie."
+  },
+  {
+    "csv_row": 2912,
+    "id": "BFFIapHorus23e",
+    "column": "text",
+    "original": "He accepts the glove, taking only a split second to suppress his look of shock. Bornanew quickly disappears the glove to some hidden pocket of his robes.\n\n\"I think, perhaps,\" he says in a whisper, \"that should have remained hidden.\"",
+    "translated": "Il accepte le gant, ne prenant qu'une fraction de seconde pour réprimer son expression de choc. Bornanew fait rapidement disparaître le gant dans une poche cachée de sa robe.\n\n\"Je pense, peut-être,\" murmure-t-il, \"que cela aurait dû rester caché.\""
+  },
+  {
+    "csv_row": 2912,
+    "id": "BFFIapHorus23e",
+    "column": "options",
+    "option_line": "bffi_apHorus23b:\"Perhaps you're right.\"",
+    "original": "Perhaps you're right.",
+    "translated": "Vous avez peut-être raison."
+  },
+  {
+    "csv_row": 2912,
+    "id": "BFFIapHorus23e",
+    "column": "options",
+    "option_line": "bffi_apHorus23g:\"Don't worry. Menes is going to be on his best good behavior from here on out.\"",
+    "original": "Don't worry. Menes is going to be on his best good behavior from here on out.",
+    "translated": "Ne vous inquiétez pas. Menes va se tenir à carreau à partir de maintenant."
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "csv_row": 4325,
+    "id": "gaKACoureuseAskAbtCavinB",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la liaison",
+    "original": "Couper la liaison",
+    "translated": "Couper la liaison"
+  },
+  {
+    "csv_row": 4327,
+    "id": "gaKACoureuseAskAbtZal1",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la liaison",
+    "original": "Couper la liaison",
+    "translated": "Couper la liaison"
+  },
+  {
+    "csv_row": 4334,
+    "id": "GAKA_TTStart",
+    "column": "options",
+    "option_line": "gaKA_ttAsk:Demander ce qui se passe",
+    "original": "Demander ce qui se passe",
+    "translated": "Demander ce qui se passe"
+  },
+  {
+    "csv_row": 4334,
+    "id": "GAKA_TTStart",
+    "column": "options",
+    "option_line": "gaKA_ttFollow:Suivre l'agent Tri-Tachyon",
+    "original": "Suivre l'agent Tri-Tachyon",
+    "translated": "Suivre l'agent Tri-Tachyon"
+  },
+  {
+    "csv_row": 4335,
+    "id": "gaKA_ttAskSel",
+    "column": "options",
+    "option_line": "gaKA_ttFollow:Suivre l'agent",
+    "original": "Suivre l'agent",
+    "translated": "Suivre l'agent"
+  },
+  {
+    "csv_row": 4343,
+    "id": "gaKA_ttOfferSel",
+    "column": "options",
+    "option_line": "gaKA_ttLeaveToBarB:Revenir au bar",
+    "original": "Revenir au bar",
+    "translated": "Revenir au bar"
+  },
+  {
+    "csv_row": 4345,
+    "id": "gaKA_ttNothingSel",
+    "column": "options",
+    "option_line": "gaKA_ttLeaveToBarB:Revenir au bar",
+    "original": "Revenir au bar",
+    "translated": "Revenir au bar"
+  },
+  {
+    "csv_row": 4346,
+    "id": "gaKA_ttBairdSel",
+    "column": "options",
+    "option_line": "gaKA_ttLeaveToBarB:Revenir au bar",
+    "original": "Revenir au bar",
+    "translated": "Revenir au bar"
+  },
+  {
+    "csv_row": 4356,
+    "id": "gaKA_hegGoonsOpt",
+    "column": "options",
+    "option_line": "gaKA_hegGoons:\"Le patriotisme, hein. C'est quoi cette bande de gorilles ?\"",
+    "original": "Le patriotisme, hein. C'est quoi cette bande de gorilles ?",
+    "translated": "Le patriotisme, hein. C'est quoi cette bande de gorilles ?"
+  },
+  {
+    "csv_row": 4358,
+    "id": "gaKA_hegTriTachOpt",
+    "column": "options",
+    "option_line": "gaKA_hegTriTach:\"On dirait que Tri-Tachyon vous a encore battu.\"",
+    "original": "On dirait que Tri-Tachyon vous a encore battu.",
+    "translated": "On dirait que Tri-Tachyon vous a encore battu."
+  }
+]

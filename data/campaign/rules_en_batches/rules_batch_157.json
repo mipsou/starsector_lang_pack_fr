@@ -1,0 +1,72 @@
+[
+  {
+    "csv_row": 3528,
+    "id": "BFFIdeliverToOakKeepfaithCheckB2",
+    "column": "text",
+    "original": "He glances at you. \"The station, and the nanoforge, were annihilated. We did not find evidence of a mole in the Cathedral of Holy Exodus. Humbly, sir, if you would allow-\"\n\nOak's eyes narrow, which is enough to prompt silence. Oak's clerk looks between him and Bornanew curiously, but she also holds her tongue.",
+    "translated": "Il vous jette un regard. \"La station, et la nanoforge, ont été anéanties. Nous n'avons pas trouvé de preuve d'une taupe dans la Cathédrale du Saint Exode. Humblement, monsieur, si vous permettez-\"\n\nLes yeux d'Oak se plissent, ce qui suffit à imposer le silence. La greffière d'Oak regarde entre lui et Bornanew avec curiosité, mais elle aussi tient sa langue."
+  },
+  {
+    "csv_row": 3529,
+    "id": "BFFIdeliverToOakKeepfaithCheckBbb",
+    "column": "text",
+    "original": "The Excubitor Orbis had never stopped watching you. \"Your theory. Tartessus,\" he prompts $global.jethroName.\n\nBornanew steps forward. \"I tracked the source of the false relic to a nanoforge operated by Pather heretics. A godless hive of a station on the far fringe, in the $bffi_patherStationSystem.\"",
+    "translated": "L'Excubitor Orbis n'avait jamais cessé de vous observer. \"Votre théorie. Tartessus,\" incite-t-il $global.jethroName.\n\nBornanew s'avance. \"J'ai remonté la source de la fausse relique jusqu'à une nanoforge opérée par des hérétiques Pathers. Une ruche impie de station aux confins, dans le système $bffi_patherStationSystem.\""
+  },
+  {
+    "csv_row": 3530,
+    "id": "BFFIdeliverToOakKeepfaithCheckB2bb",
+    "column": "text",
+    "original": "He does not look at you, but continues. \"We destroyed the station and the nanoforge. We have not found additional evidence of the mole in the Cathedral of Holy Exodus. The Inquisition should simply declare-\"\n\nOak's eyes narrow, which is enough to prompt silence, though $global.jethroName bridles to contain himself. Oak's clerk looks between the Excubitor Orbis and Bornanew curiously, and she too holds her tongue.",
+    "translated": "Il ne vous regarde pas, mais poursuit. \"Nous avons détruit la station et la nanoforge. Nous n'avons pas trouvé de preuve supplémentaire de la taupe dans la Cathédrale du Saint Exode. L'Inquisition devrait simplement déclarer-\"\n\nLes yeux d'Oak se plissent, ce qui suffit à imposer le silence, bien que $global.jethroName se retienne difficilement. La greffière d'Oak regarde entre l'Excubitor Orbis et Bornanew avec curiosité, et elle aussi tient sa langue."
+  },
+  {
+    "csv_row": 3532,
+    "id": "BFFIdeliverGloveCheckBornAlive",
+    "column": "text",
+    "original": "Bornanew bows, then places the sample container he was carrying on the hangar floor.\n\nWithout rush or flourish, he unlatches the cover and withdraws it to reveal the false relic, the upthrust work-glove which was never touched by Ludd.",
+    "translated": "Bornanew s'incline, puis pose le conteneur d'échantillons qu'il portait sur le sol du hangar.\n\nSans hâte ni fioriture, il déverrouille le couvercle et le retire pour révéler la fausse relique, le gant de travail dressé qui n'a jamais été touché par Ludd."
+  },
+  {
+    "csv_row": 3533,
+    "id": "BFFIdeliverGloveCheckBornAliveBB",
+    "column": "text",
+    "original": "Bornanew does not bow, but matches Oak's glare as he places the sample container onto the hangar floor.\n\nWithout rush or flourish, he unlatches the cover and withdraws it to reveal the false relic, the upthrust work-glove which was never touched by Ludd.",
+    "translated": "Bornanew ne s'incline pas, mais soutient le regard d'Oak en posant le conteneur d'échantillons sur le sol du hangar.\n\nSans hâte ni fioriture, il déverrouille le couvercle et le retire pour révéler la fausse relique, le gant de travail dressé qui n'a jamais été touché par Ludd."
+  },
+  {
+    "csv_row": 3534,
+    "id": "BFFIdeliverGloveCheckBornDead",
+    "column": "text",
+    "original": "A pair of your bodyguards step forward, carrying the sample case between them.\n\nThey place the container on the hangar floor and without rush or flourish unlatch the cover and withdraw it to reveal the false relic, the upthrust work-glove which was never touched by Ludd.",
+    "translated": "Deux de vos gardes du corps s'avancent, portant le conteneur d'échantillons entre eux.\n\nIls posent le conteneur sur le sol du hangar et sans hâte ni fioriture déverrouillent le couvercle et le retirent pour révéler la fausse relique, le gant de travail dressé qui n'a jamais été touché par Ludd."
+  },
+  {
+    "csv_row": 3535,
+    "id": "BFFIdeliverGloveCheck1",
+    "column": "text",
+    "original": "Oak turns his head ever so slightly. \"Destroy it,\" he rumbles.\n\nThe clerk mutters into her cuff.",
+    "translated": "Oak tourne très légèrement la tête. \"Détruisez-le,\" gronde-t-il.\n\nLa greffière murmure dans sa manche."
+  },
+  {
+    "csv_row": 3536,
+    "id": "BFFIdeliverGloveCheck2",
+    "column": "text",
+    "original": "Oak is content to remain silent as technicians of the Knights wheel out a heavy crucible of sorts, festooned with tubes and patterned heat-dispersal tiles. They halt it several meters from you, then scurry over to retrieve the glove - still in its open sample case - and place the whole lot carefully into the blackened interior. They slowly lower and then seal the heavy top-cover then adjust some knobs and switches. The lead tech looks to the Excubitor Orbis.\n\nHe gives a tiny nod.\n\nA dull roar sounds from the device, like a torrential waterfall behind a hardened airlock. Indentations in the tiled carapace begin to glow; you can feel the radiated heat on your exposed skin.",
+    "translated": "Oak se contente de rester silencieux tandis que des techniciens des Chevaliers font rouler une sorte de lourd creuset, orné de tubes et de tuiles de dissipation thermique. Ils l'arrêtent à plusieurs mètres de vous, puis se précipitent pour récupérer le gant - toujours dans son conteneur ouvert - et placent le tout avec précaution dans l'intérieur noirci. Ils abaissent lentement puis scellent le lourd couvercle, puis ajustent quelques boutons et interrupteurs. Le technicien en chef regarde l'Excubitor Orbis.\n\nIl fait un infime hochement de tête.\n\nUn rugissement sourd émane de l'appareil, comme une cascade torrentielle derrière un sas blindé. Les indentations dans la carapace de tuiles commencent à luire ; vous sentez la chaleur irradiée sur votre peau exposée."
+  },
+  {
+    "csv_row": 3539,
+    "id": "BFFIproblemCheckNone",
+    "column": "text",
+    "original": "The clerk shuffles nervously, flipping open a notebook, pausing a moment, then flipping it closed. She looks at the Excubitor Orbis.\n\nHe nods at her, then looks back to you.",
+    "translated": "La greffière s'agite nerveusement, ouvrant un carnet, marquant une pause, puis le refermant. Elle regarde l'Excubitor Orbis.\n\nIl lui fait un signe de tête, puis se retourne vers vous."
+  },
+  {
+    "csv_row": 3540,
+    "id": "BFFIproblemCheckFundingLie",
+    "column": "text",
+    "original": "The clerk clears her throat.\n\n\"Excubitor Orbis,\" her eyes dart at you and Bornanew. \"$playerSirOrMadam. Novice.\"\n\n\"There is a matter of the Demarch of Olinadu. A Menes Yaribay? He claims he was promised payments for the, um, purchase of a relic.\"\n\nYou hadn't thought Oak could look any more displeased.",
+    "translated": "La greffière se racle la gorge.\n\n\"Excubitor Orbis,\" ses yeux se posent rapidement sur vous et Bornanew. \"$playerSirOrMadam. Novice.\"\n\n\"Il y a une affaire concernant le Démarque d'Olinadu. Un certain Menes Yaribay ? Il prétend qu'on lui a promis un paiement pour, euh, l'achat d'une relique.\"\n\nVous ne pensiez pas qu'Oak pouvait avoir l'air encore plus mécontent."
+  }
+]

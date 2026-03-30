@@ -1,0 +1,74 @@
+[
+  {
+    "csv_row": 2802,
+    "id": "BFFImenesPartySteal17c",
+    "column": "options",
+    "option_line": "bffi_mpSteal18b:\"Next time, be sure to let me in on your plan.\"",
+    "original": "Next time, be sure to let me in on your plan.",
+    "translated": "La prochaine fois, assurez-vous de me mettre au courant de votre plan."
+  },
+  {
+    "csv_row": 2806,
+    "id": "BFFImenesPartySteal18d",
+    "column": "text",
+    "original": "His eyes keep watch on Menes as he replies.\n\n\"It's just a glove, captain. The color matches. I didn't think Menes would notice.\" His mouth quirks. \"He didn't.\"\n\n\"He will notice eventually, however. We should... become distant from this place.\"",
+    "translated": "Ses yeux surveillent Menes tandis qu'il répond.\n\n\"C'est juste un gant, capitaine. La couleur correspond. Je ne pensais pas que Menes remarquerait.\" Sa bouche se tord. \"Il n'a pas remarqué.\"\n\n\"Il finira par s'en apercevoir, cependant. Nous devrions... nous éloigner de cet endroit.\""
+  },
+  {
+    "csv_row": 2807,
+    "id": "BFFImenesPartySteal19",
+    "column": "text",
+    "original": "* * *\n\nIt is a feat of diplomacy that you manage to extract yourself and Bornanew as quickly as you are able.\n\nA faked containment failure alert from your chief engineer merely opens the door. Passing through requires shaking everyone's hand, exchanging pleasant words, and going through the motions of good-byes several times over - then each time the ritual is interrupted by some tangent or anecdote from Menes, he ensures that it is begun again from the start.\n\nAt last you find yourself back in your shuttle, a half-full glass still in your hand.",
+    "translated": "* * *\n\nC'est un exploit diplomatique que de parvenir à vous extraire, vous et Bornanew, aussi vite que possible.\n\nUne fausse alerte de défaillance de confinement de votre ingénieur en chef ne fait qu'ouvrir la porte. La franchir nécessite de serrer la main de tout le monde, d'échanger des mots aimables, et de passer par le rituel des adieux à plusieurs reprises - puis à chaque fois que le rituel est interrompu par une tangente ou une anecdote de Menes, il s'assure qu'il recommence depuis le début.\n\nVous vous retrouvez enfin dans votre navette, un verre à moitié plein encore à la main."
+  },
+  {
+    "csv_row": 2810,
+    "id": "BFFImpBuyerStart",
+    "column": "text",
+    "original": "On a pedestal of carved wood, in a spot of light like holy revelation, a single glove is upthrust. It's fingers appear frozen in the midst of just starting to curl back toward a relaxed state after giving you a little wave.",
+    "translated": "Sur un piédestal de bois sculpté, dans un halo de lumière semblable à une révélation divine, un unique gant se dresse. Ses doigts semblent figés en train de se recourber vers une position détendue, comme après vous avoir fait un petit signe."
+  },
+  {
+    "csv_row": 2811,
+    "id": "BFFImpBuyer0",
+    "column": "text",
+    "original": "\"Do you know what this is?\" Menes whispers to you. \n\n\"It looks like a glove, demarch,\" Bornanew answers in feigned misunderstanding, stepping forward.",
+    "translated": "\"Savez-vous ce que c'est ?\" murmure Menes.\n\n\"On dirait un gant, démarque,\" répond Bornanew en feignant l'incompréhension, s'avançant."
+  },
+  {
+    "csv_row": 2812,
+    "id": "BFFImpBuyer1",
+    "column": "text",
+    "original": "\"Not any glove,\" Menes says with more than a hint of vexation.\n\nHe begins again in a reverent whisper, \"The glove worn by Ludd upon stepping upon the sacred Earth of Gilead. Ludd removed the glove and kissed the ground, according to the Luddic religion. Isn't that right, sir Knight? And this... is it.\"\n\nBornanew looks at you, his eyebrows rising slightly as if to give a cue. \"This would be a most impressive find,\" he says. \"If it is as you say.\"",
+    "translated": "\"Pas n'importe quel gant,\" dit Menes avec plus qu'un soupçon de vexation.\n\nIl reprend dans un murmure révérencieux : \"Le gant porté par Ludd lorsqu'il posa le pied sur la Terre sacrée de Gilead. Ludd retira le gant et embrassa le sol, selon la religion luddique. N'est-ce pas, messire Chevalier ? Et ceci... c'est celui-là.\"\n\nBornanew vous regarde, ses sourcils se haussant légèrement comme pour vous donner un signal. \"Ce serait une trouvaille des plus impressionnantes,\" dit-il. \"Si c'est comme vous le dites.\""
+  },
+  {
+    "csv_row": 2813,
+    "id": "BFFImpBuyer2",
+    "column": "text",
+    "original": "\"Thank-you captain!\" Menes says, relieved and more than a little pleased that someone appreciates his trinket.\n\n\"Setting aside its purely religious significance,\" he gives an annoyed glance at Bornanew, \"it represents a, a heralding of the changing tide of history! The ebbing influence of the Domain-era megacorporations, the rising of what some call - not my words of course, sir Knight - an atavistic populism. Truly, it is this small piece of the vastness of the story of Humanity which called to me when it was first described to me...\"",
+    "translated": "\"Merci, capitaine !\" dit Menes, soulagé et plus qu'un peu ravi que quelqu'un apprécie son bibelot.\n\n\"En mettant de côté sa signification purement religieuse,\" il lance un regard agacé à Bornanew, \"il représente un, un signe avant-coureur du tournant de l'histoire ! Le reflux de l'influence des mégacorporations de l'ère du Domain, la montée de ce que certains appellent - ce ne sont pas mes mots bien sûr, messire Chevalier - un populisme atavique. Vraiment, c'est ce petit fragment de l'immensité de l'histoire de l'Humanité qui m'a appelé lorsqu'on me l'a décrit pour la première fois...\""
+  },
+  {
+    "csv_row": 2813,
+    "id": "BFFImpBuyer2",
+    "column": "options",
+    "option_line": "bffi_mpBuyer3:\"I, too, feel its call. Would you consider selling the piece?\"",
+    "original": "I, too, feel its call. Would you consider selling the piece?",
+    "translated": "Moi aussi, je ressens cet appel. Envisageriez-vous de vendre la pièce ?"
+  },
+  {
+    "csv_row": 2814,
+    "id": "BFFImpBuyer3",
+    "column": "text",
+    "original": "\"Oh, captain.\" Menes chuckles approvingly. \"I couldn't possibly sell this, the prize of my collection. Nothing can compare!\"\n\n\"-Although,\" he quibbles with himself, \"I do possess a captain's uniform of the Fourteenth Battlegroup in excellent condition, and indeed a pistol once owned by the Warlord Leonis which I believe was used to execute prisoners at... well, you understand my point of course.\"",
+    "translated": "\"Oh, capitaine.\" Menes glousse avec approbation. \"Je ne pourrais pas vendre ceci, le joyau de ma collection. Rien ne lui est comparable !\"\n\n\"- Bien que,\" il ergote avec lui-même, \"je possède un uniforme de capitaine du Quatorzième Groupe de Combat en excellent état, et effectivement un pistolet ayant appartenu au Seigneur de Guerre Leonis qui a été utilisé, je crois, pour exécuter des prisonniers à... enfin, vous comprenez mon propos bien sûr.\""
+  },
+  {
+    "csv_row": 2815,
+    "id": "BFFImpBuyer3b",
+    "column": "text",
+    "original": "\"Of course,\" Bornanew says from behind Menes, who has fully turned his back to the Knight. \"If it is indeed the real glove of Ludd.\"\n\nYou maintain your composure while watching the look that crosses Menes' face.",
+    "translated": "\"Bien sûr,\" dit Bornanew dans le dos de Menes, qui a entièrement tourné le dos au Chevalier. \"Si c'est bien le vrai gant de Ludd.\"\n\nVous gardez votre contenance en observant l'expression qui traverse le visage de Menes."
+  }
+]

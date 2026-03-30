@@ -1,0 +1,80 @@
+[
+  {
+    "csv_row": 4756,
+    "id": "gaFCLaicailleCommanderBother2PL",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 4757,
+    "id": "gaFCLaicailleCommanderBother3",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 4758,
+    "id": "gaFCLaicailleCommanderBother3PL",
+    "column": "text",
+    "original": "The $post holds up $hisOrHer hand, stopping you before you begin. \"Please, demarchon.\"\n\n\"Unfortunately I am very busy looking after the safety of this station and the surrounding volume. Between Pathers, pirates, and imaginative independent operators, the few resources given to me by the League are stretched thin.\"\n\nA pause. Then, giving you a apologetic look $heOrShe says, \"If you want to make an official inquiry... talk to the archon. You'll find them in the comm directory.\"",
+    "translated": "Le $post lève la main, vous arrêtant avant que vous ne commenciez. \"S'il vous plaît, démarque.\"\n\n\"Malheureusement, je suis très occupé à veiller à la sécurité de cette station et du volume environnant. Entre les Pathers, les pirates et les opérateurs indépendants inventifs, les maigres ressources que la Ligue m'a confiées sont mises à rude épreuve.\"\n\nUne pause. Puis, vous adressant un regard d'excuse, $heOrShe dit : \"Si vous souhaitez faire une demande officielle... adressez-vous à l'archonte. Vous le trouverez dans l'annuaire comm.\""
+  },
+  {
+    "csv_row": 4760,
+    "id": "gaFCLaicailleNavarchBother",
+    "column": "options",
+    "option_line": "gaFC_laicailleNavarchBother2:\"Je cherche Scylla Coureuse.\"",
+    "original": "Je cherche Scylla Coureuse.",
+    "translated": "Je cherche Scylla Coureuse."
+  },
+  {
+    "csv_row": 4761,
+    "id": "gaFCLaicailleNavarchBother2",
+    "column": "options",
+    "option_line": "cutCommLink:\"Euh. Merci pour votre temps.\"",
+    "original": "Euh. Merci pour votre temps.",
+    "translated": "Euh. Merci pour votre temps."
+  },
+  {
+    "csv_row": 4762,
+    "id": "gaFCLaicailleNavarchBother3",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 4764,
+    "id": "gaFCLaicailleQuartermasterBother",
+    "column": "options",
+    "option_line": "gaFC_laicailleQuartermasterBother2:\"Je cherche Scylla Coureuse.\"",
+    "original": "Je cherche Scylla Coureuse.",
+    "translated": "Je cherche Scylla Coureuse."
+  },
+  {
+    "csv_row": 4767,
+    "id": "gaFCLaicailleQuartermasterBother4",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 4770,
+    "id": "gaFCArchonContactAfter",
+    "column": "text",
+    "original": "Your connection request stalls on the archon's symbol of office, returning only generic out-of-office text.",
+    "translated": "Votre demande de connexion reste bloquée sur le symbole officiel de l'archonte, ne renvoyant qu'un message d'absence générique."
+  },
+  {
+    "csv_row": 4770,
+    "id": "gaFCArchonContactAfter",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  }
+]

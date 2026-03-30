@@ -2,8 +2,8 @@
 	id:"derelict",
 	"displayName":"Épave",
 	"displayNameWithArticle":"l'épave",
-	"displayNameLong":"Epave d'exploration du Domaine",
-	"displayNameLongWithArticle":"l'Epave d'exploration du Domaine",
+	"displayNameLong":"Épave d'exploration du Domaine",
+	"displayNameLongWithArticle":"l'Épave d'exploration du Domaine",
 	"personNamePrefixAOrAn":"une",
 	"displayNameIsOrAre":"sont",
 }

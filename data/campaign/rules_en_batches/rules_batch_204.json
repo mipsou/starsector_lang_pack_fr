@@ -1,0 +1,81 @@
+[
+  {
+    "csv_row": 5502,
+    "id": "gaATGhegFleetCom6",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 5503,
+    "id": "gaATGhegFleetStory1",
+    "column": "options",
+    "option_line": "gaATG_hegFleetStory2:\"Je suis au courant des scans des Portails.\"",
+    "original": "Je suis au courant des scans des Portails.",
+    "translated": "Je suis au courant des scans des Portails."
+  },
+  {
+    "csv_row": 5508,
+    "id": "gaATGhegFleetStory6",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 5520,
+    "id": "gaATGttScanFleetHub2",
+    "column": "options",
+    "option_line": "gaATG_ttScanFleet2:\"Que fait une flotte Tri-Tachyon par ici ?\"",
+    "original": "Que fait une flotte Tri-Tachyon par ici ?",
+    "translated": "Que fait une flotte Tri-Tachyon par ici ?"
+  },
+  {
+    "csv_row": 5521,
+    "id": "gaATGttScanFleetHub3",
+    "column": "options",
+    "option_line": "gaATG_ttScanFleet3:\"Quittez les environs du Portail ou j'ouvrirai le feu.\"",
+    "original": "Quittez les environs du Portail ou j'ouvrirai le feu.",
+    "translated": "Quittez les environs du Portail ou j'ouvrirai le feu."
+  },
+  {
+    "csv_row": 5527,
+    "id": "gaATGttScanFleet22",
+    "column": "text",
+    "original": "Le $rank de Tri-Tachyon a l'air de serrer ses dents parfaites.\n\n\"Je vous ai dit ce que nous faisons, et le temps c'est de l'argent. Que voulez-vous, capitaine ?\"",
+    "translated": "Le $rank de Tri-Tachyon a l'air de serrer ses dents parfaites.\n\n\"Je vous ai dit ce que nous faisons, et le temps c'est de l'argent. Que voulez-vous, capitaine ?\""
+  },
+  {
+    "csv_row": 5535,
+    "id": "gaATGttScanFleet3attack",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 5536,
+    "id": "gaATGttScanFleet3backDown",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 5537,
+    "id": "gaATGttScanFleet3weak",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 5555,
+    "id": "gaATGluddicScanHub4b",
+    "column": "options",
+    "option_line": "gaATG_luddicScan4:\"En tant que serviteur de la foi, j'ai une proposition.\"",
+    "original": "En tant que serviteur de la foi, j'ai une proposition.",
+    "translated": "En tant que serviteur de la foi, j'ai une proposition."
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "csv_row": 3095,
+    "id": "BFFIulmusTalkPcGood4",
+    "column": "options",
+    "option_line": "bffi_ulmusTalkGood5a:\"Show him, Ulmus. Who's behind this. Where.\"",
+    "original": "Show him, Ulmus. Who's behind this. Where.",
+    "translated": "Montrez-lui, Ulmus. Qui est derrière tout ça. Où."
+  },
+  {
+    "csv_row": 3095,
+    "id": "BFFIulmusTalkPcGood4",
+    "column": "options",
+    "option_line": "bffi_ulmusTalkGood5b:\"This is how you make it out of here alive, Ulmus. Show him.\"",
+    "original": "This is how you make it out of here alive, Ulmus. Show him.",
+    "translated": "C'est comme ça que vous sortirez d'ici vivant, Ulmus. Montrez-lui."
+  },
+  {
+    "csv_row": 3096,
+    "id": "BFFIulmusTalkPcGood4b",
+    "column": "text",
+    "original": "Bornanew gives you a warning look. Pond simply deflates, looking utterly lost. \"There was... a Walker,\" he sputters. \"Of the Luddic Path.\"\n\n\"He told me to talk to Menes, to, to make the offer. He said a Mammonite couldn't resist an object of such unique quality. And- and I was to arrange transport from the Fringe. Make it appear legitimate. Set the documents straight.\"\n\nBornanew draws his cheap datapad from his satchel, the screen already set to a map of the greater Persean Sector.",
+    "translated": "Bornanew vous lance un regard d'avertissement. Pond se dégonfle simplement, l'air complètement perdu. \"Il y avait... un Marcheur,\" balbutie-t-il. \"Du Sentier Luddique.\"\n\n\"Il m'a dit de parler à Menes, de, de faire l'offre. Il a dit qu'un Mammonite ne pourrait pas résister à un objet d'une telle qualité unique. Et— et je devais organiser le transport depuis la Frange. Faire en sorte que ça paraisse légitime. Mettre les documents en ordre.\"\n\nBornanew sort son datapad bon marché de sa sacoche, l'écran déjà réglé sur une carte du grand Secteur Persien."
+  },
+  {
+    "csv_row": 3096,
+    "id": "BFFIulmusTalkPcGood4b",
+    "column": "options",
+    "option_line": "bffi_ulmusTalkGood5a:\"Show him, Ulmus. Who's behind this. Where.\"",
+    "original": "Show him, Ulmus. Who's behind this. Where.",
+    "translated": "Montrez-lui, Ulmus. Qui est derrière tout ça. Où."
+  },
+  {
+    "csv_row": 3096,
+    "id": "BFFIulmusTalkPcGood4b",
+    "column": "options",
+    "option_line": "bffi_ulmusTalkGood5b:\"This is how you make it out of here alive, Ulmus. Show him.\"",
+    "original": "This is how you make it out of here alive, Ulmus. Show him.",
+    "translated": "C'est comme ça que vous sortirez d'ici vivant, Ulmus. Montrez-lui."
+  },
+  {
+    "csv_row": 3102,
+    "id": "BFFIulmusTalkPcWrong1",
+    "column": "text",
+    "original": "Bornanew sighs deeply, dropping his previous countenance, and looks at you with almost a sadness in his eyes. \"This is not as we agreed. I ask now that you stand aside and allow me to complete this unsavory task.\"\n\nWith that, his face goes blank and he turns, seizing Pond by the neck with one hand and lifting him off the cot with a choked sound.",
+    "translated": "Bornanew soupire profondément, abandonnant son attitude précédente, et vous regarde avec presque de la tristesse dans les yeux. \"Ce n'est pas ce que nous avions convenu. Je vous demande maintenant de vous écarter et de me laisser accomplir cette tâche déplaisante.\"\n\nSur ce, son visage se fige et il se retourne, saisissant Pond par le cou d'une main et le soulevant du lit de camp dans un son étranglé."
+  },
+  {
+    "csv_row": 3102,
+    "id": "BFFIulmusTalkPcWrong1",
+    "column": "options",
+    "option_line": "bffi_ulmusTalkPcWrong2a:\"$global.jethroName! What are you doing?\"",
+    "original": "$global.jethroName! What are you doing?",
+    "translated": "$global.jethroName ! Qu'est-ce que vous faites ?"
+  },
+  {
+    "csv_row": 3104,
+    "id": "BFFIulmusTalkPcWrong2",
+    "column": "text",
+    "original": "\"Ulmus,\" he growls and, with his other hand Bornanew lifts his cheap datapad to within reach of Pond's flailing arms. The screen is already set to a map of the greater Persean Sector.\n\n\"Show us where the glove came from. Then you may breathe.\"",
+    "translated": "\"Ulmus,\" gronde-t-il et, de son autre main, Bornanew lève son datapad bon marché à portée des bras agités de Pond. L'écran est déjà réglé sur une carte du grand Secteur Persien.\n\n\"Montrez-nous d'où vient le gant. Ensuite vous pourrez respirer.\""
+  },
+  {
+    "csv_row": 3105,
+    "id": "BFFIulmusTalkPcWrong3a",
+    "column": "text",
+    "original": "Bornanew's datapad trembles in Pond's hands. He cannot designate a star system until Bornanew concedes by lowering him back onto the cot.\n\nGasping and choking, Pond marks a system. It is difficult to make out his words. Something about \"pather\".\n\n\"This Pather, Ulmus,\" Bornanew says, glancing at the datapad then placing it in his satchel. \"Tell us his name.\"\n\nTears stream down Ulmus' face; the man looks deflated, and absolutely defeated. Then he looks up and his eyes go wide.\n\n\"Sedge!\" he rasps.",
+    "translated": "Le datapad de Bornanew tremble dans les mains de Pond. Il ne peut pas désigner un système stellaire avant que Bornanew ne cède en le reposant sur le lit de camp.\n\nHaletant et s'étouffant, Pond marque un système. Il est difficile de comprendre ses mots. Quelque chose à propos de \"pèlerin\".\n\n\"Ce Pèlerin, Ulmus,\" dit Bornanew, jetant un coup d'oeil au datapad avant de le ranger dans sa sacoche. \"Dites-nous son nom.\"\n\nDes larmes coulent sur le visage d'Ulmus ; l'homme semble vidé, et complètement vaincu. Puis il lève les yeux et les écarquille.\n\n\"Sedge !\" croasse-t-il."
+  },
+  {
+    "csv_row": 3105,
+    "id": "BFFIulmusTalkPcWrong3a",
+    "column": "options",
+    "option_line": "bffi_ulmusTalkSedge1:Turn around, slowly",
+    "original": "Turn around, slowly",
+    "translated": "Se retourner, lentement"
+  }
+]

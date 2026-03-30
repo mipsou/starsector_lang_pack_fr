@@ -1,0 +1,82 @@
+[
+  {
+    "csv_row": 6939,
+    "id": "cpcOfferTextBar1",
+    "column": "options",
+    "option_line": "cpc_pickPlayerBP:Faire un choix from your own blueprints",
+    "original": "Faire un choix from your own blueprints",
+    "translated": "Faire un choix parmi vos propres plans"
+  },
+  {
+    "csv_row": 6940,
+    "id": "cpcOfferTextContact2",
+    "column": "options",
+    "option_line": "cpc_pickPlayerBP:Faire un choix from your own blueprints",
+    "original": "Faire un choix from your own blueprints",
+    "translated": "Faire un choix parmi vos propres plans"
+  },
+  {
+    "csv_row": 6940,
+    "id": "cpcOfferTextContact2",
+    "column": "options",
+    "option_line": "cpc_pickContactBP:Voir quels plans ils ont de disponible",
+    "original": "Voir quels plans ils ont de disponible",
+    "translated": "Voir quels plans ils ont de disponible"
+  },
+  {
+    "csv_row": 6941,
+    "id": "cpcOfferTextBar2",
+    "column": "options",
+    "option_line": "cpc_pickPlayerBP:Faire un choix from your own blueprints",
+    "original": "Faire un choix from your own blueprints",
+    "translated": "Faire un choix parmi vos propres plans"
+  },
+  {
+    "csv_row": 6941,
+    "id": "cpcOfferTextBar2",
+    "column": "options",
+    "option_line": "cpc_pickContactBP:Voir quels plans ils ont de disponible",
+    "original": "Voir quels plans ils ont de disponible",
+    "translated": "Voir quels plans ils ont de disponible"
+  },
+  {
+    "csv_row": 6942,
+    "id": "cpcOfferTextContact4",
+    "column": "options",
+    "option_line": "cpc_pickContactBP:Faire un choix",
+    "original": "Faire un choix",
+    "translated": "Faire un choix"
+  },
+  {
+    "csv_row": 6943,
+    "id": "cpcOfferTextBar4",
+    "column": "options",
+    "option_line": "cpc_pickContactBP:Examiner le TriPad",
+    "original": "Examiner le TriPad",
+    "translated": "Examiner le TriPad"
+  },
+  {
+    "csv_row": 6952,
+    "id": "cpcOfferTextBarCoilGun4",
+    "column": "options",
+    "option_line": "cpc_pickContactBP:Examiner le TriPad",
+    "original": "Examiner le TriPad",
+    "translated": "Examiner le TriPad"
+  },
+  {
+    "csv_row": 6970,
+    "id": "sShipOfferOption",
+    "column": "options",
+    "option_line": "sShip_start:Questionner sur le $sShip_hullSize",
+    "original": "Questionner sur le $sShip_hullSize",
+    "translated": "Questionner sur le $sShip_hullSize"
+  },
+  {
+    "csv_row": 6987,
+    "id": "ssatOfferOptionBarUW",
+    "column": "options",
+    "option_line": "ssat_startBar:Rejoindre $ssat_manOrWoman quelconque dans le box sombre",
+    "original": "Rejoindre $ssat_manOrWoman quelconque dans le box sombre",
+    "translated": "Rejoindre $ssat_manOrWoman quelconque dans le box sombre"
+  }
+]

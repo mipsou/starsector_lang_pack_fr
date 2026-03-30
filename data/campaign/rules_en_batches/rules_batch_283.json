@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 8404,
+    "id": "ZGRacknowledgeColony",
+    "column": "text",
+    "original": "\"You're not only an explorer, you're a builder - founding a new colony!\"\n\n\"It is bold of you to strike out despite the anti-innovation measures sure to fall upon you from the major factions,\" she says. \"I suspect you'll benefit from an injection of capital. For the builder must also ensure that their prosperity cannot be simply seized by the small-minded takers.\"",
+    "translated": "\"Vous n'etes pas seulement un explorateur, vous etes un batisseur - fondant une nouvelle colonie !\"\n\n\"C'est audacieux de votre part de vous lancer malgre les mesures anti-innovation qui ne manqueront pas de s'abattre sur vous de la part des factions majeures,\" dit-elle. \"Je soupconne que vous beneficierez d'une injection de capital. Car le batisseur doit aussi s'assurer que sa prospérité ne puisse etre simplement saisie par les petits preneurs a l'esprit étroit.\""
+  },
+  {
+    "csv_row": 8406,
+    "id": "ZGRacknowledgeDoneNone",
+    "column": "text",
+    "original": "Her expression is blank for a moment.\n\n\"On second thought, I feel no need to justify myself,\" she says stonily.",
+    "translated": "Son expression est vide un instant.\n\n\"A la reflexion, je ne vois pas la nécessité de me justifier,\" dit-elle d'un ton de pierre."
+  },
+  {
+    "csv_row": 8408,
+    "id": "ZGRstartPitch0",
+    "column": "text",
+    "original": "\"Now allow me to explain the shape of our partnership.\"",
+    "translated": "\"Maintenant, permettez-moi d'expliquer la forme de notre partenariat.\""
+  },
+  {
+    "csv_row": 8411,
+    "id": "ZGRstartPitch0OMKIout",
+    "column": "text",
+    "original": "She pauses a moment, eyes black.\n\n\"I shall make my proposal shortly. First, allow me to elaborate on a shape for our partnership.\"",
+    "translated": "Elle marque une pause, les yeux noirs.\n\n\"Je ferai ma proposition sous peu. D'abord, permettez-moi d'elaborer la forme de notre partenariat.\""
+  },
+  {
+    "csv_row": 8413,
+    "id": "ZGRstartPitch1",
+    "column": "text",
+    "original": "\"You know my title. I take a portion of surplus capital from the Company and invest it in what we like to call 'black sky initiatives'.\"",
+    "translated": "\"Vous connaissez mon titre. Je preleve une portion du capital excedentaire de la Compagnie et l'investis dans ce que nous aimons appeler des 'initiatives ciel noir'.\""
+  },
+  {
+    "csv_row": 8414,
+    "id": "ZGRstartPitch1b",
+    "column": "text",
+    "original": "\"There are unimaginable possibilities out there.\" She raises an arm, hand extended, fingers like rays into the far, dark corners of the cavernous office.\n\nYou sense the lights dim slightly - a dramatic effect triggered by her cybernetic implants, no doubt.",
+    "translated": "\"Il y a des possibilites inimaginables la-dehors.\" Elle leve un bras, main tendue, doigts comme des rayons vers les coins sombres et lointains du bureau caverneux.\n\nVous sentez les lumières baisser légèrement - un effet dramatique declenche par ses implants cybernetiques, sans aucun doute."
+  },
+  {
+    "csv_row": 8415,
+    "id": "ZGRstartPitch2",
+    "column": "text",
+    "original": "\"I take the very long shots. There are things,\" she stresses the word oddly, \"Such things out there, captain. Technologies and phenomena the Human Domain hid away, and from. They locked such wonders and treasures up in red-tape concocted by fearful, jealous little minds. They suffocated these opportunities, blinded themselves to unimaginable possibilities.\"\n\n\"The returns from exploitation would be... astronomical. Or perhaps,\" her eyes glint in the filtered starlight, \"They may prove to be of value well beyond that of mere stars.\"",
+    "translated": "\"Je prends les paris les plus risques. Il y a des choses,\" elle accentue le mot étrangement, \"de telles choses la-dehors, capitaine. Des technologies et des phenomenes que le Domain humain a dissimules, et dont il s'est détourné. Ils ont enferme de telles merveilles et tresors dans une bureaucratie concoctee par de petits esprits craintifs et jaloux. Ils ont étouffe ces opportunites, se sont aveugles face a des possibilites inimaginables.\"\n\n\"Les rendements de leur exploitation seraient... astronomiques. Ou peut-etre,\" ses yeux scintillent dans la lumière stellaire filtree, \"s'avereront-ils d'une valeur bien au-dela de celle de simples étoiles.\""
+  },
+  {
+    "csv_row": 8416,
+    "id": "ZGRstartPitch2optsA",
+    "column": "options",
+    "option_line": "zgr_makePitch3a:\"Returns, you say. That sounds like a lot of credits.\"",
+    "original": "Returns, you say. That sounds like a lot of credits.",
+    "translated": "Des rendements, vous dites. Ça semble représentér beaucoup de credits."
+  },
+  {
+    "csv_row": 8416,
+    "id": "ZGRstartPitch2optsA",
+    "column": "options",
+    "option_line": "zgr_makePitch3b:\"Exploration and new technology are of interest to me.\"",
+    "original": "Exploration and new technology are of interest to me.",
+    "translated": "L'exploration et les nouvelles technologies m'interessent."
+  },
+  {
+    "csv_row": 8416,
+    "id": "ZGRstartPitch2optsA",
+    "column": "options",
+    "option_line": "zgr_makePitch3c:\"You speak of meddling in things which should be left alone.\"",
+    "original": "You speak of meddling in things which should be left alone.",
+    "translated": "Vous parlez de vous meler de choses qu'il vaudrait mieux laisser tranquilles."
+  }
+]

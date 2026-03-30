@@ -1,0 +1,77 @@
+[
+  {
+    "csv_row": 8483,
+    "id": "ZGRstartPitch9NoOMKI",
+    "column": "options",
+    "option_line": "zgr_makePitch11:\"You said 'compare'. Was there another expedition before me?\"",
+    "original": "You said 'compare'. Was there another expedition before me?",
+    "translated": "Vous avez dit 'comparer'. Y avait-il une autre expedition avant moi ?"
+  },
+  {
+    "csv_row": 8484,
+    "id": "ZGRstartPitch9lie",
+    "column": "text",
+    "original": "She blinks and her eyes seem suddenly present for the first time. And they narrow slightly.\n\n\"Of course not,\" she says. \"But when you do, I'm sure you'll quickly realize why no one else in the Sector is prepared to deal seriously with this... Threat. It is in your interest to work with me.\"",
+    "translated": "Elle cligne des yeux et ses yeux semblent soudain presents pour la première fois. Et ils se plissent légèrement.\n\n\"Bien sur que non,\" dit-elle. \"Mais quand ce sera le cas, je suis sure que vous realiserez vite pourquoi personne d'autre dans le Secteur n'est pret a traiter serieusement cette... Menace. Il est dans votre interet de travailler avec moi.\""
+  },
+  {
+    "csv_row": 8484,
+    "id": "ZGRstartPitch9lie",
+    "column": "options",
+    "option_line": "zgr_makePitch11:\"You say 'when'. Was there another expedition before me?\"",
+    "original": "You say 'when'. Was there another expedition before me?",
+    "translated": "Vous dites 'quand'. Y avait-il une autre expedition avant moi ?"
+  },
+  {
+    "csv_row": 8485,
+    "id": "ZGRstartPitch9liez",
+    "column": "text",
+    "original": "She blinks and her eyes seem suddenly present for the first time. And they narrow slightly.\n\n\"Of course not,\" she says. \"But when you do, I'm sure you'll quickly realize why no one else in the Sector is prepared to deal seriously with this... Threat. It is in your interest to work with me.\"",
+    "translated": "Elle cligne des yeux et ses yeux semblent soudain presents pour la première fois. Et ils se plissent légèrement.\n\n\"Bien sur que non,\" dit-elle. \"Mais quand ce sera le cas, je suis sure que vous realiserez vite pourquoi personne d'autre dans le Secteur n'est pret a traiter serieusement cette... Menace. Il est dans votre interet de travailler avec moi.\""
+  },
+  {
+    "csv_row": 8485,
+    "id": "ZGRstartPitch9liez",
+    "column": "options",
+    "option_line": "zgr_makePitch11:\"You say 'when'. Was there another expedition that succeeded before me?\"",
+    "original": "You say 'when'. Was there another expedition that succeeded before me?",
+    "translated": "Vous dites 'quand'. Y a-t-il eu une autre expedition qui a reussi avant moi ?"
+  },
+  {
+    "csv_row": 8486,
+    "id": "ZGRstartPitch10",
+    "column": "text",
+    "original": "\"I insist that you spare no expense in outfitting your expedition. Bring more fuel and supplies than you anticipate needing so that you don't embarrass yourself like the- well, never mind them. You're a winner, and we place our bets on winners.\"",
+    "translated": "\"J'insiste pour que vous n'epargniez aucune depense dans l'équipement de votre expedition. Emportez plus de carburant et de ravitaillement que prevu afin de ne pas vous ridiculiser comme les- enfin, oubliez-les. Vous etes un gagnant, et nous misons sur les gagnants.\""
+  },
+  {
+    "csv_row": 8486,
+    "id": "ZGRstartPitch10",
+    "column": "options",
+    "option_line": "zgr_makePitch11:\"Like the who? Was there another expedition before me?\"",
+    "original": "Like the who? Was there another expedition before me?",
+    "translated": "Comme les qui ? Y avait-il une autre expedition avant moi ?"
+  },
+  {
+    "csv_row": 8487,
+    "id": "ZGRstartPitch10z",
+    "column": "text",
+    "original": "\"I insist that you spare no expense in outfitting your expedition. Bring more fuel and supplies than you anticipate needing so that you don't embarrass yourself like the- well, never mind them. You're a winner, and we place our bets on winners.\"",
+    "translated": "\"J'insiste pour que vous n'epargniez aucune depense dans l'équipement de votre expedition. Emportez plus de carburant et de ravitaillement que prevu afin de ne pas vous ridiculiser comme les- enfin, oubliez-les. Vous etes un gagnant, et nous misons sur les gagnants.\""
+  },
+  {
+    "csv_row": 8487,
+    "id": "ZGRstartPitch10z",
+    "column": "options",
+    "option_line": "zgr_makePitch11:\"Like the who? Was there another expedition that succeeded before me?\"",
+    "original": "Like the who? Was there another expedition that succeeded before me?",
+    "translated": "Comme les qui ? Y a-t-il eu une autre expedition qui a reussi avant moi ?"
+  },
+  {
+    "csv_row": 8488,
+    "id": "ZGRstartPitch11",
+    "column": "text",
+    "original": "\"'Was there another...' she says, repeating your words.\n\n\"Dozens! Some returned with nothing, others not at all. I won't conceal the fact from you. Maybe you'll find them, though don't feel compelled to render assistance on behalf of the Tri-Tachyon Corporation. These were independent contractors who accepted and assumed the risk. Then failed.\"\n\n\"If anything,\" she says quietly, \"we have grounds to sue them if they ever manage to get back to the Core Worlds.\"",
+    "translated": "\"'Y en avait-il une autre...' dit-elle, repetant vos mots.\n\n\"Des dizaines ! Certains sont revenus les mains vides, d'autres pas du tout. Je ne vous cacherai pas ce fait. Peut-etre les trouverez-vous, mais ne vous sentez pas oblige de leur porter assistance au nom de la Corporation Tri-Tachyon. C'étaient des contractuels independants qui ont accepte et assume le risque. Puis echoue.\"\n\n\"Si quoi que ce soit,\" dit-elle doucement, \"nous avons des motifs pour les poursuivre en justice s'ils parviennent a revenir dans les Mondes du Noyau.\""
+  }
+]

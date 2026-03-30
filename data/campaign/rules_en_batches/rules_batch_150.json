@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 3457,
+    "id": "BFFIarrestOutroInjured3escape",
+    "column": "text",
+    "original": "It is some time before Bornanew regains consciousness.\n\nYour chief medical officer hovers nearby, giving you a stern look. You know you will not be allowed to overtrouble their patient.",
+    "translated": "Il faut un certain temps avant que Bornanew ne reprenne conscience.\n\nVotre médecin-chef rôde à proximité, vous lançant un regard sévère. Vous savez qu'on ne vous laissera pas importuner son patient."
+  },
+  {
+    "csv_row": 3458,
+    "id": "BFFIarrestOutroInjured4",
+    "column": "text",
+    "original": "Bornanew is pale, his breathing shallow. \"To Hesperus,\" he says. \"To the Knights of Ludd.\"\n\n\"Inquisitors,\" he whispers, then carefully turns his head toward a display of starry space and the orb of Tartessus. \"Justice.\" \n\nHe closes his eyes. Mouth open, still breathing.\n\nYou feel a movement in the air. Your chief medical officer hovers meaningfully, waiting for you to choose to leave, now.",
+    "translated": "Bornanew est pâle, sa respiration superficielle. \"Vers Hesperus,\" dit-il. \"Vers les Chevaliers de Ludd.\"\n\n\"Les Inquisiteurs,\" murmure-t-il, puis tourne précautionneusement la tête vers un écran montrant l'espace étoilé et l'orbe de Tartessus. \"Justice.\"\n\nIl ferme les yeux. Bouche ouverte, respirant encore.\n\nVous sentez un mouvement dans l'air. Votre médecin-chef rôde ostensiblement, attendant que vous choisissiez de partir, maintenant."
+  },
+  {
+    "csv_row": 3459,
+    "id": "BFFIarrestOutroInjured4escape",
+    "column": "text",
+    "original": "Bornanew is pale, his breathing shallow. \"To Hesperus,\" he says. \"To the Knights of Ludd.\"\n\n\"Excubitor Orbis,\" he whispers, then carefully turns his head toward a display of starry space and the orb of Tartessus. \"Penance.\" \n\nHe closes his eyes. Mouth open, still breathing.\n\nYou feel a movement in the air. Your chief medical officer hovers meaningfully, waiting for you to choose to leave, now.",
+    "translated": "Bornanew est pâle, sa respiration superficielle. \"Vers Hesperus,\" dit-il. \"Vers les Chevaliers de Ludd.\"\n\n\"Excubitor Orbis,\" murmure-t-il, puis tourne précautionneusement la tête vers un écran montrant l'espace étoilé et l'orbe de Tartessus. \"Pénitence.\"\n\nIl ferme les yeux. Bouche ouverte, respirant encore.\n\nVous sentez un mouvement dans l'air. Votre médecin-chef rôde ostensiblement, attendant que vous choisissiez de partir, maintenant."
+  },
+  {
+    "csv_row": 3460,
+    "id": "BFFIarrestOutroDead",
+    "column": "text",
+    "original": "Later, back on your flagship in orbit, you find instructions on Bornanew's cheap datapad.\n\n\"If you hear these words, then I am returned to the arms of Providence,\" it begins.\n\nYou are to take his mortal remains to Hesperus, to the Knights of Ludd, so that it may rest with the fellow-walkers he knew for only a short time.",
+    "translated": "Plus tard, de retour sur votre vaisseau amiral en orbite, vous trouvez des instructions sur le datapad bon marché de Bornanew.\n\n\"Si vous entendez ces mots, alors je suis retourné dans les bras de la Providence,\" commence-t-il.\n\nVous devez amener sa dépouille mortelle à Hesperus, aux Chevaliers de Ludd, afin qu'elle repose auprès des compagnons de route qu'il n'a connus que peu de temps."
+  },
+  {
+    "csv_row": 3461,
+    "id": "BFFIarrestOutroDead2caught",
+    "column": "text",
+    "original": "* * *\n\nYou are nearly forgotten in the chaos. Before long, a meek apprentice directs you to the offices of the Luddic Knights where you make a statement and discuss the incident with the Knight-Captain. You only just remember to ask him his name. \n\n\"Larix,\" he says, \"Knight-Captain Dejan Larix\" before shouting orders to a hastily assembled squad of Knight-novices, all obviously far younger than Bornanew is.\n\nThan Bornanew was.",
+    "translated": "* * *\n\nVous êtes presque oublié dans le chaos. Bientôt, un apprenti timide vous dirige vers les bureaux des Chevaliers Luddiques où vous faites une déposition et discutez de l'incident avec le Chevalier-Capitaine. Vous vous souvenez tout juste de lui demander son nom.\n\n\"Larix,\" dit-il, \"Chevalier-Capitaine Dejan Larix\" avant de crier des ordres à une escouade de Chevaliers-Novices hâtivement rassemblée, tous visiblement bien plus jeunes que Bornanew l'est.\n\nQue Bornanew l'était."
+  },
+  {
+    "csv_row": 3462,
+    "id": "BFFIarrestOutroDead2",
+    "column": "text",
+    "original": "The Knight-Captain helped organize a search for Keepfaith.\n\nYou had almost forgotten to ask his name - \"Larix,\" he said, drained of emotion. \"Dejan Larix.\"\n\n\"For the small moment I knew him, I knew he was a good man. A good Knight. Damned but that it had to be my hand...\" he trailed off then, hiding his eyes.\n\nYou left him to return to your shuttle.",
+    "translated": "Le Chevalier-Capitaine a aidé à organiser les recherches pour retrouver Keepfaith.\n\nVous aviez presque oublié de lui demander son nom - \"Larix,\" dit-il, vidé de toute émotion. \"Dejan Larix.\"\n\n\"Durant le bref instant où je l'ai connu, j'ai su que c'était un homme bien. Un bon Chevalier. Maudit soit le sort qui a voulu que ce soit ma main...\" il s'interrompit alors, cachant ses yeux.\n\nVous l'avez laissé pour retourner à votre navette."
+  },
+  {
+    "csv_row": 3463,
+    "id": "BFFIarrestOutroDead3",
+    "column": "text",
+    "original": "The Pather plot is foiled, perhaps, for now.\n\nCedra Keepfaith, a murderer before a score of witnesses, was stripped of her rank before the set of the sun by Archcurate Bywater of the Cathedral of Holy Exodus.\n\nThe Knight-Inquisitors will pursue their brand of justice against her, you are assured.\n\nBornanew's quest is over.",
+    "translated": "Le complot Pather est déjoué, peut-être, pour l'instant.\n\nCedra Keepfaith, meurtrière devant une vingtaine de témoins, a été dépouillée de son rang avant le coucher du soleil par l'Archicuré Bywater de la Cathédrale du Saint Exode.\n\nLes Chevaliers-Inquisiteurs poursuivront leur forme de justice contre elle, vous assure-t-on.\n\nLa quête de Bornanew est terminée."
+  },
+  {
+    "csv_row": 3466,
+    "id": "BFFIdeliverOakOption",
+    "column": "options",
+    "option_line": "bffi_deliverOakResp:\"I have Subcurate Cedra Keepfaith aboard my $shipOrFleet.\"",
+    "original": "I have Subcurate Cedra Keepfaith aboard my $shipOrFleet.",
+    "translated": "J'ai la Sous-curée Cedra Keepfaith à bord de mon $shipOrFleet."
+  },
+  {
+    "csv_row": 3467,
+    "id": "BFFIoakDestroyedEarly",
+    "column": "options",
+    "option_line": "bffi_deliverOakResp:\"I have returned with Novice Bornanew to complete his penance.\"",
+    "original": "I have returned with Novice Bornanew to complete his penance.",
+    "translated": "Je suis revenu avec le Novice Bornanew pour achever sa pénitence."
+  },
+  {
+    "csv_row": 3468,
+    "id": "BFFIoakKeepfaithEscape",
+    "column": "options",
+    "option_line": "bffi_deliverOakResp:\"I have returned with Novice Bornanew to complete his penance.\"",
+    "original": "I have returned with Novice Bornanew to complete his penance.",
+    "translated": "Je suis revenu avec le Novice Bornanew pour achever sa pénitence."
+  }
+]

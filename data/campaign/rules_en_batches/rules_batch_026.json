@@ -1,0 +1,81 @@
+[
+  {
+    "csv_row": 972,
+    "id": "ise_greetingTOn",
+    "column": "options",
+    "option_line": "0:cutCommLink:Couper la comm",
+    "original": "cutCommLink:Couper la comm",
+    "translated": "cutCommLink:Couper la comm"
+  },
+  {
+    "csv_row": 977,
+    "id": "ise_offerBribeSelNotEnough",
+    "column": "options",
+    "option_line": "0:cutCommLink:Couper la comm",
+    "original": "cutCommLink:Couper la comm",
+    "translated": "cutCommLink:Couper la comm"
+  },
+  {
+    "csv_row": 978,
+    "id": "ise_offerBribeAmountSel",
+    "column": "options",
+    "option_line": "0:cutCommLink:Couper la comm",
+    "original": "cutCommLink:Couper la comm",
+    "translated": "cutCommLink:Couper la comm"
+  },
+  {
+    "csv_row": 980,
+    "id": "igr_greetingTOn",
+    "column": "options",
+    "option_line": "0:cutCommLink:Couper la comm",
+    "original": "cutCommLink:Couper la comm",
+    "translated": "cutCommLink:Couper la comm"
+  },
+  {
+    "csv_row": 985,
+    "id": "igr_offerBribeRejectedSel",
+    "column": "options",
+    "option_line": "0:cutCommLink:Couper la comm",
+    "original": "cutCommLink:Couper la comm",
+    "translated": "cutCommLink:Couper la comm"
+  },
+  {
+    "csv_row": 986,
+    "id": "igr_offerBribeSelNotEnough",
+    "column": "options",
+    "option_line": "0:cutCommLink:Couper la comm",
+    "original": "cutCommLink:Couper la comm",
+    "translated": "cutCommLink:Couper la comm"
+  },
+  {
+    "csv_row": 988,
+    "id": "igr_offerBribeAccepedEndWarning",
+    "column": "options",
+    "option_line": "0:cutCommLink:Couper la comm",
+    "original": "cutCommLink:Couper la comm",
+    "translated": "cutCommLink:Couper la comm"
+  },
+  {
+    "csv_row": 989,
+    "id": "igr_offerBribeAccepedEndNormal",
+    "column": "options",
+    "option_line": "0:cutCommLink:Couper la comm",
+    "original": "cutCommLink:Couper la comm",
+    "translated": "cutCommLink:Couper la comm"
+  },
+  {
+    "csv_row": 1030,
+    "id": "sal_continuePostDefenders",
+    "column": "text",
+    "original": "Votre $shipOrFleet termine son approche du $nameInText sans autre incident.",
+    "translated": "Votre $shipOrFleet termine son approche du $nameInText sans autre incident."
+  },
+  {
+    "csv_row": 1054,
+    "id": "sal_demolishOptionSelected",
+    "column": "options",
+    "option_line": "0:salDemolishConfirm:Donner l'ordre de tirer",
+    "original": "salDemolishConfirm:Donner l'ordre de tirer",
+    "translated": "salDemolishConfirm:Donner l'ordre de tirer"
+  }
+]

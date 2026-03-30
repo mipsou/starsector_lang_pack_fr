@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 7861,
+    "id": "raoNerieneSelLeftA2b",
+    "column": "options",
+    "option_line": "rao_nerieneConvOut1:\"Not my concern.\"",
+    "original": "Not my concern.",
+    "translated": "Ça ne me concerne pas."
+  },
+  {
+    "csv_row": 7862,
+    "id": "raoNerieneSelLeftA2bb",
+    "column": "text",
+    "original": "He pauses a moment. \"And about you- Neriene was not entirely forthcoming. She had... words.\"",
+    "translated": "Il fait une pause. \"Et a votre sujet - Neriene n'a pas ete tout a fait loquace. Elle a eu... des mots.\""
+  },
+  {
+    "csv_row": 7862,
+    "id": "raoNerieneSelLeftA2bb",
+    "column": "options",
+    "option_line": "rao_nerieneConvOut1:\"Not my concern.\"",
+    "original": "Not my concern.",
+    "translated": "Ça ne me concerne pas."
+  },
+  {
+    "csv_row": 7863,
+    "id": "raoNerieneSelLeftA2c",
+    "column": "text",
+    "original": "He pauses. \"At least, that is how Neriene described it.\"",
+    "translated": "Il fait une pause. \"Du moins, c'est ainsi que Neriene l'a decrit.\""
+  },
+  {
+    "csv_row": 7863,
+    "id": "raoNerieneSelLeftA2c",
+    "column": "options",
+    "option_line": "rao_nerieneConvOut2:\"She spoke to you about... that evening?\"",
+    "original": "She spoke to you about... that evening?",
+    "translated": "Elle vous a parle de... cette soiree ?"
+  },
+  {
+    "csv_row": 7863,
+    "id": "raoNerieneSelLeftA2c",
+    "column": "options",
+    "option_line": "rao_nerieneConvOut1:\"Not my concern.\"",
+    "original": "Not my concern.",
+    "translated": "Ça ne me concerne pas."
+  },
+  {
+    "csv_row": 7864,
+    "id": "raoNerieneSelLeftB",
+    "column": "text",
+    "original": "He half-shrugs, his expression charitable despite the fact that he appears to agree with your words.\n\n\"I heard that certain young men were keen to provoke you to a confrontation. It is a mark upon the House of Rao that it was allowed to go as far as it did.\"",
+    "translated": "Il hausse a moitie les épaules, son expression indulgente malgre le fait qu'il semble etre d'accord avec vos paroles.\n\n\"J'ai entendu dire que certains jeunes gens étaient desireux de vous provoquer a une confrontation. C'est une tache sur la Maison Rao que cela ait ete autorise a aller aussi loin.\""
+  },
+  {
+    "csv_row": 7865,
+    "id": "raoNerieneSelLeftC",
+    "column": "text",
+    "original": "\"Oh, I assure you it was a wasted gesture. Neriene Rao can handle herself- with the blade, or without.\" He looks away, smiling. It quickly fades.",
+    "translated": "\"Oh, je vous assure que c'était un geste inutile. Neriene Rao sait se debrouiller seule - avec l'épee, où sans.\" Il détourné le regard, souriant. Le sourire s'efface rapidement."
+  },
+  {
+    "csv_row": 7866,
+    "id": "raoNerieneSelLeftD",
+    "column": "text",
+    "original": "\"We do.\" Wrinkles form at his eyes as Orcus Rao doesn't quite smile.\n\n\"Such traditions are necessarily arbitrary. The question falls to whether one chooses to excel within its terms... or without. The swordplay of Eventide is no different.\"",
+    "translated": "\"En effet.\" Des rides se forment au coin de ses yeux tandis qu'Orcus Rao esquisse presque un sourire.\n\n\"De telles traditions sont nécessairement arbitraires. La question est de savoir si l'on choisit d'exceller dans ses termes... où en dehors. L'escrime d'Eventide ne fait pas exception.\""
+  },
+  {
+    "csv_row": 7867,
+    "id": "raoNerieneConvOut0",
+    "column": "text",
+    "original": "\"They were... colorful. You did not make an enemy, I think, but you certainly did not make a friend.\"\n\n\"Anyway,\" he waves dismissively.\n\n\"Her mind is her business. Let us speak of other matters.\"",
+    "translated": "\"Ils étaient... colores. Vous ne vous etes pas fait un ennemi, je crois, mais vous ne vous etes certainement pas fait un ami non plus.\"\n\n\"Enfin,\" il balaye la chose d'un geste.\n\n\"Son esprit est son affaire. Parlons d'autre chose.\""
+  }
+]

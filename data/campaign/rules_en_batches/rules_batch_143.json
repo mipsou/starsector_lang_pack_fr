@@ -1,0 +1,74 @@
+[
+  {
+    "csv_row": 3404,
+    "id": "BFFIarrest5",
+    "column": "text",
+    "original": "Bornanew approaches a proud figure all in holy vestments at the head of the room.\n\n\"Subcurate Cedra Keepfaith.\" $global.jethroName's voice is confident.\n\nThe figure turns, finally. \"Novice,\" she replies, tone intent on the gradient of authority. \"Why have you returned to my scriptorium? Have you been assigned additional penitential duties?\"\n\nA mocking smile flits upon her lip.",
+    "translated": "Bornanew s'approche d'une silhouette fière tout en vêtements sacrés à la tête de la salle.\n\n\"Sous-curée Cedra Keepfaith.\" La voix de $global.jethroName est assurée.\n\nLa silhouette se retourne, enfin. \"Novice,\" répond-elle, le ton appuyé sur le gradient d'autorité. \"Pourquoi êtes-vous revenu dans mon scriptorium ? Vous a-t-on assigné des devoirs pénitentiels supplémentaires ?\"\n\nUn sourire moqueur effleure sa lèvre."
+  },
+  {
+    "csv_row": 3404,
+    "id": "BFFIarrest5",
+    "column": "options",
+    "option_line": "bffi_arrest6:Watch him work",
+    "original": "Watch him work",
+    "translated": "Le regarder agir"
+  },
+  {
+    "csv_row": 3405,
+    "id": "BFFIarrest6",
+    "column": "text",
+    "original": "\"It was you,\" Bornanew says with perfect earnestness.\n\n\"You scanned the glove said to be of Ludd. You did this in the vault of this cathedral, and you knowingly passed that scan data to an agent of the heretics called the Luddic Path. Their aim, and yours, was to sow discord within the Church of Galactic Redemption. This I shall prove before the judgement of the Inquisitors.\"\n\n\"For these crimes,\" he raises his voice against the growing murmurs, \"against the Holy Church, by the authority of the Reverend Archcurate Sophronia Jaspis, as a Knight of Ludd, I do now place you under arrest.\"",
+    "translated": "\"C'était vous,\" dit Bornanew avec une parfaite sincérité.\n\n\"Vous avez scanné le gant supposément de Ludd. Vous l'avez fait dans les voûtes de cette cathédrale, et vous avez sciemment transmis ces données de scan à un agent des hérétiques appelés le Sentier Luddique. Leur but, et le vôtre, était de semer la discorde au sein de l'Église de la Rédemption Galactique. Cela, je le prouverai devant le jugement des Inquisiteurs.\"\n\n\"Pour ces crimes,\" il élève la voix contre les murmures croissants, \"contre la Sainte Église, par l'autorité du Révérend Archicuré Sophronia Jaspis, en tant que Chevalier de Ludd, je vous place maintenant en état d'arrestation.\""
+  },
+  {
+    "csv_row": 3406,
+    "id": "BFFIarrest6bb",
+    "column": "text",
+    "original": "\"It was you,\" Bornanew says with perfect earnestness. \"Traitor.\"\n\n\"You scanned the glove said to be of Ludd. You did this in the vault of this cathedral, and you knowingly passed that scan data to an agent of the heretics called the Luddic Path. Their aim, and yours, was to sow discord within the Church of Galactic Redemption. This I know, and this truth the Inquisitors shall pull from you!\"\n\n\"For these crimes,\" he raises his voice against the growing murmurs, \"against the Holy Church, by the authority of the Reverend Archcurate Sophronia Jaspis, as a Knight of Ludd, I do now place you under arrest.\"",
+    "translated": "\"C'était vous,\" dit Bornanew avec une parfaite sincérité. \"Traîtresse.\"\n\n\"Vous avez scanné le gant supposément de Ludd. Vous l'avez fait dans les voûtes de cette cathédrale, et vous avez sciemment transmis ces données de scan à un agent des hérétiques appelés le Sentier Luddique. Leur but, et le vôtre, était de semer la discorde au sein de l'Église de la Rédemption Galactique. Cela, je le sais, et cette vérité les Inquisiteurs vous l'arracheront !\"\n\n\"Pour ces crimes,\" il élève la voix contre les murmures croissants, \"contre la Sainte Église, par l'autorité du Révérend Archicuré Sophronia Jaspis, en tant que Chevalier de Ludd, je vous place maintenant en état d'arrestation.\""
+  },
+  {
+    "csv_row": 3407,
+    "id": "BFFIarrest7",
+    "column": "text",
+    "original": "There are gasps, and a muffled clatter as some initiate drops their work. Keepfaith's gaze, already chilly, turns poisonous upon Bornanew.\n\n\"Blind Jaspis has no power here,\" she says. \"And you, a mere novice of a Knight, making ungodly accusations against a superior? I shall assign you further penance if a full apology is not made... instantly!\"",
+    "translated": "Il y a des halètements, et un cliquetis étouffé quand un initié laisse tomber son travail. Le regard de Keepfaith, déjà glacial, devient venimeux envers Bornanew.\n\n\"Jaspis l'Aveugle n'a aucun pouvoir ici,\" dit-elle. \"Et vous, un simple novice de Chevalier, faisant des accusations impies contre une supérieure ? Je vous assignerai d'autres pénitences si des excuses complètes ne sont pas présentées... immédiatement !\""
+  },
+  {
+    "csv_row": 3408,
+    "id": "BFFIarrest8",
+    "column": "text",
+    "original": "\"Brother Bornanew,\" a Knight-Captain appears behind the angry subcurate.\n\nHe attempts a comradely tone, his carbine slung at his side.\n\n\"Please,\" he says. \"Let us go together to resolve this misunderstanding with the archcurate of this cathedral. There is no need to herein bear the hammer and the sword-\"",
+    "translated": "\"Frère Bornanew,\" un Chevalier-Capitaine apparaît derrière la sous-curée en colère.\n\nIl tente un ton camarade, sa carabine en bandoulière à son côté.\n\n\"S'il vous plaît,\" dit-il. \"Allons ensemble résoudre ce malentendu avec l'archicuré de cette cathédrale. Il n'est nul besoin de porter ici le marteau et l'épée...\""
+  },
+  {
+    "csv_row": 3409,
+    "id": "BFFIarrest9",
+    "column": "text",
+    "original": "\"There is no misunderstanding, brother,\" Bornanew cuts off the Knight-Captain's words, keeping his eyes on Keepfaith. \"I bear my quest not lightly, and seek to fulfill my duty sworn to the Excubitor Orbis.\"\n\nHe reaches into his robes.\n\n\"Knight-Captain,\" says Keepfaith, drawing her breath. \"Arrest your novice! He's to be punished for irreverence toward the authority of the Church and, and for these wild accusations!\"",
+    "translated": "\"Il n'y a pas de malentendu, frère,\" Bornanew coupe les paroles du Chevalier-Capitaine, gardant ses yeux sur Keepfaith. \"Je ne porte pas ma quête à la légère, et cherche à accomplir mon devoir juré devant l'Excubitor Orbis.\"\n\nIl plonge la main dans ses robes.\n\n\"Chevalier-Capitaine,\" dit Keepfaith, reprenant son souffle. \"Arrêtez votre novice ! Il doit être puni pour son irrévérence envers l'autorité de l'Église et, et pour ces accusations insensées !\""
+  },
+  {
+    "csv_row": 3410,
+    "id": "BFFIarrest10",
+    "column": "text",
+    "original": "Bornanew steps forward, prompting the Knight-Captain to raise the carbine he had held at his side. A hint of victory settles into Keepfaith's eyes.\n\n\"You dare assault a curate in this holy place?\" she says, projecting her voice to all corners of the room, ringing harshly. \"Is there no low to which this too-old novice won't sink?\"",
+    "translated": "Bornanew fait un pas en avant, poussant le Chevalier-Capitaine à lever la carabine qu'il tenait à son côté. Un soupçon de victoire s'installe dans les yeux de Keepfaith.\n\n\"Vous osez agresser une curée dans ce lieu saint ?\" dit-elle, projetant sa voix dans tous les coins de la salle, résonnant durement. \"N'y a-t-il aucune bassesse à laquelle ce novice trop vieux ne s'abaisserait pas ?\""
+  },
+  {
+    "csv_row": 3413,
+    "id": "BFFIarrest13",
+    "column": "text",
+    "original": "He steps forward again, pushing the barrel of the Knight-Captain's carbine into his chest. The Knight-Captain looks desperately uncomfortable. \"Brother,\" he says again, pleading.\n\n\"Do your duty, Knight-Captain!\" shouts Keepfaith. \n\nBornanew takes another step, bodily pushing back the Knight-Captain, still cradling the carbine. Finger on the trigger.",
+    "translated": "Il fait un autre pas en avant, poussant le canon de la carabine du Chevalier-Capitaine contre sa poitrine. Le Chevalier-Capitaine a l'air désespérément mal à l'aise. \"Frère,\" dit-il encore, suppliant.\n\n\"Faites votre devoir, Chevalier-Capitaine !\" crie Keepfaith.\n\nBornanew fait encore un pas, repoussant physiquement le Chevalier-Capitaine, qui tient toujours la carabine. Le doigt sur la détente."
+  },
+  {
+    "csv_row": 3413,
+    "id": "BFFIarrest13",
+    "column": "options",
+    "option_line": "bffi_arrestNoMove0:Make no sudden movements",
+    "original": "Make no sudden movements",
+    "translated": "Ne faire aucun mouvement brusque"
+  }
+]

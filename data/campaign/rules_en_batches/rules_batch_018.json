@@ -1,0 +1,12 @@
+[
+  {"csv_row":511,"id":"greetingDefaultTOffNormal","column":"options","option_line":"cutCommLink:Couper la comm","original":"Couper la comm","translated":"Couper la comm"},
+  {"csv_row":512,"id":"greetingDefaultTOffWeaker","column":"options","option_line":"turnOnTransponder:Activer votre transpondeur","original":"Activer votre transpondeur","translated":"Activer votre transpondeur"},
+  {"csv_row":512,"id":"greetingDefaultTOffWeaker","column":"options","option_line":"cutCommLink:Couper la comm","original":"Couper la comm","translated":"Couper la comm"},
+  {"csv_row":513,"id":"greetingDefaultTurnOnT","column":"text","original":"Vous donnez l'ordre d'activer le transpondeur et de rouvrir la liaison de communication.","translated":"Vous donnez l'ordre d'activer le transpondeur et de rouvrir la liaison de communication."},
+  {"csv_row":514,"id":"greetingFallthrough","column":"options","option_line":"cutCommLink:Couper la comm","original":"Couper la comm","translated":"Couper la comm"},
+  {"csv_row":516,"id":"greetingDefaultHostileWeaker","column":"options","option_line":"cutCommLink:Couper la comm","original":"Couper la comm","translated":"Couper la comm"},
+  {"csv_row":517,"id":"greetingDefaultHostileWeakerDefiant","column":"options","option_line":"cutCommLink:Couper la comm","original":"Couper la comm","translated":"Couper la comm"},
+  {"csv_row":525,"id":"greetingHegemonyHostileWeaker","column":"options","option_line":"cutCommLink:Couper la comm","original":"Couper la comm","translated":"Couper la comm"},
+  {"csv_row":526,"id":"greetingHegemonyHostileWeakerDefiant","column":"options","option_line":"cutCommLink:Couper la comm","original":"Couper la comm","translated":"Couper la comm"},
+  {"csv_row":527,"id":"greetingHegemonyHostileStronger","column":"options","option_line":"cutCommLink:Couper la comm","original":"Couper la comm","translated":"Couper la comm"}
+]

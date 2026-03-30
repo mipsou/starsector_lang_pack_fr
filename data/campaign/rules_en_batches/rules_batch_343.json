@@ -1,0 +1,79 @@
+[
+  {
+    "csv_row": 10283,
+    "id": "pkSentinelSel",
+    "column": "options",
+    "option_line": "pk_sentinel0:Approcher de la colonie",
+    "original": "Approcher de la colonie",
+    "translated": "Approcher de la colonie"
+  },
+  {
+    "csv_row": 10299,
+    "id": "PKSentinelHubConfrontIn",
+    "column": "options",
+    "option_line": "pk_sentinelHubConfront:Confronter Skiron avec quelque chose que vous savez",
+    "original": "Confronter Skiron avec quelque chose que vous savez",
+    "translated": "Confronter Skiron avec quelque chose que vous savez"
+  },
+  {
+    "csv_row": 10307,
+    "id": "PKSentinelHubQuestionsInB",
+    "column": "text",
+    "original": "\"Les Protocoles autorisent le partage conditionnel de renseignements,\" dit Skiron en vous lancant un regard hesitant. \"Votre propre franchise est appreciee. Alors posez vos questions.\"",
+    "translated": "\"Les Protocoles autorisent le partage conditionnel de renseignements,\" dit Skiron en vous lançant un regard hésitant. \"Votre propre franchise est appréciée. Alors posez vos questions.\""
+  },
+  {
+    "csv_row": 10308,
+    "id": "PKSentinelHubQuestionsInC",
+    "column": "text",
+    "original": "\"Le Protocole veut que l'on partage les renseignements avec les allies,\" Skiron vous adresse un hochement de tete fraternel. \"Demandez, et nous fournirons.\"",
+    "translated": "\"Le Protocole veut que l'on partage les renseignements avec les alliés,\" Skiron vous adresse un hochement de tête fraternel. \"Demandez, et nous fournirons.\""
+  },
+  {
+    "csv_row": 10309,
+    "id": "PKSentinelHubQAskDangerVague",
+    "column": "options",
+    "option_line": "pk_sentinelAskDangerVague:\"Je sens qu'il y a un danger ici dont vous ne me parlez pas.\"",
+    "original": "Je sens qu'il y a un danger ici dont vous ne me parlez pas.",
+    "translated": "Je sens qu'il y a un danger ici dont vous ne me parlez pas."
+  },
+  {
+    "csv_row": 10315,
+    "id": "PKSentinelHubQBack",
+    "column": "options",
+    "option_line": "pk_sentinelHubReturn:Parler d'autre chose",
+    "original": "Parler d'autre chose",
+    "translated": "Parler d'autre chose"
+  },
+  {
+    "csv_row": 10324,
+    "id": "PKSentinelHubConfBack",
+    "column": "options",
+    "option_line": "pk_sentinelHubReturn:Parler d'autre chose",
+    "original": "Parler d'autre chose",
+    "translated": "Parler d'autre chose"
+  },
+  {
+    "csv_row": 10351,
+    "id": "PKSentinelConfrontGantryOutA",
+    "column": "text",
+    "original": "Aucune mention du reste de la flotte, cependant.",
+    "translated": "Aucune mention du reste de la flotte, cependant."
+  },
+  {
+    "csv_row": 10385,
+    "id": "PKSentinelAskDangerSpecific",
+    "column": "options",
+    "option_line": "pk_sentinelAskDangerSpecific2:\"Signal d'armes ? Il y a eu une bataille ?\"",
+    "original": "Signal d'armes ? Il y a eu une bataille ?",
+    "translated": "Signal d'armes ? Il y a eu une bataille ?"
+  },
+  {
+    "csv_row": 10391,
+    "id": "PKSentinelOutSequence",
+    "column": "options",
+    "option_line": "defaultLeave:Revenir to orbit",
+    "original": "Revenir to orbit",
+    "translated": "Revenir en orbite"
+  }
+]

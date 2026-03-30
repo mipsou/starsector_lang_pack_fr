@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 6012,
+    "id": "asebScholarshipCauseB",
+    "column": "options",
+    "option_line": "aseb_scholarshipCauseB:\"Space exploration, to recover old knowledge and discover new.\"",
+    "original": "Space exploration, to recover old knowledge and discover new.",
+    "translated": "L'exploration spatiale, pour retrouver d'anciens savoirs et en découvrir de nouveaux."
+  },
+  {
+    "csv_row": 6015,
+    "id": "asebScholarshipCauseE",
+    "column": "options",
+    "option_line": "aseb_scholarshipCauseE:\"Study of the Luddic Word so students will remember their connection to Creation.\"",
+    "original": "Study of the Luddic Word so students will remember their connection to Creation.",
+    "translated": "L'étude de la Parole Luddique pour que les étudiants se souviennent de leur lien avec la Création."
+  },
+  {
+    "csv_row": 6016,
+    "id": "asebScholarshipCauseF",
+    "column": "options",
+    "option_line": "aseb_scholarshipCauseF:\"The Gate system. We need to recover what was lost.\"",
+    "original": "The Gate system. We need to recover what was lost.",
+    "translated": "Le système de Portails. Nous devons retrouver ce qui a été perdu."
+  },
+  {
+    "csv_row": 6017,
+    "id": "asebScholarshipCauseG",
+    "column": "options",
+    "option_line": "aseb_scholarshipCauseG:\"Weapons research. And I want results I can exploit as soon as possible.\"",
+    "original": "Weapons research. And I want results I can exploit as soon as possible.",
+    "translated": "La recherche en armement. Et je veux des résultats que je puisse exploiter dès que possible."
+  },
+  {
+    "csv_row": 6019,
+    "id": "asebScholarshipCauseBsel",
+    "column": "text",
+    "original": "\"Oh, adventurous! I would expect nothing less from a dashing spacer captain,\" he says happily, tapping away at his terminal. \"Nothing easier. Um, except all the exploration work of course. Very difficult. And, oh, possibly dangerous. But you know what I... uh, what I mean is, you're all set!\"\n\nHe smiles.",
+    "translated": "\"Oh, aventureux ! Je n'en attendais pas moins d'un intrépide capitaine de l'espace,\" dit-il joyeusement en tapant sur son terminal. \"Rien de plus facile. Euh, sauf tout le travail d'exploration bien sûr. Très difficile. Et, oh, potentiellement dangereux. Mais vous savez ce que je... euh, ce que je veux dire c'est que tout est en ordre !\"\n\nIl sourit."
+  },
+  {
+    "csv_row": 6022,
+    "id": "asebScholarshipCauseEsel",
+    "column": "text",
+    "original": "\"Luddic? Oh yes, of course. I just-\" He flashes an awkward smile, then drops it after he realizes it's not clear why he should be smiling so much.\n\n\"It's, that's just... unexpected. We can just, uh, there you go,\" he says, tapping at his terminal.",
+    "translated": "\"Luddique ? Oh oui, bien sûr. Je-\" Il affiche un sourire gêné, puis le laisse tomber après avoir réalisé qu'on ne voit pas bien pourquoi il devrait tant sourire.\n\n\"C'est, c'est juste... inattendu. On peut juste, euh, et voilà,\" dit-il en tapant sur son terminal."
+  },
+  {
+    "csv_row": 6023,
+    "id": "asebScholarshipCauseFsel",
+    "column": "text",
+    "original": "\"Oh! Um.\" Sebestyen's expression flutters away from... something. You can see him making a conscious effort to present a blandly pleasant countenance.\n\n\"What an interesting idea,\" he coughs, and clears his throat. \"I'll just... there, it's done.\"",
+    "translated": "\"Oh ! Euh.\" L'expression de Sebestyen s'écarte de... quelque chose. Vous pouvez le voir faire un effort conscient pour afficher un visage aimablement neutre.\n\n\"Quelle idée intéressante,\" tousse-t-il en se raclant la gorge. \"Je vais juste... voilà, c'est fait.\""
+  },
+  {
+    "csv_row": 6024,
+    "id": "asebScholarshipCauseGsel",
+    "column": "text",
+    "original": "\"Oh,\" he hides his disappointment well. \"Um, of course. An interesting choice. I'll just... there. We're all set.\"\n\nHe forces a smile.",
+    "translated": "\"Oh,\" il dissimule bien sa déception. \"Euh, bien sûr. Un choix intéressant. Je vais juste... voilà. Tout est en ordre.\"\n\nIl force un sourire."
+  },
+  {
+    "csv_row": 6025,
+    "id": "asebScholarshipOutroA",
+    "column": "text",
+    "original": "\"On behalf of the Galatia Academy,\" Sebestyen says, \"-its faculty, students, and um, administrators, I wish to offer you my heartfelt thanks for your contribution to the future of humanity.\"",
+    "translated": "\"Au nom de l'Académie Galatia,\" dit Sebestyen, \"- de son corps enseignant, de ses étudiants et, euh, de ses administrateurs, je souhaite vous offrir mes remerciements les plus sincères pour votre contribution à l'avenir de l'humanité.\""
+  },
+  {
+    "csv_row": 6026,
+    "id": "asebScholarshipOutroB",
+    "column": "text",
+    "original": "\"On behalf of the Galatia Academy,\" Sebestyen says, \"-its faculty, students, and um, administrators, I wish to offer you my heartfelt thanks for your contribution to the future of humanity.\"",
+    "translated": "\"Au nom de l'Académie Galatia,\" dit Sebestyen, \"- de son corps enseignant, de ses étudiants et, euh, de ses administrateurs, je souhaite vous offrir mes remerciements les plus sincères pour votre contribution à l'avenir de l'humanité.\""
+  }
+]

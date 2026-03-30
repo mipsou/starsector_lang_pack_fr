@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 7932,
+    "id": "RaoPitchTestSwords2",
+    "column": "options",
+    "option_line": "rao_pitchOffer:\"And what do you have in mind?\"",
+    "original": "And what do you have in mind?",
+    "translated": "Et qu'avez-vous en tête ?"
+  },
+  {
+    "csv_row": 7933,
+    "id": "RaoPitchTriTachyonCom",
+    "column": "text",
+    "original": "\"You've found lucrative employment of a sort with the Tri-Tachyon corporation, however.\"\n\nHe leans back. \"We could discuss this matter again if that situation were to change.\"",
+    "translated": "\"Vous avez cependant trouve un emploi lucratif d'une certaine sorte aupres de la corporation Tri-Tachyon.\"\n\nIl se cale dans son siege. \"Nous pourrions rediscuter de cette affaire si la situation venait a changer.\""
+  },
+  {
+    "csv_row": 7934,
+    "id": "RaoPitchDiktatCom",
+    "column": "text",
+    "original": "\"Huh.\" He chews on his lip.\n\n\"Why not ask your boss, Dolos Macario, for a job? I'm sure he's got some dissidents to space.\"",
+    "translated": "\"Tiens.\" Il se mordille la levre.\n\n\"Pourquoi ne pas demander un boulot a votre patron, Dolos Macario ? Je suis sur qu'il a quelques dissidents a ejecter dans le vide.\""
+  },
+  {
+    "csv_row": 7935,
+    "id": "RaoPitchDiktatCom2a",
+    "column": "options",
+    "option_line": "rao_pitchDiktatCom3a:\"Who is Dolos?\"",
+    "original": "Who is Dolos?",
+    "translated": "Qui est Dolos ?"
+  },
+  {
+    "csv_row": 7935,
+    "id": "RaoPitchDiktatCom2a",
+    "column": "options",
+    "option_line": "rao_pitchDiktatCom3c:\"Look, I just take Diktat money. I'm a merc. Like you were.\"",
+    "original": "Look, I just take Diktat money. I'm a merc. Like you were.",
+    "translated": "Ecoutez, je prends juste l'argent du Diktat. Je suis mercenaire. Comme vous l'etiez."
+  },
+  {
+    "csv_row": 7936,
+    "id": "RaoPitchDiktatCom2b",
+    "column": "options",
+    "option_line": "rao_pitchDiktatCom3c:\"I just take Diktat money. I'm a mercenary. Like you were.\"",
+    "original": "I just take Diktat money. I'm a mercenary. Like you were.",
+    "translated": "Je prends juste l'argent du Diktat. Je suis mercenaire. Comme vous l'etiez."
+  },
+  {
+    "csv_row": 7937,
+    "id": "RaoPitchDiktatCom3a",
+    "column": "text",
+    "original": "\"He calls himself the 'The Spider of Sindria', but that's not right,\" Rao says. \"He's a self-satisfied little worm that's chewed his way into the rotten heart of the Sindrian Diktat. You should meet him.\"\n\nRao's smile is cold.\n\n\"Go. Meet him. Go on, now.\" He makes a shoo motion, then slaps the comms cut-off.",
+    "translated": "\"Il se fait appeler 'l'Araignee de Sindria', mais c'est inexact,\" dit Rao. \"C'est un petit ver satisfait de lui-même qui s'est fraye un chemin en rongeant jusqu'au coeur pourri du Diktat Sindrien. Vous devriez le rencontrer.\"\n\nLe sourire de Rao est glacial.\n\n\"Allez. Rencontrez-le. Allez, du balai.\" Il fait un geste de la main pour vous congedier, puis coupe la communication."
+  },
+  {
+    "csv_row": 7938,
+    "id": "RaoPitchDiktatCom3b",
+    "column": "text",
+    "original": "\"Correct,\" he says icily.\n\nHe makes a shoo motion. \"Off with you.\"\n\nThe comms cut.",
+    "translated": "\"Exact,\" dit-il glacialement.\n\nIl fait un geste de la main. \"Du balai.\"\n\nLa communication se coupe."
+  },
+  {
+    "csv_row": 7940,
+    "id": "RaoPitchDiktatCom3c2",
+    "column": "text",
+    "original": "\"You are what you do, not the lies you tell yourself.\"\n\nHe reaches for an interface, pauses, then speaks.\n\n\"Now go away.\"",
+    "translated": "\"On est ce qu'on fait, pas les mensonges qu'on se raconte.\"\n\nIl tend la main vers une interface, hesite, puis parle.\n\n\"Maintenant, partez.\""
+  },
+  {
+    "csv_row": 7941,
+    "id": "RaoPitchDiktatCom3d",
+    "column": "text",
+    "original": "\"Hah,\" Orcus Rao says, rolling his eyes. \"We got another one.\"\n\nHe makes a shoo motion. \"Off with you.\"\n\nThe comms cut.",
+    "translated": "\"Pff,\" dit Orcus Rao en levant les yeux au ciel. \"Encore un.\"\n\nIl fait un geste de la main. \"Du balai.\"\n\nLa communication se coupe."
+  }
+]

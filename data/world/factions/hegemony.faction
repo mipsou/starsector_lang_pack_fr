@@ -4,11 +4,11 @@
 	"displayNameWithArticle":"l'Hégémonie",
 	"ranks":{
 		"ranks":{
-			"factionLeader":{"name":"Haut Hegemon"},
+			"factionLeader":{"name":"Haut Hégémon"},
 			"spaceCommander":{"name":"Commandant"},
 		},
 		"posts":{
-			"factionLeader":{"name":"Haut Hegemon"},
+			"factionLeader":{"name":"Haut Hégémon"},
 			"patrolCommander":{"name":"Commandant de patrouille"},
 			"fleetCommander":{"name":"Commandant de flotte"},
 			"baseCommander":{"name":"Commandant de base"},

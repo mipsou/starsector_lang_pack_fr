@@ -1,0 +1,73 @@
+[
+  {
+    "csv_row": 2888,
+    "id": "BFFIapHorus6",
+    "column": "text",
+    "original": "The space is at once cavernous and intimate; the sightlines and carved, wrought, or woven details calculated to replicate a feeling of cozy warmth like the den of some thoughtful patron of art, history, and literature.\n\nA double handful of well-dressed remoras mill about, interrupting their conversations to turn as Menes enters. They look to be a collection of industrialists, financiers, distant gens-relatives, and at least one officer from atop the local military detachment who appears a little worse for his drink.",
+    "translated": "L'espace est à la fois caverneux et intime ; les lignes de vue et les détails sculptés, forgés ou tissés calculés pour reproduire une sensation de chaleur douillette comme l'antre d'un mécène réfléchi des arts, de l'histoire et de la littérature.\n\nUne double poignée de rémoras bien habillés déambulent, interrompant leurs conversations pour se retourner à l'entrée de Menes. Ils semblent être un assortiment d'industriels, de financiers, de parents éloignés de la gens, et au moins un officier du détachement militaire local qui semble un peu éméché."
+  },
+  {
+    "csv_row": 2889,
+    "id": "BFFIapHorus7",
+    "column": "text",
+    "original": "Most start to give a politic nod and wave of acknowledgement at Menes' entrance, but stop and stare as they recognize Horus at his side. Few eyes linger on you and Bornanew, who steps apart as though he were a mere assistant or servitor.\n\nOne skinny man in a finely embroidered suit is not put off by Horus' entrance, and rushes to greet your party, eyes agog mostly at the gens patriarch, but sparing a glance at least for the newest additions to Menes' collection.",
+    "translated": "La plupart commencent par un hochement de tête poli et un geste de reconnaissance à l'entrée de Menes, mais s'arrêtent et fixent du regard en reconnaissant Horus à ses côtés. Peu de regards s'attardent sur vous et Bornanew, qui s'écarte comme s'il n'était qu'un simple assistant ou serviteur.\n\nUn homme maigre en costume finement brodé n'est pas intimidé par l'entrée d'Horus, et se précipite pour accueillir votre groupe, les yeux écarquillés surtout devant le patriarche de la gens, mais accordant au moins un regard aux derniers ajouts de la collection de Menes."
+  },
+  {
+    "csv_row": 2890,
+    "id": "BFFIapHorus8",
+    "column": "text",
+    "original": "He nearly trips over himself to speak. \"The great Horus Yaribay! Your reputation precedes you, if half of what-\"\n\nHorus holds up a hand, silencing the man, and turns aside. \"Menes, what is this?\"\n\n\"Ha- ha, ah, this is Ulmus Pond,\" Menes replies quickly, his drinkless off-hand waving to shoo Pond away. \"Ulmus, not now. Perhaps see that Captain $playerLastName's Luddic friend here has a fresh drink? Thank-you.\"\n\n\"Now, cousin Horus, I must offer a thousand apologies.\" Menes himself turns, also cutting Pond out of the conversation. \"Had you signalled ahead we could have arranged for a proper reception...\"",
+    "translated": "Il manque de trébucher en parlant. \"Le grand Horus Yaribay ! Votre réputation vous précède, si la moitié de ce que-\"\n\nHorus lève la main, réduisant l'homme au silence, et se détourne. \"Menes, qu'est-ce que c'est ?\"\n\n\"Ha- ha, ah, voici Ulmus Pond,\" répond rapidement Menes, sa main libre sans verre faisant signe à Pond de s'éloigner. \"Ulmus, pas maintenant. Peut-être pourriez-vous vous assurer que l'ami luddique du capitaine $playerLastName ait un verre frais ? Merci.\"\n\n\"Maintenant, cousin Horus, je dois vous présenter mille excuses.\" Menes se retourne lui aussi, excluant également Pond de la conversation. \"Si vous aviez signalé votre venue, nous aurions pu organiser une réception digne de ce nom...\""
+  },
+  {
+    "csv_row": 2890,
+    "id": "BFFIapHorus8",
+    "column": "options",
+    "option_line": "bffi_apHorus9:Watch the fallout",
+    "original": "Watch the fallout",
+    "translated": "Observer les retombées"
+  },
+  {
+    "csv_row": 2891,
+    "id": "BFFIapHorus9",
+    "column": "text",
+    "original": "\"Never mind that,\" Horus says, looking around with a displeased curl to his lip. His gaze slips over Pond like he's nothing.\n\nUlmus Pond, for his part, hides the evil look that crossed his face in that moment to slink after Bornanew.",
+    "translated": "\"Peu importe,\" dit Horus, regardant autour de lui avec un pli de mécontentement aux lèvres. Son regard glisse sur Pond comme s'il n'était rien.\n\nUlmus Pond, pour sa part, dissimule le regard mauvais qui a traversé son visage à cet instant pour se faufiler derrière Bornanew."
+  },
+  {
+    "csv_row": 2892,
+    "id": "BFFIapHorus9b",
+    "column": "text",
+    "original": "Horus snaps his fingers, summoning a tray, and selects something effervescent. He takes a slow sip, not allowing his expression to display any sort of pleasure in the act. It seems to him more like a necessary palate-cleanser.\n\n\"Show it to me,\" he says to Menes. An order.",
+    "translated": "Horus claque des doigts, convoquant un plateau, et choisit quelque chose d'effervescent. Il prend une lente gorgée, ne permettant pas à son expression de montrer le moindre plaisir. Cela semble être pour lui davantage un nettoyage de palais nécessaire.\n\n\"Montrez-le-moi,\" dit-il à Menes. Un ordre."
+  },
+  {
+    "csv_row": 2893,
+    "id": "BFFIapHorus10",
+    "column": "text",
+    "original": "\"Captain $playerLastName shall attend,\" Horus adds quietly. \"So that we might fully resolve this matter.\"\n\n\"Of course, cousin, of course!\" Menes, sweating, puts on a fragile grin in order to distribute reassuring nods to his extended entourage.\n\nMenes leads you and Horus into his inner sanctum, flashing a grimace as he operates a series of obtrusive and, to your eyes, largely ornamental biometric checks.",
+    "translated": "\"Le capitaine $playerLastName nous accompagnera,\" ajoute Horus calmement. \"Afin que nous puissions résoudre cette affaire complètement.\"\n\n\"Bien sûr, cousin, bien sûr !\" Menes, en sueur, affiche un sourire fragile afin de distribuer des hochements de tête rassurants à son entourage élargi.\n\nMenes vous guide, vous et Horus, dans son sanctuaire intérieur, grimaçant tandis qu'il opère une série de contrôles biométriques intrusifs et, à vos yeux, largement décoratifs."
+  },
+  {
+    "csv_row": 2894,
+    "id": "BFFIapHorus11",
+    "column": "text",
+    "original": "The air cools by a degree, perhaps two, the armored mass of the walls felt as a dullness through your feet. The subdued lighting, drapery, and framing of the space suggest the interior of a bank vault or a shrine, though not to the praise of any Luddic virtue.\n\nQuite the contrary, depending on one's outlook.",
+    "translated": "L'air se rafraîchit d'un degré, peut-être deux, la masse blindée des murs se faisant sentir comme une lourdeur sous vos pieds. L'éclairage tamisé, les draperies et l'agencement de l'espace évoquent l'intérieur d'un coffre-fort de banque ou d'un sanctuaire, bien que ce ne soit pas à la gloire d'une quelconque vertu luddique.\n\nBien au contraire, selon le point de vue."
+  },
+  {
+    "csv_row": 2895,
+    "id": "BFFIapHorus12",
+    "column": "text",
+    "original": "On a pedestal of carved wood, in a spot of light like holy revelation, a single glove is upthrust. Its fingers appear frozen in the midst of beginning to curl back toward a relaxed state after giving you a little wave.\n\nAfter an appropriate pause, Menes speaks up, hopeful. \"What do you think, cousin?\"",
+    "translated": "Sur un piédestal de bois sculpté, dans un halo de lumière semblable à une révélation divine, un unique gant se dresse. Ses doigts semblent figés en train de se recourber vers une position détendue, comme après vous avoir fait un petit signe.\n\nAprès une pause appropriée, Menes prend la parole, plein d'espoir. \"Qu'en pensez-vous, cousin ?\""
+  },
+  {
+    "csv_row": 2896,
+    "id": "BFFIapHorus13",
+    "column": "text",
+    "original": "\"What's this supposed to be,\" says Horus, deadpan.\n\nMenes clears his throat, then begins in a low, dramatic voice, \"The glove worn by Ludd when stepping upon the sacred Earth of Gilead. Ludd removed the glove and kissed the ground, according to the Luddic's religion.\"",
+    "translated": "\"C'est censé être quoi,\" dit Horus, pince-sans-rire.\n\nMenes se racle la gorge, puis commence d'une voix basse et dramatique : \"Le gant porté par Ludd lorsqu'il posa le pied sur la Terre sacrée de Gilead. Ludd retira le gant et embrassa le sol, selon la religion luddique.\""
+  }
+]

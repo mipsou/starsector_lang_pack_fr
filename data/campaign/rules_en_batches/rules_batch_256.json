@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 7943,
+    "id": "RaoPitchLeagueCom",
+    "column": "text",
+    "original": "\"As you bear the commission of the Persean League...\" He makes a half-shrug. \"I can't have you in a position of divided loyalty.\"\n\n\"Let us speak again on the matter if your situation changes.\"\n\nHis tone makes it clear that the issue is settled. For now.",
+    "translated": "\"Puisque vous portez la commission de la Ligue Perseenne...\" Il fait un demi-haussement d'épaules. \"Je ne peux pas vous mettre dans une position de loyauté divisee.\"\n\n\"Reparlons-en si votre situation change.\"\n\nSon ton indique clairement que la question est reglee. Pour l'instant."
+  },
+  {
+    "csv_row": 7944,
+    "id": "RaoPitchLeagueMember",
+    "column": "text",
+    "original": "\"Seeing as you're a full, albeit junior, member of the Persean League we can't have you in a position of divided loyalty, can we.\"\n\nHe produces a little shrug. \"Let us speak again on the matter if your situation changes.\"\n\nHis tone makes it clear that the issue is settled. For now.",
+    "translated": "\"Etant donne que vous etes un membre a part entière, bien que subalterne, de la Ligue Perseenne, nous ne pouvons pas vous mettre dans une position de loyauté divisee, n'est-ce pas.\"\n\nIl fait un petit haussement d'épaules. \"Reparlons-en si votre situation change.\"\n\nSon ton indique clairement que la question est reglee. Pour l'instant."
+  },
+  {
+    "csv_row": 7945,
+    "id": "RaoPitchLeagueHannan",
+    "column": "text",
+    "original": "\"Seeing as you're a full, albeit junior, member of the Persean League... well, we can't very well divide your loyalties.\"\n\n\"Besides,\" a fleeting smile appears. \"I see you've fallen into Reynard Hannan's orbit. An ego of that size produces a gravity well which is very difficult to escape.\"",
+    "translated": "\"Etant donne que vous etes un membre a part entière, bien que subalterne, de la Ligue Perseenne... eh bien, nous ne pouvons guere diviser vos loyautés.\"\n\n\"D'ailleurs,\" un sourire fugace apparait. \"Je vois que vous etes tombe dans l'orbite de Reynard Hannan. Un ego de cette taille produit un puits de gravite dont il est tres difficile de s'échapper.\""
+  },
+  {
+    "csv_row": 7945,
+    "id": "RaoPitchLeagueHannan",
+    "column": "options",
+    "option_line": "rao_pitchHannanA:\"My membership in the Persean League is my business.\"",
+    "original": "My membership in the Persean League is my business.",
+    "translated": "Mon adhesion a la Ligue Perseenne ne regarde que moi."
+  },
+  {
+    "csv_row": 7945,
+    "id": "RaoPitchLeagueHannan",
+    "column": "options",
+    "option_line": "rao_pitchHannanB:\"Reynard is insufferable, but I could not get a better deal.\"",
+    "original": "Reynard is insufferable, but I could not get a better deal.",
+    "translated": "Reynard est insupportable, mais je ne pouvais pas trouver meilleur accord."
+  },
+  {
+    "csv_row": 7945,
+    "id": "RaoPitchLeagueHannan",
+    "column": "options",
+    "option_line": "rao_pitchHannanC:\"Reynard is a great man. I follow him gladly.\"",
+    "original": "Reynard is a great man. I follow him gladly.",
+    "translated": "Reynard est un grand homme. Je le suis avec joie."
+  },
+  {
+    "csv_row": 7946,
+    "id": "RaoPitchLeagueHannanA",
+    "column": "text",
+    "original": "\"Of course.\"\n\nHe sits back, face falling into shadow.",
+    "translated": "\"Bien entendu.\"\n\nIl se cale dans son siege, le visage tombant dans l'ombre."
+  },
+  {
+    "csv_row": 7947,
+    "id": "RaoPitchLeagueHannanB",
+    "column": "text",
+    "original": "\"But you made the deal,\" Rao says impishly. \"You didn't have to.\"",
+    "translated": "\"Mais vous avez conclu l'accord,\" dit Rao d'un air espiegle. \"Vous n'etiez pas oblige.\""
+  },
+  {
+    "csv_row": 7948,
+    "id": "RaoPitchLeagueHannanBexplain",
+    "column": "text",
+    "original": "\"Then nothing more need be said.\"\n\nHis tone makes it clear that the conversation is over.",
+    "translated": "\"Alors il n'y a rien de plus a dire.\"\n\nSon ton indique clairement que la conversation est terminee."
+  },
+  {
+    "csv_row": 7948,
+    "id": "RaoPitchLeagueHannanBexplain",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  }
+]

@@ -2,16 +2,16 @@
 	"id":"luddic_church",
 	"displayName":"Église de Ludd",
 	"displayNameWithArticle":"l'Église de Ludd",
-	"displayNameLong":"Eglise de la Redemption Galactique",
-	"displayNameLongWithArticle":"l'Eglise de la Redemption Galactique",
+	"displayNameLong":"Église de la Rédemption Galactique",
+	"displayNameLongWithArticle":"l'Église de la Rédemption Galactique",
 	"ranks":{
 		"ranks":{
 			"spaceCommander":{"name":"Diacre-Capitaine"},
 		},
 		"posts":{
 			"patrolCommander":{"name":"Diacre-Capitaine"},
-			"fleetCommander":{"name":"Cure-Commandant"},
-			"baseCommander":{"name":"Eveque-Gouverneur"},
+			"fleetCommander":{"name":"Curé-Commandant"},
+			"baseCommander":{"name":"Évêque-Gouverneur"},
 			"administrator":{"name":"Sous-presbytre Orbis"},
 			"genericMilitary":{"name":"Chevalier-Commandant"},
 			"portmaster":{"name":"Gardien du port"},
@@ -19,13 +19,13 @@
 		},
 	},
 	"fleetTypeNames":{
-		"trade":"Convoi des fideles",
-		"smallTrader":"Marchand fidele",
-		"tradeLiner":"Pelerinage",
+		"trade":"Convoi des fidèles",
+		"smallTrader":"Marchand fidèle",
+		"tradeLiner":"Pèlerinage",
 		"patrolSmall":"Veilleurs",
 		"patrolMedium":"Flottille vertueuse",
 		"patrolLarge":"Sainte Armada",
 		"inspectionFleet":"Saint Arbitre",
-		"taskForce":"Mission benie",
+		"taskForce":"Mission bénie",
 	},
 }

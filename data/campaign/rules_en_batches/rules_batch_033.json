@@ -1,0 +1,80 @@
+[
+  {
+    "csv_row": 1441,
+    "id": "killaOverride",
+    "column": "text",
+    "original": "Votre $shipOrFleet approche de $entityName.",
+    "translated": "Votre $shipOrFleet approche de $entityName."
+  },
+  {
+    "csv_row": 1444,
+    "id": "lppShrineKillaVisitOptionAgain",
+    "column": "options",
+    "option_line": "1:lpp_killaVisitStartAgain:Prendre une navette vers le sanctuaire luddique",
+    "original": "lpp_killaVisitStartAgain:Prendre une navette vers le sanctuaire luddique",
+    "translated": "lpp_killaVisitStartAgain:Prendre une navette vers le sanctuaire luddique"
+  },
+  {
+    "csv_row": 1445,
+    "id": "lppShrineKillaVisitAgainStart",
+    "column": "options",
+    "option_line": "lpp_killaShrineVisitAgain1:Entrer the airlock",
+    "original": "Entrer the airlock",
+    "translated": "Entrer dans le sas"
+  },
+  {
+    "csv_row": 1447,
+    "id": "lppKillaVisitStart2",
+    "column": "options",
+    "option_line": "lpp_killaVisitStartFollow:Suivre les empreintes",
+    "original": "Suivre les empreintes",
+    "translated": "Suivre les empreintes"
+  },
+  {
+    "csv_row": 1447,
+    "id": "lppKillaVisitStart2",
+    "column": "options",
+    "option_line": "lpp_killaVisitStartScan:Demander un scan actif de la zone",
+    "original": "Demander un scan actif de la zone",
+    "translated": "Demander un scan actif de la zone"
+  },
+  {
+    "csv_row": 1449,
+    "id": "lppKillaVisitStart2Scan2",
+    "column": "options",
+    "option_line": "lpp_killaVisitStartFollow:Suivre les empreintes",
+    "original": "Suivre les empreintes",
+    "translated": "Suivre les empreintes"
+  },
+  {
+    "csv_row": 1450,
+    "id": "lppKillaVisitStart2Leave",
+    "column": "text",
+    "original": "Votre navette retourne vers votre $shipOrFleet en orbite.",
+    "translated": "Votre navette retourne vers votre $shipOrFleet en orbite."
+  },
+  {
+    "csv_row": 1452,
+    "id": "lppKillaOssuary1",
+    "column": "options",
+    "option_line": "lpp_killaOssuary2:Regarder autour de vous",
+    "original": "Regarder autour de vous",
+    "translated": "Regarder autour de vous"
+  },
+  {
+    "csv_row": 1464,
+    "id": "lppKillaOssuarySpooky2",
+    "column": "options",
+    "option_line": "lpp_killaDeathComesB:\"Pas pour moi.\"",
+    "original": "Pas pour moi.",
+    "translated": "Pas pour moi."
+  },
+  {
+    "csv_row": 1468,
+    "id": "lppKillaOssuaryWalkPilgrim2",
+    "column": "options",
+    "option_line": "lpp_killaWillRememberA:\"Je pense que oui.\"",
+    "original": "Je pense que oui.",
+    "translated": "Je pense que oui."
+  }
+]

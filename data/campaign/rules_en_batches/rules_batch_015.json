@@ -1,0 +1,79 @@
+[
+  {
+    "csv_row": 320,
+    "id": "marketReturnFromBar",
+    "column": "text",
+    "original": "Vous quittez le bar et prenez une navette pour rejoindre votre $shipOrFleet.",
+    "translated": "Vous quittez le bar et prenez une navette pour rejoindre votre $shipOrFleet."
+  },
+  {
+    "csv_row": 331,
+    "id": "marketPostOpenPlayerOwnerd",
+    "column": "text",
+    "original": "Votre $shipOrFleet se met en orbite autour de $marketName.",
+    "translated": "Votre $shipOrFleet se met en orbite autour de $marketName."
+  },
+  {
+    "csv_row": 336,
+    "id": "orbitalStorageInteractionCargo1",
+    "column": "options",
+    "option_line": "10:marketOpenCargo:Inspecter les zones de stockage de cargaison",
+    "original": "marketOpenCargo:Inspecter les zones de stockage de cargaison",
+    "translated": "marketOpenCargo:Inspecter les zones de stockage de cargaison"
+  },
+  {
+    "csv_row": 337,
+    "id": "orbitalStorageInteractionFleet1",
+    "column": "options",
+    "option_line": "11:marketOpenFleet:Inspecter les quais des vaisseaux",
+    "original": "marketOpenFleet:Inspecter les quais des vaisseaux",
+    "translated": "marketOpenFleet:Inspecter les quais des vaisseaux"
+  },
+  {
+    "csv_row": 344,
+    "id": "marketOptTradeMulti4",
+    "column": "options",
+    "option_line": "10:marketOpenCoreUI:Consulter les informations de la colonie",
+    "original": "marketOpenCoreUI:Consulter les informations de la colonie",
+    "translated": "marketOpenCoreUI:Consulter les informations de la colonie"
+  },
+  {
+    "csv_row": 345,
+    "id": "marketOptBar",
+    "column": "options",
+    "option_line": "5:marketVisitBar:Descendre en navette pour visiter un bar",
+    "original": "marketVisitBar:Descendre en navette pour visiter un bar",
+    "translated": "marketVisitBar:Descendre en navette pour visiter un bar"
+  },
+  {
+    "csv_row": 346,
+    "id": "marketOptHostile",
+    "column": "options",
+    "option_line": "20:marketConsiderHostile:Envisager vos options militaires",
+    "original": "marketConsiderHostile:Envisager vos options militaires",
+    "translated": "marketConsiderHostile:Envisager vos options militaires"
+  },
+  {
+    "csv_row": 409,
+    "id": "TTmarketWeirdModsOutro2a",
+    "column": "options",
+    "option_line": "cutCommLink:Couper le lien",
+    "original": "Couper le lien",
+    "translated": "Couper le lien"
+  },
+  {
+    "csv_row": 410,
+    "id": "TTmarketWeirdModsOutro2b",
+    "column": "options",
+    "option_line": "cutCommLink:Couper le lien",
+    "original": "Couper le lien",
+    "translated": "Couper le lien"
+  },
+  {
+    "csv_row": 413,
+    "id": "TTmarketWeirdModsOutro2c",
+    "column": "text",
+    "original": "$HeOrShe coupe rapidement le lien avant que vous ne puissiez poser d'autres questions.",
+    "translated": "$HeOrShe coupe rapidement le lien avant que vous ne puissiez poser d'autres questions."
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "csv_row": 655,
+    "id": "space_bar",
+    "title": "Spacer Bar",
+    "original_text": "The spacer bar was filled by the human white-noise of conversation and revelry. Ad-holos buzzed softly from ceiling-mounted projectors, shining garish highlights through glasses and bottles as crews mingled with merchants and locals trading drink for rumors, jobs, and connections.",
+    "translated_title": "Bar de Spacers",
+    "translated_text": "Le bar de spacers était empli du bruit blanc humain des conversations et des réjouissances. Des holo-publicités bourdonnaient doucement depuis des projecteurs fixés au plafond, projetant des reflets criards à travers les verres et les bouteilles tandis que les équipages se mêlaient aux marchands et aux locaux, échangeant des verres contre des rumeurs, des emplois et des contacts."
+  },
+  {
+    "csv_row": 656,
+    "id": "pirate_bar",
+    "title": "Pirate Bar",
+    "original_text": "\"Ya hear that? Salazar's crew, they think we're cowardly dirt-eaters.\"\n[shouting, booing]\n\"I say, I say they're wrong! I say we go out there and show 'em which way the Reaper flies! Who's with me?\"\n[cheering, stomping, breaking glass]",
+    "translated_title": "Bar Pirate",
+    "translated_text": "« Vous entendez ça ? L'équipage de Salazar, ils pensent qu'on est des lâches bouffeurs de terre. »\n[cris, huées]\n« Moi j'dis, j'dis qu'ils ont tort ! J'dis qu'on va leur montrer dans quel sens vole le Faucheur ! Qui est avec moi ? »\n[acclamations, piétinements, bris de verre]"
+  },
+  {
+    "csv_row": 657,
+    "id": "stellar_mirror",
+    "title": "Stellar Mirror",
+    "original_text": "Ultra-light orbital mirror arrays which reflect and concentrate stellar energy were a common terraforming tool. The art of their use was brought to apogee by the Eridani-Utopia Terraforming Corporation during the height of the Domain's expansion.",
+    "translated_title": "Miroir Stellaire",
+    "translated_text": "Les réseaux de miroirs orbitaux ultra-légers qui réfléchissent et concentrent l'énergie stellaire étaient un outil de terraformation courant. L'art de leur utilisation fut porté à son apogée par la Corporation de Terraformation Eridani-Utopia lors de l'apogée de l'expansion du Domain."
+  },
+  {
+    "csv_row": 658,
+    "id": "stellar_shade",
+    "title": "Stellar Shade",
+    "original_text": "Judicious placement of stellar shades and mirrors in orbit of Eventide allowed for ideal conditions in large pockets of the carefully maintained territory. The majority of the population was settled in leased urban cantons built in arcs and rings of the penumbrae surrounding the vast, bright aristocratic estate-plantations.",
+    "translated_title": "Voile Stellaire",
+    "translated_text": "Le placement judicieux de voiles et de miroirs stellaires en orbite d'Eventide permettait des conditions idéales dans de larges poches du territoire soigneusement entretenu. La majorité de la population était installée dans des cantons urbains loués, construits en arcs et en anneaux de pénombres entourant les vastes et lumineuses plantations-domaines aristocratiques."
+  },
+  {
+    "csv_row": 659,
+    "id": "hegemony_bar",
+    "title": "Hegemony Spacer Bar",
+    "original_text": "A row of taps adorned the wall under bottles from every one of the Core Worlds - and a few from elsewhere. Merchant-captains mingled with off-duty officers at the bar, served by uniformed staff. In one corner a pack of navy cadets shouted and sang, desperate to enjoy their last shift of freedom.",
+    "translated_title": "Bar de Spacers de l'Hégémonie",
+    "translated_text": "Une rangée de tireuses ornait le mur sous des bouteilles de chacun des Mondes Centraux — et de quelques autres. Les capitaines marchands se mêlaient aux officiers en permission au bar, servis par du personnel en uniforme. Dans un coin, une bande de cadets de la marine criait et chantait, désespérés de profiter de leur dernier quart de liberté."
+  },
+  {
+    "csv_row": 660,
+    "id": "sindria",
+    "title": "Sindria",
+    "original_text": "The hive-cities never recovered from the influx of refugees due to the Askonia Crisis. Andrada channelled resources toward the military and its supporting industries instead. A desperate underclass would grow beneath the boots of those lucky and loyal enough to have found positions in the bureaucracy or miltech establishment.",
+    "translated_title": "Sindria",
+    "translated_text": "Les cités-ruches ne se remirent jamais de l'afflux de réfugiés dû à la Crise d'Askonia. Andrada canalisa les ressources vers l'armée et ses industries de soutien. Une classe défavorisée désespérée allait croître sous les bottes de ceux assez chanceux et loyaux pour avoir trouvé des postes dans la bureaucratie ou l'appareil militaro-industriel."
+  },
+  {
+    "csv_row": 661,
+    "id": "bar_diktat",
+    "title": "Sindrian Diktat Spacer Bar",
+    "original_text": "The dark entry left behind the noisome propaganda broadcasts of the throughway. Off-duty laborers drank away their ration credits at benches set beneath Diktat insignia. In one corner a cadre of finely dressed officer-bureaucrats called for a round. And even here a framed holo of the Lion of Sindria surveyed the ceiling, forever aloof.",
+    "translated_title": "Bar de Spacers du Diktat Sindrien",
+    "translated_text": "L'entrée sombre laissait derrière elle les bruyantes émissions de propagande du couloir principal. Des ouvriers en permission dilapidaient leurs crédits de ration sur des bancs sous les insignes du Diktat. Dans un coin, un cadre d'officiers-bureaucrates élégamment vêtus commandait une tournée. Et même ici, un holo encadré du Lion de Sindria surveillait depuis le plafond, à jamais distant."
+  },
+  {
+    "csv_row": 662,
+    "id": "tritachyon_bar",
+    "title": "Tri-Tachyon Spacer Bar",
+    "original_text": "The lounge was adorned in gilt geometrics. Columns underlit by cool light-tubes hung in the air. Slick careerists and wannabes in crisp suits negotiated deals while buying increasingly unlikely cocktails. A few spacers engaged in subdued drinking in the low seats, glancing uneasily at what was either abstract art or a holo-projection rig looming from the ceiling.",
+    "translated_title": "Bar de Spacers Tri-Tachyon",
+    "translated_text": "Le salon était orné de motifs géométriques dorés. Des colonnes éclairées par en dessous par des tubes lumineux froids flottaient dans l'air. Des carriéristes habiles et des aspirants en costumes impeccables négociaient des contrats en commandant des cocktails de plus en plus improbables. Quelques spacers buvaient discrètement dans les sièges bas, jetant des regards inquiets vers ce qui était soit de l'art abstrait, soit un dispositif de projection holographique suspendu au plafond."
+  },
+  {
+    "csv_row": 663,
+    "id": "gilead",
+    "title": "Gilead",
+    "original_text": "The face of Gilead smiled behind clouds of purest silk, cerulean seas, and verdant continents of gentle, rolling wilderness.\n\nThe Church reigned as a stern gardener, ensuring piety and duty in honoring the ground upon which Ludd once trod.",
+    "translated_title": "Gilead",
+    "translated_text": "Le visage de Gilead souriait derrière des nuages de la plus pure soie, des mers céruléennes et de verdoyants continents de douce nature vallonnée.\n\nL'Église régnait en jardinier sévère, veillant à la piété et au devoir d'honorer la terre que Ludd avait autrefois foulée."
+  },
+  {
+    "csv_row": 664,
+    "id": "jangala_shrine",
+    "title": "Shrine of Jangala",
+    "original_text": "There were figures, like an overgrown statue garden. The forms blistered with growth, draped in tendrils heavy with fruiting bodies. One moved. Not the wind, but a pilgrim exposed without a haz-suit. And there were others, wearing only light robes amongst the inimical xenolife. Easily overtaken.",
+    "translated_title": "Sanctuaire de Jangala",
+    "translated_text": "Il y avait des silhouettes, comme un jardin de statues envahi par la végétation. Les formes boursouflées de croissance, drapées de vrilles lourdes de fructifications. L'une d'elles bougea. Pas le vent, mais un pèlerin exposé sans combinaison de protection. Et il y en avait d'autres, ne portant que de légères robes parmi la xénovie hostile. Facilement submergés."
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "csv_row": 8911,
+    "id": "sdtuHyderTalk3OptionsJ",
+    "column": "options",
+    "option_line": "sdtu_hyderTalk3Leadership:\"Qui devrait diriger le Diktat Sindrien quand Andrada sera mort ? Vous ?\"",
+    "original": "Qui devrait diriger le Diktat Sindrien quand Andrada sera mort ? Vous ?",
+    "translated": "Qui devrait diriger le Diktat Sindrien quand Andrada sera mort ? Vous ?"
+  },
+  {
+    "csv_row": 8920,
+    "id": "sdtuHyderTalk3OptionsE",
+    "column": "options",
+    "option_line": "sdtu_hyderTalk3Glory:\"Gloire au Diktat Sindrien.\"",
+    "original": "Gloire au Diktat Sindrien.",
+    "translated": "Gloire au Diktat Sindrien."
+  },
+  {
+    "csv_row": 8922,
+    "id": "sdtuHyderTalk3HegemonyA",
+    "column": "text",
+    "original": "\"Taisez-vous !\" gronde-t-elle presque. \"Ne me parlez plus de trahison.\"",
+    "translated": "\"Taisez-vous !\" gronde-t-elle presque. \"Ne me parlez plus de trahison.\""
+  },
+  {
+    "csv_row": 8924,
+    "id": "sdtuHyderTalk3MacarioA",
+    "column": "text",
+    "original": "\"Et vous l'aiderez a le faire, j'en suis sure,\" dit-elle avec acidite. \"Vous tentez l'amour du Destin pour l'ironie en vous vantant pour Macario avant qu'il n'ait remporte la victoire.\"",
+    "translated": "\"Et vous l'aiderez à le faire, j'en suis sûre,\" dit-elle avec acidité. \"Vous tentez l'amour du Destin pour l'ironie en vous vantant pour Macario avant qu'il n'ait remporté la victoire.\""
+  },
+  {
+    "csv_row": 8927,
+    "id": "sdtuHyderTalk3WhySmugglePrivacy",
+    "column": "text",
+    "original": "Hyder actionne calmement l'interrupteur du champ de confidentialite, cligne des yeux, puis vous fait face.",
+    "translated": "Hyder actionne calmement l'interrupteur du champ de confidentialité, cligne des yeux, puis vous fait face."
+  },
+  {
+    "csv_row": 8931,
+    "id": "sdtuHyderTalk3BossPrivacy",
+    "column": "text",
+    "original": "Hyder actionne calmement l'interrupteur d'activation du champ de confidentialite, cligne des yeux, puis vous fait face.",
+    "translated": "Hyder actionne calmement l'interrupteur d'activation du champ de confidentialité, cligne des yeux, puis vous fait face."
+  },
+  {
+    "csv_row": 8932,
+    "id": "sdtuHyderTalkBossA",
+    "column": "text",
+    "original": "\"Qui vous a dit cela ?\" demande-t-elle, \"Macario ?\"\n\nRetrouvant son sang-froid, elle poursuit. \"Quoi qu'il en soit, l'Executeur Supreme se situe au-dessus des officiers ministeriels de haut rang du Diktat Sindrien. Je lui rends compte, bien entendu.\"",
+    "translated": "\"Qui vous a dit cela ?\" demande-t-elle, \"Macario ?\"\n\nRetrouvant son sang-froid, elle poursuit. \"Quoi qu'il en soit, l'Exécuteur Suprême se situe au-dessus des officiers ministériels de haut rang du Diktat Sindrien. Je lui rends compte, bien entendu.\""
+  },
+  {
+    "csv_row": 8935,
+    "id": "sdtuHyderTalkBossC2",
+    "column": "text",
+    "original": "Son visage tressaille, ses yeux fixes intensement sur vous un instant.",
+    "translated": "Son visage tressaille, ses yeux fixés intensément sur vous un instant."
+  },
+  {
+    "csv_row": 8937,
+    "id": "sdtuHyderTalkBossPromotionB",
+    "column": "text",
+    "original": "\"Ce serait exact. Sans vouloir presumer, bien sur.\" Elle semble partagee.\n\n\"Ce serait... c'est la responsabilite de l'Executeur Supreme lui-meme d'attribuer ce grade et cette fonction.\"",
+    "translated": "\"Ce serait exact. Sans vouloir présumer, bien sûr.\" Elle semble partagée.\n\n\"Ce serait... c'est la responsabilité de l'Exécuteur Suprême lui-même d'attribuer ce grade et cette fonction.\""
+  },
+  {
+    "csv_row": 8938,
+    "id": "sdtuHyderTalkBossPromotionOpt1",
+    "column": "options",
+    "option_line": "sdtu_hyderTalk3Andrada:\"Mais il ne veut pas. Ou ne peut pas.\"",
+    "original": "Mais il ne veut pas. Ou ne peut pas.",
+    "translated": "Mais il ne veut pas. Ou ne peut pas."
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 3132,
+    "id": "BFFIulmusSedge5wire",
+    "column": "options",
+    "option_line": "bffi_ulmusSedge6:Aller voir Bornanew",
+    "original": "Aller voir Bornanew",
+    "translated": "Aller voir Bornanew"
+  },
+  {
+    "csv_row": 3133,
+    "id": "BFFIulmusSedge5sword",
+    "column": "text",
+    "original": "In one smooth motion you draw your sword and sweep it in an arc intersecting Sedge's throat.\n\nWith a wet sigh, his body slides back against the wall, his face down, his eyes staring blankly up at you, his expression caught in a look of dumb surprise.",
+    "translated": "D'un geste fluide, vous dégainez votre épée et la balayez en un arc qui croise la gorge de Sedge.\n\nDans un soupir humide, son corps glisse contre le mur, face vers le bas, ses yeux fixant le vide vers vous, son expression figée dans un air de stupeur hébétée."
+  },
+  {
+    "csv_row": 3133,
+    "id": "BFFIulmusSedge5sword",
+    "column": "options",
+    "option_line": "bffi_ulmusSedge6:Aller voir Bornanew",
+    "original": "Aller voir Bornanew",
+    "translated": "Aller voir Bornanew"
+  },
+  {
+    "csv_row": 3134,
+    "id": "BFFIulmusSedge5none",
+    "column": "text",
+    "original": "In a motion born of long hours of training, your leg snaps toward Sedge at the speed of thought. It meets the center of his head with full force, cracking his head back in a violent jerk.\n\nA single shudder passes through his body, from his thick neck, already purpling from devastated bone and tissue, to his booted feet. His head slumps to the side at an unnatural angle, blood running from what remains of his nose, and his mouth and eyes.",
+    "translated": "Dans un mouvement né de longues heures d'entraînement, votre jambe fuse vers Sedge à la vitesse de la pensée. Elle frappe le centre de sa tête de plein fouet, faisant basculer sa tête en arrière dans une secousse violente.\n\nUn seul frisson parcourt son corps, de son cou épais, déjà violacé par les os et tissus dévastés, jusqu'à ses pieds bottés. Sa tête s'affaisse sur le côté dans un angle contre nature, du sang coulant de ce qui reste de son nez, et de sa bouche et ses yeux."
+  },
+  {
+    "csv_row": 3134,
+    "id": "BFFIulmusSedge5none",
+    "column": "options",
+    "option_line": "bffi_ulmusSedge6:Aller voir Bornanew",
+    "original": "Aller voir Bornanew",
+    "translated": "Aller voir Bornanew"
+  },
+  {
+    "csv_row": 3135,
+    "id": "BFFIulmusSedge6",
+    "column": "text",
+    "original": "Bornanew lives, by a thread.\n\nIn the moments since the exchange, a time hollowed out by violence and filled with the fleeting intensity of adrenaline, your security team appears.\n\nFinding you unhurt, they attach stabilization packs and trauma strips to the fallen Knight. He's left an incredible pool of blood in the cheap apartment. It drips down the narrow stairs.\n\nThe other two bodies lie dead.\n\nIt is unclear how fully Ulmus Pond was exploited by or truly believed in the Pather cause, but his loyalty - if he ever had any - died with him.",
+    "translated": "Bornanew survit, d'un fil.\n\nDans les instants qui suivent l'affrontement, un temps creusé par la violence et empli de l'intensité fugace de l'adrénaline, votre équipe de sécurité apparaît.\n\nVous trouvant indemne, ils fixent des packs de stabilisation et des bandes anti-trauma sur le Chevalier tombé. Il a laissé une incroyable mare de sang dans l'appartement minable. Le sang dégouline dans l'escalier étroit.\n\nLes deux autres corps gisent sans vie.\n\nIl est difficile de savoir dans quelle mesure Ulmus Pond a été exploité par ou croyait vraiment à la cause des Pèlerins, mais sa loyauté — s'il en a jamais eu — est morte avec lui."
+  },
+  {
+    "csv_row": 3136,
+    "id": "BFFIulmusSedge7",
+    "column": "text",
+    "original": "You carry Bornanew's leather satchel to the shuttle. Your team carries his unconscious body. \n\nAs it lifts, he is laid across several seats. The designated medic keeps close watch over the small ad-hoc network of medical machines.\n\nBornanew's datapad opens to your touch, allowing you to access the coordinates given by Ulmus Pond. And a recording of the brief interrogation. $global.jethroName planned for the possibility of his incapacitation, or death. And gave you access to his work.",
+    "translated": "Vous portez la sacoche en cuir de Bornanew jusqu'à la navette. Votre équipe transporte son corps inconscient.\n\nLorsqu'elle décolle, il est allongé sur plusieurs sièges. Le médecin désigné surveille de près le petit réseau improvisé de machines médicales.\n\nLe datapad de Bornanew s'ouvre à votre toucher, vous permettant d'accéder aux coordonnées données par Ulmus Pond. Et un enregistrement du bref interrogatoire. $global.jethroName avait prévu la possibilité de son incapacitation, ou de sa mort. Et vous avait donné accès à son travail."
+  },
+  {
+    "csv_row": 3137,
+    "id": "BFFIulmusSedge8",
+    "column": "text",
+    "original": "A medical team rushes past you, to Bornanew, as you step out onto your flagship. \n\nHe'll live, you are assured. But it'll hurt; this is left unsaid by your flagship's chief medical officer.\n\nIt is quite clear to you now that this is a Pather conspiracy, and they will kill to keep it from unravelling. Your next step is to the source of the fake relic: a lonely orbit on the fringe of the Persean Sector.\n\nIn the $bffi_patherStationSystem.",
+    "translated": "Une équipe médicale vous dépasse en courant vers Bornanew alors que vous descendez sur votre vaisseau amiral.\n\nIl survivra, vous assure-t-on. Mais ça fera mal ; cela reste non-dit par le médecin-chef de votre vaisseau amiral.\n\nIl vous est maintenant parfaitement clair qu'il s'agit d'un complot des Pèlerins, et qu'ils tueront pour l'empêcher de se défaire. Votre prochaine étape est la source de la fausse relique : une orbite solitaire en bordure du Secteur Persien.\n\nDans le système $bffi_patherStationSystem."
+  },
+  {
+    "csv_row": 3140,
+    "id": "BFFIulmusNoSedgeOutro0",
+    "column": "text",
+    "original": "Bornanew's datapad trembles in Pond's hands. He cannot designate a star system until Bornanew holds the pad steady for him. A target.\n\n\"This Pather, Ulmus,\" Bornanew says, glancing at the datapad then placing it in his satchel. The threat retreats from his voice. \"Tell us his name.\"\n\nTears stream down Ponds' face; the man looks deflated, and absolutely defeated. \"Sedge,\" he says.\n\nBornanew shoots a look at you.",
+    "translated": "Le datapad de Bornanew tremble dans les mains de Pond. Il ne peut pas désigner un système stellaire avant que Bornanew ne stabilise le pad pour lui. Une cible.\n\n\"Ce Pèlerin, Ulmus,\" dit Bornanew, jetant un coup d'oeil au datapad avant de le ranger dans sa sacoche. La menace s'efface de sa voix. \"Dites-nous son nom.\"\n\nDes larmes coulent sur le visage de Pond ; l'homme semble vidé, et complètement vaincu. \"Sedge,\" dit-il.\n\nBornanew vous lance un regard."
+  },
+  {
+    "csv_row": 3140,
+    "id": "BFFIulmusNoSedgeOutro0",
+    "column": "options",
+    "option_line": "bffi_pondNoSedgeOutro1a:\"Wrestling Sedge. But he's dead.\"",
+    "original": "Wrestling Sedge. But he's dead.",
+    "translated": "Sedge le Lutteur. Mais il est mort."
+  }
+]

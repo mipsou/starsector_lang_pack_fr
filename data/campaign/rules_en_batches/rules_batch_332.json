@@ -1,0 +1,79 @@
+[
+  {
+    "csv_row": 9836,
+    "id": "LCP_notEnoughSel",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 9838,
+    "id": "LCP_notEnoughLieSel",
+    "column": "text",
+    "original": "Le Chevalier n'est que legerement decontenance par votre mensonge ehonte.\n\n\"Si.\" Une pause significative, \"S'il en est ainsi,\" commence $heOrShe, \"alors nous serions assurement les mieux places pour livrer-\"",
+    "translated": "Le Chevalier n'est que légèrement décontenancé par votre mensonge éhonté.\n\n\"Si.\" Une pause significative, \"S'il en est ainsi,\" commence $heOrShe, \"alors nous serions assurément les mieux placés pour livrer-\""
+  },
+  {
+    "csv_row": 9840,
+    "id": "LCP_notEnoughLieSel3",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 9842,
+    "id": "LCP_notHappeningSelFaithful",
+    "column": "text",
+    "original": "\"Mais il le faut,\" dit $heOrShe.",
+    "translated": "\"Mais il le faut,\" dit $heOrShe."
+  },
+  {
+    "csv_row": 9843,
+    "id": "LCP_complySel",
+    "column": "text",
+    "original": "Alors que le transfert de cargaison est confirme, le Chevalier joint calmement les mains de $hisOrHer, image meme de la piete.\n\n\"Votre charite est un phare d'espoir dans un monde d'iniquite,\" dit le $post. \"Les Chevaliers apprecient votre pieuse et desinteressee generosite.\"",
+    "translated": "Alors que le transfert de cargaison est confirmé, le Chevalier joint calmement les mains de $hisOrHer, image même de la piété.\n\n\"Votre charité est un phare d'espoir dans un monde d'iniquité,\" dit le $post. \"Les Chevaliers apprécient votre pieuse et désintéressée générosité.\""
+  },
+  {
+    "csv_row": 9843,
+    "id": "LCP_complySel",
+    "column": "options",
+    "option_line": "cutCommLinkNoText:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 9848,
+    "id": "LCMakeDealOpts",
+    "column": "options",
+    "option_line": "lcMakeDeal:\"Les Chevaliers de Ludd commettent essentiellement de la piraterie dans mon secteur et j'exige que cela cesse.\"",
+    "original": "Les Chevaliers de Ludd commettent essentiellement de la piraterie dans mon secteur et j'exige que cela cesse.",
+    "translated": "Les Chevaliers de Ludd commettent essentiellement de la piraterie dans mon secteur et j'exige que cela cesse."
+  },
+  {
+    "csv_row": 9853,
+    "id": "lcMakeDealSelAgainReview",
+    "column": "options",
+    "option_line": "lcDealConfirm:Confirmer le concordat",
+    "original": "Confirmer le concordat",
+    "translated": "Confirmer le concordat"
+  },
+  {
+    "csv_row": 9853,
+    "id": "lcMakeDealSelAgainReview",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 9859,
+    "id": "LCmakeDealOptsPropose",
+    "column": "options",
+    "option_line": "lcMakeDealPropose:\"Alors que proposez-vous ?\"",
+    "original": "Alors que proposez-vous ?",
+    "translated": "Alors que proposez-vous ?"
+  }
+]

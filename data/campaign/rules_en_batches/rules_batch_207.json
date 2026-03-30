@@ -1,0 +1,78 @@
+[
+  {
+    "csv_row": 5647,
+    "id": "gaATGtalkToBairdNeedScans2",
+    "column": "text",
+    "original": "Elle se tourne vers vous, \"Sans ces donnees, nous ne pouvons pas calibrer le prototype Janus. Coordonnez vos efforts avec Coureuse ; procurez-moi ces scans.\"\n\nLa directrice coupe la communication sans vous laisser placer le moindre mot.",
+    "translated": "Elle se tourne vers vous, \"Sans ces données, nous ne pouvons pas calibrer le prototype Janus. Coordonnez vos efforts avec Coureuse ; procurez-moi ces scans.\"\n\nLa directrice coupe la communication sans vous laisser placer le moindre mot."
+  },
+  {
+    "csv_row": 5647,
+    "id": "gaATGtalkToBairdNeedScans2",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 5650,
+    "id": "gaATGjanusPrototype0",
+    "column": "text",
+    "original": "\"Directrice Baird. Capitaine $playerName,\" Coureuse vous salue.\n\n\"Expliquez le Dispositif Janus,\" dit Baird, \"Au capitaine ici present.\"",
+    "translated": "\"Directrice Baird. Capitaine $playerName,\" Coureuse vous salue.\n\n\"Expliquez le Dispositif Janus,\" dit Baird, \"Au capitaine ici présent.\""
+  },
+  {
+    "csv_row": 5657,
+    "id": "gaATGjanusPrototype4",
+    "column": "options",
+    "option_line": "gaATG_janusPrototype5:\"Le... collecteur. Bien entendu.\"",
+    "original": "Le... collecteur. Bien entendu.",
+    "translated": "Le... collecteur. Bien entendu."
+  },
+  {
+    "csv_row": 5658,
+    "id": "gaATGjanusPrototype5",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 5662,
+    "id": "gaATGaskSCJanusPrototype1",
+    "column": "text",
+    "original": "Plusieurs emotions traversent le visage de Coureuse en meme temps.\n\n\"Euh. Capitaine. Toute science est...\" Elle soupire, \"Non, je ne peux pas faire ca.\"",
+    "translated": "Plusieurs émotions traversent le visage de Coureuse en meme temps.\n\n\"Euh. Capitaine. Toute science est...\" Elle soupire, \"Non, je ne peux pas faire ca.\""
+  },
+  {
+    "csv_row": 5662,
+    "id": "gaATGaskSCJanusPrototype1",
+    "column": "options",
+    "option_line": "gaATG_askSCJanusPrototype2:\"Que se passe-t-il ?\"",
+    "original": "Que se passe-t-il ?",
+    "translated": "Que se passe-t-il ?"
+  },
+  {
+    "csv_row": 5664,
+    "id": "gaATGaskSCJanusPrototype3",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 5666,
+    "id": "gaATGtalkToCoureuseBlocked",
+    "column": "text",
+    "original": "La demande de communication affiche son message d'attente de reponse pendant plus d'une minute avant de renvoyer DEMANDE REFUSEE.\n\nSoit Coureuse n'est pas d'humeur a parler, soit quelqu'un l'empeche de parler.",
+    "translated": "La demande de communication affiche son message d'attente de réponse pendant plus d'une minute avant de renvoyer DEMANDE REFUSEE.\n\nSoit Coureuse n'est pas d'humeur a parler, soit quelqu'un l'empeche de parler."
+  },
+  {
+    "csv_row": 5666,
+    "id": "gaATGtalkToCoureuseBlocked",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  }
+]

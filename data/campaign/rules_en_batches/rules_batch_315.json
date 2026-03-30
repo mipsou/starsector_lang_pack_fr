@@ -1,0 +1,79 @@
+[
+  {
+    "csv_row": 9164,
+    "id": "sdtuCadenPledgeVsMacario",
+    "column": "options",
+    "option_line": "sdtu_cadenPledgeVsMacario:\"Le moment venu, je vous aiderai contre Macario.\"",
+    "original": "Le moment venu, je vous aiderai contre Macario.",
+    "translated": "Le moment venu, je vous aiderai contre Macario."
+  },
+  {
+    "csv_row": 9165,
+    "id": "sdtuCadenPledgeVsMacarioLie",
+    "column": "options",
+    "option_line": "sdtu_cadenPledgeVsMacarioLie:\"Le moment venu, je vous aiderai contre Macario.\" (lie)",
+    "original": "Le moment venu, je vous aiderai contre Macario.\" (lie)",
+    "translated": "Le moment venu, je vous aiderai contre Macario.\" (mensonge)"
+  },
+  {
+    "csv_row": 9166,
+    "id": "sdtuCadenEndGloryA",
+    "column": "options",
+    "option_line": "sdtu_cadenEndGloryA:\"Gloire au Diktat Sindrien.\"",
+    "original": "Gloire au Diktat Sindrien.",
+    "translated": "Gloire au Diktat Sindrien."
+  },
+  {
+    "csv_row": 9179,
+    "id": "sdtuCadenTalkEnd",
+    "column": "text",
+    "original": "\"Gloire au Diktat Sindrien ! Victoire au Lion de Sindria !\" lance Caden avec ferveur.",
+    "translated": "\"Gloire au Diktat Sindrien ! Victoire au Lion de Sindria !\" lance Caden avec ferveur."
+  },
+  {
+    "csv_row": 9179,
+    "id": "sdtuCadenTalkEnd",
+    "column": "options",
+    "option_line": "cutCommLink:Couper la comm",
+    "original": "Couper la comm",
+    "translated": "Couper la comm"
+  },
+  {
+    "csv_row": 9190,
+    "id": "sdtuPostCadenTrustOptsD",
+    "column": "options",
+    "option_line": "sdtu_postCaden1:Ne rien dire",
+    "original": "Ne rien dire",
+    "translated": "Ne rien dire"
+  },
+  {
+    "csv_row": 9193,
+    "id": "sdtuPostCadenNoTrust",
+    "column": "text",
+    "original": "\"Non ?\" Macario se fige. \"Et pourquoi pas ?\"\n\nCe n'est pas ce qu'il voulait entendre.",
+    "translated": "\"Non ?\" Macario se fige. \"Et pourquoi pas ?\"\n\nCe n'est pas ce qu'il voulait entendre."
+  },
+  {
+    "csv_row": 9212,
+    "id": "sdtuPostCadenNoTrustLie",
+    "column": "text",
+    "original": "\"Non ?\" Macario se fige. \"Et pourquoi pas ?\"\n\nIl a besoin de quelque chose de plausible.",
+    "translated": "\"Non ?\" Macario se fige. \"Et pourquoi pas ?\"\n\nIl a besoin de quelque chose de plausible."
+  },
+  {
+    "csv_row": 9222,
+    "id": "sdtuPostCadenInterruption",
+    "column": "options",
+    "option_line": "sdtu_postCadenInt2:Le laisser parler.",
+    "original": "Le laisser parler.",
+    "translated": "Le laisser parler."
+  },
+  {
+    "csv_row": 9222,
+    "id": "sdtuPostCadenInterruption",
+    "column": "options",
+    "option_line": "sdtu_postCadenIntNotCheap:\"Mes faveurs ne sont pas gratuites.\"",
+    "original": "Mes faveurs ne sont pas gratuites.",
+    "translated": "Mes faveurs ne sont pas gratuites."
+  }
+]

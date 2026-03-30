@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 2601,
+    "id": "BFFIonBoardEnd",
+    "column": "text",
+    "original": "\"I propose you contact Menes directly. If you show interest in his pursuits, I believe he will be well-disposed toward someone of your... repute. He could provide us with information to plan our next move.\"\n\nBornanew shuts his notebook.",
+    "translated": "\"Je vous propose de contacter Menes directement. Si vous montrez de l'intérêt pour ses activités, je crois qu'il sera bien disposé envers quelqu'un de votre... réputation. Il pourrait nous fournir des informations pour planifier notre prochain mouvement.\"\n\nBornanew referme son carnet."
+  },
+  {
+    "csv_row": 2602,
+    "id": "BFFIonBoardEnd2b",
+    "column": "text",
+    "original": "\"Your repute. As you well know,\" he says rather definitively. \"And so will Menes.\"",
+    "translated": "\"Votre réputation. Comme vous le savez bien,\" dit-il d'un ton assez catégorique. \"Et Menes aussi.\""
+  },
+  {
+    "csv_row": 2604,
+    "id": "BFFIonBoardEndHostilePL1",
+    "column": "text",
+    "original": "\"I propose you contact Menes directly. If you show interest in his pursuits, I believe he will be well-disposed toward someone of your... repute. He could provide us with information to plan our next move.\"\n\nBornanew shuts his notebook.",
+    "translated": "\"Je vous propose de contacter Menes directement. Si vous montrez de l'intérêt pour ses activités, je crois qu'il sera bien disposé envers quelqu'un de votre... réputation. Il pourrait nous fournir des informations pour planifier notre prochain mouvement.\"\n\nBornanew referme son carnet."
+  },
+  {
+    "csv_row": 2604,
+    "id": "BFFIonBoardEndHostilePL1",
+    "column": "options",
+    "option_line": "BFFI_onBoardEndPLhostile2:\"Just one problem- the League wants me shot on sight.\"",
+    "original": "Just one problem- the League wants me shot on sight.",
+    "translated": "Juste un problème — la Ligue veut me faire abattre à vue."
+  },
+  {
+    "csv_row": 2605,
+    "id": "BFFIonBoardEndHostilePL2",
+    "column": "text",
+    "original": "Bornanew opens his notebook.\n\nHe stands for a moment, eyes closed. \"It is not ideal,\" he says.\n\n\"You will have to approach Olinadu with your transponder off. But I believe Menes will consider your official outsider status... interesting. Adventurous. It might even provide a sense of 'roguish charm'.\"",
+    "translated": "Bornanew ouvre son carnet.\n\nIl reste un moment debout, les yeux fermés. \"Ce n'est pas idéal,\" dit-il.\n\n\"Vous devrez approcher Olinadu avec votre transpondeur éteint. Mais je crois que Menes trouvera votre statut officiel de paria... intéressant. Aventureux. Cela pourrait même dégager un certain 'charme de canaille'.\""
+  },
+  {
+    "csv_row": 2605,
+    "id": "BFFIonBoardEndHostilePL2",
+    "column": "options",
+    "option_line": "bffi_onBoardEndPLhostile3a:\"It won't be a problem.\"",
+    "original": "It won't be a problem.",
+    "translated": "Ce ne sera pas un problème."
+  },
+  {
+    "csv_row": 2605,
+    "id": "BFFIonBoardEndHostilePL2",
+    "column": "options",
+    "option_line": "bffi_onBoardEndPLhostile3b:\"It might be a problem.\"",
+    "original": "It might be a problem.",
+    "translated": "Ça pourrait poser problème."
+  },
+  {
+    "csv_row": 2605,
+    "id": "BFFIonBoardEndHostilePL2",
+    "column": "options",
+    "option_line": "bffi_onBoardEndPLhostile3c:\"'Roguish charm', huh?\"",
+    "original": "'Roguish charm', huh?",
+    "translated": "\"Charme de canaille\", hein ?"
+  },
+  {
+    "csv_row": 2606,
+    "id": "BFFIonBoardEndHostilePL3a",
+    "column": "text",
+    "original": "He meets your look. \"I know,\" he says with a hint of smile.",
+    "translated": "Il soutient votre regard. \"Je sais,\" dit-il avec l'ombre d'un sourire."
+  },
+  {
+    "csv_row": 2607,
+    "id": "BFFIonBoardEndHostilePL3b",
+    "column": "text",
+    "original": "He meets your look. \"You have my faith,\" he says with a hint of smile.",
+    "translated": "Il soutient votre regard. \"Vous avez ma confiance,\" dit-il avec l'ombre d'un sourire."
+  }
+]

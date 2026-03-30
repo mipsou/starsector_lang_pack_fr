@@ -1,0 +1,82 @@
+[
+  {
+    "csv_row": 1197,
+    "id": "lppGileadMissionEndDevE",
+    "column": "options",
+    "option_line": "lpp_devAddPather:Add Pather playerAttitude",
+    "original": "Add Pather playerAttitude",
+    "translated": "Add Pather playerAttitude"
+  },
+  {
+    "csv_row": 1198,
+    "id": "lppGileadMissionEndDevF",
+    "column": "options",
+    "option_line": "lpp_devAddCotton:Player put Cotton's holy book on shrine to true",
+    "original": "Player put Cotton's holy book on shrine to true",
+    "translated": "Player put Cotton's holy book on shrine to true"
+  },
+  {
+    "csv_row": 1199,
+    "id": "lppGileadMissionEndDevG",
+    "column": "options",
+    "option_line": "lpp_devMetBaird:Set player metBaird true",
+    "original": "Set player metBaird true",
+    "translated": "Set player metBaird true"
+  },
+  {
+    "csv_row": 1224,
+    "id": "lppGileadShrineJaspisRetryA",
+    "column": "options",
+    "option_line": "lpp_ending1:Suivre the route",
+    "original": "Suivre the route",
+    "translated": "Suivre la route"
+  },
+  {
+    "csv_row": 1224,
+    "id": "lppGileadShrineJaspisRetryA",
+    "column": "options",
+    "option_line": "lpp_startEndingAbort:Revenir to your $shipOrFleet instead",
+    "original": "Revenir to your $shipOrFleet instead",
+    "translated": "Retourner vers votre $shipOrFleet instead"
+  },
+  {
+    "csv_row": 1225,
+    "id": "lppGileadShrineJaspisRetryB",
+    "column": "options",
+    "option_line": "lpp_ending1:Suivre the route",
+    "original": "Suivre the route",
+    "translated": "Suivre la route"
+  },
+  {
+    "csv_row": 1225,
+    "id": "lppGileadShrineJaspisRetryB",
+    "column": "options",
+    "option_line": "lpp_startEndingAbort:Revenir to your $shipOrFleet instead",
+    "original": "Revenir to your $shipOrFleet instead",
+    "translated": "Retourner vers votre $shipOrFleet instead"
+  },
+  {
+    "csv_row": 1227,
+    "id": "lppGileadMissionEndLeaveAttempt",
+    "column": "options",
+    "option_line": "lpp_ending1:Suivre the route",
+    "original": "Suivre the route",
+    "translated": "Suivre la route"
+  },
+  {
+    "csv_row": 1227,
+    "id": "lppGileadMissionEndLeaveAttempt",
+    "column": "options",
+    "option_line": "lpp_startEndingAbortB:Revenir to your $shipOrFleet instead",
+    "original": "Revenir to your $shipOrFleet instead",
+    "translated": "Retourner vers votre $shipOrFleet instead"
+  },
+  {
+    "csv_row": 1232,
+    "id": "lppGileadShrineStartHubResponse1",
+    "column": "options",
+    "option_line": "lpp_gileadShrineVisit:Visiter le sanctuaire",
+    "original": "Visiter le sanctuaire",
+    "translated": "Visiter le sanctuaire"
+  }
+]

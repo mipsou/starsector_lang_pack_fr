@@ -1,0 +1,76 @@
+[
+  {
+    "csv_row": 3165,
+    "id": "BFFIulmusNoSedgeOutro5",
+    "column": "options",
+    "option_line": "bffi_ulmusTalkNoSedgeOut6a:\"Fear not, $global.jethroName. My $shipOrFleet will be ready.\"",
+    "original": "Fear not, $global.jethroName. My $shipOrFleet will be ready.",
+    "translated": "N'ayez crainte, $global.jethroName. Mon $shipOrFleet sera prête."
+  },
+  {
+    "csv_row": 3165,
+    "id": "BFFIulmusNoSedgeOutro5",
+    "column": "options",
+    "option_line": "bffi_ulmusTalkNoSedgeOut6b:\"When I end this, $global.jethroName, it is the Path that shall fear me.\"",
+    "original": "When I end this, $global.jethroName, it is the Path that shall fear me.",
+    "translated": "Quand j'en aurai fini, $global.jethroName, c'est le Sentier qui me craindra."
+  },
+  {
+    "csv_row": 3166,
+    "id": "BFFIulmusNoSedgeOutro6a",
+    "column": "text",
+    "original": "Bornanew does not reply.",
+    "translated": "Bornanew ne répond pas."
+  },
+  {
+    "csv_row": 3167,
+    "id": "BFFIulmusNoSedgeOutro6b",
+    "column": "text",
+    "original": "Bornanew does not reply.",
+    "translated": "Bornanew ne répond pas."
+  },
+  {
+    "csv_row": 3172,
+    "id": "BFFIpsApproachConsultStart",
+    "column": "text",
+    "original": "Bornanew joins you on your flagship's bridge. Tactical gives him a skeptical look.",
+    "translated": "Bornanew vous rejoint sur la passerelle de votre vaisseau amiral. Le tacticien lui lance un regard sceptique."
+  },
+  {
+    "csv_row": 3172,
+    "id": "BFFIpsApproachConsultStart",
+    "column": "options",
+    "option_line": "bffi_psConsultStartA:Nod acknowledgement",
+    "original": "Nod acknowledgement",
+    "translated": "Hocher la tête en guise d'acquiescement"
+  },
+  {
+    "csv_row": 3172,
+    "id": "BFFIpsApproachConsultStart",
+    "column": "options",
+    "option_line": "bffi_psConsultStartC:\"We're going to break these Pathers wide open.\"",
+    "original": "We're going to break these Pathers wide open.",
+    "translated": "On va faire exploser ces Pèlerins au grand jour."
+  },
+  {
+    "csv_row": 3173,
+    "id": "BFFIpsApproachConsultStartA",
+    "column": "text",
+    "original": "He bows his head, hands clasped.",
+    "translated": "Il incline la tête, mains jointes."
+  },
+  {
+    "csv_row": 3174,
+    "id": "BFFIpsApproachConsultStartB",
+    "column": "text",
+    "original": "He raises an eyebrow, then takes in your bridge crew.",
+    "translated": "Il hausse un sourcil, puis observe votre équipage de passerelle."
+  },
+  {
+    "csv_row": 3175,
+    "id": "BFFIpsApproachConsultStartC",
+    "column": "text",
+    "original": "\"Captain,\" he says. \"We are here to find out who gave the Luddic Path a detailed scan of the original glove.\" He nods toward the display of the station, \"There will be comms buffers and, somewhere, a datacore of the glove scan - with metadata.\" The display bristles with weapons emplacements highlighted by tactical overlays.\n\n\"And we are here to eliminate their ability to produce another false relic.\" He looks distant, and speaks \"'Hammer in one hand, sword in the other, I pray to see it done.'\"",
+    "translated": "\"Capitaine,\" dit-il. \"Nous sommes ici pour découvrir qui a fourni au Sentier Luddique un scan détaillé du gant original.\" Il désigne l'affichage de la station, \"Il y aura des mémoires tampon de communications et, quelque part, un noyau de données du scan du gant — avec les métadonnées.\" L'affichage hérisse d'emplacements d'armes mis en évidence par les surcouches tactiques.\n\n\"Et nous sommes ici pour éliminer leur capacité à produire une autre fausse relique.\" Il a l'air distant, et dit \"'Le marteau dans une main, l'épée dans l'autre, je prie pour que ce soit accompli.'\""
+  }
+]

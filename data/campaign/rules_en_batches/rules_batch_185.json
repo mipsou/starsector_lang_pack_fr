@@ -1,0 +1,80 @@
+[
+  {
+    "csv_row": 4741,
+    "id": "gaFCAskAroundKapteynBar1",
+    "column": "options",
+    "option_line": "gaFCKapteyn_barEvent2:\"Et de quelles affaires s'agit-il ?\"",
+    "original": "Et de quelles affaires s'agit-il ?",
+    "translated": "Et de quelles affaires s'agit-il ?"
+  },
+  {
+    "csv_row": 4742,
+    "id": "gaFCAskAroundKapteynBar2",
+    "column": "text",
+    "original": "\"Savoir des choses. Vendre ce savoir.\"",
+    "translated": "\"Savoir des choses. Vendre ce savoir.\""
+  },
+  {
+    "csv_row": 4745,
+    "id": "gaFCAskAroundKapteynBar4Option2",
+    "column": "options",
+    "option_line": "gaFC_kapteynBarYourProfit:\"Cela ne vous met-il pas hors jeu ? Et votre profit ?\"",
+    "original": "Cela ne vous met-il pas hors jeu ? Et votre profit ?",
+    "translated": "Cela ne vous met-il pas hors jeu ? Et votre profit ?"
+  },
+  {
+    "csv_row": 4746,
+    "id": "gaFCAskAroundKapteynBar4Option3",
+    "column": "options",
+    "option_line": "gaFC_kapteynBarDone:\"Merci pour le tuyau. Profitez bien de votre verre.\"",
+    "original": "Merci pour le tuyau. Profitez bien de votre verre.",
+    "translated": "Merci pour le tuyau. Profitez bien de votre verre."
+  },
+  {
+    "csv_row": 4747,
+    "id": "gaFCAskAroundKapteynBarKnow",
+    "column": "options",
+    "option_line": "gaFC_kapteynBarDone:\"Merci. Profitez bien de votre verre.\"",
+    "original": "Merci. Profitez bien de votre verre.",
+    "translated": "Merci. Profitez bien de votre verre."
+  },
+  {
+    "csv_row": 4751,
+    "id": "gaFCKapteynBarBribe",
+    "column": "options",
+    "option_line": "gaFC_kapteynBarOfferBribe2:\"Avez-vous des preuves ? De la documentation ?\"",
+    "original": "Avez-vous des preuves ? De la documentation ?",
+    "translated": "Avez-vous des preuves ? De la documentation ?"
+  },
+  {
+    "csv_row": 4752,
+    "id": "gaFCKapteynBarBribe1",
+    "column": "options",
+    "option_line": "backToBar:Se retourner vers le bar",
+    "original": "Se retourner vers le bar",
+    "translated": "Se retourner vers le bar"
+  },
+  {
+    "csv_row": 4754,
+    "id": "gaFCLaicailleCommanderBother",
+    "column": "options",
+    "option_line": "gaFC_laicailleCommanderBother2:\"Je cherche Scylla Coureuse.\"",
+    "original": "Je cherche Scylla Coureuse.",
+    "translated": "Je cherche Scylla Coureuse."
+  },
+  {
+    "csv_row": 4756,
+    "id": "gaFCLaicailleCommanderBother2PL",
+    "column": "text",
+    "original": "\"I don't know anyone by the name. If this query does not concern station business then...\" $HeOrShe glances at a readout. \"Demarchon.\"\n\n$HisOrHer tone becomes somewhat more respectful. \"$PlayerSirOrMadam. This is Laicaille. We try to handle our own business and not get involved in yours.\"",
+    "translated": "\"Je ne connais personne de ce nom. Si cette demande ne concerne pas les affaires de la station alors...\" $HeOrShe jette un coup d'œil à un relevé. \"Démarque.\"\n\nSon ton devient quelque peu plus respectueux. \"$PlayerSirOrMadam. Ici c'est Laicaille. Nous essayons de gérer nos propres affaires et de ne pas nous mêler des vôtres.\""
+  },
+  {
+    "csv_row": 4756,
+    "id": "gaFCLaicailleCommanderBother2PL",
+    "column": "options",
+    "option_line": "gaFC_laicailleCommanderBother3:\"This is very important.\" (explain)",
+    "original": "This is very important.\" (explain)",
+    "translated": "C'est très important.\" (expliquer)"
+  }
+]
