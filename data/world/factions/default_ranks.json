@@ -12,7 +12,7 @@
 		"spaceCommander":{"name":"Commandant"},
 		"spaceCaptain":{"name":"Capitaine"},
 		"spaceAdmiral":{"name":"Amiral"},
-		"spaceMarshal":{"name":"Marechal Spatial"},
+		"spaceMarshal":{"name":"Maréchal Spatial"},
 
 		"groundPrivate":{"name":"Soldat"},
 		"groundSergeant":{"name":"Sergent"},
@@ -20,29 +20,29 @@
 		"groundCaptain":{"name":"Capitaine"},
 		"groundMajor":{"name":"Commandant"},
 		"groundColonel":{"name":"Colonel"},
-		"groundGeneral":{"name":"General"},
+		"groundGeneral":{"name":"Général"},
 
 		"knightCaptain":{"name":"Chevalier-Capitaine"},
 
 		"chiefHighInspector":{"name":"Inspecteur en Chef"},
-		"deputyStarMarshal":{"name":"Marechal Stellaire Adjoint"},
-		"guardHighDeputyExecutor":{"name":"Haut Executeur Adjoint de la Garde"},
+		"deputyStarMarshal":{"name":"Maréchal Stellaire Adjoint"},
+		"guardHighDeputyExecutor":{"name":"Haut Exécuteur Adjoint de la Garde"},
 
 		"citizen":{"name":"Citoyen"},
 		"agent":{"name":"Agent"},
-		"specialAgent":{"name":"Agent Special"},
+		"specialAgent":{"name":"Agent Spécial"},
 
 		"pilot":{"name":"Pilote"},
 		"unknown":{"name":"Inconnu"},
 
-		"brother":{"name":"Frere"},
-		"sister":{"name":"Soeur"},
-		"father":{"name":"Pere"},
-		"mother":{"name":"Mere"},
+		"brother":{"name":"Frère"},
+		"sister":{"name":"Sœur"},
+		"father":{"name":"Père"},
+		"mother":{"name":"Mère"},
 		"elder":{"name":"Ancien"},
 
 		"terrorist":{"name":"Terroriste"},
-		"freedomFighter":{"name":"Combattant de la Liberte"},
+		"freedomFighter":{"name":"Combattant de la Liberté"},
 		"clone":{"name":"Clone"},
 
 	},
@@ -56,20 +56,20 @@
 		"baseCommander":{"name":"Commandant de Base"},
 		"stationCommander":{"name":"Commandant de Station"},
 		"outpostCommander":{"name":"Commandant d'Avant-poste"},
-		"portmaster":{"name":"Maitre du Port"},
+		"portmaster":{"name":"Maître du Port"},
 
 		"intelligenceDirector":{"name":"Directeur du Renseignement"},
-		"guardLeader":{"name":"Directeur des Forces Speciales"},
+		"guardLeader":{"name":"Directeur des Forces Spéciales"},
 
-		"supplyOfficer":{"name":"Quartier-maitre"},
+		"supplyOfficer":{"name":"Quartier-maître"},
 		"supplyManager":{"name":"Responsable Logistique"},
-		"medicalSupplier":{"name":"Fournisseur Medical"},
+		"medicalSupplier":{"name":"Fournisseur Médical"},
 
 		"administrator":{"name":"Administrateur"},
 		"military_administrator":{"name":"Administrateur"},
-		"freeAdmin":{"name":"Administrateur Independant"},
+		"freeAdmin":{"name":"Administrateur Indépendant"},
 
-		"guildMaster":{"name":"Maitre de Guilde"},
+		"guildMaster":{"name":"Maître de Guilde"},
 		"communeLeader":{"name":"Chef de Commune"},
 		"executive":{"name":"Directeur"},
 		"seniorExecutive":{"name":"Directeur Senior"},
@@ -80,9 +80,9 @@
 		"genericMilitary":{"name":"Commandant"},
 
 		"trader":{"name":"Marchand"},
-		"merchant":{"name":"Negociant"},
+		"merchant":{"name":"Négociant"},
 		"investor":{"name":"Investisseur"},
-		"commodities_agent":{"name":"Agent en Matieres Premieres"},
+		"commodities_agent":{"name":"Agent en Matières Premières"},
 		"entrepreneur":{"name":"Entrepreneur"},
 
 		"shady":{"name":"Individu Louche"},
@@ -94,23 +94,23 @@
 
 		"citizen":{"name":"Citoyen"},
 		"boss":{"name":"Chef"},
-		"crewBoss":{"name":"Chef d'Equipage"},
+		"crewBoss":{"name":"Chef d'Équipage"},
 
 		"mercenary":{"name":"Officier Mercenaire"},
 		"officer":{"name":"Officier"},
 		"officer_for_hire":{"name":"Officier (disponible)"},
 
-		"investigator":{"name":"Enqueteur en Chef"},
+		"investigator":{"name":"Enquêteur en Chef"},
 		"agent":{"name":"Agent"},
-		"specialAgent":{"name":"Agent Special"},
+		"specialAgent":{"name":"Agent Spécial"},
 
-		"provost":{"name":"Prevot"},
-		"academician":{"name":"Academicien"},
+		"provost":{"name":"Prévôt"},
+		"academician":{"name":"Académicien"},
 
 		"doctor":{"name":"Docteur"},
 		"hacker":{"name":"Hacker"},
 		"hermit":{"name":"Ermite"},
-		"pensioner":{"name":"Retraite"},
+		"pensioner":{"name":"Retraité"},
 		"activist":{"name":"Activiste"},
 		"scientist":{"name":"Scientifique"},
 		"terrorist":{"name":"Terroriste"},
@@ -120,11 +120,11 @@
 
 		"synodSubcurate":{"name":"Sous-cure du Synode"},
 		"archcurate":{"name":"Archicure"},
-		"heretic":{"name":"Heretique"},
-		"shrinePriest":{"name":"Cure Sacraria"},
+		"heretic":{"name":"Hérétique"},
+		"shrinePriest":{"name":"Curé Sacraria"},
 		"excubitorOrbis":{"name":"Excubitor Orbis"},
-		"initiate":{"name":"Initie"},
+		"initiate":{"name":"Initié"},
 		"novice":{"name":"Novice"},
-		"pilgrim":{"name":"Pelerin"},
+		"pilgrim":{"name":"Pèlerin"},
 	},
 }

@@ -11,7 +11,7 @@
 		},
 		"posts":{
 			"patrolCommander":{"name":"Capitaine"},
-			"fleetCommander":{"name":"Maitre de flotte"},
+			"fleetCommander":{"name":"Maître de flotte"},
 			"baseCommander":{"name":"Seigneur de guerre"},
 			"stationCommander":{"name":"Roi de station"},
 			"portmaster":{"name":"Chef de port"},

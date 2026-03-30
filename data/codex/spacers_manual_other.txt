@@ -2,23 +2,23 @@ CATEGORY gm_cat_other|generic|Other|game_mechanics
 
 CURRENT_CATEGORY gm_cat_other
 
-BEGIN gm_techs|Types de technologie
-Les niveaux technologiques de certains vaisseaux - {{Low Tech}}, {{Midline}} et {{High Tech}} - ne représentent pas une progression de qualité. Il s'agit simplement d'approches de conception différentes pour le combat, et aucune n'est supérieure aux autres. Les vaisseaux plus puissants ont généralement un cout en points de deploiement plus élevé.
+BEGIN gm_techs|Types technologiques
+Les niveaux technologiques de certains vaisseaux - {{Low Tech}}, {{Midline}} et {{High Tech}} - ne constituent pas une progression de qualité. Il s'agit simplement d'approches différentes du combat, aucune n'étant supérieure aux autres. Les vaisseaux plus puissants ont généralement un coût de déploiement plus élevé.
 
 COLOR Low Tech
-==Basse Technologie==
+==Basse technologie==
 RESET
-Lourdement blindés, lents, utilisant un mélange d'armes balistiques et de missiles. Boucliers plus faibles. {{rel:codex_system_burndrive|Propulsion de combat}}, un systeme de vaisseau courant en Basse Technologie, ne fournit qu'une mobilité vers l'avant et permet aux vaisseaux de poursuivre et de punir les ennemis plus rapides, mais n'est pas d'une grande aide pour se retirer d'une mauvaise situation. Les plus gros vaisseaux sont souvent vulnérables aux attaques de flanc et nécessitent du soutien pour etre efficaces.
+Fortement blindés, lents, utilisant un mélange d'armes balistiques et à missiles. Boucliers plus faibles. Le {{rel:codex_system_burndrive|Propulseur d'urgence}}, système de vaisseau courant en basse technologie, n'offre qu'une mobilité vers l'avant et permet aux vaisseaux de rattraper et de punir les ennemis plus rapides, mais est peu utile pour se dégager d'une mauvaise situation. Les grands vaisseaux sont souvent vulnérables aux contournements et nécessitent un soutien pour être efficaces.
 
 COLOR Midline
-==Technologie Intermédiaire==
+==Technologie intermédiaire==
 RESET
-Blindage, boucliers et mobilité généralement moyens. Utilisant un mélange d'armes balistiques, a énergie et de missiles. Les armes a énergie se limitent principalement aux faisceaux - bien que les vaisseaux puissent monter d'autres armes a énergie, ils manquent généralement de la dissipation de flux nécessaire pour en tirer pleinement parti. Dependent souvent de vaisseaux spécialisés travaillant ensemble pour maximiser leur efficacité.
+Blindage, boucliers et mobilité généralement dans la moyenne. Utilisant un mélange d'armes balistiques, énergétiques et à missiles. Les armes énergétiques se limitent pour l'essentiel aux faisceaux - si ces vaisseaux peuvent embarquer d'autres armes énergétiques, ils manquent généralement de la dissipation de flux nécessaire pour en tirer pleinement parti. Dépendent souvent de la coordination entre vaisseaux spécialisés pour maximiser leur efficacité.
 
 COLOR High Tech
-==Haute Technologie==
+==Haute technologie==
 RESET
-Rapides, avec de puissants boucliers et un blindage plus faible. Utilisant un mélange d'armes a énergie et de missiles, avec une dissipation de flux suffisante pour supporter une plus large gamme d'armes énergétiques. Les armes a énergie tendent a avoir une portee plus courte, ce qui est compense par la vitesse maximale plus élevée des vaisseaux. S'appuient souvent sur des tactiques d'attaque éclair et prospèrent généralement dans un environnement de bataille plus chaotique.
+Rapides, dotés de boucliers puissants et d'un blindage plus léger. Utilisant un mélange d'armes énergétiques et à missiles, avec une dissipation de flux suffisante pour exploiter une plus grande variété d'énergies. La portée réduite des armes énergétiques est compensée par la vitesse de pointe élevée des vaisseaux. S'appuient souvent sur des tactiques de harcèlement et s'épanouissent dans les environnements de combat les plus chaotiques.
 
-Tout ceci rélevé de généralisations, et des exceptions existent.
+Tout ceci reste des généralisations, et des exceptions existent.
 END

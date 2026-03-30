@@ -6,32 +6,32 @@
 
 	"patrolSmall":"Piquet Rapide",
 	"patrolMedium":"Patrouille",
-	"patrolLarge":"Detachement",
+	"patrolLarge":"Détachement",
 
-	"leagueEnforcer":"Executeur",
+	"leagueEnforcer":"Exécuteur",
 	"leagueArmada":"Grande Armada",
 	"supplyFleet":"Flotte de Ravitaillement",
 
 	"commerceRaiders":"Corsaires",
 	"raider":"Pillard",
 
-	"sacredProtectors":"Protecteurs Sacres",
+	"sacredProtectors":"Protecteurs Sacrés",
 
-	"investigators":"Enqueteurs",
+	"investigators":"Enquêteurs",
 
 	"inspectionFleet":"Flotte d'Inspection",
-	"taskForce":"Force Operationnelle",
+	"taskForce":"Force Opérationnelle",
 
 	"scavengerSmall":"Prospecteur",
-	"scavengerMedium":"Recuperateur",
+	"scavengerMedium":"Récupérateur",
 	"scavengerLarge":"Flotte de Sauvetage",
 
 	"foodReliefFleet":"Convoi Humanitaire",
 
-	"shrinePilgrims":"Pelerins Luddiques",
-	"academyFleet":"Navette de l'Academie",
+	"shrinePilgrims":"Pèlerins Luddiques",
+	"academyFleet":"Navette de l'Académie",
 
-	"mercScout":"Eclaireur Mercenaire",
+	"mercScout":"Éclaireur Mercenaire",
 	"mercBountyHunter":"Chasseur de Primes",
 	"mercPrivateer":"Corsaire",
 	"mercPatrol":"Patrouille Mercenaire",

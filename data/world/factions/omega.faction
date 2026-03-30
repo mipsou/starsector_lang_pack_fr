@@ -2,8 +2,8 @@
 	id:"omega",
 	"displayName":"Oméga",
 	"displayNameWithArticle":"l'Oméga",
-	"displayNameLong":"Omega",
-	"displayNameLongWithArticle":"l'Omega",
+	"displayNameLong":"Oméga",
+	"displayNameLongWithArticle":"l'Oméga",
 	"personNamePrefixAOrAn":"un",
 	"displayNameIsOrAre":"sont",
 	"fleetTypeNames":{
