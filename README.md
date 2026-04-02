@@ -1,7 +1,7 @@
 # Starsector Language Pack FR — Repo Dev
 
 ![CI](https://github.com/mipsou/starsector_lang_pack_fr_private/actions/workflows/ci.yml/badge.svg?branch=dev)
-![Version](https://img.shields.io/badge/dev-v2.0.0--rc1-blue)
+![Version](https://img.shields.io/badge/dev-v2.0.0-blue)
 ![Starsector](https://img.shields.io/badge/Starsector-0.98a--RC8-orange)
 
 > Dépôt de développement. Le repo public joueur est [starsector_lang_pack_fr](https://github.com/mipsou/starsector_lang_pack_fr).
@@ -45,15 +45,15 @@ data/
 
 | Catégorie | Fichiers | Version |
 |-----------|----------|---------|
-| Dialogues | rules.csv, reports.csv, strings.json | v2.0.0-rc1 |
-| Interface | tips.json, tooltips.json, descriptions.csv, ship_names.json | v2.0.0-rc1 |
-| Équipement | hull_mods.csv, ship_data.csv, weapon_data.csv, ship_systems.csv | v2.0.0-rc1 |
-| Campagne | abilities, submarkets, commodities, special_items, industries, market_conditions | v2.0.0-rc1 |
-| Personnages | skill_data.csv, aptitude_data.csv, personalities.csv | v2.0.0-rc1 |
-| Config | battle_objectives, contact_tag_data, custom_entities, planets, tag_data | v2.0.0-rc1 |
-| Factions | default_fleet_type_names, default_ranks | v2.0.0-rc1 |
-| Missions | mission_list.csv + 15 mission_text.txt | v2.0.0-rc1 |
-| Codex | spacers_manual_combat/ui/other + text_codex_entries.csv | v2.0.0-rc1 |
+| Dialogues | rules.csv, reports.csv, strings.json | v2.0.0 |
+| Interface | tips.json, tooltips.json, descriptions.csv, ship_names.json | v2.0.0 |
+| Équipement | hull_mods.csv, ship_data.csv, weapon_data.csv, ship_systems.csv | v2.0.0 |
+| Campagne | abilities, submarkets, commodities, special_items, industries, market_conditions | v2.0.0 |
+| Personnages | skill_data.csv, aptitude_data.csv, personalities.csv | v2.0.0 |
+| Config | battle_objectives, contact_tag_data, custom_entities, planets, tag_data | v2.0.0 |
+| Factions | default_fleet_type_names, default_ranks | v2.0.0 |
+| Missions | mission_list.csv + 15 mission_text.txt | v2.0.0 |
+| Codex | spacers_manual_combat/ui/other + text_codex_entries.csv | v2.0.0 |
 
 ---
 
@@ -98,7 +98,7 @@ dev → PR → main → sync → public
 
 | Version | Contenu |
 |---------|---------|
-| v2.0.0-rc1 | Fix crash BOM + 7 cascades Q-state, Codex FR, ~300 dialogues, 14 missions |
+| v2.0.0 | Fix crash BOM + 7 cascades Q-state, Codex FR, ~300 dialogues, 14 missions |
 | v2.0.0 | Migration complète 0.98a-RC8, 5 229 textes FR |
 | v1.9.6 | Éradication Hégémonie |
 | v1.2.7 | rules.csv 4 933 dialogues + 15 missions |
