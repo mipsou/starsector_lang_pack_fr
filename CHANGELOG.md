@@ -1,6 +1,6 @@
 # Changelog
 
-## [2.0.0-rc1] - 2026-03-30
+## [2.0.0] - 2026-04-01
 
 ### Fixed — Crashes critiques rules.csv
 - Suppression du BOM UTF-8 (`\xEF\xBB\xBF`) qui causait `JSONObject["id"] not found` au chargement
@@ -17,8 +17,13 @@
 - Correction de 23× `(lie)` → `(mensonge)` dans rules.csv
 - Correction des accents manquants dans 13 fichiers faction
 - Correction des textes EN résiduels (Vambrace, GateHauler, flags)
+- Correction de 4 articles manquants (du, de la) dans noms Shrouded/Threat
 
-## [2.0.0] - 2026-03-27
+### Migration
+- Migration complète vers Starsector 0.98a-RC8
+- 5229 textes traduits EN→FR
+
+## [0.1.0] - 2024-12-30
 
 ### Added
 - Migration complète vers Starsector 0.98a-RC8
