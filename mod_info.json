@@ -4,8 +4,8 @@
   "author": "mipsou",
   "totalConversion": "false",
   "utility": "true",
-  "version": {"major":1, "minor":9, "patch":0},
-  "description": "French language pack for Starsector",
+  "version": {"major":2, "minor":0, "patch":0},
+  "description": "Pack de langue francais pour Starsector. GitHub: github.com/mipsou/starsector_lang_pack_fr | Forum: fractalsoftworks.com/forum/index.php?topic=35135.0",
   "gameVersion": "0.98a-RC8",
   "modPlugin": "data.scripts.FrenchLangModPlugin",
   "replace": [
