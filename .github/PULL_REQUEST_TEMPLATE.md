@@ -18,5 +18,8 @@
 - [ ] J'ai verifie le ton original anglais avant de reformuler
 - [ ] Le CSV n'est pas casse (structure, colonnes, guillemets)
 
+## Screenshots (si applicable)
+<!-- Captures d'ecran du rendu en jeu -->
+
 ## Notes
 <!-- Autre chose a signaler ? -->
