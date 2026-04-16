@@ -1,32 +1,22 @@
-# Description
+## Type de modification
+- [ ] 🎨 Reformulation / amelioration de traduction
+- [ ] 🐛 Correction d'erreur de traduction
+- [ ] 🌟 Nouvelle traduction
+- [ ] 🔧 Correction de bug CSV
 
-## Type de changement
-- [ ] 🌟 Nouvelle fonctionnalité
-- [ ] 🐛 Correction de bug
-- [ ] 📚 Documentation
-- [ ] 🔧 Refactoring
-- [ ] 🎨 Style
-- [ ] ⚡ Performance
-- [ ] ✅ Tests
+## Fichiers et contenus modifies
+<!-- Quels fichiers, quelles armes/vaisseaux/textes ? -->
 
-## Changements effectués
-<!-- Décrivez vos changements en détail -->
+## Raison
+<!-- Pourquoi cette modification ? (contresens, fluidite, ton, etc.) -->
 
-## Contexte
-<!-- Pourquoi ces changements sont-ils nécessaires ? -->
-
-## Comment tester ?
-<!-- Instructions pour tester vos changements -->
-
-## Screenshots (si applicable)
-<!-- Ajoutez des captures d'écran -->
+## Teste en jeu ?
+- [ ] Oui
+- [ ] Non
 
 ## Checklist
-- [ ] J'ai testé mes changements
-- [ ] J'ai mis à jour la documentation
-- [ ] J'ai ajouté des tests si nécessaire
-- [ ] J'ai vérifié qu'il n'y a pas de données sensibles
-- [ ] Les commits suivent les conventions
+- [ ] J'ai verifie le ton original anglais avant de reformuler
+- [ ] Le CSV n'est pas casse (structure, colonnes, guillemets)
 
-## Notes additionnelles
-<!-- Autres informations importantes -->
+## Notes
+<!-- Autre chose a signaler ? -->
