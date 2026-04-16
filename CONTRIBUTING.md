@@ -20,7 +20,7 @@ Merci de votre interet pour ce projet ! Toute aide est la bienvenue.
 
 - Les contributions passent par le repo prive (dev/QA) avant d'etre poussees vers le public
 - Un test en jeu est requis avant merge
-- Le CSV doit etre valide (`tools/validate_csv.py`)
+- Le CSV doit etre valide (structure, colonnes, guillemets)
 
 ## Contributeurs
 
