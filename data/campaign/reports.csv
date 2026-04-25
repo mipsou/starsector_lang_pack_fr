@@ -250,11 +250,11 @@ tutorial_mission,start,,,secure_comm,Communication sécurisée depuis Ancyra,"Vo
 Le message est bref et vous demande de vous y rendre et de contacter $mainContactPost $mainContactName dès que possible.",,,,"no_system_prefix, important",,
 tutorial_mission,sneak_start,,,player_intel_always,Récupérer les données du point de saut à Derinkuyu,"Contactez $dataContactName à la Station Minière de Derinkuyu pour obtenir les relevés bruts du point de saut.
 
-Le contact doit être établi transpondeur éteint, les mineurs de Derinkuyu s'étant ralliés à la piraterie — votre flotte sera attaquée dans le cas contraire.","Activez ""Silence Radio"" pour éviter d'être détecté, et ""Postcombustion d'urgence"" pour décrocher si vous êtes repéré.",,,"no_system_prefix, important",,
+Le contact doit être établi transpondeur éteint, les mineurs de Derinkuyu s'étant ralliés à la piraterie — votre flotte sera attaquée dans le cas contraire.","Activez ""Mode Furtif"" pour éviter d'être détecté, et ""Propulsion d'Urgence"" pour décrocher si vous êtes repéré.",,,"no_system_prefix, important",,
 tutorial_mission,sneak_end,,,player_intel_always,Retourner à Ancyra avec les données,Retournez à Ancyra et contactez $mainContactPost $mainContactLastName pour lui remettre les données du point de saut.,,,,"no_system_prefix, important",,
 tutorial_mission,salvage_core_start,,,player_intel_always,Récupérer un noyau IA depuis une épave,"L'analyse des données du point de saut nécessite un Noyau IA.
 
-Une sonde de reconnaissance de l'ère du Domaine se trouve au-delà de l'orbite de Pontus. Sa récupération devrait fournir un noyau IA gamma, suffisant pour mener à bien cette tâche.","Rejoignez Pontus, progressez vers la ceinture d'astéroïdes, puis utilisez une Impulsion de Détection Active pour localiser la sonde.
+Une sonde de reconnaissance de l'ère du Domaine se trouve au-delà de l'orbite de Pontus. Sa récupération devrait fournir un noyau IA gamma, suffisant pour mener à bien cette tâche.","Rejoignez Pontus, progressez vers la ceinture d'astéroïdes, puis utilisez une Salve de Capteurs pour localiser la sonde.
 
 Approchez-vous et récupérez-la, ou pulvérisez-la et fouille le champ de débris résultant.
 
