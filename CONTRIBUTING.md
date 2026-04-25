@@ -45,6 +45,8 @@ Le statut evolue naturellement avec les contributions :
 - Une PR validee propre fait progresser
 - Une PR avec ajustements progresse plus lentement
 - Une PR rejetee pour qualite fait reculer (reversible avec contribution suivante)
+- Le signalement d'un bug critique compte autant qu'une PR
+- Un fork dedie a etendre le projet (autre langue, plateforme) compte comme contribution majeure
 - Un comportement malveillant entraine un ban immediat
 
 **Pas de course aux points** — l'idee est de grandir ensemble, pas de cumuler.
@@ -66,5 +68,5 @@ Systeme inspire des bonnes pratiques 2026 de la communaute OSS — la confiance 
 | Pseudo | Contribution | Statut |
 |---|---|---|
 | [mipsou](https://github.com/mipsou) | Auteur principal | Mainteneur |
-| [Dorkamrade](https://github.com/Dorkamrade) | Reformulations descriptions armes (PR #109) | 🆕 Nouveau |
-| [Ferno (carlosgmz)](https://github.com/carlosgmz) | Bug CSV abilities (PR #120) | 🆕 Nouveau |
+| [Dorkamrade](https://github.com/Dorkamrade) | 🌟 Premier contributeur externe — Reformulations descriptions armes (PR #109) | 🆕 Nouveau |
+| [Ferno (carlosgmz)](https://github.com/carlosgmz) | Bug CSV abilities (PR #120), tip F2 Codex signalé, fork ES en cours | 🟢 Confirmé |
