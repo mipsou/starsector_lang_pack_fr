@@ -21,17 +21,33 @@ jobs:
         run: |
           echo "Validation des messages de commit..."
           git fetch origin ${{ github.base_ref }}
-          git log --pretty=format:"%s" HEAD ^origin/${{ github.base_ref }} | while read commit_msg; do
+          # Liste des emails mainteneurs (strict format requis)
+          # Tous les autres = contributeurs externes (warning seulement, format encouragé mais non bloquant)
+          MAINTAINERS_REGEX='@(mipsou|anthropic\.com|noreply\.github\.com)'
+          fail=0
+          while IFS='|' read -r commit_email commit_msg; do
             if [[ "$commit_msg" =~ ^Merge.* ]]; then
               continue
             fi
-            # Regex permissive : type(scope): message — accepte Unicode dans le message
-            if ! echo "$commit_msg" | grep -qP '^(feat|fix|docs|style|refactor|test|chore|ci|release)(\([a-z0-9_-]+\))?: .+$'; then
-              echo "❌ Format invalide : $commit_msg"
-              echo "Format attendu : type(scope): message"
-              exit 1
+            # Regex elargie : type(scope): message — accepte points dans scope, plus de types
+            if ! echo "$commit_msg" | grep -qP '^(feat|fix|docs|style|refactor|test|chore|ci|release|improve|build|perf)(\([a-zA-Z0-9_.-]+\))?: .+$'; then
+              # Si externe : warning, sinon : echec
+              if echo "$commit_email" | grep -qE "$MAINTAINERS_REGEX"; then
+                echo "❌ Format invalide (mainteneur) : $commit_msg"
+                echo "   Format attendu : type(scope): message"
+                fail=1
+              else
+                echo "⚠️ Format non-conventional toléré (contrib externe $commit_email) : $commit_msg"
+              fi
             fi
-          done
+          done < <(git log --pretty=format:"%ae|%s" HEAD ^origin/${{ github.base_ref }})
+          if [ "$fail" -eq 1 ]; then
+            echo ""
+            echo "Format conventional commits attendu pour les mainteneurs :"
+            echo "  type(scope): message"
+            echo "  Types : feat, fix, docs, style, refactor, test, chore, ci, release, improve, build, perf"
+            exit 1
+          fi
           echo "✅ Messages de commit valides"
 
       - name: Check for sensitive data
