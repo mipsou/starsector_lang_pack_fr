@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.0.2] - 2026-04-26
+
+### Corrigé
+- Bug CSV : guillemets manquants dans abilities.csv ligne 17 (parsing correct de l'abilité "Générer un Flux Rapide") — merci [@Dorkamrade](https://github.com/Dorkamrade) et [@carlosgmz](https://github.com/carlosgmz)
+- Cohérence noms d'abilités dans les rapports tutoriels : "Mode Furtif", "Propulsion d'Urgence", "Salve de Capteurs" alignés avec les noms affichés en jeu (mission Derinkuyu) — merci [@carlosgmz](https://github.com/carlosgmz)
+- Tip manquant dans tips.json : "Vous pouvez appuyer sur F2 à tout moment pour ouvrir le Codex"
+
+### Amélioré
+- Terminologie sci-fi du tutoriel Derinkuyu : "désengager" (au lieu de "décrocher" trop avionique), "Rendez-vous à Pontus" (destination), "cap sur la ceinture d'astéroïdes" (vecteur navigation)
+- CONTRIBUTING.md enrichi : système de confiance contributeur transparent, table contributeurs avec statuts
+- CI auto-label : skip propre pour les PRs depuis forks externes
+
+### Communauté
+- 🌟 Premier contributeur externe historique : Dorkamrade
+- 🟢 Nouveau contributeur 🟢 Confirmé : Ferno (carlosgmz) — fork espagnol en cours
+
 ## [2.0.0] - 2026-04-02
 
 ### Traduit
