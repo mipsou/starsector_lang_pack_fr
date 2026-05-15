@@ -115,6 +115,60 @@ def validate_vs_vanilla(filepath):
     return issues
 
 
+VAR_PATTERN = re.compile(r'\$([a-zA-Z_][a-zA-Z0-9_.]*)')
+
+
+def extract_variables(content):
+    """Extrait toutes les variables $xxx d'un contenu CSV/JSON/txt.
+
+    Normalisation : on retire le point final éventuel (ex: $xxx. → $xxx)
+    car il provient souvent de la ponctuation du texte, pas du nom de variable.
+    """
+    raw = VAR_PATTERN.findall(content)
+    # Retirer les '.' finaux (ponctuation contextuelle)
+    return set('$' + v.rstrip('.') for v in raw)
+
+
+def validate_variables_vs_vanilla(filepath):
+    """Détecte les variables $xxx perdues ou inventées par rapport au vanilla.
+
+    Une variable $xxx traduite par erreur en $xxx_fr (ou caractères accentués)
+    peut causer des dysfonctionnements voire des crashs avec d'autres mods.
+
+    Retourne (missing, extra) :
+    - missing : variables vanilla absentes du mod (perdues, possibles si traduction agressive)
+    - extra : variables présentes dans le mod mais pas vanilla (souvent traduites par erreur)
+    """
+    vanilla_root = find_vanilla_root()
+    if not vanilla_root:
+        return set(), set()
+
+    mod_root = Path(__file__).parent.parent
+    try:
+        rel_path = Path(filepath).relative_to(mod_root)
+    except ValueError:
+        return set(), set()
+    vanilla_path = vanilla_root / rel_path
+    if not vanilla_path.exists():
+        return set(), set()
+
+    with open(filepath, 'r', encoding='utf-8', errors='replace') as f:
+        mod_content = f.read()
+    try:
+        with open(vanilla_path, 'r', encoding='utf-8') as f:
+            van_content = f.read()
+    except UnicodeDecodeError:
+        with open(vanilla_path, 'r', encoding='cp1252') as f:
+            van_content = f.read()
+
+    mod_vars = extract_variables(mod_content)
+    van_vars = extract_variables(van_content)
+
+    missing = van_vars - mod_vars
+    extra = mod_vars - van_vars
+    return missing, extra
+
+
 def validate_file(filepath):
     """Valide un fichier CSV."""
     name = os.path.basename(filepath)
@@ -129,6 +183,21 @@ def validate_file(filepath):
     issues = validate_vs_vanilla(filepath)
     for line, row_id, mod_fc, van_fc in issues:
         errors.append(f"  CHAMPS L{line}: {row_id} a {mod_fc} champs (vanilla={van_fc})")
+
+    # Test 3: Variables $xxx vs vanilla (détecte traductions par erreur)
+    missing, extra = validate_variables_vs_vanilla(filepath)
+    if missing:
+        errors.append(f"  VARIABLES MANQUANTES ({len(missing)}): variables vanilla perdues dans le mod")
+        for v in sorted(missing)[:10]:
+            errors.append(f"    {v}")
+        if len(missing) > 10:
+            errors.append(f"    ... et {len(missing) - 10} autres")
+    if extra:
+        errors.append(f"  VARIABLES INVENTÉES ({len(extra)}): variables absentes du vanilla — potentiellement traduites par erreur")
+        for v in sorted(extra)[:10]:
+            errors.append(f"    {v}")
+        if len(extra) > 10:
+            errors.append(f"    ... et {len(extra) - 10} autres")
 
     return errors
 
