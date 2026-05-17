@@ -1,8 +1,20 @@
-Lieu : Près d'une installation secrète de l'Hegemony dans le système Tia-Tax'et
+Lieu : Aux abords d'une installation secrète de l'Hégémonie dans le système Tia-Tax'et
 Date : 193.07.21
 
-Ce n'est pas une expédition de reconnaissance routinière, mais c'est bien là tout l'intérêt.
+Il ne s'agit pas d'une expédition de prospection ordinaire — et c'est précisément là tout l'intérêt.
 
-La guerre qui fait rage entre l'Hegemony et Tri-Tachyon a rempli les systèmes voisins de brigands opportunistes et de raiders commerciaux trop enthousiastes. Bien que la distinction n'ait pas grande importance, le fait que l'Académie de Galatia puisse se permettre une escorte lourde présente une opportunité unique : de très anciennes données font certaines implications qui pourraient mener à un vaisseau-spore de la Seconde Vague largement intact. Seuls les lourdement armés osent traverser la zone de guerre, donc les marchands et les explorateurs indiscrets seront découragés de divulguer l'emplacement de la zone de recherche à une faction majeure (qui sont de toute façon occupées à se réduire mutuellement en pièces).
+La guerre qui fait rage entre l'Hégémonie et Tri-Tachyon a semé dans les systèmes voisins une menace permanente : brigands opportunistes et raiders commerciaux zélés y pullulent. La distinction entre les deux importe peu, mais le fait que l'Académie Galatia puisse se permettre une escorte lourde ouvre une opportunité rare : des données très anciennes laissent entrevoir la possibilité de localiser un vaisseau-spore de la Seconde Vague en grande partie intact. Seuls les navires lourdement armés osent traverser la zone de guerre, ce qui décourage marchands et prospecteurs de divulguer l'emplacement de la zone de recherche à une faction majeure — laquelle est de toute façon fort occupée à se réduire mutuellement en poussière d'étoiles.
 
-À bord du croiseur de classe Venture modifié abritant les instruments d'étude, un opérateur junior centre le réticule LIDAR principal sur l'astéroïde b-473, confirme le verrouillage, puis renverse du café brûlant sur le superviseur.
+À bord du croiseur modifié de classe Venture abritant les instruments de prospection, un opérateur subalterne centre le réticule LIDAR primaire sur l'astéroïde b-473, confirme le verrouillage… puis renverse son café brûlant sur le technicien interférométrique de supervision au moment précis où un essaim de vaisseaux de guerre hostiles explose sur les écrans de détection.
+
+***
+
+Le second engagement désastreux face à Tri-Tachyon dans le système Duzakh — au cours duquel le HSS Bismar fut détruit — offrit au Conseil de l'Hégémon le capital politique nécessaire pour faire avancer des mesures d'urgence de grande ampleur : une modernisation onéreuse de l'armement de la flotte de l'Hégémonie fut engagée, et les listes auxiliaires furent étendues avec peu de résistance de la part des gouvernements civils. En un geste symbolique, la carcasse du HSS Bismar fut localisée, récupérée et remorquée jusqu'au système stérile de Tia-Tax'et, où elle fut équipée d'armements expérimentaux. Elle deviendrait le fer de lance d'un assaut destiné à frapper au cœur glacé de Tri-Tachyon depuis un front jusqu'alors silencieux.
+
+Malheureusement, au moment même où le HSS Phoenix — fraîchement rebaptisé — s'apprêtait à effectuer son vol d'essai, les capteurs longue portée détectèrent un escadron de vaisseaux indépendants en train d'effectuer des relevés dans le système Tia-Tax'et, balayant précisément le champ d'astéroïdes abritant la base secrète de l'Hégémonie. Le SIGINT de l'Hégémonie avait depuis longtemps établi que tous les systèmes de communication standard étaient infestés de portes dérobées implantées par Tri-Tachyon ; et si l'Hégémonie avait migré vers des protocoles propres, il fallait supposer que tous les systèmes des Indépendants demeuraient compromis, faisant d'eux, à leur insu, les yeux et les oreilles de la corporation Tri-Tachyon.
+
+Le commandant de l'Hégémonie sent le poids du jugement de l'Histoire peser sur sa poitrine tandis qu'il conclut son briefing — mais il sait ce que la nécessité exige. Les Indépendants doivent être anéantis jusqu'au dernier. Sans avertissement.
+
+***
+
+L'académicienne-capitaine du ISS Athena doit exploiter la mobilité tactique de ses vaisseaux dans un combat soudain et désespéré pour la survie, face à une force de l'Hégémonie qui la surpasse de très loin.
