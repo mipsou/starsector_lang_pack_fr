@@ -1,7 +1,7 @@
 # Starsector Language Pack FR — Repo Dev
 
 ![CI](https://github.com/mipsou/starsector_lang_pack_fr_private/actions/workflows/ci.yml/badge.svg?branch=dev)
-![Version](https://img.shields.io/badge/dev-v2.0.0-blue)
+![Version](https://img.shields.io/badge/dev-v2.0.4-blue)
 ![Starsector](https://img.shields.io/badge/Starsector-0.98a--RC8-orange)
 
 > Dépôt de développement. Le repo public joueur est [starsector_lang_pack_fr](https://github.com/mipsou/starsector_lang_pack_fr).
@@ -52,7 +52,7 @@ data/
 | Personnages | skill_data.csv, aptitude_data.csv, personalities.csv | v2.0.0 |
 | Config | battle_objectives, contact_tag_data, custom_entities, planets, tag_data | v2.0.0 |
 | Factions | default_fleet_type_names, default_ranks | v2.0.0 |
-| Missions | mission_list.csv + 15 mission_text.txt | v2.0.0 |
+| Missions | mission_list.csv + 15 mission_text.txt | v2.0.4 |
 | Codex | spacers_manual_combat/ui/other + text_codex_entries.csv | v2.0.0 |
 
 ---
@@ -98,8 +98,10 @@ dev → PR → main → sync → public
 
 | Version | Contenu |
 |---------|---------|
+| v2.0.4 | Retraduction complète des 11 missions (ratio < 70% vanilla corrigé) |
+| v2.0.3 | Fix critique rules.csv : $hate corrompue, $gaDA_reward tronquée, artefacts $eOr/$eOrE |
+| v2.0.2 | Fix CSV abilities.csv L17, cohérence noms abilités tutoriel Derinkuyu |
 | v2.0.0 | Fix crash BOM + 7 cascades Q-state, Codex FR, ~300 dialogues, 14 missions |
-| v2.0.0 | Migration complète 0.98a-RC8, 5 229 textes FR |
 | v1.9.6 | Éradication Hégémonie |
 | v1.2.7 | rules.csv 4 933 dialogues + 15 missions |
 | v1.2.6 | Labels, factions, grades, planètes, entités |
