@@ -1,5 +1,24 @@
 # Changelog
 
+## [2.0.4] - 2026-05-17
+
+### Improved — Traductions missions
+
+Retraduction complète des 11 missions via comité pluridisciplinaire (issue #129).
+Glossaire factions appliqué systématiquement (Hégémonie, Voie de Ludd, Ligue Persane, Chevaliers de Ludd, Tri-Tachyon).
+
+- `afistfulofcredits` — style noir/western, registre argotique
+- `coralnebula` — Ligue Persane, Navarque, Voie de Ludd, force de frappe
+- `nothingpersonal` — Académie Galatia, HSS Phoenix, SIGINT Hégémonie
+- `direstraits` — blocus Raesvelg, ISS Black Star, Maison Rao, citation
+- `thelasthurrah` — arcologies Mayasura, Voie de Ludd, Commodore Jensulte
+- `hornetsnest` — Callisto Ibrahim, Disque de Guayota, Dynastie Kanta
+- `sinkingthebismarck` — Kane Gleise, Boucher de Troisième Skathi, TTS Chimera
+- `forlornhope` — Deuxième Bataille de Chicomoztoc, TTS Invincible, Traité de Crom Cruach
+- `thewolfpack` — convoi Gleise, meute Tri-Tachyon, Deimos
+- `ambush` — TSM/TRE, classe Doom, Directeur Adjoint de Flotte
+- `predatororprey` — TTS Ephemeral, Prédicteur Stratégique, Baikal Daud
+
 ## [2.0.0] - 2026-04-01
 
 ### Fixed — Crashes critiques rules.csv
