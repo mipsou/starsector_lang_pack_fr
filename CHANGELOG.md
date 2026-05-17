@@ -1,5 +1,23 @@
 # Changelog
 
+## [2.0.4] - 2026-05-17
+
+### Amélioré — Retraduction complète des missions
+
+Retraduction des 11 missions de combat, dont le texte français était tronqué (ratio < 70% du vanilla). Chaque mission a été retraitée via comité de relecture avec glossaire des factions appliqué systématiquement (Hégémonie, Voie de Ludd, Ligue Persane, Chevaliers de Ludd, Tri-Tachyon).
+
+- *Pour une poignée de crédits* — style noir/western, registre argotique
+- *Nébuleuse de Corail* — Ligue Persane, Navarque, Voie de Ludd, force de frappe
+- *Rien de personnel* — Académie Galatia, HSS Phoenix, SIGINT Hégémonie
+- *Détroit difficile* — blocus Raesvelg, ISS Black Star, Maison Rao, citation
+- *Le dernier hourra* — arcologies Mayasura, Voie de Ludd, Commodore Jensulte
+- *Le nid de frelons* — Callisto Ibrahim, Disque de Guayota, Dynastie Kanta
+- *Couler le Bismarck* — Kane Gleise, Boucher de Troisième Skathi, TTS Chimera
+- *Dernier espoir* — Deuxième Bataille de Chicomoztoc, TTS Invincible, Traité de Crom Cruach
+- *La meute* — convoi Gleise, meute Tri-Tachyon, Deimos
+- *Embuscade* — TSM/TRE, classe Doom, Directeur Adjoint de Flotte
+- *Prédateur ou proie* — TTS Ephemeral, Prédicteur Stratégique, Baikal Daud
+
 ## [2.0.3] - 2026-05-15
 
 ### 🚨 Corrigé — Crash critique avec mods (issue #127)
@@ -57,3 +75,48 @@ Suite à un rapport de [@Demotion89](https://github.com/Demotion89) qui rencontr
 ### Ajouté
 - Structure initiale du mod
 - Configuration de base
+
+### Fixed — Crashes critiques rules.csv
+- Suppression du BOM UTF-8 (`\xEF\xBB\xBF`) qui causait `JSONObject["id"] not found` au chargement
+- Correction de 7 guillemets surnuméraires causant des cascades Q-state (parser toggle Starsector)
+- Suppression d'un guillemet L16521 causant un crash parser
+- Remplacement des guillemets typographiques `«»` par `""` dans rules.csv
+
+### Added — Traductions
+- Codex traduit EN→FR : Manuel du Spacer (combat, UI, types technologiques)
+- ~300 dialogues supplémentaires : gaDHO, Adonya, ElekAlt, PKSentinel, Shrine, Bar, BQFS
+- 14 descripteurs de missions EN→FR
+
+### Fixed — Traductions
+- Correction de 23× `(lie)` → `(mensonge)` dans rules.csv
+- Correction des accents manquants dans 13 fichiers faction
+- Correction des textes EN résiduels (Vambrace, GateHauler, flags)
+- Correction de 4 articles manquants (du, de la) dans noms Shrouded/Threat
+
+### Migration
+- Migration complète vers Starsector 0.98a-RC8
+- 5229 textes traduits EN→FR
+
+## [0.1.0] - 2024-12-30
+
+### Added
+- Migration complète vers Starsector 0.98a-RC8
+- 5229 textes traduits EN→FR
+
+## [0.1.0] - 2024-12-30
+
+### Added
+- Structure initiale du mod basée sur le mod chinois
+- Configuration de base (mod_info.json)
+- Fichiers UI de base
+- Documentation (README.md, CDC.md)
+
+### Changed
+- Mise à jour des informations d'auteur (mipsou)
+
+### Removed
+- N/A
+
+## Notes
+- Version initiale du mod
+- Structure propre pour les futures traductions
