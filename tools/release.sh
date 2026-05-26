@@ -25,7 +25,7 @@ assert (m['major'],m['minor'],m['patch'])==(${MAJ},${MIN},${PAT}), f'mod_info ve
 # --- 4. Compile JAR ---
 JDK="$ROOT/.claude/worktrees/objective-bartik/reverse/tools/jdk17/zulu17.54.21-ca-jdk17.0.13-win_x64/bin"
 SS="D:/Fractal Softworks/Starsector/starsector-core"
-CP="$SS/starfarer.api.jar;$SS/starfarer_obf.jar;$SS/log4j-1.2.9.jar"
+CP="$SS/starfarer.api.jar;$SS/starfarer_obf.jar;$SS/log4j-1.2.9.jar;$SS/json.jar"
 mkdir -p build jars
 "$JDK/javac" -source 17 -target 17 -encoding UTF-8 -cp "$CP" -d build src/data/scripts/*.java
 "$JDK/jar" cf jars/langpack-fr.jar -C build .
