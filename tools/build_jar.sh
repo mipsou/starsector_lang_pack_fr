@@ -37,10 +37,14 @@ LOG4J_JAR="$STARSECTOR_CORE/log4j-1.2.9.jar"
 JSON_JAR="$STARSECTOR_CORE/json.jar"
 
 # Separateur classpath (Windows = ;  Unix = :)
+# Sur MSYS/Cygwin, convertir les chemins POSIX en chemins Windows natifs
+# pour eviter les problemes de classpath avec espaces dans les paths.
 if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "cygwin" || "$OSTYPE" == "win32" ]]; then
     CP_SEP=";"
+    _to_native() { cygpath -w "$1" 2>/dev/null || echo "$1"; }
 else
     CP_SEP=":"
+    _to_native() { echo "$1"; }
 fi
 
 # Java source/target — Java 17 requis (starfarer.api.jar est compile en Java 17)
@@ -175,8 +179,9 @@ do_build() {
     mkdir -p "$BUILD_DIR"
     mkdir -p "$JAR_DIR"
 
-    # Construire le classpath
-    local classpath="${API_JAR}${CP_SEP}${OBF_JAR}${CP_SEP}${LOG4J_JAR}${CP_SEP}${JSON_JAR}"
+    # Construire le classpath (chemins natifs pour javac.exe sur Windows)
+    local classpath
+    classpath="$(_to_native "$API_JAR")${CP_SEP}$(_to_native "$OBF_JAR")${CP_SEP}$(_to_native "$LOG4J_JAR")${CP_SEP}$(_to_native "$JSON_JAR")"
 
     # Compiler
     info "Compilation (source=$JAVA_SOURCE, target=$JAVA_TARGET)..."
