@@ -22,7 +22,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Plugin principal du mod de traduction FR — v2.0.8.
+ * Plugin principal du mod de traduction FR — v2.0.9.
  *
  * Approche : traduction runtime (pas de replace sur les CSVs specs).
  * Les 5 fichiers specs (ship_data, weapon_data, hull_mods, ship_systems,
@@ -39,7 +39,7 @@ public class FrenchLangModPlugin extends BaseModPlugin {
 
     @Override
     public void onApplicationLoad() throws Exception {
-        log.info("=== French Language Pack v2.0.8 ===");
+        log.info("=== French Language Pack v2.0.9 ===");
         log.info("Mode : runtime translation (no replace)");
 
         String modId = findOurModId();
