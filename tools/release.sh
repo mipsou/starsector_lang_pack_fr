@@ -22,20 +22,21 @@ import json,sys; m=json.load(open('mod_info.json'))['version']
 assert (m['major'],m['minor'],m['patch'])==(${MAJ},${MIN},${PAT}), f'mod_info version mismatch: {m}'
 " || { echo "ERR: mod_info.json version != $VERSION"; exit 1; }
 
-# --- 4. Compile JAR ---
-JDK="$ROOT/.claude/worktrees/objective-bartik/reverse/tools/jdk17/zulu17.54.21-ca-jdk17.0.13-win_x64/bin"
-SS="D:/Fractal Softworks/Starsector/starsector-core"
-CP="$SS/starfarer.api.jar;$SS/starfarer_obf.jar;$SS/log4j-1.2.9.jar;$SS/json.jar"
-mkdir -p build jars
-"$JDK/javac" -source 17 -target 17 -encoding UTF-8 -cp "$CP" -d build src/data/scripts/*.java
-"$JDK/jar" cf jars/langpack-fr.jar -C build .
-rm -rf build
+# --- 4. Compile JAR (delegue a build_jar.sh qui gere le JDK) ---
+bash "$ROOT/tools/build_jar.sh" build
 echo "OK: JAR compiled"
 
 # --- 5. Verify JAR classes ---
+# Detecter jar (meme logique que build_jar.sh)
+JDK_BIN="$ROOT/.claude/worktrees/objective-bartik/reverse/tools/jdk17/zulu17.54.21-ca-jdk17.0.13-win_x64/bin"
+if [[ -f "$JDK_BIN/jar" || -f "$JDK_BIN/jar.exe" ]]; then
+  JAR_CMD="$JDK_BIN/jar"
+else
+  JAR_CMD="jar"
+fi
 EXPECTED="data/scripts/FrenchLangModPlugin data/scripts/FrenchCampaignPlugin data/scripts/FrenchFleetInteractionDialogPlugin data/scripts/FrenchPromptTranslator"
 for cls in $EXPECTED; do
-  "$JDK/jar" tf jars/langpack-fr.jar | grep -q "${cls}.class" || { echo "ERR: missing $cls"; exit 1; }
+  "$JAR_CMD" tf jars/langpack-fr.jar | grep -q "${cls}.class" || { echo "ERR: missing $cls"; exit 1; }
 done
 echo "OK: JAR verified"
 
