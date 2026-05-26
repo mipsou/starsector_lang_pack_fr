@@ -6,8 +6,10 @@ import com.fs.starfarer.api.ModSpecAPI;
 import com.fs.starfarer.api.campaign.SpecialItemSpecAPI;
 import com.fs.starfarer.api.campaign.econ.CommoditySpecAPI;
 import com.fs.starfarer.api.characters.MarketConditionSpecAPI;
+import com.fs.starfarer.api.characters.SkillSpecAPI;
 import com.fs.starfarer.api.combat.ShipHullSpecAPI;
 import com.fs.starfarer.api.combat.ShipSystemSpecAPI;
+import com.fs.starfarer.api.loading.Description;
 import com.fs.starfarer.api.loading.HullModSpecAPI;
 import com.fs.starfarer.api.loading.IndustrySpecAPI;
 import com.fs.starfarer.api.loading.WeaponSpecAPI;
@@ -20,7 +22,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Plugin principal du mod de traduction FR — v2.0.7.
+ * Plugin principal du mod de traduction FR — v2.0.8.
  *
  * Approche : traduction runtime (pas de replace sur les CSVs specs).
  * Les 5 fichiers specs (ship_data, weapon_data, hull_mods, ship_systems,
@@ -37,7 +39,7 @@ public class FrenchLangModPlugin extends BaseModPlugin {
 
     @Override
     public void onApplicationLoad() throws Exception {
-        log.info("=== French Language Pack v2.0.7 ===");
+        log.info("=== French Language Pack v2.0.8 ===");
         log.info("Mode : runtime translation (no replace)");
 
         String modId = findOurModId();
@@ -55,6 +57,8 @@ public class FrenchLangModPlugin extends BaseModPlugin {
         patchMarketConditions(modId);
         patchCommodities(modId);
         patchIndustries(modId);
+        patchSkills(modId);
+        patchDescriptions(modId);
 
         log.info("=== French Language Pack loaded ===");
     }
@@ -241,6 +245,52 @@ public class FrenchLangModPlugin extends BaseModPlugin {
             patched++;
         }
         log.info("[FR] industries patched : " + patched);
+    }
+
+    private void patchSkills(String modId) {
+        Map<String, JSONObject> dict = loadTranslationMap("data/characters/skills/skill_data.csv", modId, "id");
+        log.info("[FR] skill_data dict size : " + dict.size());
+        int patched = 0;
+        for (String id : Global.getSettings().getSkillIds()) {
+            JSONObject row = dict.get(id);
+            if (row == null) continue;
+            SkillSpecAPI spec = Global.getSettings().getSkillSpec(id);
+            if (spec == null) continue;
+            String name = row.optString("name", "").trim();
+            String desc = row.optString("description", "").trim();
+            if (!name.isEmpty()) spec.setName(name);
+            if (!desc.isEmpty()) spec.setDescription(desc);
+            patched++;
+        }
+        log.info("[FR] skill_data patched : " + patched);
+    }
+
+    private void patchDescriptions(String modId) {
+        Map<String, JSONObject> dict = loadTranslationMap("data/strings/descriptions.csv", modId, "id");
+        log.info("[FR] descriptions dict size : " + dict.size());
+        int patched = 0;
+        for (Map.Entry<String, JSONObject> entry : dict.entrySet()) {
+            String id = entry.getKey();
+            JSONObject row = entry.getValue();
+            String typeStr = row.optString("type", "").trim().toUpperCase();
+            if (typeStr.isEmpty()) continue;
+            Description.Type type;
+            try {
+                type = Description.Type.valueOf(typeStr);
+            } catch (IllegalArgumentException e) {
+                log.warn("[FR] Unknown description type '" + typeStr + "' for id '" + id + "'");
+                continue;
+            }
+            Description desc = Global.getSettings().getDescription(id, type);
+            if (desc == null) continue;
+            setIfPresent(row, "text1", v -> desc.setText1(v));
+            setIfPresent(row, "text2", v -> desc.setText2(v));
+            setIfPresent(row, "text3", v -> desc.setText3(v));
+            setIfPresent(row, "text4", v -> desc.setText4(v));
+            setIfPresent(row, "text5", v -> desc.setText5(v));
+            patched++;
+        }
+        log.info("[FR] descriptions patched : " + patched);
     }
 
     // ─────────────────────────────────────────────────────────────────────────
