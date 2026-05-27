@@ -3,12 +3,15 @@ package data.scripts;
 import com.fs.starfarer.api.BaseModPlugin;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.ModSpecAPI;
+import com.fs.starfarer.api.campaign.PlanetSpecAPI;
 import com.fs.starfarer.api.campaign.SpecialItemSpecAPI;
 import com.fs.starfarer.api.campaign.econ.CommoditySpecAPI;
+import com.fs.starfarer.api.campaign.econ.SubmarketSpecAPI;
 import com.fs.starfarer.api.characters.MarketConditionSpecAPI;
 import com.fs.starfarer.api.characters.SkillSpecAPI;
 import com.fs.starfarer.api.combat.ShipHullSpecAPI;
 import com.fs.starfarer.api.combat.ShipSystemSpecAPI;
+import com.fs.starfarer.api.loading.AbilitySpecAPI;
 import com.fs.starfarer.api.loading.Description;
 import com.fs.starfarer.api.loading.HullModSpecAPI;
 import com.fs.starfarer.api.loading.IndustrySpecAPI;
@@ -17,12 +20,16 @@ import org.apache.log4j.Logger;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import java.lang.reflect.Field;
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 /**
- * Plugin principal du mod de traduction FR — v2.0.9.
+ * Plugin principal du mod de traduction FR — v2.0.10.
  *
  * Approche : traduction runtime (pas de replace sur les CSVs specs).
  * Les 5 fichiers specs (ship_data, weapon_data, hull_mods, ship_systems,
@@ -39,7 +46,7 @@ public class FrenchLangModPlugin extends BaseModPlugin {
 
     @Override
     public void onApplicationLoad() throws Exception {
-        log.info("=== French Language Pack v2.0.9 ===");
+        log.info("=== French Language Pack v2.0.10 ===");
         log.info("Mode : runtime translation (no replace)");
 
         String modId = findOurModId();
@@ -59,6 +66,10 @@ public class FrenchLangModPlugin extends BaseModPlugin {
         patchIndustries(modId);
         patchSkills(modId);
         patchDescriptions(modId);
+        patchAbilities(modId);
+        patchSubmarkets(modId);
+        patchAptitudes(modId);
+        patchPlanetSpecs(modId);
 
         log.info("=== French Language Pack loaded ===");
     }
@@ -294,8 +305,183 @@ public class FrenchLangModPlugin extends BaseModPlugin {
     }
 
     // ─────────────────────────────────────────────────────────────────────────
+    // Reflection patches (specs without public setters)
+    // ─────────────────────────────────────────────────────────────────────────
+
+    private void patchAbilities(String modId) {
+        Map<String, JSONObject> dict = loadTranslationMap("data/campaign/abilities.csv", modId, "id");
+        log.info("[FR] abilities dict size : " + dict.size());
+        // Load vanilla English values for desc (no public getDesc() in AbilitySpecAPI)
+        Map<String, JSONObject> enDict = loadVanillaCSV("data/campaign/abilities.csv", "id");
+        int patched = 0;
+        for (Map.Entry<String, JSONObject> entry : dict.entrySet()) {
+            String id = entry.getKey();
+            JSONObject row = entry.getValue();
+            AbilitySpecAPI spec = Global.getSettings().getAbilitySpec(id);
+            if (spec == null) continue;
+            String frName = row.optString("name", "").trim();
+            String frDesc = row.optString("desc", "").trim();
+            if (!frName.isEmpty()) {
+                setFieldByValue(spec, spec.getName(), frName, "abilityName:" + id);
+            }
+            if (!frDesc.isEmpty() && enDict.containsKey(id)) {
+                String enDesc = enDict.get(id).optString("desc", "").trim();
+                if (!enDesc.isEmpty()) {
+                    setFieldByValue(spec, enDesc, frDesc, "abilityDesc:" + id);
+                }
+            }
+            patched++;
+        }
+        log.info("[FR] abilities patched : " + patched);
+    }
+
+    private void patchSubmarkets(String modId) {
+        Map<String, JSONObject> dict = loadTranslationMap("data/campaign/submarkets.csv", modId, "id");
+        log.info("[FR] submarkets dict size : " + dict.size());
+        int patched = 0;
+        for (SubmarketSpecAPI spec : Global.getSettings().getAllSubmarketSpecs()) {
+            JSONObject row = dict.get(spec.getId());
+            if (row == null) continue;
+            String frName = row.optString("name", "").trim();
+            String frDesc = row.optString("desc", "").trim();
+            if (!frName.isEmpty()) {
+                setFieldByValue(spec, spec.getName(), frName, "submarketName:" + spec.getId());
+            }
+            if (!frDesc.isEmpty()) {
+                setFieldByValue(spec, spec.getDesc(), frDesc, "submarketDesc:" + spec.getId());
+            }
+            patched++;
+        }
+        log.info("[FR] submarkets patched : " + patched);
+    }
+
+    private void patchAptitudes(String modId) {
+        Map<String, JSONObject> dict = loadTranslationMap(
+                "data/characters/skills/aptitude_data.csv", modId, "id");
+        log.info("[FR] aptitude_data dict size : " + dict.size());
+        // Load vanilla English aptitude descriptions (no public getter on SkillSpecAPI)
+        Map<String, JSONObject> enDict = loadVanillaCSV("data/characters/skills/aptitude_data.csv", "id");
+        Set<String> patchedNames = new HashSet<String>();
+        Set<String> patchedDescs = new HashSet<String>();
+        int skillsScanned = 0;
+        for (String skillId : Global.getSettings().getSkillIds()) {
+            SkillSpecAPI skill = Global.getSettings().getSkillSpec(skillId);
+            if (skill == null) continue;
+            skillsScanned++;
+            String aptId = skill.getGoverningAptitudeId();
+            JSONObject row = dict.get(aptId);
+            if (row == null) continue;
+            // Patch aptitude name (readable via interface)
+            String enName = skill.getGoverningAptitudeName();
+            String frName = row.optString("name", "").trim();
+            if (!frName.isEmpty() && enName != null && !patchedNames.contains(aptId)) {
+                if (setFieldByValue(skill, enName, frName, "aptitudeName:" + aptId)) {
+                    patchedNames.add(aptId);
+                }
+            }
+            // Patch aptitude description (not in SkillSpecAPI interface — use vanilla lookup)
+            if (!patchedDescs.contains(aptId) && enDict.containsKey(aptId)) {
+                String enDesc = enDict.get(aptId).optString("description", "").trim();
+                String frDesc = row.optString("description", "").trim();
+                if (!enDesc.isEmpty() && !frDesc.isEmpty()) {
+                    if (setFieldByValue(skill, enDesc, frDesc, "aptitudeDesc:" + aptId)) {
+                        patchedDescs.add(aptId);
+                    }
+                }
+            }
+        }
+        log.info("[FR] aptitudes scanned " + skillsScanned + " skills, patched names: "
+                + patchedNames.size() + " aptitudes, descs: " + patchedDescs.size());
+    }
+
+    private void patchPlanetSpecs(String modId) {
+        log.info("[FR] patchPlanetSpecs start");
+        JSONObject planetsJson;
+        try {
+            planetsJson = Global.getSettings().loadJSON("data/config/planets.json", modId);
+        } catch (Exception e) {
+            log.warn("[FR] Could not load planets.json : " + e.getMessage());
+            return;
+        }
+        int patched = 0;
+        for (PlanetSpecAPI spec : Global.getSettings().getAllPlanetSpecs()) {
+            String type = spec.getPlanetType();
+            if (type == null || !planetsJson.has(type)) continue;
+            try {
+                JSONObject entry = planetsJson.getJSONObject(type);
+                String frName = entry.optString("name", "").trim();
+                if (!frName.isEmpty()) {
+                    setFieldByValue(spec, spec.getName(), frName, "planetName:" + type);
+                    patched++;
+                }
+            } catch (Exception e) {
+                log.warn("[FR] patchPlanetSpecs error on " + type + ": " + e.getMessage());
+            }
+        }
+        log.info("[FR] planetSpecs patched : " + patched);
+    }
+
+    // ─────────────────────────────────────────────────────────────────────────
     // Helper
     // ─────────────────────────────────────────────────────────────────────────
+
+    /**
+     * Loads a CSV from the vanilla game path (no modId) and returns it indexed by idColumn.
+     * Used to obtain English values for specs that have no public getDesc() accessor.
+     */
+    private Map<String, JSONObject> loadVanillaCSV(String csvPath, String idColumn) {
+        Map<String, JSONObject> dict = new HashMap<String, JSONObject>();
+        try {
+            JSONArray rows = Global.getSettings().loadCSV(csvPath);
+            for (int i = 0; i < rows.length(); i++) {
+                JSONObject row = rows.getJSONObject(i);
+                String id = row.optString(idColumn, "").trim();
+                if (id.isEmpty() || id.startsWith("#")) continue;
+                dict.put(id, row);
+            }
+        } catch (Exception e) {
+            log.warn("[FR] Could not load vanilla " + csvPath + " : " + e.getMessage());
+        }
+        return dict;
+    }
+
+    /**
+     * Finds the first String field (scanning the object's class hierarchy) whose current
+     * value equals {@code currentValue} and sets it to {@code newValue}.
+     *
+     * <p>Uses Java reflection to bypass the absence of public setters in obfuscated specs.
+     * The field is located by value (not by name) so it remains functional across Starsector
+     * minor patches, as long as the field content is distinct enough.
+     *
+     * @return true if the field was found and updated, false otherwise.
+     */
+    private boolean setFieldByValue(Object obj, String currentValue, String newValue, String hint) {
+        if (currentValue == null || currentValue.isEmpty()) return false;
+        if (newValue == null || newValue.isEmpty()) return false;
+        if (currentValue.equals(newValue)) return true; // already correct, nothing to do
+        Class<?> cls = obj.getClass();
+        while (cls != null && cls != Object.class) {
+            for (Field f : cls.getDeclaredFields()) {
+                if (f.getType() != String.class) continue;
+                try {
+                    f.setAccessible(true);
+                    Object val = f.get(obj);
+                    if (currentValue.equals(val)) {
+                        f.set(obj, newValue);
+                        log.debug("[FR] Patched field '" + f.getName()
+                                + "' on " + cls.getSimpleName() + " [" + hint + "]");
+                        return true;
+                    }
+                } catch (Exception ignored) {
+                    // setAccessible may fail for some fields; skip silently
+                }
+            }
+            cls = cls.getSuperclass();
+        }
+        log.warn("[FR] Field not found [" + hint + "] (searching: '"
+                + currentValue.replace("\n", "\\n") + "')");
+        return false;
+    }
 
     @FunctionalInterface
     private interface StringSetter {
