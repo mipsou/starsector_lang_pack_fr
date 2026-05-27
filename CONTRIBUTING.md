@@ -69,4 +69,4 @@ Systeme inspire des bonnes pratiques 2026 de la communaute OSS — la confiance 
 |---|---|---|
 | [mipsou](https://github.com/mipsou) | Auteur principal | Mainteneur |
 | [Dorkamrade](https://github.com/Dorkamrade) | 🌟 Premier contributeur externe — Reformulations descriptions armes (PR #109) | 🆕 Nouveau |
-| [Ferno (carlosgmz)](https://github.com/carlosgmz) | Bug CSV abilities (PR #120), tip F2 Codex signalé, fork ES en cours | 🟢 Confirmé |
+| [Ferno (carlosgmz)](https://github.com/carlosgmz) | Bug CSV abilities (PR #120), cohérence noms abilités tutoriel (PR #122), tip F2 Codex signalé, fork ES en cours | 🟢 Confirmé |
