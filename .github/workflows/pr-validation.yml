@@ -2,7 +2,7 @@ name: PR Validation
 
 on:
   pull_request:
-    branches: [ main, dev ]
+    branches: [ main, dev, 'release/*' ]
     types: [ opened, synchronize, reopened ]
 
 permissions:
@@ -60,13 +60,13 @@ jobs:
             if [[ "$file" == .github/workflows/* ]]; then continue; fi
             # Fichiers de traduction (.csv, .json dans data/) : scan uniquement les patterns forts
             if [[ "$file" == data/*.csv || "$file" == data/*.json || "$file" == localization/* ]]; then
-              if git diff origin/${{ github.base_ref }}..HEAD -- "$file" | grep -iE '(password\s*[:=]|api[_-]?key\s*[:=]|BEGIN (RSA |OPENSSH )?PRIVATE KEY|AKIA[0-9A-Z]{16})'; then
+              if git diff origin/${{ github.base_ref }}..HEAD -- "$file" | grep "^+" | grep -v "^+++" | grep -iE '(password\s*[:=]|api[_-]?key\s*[:=]|BEGIN (RSA |OPENSSH )?PRIVATE KEY|AKIA[0-9A-Z]{16})'; then
                 echo "❌ Données sensibles dans fichier traduction : $file"
                 exit 1
               fi
             else
               # Tous les autres fichiers : scan large
-              if git diff origin/${{ github.base_ref }}..HEAD -- "$file" | grep -iE '(password\s*[:=]|api[_-]?key\s*[:=]|secret\s*[:=]|credentials|BEGIN (RSA |OPENSSH )?PRIVATE KEY|AKIA[0-9A-Z]{16}|ghp_[0-9a-zA-Z]{36}|sk-[0-9a-zA-Z]{48})'; then
+              if git diff origin/${{ github.base_ref }}..HEAD -- "$file" | grep "^+" | grep -v "^+++" | grep -iE '(password\s*[:=]|api[_-]?key\s*[:=]|secret\s*[:=]|credentials|BEGIN (RSA |OPENSSH )?PRIVATE KEY|AKIA[0-9A-Z]{16}|ghp_[0-9a-zA-Z]{36}|sk-[0-9a-zA-Z]{48})'; then
                 echo "❌ Données sensibles dans : $file"
                 exit 1
               fi
@@ -122,3 +122,104 @@ jobs:
             exit 1
           fi
           echo "✅ Documentation présente"
+
+  security-check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check 1 — mod_info.json invariants (main / release/* uniquement)
+        if: github.base_ref == 'main' || startsWith(github.base_ref, 'release/')
+        run: |
+          echo "Vérification mod_info.json..."
+          if [ ! -f "mod_info.json" ]; then
+            echo "❌ mod_info.json introuvable à la racine"
+            exit 1
+          fi
+          mod_id=$(jq -r '.id' mod_info.json)
+          mod_name=$(jq -r '.name' mod_info.json)
+          fail=0
+          if [ "$mod_id" != "starsector_lang_pack_fr" ]; then
+            echo "❌ mod_info.json : id invalide → \"$mod_id\""
+            echo "   Attendu : starsector_lang_pack_fr"
+            fail=1
+          fi
+          if echo "$mod_name" | grep -qF '[DEV]'; then
+            echo "❌ mod_info.json : name contient [DEV] → \"$mod_name\""
+            echo "   Le tag [DEV] est interdit sur main/release/*"
+            fail=1
+          fi
+          if [ "$fail" -eq 0 ]; then
+            echo "✅ mod_info.json OK (id=$mod_id, name=$mod_name)"
+          else
+            exit 1
+          fi
+
+      - name: Check 2 — Allowlist data/ (toutes les PRs)
+        run: |
+          echo "Vérification allowlist data/..."
+          cat > /tmp/allowlist.txt << 'EOF'
+          data/campaign/abilities.csv
+          data/campaign/commodities.csv
+          data/campaign/industries.csv
+          data/campaign/market_conditions.csv
+          data/campaign/reports.csv
+          data/campaign/rules.csv
+          data/campaign/submarkets.csv
+          data/characters/personalities.csv
+          data/characters/skills/aptitude_data.csv
+          data/characters/skills/skill_data.csv
+          data/codex/spacers_manual_combat.txt
+          data/codex/spacers_manual_other.txt
+          data/codex/spacers_manual_ui.txt
+          data/config/battle_objectives.json
+          data/config/contact_tag_data.json
+          data/config/tag_data.json
+          data/missions/afistfulofcredits/mission_text.txt
+          data/missions/ambush/mission_text.txt
+          data/missions/coralnebula/mission_text.txt
+          data/missions/direstraits/mission_text.txt
+          data/missions/forlornhope/mission_text.txt
+          data/missions/forthegreaterlud/mission_text.txt
+          data/missions/hornetsnest/mission_text.txt
+          data/missions/m3/mission_text.txt
+          data/missions/mission_list.csv
+          data/missions/nothingpersonal/mission_text.txt
+          data/missions/predatororprey/mission_text.txt
+          data/missions/randombattle1/mission_text.txt
+          data/missions/sinkingthebismarck/mission_text.txt
+          data/missions/thelasthurrah/mission_text.txt
+          data/missions/thewolfpack/mission_text.txt
+          data/missions/turningthetables/mission_text.txt
+          data/strings/descriptions.csv
+          data/strings/ship_names.json
+          data/strings/strings.json
+          data/strings/tips.json
+          data/strings/tooltips.json
+          data/weapons/weapon_data.csv
+          data/world/factions/default_fleet_type_names.json
+          data/world/factions/default_ranks.json
+          EOF
+          # Supprimer les espaces de début (indentation heredoc)
+          sed -i 's/^[[:space:]]*//' /tmp/allowlist.txt
+          # Lister tous les fichiers data/ présents dans le commit
+          fail=0
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue
+            if ! grep -Fxq "$f" /tmp/allowlist.txt; then
+              echo "❌ Fichier hors allowlist : $f"
+              fail=1
+            fi
+          done < <(git ls-tree -r --name-only HEAD -- data/)
+          if [ "$fail" -eq 0 ]; then
+            echo "✅ Tous les fichiers data/ sont dans l'allowlist"
+          else
+            echo ""
+            echo "Seuls les 40 fichiers de traduction autorisés sont acceptés dans data/."
+            echo "Tout fichier vanilla Starsector ou non listé doit être retiré du repo."
+            exit 1
+          fi
