@@ -1,5 +1,22 @@
 # Changelog
 
+## [v2.0.12] - 2026-05-28
+
+### Corrigé — Compatibilité mods tiers (LunaLib, MagicLib, Tahlan, UAF, Diable Avionics)
+
+**Cause racine** : Starsector charge `strings.json` via `LoadingUtils.loadJSON` — premier mod dans `enabled_mods.json` gagne, aucun merge. Notre mod étant premier, les fichiers strings.json de LunaLib, MagicLib et autres n'étaient jamais lus → `Missing string [saveButtonName]` etc.
+
+**Fix** : `strings.json` est désormais la copie maître incluant toutes les catégories :
+- `lunalib` — UI LunaLib (saveButtonName, resetButtonName, header, keybindText…)
+- `MagicLib` — bounties, achievements, paintjobs, subsystems…
+- `tahlan` — UI Tahlan Shipworks
+- `uaf_strings` + `nex_invasion2` — UI UAF
+- `diableavionics` — UI Diable Avionics
+
+Note : v2.0.11 (retrait strings.json de `replace`) était un diagnostic erroné — `replace` n'affecte pas ce chemin de code.
+
+---
+
 ## [v2.0.11] - 2026-05-28
 
 ### Corrigé — Compatibilité LunaLib
