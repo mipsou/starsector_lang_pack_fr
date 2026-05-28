@@ -1,5 +1,15 @@
 # Changelog
 
+## [v2.0.13] - 2026-05-29
+
+### Maintenance post-v2.0.12
+
+- Nettoyage pipeline release (badge téléchargements, doublon release v2.0.10)
+- Restauration release v2.0.10 depuis branche `release/v2.0.10` (ZIP complet avec `pics/`)
+- Stabilisation post-hotfix #142 (HJSON comments supprimés, JSON valide)
+
+---
+
 ## [v2.0.12] - 2026-05-28
 
 ### Corrigé — Compatibilité mods tiers (LunaLib, MagicLib, Tahlan, UAF, Diable Avionics)
