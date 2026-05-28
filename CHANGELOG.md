@@ -1,5 +1,46 @@
 # Changelog
 
+## [v2.0.11] - 2026-05-28
+
+### Corrigé — Compatibilité LunaLib
+- `strings.json` retiré du `replace` → mode merge : les clés UI de LunaLib (saveButtonName, resetButtonName, etc.) ne sont plus écrasées
+- Traduction FR conservée intégralement (load order garanti : notre mod charge après vanilla)
+
+### Corrigé — Pipeline release
+- `release.sh` step 7 : `git stash push jars/langpack-fr.jar` avant `git checkout main` — évite le crash sur JAR modifié par la compilation
+
+## [v2.0.10] - 2026-05-27
+
+### Ajouté
+- Captures d'écran en jeu (`pics/`) : 7 screenshots montrant la traduction FR en action (aptitudes, compétences, dialogue pirate, rencontre combat)
+- Pipeline release : `pics/` injecté dans la branche release et le ZIP public
+- CI/sécurité : hooks guard-public-repo, allowlist stricte 40 fichiers data/, patch mod_info.json automatique
+
+### Corrigé — Java runtime patches
+- Patch runtime via réflexion Java : `abilities`, `submarkets`, `aptitude_data`, `planets` traduits sans crash mods de contenu
+- `planets.json` retiré du replace (`PlanetSpec` crash évité)
+
+## [2.0.9] - 2026-05-27
+
+### Corrigé
+- Retrait de `planets.json` du tableau replace — crash `PlanetSpec` avec certains mods de contenu
+
+## [2.0.8] - 2026-05-27
+
+### Corrigé — Compatibilité mods de contenu (best effort)
+- Retrait de `submarkets.csv`, `abilities.csv`, `aptitude_data.csv` du replace (API sans setter publique → patch runtime à la place)
+
+## [2.0.7] - 2026-05-27
+
+### Ajouté — Patch runtime étendu
+- Traduction runtime de `market_conditions`, `commodities`, `industries` via API publique dans `onApplicationLoad()`
+
+## [2.0.6] - 2026-05-26
+
+### Ajouté — Traduction runtime des specs vaisseaux/armes
+- Retrait de `ship_data.csv`, `weapon_data.csv`, `hull_mods.csv`, `ship_systems.csv`, `special_items.csv` du tableau replace (conflits mods de contenu)
+- `FrenchLangModPlugin` réécrit : méthodes `patchXxx()` via API publique, chargement CSV FR comme dictionnaires, seuls les IDs vanilla patchés
+
 ## [2.0.5] - 2026-05-17
 
 ### Corrigé — Audit textes anglais résiduels (46 manquements)
