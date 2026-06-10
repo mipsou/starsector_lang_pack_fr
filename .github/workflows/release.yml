@@ -19,15 +19,13 @@ jobs:
         run: echo "version=${GITHUB_REF_NAME#v}" >> "$GITHUB_OUTPUT"
 
       - name: Build ZIP
+        # Format aligné sur le ZIP de référence : dossier racine
+        # starsector_lang_pack_fr/ pour une extraction propre dans mods/,
+        # screenshots pics/ inclus, pas de fichiers dev (README/CONTRIBUTING).
         run: |
-          zip -r "starsector-lang-pack-fr-${GITHUB_REF_NAME}.zip" \
-            data/ \
-            jars/ \
-            mod_info.json \
-            README.md \
-            CHANGELOG.md \
-            CONTRIBUTING.md \
-            LICENSE
+          git archive --format=zip --prefix="starsector_lang_pack_fr/" \
+            -o "starsector-lang-pack-fr-${GITHUB_REF_NAME}.zip" HEAD \
+            -- data/ jars/ pics/ mod_info.json CHANGELOG.md LICENSE
 
       - name: Create release
         uses: softprops/action-gh-release@v2
