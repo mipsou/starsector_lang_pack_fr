@@ -1,5 +1,25 @@
 # Changelog
 
+## [v2.0.15] - 2026-06-10
+
+> Remplace la v2.0.14 (taguée en interne, jamais publiée). QA validée : 3 sessions jeu consécutives depuis zéro avec Nexerelin 0.12.1e + LazyLib + MagicLib, zéro crash.
+
+### Corrigé — Crash au chargement avec Nexerelin (SecurityException)
+
+**Cause racine** : `setFieldByValue()` dans `FrenchLangModPlugin` utilisait `f.getType()` hors du bloc try-catch. Le SecurityManager de Starsector bloque `java.lang.reflect.Field` — la `SecurityException` n'était pas attrapée, crashait `onApplicationLoad()` et empêchait le chargement complet du mod.
+
+**Fix** : `f.getType()` déplacé à l'intérieur du try-catch existant — un seul caractère de décalage, zéro régression fonctionnelle.
+
+### Corrigé — Crash NPE Nexerelin à la création de partie (issue #148)
+
+**Cause racine** : `data/campaign/rules.csv` dans le tableau `replace` désactivait le merge inter-mods des rules. Les rules new-game de Nexerelin (`NGCGetExerelinDefaults`) ne s'exécutaient jamais → `QuestChainSkipEntry.getEntries()` null → NPE fatal dans `ExerelinModPlugin.onNewGame()`. Symptôme visible : les écrans new game Nexerelin (choix de faction, Configure the Sector) n'apparaissaient pas.
+
+**Fix** : `rules.csv` retiré de `replace` — le merge CSV par id conserve les traductions FR des rules vanilla tout en laissant les autres mods injecter leurs propres rules.
+
+Closes #144, closes #148
+
+---
+
 ## [v2.0.13] - 2026-05-29
 
 ### Maintenance post-v2.0.12
