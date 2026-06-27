@@ -1,0 +1,17 @@
+{
+	id:"remnant",
+	"displayName":"Vestiges",
+	"displayNameWithArticle":"les vestiges",
+	"displayNameLong":"Vestiges IA",
+	"displayNameLongWithArticle":"les Vestiges IA",
+	"entityNamePrefix":"Vestige",
+	"personNamePrefix":"Vestige",
+	"personNamePrefixAOrAn":"un",
+	"displayNameIsOrAre":"sont",
+	"fleetTypeNames":{
+		"patrolSmall":"Fragment",
+		"patrolMedium":"Sous-Ordo",
+		"patrolLarge":"Ordo",
+		"battlestation":"Nexus",
+	},
+}
