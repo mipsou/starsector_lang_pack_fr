@@ -1,0 +1,20 @@
+{
+	id:"mercenary",
+	"displayName":"mercenaire",
+	"displayNameWithArticle":"les mercenaires",
+	"displayNameLong":"mercenaires",
+	"displayNameLongWithArticle":"les mercenaires",
+	"personNamePrefix":"mercenaire",
+	"personNamePrefixAOrAn":"un",
+	"displayNameIsOrAre":"sont",
+	"fleetTypeNames":{
+		"patrolSmall":"Escadron mercenaire",
+		"patrolMedium":"Flottille mercenaire",
+		"patrolLarge":"Compagnie mercenaire",
+		"mercScout":"Eclaireur mercenaire",
+		"mercBountyHunter":"Chasseur de primes",
+		"mercPrivateer":"Corsaire",
+		"mercPatrol":"Patrouille mercenaire",
+		"mercArmada":"Flotte mercenaire",
+	},
+}

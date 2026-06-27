@@ -1,5 +1,21 @@
 # Changelog
 
+## [v2.0.16] - 2026-06-22
+
+### Corrigé — Régression : traductions de contenu non distribuées depuis v2.0.10
+
+**Cause racine** : lors de la refonte du pipeline (v2.0.6-2.0.10, allowlist stricte), des fichiers traduits **lus par le JAR au runtime** ou **mergés automatiquement par le moteur** ont été oubliés dans l'allowlist → absents du build public → le plugin n'avait plus de dictionnaire à lire, le merge auto n'avait plus de fichier. Résultat : noms de vaisseaux, mods de coque, systèmes, objets spéciaux, planètes, factions et skins **non traduits** dans les releases publiques depuis v2.0.10 (signalé par le contributeur Ferno).
+
+**Fix** : ré-ajout à l'allowlist (présents, **jamais dans `replace`** — cf. crash #40) de :
+- dictionnaires runtime : `ship_data.csv`, `hull_mods.csv`, `ship_systems.csv`, `special_items.csv`, `planets.json`
+- merge auto moteur : 19 `.faction` + 65 `.skin`
+
+Aucun changement de mécanisme : le JAR patche au runtime (renommage des id existants), rien dans `replace` → compatibilité mods de contenu intacte. Validé par QA ISO-public (build = allowlist exacte) avec Nexerelin + LazyLib + MagicLib.
+
+**Non couvert (backlog)** : `custom_entities.json`, `channels.json`, `wing_data.csv` (jamais lus par le plugin → nécessitent un handler runtime dédié) ; factions `dweller` et `threat` (non traduites, 19/21).
+
+---
+
 ## [v2.0.15] - 2026-06-10
 
 > Remplace la v2.0.14 (taguée en interne, jamais publiée). QA validée : 3 sessions jeu consécutives depuis zéro avec Nexerelin 0.12.1e + LazyLib + MagicLib, zéro crash.
