@@ -29,6 +29,8 @@
 		"guardHighDeputyExecutor":{"name":"Haut Exécuteur Adjoint de la Garde"},
 
 		"citizen":{"name":"Citoyen"},
+		"executive":{"name":"Executive"},
+		"seniorExecutive":{"name":"Senior Executive"},
 		"agent":{"name":"Agent"},
 		"specialAgent":{"name":"Agent Spécial"},
 
@@ -40,7 +42,7 @@
 		"father":{"name":"Père"},
 		"mother":{"name":"Mère"},
 		"elder":{"name":"Ancien"},
-
+		"aristocrat":{"name":"Aristocrat"},
 		"terrorist":{"name":"Terroriste"},
 		"freedomFighter":{"name":"Combattant de la Liberté"},
 		"clone":{"name":"Clone"},
@@ -78,12 +80,14 @@
 		"spacer":{"name":"Spacien"},
 
 		"genericMilitary":{"name":"Commandant"},
+		"marineSquadLeader":{"name":"Sergeant"},
 
 		"trader":{"name":"Marchand"},
 		"merchant":{"name":"Négociant"},
 		"investor":{"name":"Investisseur"},
 		"commodities_agent":{"name":"Agent en Matières Premières"},
 		"entrepreneur":{"name":"Entrepreneur"},
+		"nanoforge_engineer":{"name":"Nanoforge Engineer"},
 
 		"shady":{"name":"Individu Louche"},
 		"gangster":{"name":"Gangster"},
@@ -107,6 +111,7 @@
 		"provost":{"name":"Prévôt"},
 		"academician":{"name":"Académicien"},
 
+		"securityChief":{"name":"Security Chief"},
 		"doctor":{"name":"Docteur"},
 		"hacker":{"name":"Hacker"},
 		"hermit":{"name":"Ermite"},
@@ -118,7 +123,9 @@
 		"unknown":{"name":"Inconnu"},
 		"aristocrat":{"name":"Aristocrate"},
 
+		"curate":{"name":"Curate"},
 		"synodSubcurate":{"name":"Sous-cure du Synode"},
+		"subcurate":{"name":"Subcurate"},
 		"archcurate":{"name":"Archicure"},
 		"heretic":{"name":"Hérétique"},
 		"shrinePriest":{"name":"Curé Sacraria"},
