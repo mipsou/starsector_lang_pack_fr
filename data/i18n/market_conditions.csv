@@ -1,0 +1,120 @@
+id,name,desc
+urbanized_polity,Société Urbanisée,"Un centre de population dense et cosmopolite où des gens de tous horizons vivent, travaillent et meurent dans des complexes d'habitation empilés, des galeries commerciales et des ateliers modulaires."
+industrial_polity,Société Industrielle,"Un centre industriel animé. La politique du gouvernement local encourage une industrie florissante, au détriment de toute autre considération."
+rural_polity,Société Rurale,"Une société faiblement peuplée de fermes isolées et de bourgades insulaires. En ces temps troublés, les étrangers sont généralement traités avec méfiance."
+large_refugee_population,Population de Réfugiés Importante,"Des réfugiés désespérés fuyant quelque catastrophe ont échoué ici. Les réfugiés vivent au bas de l'échelle sociale avec peu d'espoir d'amélioration, mettant à rude épreuve les infrastructures locales dans un statut semi-légal tendu. Production globale réduite. Davantage de membres d'équipage potentiels parmi ceux qui tentent d'échapper à ces conditions de vie sordides."
+volturnian_lobster_pens,Enclos à Homards Volturniens,Un mélange de plusieurs espèces du Vieux Monde et d'un peu d'imagination a donné naissance à cette créature qui prolifère en liberté dans les abysses du plancher océanique de Volturn. Sa saveur est réputée exceptionnelle.
+vice_demand,Demande de Vices,La demande de produits de vice est inhabituellement élevée ici.
+organized_crime,Crime Organisé,L'activité criminelle produit de la drogue et des organes prélevés. Augmente la demande en armes légères (de la part des chefs du crime et des citoyens) et en fusiliers spatiaux (de la part des autorités locales).
+frontier,Frontière,"Loin des centres cosmopolites de population, la simple survie, l'autosuffisance et le strict nécessaire sont les règles de la frontière. Demande accrue en armes et fournitures, demande réduite en biens de luxe."
+shipbreaking_center,Centre de Démantèlement,"Un centre majeur de démantèlement naval dans cette région du Secteur ; les épaves y sont envoyées à la casse par les marines des grandes factions et de nombreux autres clients des mondes centraux du Secteur."
+trade_center,Centre Commercial,"Un centre commercial majeur ; des navires marchands de tout le Secteur accostent ici en espérant trouver un acheteur pour leurs marchandises — et quelque chose à acheter en retour pour un joli profit."
+decivilized,Décivilisé,"Il n'y a pas de société dirigeante stable ici. La civilisation s'est effondrée et la population actuelle est effectivement inconnue, bien que des groupes de survivants, de bandits et de pillards puissent être détectés."
+decivilized_subpop,Sous-Population Décivilisée,"La civilisation a été rétablie dans certaines parties de $market, souvent à la pointe d'un fusil Gauss. Cependant, une population effectivement inconnue de survivants, bandits et pillards subsiste en marge."
+abandoned_station,Station Abandonnée,Cette station est abandonnée.
+cottage_industry,Industrie Artisanale,"$Market possède une base substantielle d'industrie légère à faible technologie et forte main-d'œuvre. Augmente la demande en combustibles organiques simples et en matériaux, fournit un approvisionnement inefficace mais charmant en biens domestiques artisanaux."
+outpost,Avant-Poste,"$Market fonctionne comme une garnison ou un grand vaisseau spatial, avec une structure de commandement officielle rigide. Cela améliore la stabilité, mais nécessite du personnel affecté à la sécurité intérieure."
+luddic_majority,Majorité Luddique,
+stealth_minefields,Champs de Mines Furtifs,Un réseau de mines furtives assure la sécurité de $market contre les intrus importuns. Améliore la stabilité.
+regional_capital,Capitale Régionale,"Un centre majeur d'administration, de sécurité et de logistique. Améliore la stabilité."
+free_market,Port Franc,"L'autorité portuaire locale n'impose presque aucune réglementation sur les marchandises échangées. Les contrôles d'immigration sont également assouplis, entraînant un afflux accru de personnes, parfois de caractère douteux. Cela peut amener d'autres factions à considérer cette colonie avec méfiance."
+closed_immigration,Immigration Fermée,"Officiellement, l'immigration vers $market n'est pas autorisée. En pratique, cela ralentit considérablement l'immigration globale et crée un espace pour certains types de criminels."
+uninhabitable,Monde Inhabitable,"Une planète aride dont la surface ne peut supporter la vie organique telle que nous la connaissons ; l'agriculture est impossible en dehors d'écosystèmes artificiels hermétiques."
+ice,Monde de Glace,"La température moyenne de $market est bien inférieure au point de congélation de l'eau et certains gaz atmosphériques terriens courants tombent sous forme de neige. Les accumulations et glaciers d'éléments légers et volatils peuvent être récoltés."
+desert,Monde Désert,$Market : planète désertique. Une biosphère xérophile maintient une atmosphère respirable avec un simple masque léger. L'agriculture est quasiment impossible.
+arid,Monde Aride,"$Market est recouvert de vastes plaines arides et de terres désolées. L'eau est rare et l'agriculture à grande échelle est difficile."
+water,Monde Aquatique,Le climat de $market est hospitalier mais l'agriculture se limite principalement à l'aquaculture et une infrastructure hautement spécialisée est nécessaire pour tout développement d'habitats et d'industrie.
+jungle,Monde Jungle,"$Market est un monde de jungle chaud et humide couvert d'une végétation luxuriante et de formes de vie exotiques, rendant l'agriculture et le maintien d'infrastructures permanentes difficiles."
+terran,Monde Terrien,"$Market est ce qui se rapproche le plus des conditions de la Vieille Terre dans le Secteur, offrant des conditions idéales pour l'agriculture et la colonisation."
+barren_marginal,Monde Stérile-Marginal,"Inhospitalier et impitoyable, les conditions extérieures sur $market sont à peine supportables pour un humain équipé d'un masque respiratoire et de matériel de protection, bien que certains lichens de terraformation modifiés s'en accommodent."
+twilight,Monde Crépusculaire,"Verrouillé par effet de marée avec son étoile, ou presque, $market est un monde terraformé dont les jours durent des saisons. Les variations de température jour/nuit sont d'une rigueur extrême même pour la vie terrienne modifiée. Des îlots de biomes « civilisés » tempérés sont maintenus par un usage judicieux de pare-soleil et de miroirs orbitaux."
+tundra,Monde de Toundra,"La terraformation a apporté la vie terrienne sur $market mais le monde reste aussi froid que les plus profondes ères glaciaires de la Terre. Bien que des millions de kilomètres carrés soient couverts de glaciers, il existe aussi des provinces de taïga et des steppes vallonnées où des conditions plus clémentes règnent."
+cryovolcanic,Monde Cryovolcanique,"Un monde gelé au-delà du froid le plus extrême, où la neige de méthane tombe sur des montagnes de glace d'eau et des volcans crachent de l'ammoniac. Le rayonnement stellaire décompose les volatils pour former une atmosphère de gaz légers comme l'azote et l'oxygène, tandis que l'hydrogène s'échappe dans l'espace."
+dissident,Population Dissidente,"$Market est un dépotoir pour les dissidents, rebelles, libres-penseurs, artistes et autres fauteurs de troubles. Augmente la demande en armes et en fusiliers spatiaux pour maintenir l'ordre. Augmente la disponibilité d'équipage due à l'émigration."
+headquarters,Quartier Général,"$Market est un centre de commandement militaire et d'opérations logistiques pour la société dirigeante. Améliore la stabilité du marché.
+
+Améliore la qualité et le nombre d'officiers dans les flottes de $market."
+hydroponics_complex,Complexe Hydroponique,"Installations de production agricole en biosphère fermée permettant la culture en orbite ou à la surface de mondes inhospitaliers. Nécessite de l'équipage pour fonctionner, un milieu de culture organique et de la machinerie lourde pour l'entretien."
+population_1,,Seules quelques dizaines de personnes vivent ici en permanence.
+population_2,,À peine quelques centaines de personnes peuplent $marketName.
+population_3,,Des milliers de personnes ont fait de $marketName leur foyer.
+population_4,,Des dizaines de milliers de personnes vivent sur $marketName.
+population_5,,$MarketName abrite des centaines de milliers de personnes.
+population_6,,La population de $marketName se compte en millions.
+population_7,,$MarketName est un monde de dizaines de millions d'habitants.
+population_8,,$MarketName est l'un des rares mondes du Secteur à compter des centaines de millions d'habitants.
+population_9,,"Précieux refuge pour l'humanité dans une galaxie dangereuse, $marketName abrite des milliards d'âmes."
+population_10,,"$MarketName est un centre de population dominant dans le Secteur, rivalisant avec la Vieille Terre en abritant des dizaines de milliards d'humains."
+event_food_shortage,Pénurie Alimentaire,
+recent_unrest,Troubles Récents,$Market a récemment connu des événements tumultueux dont les effets persistent sur la stabilité.
+event_trade_disruption,Perturbation Commerciale,"Les flottes commerciales en provenance ou à destination de $market subissent des pertes considérables. La piraterie ou la guerre en sont les causes les plus probables.
+
+Les marchandises suivantes sont affectées :
+$commoditySummary"
+event_smuggling,Contrebande,"$market connaît un volume élevé d'activités de contrebande.
+
+- Stabilité réduite de $smugglingPenalty"
+event_bounty,Prime Systémique,
+rogue_ai_core,Noyau d'IA Renégat,"Un noyau d'IA renégat opère sur ou à proximité de $market. Ses plans à long terme et ses ambitions, au-delà de sa propre survie, restent inconnus.
+
+Au minimum, la nécessité de se prémunir contre ses actions potentielles rend les opérations quotidiennes moins efficaces et crée un terreau fertile pour des rumeurs alarmantes."
+ai_core_admin,Admin Noyau IA (caché),Condition masquée pour suivre quand le noyau devient inamovible. Pas besoin d'icône.
+pirate_activity,Activité Pirate,"Des signes indiquent que des pirates ciblent le trafic maritime et les colonies de ce système — des inspecteurs portuaires contraints de fermer les yeux, des incohérences dans les manifestes de cargaison, et une recrudescence générale de l'activité criminelle.
+
+Les pirates disposent très probablement d'une base quelque part dans les environs."
+hostile_activity,Activité Hostile,
+piracy_respite,Répit de Piraterie,"Cette colonie bénéficie d'un répit face aux ravages de la piraterie, si courante dans le Secteur."
+established_polity,Régime Établi,
+blockaded,Blocus,"Le système où se trouve cette colonie subit un blocus, et le trafic commercial régulier est victime de harcèlement, voire pire. Les effets persisteront tant que la force de blocus ne se sera pas retirée ou n'aura pas été solidement défaite."
+pather_cells,Cellules du Sentier Luddique,
+shipping_disruption,Perturbation Commerciale,
+comm_relay,Relais de Comm (caché),Condition masquée ; pas besoin d'icône.
+habitable,,Les êtres humains peuvent survivre sans protection à l'exposition aux conditions de surface de $market.
+ruins_scattered,Ruines Éparses,"Ce monde n'a été que légèrement effleuré par le grand projet du Domaine avant l'Effondrement. Seuls quelques dômes épars et brisés subsistent, renfermant peut-être des caches oubliées de matériaux précieux."
+ruins_widespread,Ruines Étendues,"Des ruines étendues, des signatures de sources radioactives et l'écho radar caractéristique des structures en céramétal expansé parsèment $market, témoignant d'un effort de colonisation modeste mais déterminé datant de la dernière période d'expansion du Domaine."
+ruins_extensive,Ruines Massives,"Des cités en ruines parsèment la surface de $market, déversant depuis leurs coeurs brisés des routes criblées de cratères et des lignes de magrail effondrées jusqu'aux squelettes d'usines, de dômes aquaponiques et de tours de communication."
+ruins_vast,Ruines Immenses,"$Market est recouverte de ruines immenses : cités, usines, mines, fermes, habitations. Les morts y abondent en sinistre profusion, mêlés à des matériaux récupérables, des marchandises, des outils et des armes. Ce monde est un tombeau érigé à l'orgueil démesuré du projet de colonisation galactique et d'hégémonie du Domaine."
+cold,Froid,"Les basses températures de $market nécessitent un équipement spécialisé pour effectuer les opérations courantes, compliquant le maintien des systèmes vitaux et des infrastructures."
+very_cold,Froid Extrême,"Le froid extrême impose un équipement et des protocoles spécialisés pour opérer en sécurité sur $market, compliquant la logistique, les systèmes vitaux et les infrastructures."
+hot,Chaud,"Les conditions de haute température de $market nécessitent un équipement spécialisé pour effectuer les opérations courantes, compliquant le maintien des systèmes vitaux et des infrastructures."
+very_hot,Chaleur Extrême,"La chaleur extrême impose un équipement et des protocoles spécialisés pour opérer en sécurité sur $market, compliquant sérieusement la logistique, les systèmes vitaux et la stabilité à long terme des infrastructures."
+tectonic_activity,Activité Tectonique,La surface de $market est instable et sujette à de violents séismes. Toute structure nécessite un renforcement spécial et toute excavation implique des risques considérables.
+extreme_tectonic_activity,Activité Tectonique Extrême,La croûte de $market bouillonne de manière chaotique sous l'effet de séismes extrêmes et d'événements volcaniques cataclysmiques. Toute opération exige une prudence exceptionnelle et l'utilisation de systèmes d'alerte à redondance multiple pour éviter les pires dangers. Les constructions sur ce monde ne peuvent être considérées que comme semi-permanentes.
+no_atmosphere,Pas d'Atmosphère,"Aucune atmosphère notable n'existe sur $market. Sa surface est exposée à l'érosion implacable de l'espace, un crachin constant de radiations et de micrométéorites."
+thin_atmosphere,Atmosphère Ténue,Une atmosphère raréfiée s'accroche obstinément à la surface de $market.
+toxic_atmosphere,Atmosphère Toxique,"L'atmosphère de $market est exceptionnellement toxique et corrosive, rongeant les surfaces non protégées et exigeant le scellement hermétique de tout espace habité."
+dense_atmosphere,Atmosphère Dense,"La surface de $market est enveloppée d'une atmosphère épaisse, avec des vortex turbulents à son sommet et une soupe suffocante à ses points les plus bas. Les capteurs sont perturbés et les opérations doivent être menées avec précaution."
+mild_climate,Climat Doux,Le climat de $market est accueillant et clément ; une légère brume salue chaque lever de soleil avant de se retirer en nuages doux qui rougeoient agréablement à chaque crépuscule.
+extreme_weather,Conditions Météorologiques Extrêmes,"De violentes tempêtes hérissées d'éclairs font rage dans les cieux de $market. Bien que d'une beauté sublime vue depuis l'orbite, elles engendrent des conditions de surface rudes rendant le transport et l'habitation extrêmement difficiles."
+low_gravity,Faible Gravité,"La gravité est exceptionnellement faible sur la surface de $market, bien que nettement supérieure à la gravité zéro. Le travail et l'utilisation de machines (relativement) lourdes sont compliqués par les procédures non standard nécessaires pour gérer les conditions altérées de friction, de poids et de dynamique de pression."
+high_gravity,Forte Gravité,La force de gravité à la surface de $market est écrasante. Les humains ont besoin d'exosquelettes motorisés pour se déplacer normalement et trouvent même les actions les plus simples épuisantes. L'habitation permanente est éprouvante dans le meilleur des cas. Toutes les opérations s'effectuent avec un danger accru de chutes et — si l'ingénierie spécialisée n'est pas conduite avec une paranoïa adéquate — d'effondrements structurels.
+irradiated,Irradié,La surface de $market est ravagée par les radiations. Tout être vivant doit se confiner dans un habitat blindé pour survivre durablement ici. Les circuits non durcis et les matériaux ou machines à l'échelle nanométrique sont également voués à une défaillance rapide dans ces conditions hostiles.
+inimical_biosphere,Biosphère Hostile,"La biosphère de $market est mortelle pour les êtres humains non protégés. Si ces conditions fascinent les biologistes, les techniciens de surface sont entravés par de stricts protocoles de quarantaine dans l'exécution de leurs tâches courantes."
+water_surface,Surface Recouverte d'Eau,"C'est un monde océanique dépourvu de surface solide substantielle pour atterrir, marcher ou construire. Les opérations sont compliquées par la nécessité d'une formation et d'un équipement spécialisés."
+poor_light,Faible Luminosité,L'étoile primaire de $market ne fournit qu'une illumination et une énergie dérisoires à ce monde.
+dark,Obscurité,"La surface de $market est plongée dans l'obscurité et les ténèbres, ne recevant pratiquement aucune illumination de son étoile primaire."
+meteor_impacts,Impacts de Météorites,"Ce monde est bombardé à un rythme effroyable par des pluies de météorites régulières. Tout habitant humain, aussi temporaire soit-il, doit garder un oeil méfiant rivé vers le ciel. Toute installation permanente devrait idéalement être profondément enfouie et solidement fortifiée."
+pollution,,"L'industrie humaine a laissé ce monde saturé de dioxines, de composés soufrés, de cendres et du tic-tac régulier de poussières radioactives en décomposition. Des lambeaux de plastique s'accrochent à des éclats de mousse métallique, le ciel figé sur un canal mort."
+ore_sparse,Gisements de Minerai Épars,"Quelques gisements de minerai épars existent ici, mais ils relèvent davantage de l'intérêt académique qu'industriel car leur extraction est à peine rentable."
+ore_moderate,Gisements de Minerai Modérés,"$Market contient des gisements de minerai modérés qui, dans les bonnes conditions économiques, pourraient être exploités de manière rentable."
+ore_abundant,Gisements de Minerai Abondants,"Des gisements de minerai abondants, étendus et exploitables de manière rentable se trouvent sur $market."
+ore_rich,Gisements de Minerai Riches,"De riches gisements minéraux forment un réseau dense dans la croûte de $market, mais il faut un industriel ambitieux pour les exploiter et en tirer des profits fabuleux."
+ore_ultrarich,Gisements de Minerai Ultra-Riches,"Une richesse minérale existe sur $market, touchée par Midas au-delà des fantasmes les plus fous des légendaires mégacorporations minières de l'ère du Domaine."
+rare_ore_sparse,Gisements de Minerai Rare Épars,"Quelques gisements épars de minerai transplutonique existent ici, mais ils relèvent davantage de l'intérêt académique qu'industriel car leur extraction est à peine rentable."
+rare_ore_moderate,Gisements de Minerai Rare Modérés,"$Market contient de modestes gisements transplutoniques qui, avec une industrie et des investissements soutenus, pourraient être exploités de manière rentable."
+rare_ore_abundant,Gisements de Minerai Rare Abondants,"D'abondants gisements transplutoniques reposent dans la croûte de $market, suffisants pour alimenter les ambitions de tout seigneur de guerre ou magnat digne de ce nom."
+rare_ore_rich,Gisements de Minerai Rare Riches,"D'épaisses veines de transplutoniques se répandent avec une profusion glorieuse dans la croûte de $market, promettant un pouvoir immense et puissant à quiconque osera tendre la main pour s'en emparer."
+rare_ore_ultrarich,Gisements de Minerai Rare Ultra-Riches,Les gisements transplutoniques scintillant avec une densité incroyable sur la grille sensorielle évoquent les présages d'un pouvoir capable de forger de puissantes flottes de guerre pour réduire des mondes en cendres — ou un éon de splendeur et de richesse pour un État aux tours de cristal tel qu'il en existait dans les cycles pré-Effondrement du Domaine.
+volatiles_trace,Volatils à l'État de Traces,Les traces de volatils trouvées ici justifient à peine leur récolte.
+volatiles_diffuse,Volatils Diffus,"Des volatils diffus peuvent être trouvés ici, et pourraient suffire à une extraction industrielle."
+volatiles_abundant,Volatils Abondants,Des volatils abondants peuvent être extraits de manière rentable de $market.
+volatiles_plentiful,Volatils en Abondance,"$Market est une source de volatils de la taille d'un monde — riche, profonde et puissante."
+organics_trace,Biomasse à l'État de Traces,"$Market est quasi dépourvue de réserves de biomasse, bien qu'une certaine extraction reste possible."
+organics_common,Biomasse Commune,Des réserves de biomasse économiquement exploitables se trouvent sur $market.
+organics_abundant,Biomasse Abondante,Un fleuve de richesse coule sous la surface de $market — pour ceux qui sauront le trouver et l'exploiter.
+organics_plentiful,Biomasse en Abondance,"Des réservoirs de biomasse précieuse jaillissent à la surface de $market en giclées au-dessus de mares profondes et sombres qui promettent des océans de richesse juste en dessous."
+farmland_poor,Terres Arables Pauvres,La flore terrestre ne pousse ici que de manière rabougrie et languissante. Il faudrait des fermiers dont le talent égale le désespoir pour faire fructifier ces terres.
+farmland_adequate,Terres Arables Adéquates,Une biosphère robuste compatible avec la vie terrestre permet la culture agricole sur $market.
+farmland_rich,Terres Arables Riches,Les champs de $market promettent une riche récolte pour récompenser les fermiers qui travaillent ces terres fertiles.
+farmland_bountiful,Terres Arables Généreuses,"$Market est un véritable Éden ; florissante, exubérante, luxuriante et lumineuse de vie végétale. Les branches ploient sous le poids des fruits ; des champs de grain doré ondulent dans la brise herbacée."
+solar_array,Réseau Solaire Orbital,"Cette planète dispose d'un réseau de pare-soleil ou de miroirs en orbite, judicieusement positionnés pour rapprocher ses conditions de surface des normes terrestres."

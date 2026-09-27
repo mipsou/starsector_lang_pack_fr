@@ -1,0 +1,64 @@
+id,name
+flarelauncher,Lanceur de Leurres
+canister_flak,Flak à Conteneurs
+flarelauncher_fighter,Lanceur de Leurres de Diversion
+flarelauncher_single,Lanceur de Leurres de Diversion (Simple)
+flarelauncher_active,Lanceur de Leurres Actif
+burndrive,Propulsion de Pointe
+combat_burn,Propulsion de Combat
+microburn,Propulsion Plasma
+microburn_omega,Micro Propulsion
+maneuveringjets,Jets de Manœuvre
+dynamic_stabilizer,Stabilisateur Dynamique
+inferniuminjector,Injecteur d'Infernium
+fastmissileracks,Râteliers à Missiles Rapides
+fortressshield,Bouclier Forteresse
+highenergyfocus,Focalisation Haute Énergie
+phaseteleporter,Téléporteur Phase
+displacer,Glisseur Phase
+drone_pd,Drones de Défense de Point
+drone_pd_x2,Drones de Défense de Point
+drone_borer,Drones Foreurs
+drone_sensor,Drones de Capteurs
+drone_terminator,Drone Terminateur
+ammofeed,Chargeur Accéléré
+lidararray,Réseau Lidar
+emp,Émetteur IEM
+forgevats,Autoforge à Missiles
+damper,Champ d'Amortissement
+damper_omega,Amortisseur d'Entropie
+temporalshell,Coquille Temporelle
+acausaldisruptor,Disrupteur Quantique
+entropyamplifier,Amplificateur d'Entropie
+interdictor,Réseau d'Interdiction
+mine_strike,Frappe de Mines
+cryoflux,Transducteur Cryoflux
+reservewing,Déploiement de Réserve
+targetingfeed,Flux de Ciblage
+recalldevice,Dispositif de Rappel
+plasmajets,Jets à Plasma
+orion_device,Dispositif Orion
+nova_burst,Explosion Nova
+energy_conversion,Conversion d'Énergie
+chiral_figment,Apparition Chirale
+phasecloak,Voile Phase
+skimmer_drone,Glisseur Phase (Drone)
+displacer_degraded,Glisseur Phase Dégradé
+traveldrive,Pleine Propulsion
+forgevats_station,Autoforge à Missiles
+drone_station_lt,Drones Merlon
+drone_station_mid,Drones Ravelin
+drone_station_high,Drones Gargouille
+mine_strike_station,Frappe de Mines
+mote_control,Attracteur de Particules
+drone_strike,Séquence de Terminaison
+energy_lash,Fouet Energetique
+displacer_threat,Dislocateur
+incursion_mode,Mode Incursion
+extraction_protocol,Protocole d'Extraction
+fragment_volley,Volee de Fragments
+construction_swarm,Essaim de Construction
+convulsive_lunge,Fente Convulsive
+darkened_gaze,Regard Assombri
+shrouded_vortex,Vortex Voile
+tenebrous_expulsion,Expulsion Tenebreuse
