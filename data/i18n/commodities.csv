@@ -1,0 +1,32 @@
+id,name
+supplies,Fournitures
+fuel,Carburant
+crew,Équipage
+food,Nourriture
+organics,Biomasse
+ore,Minerai
+rare_ore,Minerai transplutonique
+metals,Métaux
+rare_metals,Transplutoniques
+heavy_machinery,Machines lourdes
+domestic_goods,Biens domestiques
+organs,Organes prélevés
+drugs,Drogues récréatives
+hand_weapons,Armement lourd
+luxury_goods,Produits de luxe
+lobster,Homard volturnien
+ships,Coques & armes de vaisseaux
+ai_cores,Noyaux IA
+alpha_core,Noyau Alpha
+beta_core,Noyau Bêta
+gamma_core,Noyau Gamma
+omega_core,Noyau Oméga
+survey_data,Données topographiques
+survey_data_1,Données topographiques classe I
+survey_data_2,Données topographiques classe II
+survey_data_3,Données topographiques classe III
+survey_data_4,Données topographiques classe IV
+survey_data_5,Données topographiques classe V
+blueprints,Plans techniques
+ship_weapons,Équipement de vaisseau
+credits,Crédits

@@ -1,5 +1,60 @@
 # Changelog
 
+## [v2.0.17] - 2026-09-27
+
+> Inclut tout le contenu de la v2.0.16 (jamais publiée seule). QA validée : 3 sessions de jeu consécutives depuis zéro avec Nexerelin 0.12.1e + LazyLib + MagicLib, zéro crash.
+
+### Corrigé
+
+- Armes cachées (variantes de chasseurs, charges utiles, poseurs de mines…) et une modif de coque : leur traduction n'était jamais appliquée (46 armes, dont « Annihilator Rocket Pod (Fighter) »).
+- Dialogues : les 6 « Église Luddic » restants deviennent « Église de Ludd », conformément au glossaire.
+
+### Modifié — Traductions de contenu : 6 fichiers ne recopient plus le jeu
+
+- **Armes, compétences, descriptions, conditions de marché, marchandises, industries** : `weapon_data`, `skill_data`, `descriptions`, `market_conditions`, `commodities` et `industries` quittent les chemins du moteur pour `data/i18n/`. Ils ne contiennent plus que l'identifiant et les textes réellement traduits, appliqués par le JAR ; le moteur ne fusionne plus de ligne entière (stats, tags, fabricant) par-dessus le jeu et les autres mods. Aucune cellule traduite perdue (décompte avant/après identique).
+- **Descriptions** : un même identifiant peut désigner deux entrées de types différents (ex. `guardian` arme et vaisseau, `nebula` terrain et vaisseau, entités du Codex) ; le JAR les distingue désormais, une traduction n'écrase plus l'autre.
+- **Compétences** : les auteurs des citations sont appliqués par le JAR (sans quoi ils repasseraient en anglais).
+- Restent livrés comme avant, faute d'accès public dans l'API du jeu : `abilities`, `submarkets`, `aptitude_data`.
+
+## [v2.0.16] - non publiée seule (incluse dans la v2.0.17)
+
+> QA validée : 3 sessions de jeu consécutives depuis zéro avec Nexerelin 0.12.1e + LazyLib + MagicLib, zéro crash (rencontre de flotte, dialogues, marché, Intel).
+
+### Corrigé — Traductions de contenu (vaisseaux, mods de coque, systèmes, objets, planètes, variantes)
+
+Depuis la v2.0.10, une partie des traductions de contenu n'était plus livrée (signalé par Ferno). Pour ces fichiers, le mod ne recopie plus rien du jeu : il ne livre que du texte traduit.
+
+- **Dictionnaires dans `data/i18n/`** : `ship_data`, `hull_mods`, `ship_systems` et `special_items` ne contiennent plus que l'identifiant et les textes traduits. Ils sont lus par le JAR, jamais chargés par le moteur : plus de ligne entière écrasée, donc plus de couleurs ou de valeurs de jeu imposées aux autres mods (#148).
+- **Planètes** : `planets.json` ne contient plus que les noms traduits, fusionnés par le moteur (plus aucune couleur, texture ni icône recopiée).
+- **Entités de campagne** (relais, balises, caches, épaves, stations…) : leurs noms français sont désormais livrés, par un `custom_entities.json` réduit aux seuls noms et fusionné par le moteur. Jusqu'ici, ce fichier n'était pas livré du tout.
+- **Variantes (.skin)** : leur description est traduite par le JAR (`data/i18n/skins.csv`) ; les fichiers `.skin` ne sont plus livrés, ce qui supprime des valeurs de jeu périmées (tags du Codex, points d'équipement, modules intégrés).
+
+### Corrigé — Dialogues de campagne (`rules.csv`)
+
+- Variables restaurées dans 407 textes : grades, noms, récompenses, fusiliers requis, carburant et distance des briefings de l'Académie Galatia, pronoms.
+- Variantes de répliques restaurées (salutations par défaut, Imoinu Umbra) et texte parasite `""` retiré.
+- Récupération sur les champs de débris : identifiants rétablis.
+- 21 dialogues dont les choix pointaient vers de mauvaises suites : identifiants réalignés sur la 0.98a-RC8.
+- 137 textes affichés par les scripts de dialogue (messages, infobulles, choix d'histoire) traduits ou corrigés : il en restait en anglais ou à moitié traduits (#165).
+- Relecture : élisions et inversions devant les pronoms du jeu (« que $heOrShe », « dit $heOrShe »), terminologie alignée sur le glossaire (Pather, Exécuteur Suprême), contresens corrigés.
+
+### Corrigé — Divers
+
+- « Ouvrir un canal comm » : la ligne rappelant le choix du joueur s'affiche de nouveau (#149).
+- Grades et postes : 8 grades manquants ajoutés par Ferno (#147, merci !) puis traduits ; « Gouverneur militaire » ne restait plus en anglais.
+- Essaim de défabrication : mise en valeur du texte alignée sur la traduction.
+- Descriptions (planètes, factions, vaisseaux) : noms restés en anglais alignés sur le glossaire — Ligue Persane, Église de Ludd, Voie de Ludd, Diktat Sindrien, Chevaliers de Ludd, Domaine, Secteur Persan.
+- Accents restaurés : dialogues de rencontre, aide contextuelle, filtres Intel, noms d'entités (« grâce », « à », « écran », « Acceptées »…) et 167 dialogues de campagne écrits sans accents (Chalcedon, Hesperus, Olinadu…).
+
+### Sécurité de publication
+
+- Contrôle automatique « zéro vanilla » (dictionnaires `data/i18n/` et factions) avant chaque publication et dans la CI.
+- Une publication est refusée si son tag ne pointe pas sur la version validée.
+
+**Non couvert (à venir)** : autres fichiers encore livrés complets (`weapon_data`, `abilities`, `commodities`…, prévu en v2.0.17), désignations des vaisseaux (« Frigate », « Battleship »… soumises au comité des joueurs), `custom_entities.json`, `channels.json`, `wing_data.csv`, factions `dweller` et `threat`.
+
+---
+
 ## [v2.0.15] - 2026-06-10
 
 > Remplace la v2.0.14 (taguée en interne, jamais publiée). QA validée : 3 sessions jeu consécutives depuis zéro avec Nexerelin 0.12.1e + LazyLib + MagicLib, zéro crash.
