@@ -1,0 +1,271 @@
+id,name,desc,sModDesc
+advancedshieldemitter,Boucliers Accélérés,Augmente la vitesse de rotation des boucliers du vaisseau de %s et la vitesse de déploiement des boucliers de %s.,Augmente la vitesse de rotation et de déploiement des boucliers de %s supplémentaires.
+adaptive_coils,Bobines de Phase Adaptatives,"Les bobines de phase peinent à maintenir une connexion avec l'espace normal lorsque le niveau de flux dur du vaisseau augmente, ce qui réduit considérablement la vitesse maximale tandis que les bobines luttent pour maintenir la traction.
+
+Cette modification permet aux bobines de supporter des niveaux de flux dur plus élevés, augmentant le seuil auquel la vitesse atteint son minimum de %s. Pour des bobines de conception standard sans autres modifications, cela fait passer le seuil de %s à %s.",
+advancedoptics,Optique Avancée,"Augmente la portée des armes à faisceau de %s, mais réduit leur vitesse de rotation de %s. Cumulable avec le Module de Ciblage Intégré.",
+turretgyros,Gyroscopes de Tourelle Avancés,Augmente la vitesse de rotation de toutes les tourelles de %s.,Augmente les dégâts contre les missiles et les chasseurs de %s. Augmente les dégâts contre les vaisseaux plus petits de %s par différence de classe de taille.
+armoredweapons,Supports d'Armes Blindés,"Augmente la résistance de toutes les armes de %s et réduit le recul de %s, mais diminue la vitesse de rotation des armes de %s. Augmente également le blindage du vaisseau de %s.",Augmente la cadence de tir de toutes les armes non-missiles de %s.
+assault_package,Kit d'Assaut,"Augmente l'intégrité de coque du vaisseau de %s, le blindage de %s, et la capacité de flux de %s.
+
+Tentera d'engager les ennemis et agira comme un vaisseau de combat durant la bataille.",
+autorepair,Unité de Réparation Automatisée,Réduit le temps nécessaire pour réparer les armes et moteurs désactivés (en combat) de %s.,"Réduit le temps de réparation à %s, et réduit la durée de surcharge de %s."
+auxiliarythrusters,Propulseurs Auxiliaires,Augmente la maniabilité du vaisseau de %s.,"Augmente le bonus de vitesse à flux zéro de %s, et %s le bonus de rotation à flux zéro."
+ballistic_rangefinder,Télémètre Balistique,,
+blast_doors,Portes Blindées,"Installe des portes hermétiques et lourdement renforcées supplémentaires aux jonctions critiques du vaisseau. Augmente l'intégrité de coque de %s.
+
+Le vaisseau subit %s de pertes d'équipage en moins dues aux dommages de coque subis en combat.",Augmente la réduction des pertes d'équipage à %s.
+converted_hangar,Hangar Improvisé,,"Augmente la vitesse de récupération du taux de remplacement des chasseurs de %s pour les croiseurs, et de %s pour les vaisseaux capitaux. Aucun effet supplémentaire pour les destroyers."
+converted_fighterbay,Baie de Chasseurs Convertie,"Convertit les baies de chasseurs du vaisseau abritant des escadrons intégrés en soutes cargo improvisées, lui offrant %s de capacité cargo supplémentaire et réduisant ses besoins en équipage de %s par baie de chasseurs. La réduction d'équipage est limitée à un maximum de %s.",Coût de maintenance mensuel réduit de %s par baie de chasseurs.
+dedicated_targeting_core,Noyau de Ciblage Dédié,"Augmente la portée des armes balistiques et énergétiques de %s/%s pour les croiseurs/vaisseaux capitaux.
+
+Ne peut pas être installé sur une frégate ou un destroyer, et ne peut pas fonctionner conjointement avec le Module de Ciblage Intégré.
+
+La plupart des vaisseaux de combat installent soit un Module de Ciblage Intégré soit un Noyau de Ciblage Dédié, à l'exception des variantes plus spécialisées.",Augmente le bonus de portée à %s pour les croiseurs et %s pour les vaisseaux capitaux.
+defensive_targeting_array,Matrice de Ciblage Défensive,"Les liaisons de communication standard des chasseurs sont reconverties pour fournir des données de ciblage à courte portée.
+
+Augmente les dégâts des chasseurs contre les missiles et autres chasseurs de %s, mais empêche les chasseurs de s'éloigner du vaisseau porteur.",Augmente la portée des armes balistiques et énergétiques des chasseurs du vaisseau de %s unités.
+eccm,Kit ECCM,"Réduit la probabilité que les missiles tirés par le vaisseau soient affectés par les contre-mesures électroniques et les leurres de %s.
+
+Un noyau CPU auxiliaire dans chaque missile augmente la vitesse maximale des missiles de %s et la maniabilité des missiles de %s, tout en améliorant significativement l'algorithme de guidage.
+
+Réduit également la réduction de portée des armes due aux ECM ennemies de %s.","Annule complètement la réduction de portée des armes, et les missiles du vaisseau ignorent toujours les leurres."
+ecm,Kit ECM,"Lorsque déployé en combat, confère un indice ECM de %s/%s/%s/%s, selon la taille de coque du vaisseau.",
+escort_package,Kit d'Escorte,"Lorsque ce vaisseau se trouve dans un rayon d'environ %s su d'un vaisseau allié plus grand, augmente sa maniabilité de %s, et sa vitesse maximale de %s. Augmente également la portée des armes balistiques et énergétiques de %s.
+
+Ces bonus sont %s pour les destroyers lorsque l'allié à proximité est un vaisseau capital.",Destroyers : réduit les dégâts subis par les boucliers de %s. Aucun effet supplémentaire pour les croiseurs.
+expanded_deck_crew,Équipage de Pont Élargi,"Réduit la vitesse à laquelle le taux de remplacement des chasseurs diminue en raison des pertes de %s, et augmente la vitesse de récupération de %s.
+
+Augmente l'équipage requis de %s par baie de chasseurs.",
+magazines,Chargeurs Élargis,Augmente la capacité en munitions ou le nombre de charges des armes balistiques et énergétiques de %s.,Augmente le taux de régénération des munitions/charges des armes balistiques et énergétiques de %s.
+missleracks,Racks de Missiles Élargis,Augmente la capacité en munitions des armes à missiles de %s.,Réduit la cadence de tir des armes à missiles de %s.
+extendedshieldemitter,Boucliers Étendus,Augmente la couverture des boucliers de %s degrés.,Augmente la couverture des boucliers de %s degrés supplémentaires.
+fluxcoil,Bobine de Flux Auxiliaire,"Augmente la capacité de flux du vaisseau de %s/%s/%s/%s, selon la taille de coque. Moins efficace que les condensateurs de flux — surtout utile lorsqu'ajouté à une conception qui embarque déjà le nombre maximal de condensateurs.","Augmente la capacité de flux de %s/%s/%s/%s supplémentaires, rendant la bobine aussi efficace que l'ajout de condensateurs."
+fluxdistributor,Distributeur de Flux,"Augmente la dissipation de flux du vaisseau de %s/%s/%s/%s, selon la taille de coque. Moins efficace que les évents de flux — surtout utile lorsqu'ajouté à une conception qui embarque déjà le nombre maximal d'évents.","Augmente la dissipation de flux de %s/%s/%s/%s supplémentaires, rendant le distributeur aussi efficace que l'ajout d'évents."
+shield_shunt,Dérivation de Bouclier,"Retire les boucliers du vaisseau. Les nœuds d'émission externes sont remplacés par un blindage renforcé, augmentant le blindage du vaisseau de %s.",Augmente le blindage du vaisseau de %s supplémentaires.
+frontshield,Générateur de Bouclier Improvisé,"Installe un générateur de bouclier de fortune inefficace sur le vaisseau. L'émetteur de bouclier est verrouillé en position frontale et possède un arc de %s degrés.
+
+Le générateur de bouclier tire une grande partie de son énergie des moteurs et réduit la vitesse maximale du vaisseau de %s.",
+missile_autoloader,Autochargeur de Missiles,,Augmente le temps de rechargement après recharge à %s secondes.
+hardenedshieldemitter,Boucliers Renforcés,Réduit les dégâts subis par les boucliers de %s. Réduit également la probabilité que les boucliers soient percés par les arcs EMP d'armes comme le Rayon Ionique.,
+hardened_subsystems,Sous-systèmes Renforcés,"Augmente le temps de performance maximale pour les vaisseaux qui souffrent d'une dégradation de performance lors des déploiements prolongés de %s.
+
+Réduit également la vitesse à laquelle la disponibilité opérationnelle se dégrade de %s.",
+heavyarmor,Blindage Lourd,"Augmente le blindage du vaisseau de %s/%s/%s/%s points, selon la taille de coque.",Réduit la maniabilité du vaisseau de %s.
+high_scatter_amp,Amplificateur Haute Dispersion,,Augmente les dégâts des armes à faisceau de %s supplémentaires.
+pointdefenseai,IA de Défense de Point Intégrée,"Confère à toutes les armes de défense de point la capacité d'identifier — et d'ignorer — les leurres. De plus, toutes les armes de défense de point bénéficient du meilleur guidage de tir possible, indépendamment de la disponibilité opérationnelle, et tous les dégâts contre les missiles sont augmentés de %s.","Toutes les petites armes non-missiles et non-frappe sont classifiées comme ""défense de point"", ciblent automatiquement les missiles, et sont affectées par les modificateurs de défense de point."
+pdintegration,,"Réduit le coût en points d'armement des petites armes de défense de point de %s. La réduction de coût ne s'applique qu'aux armes qui possèdent la capacité DP comme caractéristique intrinsèque de l'arme, et non lorsqu'elle est acquise par d'autres moyens comme un hullmod.
+
+De plus, toutes les armes de défense de point infligent %s de dégâts supplémentaires à toutes les cibles.",
+targetingunit,Module de Ciblage Intégré,"Augmente la portée des armes balistiques et énergétiques de %s/%s/%s/%s, selon la taille de coque. Ne peut pas fonctionner conjointement avec le Noyau de Ciblage Dédié.
+
+La plupart des vaisseaux de combat installent soit un Module de Ciblage Intégré soit un Noyau de Ciblage Dédié, à l'exception des variantes plus spécialisées.",
+nav_relay,Relais de Navigation,"Lorsque déployé en combat, augmente l'indice de navigation de votre flotte de %s/%s/%s/%s, selon la taille de coque du vaisseau.
+
+L'indice de navigation total de votre flotte augmente la vitesse maximale de vos vaisseaux déployés.",
+neural_interface,Interface Neurale,"Relie le vaisseau amiral à un autre vaisseau, permettant aux deux vaisseaux de %s en même temps. Comme pour le ""transfert de commandement"", certains effets de compétences — comme ceux augmentant la capacité en munitions, ou la disponibilité opérationnelle — ne s'appliquent pas à l'autre vaisseau.
+
+Permet également de basculer rapidement entre les vaisseaux liés sans utiliser de navette. Le transfert est instantané si les points de déploiement combinés des vaisseaux sont de %s ou moins. Le vaisseau de destination ne doit pas être sous le commandement d'un officier ou d'un noyau IA.","Les transferts depuis le vaisseau sont toujours instantanés, indépendamment du total de points de déploiement."
+neural_integrator,Intégrateur Neural,"Une version augmentée de l'Interface Neurale qui fonctionne avec les vaisseaux automatisés en permettant le contrôle direct de tous les systèmes du vaisseau via le lien et en permettant aux deux vaisseaux de %s en même temps. Comme pour le ""transfert de commandement"", certains effets de compétences — comme ceux augmentant la capacité en munitions, ou la disponibilité opérationnelle — ne s'appliquent pas à l'autre vaisseau.
+
+Permet également de basculer rapidement entre les vaisseaux liés sans utiliser de navette. Le transfert est instantané si les points de déploiement combinés des vaisseaux sont de %s ou moins. Le vaisseau de destination ne doit pas être sous le commandement d'un officier ou d'un noyau IA.
+
+La complexité des modifications augmente les points de déploiement du vaisseau et le coût en fournitures pour la récupération après déploiement de %s.","Les transferts depuis le vaisseau sont toujours instantanés, indépendamment du total de points de déploiement."
+frontemitter,Conversion de Bouclier – Frontal,"Verrouille l'émetteur de bouclier omnidirectionnel du vaisseau en position frontale et étend son arc de %s. Comme pour tous les émetteurs frontaux, le bouclier se déploiera aussi deux fois plus vite.",Réduit les dégâts subis par les boucliers de %s.
+adaptiveshields,Conversion de Bouclier – Omni,Convertit les boucliers frontaux en omnidirectionnels. Réduit l'arc du bouclier de %s.,Annule la pénalité d'arc du bouclier.
+operations_center,Centre d'Opérations,Augmente le taux de récupération des points de commandement de %s lorsqu'installé sur le vaisseau amiral.,
+phase_anchor,Ancre de Phase,"Réduit le coût d'activation du voile de phase à %s. Augmente la dissipation de flux léger et le taux de recharge des armes de %s en phase.
+
+Lorsque le vaisseau subit des dégâts critiques qui le détruiraient ou le désactiveraient autrement, capable d'initier un plongeon d'urgence dans l'espace-p. Le vaisseau compte comme retiré et émergera dans l'espace normal à la fin du combat, subissant une pénalité supplémentaire de disponibilité opérationnelle égale à %s de son coût de déploiement. Le vaisseau doit avoir suffisamment de disponibilité opérationnelle pour couvrir ce coût afin d'initier le plongeon.
+
+En raison des immenses distorsions dans l'espace-p causées par une telle manœuvre, un seul vaisseau par bataille — quel que soit le camp — est capable de l'effectuer.",
+recovery_shuttles,Navettes de Récupération,Réduit les pertes subies par les pilotes de chasseurs de %s.,Augmente la réduction des pertes de pilotes de chasseurs à %s.
+reinforcedhull,Cloisons Renforcées,"Augmente l'intégrité de coque du vaisseau de %s. Si désactivé, le vaisseau ne se désintégrera pas et est presque toujours récupérable après la bataille.",
+fluxbreakers,Conduits de Flux Résistants,Réduit les dégâts EMP subis par des armes comme les Canons Ioniques de %s. Augmente également la dissipation de flux du vaisseau pendant la purge de %s.,Augmente la dissipation de flux pendant la purge de %s supplémentaires.
+safetyoverrides,,"La désactivation des protocoles de sécurité augmente la vitesse maximale du vaisseau en combat de %s/%s/%s (selon la taille de coque, avec une augmentation correspondante de l'accélération) et permet au boost moteur à flux zéro de s'activer indépendamment du niveau de flux. Le taux de dissipation de flux, incluant celui des évents supplémentaires, est augmenté d'un facteur %s.
+
+Réduit le temps de performance maximale d'un facteur %s, empêche l'utilisation de la purge active, et réduit drastiquement la portée des armes au-delà de %s unités.
+
+Ne peut pas être installé sur les vaisseaux civils ou capitaux.",
+stabilizedshieldemitter,Boucliers Stabilisés,Réduit la quantité de flux léger générée par les boucliers levés par seconde de %s. N'affecte pas le flux dur généré lorsque les boucliers subissent des dégâts.,Convertit %s du flux dur subi par les boucliers en flux léger.
+unstable_injector,Injecteur Instable,"Augmente la vitesse maximale du vaisseau en combat de %s/%s/%s/%s su/seconde, selon la taille de coque.
+
+Interfère avec le ciblage des armes et d'autres systèmes vulnérables, réduisant la portée des armes non-missiles de %s et augmentant le temps de remplacement des chasseurs de %s.",
+additional_berthing,Couchettes Supplémentaires,"Augmente la capacité maximale d'équipage de %s/%s/%s/%s, selon la taille de coque, ou de %s, selon la valeur la plus élevée.
+
+Pour les coques de grade civil, augmente également le coût de maintenance en fournitures de %s.","Double l'augmentation de capacité d'équipage et, pour les coques civiles, annule l'augmentation du coût de maintenance."
+augmentedengines,Champ de Propulsion Augmenté,Augmente le niveau de propulsion maximal de %s.,Augmente le niveau de propulsion maximal de %s supplémentaires.
+auxiliary_fuel_tanks,Réservoirs de Carburant Auxiliaires,"Augmente la capacité maximale de carburant de %s/%s/%s/%s, selon la taille de coque, ou de %s, selon la valeur la plus élevée.
+
+Pour les coques de grade civil, augmente également le coût de maintenance en fournitures de %s.","Double l'augmentation de capacité de carburant et, pour les coques civiles, annule l'augmentation du coût de maintenance."
+efficiency_overhaul,Révision d'Efficacité,"Réduit la consommation de fournitures pour la maintenance, la consommation de carburant et l'équipage minimum requis de %s.
+
+Augmente les taux de récupération de disponibilité opérationnelle et de réparation de %s. La consommation quotidienne de fournitures pour la récupération de DO est augmentée pour tenir compte du taux accru, mais le coût total en fournitures reste le même.","Réduit le coût de maintenance, la consommation de carburant et l'équipage minimum requis de %s supplémentaires."
+expanded_cargo_holds,Soutes à Cargo Élargies,"Augmente la capacité maximale de cargo de %s/%s/%s/%s, selon la taille de coque, ou de %s, selon la valeur la plus élevée.
+
+Pour les coques de grade civil, augmente également le coût de maintenance en fournitures de %s.","Double l'augmentation de capacité de cargo et, pour les coques civiles, annule l'augmentation du coût de maintenance."
+hiressensors,Capteurs Haute Résolution,,"Augmente la portée de vision en combat du vaisseau de %s/%s/%s/%s, selon la taille de coque."
+insulatedengine,Assemblage Moteur Isolé,"Augmente la résistance des moteurs du vaisseau de %s, et l'intégrité de coque du vaisseau de %s.
+
+Le profil capteur du vaisseau est également réduit de %s.","Augmente la résistance des moteurs de %s supplémentaires, et augmente la réduction du profil capteur à %s."
+militarized_subsystems,Sous-systèmes Militarisés,"Retire les pénalités d'une coque de grade civil, et augmente le niveau de propulsion maximal de %s.
+
+Augmente l'équipage minimum requis de %s.",Annule l'augmentation des besoins en équipage.
+solar_shielding,Blindage Solaire,"Développé à l'origine par les ingénieurs du Diktat après des cycles passés à gérer les conditions uniques du système interne d'Askonia. Réduit l'effet de l'opération dans une couronne solaire sur la disponibilité opérationnelle de %s ; a le même effet contre les tempêtes en hyperespace profond.
+
+En combat, réduit les dégâts d'énergie subis de %s.",Augmente la protection contre les couronnes solaires et dangers similaires à %s.
+surveying_equipment,Équipement de Prospection,"Réduit les machines lourdes et fournitures nécessaires pour effectuer des relevés de %s/%s/%s/%s selon la taille de coque, jusqu'à un minimum de %s pour chaque.",Augmente la réduction du coût des relevés de %s.
+terminator_core,Noyau Terminateur,"Confère à toutes les armes de défense de point la capacité d'identifier — et d'ignorer — les leurres. De plus, toutes les armes bénéficient du meilleur guidage de tir possible, indépendamment de la disponibilité opérationnelle, tous les dégâts contre les missiles et chasseurs sont augmentés de %s, et la portée des armes à faisceau est augmentée de %s unités.",
+shared_flux_sink,Dissipateur de Flux Partagé,"Gère %s de la dissipation de flux de tous les modules attachés. Si des modules sont perdus durant la bataille, la dissipation de flux supplémentaire est redistribuée parmi les modules restants. Jusqu'à %s de cette dissipation supplémentaire s'applique au flux dur.",
+stealth_minefield,Champ de Mines Furtif,Les mines attaquent les vaisseaux ennemis durant la bataille.,
+stealth_minefield_lt,Champ de Mines Furtif,Les mines attaquent les vaisseaux ennemis durant la bataille.,
+bdeck,Pont B,"Une fois par combat, lorsque le taux de remplacement des chasseurs atteint %s, les baies de lancement de chasseurs basculent sur un ""Pont B"".
+
+Des chasseurs en attente sont lancés pour remettre rapidement les escadrons à pleine puissance, et le taux de remplacement des chasseurs est réinitialisé à %s.",
+chassis_storage,Stockage de Châssis de Chasseurs,Le taux de remplacement des chasseurs ne diminue pas lorsque des chasseurs sont perdus.,
+shield_always_on,Bouclier Toujours Actif,,
+missile_reload,Autoforge de Missiles,Une autoforge à l'intérieur du vaisseau recharge périodiquement et intégralement les magasins de toutes les armes à missiles.,
+shielded_holds,Soutes Blindées,"Couramment installé sur les vaisseaux qui ne peuvent pas toujours compter sur les boucliers pour protéger leur cargaison des radiations cosmiques. Quelques ajustements suffisent pour que le blindage brouille les scans de cargaison à longue portée, réduisant la probabilité de détection de contrebande.",
+repair_gantry,Portique de Salvage,"Augmente les ressources obtenues lors du salvage de stations abandonnées, épaves, coques flottantes et autres de %s/%s/%s/%s, selon la taille de coque. N'affecte que la récupération de ressources communes comme le carburant et les fournitures, et non les objets rares comme les plans. De plus, %s du bonus s'applique au salvage post-combat.",
+phasefield,Champ de Phase,"Le vaisseau est capable de maintenir un champ de phase de faible intensité pendant de longues périodes, réduisant son profil capteur effectif de %s.",
+fluxshunt,Dérivation de Flux,Permet au vaisseau de dissiper le flux dur à %s du taux normal lorsque les boucliers sont actifs.,
+civgrade,Coque de Grade Civil,Augmente le profil capteur de %s. Réduit la puissance des capteurs de %s.,
+high_maintenance,Haute Maintenance,Augmente le coût mensuel de maintenance en fournitures de %s.,
+coherer,Cohéreur de Bolts Énergétiques,,
+design_compromises,Compromis de Conception,"Les performances du vaisseau souffrent de priorités de conception contradictoires, avec de multiples projets de pointe intégrés trop tard dans le cycle de conception.
+
+La dissipation et la capacité de flux du vaisseau, même les valeurs nominales de base, sont réduites de %s.
+
+La portée des armes balistiques est réduite de %s, la cadence de tir des armes à missiles est réduite de %s, et la génération de flux des armes énergétiques est augmentée de %s.
+
+En contrepartie, de la capacité de nanoforge supplémentaire peut être mise en ligne plus facilement, permettant l'installation d'un %s malgré la présence d'une baie de chasseurs, augmentant le nombre de baies de chasseurs opérationnelles à %s.",
+tow_cable,Câble de Remorquage Monofilament,"Améliore le niveau de propulsion maximal du vaisseau le plus lent de la flotte de 1. Plusieurs remorqueurs ne peuvent pas être utilisés pour accélérer le même vaisseau de plus de 1.
+
+Ne peut pas être utilisé en combat.",
+drive_field_stabilizer,Stabilisateur de Champ de Propulsion,"Stabilise la bulle de propulsion de la flotte, augmentant la propulsion maximale de la flotte de %s. L'effet de plusieurs stabilisateurs est cumulatif.
+
+Augmente le profil capteur du vaisseau de %s.",
+ground_support,Kit de Soutien Terrestre,"Armes de soutien rapproché et contre-mesures pour les défenses terrestres. Augmente la force effective des raids planétaires de %s, jusqu'au nombre total de marines dans la flotte.",
+advanced_ground_support,Soutien Terrestre Avancé,"Armes de soutien rapproché et contre-mesures pour les défenses terrestres. Augmente la force effective des raids planétaires de %s, jusqu'au nombre total de marines dans la flotte.",
+delicate,Machinerie Délicate,"Les systèmes du vaisseau nécessitent une maintenance excessive et ne résistent pas bien aux rigueurs d'engagements prolongés.
+
+Augmente le taux de dégradation de la DO en combat après épuisement du temps de performance maximale de %s.",
+hbi,Intégration Balistique Lourde,Réduit le coût en points d'armement des grandes armes balistiques de %s.,
+vast_hangar,Hangar Immense,"Le vaisseau possède un immense hangar et une flottille de vaisseaux de soutien proportionnée.
+
+Le nombre de baies de chasseurs ajoutées par le Hangar Improvisé est augmenté de %s, et sa performance égale celle d'une baie de chasseurs dédiée — toutes les pénalités et modificateurs, y compris ceux sur le coût de déploiement du vaisseau, sont annulés.",
+rugged,Construction Robuste,"Réduit la plupart des effets négatifs des d-mods de %s. Si désactivé ou détruit en combat, le vaisseau a %s de chances d'éviter de nouveaux d-mods, et est presque toujours récupérable après la bataille.
+
+De plus, le coût en fournitures pour la récupération après déploiement — et pour les réparations si le vaisseau est désactivé — est réduit de %s.",
+automated,Vaisseau Automatisé,"Ce vaisseau est entièrement automatisé, et ne nécessite pas — et ne peut pas embarquer — d'équipage humain.",
+advancedcore,Noyau de Ciblage Avancé,"Augmente la portée des armes balistiques et énergétiques de %s. La portée des armes de défense de point n'est augmentée que de %s.
+
+Exclut l'installation d'un Noyau de Ciblage Dédié ou d'un Module de Ciblage Intégré.",
+supercomputer,Supercalculateur de Ciblage,"Augmente la portée des armes balistiques et énergétiques de %s. La portée des armes de défense de point n'est augmentée que de %s.
+
+Améliore également la précision du guidage de tir et augmente considérablement la portée des capteurs en combat.",
+ex_phase_coils,Bobines de Phase Expérimentales,Réduit le temps de rechargement du voile de phase de %s.,
+high_frequency_attractor,Attracteur Haute Volition,Une modification expérimentale permettant aux particules haute fréquence d'être attirées par le noyau de faille à bord du vaisseau.,
+ablative_armor,Blindage Ablatif,"Un ancien design conçu pour arrêter les micro-météorites par le volume brut de matériau en place, avant l'avènement du blindage ""espacé"".
+
+Réduit la résistance effective du blindage pour le calcul de réduction des dégâts à %s de sa valeur réelle. Cependant, les vaisseaux de cette conception ont tendance à embarquer un blindage extrêmement lourd.",
+distributed_fire_control,Contrôle de Tir Distribué,"Une grande partie des dégâts qui mettent les armes hors service touche les circuits de commande externes et les conduits d'alimentation. Les armes de ce vaisseau sont conçues pour fonctionner de manière plus autonome, réduisant leur exposition aux dégâts de %s et réduisant les dégâts EMP subis par le vaisseau de %s.",
+converted_bay,Soute à Cargo Convertie,"La soute à cargo de ce vaisseau a été convertie pour abriter deux baies de chasseurs. La manufacture improvisée qui produit les châssis de chasseurs est peu fiable, et la plupart des composants présentent des défauts mineurs. Vitesse des chasseurs réduite de %s, et dégâts subis augmentés de %s.",
+andrada_mods,Modifications Spéciales,"Lors de l'inspection d'un prototype précoce, le Suprême Exécuteur fut entendu commenter défavorablement les conduits exposés le long des coursives, et le danger que ceux-ci devaient représenter pour le brave et loyal équipage en conditions de combat.
+
+Le nouveau chef de projet, un officier loyal nommé par le Suprême Exécuteur lui-même, ordonna aux programmeurs de forge d'accommoder l'installation de panneaux isolants spéciaux anti-explosion produits par Sindria elle-même.
+
+Si les coursives sont un peu plus étroites, les conduits sujets à la surchauffe, et les panneaux encastrés quelque peu difficiles d'accès, les rapports officiels de disponibilité n'incluent aucune critique des changements. Tout le monde s'accorde en public et — comme peut en attester le Ministère de la Sécurité Intérieure — en privé, que la grandeur austère de la flotte de la Garde du Lion est à couper le souffle.
+
+Les pertes d'équipage en combat sont augmentées de %s. Le taux de dissipation de flux de base est réduit de %s, et le taux de réparation des armes et moteurs désactivés est réduit de %s.",
+vastbulk,Masse Immense,"Le corps principal de cette structure est immense et est, à toutes fins pratiques, capable d'absorber n'importe quelle quantité de dégâts d'armes conventionnelles sans être détruit.",
+axialrotation,Rotation Axiale,Cette structure effectue une rotation constante autour de son axe.,
+anchorrotation,Rotation d'Ancrage,Cette structure effectue une rotation autour de son point d'ancrage. Pour les modules de station uniquement.,
+reduced_explosion,Explosion Réduite,Rayon et dégâts d'explosion réduits.,
+always_detaches,Se Détache Toujours,Se détache toujours de la structure parente lorsque détruit.,
+never_detaches,Ne Se Détache Jamais,Ne se détache jamais de la structure parente lorsque détruit.,
+no_weapon_flux,Pas de Flux d'Arme,Le tir des armes ne coûte pas de flux. Utilisé sur les chasseurs pour un contrôle fin des points de vie effectifs des boucliers.,
+do_not_fire_through,Ne Pas Tirer Au Travers,"Les armes sur d'autres modules d'une station éviteront de tirer à travers ce module, même si les tirs passeraient au-dessus sans le toucher.",
+shard_spawner,Générateur de Fragments,Génère des vaisseaux fragments lorsque le vaisseau est désactivé/détruit.,
+do_not_back_off,Ne Pas Reculer,Active le drapeau IA DO_NOT_BACK_OFF,
+threat_hullmod,Coque de Menace,Hullmod caché pour gérer les propriétés spéciales des vaisseaux Menace. Description créée par le script.,
+fragment_swarm,Essaim de Fragments,"Un essaim de fragments de Menace tourbillonne autour du vaisseau, fournissant un approvisionnement régénérant de fragments pour les armes à fragments.
+
+Le nombre de base de fragments est de %s/%s/%s/%s, et les fragments de remplacement sont lancés %s/%s/%s/%s fois par seconde, selon la taille de coque.
+
+Ce hullmod est requis pour le fonctionnement des armes à fragments ; si le hullmod n'est pas présent ou s'il n'y a pas assez de fragments dans l'essaim, les armes à fragments seront désactivées.",Réduit la disponibilité opérationnelle maximale de %s et augmente le coût de maintenance de %s.
+secondary_fabricator,Fabricateur Secondaire,Augmente la vitesse à laquelle les fragments de remplacement sont lancés de %s.,Augmente le taux de remplacement des fragments de %s supplémentaires.
+fragment_coordinator,Coordinateur de Fragments,Augmente le nombre maximal de fragments dans l'essaim de fragments du vaisseau de %s.,Augmente la taille de l'essaim de fragments de %s supplémentaires.
+dweller_hullmod,Modification Resident,Ajoute les visuels et mécaniques personnalisées du Résident du Voile. Non visible par le joueur.,
+shrouded_mantle,Manteau du Voile,"Le vaisseau tentera de reculer (si possible) loin du danger lorsqu'il subit des dégâts de coque substantiels.
+
+Les pertes d'équipage en combat sont augmentées de %s.",Le vaisseau bénéficie de %s de la guérison fournie par la Faille Vorace.
+shrouded_thunderhead,Tête de Tonnerre du Voile,,
+shrouded_lens,Lentille du Voile,,
+fourteenth,14e Groupe de Bataille,"Ce vaisseau est un survivant du 14e Groupe de Bataille du Domain originel qui fonda l'Hégémonie. C'est un spécimen de premier ordre de la doctrine de « bataille décisive » de la Marine du Domain, particulièrement illustrée par une série de modifications structurelles radicales (réalisées avec des méthodes industrielles d'avant l'Effondrement) qui permettent le montage de plaques de blindage plus lourdes avec une augmentation fixe de %s unités standard, avec seulement une réduction de %s en vitesse et maniabilité. Des systèmes énergétiques exceptionnellement bien calibrés augmentent le débit et la capacité de flux de %s par rapport aux exemplaires standard de cette coque.",
+heg_militarized,Auxiliaire Hégémonique Militarisé,"Ce vaisseau est — ou était — sur la liste auxiliaire de l'Hégémonie. Des kits de surblindage appliqués dans les chantiers navals de l'Hégémonie offrent une augmentation de %s/%s/%s/%s de la résistance du blindage selon la taille de coque, sans perte de performance. Les systèmes d'alimentation principaux ont été mis aux normes militaires, offrant une amélioration de %s de la maniabilité générale, une augmentation de %s de la capacité de flux, une augmentation de %s de la dissipation de flux et une augmentation du niveau de propulsion maximale de %s.",
+comp_armor,Blindage Compromis,"Le blindage de ce vaisseau a subi des dommages majeurs et irréparables à un moment donné, ou souffre d'erreurs majeures dans le processus de fabrication. Blindage réduit de %s.
+
+Coût en fournitures pour la récupération après déploiement réduit de %s.",
+comp_hull,Coque Compromise,"La coque de ce vaisseau a subi des dommages majeurs et irréparables à un moment donné, ou souffre d'erreurs majeures dans le processus de fabrication. Intégrité de coque réduite de %s.
+
+Coût en fournitures pour la récupération après déploiement réduit de %s.",
+degraded_engines,Moteurs Dégradés,"Qu'il s'agisse de dommages de combat, de défauts de fabrication ou de cycles de maintenance insuffisante, les moteurs de ce vaisseau souffrent d'une dégradation permanente de performance en combat.
+
+Vitesse maximale et maniabilité en combat réduites de %s.
+
+Coût en fournitures pour la récupération après déploiement réduit de %s.",
+degraded_drive_field,Champ de Propulsion Dégradé,"Qu'il s'agisse de dommages de combat, de défauts de fabrication ou de cycles de maintenance insuffisante, le champ de propulsion de ce vaisseau souffre d'une dégradation permanente de performance.
+
+Niveau de propulsion maximal réduit de %s. Profil capteur augmenté de %s.
+
+Coût en fournitures pour la récupération après déploiement réduit de %s.",
+faulty_grid,Grille Énergétique Défectueuse,"Qu'il s'agisse de dommages de combat, de défauts de fabrication ou de cycles de maintenance insuffisante, la grille énergétique de ce vaisseau ne sera jamais capable d'atteindre sa performance maximale.
+
+Capacité de flux réduite de %s. Taux de dissipation de flux réduit de %s. Profil capteur augmenté de %s.
+
+Coût en fournitures pour la récupération après déploiement réduit de %s.",
+unstable_coils,Instabilité des Bobines de Phase,"Les bobines de phase de ce vaisseau sont impossibles à calibrer correctement en raison de défauts subtils. Réduit le bonus de temps de phase de %s, réduit le temps de performance maximale de %s, et augmente le taux de dégradation de la disponibilité opérationnelle de %s.
+
+Coût en fournitures pour la récupération après déploiement réduit de %s.",
+comp_structure,Dommages Structurels,"La coque de ce vaisseau a probablement subi des dégâts extrêmes par le passé, possiblement au point de se briser. Blindage réduit de %s, intégrité de coque réduite de %s.
+
+Coût en fournitures pour la récupération après déploiement réduit de %s.",
+glitched_sensors,Réseau de Capteurs Défaillant,"Le réseau de capteurs du vaisseau est endommagé au-delà de toute réparation possible sans une révision complète de la coque. Portée des armes en combat réduite de %s. Puissance des capteurs réduite de %s.
+
+Coût en fournitures pour la récupération après déploiement réduit de %s.",
+malfunctioning_comms,Communications Défaillantes,"Le système de communication a subi de sérieux dommages, rendant la percée du brouillage de combat encore plus difficile. Portée d'engagement des chasseurs réduite de %s.
+
+Coût en fournitures pour la récupération après déploiement réduit de %s.",
+defective_manufactory,Manufacture Défectueuse,"La manufacture qui produit les châssis de chasseurs est peu fiable, et la plupart des composants présentent des défauts mineurs. Vitesse des chasseurs réduite de %s, et dégâts subis augmentés de %s.
+
+Coût en fournitures pour la récupération après déploiement réduit de %s.",
+damaged_deck,Pont d'Envol Endommagé,"Les ponts d'envol de ce vaisseau ont subi des dommages majeurs et interfèrent sérieusement avec le fonctionnement normal. Le temps de lancement des chasseurs de remplacement est augmenté de %s.
+
+Coût en fournitures pour la récupération après déploiement réduit de %s.",
+fragile_subsystems,Sous-systèmes Fragiles,"Une perte généralisée de composants redondants réduit le temps de performance maximale de %s, et augmente le taux de dégradation de la disponibilité opérationnelle de %s.
+
+Coût en fournitures pour la récupération après déploiement réduit de %s.",
+comp_storage,Stockage Compromis,"La capacité de stockage de ce vaisseau est significativement dégradée. Capacité d'équipage, de cargo et de carburant réduite de %s.
+
+Coût en fournitures pour la récupération après déploiement réduit de %s.",
+increased_maintenance,Maintenance Accrue,"Augmente le coût mensuel de maintenance en fournitures de %s. Augmente l'équipage minimum requis de %s. Réduit la disponibilité opérationnelle maximale de %s.
+
+Coût en fournitures pour la récupération après déploiement réduit de %s.",
+erratic_injector,Injecteur de Carburant Erratique,"Augmente la consommation de carburant de %s et réduit le boost à flux zéro de %s su/seconde.
+
+Coût en fournitures pour la récupération après déploiement réduit de %s.",
+faulty_auto,Systèmes Automatisés Défaillants,"Augmente l'équipage minimum requis de %s et réduit la disponibilité opérationnelle maximale de %s.
+
+Coût en fournitures pour la récupération après déploiement réduit de %s.",
+damaged_mounts,Supports d'Armes Endommagés,"Réduit la vitesse de rotation des armes de %s et augmente le recul de %s.
+
+Coût en fournitures pour la récupération après déploiement réduit de %s.",
+degraded_life_support,Support Vital Dégradé,"Réduit la capacité maximale d'équipage de %s, et la disponibilité opérationnelle maximale de %s.
+
+Coût en fournitures pour la récupération après déploiement réduit de %s.",
+degraded_shields,Boucliers Dégradés,"Augmente les dégâts subis par les boucliers de %s.
+
+Coût en fournitures pour la récupération après déploiement réduit de %s.",
+destroyed_mounts,Supports d'Armes Détruits,Certains des emplacements d'armes originaux de ce vaisseau ont été endommagés au-delà de toute réparation et ne peuvent plus être utilisés.,
+ill_advised,Modifications Malvenues,"Les systèmes de cette coque ont été drastiquement modifiés par rapport aux spécifications, probablement sans supervision d'ingénierie certifiée. Ses systèmes semblent fonctionner correctement dans des conditions de routine, mais présentent un risque significatif de dysfonctionnement critique sous contrainte.",

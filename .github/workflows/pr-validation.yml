@@ -132,8 +132,9 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Check 1 — mod_info.json invariants (main / release/* uniquement)
-        if: github.base_ref == 'main' || startsWith(github.base_ref, 'release/')
+      - name: Check 1 — mod_info.json invariants (repo public, main / release/* uniquement)
+        # Repo public uniquement : le privé porte légitimement l'id _dev (faux positif structurel).
+        if: github.repository == 'mipsou/starsector_lang_pack_fr' && (github.base_ref == 'main' || startsWith(github.base_ref, 'release/'))
         run: |
           echo "Vérification mod_info.json..."
           if [ ! -f "mod_info.json" ]; then
@@ -159,67 +160,62 @@ jobs:
             exit 1
           fi
 
-      - name: Check 2 — Allowlist data/ (toutes les PRs)
+      - name: Check 2 — data/ livré par un mécanisme sûr (repo public, dérivé dynamiquement)
+        # Repo public uniquement : le repo privé contient légitimement du matériel dev
+        # (tests, glossaire, fichiers backlog non encore livrés) hors set de production.
+        if: github.repository == 'mipsou/starsector_lang_pack_fr'
         run: |
-          echo "Vérification allowlist data/..."
-          cat > /tmp/allowlist.txt << 'EOF'
-          data/campaign/abilities.csv
-          data/campaign/commodities.csv
-          data/campaign/industries.csv
-          data/campaign/market_conditions.csv
-          data/campaign/reports.csv
-          data/campaign/rules.csv
-          data/campaign/submarkets.csv
-          data/characters/personalities.csv
-          data/characters/skills/aptitude_data.csv
-          data/characters/skills/skill_data.csv
-          data/codex/spacers_manual_combat.txt
-          data/codex/spacers_manual_other.txt
-          data/codex/spacers_manual_ui.txt
-          data/config/battle_objectives.json
-          data/config/contact_tag_data.json
-          data/config/tag_data.json
-          data/missions/afistfulofcredits/mission_text.txt
-          data/missions/ambush/mission_text.txt
-          data/missions/coralnebula/mission_text.txt
-          data/missions/direstraits/mission_text.txt
-          data/missions/forlornhope/mission_text.txt
-          data/missions/forthegreaterlud/mission_text.txt
-          data/missions/hornetsnest/mission_text.txt
-          data/missions/m3/mission_text.txt
-          data/missions/mission_list.csv
-          data/missions/nothingpersonal/mission_text.txt
-          data/missions/predatororprey/mission_text.txt
-          data/missions/randombattle1/mission_text.txt
-          data/missions/sinkingthebismarck/mission_text.txt
-          data/missions/thelasthurrah/mission_text.txt
-          data/missions/thewolfpack/mission_text.txt
-          data/missions/turningthetables/mission_text.txt
-          data/strings/descriptions.csv
-          data/strings/ship_names.json
-          data/strings/strings.json
-          data/strings/tips.json
-          data/strings/tooltips.json
-          data/weapons/weapon_data.csv
-          data/world/factions/default_fleet_type_names.json
-          data/world/factions/default_ranks.json
-          EOF
-          # Supprimer les espaces de début (indentation heredoc)
-          sed -i 's/^[[:space:]]*//' /tmp/allowlist.txt
-          # Lister tous les fichiers data/ présents dans le commit
+          echo "Dérivation dynamique du set livrable depuis les mécanismes de livraison..."
+          # Le set livré n'est JAMAIS une liste figée (cf. régression v2.0.10 : une liste
+          # statique avait perdu 5 dicts runtime + 84 .faction/.skin). On le DÉRIVE :
+          #   M1 replace      : fichiers "feuille" de mod_info.json["replace"]
+          #   M2 patch JAR    : dictionnaires lus/patchés par id (chemins extraits du jar livré)
+          #   M3 merge moteur : *.faction (les .skin passent par le JAR, data/i18n/skins.csv) + rules.csv (merge CSV) + strings.json (load-order)
+          # Un fichier traduit SANS mécanisme (ex: channels.json) écraserait le contenu
+          # des autres mods s'il était livré cru → reste en backlog, donc interdit ici.
+          : > /tmp/mech.txt
+          # M1
+          jq -r '.replace[]? | select(startswith("data/"))' mod_info.json >> /tmp/mech.txt
+          # M2 — extraire les chemins data/*.csv|json depuis les .class du jar (sans src/)
+          JAR=$(ls jars/*.jar 2>/dev/null | head -1)
+          if [ -n "$JAR" ]; then
+            TMPD=$(mktemp -d)
+            unzip -oq "$JAR" -d "$TMPD" 2>/dev/null || true
+            find "$TMPD" -name '*.class' -exec cat {} + 2>/dev/null \
+              | tr -c '[:print:]' '\n' \
+              | grep -aoE 'data/[A-Za-z0-9_/]+\.(csv|json)' >> /tmp/mech.txt || true
+            rm -rf "$TMPD"
+          fi
+          # M3
+          git ls-tree -r --name-only HEAD \
+            | grep -E '^data/world/factions/[^/]+\.faction$' >> /tmp/mech.txt
+          printf '%s\n' data/campaign/rules.csv data/strings/strings.json data/config/planets.json data/config/custom_entities.json >> /tmp/mech.txt
+          sort -u /tmp/mech.txt -o /tmp/mech.txt
+          echo "Set livrable dérivé : $(wc -l < /tmp/mech.txt) fichiers"
+          # Tout fichier data/ présent doit être couvert par un mécanisme
           fail=0
           while IFS= read -r f; do
             [ -z "$f" ] && continue
-            if ! grep -Fxq "$f" /tmp/allowlist.txt; then
-              echo "❌ Fichier hors allowlist : $f"
+            if ! grep -Fxq "$f" /tmp/mech.txt; then
+              echo "❌ data/ sans mécanisme de livraison : $f"
               fail=1
             fi
           done < <(git ls-tree -r --name-only HEAD -- data/)
           if [ "$fail" -eq 0 ]; then
-            echo "✅ Tous les fichiers data/ sont dans l'allowlist"
+            echo "✅ Tout data/ est livré par un mécanisme sûr (replace / patch JAR / merge moteur)"
           else
             echo ""
-            echo "Seuls les 40 fichiers de traduction autorisés sont acceptés dans data/."
-            echo "Tout fichier vanilla Starsector ou non listé doit être retiré du repo."
+            echo "Le repo public ne doit contenir que des fichiers délivrés par un mécanisme sûr"
+            echo "(compat mods). Un fichier traduit sans mécanisme reste en backlog (handler requis)."
             exit 1
           fi
+
+      - name: Check 3 — zéro vanilla (P1, structure)
+        # Tout repo : data/i18n/* et *.faction ne portent que des libellés affichés.
+        # Un échec signale du contenu vanilla livré : ne jamais assouplir la règle.
+        run: |
+          if [ ! -f tools/check_zero_vanilla.py ]; then
+            echo "❌ tools/check_zero_vanilla.py absent (injecté par release.sh avec cette CI)"
+            exit 1
+          fi
+          python3 tools/check_zero_vanilla.py

@@ -1,0 +1,70 @@
+id,name,desc
+modspec,Specs de modification,"Un recueil de notes, directives et exemples pratiques permettant d'adapter et d'appliquer cette modification à différentes coques."
+corrupted_nanoforge,Nanoforge corrompue,"Une « boîte noire » de fabrication puissante et polyvalente, capable de se développer à l'échelle industrielle à partir des matières premières nécessaires et d'une assistance humaine.
+
+Celle-ci a connu des jours meilleurs et ne peut plus produire de composants sans défauts de manière fiable. Néanmoins, disposer d'une nanoforge reste un avantage considérable pour la construction de vaisseaux."
+pristine_nanoforge,Nanoforge intacte,"Une « boîte noire » de fabrication puissante et polyvalente, capable de se développer à l'échelle industrielle à partir des matières premières nécessaires et d'une assistance humaine.
+
+Celle-ci est comme neuve, du moins selon ses diagnostics embarqués. En pratique, obtenir des composants de vaisseau sans défauts reste un défi vu l'état général de l'industrie dans le Secteur, mais cette nanoforge est ce qui se fait de mieux."
+synchrotron,Noyau synchrotron,"Une nanoforge spécialisée, chargée de micrologiciels et de nanotechnologie d'amorçage pour se développer en un synchrotron permettant la production d'antimatière à l'échelle industrielle."
+orbital_fusion_lamp,Lampe à fusion orbitale,"Un réacteur à fusion miniaturisé à puissance variable, capable de fournir lumière et chaleur en abondance à une planète.
+
+Son fonctionnement sûr nécessite des quantités considérables de volatils. Si la demande n'est pas satisfaite, le réacteur souffre d'une instabilité potentiellement dangereuse, pouvant entraîner une montée en puissance incontrôlée. Des litiges sur la dangerosité inhérente de sa conception ou de son utilisation étaient en cours devant les tribunaux du Domaine au moment de l'Effondrement."
+coronal_portal,Capteur d'hypershunt,"Une interface de trou de ver miniaturisée qui peut être activée pour se connecter à un hypershunt coronal proche, fournissant à une colonie une énergie pratiquement illimitée.
+
+Son fonctionnement nécessite des quantités industrielles de transplutoniqs, d'abord utilisés pour ouvrir le trou de ver, puis — une fois que l'énergie soutirée devient auto-entretenue — consommés dans un processus ablatif complexe qui maintient la stabilité du trou de ver. Toute interruption d'approvisionnement impose un arrêt complet du capteur."
+mantle_bore,Foreuse de manteau autonome,"Bien qu'on estime qu'il ne reste plus d'unités de contrôle fonctionnelles dans le Secteur, la foreuse elle-même est capable de fonctionner de manière autonome — quoique parfois imprévisible. Les sécurités du mode automatique en interdisent l'utilisation sur les mondes habitables."
+catalytic_core,Noyau catalytique,Améliore considérablement l'efficacité des opérations de raffinage grâce à une particularité surprenante de la physique osmotique. Son fonctionnement nécessite un accès au vide à une échelle difficile à atteindre sur les planètes à pression atmosphérique significative.
+soil_nanites,Nanites de sol,"Permet l'enrichissement et la restauration des sols à un rythme bien supérieur à celui des processus naturels. Le Règlement de Sécurité des Nanites du Domaine 4324, sous-section 81, en interdit l'usage sur les mondes possédant des gisements de minerai transplutoniqs ou de volatils, et malheureusement la sécurité intégrée semble fonctionnelle."
+biofactory_embryo,Embryon de biofabrique,"Un éventail vertigineux de biens de consommation peut être cultivé plutôt que fabriqué. La biofabrique pleinement développée ne prospère que dans l'équilibre délicat entre ensoleillement, nutriments du sol et conditions atmosphériques que seul un monde habitable peut offrir. Les tentatives de reproduire ces conditions en environnement artificiel échouent systématiquement, provoquant le dépérissement de la fabrique, sans doute à cause d'une sécurité encodée génétiquement."
+fullerene_spool,Bobine de fullerène,Un câble en nanomaille de carbone ultra-résistant qui est essentiel à la construction d'un ascenseur spatial. Améliore considérablement l'efficacité logistique entre la surface d'une planète et l'orbite basse.
+plasma_dynamo,Dynamo à plasma,"La pièce maîtresse à brides supraconductrices d'un système industriel qui crée un filet de plasma à l'échelle planétaire, permettant l'extraction efficace et spectaculaire de volatils depuis l'atmosphère d'une géante gazeuse adaptée."
+cryoarithmetic_engine,Moteur cryoarithmétique,"Un ordinateur quantique qui viole la seconde loi de la thermodynamique en refroidissant au lieu de chauffer pendant les calculs.
+
+Un vaste réseau de filaments à l'échelle planétaire — terminés par des dissipateurs thermiques — se déploie de lui-même, utilisant la chaleur pour alimenter sa croissance et poursuivre ses calculs. Plus la surface de la planète est chaude, plus le moteur de calcul est efficace. Sa puissance de traitement inégalée est un atout majeur pour la planification logistique et stratégique."
+drone_replicator,Réplicateur de drones de combat,"Produit en masse plusieurs variantes de drones, tous adaptés à diverses tâches liées à la défense planétaire contre les raids et invasions, ainsi qu'aux opérations de sécurité locale.
+
+Son utilisation a été interdite par le Domaine de nombreux cycles avant l'Effondrement, ce qui rend surprenante la découverte d'un exemplaire fonctionnel dans le Secteur Perséen."
+dealmaker_holosuite,Holosuite de négociation,"Génère un environnement interactif conçu pour stimuler les négociations avec de potentiels partenaires commerciaux. De plus, les systèmes de capteurs intelligents de micro-émotions auto-adaptatifs intégrés à ces suites de RV haut de gamme permettent le suivi en temps réel de la sincérité des expressions, offrant un avantage techniquement éthique dans les affaires à l'opérateur de l'installation.
+
+Les supports marketing intégrés tiennent à souligner qu'il ne s'agit pas d'une IA, mais simplement d'un réseau pondéré sophistiqué en parfaite conformité avec les réglementations du Domaine en vigueur."
+low_tech_package,Ensemble de plans Low Tech,"Permet à l'industrie lourde de construire les coques de vaisseaux, armes et CPL de chasseurs les plus courants de l'école de conception « low tech »."
+midline_package,Ensemble de plans Midline,"Permet à l'industrie lourde de construire les coques de vaisseaux, armes et CPL de chasseurs les plus courants de l'école de conception « midline »."
+high_tech_package,Ensemble de plans High Tech,"Permet à l'industrie lourde de construire les coques de vaisseaux, armes et CPL de chasseurs les plus courants de l'école de conception « high tech »."
+missile_package,Ensemble de plans Missiles,Permet à l'industrie lourde de construire une gamme des armes à missiles les plus courantes.
+pirate_package,Ensemble de plans Pirate,"Un ensemble de hacks, de spécifications de modifications après-vente et de tentatives partiellement réussies de récupération de plans corrompus. Permet à l'industrie lourde de construire les coques de faible qualité mais aptes au combat couramment utilisées par les pirates et autres indésirables."
+LP_package,Ensemble de plans Voie Luddique,Un ensemble de hacks et de spécifications de modifications après-vente permettant à l'industrie lourde de construire les coques couramment utilisées par les membres de la Voie Luddique.
+LC_package,Ensemble de plans Église Luddique,"Un ensemble de hacks et de spécifications de modifications après-vente permettant à l'industrie lourde de construire des coques portant les marquages de l'Église Luddique. Les modifications étant de nature cosmétique, les coques produites sont par ailleurs intactes."
+XIV_package,Ensemble de plans XIVe Groupe de combat,Un jeu de plans permettant à l'industrie lourde de produire les coques quasi-légendaires employées par le XIVe Groupe de combat fondateur de l'Hégémonie. L'existence même — et la localisation — de ces plans fait l'objet de nombreuses rumeurs.
+heg_aux_package,Ensemble de plans auxiliaires de l'Hégémonie,"Un ensemble de plans modifiés qui mettent plusieurs vaisseaux civils aux normes militaires ou ajoutent simplement les marquages de l'Hégémonie. Créés peu après l'Effondrement, certains de ces plans améliorent les performances des coques sans l'augmentation de d-mods associée aux efforts de piratage de plans ultérieurs."
+ship_bp,Plan de vaisseau,Permet à l'industrie lourde de construire les coques de vaisseaux décrites par ce plan.
+weapon_bp,Plan d'arme,Permet à l'industrie lourde de construire les armes de vaisseau décrites par ce plan.
+fighter_bp,Plan de chasseur,Permet à l'industrie lourde de construire les CPL de chasseurs décrites par ce plan.
+industry_bp,Plan d'industrie,Contient les spécifications technologiques nécessaires à la construction d'une industrie ou structure planétaire.
+janus,Dispositif Janus,"Ceci est le dispositif Janus de première génération créé par Elissa Zal à partir des théories développées par Scylla Coureuse, entre autres.
+
+Une fois intégré à un hyperpropulseur, ce dispositif permet de transmettre une impulsion hyperonde — accordée aux signatures de résonance uniques de deux Portails — dans l'ouverture d'un Portail. Après un apport d'énergie considérable nécessitant une grande quantité de carburant, un lien temporaire entre ces Portails est créé. Un vaisseau ou une flotte peut alors transiter par le réseau de Portails."
+planetkiller,Destructeur de planète,"Une ogive spécialisée capable de briser un monde. Ses principes de fonctionnement ne sont que vaguement compris et impliqueraient l'utilisation de la rotation de la planète et d'une forme de résonance.
+
+Celui-ci est sécurisé et nécessite des codes d'autorisation, peut-être perdus depuis longtemps, pour devenir autre chose qu'un mécanisme compliqué mais totalement inerte."
+topographic_data,Données topographiques,"Ce TriPad sécurisé contient une base de données récente comprenant des scans détaillés et des analyses de la topographie de l'hyperespace dans le Secteur Perséen, organisés selon les directives traditionnelles de l'Explorarium du Domaine. De telles données sont un élément essentiel pour réussir les expéditions en dehors des mondes centraux."
+wormhole_anchor,Ancre de trou de ver,"Inconnue dans le Secteur Perséen contemporain, cette technologie était utilisée par l'Explorarium du Domaine durant une ère de grandeur révolue. Permet de créer un terminus de trou de ver à un emplacement stable.
+
+L'activation initiale nécessite de l'antimatière sous forme de carburant stellaire. Requiert au moins un autre terminus actif et synchronisé pour fonctionner."
+wormhole_scanner,Scanner de trou de ver,"Un artefact de l'ère du Domaine qui permet à une flotte de naviguer dans un trou de ver naturel, en suivant ses nombreux méandres et ses décalages à travers les dimensions supérieures. Une flotte entrant dans un trou de ver sans scanner ne serait plus jamais revue, du moins pas sous forme d'un ensemble cohérent de matière baryonique.
+
+Les principes de fonctionnement ne peuvent être que vaguement devinés compte tenu de l'état de l'art actuel dans le Secteur Perséen."
+fragment_fabricator,Fabricateur de Fragments,"Une technologie inconnue qui partage néanmoins des principes de conception avec les anciens standards d'ingénierie du Domaine. Divers adaptateurs auto-modifiants acceptent de l'énergie et des matières premières de forge. Il n'y a pas d'interface de commande. Toute tentative d'interférence avec le fonctionnement provoque des mécanismes d'auto-réparation agressifs par cannibalisation ; une tentative majeure de démontage risquerait l'autodestruction.
+
+Il s'agit clairement d'un fabricateur, car lorsque les entrées sont alimentées, il produit des unités Fragment, chacune formée d'un agencement unique de composants fractals mais fonctionnellement similaire, avec une légère tolérance d'échelle. Simples au niveau individuel, les fragments présentent un comportement émergent sophistiqué en groupe."
+threat_processing_unit,Unité de Traitement de la Menace,"Une unité de calcul basique et modulaire. Celles-ci semblent être employées en grand nombre pour assurer les diverses fonctions des vaisseaux Menace. Pas entièrement comprises, mais clairement bien en-dessous du seuil pour être considérées comme une intelligence artificielle de quelque niveau que ce soit."
+shrouded_substrate,Substrat du Voile,"Matière exotique anormale maintenue en stase semi-stable à l'aide d'unités de confinement de fortune. Il est recommandé d'appliquer les protocoles de manipulation de matières dangereuses de classes 6, 7, 9 et 13. Un examen préliminaire suggère des applications dans la projection d'énergie."
+shrouded_thunderhead,Tête d'Orage du Voile,"""Cette action auto-entretenue produit d'énormes différentiels d'énergie qui sont périodiquement déchargés vers sa, euh, cible. Je n'aurais jamais dit qu'une tempête pouvait être maléfique, mais maintenant...""
+
+- journal audio intercepté, locuteur inconnu"
+shrouded_mantle,Manteau du Voile,"""On ne peut pas stocker l'énergie indéfiniment dans ce plasma théorique fictif. Il faudra bien qu'elle aille quelque part.""
+
+""-Inversez la polarité des convertisseurs de flux et faites vaciller le champ de propulsion. Boum, une légère secousse dans l'espace-temps local. Par quoi j'entends le vaisseau lui-même.""
+
+""Si ça marche."""
+shrouded_lens,Lentille du Voile,"""Activez-la pendant les manœuvres de combat en ajustant la fréquence des 'sondes' adaptées à partir de stabilisateurs de champ de propulsion. Cela créerait des fractures hyperspaciales qui causeraient des dommages terribles aux structures de l'espace normal. Les vaisseaux, par exemple."""

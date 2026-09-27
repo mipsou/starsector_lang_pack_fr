@@ -1,0 +1,268 @@
+{
+	"comm_relay":{
+		"defaultName":"Relais Comm",
+		"nameInText":"relais comm",
+		"shortName":"relais"
+	},
+	"nav_buoy":{
+		"defaultName":"Balise Nav",
+		"nameInText":"balise nav",
+		"shortName":"balise"
+	},
+	"sensor_array":{
+		"defaultName":"Réseau de Capteurs",
+		"nameInText":"réseau de capteurs",
+		"shortName":"capteurs"
+	},
+	"comm_relay_makeshift":{
+		"defaultName":"Relais Comm improvisé"
+	},
+	"nav_buoy_makeshift":{
+		"defaultName":"Balise Nav improvisée"
+	},
+	"sensor_array_makeshift":{
+		"defaultName":"Réseau de Capteurs improvisé"
+	},
+	"stable_location":{
+		"defaultName":"Point Stable",
+		"nameInText":"point stable",
+		"shortName":"point stable"
+	},
+	"mission_location":{
+		"defaultName":"Zone Cible",
+		"nameInText":"zone cible",
+		"shortName":"zone cible"
+	},
+	"cargo_pod_special":{
+		"defaultName":"Conteneur de Fret",
+		"nameInText":"conteneur de fret",
+		"shortName":"conteneur de fret"
+	},
+	"generic_probe":{
+		"defaultName":"Sonde",
+		"nameInText":"sonde",
+		"shortName":"sonde"
+	},
+	"test_station":{
+		"defaultName":"Station Latérale"
+	},
+	"inactive_gate":{
+		"defaultName":"Portail Inactif",
+		"nameInText":"portail inactif"
+	},
+	"station_jangala_type":{
+		"defaultName":"Station Orbitale"
+	},
+	"station_sporeship_derelict":{
+		"defaultName":"Station-Vaisseau Dérélicte"
+	},
+	"stellar_mirror":{
+		"defaultName":"Miroir Stellaire"
+	},
+	"stellar_shade":{
+		"defaultName":"Voile Stellaire"
+	},
+	"station_side00":{
+		"defaultName":"Station Latérale"
+	},
+	"station_galatia":{
+		"defaultName":"Station de l'Académie Galatia"
+	},
+	"station_side02":{
+		"defaultName":"Station Latérale"
+	},
+	"station_side03":{
+		"defaultName":"Station Latérale"
+	},
+	"station_side04":{
+		"defaultName":"Station Latérale"
+	},
+	"station_side05":{
+		"defaultName":"Station Latérale"
+	},
+	"station_mining00":{
+		"defaultName":"Station Latérale"
+	},
+	"station_side07":{
+		"defaultName":"Station Latérale"
+	},
+	"station_side06":{
+		"defaultName":"Station Latérale"
+	},
+	"orbital_dockyard":{
+		"defaultName":"Chantier Orbital"
+	},
+	"station_pirate_type":{
+		"defaultName":"Station Latérale"
+	},
+	"station_built_from_industry":{
+		"defaultName":"Station Orbitale"
+	},
+	"atlantic_label":{
+		"defaultName":"Nuage Atlantien"
+	},
+	"persean_label":{
+		"defaultName":"Les Mondes de la Ligue"
+	},
+	"luddic_label":{
+		"defaultName":"La Voie du Pèlerin"
+	},
+	"zin_label":{
+		"defaultName":"Les Étendues de Zin"
+	},
+	"opabyss_label":{
+		"defaultName":"Abysse Orion-Persée"
+	},
+	"telmun_label":{
+		"defaultName":"Nuage Moléculaire de Telmun"
+	},
+	"cathedral_label":{
+		"defaultName":"Nébuleuse Cathédrale"
+	},
+	"core_label":{
+		"defaultName":"Les Mondes du Noyau"
+	},
+	"derelict_probe":{
+		"defaultName":"Sonde de l'ère du Domaine",
+		"nameInText":"sonde de l'ère du Domaine",
+		"shortName":"sonde"
+	},
+	"derelict_survey_ship":{
+		"defaultName":"Vaisseau d'Exploration de l'ère du Domaine",
+		"nameInText":"vaisseau d'exploration de l'ère du Domaine",
+		"shortName":"vaisseau d'exploration"
+	},
+	"derelict_mothership":{
+		"defaultName":"Vaisseau-Mère de l'ère du Domaine",
+		"nameInText":"vaisseau-mère de l'ère du Domaine",
+		"shortName":"vaisseau-mère"
+	},
+	"derelict_cryosleeper":{
+		"defaultName":"Cryoveilleur de l'ère du Domaine",
+		"nameInText":"cryoveilleur de l'ère du Domaine",
+		"shortName":"cryoveilleur"
+	},
+	"derelict_gatehauler":{
+		"defaultName":"Transporteur de Portail de l'ère du Domaine",
+		"nameInText":"transporteur de portail de l'ère du Domaine",
+		"shortName":"transporteur de portail"
+	},
+	"coronal_tap":{
+		"defaultName":"Hypershunt Coronal",
+		"nameInText":"hypershunt coronal",
+		"shortName":"hypershunt coronal"
+	},
+	"debris_field_shared":{
+		"defaultName":"Champ de Débris",
+		"nameInText":"champ de débris",
+		"shortName":"débris"
+	},
+	"wreck":{
+		"defaultName":"Vaisseau Abandonné",
+		"nameInText":"vaisseau abandonné",
+		"shortName":"vaisseau"
+	},
+	"hidden_cache":{
+		"defaultName":"Cache Secrète",
+		"nameInText":"cache secrète",
+		"shortName":"cache secrète"
+	},
+	"supply_cache":{
+		"defaultName":"Cache de Ravitaillement",
+		"nameInText":"cache de ravitaillement",
+		"shortName":"cache de ravitaillement"
+	},
+	"weapons_cache":{
+		"defaultName":"Cache d'Armes",
+		"nameInText":"cache d'armes",
+		"shortName":"cache d'armes"
+	},
+	"equipment_cache":{
+		"defaultName":"Cache d'Équipement",
+		"nameInText":"cache d'équipement",
+		"shortName":"cache d'équipement"
+	},
+	"technology_cache":{
+		"defaultName":"Cache Technologique",
+		"nameInText":"cache technologique",
+		"shortName":"cache technologique"
+	},
+	"alpha_site_weapons_cache":{
+		"defaultName":"Cache Lourdement Blindée",
+		"nameInText":"cache blindée"
+	},
+	"supply_cache_small":{
+		"defaultName":"Petite Cache de Ravitaillement",
+		"nameInText":"petite cache de ravitaillement",
+		"shortName":"cache de ravitaillement"
+	},
+	"weapons_cache_small":{
+		"defaultName":"Petite Cache d'Armes",
+		"nameInText":"petite cache d'armes",
+		"shortName":"cache d'armes"
+	},
+	"equipment_cache_small":{
+		"defaultName":"Petite Cache d'Équipement",
+		"nameInText":"petite cache d'équipement",
+		"shortName":"cache d'équipement"
+	},
+	"station_mining":{
+		"defaultName":"Station Minière",
+		"nameInText":"station minière"
+	},
+	"station_research":{
+		"defaultName":"Station de Recherche",
+		"nameInText":"station de recherche"
+	},
+	"orbital_habitat":{
+		"defaultName":"Habitat Orbital",
+		"nameInText":"habitat orbital",
+		"shortName":"habitat orbital"
+	},
+	"cargo_pods":{
+		"defaultName":"Conteneurs de Fret",
+		"nameInText":"conteneurs de fret",
+		"shortName":"conteneurs de fret"
+	},
+	"warning_beacon":{
+		"defaultName":"Balise d'Alerte"
+	},
+	"fusion_lamp":{
+		"defaultName":"Lampe à Fusion"
+	},
+	"station_lowtech1":{
+		"defaultName":"Station Orbitale"
+	},
+	"station_lowtech2":{
+		"defaultName":"Fortestation"
+	},
+	"station_lowtech3":{
+		"defaultName":"Forteresse Stellaire"
+	},
+	"station_midline1":{
+		"defaultName":"Station Orbitale"
+	},
+	"station_midline2":{
+		"defaultName":"Fortestation"
+	},
+	"station_midline3":{
+		"defaultName":"Forteresse Stellaire"
+	},
+	"station_hightech1":{
+		"defaultName":"Station Orbitale"
+	},
+	"station_hightech2":{
+		"defaultName":"Fortestation"
+	},
+	"station_hightech3":{
+		"defaultName":"Forteresse Stellaire"
+	},
+	"sensor_ghost":{
+		"defaultName":"Entité Non Identifiée",
+		"nameInText":"écho senseur",
+		"shortName":"écho senseur"
+	},
+	"abyssal_light":{
+		"defaultName":"Lumière Abyssale"
+	}
+}
