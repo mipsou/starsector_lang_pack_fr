@@ -1,0 +1,534 @@
+{
+    "file":  "weapons/weapon_data.csv",
+    "key":  [
+                "id"
+            ],
+    "entries":  {
+                    "lightmg":  {
+                                    "primaryRoleStr":  "Défense ponctuelle"
+                                },
+                    "lightdualmg":  {
+                                        "primaryRoleStr":  "Défense ponctuelle"
+                                    },
+                    "lightmortar":  {
+                                        "primaryRoleStr":  "Anti-blindage"
+                                    },
+                    "lightmortar_fighter":  {
+                                                "primaryRoleStr":  "Anti-blindage (chasseur)"
+                                            },
+                    "vulcan":  {
+                                   "primaryRoleStr":  "Défense ponctuelle"
+                               },
+                    "lightac":  {
+                                    "primaryRoleStr":  "Anti-bouclier"
+                                },
+                    "lightdualac":  {
+                                        "primaryRoleStr":  "Anti-bouclier"
+                                    },
+                    "lightag":  {
+                                    "primaryRoleStr":  "Anti-blindage"
+                                },
+                    "fragbomb":  {
+                                     "primaryRoleStr":  "Anti-chasseur (chasseur)"
+                                 },
+                    "clusterbomb":  {
+                                        "primaryRoleStr":  "Frappe"
+                                    },
+                    "bomb":  {
+                                 "primaryRoleStr":  "Frappe"
+                             },
+                    "lightneedler":  {
+                                         "primaryRoleStr":  "Anti-bouclier"
+                                     },
+                    "railgun":  {
+                                    "primaryRoleStr":  "Anti-bouclier",
+                                    "name":  "Canon Électromagnétique"
+                                },
+                    "shredder":  {
+                                     "primaryRoleStr":  "Polyvalent"
+                                 },
+                    "heavymg":  {
+                                    "primaryRoleStr":  "Défense ponctuelle"
+                                },
+                    "heavymortar":  {
+                                        "primaryRoleStr":  "Anti-blindage"
+                                    },
+                    "flak":  {
+                                 "primaryRoleStr":  "Défense ponctuelle (zone)"
+                             },
+                    "arbalest":  {
+                                     "primaryRoleStr":  "Anti-bouclier"
+                                 },
+                    "dualflak":  {
+                                     "primaryRoleStr":  "Défense ponctuelle (zone)"
+                                 },
+                    "chaingun":  {
+                                     "primaryRoleStr":  "Anti-blindage"
+                                 },
+                    "heavymauler":  {
+                                        "primaryRoleStr":  "Anti-blindage",
+                                        "name":  "Mauler Lourd"
+                                    },
+                    "heavyac":  {
+                                    "primaryRoleStr":  "Anti-bouclier"
+                                },
+                    "hveldriver":  {
+                                       "primaryRoleStr":  "Anti-bouclier"
+                                   },
+                    "heavyneedler":  {
+                                         "primaryRoleStr":  "Anti-bouclier"
+                                     },
+                    "gauss":  {
+                                  "primaryRoleStr":  "Anti-bouclier"
+                              },
+                    "hephag":  {
+                                   "primaryRoleStr":  "Anti-blindage"
+                               },
+                    "mark9":  {
+                                  "primaryRoleStr":  "Anti-bouclier"
+                              },
+                    "devastator":  {
+                                       "primaryRoleStr":  "Anti-chasseur (zone)"
+                                   },
+                    "mjolnir":  {
+                                    "primaryRoleStr":  "Polyvalent"
+                                },
+                    "hellbore":  {
+                                     "primaryRoleStr":  "Anti-blindage"
+                                 },
+                    "multineedler":  {
+                                         "primaryRoleStr":  "Anti-bouclier"
+                                     },
+                    "reaper":  {
+                                   "primaryRoleStr":  "Torpille",
+                                   "speedStr":  "Rapide",
+                                   "trackingStr":  "Aucun"
+                               },
+                    "atropos":  {
+                                    "primaryRoleStr":  "Torpille",
+                                    "speedStr":  "Rapide",
+                                    "trackingStr":  "Bon"
+                                },
+                    "atropos_single":  {
+                                           "primaryRoleStr":  "Torpille",
+                                           "speedStr":  "Rapide",
+                                           "trackingStr":  "Bon"
+                                       },
+                    "hammer":  {
+                                   "primaryRoleStr":  "Torpille",
+                                   "speedStr":  "Rapide",
+                                   "trackingStr":  "Aucun"
+                               },
+                    "hammer_single":  {
+                                          "primaryRoleStr":  "Torpille",
+                                          "speedStr":  "Rapide",
+                                          "trackingStr":  "Aucun"
+                                      },
+                    "swarmer":  {
+                                    "primaryRoleStr":  "Anti-petits appareils",
+                                    "speedStr":  "Rapide",
+                                    "trackingStr":  "Excellent"
+                                },
+                    "swarmer_fighter":  {
+                                            "primaryRoleStr":  "Anti-petits appareils (chasseur)",
+                                            "speedStr":  "Rapide",
+                                            "trackingStr":  "Excellent"
+                                        },
+                    "annihilator":  {
+                                        "primaryRoleStr":  "Anti-blindage",
+                                        "speedStr":  "Rapide",
+                                        "trackingStr":  "Aucun"
+                                    },
+                    "annihilator_fighter":  {
+                                                "primaryRoleStr":  "Anti-blindage (chasseur)",
+                                                "speedStr":  "Rapide",
+                                                "trackingStr":  "Aucun"
+                                            },
+                    "heatseeker":  {
+                                       "primaryRoleStr":  "Anti-moteur",
+                                       "speedStr":  "Rapide",
+                                       "trackingStr":  "Excellent"
+                                   },
+                    "harpoon":  {
+                                    "primaryRoleStr":  "Achèvement",
+                                    "speedStr":  "Moyenne",
+                                    "trackingStr":  "Moyen"
+                                },
+                    "harpoon_single":  {
+                                           "primaryRoleStr":  "Achèvement",
+                                           "speedStr":  "Moyenne",
+                                           "trackingStr":  "Moyen"
+                                       },
+                    "breach":  {
+                                   "primaryRoleStr":  "Anti-blindage",
+                                   "speedStr":  "Rapide",
+                                   "trackingStr":  "Bon"
+                               },
+                    "sabot":  {
+                                  "primaryRoleStr":  "Anti-bouclier",
+                                  "speedStr":  "Lente",
+                                  "trackingStr":  "Faible",
+                                  "name":  "SRM Sabot"
+                              },
+                    "sabot_single":  {
+                                         "primaryRoleStr":  "Anti-bouclier",
+                                         "speedStr":  "Lente",
+                                         "trackingStr":  "Faible",
+                                         "name":  "SRM Sabot (Double)"
+                                     },
+                    "sabot_fighter":  {
+                                          "primaryRoleStr":  "Anti-bouclier (chasseur)",
+                                          "speedStr":  "Lente",
+                                          "trackingStr":  "Faible",
+                                          "name":  "SRM Sabot (Simple)"
+                                      },
+                    "gorgon":  {
+                                   "primaryRoleStr":  "Assaut / Achèvement",
+                                   "speedStr":  "Moyenne",
+                                   "trackingStr":  "Bon"
+                               },
+                    "gazer":  {
+                                  "primaryRoleStr":  "Neutralisation",
+                                  "speedStr":  "Lente",
+                                  "trackingStr":  "Bon"
+                              },
+                    "harpoonpod":  {
+                                       "primaryRoleStr":  "Achèvement",
+                                       "speedStr":  "Moyenne",
+                                       "trackingStr":  "Moyen"
+                                   },
+                    "dragon":  {
+                                   "primaryRoleStr":  "Torpille",
+                                   "speedStr":  "Lente",
+                                   "trackingStr":  "Bon"
+                               },
+                    "gorgonpod":  {
+                                      "primaryRoleStr":  "Assaut / Achèvement",
+                                      "speedStr":  "Moyenne",
+                                      "trackingStr":  "Bon"
+                                  },
+                    "gazerpod":  {
+                                     "primaryRoleStr":  "Neutralisation",
+                                     "speedStr":  "Lente",
+                                     "trackingStr":  "Bon"
+                                 },
+                    "breachpod":  {
+                                      "primaryRoleStr":  "Anti-blindage",
+                                      "speedStr":  "Rapide",
+                                      "trackingStr":  "Bon"
+                                  },
+                    "sabotpod":  {
+                                     "primaryRoleStr":  "Anti-bouclier",
+                                     "speedStr":  "Lente",
+                                     "trackingStr":  "Faible"
+                                 },
+                    "salamanderpod":  {
+                                          "primaryRoleStr":  "Anti-moteur",
+                                          "speedStr":  "Rapide",
+                                          "trackingStr":  "Excellent"
+                                      },
+                    "annihilatorpod":  {
+                                           "primaryRoleStr":  "Pression",
+                                           "speedStr":  "Rapide",
+                                           "trackingStr":  "Aucun"
+                                       },
+                    "pilum":  {
+                                  "primaryRoleStr":  "Soutien longue portée",
+                                  "speedStr":  "Très lente",
+                                  "trackingStr":  "Très faible"
+                              },
+                    "phasecl":  {
+                                    "primaryRoleStr":  "Pression / Anti-chasseur",
+                                    "speedStr":  "Très lente",
+                                    "trackingStr":  "Aucun"
+                                },
+                    "phasecl_bomber":  {
+                                           "primaryRoleStr":  "Frappe (chasseur)",
+                                           "speedStr":  "Très lente",
+                                           "trackingStr":  "Aucun"
+                                       },
+                    "jackhammer":  {
+                                       "primaryRoleStr":  "Torpille",
+                                       "speedStr":  "Rapide",
+                                       "trackingStr":  "Aucun"
+                                   },
+                    "typhoon":  {
+                                    "primaryRoleStr":  "Torpille",
+                                    "speedStr":  "Rapide",
+                                    "trackingStr":  "Aucun"
+                                },
+                    "cyclone":  {
+                                    "primaryRoleStr":  "Torpille",
+                                    "speedStr":  "Rapide",
+                                    "trackingStr":  "Aucun"
+                                },
+                    "pilum_large":  {
+                                        "primaryRoleStr":  "Soutien longue portée",
+                                        "speedStr":  "Très lente",
+                                        "trackingStr":  "Très faible"
+                                    },
+                    "hurricane":  {
+                                      "primaryRoleStr":  "Achèvement",
+                                      "speedStr":  "Moyenne",
+                                      "trackingStr":  "Bon"
+                                  },
+                    "dragonpod":  {
+                                      "primaryRoleStr":  "Torpille",
+                                      "speedStr":  "Lente",
+                                      "trackingStr":  "Bon"
+                                  },
+                    "hydra":  {
+                                  "primaryRoleStr":  "Polyvalent",
+                                  "speedStr":  "Moyenne",
+                                  "trackingStr":  "Excellent"
+                              },
+                    "squall":  {
+                                   "primaryRoleStr":  "Neutralisation",
+                                   "speedStr":  "Très rapide",
+                                   "trackingStr":  "Spécial"
+                               },
+                    "locust":  {
+                                   "primaryRoleStr":  "Anti-petits appareils",
+                                   "speedStr":  "Rapide",
+                                   "trackingStr":  "Excellent"
+                               },
+                    "hammerrack":  {
+                                       "primaryRoleStr":  "Torpille",
+                                       "speedStr":  "Rapide",
+                                       "trackingStr":  "Aucun"
+                                   },
+                    "mininglaser":  {
+                                        "primaryRoleStr":  "Défense ponctuelle"
+                                    },
+                    "pdlaser":  {
+                                    "primaryRoleStr":  "Défense ponctuelle"
+                                },
+                    "taclaser":  {
+                                     "primaryRoleStr":  "Polyvalent"
+                                 },
+                    "ioncannon":  {
+                                      "primaryRoleStr":  "Neutralisation"
+                                  },
+                    "ioncannon_fighter":  {
+                                              "primaryRoleStr":  "Neutralisation (chasseur)"
+                                          },
+                    "irpulse":  {
+                                    "primaryRoleStr":  "Polyvalent"
+                                },
+                    "irpulse_fighter":  {
+                                            "primaryRoleStr":  "Polyvalent (chasseur)"
+                                        },
+                    "lrpdlaser":  {
+                                      "primaryRoleStr":  "Défense ponctuelle"
+                                  },
+                    "pdburst":  {
+                                    "primaryRoleStr":  "Défense ponctuelle"
+                                },
+                    "pdburst_fighter":  {
+                                            "primaryRoleStr":  "Défense ponctuelle (chasseur)"
+                                        },
+                    "amblaster":  {
+                                      "primaryRoleStr":  "Frappe"
+                                  },
+                    "phasebeam":  {
+                                      "primaryRoleStr":  "Polyvalent"
+                                  },
+                    "gravitonbeam":  {
+                                         "primaryRoleStr":  "Neutralisation"
+                                     },
+                    "irautolance":  {
+                                        "primaryRoleStr":  "Polyvalent"
+                                    },
+                    "pulselaser":  {
+                                       "primaryRoleStr":  "Polyvalent"
+                                   },
+                    "miningblaster":  {
+                                          "primaryRoleStr":  "Anti-blindage"
+                                      },
+                    "heavyblaster":  {
+                                         "primaryRoleStr":  "Polyvalent"
+                                     },
+                    "kineticblaster":  {
+                                           "primaryRoleStr":  "Anti-bouclier"
+                                       },
+                    "heavyburst":  {
+                                       "primaryRoleStr":  "Défense ponctuelle"
+                                   },
+                    "ionpulser":  {
+                                      "primaryRoleStr":  "Neutralisation"
+                                  },
+                    "ionbeam":  {
+                                    "primaryRoleStr":  "Neutralisation"
+                                },
+                    "plasma":  {
+                                   "primaryRoleStr":  "Polyvalent"
+                               },
+                    "hil":  {
+                                "primaryRoleStr":  "Anti-blindage"
+                            },
+                    "autopulse":  {
+                                      "primaryRoleStr":  "Polyvalent"
+                                  },
+                    "guardian":  {
+                                     "primaryRoleStr":  "Défense ponctuelle"
+                                 },
+                    "tachyonlance":  {
+                                         "primaryRoleStr":  "Neutralisation"
+                                     },
+                    "gigacannon":  {
+                                       "primaryRoleStr":  "Frappe"
+                                   },
+                    "minipulser":  {
+                                       "primaryRoleStr":  "Anti-bouclier"
+                                   },
+                    "shockrepeater":  {
+                                          "primaryRoleStr":  "Défense ponctuelle",
+                                          "accuracyStr":  "Parfaite"
+                                      },
+                    "riftlance":  {
+                                      "primaryRoleStr":  "Polyvalent"
+                                  },
+                    "riftbeam":  {
+                                     "primaryRoleStr":  "Défense ponctuelle"
+                                 },
+                    "cryoflux":  {
+                                     "primaryRoleStr":  "Polyvalent"
+                                 },
+                    "cryoblaster":  {
+                                        "primaryRoleStr":  "Polyvalent"
+                                    },
+                    "disintegrator":  {
+                                          "primaryRoleStr":  "Anti-blindage"
+                                      },
+                    "riftcascade":  {
+                                        "primaryRoleStr":  "Polyvalent"
+                                    },
+                    "vpdriver":  {
+                                     "primaryRoleStr":  "Anti-bouclier",
+                                     "customPrimary":  "Les tirs peuvent perdre leur cohésion et se dissiper. %s des tirs atteignent la moitié de la portée maximale et %s atteignent la portée maximale."
+                                 },
+                    "realitydisruptor":  {
+                                             "primaryRoleStr":  "Neutralisation"
+                                         },
+                    "amsrm":  {
+                                  "primaryRoleStr":  "Anti-petits appareils",
+                                  "speedStr":  "Extrêmement rapide",
+                                  "trackingStr":  "Excellent"
+                              },
+                    "resonatormrm":  {
+                                         "primaryRoleStr":  "Anti-bouclier",
+                                         "speedStr":  "Rapide",
+                                         "trackingStr":  "Excellent"
+                                     },
+                    "rifttorpedo":  {
+                                        "primaryRoleStr":  "Torpille guidée",
+                                        "speedStr":  "Lente",
+                                        "trackingStr":  "Excellent"
+                                    },
+                    "swarm_launcher":  {
+                                           "primaryRoleStr":  "Spécial"
+                                       },
+                    "seeker_fragment":  {
+                                            "primaryRoleStr":  "Polyvalent",
+                                            "speedStr":  "Moyenne",
+                                            "trackingStr":  "Excellent"
+                                        },
+                    "kinetic_fragments":  {
+                                              "primaryRoleStr":  "Anti-bouclier",
+                                              "speedStr":  "Rapide",
+                                              "trackingStr":  "Spécial",
+                                              "name":  "Fragments Cinétiques"
+                                          },
+                    "unstable_fragment":  {
+                                              "primaryRoleStr":  "Anti-chasseur (zone)",
+                                              "speedStr":  "Très lente",
+                                              "trackingStr":  "Spécial"
+                                          },
+                    "devouring_swarm":  {
+                                            "primaryRoleStr":  "Anti-blindage",
+                                            "speedStr":  "Moyenne",
+                                            "trackingStr":  "Excellent",
+                                            "name":  "Essaim de Défabrication"
+                                        },
+                    "voltaic_discharge":  {
+                                              "primaryRoleStr":  "Défense ponctuelle",
+                                              "accuracyStr":  "Parfaite",
+                                              "name":  "Décharge Voltaïque"
+                                          },
+                    "neutron_torpedo":  {
+                                            "primaryRoleStr":  "Torpille anti-bouclier",
+                                            "speedStr":  "Moyenne",
+                                            "trackingStr":  "Limité",
+                                            "name":  "Torpille à Neutrons"
+                                        },
+                    "light_mass_driver":  {
+                                              "primaryRoleStr":  "Anti-bouclier",
+                                              "name":  "Canon de Masse Léger"
+                                          },
+                    "heavy_mass_driver":  {
+                                              "primaryRoleStr":  "Anti-bouclier"
+                                          },
+                    "neoferric_quadcoil":  {
+                                               "primaryRoleStr":  "Anti-blindage",
+                                               "name":  "Quadbobine Néoferrique"
+                                           },
+                    "voltaic_cannon":  {
+                                           "primaryRoleStr":  "Neutralisation",
+                                           "name":  "Canon Voltaïque"
+                                       },
+                    "voidblaster":  {
+                                        "primaryRoleStr":  "Anti-blindage"
+                                    },
+                    "pseudoparticle_jet":  {
+                                               "primaryRoleStr":  "Anti-bouclier"
+                                           },
+                    "assaying_rift":  {
+                                          "primaryRoleStr":  "Polyvalent",
+                                          "speedStr":  "Lente",
+                                          "trackingStr":  "Excellent",
+                                          "name":  "Faille Dévorante"
+                                      },
+                    "rift_lightning":  {
+                                           "primaryRoleStr":  "Polyvalent",
+                                           "accuracyStr":  "Parfaite"
+                                       },
+                    "abyssal_glare":  {
+                                          "primaryRoleStr":  "Polyvalent",
+                                          "name":  "Éclat Abyssal"
+                                      },
+                    "inimical_emanation":  {
+                                               "primaryRoleStr":  "Neutralisation / Défense ponctuelle",
+                                               "accuracyStr":  "Parfaite",
+                                               "name":  "Émanation Hostile"
+                                           },
+                    "vortex_launcher":  {
+                                            "primaryRoleStr":  "Spécial"
+                                        },
+                    "tpc":  {
+                                "primaryRoleStr":  "Polyvalent"
+                            },
+                    "heavy_adjudicator":  {
+                                              "primaryRoleStr":  "Anti-blindage (zone)"
+                                          },
+                    "terminator_missile":  {
+                                               "primaryRoleStr":  "Missile",
+                                               "speedStr":  "Rapide",
+                                               "trackingStr":  "Moyen"
+                                           },
+                    "lidardish":  {
+                                      "primaryRoleStr":  "Spécial"
+                                  },
+                    "novalaser":  {
+                                      "primaryRoleStr":  "Spécial"
+                                  },
+                    "targetinglaser1":  {
+                                            "primaryRoleStr":  "Spécial"
+                                        },
+                    "targetinglaser2":  {
+                                            "primaryRoleStr":  "Spécial"
+                                        },
+                    "targetinglaser3":  {
+                                            "primaryRoleStr":  "Spécial"
+                                        }
+                }
+}

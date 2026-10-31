@@ -1,0 +1,34 @@
+{
+    "displayName":  "Voie Luddique",
+    "displayNameWithArticle":  "la Voie Luddique",
+    "ranks":  {
+                  "ranks":  {
+                                "spaceCommander":  {
+                                                       "name":  "Marcheur Béni"
+                                                   }
+                            },
+                  "posts":  {
+                                "patrolCommander":  {
+                                                        "name":  "Suppliant"
+                                                    },
+                                "fleetCommander":  {
+                                                       "name":  "Marteau"
+                                                   },
+                                "baseCommander":  {
+                                                      "name":  "Berger-militant"
+                                                  },
+                                "administrator":  {
+                                                      "name":  "Berger-métropolitain"
+                                                  },
+                                "portmaster":  {
+                                                   "name":  "Guetteur du Port"
+                                               },
+                                "quartermaster":  {
+                                                      "name":  "Commissaire de Bord"
+                                                  },
+                                "stationCommander":  {
+                                                         "name":  "Berger-militant"
+                                                     }
+                            }
+              }
+}

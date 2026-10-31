@@ -1,0 +1,31 @@
+{
+    "displayName":  "pirates",
+    "displayNameWithArticle":  "les pirates",
+    "ranks":  {
+                  "ranks":  {
+                                "spaceCommander":  {
+                                                       "name":  "Capitaine"
+                                                   }
+                            },
+                  "posts":  {
+                                "patrolCommander":  {
+                                                        "name":  "Capitaine"
+                                                    },
+                                "fleetCommander":  {
+                                                       "name":  "Maître de Flotte"
+                                                   },
+                                "baseCommander":  {
+                                                      "name":  "Chef de Guerre"
+                                                  },
+                                "stationCommander":  {
+                                                         "name":  "Roi de la Station"
+                                                     },
+                                "portmaster":  {
+                                                   "name":  "Patron du Port"
+                                               },
+                                "administrator":  {
+                                                      "name":  "Patron"
+                                                  }
+                            }
+              }
+}

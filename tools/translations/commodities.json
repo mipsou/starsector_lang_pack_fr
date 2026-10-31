@@ -1,0 +1,7 @@
+{
+  "file": "campaign/commodities.csv",
+  "key": ["id"],
+  "entries": {
+    "volatiles": {"name": "Volatils"}
+  }
+}

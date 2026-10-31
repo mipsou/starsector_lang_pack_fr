@@ -1,0 +1,31 @@
+{
+    "displayName":  "Hégémonie",
+    "displayNameWithArticle":  "l\u0027Hégémonie",
+    "ranks":  {
+                  "ranks":  {
+                                "factionLeader":  {
+                                                      "name":  "Haut Hégémon"
+                                                  },
+                                "spaceCommander":  {
+                                                       "name":  "Commandant"
+                                                   }
+                            },
+                  "posts":  {
+                                "factionLeader":  {
+                                                      "name":  "Haut Hégémon"
+                                                  },
+                                "patrolCommander":  {
+                                                        "name":  "Commandant de Patrouille"
+                                                    },
+                                "fleetCommander":  {
+                                                       "name":  "Commandant de Flotte"
+                                                   },
+                                "baseCommander":  {
+                                                      "name":  "Commandant de Base"
+                                                  },
+                                "militaryAdministrator":  {
+                                                              "name":  "Gouverneur Militaire"
+                                                          }
+                            }
+              }
+}

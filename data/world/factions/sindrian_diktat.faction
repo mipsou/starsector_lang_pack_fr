@@ -1,0 +1,22 @@
+{
+    "displayName":  "Diktat Sindrien",
+    "displayNameWithArticle":  "le Diktat Sindrien",
+    "ranks":  {
+                  "ranks":  {
+                                "factionLeader":  {
+                                                      "name":  "Exécuteur Suprême"
+                                                  }
+                            },
+                  "posts":  {
+                                "factionLeader":  {
+                                                      "name":  "Exécuteur Suprême"
+                                                  },
+                                "guardLeader":  {
+                                                    "name":  "Chef de la Garde Exécutive"
+                                                },
+                                "militaryAdministrator":  {
+                                                              "name":  "Contrôleur Général"
+                                                          }
+                            }
+              }
+}

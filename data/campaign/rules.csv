@@ -684,7 +684,7 @@ Peut-être que cela n'a pas suffi.
 Les répéteurs de récupération - un dispositif courant des sondes et expéditions à haut risque de l'Académie, qui promettent une récompense pour le retour des données - sont tous morts. Désactivés manuellement, surchargés et fusionnés, voire détruits à coups d'outils, de toute évidence. Quelqu'un ne voulait clairement pas qu'ils transmettent leur message, ni aucun message, en ce lieu.",GS_ACADEMY_cont2:Continuer,
 GS_ACADEMY_cont2Sel,DialogOptionSelected,$option == GS_ACADEMY_cont2,,"L'équipement de l'expédition n'est pas ce que l'argent peut acheter de mieux, mais les suites de capteurs et les réseaux de détecteurs ont été manifestement modifiés et entretenus avec soin - ce qu'il en reste, du moins. Ils sont déchirés, tordus et brûlés en filaments noirs déchiquetés.
 
-Des cœurs de données blindés sont récupérés par les équipes de récupération et renvoyés pour analyse dans un coffre en quarantaine de signal prévu à cet effet. Il ne faut pas longtemps à votre officier technique pour rapporter les résultats.","GS_ACADEMY_cont2b:""Report.""",
+Des cœurs de données blindés sont récupérés par les équipes de récupération et renvoyés pour analyse dans un coffre en quarantaine de signal prévu à cet effet. Il ne faut pas longtemps à votre officier technique pour rapporter les résultats.","GS_ACADEMY_cont2b:""Rapport.""",
 GS_ACADEMY_cont2Selb,DialogOptionSelected,$option == GS_ACADEMY_cont2b,,"""À en juger par les journaux et les marqueurs de fabrication, l'expédition remonte à environ le cycle 176,"" dit votre officier technique. ""C'était le vaisseau amiral d'une petite flottille. Les autres ont été... perdus.""
 
 ""Quelqu'un... a essayé d'effacer tous les enregistrements. Réinitialisation de forge.""","GS_ACADEMY_cont3:""Donc il n'y a rien ?""",
@@ -704,13 +704,13 @@ Les communications du vaisseau amiral bourdonnent d'académiciens enthousiastes,
 GS_ACADEMY_cont5Sel,DialogOptionSelected,$option == GS_ACADEMY_cont5,,"La bulle hyperespace de la flottille ondule, puis se tend sous une force impossible. Des relevés capteurs anomaux sont marqués, puis...
 
 Une erreur apparaît de votre propre logiciel. 
-FIABILITÉ EXTRÊMEMENT FAIBLE. La sortie peut ne pas refléter une reconstitution fidèle des données. Continuer ?",GS_ACADEMY_cont6:Hit 'continue',
+FIABILITÉ EXTRÊMEMENT FAIBLE. La sortie peut ne pas refléter une reconstitution fidèle des données. Continuer ?",GS_ACADEMY_cont6:Appuyer sur « Continuer »,
 GS_ACADEMY_cont6Sel,DialogOptionSelected,$option == GS_ACADEMY_cont6,,"L'écran est rempli d'icônes rouges, d'alertes dentelées convergeant vers les éléments de la flottille.
 
 L'académicien en chef ordonne une salve capteurs complète, puissance maximale, utilisant la suite intégrée de toute la flottille. Il y a un flash d'ondes EM ; et pulsation gravimétrique, doppler hyperonde, résonateurs Atherton...
 
 Une autre erreur.
-INTERRUPTION : DONNÉES INSUFFISANTES. Continuer vers la prochaine reconstitution viable ?",GS_ACADEMY_cont7:Hit 'continue',
+INTERRUPTION : DONNÉES INSUFFISANTES. Continuer vers la prochaine reconstitution viable ?",GS_ACADEMY_cont7:Appuyer sur « Continuer »,
 GS_ACADEMY_cont7Sel,DialogOptionSelected,$option == GS_ACADEMY_cont7,$salvageLeaveText = Leave 0,"Le flux est dégradé, fragmentaire. La flottille a disparu ; seul le vaisseau amiral reste, des voix paniquées sur les communications du vaisseau, en retraite de sa trajectoire précédente. La chronologie montre un enregistrement haché de réparations de dommages désespérées et la lente prise de conscience de l'équipage qu'ils ne pourront pas revenir dans l'espace civilisé.
 
 C'est une spirale de la mort connue et redoutée par tous les équipages spatiaux.
@@ -953,7 +953,7 @@ FireBest DialogOptionSelected","""Oh, bien sûr,"" dit-elle.
 L'échantillon émerge, et — plus délicatement, maintenant — l'Ingénieur en Chef Tanaica enfile des gants et le replace dans votre conteneur d'échantillons.
 
 ""Attendez."" Elle regarde le conteneur d'échantillons. ""Vraiment ?""",,
-oyaTanaicaVambraceOneslaught2a,DialogOptionSelected,$option == oyaTanaica_vambraceOneslaught2,,,"oyaTanaica_vambraceOneslaught3a:""Really.""",
+oyaTanaicaVambraceOneslaught2a,DialogOptionSelected,$option == oyaTanaica_vambraceOneslaught2,,,"oyaTanaica_vambraceOneslaught3a:""Vraiment.""",
 oyaTanaicaVambraceOneslaught2b,DialogOptionSelected,"$option == oyaTanaica_vambraceOneslaught2
 PlayerFleetHasShipWithBaseHull onslaught_mk1",,,"oyaTanaica_vambraceOneslaught3b:""Vraiment. J'en ai un en orbite.""",
 oyaTanaica_vambraceOneslaught3a,DialogOptionSelected,$option == oyaTanaica_vambraceOneslaught3a,"$option = oyaTanaica_vambraceOneslaught4 0
@@ -2097,12 +2097,12 @@ Les yeux de $heOrShe reviennent fixer le lien de communication.","TTpatrol_weird
 TTpatrol_weirdMods3a:""Ah bon ? Comme c'est intéressant.""
 TTpatrol_weirdMods3c:""Est-ce que ça va poser problème ?""",
 TTpatrolWeirdMods3a,DialogOptionSelected,$option == TTpatrol_weirdMods3a,"$option = TTpatrol_weirdMods4 0
-FireBest DialogOptionSelected","""Yes. And... yes."" $HeOrShe clears $hisOrHer throat.",,
+FireBest DialogOptionSelected",« Oui. Et... oui. » $HeOrShe s'éclaircit la gorge.,,
 TTpatrolWeirdMods3b,DialogOptionSelected,$option == TTpatrol_weirdMods3b,,"Une expression de profonde consternation traverse le visage du $post. La réponse est clairement 'non', mais $heOrShe semble incapable de le dire. Après plusieurs secondes d'agonie, $heOrShe parvient à formuler une réponse.
 
 ""J'ai... jamais rien vu de tel.""",TTpatrol_weirdMods4:Continuer,
 TTpatrolWeirdMods3c,DialogOptionSelected,$option == TTpatrol_weirdMods3c,"$option = TTpatrol_weirdMods4 0
-FireBest DialogOptionSelected","""I don't... no, no trouble."" $HeOrShe clears $hisOrHer throat.",,
+FireBest DialogOptionSelected","« Je ne... non, aucun problème. » $HeOrShe s'éclaircit la gorge.",,
 TTpatrolWeirdMods3OMKI,DialogOptionSelected,$option == TTpatrol_weirdMods3OMKI,"$option = TTpatrol_weirdMods4 0
 FireBest DialogOptionSelected","""...Oui,"" dit $heOrShe. ""Oui, je suppose que c'est le cas.""",,
 TTpatrolWeirdMods4,DialogOptionSelected,$option == TTpatrol_weirdMods4,FireAll TTpatrolWeirdModsHub,"""J'ai un message à vous transmettre."" $HeOrShe regarde $hisOrHer écran secondaire.
@@ -3902,7 +3902,7 @@ Have fun with this case, modders!",,,,,,
 ceyxOverride,OpenInteractionDialog,$id == ceyx score:100,"PrintDescription 3
 ShowDefaultVisual",Votre $shipOrFleet approche $entityName.,100:defaultLeave:Partir,
 ceyxOverride2,PopulateOptions,$id == ceyx score:100,"PrintDescription 3
-ShowDefaultVisual",Your $shipOrFleet approaches $entityName.,100:defaultLeave:Partir,
+ShowDefaultVisual",Votre $shipOrFleet s'approche de $entityName.,100:defaultLeave:Partir,
 # Luddic Pilgrim's Path - LPP,,,,,,
 # Intro to Pilgrim's Path mission,,,,,,# Can be accepted at any public shrine
 lppHookStart,DialogOptionSelected,"$option == lpp_hookStart
@@ -5336,7 +5336,7 @@ lppJangalaProtestRespMarines,PPJangalaProtestResponses,$player.marines > 11,,,lp
 lppJangalaProtestWait,DialogOptionSelected,$option == lpp_jangalaProtestWait,"EndConversation DO_NOT_FIRE
 ShowImageVisual protest","Vous attendez. La foule grossit, et s'impatiente - une minorité raille et crie, quelques spaciens commencent à jeter des déchets. Les luddics entonnent leur prière-cantique, appelant à la fin des brûlages orbitaux, bras entrelacés. Les bagarres qui éclatent montrent clairement que la cause luddic recueille un large soutien au-delà des manifestants déclarés.
 
-On frôle le point d'ébullition quand les têtes commencent à se tourner et que vous apercevez un régiment sombre de soldats en armure légère se déployer depuis des colonnes en formation de coin. Des drones de sécurité vrombissent au-dessus, lasers de ciblage et caméras d'identification clignotant.",lpp_jangalaProtestWait2:Wait,
+On frôle le point d'ébullition quand les têtes commencent à se tourner et que vous apercevez un régiment sombre de soldats en armure légère se déployer depuis des colonnes en formation de coin. Des drones de sécurité vrombissent au-dessus, lasers de ciblage et caméras d'identification clignotant.",lpp_jangalaProtestWait2:Attendre,
 lppJangalaProtestWait2,DialogOptionSelected,$option == lpp_jangalaProtestWait2,,"Une avancée régulière brise la ligne de protestation, des matraques à choc montent et retombent pour faire taire cris et hurlements. Il est difficile de voir à travers le gaz de pacification, mais vous distinguez des drones déployant de la mousse de contention sur des formes qui se débattent. Les poings, les pancartes, et même les marteaux des luddics sont inutiles face à la gendarmerie en armure assistée.
 
 ""Vous pouvez passer en toute sécurité, citoyen"", vous bourdonne un drone d'une voix agréable.
@@ -5378,7 +5378,7 @@ lppJangalaProtestInfoHegCom,DialogOptionSelected,$option == lpp_jangalaProtestIn
 lpp_jangalaProtestInfoHegComWait:""Merci, mais je préfère attendre.""",
 lppJangalaProtestInfoHegComNo,PPJangalaProtestInfoAsked,,FireAll PPJangalaProtestResponses,,,
 lppJangalaProtestInfoHegComWait,DialogOptionSelected,$option == lpp_jangalaProtestInfoHegComWait,"EndConversation DO_NOT_FIRE
-ShowDefaultVisual",Le $rank hoche la tête et retourne au communicateur avec un professionnalisme plus marqué désormais ; la gendarmerie ne doit plus être loin.,lpp_jangalaProtestWait:Wait,
+ShowDefaultVisual",Le $rank hoche la tête et retourne au communicateur avec un professionnalisme plus marqué désormais ; la gendarmerie ne doit plus être loin.,lpp_jangalaProtestWait:Attendre,
 lppJangalaProtestInfoHegCom2,DialogOptionSelected,$option == lpp_jangalaProtestInfoHegCom2,"EndConversation DO_NOT_FIRE
 ShowDefaultVisual","Le $rank fait signe à un cadet, lui donnant des instructions pour vous guider, vous, vos gardes et quelques membres de votre équipage en permission à terre - qui semblent de plus en plus impatients - par un itinéraire alternatif vers la promenade commerciale.",lpp_jangalaProtestEndGeneric:Continuer,
 lppJangalaProtestChurch1,DialogOptionSelected,$option == lpp_jangalaProtestChurch1,"EndConversation DO_NOT_FIRE
@@ -9285,7 +9285,7 @@ FireBest DialogOptionSelected","Bornanew hoche la tête, sans tout à fait s'inc
 BFFIonBoardingRespDowngrade,DialogOptionSelected,$option == BFFI_onBoardingStateroomDowngrade,"$option = BFFI_onBoarding2 0
 FireBest DialogOptionSelected","""Si vous le voulez bien,"" dit Bornanew avec un hochement de tête qui n'est pas tout à fait une révérence. ""Ce serait tout à fait approprié pour mon service de pénitence.""",,
 BFFIonBoard2,DialogOptionSelected,$option == BFFI_onBoarding2,"HideFirstPerson
-ShowLargePlanet","You have Bornanew's luggage taken to his quarters by a couple crew who clearly expected heavier lifting, then have him meet you in a debriefing room to plan your next move.",BFFI_onBoardingYarbStart:Continuer,
+ShowLargePlanet","Vous faites porter les bagages de Bornanew jusqu'à ses quartiers par deux membres d'équipage qui s'attendaient visiblement à quelque chose de plus lourd, puis vous lui donnez rendez-vous dans une salle de briefing pour planifier la suite.",BFFI_onBoardingYarbStart:Continuer,
 BFFIonBoardYarbStart,DialogOptionSelected,$option == BFFI_onBoardingYarbStart,"ShowPersonVisual
 Highlight ""Menes Yaribay""
 $option = BFFI_onBoardingYarbResp 0
@@ -9364,9 +9364,9 @@ FireBest DialogOptionSelected","""C'est un vrai gant,"" dit-il, ""Ça au moins, 
 
 ""C'est juste un gant de travail, un modèle parmi tant d'autres répandus dans le Secteur Perséen juste avant et après l'Effondrement.""",,
 BFFIonBoardAskRelic1b,DialogOptionSelected,$option == BFFI_onBoardAskRelic1b,"$option = BFFI_onBoardAskRelic2 0
-FireBest DialogOptionSelected","""I think,"" he begins, ""it is a matter of seeking a physical connection with the sacred.""",,
+FireBest DialogOptionSelected","« Je pense, commence-t-il, qu'il s'agit de rechercher un lien physique avec le sacré. »",,
 BFFIonBoardAskRelic1c,DialogOptionSelected,$option == BFFI_onBoardAskRelic1c,"$option = BFFI_onBoardAskRelic2 0
-FireBest DialogOptionSelected","Bornanew laughs. ""Yes, exactly.""",,
+FireBest DialogOptionSelected","Bornanew rit. « Oui, exactement. »",,
 BFFIonBoardAskRelic2,DialogOptionSelected,$option == BFFI_onBoardAskRelic2,,"""Mon objection, c'est que le gant, même s'il s'agit bien du gant, n'a aucune importance. Ce qui compte, c'est le message de Ludd, le sacrifice de Ludd ; c'est l'acte d'une force morale divine touchant l'âme de l'humanité avec une grâce suprême.""",BFFI_onBoardAskRelic3:Continuer,
 BFFIonBoardAskRelic3,DialogOptionSelected,$option == BFFI_onBoardAskRelic3,,"""Que représente un gant face à la lumière de la Révélation ?"" Les mots sortent avec force.
 
@@ -9413,11 +9413,11 @@ bffi_onBoardPlanSteal:""On pourrait le voler.""
 bffi_onBoardPlanHorus:""Je pourrais parler à Horus Yaribay. C'est lui qui dirige sa gens, je présume.""",
 BFFIonBoardHorusCheck,BFFIonBoardHorusCheck,!$player.gaveDaudYaribayContact ,RemoveOption bffi_onBoardPlanHorus,,,
 BFFIonBoardPlanOptsToMe,DialogOptionSelected,$option == bffi_onBoardPlanToMe,"$option = BFFI_onBoardEnd 0
-FireBest DialogOptionSelected","""Yes,"" he says with the hint of a smile.",,
+FireBest DialogOptionSelected","« Oui », dit-il avec l'ombre d'un sourire.",,
 BFFIonBoardPlanOptsHorus,DialogOptionSelected,$option == bffi_onBoardPlanHorus,"$option = BFFI_onBoardEnd 0
 FireBest DialogOptionSelected","""Intéressant."" Bornanew se frotte le menton. ""Si vous pensez que Horus sera réceptif au fait que vous lui apportiez cette... nouvelle. Je me demande si ce pourrait être aussi simple que cela.""",,
 BFFIonBoardPlanOptsSteal,DialogOptionSelected,$option == bffi_onBoardPlanSteal,"$option = BFFI_onBoardEnd 0
-FireBest DialogOptionSelected","""It is... yes, that is possible,"" he says begrudgingly. ""I would like to know more before we act, however. I pray this may prove simpler than could be hoped.""",,
+FireBest DialogOptionSelected","« C'est... oui, c'est possible, concède-t-il à contrecœur. J'aimerais cependant en savoir davantage avant d'agir. Je prie pour que cela se révèle plus simple qu'on ne pourrait l'espérer. »",,
 BFFIonBoardPlanOptsBuy,DialogOptionSelected,$option == bffi_onBoardPlanBuy,"$global.bffi_preproposedBuyerOption = true
 $option = BFFI_onBoardEnd 0
 FireBest DialogOptionSelected","""Vous pourriez."" Bornanew appuie sur le 'vous'. ""L'Église refuse de reconnaître la fausse relique.""",,
@@ -9504,7 +9504,7 @@ BFFImeetMenes4,DialogOptionSelected,$option == BFFI_meetMenes4,AdjustRepActivePe
 
 ""Amenez votre ami,"" un air espiègle se dessine sur son visage. ""J'ai un objet dans ma collection spéciale,"" ses sourcils s'agitent, ""qui va propulser son tabard directement en orbite ! Vous verrez, vous verrez. Oh, c'est tellement parfait.""",BFFI_meetMenesEnd:Continuer,
 BFFImeetMenesEnd,DialogOptionSelected,$option == BFFI_meetMenesEnd,"$global.bffi_gotPartyInvite = true
-unset $global.bffi_goMeetMenesYaribay","Menes, still grinning and rattling on about his plans, sends you credentials to allow the docking of a shuttle at his private complex on the surface of Olinadu.","BFFI_meetMenesBornanew1:""Nous nous reverrons bientôt, j'en suis sûr.""",
+unset $global.bffi_goMeetMenesYaribay","Menes, toujours souriant et intarissable sur ses projets, vous transmet des autorisations permettant à une navette d'accoster à son complexe privé, à la surface d'Olinadu.","BFFI_meetMenesBornanew1:""Nous nous reverrons bientôt, j'en suis sûr.""",
 # BFFI talk to Bornanew after Menes convo,,,,,,
 BFFImeetMenesBornanew,DialogOptionSelected,$option == BFFI_meetMenesBornanew1,"EndConversation DO_NOT_FIRE
 ShowDefaultVisual","Vous coupez les communications, puis convoquez Bornanew dans une salle de briefing pour discuter de la prochaine phase du plan.",BFFI_meetMenesBornanew1b:Continuer,
@@ -9516,7 +9516,7 @@ FireBest DialogOptionSelected","Bornanew entre la tête baissée, portant son ca
 Le carnet claque sur la table un peu plus fort que ce qui serait considéré comme strictement poli.",,
 BFFImeetMenesBornanew2a,DialogOptionSelected,"$option == BFFI_meetMenesBornanew2
 $player.bffi_saidHardened","$option = BFFI_meetMenesBornanew3 0
-FireBest DialogOptionSelected","""-I'd hardly describe myself as a 'hardened' criminal, and although technically a Knight of Ludd, I'm merely a novice - and one in poor standing at that.""",,
+FireBest DialogOptionSelected","« ...Je ne me décrirais guère comme un criminel « endurci », et bien que je sois techniquement un Chevalier de Ludd, je ne suis qu'un novice - et mal considéré, qui plus est. »",,
 BFFImeetMenesBornanew2b,DialogOptionSelected,"$option == BFFI_meetMenesBornanew2
 $player.bffi_saidHideTerrorists","$option = BFFI_meetMenesBornanew3 0
 FireBest DialogOptionSelected","""Je pense qu'il est malveillant au point de la diffamation de décrire les gens de Mazalot comme des 'terroristes' aussi facilement. Et bien que ce fût une communauté agricole isolée, j'étais loin d'être un ermite, sans parler de..."" Il s'interrompt au milieu de sa réfutation et lève les yeux.",,
@@ -9526,9 +9526,9 @@ FireBest DialogOptionSelected","""Bien que techniquement Chevalier de Ludd, je n
 BFFImeetMenesBornanew3,DialogOptionSelected,$option == BFFI_meetMenesBornanew3,,,"BFFI_meetMenesBornanew4a:""Détendez-vous, $global.jethroName. On vous rend juste plus intéressant pour Menes.""
 BFFI_meetMenesBornanew4b:""Vous saviez ce que cela impliquait. Pensez au bien que cela accomplira.""",
 BFFImeetMenesBornanew4a,DialogOptionSelected,$option == BFFI_meetMenesBornanew4a,"$option = BFFI_meetMenesBornanew5 0
-FireBest DialogOptionSelected","""Yes,"" he sighs. ""A barefaced ruse, I understand.""",,
+FireBest DialogOptionSelected","« Oui, soupire-t-il. Une ruse grossière, je comprends. »",,
 BFFImeetMenesBornanew4b,DialogOptionSelected,$option == BFFI_meetMenesBornanew4b,"$option = BFFI_meetMenesBornanew5 0
-FireBest DialogOptionSelected","""Yes,"" he sighs. ""I shall hold that thought as dearest comfort.""",,
+FireBest DialogOptionSelected","« Oui, soupire-t-il. Je garderai cette pensée comme mon plus cher réconfort. »",,
 BFFImeetMenesBornanew5,DialogOptionSelected,$option == BFFI_meetMenesBornanew5,FireAll BFFImeetMenesBornanewOpts,"""Néanmoins, ça s'est bien passé. Très bien.""",,
 BFFImmBornStealOpt,BFFImeetMenesBornanewOpts,!$proposedStealOption,,,"bffi_mmBornStealOpt:""Nous devrions voler le gant.""",# Jethro wont like this
 BFFImmBornStealOptAgain,BFFImeetMenesBornanewOpts,$proposedStealOption,,,"bffi_mmBornStealOpt:""Rediscutons de l'option du cambriolage.""",
@@ -9579,7 +9579,7 @@ BFFI_meetMenesBornOptSteal4b:""Je pourrais envoyer un raid de marines pour le vo
 BFFI_meetMenesBornOptSteal4c:""Je pourrais menacer de bombarder la planète jusqu'à ce que Menes remette la relique.""
 BFFI_meetMenesBornOptSteal4d:""Bien. Trouvons autre chose.""",
 BFFImeetMenesBornOptSteal4a,DialogOptionSelected,$option == BFFI_meetMenesBornOptSteal4a,"$option = bffi_mmStealOptEnd 0
-FireBest DialogOptionSelected","Bornanew nods, still looking displeased.",,
+FireBest DialogOptionSelected","Bornanew acquiesce, l'air toujours mécontent.",,
 BFFImeetMenesBornOptSteal4b,DialogOptionSelected,$option == BFFI_meetMenesBornOptSteal4b,"$option = bffi_mmStealOptEnd 0
 FireBest DialogOptionSelected",Bornanew vous lance un regard éperdu.,,
 BFFImeetMenesBornOptSteal4c,DialogOptionSelected,$option == BFFI_meetMenesBornOptSteal4c,"$option = bffi_mmStealOptEnd 0
@@ -9587,7 +9587,7 @@ FireBest DialogOptionSelected","Bornanew vous lance un regard éperdu.
 
 ""Je prie pour que ce ne soit qu'une plaisanterie de mauvais goût.""",,
 BFFImeetMenesBornOptSteal4d,DialogOptionSelected,$option == BFFI_meetMenesBornOptSteal4d,"$abortedHeistDiscussion = true 0
-FireAll BFFImeetMenesBornanewOpts","Bornanew nods, still looking a bit as though he's eaten something foul.",,
+FireAll BFFImeetMenesBornanewOpts","Bornanew acquiesce, avec toujours un peu l'air d'avoir avalé quelque chose d'infect.",,
 BFFImmStealOptEnd,DialogOptionSelected,$option == bffi_mmStealOptEnd,,"Votre officier tactique a déjà pris les devants pour collecter discrètement les informations publiques disponibles sur le complexe de Menes Yaribay. Les capteurs ont organisé des scans passifs à recouper avec les plans officiels de la structure. Les communications ont trouvé un holo promotionnel dans lequel Menes fait une visite personnelle d'une partie de sa collection.
 
 Tout ce que vous avez vraiment à faire, c'est vous faire inviter dans le sanctuaire intérieur.","bffi_mmBornDoSteal:""Alors c'est décidé. J'aurai des outils, ça ira.""
@@ -9625,7 +9625,7 @@ BFFImmBornBuyerOptHubCno,BFFImmBornBuyerOptHub,$player.numColonies == 0,SetEnabl
 BFFImmBornBuyerOptHubD,BFFImmBornBuyerOptHub,!$saidBuyerDemarch,"SetTooltip bffi_mmBornBuyerLeague ""Menes Yaribay sera plus enclin à faire confiance à la parole - et au crédit - de quelqu'un qui est techniquement un confrère démarque de la Ligue perséenne."" ",,"bffi_mmBornBuyerLeague:""Je n'ai peut-être pas de crédits, mais je suis membre de la Ligue perséenne...""","# handled later, but bring up the possibility now..."
 BFFImmBornBuyerOptHubDno,BFFImmBornBuyerOptHub,!$player.isLeagueMember,SetEnabled bffi_mmBornBuyerLeague false,,,
 BFFImmBornBuyerOptHubE,BFFImmBornBuyerOptHub,"!$saidArroyo
-$global.metArroyo",,,"bffi_mmBornArroyo:""I do happen to know someone extremely rich. Rayan Arroyo.""",# :D 
+$global.metArroyo",,,"bffi_mmBornArroyo:""Il se trouve que je connais quelqu'un d'extrêmement riche. Rayan Arroyo.""",# :D 
 BFFImmBornBuyerOptHubF2,BFFImmBornBuyerOptHub,,,,"bffi_mmBornDoBuyer:""Allons-y. Je ferai semblant de vouloir acheter une 'vraie' relique.""",
 BFFImmBornBuyerOptHubFno,BFFImmBornBuyerOptHub,"$player.credits < 500000
 !$instalmentPlanProposed","SetEnabled bffi_mmBornDoBuyer false
@@ -9656,7 +9656,7 @@ FireAll BFFImmBornBuyerOptHub","""Oui,"" admet Bornanew.
 ""Je ne crois pas que Menes prendra une offre au sérieux à moins que vous ne puissiez démontrer que vous possédez une immense fortune. Un demi-million de crédits, au moins. Pour être sûr."" Il tapote son livre, ""Bien que si vous pouviez le convaincre d'accepter un paiement échelonné, vous n'auriez peut-être à payer qu'une fraction du prix total pour en prendre possession...""",,
 BFFImmBornBuyerColony,DialogOptionSelected,$option == bffi_mmBornBuyerColony,"$instalmentPlanProposed = true 0
 $saidBuyerColony = true 0
-FireAll BFFImmBornBuyerOptHub","""That's true,"" Bornanew says. ""You might be able to talk Menes into accepting payment in the form of smaller installments. Then if we can resolve the entire matter of the glove quickly, perhaps you would only have to pay the initial deposit...""",,
+FireAll BFFImmBornBuyerOptHub","« C'est vrai, dit Bornanew. Vous pourriez peut-être convaincre Menes d'accepter un paiement en plusieurs versements. Ensuite, si nous parvenons à régler rapidement toute cette affaire du gant, peut-être n'auriez-vous à payer que l'acompte initial... »",,
 BFFImmBornBuyerLeague,DialogOptionSelected,$option == bffi_mmBornBuyerLeague,"$instalmentPlanProposed = true 0
 $saidBuyerDemarch = true 0
 FireAll BFFImmBornBuyerOptHub","""An excellent point,"" Bornanew says, looking hopeful.
@@ -9684,7 +9684,7 @@ BFFImmBornOptRaid2,DialogOptionSelected,$option == BFFI_meetMenesBornOptRaid2,,"
 
 ""'Protéger la foi, protéger les fidèles...'"" Il cite quelque chose - son serment ?","BFFI_meetMenesBornOptRaid3:""Exactement. Comme Ludd, juste avec marteau et épée en main !""",
 BFFImmBornOptRaid3,DialogOptionSelected,$option == BFFI_meetMenesBornOptRaid3,"$option = BFFI_meetMenesBornOptRaid4 0
-FireBest DialogOptionSelected","""Yes, well. The sword is a symbol, an image, captain. Imagine waving a sword around in this age."" He shakes his head.",,
+FireBest DialogOptionSelected","« Oui, enfin. L'épée est un symbole, une image, capitaine. Imaginez donc agiter une épée à notre époque. » Il secoue la tête.",,
 BFFImmBornOptRaid4a,DialogOptionSelected,"$option == BFFI_meetMenesBornOptRaid4
 $player.soe_wonDuel","$option = BFFI_meetMenesBornOptRaid4d 0
 FireBest DialogOptionSelected",Vous vous dites que ce n'est pas le moment d'évoquer votre expérience au complexe Rao sur Eventide.,,
@@ -9709,7 +9709,7 @@ SetPersonHidden horus_yaribay false
 unset $global.bffi_gotPartyInvite
 Call $global.bffi_ref updateStage
 $option = bffi_mmBornOutro 0
-FireBest DialogOptionSelected","""To Kazeron."" He smiles easily as he pockets his notebook, then says ""I've never been.""",,# what if player visited Kazeron after picking up Bornanew from Mazalot? Good lord.
+FireBest DialogOptionSelected","« À Kazeron. » Il sourit avec aisance en rangeant son carnet, puis ajoute : « Je n'y suis jamais allé. »",,# what if player visited Kazeron after picking up Bornanew from Mazalot? Good lord.
 # BFFI mm do steal outro,,,,,,
 BFFImmBornDoSteal,DialogOptionSelected,$option == bffi_mmBornDoSteal,$global.bffi_intendToSteal = true,"Parfois, acquérir quelque chose est aussi simple que de le prendre.
 
@@ -9734,7 +9734,7 @@ BFFImmBornDoStealHubD,BFFImmBornDoStealHubOpts,!$saidDoStealHubTell,,,"bffi_mmBo
 BFFImmBornDoStealHubE,BFFImmBornDoStealHubOpts,!$saidDoStealHubLetGo ,,,"bffi_mmBornDoStealLetGo:""Vous n'allez pas lâcher l'affaire, pas vrai.""",
 BFFImmBornDoStealHubF,BFFImmBornDoStealHubOpts,$saidDoStealHubLetGo ,,,"bffi_mmBornOutro:""Si vous insistez, alors.""",
 BFFImmBornDoSteal4,DialogOptionSelected,$option == bffi_mmBornDoSteal4,"$saidDoStealHub4 = true 0
-FireAll BFFImmBornDoStealHubOpts","""I am. I did,"" he says. ""But more necessary than my conscience is our success. I shall bear my burden.""",,
+FireAll BFFImmBornDoStealHubOpts","« Je le suis. Je l'ai fait, dit-il. Mais notre réussite est plus nécessaire que ma conscience. Je porterai mon fardeau. »",,
 BFFImmBornDoSteal5,DialogOptionSelected,$option == bffi_mmBornDoSteal5,"$saidDoStealHub5 = true 0
 FireAll BFFImmBornDoStealHubOpts","""Why should Menes leave you alone with the relic, or at all?"" He looks over at you. 
 
@@ -9748,7 +9748,7 @@ FireAll BFFImmBornDoStealHubOpts","""We attend Menes' party. Be interesting. Be 
 
 ""I know this trade, captain. Have faith."" He pauses for a moment, acknowledging some irony in his own words. ""It works best if you act natural.""",,
 BFFImmBornDoStealLetGo,DialogOptionSelected,$option == bffi_mmBornDoStealLetGo,"$saidDoStealHubLetGo = true 0
-FireAll BFFImmBornDoStealHubOpts","He crosses his arms. ""I am not.""",,
+FireAll BFFImmBornDoStealHubOpts",Il croise les bras. « Je ne le suis pas. »,,
 # BFFI mm do raid outro,,,,,,
 BFFImmBornDoRaid,DialogOptionSelected,$option == bffi_mmBornDoRaid,,"Bornanew incline la tête à vos mots. Son expression est sombre.
 
@@ -9787,7 +9787,7 @@ Une prière, suspectez-vous.",,
 BFFItalkHorusParty,PopulateOptions,"$id == horus_yaribay
 Call $global.bffi_ref updateData
 $bffi_stage == TALK_TO_HORUS
-$bffi_talkToHorusAboutMenesParty",,,"bffi_talkHorusParty1:""I'd like to discuss a matter involving Menes Yaribay.""",
+$bffi_talkToHorusAboutMenesParty",,,"bffi_talkHorusParty1:""J'aimerais discuter d'une affaire concernant Menes Yaribay.""",
 BFFItalkHorusParty1,DialogOptionSelected,$option == bffi_talkHorusParty1,FireAll BFFItalkHorusPartyOpts,"""Cousin Menes,"" dit-il en soupirant.
 
 ""Qu'est-ce qu'il a encore fait ?""",,
@@ -9817,7 +9817,7 @@ BFFItalkHorusPartyEndA,DialogOptionSelected,$option == bffi_talkHorusPartyEndA,,
 
 ""Cependant. J'apprécie votre... prévenance en portant cette affaire à mon attention.""",bffi_talkHorusPartyEnd:Continuer,
 BFFItalkHorusPartyEndB,DialogOptionSelected,$option == bffi_talkHorusPartyEndB,"$player.ethosSarcastic++ 
-AdjustRepActivePerson HOSTILE -1","""Thank-you captain, that is fabulous advice,"" Horus says in a tone demonstrating very little appreciation for your input.",bffi_talkHorusPartyEnd:Continuer,
+AdjustRepActivePerson HOSTILE -1","« Merci, capitaine, c'est un conseil fabuleux », dit Horus d'un ton qui trahit fort peu de reconnaissance pour votre contribution.",bffi_talkHorusPartyEnd:Continuer,
 BFFItalkHorusPartyAttendEnd,DialogOptionSelected,$option == bffi_talkHorusPartyEnd,"$global.bffi_horusToParty = true
 $global.bffi_gotPartyInvite = true
 Call $global.bffi_ref updateStage","""I shall make my own way to Olinadu, thank you. Have your people coordinate with my people.""
@@ -9835,7 +9835,7 @@ BFFIattendPartyStartOption,PopulateOptions,"$market.id == olinadu
 $menuState == main
 !$global.bffi_horusToParty
 Call $global.bffi_ref updateData
-$bffi_stage == ATTEND_A_PARTY",FireAll BFFIapStartOptionRaidCheck,,3:bffi_attendPartyIntro1:Accept Menes Yaribay's invitation and shuttle to his complex,
+$bffi_stage == ATTEND_A_PARTY",FireAll BFFIapStartOptionRaidCheck,,3:bffi_attendPartyIntro1:Accepter l'invitation de Menes Yaribay et rejoindre son complexe en navette,
 BFFIapStartOptionRaidCheck1,BFFIapStartOptionRaidCheck,"$global.bffi_intendToRaid
 $player.transponderOn","SetEnabled bffi_attendPartyIntro1 false
 SetTooltip bffi_attendPartyIntro1 ""You must approach Olinadu with your transponder off in order to sneak marines into position.""",,,
@@ -9902,7 +9902,7 @@ BFFIattendPartyHub1Intro5,DialogOptionSelected,$option == bffi_attendPartyHub1In
 ""Let me introduce Ulmus Pond,"" he says. ""Now he'll claim to be a mere commodities trader,"" Menes winks as if you are in on a shared joke, ""but I daresay he knows everyone of any importance in the Kumari Kandam system. And if you need anything."" He lowers his voice, ""Anything at all. He's your man.""
 
 Pond, grinning widely, makes a brushing-off gesture as if to dismiss Menes' words - but not so assertively as to deny them.",,
-BFFIattendPartyHub1optA,BFFIattendPartyHub1,,,,"bffi_apHub1optA:""Charmed, I'm sure.""",
+BFFIattendPartyHub1optA,BFFIattendPartyHub1,,,,"bffi_apHub1optA:""Enchanté(e), assurément.""",
 BFFIattendPartyHub1optB,BFFIattendPartyHub1,,,,"bffi_apHub1optB:""Tout le monde, dites-vous ? Ça inclut le Sentier Luddique ?""",
 BFFIattendPartyHub1optC,BFFIattendPartyHub1,,,,"bffi_apHub1optC:""Alors, Ulmus, c'est ça ? Comment connaissez-vous $global.jethroName ?""",
 BFFIattendPartyHub1optD,BFFIattendPartyHub1,,,,"bffi_apHub1optD:""Tout ce que vous voulez, dites-vous ? Il faudra en reparler, Monsieur Pond.""",
@@ -9910,19 +9910,19 @@ BFFIattendPartyHub1optE,BFFIattendPartyHub1,,,,"bffi_apHub1optE:""Menes, je croi
 BFFIattendPartyHub1optF,BFFIattendPartyHub1,$global.bffi_intendToRaid,,,"bffi_apHub1optF:""Je suis certain que cette fête sera absolument inoubliable.""",
 BFFIapHub1optA,DialogOptionSelected,$option == bffi_apHub1optA,"AdjustRepPerson ulmus_pond FRIENDLY 1
 $option = bffi_apHub1Out1 0
-FireBest DialogOptionSelected","Pond grins wider, and begins to speak. ""The feeling, I'm sure-""",,
+FireBest DialogOptionSelected","Le sourire de Pond s'élargit et il prend la parole. « Le plaisir, assurément... »",,
 BFFIapHub1optB,DialogOptionSelected,$option == bffi_apHub1optB,"$option = bffi_apHub1Out1 0
-FireBest DialogOptionSelected","Pond laughs too loudly. ""Dear Menes, where did you find such a fantastic character? Without you, I'm certain we'd all die of boredom out here.""",,
+FireBest DialogOptionSelected","Pond rit trop fort. « Cher Menes, où avez-vous déniché un personnage aussi fantastique ? Sans vous, je suis certain que nous mourrions tous d'ennui ici. »",,
 BFFIapHub1optC,DialogOptionSelected,$option == bffi_apHub1optC,"$option = bffi_apHub1Out1 0
-FireBest DialogOptionSelected","Pond laughs a little too loudly. ""Of course we've just met, but dear Menes spoke of a Knight from some unseemly background, and it's a tale which can't but seize the imagination, am I wrong?""",,
+FireBest DialogOptionSelected","Pond rit un peu trop fort. « Bien sûr, nous venons tout juste de nous rencontrer, mais ce cher Menes a parlé d'un Chevalier au passé peu reluisant, et c'est une histoire qui ne peut que captiver l'imagination, n'est-ce pas ? »",,
 BFFIapHub1optD,DialogOptionSelected,$option == bffi_apHub1optD,"AdjustRepPerson ulmus_pond FRIENDLY 2
 $option = bffi_apHub1Out1 0
-FireBest DialogOptionSelected","Pond's grin widens. ""My thoughts are the same, and you know what they say about great-""",,
+FireBest DialogOptionSelected","Le sourire de Pond s'élargit. « Je pense exactement la même chose, et vous savez ce qu'on dit des grands... »",,
 BFFIapHub1optE,DialogOptionSelected,$option == bffi_apHub1optE,"AdjustRepPerson ulmus_pond SUSPICIOUS -1
 $option = bffi_apHub1Out1 0
-FireBest DialogOptionSelected","Pond's grin hardens ever so slightly. ""I'm sure I'd be delighted to speak more later about-""",,
+FireBest DialogOptionSelected","Le sourire de Pond se crispe imperceptiblement. « Je serais ravi d'en reparler plus tard, à propos de... »",,
 BFFIapHub1optF,DialogOptionSelected,$option == bffi_apHub1optF,"$option = bffi_apHub1Out1 0
-FireBest DialogOptionSelected","Pond laughs too loudly. ""How odd! Dear Menes, where did you find such a fantastic character? I, for one, cannot wait to discover what this evening has in store.""",,
+FireBest DialogOptionSelected","Pond rit trop fort. « Comme c'est curieux ! Cher Menes, où avez-vous déniché un personnage aussi fantastique ? Pour ma part, j'ai hâte de découvrir ce que nous réserve cette soirée. »",,
 BFFIattendPartyHub1Out1,DialogOptionSelected,$option == bffi_apHub1Out1,,"Menes slaps a hand on Pond's shoulder, causing him to nearly spill his drink.
 
 ""Ulmus, Ulmus! You'll have plenty of time to speak with the good captain later. I did promise a surprise, a private showing for $playerHimOrHer and $playerHisOrHer noble Knight. You might know the piece, my friend,"" he winks again, this time to Pond.
@@ -9949,21 +9949,21 @@ C'est un spectacle que vous n'avez jamais vu de la part de $global.jethroName, e
 Menes recule à vos côtés, l'air à la fois horrifié et ravi. Il fixe Bornanew comme un voyeur.","bffi_mpSteal6:Attendre un peu
 bffi_mpSteal5:""He's overwhelmed... you must understand, Menes.""",
 BFFImenesPartySteal5,DialogOptionSelected,$option == bffi_mpSteal5,"$option = bffi_mpSteal6 0
-FireBest DialogOptionSelected","""Yes, yes,"" he replies under his breath.",,
+FireBest DialogOptionSelected","« Oui, oui », répond-il à mi-voix.",,
 BFFImenesPartySteal6,DialogOptionSelected,$option == bffi_mpSteal6,,"Bornanew continue, absolument absorbé dans sa prière devant le gant, larmes et morve coulant sur son visage. C'est, véritablement, un spectacle pathétique et d'une intimité gênante.
 
 Menes continue de fixer, un demi-sourire béant aux lèvres.","bffi_mpSteal7:""Menes. On devrait le laisser un moment, vous ne pensez pas ? Menes ?""",
-BFFImenesPartySteal7,DialogOptionSelected,$option == bffi_mpSteal7,,"""Hmm? Oh. Oh yes. Of course, captain,"" he says, still watching.",bffi_mpSteal8:Éloigner doucement Menes et l'interroger sur d'autres pièces de la collection,
+BFFImenesPartySteal7,DialogOptionSelected,$option == bffi_mpSteal7,,"« Hmm ? Oh. Oh oui. Bien sûr, capitaine », dit-il sans cesser d'observer.",bffi_mpSteal8:Éloigner doucement Menes et l'interroger sur d'autres pièces de la collection,
 BFFImenesPartySteal8,DialogOptionSelected,$option == bffi_mpSteal8,HideSecondPerson,"Il faut une traction un peu plus qu'aimable pour vaincre l'inertie de Menes, mais vous finissez par le déloger du spectacle de Bornanew vers une autre des quelques salles composant ce 'sanctuaire intérieur'.
 
 Menes ne cesse de jeter des coups d'oeil vers Bornanew tandis qu'il raconte l'histoire de tel ou tel objet : un uniforme de capitaine du Quatorzième Groupe de Combat, épée comprise, de la période du Passage Froid ; une bouteille d'alcool d'un système stellaire central du Domain près de la Vieille Terre ; un pistolet ayant appartenu au Seigneur de Guerre Leonis ; le xénocorail cristallin d'une espèce éteinte depuis un demi-milliard d'années collecté par l'Exploraria.","bffi_mpSteal9a:""Stupéfiant. Ça fait réfléchir à comment nous aurions géré le Passage Froid. Menes ?""
 bffi_mpSteal9b:""Incroyable. Que faudrait-il pour vous convaincre d'organiser une dégustation ? Menes ?""
 bffi_mpSteal9c:""Fascinant. Vous pensez que Leonis a tiré sur quelqu'un avec ça, Menes ?""
 bffi_mpSteal9d:""Intriguing. I wonder if I might find more such xenolife on the fringe. Menes?""",
-BFFImenesPartySteal9a,DialogOptionSelected,$option == bffi_mpSteal9a,,"""Huh? Oh yes, naturally I've ruminated often upon how my own character might be tested by such hardship. I admit, my life has been one of relative ease, but I like to think that I identify with certain qualities of those early heroic figures whose steadfastness effected the...""",bffi_mpSteal10:Sourire et hocher la tête,
+BFFImenesPartySteal9a,DialogOptionSelected,$option == bffi_mpSteal9a,,"« Hein ? Ah oui, naturellement, j'ai souvent réfléchi à la manière dont mon propre caractère pourrait être mis à l'épreuve par de telles épreuves. Je l'admets, ma vie a été plutôt facile, mais j'aime à penser que je partage certaines qualités de ces premières figures héroïques dont la constance a permis de... »",bffi_mpSteal10:Sourire et hocher la tête,
 BFFImenesPartySteal9b,DialogOptionSelected,$option == bffi_mpSteal9b,,"""Ah ? Oh oui, je ne peux nier la tentation de l'ouvrir pour un événement approprié, devant un public convenablement appréciateur - mon cher cousin Horus par exemple ; j'ai envisagé son mariage avec Asherah, mais j'ai pensé - non, pas encore. Je me demande parfois si le plaisir réside dans l'anticipation, l'idée...""",bffi_mpSteal10:Sourire et hocher la tête,
 BFFImenesPartySteal9c,DialogOptionSelected,$option == bffi_mpSteal9c,,"""Oh ? Oh, eh bien, j'ai une histoire pour vous ! Pendant les négociations avec le vendeur, j'ai pensé, faisons examiner ceci par un expert en armes à feu, et figurez-vous que je recevais justement une riche financière qui avait travaillé avec Tri-Tachyon - et dites ce que vous voulez de la Compagnie, ils sont bons dans ce qu'ils font - et il se trouvait qu'elle avait un frère avec des intérêts dans une firme...""",bffi_mpSteal10:Sourire et hocher la tête,
-BFFImenesPartySteal9d,DialogOptionSelected,$option == bffi_mpSteal9d,,"""Eh? Ah! Well I daresay, it is you who might answer that question fully, though I've always considered myself something of a naturalist, or xeno-naturalist if you will ha-ha, and so what if I were to finance an expedition of discovery of sorts? 'Menes Yaribay, patron of knowledge'; I like the sound of that. Imagine, to explore new worlds, encounter unknown lifeforms, seek out and explore the far fringes...""",bffi_mpSteal10:Sourire et hocher la tête,
+BFFImenesPartySteal9d,DialogOptionSelected,$option == bffi_mpSteal9d,,"« Hein ? Ah ! Eh bien, j'ose dire que c'est vous qui pourriez pleinement répondre à cette question, mais je me suis toujours considéré comme une sorte de naturaliste, ou de xéno-naturaliste si vous voulez, ha ha, alors pourquoi ne pas financer une sorte d'expédition de découverte ? « Menes Yaribay, mécène du savoir » ; ça sonne bien. Imaginez : explorer de nouveaux mondes, rencontrer des formes de vie inconnues, rechercher et explorer les confins les plus lointains... »",bffi_mpSteal10:Sourire et hocher la tête,
 BFFImenesPartySteal10,DialogOptionSelected,$option == bffi_mpSteal10,AdjustRepPerson menes_yaribay FRIENDLY 1,"He rambles, and you make a good show of asking for additional details, drawing his attention toward the object at hand and away from whâtever in Ludd's name Bornanew is doing.
 
 A piercing alarm interrupts Menes mid-thought. His eyes go wide and snap toward the central atrium which holds the glove- and Bornanew. He takes off at a run.",bffi_mpSteal11:Suivre Menes,
@@ -9993,7 +9993,7 @@ BFFImenesPartySteal14b,DialogOptionSelected,$option == bffi_mpSteal14a,,"Cela pr
 BFFImenesPartySteal15a,DialogOptionSelected,"$option == bffi_mpSteal15
 $saidGreatStory","unset $saidGreatStory
 $option = bffi_mpSteal15 0
-FireBest DialogOptionSelected","""You're right!"" he shouts, ""Captain, by the stars, you are right.""",,
+FireBest DialogOptionSelected","« Vous avez raison ! s'écrie-t-il. Capitaine, par les étoiles, vous avez raison. »",,
 BFFImenesPartySteal15,DialogOptionSelected,"$option == bffi_mpSteal15
 !$saidGreatStory",,"""You there,"" Menes calls out, ""Knight $global.jethroName, get yourself off the floor. Come wash your face, you look absolutely disgusting. Back to the party! Drinks are on me, ha-ha!""
 
@@ -10012,7 +10012,7 @@ FireBest DialogOptionSelected","""I beg pardon for your blasphemy, captain,"" Bo
 
 ""But I do have the glove. What remains is-"" an almost malicious smile briefly appears, ""a fake.""",,
 BFFImenesPartySteal17b,DialogOptionSelected,$option == bffi_mpSteal17b,"$option = bffi_mpSteal17c 0
-FireBest DialogOptionSelected","""Little, but for the monotony of my humiliation, however justly earned,"" Bornanew says with a hint of strain in his voice. ""But I do have the glove. What remains is a-"" an almost malicious smile very briefly appears, ""fake.""",,
+FireBest DialogOptionSelected","« Peu de choses, hormis la monotonie de mon humiliation, aussi méritée soit-elle », dit Bornanew d'une voix légèrement tendue. « Mais j'ai bien le gant. Ce qu'il reste, c'est un... » un sourire presque malveillant apparaît très brièvement, « ...faux. »",,
 BFFImenesPartySteal17c,DialogOptionSelected,$option == bffi_mpSteal17c,"AddTextSmall ""Fausse relique acquise"" highlight","Il porte un doigt à ses lèvres, et de l'autre main tapote un pli de sa robe de Chevalier.","bffi_mpSteal18d:""Vous aviez un faux gant ? Depuis le début ?""
 bffi_mpSteal18a:""Beau travail, $global.jethroName. Excellent travail, même.""
 bffi_mpSteal18b:""La prochaine fois, assurez-vous de me mettre au courant de votre plan.""
@@ -10048,7 +10048,7 @@ BFFImpBuyer1,DialogOptionSelected,$option == bffi_mpBuyer1,,"""Pas n'importe que
 
 Il reprend dans un murmure révérencieux, ""Le gant porté par Ludd en posant le pied sur la Terre sacrée de Gilead. Ludd retira le gant et embrassa le sol, selon la religion luddique. N'est-ce pas, messire Chevalier ? Et ceci... c'est celui-là.""
 
-Bornanew looks at you, his eyebrows rising slightly as if to give a cue. ""This would be a most impressive find,"" he says. ""If it is as you say.""","bffi_mpBuyer2:""Well I'm impressed, Menes. A relic from a pivotal moment of the Sector's history!""",
+Bornanew looks at you, his eyebrows rising slightly as if to give a cue. ""This would be a most impressive find,"" he says. ""If it is as you say.""","bffi_mpBuyer2:""Eh bien, je suis impressionné(e), Menes. Une relique d'un moment charnière de l'histoire du Secteur !""",
 BFFImpBuyer2,DialogOptionSelected,$option == bffi_mpBuyer2,,"""Merci capitaine !"" dit Menes, soulagé et plus que ravi que quelqu'un apprécie son bibelot.
 
 ""Mettant de côté sa signification purement religieuse,"" il lance un regard agacé à Bornanew, ""il représente un, un présage du changement de marée de l'histoire ! Le déclin de l'influence des mégacorporations de l'ère du Domain, la montée de ce que certains appellent - pas mes mots bien sûr, sire Chevalier - un populisme atavique. Véritablement, c'est ce petit morceau de l'immensité de l'histoire de l'Humanité qui m'a appelé quand on me l'a décrit pour la première fois...""","bffi_mpBuyer3:""Moi aussi, je ressens cet appel. Envisageriez-vous de vendre la pièce ?""",
@@ -10075,7 +10075,7 @@ FireAll BFFImpBuyerHubOpts","""Véracité ?"" Un air agacé traverse le visage d
 ""Je n'ai rien à prouver ; le bon nom des Yaribay parle de lui-même. D'ailleurs, nous ne discutons même pas d'une vente.""",,
 BFFImpBuyerVeracityB,DialogOptionSelected,"$option == bffi_mpBuyerVeracity
 $madeOffer","$option = bffi_mpBuyerVeracity2 0
-FireBest DialogOptionSelected","""Veracity. Hmm."" Menes doesn't look pleased, but he doesn't look as annoyed as before.",,
+FireBest DialogOptionSelected","« L'authenticité. Hmm. » Menes n'a pas l'air ravi, mais il semble moins agacé qu'auparavant.",,
 BFFImpBuyerOfferMillion,DialogOptionSelected,$option == bffi_mpBuyerCredits1m,"$offeredMillion = true 0
 $madeOffer = true 0
 AdjustRepPerson menes_yaribay FRIENDLY 1
@@ -10096,11 +10096,11 @@ bffi_mpBuyerCredits1m:""J'envisagerai un million. Mais seulement si c'est authen
 BFFImpBuyerOffer800kdemarch,DialogOptionSelected,"$option == bffi_mpBuyerCredits800k
 $player.isLeagueMember score:2","$offered900k = true 0
 $option = bffi_mpBuyerCredits800kJeffReact 0
-FireBest DialogOptionSelected","Menes sighs dramatically, ""I suppose - and this is because I'm feeling charitable - I would entertain the notion of a mere 900,000 credits."" He looks at you sharply, ""And that's only because you're a fellow demarch.""","bffi_mpBuyerCredits800kJeffReact:""Vous êtes pratiquement un saint. Maintenant, la question de la véracité...""",
+FireBest DialogOptionSelected",Menes soupire théâtralement : « Je suppose - et c'est uniquement parce que je me sens charitable - que je pourrais envisager la modique somme de 900 000 crédits. » Il vous lance un regard acéré : « Et c'est seulement parce que vous êtes un collègue démarque. »,"bffi_mpBuyerCredits800kJeffReact:""Vous êtes pratiquement un saint. Maintenant, la question de la véracité...""",
 BFFImpBuyerOffer800kleague,DialogOptionSelected,"$option == bffi_mpBuyerCredits800k
 $player.fcm_faction == persean","$offered900k = true 0
 $option = bffi_mpBuyerCredits800kJeffReact 0
-FireBest DialogOptionSelected","Menes sighs dramatically, ""I suppose - and this is because I'm feeling generous - I would entertain the notion of a mere 900,000 credits."" He looks at you sharply, ""And that's only because you've a League commission. It's practically charity!""","bffi_mpBuyerCredits800kJeffReact:""Vous êtes pratiquement un saint. Maintenant, la question de la véracité...""",
+FireBest DialogOptionSelected",Menes soupire théâtralement : « Je suppose - et c'est uniquement parce que je me sens généreux - que je pourrais envisager la modique somme de 900 000 crédits. » Il vous lance un regard acéré : « Et c'est seulement parce que vous avez une commission de la Ligue. C'est pratiquement de la charité ! »,"bffi_mpBuyerCredits800kJeffReact:""Vous êtes pratiquement un saint. Maintenant, la question de la véracité...""",
 BFFImpBuyerOffer800k,DialogOptionSelected,$option == bffi_mpBuyerCredits800k,"$option = bffi_mpBuyerCredits800kJeffReact 0
 FireBest DialogOptionSelected","Menes sighs dramatically. ""What am I, a charity?""
 
@@ -10121,7 +10121,7 @@ FireAll BFFImpBuyerHub2Opts","""Non, n- ce n'est pas- vous ne pouvez pas-"" Mene
 ""Why do you think I only do private showings? There's no telling what idea some Luddie might get."" He sniffs, taking in Bornanew once more, ""You know what I mean. A proper Luddic who actually believes in anything with real passion.""
 
 Bornanew presses his hands together and gives a little nod. ",,
-BFFImpBuyerNeedTested,DialogOptionSelected,$option == bffi_mpBuyerNeedTested,,"""Tested,"" Menes says, the word apparently putting a bad taste in his mouth. ""What would this entail, some technician coming in for a visit?""","bffi_mpBuyerNeedTested2:""Ce ne serait pas tout à fait suffisant...""",
+BFFImpBuyerNeedTested,DialogOptionSelected,$option == bffi_mpBuyerNeedTested,,"« Testé », répète Menes, comme si le mot lui laissait un mauvais goût dans la bouche. « Qu'est-ce que cela impliquerait ? Un technicien qui viendrait en visite ? »","bffi_mpBuyerNeedTested2:""Ce ne serait pas tout à fait suffisant...""",
 BFFImpBuyerNeedTested2,DialogOptionSelected,$option == bffi_mpBuyerNeedTested2,,"""Le capitaine devra prendre le gant en... prêt temporaire."" Bornanew prend la parole, surprenant Menes. Le Chevalier s'était déplacé silencieusement derrière vous et Menes.
 
 ""Les installations de nanoforge fournissent les moyens de déterminer la date et la fabrication du gant. Cela permettrait de s'assurer qu'il correspond à l'époque, l'âge et le style corrects. L'Église a des archives, voyez-vous. Des archives détaillées.""","bffi_mpBuyerNeedTested3:""Précisément. Bien dit, $global.jethroName.""",
@@ -10133,11 +10133,11 @@ BFFImpBuyerHub3SumA,BFFImpBuyerHub3Opts,$buyerArgsMade == 0,,"Menes aura besoin 
 BFFImpBuyerHub3SumB,BFFImpBuyerHub3Opts,$buyerArgsMade == 1,,Menes a encore besoin d'être convaincu. Encore quelques bons arguments devraient suffire.,,
 BFFImpBuyerHub3Sum3,BFFImpBuyerHub3Opts,$buyerArgsMade == 2,,Menes semble presque convaincu. Un dernier argument solide devrait suffire.,,
 BFFImpBuyerHub3OptA800k,BFFImpBuyerHub3Opts,"$offered800k
-!$madeArgDeposit",,,"bffi_mpBuyerHub3Dep200k:""I'll provide a quarter deposit, right now, of 200,000 credits.""",
+!$madeArgDeposit",,,"bffi_mpBuyerHub3Dep200k:""Je verse tout de suite un acompte d'un quart, soit 200 000 crédits.""",
 BFFImpBuyerHub3OptA900k,BFFImpBuyerHub3Opts,"$offered900k
-!$madeArgDeposit",,,"bffi_mpBuyerHub3Dep225k:""I'll provide a quarter deposit, right now, of 225,000 credits.""",
+!$madeArgDeposit",,,"bffi_mpBuyerHub3Dep225k:""Je verse tout de suite un acompte d'un quart, soit 225 000 crédits.""",
 BFFImpBuyerHub3OptA1m,BFFImpBuyerHub3Opts,"$offeredMillion
-!$madeArgDeposit",,,"bffi_mpBuyerHub3Dep250k:""I'll provide a quarter deposit, right now, of 250,000 credits.""",
+!$madeArgDeposit",,,"bffi_mpBuyerHub3Dep250k:""Je verse tout de suite un acompte d'un quart, soit 250 000 crédits.""",
 BFFImpBuyerHub3OptB,BFFImpBuyerHub3Opts,"!$madeArgDemarch
 $player.isLeagueMember",,,"bffi_mpBuyerHub3OptDemarch:""Mon statut de confrère démarque de la Ligue doit bien compter pour quelque chose.""",
 BFFImpBuyerHub3OptBv2,BFFImpBuyerHub3Opts,"!$madeArgDemarch
@@ -10236,8 +10236,8 @@ FireAll BFFImpBuyerHub3Opts","Menes begins to nod, especially as Bornanew hits t
 
 ""Out here, the social environment is more rarified, more, dare I say it? Honest. Even if it is a hopeless backwater, I do try to illuminate the locals with the light of Kazeronian culture...""",,
 BFFImpBuyerHub3Sum4,BFFImpBuyerHub3Opts,$buyerArgsMade == 3,"$option = bffi_buyerSumOut 0
-FireBest DialogOptionSelected","""Well, I suppose that does it!"" Menes claps his hands together.",,
-BFFImpBuyerHub3Sum4out,DialogOptionSelected,$option == bffi_buyerSumOut,,,"bffi_buyerSumOut2:""It does?""",
+FireBest DialogOptionSelected","« Eh bien, je suppose que c'est réglé ! » Menes frappe dans ses mains.",,
+BFFImpBuyerHub3Sum4out,DialogOptionSelected,$option == bffi_buyerSumOut,,,"bffi_buyerSumOut2:""Vraiment ?""",
 BFFImpBuyerHub3Sum4out2,DialogOptionSelected,$option == bffi_buyerSumOut2,,"""Certainement ! Je ferai en sorte que mon secrétaire organise tout. Mais d'abord - un toast au début de ce qui sera, j'en suis sûr, un partenariat fructueux ! Retournons à la fête !""
 
 ""Même vous,"" il tape sur l'épaule de Bornanew en l'entraînant, ""Vous savez sûrement célébrer un accord, mon austère mécréant ? Non ? Alors je vais vous montrer !""",bffi_buyerOutro1:Continuer,
@@ -10295,7 +10295,7 @@ BFFIapHorus2,DialogOptionSelected,$option == bffi_apHorus2,,"Un ensemble de port
 
 Un Menes enthousiaste s'approche déjà de la rampe d'accès de votre navette alors qu'elle se pose et signale que la voie est libre.
 
-Horus Yaribay tend la main dans un geste de 'vous d'abord'.",bffi_apHorus3:Meet Menes Yaribay,
+Horus Yaribay tend la main dans un geste de 'vous d'abord'.",bffi_apHorus3:Rencontrer Menes Yaribay,
 BFFIapHorus3,DialogOptionSelected,$option == bffi_apHorus3,BeginConversation menes_yaribay,"""Capitaine $playerName - avec votre Chevalier de Ludd ! Laissez-moi vous souhaiter la bienvenue dans mon humble...""
 
 Quand Menes voit Horus descendre de la navette, son visage se contorsionne en une fascinante séquence d'expressions avant de se figer en un rictus alarmé de bienvenue.
@@ -10494,7 +10494,7 @@ $option == mktRaidResult",,"""C'est probablement- J'en suis certain- Je, je,"" b
 
 You feel the dull thuds, nearly subsonic, through the armored mass of the vault. Breaching charges for the first layer of defense. You know the big one will come soon, and where.
 
-Menes is in a growing panic.","bffi_mpRaidOutro2:""Perhaps, Menes, we should take cover...""",
+Menes is in a growing panic.","bffi_mpRaidOutro2:""Peut-être, Menes, devrions-nous nous mettre à l'abri...""",
 BFFIapRaidOutro2,DialogOptionSelected,$option == bffi_mpRaidOutro2,"HideSecondPerson
 EndConversation DO_NOT_FIRE
 HideVisual","Quand les marines percent finalement le coffre, c'est avec une force écrasante de son et de lumière. Aucun humain non protégé ne peut résister à cet assaut sur les sens ; vous êtes aveuglé, choqué et rendu immobile. Tout ce que vous pouvez faire est de vous accrocher au noyau de votre être au centre d'une tempête de douleur.
@@ -10593,13 +10593,13 @@ BFFImenesPPtalkOptA,BFFImenesPPtalkOpts,"$player.bffi_raidedForRelic
 !$saidOpening",,,"bffi_menesPPoptA:""J'ai failli être tué à votre 'fête', Menes. Nous y étions tous les deux.""",
 BFFImenesPPtalkOptB,BFFImenesPPtalkOpts,"!$player.bffi_betrayedMenesToHorus
 !$player.bffi_boughtRelic
-!$saidOpening",,,"bffi_menesPPoptB:""I'm truly sorry to hear that. I wanted to check in...""",
+!$saidOpening",,,"bffi_menesPPoptB:""Je suis sincèrement désolé(e) de l'apprendre. Je voulais prendre des nouvelles...""",
 BFFImenesPPtalkOptC,BFFImenesPPtalkOpts,"!$player.bffi_betrayedMenesToHorus
 !$player.bffi_boughtRelic
 !$saidOpening",,,"bffi_menesPPoptC:""C'est à propos de la perte de la... relique ?""",
 BFFImenesPPtalkOptD,BFFImenesPPtalkOpts,"!$player.bffi_betrayedMenesToHorus
 !$player.bffi_boughtRelic
-!$saidOpening",,,"bffi_menesPPoptD:""Perhaps I should comms another time...""",
+!$saidOpening",,,"bffi_menesPPoptD:""Je devrais peut-être vous contacter une autre fois...""",
 BFFImenesPPtalkOptE,BFFImenesPPtalkOpts,$bffi_stage == TALK_TO_ULMUS_POND,,,"bffi_menesPPaskUlmus:""Vous ne sauriez pas par hasard où je pourrais trouver Ulmus Pond ?""",
 BFFImenesPPraidA1,DialogOptionSelected,$option == bffi_menesPPoptA,"$option = bffi_menesPPinsideJob 0
 FireBest DialogOptionSelected","A joyless smirk flits over his face. 
@@ -10628,7 +10628,7 @@ bffi_menesPPinsideJob2c:""Maintenant que vous en parlez, cet Ulmus Pond semblait
 BFFImenesPPinsideJob2a,DialogOptionSelected,$option == bffi_menesPPinsideJob2a,"$option = bffi_menesPPinsideJob3b 0
 FireBest DialogOptionSelected","Il vous observe, l'air plus triste que tout. Puis secoue la tête.",,
 BFFImenesPPinsideJob2b,DialogOptionSelected,$option == bffi_menesPPinsideJob2b,"$option = bffi_menesPPinsideJob3b 0
-FireBest DialogOptionSelected","""Ha, yes. So it could be."" He doesn't sound convinced, but carries on. ""Betrayal in another form, perhaps?""",,
+FireBest DialogOptionSelected","« Ha, oui. C'est possible. » Il n'a pas l'air convaincu, mais poursuit. « Une trahison sous une autre forme, peut-être ? »",,
 BFFImenesPPinsideJob2c,DialogOptionSelected,$option == bffi_menesPPinsideJob2c,"$option = bffi_menesPPinsideJob3 0
 FireBest DialogOptionSelected","Ses yeux s'écarquillent, et son bras agrippe le bord de son bureau, le tirant vers une position assise plus formelle.",,
 BFFImenesPPaskUlmus,DialogOptionSelected,$option == bffi_menesPPaskUlmus,,"""Que savez-vous d'Ulmus Pond ?"" demande-t-il avec véhémence.",,
@@ -10748,7 +10748,7 @@ La navette approche de votre vaisseau amiral et se prépare à s'amarrer.",,
 BFFItalkToEngineerOpt,PopulateOptions,"$market.bffi_talkToEngineer
 $menuState == main
 Call $global.bffi_ref updateData
-$bffi_stage == TALK_TO_ENGINEER",,,3:bffi_talkToEngineer0:Use Bornanew's authority to meet with a nanoforge engineer ,
+$bffi_stage == TALK_TO_ENGINEER",,,3:bffi_talkToEngineer0:Utiliser l'autorité de Bornanew pour rencontrer un ingénieur de la nanoforge,
 BFFItalkToEngineer0,DialogOptionSelected,$option == bffi_talkToEngineer0,,"Bornanew aide votre officier de communications à naviguer à travers les différents niveaux de la bureaucratie de l'Église.
 
 Bien vite, vous avez l'ingénieur en chef de la nanoforge d'Asher en liaison comm.",bffi_talkToEngineer1:Continuer,
@@ -10807,7 +10807,7 @@ BFFItalkToEngineer9,DialogOptionSelected,$option == bffi_talkToEngineer9,,"""Bie
 Le motif de dérive du gant reste verrouillé, et elle affiche des exemples similaires - mais distincts - de motifs dans une grille qui s'élargit. De petites étiquettes montrent des séries de glyphes, dont la plupart contiennent les noms de consortiums industriels, de chantiers navals et d'entités politiques que vous connaissez. Certains que vous reconnaissez datent de l'Effondrement. D'autres vous sont inconnus.
 
 ""Voilà la bibliothèque de dérive qu'on a ici sur Asher. Des trucs utiles, mais d'autres factions en ont de meilleures.""","bffi_talkToEngineer10:""Donc vous pouvez faire correspondre la 'dérive' à la forge.""",
-BFFItalkToEngineer10,DialogOptionSelected,$option == bffi_talkToEngineer10,,"""Exactly,"" she's pleased that you put it together. ""Got bad news though, cap. Your glove doesn't match anything in this library.""","bffi_talkToEngineer11a:""La dérive peut-elle être masquée, falsifiée ?""
+BFFItalkToEngineer10,DialogOptionSelected,$option == bffi_talkToEngineer10,,"« Exactement », elle est contente que vous ayez fait le rapprochement. « Mais j'ai une mauvaise nouvelle, capitaine. Votre gant ne correspond à rien dans cette bibliothèque. »","bffi_talkToEngineer11a:""La dérive peut-elle être masquée, falsifiée ?""
 bffi_talkToEngineer11b:""Donc ce n'est pas une forge connue.""",
 BFFItalkToEngineer11a,DialogOptionSelected,$option == bffi_talkToEngineer11a,"$didFakeAsk = true 0
 FireBest BFFItalkToEngineerAskCheck","""Possible,"" admet-elle. ""Mais ça demande un montage astucieux et un opérateur talentueux. Si c'est de la fausse dérive, alors ça vient de très haut. Je ne sais pas qui serait capable de gaspiller autant d'efforts pour un gant.""",,
@@ -10838,8 +10838,8 @@ FireAll BFFItalkToEngineer12opts",,,
 BFFItalkToEngineer12optDev2sel,DialogOptionSelected,$option == BFFI_talkToEngineer12optDev2sel,"$player.ethosMercenary = 2
 FireAll BFFItalkToEngineer12opts",,,
 BFFItalkToEngineer12optC,BFFItalkToEngineer12opts,$saidUh,,,"bffi_talkToEngineer13c:""$global.jethroName?""",
-BFFItalkToEngineer12optA,BFFItalkToEngineer12opts,!$saidUh,,,"bffi_talkToEngineer13a:""Uh...""",
-BFFItalkToEngineer12optB,BFFItalkToEngineer12opts,,DoCanAffordCheck 10000 bffi_talkToEngineer13b false,,"bffi_talkToEngineer13b:""Of course."" (pay)",
+BFFItalkToEngineer12optA,BFFItalkToEngineer12opts,!$saidUh,,,"bffi_talkToEngineer13a:""Euh...""",
+BFFItalkToEngineer12optB,BFFItalkToEngineer12opts,,DoCanAffordCheck 10000 bffi_talkToEngineer13b false,,"bffi_talkToEngineer13b:""Bien sûr."" (payer)",
 BFFItalkToEngineer12optD,BFFItalkToEngineer12opts,,FireAll BFFItalkToEngineer12optsCheck,,"bffi_talkToEngineer13corruption:""Vous servez l'Église. N'est-ce pas de la corruption, $jethroName ?""",
 BFFItalkToEngineer12optCheck1,BFFItalkToEngineer12optsCheck,$player.ethosCynical > 1,"SetEnabled bffi_talkToEngineer13corruption false
 SetTooltip bffi_talkToEngineer13corruption ""It may be cynical, but she's got a clever hustle and it'd be a shame to spoil it.""",,,
@@ -10899,7 +10899,7 @@ La navette s'arrime à votre vaisseau amiral.","bffi_postEngJethroTalk4:""Je m'e
 BFFItpostEngJethroTalk3didRaid,DialogOptionSelected,"$option == bffi_postEngJethroTalk3
 $player.bffi_raidedForRelic",,"""Guess so,"" he replies. ""But perhaps... Menes' might not be pleased to see us show up.""
 
-The shuttle docks with your flagship.","bffi_postEngJethroTalk4:""I'll handle it. I can be very persuasive.""",
+The shuttle docks with your flagship.","bffi_postEngJethroTalk4:""Je m'en occupe. Je sais être très persuasif(ve).""",
 BFFItpostEngJethroTalk4,DialogOptionSelected,$option == bffi_postEngJethroTalk4,"
 unset $global.bffi_talkToEngineer
 SetPersonHidden ulmus_pond false
@@ -10922,7 +10922,7 @@ BFFIulmusPondNotHere3,DialogOptionSelected,$option == bffi_ulmusPondNotHere3,,""
 ""The word is that he has fled to Chalcedon on a tramp freighter, a smuggler, known to move materiel for the Luddic Path.""","bffi_ulmusPondNotHere4a:""Un innocent prend-il la fuite ?""
 bffi_ulmusPondNotHere4b:""Alors nous le suivons.""",
 BFFIulmusPondNotHere4a,DialogOptionSelected,$option == bffi_ulmusPondNotHere4a,"$option = bffi_ulmusPondNotHere4b 0
-FireBest DialogOptionSelected","He turns his head. ""He might, if he had to. But I suspect that Ulmus is not an innocent man.""",,
+FireBest DialogOptionSelected","Il tourne la tête. « Il le pourrait, s'il y était obligé. Mais je soupçonne qu'Ulmus n'est pas un innocent. »",,
 BFFIulmusPondNotHere4b,DialogOptionSelected,$option == bffi_ulmusPondNotHere4b,FireAll BFFIulmusNotHereOpts,"""Je prie pour que si nous agissons vite, nous puissions le trouver sur Chalcédoine.""",,
 BFFIupNotHereConvOptA,BFFIulmusNotHereOpts,,,,"bffi_upNotHereSetCourse:""Nav, définissez un cap.""",
 BFFIupNotHereConvOptB,BFFIulmusNotHereOpts,!$saidAskRole,,,"bffi_upNotHereAskRole:""Quel est le rôle d'Ulmus Pond ? Qu'est-ce que le trouver nous apporte ?""",
@@ -10977,12 +10977,12 @@ bffi_ulmusPondYouBad:""Vous serez le méchant.""",
 BFFIulmusPrestartBornGood,DialogOptionSelected,$option == bffi_ulmusPondMeBad,"$player.ethosHumanitarian++
 $player.toldBornanewHeIsGoodGuy = true
 $option = bffi_ulmusPondLoadout1 0
-FireBest DialogOptionSelected","Bornanew nods. Perhaps you're imagining it, but is that relief in the set of his eyes?",,
+FireBest DialogOptionSelected","Bornanew acquiesce. Peut-être l'imaginez-vous, mais n'est-ce pas du soulagement que vous lisez dans son regard ?",,
 BFFIulmusPrestartBornBad,DialogOptionSelected,$option == bffi_ulmusPondYouBad,"$global.bornanewBadBoy++
 $player.ethosRuthless++
 $player.toldBornanewHeIsBadGuy = true
 $option = bffi_ulmusPondLoadout1 0
-FireBest DialogOptionSelected","Bornanew nods. Perhaps you're imagining it, but you feel like a coldness comes into the set of his eyes.",,
+FireBest DialogOptionSelected","Bornanew acquiesce. Peut-être l'imaginez-vous, mais vous avez l'impression qu'une certaine froideur envahit son regard.",,
 BFFIulmusPrestartLoadout1,DialogOptionSelected,$option == bffi_ulmusPondLoadout1,"$option = bffi_ulmusPondLoadout2
 FireBest DialogOptionSelected","Votre équipe de sécurité personnelle a été briefée, et est habillée en un mélange de spatiens ordinaires, de techniciens locaux et d'ouvriers Luddiques. Leur arsenal est varié et bien dissimulé.",,
 BFFIulmusPrestartLoadout2a,DialogOptionSelected,"$option == bffi_ulmusPondLoadout2
@@ -11015,13 +11015,13 @@ Votre équipe de sécurité est invisible, discrète dans les alcôves et sur le
 
 $global.jethroName passe ses mains sur une porte, comme s'il cherchait un indice sous sa surface déformée par l'humidité.",,
 BFFIulmusStart2a,DialogOptionSelected,"$option == bffi_ulmusStart2
-$player.toldBornanewHeIsBadGuy",,"""Ready, captain?"" he asks. ""Remember, you're the good guy.""","bffi_ulmusStart3:""I'm ready.""
+$player.toldBornanewHeIsBadGuy",,"« Prêt(e), capitaine ? demande-t-il. N'oubliez pas, vous êtes le gentil. »","bffi_ulmusStart3:""I'm ready.""
 bffi_ulmusStart3a:""Vous êtes sûr qu'il est ici ?""",
 BFFIulmusStart2b,DialogOptionSelected,"$option == bffi_ulmusStart2
-$player.toldBornanewHeIsGoodGuy",,"""Ready, captain?"" he asks. ""Remember, you're the bad guy.""","bffi_ulmusStart3:""Don't you forget it.""
+$player.toldBornanewHeIsGoodGuy",,"« Prêt(e), capitaine ? demande-t-il. N'oubliez pas, vous êtes le méchant. »","bffi_ulmusStart3:""Don't you forget it.""
 bffi_ulmusStart3a:""Vous êtes sûr qu'il est ici ?""",
 BFFIulmusStart3a,DialogOptionSelected,$option == bffi_ulmusStart3a,"$option = bffi_ulmusStart3 0
-FireBest DialogOptionSelected","""I am,"" he says.",,
+FireBest DialogOptionSelected","« Je le suis », dit-il.",,
 BFFIulmusStart3,DialogOptionSelected,$option == bffi_ulmusStart3,,"Bornanew recule d'un pas puis lance un coup de pied puissant dans un endroit usé, à hauteur de taille. Avec un craquement sec, la porte entière s'effondre vers l'intérieur, les gonds émiettés et le mécanisme de verrouillage encore attachés.",bffi_ulmusStart4:Suivre,
 BFFIulmusStart4,DialogOptionSelected,$option == bffi_ulmusStart4,,"Bornanew charge à l'intérieur. Vous suivez ses pas à travers une entrée, des capes de pluie en plastique moisissant, à travers une cuisine préfabriquée et un bloc sanitaire tachés du jaune de vieilles dents. Un coin salon, une chaise renversée. Il y a un bruit sourd étouffé venant d'en haut.
 
@@ -11172,7 +11172,7 @@ $global.bornanewBadBoy++","Bornanew soupire profondément, laissant tomber sa co
 Sur ce, son visage se vide d'expression et il se retourne, saisissant Pond par le cou d'une main et le soulevant du lit de camp avec un son étranglé.","bffi_ulmusTalkPcWrong2:""Euh, $global.jethroName ?""
 bffi_ulmusTalkPcWrong2a:""$global.jethroName ! Qu'est-ce que vous faites ?""",
 BFFIulmusTalkPcWrong2a,DialogOptionSelected,$option == bffi_ulmusTalkPcWrong2a,"$option = bffi_ulmusTalkPcWrong2 0
-FireBest DialogOptionSelected","""What, it seems, I must,"" he says flatly.",,
+FireBest DialogOptionSelected","« Ce que je dois faire, semble-t-il », dit-il d'un ton neutre.",,
 BFFIulmusTalkPcWrong2,DialogOptionSelected,$option == bffi_ulmusTalkPcWrong2,$global.bornanewChokedPond = true,"""Ulmus,"" gronde-t-il et, de son autre main, Bornanew lève son datapad bon marché à portée des bras agités de Pond. L'écran affiche déjà une carte du grand Secteur Perséen.
 
 ""Montrez-nous d'où vient le gant. Ensuite vous pourrez respirer.""",bffi_ulmusTalkSedgeCheck:Continuer,
@@ -11257,7 +11257,7 @@ BFFIulmusSedge3,DialogOptionSelected,$option == bffi_ulmusTalkSedge3,"AddTextSma
 HideSecondPerson
 $global.bffi_pondFateKilledBySedge = true
 $option = bffi_ulmusTalkSedge3b 0
-FireBest DialogOptionSelected","""The Path cannot bend. Not now,"" he says gruffly. His gun twitches at Ulmus Pond and makes a grinding shriek like a tool dropped into a rotary engine.",,
+FireBest DialogOptionSelected","« La Voie ne peut pas plier. Pas maintenant », dit-il d'un ton bourru. Son arme tressaille en direction d'Ulmus Pond et émet un grincement strident, comme un outil tombé dans un moteur rotatif.",,
 BFFIulmusSedge3b,DialogOptionSelected,$option == bffi_ulmusTalkSedge3b,,"Le sang d'Ulmus éclabousse le panneau de la fenêtre, baignant la pièce d'un rouge boueux. À cet instant, Bornanew se jette sur Sedge.",bffi_ulmusTalkSedge4:Continuer,
 BFFIulmusSedge4,DialogOptionSelected,$option == bffi_ulmusTalkSedge4,"EndConversation DO_NOT_FIRE
 BeginConversation sedge
@@ -11411,18 +11411,18 @@ $player.toldBornanewHeIsBadGuy",$player.bffi_pondFateKnights = true,"Bornanew lo
 ""Mais vous vivrez.""",bffi_ulmusTalkNoSedgeOut2knights:Continuer,
 BFFIpondNoSedgeOutro2menesFool,DialogOptionSelected,$option == bffi_pondNoSedgeOutro2menesFool,"$player.bffi_pondFateMenes = true
 $player.ethosMercy++
-$player.ethosCynical++","Pond looks stricken, but he nods. ""Yes, I... I'll do that. Menes. He is a kind man.""","bffi_ulmusTalkNoSedgeOut2menes:""Fichez le camp d'ici. Et si vous ne le dites pas à Menes, je le ferai.""",
+$player.ethosCynical++","Pond a l'air accablé, mais il acquiesce. « Oui, je... je ferai ça. Menes. C'est un homme bon. »","bffi_ulmusTalkNoSedgeOut2menes:""Fichez le camp d'ici. Et si vous ne le dites pas à Menes, je le ferai.""",
 BFFIpondNoSedgeOutro2menesKind,DialogOptionSelected,$option == bffi_pondNoSedgeOutro2menesKind,"$player.bffi_pondFateMenes = true
 $player.ethosMercy++
-$player.ethosIdealistic++","Pond looks stricken, but he nods. ""Yes, I... I'll do that. Menes will understand why I had to do... what I had to do.""","bffi_ulmusTalkNoSedgeOut2menes:""Fichez le camp d'ici. Et si vous ne le dites pas à Menes, je le ferai.""",
+$player.ethosIdealistic++","Pond a l'air accablé, mais il acquiesce. « Oui, je... je ferai ça. Menes comprendra pourquoi j'ai dû faire... ce que j'ai dû faire. »","bffi_ulmusTalkNoSedgeOut2menes:""Fichez le camp d'ici. Et si vous ne le dites pas à Menes, je le ferai.""",
 BFFIpondNoSedgeOutro2menesFoolB,DialogOptionSelected,"$option == bffi_pondNoSedgeOutro2menesFool
 $global.bornanewChokedPond","$player.bffi_pondFateMenes = true
 $player.ethosMercy++
-$player.ethosCynical++","Pond looks stricken, but he nods. ""Yes."" Another cough. ""Menes, kind.""","bffi_ulmusTalkNoSedgeOut2menes:""Fichez le camp d'ici. Et si vous ne le dites pas à Menes, je le ferai.""",
+$player.ethosCynical++","Pond a l'air accablé, mais il acquiesce. « Oui. » Une autre quinte de toux. « Menes, bon. »","bffi_ulmusTalkNoSedgeOut2menes:""Fichez le camp d'ici. Et si vous ne le dites pas à Menes, je le ferai.""",
 BFFIpondNoSedgeOutro2menesKindB,DialogOptionSelected,"$option == bffi_pondNoSedgeOutro2menesKind
 $global.bornanewChokedPond","$player.bffi_pondFateMenes = true
 $player.ethosMercy++
-$player.ethosIdealistic++","Pond looks stricken, but he nods. ""Yes. Menes."" Another cough. ""Will understand.""","bffi_ulmusTalkNoSedgeOut2menes:""Fichez le camp d'ici. Et si vous ne le dites pas à Menes, je le ferai.""",
+$player.ethosIdealistic++","Pond a l'air accablé, mais il acquiesce. « Oui. Menes. » Une autre quinte de toux. « Comprendra. »","bffi_ulmusTalkNoSedgeOut2menes:""Fichez le camp d'ici. Et si vous ne le dites pas à Menes, je le ferai.""",
 ,,,,,,
 BFFIpondNoSedgeOutro2deal,DialogOptionSelected,"$option == bffi_pondNoSedgeOutro2deal
 $player.toldBornanewHeIsBadGuy","$player.ethosRuthless++
@@ -11470,7 +11470,7 @@ He taps at his datapad, and yours pings with incoming coordinates.
 BFFIulmusNoSedgeOutro4,DialogOptionSelected,$option == bffi_ulmusTalkNoSedgeOut4,"unset $global.bffi_followUlmusPond
 Call $global.bffi_ref spawnPatherBase
 $global.bffi_investigatePatherStation = true
-Call $global.bffi_ref updateStage","Vous regardez votre TriPad, lisant les coordonnées livrées par Ulmus Pond.","bffi_ulmusTalkNoSedgeOut5:""We're going to the $bffi_patherStationSystem.""",
+Call $global.bffi_ref updateStage","Vous regardez votre TriPad, lisant les coordonnées livrées par Ulmus Pond.","bffi_ulmusTalkNoSedgeOut5:""Nous allons dans le système $bffi_patherStationSystem.""",
 BFFIulmusNoSedgeOutro5,DialogOptionSelected,$option == bffi_ulmusTalkNoSedgeOut5,"EndConversation DO_NOT_FIRE
 ShowLargePlanet","""I pray we find our answers,"" Bornanew says as you return to the shuttle. ""And I fear now that the Pathers know that we know their aims.""
 
@@ -11493,7 +11493,7 @@ Call $global.bffi_ref updateData
 $bffi_stage == INVESTIGATE_PATHER_STATION","FireAll MostLuddicEthosRefresh
 $didApproach = true
 $option = bffi_psConsultFork 0
-FireBest DialogOptionSelected","Your sensors' officer runs a continuous passive sweep. A certain voluminous and outwardly nondescript station section is putting out a great deal of waste heat. It's not confirmation, but it could suggest an industrial size nanoforge operating at low throughput.",,
+FireBest DialogOptionSelected","Votre officier des senseurs effectue un balayage passif continu. Une section de la station, volumineuse et d'apparence anodine, dégage une grande quantité de chaleur résiduelle. Ce n'est pas une confirmation, mais cela pourrait indiquer une nanoforge de taille industrielle fonctionnant à faible débit.",,
 BFFIpsApproachConsultStart,DialogOptionSelected,$option == bffi_psConsultFork,BeginConversation bornanew,Bornanew vous rejoint sur la passerelle de votre vaisseau amiral. Le tacticien lui lance un regard sceptique.,"bffi_psConsultStartA:Hocher la tête en guise d'acquiescement
 bffi_psConsultStartB:""$global.jethroName. I welcome your counsel.""
 bffi_psConsultStartC:""On va faire exploser ces Pèlerins au grand jour.""",
@@ -11683,7 +11683,7 @@ FireBest DialogOptionSelected","""Non !"" Il parle avec un peu trop de force ; u
 ""Risqué... faut des données concrètes. Le scan du gant original, les métadonnées. Tampons de communication. Archives."" Il prend une grande inspiration puis vous regarde, ""J'ai une liste de suspects. Une taupe dans la Sainte Cathédrale de l'Exode. Il faut des preuves. Qui... mettre à l'inquisition.""
 
 Il marque une pause, puis dit, ""Inquisiteurs. Les rumeurs... calomnies. En grande partie."" Ses yeux sont fermés, sa respiration superficielle. ""Et... détruire la forge. Elle doit être détruite.""",,
-BFFIstationMedConOutro1,DialogOptionSelected,$option == bffi_stationMedConOutro1,,"""$PlayerSirOrMadam."" Your chief medical officer appears behind you. ""The patient needs rest. I must insist.""","bffi_stationMedConOutro2a:""Bien sûr.""
+BFFIstationMedConOutro1,DialogOptionSelected,$option == bffi_stationMedConOutro1,,« $PlayerSirOrMadam. » Votre médecin-chef apparaît derrière vous. « Le patient a besoin de repos. J'insiste. »,"bffi_stationMedConOutro2a:""Bien sûr.""
 bffi_stationMedConOutro2b:""C'est moi qui déciderai quand il a besoin de repos, docteur.""",
 BFFIstationMedConOutro2a,DialogOptionSelected,$option == bffi_stationMedConOutro2a,"EndConversation DO_NOT_FIRE
 ShowDefaultVisual","Le visage de votre médecin-chef est parcouru d'un réseau de fines rides, preuve de nombreux cycles de service. Il ne dit rien, mais tourne la tête d'un angle petit et précis.
@@ -11715,7 +11715,7 @@ $isPerson
 $faction.id == luddic_path
 Call $global.bffi_ref updateData
 $bffi_stage == INVESTIGATE_PATHER_STATION
-$player.luddicAttitudeFaithfulOrPather",FireAll MostLuddicEthosRefresh,,"bffi_stationConcerns:""I come as fellow-walker of the Faith... I have grave concerns.""",
+$player.luddicAttitudeFaithfulOrPather",FireAll MostLuddicEthosRefresh,,"bffi_stationConcerns:""Je viens en tant que compagnon de route dans la Foi... J'ai de graves inquiétudes.""",
 BFFIpatherStationTalkIgnore,PickGreeting,"$entity.bffi_patherStationTarget
 $isPerson
 $ignorePlayer
@@ -11831,7 +11831,7 @@ $HeOrShe a le choix, expliquez-vous. Appelez ça un marché Molochien, si ça le
 $heOrShe est-il si loyal à la secte de Sedge qu'il est prêt à mourir pour elle — même alors qu'elle s'effondre déjà ?",bffi_psRuseOpenMean:Proposer des termes,
 ,,,,,,
 BFFIpsTalkFailStart,DialogOptionSelected,"$option == bffi_psTalkFailStart
-!$global.bornanewShotDuringBFFI",BeginConversation bornanew,"""Well,"" Bornanew says from beside you. ""Let it not be said that you did not attempt diplomacy.""","bffi_psTalkFail:Ne rien dire
+!$global.bornanewShotDuringBFFI",BeginConversation bornanew,"« Eh bien, dit Bornanew à côté de vous. Qu'on ne dise pas que vous n'avez pas tenté la diplomatie. »","bffi_psTalkFail:Ne rien dire
 bffi_psTalkFailb:""I truly hoped that would have gone better.""
 bffi_psTalkFailc:""Bien. Maintenant on peut faire les choses à ma façon.""",
 BFFIpsTalkFail1a,DialogOptionSelected,$option == bffi_psTalkFailb,"$player.ethosMercy++
@@ -15829,7 +15829,7 @@ gaFCfikenhildBotherVIPoptAsel2,DialogOptionSelected,$option == gaFC_fikenhildBot
 
 ""Si le Roi avait donné un ordre, je le saurais. Donc."" $HeOrShe écarte $hisOrHer mains. ""Je veux vous aider, mais mon bureau ne peut rien faire sans suivre la procédure réglementaire. Je suis désolé.""
 
-Le $post regarde de côté. ""À moins que...""","gaFC_fikenhildBotherC3:""Unless?""",
+Le $post regarde de côté. ""À moins que...""","gaFC_fikenhildBotherC3:""À moins que ?""",
 gaFCFikenhildBotherVIPoptA3,DialogOptionSelected,$option == gaFC_fikenhildBotherC3,$market.askedVIPaboutCoureuse = true,"""Le Renseignement de la Flotte a plus de latitude dans ces affaires. Les réformes post-Mairaath et tout ça. Je ne dis pas qu'il faudrait prendre ça à la légère, mais...""
 
 $HeOrShe vous regarde. ""Est-ce important ?""","gaFC_fikenhildBotherVIPoptA4:""Oui.""
@@ -16686,7 +16686,7 @@ gaFCScavengerWait2,DialogOptionSelected,$option == gaFC_scavengerWait2,,"Cela ne
 
 Votre officier des communications interrompt votre rêverie avec un cri, ""Capitaine ! Quelque chose dans la soute du vaisseau amiral des récupérateurs vient d'émettre une impulsion de communication à courte portée. Déjà vu ça, le profil correspond à une opération voiliste. Peut-être des pirates.""
 
-Un instant plus tard, le signal d'attente de la communication laisse place au visage paniqué du capitaine des récupérateurs.",gaFC_scavengerWait3:Wait,
+Un instant plus tard, le signal d'attente de la communication laisse place au visage paniqué du capitaine des récupérateurs.",gaFC_scavengerWait3:Attendre,
 gaFCScavengerWait3,DialogOptionSelected,$option == gaFC_scavengerWait3,"AddTextSmall ""Éjection d'un conteneur de fret détectée"" highlight
 Call $global.gaFC_ref dropStolenProbe
 $global.gaFC_triggerPatherAmbush = true
@@ -17311,7 +17311,7 @@ L'Archonte $personLastName prend plusieurs grandes respirations, puis croise vot
 
 ""Je me suis laissé faire par ces espions de Kazeron. Laissé Laicaille se faire bousculer. Ils nous écrasent de leur 'habilitation sécuritaire' sans valeur.""",gaFCArchonPL_conclude2:Continuer,
 gaFCArchonPLconclue2,DialogOptionSelected,$option == gaFCArchonPL_conclude2,"$option = gaFC_archonSuccessEnd 0
-FireBest DialogOptionSelected","The archon's voice steadies with a cold rage that's been building for many cycles. ""We're better than that. We'll show them who Laicaille really belongs to - not a bunch of Kazeron gens babies tracking dirt onto our fine station.""",,
+FireBest DialogOptionSelected","La voix de l'archonte se raffermit, portée par une rage froide accumulée depuis de nombreux cycles. « Nous valons mieux que ça. Nous allons leur montrer à qui Laicaille appartient vraiment - pas à une bande de bébés des gens de Kazeron qui viennent salir notre belle station. »",,
 ,,,,,,
 gaFCArchonAskCoureuse,DialogOptionSelected,"$option == gaFC_archonAskCoureuse
 !$askedAboutCoureuse","$askedAboutCoureuse = true
@@ -20880,10 +20880,10 @@ gaATGepiphanyBarEndWait,DialogOptionSelected,$option == gaATG_epiphanyBarEndWait
 gaATG_epiphanyBarEndWait2b:""Garçon, une tournée pour les grands messieurs là-bas !""",
 gaATGepiphanyBarEndWait2a,DialogOptionSelected,$option == gaATG_epiphanyBarEndWait2a,,"Vous vous installez dans un bon coin solide ; dos au mur, bonne visibilité sur les sorties. Vos gardes vous imitent discrètement.
 
-Le thé arrive rapidement et le serveur ne fait aucune conversation, pressé de ne pas donner l'impression d'avoir un quelconque lien avec vous.",gaATG_epiphanyBarEndWait3:Wait,
+Le thé arrive rapidement et le serveur ne fait aucune conversation, pressé de ne pas donner l'impression d'avoir un quelconque lien avec vous.",gaATG_epiphanyBarEndWait3:Attendre,
 gaATGepiphanyBarEndWait2b,DialogOptionSelected,$option == gaATG_epiphanyBarEndWait2b,,"Vous offrez une tournée aux gros bras Pathers et ils vous toisent en commandant autre chose, laissant vos cadeaux intacts.
 
-Vous vous installez dans un bon coin solide ; dos au mur, bonne visibilité sur les sorties. Vos gardes vous imitent discrètement.",gaATG_epiphanyBarEndWait3:Wait,
+Vous vous installez dans un bon coin solide ; dos au mur, bonne visibilité sur les sorties. Vos gardes vous imitent discrètement.",gaATG_epiphanyBarEndWait3:Attendre,
 gaATGepiphanyBarEndWait3,DialogOptionSelected,$option == gaATG_epiphanyBarEndWait3,,"Vous remarquez le changement d'équipe quand chronomètres et datapads volontairement obsolètes notifient les habitués - mineurs et membres d'équipage, pour la plupart - de finir leurs boissons et d'aller titubant vers leurs postes.
 
 Le tenancier pose une bouteille et s'approche de vous. ""Écoutez-moi, je vous en prie,"" dit-elle. ""Je n'ai rien à voir avec lui ni les siens. Vous... vous ne pouvez pas les refuser ici, capitaine.""
@@ -32649,7 +32649,7 @@ sdtu_postHyderMission2b:""Depuis combien de temps êtes-vous au courant ?""",
 sdtuPostHyderMission2a,DialogOptionSelected,$option == sdtu_postHyderMission2a,"$global.sdtu_extractAgent = true
 Call $global.sdtu_ref updateStage
 $option = sdtu_macarioPostHyderEnd 0
-FireBest DialogOptionSelected","Macario sourit sans joie. ""Vous vous entendrez à merveille pourvu que vous puissiez prétendre que votre plus grande aspiration est de lécher les bottes d'Andrada.""",sdtu_macarioPostHyderEnd:End,
+FireBest DialogOptionSelected","Macario sourit sans joie. ""Vous vous entendrez à merveille pourvu que vous puissiez prétendre que votre plus grande aspiration est de lécher les bottes d'Andrada.""",sdtu_macarioPostHyderEnd:Terminer,
 sdtuPostHyderMission2b,DialogOptionSelected,$option == sdtu_postHyderMission2b,"$global.sdtu_extractAgent = true
 Call $global.sdtu_ref updateStage
 $option = sdtu_macarioPostHyderEnd 0
@@ -39607,7 +39607,7 @@ gaDHOvisitElekStart3,DialogOptionSelected,$option == gaDHO_visitElekStart3,$gaDH
 Vous êtes guidé à travers le hub de transport principal de la station et vous vous retrouvez bientôt dans une place aérée à mi-chemin de l'anneau de la station. Votre jeune agent vous conduit à travers",gaDHO_visitElekStart4:Continuer,
 gaDHOvisitElekStart4,DialogOptionSelected,$option == gaDHO_visitElekStart4,,"Vous arrivez dans un hall tranquille à l'écart du hall principal, à peine deux ponts au-dessus du bord de la station. Un volume ouvert cerné de garde-corps offre une vue vertigineuse sur les nuages de Pontus "" en dessous "" de vous.
 
-"" Troisième porte à droite, $playerSirOrMadam. "" Le jeune",gaDHO_visitElek:Enter,
+"" Troisième porte à droite, $playerSirOrMadam. "" Le jeune",gaDHO_visitElek:Entrer,
 gaDHOvisitElek,DialogOptionSelected,$option == gaDHO_visitElek,"BeginConversation elek
 $option = gaDHO_visitElekIntro 0
 FireBest DialogOptionSelected","Un homme en robes d'académicien est enfoui dans un holodisplay. Plusieurs lunes semblent orbiter autour de sa tête.
@@ -40225,8 +40225,8 @@ AddText ""Un scan de routine montre que ce réseau de capteurs a été modifié.
 
 ","gaDHO_justFoundArray0:Examiner les modifications
 100:defaultLeave:Partir",
-gaDHOjustFoundArray0,DialogOptionSelected,$option == gaDHO_justFoundArray0,,"Votre officier des capteurs projette la sortie visuelle sur l'écran principal de la passerelle. Ce n'est que poutres, masses et ombres géométriques dures — puis dans un flash, un recouvrement LIDAR révèle la structure dans la lumière","gaDHO_justFoundArray1:""Ops, deploy your teams.""",
-gaDHOjustFoundArray1,DialogOptionSelected,$option == gaDHO_justFoundArray1,,"Votre chef des opérations déploie les récupérateurs avec une prudence frôlant la paranoïa malgré toutes les apparences indiquant un assemblage de pièces civiles standard. Si ce sont des pirates cherchant un avantage de détection, ce serait","gaDHO_justFoundArray2:""Report.""",
+gaDHOjustFoundArray0,DialogOptionSelected,$option == gaDHO_justFoundArray0,,"Votre officier des capteurs projette la sortie visuelle sur l'écran principal de la passerelle. Ce n'est que poutres, masses et ombres géométriques dures — puis dans un flash, un recouvrement LIDAR révèle la structure dans la lumière","gaDHO_justFoundArray1:""Opérations, déployez vos équipes.""",
+gaDHOjustFoundArray1,DialogOptionSelected,$option == gaDHO_justFoundArray1,,"Votre chef des opérations déploie les récupérateurs avec une prudence frôlant la paranoïa malgré toutes les apparences indiquant un assemblage de pièces civiles standard. Si ce sont des pirates cherchant un avantage de détection, ce serait","gaDHO_justFoundArray2:""Rapport.""",
 gaDHOjustFoundArray2,DialogOptionSelected,$option == gaDHO_justFoundArray2,,""" $PlayerSirOrMadam. C'est propre. ""
 
 Le chef des opérations ordonne le début du vrai travail. Un technicien de récupération senior démarre un petit interfaceur bon marché qu'il tient au bout d'une simple perche télescopique pour sonder","gaDHO_justFoundArray3:""Comment pouvez-vous le savoir ?""",

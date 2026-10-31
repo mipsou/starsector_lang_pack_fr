@@ -1,0 +1,36 @@
+{
+    "displayName":  "Église de la Rédemption Galactique",
+    "displayNameWithArticle":  "l\u0027Église de la Rédemption Galactique",
+    "displayNameLong":  "Église de la Rédemption Galactique",
+    "displayNameLongWithArticle":  "l\u0027Église de la Rédemption Galactique",
+    "ranks":  {
+                  "ranks":  {
+                                "spaceCommander":  {
+                                                       "name":  "Diacre-Capitaine"
+                                                   }
+                            },
+                  "posts":  {
+                                "patrolCommander":  {
+                                                        "name":  "Diacre-Capitaine"
+                                                    },
+                                "fleetCommander":  {
+                                                       "name":  "Curé-Commandant"
+                                                   },
+                                "baseCommander":  {
+                                                      "name":  "Évêque-Gouverneur"
+                                                  },
+                                "administrator":  {
+                                                      "name":  "Sous-presbytre Orbis"
+                                                  },
+                                "genericMilitary":  {
+                                                        "name":  "Chevalier-Commandeur"
+                                                    },
+                                "portmaster":  {
+                                                   "name":  "Guetteur du Port"
+                                               },
+                                "quartermaster":  {
+                                                      "name":  "Commissaire de Bord"
+                                                  }
+                            }
+              }
+}

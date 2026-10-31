@@ -1,0 +1,53 @@
+{
+  "format": "partial",
+  "files": {
+    "world/factions/derelict.faction": {"displayName": "Épave", "displayNameWithArticle": "l'épave", "displayNameLong": "Épave d'Exploration du Domaine", "displayNameLongWithArticle": "l'Épave d'Exploration du Domaine"},
+    "world/factions/dweller.faction": {"displayName": "Habitant Voilé", "displayNameWithArticle": "l'Habitant Voilé", "displayNameLong": "Habitant Voilé", "displayNameLongWithArticle": "l'Habitant Voilé"},
+    "world/factions/hegemony.faction": {"displayName": "Hégémonie", "displayNameWithArticle": "l'Hégémonie",
+      "ranks": {
+        "ranks": {"factionLeader": {"name": "Haut Hégémon"}, "spaceCommander": {"name": "Commandant"}},
+        "posts": {"factionLeader": {"name": "Haut Hégémon"}, "patrolCommander": {"name": "Commandant de Patrouille"}, "fleetCommander": {"name": "Commandant de Flotte"}, "baseCommander": {"name": "Commandant de Base"}, "militaryAdministrator": {"name": "Gouverneur Militaire"}}
+      }},
+    "world/factions/independent.faction": {"displayName": "indépendant", "displayNameWithArticle": "les indépendants", "displayNameLong": "indépendants", "displayNameLongWithArticle": "les indépendants"},
+    "world/factions/knights_of_ludd.faction": {"displayName": "Chevaliers de Ludd", "displayNameWithArticle": "les Chevaliers de Ludd"},
+    "world/factions/lions_guard.faction": {"displayName": "Garde du Lion", "displayNameWithArticle": "la Garde du Lion"},
+    "world/factions/luddic_church.faction": {"displayName": "Église de la Rédemption Galactique", "displayNameWithArticle": "l'Église de la Rédemption Galactique", "displayNameLong": "Église de la Rédemption Galactique", "displayNameLongWithArticle": "l'Église de la Rédemption Galactique",
+      "ranks": {
+        "ranks": {"spaceCommander": {"name": "Diacre-Capitaine"}},
+        "posts": {"patrolCommander": {"name": "Diacre-Capitaine"}, "fleetCommander": {"name": "Curé-Commandant"}, "baseCommander": {"name": "Évêque-Gouverneur"}, "administrator": {"name": "Sous-presbytre Orbis"}, "genericMilitary": {"name": "Chevalier-Commandeur"}, "portmaster": {"name": "Guetteur du Port"}, "quartermaster": {"name": "Commissaire de Bord"}}
+      }},
+    "world/factions/luddic_path.faction": {"displayName": "Voie Luddique", "displayNameWithArticle": "la Voie Luddique",
+      "ranks": {
+        "ranks": {"spaceCommander": {"name": "Marcheur Béni"}},
+        "posts": {"patrolCommander": {"name": "Suppliant"}, "fleetCommander": {"name": "Marteau"}, "baseCommander": {"name": "Berger-militant"}, "administrator": {"name": "Berger-métropolitain"}, "portmaster": {"name": "Guetteur du Port"}, "quartermaster": {"name": "Commissaire de Bord"}, "stationCommander": {"name": "Berger-militant"}}
+      }},
+    "world/factions/mercenary.faction": {"displayName": "mercenaire", "displayNameWithArticle": "les mercenaires", "displayNameLong": "mercenaires", "displayNameLongWithArticle": "les mercenaires"},
+    "world/factions/neutral.faction": {"displayName": "Neutre", "displayNameWithArticle": "Neutre"},
+    "world/factions/omega.faction": {"displayName": "Omega", "displayNameWithArticle": "l'Omega", "displayNameLong": "Omega", "displayNameLongWithArticle": "l'Omega"},
+    "world/factions/persean_league.faction": {"displayName": "Ligue Persane", "displayNameWithArticle": "la Ligue Persane", "displayNameLong": "Ligue Persane", "displayNameLongWithArticle": "la Ligue Persane",
+      "ranks": {
+        "ranks": {"spaceCommander": {"name": "Navarque"}, "spaceAdmiral": {"name": "Premier Navarque"}, "houseLeader": {"name": "Patriarche de Gens"}, "houseLeaderMale": {"name": "Patriarche de Gens"}, "houseLeaderFemale": {"name": "Matriarche de Gens"}},
+        "posts": {"patrolCommander": {"name": "Demi-Navarque"}, "fleetCommander": {"name": "Navarque"}, "baseCommander": {"name": "Archonte"}, "administrator": {"name": "Démarque"}, "factionLeader": {"name": "Premier Démarque"}}
+      }},
+    "world/factions/pirates.faction": {"displayName": "pirates", "displayNameWithArticle": "les pirates",
+      "ranks": {
+        "ranks": {"spaceCommander": {"name": "Capitaine"}},
+        "posts": {"patrolCommander": {"name": "Capitaine"}, "fleetCommander": {"name": "Maître de Flotte"}, "baseCommander": {"name": "Chef de Guerre"}, "stationCommander": {"name": "Roi de la Station"}, "portmaster": {"name": "Patron du Port"}, "administrator": {"name": "Patron"}}
+      }},
+    "world/factions/poor.faction": {"displayName": "réfugiés", "displayNameWithArticle": "les réfugiés", "displayNameLong": "réfugiés", "displayNameLongWithArticle": "les réfugiés"},
+    "world/factions/remnants.faction": {"displayName": "Remnants", "displayNameWithArticle": "les Remnants", "displayNameLong": "IA Remnants", "displayNameLongWithArticle": "les IA Remnants"},
+    "world/factions/scavengers.faction": {"displayName": "charognards", "displayNameWithArticle": "les charognards"},
+    "world/factions/sindrian_diktat.faction": {"displayName": "Diktat Sindrien", "displayNameWithArticle": "le Diktat Sindrien",
+      "ranks": {
+        "ranks": {"factionLeader": {"name": "Exécuteur Suprême"}},
+        "posts": {"factionLeader": {"name": "Exécuteur Suprême"}, "guardLeader": {"name": "Chef de la Garde Exécutive"}, "militaryAdministrator": {"name": "Contrôleur Général"}}
+      }},
+    "world/factions/sleeper.faction": {"displayName": "dormeur", "displayNameWithArticle": "le dormeur", "displayNameLong": "dormeur", "displayNameLongWithArticle": "le dormeur"},
+    "world/factions/threat.faction": {"displayName": "Menace", "displayNameWithArticle": "la Menace", "displayNameLong": "Menace", "displayNameLongWithArticle": "la Menace"},
+    "world/factions/tritachyon.faction": {"displayName": "Tri-Tachyon", "displayNameWithArticle": "Tri-Tachyon", "displayNameLong": "Corporation Tri-Tachyon", "displayNameLongWithArticle": "la Corporation Tri-Tachyon",
+      "ranks": {
+        "ranks": {"spaceAdmiral": {"name": "Directeur des Opérations Principal"}, "spaceCommander": {"name": "Directeur des Opérations"}, "factionLeader": {"name": "PDG"}},
+        "posts": {"factionLeader": {"name": "PDG"}, "patrolCommander": {"name": "Directeur de Patrouille"}, "fleetCommander": {"name": "Directeur de Flotte"}, "baseCommander": {"name": "Directeur de Base"}, "intelligenceDirector": {"name": "Directeur des Acquisitions Spéciales"}}
+      }}
+  }
+}
