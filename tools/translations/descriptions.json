@@ -1,0 +1,27 @@
+{
+  "file": "strings/descriptions.csv",
+  "key": ["id", "type"],
+  "entries": {
+    "entropyamplifier|SHIP_SYSTEM": {"text5": "Le vaisseau ciblé subit {{50%}} de dégâts supplémentaires de toutes sources."},
+    "mine_strike|SHIP_SYSTEM": {
+      "text3": "Téléporte une mine de proximité lourde vers la zone ciblée. Chaque mine inflige 2000 dégâts explosifs dans une zone. Utilisable en phase.",
+      "text4": "2000 dégâts explosifs",
+      "text5": "Chaque mine inflige {{2000 dégâts explosifs}} dans une large zone et peut être déployée à une portée d'environ {{1000}} su."
+    },
+    "mine_strike_station|SHIP_SYSTEM": {"text5": "Chaque mine inflige {{2000 dégâts explosifs}} dans une large zone et peut être déployée à une portée d'environ {{3500}} su."},
+    "acausaldisruptor|SHIP_SYSTEM": {"text5": "La surcharge dure {{1}} seconde."},
+    "temporalshell|SHIP_SYSTEM": {"text5": "À bord du vaisseau, le temps s'écoule jusqu'à {{trois}} fois plus vite que la normale."},
+    "damper|SHIP_SYSTEM": {"text5": "Réduit tous les dégâts subis de {{67%}} pour les frégates et les destroyers, et de {{50%}} pour les vaisseaux plus grands."},
+    "burndrive|SHIP_SYSTEM": {"text5": "La vitesse maximale du vaisseau est augmentée de {{200}}."},
+    "drone_strike|SHIP_SYSTEM": {"text5": "Chaque drone inflige {{1200 dégâts énergétiques}} et {{600 dégâts IEM}} à l'impact."},
+    "canister_flak|SHIP_SYSTEM": {"text5": "Chaque conteneur inflige {{200 dégâts explosifs}} dans une zone et son ciblage évite les tirs fratricides."},
+    "ammofeed|SHIP_SYSTEM": {"text5": "Augmente la cadence de tir des armes balistiques de {{100%}} et réduit de {{50%}} le flux qu'elles génèrent."},
+    "targetingfeed|SHIP_SYSTEM": {"text5": "Les dégâts des chasseurs sont augmentés de {{50%}}."},
+    "forgevats|SHIP_SYSTEM": {"text5": "La quantité de missiles rechargés est égale à la capacité de munitions de base de chaque arme, avant tout modificateur de compétence ou de modification de coque."},
+    "cargo_loading|GALLERY": {"text4": "- un client anonyme, entendu au « Fusion Torch »"},
+    "vacuum_colony|GALLERY": {"text4": "- Académicien Florian Proxima, département d'Histoire du Domaine, Académie de Galatia"},
+    "abandoned_station2|GALLERY": {"text4": "- Encela « Boomer » Blackborn, astronaute"},
+    "dead_zero_g|GALLERY": {"text4": "- Bora Sidereal, récupératrice"},
+    "cryosleeper_interior|GALLERY": {"text4": "- l'Historien"}
+  }
+}

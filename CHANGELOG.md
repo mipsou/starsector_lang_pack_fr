@@ -1,5 +1,35 @@
 # Changelog
 
+## [v2.1.0] - 2026-10-31
+
+### Ajouté — Fichiers manquants (annoncés traduits mais absents du dépôt)
+
+- `hullmods/hull_mods.csv` : 130 modifications de coque (noms, descriptions, résumés, effets S-mod)
+- `campaign/special_items.csv` : 39 objets spéciaux (nanoforges, artefacts de colonie, plans, objets de mission)
+- `shipsystems/ship_systems.csv` : 63 noms de systèmes de vaisseaux
+- `hulls/ship_data.csv` : désignations des coques (Frégate, Croiseur Lourd, Porte-Chasseurs…)
+- `hulls/wing_data.csv` : rôles des escadrilles de chasseurs
+- `world/factions/*.faction` : noms des factions et rangs/postes propres à chaque faction (Haut Hégémon, Archonte, Exécuteur Suprême…) — fichiers partiels fusionnés par le jeu
+- `config/planets.json` : types d'étoiles et de planètes (Géante Gazeuse, Naine Rouge, Terrestre…) — fichier partiel
+- `config/custom_entities.json` : objets de la carte (relais, bouées, caches, épaves, stations, régions du Secteur) — fichier partiel
+- `missions/*/descriptor.json` : titres des 16 missions de combat
+
+### Complété
+
+- `weapons/weapon_data.csv` : rôles, vitesse et guidage des armes (fiche d'arme), accents rétablis sur une dizaine de noms, « Mauler Lourd » corrigé (était « Dévastateur Lourd »)
+- `campaign/rules.csv` : ~90 répliques et options restées en anglais (mission du gant de Bornanew, Galatia Academy, etc.)
+- `strings/descriptions.csv` : effets détaillés de 12 systèmes de vaisseaux, citations de la galerie
+- `characters/personalities.csv` : descriptions des personnalités d'officiers
+- `campaign/commodities.csv` : « Volatils »
+
+### Outils
+
+- `tools/translations/*.json` : les traductions ajoutées, au format clé → colonne → texte
+- `tools/Apply-Translations.ps1` : injecte ces traductions dans les CSV sans toucher aux colonnes de statistiques
+- `tools/Test-Translations.ps1` : vérifie que seules les colonnes de texte changent et que les `%s`, `{{…}}` et `$variables` sont conservés
+
+---
+
 ## [v2.0.15] - 2026-06-10
 
 > Remplace la v2.0.14 (taguée en interne, jamais publiée). QA validée : 3 sessions jeu consécutives depuis zéro avec Nexerelin 0.12.1e + LazyLib + MagicLib, zéro crash.

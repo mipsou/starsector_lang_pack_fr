@@ -169,6 +169,7 @@ jobs:
           data/campaign/market_conditions.csv
           data/campaign/reports.csv
           data/campaign/rules.csv
+          data/campaign/special_items.csv
           data/campaign/submarkets.csv
           data/characters/personalities.csv
           data/characters/skills/aptitude_data.csv
@@ -178,23 +179,45 @@ jobs:
           data/codex/spacers_manual_ui.txt
           data/config/battle_objectives.json
           data/config/contact_tag_data.json
+          data/config/custom_entities.json
+          data/config/planets.json
           data/config/tag_data.json
+          data/hullmods/hull_mods.csv
+          data/hulls/ship_data.csv
+          data/hulls/wing_data.csv
+          data/missions/afistfulofcredits/descriptor.json
           data/missions/afistfulofcredits/mission_text.txt
+          data/missions/ambush/descriptor.json
           data/missions/ambush/mission_text.txt
+          data/missions/coralnebula/descriptor.json
           data/missions/coralnebula/mission_text.txt
+          data/missions/direstraits/descriptor.json
           data/missions/direstraits/mission_text.txt
+          data/missions/forlornhope/descriptor.json
           data/missions/forlornhope/mission_text.txt
+          data/missions/forthegreaterlud/descriptor.json
           data/missions/forthegreaterlud/mission_text.txt
+          data/missions/hornetsnest/descriptor.json
           data/missions/hornetsnest/mission_text.txt
+          data/missions/m2/descriptor.json
+          data/missions/m3/descriptor.json
           data/missions/m3/mission_text.txt
           data/missions/mission_list.csv
+          data/missions/nothingpersonal/descriptor.json
           data/missions/nothingpersonal/mission_text.txt
+          data/missions/predatororprey/descriptor.json
           data/missions/predatororprey/mission_text.txt
+          data/missions/randombattle1/descriptor.json
           data/missions/randombattle1/mission_text.txt
+          data/missions/sinkingthebismarck/descriptor.json
           data/missions/sinkingthebismarck/mission_text.txt
+          data/missions/thelasthurrah/descriptor.json
           data/missions/thelasthurrah/mission_text.txt
+          data/missions/thewolfpack/descriptor.json
           data/missions/thewolfpack/mission_text.txt
+          data/missions/turningthetables/descriptor.json
           data/missions/turningthetables/mission_text.txt
+          data/shipsystems/ship_systems.csv
           data/strings/descriptions.csv
           data/strings/ship_names.json
           data/strings/strings.json
@@ -203,6 +226,26 @@ jobs:
           data/weapons/weapon_data.csv
           data/world/factions/default_fleet_type_names.json
           data/world/factions/default_ranks.json
+          data/world/factions/derelict.faction
+          data/world/factions/dweller.faction
+          data/world/factions/hegemony.faction
+          data/world/factions/independent.faction
+          data/world/factions/knights_of_ludd.faction
+          data/world/factions/lions_guard.faction
+          data/world/factions/luddic_church.faction
+          data/world/factions/luddic_path.faction
+          data/world/factions/mercenary.faction
+          data/world/factions/neutral.faction
+          data/world/factions/omega.faction
+          data/world/factions/persean_league.faction
+          data/world/factions/pirates.faction
+          data/world/factions/poor.faction
+          data/world/factions/remnants.faction
+          data/world/factions/scavengers.faction
+          data/world/factions/sindrian_diktat.faction
+          data/world/factions/sleeper.faction
+          data/world/factions/threat.faction
+          data/world/factions/tritachyon.faction
           EOF
           # Supprimer les espaces de début (indentation heredoc)
           sed -i 's/^[[:space:]]*//' /tmp/allowlist.txt
@@ -219,7 +262,7 @@ jobs:
             echo "✅ Tous les fichiers data/ sont dans l'allowlist"
           else
             echo ""
-            echo "Seuls les 40 fichiers de traduction autorisés sont acceptés dans data/."
+            echo "Seuls les 83 fichiers de traduction autorisés sont acceptés dans data/."
             echo "Tout fichier vanilla Starsector ou non listé doit être retiré du repo."
             exit 1
           fi

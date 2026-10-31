@@ -1,0 +1,470 @@
+{
+    "file":  "hulls/ship_data.csv",
+    "key":  [
+                "id"
+            ],
+    "entries":  {
+                    "attack_swarm":  {
+                                         "designation":  "Essaim"
+                                     },
+                    "shrouded_vortex":  {
+                                            "designation":  "Vortex Voilé"
+                                        },
+                    "shrouded_ejecta":  {
+                                            "designation":  "Éjecta Voilé"
+                                        },
+                    "wolf":  {
+                                 "designation":  "Frégate"
+                             },
+                    "hound":  {
+                                  "designation":  "Cargo de Combat"
+                              },
+                    "vanguard":  {
+                                     "designation":  "Frégate Lourde"
+                                 },
+                    "hyperion":  {
+                                     "designation":  "Canonnière Avancée"
+                                 },
+                    "mercury":  {
+                                    "designation":  "Navette"
+                                },
+                    "hermes":  {
+                                   "designation":  "Navette"
+                               },
+                    "lasher":  {
+                                   "designation":  "Frégate"
+                               },
+                    "omen":  {
+                                 "designation":  "Frégate"
+                             },
+                    "tempest":  {
+                                    "designation":  "Frégate"
+                                },
+                    "brawler":  {
+                                    "designation":  "Canonnière"
+                                },
+                    "vigilance":  {
+                                      "designation":  "Frégate"
+                                  },
+                    "dram":  {
+                                 "designation":  "Ravitailleur"
+                             },
+                    "afflictor":  {
+                                      "designation":  "Frégate de Phase"
+                                  },
+                    "shade":  {
+                                  "designation":  "Frégate de Phase"
+                              },
+                    "ox":  {
+                               "designation":  "Remorqueur"
+                           },
+                    "cerberus":  {
+                                     "designation":  "Cargo de Combat"
+                                 },
+                    "monitor":  {
+                                    "designation":  "Frégate"
+                                },
+                    "shepherd":  {
+                                     "designation":  "Ravitailleur de Drones"
+                                 },
+                    "kite":  {
+                                 "designation":  "Navette"
+                             },
+                    "mudskipper":  {
+                                       "designation":  "Transport Civil"
+                                   },
+                    "centurion":  {
+                                      "designation":  "Frégate Lourde"
+                                  },
+                    "scarab":  {
+                                   "designation":  "Frégate Lourde"
+                               },
+                    "wayfarer":  {
+                                     "designation":  "Cargo de Combat"
+                                 },
+                    "lumen":  {
+                                  "designation":  "Vaisseau-Drone"
+                              },
+                    "glimmer":  {
+                                    "designation":  "Vaisseau-Drone"
+                                },
+                    "gremlin":  {
+                                    "designation":  "Frégate de Phase"
+                                },
+                    "shard_left":  {
+                                       "designation":  "Éclat Senestre"
+                                   },
+                    "shard_right":  {
+                                        "designation":  "Éclat Dextre"
+                                    },
+                    "skirmish_unit":  {
+                                          "designation":  "Unité d\u0027Escarmouche"
+                                      },
+                    "condor":  {
+                                   "designation":  "Porte-Chasseurs Léger"
+                               },
+                    "buffalo":  {
+                                    "designation":  "Cargo"
+                                },
+                    "gemini":  {
+                                   "designation":  "Cargo de Combat"
+                               },
+                    "tarsus":  {
+                                   "designation":  "Cargo"
+                               },
+                    "valkyrie":  {
+                                     "designation":  "Transport de Troupes"
+                                 },
+                    "phantom":  {
+                                    "designation":  "Transport de Phase"
+                                },
+                    "mule":  {
+                                 "designation":  "Cargo de Combat"
+                             },
+                    "phaeton":  {
+                                    "designation":  "Ravitailleur"
+                                },
+                    "crig":  {
+                                 "designation":  "Plateforme de Récupération"
+                             },
+                    "nebula":  {
+                                   "designation":  "Transport Civil"
+                               },
+                    "harbinger":  {
+                                      "designation":  "Destroyer de Phase"
+                                  },
+                    "fulgent":  {
+                                    "designation":  "Vaisseau-Drone"
+                                },
+                    "scintilla":  {
+                                      "designation":  "Porte-Drones"
+                                  },
+                    "drover":  {
+                                   "designation":  "Porte-Chasseurs Léger"
+                               },
+                    "shrike":  {
+                                   "designation":  "Destroyer Léger"
+                               },
+                    "facet":  {
+                                  "designation":  "Facette"
+                              },
+                    "overseer_unit":  {
+                                          "designation":  "Unité de Supervision"
+                                      },
+                    "assault_unit":  {
+                                         "designation":  "Unité d\u0027Assaut"
+                                     },
+                    "shrouded_tendril":  {
+                                             "designation":  "Vrille Voilée"
+                                         },
+                    "falcon":  {
+                                   "designation":  "Croiseur Léger"
+                               },
+                    "eagle":  {
+                                  "designation":  "Croiseur"
+                              },
+                    "champion":  {
+                                     "designation":  "Croiseur Lourd"
+                                 },
+                    "venture":  {
+                                    "designation":  "Croiseur"
+                                },
+                    "apogee":  {
+                                   "designation":  "Croiseur"
+                               },
+                    "dominator":  {
+                                      "designation":  "Croiseur Lourd"
+                                  },
+                    "eradicator":  {
+                                       "designation":  "Croiseur Rapide"
+                                   },
+                    "aurora":  {
+                                   "designation":  "Croiseur"
+                               },
+                    "doom":  {
+                                 "designation":  "Croiseur de Phase"
+                             },
+                    "grendel":  {
+                                    "designation":  "Croiseur de Phase"
+                                },
+                    "heron":  {
+                                  "designation":  "Porte-Chasseurs Rapide"
+                              },
+                    "gryphon":  {
+                                    "designation":  "Croiseur Lance-Missiles"
+                                },
+                    "starliner":  {
+                                      "designation":  "Transport Civil"
+                                  },
+                    "mora":  {
+                                 "designation":  "Porte-Chasseurs"
+                             },
+                    "colossus":  {
+                                     "designation":  "Cargo Lourd"
+                                 },
+                    "colossus2":  {
+                                      "designation":  "Cargo Modifié"
+                                  },
+                    "colossus3":  {
+                                      "designation":  "Cargo Modifié"
+                                  },
+                    "revenant":  {
+                                     "designation":  "Ravitailleur de Phase"
+                                 },
+                    "brilliant":  {
+                                      "designation":  "Croiseur-Drone"
+                                  },
+                    "apex":  {
+                                 "designation":  "Vaisseau-Drone Lourd"
+                             },
+                    "fury":  {
+                                 "designation":  "Croiseur Léger"
+                             },
+                    "anubis":  {
+                                   "designation":  "Croiseur Expérimental"
+                               },
+                    "hive_unit":  {
+                                      "designation":  "Unité Ruche"
+                                  },
+                    "standoff_unit":  {
+                                          "designation":  "Unité de Ligne"
+                                      },
+                    "shrouded_eye":  {
+                                         "designation":  "Œil Voilé"
+                                     },
+                    "shrouded_maelstrom":  {
+                                               "designation":  "Maelström Voilé"
+                                           },
+                    "onslaught":  {
+                                      "designation":  "Cuirassé"
+                                  },
+                    "onslaught_mk1":  {
+                                          "designation":  "Cuirassé"
+                                      },
+                    "astral":  {
+                                   "designation":  "Porte-Chasseurs"
+                               },
+                    "atlas":  {
+                                  "designation":  "Supercargo"
+                              },
+                    "atlas2":  {
+                                   "designation":  "Supercargo Modifié"
+                               },
+                    "conquest":  {
+                                     "designation":  "Croiseur de Bataille"
+                                 },
+                    "paragon":  {
+                                    "designation":  "Cuirassé"
+                                },
+                    "odyssey":  {
+                                    "designation":  "Croiseur de Bataille"
+                                },
+                    "prometheus":  {
+                                       "designation":  "Ravitailleur"
+                                   },
+                    "prometheus2":  {
+                                        "designation":  "Ravitailleur Modifié"
+                                    },
+                    "legion":  {
+                                   "designation":  "Porte-Chasseurs de Bataille"
+                               },
+                    "guardian":  {
+                                     "designation":  "Cuirassé-Drone"
+                                 },
+                    "radiant":  {
+                                    "designation":  "Cuirassé-Drone"
+                                },
+                    "ziggurat":  {
+                                     "designation":  "Vaisseau de Phase"
+                                 },
+                    "pegasus":  {
+                                    "designation":  "Cuirassé"
+                                },
+                    "retribution":  {
+                                        "designation":  "Croiseur de Bataille"
+                                    },
+                    "nova":  {
+                                 "designation":  "Croiseur de Bataille-Drone"
+                             },
+                    "fabricator_unit":  {
+                                            "designation":  "Unité de Fabrication"
+                                        },
+                    "shrouded_maw":  {
+                                         "designation":  "Gueule Voilée"
+                                     },
+                    "shuttlepod":  {
+                                       "designation":  "Capsule"
+                                   },
+                    "station_small":  {
+                                          "designation":  "Petite Station Orbitale"
+                                      },
+                    "station_derelict_survey_mothership":  {
+                                                               "designation":  "Vaisseau-Mère d\u0027Exploration du Domaine"
+                                                           },
+                    "station1":  {
+                                     "designation":  "Station Orbitale"
+                                 },
+                    "station1_midline":  {
+                                             "designation":  "Station Orbitale"
+                                         },
+                    "station1_hightech":  {
+                                              "designation":  "Station Orbitale"
+                                          },
+                    "station2":  {
+                                     "designation":  "Station de Combat"
+                                 },
+                    "station2_midline":  {
+                                             "designation":  "Station de Combat"
+                                         },
+                    "station2_hightech":  {
+                                              "designation":  "Station de Combat"
+                                          },
+                    "station3":  {
+                                     "designation":  "Forteresse Stellaire"
+                                 },
+                    "station3_midline":  {
+                                             "designation":  "Forteresse Stellaire"
+                                         },
+                    "station3_hightech":  {
+                                              "designation":  "Forteresse Stellaire"
+                                          },
+                    "module_bastion_pd1":  {
+                                               "designation":  "Bastion DP 1"
+                                           },
+                    "module_armour1":  {
+                                           "designation":  "Blindage de Station"
+                                       },
+                    "module_armour2":  {
+                                           "designation":  "Blindage de Station"
+                                       },
+                    "module_blocker1":  {
+                                            "designation":  "Éperon Structurel de Station"
+                                        },
+                    "module_blocker2":  {
+                                            "designation":  "Éperon Structurel de Station"
+                                        },
+                    "module_blocker2b":  {
+                                             "designation":  "Éperon Structurel de Station"
+                                         },
+                    "module_blocker2c":  {
+                                             "designation":  "Éperon Structurel de Station"
+                                         },
+                    "module_armour3":  {
+                                           "designation":  "Éperon Structurel de Station"
+                                       },
+                    "module_armour4":  {
+                                           "designation":  "Éperon Structurel de Station"
+                                       },
+                    "module_armour5":  {
+                                           "designation":  "Éperon Structurel de Station"
+                                       },
+                    "module_decor_midline1":  {
+                                                  "designation":  "Extension de Station"
+                                              },
+                    "module_decor_midline2":  {
+                                                  "designation":  "Extension de Station"
+                                              },
+                    "platform1":  {
+                                      "designation":  "Plateforme d\u0027Armes"
+                                  },
+                    "module_large1_lowtech":  {
+                                                  "designation":  "Module de Combat Lourd"
+                                              },
+                    "module_large2_lowtech":  {
+                                                  "designation":  "Module de Soutien Lourd"
+                                              },
+                    "module_bastion1_lowtech":  {
+                                                    "designation":  "Bastion DP"
+                                                },
+                    "module_citadel1_lowtech":  {
+                                                    "designation":  "Citadelle Lourde"
+                                                },
+                    "module_midline_broadside":  {
+                                                     "designation":  "Module de Bordée Lourd"
+                                                 },
+                    "module_midline_citadel":  {
+                                                   "designation":  "Batterie de Station Lourde"
+                                               },
+                    "module_midline_support":  {
+                                                   "designation":  "Module de Soutien Lourd"
+                                               },
+                    "module_midline_bastion":  {
+                                                   "designation":  "Module de Soutien Léger"
+                                               },
+                    "module_hightech_shield":  {
+                                                   "designation":  "Module de Bouclier"
+                                               },
+                    "module_hightech_citadel":  {
+                                                    "designation":  "Citadelle Lourde"
+                                                },
+                    "module_hightech_hangar":  {
+                                                   "designation":  "Module Hangar"
+                                               },
+                    "module_hightech_armour":  {
+                                                   "designation":  "Blindage de Station"
+                                               },
+                    "module_hightech_strut":  {
+                                                  "designation":  "Extension de Station"
+                                              },
+                    "module_hightech_attack":  {
+                                                   "designation":  "Batterie de Station"
+                                               },
+                    "derelict_mothership_pod_s_right":  {
+                                                            "designation":  "Nacelle d\u0027Armes, Petite"
+                                                        },
+                    "derelict_mothership_pod_m_right":  {
+                                                            "designation":  "Nacelle d\u0027Armes, Moyenne"
+                                                        },
+                    "derelict_mothership_pod_m_left":  {
+                                                           "designation":  "Nacelle d\u0027Armes, Moyenne"
+                                                       },
+                    "derelict_mothership_pod_engine_left":  {
+                                                                "designation":  "Nacelle d\u0027Armes, Arrière"
+                                                            },
+                    "derelict_mothership_bow_module":  {
+                                                           "designation":  "Module de Bouclier de Proue"
+                                                       },
+                    "derelict_mothership_sensor_mast":  {
+                                                            "designation":  "Mât de Senseurs de Proue"
+                                                        },
+                    "remnant_station1":  {
+                                             "designation":  "Station Remnant"
+                                         },
+                    "remnant_station2":  {
+                                             "designation":  "Nexus Remnant"
+                                         },
+                    "remnant_armour1":  {
+                                            "designation":  "Blindage de Station Remnant"
+                                        },
+                    "remnant_armour2":  {
+                                            "designation":  "Blindage de Station Remnant"
+                                        },
+                    "remnant_armour3":  {
+                                            "designation":  "Blindage de Station Remnant"
+                                        },
+                    "remnant_weapon_platform1":  {
+                                                     "designation":  "Plateforme d\u0027Armes Remnant"
+                                                 },
+                    "remnant_weapon_platform2":  {
+                                                     "designation":  "Plateforme d\u0027Armes Remnant"
+                                                 },
+                    "remnant_weapon_platform3":  {
+                                                     "designation":  "Plateforme d\u0027Armes Remnant"
+                                                 },
+                    "remnant_shield1":  {
+                                            "designation":  "Citadelle de Station Remnant"
+                                        },
+                    "remnant_shield2":  {
+                                            "designation":  "Citadelle de Station Remnant"
+                                        },
+                    "remnant_hangar1":  {
+                                            "designation":  "Hangar de Station Remnant"
+                                        },
+                    "module_onslaught_armor_left":  {
+                                                        "designation":  "Module Avant-Bras"
+                                                    },
+                    "module_onslaught_armor_right":  {
+                                                         "designation":  "Module Avant-Bras"
+                                                     }
+                }
+}

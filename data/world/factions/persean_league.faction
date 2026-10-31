@@ -1,0 +1,42 @@
+{
+    "displayName":  "Ligue Persane",
+    "displayNameWithArticle":  "la Ligue Persane",
+    "displayNameLong":  "Ligue Persane",
+    "displayNameLongWithArticle":  "la Ligue Persane",
+    "ranks":  {
+                  "ranks":  {
+                                "spaceCommander":  {
+                                                       "name":  "Navarque"
+                                                   },
+                                "spaceAdmiral":  {
+                                                     "name":  "Premier Navarque"
+                                                 },
+                                "houseLeader":  {
+                                                    "name":  "Patriarche de Gens"
+                                                },
+                                "houseLeaderMale":  {
+                                                        "name":  "Patriarche de Gens"
+                                                    },
+                                "houseLeaderFemale":  {
+                                                          "name":  "Matriarche de Gens"
+                                                      }
+                            },
+                  "posts":  {
+                                "patrolCommander":  {
+                                                        "name":  "Demi-Navarque"
+                                                    },
+                                "fleetCommander":  {
+                                                       "name":  "Navarque"
+                                                   },
+                                "baseCommander":  {
+                                                      "name":  "Archonte"
+                                                  },
+                                "administrator":  {
+                                                      "name":  "Démarque"
+                                                  },
+                                "factionLeader":  {
+                                                      "name":  "Premier Démarque"
+                                                  }
+                            }
+              }
+}

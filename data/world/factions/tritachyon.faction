@@ -1,0 +1,36 @@
+{
+    "displayName":  "Tri-Tachyon",
+    "displayNameWithArticle":  "Tri-Tachyon",
+    "displayNameLong":  "Corporation Tri-Tachyon",
+    "displayNameLongWithArticle":  "la Corporation Tri-Tachyon",
+    "ranks":  {
+                  "ranks":  {
+                                "spaceAdmiral":  {
+                                                     "name":  "Directeur des Opérations Principal"
+                                                 },
+                                "spaceCommander":  {
+                                                       "name":  "Directeur des Opérations"
+                                                   },
+                                "factionLeader":  {
+                                                      "name":  "PDG"
+                                                  }
+                            },
+                  "posts":  {
+                                "factionLeader":  {
+                                                      "name":  "PDG"
+                                                  },
+                                "patrolCommander":  {
+                                                        "name":  "Directeur de Patrouille"
+                                                    },
+                                "fleetCommander":  {
+                                                       "name":  "Directeur de Flotte"
+                                                   },
+                                "baseCommander":  {
+                                                      "name":  "Directeur de Base"
+                                                  },
+                                "intelligenceDirector":  {
+                                                             "name":  "Directeur des Acquisitions Spéciales"
+                                                         }
+                            }
+              }
+}

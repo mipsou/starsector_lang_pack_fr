@@ -1,0 +1,11 @@
+{
+  "file": "characters/personalities.csv",
+  "key": ["id"],
+  "entries": {
+    "timid": {"desc": "En combat, cet officier tentera d'éviter tout engagement direct dans la mesure du possible, même aux commandes d'un vaisseau de combat."},
+    "cautious": {"desc": "En combat, cet officier préférera rester hors de portée de l'ennemi, ne s'approchant qu'occasionnellement si l'ennemi le surpasse en portée."},
+    "steady": {"desc": "En combat, cet officier privilégiera une approche équilibrée, avec des tactiques adaptées à la situation."},
+    "aggressive": {"desc": "En combat, cet officier préférera engager l'ennemi à une distance permettant d'utiliser toutes les armes de son vaisseau, pilotera les vaisseaux civils comme s'il s'agissait de vaisseaux de combat et emploiera de manière agressive les chasseurs placés sous son commandement."},
+    "reckless": {"desc": "En combat, cet officier est agressif à l'excès, négligeant souvent totalement la sécurité de son vaisseau pour engager l'ennemi."}
+  }
+}

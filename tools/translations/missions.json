@@ -1,0 +1,53 @@
+{
+    "format":  "json",
+    "files":  {
+                  "missions/afistfulofcredits/descriptor.json":  {
+                                                                     "title":  "Pour une Poignée de Crédits"
+                                                                 },
+                  "missions/ambush/descriptor.json":  {
+                                                          "title":  "Embuscade"
+                                                      },
+                  "missions/coralnebula/descriptor.json":  {
+                                                               "title":  "La Nébuleuse de Corail"
+                                                           },
+                  "missions/direstraits/descriptor.json":  {
+                                                               "title":  "Situation Désespérée"
+                                                           },
+                  "missions/forlornhope/descriptor.json":  {
+                                                               "title":  "Espoir Perdu"
+                                                           },
+                  "missions/forthegreaterlud/descriptor.json":  {
+                                                                    "title":  "Pour la Gloire de Ludd"
+                                                                },
+                  "missions/hornetsnest/descriptor.json":  {
+                                                               "title":  "Le Nid de Frelons"
+                                                           },
+                  "missions/m2/descriptor.json":  {
+                                                      "title":  "C\u0027est un Piège !"
+                                                  },
+                  "missions/m3/descriptor.json":  {
+                                                      "title":  "Embuscade dans la Nébuleuse"
+                                                  },
+                  "missions/nothingpersonal/descriptor.json":  {
+                                                                   "title":  "Rien de Personnel"
+                                                               },
+                  "missions/predatororprey/descriptor.json":  {
+                                                                  "title":  "Prédateur ou Proie ?"
+                                                              },
+                  "missions/randombattle1/descriptor.json":  {
+                                                                 "title":  "Bataille Aléatoire"
+                                                             },
+                  "missions/sinkingthebismarck/descriptor.json":  {
+                                                                      "title":  "Couler le Bismar"
+                                                                  },
+                  "missions/thelasthurrah/descriptor.json":  {
+                                                                 "title":  "Le Dernier Baroud"
+                                                             },
+                  "missions/thewolfpack/descriptor.json":  {
+                                                               "title":  "La Meute"
+                                                           },
+                  "missions/turningthetables/descriptor.json":  {
+                                                                    "title":  "Renverser la Situation"
+                                                                }
+              }
+}
